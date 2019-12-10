@@ -9,4 +9,4 @@ Python tool for analyzing recent XML Diff algorithm implementations
 * xmldiff
 * xdiff
 * xop
-*diffmk
+* diffmk
