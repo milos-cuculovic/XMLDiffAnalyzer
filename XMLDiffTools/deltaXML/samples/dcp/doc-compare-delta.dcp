@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documentComparator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  version="1.0"
+  xsi:noNamespaceSchemaLocation="core-dcp-v1_0.xsd"
+  id="doc-delta" 
+  description="[DCP] XML Compare, output XML delta" >
+  <!-- 
+       for schema v1.1 validation of this file, change xsi:noNamespaceSchemaLocation above to:
+       xsi:noNamespaceSchemaLocation="core-dcp-v1_0-schema1_1.xsd"
+  -->
+  <fullDescription>
+    [Uses DocumentComparator] Produce an XML delta file representing changes in the input xml.
+  </fullDescription>
+  
+  <?deltaxml.outputType xml?>
+
+  <pipelineParameters>
+    <booleanParameter name="load-external-dtd" defaultValue="false">
+      <description>Load an external DTD referenced by the input XML</description>
+    </booleanParameter>
+    <stringParameter name="schema-location" defaultValue="">
+      <description>
+        Space-separated list: For each supplied namespace give the location of an associated XML Schema file.
+        Schema validation will only be performed when this value is non-empty.
+      </description>
+    </stringParameter>
+    
+    <booleanParameter name="resolve-formatting-diffs" defaultValue="true">
+      <description>For formatting-element changes:, Keep the A and B formatting elements. 
+                   Where A and B elements overlap or nest, use those found in the 'B' document</description>
+    </booleanParameter>    
+    <stringParameter name="formatting-element-list" defaultValue="b,i,u,em,strong,emphasis">
+      <description>
+        Comma-separated list of formatting elements defined in the input XML grammar.
+      </description>
+    </stringParameter>
+    <stringParameter name="important-attribute-list" defaultValue="id,name,property,key">
+      <description>
+        Comma-separated list of attributes that are important for element alignment purposes
+      </description>
+    </stringParameter>
+    <booleanParameter name="collate-element-type-info" defaultValue="false">
+      <description>
+        When determining whether an element is mixed content, analyse content
+        for all elements that share the same name
+      </description>
+    </booleanParameter>
+        
+  </pipelineParameters>
+  
+  <!-- Optimise the standard configuration -->
+  <standardConfig>
+    <lexicalPreservation>
+      <defaults>
+        <retain literalValue="true"/>
+        <processingMode literalValue="change"/>
+        <outputType literalValue="encoded"/>
+      </defaults>
+      <overrides>
+        <preserveItems>
+          <ignorableWhitespace>
+            <retain literalValue="false"/>
+          </ignorableWhitespace>
+        </preserveItems>
+      </overrides>
+    </lexicalPreservation>
+    <outputFormatConfiguration>
+      <modifiedFormatOutput xpath="if ($resolve-formatting-diffs) then 'BA' else 'change'"/>
+    </outputFormatConfiguration>
+    <resultReadabilityOptions>
+      <modifiedWhitespaceBehaviour literalValue="normalize"/>
+    </resultReadabilityOptions>
+  </standardConfig>
+  
+  <!-- Input Parser Settings to control DTD or XML Schema validation -->
+  <advancedConfig>
+    <parserFeatures>
+      <feature name="http://apache.org/xml/features/validation/schema" xpath="$schema-location ne ''"/>
+      <feature name="http://apache.org/xml/features/nonvalidating/load-external-dtd" parameterRef="load-external-dtd"/>      
+    </parserFeatures>
+    <parserProperties>
+      <property name="http://apache.org/xml/properties/schema/external-schemaLocation" parameterRef="schema-location"/>
+    </parserProperties>
+  </advancedConfig>
+  
+  <extensionPoints>
+    <!-- Handle markup of formatting elements using the supplied list of element names -->
+ 
+    <inputPreFlatteningPoint>
+      <filter>
+        <resource name="xsl/whitespace-detection.xsl"/>
+        <parameter name="collate-element-type-info" xpath="$collate-element-type-info"/>
+        <parameter name="preserve-content-model" xpath="true()"/>
+      </filter>
+      <filter>
+        <resource name="xsl/delta-2_1-mark-formatting.xsl"/>
+        <parameter name="formatting-element-names" xpath="tokenize($formatting-element-list, ',')"/>
+      </filter>
+      <filter>
+        <resource name="xsl/mark-important-attributes.xsl"/>
+        <parameter name="important-attribute-names" parameterRef="important-attribute-list"/>
+      </filter>
+    </inputPreFlatteningPoint>
+
+    <outputExtensionPoints>
+      <postTablePoint>
+      <filter>
+        <resource name="xsl/ignore-deltaxml-elements.xsl"/>
+        <parameter name="deltaxml-element-names" literalValue="important"/>       
+      </filter>
+      <filter>
+        <resource name="xsl/propagate-ignore-changes.xsl"/>
+      </filter>
+      </postTablePoint>
+    </outputExtensionPoints>
+    
+  </extensionPoints>
+  
+</documentComparator>

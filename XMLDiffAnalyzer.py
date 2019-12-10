@@ -1,80 +1,107 @@
 class XMLDiffAnalyzer:
     def __init__(self):
-        self.file_orig = "/Users/miloscuculovic/Desktop/XML_Diff_tools_material/Originals/article_min.xml"
-        self.file_new = "/Users/miloscuculovic/Desktop/XML_Diff_tools_material/TextEdits/text_edit_delete/article_min_text_edit_delete.xml"
-        self.file_delta = "/Users/miloscuculovic/Desktop/XML_Diff_tools_material/delta"
-
-        self.tools_path = "/Users/miloscuculovic/git/XMLDifftools/"
         self.tools = [
             ["", "xydiff", "xydiff ", " ", ""],
-            ["java -jar ", "jndiff-1.2", "jndiff-ui.jar -d ", " ", ""],
-            ["", "diffxml", "diffxml.sh ", " ", ""],
+            ["java -jar ", "jndiff", "jndiff/jndiff-ui.jar -d ", " ", ""],
+            ["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " ", ""],
             ["java -jar ", "xcc", "xcc-java-0.90.jar --diff --doc ", " --changed ", " --delta "],
-            ["", "node-delta", "bin/djdiff.js -p xml ", " ", ""],
-            ["java -jar ", "DeltaXML-XML-Compare-10_1_2_j", "command-10.1.2.jar compare delta ", " ", " "],
+            ["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " ", ""],
+            ["java -jar ", "deltaXML", "deltaXML/command-10.1.2.jar compare delta ", " ", " "],
             ["", "xmldiff", "xmldiff_bin -f xml ", " ", ""], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
             ["", "xdiff", "xdiff -left ", " -right ", ""],
-            ["java -jar ", "xop-1", "xop.jar -script on ", " - ", ""],
-            ["", "diffmk", "run.sh ", " ", " "]
+            ["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
+            ["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "]
         ]
 
-    def start(self, rounds = 1):
+    def start(self, rounds, file_orig, file_new, file_delta_dir):
         import os
         import subprocess
         import psutil
         from datetime import datetime
+        import ProcessTimer
+        import time
+        from datetime import timedelta
+        ROOT_DIR = os.path.abspath(os.curdir)
 
         print("Starting...")
 
         for row in self.tools:
-            print(row[1])
-            start_time = datetime.now()
+            total_time = 0
             total_memory = 0
             for round in range(0, rounds):
-                myCmd = row[0] + self.tools_path + row[1] + "/" + row[2] + self.file_orig + row[3] + self.file_new
+                myCmd = row[0] + ROOT_DIR+"/XMLDiffTools/" + row[2] + file_orig + row[3] + file_new
                 if row[4] != "":
-                    myCmd += row[4] + self.file_delta + "_" + row[1] + ".xml 2>&1"
+                    myCmd += row[4] + file_delta_dir + row[1] + ".xml"
                 else:
-                    myCmd += " >> " + self.file_delta + "_" + row[1] + ".xml 2>&1"
-                #pid = os.system(myCmd)
+                    myCmd += " >> " + file_delta_dir + row[1] + "_delta.xml"
 
-                process = subprocess.Popen(myCmd, shell=True)
-                process_psutil = psutil.Process(process.pid)
-                total_memory += process_psutil.memory_info().rss
+                ptimer = ProcessTimer.ProcessTimer(myCmd)
 
-            end_time = datetime.now()
-            total_time = end_time - start_time
-            print("Total time for " + row[1] + " = ", total_time)
-            print(str(total_memory / 1024) + "MB")  # in bytes
+                try:
+                    ptimer.execute()
+                    # poll as often as possible; otherwise the subprocess might
+                    # "sneak" in some extra memory usage while you aren't looking
+                    while ptimer.poll():
+                        time.sleep(.5)
+                finally:
+                    # make sure that we don't leave the process dangling?
+                    ptimer.close()
+
+                total_time += ptimer.t1 - ptimer.t0
+                total_memory += ptimer.max_rss_memory
+
+            print(row[1] + ":")
+            print("\tTotal time:", format(total_time,'.2f') + " sec")
+            print("\tMax RSS Memory:", str(format((ptimer.max_rss_memory) / (1024 * 1024), '.3f')) + " MB")
 
 
 if __name__ == '__main__':
-
+    import os
     xmlDiffAnalyzer = XMLDiffAnalyzer()
     print("Test for diff tools")
     while True:
         try:
-            input_value = input("Enter the number of rounds: ")
-            rounds = int(input_value)
-        except ValueError:
-            print("Please provide a vaild number from 1 to 10 000")
-        try:
-            input_value = input("Enter the full path of the original XML file: ")
-            file_orig = int(input_value)
-        except ValueError:
-            print("Please provide a vaild number from 1 to 10 000")
-        try:
-            input_value = input("Enter the full path of the modified XML file: ")
-            file_new = int(input_value)
-        except ValueError:
-            print("Please provide a vaild number from 1 to 10 000")
-        try:
-            input_value = input("Enter the full path of the resulting delta file without the file extension: ")
-            file_delta = int(input_value)
+            input_rounds = int(input("Enter the number of rounds (default 1): ") or "1")
         except ValueError:
             print("Please provide a vaild number from 1 to 10 000")
 
-        if rounds < 1 or rounds > 10000:
+        try:
+            input_file_orig = input("Enter the full path of the original XML file: ") \
+                              or "/Users/miloscuculovic/XML_Diff_tools_material/Originals/article_min.xml"
+        except ValueError:
+            print("Please provide a vaild original XML file path")
+        try:
+            file_orig = open(input_file_orig)
+        except IOError:
+            print("Please provide a vaild original XML file path - File not accessible")
+        finally:
+            file_orig.close()
+
+        try:
+            input_file_new = input("Enter the full path of the modified XML file: ") \
+                             or "/Users/miloscuculovic/XML_Diff_tools_material/TextEdits/text_edit_delete/article_min_text_edit_delete.xml"
+        except ValueError:
+            print("Please provide a vaild modified XML file path")
+        try:
+            file_new = open(input_file_new)
+        except IOError:
+            print("Please provide a vaild modified XML file path - File not accessible")
+        finally:
+            file_new.close()
+
+        try:
+            input_file_delta_dir = input("Enter the full path of the delta XML files directory: ") \
+                                   or "/Users/miloscuculovic/XML_Diff_tools_material/"
+        except ValueError:
+            print("Please provide a vaild delta XML files directory file path")
+        try:
+            os.path.isdir(input_file_delta_dir)
+        except IOError:
+            print("Please provide a vaild modified XML file path - Directory not accessible")
+        finally:
+            file_new.close()
+
+        if input_rounds < 1 or input_rounds > 10000:
             print("Please provide a vaild number from 1 to 10 000")
             continue
-        xmlDiffAnalyzer.start(rounds)
+        xmlDiffAnalyzer.start(input_rounds, input_file_orig, input_file_new, input_file_delta_dir)

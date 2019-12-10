@@ -1,0 +1,24 @@
+<!DOCTYPE comparatorPipeline SYSTEM "dxp.dtd">
+<comparatorPipeline description="Format aware Word By Word" id="format-aware">
+  <pipelineParameters>
+    <booleanParameter name="outfilter" defaultValue="true"/>
+  </pipelineParameters>
+  <inputFilters>
+    <filter>
+      <class name="com.deltaxml.pipe.filters.dx2.wbw.WordInfilter"/>
+    </filter>
+  </inputFilters>
+  <outputFilters>
+    <filter if="outfilter">
+      <class name="com.deltaxml.pipe.filters.dx2.wbw.WordOutfilter"/>
+    </filter>
+  </outputFilters>
+  <outputProperties>
+    <property name='omit-xml-declaration' literalValue='yes'/>
+  </outputProperties>
+  <outputFileExtension extension="xml"/>
+  <comparatorFeatures>
+    <feature name="http://deltaxml.com/api/feature/isFullDelta" literalValue="true"/>
+    <feature name="http://deltaxml.com/api/feature/enhancedMatch1" literalValue="true"/>
+  </comparatorFeatures>
+</comparatorPipeline>

@@ -1,0 +1,24 @@
+<!DOCTYPE comparatorPipeline SYSTEM "dxp.dtd">
+<!-- $Id$ -->
+<comparatorPipeline description="[DXP] Schema Compare, output HTML report" id="schema">
+  <fullDescription>
+This configuration is used to compare two schema input files and produce a HTML diffreences report.
+  </fullDescription>
+  <inputFilters>
+    <filter>
+      <class name="com.deltaxml.pipe.filters.NormalizeSpace"/>
+    </filter>
+    <filter>
+      <resource name="/xsl/schema-input-filter.xsl"/>
+    </filter>
+  </inputFilters>
+  <outputFilters>
+    <filter>
+      <resource name="/xsl/dx2-deltaxml-folding-html.xsl"/>
+    </filter>
+  </outputFilters>
+  <outputFileExtension extension="html"/>
+  <comparatorFeatures>
+    <feature name="http://deltaxml.com/api/feature/isFullDelta" literalValue="true"/>
+  </comparatorFeatures>
+</comparatorPipeline>

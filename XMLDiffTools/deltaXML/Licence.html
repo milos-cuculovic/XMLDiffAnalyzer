@@ -1,0 +1,1727 @@
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Software Licence</title><link href="https://www.deltaxml.com/wp-content/uploads/2016/11/cropped-Green-Thumbnail-Website-32x32.png" rel="shortcut icon"><link href="https://www.deltaxml.com/wp-content/uploads/2016/11/cropped-Green-Thumbnail-Website-32x32.png" rel="apple-touch-icon-precomposed" sizes="32x32"><link href="https://www.deltaxml.com/wp-content/uploads/2016/11/cropped-Green-Thumbnail-Website-192x192.png" rel="apple-touch-icon-precomposed" sizes="192x192"><link href="https://www.deltaxml.com/wp-content/uploads/2016/11/cropped-Green-Thumbnail-Website-180x180.png" rel="apple-touch-icon-precomposed" sizes="180x180"><link href="https://www.deltaxml.com/wp-content/uploads/2016/11/cropped-Green-Thumbnail-Website-270x270.png" rel="apple-touch-icon-precomposed" sizes="270x270"><link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500|Source+Code+Pro:400,700|Open+Sans:400,400italic,600|Montserrat:400,700|Open+Sans:300,400,600,700" rel="stylesheet" type="text/css"><style type="text/css" media="all">/* @override
+	http://127.0.0.1:8080/style/css/main.css */
+
+/* Set-up main fonts */
+body,
+input,
+td {
+  font-size: 14px;
+  font-family: 'Open Sans', san-serif;
+  /*  color: #878787; */
+}
+
+
+.blue {
+  color: #66a1c3;
+}
+.lightblue {
+  color: #1e95f6;
+}
+.orange {
+  color: #f89200;
+}
+
+
+.button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  font-family: 'Open Sans', san-serif;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid;
+}
+.button:last-child {
+  margin-right: 0;
+}
+.button:visited,
+.button:hover {
+  color: white;
+}
+.button.blue {
+  color: white;
+  background: #66a1c3;
+  border: 1px solid #66a1c3;
+}
+.button.blue:hover {
+  background: none;
+  color: #66a1c3;
+}
+.button.blue.outlined {
+  background: none;
+  color: #66a1c3;
+  border: 1px solid #b1b1b1;
+}
+.button.blue.outlined:hover {
+  color: white;
+  background: #66a1c3;
+}
+.button.green {
+  color: white;
+  background: #a2c644;
+  border: 1px solid #a2c644;
+}
+.button.green:hover {
+  background: none;
+  color: #a2c644;
+}
+.button.green.outlined {
+  background: none;
+  color: #a2c644;
+  border: 1px solid #b1b1b1;
+}
+.button.green.outlined:hover {
+  color: white;
+  background: #a2c644;
+}
+.button.orange {
+  color: white;
+  background: #f89200;
+  border: 1px solid #f89200;
+}
+.button.orange:hover {
+  background: none;
+  color: #f89200;
+}
+.button.orange.outlined {
+  background: none;
+  color: #f89200;
+  border: 1px solid #dcdcdc;
+}
+.button.orange.outlined:hover {
+  color: white;
+  background: #f89200;
+}
+.button.grey {
+  color: white;
+  background: #878787;
+  border: 1px solid #878787;
+}
+.button.grey:hover {
+  background: none;
+  color: #878787;
+}
+.button.grey.outlined {
+  background: none;
+  color: #878787;
+  border: 1px solid #dcdcdc;
+}
+.button.grey.outlined:hover {
+  color: white;
+  background: #878787;
+}
+.button.grey span {
+  font-weight: 800;
+}
+.button.white {
+  color: #a2c644;
+  background: white;
+  border: 1px solid white;
+}
+.button.white:hover {
+  background: none;
+  color: white;
+}
+.button.white.outlined {
+  background: none;
+  color: white;
+}
+.button.white.outlined:hover {
+  color: #a2c644;
+  background: white;
+}
+.button.small {
+  padding: 8px 5px 8px 5px;
+  width: 140px;
+  font-size: 13px;
+  line-height: 25.2px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.button.tiny {
+  padding: 0px;
+  width: 60px;
+  font-size: 13px;
+  line-height: 25.2px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.button.tiny.wide {
+    width: 100px;
+}
+.button.medium {
+  padding: 11px 50px 11px 50px;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 27px;
+  line-height: 2.7rem;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+
+.bigButton,
+.smallButton,
+.dxml-header-font,
+th,
+h1,
+h2,
+h3,
+h4,
+h5,
+dt {
+  font-family: Montserrat, san-serif;
+  font-weight: 500;
+  color: #113c6b;
+}
+
+/* This is a hack to get around the fact that NK modules are not currently deployable
+   The search results CSS should be updated directly when possible */
+#page-content p.search-result-title a {
+     font-family: Montserrat, sans-serif;
+ }
+
+ /* This is also a hack to do with the demos*/
+#page-content #demosList dl dt,
+#page-content .demoTable td:first-child,
+#page-content .demoTable th {
+     font-family: 'Open Sans', san-serif;
+}
+
+#page-content .sandboxTable td:first-child,
+#page-content .sandboxTable th {
+     font-family: 'Open Sans', san-serif;
+}
+
+strong,
+b {
+  font-weight: 600;
+}
+
+span.filepath,
+samp,
+pre,
+code {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+/* Remove border from images inside links */
+a img {
+  border: none;
+}
+
+/* Reset margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility classes */
+.dxml-vertical-align-top {
+  vertical-align: top;
+}
+
+.dxml-align-center {
+  text-align: center;
+}
+
+.dxml-align-right {
+  text-align: right;
+}
+
+.dxml-highlight-text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Remove bullets for lists in class 'dxml-clean-list' */
+ul.dxml-clean-list,
+ul.dxml-clean-list li {
+  margin: 0;
+  padding: 0;
+}
+ul.dxml-clean-list li {
+  list-style: none;
+}
+/* Lists with delta-shaped bullets */
+ul.blue {
+  list-style-image: url('/style/img/blue-delta-bullet.png');
+}
+ul.green {
+  list-style-image: url('/style/img/green-delta-bullet.png');
+}
+
+h2 {
+  font-size: 16px;
+}
+
+/* Page Content */
+#page-content-container {
+  background-color: #f7f7f7;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#page-content,
+#dxml-sidebar {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#page-content {
+  background: white;
+}
+
+#page-content>*:first-child {
+  margin-top: 0;
+}
+
+#page-content>*:last-child {
+  margin-bottom: 0;
+}
+
+#page-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#page-content h2 {
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 19px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+h4 {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  font-size: 13px;
+  margin-top: 13px;
+  margin-bottom: 3px;
+}
+
+#page-content p,
+#page-content pre
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#page-content td>p:first-child,
+#page-content th>p:first-child,
+#page-content li>p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#page-content td>p,
+#page-content th>p,
+#page-content li>p {
+  margin-bottom: 0;
+}
+
+ul,
+ol,
+dl {
+  padding-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ul ul,
+ol ol,
+dl dl,
+ol ul,
+ol dl,
+ul ol,
+ul dl
+dl ol,
+dl ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul li,
+ol li {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+a:link,
+.ui-widget-content a:link,
+.ui-widget-content a:visited,
+a.bigButton:link,
+a.bigButton:visited,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited{
+  color: #07246e;
+}
+
+a:visited {
+  color: #039;
+}
+
+a:hover,
+.ui-widget-content a:hover,
+a.bigButton:hover {
+  color: black;
+}
+
+a:active,
+.ui-widget-content a:active {
+  color: red;
+}
+
+h2 a:link,
+h3 a:link,
+h4 a:link,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a.dxml-more-link:link,
+a.dxml-more-link:visited {
+  text-decoration: none;
+  color: #6e6e6e;
+}
+
+a.dxml-more-link:hover {
+  color: #07246e;
+}
+
+/* Used for delta highlighting */
+span.red,
+del {
+  background-color: #FFBEBE;
+}
+span.green,
+ins {
+  background-color: #C0FFBF;
+}
+
+
+/* Buttons */
+a.bigButton,
+a.smallButton {
+  display:block;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: 500;
+}
+
+a.bigButton {
+  padding: .4em 1em .4em 22px;
+  font-size: 12px;
+}
+
+a.smallButton {
+  padding: 2px 4px 2px 20px;
+  font-size: 11px;
+}
+
+a.bigButton:hover,
+a.smallButton:hover,
+a.bigButton:active,
+a.smallButton:active {
+  text-decoration: none;
+}
+
+a.smallButton.right {
+  padding: .2em 20px .2em .5em;
+}
+
+a.bigButton span.ui-icon,
+a.smallButton span.ui-icon{
+  position: absolute;
+  left: .2em;
+  top: 50%;
+  margin: -7px 5px 0 2px;
+}
+
+.smallButton.right span.ui-icon {
+  right: 0.2em;
+  left: auto;
+  margin: -7px 0 0 5px;
+}
+
+a.bigButton.ui-state-disable,
+a.bigButton.ui-state-disable:hover,
+a.smallButton.ui-state-disable,
+a.smallButton.ui-state-disable:hover {
+  background: none !important;
+  border: 1px solid #bdbdbd !important;
+  color: #bdbdbd !important;
+  cursor: text !important;
+}
+
+a.bigButton.ui-state-disable span.ui-icon,
+a.smallButton.ui-state-disable span.ui-icon {
+  background-image: url(/style/jquery-ui/css/dxml-ui/images/ui-icons_bdbdbd_256x240.png) !important;
+}
+
+
+/* Table styling */
+.dxml-full-width-table {
+  width: 100%;
+}
+
+#page-content th p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table.bordered {
+  border-bottom: 1px solid #bdbdbd;
+  border-left: 1px solid #bdbdbd;
+  border-collapse: collapse;
+}
+
+table.bordered th, table.bordered td {
+  border-right: 1px solid #bdbdbd;
+  border-top: 1px solid #bdbdbd;
+}
+
+table.bordered th, table.bordered td {
+  padding: 2px 4px;
+}
+
+table:not(.row-background-uniform) tr:nth-child(even) {
+  background: #f7f7f7;
+}
+
+table.bordered th {
+  background-color: #dbdbdb;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+}
+
+table.bordered p {
+  margin: 0;
+}
+
+table.unbordered {
+  border: none;
+  border-collapse: collapse;
+}
+
+table.unbordered th, table.unbordered td {
+  border: none;
+}
+
+table.unbordered th, table.unbordered td {
+  padding: 2px;
+}
+
+table.unbordered th {
+  background-color: #fff;
+}
+
+/* toc and further reading */
+ul#dxml-toc,
+ul#further-reading {
+  padding-left: 0;
+}
+
+ul#dxml-toc ul,
+ul#further-reading ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+ul#dxml-toc li,
+ul#further-reading li {
+  list-style: none;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+ul#dxml-toc li {
+  padding: 0;
+  margin: 4px 0 0 0;
+}
+
+ul#further-reading li {
+  padding: 0;
+  margin: 4px;
+}
+
+ul#dxml-toc li a,
+ul#further-reading li a {
+  text-indent: 25px;
+  color: #039;
+  text-decoration: none;
+}
+
+ul#dxml-toc li a:hover,
+ul#further-reading li a:hover {
+  color: black;
+}
+
+ul#further-reading p.further-reading-title {
+  color: #2d2d2d;
+  font: 13px 'Open Sans', helvetica, sans-serif;
+  font-weight: 400;
+  margin-left: 18px;
+}
+
+/* Common Form Configuration */
+form {
+  padding: 0;
+  margin: 0;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+  padding: 2px 6px 3px;
+}
+
+.styled-form {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  background: #f7f7f7;
+}
+
+.styled-form fieldset {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 6px;
+  margin-left: 0;
+  margin-right: 0;
+  border: none;
+  border-top: 1px solid #bdbdbd;
+}
+
+.styled-form fieldset legend {
+  margin-left: 1em;
+  padding: 0 10px;
+  font-size: 105%;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.styled-form label, .styled-form .label {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  width: 150px;
+  margin: 4px;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: text-top;
+  text-align: right;
+}
+
+.styled-form label.required, .styled-form .label.required {
+  font-weight: 500;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+}
+
+.styled-form input,
+.styled-form textarea,
+.styled-form .form-body-content,
+.styled-form select {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 620px;
+  margin: 4px;
+}
+
+.styled-form input[type=radio] {
+  width: auto;
+}
+
+.styled-form input[type=checkbox] {
+  width: auto;
+  margin: 3px;
+  margin-left: 12px;
+  vertical-align: top;
+}
+
+div.form-body {
+  vertical-align: text-top;
+  padding: 10px;
+}
+
+form p {
+  margin: 6px 8px;
+}
+
+.form-header {
+  border-bottom: 1px solid #bdbdbd;
+  background: #dbdbdb;
+  color: black;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 8px;
+}
+
+.form-footer {
+  border-top: 1px solid #bdbdbd;
+  background: #dbdbdb;
+  padding: 8px;
+  overflow: auto;
+  margin-top: 8px;
+}
+
+.form-footer button {
+  float: right;
+}
+
+#page-content .form-header h3 {
+  margin: 0;
+  text-align: center;
+}
+
+#page-content pre {
+  border: 1px solid #bdbdbd;
+  background: #f1f1f1;
+  padding: 3px 6px;
+}
+
+/* Compact Form */
+.compact-form {
+  width: 332px;
+}
+
+.compact-form label, .compact-form .label {
+  width: 135px;
+}
+
+.compact-form input,
+.compact-form textarea,
+.compact-form .form-body-content,
+.compact-form select{
+  width: 157px;
+}
+
+/* Medium Form */
+.medium-form {
+  width: 450px;
+}
+
+.medium-form label, .medium-form .label {
+  width: 187px;
+}
+
+.medium-form input,
+.medium-form textarea,
+.medium-form .form-body-content,
+.medium-form select{
+  width: 157px;
+}
+
+/* CSS for DITA */
+div.p
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+dl {
+  padding-left: 0;
+}
+
+dd {
+  margin-left: 30px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#page-content dd>p:first-child,
+#page-content dd>div.p:first-child {
+  margin-top: 0;
+}
+
+#page-content dd>p,
+#page-content dd>div.p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+div.tablenoborder {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.tablenoborder table th {
+  background-color: #dbdbdb;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+}
+
+div.tablenoborder table th,
+div.tablenoborder table td {
+  padding: 2px 4px;
+}
+
+div.tablenoborder caption {
+  font: 13px 'Open Sans', helvetica, sans-serif;
+  font-weight: bold;
+}
+
+div.note {
+  border: 1px solid #dbdbdb;
+  padding: 2px 5px;
+  background: #f1f1f1;
+}
+
+div.fig { text-align:center; }
+
+div.sample-section {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #acacac;
+}
+
+div.sample-section:last-child {
+    border-bottom: none;
+}
+
+/*
+ | This file is part of the DITA Open Toolkit project hosted on
+ | Sourceforge.net. See the accompanying license.txt file for
+ | applicable licenses.
+*/
+
+/*
+ | (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved.
+ */
+
+/* Add space for top level topics */
+.nested0 { margin-top : 1em;}
+
+/* Default of italics to set apart figure captions */
+.figcap { font-style: italic }
+.figdesc { font-style: normal }
+
+/* Use @frame to create frames on figures */
+.figborder { border-style: solid; padding-left : 3px; border-width : 2px; padding-right : 3px; margin-top: 10px; border-color : Silver;}
+.figsides { border-left : 2px solid; padding-left : 3px; border-right : 2px solid; padding-right : 3px; margin-top: 10px; border-color : Silver;}
+.figtop { border-top : 2px solid; margin-top: 10px; border-color : Silver;}
+.figbottom { border-bottom : 2px solid; border-color : Silver;}
+.figtopbot { border-top : 2px solid; border-bottom : 2px solid; margin-top: 10px; border-color : Silver;}
+
+/* Most link groups are created with <div>. Ensure they have space before and after. */
+.ullinks { list-style-type: none }
+.ulchildlink { margin-top: 10px; margin-bottom: 10px }
+.olchildlink { margin-top: 10px; margin-bottom: 10px }
+.linklist { margin-bottom: 10px }
+.linklistwithchild { margin-left: 1.5em; margin-bottom: 10px  }
+.sublinklist { margin-left: 1.5em; margin-bottom: 10px  }
+.relconcepts { margin-top: 10px; margin-bottom: 10px }
+.reltasks { margin-top: 10px; margin-bottom: 10px }
+.relref { margin-top: 10px; margin-bottom: 10px }
+.relinfo { margin-top: 10px; margin-bottom: 10px }
+.breadcrumb { font-size : smaller; margin-bottom: 10px }
+dt.prereq { margin-left : 20px;}
+
+/* Set heading sizes, getting smaller for deeper nesting */
+div.tasklabel { margin-top: 10px; margin-bottom: 10px; }
+
+/* All note formats have the same default presentation */
+.note { margin-top: 10px; margin-bottom: 10px; }
+.notetitle { font-weight: bold }
+.notelisttitle { font-weight: bold }
+.tip { margin-top: 10px; margin-bottom: 10px; }
+.tiptitle { font-weight: bold }
+.fastpath { margin-top: 10px; margin-bottom: 10px; }
+.fastpathtitle { font-weight: bold }
+.important { margin-top: 10px; margin-bottom: 10px; }
+.importanttitle { font-weight: bold }
+.remember { margin-top: 10px; margin-bottom: 10px; }
+.remembertitle { font-weight: bold }
+.restriction { margin-top: 10px; margin-bottom: 10px; }
+.restrictiontitle { font-weight: bold }
+.attention { margin-top: 10px; margin-bottom: 10px; }
+.attentiontitle { font-weight: bold }
+.dangertitle { font-weight: bold }
+.danger { margin-top: 10px; margin-bottom: 10px; }
+.cautiontitle { font-weight: bold }
+.caution { font-weight: bold; margin-bottom: 10px; }
+.warning { margin-top: 10px; margin-bottom: 10px; }
+.warningtitle { font-weight: bold }
+
+/* Simple lists do not get a bullet */
+ul.simple { list-style-type: none }
+
+/* Used on the first column of a table, when rowheader="firstcol" is used */
+.firstcol { font-weight : bold;}
+
+/* Various basic phrase styles */
+.bold { font-weight: bold; }
+.boldItalic { font-weight: bold; font-style: italic; }
+.italic { font-style: italic; }
+.underlined { text-decoration: underline; }
+.uicontrol { font-weight: bold; }
+.parmname { font-weight: bold; }
+.kwd { font-weight: bold; }
+.defkwd { font-weight: bold; text-decoration: underline; }
+.var { font-style : italic;}
+.shortcut { text-decoration: underline; }
+
+/* Default of bold for definition list terms */
+.dlterm { font-weight: bold; }
+
+/* Use CSS to expand lists with @compact="no" */
+.dltermexpand { font-weight: bold; margin-top: 10px; }
+*[compact="yes"]>li { margin-top: 0em; }
+*[compact="no"]>li { margin-top: .53em; }
+.liexpand { margin-top: 10px; margin-bottom: 10px }
+.sliexpand { margin-top: 10px; margin-bottom: 10px }
+.dlexpand { margin-top: 10px; margin-bottom: 10px }
+.ddexpand { margin-top: 10px; margin-bottom: 10px }
+.stepexpand { margin-top: 10px; margin-bottom: 10px }
+.substepexpand { margin-top: 10px; margin-bottom: 10px }
+
+/* Align images based on @align on topic/image */
+div.imageleft { text-align: left }
+div.imagecenter { text-align: center }
+div.imageright { text-align: right }
+div.imagejustify { text-align: justify }
+
+/* The cell border can be turned on with
+   {border-right:solid}
+   This value creates a very thick border in Firefox (does not match other tables)
+
+   Firefox works with
+   {border-right:solid 1pt}
+   but this causes a barely visible line in IE */
+.cellrowborder { border-left:none; border-top:none; border-right:solid 1px; border-bottom:solid 1px }
+.row-nocellborder { border-left:none; border-right:none; border-top:none; border-right: hidden; border-bottom:solid 1px}
+.cell-norowborder { border-top:none; border-bottom:none; border-left:none; border-bottom: hidden; border-right:solid 1px}
+.nocellnorowborder { border:none; border-right: hidden;border-bottom: hidden }
+
+/* Product List on main landing page for documentation */
+ul.product-documentation-list{
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+ul.product-documentation-list li{
+  padding: 5px 0;
+}
+ul.product-documentation-list li span.merge{
+  color:#f89200;
+}
+ul.product-documentation-list li span.compare{
+  color:#66a1c3;
+}</style><style type="text/css" media="screen">/* @override 
+	http://127.0.0.1:8080/style/css/screen.css */
+
+body {
+  background: #dbdbdb;
+}
+
+/* Content width */
+.restrict-width {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Common navigation bar */
+#dxml-site-navigation ul li,
+#page-navigation li,
+#page-sub-navigation li {
+  margin: 8px 10px 10px;
+  display: inline-block;
+  float: left;
+  font-family: "Open Sans", san-serif;
+  font-size: 14px;
+}
+
+#dxml-site-navigation ul li a,
+#page-navigation li a,
+#page-sub-navigation li a {
+  text-decoration: none;
+}
+
+#page-sub-navigation {
+  clear: both;
+}
+
+/* Site Header */
+header {
+  background:  #3b495b;
+  background-size: cover;
+}
+
+#dxml-header {  
+  /*background: #3b495b;*/ /* dark grey */
+  min-height: 80px;
+  /*padding-top: 27px;
+  padding-bottom: 27px;*/
+}
+
+/* Site Navigation Bar */
+#dxml-site-navigation ul {
+  padding-top: 19px;
+  float: right;
+}
+
+#dxml-site-navigation #dxml-site-navigation-logo a {
+  padding: 5px;
+  position: relative;
+  top: 5px;
+  left: -15px;
+  display: block;
+}
+
+#dxml-site-navigation #dxml-site-navigation-logo a img {
+  height: 60px;
+}
+
+#dxml-site-navigation ul li.current a {
+  color: #96C11E;
+}
+
+#dxml-site-navigation #dxml-site-navigation-logo a,
+#dxml-site-navigation ul li a {
+  color: white;
+}
+
+#dxml-site-navigation ul li a:hover {
+  color: #66a1c3;
+}
+
+#dxml-site-navigation #dxml-site-navigation-logo {
+  display: inline-block;
+  float: left;
+}
+
+#dxml-site-navigation ul li#dxml-site-search {
+  padding: 5px 0 5px 8px;
+}
+
+#dxml-site-navigation ul li#dxml-site-search {
+  margin-top: 0;
+}
+
+li#dxml-site-search input {
+  border: 1px solid #092143;
+  background: #F3F3F3;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 22px;
+  color: #3b495b;
+  font-weight: lighter;
+  font-family: Montserrat, sans-serif;
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+}
+
+li#dxml-site-search input.search-grayed {
+  color: #3b495b;
+}
+
+li#dxml-site-search input.search-default {
+  color: #3b495b;
+}
+
+/* Page Header */
+.page-header {
+  /*border-bottom: 1px solid #3b495b;
+  border-top: 5px solid #3b495b;*/
+  /*background: #3b495b;*/ /*url(/style/img/slide-background.png) no-repeat top right*/
+}
+
+#nav-color {
+  min-height: 89px;
+}
+
+.page-header.page-header-short {
+  height: 47px;
+}
+.page-header h1 {
+  font-size: 32px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  color: white;
+}
+
+#page-header-content,
+#page-sub-navigation .restrict-width ul{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#page-header-content {
+/*  background: url(/style/img/product-header.png) no-repeat right 0;*/
+  min-height: 89px;
+}
+
+#page-navigation>ul {
+  float: left;
+  margin-bottom: -1px;
+}
+
+#page-navigation li {
+  margin-bottom: 0;
+  padding-bottom: 8px;
+  display: inline-block;
+  float: left;
+}
+
+.three-level-navigation #page-navigation li.current {
+  background: url(/style/img/current-level-two-to-three.png) no-repeat center bottom;
+}
+
+#page-navigation li a {
+  color: white;
+}
+
+#page-navigation li.current a {
+  color: #96c11e;
+}
+
+#page-navigation li a:hover {
+/*  color: #092143;*/
+/*  color: #647CAB;*/
+  color: #66a1c3;
+}
+
+/* Page sub-navigation */
+#page-sub-navigation {
+  background: #f1f1f1;
+  border-top: 1px solid #bdbdbd;
+}
+
+#page-sub-navigation li {
+  display: inline-block;
+  float: left;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font: normal 12px "Open Sans";
+  text-transform: uppercase;
+}
+
+#page-sub-navigation li a {
+  color: #092143;
+}
+
+#page-sub-navigation li.current a {
+  color: #a2c644;
+}
+
+#page-sub-navigation li a:hover {
+  color: #039;
+}
+
+/* Site Footer */
+#dxml-footer {
+  background: #3b495b;
+  border-top: 1px solid #bdbdbd;
+  color: white;
+}
+#dxml-footer-content {
+  padding-top: 12px;
+  padding-bottom: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#dxml-footer-quicknav {
+  padding: 30px 0;
+}
+
+#dxml-footer-quicknav h3 {
+    color: white;
+    font-size: 14px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+#dxml-footer-quicknav h3 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+#dxml-footer-quicknav h3 a:hover {
+  color: #a2c644;
+}
+
+#dxml-footer-quicknav li a {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+
+#dxml-footer-quicknav li a:hover {
+  color: #a2c644;
+  text-decoration: none;
+}
+
+#dxml-footer-quicknav .dxml-footer-quicknav-column {
+  width: 198px;
+  float: left;
+  margin-left: 40px;
+}
+
+#dxml-footer-quicknav .dxml-footer-quicknav-column:first-child {
+  margin-left: 0px;
+}
+
+#dxml-footer ul#dxml-footer-copyright {
+  float: right;
+}
+
+#dxml-footer ul#dxml-footer-copyright li {
+  display: inline;
+  border-left: 1px solid #aaa;
+  padding-left: 6px;
+  margin-left: 6px;
+  color: #aaa;
+  font-size: 11px;
+}
+
+#dxml-footer ul#dxml-footer-copyright li:first-child {
+  border-left: none;
+}
+
+#dxml-footer ul#dxml-footer-copyright li a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+#dxml-footer ul#dxml-footer-copyright li a:hover {
+  color: #a2c644;
+}
+
+#page-content {
+}
+
+/* Table of contents */
+#dxml-sidebar {
+  width: 205px;
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 36px;
+}
+
+#dxml-sidebar h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#dxml-sidebar h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* toc and further reading */
+ul#dxml-toc li p,
+ul#further-reading li p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#dxml-sidebar,
+.dxml-right-content {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.dxml-right-content {
+  margin-left: 235px;
+  border-left: 1px solid #dbdbdb;
+}
+
+/* Table of contents */
+ul#dxml-toc ul,
+ul#further-reading ul {
+  padding-left: 15px;
+}
+
+#page-content pre {
+  overflow-x: auto;
+}
+
+#page-content div.floating-header {
+  position: fixed;
+  top: 0;
+  background: white;
+  margin-left: -24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid #f1f1f1;
+  opacity: 0.95;
+  z-index: 10000;
+}
+
+/* Message box styling */
+.message {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message p {
+  margin: 0;
+  padding: 0;
+}
+
+.message .message-title {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.message .message-content {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 4px;
+}
+
+
+/* Colouring for info message styling */
+.status-info,
+.status-info .message-title
+{
+  border-color: blue;
+}
+
+.status-info .message-title {
+  background: #7B86FD;
+}
+
+.status-info .message-content {
+  background: #DFE2FF;
+}
+
+/* Colouring for success message styling */
+.status-success,
+.status-success .message-title
+{
+  border-color: #add66b;
+}
+
+.status-success .message-title {
+  background: #D4EBAF;
+}
+
+.status-success .message-content {
+  background: #EDFCD5;
+}
+
+/* Colouring for warning message styling */
+.status-warning,
+.status-warning .message-title {
+  border-color: yellow;
+}
+
+.status-warning .message-title {
+  background: #ffa;
+}
+
+.status-warning .message-content {
+  background: #ffd;
+}
+
+/* Colouring for error message styling */
+.status-error,
+.status-error .message-title {
+  border-color:red;
+}
+
+.status-error .message-title {
+  background: #FE9494;
+}
+
+.status-error .message-content {
+  background: #FEE2E2;
+}
+/* note: the following style rule was commented out as this affected styling of docbook
+ * originated content - e.g. docbook footnotes are converted to a elements with name
+ * attributes.
+ * it is not yet clear whether any app or error messages may depend on this rule
+*/
+
+/*
+#page-content a[name] {
+  display: block;
+  position: relative;
+}
+*/
+
+a.citetitle {
+    text-decoration: none;
+    color: #039; /* blue link */
+}</style><style type="text/css" media="print,braille,aural">body,
+input,
+td {
+  font-weight: normal;
+  font-size: 11px;
+}
+
+pre {
+  font-size: 10px;
+}
+
+#dxml-header-logo img {
+  height: 68px;
+  width: 160px;
+}
+
+#dxml-header-tag-line,
+#dxml-site-navigation,
+#dxml-footer-content li,
+.page-header
+{
+  display: none;
+}
+
+#dxml-footer-content li:first-child {
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #666;
+}
+
+#dxml-footer-content #dxml-footer-quicknav {
+  display: none;
+}
+
+.message {
+  display: none;
+}</style><style type="text/css" media="screen">
+          #page-header-content {
+            background: none !important;
+          }
+        </style><script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script><script type="text/javascript">var currentTop= -1;
+var currentLeft= -1;
+var sidebarPositionMode= "relative";
+var currentContentTopPadding= -1;
+var ieVersion = getInternetExplorerVersion();
+
+if (typeof jQuery !== 'undefined') {
+  if (ieVersion < 0 || ieVersion > 7) {
+    $(function () {
+      $(window).scroll(function () {
+        positionSidebar();
+        positionHeader();
+      });
+      $(window).resize(function () {
+        positionSidebar();
+        positionHeader();
+      });
+    });
+  }
+
+  $(function() {
+    var height= $("#dxml-main-heading").outerHeight() + 18;
+
+    $('head').append("<style type=\"text/css\">" +
+                     ".dxml-toc-target:before," +
+                     "#page-content dt[id]:before," +
+                     ".fig:before {" +
+                     "display: block;" +
+                     "content: \"\";" +
+                     "height: " + height + "px;" + 
+                     "margin-top: -" + height + "px;}</style>"); 
+  });
+}
+
+function positionHeader() {
+  var header= $("#dxml-main-heading");
+  var pageContent= $("#page-content");
+  
+  if (currentContentTopPadding == -1) {
+    currentContentTopPadding= parseInt(pageContent.css("padding-top").replace("px", ""), 10);
+  }
+  
+  if (currentTop == -1) {
+    currentTop= sidebar.offset().top;
+  }
+  
+  var scrollTop= $(window).scrollTop() - currentContentTopPadding;
+  
+  if (scrollTop >= currentTop) {
+    if (!header.hasClass("floating-header")) {
+      header.css("width", header.outerWidth() + "px");
+      header.addClass("floating-header");
+      pageContent.css("padding-top", (currentContentTopPadding + $("#dxml-main-heading").outerHeight() - 8) + "px");
+    }
+    if ($(window).scrollLeft() > 0) {
+      header.css("margin-left", -($(window).scrollLeft() + 24) + "px");
+    } else {
+      header.css("margin-left", "-24px");
+    }
+  } else if (scrollTop < currentTop && header.hasClass("floating-header")) {
+    header.removeClass("floating-header");
+    pageContent.css("padding-top", currentContentTopPadding + "px");
+    header.css("width", "auto");
+    header.css("margin-left", "0");
+  }
+}
+
+function positionSidebar() {
+  var sidebar= $("#dxml-sidebar");
+  var footer= $("#dxml-footer");
+
+  if (currentTop == -1) {
+    currentTop= sidebar.offset().top;
+  }
+
+  var scrollTop= $(window).scrollTop();
+
+  if (scrollTop + sidebar.outerHeight() > footer.offset().top) {
+    if (sidebar.outerHeight() > $(window).height()) {
+      sidebarPositionMode= "relative";
+      sidebar.css("top", "0");
+      sidebar.css("position", sidebarPositionMode);
+      sidebar.css("left", "auto");
+    } else if (sidebarPositionMode != "relative") {
+      sidebarPositionMode= "relative";
+      sidebar.css("position", "relative");
+
+      var newTop= footer.offset().top - sidebar.outerHeight() - sidebar.offset().top;
+
+      if (newTop < 0) {
+          newTop= 0;
+      }
+      sidebar.css("top", newTop);
+      sidebar.css("margin-left", "0");
+    }
+  } else {
+    var newPositionMode= "";
+    if (sidebar.outerHeight() > $(window).height()) {
+      newPositionMode= "relative";
+    } else if (scrollTop >= currentTop) {
+      newPositionMode= "fixed";
+    } else {
+      newPositionMode= "relative";
+    }
+
+    if ($(window).scrollLeft() > 0 && newPositionMode === "fixed") {
+      sidebar.css("margin-left", -$(window).scrollLeft());
+    } else {
+      sidebar.css("margin-left", "0");
+    }
+
+    if (newPositionMode != sidebarPositionMode) {
+      sidebarPositionMode= newPositionMode;
+      sidebar.css("top", "0");
+      sidebar.css("position", sidebarPositionMode);
+      sidebar.css("left", "auto");
+    }
+  }
+}
+
+function getInternetExplorerVersion()
+    // Returns the version of Internet Explorer or a -1
+    // (indicating the use of another browser).
+{
+    var rv = -1; // Return value assumes failure.
+    if (navigator.appName == 'Microsoft Internet Explorer') {
+        var ua = navigator.userAgent;
+        var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        if (re.exec(ua) != null)
+            rv = parseFloat(RegExp.$1);
+    }
+    return rv;
+}
+</script></head><body><div id="dxml-page"><header><div id="dxml-header"><div id="dxml-site-navigation" class="restrict-width">
+  <div id="dxml-site-navigation-logo">
+    <a href="http://www.deltaxml.com/">
+      <img src="data:image/png;base64,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" alt="Home">
+    </a>
+  </div>
+<h1 style="padding-top: 23px; color: white; font-size: 18px; text-align: center;">Release Documentation</h1></div><div style="clear:both"></div></div>
+<div class="page-header two-level-navigation">
+  <div id="nav-color">
+    <div class="restrict-width">
+      <div id="page-header-content">
+        <h1>XML Compare&nbsp;10.1.2</h1>
+        <div id="page-navigation"><div style="clear: both"></div></div></div></div></div></div></header><div id="page-content-container"><div class="restrict-width"><div id="page-content"><h1>Software Licence</h1><p>This licence agreement ("<b>Licence</b>") is a legal agreement
+    between you ("<b>Licensee</b>" or "<b>you</b>") and DeltaXML Ltd, registered in England and Wales with company number
+    02528681 with registered address Malvern Hills Science Park, Geraldine Road, Malvern,
+    Worcestershire, WR14 3SZ ("<b>Licensor</b>", "<b>us</b>" or "<b>we</b>") for:</p><ul><li><p>the software product identified as the "<b>Licensed
+          Product</b>" in the licence key; and</p></li><li><p>(if applicable), electronic documentation, XML files, XSLT stylesheets, associated
+        material and any updates ("<b>Documentation</b>"),</p></li></ul><p>together the "<b>Software</b>".</p><p>We licence use of the Software to you on the basis of this Licence. We do not sell
+    the Software to you. We remain the owners of the Software at all times.</p><p><b>IMPORTANT NOTICE TO ALL USERS:</b></p><p>BY CLICKING ON THE "ACCEPT" BUTTON OR BY DOWNLOADING OR USING THE SOFTWARE YOU ARE
+    CONSENTING TO BE BOUND BY AND ARE BECOMING THE LICENSEE TO THIS LICENCE.</p><p>IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS LICENCE DO NOT DOWNLOAD OR USE THE
+    SOFTWARE.</p><p><b>You should print a copy of this Licence for future
+      reference.</b></p><h2 id="clause-1-grant">1 GRANT AND SCOPE OF LICENCE</h2><p>1.1 In consideration of you agreeing to abide by the terms of this Licence, we hereby
+      grant to you a non-exclusive, non-transferable licence to Use the Software on the terms of
+      this Licence.</p><p>1.2 If the Licence is an evaluation licence then your right to Use the Software is for a
+      limited non-renewable time period and is for internal evaluation, demonstration and test
+      purposes only.</p><p>1.3 The Licence permits you to "Use" (as hereinafter defined) the Software only accordance
+      with any limitations in the licence key and in accordance with the Licence Type as
+      follows:</p><p>1.3.1 Named User Licence: "<b>Named User Licence</b>" means a
+      Licence Type with the right for one individual person (the "<b>Designated
+        User</b>") to Use the Software on one computing device (the "<b>System</b>") with a maximum number of CPUs as specified in the licence key,
+      including the right to copy the Software to another System such that the Designated User is
+      using no more than one copy simultaneously. Each core of a multiple-core CPU shall be deemed
+      to be one CPU. The Named User Licence may be re-assigned to another Designated User, within
+      the same company or legal entity, at any time as long as the Software is no longer being used
+      by the previous Designated User. The Software may not be used to provide an automated service
+      to another computing device or to any person other than the Designated User.</p><p>1.3.2 Server Licence: "<b>Server Licence</b>" means a Licence
+      Type with the right to Use the Software on one computing device (the "<b>System</b>") which is a network server identified in the licence key (the "<b>Designated Server</b>") with a maximum number of CPUs as specified in the
+      licence key. Each core of a multiple-core CPU shall be deemed to be one CPU. Any number of
+      persons may access the Software running on the System provided each person is an employee of
+      Licensee. The Server Licence may be re-assigned to another Designated Server, within the same
+      company or legal entity, at any time as long as the Software is no longer used on the previous
+      Designated Server.</p><p>1.3.3 Concurrent Licence: "<b>Concurrent Licence</b>" means a Licence Type with the right to Use
+      the Software only under the control of a licence server which controls access to the Software
+      and subject to any terms and conditions specified in the sales order or invoice.</p><p>1.3.4 Bespoke Licence: "<b>Bespoke Licence</b>" means a Licence
+      Type with the right for a number of users as specified in the sales order or invoice that is
+      referenced in the licence key ("<b>Designated Users</b>") to Use the
+      Software on personal computers or network servers (the "<b>System</b>"), subject to any terms and conditions specified in the sales order or
+      invoice.</p><p>1.3.5 Enterprise Licence: "<b>Enterprise Licence</b>" means a
+      Licence Type which has a separate written and signed licence agreement which when applicable
+      has precedence over the terms and conditions of this Licence.</p><p>1.3.6 Redistribution Licence: "<b>Redistribution Licence</b>"
+      means a Licence Type which has a separate written and signed licence agreement which when
+      applicable has precedence over the terms and conditions of this Licence.</p><p>1.4 In this Licence "<b>Use</b>" shall mean and include
+      utilisation of the Software by copying, transmitting or loading the same into the memory of
+      the System for the processing of the instructions or statements contained in such Software.
+      The Software may be copied only for back-up or disaster recovery purposes and provided each
+      copy contains the same copyright information as the original.</p><p>1.5 The Software is not free or shareware. The Software is licensed to you, not sold. The
+      Licence fee is as quoted and is payable by a method specified on our website.</p><h2 id="restrictions">2 RESTRICTIONS</h2><p>2.1 Except as expressly set out in this Licence or as permitted by any local law, you
+      undertake:</p><ol type="a" style="list-style-type:lower-alpha;"><li><p>not to copy the Software except where such copying is incidental to the normal
+          operation of the Software (and as specified in <a href="#clause-1-grant">clause 1</a> above), or where it is necessary for the purpose of back-up
+          or operational security;</p></li><li><p>not to disassemble, decompile or reverse engineer or create derivative works based on
+          the whole or any part of the Software nor attempt to do any such thing to the extent that
+          (by virtue of section 296A of the Copyright Design and Patents Act 1988) such actions
+          cannot be prohibited because they are essential for the purpose of achieving
+          inter-operability of the Software with another software program, and provided that the
+          information obtained by you during such activities:</p><ol type="i" style="list-style-type:lower-roman;"><li><p>is used only for the purpose of achieving inter-operability of the Software with
+              another software program; and</p></li><li><p>is not unnecessarily disclosed or communicated without our prior written consent
+              to any third party; and</p></li><li><p>is not used to create any software which is substantially similar to the
+              Software;</p></li></ol></li><li><p>not to translate, modify, lease, rent, loan, redistribute, sub-lease, sub-license,
+          merge, adapt or vary the Software;</p></li><li><p>to keep all copies of the Software secure and to maintain accurate and up-to- date
+          records of the number and location of all copies of the Software and the names of all
+          Designated Users and the identity of all Designated Servers, and to provide such
+          information to us or our representatives as may reasonably be required to demonstrate your
+          compliance with these terms;</p></li><li><p>to supervise and control Use of the Software in accordance with the terms of this
+          Licence, and to provide us or our representatives such information as may reasonably be
+          required to demonstrate your compliance with this Licence;</p></li><li><p>to ensure that your employees, representatives and other parties who will use the
+          Software are notified of this Licence and the terms hereof prior to such employee,
+          representative or party using the same;</p></li><li><p>to reproduce and include our copyright notice on all entire and partial copies you
+          make of the Software on any medium;</p></li><li><p>not to provide or otherwise make available the Software in whole or in part (including
+          but not limited to program listings, object and source program listings, object code and
+          source code), in any form to any person other than your employees or as specified herein
+          without prior written consent from us;</p></li><li><p>not to use the Software to provide a data processing or bureau service to any third
+          party by way of trade or otherwise;</p></li><li><p>not to display the Software on a public bulletin board, ftp site, worldwide web site,
+          chat room or by any other unauthorised means;</p></li><li><p>not to use the Software for immoral, illegal or for any other purpose which may be
+          determined threatening, abusive or harmful including but not limited to the creation or
+          transmission of any virus, worms, trojan horse or any other destructive or contaminating
+          program;</p></li><li><p>to comply with the terms of any third-party software included in the download package
+          if you use such third-party software.</p></li></ol><h2 id="limitations">3 LIMITATION OF LIABILITY</h2><p>3.1 THE SOFTWARE IS PROVIDED "AS IS" WITHOUT ANY WARRANTY OF ANY KIND EITHER EXPRESS OR
+      IMPLIED INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF:</p><ol type="i" style="list-style-type:lower-roman;"><li><p>MERCHANTABILITY OR REASONABLE QUALITY,</p></li><li><p>FITNESS FOR A PARTICULAR PURPOSE,</p></li><li><p>TITLE; AND</p></li><li><p>NON-INFRINGEMENT OF ANY THIRD PARTY INTELLECTUAL PROPERTY RIGHTS.</p></li></ol><p id="clause-3-2">3.2 THE LICENSOR DOES NOT WARRANT THAT THE
+      SOFTWARE WILL BE ERROR-FREE OR THAT SUCH ERRORS WILL BE CORRECTED AND THE LICENSEE IS SOLELY
+      RESPONSIBLE FOR ALL COSTS AND EXPENSES ASSOCIATED WITH RECTIFICATION, REPAIR OR DAMAGE CAUSED
+      BY SUCH ERRORS. Exclusion of warranties may not be valid in certain jurisdictions, however,
+      the only applicable laws under which this Licence may be construed are specified in <a href="#clause-8-6">clause 8.6</a> below.</p><p>3.3 We may create new versions of the Software ("Upgrades") which may correct such errors
+      as mentioned in <a href="#clause-3-2">clause 3.2</a> above, and although we
+      have no obligation to notify you of such Upgrades, the same will be made available at the same
+      internet website as you downloaded the Software accompanying this Licence, at such cost and on
+      such terms as shall be indicated. If you elect to subscribe to and pay for software
+      maintenance, there shall be no charge for Upgrades during the period of your subscription, and
+      we shall give you the option of being notified of such Upgrades by email.</p><p>3.4 You acknowledge that the Software has not been developed to meet your individual
+      requirements, and that it is therefore your responsibility to evaluate and ensure that the
+      facilities and functions of the Software as described in the Documentation meet your
+      requirements.</p><p>3.5 We only supply the Software for internal use by your business, and you agree not to
+      use the Software for any re-sale purposes.</p><p id="clause-3-6">3.6 We shall not under any circumstances
+      whatever be liable to you, whether in contract, tort (including negligence), breach of
+      statutory duty, or otherwise, arising under or in connection with the Licence for:</p><ol type="a" style="list-style-type:lower-alpha;"><li><p>loss of profits, sales, business, or revenue;</p></li><li><p>business interruption;</p></li><li><p>loss of anticipated savings;</p></li><li><p>loss or corruption of data or information;</p></li><li><p>loss of business opportunity, goodwill or reputation; or</p></li><li><p>any indirect or consequential loss or damage.</p></li></ol><p>3.7 Other than the losses set out in <a href="#clause-3-6">clause 3.6</a> (for which we are not liable), our maximum aggregate liability under or in connection with
+      this Licence whether in contract, tort (including negligence) or otherwise, shall in all
+      circumstances be limited to a sum equal to 100% of the Licence Fee. This maximum cap does not
+      apply to <a href="#clause-3-8">clause 3.8</a>.</p><p id="clause-3-8">3.8 Nothing in this Licence shall limit or
+      exclude our liability for:</p><ol type="a" style="list-style-type:lower-alpha;"><li><p>death or personal injury resulting from our negligence;</p></li><li><p>fraud or fraudulent misrepresentation;</p></li><li><p>any other liability that cannot be excluded or limited by English law.</p></li></ol><p>3.9 This Licence sets out the full extent of our obligations and liabilities in respect of
+      the supply of the Software. Except as expressly stated in this Licence, there are no
+      conditions, warranties, representations or other terms, express or implied, that are binding
+      on us. Any condition, warranty, representation or other term concerning the supply of the
+      Software which might otherwise be implied into, or incorporated in, this Licence whether by
+      statute, common law or otherwise, is excluded to the fullest extent permitted by law.</p><h2 id="ipr">4 INTELLECTUAL PROPERTY RIGHTS</h2><p>4.1 You acknowledge that all copyright, trade marks and other intellectual property rights
+      subsisting in or used in connection with the Software (including but not limited to patents
+      AU2001270901; EP1325432; US8196135; CA 2416876; US 8,423,518 B2; EP2174238;
+      602008031420.0 and patent applications 1315520.5, 14275178.3, 14/474,377, all
+      images, animations, audio and other identifiable material relating to the Software) anywhere
+      in the world are and remain the sole property of us. You acquire no rights in, or to, the
+      Software, other than the right to use it in accordance with the terms of this Licence.</p><p>4.2 You acknowledge that you have no right to have access to the Software in source code
+      form or in unlocked coding or with comments other than as expressly provided to you.</p><p>4.3 The integrity of this Software is protected by technical protection measures
+        ("<b>TPM</b>") so that the intellectual property rights, including
+      copyright, in our Software are not misappropriated. You must not attempt in any way to remove
+      or circumvent any such TPM, nor to apply, manufacture for sale, hire, import, distribute,
+      sell, nor let, offer, advertise or expose for sale or hire, nor have in your possession for
+      private or commercial purposes, any means whose sole intended purpose is to facilitate the
+      unauthorised removal or circumvention of such TPM.</p><h2 id="advertising">5 ADVERTISING AND PUBLICITY</h2><p>Any form of advertising or publicity or reference to you shall require your prior written
+      consent (such consent not to be unreasonably withheld or delayed), provided that we shall be
+      permitted to refer to you in a list of our clients without your prior approval. You may
+      request removal from such a list at any time by notice in writing to us.</p><h2 id="termination">6 TERMINATION</h2><p>6.1 This Licence will terminate on the date specified in the licence key unless terminated
+      earlier in accordance with provisions of this Agreement.</p><p>6.2 We may terminate this Licence immediately by written notice if you commit a material
+      breach of this Licence which you fail to remedy (if remediable) within 14 days after the
+      service of written notice requiring you to do so.</p><p>6.3 You may terminate this Licence at any time by destroying the Software, Documentation
+      and all copies. No Licence Fee or software maintenance fee is refundable.</p><p>6.4 Upon termination for any reason:</p><ol type="a" style="list-style-type:lower-alpha;"><li><p>all rights granted to you under this Licence shall cease;</p></li><li><p>you must immediately cease all activities authorised by this Licence;</p></li><li><p>you must immediately pay to us any sums due to us under this Licence; and</p></li><li><p> you must immediately delete or remove the Software from all computer equipment in
+          your possession, and immediately destroy or return to us (at out option) the Software and
+          all Upgrades and copies then in your possession, custody or control and, in the case of
+          destruction, certify to us that you have done so.</p></li></ol><h2 id="communication">7 COMMUNICATIONS BETWEEN US</h2><p>Please note that any notice given by you to us, or by us to you, will be deemed received
+      and properly served immediately when posted on our website, 24 hours after an e-mail is sent,
+      or ten days after the date of posting of any letter. In proving the service of any notice, it
+      will be sufficient to prove, in the case of a letter, that such letter was properly addressed,
+      stamped and placed in the post and, in the case of an e-mail, that such e-mail was sent to the
+      specified e-mail address of the addressee.</p><h2 id="other">8 OTHER IMPORTANT TERMS</h2><p>8.1 We may transfer our rights and obligations under this Licence to another organisation,
+      but this will not affect your rights or our obligations under this Licence.</p><p>8.2 You may only transfer your rights or your obligations under this Licence to another
+      person if we agree in writing.</p><p>8.3 This Licence and any document expressly referred to in it constitutes the entire
+      agreement between you and us. You acknowledge that you have not relied on any statement,
+      promise or representation made or given by or on behalf of the us which is not set out in this
+      Licence or any document expressly referred to in it.</p><p>8.4 If we fail to insist that you perform any of your obligations under this Licence, or
+      if we do not enforce our rights against you, or if we delay in doing so, that will not mean
+      that we have waived our rights against you and will not mean that you do not have to comply
+      with those obligations. If we do waive a default by you, we will only do so in writing, and
+      that will not mean that we will automatically waive any later default by you.</p><p>8.5 Each of the conditions of this Licence operates separately. If any court or competent
+      authority decides that any of them are unlawful or unenforceable, the remaining conditions
+      will remain in full force and effect.</p><p id="clause-8-6">8.6 This Licence, its subject matter and its
+      formation (and any non-contractual disputes or claims) are governed by the laws of England and
+      Wales. We both agree to the exclusive jurisdiction of the courts of England and Wales. Nothing
+      in this clause shall limit the right of us to take proceedings against you in any other court
+      of competent jurisdiction, nor shall the taking of proceedings in any one or more
+      jurisdictions preclude the taking of proceedings in any other jurisdictions, whether
+      concurrently or not, to the extent permitted by the law of such other jurisdiction.</p></div></div><div style="clear:both"></div></div></div><div id="dxml-footer"><div class="restrict-width"><div id="dxml-footer-content"><ul class="dxml-clean-list" id="dxml-footer-copyright"><li>© 2014-2019 DeltaXML Ltd. All rights reserved</li></ul><div style="clear:both"></div></div></div></div></body></html>

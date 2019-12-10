@@ -1,0 +1,24 @@
+<!-- the change to 2.5 is addition of new lexicalPreservation documentLocation element -->
+<!ENTITY % dxpv1.0.mod SYSTEM "dxp-v1.0LP-additions.mod">
+%dxpv1.0.mod;
+
+<!-- the only change for 2.3 was that it is using 1.2 instead of 1.1 -->
+<!ENTITY % dxpv1.2.mod SYSTEM "dxp-v1.2-additions.mod">
+%dxpv1.2.mod;
+
+<!ENTITY % dxpv2.0.mod SYSTEM "dxp-v2.0-additions.mod">
+%dxpv2.0.mod;
+
+<!ENTITY % dxpv2.1.mod SYSTEM "dxp-v2.1-additions.mod">
+%dxpv2.1.mod;
+
+<!ENTITY % dxpv2.2.mod SYSTEM "dxp-v2.2-additions.mod">
+%dxpv2.2.mod;
+
+<!-- no 2.3 or 2.4 (see above) -->
+
+<!ENTITY % dxpv2.5.mod SYSTEM "dxp-v2.5-additions.mod">
+%dxpv2.5.mod;
+
+<!ATTLIST comparatorPipeline
+          version CDATA #FIXED "2.5">

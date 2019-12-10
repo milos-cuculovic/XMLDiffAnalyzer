@@ -1,0 +1,73 @@
+<!DOCTYPE comparatorPipeline SYSTEM "dxp.dtd">
+<!-- $Id$ -->
+<comparatorPipeline description="[DXP] XHTML Compare, output XHTML" id="xhtml">
+  <fullDescription>
+This configuration is used to compare two XHTML input files and produce an XHTML file that displays changes.
+  </fullDescription>
+  <pipelineParameters>
+    <booleanParameter name="Word By Word" defaultValue="true">
+      <description>whether to compare PCDATA in a more detailed way</description>
+    </booleanParameter>
+    <booleanParameter name="Ignore Format Changes" defaultValue="true">
+      <description>whether styling changes should not be treated as change</description>
+    </booleanParameter>
+    <stringParameter name="View Buttons" defaultValue="yes">
+      <description>Allow toggling of xhtml display modes.</description>
+    </stringParameter>
+  </pipelineParameters>
+  <inputFilters>
+    <filter>
+      <class name="com.deltaxml.pipe.filters.NormalizeSpace"/>
+    </filter>
+    <filter>
+      <resource name="/xsl/xhtml/dx2-xhtml-infilter.xsl"/>
+      <parameter name="ignoreFormat" parameterRef="Ignore Format Changes"/>
+    </filter>
+    <filter if="Ignore Format Changes">
+      <resource name="/xsl/xhtml/dx2-format-infilter.xsl"/>
+    </filter>
+    <filter if="Word By Word">
+      <class name="com.deltaxml.pipe.filters.dx2.wbw.WordInfilter"/>
+    </filter>
+  </inputFilters>
+  <outputFilters>
+    <filter if="Word By Word">
+      <class name="com.deltaxml.pipe.filters.dx2.wbw.OrphanedWordOutfilter"/>
+      <parameter name="orphanedLengthLimit" literalValue='2'/>
+      <parameter name="orphanedThresholdPercentage" literalValue="20"/>
+    </filter>
+    <filter if="Word By Word">
+      <class name="com.deltaxml.pipe.filters.dx2.wbw.WordOutfilter"/>
+    </filter>
+    <filter>
+      <resource name="/xsl/dx2-threshold.xsl"/>
+      <parameter name="ObjectCommonTextMinPercentage" literalValue="25"/>
+      <parameter name="ThresholdDebug" literalValue="no"/>
+      <parameter name="ThresholdDebugTextReportSize" literalValue="40"/>
+    </filter>
+    <filter>
+      <resource name="/xsl/dx2-red-green-outfilter.xsl"/>
+    </filter>
+    <filter if="Ignore Format Changes">
+      <resource name="/xsl/xhtml/dx2-xhtml-format-outfilter.xsl"/>
+    </filter>
+    <filter>
+      <resource name="/xsl/xhtml/dx2-xhtml-outfilter.xsl"/>
+      <parameter name="includeButtons" parameterRef="View Buttons" />
+    </filter>
+    <filter>
+      <resource name="/xsl/xhtml/dx2-xhtml-clean-house.xsl"/>
+    </filter>
+  </outputFilters>
+  <outputProperties>
+    <property name="indent" literalValue="no" />  
+  </outputProperties>
+  <outputFileExtension extension="html"/>
+  <comparatorFeatures>
+    <feature name="http://deltaxml.com/api/feature/isFullDelta" literalValue="true"/>
+    <feature name="http://deltaxml.com/api/feature/enhancedMatch1" literalValue="true"/>
+  </comparatorFeatures>
+  <transformerAttributes>
+    <stringAttribute name="http://saxon.sf.net/feature/xsltVersion" literalValue="3.0"/>
+  </transformerAttributes>
+</comparatorPipeline>

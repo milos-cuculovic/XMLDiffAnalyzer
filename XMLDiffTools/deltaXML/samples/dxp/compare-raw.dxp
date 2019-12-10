@@ -1,0 +1,20 @@
+<!DOCTYPE comparatorPipeline SYSTEM "dxp.dtd">
+<!-- $Id: compare-delta.dxp 4496 2008-06-05 17:31:58Z nigelw $ -->
+<comparatorPipeline description="[DXP] XML Compare, output recombinable delta" id="raw">
+  <fullDescription>
+This configuration is used to produce an XML delta file representing changes in the input xml.
+There are no options/parameters and the result can be easily used with recombine operations.
+
+The compare-delta.dxp or 'delta' pipeline offers more flexibility and control over the types
+of delta file which can be produced; raw should only normally be used in conjunction with
+recombine operations.
+  </fullDescription>
+  <outputProperties>
+    <property name="indent" literalValue="no"/>
+  </outputProperties>
+  <outputFileExtension extension="xml"/>
+  <comparatorFeatures>
+    <feature name="http://deltaxml.com/api/feature/isFullDelta" literalValue="false"/>
+    <feature name="http://deltaxml.com/api/feature/enhancedMatch1" literalValue="true"/>
+  </comparatorFeatures>
+</comparatorPipeline>

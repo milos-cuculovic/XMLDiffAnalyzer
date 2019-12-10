@@ -1,0 +1,6 @@
+FEATURE compare_rest deltaxml 10.1 25-dec-2019 uncounted \
+	VENDOR_STRING=eval=true;obfuscate_percentage=20.0;threads=2 \
+	HOSTID=DEMO ISSUER="DeltaXML Ltd" ISSUED=27-Nov-2019 \
+	NOTICE="For evaluation use by milos.cuculovic@uha.fr" \
+	START=27-Nov-2019 SIGN="0051 4205 8C75 6BF6 78C7 738E 4950 \
+	4E00 0B8F 0E19 92FD BEA5 C353 9C7C 3C86"

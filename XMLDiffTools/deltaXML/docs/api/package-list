@@ -1,0 +1,12 @@
+com.deltaxml.api
+com.deltaxml.core
+com.deltaxml.cores9api
+com.deltaxml.cores9api.config
+com.deltaxml.cores9api.internals
+com.deltaxml.ext.xslt.saxon
+com.deltaxml.pipe
+com.deltaxml.pipe.filters
+com.deltaxml.pipe.filters.dx2
+com.deltaxml.pipe.filters.dx2.wbw
+com.deltaxml.pipe.filters.dx2.wbw.format
+com.deltaxml.pipe.filters.dx2.wbw.v62

@@ -1,0 +1,10 @@
+<!ENTITY % dxpv1.0.mod SYSTEM "dxp-v1.0-additions.mod">
+%dxpv1.0.mod;
+
+<!-- 1.1 additions are explicity left out as they are superceded by 1.2 -->
+
+<!ENTITY % dxpv1.2.mod SYSTEM "dxp-v1.2-additions.mod">
+%dxpv1.2.mod;
+
+<!ATTLIST comparatorPipeline
+          version CDATA #FIXED "1.2">

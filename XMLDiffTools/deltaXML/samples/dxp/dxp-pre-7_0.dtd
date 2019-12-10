@@ -1,0 +1,5 @@
+<!-- This file is effectively the same as the dxp-v1.1 DTD and is 
+     included for backwards compatibility for XML Compare 4.0 to XML Compare 6.0-->
+     
+<!ENTITY % dxpv1.1 SYSTEM "dxp-v1.1.dtd">
+%dxpv1.1;

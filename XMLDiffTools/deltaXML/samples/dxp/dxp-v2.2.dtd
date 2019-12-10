@@ -1,0 +1,17 @@
+<!ENTITY % dxpv1.0.mod SYSTEM "dxp-v1.0-additions.mod">
+%dxpv1.0.mod;
+
+<!ENTITY % dxpv1.1.mod SYSTEM "dxp-v1.1-additions.mod">
+%dxpv1.1.mod;
+
+<!ENTITY % dxpv2.0.mod SYSTEM "dxp-v2.0-additions.mod">
+%dxpv2.0.mod;
+
+<!ENTITY % dxpv2.1.mod SYSTEM "dxp-v2.1-additions.mod">
+%dxpv2.1.mod;
+
+<!ENTITY % dxpv2.2.mod SYSTEM "dxp-v2.2-additions.mod">
+%dxpv2.2.mod;
+
+<!ATTLIST comparatorPipeline
+          version CDATA #FIXED "2.2">

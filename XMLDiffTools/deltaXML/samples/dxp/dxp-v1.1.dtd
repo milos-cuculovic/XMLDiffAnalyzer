@@ -1,0 +1,8 @@
+<!ENTITY % dxpv1.0.mod SYSTEM "dxp-v1.0-additions.mod">
+%dxpv1.0.mod;
+
+<!ENTITY % dxpv1.1.mod SYSTEM "dxp-v1.1-additions.mod">
+%dxpv1.1.mod;
+
+<!ATTLIST comparatorPipeline
+          version CDATA #FIXED "1.1">
