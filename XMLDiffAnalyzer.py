@@ -42,7 +42,7 @@ class XMLDiffAnalyzer:
                     # poll as often as possible; otherwise the subprocess might
                     # "sneak" in some extra memory usage while you aren't looking
                     while ptimer.poll():
-                        time.sleep(.5)
+                        time.sleep(.0001)
                 finally:
                     # make sure that we don't leave the process dangling?
                     ptimer.close()
