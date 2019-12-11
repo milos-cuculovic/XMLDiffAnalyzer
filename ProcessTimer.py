@@ -41,7 +41,7 @@ class ProcessTimer:
 
           rss_memory += mem_info[0]
           vms_memory += mem_info[1]
-        except psutil.NoSuchProcess:
+        except (psutil.NoSuchProcess, psutil.AccessDenied):
           #sometimes a subprocess descendant will have terminated between the time
           # we obtain a list of descendants, and the time we actually poll this
           # descendant's memory usage.
@@ -75,5 +75,5 @@ class ProcessTimer:
         pp.kill()
       else:
         pp.terminate()
-    except psutil.NoSuchProcess:
+    except (psutil.NoSuchProcess, psutil.AccessDenied):
       pass

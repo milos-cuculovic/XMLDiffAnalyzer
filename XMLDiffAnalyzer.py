@@ -27,7 +27,7 @@ class XMLDiffAnalyzer:
 
         for row in self.tools:
             total_time = 0
-            total_memory = 0
+            max_memory = 0
             for round in range(0, rounds):
                 myCmd = row[0] + ROOT_DIR+"/XMLDiffTools/" + row[2] + file_orig + row[3] + file_new
                 if row[4] != "":
@@ -47,12 +47,13 @@ class XMLDiffAnalyzer:
                     # make sure that we don't leave the process dangling?
                     ptimer.close()
 
-                total_time += ptimer.t1 - ptimer.t0
-                total_memory += ptimer.max_rss_memory
+                current_timpe = ptimer.t1 - ptimer.t0
+                total_time += current_timpe
+                max_memory = max(max_memory, ptimer.max_rss_memory)
 
             print(row[1] + ":")
             print("\tTotal time:", format(total_time,'.2f') + " sec")
-            print("\tMax RSS Memory:", str(format((ptimer.max_rss_memory) / (1024 * 1024), '.3f')) + " MB")
+            print("\tMax RSS Memory:", str(format((max_memory) / (1024 * 1024), '.3f')) + " MB")
 
 
 if __name__ == '__main__':
