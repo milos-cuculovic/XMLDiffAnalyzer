@@ -10,3 +10,7 @@ Python tool for analyzing recent XML Diff algorithm implementations
 * xdiff
 * xop
 * diffmk
+
+In order to have the tool working, the following pip extensions are needed:
+* pip install xlsxwriter 
+* pip install psutil
