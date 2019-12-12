@@ -17,12 +17,29 @@ class XMLDiffAnalyzer:
         import os
         import ProcessTimer
         import time
+        import xlsxwriter
 
         ROOT_DIR = os.path.abspath(os.curdir)
 
         print("Starting...")
 
-        for row in self.tools:
+        excel_headers = [
+            [0, 'A1', 'Tool'],
+            [1, 'B1', 'Time (sec)'],
+            [2, 'C1', 'Max memory (MB)'],
+            [3, 'D1', 'Average memory (MB)'],
+            [4, 'E1', 'File delta size KB)']
+        ]
+
+        workbook = xlsxwriter.Workbook(ROOT_DIR + "/ExcelResults/XMLDiffAnalyser_results_" + str(time.time()) + ".xlsx",
+                                       {'strings_to_numbers':  True})
+        worksheet = workbook.add_worksheet()
+
+        for excel_header in excel_headers:
+            worksheet.write(excel_header[1], excel_header[2])
+        worksheet.set_column('A:E', 20)
+
+        for index, row in enumerate(self.tools):
             total_time = 0
             max_memory = 0
             average_memory = []
@@ -56,16 +73,28 @@ class XMLDiffAnalyzer:
                 max_memory = max(max_memory, ptimer.max_rss_memory)
                 average_memory.append(sum(ptimer.rss_memory) / len(ptimer.rss_memory))
 
-            file_delta_size = os.stat(file_delta).st_size
+            total_time = format(total_time,'.2f')
+            max_memory = format((max_memory) / (1024 * 1024), '.3f')
+            average_memory = format((sum(average_memory) / len(average_memory)) / (1024 * 1024), '.3f')
+            file_delta_size = format((os.stat(file_delta).st_size) / (1024 ), '.2f')
+
+            index += 1
+            worksheet.write(index, excel_headers[0][0], str(row[1]))
+            worksheet.write(index, excel_headers[1][0], total_time)
+            worksheet.write(index, excel_headers[2][0], max_memory)
+            worksheet.write(index, excel_headers[3][0], average_memory)
+            worksheet.write(index, excel_headers[4][0], file_delta_size)
 
             print(row[1] + ":")
             #print("\t" + myCmd)    #For debug
-            print("\tTotal time:", format(total_time,'.2f') + " sec")
-            print("\tMax RSS Memory:", str(format((max_memory) / (1024 * 1024), '.3f')) + " MB")
-            print("\tAverage memory:", str(format((sum(average_memory) / len(average_memory)) / (1024 * 1024), '.3f')) + " MB")
+            print("\tTotal time:", total_time + " sec")
+            print("\tMax RSS Memory:", str(max_memory) + " MB")
+            print("\tAverage memory:", str(average_memory) + " MB")
             print("\tFile delta:")
             print("\t\tPath: " + file_delta)
-            print("\t\tSize: ", str(format((file_delta_size) / (1024 ), '.2f')) + " KB")
+            print("\t\tSize: ", str(file_delta_size) + " KB")
+
+        workbook.close()
 
 if __name__ == '__main__':
     import os
@@ -82,6 +111,7 @@ if __name__ == '__main__':
                               or "/Users/miloscuculovic/XML_Diff_tools_material/Originals/article_min.xml"
         except ValueError:
             print("Please provide a vaild original XML file path")
+
         try:
             file_orig = open(input_file_orig)
         except IOError:
@@ -94,6 +124,7 @@ if __name__ == '__main__':
                              or "/Users/miloscuculovic/XML_Diff_tools_material/TextEdits/text_edit_delete/article_min_text_edit_delete.xml"
         except ValueError:
             print("Please provide a vaild modified XML file path")
+
         try:
             file_new = open(input_file_new)
         except IOError:
@@ -106,6 +137,7 @@ if __name__ == '__main__':
                                    or "/Users/miloscuculovic/XML_Diff_tools_material/"
         except ValueError:
             print("Please provide a vaild delta XML files directory file path")
+
         try:
             os.path.isdir(input_file_delta_dir)
         except IOError:
