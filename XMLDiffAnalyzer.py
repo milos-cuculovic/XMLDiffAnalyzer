@@ -15,12 +15,9 @@ class XMLDiffAnalyzer:
 
     def start(self, rounds, file_orig, file_new, file_delta_dir):
         import os
-        import subprocess
-        import psutil
-        from datetime import datetime
         import ProcessTimer
         import time
-        from datetime import timedelta
+
         ROOT_DIR = os.path.abspath(os.curdir)
 
         print("Starting...")
@@ -28,14 +25,19 @@ class XMLDiffAnalyzer:
         for row in self.tools:
             total_time = 0
             max_memory = 0
-            average_memory = 0
+            average_memory = []
 
+            myCmd = row[0] + ROOT_DIR + "/XMLDiffTools/" + row[2] + file_orig + row[3] + file_new
+            file_delta = file_delta_dir + row[1] + "_delta.xml"
+
+            first_round = True
             for round in range(0, rounds):
-                myCmd = row[0] + ROOT_DIR+"/XMLDiffTools/" + row[2] + file_orig + row[3] + file_new
+
                 if row[4] != "":
-                    myCmd += row[4] + file_delta_dir + row[1] + ".xml"
-                else:
-                    myCmd += " >> " + file_delta_dir + row[1] + "_delta.xml"
+                    myCmd += row[4] + file_delta
+                elif first_round:
+                    myCmd += " >> " + file_delta
+                    first_round = False
 
                 ptimer = ProcessTimer.ProcessTimer(myCmd)
 
@@ -49,15 +51,21 @@ class XMLDiffAnalyzer:
                     # make sure that we don't leave the process dangling?
                     ptimer.close()
 
-                current_timpe = ptimer.t1 - ptimer.t0
-                total_time += current_timpe
+                current_time = ptimer.t1 - ptimer.t0
+                total_time += current_time
                 max_memory = max(max_memory, ptimer.max_rss_memory)
-                average_memory = sum(ptimer.rss_memory) / len(ptimer.rss_memory)
+                average_memory.append(sum(ptimer.rss_memory) / len(ptimer.rss_memory))
+
+            file_delta_size = os.stat(file_delta).st_size
 
             print(row[1] + ":")
+            #print("\t" + myCmd)    #For debug
             print("\tTotal time:", format(total_time,'.2f') + " sec")
             print("\tMax RSS Memory:", str(format((max_memory) / (1024 * 1024), '.3f')) + " MB")
-            print("\tAverage memory:", str(format((average_memory) / (1024 * 1024), '.3f')) + " MB")
+            print("\tAverage memory:", str(format((sum(average_memory) / len(average_memory)) / (1024 * 1024), '.3f')) + " MB")
+            print("\tFile delta:")
+            print("\t\tPath: " + file_delta)
+            print("\t\tSize: ", str(format((file_delta_size) / (1024 ), '.2f')) + " KB")
 
 if __name__ == '__main__':
     import os
