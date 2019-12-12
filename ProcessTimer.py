@@ -11,6 +11,7 @@ class ProcessTimer:
   def execute(self):
     self.max_vms_memory = 0
     self.max_rss_memory = 0
+    self.rss_memory = []
 
     self.t1 = None
     self.t0 = time.time()
@@ -48,6 +49,7 @@ class ProcessTimer:
           pass
       self.max_vms_memory = max(self.max_vms_memory,vms_memory)
       self.max_rss_memory = max(self.max_rss_memory,rss_memory)
+      self.rss_memory.append(rss_memory)
 
     except psutil.NoSuchProcess:
       return self.check_execution_state()
