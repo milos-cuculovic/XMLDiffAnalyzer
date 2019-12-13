@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb9c6ab-d7fe-41ab-842e-aeeae293dce2" name="Default Changelist" comment="Added delta file path and size result">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExcelResults/XMLDiffAnalyser_results_1576148472.886969.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExcelResults/XMLDiffAnalyser_results_1576148577.6563132.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExcelResults/XMLDiffAnalyser_results_1576148817.9401898.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/XlsxWriter-1.2.6.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/XlsxWriter-1.2.6.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/XlsxWriter-1.2.6.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/XlsxWriter-1.2.6.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/XlsxWriter-1.2.6.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart_area.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart_bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart_column.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart_doughnut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart_line.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart_pie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart_radar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart_scatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chart_stock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/chartsheet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/comments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/compatibility.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/contenttypes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/custom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/drawing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/format.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/packager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/relationships.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/shape.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/sharedstrings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/styles.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/theme.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/utility.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/vml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/workbook.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/worksheet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/xlsxwriter/xmlwriter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Processor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XMLDiffAnalyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/XMLDiffAnalyzer.py" afterDir="false" />
     </list>
@@ -141,7 +100,7 @@
       <workItem from="1575971658524" duration="57000" />
       <workItem from="1575974120339" duration="16363000" />
       <workItem from="1576060136964" duration="1186000" />
-      <workItem from="1576069842486" duration="13779000" />
+      <workItem from="1576069842486" duration="21910000" />
     </task>
     <task id="LOCAL-00001" summary="Working example - initial time and memory monitor">
       <created>1575992472469</created>
@@ -178,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576142452267</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add excel writer for the results">
+      <created>1576148993200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576148993200</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,63 +157,65 @@
     <MESSAGE value="Changed time.sleep value to 0.0001 in order to increase precision" />
     <MESSAGE value="Added average_memory result variable" />
     <MESSAGE value="Added delta file path and size result" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added delta file path and size result" />
+    <MESSAGE value="Add excel writer for the results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add excel writer for the results" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="183" key="#Notifications" timestamp="1575971715164">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state x="560" y="183" key="#Notifications/0.23.1920.991@0.23.1920.991" timestamp="1575971715164" />
-    <state x="454" y="119" key="CommitChangelistDialog2" timestamp="1576142502376">
-      <screen x="0" y="23" width="1920" height="992" />
+    <state x="454" y="119" key="CommitChangelistDialog2" timestamp="1576149346213">
+      <screen x="0" y="23" width="1920" height="995" />
     </state>
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.988@0.23.1920.988" timestamp="1575992470432" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.991@0.23.1920.991" timestamp="1576079298372" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.992@0.23.1920.992" timestamp="1576142502376" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.994@0.23.1920.994" timestamp="1576140118209" />
+    <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.995@0.23.1920.995" timestamp="1576149346213" />
     <state width="790" height="466" key="DebuggerActiveHint" timestamp="1576071117427">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="790" height="466" key="DebuggerActiveHint/0.23.1920.989@0.23.1920.989" timestamp="1576071117427" />
-    <state width="1878" height="218" key="GridCell.Tab.0.bottom" timestamp="1576148815036">
-      <screen x="0" y="23" width="1920" height="996" />
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom" timestamp="1576242679029">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1878" height="330" key="GridCell.Tab.0.bottom/0.23.1920.988@0.23.1920.988" timestamp="1576071370876" />
     <state width="1878" height="315" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1576079975192" />
-    <state width="1878" height="315" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1576079317067" />
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1576242679029" />
     <state width="1878" height="206" key="GridCell.Tab.0.bottom/0.23.1920.992@0.23.1920.992" timestamp="1576142372665" />
-    <state width="1878" height="218" key="GridCell.Tab.0.bottom/0.23.1920.994@0.23.1920.994" timestamp="1576148063352" />
-    <state width="1878" height="218" key="GridCell.Tab.0.bottom/0.23.1920.995@0.23.1920.995" timestamp="1576148575147" />
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1920.994@0.23.1920.994" timestamp="1576150552136" />
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1920.995@0.23.1920.995" timestamp="1576149818710" />
     <state width="1878" height="218" key="GridCell.Tab.0.bottom/0.23.1920.996@0.23.1920.996" timestamp="1576148815036" />
-    <state width="1878" height="218" key="GridCell.Tab.0.center" timestamp="1576148815035">
-      <screen x="0" y="23" width="1920" height="996" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center" timestamp="1576242679028">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1878" height="330" key="GridCell.Tab.0.center/0.23.1920.988@0.23.1920.988" timestamp="1576071370875" />
     <state width="1878" height="315" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1576079975191" />
-    <state width="1878" height="315" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1576079317066" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1576242679028" />
     <state width="1878" height="206" key="GridCell.Tab.0.center/0.23.1920.992@0.23.1920.992" timestamp="1576142372664" />
-    <state width="1878" height="218" key="GridCell.Tab.0.center/0.23.1920.994@0.23.1920.994" timestamp="1576148063351" />
-    <state width="1878" height="218" key="GridCell.Tab.0.center/0.23.1920.995@0.23.1920.995" timestamp="1576148575146" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1920.994@0.23.1920.994" timestamp="1576150552135" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1920.995@0.23.1920.995" timestamp="1576149818709" />
     <state width="1878" height="218" key="GridCell.Tab.0.center/0.23.1920.996@0.23.1920.996" timestamp="1576148815035" />
-    <state width="1878" height="218" key="GridCell.Tab.0.left" timestamp="1576148815034">
-      <screen x="0" y="23" width="1920" height="996" />
+    <state width="1878" height="285" key="GridCell.Tab.0.left" timestamp="1576242679028">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1878" height="330" key="GridCell.Tab.0.left/0.23.1920.988@0.23.1920.988" timestamp="1576071370875" />
     <state width="1878" height="315" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1576079975190" />
-    <state width="1878" height="315" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1576079317065" />
+    <state width="1878" height="285" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1576242679028" />
     <state width="1878" height="206" key="GridCell.Tab.0.left/0.23.1920.992@0.23.1920.992" timestamp="1576142372664" />
-    <state width="1878" height="218" key="GridCell.Tab.0.left/0.23.1920.994@0.23.1920.994" timestamp="1576148063351" />
-    <state width="1878" height="218" key="GridCell.Tab.0.left/0.23.1920.995@0.23.1920.995" timestamp="1576148575145" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1920.994@0.23.1920.994" timestamp="1576150552134" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1920.995@0.23.1920.995" timestamp="1576149818708" />
     <state width="1878" height="218" key="GridCell.Tab.0.left/0.23.1920.996@0.23.1920.996" timestamp="1576148815034" />
-    <state width="1878" height="218" key="GridCell.Tab.0.right" timestamp="1576148815035">
-      <screen x="0" y="23" width="1920" height="996" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right" timestamp="1576242679028">
+      <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state width="1878" height="330" key="GridCell.Tab.0.right/0.23.1920.988@0.23.1920.988" timestamp="1576071370875" />
     <state width="1878" height="315" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1576079975192" />
-    <state width="1878" height="315" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1576079317066" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1576242679028" />
     <state width="1878" height="206" key="GridCell.Tab.0.right/0.23.1920.992@0.23.1920.992" timestamp="1576142372665" />
-    <state width="1878" height="218" key="GridCell.Tab.0.right/0.23.1920.994@0.23.1920.994" timestamp="1576148063351" />
-    <state width="1878" height="218" key="GridCell.Tab.0.right/0.23.1920.995@0.23.1920.995" timestamp="1576148575146" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right/0.23.1920.994@0.23.1920.994" timestamp="1576150552135" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right/0.23.1920.995@0.23.1920.995" timestamp="1576149818709" />
     <state width="1878" height="218" key="GridCell.Tab.0.right/0.23.1920.996@0.23.1920.996" timestamp="1576148815035" />
     <state width="1878" height="330" key="GridCell.Tab.1.bottom" timestamp="1576077609319">
       <screen x="0" y="23" width="1920" height="991" />
@@ -277,13 +245,14 @@
       <screen x="0" y="23" width="1920" height="988" />
     </state>
     <state x="461" y="156" key="SettingsEditor/0.23.1920.988@0.23.1920.988" timestamp="1576069894113" />
-    <state x="568" y="258" key="Vcs.Push.Dialog.v2" timestamp="1576142751095">
-      <screen x="0" y="23" width="1920" height="992" />
+    <state x="568" y="259" key="Vcs.Push.Dialog.v2" timestamp="1576148994829">
+      <screen x="0" y="23" width="1920" height="995" />
     </state>
     <state x="568" y="257" key="Vcs.Push.Dialog.v2/0.23.1920.988@0.23.1920.988" timestamp="1575992474496" />
     <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1576079307018" />
     <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.992@0.23.1920.992" timestamp="1576142751095" />
     <state x="568" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.994@0.23.1920.994" timestamp="1576140122860" />
+    <state x="568" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.995@0.23.1920.995" timestamp="1576148994829" />
     <state x="539" y="418" key="com.intellij.ide.util.TipDialog" timestamp="1576069871851">
       <screen x="0" y="23" width="1920" height="988" />
     </state>
@@ -315,6 +284,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/XMLDiffAnalyzer$XMLDiffAnalyzer.coverage" NAME="XMLDiffAnalyzer Coverage Results" MODIFIED="1576148815025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/XMLDiffAnalyzer$XMLDiffAnalyzer.coverage" NAME="XMLDiffAnalyzer Coverage Results" MODIFIED="1576242679020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
