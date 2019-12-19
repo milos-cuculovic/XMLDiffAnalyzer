@@ -26,13 +26,15 @@ class XMLDiffAnalyzer:
         excel_headers = [
             [0, 'A1', 'Tool'],
             [1, 'B1', 'Rounds'],
-            [2, 'C1', 'File orig'],
-            [3, 'D1', 'File modified'],
-            [4, 'E1', 'File delta'],
-            [5, 'F1', 'Average memory (MB)'],
+            [2, 'C1', 'Average memory (MB)'],
+            [3, 'D1', 'Max memory (MB)'],
+            [4, 'E1', 'File orig size KB)'],
+            [5, 'F1', 'File modified size KB)'],
             [6, 'G1', 'File delta size KB)'],
             [7, 'H1', 'Time (sec)'],
-            [8, 'I1', 'Max memory (MB)'],
+            [8, 'I1', 'File orig'],
+            [9, 'J1', 'File modified'],
+            [10, 'K1', 'File delta'],
         ]
 
         workbook = xlsxwriter.Workbook(ROOT_DIR + "/ExcelResults/XMLDiffAnalyser_results_" + str(datetime.today().strftime('%Y%m%d_%H%M%S')) + ".xlsx",
@@ -46,7 +48,7 @@ class XMLDiffAnalyzer:
 
         for excel_header in excel_headers:
             worksheet.write(excel_header[1], excel_header[2], header_format)
-        worksheet.set_column('A:I', 20)
+        worksheet.set_column('A:K', 20)
 
         if mode == "A":
             rounds_list = [1, 10, 100]
@@ -63,13 +65,15 @@ class XMLDiffAnalyzer:
                     index += 1
                     worksheet.write(index, excel_headers[0][0], str(tool[1]))
                     worksheet.write(index, excel_headers[1][0], rounds)
-                    worksheet.write(index, excel_headers[2][0], os.path.basename(files_orig[file_pair]))
-                    worksheet.write(index, excel_headers[3][0], os.path.basename(files_new[file_pair]))
-                    worksheet.write(index, excel_headers[4][0], os.path.basename(processor.file_delta))
-                    worksheet.write(index, excel_headers[5][0], processor.total_time)
-                    worksheet.write(index, excel_headers[6][0], processor.max_memory)
-                    worksheet.write(index, excel_headers[7][0], processor.average_memory)
-                    worksheet.write(index, excel_headers[8][0], processor.file_delta_size)
+                    worksheet.write(index, excel_headers[2][0], processor.average_memory)
+                    worksheet.write(index, excel_headers[3][0], processor.max_memory)
+                    worksheet.write(index, excel_headers[4][0], format((os.stat(files_orig[file_pair]).st_size) / (1024), '.2f'))
+                    worksheet.write(index, excel_headers[5][0], format((os.stat(files_new[file_pair]).st_size) / (1024), '.2f'))
+                    worksheet.write(index, excel_headers[6][0], processor.file_delta_size)
+                    worksheet.write(index, excel_headers[7][0], processor.total_time)
+                    worksheet.write(index, excel_headers[8][0], os.path.basename(files_orig[file_pair]))
+                    worksheet.write(index, excel_headers[9][0], os.path.basename(files_new[file_pair]))
+                    worksheet.write(index, excel_headers[10][0], os.path.basename(processor.file_delta))
 
                     print(tool[1] + " - file pair " + str(file_pair + 1))
                     # print("\t" + myCmd)    #For debug
@@ -104,10 +108,10 @@ if __name__ == '__main__':
 
         file_pairs = 0
         try:
-            while not int(file_pairs) in range(1, 20):
-                file_pairs = int(input("Enter the number of file pairs between 1 and 20 (default 1): ") or "1")
+            while not int(file_pairs) in range(1, 40):
+                file_pairs = int(input("Enter the number of file pairs between 1 and 40 (default 1): ") or "1")
         except ValueError:
-            print("Please provide a vaild number of file pairs from 1 to 20")
+            print("Please provide a vaild number of file pairs from 1 to 40")
 
         for file_pair in range(1, file_pairs + 1):
             try:

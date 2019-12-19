@@ -16,7 +16,7 @@ class ProcessTimer:
     self.t1 = None
     self.t0 = time.time()
     FNULL = open(os.devnull, 'w')
-    self.p = subprocess.Popen(self.command,shell=True, stdout=FNULL, stderr=subprocess.STDOUT)
+    self.p = subprocess.Popen(self.command, shell=True, stdout=FNULL, stderr=subprocess.PIPE)
     self.execution_state = True
 
   def poll(self):
