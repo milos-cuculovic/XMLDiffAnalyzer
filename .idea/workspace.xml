@@ -9,104 +9,11 @@
       <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/common-taskdefs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/common.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/contrib-helper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/contrib/jar/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/contrib/jar/junit-3.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/contrib/jar/xmlpull_1_1_3_4c.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/exclude" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/subproject.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/+depend/dependencies.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/Diff$NsPrefixGrabber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/Diff$NsPrefixInRootAdder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/Diff.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/GlMatcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/HashAlgorithm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/IoUtil$EventHasher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/IoUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/Patch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/Preamble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/Segment$Operation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/Segment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/benchmark/BenchMark$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/benchmark/BenchMark$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/benchmark/BenchMark$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/benchmark/BenchMark.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/benchmark/SynteticDirTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/benchmark/UseCases.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/AlignEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/DefaultPosTranformer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/DiffEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/ListOfMatchedEvents.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/ListPosTransformer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/PosTransformer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/RefTreeByIdEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/RefTreeEncoder$MultiXPath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/RefTreeEncoder$NumericXPath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/RefTreeEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/XmlDiffEncoder$RefEStoDiffES.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/encode/XmlDiffEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/test/DirTreeGenerator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/test/DirTreeGenerator$DirTreeModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/test/DirTreeGenerator$DirectoryEntry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/test/DirTreeGenerator$EntryDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/test/DirTreeGenerator$MutableRefTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/test/DirTreeGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/classes/fc/xml/diff/test/RootSuite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/=build/lib/xmldiff.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/Diff$NsPrefixGrabber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/Diff$NsPrefixInRootAdder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/Diff.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/GlMatcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/HashAlgorithm.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/IoUtil$EventHasher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/IoUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/Patch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/Preamble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/Segment$Operation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/Segment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/benchmark/BenchMark$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/benchmark/BenchMark$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/benchmark/BenchMark$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/benchmark/BenchMark.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/benchmark/SynteticDirTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/benchmark/UseCases.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/AlignEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/DefaultPosTranformer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/DiffEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/ListOfMatchedEvents.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/ListPosTransformer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/PosTransformer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/RefTreeByIdEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/RefTreeEncoder$MultiXPath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/RefTreeEncoder$NumericXPath.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/RefTreeEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/XmlDiffEncoder$RefEStoDiffES.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/encode/XmlDiffEncoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/test/DirTreeGenerator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/test/DirTreeGenerator$DirTreeModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/test/DirTreeGenerator$DirectoryEntry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/test/DirTreeGenerator$EntryDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/test/DirTreeGenerator$MutableRefTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/test/DirTreeGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/classes/fc/xml/diff/test/RootSuite.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/lib/xmldiff.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build/milos.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/contrib/fc-raxs-0.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/contrib/fc-util-0.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/contrib/fc-xas-0.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/out/artifacts/fc_xmldiff_jar/fc-xmldiff.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/XMLDiffTools/jxydiff.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Processor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XMLDiffAnalyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/XMLDiffAnalyzer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/java/xmldiff/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/site-html/howto-upload.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff/site-html/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +114,7 @@
       <workItem from="1576828775155" duration="768000" />
       <workItem from="1577716722441" duration="1923000" />
       <workItem from="1578047153369" duration="4462000" />
-      <workItem from="1578385884256" duration="3567000" />
+      <workItem from="1578385884256" duration="3798000" />
     </task>
     <task id="LOCAL-00001" summary="Working example - initial time and memory monitor">
       <created>1575992472469</created>
@@ -272,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576745675875</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added fc-xmldiff and code refactoring">
+      <created>1578391873257</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578391873257</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +203,8 @@
     <MESSAGE value="Code refactoring and added auto mode for 1, 10 and 100 rounds" />
     <MESSAGE value="Added multiple file comparison" />
     <MESSAGE value="Added more metrics to the output excel file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more metrics to the output excel file" />
+    <MESSAGE value="Added fc-xmldiff and code refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added fc-xmldiff and code refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="183" key="#Notifications" timestamp="1575971715164">
@@ -300,12 +215,12 @@
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="655" y="145" key="#XMLDiffAnalyzer/0.23.1920.989@0.23.1920.989" timestamp="1576746735257" />
-    <state x="454" y="119" key="CommitChangelistDialog2" timestamp="1576745675677">
+    <state x="454" y="119" key="CommitChangelistDialog2" timestamp="1578391872739">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.988@0.23.1920.988" timestamp="1575992470432" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.991@0.23.1920.991" timestamp="1576248830760" />
-    <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.992@0.23.1920.992" timestamp="1576745675677" />
+    <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.992@0.23.1920.992" timestamp="1578391872739" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.994@0.23.1920.994" timestamp="1576140118209" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.995@0.23.1920.995" timestamp="1576149346213" />
     <state width="808" height="468" key="DebuggerActiveHint" timestamp="1576247433842">
@@ -393,12 +308,12 @@
       <screen x="0" y="23" width="1920" height="988" />
     </state>
     <state x="461" y="156" key="SettingsEditor/0.23.1920.988@0.23.1920.988" timestamp="1576069894113" />
-    <state x="568" y="258" key="Vcs.Push.Dialog.v2" timestamp="1576745679182">
+    <state x="568" y="258" key="Vcs.Push.Dialog.v2" timestamp="1578391879758">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
     <state x="568" y="257" key="Vcs.Push.Dialog.v2/0.23.1920.988@0.23.1920.988" timestamp="1575992474496" />
     <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1576248832499" />
-    <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.992@0.23.1920.992" timestamp="1576745679182" />
+    <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.992@0.23.1920.992" timestamp="1578391879758" />
     <state x="568" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.994@0.23.1920.994" timestamp="1576140122860" />
     <state x="568" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.995@0.23.1920.995" timestamp="1576148994829" />
     <state x="539" y="418" key="com.intellij.ide.util.TipDialog" timestamp="1576069871851">
