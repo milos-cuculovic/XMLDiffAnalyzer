@@ -3,6 +3,8 @@ Python tool for analyzing recent XML Diff algorithm implementations
 * xydiff
 * jndiff
 * diffxml
+* jxydiff
+* fc-xmldiff
 * xcc
 * node-delta
 * deltaXML
