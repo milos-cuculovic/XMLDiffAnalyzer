@@ -1,15 +1,17 @@
 class XMLDiffAnalyzer:
     def __init__(self):
         self.tools = [
-            ["", "xydiff", "xydiff ", " ", ""],
-            ["java -jar ", "jndiff", "jndiff/jndiff-ui.jar -d ", " ", ""],
-            ["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " ", ""],
+            ["", "xydiff", "xydiff ", " "],
+            ["java -jar ", "jndiff", "jndiff/jndiff-ui.jar -d ", " "],
+            ["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " "],
+            ["java -jar ", "jxydiff", "jxydiff.jar ", " ", " "],
+            ["ant -buildfile ", "fc-xmldiff", "fc-xmldiff/java/xmldiff/build.xml -Dbase=", " -Dnew=", " -Ddiff=", " diff"],
             ["java -jar ", "xcc", "xcc-java-0.90.jar --diff --doc ", " --changed ", " --delta "],
-            ["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " ", ""],
+            ["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " "],
             ["java -jar ", "deltaXML", "deltaXML/command-10.1.2.jar compare delta ", " ", " "],
-            ["", "xmldiff", "xmldiff_bin -f xml ", " ", ""], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
-            ["", "xdiff", "xdiff -left ", " -right ", ""],
-            ["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
+            ["", "xmldiff", "xmldiff_bin -f xml ", " "], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
+            ["", "xdiff", "xdiff -left ", " -right ", "", " "],
+            ["java -jar ", "xop", "xop.jar -script on ", " - "],
             ["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "]
         ]
 

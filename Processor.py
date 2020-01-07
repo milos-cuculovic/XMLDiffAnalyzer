@@ -28,12 +28,18 @@ class Processor:
 
         first_round = True
         for round in range(0, self.rounds):
-            if self.tool[4] != "":
-                myCmd += self.tool[4] + file_delta
-            elif first_round:
-                myCmd += " > " + file_delta
-                first_round = False
+            if len(self.tool) > 4:
+                if self.tool[4] != "":
+                    myCmd += self.tool[4] + file_delta
+                elif first_round:
+                    myCmd += " > " + file_delta
+                    first_round = False
 
+            if len(self.tool) > 5:
+                if self.tool[5] != "":
+                    myCmd += self.tool[5]
+
+            print(myCmd)
             ptimer = ProcessTimer.ProcessTimer(myCmd)
 
             try:
