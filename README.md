@@ -17,3 +17,4 @@ Python tool for analyzing XML Diff algorithm implementations
 In order to have the tool working, the following pip extensions are needed:
 * pip install xlsxwriter 
 * pip install psutil
+* pip install termcolor
