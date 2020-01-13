@@ -1,5 +1,5 @@
 # XMLDiffAnalyzer
-Python tool for analyzing recent XML Diff algorithm implementations
+Python tool for analyzing XML Diff algorithm implementations
 * xydiff
 * jndiff
 * diffxml
@@ -10,6 +10,7 @@ Python tool for analyzing recent XML Diff algorithm implementations
 * deltaXML
 * xmldiff
 * xdiff
+* xdiff-go
 * xop
 * diffmk
 
