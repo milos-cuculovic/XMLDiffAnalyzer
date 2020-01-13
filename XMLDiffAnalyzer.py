@@ -8,9 +8,10 @@ class XMLDiffAnalyzer:
             ["ant -buildfile ", "fc-xmldiff", "fc-xmldiff/java/xmldiff/build.xml -Dbase=", " -Dnew=", " -Ddiff=", " diff"],
             ["java -jar ", "xcc", "xcc-java-0.90.jar --diff --doc ", " --changed ", " --delta "],
             ["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " "],
-            #["java -jar ", "deltaXML", "deltaXML/command-10.1.2.jar compare delta ", " ", " "],
+            ["java -jar ", "deltaXML", "deltaXML/command-10.1.2.jar compare delta ", " ", " "],
             ["", "xmldiff", "xmldiff_bin -f xml ", " "], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
-            ["", "xdiff", "xdiff -left ", " -right ", ""],
+            ["", "xdiff", "xdiff ", " ", " "],
+            ["", "xdiff-go", "XDiff-go -left ", " -right ", ""],
             ["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
             ["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "]
         ]
@@ -85,6 +86,7 @@ class XMLDiffAnalyzer:
                     print("\tFile delta:")
                     print("\t\tPath: " + processor.file_delta)
                     print("\t\tSize: ", str(processor.file_delta_size) + " KB")
+                    print("")
 
         workbook.close()
 
@@ -118,7 +120,7 @@ if __name__ == '__main__':
         for file_pair in range(1, file_pairs + 1):
             try:
                 input_file_orig = input("Enter the full path of the original XML file pair " + str(file_pair) +": ") \
-                                  or "/Users/miloscuculovic/XML_Diff_tools_material/Originals/article_min.xml"
+                                  or "/Users/miloscuculovic/XML_Diff_tools_material/Originals/article_full.xml"
             except ValueError:
                 print("Please provide a vaild original XML file path")
 
@@ -131,7 +133,7 @@ if __name__ == '__main__':
 
             try:
                 input_file_new = input("Enter the full path of the modified XML file pair " + str(file_pair) + ": ") \
-                                 or "/Users/miloscuculovic/XML_Diff_tools_material/TextEdits/text_edit_delete/article_min_text_edit_delete.xml"
+                                 or "/Users/miloscuculovic/XML_Diff_tools_material/TextEdits/text_edit_delete/article_full_text_edit_delete.xml"
             except ValueError:
                 print("Please provide a vaild modified XML file path")
             try:
