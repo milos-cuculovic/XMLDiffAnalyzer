@@ -3,17 +3,17 @@ class XMLDiffAnalyzer:
         self.tools = [
             ["", "xydiff", "xydiff ", " "],
             ["java -jar ", "jndiff", "jndiff/jndiff-ui.jar -d ", " "],
-            ["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " "],
             ["java -jar ", "jxydiff", "jxydiff.jar ", " ", " "],
             ["ant -buildfile ", "fc-xmldiff", "fc-xmldiff/java/xmldiff/build.xml -Dbase=", " -Dnew=", " -Ddiff=", " diff"],
             ["java -jar ", "xcc", "xcc-java-0.90.jar --diff --doc ", " --changed ", " --delta "],
             ["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " "],
-            ["java -jar ", "deltaXML", "deltaXML/command-10.1.2.jar compare delta ", " ", " "],
+            #["java -jar ", "deltaXML", "deltaXML/command-10.1.2.jar compare delta ", " ", " "], #License needed
             ["", "xmldiff", "xmldiff_bin -f xml ", " "], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
+            ["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
+            ["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "],
             ["", "xdiff", "xdiff ", " ", " "],
             ["", "xdiff-go", "XDiff-go -left ", " -right ", ""],
-            ["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
-            ["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "]
+            ["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " "]
         ]
 
     def start(self, mode, rounds, file_pairs, files_orig, files_new, file_delta_dir):
@@ -31,9 +31,9 @@ class XMLDiffAnalyzer:
             [1, 'B1', 'Rounds'],
             [2, 'C1', 'Average memory (MB)'],
             [3, 'D1', 'Max memory (MB)'],
-            [4, 'E1', 'File orig size KB)'],
-            [5, 'F1', 'File modified size KB)'],
-            [6, 'G1', 'File delta size KB)'],
+            [4, 'E1', 'File orig size (KB)'],
+            [5, 'F1', 'File modified size (KB)'],
+            [6, 'G1', 'File delta size (KB)'],
             [7, 'H1', 'Time (sec)'],
             [8, 'I1', 'File orig'],
             [9, 'J1', 'File modified'],

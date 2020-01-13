@@ -1,6 +1,9 @@
 import os
 import ProcessTimer
 import time
+from termcolor import colored
+import os.path
+from os import path
 
 class Processor:
     def __init__(self,ROOT_DIR,tool,rounds,file_pair,file_orig,file_new,file_delta_dir):
@@ -57,5 +60,9 @@ class Processor:
         self.total_time = format(total_time, '.2f')
         self.max_memory = format((max_memory) / (1024 * 1024), '.3f')
         self.average_memory = format((sum(average_memories) / len(average_memories)) / (1024 * 1024), '.3f')
-        self.file_delta_size = format((os.stat(file_delta).st_size) / (1024), '.2f')
         self.file_delta = file_delta
+        if(path.exists(file_delta)):
+            self.file_delta_size = format((os.stat(file_delta).st_size) / (1024), '.2f')
+        else:
+            self.file_delta_size = 0
+            print(colored("!!ATTENTION!! Delta file not created! !!ATTENTION!! ", "red"))
