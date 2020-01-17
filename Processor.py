@@ -37,6 +37,9 @@ class Processor:
                 elif first_round:
                     myCmd += " > " + file_delta
                     first_round = False
+            elif first_round:
+                myCmd += " > " + file_delta
+                first_round = False
 
             if len(self.tool) > 5:
                 if self.tool[5] != "":

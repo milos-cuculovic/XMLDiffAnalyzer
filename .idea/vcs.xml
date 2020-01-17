@@ -3,7 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/XMLDiffTools/diffmk" vcs="" />
-    <mapping directory="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/XMLDiffTools/fc-xmldiff" vcs="" />
     <mapping directory="$PROJECT_DIR$/XMLDiffTools/node-delta" vcs="Git" />
   </component>
 </project>

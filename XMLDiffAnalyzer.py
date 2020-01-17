@@ -120,7 +120,7 @@ if __name__ == '__main__':
         for file_pair in range(1, file_pairs + 1):
             try:
                 input_file_orig = input("Enter the full path of the original XML file pair " + str(file_pair) +": ") \
-                                  or "/Users/miloscuculovic/XML_Diff_tools_material/Originals/article_full.xml"
+                                  or "/Users/miloscuculovic/XML_Diff_tools_material/Originals/article_min.xml"
             except ValueError:
                 print("Please provide a vaild original XML file path")
 
@@ -133,7 +133,7 @@ if __name__ == '__main__':
 
             try:
                 input_file_new = input("Enter the full path of the modified XML file pair " + str(file_pair) + ": ") \
-                                 or "/Users/miloscuculovic/XML_Diff_tools_material/TextEdits/text_edit_delete/article_full_text_edit_delete.xml"
+                                 or "/Users/miloscuculovic/XML_Diff_tools_material/TreeEdits/tree_edit_delete/article_min_tree_edit_delete.xml"
             except ValueError:
                 print("Please provide a vaild modified XML file path")
             try:
