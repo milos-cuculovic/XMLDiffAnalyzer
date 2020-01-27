@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="review-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">remotesensing</journal-id>
+      <journal-title-group>
+        <journal-title>Remote Sensing</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Remote Sens.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Remote Sensing</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2072-4292</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/rs10040641</article-id>
+      <article-id pub-id-type="publisher-id">remotesensing-10-00641</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Review</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>On the Use of Unmanned Aerial Systems for Environmental Monitoring</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1279-5272</contrib-id>
+          <name>
+            <surname>McCabe</surname>
+            <given-names>Matthew F.</given-names>
+          </name>
+          <xref rid="af2-remotesensing-10-00641" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4157-3994</contrib-id>
+          <name>
+            <surname>Miller</surname>
+            <given-names>Pauline E.</given-names>
+          </name>
+          <xref rid="af3-remotesensing-10-00641" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lucas</surname>
+            <given-names>Richard</given-names>
+          </name>
+          <xref rid="af4-remotesensing-10-00641" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6823-9443</contrib-id>
+          <name>
+            <surname>Pajuelo Madrigal</surname>
+            <given-names>Victor</given-names>
+          </name>
+          <xref rid="af5-remotesensing-10-00641" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7123-5358</contrib-id>
+          <name>
+            <surname>Mallinis</surname>
+            <given-names>Giorgos</given-names>
+          </name>
+          <xref rid="af6-remotesensing-10-00641" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1485-8908</contrib-id>
+          <name>
+            <surname>Toth</surname>
+            <given-names>Brigitta</given-names>
+          </name>
+          <xref rid="af20-remotesensing-10-00641" ref-type="aff">20</xref>
+          <xref rid="af21-remotesensing-10-00641" ref-type="aff">21</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-remotesensing-10-00641"><label>1</label>Dipartimento delle Culture Europee e del Mediterraneo: Architettura, Ambiente, Patrimoni Culturali (DiCEM), Universita degli Studi della Basilicata, 75100 Matera, Italy</aff>
+      <aff id="af2-remotesensing-10-00641"><label>2</label>Water Desalination and Reuse Center, King Abdullah University of Science and Technology, 23955 Thuwal, Saudi Arabia</aff>
+      <aff id="af3-remotesensing-10-00641"><label>3</label>The James Hutton Institute, Aberdeen AB15 8QH, UK</aff>
+      <aff id="af4-remotesensing-10-00641"><label>4</label>Department of Geography and Earth Sciences, Aberystwyth University, Aberystwyth, Ceredigion SY23 3DB, UK</aff>
+      <aff id="af5-remotesensing-10-00641"><label>5</label>Svarmi ehf., &#xC1;rleyni 22, 112 Reykjav&#xED;k, Iceland</aff>
+      <aff id="af6-remotesensing-10-00641"><label>6</label>Department of Forestry and Management of the Environment and Natural Resources, Democritus University of Thrace, 67100 Xanthi, Greece</aff>
+      <aff id="af7-remotesensing-10-00641"><label>7</label>Department of Geography and Human Environment, Tel Aviv University (TAU), Tel Aviv 6997801, Israel</aff>
+      <aff id="af8-remotesensing-10-00641"><label>8</label>Department of Geography and the Environment, Bar-Ilan University, Ramat Gan 52900, Israel</aff>
+      <aff id="af9-remotesensing-10-00641"><label>9</label>Graduate School of Geography, Clark University, Worcester, MA 01610, USA</aff>
+      <aff id="af10-remotesensing-10-00641"><label>10</label>Dipartimento di Ingegneria Civile, Ambientale, Aerospaziale, dei Materiali, University of Palermo, 90128 Palermo, Italy</aff>
+      <aff id="af11-remotesensing-10-00641"><label>11</label>Department GIS and Remote Sensing, Institute of Botany, The Czech Acad. Sciences, 252 43 Pr&#x16F;honice, Czech Republic</aff>
+      <aff id="af12-remotesensing-10-00641"><label>12</label>Centro per l&#x2019;Innovazione Tecnologica e lo Sviluppo del Territorio (CINTEST), Universita degli Studi della Tuscia, 01100 Viterbo, Italy</aff>
+      <aff id="af13-remotesensing-10-00641"><label>13</label>Marine and Environmental Sciences Centre, Department of Civil Engineering, University of Coimbra, 3000-370 Coimbra, Portugal</aff>
+      <aff id="af14-remotesensing-10-00641"><label>14</label>Research Group of Hydrological and Environmental Modelling (GIHMA), Research Institute of Water and Environmental Engineering, Universidad Politecnica de Valencia, 46022 Val&#xE8;ncia, Spain</aff>
+      <aff id="af15-remotesensing-10-00641"><label>15</label>Department of Geography, University of California, Santa Barbara, CA 93106-3060, USA</aff>
+      <aff id="af16-remotesensing-10-00641"><label>16</label>Department of Geology, University of Tartu, 50090 Tartu, Estonia</aff>
+      <aff id="af17-remotesensing-10-00641"><label>17</label>School of Geography, Politics and Sociology, Newcastle University, Newcastle upon Tyne NE1 7RU, UK</aff>
+      <aff id="af18-remotesensing-10-00641"><label>18</label>Department of Crop Production Ecology, Swedish University of Agricultural Sciences (SLU), 750 07 Uppsala, Sweden</aff>
+      <aff id="af19-remotesensing-10-00641"><label>19</label>Department of Water Resources in Faculty of Geo-Information and Earth Observation, University of Twente, 7522 NB Enschede, The Netherlands</aff>
+      <aff id="af20-remotesensing-10-00641"><label>20</label>Institute for Soil Sciences and Agricultural Chemistry, Centre for Agricultural Research, Hungarian Academy of Sciences, H-1022 Budapest, Hungary</aff>
+      <aff id="af21-remotesensing-10-00641"><label>21</label>Department of Crop Production and Soil Science, University of Pannonia, 8360 Keszthely, Hungary</aff>
+      <author-notes>
+        <corresp id="c1-remotesensing-10-00641"><label>*</label>Correspondence: <email>salvatore.Manfreda@unibas.it</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>20</day>
+        <month>04</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>04</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>4</issue>
+      <elocation-id>641</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>03</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>04</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2018 by the authors.</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Environmental monitoring plays a central role in diagnosing climate and management impacts on natural and agricultural systems; enhancing the understanding of hydrological processes; optimizing the allocation and distribution of water resources; and assessing, forecasting, and even preventing natural disasters. Nowadays, most monitoring and data collection systems are based upon a combination of ground-based measurements, manned airborne sensors, and satellite observations. These data are utilized in describing both small- and large-scale processes, but have spatiotemporal constraints inherent to each respective collection system. Bridging the unique spatial and temporal divides that limit current monitoring platforms is key to improving our understanding of environmental systems. In this context, Unmanned Aerial Systems (UAS) have considerable potential to radically improve environmental monitoring. UAS-mounted sensors offer an extraordinary opportunity to bridge the existing gap between field observations and traditional air- and space-borne remote sensing, by providing high spatial detail over relatively large areas in a cost-effective way and an entirely new capacity for enhanced temporal retrieval. As well as showcasing recent advances in the field, there is also a need to identify and understand the potential limitations of UAS technology. For these platforms to reach their monitoring potential, a wide spectrum of unresolved issues and application-specific challenges require focused community attention. Indeed, to leverage the full potential of UAS-based approaches, sensing technologies, measurement protocols, postprocessing techniques, retrieval algorithms, and evaluation techniques need to be harmonized. The aim of this paper is to provide an overview of the existing research and applications of UAS in natural and agricultural ecosystem monitoring in order to identify future directions, applications, developments, and challenges.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>UAS</kwd>
+        <kwd>remote sensing</kwd>
+        <kwd>environmental monitoring</kwd>
+        <kwd>precision agriculture</kwd>
+        <kwd>vegetation indices</kwd>
+        <kwd>soil moisture</kwd>
+        <kwd>river monitoring</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-remotesensing-10-00641" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Despite the recent and rapid increase in the number and range of Earth observing satellites [<xref ref-type="bibr" rid="B1-remotesensing-10-00641">1</xref>,<xref ref-type="bibr" rid="B2-remotesensing-10-00641">2</xref>,<xref ref-type="bibr" rid="B3-remotesensing-10-00641">3</xref>], the temporal resolution and availability of current very high spatial resolution satellite sensors (less than 10 m) are generally not sufficient nor flexible enough for many quantitative remote sensing applications, and they are thus of limited use in detecting and monitoring the dynamics of surficial environmental processes. Recent advances in Earth observation (i.e., EO) are opening new opportunities for environmental monitoring at finer scales [<xref ref-type="bibr" rid="B4-remotesensing-10-00641">4</xref>]. For instance, CubeSat platforms represent a promising satellite technology, operating predominantly in the visible to near-infrared portion of the electromagnetic spectrum, and provide high spatial and temporal resolution [<xref ref-type="bibr" rid="B5-remotesensing-10-00641">5</xref>]. Nevertheless, most of these satellites are operated by commercial organizations; hence, if short revisit times are required (i.e., for high-frequency monitoring), the cost of image acquisition can become a limiting factor. While manned airborne platforms can, in principle, provide both high spatial resolution and rapid revisit times, in practice, their use is routinely limited by operational complexity, safety, logistics, and cost. Their use becomes feasible only over medium-sized areas and remains largely within the domain of commercial operators. Recent advances in Unmanned Aerial Systems (UAS) technology have created an alternative monitoring platform that provides an opportunity to capture the spatial, spectral, and temporal requirements across a range of applications with relatively small investment. They offer high versatility, adaptability, and flexibility compared with manned airborne systems or satellites, and have the potential to be rapidly and repeatedly deployed for high spatial and temporal resolution data [<xref ref-type="bibr" rid="B6-remotesensing-10-00641">6</xref>].</p>
+      <p>While UAS systems cannot compete with satellite imagery in terms of spatial coverage, they provide unprecedented spatial and temporal resolutions unmatched by satellite alternatives. Furthermore, they do so at a fraction of the satellite acquisition cost if the area of interest has relatively small extent. For example, a newly tasked high-resolution natural color image (50 cm/pixel) from a satellite (e.g., GeoEye-1) can cost up to 3000 USD. On the other hand, the initial outlay to acquire a single UAS with a natural color camera can be less than 1000 USD (see <xref ref-type="app" rid="app1-remotesensing-10-00641">Appendix A</xref>), with this delivering a dataset of high spatial resolution (several cm/pixel). Of course, the additional benefit of the UAS platform is that the temporal resolution is limited only by the number of flights (and power supply/battery capacity), so any cost equivalence is quickly overcome due to repeatability. The costs for acquiring UAS imagery are usually derived from the initial investment, the processing software, data storage, and associated (and ongoing) fieldwork expenses. However, after the initial investment, datasets can be delivered more often and at a higher resolution than by any other EO system.</p>
+      <p>Matese et al. [<xref ref-type="bibr" rid="B7-remotesensing-10-00641">7</xref>] provided an intercomparison of the acquisition and processing costs of three different platforms (UAS, Aircraft, and Satellite). Their cost model parametrization allows the derivation of the relative cost for the different configurations, showing that UAS is the most cost-effective solution for fields of an extent equal to or less than 20 ha. Their quantitative analyses showed that the approximate total cost of a UAS-derived Normalized Difference Vegetation Index (NDVI) map over a 5 ha field is equal to 400 &#x20AC;/ha, while satellite products may cost about 30% more.</p>
+      <p>A cost&#x2013;benefit analysis for monitoring and maintaining parks facilities, such as the Deleo Regional Sports Park, identified a clear economical convenience in the use of UAS for an area with an extent of approximately 10 ha [<xref ref-type="bibr" rid="B8-remotesensing-10-00641">8</xref>]. Of course, the theoretical limit for such economic convenience may be affected by several parameters (e.g., type of vehicle, sensors adopted, frequency of flights, and postprocessing) and this may lead to a nonunique result, but there is a general coherence in the literature that tends to identify such a limit in a lower bound between 10 and 20 ha. Over larger areas, acquisition, georeferencing, and orthorectification costs impact negatively on the economic costs of UAS-derived images.</p>
+      <p>Of course, it is not an equivalent assessment to compare these platforms on an image-by-image basis, as it is the spatiotemporal richness of the UAS systems that makes their application so transformative. Beyond allowing the high spatial and temporal resolutions needed for many applications, UAS-mounted sensors have several additional advantages which are key across a range of applications. First, they provide rapid access to environmental data, offering the near real-time capabilities required in many applications. The most mature of these is the capacity to share orthomosaic and elevation data, using both commercial and open-source alternatives [<xref ref-type="bibr" rid="B9-remotesensing-10-00641">9</xref>]. Second, UAS satisfy safety requirements and accessibility issues for inspection of otherwise inaccessible sites or for hazard detection and monitoring [<xref ref-type="bibr" rid="B10-remotesensing-10-00641">10</xref>]. Third, the great advantage of UAS is their capacity to collect data in cloudy or hazy conditions that would otherwise obscure satellite retrieval. Analysis of meteorological data has shown that, even with daily revisits of Earth observation satellites, the probability of operating a monitoring service based on optical satellite imagery in rainy regions is about 20%, while the probability of obtaining a usable image with UAS is between 45 and 70% [<xref ref-type="bibr" rid="B11-remotesensing-10-00641">11</xref>]. Perhaps most importantly, operations with UAS are not limited to specific hours (as with sun-synchronous satellite sensors), and, thus, UAS can be used for continuous environmental monitoring.</p>
+      <p>These aforementioned capabilities, together with the increasing variety and affordability of both UAS and sensor technologies, have stimulated an explosion of interest from researchers across numerous domains [<xref ref-type="bibr" rid="B12-remotesensing-10-00641">12</xref>,<xref ref-type="bibr" rid="B13-remotesensing-10-00641">13</xref>,<xref ref-type="bibr" rid="B14-remotesensing-10-00641">14</xref>,<xref ref-type="bibr" rid="B15-remotesensing-10-00641">15</xref>,<xref ref-type="bibr" rid="B16-remotesensing-10-00641">16</xref>]. Among others, Singh and Frazier [<xref ref-type="bibr" rid="B17-remotesensing-10-00641">17</xref>] provided a detailed meta-analysis on published articles highlighting the diversity of UAS processing procedures, clearly identifying the critical need for a harmonization and standardization among the many possible strategies to acquire and preprocess data to derive UAS-based products.</p>
+      <p>The dynamic nature and spatial variability of environmental processes that occur at very fine scales require data of an equivalent high spatial and temporal resolution. For successful and efficient monitoring, timely data are necessary, and high flexibility makes the UAS imagery ideal for the task. Specific timing and frequent acquisition of data at very fine scales also enables targeted monitoring of rapid (interannual) changes of environmental features, including plant phenology and growth, extreme events, and hydrological processes. For these reasons, environmental studies were among the first civil applications of the technology in 1990s. Thanks to the significant cost reduction of both vehicles and sensors, and recent developments in data processing software, UAS applications have expanded rapidly in the last decade, stimulating a number of additional and complementary topics spanning full automation of single or multiple vehicles, tracking and flight control systems, hardware and software innovations, tracking of moving targets, and image correction and mapping performance assessment. The growing interest in those applications is reflected in the number of UAS-based research papers published over the last 27 years, with a focus on those being directed towards environmental monitoring (based on a search of the ISI (Internation Scientific Indexing)-web of knowledge using the keywords &#x201C;UAS&#x201D; or &#x201C;UAV&#x201D;, and &#x201C;environment&#x201D;). In particular, the number of applications has seen a particularly prominent increase over the last five years (<xref ref-type="fig" rid="remotesensing-10-00641-f001">Figure 1</xref>).</p>
+      <p>In addition to the increasing availability of UAS, recent advances in sensor technologies and analytical capabilities are rapidly expanding the number of potential UAS applications. Increasing miniaturization allows multispectral, hyperspectral, and thermal imaging, as well as Synthetic Aperture Radar (SAR) and LiDAR (Light Detection and Ranging) sensing to be conducted from UAS. As examples of recent UAS-based environmental monitoring applications, work has focused on (a) land cover mapping [<xref ref-type="bibr" rid="B18-remotesensing-10-00641">18</xref>,<xref ref-type="bibr" rid="B19-remotesensing-10-00641">19</xref>]; (b) vegetation state, phenology, and health [<xref ref-type="bibr" rid="B20-remotesensing-10-00641">20</xref>,<xref ref-type="bibr" rid="B21-remotesensing-10-00641">21</xref>]; (c) precision farming/agriculture [<xref ref-type="bibr" rid="B22-remotesensing-10-00641">22</xref>,<xref ref-type="bibr" rid="B23-remotesensing-10-00641">23</xref>,<xref ref-type="bibr" rid="B24-remotesensing-10-00641">24</xref>]; (d) monitoring crop growth, and invasive species infestation [<xref ref-type="bibr" rid="B25-remotesensing-10-00641">25</xref>,<xref ref-type="bibr" rid="B26-remotesensing-10-00641">26</xref>]; (e) atmospheric observations [<xref ref-type="bibr" rid="B27-remotesensing-10-00641">27</xref>]; (f) disaster mapping [<xref ref-type="bibr" rid="B28-remotesensing-10-00641">28</xref>]; (g) soil erosion [<xref ref-type="bibr" rid="B29-remotesensing-10-00641">29</xref>,<xref ref-type="bibr" rid="B30-remotesensing-10-00641">30</xref>]; (h) mapping soil surface characteristics [<xref ref-type="bibr" rid="B31-remotesensing-10-00641">31</xref>,<xref ref-type="bibr" rid="B32-remotesensing-10-00641">32</xref>]; and (i) change detection [<xref ref-type="bibr" rid="B33-remotesensing-10-00641">33</xref>].</p>
+      <p>Given the research and technological advances in recent years and the rapidly evolving landscape with respect to UAS applications, the aim of this paper is to review the current state of the art in the field of UAS applications for environmental monitoring, with a particular focus on hydrological variables, such as vegetation conditions, soil properties and moisture, overland flow, and streamflow. This review provides a common shared knowledge framework that can be used to guide and address the future activities of the international research network. We divide our review into three sections that focus on different (but related) aspects of UAS-based environmental monitoring: (1) data collection and processing; (2) monitoring natural and agricultural ecosystems; and (3) monitoring river systems. We conclude by summarizing current and emerging issues, potential roadblocks, and other challenges in further advancing the application of UAS in environmental monitoring.</p>
+    </sec>
+    <sec id="sec2-remotesensing-10-00641">
+      <title>2. Data Collection, Processing, and Limitations</title>
+      <p>While offering an unprecedented platform to advance spatiotemporal insights across the Earth and environmental sciences, UAS are not without their own operational, processing, and retrieval problems. These range from image blur due to the forward motion of the platform [<xref ref-type="bibr" rid="B34-remotesensing-10-00641">34</xref>], resolution impacts due to variable flying height, orthorectification issues and geometric distortion associated with inadequate image overlap [<xref ref-type="bibr" rid="B35-remotesensing-10-00641">35</xref>], and the spectral effects induced by variable illumination during flight. These and other factors can all affect the subsequent quality of any orthorectified image and, subsequently, the derived products. These are well described in a recent review paper by Whitehead and Hugenholtz [<xref ref-type="bibr" rid="B13-remotesensing-10-00641">13</xref>]. As such, it is essential to consider best practice in the context of (a) mission and flight planning; (b) preflight camera/sensor configuration; (c) in-flight data collection; (d) ground control/ radiometric calibration and correction; (e) geometric and atmospheric corrections; (f) orthorectification and image mosaicking; and (g) extracting relevant products/metrics for remote sensing application. Items (a) and (b) are preflight tasks, (c) and (d) are conducted in the field at the time of survey, and (e)&#x2013;(g) are postsurvey tasks. Together, these aspects are crucial to data acquisition and postprocessing, which deliver the necessary starting point for subsequent application-specific analysis. However, despite the existence of well-established workflows in photogrammetry, manned aircraft, and satellite-based remote sensing to address such fundamental aspects, UAS systems introduce various additional complexities, which to date have not been thoroughly addressed. Consequently, best practice workflows for producing high-quality remote sensing products from UAS are still lacking, and further studies that focus on validating UAS-collected measurements with robust processing methods are important for improving the final quality of the processed data [<xref ref-type="bibr" rid="B36-remotesensing-10-00641">36</xref>,<xref ref-type="bibr" rid="B37-remotesensing-10-00641">37</xref>].</p>
+      <sec id="sec2dot1-remotesensing-10-00641">
+        <title>2.1. Preflight Planning</title>
+        <p>Flight or mission planning is the first essential step for UAS data acquisition and has a profound impact on the data acquired and the processing workflow. Similar to other remote sensing approaches, a host of parameters must be considered before the actual flight, such as platform specifications, the extent of the study site (area-of-interest), ground sampling distance, payload characteristics, topography of the study site, goals of the study, meteorological forecasts, and local flight regulations. UAS have additional aspects that require further consideration, including the skill level of the pilot, platform characteristics, and actual environmental flight conditions&#x2014;all of which affect the data characteristics and subsequent phases of processing.</p>
+        <p>Due to the proliferation of low-cost, off-the-shelf digital cameras, photogrammetry has been the primary implementation of UAS. James and Robson [<xref ref-type="bibr" rid="B38-remotesensing-10-00641">38</xref>] highlighted how unresolved elements of the camera model (lens distortion) can propagate as errors in UAS-DEMs (derived digital elevation models), and how this can be addressed by incorporating oblique images. Other studies have highlighted the importance of flight line configurations [<xref ref-type="bibr" rid="B39-remotesensing-10-00641">39</xref>], as well as minimizing image blur [<xref ref-type="bibr" rid="B34-remotesensing-10-00641">34</xref>]. There is a need to consolidate this evidence to develop best practice guidance for optimizing UAS SfM (structure-from-motion) measurement quality, whilst maintaining ease of use and accessibility.</p>
+        <p>Accurate absolute orientation (georeferencing) is an important element for UAS surveys, and is fundamental for any multitemporal monitoring or comparison to other datasets. This task is often referred to as registration, and is conventionally dependent on establishing ground control points (GCPs) which are fixed by a higher-order control method (usually Global Navigation Satellite System&#x2014;GNSS or Global Positioning System). A number of studies have examined the effect of GCP networks (number and distribution) in UAS surveys, showing that significant errors are expected in SfM-based products where GCPs are not adopted [<xref ref-type="bibr" rid="B39-remotesensing-10-00641">39</xref>,<xref ref-type="bibr" rid="B40-remotesensing-10-00641">40</xref>]. Nevertheless, systematic DEM error can be significantly reduced by including properly defined GCPs [<xref ref-type="bibr" rid="B41-remotesensing-10-00641">41</xref>] or incorporating oblique images in the absence of GCP [<xref ref-type="bibr" rid="B38-remotesensing-10-00641">38</xref>].</p>
+        <p>Best practice can also be drawn from manned aerial photogrammetry. Direct georeferencing is standard practice in aerial photogrammetry, where the position and orientation of the platform are precisely determined using on-board survey-grade differential GNSS and inertial measurement unit (IMU) data combined through an inertial navigation system (INS) [<xref ref-type="bibr" rid="B42-remotesensing-10-00641">42</xref>]. This allows the camera station (exposure) position and orientation to be derived directly, thus eliminating or minimizing the need for ground control points. Therefore, as discussed by Colomina and Molina [<xref ref-type="bibr" rid="B35-remotesensing-10-00641">35</xref>], there is an increasing drive towards achieving centimeter-level direct georeferencing for UAS using alternative GNSS/IMU configurations, precise point positioning (PPP), and dual-frequency GNSS.</p>
+      </sec>
+      <sec id="sec2dot2-remotesensing-10-00641">
+        <title>2.2. Sensors</title>
+        <p>The large availability of UAS equipped with visible (VIS) commercial cameras (see <xref ref-type="table" rid="remotesensing-10-00641-t0A1">Table A1</xref>) has been the main driver for research that has explored the potential use of low-cost sensors for vegetation monitoring [<xref ref-type="bibr" rid="B43-remotesensing-10-00641">43</xref>,<xref ref-type="bibr" rid="B44-remotesensing-10-00641">44</xref>,<xref ref-type="bibr" rid="B45-remotesensing-10-00641">45</xref>,<xref ref-type="bibr" rid="B46-remotesensing-10-00641">46</xref>]. Among the many available visible spectral indices, the Normalized Green&#x2013;Red Difference Index (NGRDI) and Excessive Green (ExG) indices have been used to provide acceptable or high levels of accuracy in vegetation mapping studies. Such vegetation indices may be a cost-effective tool for plant biomass estimation and establishing yield variation maps for site-specific agricultural decision-making.</p>
+        <p>Over the last five to eight years, near-infrared (NIR) multi- and hyperspectral sensors have become more widely available for UAS. Modified off-the-shelf RGB (red&#x2013;green&#x2013;blue) cameras&#x2014;initially very popular [<xref ref-type="bibr" rid="B47-remotesensing-10-00641">47</xref>]&#x2014;have now started to be replaced by dedicated multispectral or hyperspectral cameras, as these have reduced in cost and weight. For instance, lightweight hyperspectral sensors for UAS are now available from different vendors (e.g., SPECIM; HYSPEX; HeadWall; see <xref ref-type="app" rid="app1-remotesensing-10-00641">Appendix A</xref>), offering more defined and discrete spectral responses compared to the modified RGB or multiband cameras. Multispectral cameras commonly employ multiple lenses, which introduce band-to-band offsets that need to be adequately corrected in order to avoid artefacts introduced into the combined multiband product [<xref ref-type="bibr" rid="B48-remotesensing-10-00641">48</xref>,<xref ref-type="bibr" rid="B49-remotesensing-10-00641">49</xref>]. Both multispectral and hyperspectral cameras require radiometric calibration and atmospheric corrections to convert the recorded digital numbers (DN) to surface reflectance values to enable reliable assessment of ground features, comparison of repeated measurements, and reliable determination of spectral indices [<xref ref-type="bibr" rid="B50-remotesensing-10-00641">50</xref>]. Although DN are frequently utilized directly to derive vegetation indices (e.g., NDVI), illumination differences between (and within) surveys mean that the use of these values is generally inappropriate, particularly for quantitative studies.</p>
+        <p>Radiometric calibration normally involves in-field measurement of reference natural or artificial targets with a field spectroradiometer [<xref ref-type="bibr" rid="B50-remotesensing-10-00641">50</xref>,<xref ref-type="bibr" rid="B51-remotesensing-10-00641">51</xref>,<xref ref-type="bibr" rid="B52-remotesensing-10-00641">52</xref>] and calibration of individual cameras requiring significant additional effort. Some current multispectral cameras (e.g., Parrot Sequoia, MicaSense RedEdge&#x2014;see <xref ref-type="table" rid="remotesensing-10-00641-t0A2">Table A2</xref>) include a downwelling irradiance sensor and calibrated reflectance panel in order to address some of the requirements of radiometric calibration. This is beneficial, but it does not address the full complexity of radiometric calibration, and artefacts will remain. Other aspects, such as bidirectional reflectance (modelled through the bidirectional reflectance distribution function (BRDF)) and image vignetting, introduce further uncertainties for image classification. While the most appropriate workflow for dealing with multispectral imagery depends to some extent on the complexity of the subsequent application (e.g., basic vegetation indices or reflectance-based image classification), the growing body of literature and recent sensor improvements support the development of best practice guidelines for the environmental UAS community.</p>
+        <p>Hyperspectral sensors (<xref ref-type="table" rid="remotesensing-10-00641-t0A3">Table A3</xref>) can be briefly mentioned as extensions of the discussion surrounding multispectral sensors and related considerations of radiometric calibration and atmospheric correction. Over the last five years, there has been increasing interest in hyperspectral imaging sensors [<xref ref-type="bibr" rid="B9-remotesensing-10-00641">9</xref>,<xref ref-type="bibr" rid="B53-remotesensing-10-00641">53</xref>]. While these are still more expensive than multispectral systems, they offer significant potential for quantitative soil vegetation and crop studies. UAS hyperspectral imagers typically offer contiguous narrow bands in the VIS-&#x2013;NIR (near-infrared) portion of the spectrum. Existing cameras include pushbroom and, more recently, frame capture technology. Depending on the capture mechanism, there are typically artefacts related to noninstantaneous (time delay) capture across bands, or physical offsets between bands [<xref ref-type="bibr" rid="B53-remotesensing-10-00641">53</xref>]. There has also been interest in (nonimaging) UAS-mounted (hyperspectral) spectrometers [<xref ref-type="bibr" rid="B54-remotesensing-10-00641">54</xref>].</p>
+        <p>In the hyperspectral domains, high radiometric accuracy and accurate reflectance retrieval are key factors to further exploit this technology [<xref ref-type="bibr" rid="B55-remotesensing-10-00641">55</xref>]. Accordingly, practices from the manned platforms bearing hyperspectral sensors can be adopted in UAS applications, such as the new super-vicarious calibration method suggested by Brook and Ben-Dor [<xref ref-type="bibr" rid="B51-remotesensing-10-00641">51</xref>,<xref ref-type="bibr" rid="B56-remotesensing-10-00641">56</xref>]. This study used artificial targets to assess data quality, to correct at-sensor radiance, and to generate a high-quality reflectance data-cube. Technologies that have been introduced also include light sensors in the SWIR (shortwave infrared) region, with these produced specifically for UAS applications (HeadWall).</p>
+        <p>UAS broadband thermal imaging sensors (see <xref ref-type="table" rid="remotesensing-10-00641-t0A4">Table A4</xref>) measure the emitted radiance of the Earth&#x2019;s surface (from which the brightness temperature can be calculated) typically between 7.5 and 13.5 &#x3BC;m. Key considerations relate to spatial resolution and thermal sensitivity, with the latter now achieving 40&#x2013;50 mK. Thermal UAS remote sensing also requires consideration of radiometric calibration and accounting for vignetting and other systematic effects, as discussed by Smigaj et al. [<xref ref-type="bibr" rid="B57-remotesensing-10-00641">57</xref>]. With the aim to provide a description of the potential of a thermal camera mounted on a UAS, an example of a thermal image providing the surface temperature (in degrees Celsius) obtained over a vineyard of Aglianico is given in <xref ref-type="fig" rid="remotesensing-10-00641-f002">Figure 2</xref>. This information can be used to compute the vegetation state or soil water content given the strong relationship existing between these variables and the surface energy balance. Here, one can appreciate the high level of detail offered by this technology in the description of a patchy area of vegetation.</p>
+        <p>LiDAR sensors (see <xref ref-type="table" rid="remotesensing-10-00641-t0A5">Table A5</xref>) are also becoming more commonplace on UAS platforms, as increasingly lightweight systems become achievable (although &lt;3 kg maximum take-off weight is still challenging). There is particular interest in UAS LiDAR for forestry applications, especially in relation to classifying and quantifying structural parameters (e.g., forest height, crown dimensions; [<xref ref-type="bibr" rid="B58-remotesensing-10-00641">58</xref>]).</p>
+        <p>Each of the sensors listed in this or the previous section allows one to derive information with some sort of drawback. For instance, hyperspectral and thermal cameras can provide a more appropriate description of the physiological state of vegetation, but at the expense of the spatial resolution, costs, and complexity of processing and calibration. Using LiDAR technology provides detailed information about the vegetation structure but is demanding in terms of the data processing and costs of the sensor. Therefore, there is a critical need to identify a standard approach for specific tasks that can reduce sensor errors and associated elaboration, enhancing the reliability of UAS observations.</p>
+        <p>A review of the available cameras and sensors for UAS applications is provided in the <xref ref-type="app" rid="app1-remotesensing-10-00641">Appendix</xref> in order to guide future studies and activities in this field. Tables include a number of pieces of technical information along with an approximate price quote when available. </p>
+      </sec>
+      <sec id="sec2dot3-remotesensing-10-00641">
+        <title>2.3. Software</title>
+        <p>Alongside sensor technological developments, low-cost (and particularly open source) software has been vital in enabling the growth in UAS for environmental and other applications. UAS-based photogrammetry can produce products of a similar accuracy to those achievable through manned airborne systems [<xref ref-type="bibr" rid="B35-remotesensing-10-00641">35</xref>]. This has been underpinned by the development of SfM software, which offers a user-friendly and low-cost alternative to conventional digital photogrammetric processing. This includes proprietary structure-from-motion (SfM) software such as Agisoft Photoscan and Pix4D, which is significantly more affordable than most conventional photogrammetric software. Moreover, there has also been development of open source SfM software, including VisualSfM, Bundler, Apero-MicMac, OpenDroneMap, etc. Nevertheless, although different and efficient software solutions are available, the computational cost of the elaboration is critical and it can require several days of data processing. Cloud-based platforms such as DroneDeploy or DroneMapper offer the possibility to integrate and share aerial data, but also to derive orthomosaics with light processing workloads. While this has made photogrammetry more accessible to nonexperts, quantification of uncertainty remains an ongoing challenge [<xref ref-type="bibr" rid="B59-remotesensing-10-00641">59</xref>]. This is because SfM relaxes some of the conventional expectations in terms of image block geometry and data acquisition.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-remotesensing-10-00641">
+      <title>3. Monitoring Agricultural and Natural Ecosystems</title>
+      <p>Natural and agricultural ecosystems are influenced by climatic forcing, physical characteristics, and management practices that are highly variable in both time and space. Moreover, vegetation state changes can often occur within a short period of time [<xref ref-type="bibr" rid="B60-remotesensing-10-00641">60</xref>,<xref ref-type="bibr" rid="B61-remotesensing-10-00641">61</xref>] due to unfavorable growing conditions or climatic extremes (e.g., heat waves, heavy storms, etc.). Therefore, in order to capture such features, monitoring systems need to provide accurate information over large areas with a high revisit frequency [<xref ref-type="bibr" rid="B62-remotesensing-10-00641">62</xref>]. UAS platforms provide one such technology that is enabling new horizons in vegetation monitoring. For instance, the high resolution of UAS imagery has led to a significant increase in the overall accuracy in species-level vegetation classification, monitoring vegetation status, weed infestations, estimating biomass, predicting yields, detecting crop water stress and/senescent leaves, reviewing herbicide applications, and pest control.</p>
+      <sec id="sec3dot1-remotesensing-10-00641">
+        <title>3.1. Vegetation Monitoring and Precision Agriculture</title>
+        <p>Precision agriculture [<xref ref-type="bibr" rid="B63-remotesensing-10-00641">63</xref>] has been the most common environmental monitoring application of UAS. High-spatial-resolution UAS imagery enables much earlier and more cost-effective detection, diagnosis, and corrective action of agricultural management problems compared to low-resolution satellite imagery. Therefore, UAS may provide the required information to address the needs of farmers or other users at the field scale, enabling them to make better management decisions with minimal costs and environmental impact [<xref ref-type="bibr" rid="B64-remotesensing-10-00641">64</xref>,<xref ref-type="bibr" rid="B65-remotesensing-10-00641">65</xref>,<xref ref-type="bibr" rid="B66-remotesensing-10-00641">66</xref>].</p>
+        <p>Vegetation state can be evaluated and quantified through different vegetation indices from images acquired in the visible, red edge, and near-infrared spectral bands. Depending on their formulation, these can display a strong correlation with soil coverage and Leaf and Green Area Index (LAI and GAI), Crop Nitrogen Uptake (QN), chlorophyll content, water stress detection, canopy structure, photosynthesis, yield, and/or growing conditions [<xref ref-type="bibr" rid="B67-remotesensing-10-00641">67</xref>,<xref ref-type="bibr" rid="B68-remotesensing-10-00641">68</xref>,<xref ref-type="bibr" rid="B69-remotesensing-10-00641">69</xref>]. As such, these vegetation indices may be exploited to monitor biophysical parameters.</p>
+        <p>Among the many available vegetation indices, the Normalized Difference Vegetation Index (NDVI) is one that is most widely used [<xref ref-type="bibr" rid="B70-remotesensing-10-00641">70</xref>,<xref ref-type="bibr" rid="B71-remotesensing-10-00641">71</xref>,<xref ref-type="bibr" rid="B72-remotesensing-10-00641">72</xref>]. UAS-NDVI maps can be at least comparable to those obtained from satellite visible observations and become highly relevant for a timely assessment of crop health status, with capacity to provide immediate feedback to the farmer. NDVI surveys performed with UAS, aircraft, and satellite demonstrate that low-resolution images generally fail in representing intrafield variability and patterns in fields characterized by small vegetation gradients and high vegetation patchiness [<xref ref-type="bibr" rid="B7-remotesensing-10-00641">7</xref>]. Moreover, UAS-derived NDVIs have shown better agreement with ground-based NDVI observations compared to satellite-derived NDVIs in several crop and natural vegetation types [<xref ref-type="bibr" rid="B73-remotesensing-10-00641">73</xref>,<xref ref-type="bibr" rid="B74-remotesensing-10-00641">74</xref>,<xref ref-type="bibr" rid="B75-remotesensing-10-00641">75</xref>]. As an example of the achievable resolution that can be obtained from UAVs, relative to some available high-resolution commercial satellite sensors, <xref ref-type="fig" rid="remotesensing-10-00641-f003">Figure 3</xref> shows a multi-sensor sequence of imagery collected over a date palm plantation in Saudi Arabia. The observed differences between vegetation patterns and resolvable resolution observed by UAS (compared to available satellite platforms) are clearly identified. The relative advantages of UAS in providing a level of detail that is comparable to field observations (or in deriving NDVI or other related vegetation indices for more in depth assessment) is illustrated by its capability of capturing both within and between canopy behavior.</p>
+        <p>In the last decade, particular attention has been given to the monitoring of vineyards because of their high economic value. Johnson et al. [<xref ref-type="bibr" rid="B76-remotesensing-10-00641">76</xref>] proposed one of the first applications where different sensors were used for determining measures related to chlorophyll function and photosynthetic activity, LAI, and plant health status (among other variables) to mapping vigor differences within fields. More recently, Zarco-Tejada et al. [<xref ref-type="bibr" rid="B52-remotesensing-10-00641">52</xref>,<xref ref-type="bibr" rid="B77-remotesensing-10-00641">77</xref>,<xref ref-type="bibr" rid="B78-remotesensing-10-00641">78</xref>,<xref ref-type="bibr" rid="B79-remotesensing-10-00641">79</xref>,<xref ref-type="bibr" rid="B80-remotesensing-10-00641">80</xref>] demonstrated the potential for monitoring specific variables such as crop water stress index, photosynthetic activity, and carotenoid content in vineyards using multispectral, hyperspectral, and thermal cameras.</p>
+        <p>Based upon author experiences, farmers have expressed particular interest in monitoring crop conditions for the quantification of water demand, nitrogen status, or infestation treatments. Several of the variables or indices described above may be used for rapid detection of crop pest outbreaks or for mapping the status of crops. Likewise, monitoring soil water content is critical for determining efficient irrigation scheduling. The topsoil moisture content can be derived using RGB, NIR, and thermal bands [<xref ref-type="bibr" rid="B81-remotesensing-10-00641">81</xref>]. The effective amount of water stored in the subsurface can be obtained by exploiting mathematical relationships between surface measurements and the root zone soil moisture, such as the Soil Moisture Analytical Relationship (SMAR) [<xref ref-type="bibr" rid="B82-remotesensing-10-00641">82</xref>,<xref ref-type="bibr" rid="B83-remotesensing-10-00641">83</xref>].</p>
+        <p>As a further example, Sullivan et al. [<xref ref-type="bibr" rid="B84-remotesensing-10-00641">84</xref>] observed that the thermal infrared (TIR) emittance was highly sensitive to canopy state and can be used for monitoring soil water content, stomatal conductance, and canopy cover. TIR has similarly been used for the monitoring and estimation of soil surface characteristics such as microrelief and rill morphology [<xref ref-type="bibr" rid="B85-remotesensing-10-00641">85</xref>], soil water repellency [<xref ref-type="bibr" rid="B86-remotesensing-10-00641">86</xref>], soil surface macropores [<xref ref-type="bibr" rid="B87-remotesensing-10-00641">87</xref>], skin surface soil permeability [<xref ref-type="bibr" rid="B88-remotesensing-10-00641">88</xref>], and overland and rill flow velocities by using thermal tracers [<xref ref-type="bibr" rid="B89-remotesensing-10-00641">89</xref>,<xref ref-type="bibr" rid="B90-remotesensing-10-00641">90</xref>].</p>
+        <p>More specifically, the TIR emittance displays a negative correlation with stomatal conductance and canopy closure, indicating increasing canopy stress as stomatal conductance and canopy closure decreased. The crop water stress index (CWSI) [<xref ref-type="bibr" rid="B91-remotesensing-10-00641">91</xref>,<xref ref-type="bibr" rid="B92-remotesensing-10-00641">92</xref>] calculated from leaf water potential can be used to determine the required frequency, timing, and duration of watering. In this regard, the CWSI, derived with a UAS equipped with a thermal camera, is frequently adopted to quantify the physiological status of plants, and, more specifically, leaf water potential in experimental vineyards or orchards [<xref ref-type="bibr" rid="B52-remotesensing-10-00641">52</xref>,<xref ref-type="bibr" rid="B80-remotesensing-10-00641">80</xref>,<xref ref-type="bibr" rid="B93-remotesensing-10-00641">93</xref>,<xref ref-type="bibr" rid="B94-remotesensing-10-00641">94</xref>,<xref ref-type="bibr" rid="B95-remotesensing-10-00641">95</xref>,<xref ref-type="bibr" rid="B96-remotesensing-10-00641">96</xref>]. The derived CWSI maps can serve as important inputs for precision irrigation. Time series of thermal images can also be used to determine the variation in water status [<xref ref-type="bibr" rid="B97-remotesensing-10-00641">97</xref>].</p>
+        <p>Using VIS&#x2013;NIR (400&#x2013;1000 nm) hyperspectral and multispectral analyses of simulated data has shown that soil attributes can be extracted from these spectral regions, particularly those most commonly used by the current UAS platforms [<xref ref-type="bibr" rid="B98-remotesensing-10-00641">98</xref>,<xref ref-type="bibr" rid="B99-remotesensing-10-00641">99</xref>,<xref ref-type="bibr" rid="B100-remotesensing-10-00641">100</xref>]. These studies demonstrated that the VIS-NIR spectral region alone can open up new frontiers in soil mapping (as well as soil moisture content retrieval) using on-board multi- and hyperspectral UAS sensors without using heavyweight sensors operating in the SWIR (1&#x2013;2.5 &#x3BC;m) region. Aldana-Jague et al. [<xref ref-type="bibr" rid="B32-remotesensing-10-00641">32</xref>] mapped soil surface organic carbon content (&lt;0.5 cm) at 12 cm resolution exploiting six bands between 450 and 1050 nm acquired by low-altitude multispectral imagers. D&#x2019;Oleire-Oltmanns et al. [<xref ref-type="bibr" rid="B30-remotesensing-10-00641">30</xref>] showed the applicability of UAS for measuring, mapping, and monitoring soil erosion at 5 cm resolution with an accuracy between 0.90 and 2.7 cm in the horizontal and 0.70 cm in the vertical directions. Detailed information about soil erosion can enhance proper soil management at the plot scale [<xref ref-type="bibr" rid="B31-remotesensing-10-00641">31</xref>].</p>
+        <p>Such tools were further explored by Zhu et al. [<xref ref-type="bibr" rid="B22-remotesensing-10-00641">22</xref>], who investigated the ability to quantify the differences in soil nitrogen application rates using digital images taken from a UAS compared with ground-based hyperspectral reflectance and chlorophyll content data. They suggested that aerial photography from a UAS has the potential to provide input in support of crop decision-making processes, minimizing field sampling efforts, saving both time and money, and enabling accurate assessment of different nitrogen application rates. Therefore, such information may serve as input to other agricultural systems, such as tractors or specific UAS, that optimize fertilizer management.</p>
+        <p>UAS can also improve agronomical practices. Costa et al. [<xref ref-type="bibr" rid="B101-remotesensing-10-00641">101</xref>] described an architecture that can be employed to implement a control loop for agricultural applications where UAS are responsible for spraying chemicals on crops. Application of chemicals is controlled by the feedback obtained from a wireless sensor network (WSN) deployed on the crop field. They evaluated an algorithm to adjust the UAS route under changes in wind (intensity and direction) to minimize the waste of pesticides. Pe&#xF1;a et al. [<xref ref-type="bibr" rid="B102-remotesensing-10-00641">102</xref>,<xref ref-type="bibr" rid="B103-remotesensing-10-00641">103</xref>] explored the optimization of herbicide applications in weed&#x2013;crop systems using a series of UAS multispectral images. The authors computed multiple data, which permitted both calculation of herbicide requirements and estimation of the overall cost of weed management operations in advance. They showed that the ability to discriminate weeds was significantly affected by the imagery spectra (type of camera) used as well as the spatial (flight altitude) and temporal (the date of the study) resolutions.</p>
+        <p>Among these technical advantages and constraints, the importance of the limitation of operational rules in using UAS in several countries needs to be highlighted. As an example, Jeunnette and Hart [<xref ref-type="bibr" rid="B24-remotesensing-10-00641">24</xref>] developed a parametric numerical model to compare aerial platform options (UAS vs airborne) to support agriculture in developing countries characterized by highly fragmented fields, but manned systems are still more competitive from an operational and cost/efficiency point of view because of the present limitations in altitude, distance, and speed of UAS. In particular, UAS become cost-competitive when they are allowed to fly higher than 300 m AGL (above ground level), while current limits are set around 120&#x2013;150 m. This is a critical limitation for the use of UAS along with the fact that flights should be within visible line of sight (VLOS) in many jurisdictions.</p>
+        <p>All the applications described highlight the potential use of UAS in developing advanced tools for precision agriculture applications and for vegetation monitoring in general. With time, both technological advances and legislation will evolve and likely converge, further advancing the efficient use of such technologies.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The present work has been funded by the COST Action CA16219 &#x201C;HARMONIOUS&#x2014;Harmonization of UAS techniques for agricultural and natural ecosystems monitoring&#x201D;. B. T&#xF3;th acknowledges financial support by the Hungarian National Research, Development and Innovation Office (NRDI) under grant KH124765. J. M&#xFC;llerov&#xE1; was supported by projects GA17-13998S and RVO67985939. Isabel and Jo&#xE3;o de Lima were supported by project HIRT (PTDC/ECM-HID/4259/2014&#x2014;POCI-01-0145-FEDER016668). We would like to thank reviewers for their insightful comments on the paper, as these comments led us to an improvement of the work.</p>
+    </ack>
+    <app-group>
+      <app id="app1-remotesensing-10-00641">
+        <title>Appendix A. Available Sensors and Cameras</title>
+        <p>Given the variety of sensors available for UAS applications, we consider it extremely useful to provide an overview of the available cameras and sensors and their characteristics. In the following, we summarize some of the most common optical cameras (<xref ref-type="table" rid="remotesensing-10-00641-t0A1">Table A1</xref>), multispectral cameras (<xref ref-type="table" rid="remotesensing-10-00641-t0A2">Table A2</xref>), hyperspectral cameras (<xref ref-type="table" rid="remotesensing-10-00641-t0A3">Table A3</xref>), thermal cameras (<xref ref-type="table" rid="remotesensing-10-00641-t0A4">Table A4</xref>), and laser scanners (<xref ref-type="table" rid="remotesensing-10-00641-t0A5">Table A5</xref>). The ideal solution always depends on the (a) purpose of the study, (b) unmanned platform deployed, and (c) budget available. These tables expand the list of sensors provided by Casagrande et al. (2017).</p>
+        <table-wrap id="remotesensing-10-00641-t0A1" position="float">
+          <object-id pub-id-type="pii">remotesensing-10-00641-t0A1_Table A1</object-id>
+          <label>Table A1</label>
+          <caption>
+            <p>Optical cameras available for UAS and their main characteristics (* Abbreviations: APS = Advanced Photo System type-C; FF = Full Frame; MILC = Mirrorless Interchangeable-Lens Camera; SF = Small Frame).</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Manufacturer and Model</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sensor Type Resolution <break/>(MPx)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">FormatType *</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sensor Size <break/>(mm<sup>2</sup>)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Pixel Pitch (&#x3BC;m)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Weight <break/>(kg)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Frame Rate <break/>(fps)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Max Shutter Speed <break/>(s<sup>&#x2212;1</sup>)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Approx. Price <break/>($)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">Canon EOS 5DS</td>
+                <td align="center" valign="middle">CMOS 51</td>
+                <td align="center" valign="middle">FF</td>
+                <td align="center" valign="middle">36.0 &#xD7; 24.0</td>
+                <td align="center" valign="middle">4.1</td>
+                <td align="center" valign="middle">0.930</td>
+                <td align="center" valign="middle">5.0</td>
+                <td align="center" valign="middle">8000</td>
+                <td align="center" valign="middle">3400</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Sony Alpha 7R II</td>
+                <td align="center" valign="middle">CMOS 42</td>
+                <td align="center" valign="middle">FF MILC</td>
+                <td align="center" valign="middle">35.9 &#xD7; 24.0</td>
+                <td align="center" valign="middle">4.5</td>
+                <td align="center" valign="middle">0.625</td>
+                <td align="center" valign="middle">5.0</td>
+                <td align="center" valign="middle">8000</td>
+                <td align="center" valign="middle">3200</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Pentax 645D</td>
+                <td align="center" valign="middle">CCD 40</td>
+                <td align="center" valign="middle">FF</td>
+                <td align="center" valign="middle">44.0 &#xD7; 33.0</td>
+                <td align="center" valign="middle">6.1</td>
+                <td align="center" valign="middle">1.480</td>
+                <td align="center" valign="middle">1.1</td>
+                <td align="center" valign="middle">4000</td>
+                <td align="center" valign="middle">3400</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Nikon D750</td>
+                <td align="center" valign="middle">CMOS 24</td>
+                <td align="center" valign="middle">FF</td>
+                <td align="center" valign="middle">35.9 &#xD7; 24.0</td>
+                <td align="center" valign="middle">6.0</td>
+                <td align="center" valign="middle">0.750</td>
+                <td align="center" valign="middle">6.5</td>
+                <td align="center" valign="middle">4000</td>
+                <td align="center" valign="middle">2000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Nikon D7200</td>
+                <td align="center" valign="middle">CMOS 24</td>
+                <td align="center" valign="middle">SF</td>
+                <td align="center" valign="middle">23.5 &#xD7; 15.6</td>
+                <td align="center" valign="middle">3.9</td>
+                <td align="center" valign="middle">0.675</td>
+                <td align="center" valign="middle">6.0</td>
+                <td align="center" valign="middle">8000</td>
+                <td align="center" valign="middle">1100</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Sony Alpha a6300</td>
+                <td align="center" valign="middle">CMOS 24</td>
+                <td align="center" valign="middle">SF MILC</td>
+                <td align="center" valign="middle">23.5 &#xD7; 15.6</td>
+                <td align="center" valign="middle">3.9</td>
+                <td align="center" valign="middle">0.404</td>
+                <td align="center" valign="middle">11.0</td>
+                <td align="center" valign="middle">4000</td>
+                <td align="center" valign="middle">1000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Pentax K-3 II</td>
+                <td align="center" valign="middle">CMOS 24</td>
+                <td align="center" valign="middle">SF</td>
+                <td align="center" valign="middle">23.5 &#xD7; 15.6</td>
+                <td align="center" valign="middle">3.9</td>
+                <td align="center" valign="middle">0.800</td>
+                <td align="center" valign="middle">8.3</td>
+                <td align="center" valign="middle">8000</td>
+                <td align="center" valign="middle">800</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Foxtech Map-01</td>
+                <td align="center" valign="middle">CMOS 24</td>
+                <td align="center" valign="middle">APS-C</td>
+                <td align="center" valign="middle">23.5 &#xD7; 15.6</td>
+                <td align="center" valign="middle">3.9</td>
+                <td align="center" valign="middle">0.155</td>
+                <td align="center" valign="middle">6</td>
+                <td align="center" valign="middle">4000</td>
+                <td align="center" valign="middle">880</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Canon EOS 7D Mark II</td>
+                <td align="center" valign="middle">CMOS 20</td>
+                <td align="center" valign="middle">SF</td>
+                <td align="center" valign="middle">22.3 &#xD7; 14.9</td>
+                <td align="center" valign="middle">4.1</td>
+                <td align="center" valign="middle">0.910</td>
+                <td align="center" valign="middle">10.0</td>
+                <td align="center" valign="middle">8000</td>
+                <td align="center" valign="middle">1500</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Panasonic Lumix DMC GX8</td>
+                <td align="center" valign="middle">CMOS 20</td>
+                <td align="center" valign="middle">SF MILC</td>
+                <td align="center" valign="middle">17.3 &#xD7; 13.0</td>
+                <td align="center" valign="middle">3.3</td>
+                <td align="center" valign="middle">0.487</td>
+                <td align="center" valign="middle">10.0</td>
+                <td align="center" valign="middle">8000</td>
+                <td align="center" valign="middle">1000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Sony QX1</td>
+                <td align="center" valign="middle">CMOS 20</td>
+                <td align="center" valign="middle">APS-C</td>
+                <td align="center" valign="middle">23.2 &#xD7; 15.4</td>
+                <td align="center" valign="middle">4.3</td>
+                <td align="center" valign="middle">0.216</td>
+                <td align="center" valign="middle">3.5</td>
+                <td align="center" valign="middle">4000</td>
+                <td align="center" valign="middle">500</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Ricoh GXR A16</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">CMOS 16</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">SF</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">23.6 &#xD7; 15.7</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">4.8</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.550</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">2.5</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">3200</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">650</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="remotesensing-10-00641-t0A2" position="float">
+          <object-id pub-id-type="pii">remotesensing-10-00641-t0A2_Table A2</object-id>
+          <label>Table A2</label>
+          <caption>
+            <p>Multispectral cameras available on the market for UAS and their main characteristics (* selectable bands).</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Manufacturer and Model</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Resolution (Mpx)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Size (mm)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Pixel Size (&#x3BC;m)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Weight (kg)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Number of Spectral Bands</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Spectral Range (nm)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Approx. Price ($)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">Tetracam MCAW6 (Global shutter)</td>
+                <td align="center" valign="middle">1.3</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">4.8 &#xD7; 4.8</td>
+                <td align="center" valign="middle">0.55</td>
+                <td align="center" valign="middle">6</td>
+                <td align="center" valign="middle">450&#x2013;1000 (*)</td>
+                <td align="center" valign="middle">16,995</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Tetracam MCAW12 (Global shutter)</td>
+                <td align="center" valign="middle">1.3</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">4.8 &#xD7; 4.8</td>
+                <td align="center" valign="middle">0.6</td>
+                <td align="center" valign="middle">12</td>
+                <td align="center" valign="middle">450&#x2013;1000 (*)</td>
+                <td align="center" valign="middle">34,000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Tetracam MicroMCA4 Snap (Global shutter)</td>
+                <td align="center" valign="middle">1.3</td>
+                <td align="center" valign="middle">115.6 &#xD7; 80.3 &#xD7; 68.1</td>
+                <td align="center" valign="middle">4.8 &#xD7; 4.8</td>
+                <td align="center" valign="middle">0.497</td>
+                <td align="center" valign="middle">4</td>
+                <td align="center" valign="middle">450&#x2013;1000 (*)</td>
+                <td align="center" valign="middle">9995</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Tetracam MicroMCA6 Snap (Global shutter)</td>
+                <td align="center" valign="middle">1.3</td>
+                <td align="center" valign="middle">115.6 &#xD7; 80.3 &#xD7; 68.1</td>
+                <td align="center" valign="middle">4.8 &#xD7; 4.8</td>
+                <td align="center" valign="middle">0.53</td>
+                <td align="center" valign="middle">6</td>
+                <td align="center" valign="middle">450&#x2013;1000 (*)</td>
+                <td align="center" valign="middle">14,995</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Tetracam MicroMCA12 Snap (Global shutter)</td>
+                <td align="center" valign="middle">1.3</td>
+                <td align="center" valign="middle">115.6 &#xD7; 155 &#xD7; 68.1</td>
+                <td align="center" valign="middle">4.8 &#xD7; 4.8</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle">12</td>
+                <td align="center" valign="middle">450&#x2013;1000 (*)</td>
+                <td align="center" valign="middle">29,995</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Tetracam MicroMCA6 RS (Rolling shutter)</td>
+                <td align="center" valign="middle">1.3</td>
+                <td align="center" valign="middle">115.6 &#xD7; 80.3 &#xD7; 68.1</td>
+                <td align="center" valign="middle">4.8 &#xD7; 4.8</td>
+                <td align="center" valign="middle">0.53</td>
+                <td align="center" valign="middle">6</td>
+                <td align="center" valign="middle">450&#x2013;1000 (*)</td>
+                <td align="center" valign="middle">12,995</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Tetracam MicroMCA12 RS (Rolling shutter)</td>
+                <td align="center" valign="middle">1.3</td>
+                <td align="center" valign="middle">115.6 &#xD7; 155 &#xD7; 68.1</td>
+                <td align="center" valign="middle">4.8 &#xD7; 4.8</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle">12</td>
+                <td align="center" valign="middle">450&#x2013;1000 (*)</td>
+                <td align="center" valign="middle">25,995</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Tetracam ADC micro</td>
+                <td align="center" valign="middle">3.2</td>
+                <td align="center" valign="middle">75 &#xD7; 59 &#xD7; 33</td>
+                <td align="center" valign="middle">3.2 &#xD7; 3.2</td>
+                <td align="center" valign="middle">0.9</td>
+                <td align="center" valign="middle">6</td>
+                <td align="center" valign="middle">520&#x2013;920 (Equiv. to Landsat TM2, 3, 4)</td>
+                <td align="center" valign="middle">2995</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Quest Innovations Condor-5 ICX 285</td>
+                <td align="center" valign="middle">7</td>
+                <td align="center" valign="middle">150 &#xD7; 130 &#xD7; 177</td>
+                <td align="center" valign="middle">6.45 &#xD7; 6.45</td>
+                <td align="center" valign="middle">1.4</td>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle">400&#x2013;1000</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Parrot Sequoia</td>
+                <td align="center" valign="middle">1.2</td>
+                <td align="center" valign="middle">59 &#xD7; 41 &#xD7; 28</td>
+                <td align="center" valign="middle">3.75 &#xD7; 3.75</td>
+                <td align="center" valign="middle">0.72</td>
+                <td align="center" valign="middle">4</td>
+                <td align="center" valign="middle">550&#x2013;810</td>
+                <td align="center" valign="middle">5300</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">MicaSense RedEdge</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">120 &#xD7; 66 &#xD7; 46</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.18</td>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle">475&#x2013;840</td>
+                <td align="center" valign="middle">4900</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Sentera Quad</td>
+                <td align="center" valign="middle">1.2</td>
+                <td align="center" valign="middle">76 &#xD7; 62 &#xD7; 48</td>
+                <td align="center" valign="middle">3.75 &#xD7; 3.75</td>
+                <td align="center" valign="middle">0.170</td>
+                <td align="center" valign="middle">4</td>
+                <td align="center" valign="middle">400&#x2013;825</td>
+                <td align="center" valign="middle">8500</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Sentera High Precision NDVI and NDRE</td>
+                <td align="center" valign="middle">1.2</td>
+                <td align="center" valign="middle">25.4 &#xD7; 33.8 &#xD7; 37.3</td>
+                <td align="center" valign="middle">3.75 &#xD7; 3.75</td>
+                <td align="center" valign="middle">0.030</td>
+                <td align="center" valign="middle">2</td>
+                <td align="center" valign="middle">525&#x2013;890</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Sentera Multispectral Double 4K</td>
+                <td align="center" valign="middle">12.3</td>
+                <td align="center" valign="middle">59 &#xD7; 41 &#xD7; 44.5</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">0.080</td>
+                <td align="center" valign="middle">5</td>
+                <td align="center" valign="middle">386&#x2013;860</td>
+                <td align="center" valign="middle">5000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">SLANTRANGE 3P NDVI</td>
+                <td align="center" valign="middle">3</td>
+                <td align="center" valign="middle">146 &#xD7; 69 &#xD7; 57</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">0.350</td>
+                <td align="center" valign="middle">4</td>
+                <td align="center" valign="middle">410&#x2013;950</td>
+                <td align="center" valign="middle">4500</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Mappir Survey2</td>
+                <td align="center" valign="middle">16</td>
+                <td align="center" valign="middle">59 &#xD7; 41 &#xD7; 30</td>
+                <td align="center" valign="middle">1.34 &#xD7; 1.34</td>
+                <td align="center" valign="middle">0.047</td>
+                <td align="center" valign="middle">1&#x2013;6 (filters)&#x2014;one lens</td>
+                <td align="center" valign="middle">395&#x2013;945</td>
+                <td align="center" valign="middle">280</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Mappir Survey3</td>
+                <td align="center" valign="middle">12</td>
+                <td align="center" valign="middle">59 &#xD7; 41.5 &#xD7; 36</td>
+                <td align="center" valign="middle">1.55 &#xD7; 1.55</td>
+                <td align="center" valign="middle">0.050</td>
+                <td align="center" valign="middle">1&#x2013;4 (filters)&#x2014;one lens</td>
+                <td align="center" valign="middle">395&#x2013;945</td>
+                <td align="center" valign="middle">400</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Mappir Kernel</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">14.4</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">34 &#xD7; 34 &#xD7; 40</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1.4 &#xD7; 1.4</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.045</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">19+ (filters)&#x2014;six array lens</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">395&#x2013;945</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1299</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="remotesensing-10-00641-t0A3" position="float">
+          <object-id pub-id-type="pii">remotesensing-10-00641-t0A3_Table A3</object-id>
+          <label>Table A3</label>
+          <caption>
+            <p>Hyperspectral cameras suitable for UAS and their main characteristics.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Manufacturer and Model</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Lens</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Size (mm<sup>2</sup>)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Pixel Size (&#x3BC;m)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Weight (kg)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Spectral Range (nm)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Spectral Bands (N) (Resolution, nm)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Peak SNR</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Approx. Price ($)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">Rikola Ltd. hyperspectral camera</td>
+                <td align="center" valign="middle">CMOS</td>
+                <td align="center" valign="middle">5.6 &#xD7; 5.6</td>
+                <td align="center" valign="middle">5.5</td>
+                <td align="center" valign="middle">0.6</td>
+                <td align="center" valign="middle">500&#x2013;900</td>
+                <td align="center" valign="middle">40 (10 nm)</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">40,000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Headwall Photonics Micro-hyperspec X-series NIR</td>
+                <td align="center" valign="middle">InGaAs</td>
+                <td align="center" valign="middle">9.6 &#xD7; 9.6</td>
+                <td align="center" valign="middle">30</td>
+                <td align="center" valign="middle">1.025</td>
+                <td align="center" valign="middle">900&#x2013;1700</td>
+                <td align="center" valign="middle">62 (12.9 nm)</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">BaySpec&#x2019;s OCI-UAV-1000</td>
+                <td align="center" valign="middle">C-mount</td>
+                <td align="center" valign="middle">10 &#xD7; 10 &#xD7; 10</td>
+                <td align="center" valign="middle">N/A</td>
+                <td align="center" valign="middle">0.272</td>
+                <td align="center" valign="middle">600&#x2013;1000</td>
+                <td align="center" valign="middle">100 (5 nm)/20&#x2013;12 (15 nm)</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">HySpex Mjolnir V-1240</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">25 &#xD7; 17.5 &#xD7; 17</td>
+                <td align="center" valign="middle">0.27 mrad</td>
+                <td align="center" valign="middle">4.0</td>
+                <td align="center" valign="middle">400&#x2013;1000</td>
+                <td align="center" valign="middle">200 (3 nm)</td>
+                <td align="center" valign="middle">&gt;180</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">HySpex Mjolnir S-620</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">25.4 &#xD7; 17.5 &#xD7; 17</td>
+                <td align="center" valign="middle">0.54 mrad</td>
+                <td align="center" valign="middle">4.5</td>
+                <td align="center" valign="middle">970&#x2013;2500</td>
+                <td align="center" valign="middle">300 (5.1 nm)</td>
+                <td align="center" valign="middle">&gt;900</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Specim-AISA KESTREL16</td>
+                <td align="center" valign="middle">push-broom</td>
+                <td align="center" valign="middle">99 &#xD7; 215 &#xD7; 240</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">2.3</td>
+                <td align="center" valign="middle">600&#x2013;1640</td>
+                <td align="center" valign="middle">Up to 350 (3&#x2013;8 nm)</td>
+                <td align="center" valign="middle">400&#x2013;600</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Cornirg microHSI 410 SHARK</td>
+                <td align="center" valign="middle">CCD/CMOS</td>
+                <td align="center" valign="middle">136 &#xD7; 87 &#xD7; 70.35</td>
+                <td align="center" valign="middle">11.7 &#x3BC;m</td>
+                <td align="center" valign="middle">0.68</td>
+                <td align="center" valign="middle">400&#x2013;1000</td>
+                <td align="center" valign="middle">300 (2 nm)</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Resonon Pika L</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">10.0 &#xD7; 12.5 &#xD7; 5.3</td>
+                <td align="center" valign="middle">5.86</td>
+                <td align="center" valign="middle">0.6</td>
+                <td align="center" valign="middle">400&#x2013;1000</td>
+                <td align="center" valign="middle">281 (2.1 nm)</td>
+                <td align="center" valign="middle">368&#x2013;520</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">CUBERT (S185)</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Snapshot + PAN</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">19 &#xD7; 42 &#xD7; 65</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.49</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">450&#x2013;995</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">125 (8 mm)</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">50,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="remotesensing-10-00641-t0A4" position="float">
+          <object-id pub-id-type="pii">remotesensing-10-00641-t0A4_Table A4</object-id>
+          <label>Table A4</label>
+          <caption>
+            <p>Representative thermal cameras suitable for UAS and their main characteristics.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Manufacturer and Model</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Resolution <break/>(Px)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sensor Size <break/>(mm<sup>2</sup>)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Pixel Pitch <break/>(&#x3BC;m)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Weight <break/>(kg)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Spectral Range <break/>(&#x3BC;m)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Thermal Sensitivity <break/>(mK)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Approx. Price <break/>($)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">FLIR Duo Pro 640</td>
+                <td align="center" valign="middle">640 &#xD7; 512</td>
+                <td align="center" valign="middle">10.8 &#xD7; 8.7</td>
+                <td align="center" valign="middle">17</td>
+                <td align="center" valign="middle">&lt;0.115</td>
+                <td align="center" valign="middle">7.5&#x2013;13.5</td>
+                <td align="center" valign="middle">50</td>
+                <td align="center" valign="middle">10,500</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">FLIR Duo Pro 336</td>
+                <td align="center" valign="middle">336 &#xD7; 256</td>
+                <td align="center" valign="middle">5.7 &#xD7; 4.4</td>
+                <td align="center" valign="middle">17</td>
+                <td align="center" valign="middle">&lt;0.115</td>
+                <td align="center" valign="middle">7.5&#x2013;13.5</td>
+                <td align="center" valign="middle">50</td>
+                <td align="center" valign="middle">7500</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">FLIR Duo R</td>
+                <td align="center" valign="middle">160 &#xD7; 120</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">0.084</td>
+                <td align="center" valign="middle">7.5&#x2013;13.5</td>
+                <td align="center" valign="middle">50</td>
+                <td align="center" valign="middle">2200</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">FLIR Tau2 640</td>
+                <td align="center" valign="middle">640 &#xD7; 512</td>
+                <td align="center" valign="middle">N/A</td>
+                <td align="center" valign="middle">17</td>
+                <td align="center" valign="middle">&lt;0.112</td>
+                <td align="center" valign="middle">7.5&#x2013;13.5</td>
+                <td align="center" valign="middle">50</td>
+                <td align="center" valign="middle">9000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">FLIR Tau2 336</td>
+                <td align="center" valign="middle">336 &#xD7; 256</td>
+                <td align="center" valign="middle">N/A</td>
+                <td align="center" valign="middle">17</td>
+                <td align="center" valign="middle">&lt;0.112</td>
+                <td align="center" valign="middle">7.5&#x2013;13.5</td>
+                <td align="center" valign="middle">50</td>
+                <td align="center" valign="middle">4000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Optris PI 450</td>
+                <td align="center" valign="middle">382 &#xD7; 288</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">0.320</td>
+                <td align="center" valign="middle">7.5&#x2013;13</td>
+                <td align="center" valign="middle">130</td>
+                <td align="center" valign="middle">7000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Optris PI 640</td>
+                <td align="center" valign="middle">640 &#xD7; 480</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">0.320</td>
+                <td align="center" valign="middle">7.5&#x2013;13</td>
+                <td align="center" valign="middle">130</td>
+                <td align="center" valign="middle">9700</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Thermoteknix Miricle 307 K</td>
+                <td align="center" valign="middle">640 &#xD7; 480</td>
+                <td align="center" valign="middle">16.0 &#xD7; 12.0</td>
+                <td align="center" valign="middle">25</td>
+                <td align="center" valign="middle">&lt;0.170</td>
+                <td align="center" valign="middle">8.0&#x2013;12.0</td>
+                <td align="center" valign="middle">50</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Thermoteknix Miricle 110 K</td>
+                <td align="center" valign="middle">384 &#xD7; 288</td>
+                <td align="center" valign="middle">9.6 &#xD7; 7.2</td>
+                <td align="center" valign="middle">25</td>
+                <td align="center" valign="middle">&lt;0.170</td>
+                <td align="center" valign="middle">8.0&#x2013;12.0</td>
+                <td align="center" valign="middle">50/70</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Workswell WIRIS 640</td>
+                <td align="center" valign="middle">640 &#xD7; 512</td>
+                <td align="center" valign="middle">16.0 &#xD7; 12.8</td>
+                <td align="center" valign="middle">25</td>
+                <td align="center" valign="middle">&lt;0.400</td>
+                <td align="center" valign="middle">7.5&#x2013;13.5</td>
+                <td align="center" valign="middle">30/50</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Workswell WIRIS 336</td>
+                <td align="center" valign="middle">336 &#xD7; 256</td>
+                <td align="center" valign="middle">8.4 &#xD7; 6.4</td>
+                <td align="center" valign="middle">25</td>
+                <td align="center" valign="middle">&lt;0.400</td>
+                <td align="center" valign="middle">7.5&#x2013;13.5</td>
+                <td align="center" valign="middle">30/50</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">YUNCGOETEU</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">160 &#xD7; 120</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">81 &#xD7; 108 &#xD7; 138</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">12</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.278</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">8.0&#x2013;14.0</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">&lt;50</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="remotesensing-10-00641-t0A5" position="float">
+          <object-id pub-id-type="pii">remotesensing-10-00641-t0A5_Table A5</object-id>
+          <label>Table A5</label>
+          <caption>
+            <p>Laser scanners suitable for UAS and their main characteristics.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Manufacturer and Model</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Scanning Pattern</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Range (m)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Weight (kg)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Angular Res. (deg)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">FOV (deg)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Laser Class and &#x3BB; (nm)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Frequency (kp/s)</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Aprox. Price ($)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">ibeo Automotive Systems IBEO LUX</td>
+                <td align="center" valign="middle">4 Scanning parallel lines</td>
+                <td align="center" valign="middle">200</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle">(H) 0.125 (V) 0.8</td>
+                <td align="center" valign="middle">(H) 110 (V) 3.2</td>
+                <td align="center" valign="middle">Class A 905</td>
+                <td align="center" valign="middle">22</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Velodyne HDL-32E</td>
+                <td align="center" valign="middle">32 Laser/detector pairs</td>
+                <td align="center" valign="middle">100</td>
+                <td align="center" valign="middle">2</td>
+                <td align="center" valign="middle">(H)&#x2013;(V) 1.33</td>
+                <td align="center" valign="middle">(H) 360 (V) 41</td>
+                <td align="center" valign="middle">Class A 905</td>
+                <td align="center" valign="middle">700</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">RIEGL VQ-820-GU</td>
+                <td align="center" valign="middle">1 Scanning line</td>
+                <td align="center" valign="middle">&gt;1000</td>
+                <td align="center" valign="middle">25.5</td>
+                <td align="center" valign="middle">(H) 0.01 (V) N/A</td>
+                <td align="center" valign="middle">(H) 60 (V) N/A</td>
+                <td align="center" valign="middle">Class 3B 532</td>
+                <td align="center" valign="middle">200</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Hokuyo UTM-30LX-EW</td>
+                <td align="center" valign="middle">1080 distances in a plane</td>
+                <td align="center" valign="middle">30</td>
+                <td align="center" valign="middle">0.37</td>
+                <td align="center" valign="middle">(H) 0.25 (V) N/A</td>
+                <td align="center" valign="middle">(H) 270 (V) N/A</td>
+                <td align="center" valign="middle">Class 1905</td>
+                <td align="center" valign="middle">200</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Velodyne Puck Hi-Res</td>
+                <td align="center" valign="middle">Dual Returns</td>
+                <td align="center" valign="middle">100</td>
+                <td align="center" valign="middle">0.590</td>
+                <td align="center" valign="middle">(H)&#x2013;(V) 0.1&#x2013;0.4</td>
+                <td align="center" valign="middle">(H) 360 (V) 20</td>
+                <td align="center" valign="middle">Class A-903</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">RIEGL VUX-1UAV</td>
+                <td align="center" valign="middle">Parallel scan lines</td>
+                <td align="center" valign="middle">150</td>
+                <td align="center" valign="middle">3.5</td>
+                <td align="center" valign="middle">0.001&#xB0;</td>
+                <td align="center" valign="middle">330</td>
+                <td align="center" valign="middle">Class A-NIR</td>
+                <td align="center" valign="middle">200</td>
+                <td align="center" valign="middle">&gt;120,000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Routescene&#x2014;UAV LidarPod</td>
+                <td align="center" valign="middle">32 Laser/detector pairs</td>
+                <td align="center" valign="middle">100</td>
+                <td align="center" valign="middle">1.3</td>
+                <td align="center" valign="middle">(H)&#x2013;(V) 1.33</td>
+                <td align="center" valign="middle">(H) 360 (V) 41</td>
+                <td align="center" valign="middle">Class A-905</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Quanergy M8-1</td>
+                <td align="center" valign="middle">8 laser/detector pairs</td>
+                <td align="center" valign="middle">150</td>
+                <td align="center" valign="middle">0.9</td>
+                <td align="center" valign="middle">0.03&#x2013;0.2&#xB0;</td>
+                <td align="center" valign="middle">(H) 360 (V) 20</td>
+                <td align="center" valign="middle">Class A-905</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">-</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Phoenix Scout</td>
+                <td align="center" valign="middle">Dual Returns</td>
+                <td align="center" valign="middle">120</td>
+                <td align="center" valign="middle">1.65</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">(H) 360 (V) 15</td>
+                <td align="center" valign="middle">Class 1-905</td>
+                <td align="center" valign="middle">300</td>
+                <td align="center" valign="middle">&gt;66,000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Phoenix ALS-32</td>
+                <td align="center" valign="middle">32 Laser/detector pairs</td>
+                <td align="center" valign="middle">120</td>
+                <td align="center" valign="middle">2.4</td>
+                <td align="center" valign="middle">-</td>
+                <td align="center" valign="middle">(H) 360 (V) 10&#x2013;30</td>
+                <td align="center" valign="middle">Class 1-905</td>
+                <td align="center" valign="middle">700</td>
+                <td align="center" valign="middle">&gt;120,500</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">YellowScan Surveyor</td>
+                <td align="center" valign="middle">Dual returns</td>
+                <td align="center" valign="middle">100</td>
+                <td align="center" valign="middle">1.6</td>
+                <td align="center" valign="middle">0.125</td>
+                <td align="center" valign="middle">360</td>
+                <td align="center" valign="middle">Class 1-905</td>
+                <td align="center" valign="middle">300</td>
+                <td align="center" valign="middle">&gt;93,000</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">YellowScan Vx</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Parallel scan lines</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">100</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">2.5&#x2013;3</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">360</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Class 1-905</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">100</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">&gt;93,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </app>
+    </app-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-remotesensing-10-00641">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Belward</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Sk&#xF8;ien</surname>
+              <given-names>J.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Who Launched What, When and Why; Trends in Global Land-Cover Observation Capacity from Civilian Earth Observation Satellites</article-title>
+          <source>ISPRS J. Photogramm. Remote Sens.</source>
+          <year>2015</year>
+          <volume>103</volume>
+          <fpage>115</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.isprsjprs.2014.03.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-remotesensing-10-00641">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hand</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Startup Liftoff</article-title>
+          <source>Science</source>
+          <year>2015</year>
+          <volume>348</volume>
+          <fpage>172</fpage>
+          <lpage>177</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.348.6231.172</pub-id>
+          <pub-id pub-id-type="pmid">25859026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-remotesensing-10-00641">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wekerle</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bezerra Pessoa Filho</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Eduardo Vergueiro Loures da Costa</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gonzaga Trabasso</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Status and Trends of Smallsats and Their Launch Vehicles&#x2014;An Up-to-Date Review</article-title>
+          <source>J. Aerosp. Technol. Manag.</source>
+          <year>2017</year>
+          <volume>9</volume>
+          <fpage>269</fpage>
+          <lpage>286</lpage>
+          <pub-id pub-id-type="doi">10.5028/jatm.v9i3.853</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-remotesensing-10-00641">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCabe</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Rodell</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Alsdorf</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Miralles</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Uijlenhoet</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lucieer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Houborg</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Verhoest</surname>
+              <given-names>N.E.C.</given-names>
+            </name>
+            <name>
+              <surname>Franz</surname>
+              <given-names>T.E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The future of Earth observation in hydrology</article-title>
+          <source>Hydrol. Earth Syst. Sci.</source>
+          <year>2017</year>
+          <volume>21</volume>
+          <fpage>3879</fpage>
+          <lpage>3914</lpage>
+          <pub-id pub-id-type="doi">10.5194/hess-21-3879-2017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-remotesensing-10-00641">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCabe</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Aragon</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Houborg</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Mascaro</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>CubeSats in hydrology: Ultrahigh-resolution insights into vegetation dynamics and terrestrial evaporation</article-title>
+          <source>Water Resour. Res.</source>
+          <year>2017</year>
+          <volume>53</volume>
+          <fpage>10017</fpage>
+          <lpage>10024</lpage>
+          <pub-id pub-id-type="doi">10.1002/2017WR022240</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-remotesensing-10-00641">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pajares</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Overview and Current Status of Remote Sensing Applications Based on Unmanned Aerial Vehicles (UAVs)</article-title>
+          <source>Photogramm. Eng. Remote Sens.</source>
+          <year>2015</year>
+          <volume>81</volume>
+          <fpage>281</fpage>
+          <lpage>329</lpage>
+          <pub-id pub-id-type="doi">10.14358/PERS.81.4.281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-remotesensing-10-00641">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matese</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Toscano</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Di Gennaro</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Genesio</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Vaccari</surname>
+              <given-names>F.P.</given-names>
+            </name>
+            <name>
+              <surname>Primicerio</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Belli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zaldei</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bianconi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gioli</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intercomparison of UAV, Aircraft and Satellite Remote Sensing Platforms for Precision Viticulture</article-title>
+          <source>Remote Sens.</source>
+          <year>2015</year>
+          <volume>7</volume>
+          <fpage>2971</fpage>
+          <lpage>2990</lpage>
+          <pub-id pub-id-type="doi">10.3390/rs70302971</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-remotesensing-10-00641">
+        <label>8.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dustin</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring Parks with Inexpensive UAVs: Cost Benefits Analysis for Monitoring and Maintaining Parks Facilities</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>University of Southern California</publisher-name>
+          <publisher-loc>Los Angeles, CA, USA</publisher-loc>
+          <year>2015</year>
+        </element-citation>
+      </ref>
+      <ref id="B9-remotesensing-10-00641">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lucieer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jong</surname>
+              <given-names>S.M.D.</given-names>
+            </name>
+            <name>
+              <surname>Turner</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mapping landslide displacements using Structure from Motion (SfM) and image correlation of multi-temporal UAV photography</article-title>
+          <source>Progr. Phys. Geog.</source>
+          <year>2014</year>
+          <volume>38</volume>
+          <fpage>97</fpage>
+          <lpage>116</lpage>
+          <pub-id pub-id-type="doi">10.1177/0309133313515293</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-remotesensing-10-00641">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watts</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Ambrosia</surname>
+              <given-names>V.G.</given-names>
+            </name>
+            <name>
+              <surname>Hinkley</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unmanned aircraft systems in remote sensing and scientific research: Classification and Considerations of use</article-title>
+          <source>Remote Sens.</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>1671</fpage>
+          <lpage>1692</lpage>
+          <pub-id pub-id-type="doi">10.3390/rs4061671</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-remotesensing-10-00641">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van der Wal</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Abma</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Viguria</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Previnaire</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Zarco-Tejada</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Serruys</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>van Valkengoed</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>van der Voet</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fieldcopter: Unmanned aerial systems for crop monitoring services</article-title>
+          <source>Precis. Agric.</source>
+          <year>2013</year>
+          <volume>13</volume>
+          <fpage>169</fpage>
+          <lpage>175</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B12-remotesensing-10-00641">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anderson</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gaston</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lightweight unmanned aerial vehicles will revolutionize spatial ecology</article-title>
+          <source>Front. Ecol. Environ.</source>
+          <year>2013</year>
+          <volume>11</volume>
+          <fpage>138</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1890/120150</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-remotesensing-10-00641">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Whitehead</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hugenholtz</surname>
+              <given-names>C.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Remote sensing of the environment with small unmanned aircraft systems (UASs), part 1: A review of progress and challenges</article-title>
+          <source>J. Unmanned Veh. Syst.</source>
+          <year>2014</year>
+          <volume>2</volume>
+          <fpage>69</fpage>
+          <lpage>85</lpage>
+          <pub-id pub-id-type="doi">10.1139/juvs-2014-0006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-remotesensing-10-00641">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Whitehead</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hugenholtz</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Myshak</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>LeClair</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tamminga</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Barchyn</surname>
+              <given-names>T.E.</given-names>
+            </name>
+            <name>
+              <surname>Moorman</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Eaton</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Remote sensing of the environment with small unmanned aircraft systems (UASs), part 2: Scientific and commercial applications</article-title>
+          <source>J. Unmanned Veh. Syst.</source>
+          <year>2014</year>
+          <volume>2</volume>
+          <fpage>86</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="doi">10.1139/juvs-2014-0007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-remotesensing-10-00641">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ad&#xE3;o</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hru&#x161;ka</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>P&#xE1;dua</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bessa</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Peres</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Morais</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sousa</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hyperspectral imaging: A review on UAV-based sensors, data processing and applications for agriculture and forestry</article-title>
+          <source>Remote Sens.</source>
+          <year>2017</year>
+          <volume>9</volume>
+          <elocation-id>1110</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/rs9111110</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-remotesensing-10-00641">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tauro</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Selker</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>van de Giesen</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Abrate</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Uijlenhoet</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Porfiri</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Manfreda Oscaro</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Caylor</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Moramarco</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Benveniste</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Measurements and Observations in the XXI century (MOXXI): Innovation and multidisciplinarity to sense the hydrological cycle</article-title>
+          <source>Hydrolog. Sci. J.</source>
+          <year>2018</year>
+          <volume>63</volume>
+          <fpage>169</fpage>
+          <lpage>196</lpage>
+          <pub-id pub-id-type="doi">10.1080/02626667.2017.1420191</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-remotesensing-10-00641">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Singh</surname>
+              <given-names>K.K.</given-names>
+            </name>
+            <name>
+              <surname>Frazier</surname>
+              <given-names>A.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>A meta-analysis and review of unmanned aircraft system (UAS) imagery for terrestrial applications</article-title>
+          <source>Int. J. Remote Sens.</source>
+          <year>2018</year>
+          <fpage>1</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="doi">10.1080/01431161.2017.1420941</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-remotesensing-10-00641">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bryson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Reid</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ramos</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Sukkarieh</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Airborne Vision-Based Mapping and Classification of Large Farmland Environments</article-title>
+          <source>J. Field Robot.</source>
+          <year>2010</year>
+          <volume>27</volume>
+          <fpage>632</fpage>
+          <lpage>655</lpage>
+          <pub-id pub-id-type="doi">10.1002/rob.20343</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-remotesensing-10-00641">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akar</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mapping land use with using Rotation Forest algorithm from UAV images</article-title>
+          <source>Eur. J. Remote Sens.</source>
+          <year>2017</year>
+          <volume>50</volume>
+          <fpage>269</fpage>
+          <lpage>279</lpage>
+          <pub-id pub-id-type="doi">10.1080/22797254.2017.1319252</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-remotesensing-10-00641">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bueren</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Burkart</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hueni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rascher</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Tuohy</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Yule</surname>
+              <given-names>I.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Deploying four optical UAV-based sensors over grassland: Challenges and limitations</article-title>
+          <source>Biogeosciences</source>
+          <year>2015</year>
+          <volume>12</volume>
+          <fpage>163</fpage>
+          <lpage>175</lpage>
+          <pub-id pub-id-type="doi">10.5194/bg-12-163-2015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-remotesensing-10-00641">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ludovisi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Tauro</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Salvati</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Khoury</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mugnozza Scarascia</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Harfouche</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>UAV-based thermal imaging for high-throughput field phenotyping of black poplar response to drought</article-title>
+          <source>Front. Plant Sci.</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <fpage>1681</fpage>
+          <pub-id pub-id-type="doi">10.3389/fpls.2017.01681</pub-id>
+          <pub-id pub-id-type="pmid">29021803</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-remotesensing-10-00641">
+        <label>22.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Harmon</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantifying Nitrogen Status of Rice Using Low Altitude UAV-Mounted System and Object-Oriented Segmentation Methodology</article-title>
+          <source>Proceedings of the ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference</source>
+          <conf-loc>San Diego, CA, USA</conf-loc>
+          <conf-date>30 August&#x2013;2 September 2009</conf-date>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-remotesensing-10-00641">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urbahs</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jonaite</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Features of the use of unmanned aerial vehicles for agriculture applications</article-title>
+          <source>Aviation</source>
+          <year>2013</year>
+          <volume>17</volume>
+          <fpage>170</fpage>
+          <lpage>175</lpage>
+          <pub-id pub-id-type="doi">10.3846/16487788.2013.861224</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-remotesensing-10-00641">
+        <label>24.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jeunnette</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Hart</surname>
+              <given-names>D.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Remote sensing for developing world agriculture: Opportunities and areas for technical development</article-title>
+          <source>Proceedings of the Remote Sensing for Agriculture, Ecosystems, and Hydrology XVIII</source>
+          <conf-loc>Edinburgh, UK</conf-loc>
+          <conf-date>26&#x2013;29 September 2016</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B25-remotesensing-10-00641">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samseemoung</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Soni</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Jayasuriya</surname>
+              <given-names>H.P.W.</given-names>
+            </name>
+            <name>
+              <surname>Salokhe</surname>
+              <given-names>V.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>An Application of low altitude remote sensing (LARS) platform for monitoring crop growth and weed infestation in a soybean plantation</article-title>
+          <source>Precis. Agric.</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>611</fpage>
+          <lpage>627</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11119-012-9271-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-remotesensing-10-00641">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alvarez-Taboada</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Paredes</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Juli&#xE1;n-Pelaz</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mapping of the Invasive Species Hakea sericea Using Unmanned Aerial Vehicle (UAV) and WorldView-2 Imagery and an Object-Oriented Approach</article-title>
+          <source>Remote Sens.</source>
+          <year>2017</year>
+          <volume>9</volume>
+          <elocation-id>913</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/rs9090913</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-remotesensing-10-00641">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Witte</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Singler</surname>
+              <given-names>R.F.</given-names>
+            </name>
+            <name>
+              <surname>Bailey</surname>
+              <given-names>S.C.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of an Unmanned Aerial Vehicle for the Measurement of Turbulence in the Atmospheric Boundary Layer</article-title>
+          <source>Atmosphere</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <elocation-id>195</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/atmos8100195</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-remotesensing-10-00641">
+        <label>28.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stone</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Ayala</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <source>The Use of Emerging Technology in Post-Disaster Reconnaissance Missions</source>
+          <comment>EEFIT Report</comment>
+          <publisher-name>Institution of Structural Engineers</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2017</year>
+          <size units="pages">25p</size>
+        </element-citation>
+      </ref>
+      <ref id="B29-remotesensing-10-00641">
+        <label>29.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frankenberger</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Nouwakpo</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Low-altitude digital photogrammetry technique to assess ephemeral gully erosion</article-title>
+          <source>Proceedings of the IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2008)</source>
+          <conf-loc>Boston, MA, USA</conf-loc>
+          <conf-date>7&#x2013;11 July 2008</conf-date>
+          <fpage>117</fpage>
+          <lpage>120</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B30-remotesensing-10-00641">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>d&#x2019;Oleire-Oltmanns</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Marzolff</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Peter</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Ries</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unmanned aerial vehicle (UAV) for monitoring soil erosion in Morocco</article-title>
+          <source>Remote Sens.</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>3390</fpage>
+          <lpage>3416</lpage>
+          <pub-id pub-id-type="doi">10.3390/rs4113390</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-remotesensing-10-00641">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quiquerez</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chevigny</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Allemand</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Curmi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Petit</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Grandjean</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing the impact of soil surface characteristics on vineyard erosion from very high spatial resolution aerial images (C&#xF4;te de Beaune, Burgundy, France)</article-title>
+          <source>Catena</source>
+          <year>2014</year>
+          <volume>116</volume>
+          <fpage>163</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.catena.2013.12.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-remotesensing-10-00641">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aldana-Jague</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Heckrath</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Macdonald</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>van Wesemael</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Van Oost</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>UAS-based soil carbon mapping using VIS-NIR (480-1000 nm) multi-spectral imaging: Potential and limitations</article-title>
+          <source>Geoderma</source>
+          <year>2016</year>
+          <volume>275</volume>
+          <fpage>55</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geoderma.2016.04.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-remotesensing-10-00641">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Niethammer</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>James</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Rothmund</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Travelletti</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Joswig</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>UAV-based remote sensing of the Super Sauze landslide: Evaluation and results</article-title>
+          <source>Eng. Geol.</source>
+          <year>2012</year>
+          <volume>128</volume>
+          <fpage>2</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.enggeo.2011.03.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-remotesensing-10-00641">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sieberth</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wackrow</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chandler</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic detection of blurred images in UAV image sets</article-title>
+          <source>ISPRS J. Photogramm. Remote Sens.</source>
+          <year>2016</year>
+          <volume>122</volume>
+          <fpage>1</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.isprsjprs.2016.09.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-remotesensing-10-00641">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Colomina</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Molina</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unmanned aerial systems for photogrammetry and remote sensing: A review</article-title>
+          <source>ISPRS J. Photogramm. Remote Sens.</source>
+          <year>2014</year>
+          <volume>92</volume>
+          <fpage>79</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.isprsjprs.2014.02.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-remotesensing-10-00641">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mesas-Carrascosa</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Rumbao</surname>
+              <given-names>I.C.</given-names>
+            </name>
+            <name>
+              <surname>Berrocal</surname>
+              <given-names>J.A.B.</given-names>
+            </name>
+            <name>
+              <surname>Porras</surname>
+              <given-names>A.G.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Positional quality assessment of orthophotos obtained from sensors on board multi-rotor UAV platforms</article-title>
+          <source>Sensors</source>
+          <year>2014</year>
+          <volume>14</volume>
+          <fpage>22394</fpage>
+          <lpage>22407</lpage>
+          <pub-id pub-id-type="doi">10.3390/s141222394</pub-id>
+          <pub-id pub-id-type="pmid">25587877</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-remotesensing-10-00641">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ai</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A robust photogrammetric processing method of low-altitude UAV images</article-title>
+          <source>Remote Sens.</source>
+          <year>2015</year>
+          <volume>7</volume>
+          <fpage>2302</fpage>
+          <lpage>2333</lpage>
+          <pub-id pub-id-type="doi">10.3390/rs70302302</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-remotesensing-10-00641">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>James</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Robson</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitigating systematic error in topographic models derived from UAV and ground-based image networks</article-title>
+          <source>Earth Surf. Process. Landf.</source>
+          <year>2014</year>
+          <volume>39</volume>
+          <fpage>1413</fpage>
+          <lpage>1420</lpage>
+          <pub-id pub-id-type="doi">10.1002/esp.3609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-remotesensing-10-00641">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peppa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mills</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>P.E.</given-names>
+            </name>
+            <name>
+              <surname>Chambers</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Accuracy assessment of a UAV-based landslide monitoring system</article-title>
+          <source>Int. Arch. Photogramm. Remote Sens. Spat. Inf. Sci.</source>
+          <year>2016</year>
+          <volume>41</volume>
+          <fpage>895</fpage>
+          <lpage>902</lpage>
+          <pub-id pub-id-type="doi">10.5194/isprsarchives-XLI-B5-895-2016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-remotesensing-10-00641">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eltner</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of Different Methods for 3D Reconstruction of Natural Surfaces from Parallel-Axes UAV Images</article-title>
+          <source>Photogramm. Record</source>
+          <year>2015</year>
+          <volume>30</volume>
+          <fpage>279</fpage>
+          <lpage>299</lpage>
+          <pub-id pub-id-type="doi">10.1111/phor.12115</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-remotesensing-10-00641">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>James</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Robson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>d&#x2019;Oleire-Oltmanns</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Niethammer</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimising UAV topographic surveys processed with structure-from-motion: Ground control quality, quantity and bundle adjustment</article-title>
+          <source>Geomorphology</source>
+          <year>2017</year>
+          <volume>280</volume>
+          <fpage>51</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geomorph.2016.11.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-remotesensing-10-00641">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toth</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>J&#xF3;&#x17A;k&#xF3;w</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Remote sensing platforms and sensors: A survey</article-title>
+          <source>ISPRS J. Photogramm. Remote Sens.</source>
+          <year>2016</year>
+          <volume>115</volume>
+          <fpage>22</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.isprsjprs.2015.10.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-remotesensing-10-00641">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geipel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Link</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Claupein</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Combined spectral and spatial modeling of corn yield based on aerial images and crop surface models acquired with an unmanned aircraft system</article-title>
+          <source>Remote Sens.</source>
+          <year>2014</year>
+          <volume>6</volume>
+          <fpage>10335</fpage>
+          <lpage>10355</lpage>
+          <pub-id pub-id-type="doi">10.3390/rs61110335</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-remotesensing-10-00641">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Torres-Sanchez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pena</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>de Castro</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Granados</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multi-temporal mapping of the vegetation fraction in early-season wheat fields using images from UAV</article-title>
+          <source>Comput. Electron. Agric.</source>
+          <year>2014</year>
+          <volume>103</volume>
+          <fpage>104</fpage>
+          <lpage>113</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compag.2014.02.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-remotesensing-10-00641">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saberioon</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Amina</surname>
+              <given-names>M.S.M.</given-names>
+            </name>
+            <name>
+              <surname>Anuar</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Gholizadeh</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wayayokd</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Khairunniza-Bejo</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of rice leaf chlorophyll content using visible bands at different growth stages at both the leaf and canopy scale</article-title>
+          <source>Int. J. Appl. Earth Obs. Geoinform.</source>
+          <year>2014</year>
+          <volume>32</volume>
+          <fpage>35</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jag.2014.03.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-remotesensing-10-00641">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jannoura</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Brinkmann</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Uteau</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bruns</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Joergensen</surname>
+              <given-names>R.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring of crop biomass using true colour aerial photographs taken from a remote controlled hexacopter</article-title>
+          <source>Biosyst. Eng.</source>
+          <year>2015</year>
+          <volume>129</volume>
+          <fpage>341</fpage>
+          <lpage>351</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biosystemseng.2014.11.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-remotesensing-10-00641">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hunt</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Hivel</surname>
+              <given-names>W.D.</given-names>
+            </name>
+            <name>
+              <surname>Fujikawa</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Linden</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Daughtry</surname>
+              <given-names>C.S.T.</given-names>
+            </name>
+            <name>
+              <surname>McCarty</surname>
+              <given-names>G.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Acquisition of NIR-green-blue digital photographs from unmanned aircraft for crop monitoring</article-title>
+          <source>Remote Sens.</source>
+          <year>2010</year>
+          <volume>2</volume>
+          <fpage>290</fpage>
+          <lpage>305</lpage>
+          <pub-id pub-id-type="doi">10.3390/rs2010290</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-remotesensing-10-00641">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laliberte</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Goforth</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Steele</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Rango</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multispectral Remote Sensing from Unmanned Aircraft: Image Processing Workflows and Applications for Rangeland Environments</article-title>
+          <source>Remote Sens.</source>
+          <year>2011</year>
+          <volume>3</volume>
+          <fpage>2529</fpage>
+          <lpage>2551</lpage>
+          <pub-id pub-id-type="doi">10.3390/rs3112529</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-remotesensing-10-00641">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jhan</surname>
+              <given-names>J.-P.</given-names>
+            </name>
+            <name>
+              <surname>Rau</surname>
+              <given-names>J.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Haala</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Cramer</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation of parallax issues for multi-lens multispectral camera band co-registration</article-title>
+          <source>Int. Arch. Photogramm. Remote Sens. Spat. Inf. Sci.</source>
+          <year>2017</year>
+          <volume>XLII-2/W6</volume>
+          <fpage>157</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="doi">10.5194/isprs-archives-XLII-2-W6-157-2017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-remotesensing-10-00641">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Species classification using Unmanned Aerial Vehicle (UAV)-acquired high spatial resolution imagery in a heterogeneous grassland</article-title>
+          <source>ISPRS J. Photogramm.</source>
+          <year>2017</year>
+          <volume>128</volume>
+          <fpage>73</fpage>
+          <lpage>85</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.isprsjprs.2017.03.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-remotesensing-10-00641">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brook</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ben-Dor</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Supervised vicarious calibration (SVC) of hyperspectral remote-sensing data</article-title>
+          <source>Remote Sens. Environ.</source>
+          <year>2011</year>
+          <volume>115</volume>
+          <fpage>1543</fpage>
+          <lpage>1555</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.rse.2011.02.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-remotesensing-10-00641">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zarco-Tejada</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez-Dugo</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Berni</surname>
+              <given-names>J.A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fluorescence, temperature and narrow-band indices acquired from a UAV platform for water stress detection using a microhyperspectral imager and a thermal camera</article-title>
+          <source>Remote Sens. Environ.</source>
+          <year>2012</year>
+          <volume>117</volume>
+          <fpage>322</fpage>
+          <lpage>337</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.rse.2011.10.007</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

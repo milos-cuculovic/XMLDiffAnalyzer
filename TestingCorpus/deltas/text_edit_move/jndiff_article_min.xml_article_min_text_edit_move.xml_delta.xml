@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NDELTA collapse="true" commentnode="true" emptynode="true" ltrim="true" rtrim="true" xmlns="JNdiff.org">
+	<DELETE nn="13" nodecount="2">
+		<surname xmlns="">Manfreda Oscaro</surname>
+	</DELETE>
+	<INSERT at="12" nn="13" nodecount="1" pos="0">
+		<surname xmlns="">Oscaro Manfreda</surname>
+	</INSERT>
+</NDELTA>

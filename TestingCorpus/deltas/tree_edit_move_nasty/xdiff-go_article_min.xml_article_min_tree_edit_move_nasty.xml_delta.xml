@@ -1,0 +1,7 @@
+Update('(Data n: v:On the Use of Unmanned Aerial Systems for Environmental Monitoring s:/article/front/article-meta/title-group/article-title/Data h:70d136)'->'(Data n: v:,Aerial Systems for Environmental Monitoring s:/article/front/article-meta/title-group/article-title/Data h:1d2dcb)')
+Insert('(Data n: v:On the Use of Unmanned  s:/article/front/article-meta/title-group/article-title/Data h:4f7efd)')
+InsertSubtree('(Element n:xref v: s:/article/front/article-meta/title-group/article-title/xref/Element h:19f5a7)')
+Delete('(Attribute n:rid v:B1-remotesensing-10-00641 s:/article/body/sec/p/xref/rid/Attribute h:ed1b56)')
+Delete('(Data n: v:1 s:/article/body/sec/p/xref/Data h:f37053)')
+Delete('(Data n: v:, s:/article/body/sec/p/Data h:1adecd)')
+Delete('(Attribute n:ref-type v:bibr s:/article/body/sec/p/xref/ref-type/Attribute h:18a7b2)')

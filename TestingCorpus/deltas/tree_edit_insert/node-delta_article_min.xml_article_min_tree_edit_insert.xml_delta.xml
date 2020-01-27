@@ -1,0 +1,15 @@
+<delta><forest path="1/1/5/3/3/4"><context>3067ac4b;d3e9fda8;5b110bd4;7247444c</context><remove>
+          </remove><insert>
+          </insert><context>7671a3a8;c086963f;1310d193;1fcb59a8</context></forest><forest path="1/1/5/3/4"><context>d3e9fda8;5b110bd4;7247444c;7671a3a8</context><remove>
+          </remove><insert>
+          </insert><context>c086963f;1310d193;1fcb59a8;b6849fa8</context></forest><forest path="1/1/5/3/5/0"><context>7247444c;7671a3a8;7671a3a8;c086963f</context><remove>1</remove><insert>1</insert><context>1fcb59a8;b6849fa8;b6849fa8;9b820afa</context></forest><forest path="1/1/5/3/6"><context>7671a3a8;7671a3a8;c086963f;1310d193</context><remove>
+        </remove><insert>
+        </insert><context>b6849fa8;b6849fa8;9b820afa;a8039ebe</context></forest><forest path="1/1/5/4"><context>7671a3a8;c086963f;1310d193;1fcb59a8</context><remove/><insert>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0225-144X</contrib-id>
+          <name>
+            <surname>aaaa</surname>
+            <given-names>bbbb</given-names>
+          </name>
+          <xref rid="af1-remotesensing-10-00641" ref-type="aff">1</xref>
+        </contrib></insert><context>b6849fa8;b6849fa8;9b820afa;a8039ebe</context></forest></delta>

@@ -1,0 +1,13 @@
+Outputting to stdout
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xy:unit_delta xmlns:xy="urn:schemas-xydiff:xydelta" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <xy:t fromXidMap="(1-214;4910;216;219-4909|4911)">
+    <xy:d par="219" pos="8" xm="(217-218)">
+      <p>In this paper, we present a method that allows for early detection of faults in boiler feed pumps at power plants on the basis of signals captured with the use of various sensors mounted on water pumps. For this purpose, we use a bag of regression models built for the particular signals being monitored. The regression models enable the detection of deviations from the operation state without the necessity of labeling data. Therefore, our approach minimizes the requirement of using expert knowledge, in particular the knowledge related to the categorization of failures and the exact time of their occurrence, which is sometimes difficult to identify.</p>
+    </xy:d>
+    <xy:d par="216" pos="7" xm="(215)">.</xy:d>
+    <xy:i par="216" pos="7" xm="(4910)">. In this paper, we present a method that allows for early detection of faults in boiler feed pumps at power plants on the basis of signals captured with the use of various sensors mounted on water pumps. For this purpose, we use a bag of regression models built for the particular signals being monitored. The regression models enable the detection of deviations from the operation state without the necessity of labeling data. Therefore, our approach minimizes the requirement of using expert knowledge, in particular the knowledge related to the categorization of failures and the exact time of their occurrence, which is sometimes difficult to identify.</xy:i>
+  </xy:t>
+
+</xy:unit_delta>

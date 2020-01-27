@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xy:unit_delta xmlns:xy="urn:schemas-xydiff:xydelta" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <xy:t fromXidMap="(1-2;61;4-35;37-60|62)">
+    <xy:d par="37" pos="1" xm="(36)">salvatore.Manfreda@unibas.it</xy:d>
+    <xy:u newxm="(61)" oldxm="(3)" par="4" pos="1">
+      <xy:td len="23" pos="0"/>
+    </xy:u>
+  </xy:t>
+
+</xy:unit_delta>

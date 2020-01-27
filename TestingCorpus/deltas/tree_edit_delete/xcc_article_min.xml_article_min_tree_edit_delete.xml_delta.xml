@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><delta><delete digester="fnv" path="/1/1/5/1/7" radius="4" shortened="true"><fingerprint>7671a3a8;c086963f;1310d193;7671a3a8;972c836a;1fcb59a8;9be2e570;7671a3a8;8544cc4d</fingerprint><oldvalue><xref ref-type="corresp" rid="c1-remotesensing-10-00641">*</xref>
+        </oldvalue></delete><delete digester="fnv" path="/1/1/5/2" radius="4" shortened="true"><fingerprint>7671a3a8;33e0f62c;1310d188;1fcb59a8;6e410282;b6849fa8;b6849fa8;9b820afa;a8039ebe</fingerprint><oldvalue>
+        <contrib contrib-type="author">
+          <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-0225-144X</contrib-id>
+          <name>
+            <surname>Somename</surname>
+            <given-names>SomeGivenName</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-remotesensing-10-00641">1</xref>
+        </contrib></oldvalue></delete><update digester="fnv" path="/1/1/5/1/3/1/0" radius="4" shortened="true"><fingerprint>7671a3a8;1dac2555;d3e9fda8;cbfabae7;1344ff81;d3e9fda8;5b110bd4;e74a4229;7671a3a8</fingerprint><oldvalue>Manfreda Oscaro</oldvalue><newvalue>Somename</newvalue></update><update digester="fnv" path="/1/1/5/1/3/3/0" radius="4" shortened="true"><fingerprint>cbfabae7;1344ff81;d3e9fda8;5b110bd4;e74a4229;7671a3a8;7671a3a8;c086963f;1310d193</fingerprint><oldvalue>Salvatore</oldvalue><newvalue>SomeGivenName</newvalue></update><update digester="fnv" path="/1/1/5/1/6" radius="4" shortened="true"><fingerprint>7671a3a8;7671a3a8;c086963f;1310d193;7671a3a8;33e0f62c;1310d188;1fcb59a8;1fcb59a8</fingerprint><oldvalue>
+          </oldvalue><newvalue>
+        </newvalue></update></delta>

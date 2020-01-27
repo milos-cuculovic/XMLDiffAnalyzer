@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff:diff op="insert" xmlns:diff="http://www.hiit.fi/fc/xml/tdm/diff" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ref="http://www.hiit.fi/fc/xml/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<ref:node id="/0">
+		<ref:node id="./0">
+			<ref:node id="./0">
+				<diff:copy run="2" src="./0"/>
+				<ref:node id="./2">
+					<ref:node id="./0">
+						<diff:copy run="1" src="./0"/>
+						<ref:node id="./1">
+							<ref:node id="./0">Oscaro Manfreda</ref:node>
+							<diff:copy run="1" src="./1"/>
+						</ref:node>
+						<diff:copy run="2" src="./2"/>
+					</ref:node>
+					<diff:copy run="1" src="./1"/>
+				</ref:node>
+				<diff:copy run="2" src="./3"/>
+			</ref:node>
+		</ref:node>
+		<diff:copy run="1" src="./1"/>
+	</ref:node>
+</diff:diff>

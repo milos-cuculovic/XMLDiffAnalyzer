@@ -4,16 +4,16 @@ class XMLDiffAnalyzer:
             ["", "xydiff", "xydiff ", " "],
             ["java -jar ", "jndiff", "jndiff/jndiff-ui.jar -d ", " "],
             ["java -jar ", "jxydiff", "jxydiff.jar ", " ", " "],
-            ["ant -buildfile ", "fc-xmldiff", "fc-xmldiff/java/xmldiff/build.xml -Dbase=", " -Dnew=", " -Ddiff=", " diff"],
+            #["ant -buildfile ", "fc-xmldiff", "fc-xmldiff/java/xmldiff/build.xml -Dbase=", " -Dnew=", " -Ddiff=", " diff"],
             ["java -jar ", "xcc", "xcc-java-0.90.jar --diff --doc ", " --changed ", " --delta "],
-            ["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " "],
+            #["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " "],
             #["java -jar ", "deltaXML", "deltaXML/command-10.1.2.jar compare delta ", " ", " "], #License needed
-            ["", "xmldiff", "xmldiff_bin -f xml ", " "], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
-            ["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
-            ["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "],
-            ["", "xdiff", "xdiff ", " ", " "],
-            ["", "xdiff-go", "XDiff-go -left ", " -right ", ""],
-            ["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " "]
+            #["", "xmldiff", "xmldiff_bin -f xml ", " "], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
+            #["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
+            #["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "],
+            #["", "xdiff", "xdiff ", " ", " "],
+            #["", "xdiff-go", "XDiff-go -left ", " -right ", ""],
+            #["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " "]
         ]
 
     def start(self, mode, rounds, file_pairs, files_orig, files_new, file_delta_dir):
@@ -120,7 +120,9 @@ if __name__ == '__main__':
         for file_pair in range(1, file_pairs + 1):
             try:
                 input_file_orig = input("Enter the full path of the original XML file pair " + str(file_pair) +": ") \
-                                  or "/Users/miloscuculovic/XML_Diff_tools_material/Originals/article_min.xml"
+                or "/Users/miloscuculovic/1.xml"
+
+                                  #or "/Users/miloscuculovic/XML_Diff_tools_material/Originals/article_min.xml"
             except ValueError:
                 print("Please provide a vaild original XML file path")
 
@@ -133,7 +135,8 @@ if __name__ == '__main__':
 
             try:
                 input_file_new = input("Enter the full path of the modified XML file pair " + str(file_pair) + ": ") \
-                                 or "/Users/miloscuculovic/XML_Diff_tools_material/TreeEdits/tree_edit_delete/article_min_tree_edit_delete.xml"
+                or "/Users/miloscuculovic/2.xml"
+                # or "/Users/miloscuculovic/XML_Diff_tools_material/TextEdits/text_edit_delete/article_min_text_edit_delete.xml"
             except ValueError:
                 print("Please provide a vaild modified XML file path")
             try:
@@ -152,7 +155,7 @@ if __name__ == '__main__':
 
         try:
             input_file_delta_dir = input("Enter the full path of the delta XML files directory: ") \
-                                   or "/Users/miloscuculovic/XML_Diff_tools_material/"
+                                   or "/Users/miloscuculovic/XML_Diff_tools_material/deltas/"
         except ValueError:
             print("Please provide a vaild delta XML files directory file path")
 

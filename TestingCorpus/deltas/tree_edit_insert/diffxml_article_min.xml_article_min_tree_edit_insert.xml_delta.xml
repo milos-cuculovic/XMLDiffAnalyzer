@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<delta xmlns="http://www.adrianmouat.com/dul">
+    <move childno="2" new_charpos="19" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]" old_charpos="10" parent="/node()[1]/node()[2]/node()[2]/node()[6]"/>
+    <move childno="1" length="9" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[4]"/>
+    <move childno="2" new_charpos="23" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[2]" old_charpos="12" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]"/>
+    <move childno="4" new_charpos="12" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[3]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]"/>
+    <move childno="6" new_charpos="12" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[5]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]"/>
+    <move childno="3" length="9" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[10]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]"/>
+    <move childno="2" new_charpos="23" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[2]" old_charpos="12" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]"/>
+    <move childno="4" new_charpos="12" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[3]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]"/>
+    <insert childno="5" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]">
+        </insert>
+    <insert charpos="10" childno="6" name="contrib" nodetype="1" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]"/>
+    <insert name="contrib-type" nodetype="2" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]">author</insert>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[10]">
+        </insert>
+    <move childno="7" length="11" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]"/>
+    <insert childno="5" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]">
+          </insert>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]">
+          </insert>
+    <insert charpos="12" childno="2" name="contrib-id" nodetype="1" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]"/>
+    <insert name="authenticated" nodetype="2" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[2]">true</insert>
+    <insert name="contrib-id-type" nodetype="2" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[2]">orcid</insert>
+    <insert childno="3" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]">
+          </insert>
+    <insert charpos="12" childno="4" name="name" nodetype="1" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]"/>
+    <insert childno="5" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]">
+          </insert>
+    <insert charpos="12" childno="6" name="xref" nodetype="1" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]"/>
+    <insert name="ref-type" nodetype="2" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[6]">aff</insert>
+    <insert name="rid" nodetype="2" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[6]">af1-remotesensing-10-00641</insert>
+    <move childno="7" length="9" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[4]/node()[1]" old_charpos="10" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]"/>
+    <move childno="1" length="1" new_charpos="1" node="/node()[1]/node()[4]/node()[2]/node()[4]/node()[2]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[8]/node()[1]"/>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[4]/node()[2]/node()[4]/node()[2]">1</insert>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[2]">https://orcid.org/0000-0002-0225-144X</insert>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[4]">
+            </insert>
+    <insert charpos="14" childno="2" name="surname" nodetype="1" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[4]"/>
+    <insert childno="3" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[4]">
+            </insert>
+    <insert charpos="14" childno="4" name="given-names" nodetype="1" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[4]"/>
+    <move childno="5" length="11" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[4]"/>
+    <move childno="1" length="1" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[8]/node()[1]/node()[1]" old_charpos="2" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[6]"/>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[4]/node()[2]">aaaa</insert>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[6]/node()[4]/node()[4]">bbbb</insert>
+</delta>
+

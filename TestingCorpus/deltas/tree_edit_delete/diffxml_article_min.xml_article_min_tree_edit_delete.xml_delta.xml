@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<delta xmlns="http://www.adrianmouat.com/dul">
+    <move childno="1" length="9" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[7]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[4]"/>
+    <move childno="1" length="9" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[4]/node()[1]" old_charpos="10" parent="/node()[1]/node()[2]/node()[2]/node()[6]"/>
+    <move childno="2" length="11" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]"/>
+    <move childno="4" length="11" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[2]" old_charpos="12" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]"/>
+    <move childno="1" length="9" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[1]" old_charpos="10" parent="/node()[1]/node()[2]/node()[2]/node()[10]"/>
+    <move childno="1" length="11" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[4]/node()[5]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]"/>
+    <move childno="1" length="1" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[6]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[8]/node()[1]"/>
+    <move childno="1" length="1" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[8]/node()[1]/node()[1]" old_charpos="2" parent="/node()[1]/node()[4]/node()[2]/node()[4]/node()[2]"/>
+    <move childno="1" length="1" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[8]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[10]/node()[2]/node()[1]"/>
+    <move childno="1" length="8" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[4]/node()[2]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[4]/node()[2]"/>
+    <move childno="1" length="13" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[4]/node()[4]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[4]/node()[4]"/>
+    <delete charpos="2" length="1" node="/node()[1]/node()[4]/node()[2]/node()[4]/node()[2]/node()[1]"/>
+    <delete charpos="2" length="1" node="/node()[1]/node()[2]/node()[2]/node()[10]/node()[2]/node()[1]/node()[1]"/>
+    <delete charpos="10" length="9" node="/node()[1]/node()[2]/node()[2]/node()[10]/node()[1]"/>
+    <delete node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[6]"/>
+    <delete charpos="1" length="11" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[5]"/>
+    <delete node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[4]/node()[4]"/>
+    <delete charpos="1" length="13" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[4]/node()[3]"/>
+    <delete node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[4]/node()[2]"/>
+    <delete charpos="1" length="13" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[4]/node()[1]"/>
+    <delete node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[4]"/>
+    <delete charpos="1" length="11" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[3]"/>
+    <delete charpos="1" length="37" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[2]/node()[1]"/>
+    <delete node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[2]"/>
+    <delete charpos="1" length="11" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[1]"/>
+    <delete node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]"/>
+    <delete charpos="1" length="9" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[3]"/>
+    <delete node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[8]"/>
+    <delete charpos="1" length="11" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[7]"/>
+    <delete charpos="12" length="11" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[5]"/>
+    <delete charpos="14" length="9" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[4]/node()[4]/node()[1]"/>
+    <delete charpos="9" length="15" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[4]/node()[2]/node()[1]"/>
+</delta>
+

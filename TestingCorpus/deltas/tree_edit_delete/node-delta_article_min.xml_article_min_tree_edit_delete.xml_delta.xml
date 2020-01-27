@@ -1,0 +1,10 @@
+<delta><forest path="1/1/5/0"><context>5e4763f1;b6849fa8;b6849fa8;e40eda6d</context><remove>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0225-144X</contrib-id>
+          <name>
+            <surname>Manfreda Oscaro</surname>
+            <given-names>Salvatore</given-names>
+          </name>
+          <xref rid="af1-remotesensing-10-00641" ref-type="aff">1</xref>
+          <xref rid="c1-remotesensing-10-00641" ref-type="corresp">*</xref>
+        </contrib></remove><insert/><context>1fcb59a8;9be2e570;7671a3a8;8544cc4d</context></forest></delta>

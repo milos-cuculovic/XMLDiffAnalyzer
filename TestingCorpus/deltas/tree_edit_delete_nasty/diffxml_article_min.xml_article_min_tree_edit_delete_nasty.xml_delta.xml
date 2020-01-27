@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<delta xmlns="http://www.adrianmouat.com/dul">
+    <move childno="4" length="1" new_charpos="1" node="/node()[1]/node()[4]/node()[2]/node()[4]/node()[3]" old_charpos="1" parent="/node()[1]/node()[4]/node()[2]/node()[4]"/>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[4]/node()[2]/node()[4]">Despite the recent and rapid increase in the number and range of Earth observing satellites [,</insert>
+    <delete charpos="2" length="1" node="/node()[1]/node()[4]/node()[2]/node()[4]/node()[4]"/>
+    <delete charpos="1" length="1" node="/node()[1]/node()[4]/node()[2]/node()[4]/node()[2]/node()[1]"/>
+    <delete node="/node()[1]/node()[4]/node()[2]/node()[4]/node()[2]"/>
+    <delete charpos="95" length="93" node="/node()[1]/node()[4]/node()[2]/node()[4]/node()[1]"/>
+</delta>
+
