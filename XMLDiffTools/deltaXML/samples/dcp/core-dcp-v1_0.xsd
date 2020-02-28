@@ -400,6 +400,9 @@
       <xs:keyref name="booleanParameterRef" refer="booleanParameterNameIsKey">
          <xs:selector xpath="advancedConfig/parserFeatures/feature|
                    advancedConfig/transformerConfigurationProperties/booleanProperty|
+                   standardConfig/calsTableConfiguration/processCalsTables|
+                   standardConfig/htmlTableConfiguration/normalizeHtmlTables|
+                   standardConfig/htmlTableConfiguration/processHtmlTables|
                    standardConfig/lexicalPreservation/defaults/retain|
                    standardConfig/lexicalPreservation/overrides/preserveItems/CDATA/retain|
                    standardConfig/lexicalPreservation/overrides/preserveItems/XMLDeclaration/retain|
@@ -413,6 +416,7 @@
                    standardConfig/lexicalPreservation/overrides/preserveItems/ignorableWhitespace/retain|
                    standardConfig/lexicalPreservation/overrides/preserveItems/nestedEntityReferences/retain|
                    standardConfig/lexicalPreservation/overrides/preserveItems/processingInstructions/retain|
+                   standardConfig/mathmlConfiguration/enableMathml|
                    standardConfig/outputFormatConfiguration/attributeChangeMarked|
                    standardConfig/outputFormatConfiguration/grouping|
                    standardConfig/resultReadabilityOptions/changeGatheringEnabled|
@@ -428,6 +432,12 @@
          <xs:selector xpath="advancedConfig/outputProperties/property|
                    advancedConfig/parserProperties/property|
                    advancedConfig/transformerConfigurationProperties/stringProperty|
+                   standardConfig/calsTableConfiguration/calsValidationLevel|
+                   standardConfig/calsTableConfiguration/invalidCalsTableBehaviour|
+                   standardConfig/calsTableConfiguration/warningReportMode|
+                   standardConfig/htmlTableConfiguration/htmlValidationLevel|
+                   standardConfig/htmlTableConfiguration/invalidHtmlTableBehaviour|
+                   standardConfig/htmlTableConfiguration/warningReportMode|
                    standardConfig/lexicalPreservation/defaults/outputType|
                    standardConfig/lexicalPreservation/defaults/processingMode|
                    standardConfig/lexicalPreservation/overrides/advancedEntityReferenceUsage|
@@ -448,6 +458,7 @@
                    standardConfig/lexicalPreservation/overrides/preserveItems/ignorableWhitespace/processingMode|
                    standardConfig/lexicalPreservation/overrides/preserveItems/processingInstructions/outputType|
                    standardConfig/lexicalPreservation/overrides/preserveItems/processingInstructions/processingMode|
+                   standardConfig/mathmlConfiguration/mathmlGranularity|
                    standardConfig/outputFormatConfiguration/frameMakerTcsTableChangeMode|
                    standardConfig/outputFormatConfiguration/modifiedAttributeMode|
                    standardConfig/outputFormatConfiguration/modifiedFormatOutput|
@@ -659,6 +670,9 @@
             <xs:element ref="outputFormatConfiguration" minOccurs="0"/>
             <xs:element ref="resultReadabilityOptions" minOccurs="0"/>
             <xs:element ref="tableConfiguration" minOccurs="0"/>
+            <xs:element ref="calsTableConfiguration" minOccurs="0"/>
+            <xs:element ref="htmlTableConfiguration" minOccurs="0"/>
+            <xs:element ref="mathmlConfiguration" minOccurs="0"/>
          </xs:all>
          <!--assertion removed for schema 1.0 variant-->
       </xs:complexType>
@@ -996,6 +1010,41 @@
          <!--assertion removed for schema 1.0 variant-->
       </xs:complexType>
   </xs:element>
+  
+  <xs:element name="calsTableConfiguration">
+      <xs:annotation>
+         <xs:documentation> Specifies configuration options for CALS table comparison. These configuration
+        options can be specified on a DocumentComparator to configure its behaviour when comparing
+        tables. </xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="warningReportMode" minOccurs="0"/>
+            <xs:element ref="processCalsTables" minOccurs="0"/>
+            <xs:element ref="calsValidationLevel" minOccurs="0"/>
+            <xs:element ref="invalidCalsTableBehaviour" minOccurs="0"/>
+         </xs:all>
+         <!--assertion removed for schema 1.0 variant-->
+      </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="htmlTableConfiguration">
+      <xs:annotation>
+         <xs:documentation> Specifies configuration options for HTML table comparison. These configuration
+        options can be specified on a DocumentComparator to configure its behaviour when comparing
+        tables. </xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="warningReportMode" minOccurs="0"/>
+            <xs:element ref="processHtmlTables" minOccurs="0"/>
+            <xs:element ref="htmlValidationLevel" minOccurs="0"/>
+            <xs:element ref="invalidHtmlTableBehaviour" minOccurs="0"/>
+            <xs:element ref="normalizeHtmlTables" minOccurs="0"/>
+         </xs:all>
+         <!--assertion removed for schema 1.0 variant-->
+      </xs:complexType>
+  </xs:element>
 
   <xs:element name="warningReportMode">
       <xs:annotation>
@@ -1043,9 +1092,24 @@
   <xs:element name="calsValidationLevel">
       <xs:annotation>
          <xs:documentation> Sets the ValidationLevel to use for CALS table validation. A value of
-        ValidationLevel.STRICT will cause the InvalidCalsTableBehaviour mode to be used for any CALS
+        ValidationLevel.STRICT will cause the InvalidTableBehaviour mode to be used for any CALS
         invalidity. A value of ValidationLevel.RELAXED means that invalidities which are known to
         have no effect on CALS processing will not prevent CALS processing from running. N.B.
+        Warnings will be reported according to the WarningReportMode regardless of the setting used
+        here. </xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:attribute name="literalValue" type="validationLevelType"/>
+         <xs:attributeGroup ref="parameterRefGroup"/>
+      </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="htmlValidationLevel">
+      <xs:annotation>
+         <xs:documentation> Sets the ValidationLevel to use for HTML table validation. A value of
+        ValidationLevel.STRICT will cause the InvalidTableBehaviour mode to be used for any HTML
+        invalidity. A value of ValidationLevel.RELAXED means that invalidities which are known to
+        have no effect on HTML processing will not prevent HTML processing from running. N.B.
         Warnings will be reported according to the WarningReportMode regardless of the setting used
         here. </xs:documentation>
       </xs:annotation>
@@ -1065,10 +1129,104 @@
         specify the options </xs:documentation>
       </xs:annotation>
       <xs:complexType>
-         <xs:attribute name="literalValue" type="invalidCalsBehaviourType"/>
+         <xs:attribute name="literalValue" type="invalidBehaviourType"/>
          <xs:attributeGroup ref="parameterRefGroup"/>
       </xs:complexType>
   </xs:element>
+  
+  <xs:element name="invalidHtmlTableBehaviour">
+      <xs:annotation>
+         <xs:documentation> Sets the behaviour to use when inputs contain invalid HTML tables. Some of
+        the processing used for HTML table comparison makes the assumption that the tables conform
+        to the HTML specification. In order to avoid errors in this processing, the tables are first
+        validated to ensure that it will work as expected. When tables are not valid, there are
+        several options for the behaviour that the comparison should take. This enum is used to
+        specify the options </xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:attribute name="literalValue" type="invalidBehaviourType"/>
+         <xs:attributeGroup ref="parameterRefGroup"/>
+      </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="normalizeHtmlTables">
+      <xs:annotation>
+         <xs:documentation> Sets whether the Document Comparator should normalize the specification of columns in HTML tables. 
+        This setting is recommended when there is a difference between inputs of specifying columns, e.g. if one uses just
+          * &lt;colgroup&gt; and another uses &lt;col&gt; without &lt;colgroup&gt;. </xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:attribute name="literalValue" type="xs:boolean">
+            <xs:annotation>
+               <xs:documentation> Set true to enable normalization of HTML table column specification </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attributeGroup ref="parameterRefGroup"/>
+      </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="mathmlConfiguration">
+      <xs:annotation>
+         <xs:documentation> Specifies configuration options for MathML processing. These configuration options can be specified on a
+        DocumentComparator to configure its behaviour when comparing MathML. </xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:all>
+            <xs:element ref="enableMathml" minOccurs="0"/>
+            <xs:element ref="mathmlGranularity" minOccurs="0"/>
+         </xs:all>
+         <!--assertion removed for schema 1.0 variant-->
+      </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="enableMathml">
+      <xs:annotation>
+         <xs:documentation> Sets whether the DocumentComparator should use MathML-specific processing. MathML
+        processing is recommended as it will use MATHML-aware features when comparing
+        two MathML expressions to ensure that the result can be rendered. </xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:attribute name="literalValue" type="xs:boolean">
+            <xs:annotation>
+               <xs:documentation> Set true to enable MathML processing </xs:documentation>
+            </xs:annotation>
+         </xs:attribute>
+         <xs:attributeGroup ref="parameterRefGroup"/>
+      </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="mathmlGranularity">
+      <xs:annotation>
+         <xs:documentation> Sets the granularity at which the differences between two MathML expressions will be represented. </xs:documentation>
+      </xs:annotation>
+      <xs:complexType>
+         <xs:attribute name="literalValue" type="mathMlGranularityType"/>
+         <xs:attributeGroup ref="parameterRefGroup"/>
+      </xs:complexType>
+  </xs:element>
+  
+  <xs:simpleType name="mathMlGranularityType">
+      <xs:annotation>
+         <xs:documentation/>
+      </xs:annotation>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="adjacent">
+            <xs:annotation>
+               <xs:documentation>Reports the differences by repeating A and B MathML adjacent to each other.</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="detailed-adjacent">
+            <xs:annotation>
+               <xs:documentation>Reports the differences by repeating the A and B MathML adjacent to each other. Content within the adjacent A and B views is highlighted at the specific parts where it is different.</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+         <xs:enumeration value="inline">
+            <xs:annotation>
+               <xs:documentation>Reports the differences inline within the MathML without duplicating A and B. If the differences are too complex to easily render inline, the 'detailed-adjacent' view is used.</xs:documentation>
+            </xs:annotation>
+         </xs:enumeration>
+      </xs:restriction>
+   </xs:simpleType>
 
   <xs:element name="advancedConfig">
       <xs:annotation>
@@ -1343,8 +1501,8 @@
   </xs:element>
 
   <!-- ///////////////////// ENUM TYPES ///////////////////////// -->
-  
-  <xs:simpleType name="invalidCalsBehaviourType">
+    
+  <xs:simpleType name="invalidBehaviourType">
       <xs:annotation>
          <xs:documentation/>
       </xs:annotation>
@@ -1356,7 +1514,7 @@
          </xs:enumeration>
          <xs:enumeration value="fail">
             <xs:annotation>
-               <xs:documentation>Throw an Exception when invalid CALS tables are encountered.</xs:documentation>
+               <xs:documentation>Throw an Exception when invalid tables are encountered.</xs:documentation>
             </xs:annotation>
          </xs:enumeration>
          <xs:enumeration value="propagateUp">

@@ -4,22 +4,22 @@ class XMLDiffAnalyzer:
             ["", "xydiff", "xydiff ", " "],
             ["java -jar ", "jndiff", "jndiff/jndiff-ui.jar -d ", " "],
             ["java -jar ", "jxydiff", "jxydiff.jar ", " ", " "],
-            #["ant -buildfile ", "fc-xmldiff", "fc-xmldiff/java/xmldiff/build.xml -Dbase=", " -Dnew=", " -Ddiff=", " diff"],
+            ["ant -buildfile ", "fc-xmldiff", "fc-xmldiff/java/xmldiff/build.xml -Dbase=", " -Dnew=", " -Ddiff=", " diff"],
             ["java -jar ", "xcc", "xcc-java-0.90.jar --diff --doc ", " --changed ", " --delta "],
-            #["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " "],
-            #["java -jar ", "deltaXML", "deltaXML/command-10.1.2.jar compare delta ", " ", " "], #License needed
-            #["", "xmldiff", "xmldiff_bin -f xml ", " "], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
-            #["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
-            #["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "],
-            #["", "xdiff", "xdiff ", " ", " "],
-            #["", "xdiff-go", "XDiff-go -left ", " -right ", ""],
-            #["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " "]
+            ["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " "],
+            ["java -jar ", "deltaXML", "deltaXML/command-10.3.0.jar compare delta ", " ", " "], #License needed
+            ["", "xmldiff", "xmldiff_bin -f xml ", " "], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
+            ["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
+            ["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "],
+            ["", "xdiff", "xdiff ", " ", " "],
+            ["", "xdiff-go", "XDiff-go -left ", " -right ", ""],
+            ["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " "]
         ]
 
     def start(self, mode, rounds, file_pairs, files_orig, files_new, file_delta_dir):
         import os
+        import csv
         import Processor
-        import xlsxwriter
         from datetime import datetime
 
         ROOT_DIR = os.path.abspath(os.curdir)
@@ -40,25 +40,35 @@ class XMLDiffAnalyzer:
             [10, 'K1', 'File delta'],
         ]
 
-        workbook = xlsxwriter.Workbook(ROOT_DIR + "/ExcelResults/XMLDiffAnalyser_results_" + str(datetime.today().strftime('%Y%m%d_%H%M%S')) + ".xlsx",
-                                       {'strings_to_numbers': True})
-        worksheet = workbook.add_worksheet()
+        csv_file = ROOT_DIR + "/Results/XMLDiffAnalyser_results_" + str(datetime.today().strftime('%Y%m%d_%H%M%S')) + ".csv"
 
-        header_format = workbook.add_format({
-            'bold': True,
-            'text_wrap': True,
-            'fg_color': '#D7E4BC'})
+        with open(csv_file, "w", newline="") as file:
+            writer = csv.writer(file)
+            writer.writerow(["Tool",
+                     "Rounds",
+                     "Average memory (MB)",
+                     "Max memory (MB)",
+                     "File orig size (KB)",
+                     "File modified size (KB)",
+                     "File delta size (KB)",
+                     "Time (sec)",
+                     "File orig",
+                     "File modified",
+                     "File delta"])
+        row_list = []
 
-        for excel_header in excel_headers:
-            worksheet.write(excel_header[1], excel_header[2], header_format)
-        worksheet.set_column('A:K', 20)
+        index = 0
+        algorithms = []
+        times = []
+        max_memories = []
+        average_memories = []
+        delta_sizes = []
 
         if mode == "A":
             rounds_list = [1, 10, 100]
         else:
             rounds_list = [rounds]
 
-        index = 0
         for file_pair in range(0, file_pairs):
             for rounds in rounds_list:
                 print(str(rounds) + " round iteration")
@@ -66,17 +76,23 @@ class XMLDiffAnalyzer:
                     processor = Processor.Processor(ROOT_DIR, tool, rounds, file_pair, files_orig[file_pair], files_new[file_pair], file_delta_dir)
                     processor.start()
                     index += 1
-                    worksheet.write(index, excel_headers[0][0], str(tool[1]))
-                    worksheet.write(index, excel_headers[1][0], rounds)
-                    worksheet.write(index, excel_headers[2][0], processor.average_memory)
-                    worksheet.write(index, excel_headers[3][0], processor.max_memory)
-                    worksheet.write(index, excel_headers[4][0], format((os.stat(files_orig[file_pair]).st_size) / (1024), '.2f'))
-                    worksheet.write(index, excel_headers[5][0], format((os.stat(files_new[file_pair]).st_size) / (1024), '.2f'))
-                    worksheet.write(index, excel_headers[6][0], processor.file_delta_size)
-                    worksheet.write(index, excel_headers[7][0], processor.total_time)
-                    worksheet.write(index, excel_headers[8][0], os.path.basename(files_orig[file_pair]))
-                    worksheet.write(index, excel_headers[9][0], os.path.basename(files_new[file_pair]))
-                    worksheet.write(index, excel_headers[10][0], os.path.basename(processor.file_delta))
+                    algorithms.append(str(tool[1]))
+                    times.append(processor.total_time)
+                    max_memories.append(processor.max_memory)
+                    average_memories.append(processor.average_memory)
+                    delta_sizes.append(processor.file_delta_size)
+                    row_list.append([str(tool[1]),
+                                     rounds,
+                                     processor.average_memory,
+                                     processor.max_memory,
+                                     format((os.stat(files_orig[file_pair]).st_size) / (1024), '.2f'),
+                                     format((os.stat(files_new[file_pair]).st_size) / (1024), '.2f'),
+                                     processor.file_delta_size,
+                                     processor.total_time,
+                                     os.path.basename(files_orig[file_pair]),
+                                     os.path.basename(files_new[file_pair]),
+                                     os.path.basename(processor.file_delta)
+                                     ])
 
                     print(tool[1] + " - file pair " + str(file_pair + 1))
                     # print("\t" + myCmd)    #For debug
@@ -88,7 +104,39 @@ class XMLDiffAnalyzer:
                     print("\t\tSize: ", str(processor.file_delta_size) + " KB")
                     print("")
 
-        workbook.close()
+        with open(csv_file, "a", newline="") as file:
+            writer = csv.writer(file)
+            writer.writerows(row_list)
+
+        xmlDiffAnalyzer.generateGraph("Execution Time", "simple", "Seconds", 5, algorithms, {"time": times})
+        xmlDiffAnalyzer.generateGraph("Memory Usage", "double", "MB", 250, algorithms,
+                      {"max memory": max_memories, "average memory": average_memories})
+        xmlDiffAnalyzer.generateGraph("Delta File Size", "simple", "KB", 5, algorithms, {"delta size": delta_sizes})
+
+
+    def generateGraph(self, name, type, units, xlim, index, data):
+        import matplotlib.pyplot as plt
+        import pandas
+        from datetime import datetime
+
+        plt.rcdefaults()
+
+        if(type == "simple"):
+            df = pandas.DataFrame({list(data)[0]: data.get(list(data)[0])}, index=index)
+        else:
+            df = pandas.DataFrame({list(data)[0]: data.get(list(data)[0]),
+                                   list(data)[1]: data.get(list(data)[1])}, index=index)
+
+        df = df.astype(float)
+        ax = df.plot.barh()
+        ax.set_xlabel(units)
+        ax.set_title(name)
+        plt.grid(True)
+        plt.xlim(0, xlim)
+        plt.show()
+        plt.savefig("Results/XMLDiffAnalyser_results_" + str(
+                datetime.today().strftime('%Y%m%d_%H%M%S')) + "_"+name+".svg")
+
 
 if __name__ == '__main__':
     import os
@@ -120,9 +168,7 @@ if __name__ == '__main__':
         for file_pair in range(1, file_pairs + 1):
             try:
                 input_file_orig = input("Enter the full path of the original XML file pair " + str(file_pair) +": ") \
-                or "/Users/miloscuculovic/1.xml"
-
-                                  #or "/Users/miloscuculovic/XML_Diff_tools_material/Originals/article_min.xml"
+                or "/Users/miloscuculovic/XML_Diff_tools_material_v2/Originals/article_full.xml"
             except ValueError:
                 print("Please provide a vaild original XML file path")
 
@@ -135,8 +181,7 @@ if __name__ == '__main__':
 
             try:
                 input_file_new = input("Enter the full path of the modified XML file pair " + str(file_pair) + ": ") \
-                or "/Users/miloscuculovic/2.xml"
-                # or "/Users/miloscuculovic/XML_Diff_tools_material/TextEdits/text_edit_delete/article_min_text_edit_delete.xml"
+                or "/Users/miloscuculovic/XML_Diff_tools_material_v2/TextEdits/text_edit_delete/article_full_text_edit_delete.xml"
             except ValueError:
                 print("Please provide a vaild modified XML file path")
             try:
@@ -155,7 +200,7 @@ if __name__ == '__main__':
 
         try:
             input_file_delta_dir = input("Enter the full path of the delta XML files directory: ") \
-                                   or "/Users/miloscuculovic/XML_Diff_tools_material/deltas/"
+                                   or "/Users/miloscuculovic/XML_Diff_tools_material_v1/deltas/"
         except ValueError:
             print("Please provide a vaild delta XML files directory file path")
 

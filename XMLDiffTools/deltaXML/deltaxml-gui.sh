@@ -7,7 +7,7 @@ cd "$(dirname "$(readlink $0)")"
 
 PRODUCT_FACTORY="com.deltaxml.core.framework.CoreProductFactory";
 PRODUCT_NAME="DeltaXML XML Compare";
-PRODUCT_VERSION="10.1.2";
+PRODUCT_VERSION="10.3.0";
 JAR_NAME=$(find deltaxml-*.jar -type f -not -name '*rest*' -not -name '*gui*')
 JAR_GUI_NAME=$(find deltaxml-gui*.jar -type f)
 

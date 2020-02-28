@@ -5,7 +5,7 @@ REM and report if the SWT JAR does not match the running JVM.
 
 SET PRODUCT_FACTORY="com.deltaxml.core.framework.CoreProductFactory"
 SET PRODUCT_NAME="DeltaXML XML Compare"
-SET PRODUCT_VERSION="10.1.2"
+SET PRODUCT_VERSION="10.3.0"
 FOR /F %%i IN ('dir /B deltaxml-???.???.???.jar') DO SET JAR_NAME=%%i
 FOR /F %%i IN ('dir /B deltaxml-gui-???.???.???.jar') DO SET GUI_JAR_NAME=%%i
 

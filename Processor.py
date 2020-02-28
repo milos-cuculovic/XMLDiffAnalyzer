@@ -27,6 +27,7 @@ class Processor:
         average_memories = []
 
         myCmd = self.tool[0] + self.ROOT_DIR + "/XMLDiffTools/" + self.tool[2] + self.file_orig + self.tool[3] + self.file_new
+
         file_delta = self.file_delta_dir + self.tool[1] + "_" + str(os.path.basename(self.file_orig)) + "_" + str(os.path.basename(self.file_new)) + "_delta.xml"
 
         first_round = True

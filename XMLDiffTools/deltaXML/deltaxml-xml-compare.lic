@@ -1,6 +1,6 @@
-FEATURE compare deltaxml 10.1 25-dec-2019 uncounted \
+FEATURE compare deltaxml 10.3 24-mar-2020 uncounted \
 	VENDOR_STRING=eval=true;obfuscate_percentage=20.0 HOSTID=DEMO \
-	ISSUER="DeltaXML Ltd" ISSUED=27-Nov-2019 NOTICE="For \
-	evaluation use by milos.cuculovic@uha.fr" START=27-Nov-2019 \
-	SIGN="008A 37B8 F797 E43E 533E 6CD6 BC82 AC00 412B 539F E0CA \
-	4BD5 27B4 E081 A729"
+	ISSUER="DeltaXML Ltd" ISSUED=25-Feb-2020 NOTICE="For \
+	evaluation use by milos.cuculovic@uha.fr" START=25-Feb-2020 \
+	SIGN="00DD ADF9 5D81 06A9 F755 CCBB CDDB 6800 4F4C 77B7 EDC2 \
+	7C77 D29C 4CB2 3A9A"
