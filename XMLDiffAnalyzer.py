@@ -108,10 +108,10 @@ class XMLDiffAnalyzer:
             writer = csv.writer(file)
             writer.writerows(row_list)
 
-        xmlDiffAnalyzer.generateGraph("Execution Time", "simple", "Seconds", 5, algorithms, {"time": times})
-        xmlDiffAnalyzer.generateGraph("Memory Usage", "double", "MB", 250, algorithms,
+        xmlDiffAnalyzer.generateGraph("Execution Time", "simple", "Seconds", 6, algorithms, {"time": times})
+        xmlDiffAnalyzer.generateGraph("Memory Usage", "double", "MB", 230, algorithms,
                       {"max memory": max_memories, "average memory": average_memories})
-        xmlDiffAnalyzer.generateGraph("Delta File Size", "simple", "KB", 5, algorithms, {"delta size": delta_sizes})
+        xmlDiffAnalyzer.generateGraph("Delta File Size", "simple", "KB", 500, algorithms, {"delta size": delta_sizes})
 
 
     def generateGraph(self, name, type, units, xlim, index, data):
@@ -133,9 +133,9 @@ class XMLDiffAnalyzer:
         ax.set_title(name)
         plt.grid(True)
         plt.xlim(0, xlim)
-        plt.show()
         plt.savefig("Results/XMLDiffAnalyser_results_" + str(
-                datetime.today().strftime('%Y%m%d_%H%M%S')) + "_"+name+".svg")
+            datetime.today().strftime('%Y%m%d_%H%M%S')) + "_" + name + ".svg")
+        plt.show()
 
 
 if __name__ == '__main__':
@@ -168,7 +168,7 @@ if __name__ == '__main__':
         for file_pair in range(1, file_pairs + 1):
             try:
                 input_file_orig = input("Enter the full path of the original XML file pair " + str(file_pair) +": ") \
-                or "/Users/miloscuculovic/XML_Diff_tools_material_v2/Originals/article_full.xml"
+                or "/Users/miloscuculovic/XML_Diff_tools_material_v1/1.xml"
             except ValueError:
                 print("Please provide a vaild original XML file path")
 
@@ -181,7 +181,7 @@ if __name__ == '__main__':
 
             try:
                 input_file_new = input("Enter the full path of the modified XML file pair " + str(file_pair) + ": ") \
-                or "/Users/miloscuculovic/XML_Diff_tools_material_v2/TextEdits/text_edit_delete/article_full_text_edit_delete.xml"
+                or "/Users/miloscuculovic/XML_Diff_tools_material_v1/2.xml"
             except ValueError:
                 print("Please provide a vaild modified XML file path")
             try:
@@ -200,7 +200,7 @@ if __name__ == '__main__':
 
         try:
             input_file_delta_dir = input("Enter the full path of the delta XML files directory: ") \
-                                   or "/Users/miloscuculovic/XML_Diff_tools_material_v1/deltas/"
+                                   or "/Users/miloscuculovic/deltas/"
         except ValueError:
             print("Please provide a vaild delta XML files directory file path")
 
