@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<delta xmlns="http://www.adrianmouat.com/dul">
+    <insert charpos="12" childno="2" name="contrib-id" nodetype="1" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]"/>
+    <insert name="authenticated" nodetype="2" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[2]">false</insert>
+    <insert name="contrib-id-type" nodetype="2" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[2]">orcid</insert>
+    <move childno="2" new_charpos="12" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[3]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]"/>
+    <move childno="1" length="37" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[2]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[2]"/>
+    <move childno="1" length="37" new_charpos="1" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[3]/node()[1]" old_charpos="1" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[2]"/>
+    <delete node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[4]/node()[3]"/>
+</delta>
+

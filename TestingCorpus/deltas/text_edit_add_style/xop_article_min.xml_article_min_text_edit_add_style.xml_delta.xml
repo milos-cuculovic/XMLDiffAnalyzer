@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<article xmlns:erc="http://ercato.com/xmlns/ErcatoCore" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+      
+    <front>
+            
+        <article-meta>
+                  
+            <article-id erc:inherit="expand"/>
+                  
+            <title-group>
+                        
+                <article-title>
+                    On the Use of Unmanned Aerial Systems for Environmental Monitoring
+                    <b erc:inherit="delete"/>
+                    [erc:inherit=delete]
+                </article-title>
+                      
+            </title-group>
+                  
+            <contrib-group erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <author-notes erc:inherit="expand"/>
+                
+        </article-meta>
+          
+    </front>
+      
+    <body erc:inherit="expand"/>
+    
+</article>

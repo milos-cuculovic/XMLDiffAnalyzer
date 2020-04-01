@@ -1,0 +1,13 @@
+Outputting to stdout
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xy:unit_delta xmlns:xy="urn:schemas-xydiff:xydelta" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <xy:t fromXidMap="(1-1002;1004-1025;1104;1026-1103;1003;1105-8819|8820)">
+    <xy:au a="id" nv="sec3dot3-remotesensing-10-00641" ov="sec4-remotesensing-10-00641" xid="1104"/>
+    <xy:d move="yes" par="1104" pos="3" xm="(1103)"/>
+    <xy:d move="yes" par="1206" pos="4" xm="(1104)"/>
+    <xy:i move="yes" par="1003" pos="5" xm="(1104)"/>
+    <xy:i move="yes" par="1003" pos="6" xm="(1103)"/>
+  </xy:t>
+
+</xy:unit_delta>

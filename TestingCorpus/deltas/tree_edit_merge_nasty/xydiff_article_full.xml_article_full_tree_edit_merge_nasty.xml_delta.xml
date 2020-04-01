@@ -1,0 +1,17 @@
+Outputting to stdout
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xy:unit_delta xmlns:xy="urn:schemas-xydiff:xydelta" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <xy:t fromXidMap="(1-420;8820;424-426;422;428-8819|8821)">
+    <xy:d move="yes" par="427" pos="3" xm="(426)"/>
+    <xy:d move="yes" par="427" pos="2" xm="(425)"/>
+    <xy:d par="526" pos="3" xm="(423;427)">
+      <p>While UAS systems cannot compete with satellite imagery in terms of spatial coverage, they provide unprecedented spatial and temporal resolutions unmatched by satellite alternatives. Furthermore, they do so at a fraction of the satellite acquisition cost if the area of interest has relatively small extent. For example, a newly tasked high-resolution natural color image (50 cm/pixel) from a satellite (e.g., GeoEye-1) can cost up to 3000 USD. On the other hand, the initial outlay to acquire a single UAS with a natural color camera can be less than 1000 USD (see </p>
+    </xy:d>
+    <xy:d par="422" pos="13" xm="(421)">].</xy:d>
+    <xy:i par="422" pos="13" xm="(8820)">]. While UAS systems cannot compete with satellite imagery in terms of spatial coverage, they provide unprecedented spatial and temporal resolutions unmatched by satellite alternatives. Furthermore, they do so at a fraction of the satellite acquisition cost if the area of interest has relatively small extent. For example, a newly tasked high-resolution natural color image (50 cm/pixel) from a satellite (e.g., GeoEye-1) can cost up to 3000 USD. On the other hand, the initial outlay to acquire a single UAS with a natural color camera can be less than 1000 USD (see </xy:i>
+    <xy:i move="yes" par="422" pos="14" xm="(425)"/>
+    <xy:i move="yes" par="422" pos="15" xm="(426)"/>
+  </xy:t>
+
+</xy:unit_delta>

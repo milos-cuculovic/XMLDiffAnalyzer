@@ -1,0 +1,18 @@
+Warning: no .xidmap description for XML file </Users/miloscuculovic/XML_Diff_tools_material/Originals/article_full.xml.xidmap>, using defaults Xids (1-n|n+1)
+XIDmap attached to xml file (.xidmap file created)
+Outputting to stdout
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xy:unit_delta xmlns:xy="urn:schemas-xydiff:xydelta" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <xy:t fromXidMap="(1-380;8820;382-8819|8821)">
+    <xy:u newxm="(8820)" oldxm="(381)" par="382" pos="1">
+      <xy:td len="2" pos="11"/>
+      <xy:ti pos="327">s</xy:ti>
+      <xy:ti pos="742">o</xy:ti>
+      <xy:ti pos="978">s</xy:ti>
+      <xy:ti pos="1232">s</xy:ti>
+      <xy:ti pos="1584">e</xy:ti>
+    </xy:u>
+  </xy:t>
+
+</xy:unit_delta>

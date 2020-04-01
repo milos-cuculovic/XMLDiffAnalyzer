@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<article xmlns:erc="http://ercato.com/xmlns/ErcatoCore" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+      
+    <front>
+            
+        <journal-meta erc:inherit="expand"/>
+            
+        <article-meta>
+                  
+            <article-id erc:inherit="expand"/>
+                  
+            <article-id erc:inherit="expand"/>
+                  
+            <article-categories erc:inherit="expand"/>
+                  
+            <title-group erc:inherit="expand"/>
+                  
+            <contrib-group erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <aff erc:inherit="expand"/>
+                  
+            <author-notes erc:inherit="expand"/>
+                  
+            <pub-date erc:inherit="expand"/>
+                  
+            <pub-date erc:inherit="expand"/>
+                  
+            <volume erc:inherit="expand"/>
+                  
+            <issue erc:inherit="expand"/>
+                  
+            <elocation-id erc:inherit="expand"/>
+                  
+            <history erc:inherit="expand"/>
+                  
+            <permissions erc:inherit="expand"/>
+                  
+            <abstract>
+                        
+                <p>Environmental monitoring plays a central role in diagnosing climate and management impacts on natural and agricultural systems; enhancing the understanding of hydrological processes; optimizing the allocation and distribution of water resources; and assessing, forecasting, and even preventing natural disasters. Nowadays, most monitoring and data collection systems are based upon a combination of ground-based measurements, manned airborne sensors, and satellite observations. These data are utilized in describing both small- and large-scale processes, but have spatiotemporal constraints inherent to each respective collection system. Bridging the unique spatial and temporal divides that limit current monitoring platforms is key to improving our understanding of environmental systems. In this context, Unmanned Aerial Systems (UAS) have considerable potential to radically improve environmental monitoring. UAS-mounted sensors offer an extraordinary opportunity to bridge the existing gap between field observations and traditional air- and space-borne remote sensing, by providing high spatial detail over relatively large areas in a cost-effective way and an entirely new capacity for enhanced temporal retrieval. As well as showcasing recent advances in the field, there is also a need to identify and understand the potential limitations of UAS technology. For these platforms to reach their monitoring potential, a wide spectrum of unresolved issues and application-specific challenges require focused community attention. Indeed, to leverage the full potential of UAS-based approaches, sensing technologies, measurement protocols, postprocessing techniques, retrieval algorithms, and evaluation techniques need to be harmonized. The aim of this paper is to provide an overview of the existing research and applications of UAS in natural and agricultural ecosystem monitoring in order to identify future directions, applications, developments, and challenges.</p>
+                      
+            </abstract>
+                  
+            <kwd-group erc:inherit="expand"/>
+                
+        </article-meta>
+          
+    </front>
+      
+    <body erc:inherit="expand"/>
+      
+    <back erc:inherit="expand"/>
+    
+</article>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<delta>
+  <insert digester="fnv" id="8bc29a39787" path="/3/4" radius="4" shortened="true">
+    <fingerprint>9a79f08c;cbe013cf;b6849fa8;b40ef5a8;30f9e713;b40ef5a8;64d13fd4;b6849fa8;6735e4ae</fingerprint>
+    <newvalue/>
+  </insert>
+  <insert digester="fnv" path="/3/4" radius="4" shortened="true">
+    <fingerprint>9a79f08c;cbe013cf;b6849fa8;b40ef5a8;d5975abf;b40ef5a8;64d13fd4;b6849fa8;6735e4ae</fingerprint>
+    <newvalue>
+      <sec id="sec3-remotesensing-10-00641">
+        <title>2.3. Software</title>
+        <p>Alongside sensor technological developments, low-cost (and particularly open source) software has been vital in enabling the growth in UAS for environmental and other applications. UAS-based photogrammetry can produce products of a similar accuracy to those achievable through manned airborne systems [
+          <xref ref-type="bibr" rid="B35-remotesensing-10-00641">35</xref>
+          ]. This has been underpinned by the development of SfM software, which offers a user-friendly and low-cost alternative to conventional digital photogrammetric processing. This includes proprietary structure-from-motion (SfM) software such as Agisoft Photoscan and Pix4D, which is significantly more affordable than most conventional photogrammetric software. Moreover, there has also been development of open source SfM software, including VisualSfM, Bundler, Apero-MicMac, OpenDroneMap, etc. Nevertheless, although different and efficient software solutions are available, the computational cost of the elaboration is critical and it can require several days of data processing. Cloud-based platforms such as DroneDeploy or DroneMapper offer the possibility to integrate and share aerial data, but also to derive orthomosaics with light processing workloads. While this has made photogrammetry more accessible to nonexperts, quantification of uncertainty remains an ongoing challenge [
+          <xref ref-type="bibr" rid="B59-remotesensing-10-00641">59</xref>
+          ]. This is because SfM relaxes some of the conventional expectations in terms of image block geometry and data acquisition.</p>
+      </sec>
+    </newvalue>
+  </insert>
+  <delete digester="fnv" id="8bc29a39787" path="/3/3/10" radius="4" shortened="true">
+    <fingerprint>a43bf285;9a79f08c;cbe013cf;b6849fa8;30f9e713;b40ef5a8;64d13fd4;b6849fa8;6735e4ae</fingerprint>
+    <oldvalue/>
+  </delete>
+  <delete digester="fnv" path="/3/3/9" radius="4" shortened="true">
+    <fingerprint>4a8f8d45;f4079512;b6849fa8;b6849fa8;c59c119d;b40ef5a8;b40ef5a8;64d13fd4;b6849fa8</fingerprint>
+    <oldvalue>
+      <sec id="sec2dot3-remotesensing-10-00641">
+        <title>2.3. Software</title>
+        <p>Alongside sensor technological developments, low-cost (and particularly open source) software has been vital in enabling the growth in UAS for environmental and other applications. UAS-based photogrammetry can produce products of a similar accuracy to those achievable through manned airborne systems [
+          <xref ref-type="bibr" rid="B35-remotesensing-10-00641">35</xref>
+          ]. This has been underpinned by the development of SfM software, which offers a user-friendly and low-cost alternative to conventional digital photogrammetric processing. This includes proprietary structure-from-motion (SfM) software such as Agisoft Photoscan and Pix4D, which is significantly more affordable than most conventional photogrammetric software. Moreover, there has also been development of open source SfM software, including VisualSfM, Bundler, Apero-MicMac, OpenDroneMap, etc. Nevertheless, although different and efficient software solutions are available, the computational cost of the elaboration is critical and it can require several days of data processing. Cloud-based platforms such as DroneDeploy or DroneMapper offer the possibility to integrate and share aerial data, but also to derive orthomosaics with light processing workloads. While this has made photogrammetry more accessible to nonexperts, quantification of uncertainty remains an ongoing challenge [
+          <xref ref-type="bibr" rid="B59-remotesensing-10-00641">59</xref>
+          ]. This is because SfM relaxes some of the conventional expectations in terms of image block geometry and data acquisition.</p>
+      </sec>
+    </oldvalue>
+  </delete>
+  <update digester="fnv" path="/3/3/8" radius="4" shortened="true">
+    <fingerprint>c7c66c3d;4a8f8d45;f4079512;b6849fa8;b6849fa8;434a6d93;1fcb59a8;6735e4ae;a0eabc78</fingerprint>
+    <oldvalue/>
+    <newvalue/>
+  </update>
+</delta>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff:diff op="insert" xmlns:diff="http://www.hiit.fi/fc/xml/tdm/diff" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ref="http://www.hiit.fi/fc/xml/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<ref:node id="/0">
+		<diff:copy run="1" src="./0"/>
+		<ref:node id="./1">
+			<diff:copy run="1" src="./0"/>
+			<ref:node id="./1">
+				<diff:copy run="4" src="./0"/>
+			</ref:node>
+			<sec id="sec3-remotesensing-10-00641">
+				<diff:copy run="2" src="./1/4/0"/>
+			</sec>
+			<diff:copy run="3" src="./2"/>
+		</ref:node>
+		<diff:copy run="1" src="./2"/>
+	</ref:node>
+</diff:diff>

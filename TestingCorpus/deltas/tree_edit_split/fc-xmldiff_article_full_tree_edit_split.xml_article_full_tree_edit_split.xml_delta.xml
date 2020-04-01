@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff:diff op="insert" xmlns:diff="http://www.hiit.fi/fc/xml/tdm/diff" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ref="http://www.hiit.fi/fc/xml/ref" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<ref:node id="/0">
+		<diff:copy run="1" src="./0"/>
+		<ref:node id="./1">
+			<ref:node id="./0">
+				<diff:copy run="1" src="./0"/>
+				<ref:node id="./1">Despite the recent and rapid increase in the number and range of Earth observing satellites, the temporal resolution and availability of current very high spatial resolution satellite sensors (less than 10 m) are generally not sufficient nor flexible enough for many quantitative remote sensing applications, and they are thus of limited use in detecting and monitoring the dynamics of surficial environmental processes. Recent advances in Earth observation (i.e., EO) are opening new opportunities for environmental monitoring at finer scales. For instance, CubeSat platforms represent a promising satellite technology, operating predominantly in the visible to near-infrared portion of the electromagnetic spectrum, and provide high spatial and temporal resolution.</ref:node>
+				<p>Nevertheless, most of these satellites are operated by commercial organizations; hence, if short revisit times are required (i.e., for high-frequency monitoring), the cost of image acquisition can become a limiting factor. While manned airborne platforms can, in principle, provide both high spatial resolution and rapid revisit times, in practice, their use is routinely limited by operational complexity, safety, logistics, and cost. Their use becomes feasible only over medium-sized areas and remains largely within the domain of commercial operators. Recent advances in Unmanned Aerial Systems (UAS) technology have created an alternative monitoring platform that provides an opportunity to capture the spatial, spectral, and temporal requirements across a range of applications with relatively small investment. They offer high versatility, adaptability, and flexibility compared with manned airborne systems or satellites, and have the potential to be rapidly and repeatedly deployed for high spatial and temporal resolution data.</p>
+				<diff:copy run="8" src="./2"/>
+			</ref:node>
+			<diff:copy run="4" src="./1"/>
+		</ref:node>
+		<diff:copy run="1" src="./2"/>
+	</ref:node>
+</diff:diff>

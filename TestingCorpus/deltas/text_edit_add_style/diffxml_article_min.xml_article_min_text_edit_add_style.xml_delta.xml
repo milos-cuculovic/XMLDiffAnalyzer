@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<delta xmlns="http://www.adrianmouat.com/dul">
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[4]/node()[2]">On the Use of Unmanned </insert>
+    <insert charpos="24" childno="2" name="b" nodetype="1" ns="" parent="/node()[1]/node()[2]/node()[2]/node()[4]/node()[2]"/>
+    <insert childno="3" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[4]/node()[2]"> for Environmental Monitoring</insert>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[4]/node()[2]/node()[2]">Aerial Systems</insert>
+    <delete charpos="30" length="66" node="/node()[1]/node()[2]/node()[2]/node()[4]/node()[2]/node()[3]"/>
+</delta>
+

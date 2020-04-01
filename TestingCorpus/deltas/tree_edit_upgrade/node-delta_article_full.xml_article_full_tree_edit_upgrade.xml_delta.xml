@@ -1,0 +1,32 @@
+<delta>
+  <forest path="3/3/8">
+    <context>c7c66c3d;4a8f8d45;f4079512;b6849fa8</context>
+    <remove>
+      <sec id="sec2dot3-remotesensing-10-00641">
+        <title>2.3. Software</title>
+        <p>Alongside sensor technological developments, low-cost (and particularly open source) software has been vital in enabling the growth in UAS for environmental and other applications. UAS-based photogrammetry can produce products of a similar accuracy to those achievable through manned airborne systems [
+          <xref ref-type="bibr" rid="B35-remotesensing-10-00641">35</xref>
+          ]. This has been underpinned by the development of SfM software, which offers a user-friendly and low-cost alternative to conventional digital photogrammetric processing. This includes proprietary structure-from-motion (SfM) software such as Agisoft Photoscan and Pix4D, which is significantly more affordable than most conventional photogrammetric software. Moreover, there has also been development of open source SfM software, including VisualSfM, Bundler, Apero-MicMac, OpenDroneMap, etc. Nevertheless, although different and efficient software solutions are available, the computational cost of the elaboration is critical and it can require several days of data processing. Cloud-based platforms such as DroneDeploy or DroneMapper offer the possibility to integrate and share aerial data, but also to derive orthomosaics with light processing workloads. While this has made photogrammetry more accessible to nonexperts, quantification of uncertainty remains an ongoing challenge [
+          <xref ref-type="bibr" rid="B59-remotesensing-10-00641">59</xref>
+          ]. This is because SfM relaxes some of the conventional expectations in terms of image block geometry and data acquisition.</p>
+      </sec>
+    </remove>
+    <insert/>
+    <context>b40ef5a8;64d13fd4;b6849fa8;6735e4ae</context>
+  </forest>
+  <forest path="3/4">
+    <context>9a79f08c;cbe013cf;b6849fa8;b40ef5a8</context>
+    <remove/>
+    <insert>
+      <sec id="sec3-remotesensing-10-00641">
+        <title>2.3. Software</title>
+        <p>Alongside sensor technological developments, low-cost (and particularly open source) software has been vital in enabling the growth in UAS for environmental and other applications. UAS-based photogrammetry can produce products of a similar accuracy to those achievable through manned airborne systems [
+          <xref ref-type="bibr" rid="B35-remotesensing-10-00641">35</xref>
+          ]. This has been underpinned by the development of SfM software, which offers a user-friendly and low-cost alternative to conventional digital photogrammetric processing. This includes proprietary structure-from-motion (SfM) software such as Agisoft Photoscan and Pix4D, which is significantly more affordable than most conventional photogrammetric software. Moreover, there has also been development of open source SfM software, including VisualSfM, Bundler, Apero-MicMac, OpenDroneMap, etc. Nevertheless, although different and efficient software solutions are available, the computational cost of the elaboration is critical and it can require several days of data processing. Cloud-based platforms such as DroneDeploy or DroneMapper offer the possibility to integrate and share aerial data, but also to derive orthomosaics with light processing workloads. While this has made photogrammetry more accessible to nonexperts, quantification of uncertainty remains an ongoing challenge [
+          <xref ref-type="bibr" rid="B59-remotesensing-10-00641">59</xref>
+          ]. This is because SfM relaxes some of the conventional expectations in terms of image block geometry and data acquisition.</p>
+      </sec>
+    </insert>
+    <context>b40ef5a8;64d13fd4;b6849fa8;6735e4ae</context>
+  </forest>
+</delta>

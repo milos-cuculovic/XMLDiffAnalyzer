@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<delta xmlns="http://www.adrianmouat.com/dul">
+    <insert childno="3" nodetype="3" parent="/node()[1]/node()[6]/node()[10]/node()[248]/node()[4]/node()[4]">)</insert>
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[6]/node()[10]/node()[248]/node()[4]/node()[4]/node()[2]">Iris pseudacorus L.</insert>
+    <delete charpos="2" length="4" node="/node()[1]/node()[6]/node()[10]/node()[248]/node()[4]/node()[4]/node()[3]"/>
+    <delete charpos="20" length="16" node="/node()[1]/node()[6]/node()[10]/node()[248]/node()[4]/node()[4]/node()[2]/node()[1]"/>
+</delta>
+

@@ -1,0 +1,10 @@
+Outputting to stdout
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xy:unit_delta xmlns:xy="urn:schemas-xydiff:xydelta" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <xy:t fromXidMap="(1-30;61;32-60|62)">
+    <xy:d par="32" pos="2" xm="(31)">Dipartimento delle Culture Europee e del Mediterraneo: Architettura, Ambiente, Patrimoni Culturali (DiCEM), Universita degli Studi della Basilicata, 75100 Matera, Italy</xy:d>
+    <xy:i par="32" pos="2" xm="(61)">Architettura, Ambiente, Patrimoni Culturali (DiCEM), Dipartimento delle Culture Europee e del Mediterraneo: Universita degli Studi della Basilicata, 75100 Matera, Italy</xy:i>
+  </xy:t>
+
+</xy:unit_delta>

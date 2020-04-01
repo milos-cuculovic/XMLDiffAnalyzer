@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<delta xmlns="http://www.adrianmouat.com/dul">
+    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[4]/node()[2]">Oscaro Manfreda</insert>
+    <delete charpos="16" length="15" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[4]/node()[2]/node()[1]"/>
+</delta>
+

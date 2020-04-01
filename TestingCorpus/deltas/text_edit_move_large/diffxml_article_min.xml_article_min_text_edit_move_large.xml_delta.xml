@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<delta xmlns="http://www.adrianmouat.com/dul">
+    <insert childno="2" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[8]">Architettura, Ambiente, Patrimoni Culturali (DiCEM), Dipartimento delle Culture Europee e del Mediterraneo: Universita degli Studi della Basilicata, 75100 Matera, Italy</insert>
+    <delete charpos="169" length="168" node="/node()[1]/node()[2]/node()[2]/node()[8]/node()[2]"/>
+</delta>
+

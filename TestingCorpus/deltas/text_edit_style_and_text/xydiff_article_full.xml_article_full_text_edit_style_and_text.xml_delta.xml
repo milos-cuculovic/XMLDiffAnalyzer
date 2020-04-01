@@ -1,0 +1,13 @@
+Outputting to stdout
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xy:unit_delta xmlns:xy="urn:schemas-xydiff:xydelta" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <xy:t fromXidMap="(1-7483;8820;7485;8821;7487-8819|8822)">
+    <xy:d par="7487" pos="3" xm="(7486)"> L.)</xy:d>
+    <xy:u newxm="(8820)" oldxm="(7484)" par="7485" pos="1">
+      <xy:ti pos="16"> L.</xy:ti>
+    </xy:u>
+    <xy:i par="7487" pos="3" xm="(8821)">)</xy:i>
+  </xy:t>
+
+</xy:unit_delta>

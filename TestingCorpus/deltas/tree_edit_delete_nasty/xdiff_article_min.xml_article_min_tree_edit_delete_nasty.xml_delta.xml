@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="review-article" dtd-version="1.1" xml:lang="en">
+<front>
+<article-meta>
+<article-id pub-id-type="doi"></article-id>
+<title-group>
+<article-title></article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af1-remotesensing-10-00641" ref-type="aff"></xref>
+<xref rid="c1-remotesensing-10-00641" ref-type="corresp"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af1-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+</contrib-group>
+<aff id="af1-remotesensing-10-00641">
+<label></label>
+</aff>
+<author-notes>
+<corresp id="c1-remotesensing-10-00641">
+<label></label>
+<email></email>
+</corresp>
+</author-notes>
+</article-meta>
+</front>
+<body>
+<sec id="sec1-remotesensing-10-00641" sec-type="intro">
+<title></title>
+<p><xref ref-type="bibr" rid="B1-remotesensing-10-00641"><?DELETE xref?>
+</xref>
+<xref ref-type="bibr" rid="B2-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B3-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B4-remotesensing-10-00641"></xref>
+</p>
+</sec>
+</body>
+</article>

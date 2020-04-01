@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><NDELTA xmlns="JNdiff.org" collapse="true" commentnode="true" emptynode="true" ltrim="true" rtrim="true"><EXTRACT nn="405"><p xmlns=""/></EXTRACT><DELETE nn="424" nodecount="1">].</DELETE><EXTRACT nn="425"><p xmlns=""/></EXTRACT><ADD at="402" children="15" nn="405" pos="1"><p xmlns=""/></ADD><INS length="3" nn="424" pos="0">]. </INS></NDELTA>

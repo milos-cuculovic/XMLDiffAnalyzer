@@ -1,0 +1,6381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="review-article" dtd-version="1.1" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id"></journal-id>
+<journal-title-group>
+<journal-title></journal-title>
+<abbrev-journal-title abbrev-type="publisher"></abbrev-journal-title>
+<abbrev-journal-title abbrev-type="pubmed"></abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="epub"></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi"></article-id>
+<article-id pub-id-type="publisher-id"></article-id>
+<article-categories>
+<subj-group>
+<subject></subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title></article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af1-remotesensing-10-00641" ref-type="aff"></xref>
+<xref rid="c1-remotesensing-10-00641" ref-type="corresp"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af2-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af3-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af4-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af5-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af6-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af7-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af8-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af9-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af10-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af11-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af12-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af13-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af13-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af10-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af14-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af15-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af16-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af17-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af18-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af19-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af18-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid" authenticated="true"></contrib-id>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<xref rid="af20-remotesensing-10-00641" ref-type="aff"></xref>
+<xref rid="af21-remotesensing-10-00641" ref-type="aff"></xref>
+</contrib>
+</contrib-group>
+<aff id="af1-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af2-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af3-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af4-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af5-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af6-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af7-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af8-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af9-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af10-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af11-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af12-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af13-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af14-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af15-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af16-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af17-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af18-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af19-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af20-remotesensing-10-00641">
+<label></label>
+</aff>
+<aff id="af21-remotesensing-10-00641">
+<label></label>
+</aff>
+<author-notes>
+<corresp id="c1-remotesensing-10-00641">
+<label></label>
+<email></email>
+</corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day></day>
+<month></month>
+<year></year>
+</pub-date>
+<pub-date pub-type="collection">
+<month></month>
+<year></year>
+</pub-date>
+<volume></volume>
+<issue></issue>
+<elocation-id></elocation-id>
+<history>
+<date date-type="received">
+<day></day>
+<month></month>
+<year></year>
+</date>
+<date date-type="accepted">
+<day></day>
+<month></month>
+<year></year>
+</date>
+</history>
+<permissions>
+<copyright-statement></copyright-statement>
+<copyright-year></copyright-year>
+<license license-type="open-access">
+<license-p>
+<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/"></ext-link>
+</license-p>
+</license>
+</permissions>
+<abstract>
+<p></p>
+</abstract>
+<kwd-group>
+<kwd></kwd>
+<kwd></kwd>
+<kwd></kwd>
+<kwd></kwd>
+<kwd></kwd>
+<kwd></kwd>
+<kwd></kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec1-remotesensing-10-00641" sec-type="intro">
+<title></title>
+<p></p>
+<p>
+<xref ref-type="app" rid="app1-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B7-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B8-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B9-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B10-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B11-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B12-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B13-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B14-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B15-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B16-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B17-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="fig" rid="remotesensing-10-00641-f001"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B18-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B19-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B20-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B21-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B22-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B23-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B24-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B25-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B26-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B27-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B28-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B29-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B30-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B31-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B32-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B33-remotesensing-10-00641"></xref>
+</p>
+<p></p>
+<p><?INSERT p?>
+</p>
+</sec>
+<sec id="sec2-remotesensing-10-00641">
+<title></title>
+<p>
+<xref ref-type="bibr" rid="B34-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B35-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B13-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B36-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B37-remotesensing-10-00641"></xref>
+</p>
+<sec id="sec2dot1-remotesensing-10-00641">
+<title></title>
+<p></p>
+<p>
+<xref ref-type="bibr" rid="B38-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B39-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B34-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B39-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B40-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B41-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B38-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B42-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B35-remotesensing-10-00641"></xref>
+</p>
+</sec>
+<sec id="sec2dot2-remotesensing-10-00641">
+<title></title>
+<p>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A1"></xref>
+<xref ref-type="bibr" rid="B43-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B44-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B45-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B46-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B47-remotesensing-10-00641"></xref>
+<xref ref-type="app" rid="app1-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B48-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B49-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B50-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B50-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B51-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B52-remotesensing-10-00641"></xref>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A2"></xref>
+</p>
+<p>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A3"></xref>
+<xref ref-type="bibr" rid="B9-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B53-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B53-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B54-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B55-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B51-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B56-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A4"></xref>
+<xref ref-type="bibr" rid="B57-remotesensing-10-00641"></xref>
+<xref ref-type="fig" rid="remotesensing-10-00641-f002"></xref>
+</p>
+<p>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A5"></xref>
+<xref ref-type="bibr" rid="B58-remotesensing-10-00641"></xref>
+</p>
+<p></p>
+<p>
+<xref ref-type="app" rid="app1-remotesensing-10-00641"></xref>
+</p>
+</sec>
+<sec id="sec2dot3-remotesensing-10-00641">
+<title></title>
+<p>
+<xref ref-type="bibr" rid="B35-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B59-remotesensing-10-00641"></xref>
+</p>
+</sec>
+</sec>
+<sec id="sec3-remotesensing-10-00641">
+<title></title>
+<p>
+<xref ref-type="bibr" rid="B60-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B61-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B62-remotesensing-10-00641"></xref>
+</p>
+<sec id="sec3dot1-remotesensing-10-00641">
+<title></title>
+<p>
+<xref ref-type="bibr" rid="B63-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B64-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B65-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B66-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B67-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B68-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B69-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B70-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B71-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B72-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B7-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B73-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B74-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B75-remotesensing-10-00641"></xref>
+<xref ref-type="fig" rid="remotesensing-10-00641-f003"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B76-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B52-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B77-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B78-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B79-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B80-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B81-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B82-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B83-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B84-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B85-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B86-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B87-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B88-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B89-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B90-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B91-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B92-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B52-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B80-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B93-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B94-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B95-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B96-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B97-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B98-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B99-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B100-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B32-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B30-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B31-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B22-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B101-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B102-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B103-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B24-remotesensing-10-00641"></xref>
+</p>
+<p></p>
+</sec>
+<sec id="sec3dot2-remotesensing-10-00641">
+<title></title>
+<p>
+<xref ref-type="bibr" rid="B12-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B104-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B105-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B106-remotesensing-10-00641"></xref>
+<xref ref-type="fig" rid="remotesensing-10-00641-f004"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B107-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B108-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B109-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B110-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B111-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B112-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B113-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B114-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B115-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B116-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B117-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B118-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B119-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B120-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B121-remotesensing-10-00641"></xref>
+<xref ref-type="fig" rid="remotesensing-10-00641-f004"></xref>
+<xref ref-type="bibr" rid="B121-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B122-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B123-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B124-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B125-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B126-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B127-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B128-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B129-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B130-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B21-remotesensing-10-00641"></xref>
+</p>
+</sec>
+</sec>
+<sec id="sec4-remotesensing-10-00641">
+<title></title>
+<p>
+<xref ref-type="bibr" rid="B131-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B132-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B133-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B28-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B134-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B135-remotesensing-10-00641"></xref>
+</p>
+<sec>
+<title></title>
+<p>
+<xref ref-type="bibr" rid="B136-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B137-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B138-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B139-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B140-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B141-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B142-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B143-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B144-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B145-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B145-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B146-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B147-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B133-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B148-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B149-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B150-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B151-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B152-remotesensing-10-00641"></xref>
+</p>
+<p>
+<xref ref-type="bibr" rid="B153-remotesensing-10-00641"></xref>
+<xref ref-type="bibr" rid="B154-remotesensing-10-00641"></xref>
+</p>
+</sec>
+</sec>
+<sec id="sec5-remotesensing-10-00641">
+<title></title>
+<p></p>
+<p>
+<list list-type="roman-lower">
+<list-item>
+<label></label>
+<p></p>
+</list-item>
+<list-item>
+<label></label>
+<p></p>
+</list-item>
+<list-item>
+<label></label>
+<p></p>
+</list-item>
+<list-item>
+<label></label>
+<p></p>
+</list-item>
+<list-item>
+<label></label>
+<p></p>
+</list-item>
+<list-item>
+<label></label>
+<p>
+<xref ref-type="bibr" rid="B155-remotesensing-10-00641"></xref>
+</p>
+</list-item>
+<list-item>
+<label></label>
+<p></p>
+</list-item>
+<list-item>
+<label></label>
+<p></p>
+</list-item>
+<list-item>
+<label></label>
+<p></p>
+</list-item>
+<list-item>
+<label></label>
+<p></p>
+</list-item>
+</list>
+</p>
+<p>
+<xref ref-type="fig" rid="remotesensing-10-00641-f005"></xref>
+</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<xref ref-type="bibr" rid="B156-remotesensing-10-00641"></xref>
+</p>
+</list-item>
+<list-item>
+<p></p>
+</list-item>
+<list-item>
+<p></p>
+</list-item>
+<list-item>
+<p></p>
+</list-item>
+<list-item>
+<p></p>
+</list-item>
+<list-item>
+<p></p>
+</list-item>
+</list>
+</p>
+<p></p>
+<p>
+<xref ref-type="fig" rid="remotesensing-10-00641-f005"></xref>
+</p>
+<p></p>
+<p></p>
+</sec>
+</body>
+<back>
+<ack>
+<title></title>
+<p></p>
+</ack>
+<notes>
+<title></title>
+<p>
+<xref ref-type="sec" rid="sec2-remotesensing-10-00641"></xref>
+<xref ref-type="sec" rid="sec3-remotesensing-10-00641"></xref>
+<xref ref-type="sec" rid="sec4-remotesensing-10-00641"></xref>
+</p>
+</notes>
+<notes notes-type="COI-statement">
+<title></title>
+<p></p>
+</notes>
+<app-group>
+<app id="app1-remotesensing-10-00641">
+<title></title>
+<p>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A1"></xref>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A2"></xref>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A3"></xref>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A4"></xref>
+<xref ref-type="table" rid="remotesensing-10-00641-t0A5"></xref>
+</p>
+<table-wrap id="remotesensing-10-00641-t0A1" position="float">
+<object-id pub-id-type="pii"></object-id>
+<label></label>
+<caption>
+<p></p>
+</caption>
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+<sup></sup>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+<sup></sup>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<table-wrap id="remotesensing-10-00641-t0A2" position="float">
+<object-id pub-id-type="pii"></object-id>
+<label></label>
+<caption>
+<p></p>
+</caption>
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<table-wrap id="remotesensing-10-00641-t0A3" position="float">
+<object-id pub-id-type="pii"></object-id>
+<label></label>
+<caption>
+<p></p>
+</caption>
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<sup></sup>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<table-wrap id="remotesensing-10-00641-t0A4" position="float">
+<object-id pub-id-type="pii"></object-id>
+<label></label>
+<caption>
+<p></p>
+</caption>
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+<sup></sup>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+<break></break>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<table-wrap id="remotesensing-10-00641-t0A5" position="float">
+<object-id pub-id-type="pii"></object-id>
+<label></label>
+<caption>
+<p></p>
+</caption>
+<table>
+<thead>
+<tr>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+<th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+<td align="center" valign="middle"></td>
+</tr>
+<tr>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+<td align="center" valign="middle" style="border-bottom:solid thin"></td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</app>
+</app-group>
+<ref-list>
+<title></title>
+<ref id="B1-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B2-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B3-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B4-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<etal></etal>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B5-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B6-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B7-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B8-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<publisher-name></publisher-name>
+<publisher-loc></publisher-loc>
+<year></year>
+</element-citation>
+</ref>
+<ref id="B9-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B10-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B11-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B12-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B13-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B14-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B15-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<elocation-id></elocation-id>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B16-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<etal></etal>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B17-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B18-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B19-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B20-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B21-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B22-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<conf-loc></conf-loc>
+<conf-date></conf-date>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B23-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B24-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<conf-loc></conf-loc>
+<conf-date></conf-date>
+</element-citation>
+</ref>
+<ref id="B25-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B26-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<elocation-id></elocation-id>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B27-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<elocation-id></elocation-id>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B28-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<source></source>
+<comment></comment>
+<publisher-name></publisher-name>
+<publisher-loc></publisher-loc>
+<year></year>
+<size units="pages"></size>
+</element-citation>
+</ref>
+<ref id="B29-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<conf-loc></conf-loc>
+<conf-date></conf-date>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B30-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B31-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B32-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B33-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B34-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B35-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B36-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B37-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B38-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B39-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B40-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B41-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B42-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B43-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B44-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B45-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B46-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B47-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B48-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B49-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B50-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B51-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B52-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B53-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B54-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B55-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B56-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B57-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<elocation-id></elocation-id>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B58-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B59-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B60-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B61-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B62-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B63-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B64-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B65-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B66-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<elocation-id></elocation-id>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B67-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B68-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B69-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title>
+<sub></sub>
+</article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B70-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<etal></etal>
+</person-group>
+<article-title></article-title>
+<comment></comment>
+<publisher-name></publisher-name>
+<publisher-loc></publisher-loc>
+<year></year>
+</element-citation>
+</ref>
+<ref id="B71-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B72-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B73-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B74-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B75-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B76-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<conf-loc></conf-loc>
+<conf-date></conf-date>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B77-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B78-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B79-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B80-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B81-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B82-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B83-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B84-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B85-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B86-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B87-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+<suffix></suffix>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B88-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+<suffix></suffix>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B89-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B90-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B91-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B92-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B93-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B94-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B95-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B96-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B97-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B98-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B99-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<publisher-name></publisher-name>
+<publisher-loc></publisher-loc>
+<year></year>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B100-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B101-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<conf-loc></conf-loc>
+<conf-date></conf-date>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B102-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<elocation-id></elocation-id>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B103-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B104-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B105-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B106-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<publisher-name></publisher-name>
+<publisher-loc></publisher-loc>
+<year></year>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B107-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B108-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B109-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B110-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B111-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B112-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B113-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B114-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<elocation-id></elocation-id>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B115-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B116-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<conf-loc></conf-loc>
+<conf-date></conf-date>
+<fpage></fpage>
+</element-citation>
+</ref>
+<ref id="B117-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+</element-citation>
+</ref>
+<ref id="B118-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B119-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B120-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B121-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B122-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<elocation-id></elocation-id>
+</element-citation>
+</ref>
+<ref id="B123-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title>
+<italic></italic>
+</article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B124-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B125-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B126-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<etal></etal>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B127-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B128-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B129-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B130-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B131-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B132-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+<pub-id pub-id-type="pmid"></pub-id>
+</element-citation>
+</ref>
+<ref id="B133-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B134-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B135-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B136-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B137-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B138-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B139-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B140-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B141-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B142-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B143-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B144-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B145-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B146-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B147-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B148-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B149-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B150-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B151-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B152-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B153-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B154-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B155-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<source></source>
+<year></year>
+<volume></volume>
+<fpage></fpage>
+<lpage></lpage>
+<pub-id pub-id-type="doi"></pub-id>
+</element-citation>
+</ref>
+<ref id="B156-remotesensing-10-00641">
+<label></label>
+<element-citation publication-type="web">
+<person-group person-group-type="author">
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+<name>
+<surname></surname>
+<given-names></given-names>
+</name>
+</person-group>
+<article-title></article-title>
+<comment></comment>
+<comment>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.pocket-lint.com/" ext-link-type="uri"></ext-link>
+</comment>
+<date-in-citation content-type="access-date" iso-8601-date="2017-02-13"></date-in-citation>
+</element-citation>
+</ref>
+</ref-list>
+<sec sec-type="display-objects">
+<title></title>
+<fig id="remotesensing-10-00641-f001" position="float">
+<label></label>
+<caption>
+<p></p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="remotesensing-10-00641-g001.tif"></graphic>
+</fig>
+<fig id="remotesensing-10-00641-f002" position="float">
+<label></label>
+<caption>
+<p>
+<bold></bold>
+<bold></bold>
+<bold></bold>
+<bold></bold>
+</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="remotesensing-10-00641-g002.tif"></graphic>
+</fig>
+<fig id="remotesensing-10-00641-f003" position="float">
+<label></label>
+<caption>
+<p>
+<bold></bold>
+<bold></bold>
+<bold></bold>
+</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="remotesensing-10-00641-g003.tif"></graphic>
+</fig>
+<fig id="remotesensing-10-00641-f004" position="float">
+<label></label>
+<caption>
+<p>
+<bold></bold>
+<bold></bold>
+<bold></bold>
+<xref ref-type="bibr" rid="B121-remotesensing-10-00641"></xref>
+</p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="remotesensing-10-00641-g004.tif"></graphic>
+</fig>
+<fig id="remotesensing-10-00641-f005" position="float">
+<label></label>
+<caption>
+<p></p>
+</caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="remotesensing-10-00641-g005.tif"></graphic>
+</fig>
+</sec>
+</back>
+</article>
