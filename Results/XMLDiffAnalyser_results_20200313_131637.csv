@@ -1,0 +1,25 @@
+Tool,Rounds,Average memory (MB),Max memory (MB),File orig size (KB),File modified size (KB),File delta size (KB),Time (sec),File orig,File modified,File delta
+xydiff,5,7.9,12.5,159.78,159.77,0.4,0.1,one_change_orig.xml,one_change_new.xml,xydiff_one_change_orig.xml_one_change_new.xml_delta.xml
+jndiff,5,73.5,154.9,159.78,159.77,0.2,0.9,one_change_orig.xml,one_change_new.xml,jndiff_one_change_orig.xml_one_change_new.xml_delta.xml
+jxydiff,5,57.8,111.9,159.78,159.77,0.4,0.7,one_change_orig.xml,one_change_new.xml,jxydiff_one_change_orig.xml_one_change_new.xml_delta.xml
+fc-xmldiff,5,81.2,141.6,159.78,159.77,0.7,1.9,one_change_orig.xml,one_change_new.xml,fc-xmldiff_one_change_orig.xml_one_change_new.xml_delta.xml
+xcc,5,35.7,60.8,159.78,159.77,0.5,0.5,one_change_orig.xml,one_change_new.xml,xcc_one_change_orig.xml_one_change_new.xml_delta.xml
+node-delta,5,60.9,103.4,159.78,159.77,0.4,0.8,one_change_orig.xml,one_change_new.xml,node-delta_one_change_orig.xml_one_change_new.xml_delta.xml
+deltaXML,5,74.4,132.9,159.78,159.77,176.7,1.4,one_change_orig.xml,one_change_new.xml,deltaXML_one_change_orig.xml_one_change_new.xml_delta.xml
+xmldiff,5,21.5,27.7,159.78,159.77,124.4,0.7,one_change_orig.xml,one_change_new.xml,xmldiff_one_change_orig.xml_one_change_new.xml_delta.xml
+xop,5,39.8,69.2,159.78,159.77,1.9,0.5,one_change_orig.xml,one_change_new.xml,xop_one_change_orig.xml_one_change_new.xml_delta.xml
+diffmk,5,33.7,213.9,159.78,159.77,158.6,0.3,one_change_orig.xml,one_change_new.xml,diffmk_one_change_orig.xml_one_change_new.xml_delta.xml
+xdiff,5,1.7,5.8,159.78,159.77,0,0.0,one_change_orig.xml,one_change_new.xml,xdiff_one_change_orig.xml_one_change_new.xml_delta.xml
+diffxml,5,53.2,67.4,159.78,159.77,0.4,4.3,one_change_orig.xml,one_change_new.xml,diffxml_one_change_orig.xml_one_change_new.xml_delta.xml
+xydiff,5,16.3,18.3,159.78,217.47,179.6,0.8,many_changes_orig.xml,many_changes_new.xml,xydiff_many_changes_orig.xml_many_changes_new.xml_delta.xml
+jndiff,5,111.2,189.3,159.78,217.47,136.1,1.2,many_changes_orig.xml,many_changes_new.xml,jndiff_many_changes_orig.xml_many_changes_new.xml_delta.xml
+jxydiff,5,89.5,141.7,159.78,217.47,354.4,1.2,many_changes_orig.xml,many_changes_new.xml,jxydiff_many_changes_orig.xml_many_changes_new.xml_delta.xml
+fc-xmldiff,5,101.2,158.9,159.78,217.47,106.9,2.6,many_changes_orig.xml,many_changes_new.xml,fc-xmldiff_many_changes_orig.xml_many_changes_new.xml_delta.xml
+xcc,5,59.2,125.3,159.78,217.47,331.5,1.2,many_changes_orig.xml,many_changes_new.xml,xcc_many_changes_orig.xml_many_changes_new.xml_delta.xml
+node-delta,5,92.3,121.2,159.78,217.47,250.9,2.4,many_changes_orig.xml,many_changes_new.xml,node-delta_many_changes_orig.xml_many_changes_new.xml_delta.xml
+deltaXML,5,75.5,167.8,159.78,217.47,433.0,1.5,many_changes_orig.xml,many_changes_new.xml,deltaXML_many_changes_orig.xml_many_changes_new.xml_delta.xml
+xmldiff,5,25.7,33.3,159.78,217.47,327.9,64.9,many_changes_orig.xml,many_changes_new.xml,xmldiff_many_changes_orig.xml_many_changes_new.xml_delta.xml
+xop,5,47.9,89.1,159.78,217.47,281.5,0.6,many_changes_orig.xml,many_changes_new.xml,xop_many_changes_orig.xml_many_changes_new.xml_delta.xml
+diffmk,5,38.2,231.7,159.78,217.47,27.6,0.4,many_changes_orig.xml,many_changes_new.xml,diffmk_many_changes_orig.xml_many_changes_new.xml_delta.xml
+xdiff,5,2.5,11.9,159.78,217.47,116.1,0.1,many_changes_orig.xml,many_changes_new.xml,xdiff_many_changes_orig.xml_many_changes_new.xml_delta.xml
+diffxml,5,77.7,130.0,159.78,217.47,1828.3,4.3,many_changes_orig.xml,many_changes_new.xml,diffxml_many_changes_orig.xml_many_changes_new.xml_delta.xml
