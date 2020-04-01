@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<xy:unit_delta xmlns:xy="urn:schemas-xydiff:xydelta" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
-
-  <xy:t fromXidMap="(1-5;18-27;6-17;28-60|61)">
-    <xy:d move="yes" par="28" pos="2" xm="(27)"/>
-    <xy:i move="yes" par="28" pos="1" xm="(27)"/>
-  </xy:t>
-
-</xy:unit_delta>

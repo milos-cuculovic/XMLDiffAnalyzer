@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<delta xmlns="http://www.adrianmouat.com/dul">
-    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[4]/node()[2]">On the Use of Unmanned Aerial -test_title- Systems for Environmental Monitoring</insert>
-    <insert childno="1" nodetype="3" parent="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[4]/node()[4]">Salva_test-author_tore</insert>
-    <delete charpos="23" length="9" node="/node()[1]/node()[2]/node()[2]/node()[6]/node()[2]/node()[4]/node()[4]/node()[1]"/>
-    <delete charpos="80" length="66" node="/node()[1]/node()[2]/node()[2]/node()[4]/node()[2]/node()[1]"/>
-</delta>
-

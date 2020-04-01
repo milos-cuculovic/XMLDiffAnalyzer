@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><delta><insert digester="fnv" path="/1/1/5/4" radius="4" shortened="true"><fingerprint>7671a3a8;c086963f;1310d193;1fcb59a8;96452f05;b6849fa8;b6849fa8;9b820afa;a8039ebe</fingerprint><newvalue>
-        <contrib contrib-type="author">
-          <contrib-id authenticated="true" contrib-id-type="orcid">https://orcid.org/0000-0002-0225-144X</contrib-id>
-          <name>
-            <surname>aaaa</surname>
-            <given-names>bbbb</given-names>
-          </name>
-          <xref ref-type="aff" rid="af1-remotesensing-10-00641">1</xref>
-        </contrib></newvalue></insert></delta>

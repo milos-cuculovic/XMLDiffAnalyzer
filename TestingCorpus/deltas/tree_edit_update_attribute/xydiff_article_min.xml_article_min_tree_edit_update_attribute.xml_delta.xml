@@ -1,9 +1,0 @@
-Outputting to stdout
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<xy:unit_delta xmlns:xy="urn:schemas-xydiff:xydelta" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
-
-  <xy:t fromXidMap="(1-60|61)">
-    <xy:au a="authenticated" nv="false" ov="true" xid="7"/>
-  </xy:t>
-
-</xy:unit_delta>

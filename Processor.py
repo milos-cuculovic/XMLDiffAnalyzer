@@ -61,12 +61,12 @@ class Processor:
             max_memory = max(max_memory, ptimer.max_rss_memory)
             average_memories.append(sum(ptimer.rss_memory) / len(ptimer.rss_memory))
 
-        self.total_time = format(total_time, '.2f')
-        self.max_memory = format((max_memory) / (1024 * 1024), '.3f')
-        self.average_memory = format((sum(average_memories) / len(average_memories)) / (1024 * 1024), '.3f')
+        self.total_time = float(format(total_time / int(self.rounds), '.1f'))
+        self.max_memory = float(format(max_memory / (1024 * 1024), '.1f'))
+        self.average_memory = format((sum(average_memories) / len(average_memories)) / (1024 * 1024), '.1f')
         self.file_delta = file_delta
-        if(path.exists(file_delta)):
-            self.file_delta_size = format((os.stat(file_delta).st_size) / (1024), '.2f')
+        if path.exists(file_delta):
+            self.file_delta_size = float(format(os.stat(file_delta).st_size / 1024, '.1f'))
         else:
             self.file_delta_size = 0
             print(colored("!!ATTENTION!! Delta file not created! !!ATTENTION!! ", "red"))

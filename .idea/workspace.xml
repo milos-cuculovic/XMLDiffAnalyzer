@@ -2,10 +2,218 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb9c6ab-d7fe-41ab-842e-aeeae293dce2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/Originals/article_full_tree_edit_merge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/Originals/article_full_tree_edit_split.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/Originals/article_full_tree_edit_split.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_add_style/article_min_text_edit_add_style.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert_small/article_full.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert_small/article_full.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert_small/article_half.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_style_and_text/article_full_text_edit_style_and_text.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_delete/article_min_tree_edit_delete.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_downgrade/article_full_tree_edit_downgrade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_downgrade/article_full_tree_edit_downgrade.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_insert/article_min_tree_edit_insert.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_insert_nasty/article_min_tree_edit_insert_nasty.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge/article_full_tree_edit_merge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge/article_full_tree_edit_merge.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge_nasty/article_full_tree_edit_merge_nasty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge_nasty/article_full_tree_edit_merge_nasty.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge_nasty/article_half_tree_edit_merge_nasty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge_nasty/article_half_tree_edit_merge_nasty.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_move/article_min_tree_edit_move.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_split/article_full_tree_edit_split.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_split/article_full_tree_edit_split.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_upgrade/article_full_tree_edit_upgrade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_upgrade/article_full_tree_edit_upgrade.xml.xidmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Processor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/Originals/article_half.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_delete/article_half_text_edit_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_delete/article_min_text_edit_delete.xml.xidmap" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_delete/article_min_text_edit_delete.xml.xidmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_delete_nasty/article_half_text_edit_delete_nasty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert/article_half_text_edit_insert.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert/article_min_text_edit_insert.xml.xidmap" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert/article_min_text_edit_insert.xml.xidmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert_nasty/article_half_text_edit_insert_nasty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_move/article_half_text_edit_move.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_move/article_half_text_edit_move.xml.xidmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_move/article_min_text_edit_move.xml.xidmap" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_move/article_min_text_edit_move.xml.xidmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_delete/article_half_tree_edit_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_delete_nasty/article_half_tree_edit_delete_nasty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_insert/article_half_tree_edit_insert.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_insert_nasty/article_half_tree_edit_insert_nasty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_move/article_half_tree_edit_move.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_move_nasty/article_half_tree_edit_move_nasty.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_update_attribute/article_half_tree_edit_update_attribute.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/diffmk_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_style_and_text/article_full_text_edit_style_and_text.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/diffxml_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/fc-xmldiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/jndiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/jxydiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/node-delta_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xcc_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xdiff-go_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xmldiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xop_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xydiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/jndiff_1.xml_2.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/jxydiff_1.xml_2.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/diffmk_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/diffxml_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/fc-xmldiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/jndiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/jxydiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/node-delta_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xcc_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xdiff-go_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xmldiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xop_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xydiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/diffmk_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/diffxml_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/fc-xmldiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/jndiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/jxydiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/node-delta_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xcc_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xdiff-go_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xmldiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xop_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xydiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/diffmk_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/diffxml_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/fc-xmldiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/jndiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/jxydiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/node-delta_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xcc_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xdiff-go_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xmldiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xop_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xydiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/diffmk_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/diffxml_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/fc-xmldiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/jndiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/jxydiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/node-delta_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xcc_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xdiff-go_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xmldiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xop_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xydiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/diffmk_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/diffxml_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/fc-xmldiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/jndiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/jxydiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/node-delta_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xcc_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xdiff-go_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xmldiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xop_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xydiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/diffmk_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/diffxml_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/fc-xmldiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/jndiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/jxydiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/node-delta_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xcc_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xdiff-go_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xmldiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xop_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xydiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/diffmk_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/diffxml_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/fc-xmldiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/jndiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/jxydiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/node-delta_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xcc_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xdiff-go_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xdiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xmldiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xop_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xydiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/diffmk_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/diffxml_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/fc-xmldiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/jndiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/jxydiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/node-delta_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xcc_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xdiff-go_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xdiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xmldiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xop_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xydiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/diffmk_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/diffxml_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/fc-xmldiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/jndiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/jxydiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/node-delta_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xcc_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xdiff-go_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xdiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xmldiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xop_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xydiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/diffmk_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/diffxml_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/fc-xmldiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/jndiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/jxydiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/node-delta_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xcc_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xdiff-go_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xdiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xmldiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xop_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xydiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/diffmk_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/diffxml_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/fc-xmldiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/jndiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/jxydiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/node-delta_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xcc_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xdiff-go_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xmldiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xop_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xydiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/diffmk_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/diffxml_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/fc-xmldiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/jndiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/jxydiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/node-delta_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xcc_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xdiff-go_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xdiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xmldiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xop_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xydiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/diffmk_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_add_style/article_min_text_edit_add_style.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/diffxml_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/fc-xmldiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/jndiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/jxydiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/node-delta_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xcc_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xdiff-go_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xdiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xmldiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xop_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xydiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/xcc_1.xml_2.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/xydiff_1.xml_2.xml_delta.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/XMLDiffAnalyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/XMLDiffAnalyzer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMLDiffTools/node-delta" beforeDir="false" afterPath="$PROJECT_DIR$/XMLDiffTools/node-delta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMLDiffTools/node-delta/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/XMLDiffTools/node-delta/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XMLDiffTools/XDiff-go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +248,13 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/XMLDiffTools" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/XMLDiffTools/deltaXML" />
       <recent name="$PROJECT_DIR$/TestingCorpus" />
+      <recent name="$PROJECT_DIR$/XMLDiffTools" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TestingCorpus/deltas" />
       <recent name="$PROJECT_DIR$/XMLDiffTools" />
     </key>
   </component>
@@ -165,7 +374,19 @@
       <workItem from="1582283657523" duration="2782000" />
       <workItem from="1582644705313" duration="515000" />
       <workItem from="1582809593477" duration="16558000" />
-      <workItem from="1583227543068" duration="2885000" />
+      <workItem from="1583227543068" duration="19807000" />
+      <workItem from="1583306673465" duration="7657000" />
+      <workItem from="1583316535030" duration="868000" />
+      <workItem from="1583396860641" duration="14192000" />
+      <workItem from="1583738712825" duration="2713000" />
+      <workItem from="1583751572160" duration="2654000" />
+      <workItem from="1583914236816" duration="1711000" />
+      <workItem from="1584084099586" duration="15462000" />
+      <workItem from="1584526793333" duration="142000" />
+      <workItem from="1584527544635" duration="260000" />
+      <workItem from="1584621174051" duration="96000" />
+      <workItem from="1585737640686" duration="49000" />
+      <workItem from="1585737718366" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="Working example - initial time and memory monitor">
       <created>1575992472469</created>
@@ -286,11 +507,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582901452153</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fix node-delta + improve svg generation">
+      <created>1583230688248</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583230688248</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -310,7 +548,8 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Replace xdiff with the new compiled version in C++" />
     <MESSAGE value="Adding graph generation and replace excel by cvs files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding graph generation and replace excel by cvs files" />
+    <MESSAGE value="Fix node-delta + improve svg generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix node-delta + improve svg generation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="183" key="#Notifications" timestamp="1579176172589">
@@ -320,184 +559,175 @@
     <state x="655" y="145" key="#XMLDiffAnalyzer" timestamp="1579177537829">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
-    <state x="655" y="145" key="#XMLDiffAnalyzer/0.23.1920.989@0.23.1920.989" timestamp="1576746735257" />
     <state x="655" y="145" key="#XMLDiffAnalyzer/0.23.1920.991@0.23.1920.991" timestamp="1579177537829" />
     <state x="685" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579604195179">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
     <state x="685" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.991@0.23.1920.991" timestamp="1579175885969" />
     <state x="685" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.992@0.23.1920.992" timestamp="1579604195179" />
-    <state x="648" y="263" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582283639731">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state x="486" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585737672762">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
+    <state x="486" y="225" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.834@0.23.1440.834" timestamp="1585737672762" />
     <state x="648" y="263" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.989@0.23.1920.989" timestamp="1582283639731" />
     <state x="648" y="263" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.991@0.23.1920.991" timestamp="1579711228380" />
     <state x="648" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.994@0.23.1920.994" timestamp="1580829996033" />
-    <state x="454" y="119" key="CommitChangelistDialog2" timestamp="1583230639184">
+    <state x="454" y="119" key="CommitChangelistDialog2" timestamp="1583230687721">
       <screen x="0" y="23" width="1920" height="994" />
     </state>
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.988@0.23.1920.988" timestamp="1578927313861" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.991@0.23.1920.991" timestamp="1580122090874" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.992@0.23.1920.992" timestamp="1582901450032" />
-    <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.994@0.23.1920.994" timestamp="1583230639184" />
-    <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.995@0.23.1920.995" timestamp="1576149346213" />
-    <state width="808" height="468" key="DebuggerActiveHint" timestamp="1576247433842">
-      <screen x="0" y="23" width="1920" height="992" />
-    </state>
-    <state width="790" height="466" key="DebuggerActiveHint/0.23.1920.989@0.23.1920.989" timestamp="1576071117427" />
-    <state width="808" height="468" key="DebuggerActiveHint/0.23.1920.992@0.23.1920.992" timestamp="1576247433842" />
+    <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.994@0.23.1920.994" timestamp="1583230687721" />
     <state x="747" y="278" key="FileChooserDialogImpl" timestamp="1579176037962">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
     <state x="747" y="278" key="FileChooserDialogImpl/0.23.1920.991@0.23.1920.991" timestamp="1579176037962" />
-    <state width="1878" height="275" key="GridCell.Tab.0.bottom" timestamp="1583230015496">
-      <screen x="0" y="23" width="1920" height="996" />
+    <state width="903" height="204" key="GridCell.Tab.0.bottom" timestamp="1584110120562">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state width="903" height="325" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578522830921" />
-    <state width="1398" height="442" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1579816383619" />
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1583164016257" />
+    <state width="1398" height="143" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1584091451125" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1584092447888" />
+    <state width="663" height="204" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1584094492485" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1584093002378" />
     <state width="1858" height="214" key="GridCell.Tab.0.bottom/0.23.1920.1001/1920.23.1680.1027@0.23.1920.1001" timestamp="1583147012044" />
     <state width="903" height="550" key="GridCell.Tab.0.bottom/0.23.1920.1002@0.23.1920.1002" timestamp="1581588080669" />
+    <state width="903" height="204" key="GridCell.Tab.0.bottom/0.23.1920.1007/1920.23.1680.1027@0.23.1920.1007" timestamp="1584110120562" />
+    <state width="1858" height="284" key="GridCell.Tab.0.bottom/0.23.1920.1007@0.23.1920.1007" timestamp="1583921284156" />
     <state width="1858" height="275" key="GridCell.Tab.0.bottom/0.23.1920.988@0.23.1920.988" timestamp="1582645264194" />
+    <state width="903" height="276" key="GridCell.Tab.0.bottom/0.23.1920.989/1920.23.1680.1027@0.23.1920.989" timestamp="1583310668321" />
     <state width="1858" height="214" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1582880698009" />
-    <state width="1858" height="214" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1582880776012" />
-    <state width="1858" height="214" key="GridCell.Tab.0.bottom/0.23.1920.992/1920.23.1680.1027@0.23.1920.992" timestamp="1583137643281" />
-    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.992@0.23.1920.992" timestamp="1583228163508" />
-    <state width="1858" height="275" key="GridCell.Tab.0.bottom/0.23.1920.994@0.23.1920.994" timestamp="1582879289191" />
-    <state width="1858" height="214" key="GridCell.Tab.0.bottom/0.23.1920.995/1920.23.1680.1027@0.23.1920.995" timestamp="1583147132407" />
-    <state width="1858" height="275" key="GridCell.Tab.0.bottom/0.23.1920.995@0.23.1920.995" timestamp="1582813140905" />
-    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.996@0.23.1920.996" timestamp="1583230015496" />
+    <state width="1858" height="276" key="GridCell.Tab.0.bottom/0.23.1920.991/1920.23.1680.1027@0.23.1920.991" timestamp="1583313287757" />
+    <state width="1858" height="274" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1583502786803" />
+    <state width="903" height="276" key="GridCell.Tab.0.bottom/0.23.1920.992/1920.23.1680.1027@0.23.1920.992" timestamp="1583327497081" />
+    <state width="1858" height="274" key="GridCell.Tab.0.bottom/0.23.1920.992@0.23.1920.992" timestamp="1583397802726" />
+    <state width="1858" height="276" key="GridCell.Tab.0.bottom/0.23.1920.994/1920.23.1680.1027@0.23.1920.994" timestamp="1583315114041" />
+    <state width="1858" height="274" key="GridCell.Tab.0.bottom/0.23.1920.994@0.23.1920.994" timestamp="1583412088408" />
+    <state width="1858" height="276" key="GridCell.Tab.0.bottom/0.23.1920.995/1920.23.1680.1027@0.23.1920.995" timestamp="1583316900519" />
+    <state width="1858" height="274" key="GridCell.Tab.0.bottom/0.23.1920.995@0.23.1920.995" timestamp="1583412332137" />
+    <state width="1858" height="276" key="GridCell.Tab.0.bottom/0.23.1920.996/1920.23.1680.1027@0.23.1920.996" timestamp="1583316380515" />
+    <state width="903" height="274" key="GridCell.Tab.0.bottom/0.23.1920.996@0.23.1920.996" timestamp="1583411775151" />
     <state width="903" height="550" key="GridCell.Tab.0.bottom/0.23.1920.997@0.23.1920.997" timestamp="1581694928538" />
     <state width="1858" height="442" key="GridCell.Tab.0.bottom/1920.23.1680.1027/0.23.1920.991@0.23.1920.991" timestamp="1579640912999" />
     <state width="1858" height="328" key="GridCell.Tab.0.bottom/1920.23.1680.1027/0.23.1920.994@0.23.1920.994" timestamp="1578215148576" />
-    <state width="1878" height="275" key="GridCell.Tab.0.center" timestamp="1583230015495">
-      <screen x="0" y="23" width="1920" height="996" />
+    <state width="903" height="204" key="GridCell.Tab.0.center" timestamp="1584110120562">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state width="903" height="325" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578522830921" />
-    <state width="1398" height="442" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1579816383618" />
-    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1583164016257" />
+    <state width="1398" height="143" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1584091451124" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1584092447887" />
+    <state width="663" height="204" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1584094492484" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1584093002377" />
     <state width="1858" height="214" key="GridCell.Tab.0.center/0.23.1920.1001/1920.23.1680.1027@0.23.1920.1001" timestamp="1583147012043" />
     <state width="903" height="550" key="GridCell.Tab.0.center/0.23.1920.1002@0.23.1920.1002" timestamp="1581588080668" />
+    <state width="903" height="204" key="GridCell.Tab.0.center/0.23.1920.1007/1920.23.1680.1027@0.23.1920.1007" timestamp="1584110120562" />
+    <state width="1858" height="284" key="GridCell.Tab.0.center/0.23.1920.1007@0.23.1920.1007" timestamp="1583921284156" />
     <state width="1858" height="275" key="GridCell.Tab.0.center/0.23.1920.988@0.23.1920.988" timestamp="1582645264194" />
+    <state width="903" height="276" key="GridCell.Tab.0.center/0.23.1920.989/1920.23.1680.1027@0.23.1920.989" timestamp="1583310668320" />
     <state width="1858" height="214" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1582880698008" />
-    <state width="1858" height="214" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1582880776011" />
-    <state width="1858" height="214" key="GridCell.Tab.0.center/0.23.1920.992/1920.23.1680.1027@0.23.1920.992" timestamp="1583137643280" />
-    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.992@0.23.1920.992" timestamp="1583228163507" />
-    <state width="1858" height="275" key="GridCell.Tab.0.center/0.23.1920.994@0.23.1920.994" timestamp="1582879289190" />
-    <state width="1858" height="214" key="GridCell.Tab.0.center/0.23.1920.995/1920.23.1680.1027@0.23.1920.995" timestamp="1583147132406" />
-    <state width="1858" height="275" key="GridCell.Tab.0.center/0.23.1920.995@0.23.1920.995" timestamp="1582813140904" />
-    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.996@0.23.1920.996" timestamp="1583230015495" />
+    <state width="1858" height="276" key="GridCell.Tab.0.center/0.23.1920.991/1920.23.1680.1027@0.23.1920.991" timestamp="1583313287756" />
+    <state width="1858" height="274" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1583502786802" />
+    <state width="903" height="276" key="GridCell.Tab.0.center/0.23.1920.992/1920.23.1680.1027@0.23.1920.992" timestamp="1583327497080" />
+    <state width="1858" height="274" key="GridCell.Tab.0.center/0.23.1920.992@0.23.1920.992" timestamp="1583397802725" />
+    <state width="1858" height="276" key="GridCell.Tab.0.center/0.23.1920.994/1920.23.1680.1027@0.23.1920.994" timestamp="1583315114040" />
+    <state width="1858" height="274" key="GridCell.Tab.0.center/0.23.1920.994@0.23.1920.994" timestamp="1583412088408" />
+    <state width="1858" height="276" key="GridCell.Tab.0.center/0.23.1920.995/1920.23.1680.1027@0.23.1920.995" timestamp="1583316900518" />
+    <state width="1858" height="274" key="GridCell.Tab.0.center/0.23.1920.995@0.23.1920.995" timestamp="1583412332136" />
+    <state width="1858" height="276" key="GridCell.Tab.0.center/0.23.1920.996/1920.23.1680.1027@0.23.1920.996" timestamp="1583316380515" />
+    <state width="903" height="274" key="GridCell.Tab.0.center/0.23.1920.996@0.23.1920.996" timestamp="1583411775151" />
     <state width="903" height="550" key="GridCell.Tab.0.center/0.23.1920.997@0.23.1920.997" timestamp="1581694928537" />
     <state width="1858" height="442" key="GridCell.Tab.0.center/1920.23.1680.1027/0.23.1920.991@0.23.1920.991" timestamp="1579640912998" />
     <state width="1858" height="328" key="GridCell.Tab.0.center/1920.23.1680.1027/0.23.1920.994@0.23.1920.994" timestamp="1578215148576" />
-    <state width="1878" height="275" key="GridCell.Tab.0.left" timestamp="1583230015495">
-      <screen x="0" y="23" width="1920" height="996" />
+    <state width="903" height="204" key="GridCell.Tab.0.left" timestamp="1584110120561">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state width="903" height="325" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578522830920" />
-    <state width="1398" height="442" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1579816383618" />
-    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1583164016253" />
+    <state width="1398" height="143" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1584091451124" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1584092447886" />
+    <state width="663" height="204" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1584094492483" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1584093002377" />
     <state width="1858" height="214" key="GridCell.Tab.0.left/0.23.1920.1001/1920.23.1680.1027@0.23.1920.1001" timestamp="1583147012043" />
     <state width="903" height="550" key="GridCell.Tab.0.left/0.23.1920.1002@0.23.1920.1002" timestamp="1581588080667" />
+    <state width="903" height="204" key="GridCell.Tab.0.left/0.23.1920.1007/1920.23.1680.1027@0.23.1920.1007" timestamp="1584110120561" />
+    <state width="1858" height="284" key="GridCell.Tab.0.left/0.23.1920.1007@0.23.1920.1007" timestamp="1583921284155" />
     <state width="1858" height="275" key="GridCell.Tab.0.left/0.23.1920.988@0.23.1920.988" timestamp="1582645264193" />
+    <state width="903" height="276" key="GridCell.Tab.0.left/0.23.1920.989/1920.23.1680.1027@0.23.1920.989" timestamp="1583310668319" />
     <state width="1858" height="214" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1582880698007" />
-    <state width="1858" height="214" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1582880776010" />
-    <state width="1858" height="214" key="GridCell.Tab.0.left/0.23.1920.992/1920.23.1680.1027@0.23.1920.992" timestamp="1583137643279" />
-    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.992@0.23.1920.992" timestamp="1583228163506" />
-    <state width="1858" height="275" key="GridCell.Tab.0.left/0.23.1920.994@0.23.1920.994" timestamp="1582879289190" />
-    <state width="1858" height="214" key="GridCell.Tab.0.left/0.23.1920.995/1920.23.1680.1027@0.23.1920.995" timestamp="1583147132405" />
-    <state width="1858" height="275" key="GridCell.Tab.0.left/0.23.1920.995@0.23.1920.995" timestamp="1582813140904" />
-    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.996@0.23.1920.996" timestamp="1583230015495" />
+    <state width="1858" height="276" key="GridCell.Tab.0.left/0.23.1920.991/1920.23.1680.1027@0.23.1920.991" timestamp="1583313287756" />
+    <state width="1858" height="274" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1583502786802" />
+    <state width="903" height="276" key="GridCell.Tab.0.left/0.23.1920.992/1920.23.1680.1027@0.23.1920.992" timestamp="1583327497079" />
+    <state width="1858" height="274" key="GridCell.Tab.0.left/0.23.1920.992@0.23.1920.992" timestamp="1583397802724" />
+    <state width="1858" height="276" key="GridCell.Tab.0.left/0.23.1920.994/1920.23.1680.1027@0.23.1920.994" timestamp="1583315114039" />
+    <state width="1858" height="274" key="GridCell.Tab.0.left/0.23.1920.994@0.23.1920.994" timestamp="1583412088407" />
+    <state width="1858" height="276" key="GridCell.Tab.0.left/0.23.1920.995/1920.23.1680.1027@0.23.1920.995" timestamp="1583316900517" />
+    <state width="1858" height="274" key="GridCell.Tab.0.left/0.23.1920.995@0.23.1920.995" timestamp="1583412332136" />
+    <state width="1858" height="276" key="GridCell.Tab.0.left/0.23.1920.996/1920.23.1680.1027@0.23.1920.996" timestamp="1583316380514" />
+    <state width="903" height="274" key="GridCell.Tab.0.left/0.23.1920.996@0.23.1920.996" timestamp="1583411775150" />
     <state width="903" height="550" key="GridCell.Tab.0.left/0.23.1920.997@0.23.1920.997" timestamp="1581694928536" />
     <state width="1858" height="442" key="GridCell.Tab.0.left/1920.23.1680.1027/0.23.1920.991@0.23.1920.991" timestamp="1579640912998" />
     <state width="1858" height="328" key="GridCell.Tab.0.left/1920.23.1680.1027/0.23.1920.994@0.23.1920.994" timestamp="1578215148575" />
-    <state width="1878" height="275" key="GridCell.Tab.0.right" timestamp="1583230015496">
-      <screen x="0" y="23" width="1920" height="996" />
+    <state width="903" height="204" key="GridCell.Tab.0.right" timestamp="1584110120562">
+      <screen x="0" y="23" width="1920" height="1007" />
     </state>
     <state width="903" height="325" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578522830921" />
-    <state width="1398" height="442" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1579816383619" />
-    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1583164016257" />
+    <state width="1398" height="143" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1584091451125" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1584092447888" />
+    <state width="663" height="204" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1584094492484" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1584093002378" />
     <state width="1858" height="214" key="GridCell.Tab.0.right/0.23.1920.1001/1920.23.1680.1027@0.23.1920.1001" timestamp="1583147012043" />
     <state width="903" height="550" key="GridCell.Tab.0.right/0.23.1920.1002@0.23.1920.1002" timestamp="1581588080668" />
+    <state width="903" height="204" key="GridCell.Tab.0.right/0.23.1920.1007/1920.23.1680.1027@0.23.1920.1007" timestamp="1584110120562" />
+    <state width="1858" height="284" key="GridCell.Tab.0.right/0.23.1920.1007@0.23.1920.1007" timestamp="1583921284156" />
     <state width="1858" height="275" key="GridCell.Tab.0.right/0.23.1920.988@0.23.1920.988" timestamp="1582645264194" />
+    <state width="903" height="276" key="GridCell.Tab.0.right/0.23.1920.989/1920.23.1680.1027@0.23.1920.989" timestamp="1583310668321" />
     <state width="1858" height="214" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1582880698008" />
-    <state width="1858" height="214" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1582880776011" />
-    <state width="1858" height="214" key="GridCell.Tab.0.right/0.23.1920.992/1920.23.1680.1027@0.23.1920.992" timestamp="1583137643280" />
-    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.992@0.23.1920.992" timestamp="1583228163508" />
-    <state width="1858" height="275" key="GridCell.Tab.0.right/0.23.1920.994@0.23.1920.994" timestamp="1582879289191" />
-    <state width="1858" height="214" key="GridCell.Tab.0.right/0.23.1920.995/1920.23.1680.1027@0.23.1920.995" timestamp="1583147132406" />
-    <state width="1858" height="275" key="GridCell.Tab.0.right/0.23.1920.995@0.23.1920.995" timestamp="1582813140905" />
-    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.996@0.23.1920.996" timestamp="1583230015496" />
+    <state width="1858" height="276" key="GridCell.Tab.0.right/0.23.1920.991/1920.23.1680.1027@0.23.1920.991" timestamp="1583313287757" />
+    <state width="1858" height="274" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1583502786803" />
+    <state width="903" height="276" key="GridCell.Tab.0.right/0.23.1920.992/1920.23.1680.1027@0.23.1920.992" timestamp="1583327497080" />
+    <state width="1858" height="274" key="GridCell.Tab.0.right/0.23.1920.992@0.23.1920.992" timestamp="1583397802726" />
+    <state width="1858" height="276" key="GridCell.Tab.0.right/0.23.1920.994/1920.23.1680.1027@0.23.1920.994" timestamp="1583315114041" />
+    <state width="1858" height="274" key="GridCell.Tab.0.right/0.23.1920.994@0.23.1920.994" timestamp="1583412088408" />
+    <state width="1858" height="276" key="GridCell.Tab.0.right/0.23.1920.995/1920.23.1680.1027@0.23.1920.995" timestamp="1583316900518" />
+    <state width="1858" height="274" key="GridCell.Tab.0.right/0.23.1920.995@0.23.1920.995" timestamp="1583412332137" />
+    <state width="1858" height="276" key="GridCell.Tab.0.right/0.23.1920.996/1920.23.1680.1027@0.23.1920.996" timestamp="1583316380515" />
+    <state width="903" height="274" key="GridCell.Tab.0.right/0.23.1920.996@0.23.1920.996" timestamp="1583411775151" />
     <state width="903" height="550" key="GridCell.Tab.0.right/0.23.1920.997@0.23.1920.997" timestamp="1581694928537" />
     <state width="1858" height="442" key="GridCell.Tab.0.right/1920.23.1680.1027/0.23.1920.991@0.23.1920.991" timestamp="1579640912999" />
     <state width="1858" height="328" key="GridCell.Tab.0.right/1920.23.1680.1027/0.23.1920.994@0.23.1920.994" timestamp="1578215148576" />
-    <state width="1878" height="330" key="GridCell.Tab.1.bottom" timestamp="1576247450560">
-      <screen x="0" y="23" width="1920" height="992" />
-    </state>
-    <state width="1878" height="330" key="GridCell.Tab.1.bottom/0.23.1920.988@0.23.1920.988" timestamp="1576071375733" />
-    <state width="1878" height="330" key="GridCell.Tab.1.bottom/0.23.1920.989@0.23.1920.989" timestamp="1576071236684" />
-    <state width="1878" height="330" key="GridCell.Tab.1.bottom/0.23.1920.991@0.23.1920.991" timestamp="1576244516641" />
-    <state width="1878" height="330" key="GridCell.Tab.1.bottom/0.23.1920.992@0.23.1920.992" timestamp="1576247450560" />
-    <state width="1878" height="330" key="GridCell.Tab.1.center" timestamp="1576247450560">
-      <screen x="0" y="23" width="1920" height="992" />
-    </state>
-    <state width="1878" height="330" key="GridCell.Tab.1.center/0.23.1920.988@0.23.1920.988" timestamp="1576071375732" />
-    <state width="1878" height="330" key="GridCell.Tab.1.center/0.23.1920.989@0.23.1920.989" timestamp="1576071236684" />
-    <state width="1878" height="330" key="GridCell.Tab.1.center/0.23.1920.991@0.23.1920.991" timestamp="1576244516641" />
-    <state width="1878" height="330" key="GridCell.Tab.1.center/0.23.1920.992@0.23.1920.992" timestamp="1576247450560" />
-    <state width="1878" height="330" key="GridCell.Tab.1.left" timestamp="1576247450559">
-      <screen x="0" y="23" width="1920" height="992" />
-    </state>
-    <state width="1878" height="330" key="GridCell.Tab.1.left/0.23.1920.988@0.23.1920.988" timestamp="1576071375731" />
-    <state width="1878" height="330" key="GridCell.Tab.1.left/0.23.1920.989@0.23.1920.989" timestamp="1576071236683" />
-    <state width="1878" height="330" key="GridCell.Tab.1.left/0.23.1920.991@0.23.1920.991" timestamp="1576244516641" />
-    <state width="1878" height="330" key="GridCell.Tab.1.left/0.23.1920.992@0.23.1920.992" timestamp="1576247450559" />
-    <state width="1878" height="330" key="GridCell.Tab.1.right" timestamp="1576247450560">
-      <screen x="0" y="23" width="1920" height="992" />
-    </state>
-    <state width="1878" height="330" key="GridCell.Tab.1.right/0.23.1920.988@0.23.1920.988" timestamp="1576071375732" />
-    <state width="1878" height="330" key="GridCell.Tab.1.right/0.23.1920.989@0.23.1920.989" timestamp="1576071236684" />
-    <state width="1878" height="330" key="GridCell.Tab.1.right/0.23.1920.991@0.23.1920.991" timestamp="1576244516641" />
-    <state width="1878" height="330" key="GridCell.Tab.1.right/0.23.1920.992@0.23.1920.992" timestamp="1576247450560" />
-    <state x="461" y="156" key="SettingsEditor" timestamp="1583141734467">
+    <state x="461" y="156" key="SettingsEditor" timestamp="1583399533347">
       <screen x="0" y="23" width="1920" height="994" />
     </state>
-    <state x="461" y="156" key="SettingsEditor/0.23.1920.988@0.23.1920.988" timestamp="1576069894113" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.991@0.23.1920.991" timestamp="1579177614961" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.994/1920.23.1680.1027@0.23.1920.994" timestamp="1583141734467" />
-    <state x="568" y="258" key="Vcs.Push.Dialog.v2" timestamp="1582901455308">
-      <screen x="0" y="23" width="1920" height="992" />
+    <state x="461" y="156" key="SettingsEditor/0.23.1920.994@0.23.1920.994" timestamp="1583399533347" />
+    <state x="568" y="259" key="Vcs.Push.Dialog.v2" timestamp="1583230691136">
+      <screen x="0" y="23" width="1920" height="994" />
     </state>
     <state x="568" y="257" key="Vcs.Push.Dialog.v2/0.23.1920.988@0.23.1920.988" timestamp="1578927318161" />
     <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.989@0.23.1920.989" timestamp="1580122099594" />
     <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1579264717424" />
     <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.992@0.23.1920.992" timestamp="1582901455308" />
-    <state x="568" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.994@0.23.1920.994" timestamp="1578497358534" />
-    <state x="568" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.995@0.23.1920.995" timestamp="1576148994829" />
-    <state x="539" y="418" key="com.intellij.ide.util.TipDialog" timestamp="1576069871851">
-      <screen x="0" y="23" width="1920" height="988" />
+    <state x="568" y="259" key="Vcs.Push.Dialog.v2/0.23.1920.994@0.23.1920.994" timestamp="1583230691136" />
+    <state x="83" y="114" width="1275" height="641" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584090518331">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="539" y="418" key="com.intellij.ide.util.TipDialog/0.23.1920.988@0.23.1920.988" timestamp="1576069871851" />
+    <state x="83" y="114" width="1275" height="641" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.827@0.23.1440.827" timestamp="1584090518331" />
+    <state x="110" y="133" width="1700" height="771" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.996@0.23.1920.996" timestamp="1583403743510" />
+    <state x="743" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583236029541">
+      <screen x="0" y="23" width="1920" height="994" />
+    </state>
+    <state x="743" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.994@0.23.1920.994" timestamp="1583236029541" />
     <state x="618" y="316" key="git4idea.merge.GitPullDialog" timestamp="1578927293214">
       <screen x="0" y="23" width="1920" height="988" />
     </state>
     <state x="618" y="316" key="git4idea.merge.GitPullDialog/0.23.1920.988@0.23.1920.988" timestamp="1578927293214" />
     <state x="618" y="316" key="git4idea.merge.GitPullDialog/0.23.1920.989@0.23.1920.989" timestamp="1578921797333" />
-    <state x="618" y="316" key="git4idea.merge.GitPullDialog/0.23.1920.991@0.23.1920.991" timestamp="1575971682270" />
-    <state x="618" y="316" key="git4idea.merge.GitPullDialog/0.23.1920.992@0.23.1920.992" timestamp="1576142760431" />
     <state x="618" y="317" key="git4idea.merge.GitPullDialog/0.23.1920.994@0.23.1920.994" timestamp="1578392214680" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1575989370592">
-      <screen x="0" y="23" width="1920" height="988" />
-    </state>
-    <state width="600" height="424" key="javadoc.popup/0.23.1920.988@0.23.1920.988" timestamp="1575989370592" />
-    <state width="600" height="424" key="javadoc.popup/0.23.1920.989@0.23.1920.989" timestamp="1575984263670" />
     <state x="722" y="155" key="refactoring.ChangeSignatureDialog" timestamp="1582877059919">
       <screen x="0" y="23" width="1920" height="994" />
     </state>
     <state x="722" y="155" key="refactoring.ChangeSignatureDialog/0.23.1920.994@0.23.1920.994" timestamp="1582877059919" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1576140919549">
-      <screen x="0" y="23" width="1920" height="992" />
-    </state>
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1920.992@0.23.1920.992" timestamp="1576140919549" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -511,6 +741,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/XMLDiffAnalyzer$XMLDiffAnalyzer.coverage" NAME="XMLDiffAnalyzer Coverage Results" MODIFIED="1583230015480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/XMLDiffAnalyzer$XMLDiffAnalyzer.coverage" NAME="XMLDiffAnalyzer Coverage Results" MODIFIED="1584101777827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

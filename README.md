@@ -10,7 +10,6 @@ Python tool for analyzing XML Diff algorithm implementations
 * deltaXML
 * xmldiff
 * xdiff
-* xdiff-go
 * xop
 * diffmk
 

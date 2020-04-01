@@ -1,5 +1,0 @@
-DeleteSubtree('(Element n:name v: s:/article/front/article-meta/contrib-group/contrib/name/Element h:6740c4)')
-DeleteSubtree('(Element n:xref v: s:/article/front/article-meta/contrib-group/contrib/xref/Element h:b35296)')
-Delete('(Attribute n:contrib-type v:author s:/article/front/article-meta/contrib-group/contrib/contrib-type/Attribute h:8107e6)')
-DeleteSubtree('(Element n:contrib-id v: s:/article/front/article-meta/contrib-group/contrib/contrib-id/Element h:bb1428)')
-DeleteSubtree('(Element n:xref v: s:/article/front/article-meta/contrib-group/contrib/xref/Element h:754c34)')
