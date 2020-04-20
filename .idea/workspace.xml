@@ -2,218 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb9c6ab-d7fe-41ab-842e-aeeae293dce2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/Originals/article_full_tree_edit_merge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/Originals/article_full_tree_edit_split.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/Originals/article_full_tree_edit_split.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_add_style/article_min_text_edit_add_style.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert_small/article_full.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert_small/article_full.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert_small/article_half.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_style_and_text/article_full_text_edit_style_and_text.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_delete/article_min_tree_edit_delete.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_downgrade/article_full_tree_edit_downgrade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_downgrade/article_full_tree_edit_downgrade.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_insert/article_min_tree_edit_insert.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_insert_nasty/article_min_tree_edit_insert_nasty.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge/article_full_tree_edit_merge.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge/article_full_tree_edit_merge.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge_nasty/article_full_tree_edit_merge_nasty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge_nasty/article_full_tree_edit_merge_nasty.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge_nasty/article_half_tree_edit_merge_nasty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_merge_nasty/article_half_tree_edit_merge_nasty.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_move/article_min_tree_edit_move.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_split/article_full_tree_edit_split.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_split/article_full_tree_edit_split.xml.xidmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_upgrade/article_full_tree_edit_upgrade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_upgrade/article_full_tree_edit_upgrade.xml.xidmap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/XMLDiffAnalyser_results_20200420_155641.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/XMLDiffAnalyser_results_article_min.xml_article_min_text_edit_update.xml20200420_155648_Delta File Size.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/Originals/article_min.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_update/article_full_text_edit_update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_update/article_min_text_edit_update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_update/article_min_text_edit_update.xml.xidmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_add_style/article_min_text_edit_add_style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/deltaXML_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/diffmk_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/diffxml_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/fc-xmldiff_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/jndiff_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/jxydiff_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/node-delta_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/xcc_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/xmldiff_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/xop_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_update/xydiff_article_min.xml_article_min_text_edit_update.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/deltaXML_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/diffmk_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/diffxml_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/fc-xmldiff_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/jndiff_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/jxydiff_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/node-delta_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/xcc_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/xdiff_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/xmldiff_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/xop_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_add_style/xydiff_article_min.xml_article_min_tree_edit_add_style.xml_delta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Processor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/Originals/article_half.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_delete/article_half_text_edit_delete.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_delete/article_min_text_edit_delete.xml.xidmap" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_delete/article_min_text_edit_delete.xml.xidmap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_delete_nasty/article_half_text_edit_delete_nasty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert/article_half_text_edit_insert.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert/article_min_text_edit_insert.xml.xidmap" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert/article_min_text_edit_insert.xml.xidmap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_insert_nasty/article_half_text_edit_insert_nasty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_move/article_half_text_edit_move.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_move/article_half_text_edit_move.xml.xidmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_move/article_min_text_edit_move.xml.xidmap" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_move/article_min_text_edit_move.xml.xidmap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_delete/article_half_tree_edit_delete.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_delete_nasty/article_half_tree_edit_delete_nasty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_insert/article_half_tree_edit_insert.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_insert_nasty/article_half_tree_edit_insert_nasty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_move/article_half_tree_edit_move.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_move_nasty/article_half_tree_edit_move_nasty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/TreeEdits/tree_edit_update_attribute/article_half_tree_edit_update_attribute.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/diffmk_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_style_and_text/article_full_text_edit_style_and_text.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/diffxml_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/fc-xmldiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/jndiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/jxydiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/node-delta_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xcc_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xdiff-go_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xmldiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xop_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/full_text_edit_delete/xydiff_article_full.xml_article_full_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/jndiff_1.xml_2.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/jxydiff_1.xml_2.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/diffmk_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/diffxml_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/fc-xmldiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/jndiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/jxydiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/node-delta_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xcc_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xdiff-go_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xmldiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xop_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete/xydiff_article_min.xml_article_min_text_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/diffmk_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/diffxml_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/fc-xmldiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/jndiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/jxydiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/node-delta_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xcc_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xdiff-go_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xmldiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xop_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_delete_nasty/xydiff_article_min.xml_article_min_text_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/diffmk_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/diffxml_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/fc-xmldiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/jndiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/jxydiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/node-delta_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xcc_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xdiff-go_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xmldiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xop_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert/xydiff_article_min.xml_article_min_text_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/diffmk_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/diffxml_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/fc-xmldiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/jndiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/jxydiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/node-delta_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xcc_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xdiff-go_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xmldiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xop_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_insert_nasty/xydiff_article_min.xml_article_min_text_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/diffmk_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/diffxml_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/fc-xmldiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/jndiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/jxydiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/node-delta_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xcc_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xdiff-go_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xmldiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xop_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move/xydiff_article_min.xml_article_min_text_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/diffmk_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/diffxml_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/fc-xmldiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/jndiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/jxydiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/node-delta_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xcc_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xdiff-go_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xmldiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xop_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_move_large/xydiff_article_min.xml_article_min_text_edit_move_large.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/diffmk_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/diffxml_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/fc-xmldiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/jndiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/jxydiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/node-delta_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xcc_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xdiff-go_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xdiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xmldiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xop_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete/xydiff_article_min.xml_article_min_tree_edit_delete.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/diffmk_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/diffxml_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/fc-xmldiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/jndiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/jxydiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/node-delta_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xcc_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xdiff-go_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xdiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xmldiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xop_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_delete_nasty/xydiff_article_min.xml_article_min_tree_edit_delete_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/diffmk_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/diffxml_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/fc-xmldiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/jndiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/jxydiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/node-delta_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xcc_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xdiff-go_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xdiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xmldiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xop_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert/xydiff_article_min.xml_article_min_tree_edit_insert.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/diffmk_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/diffxml_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/fc-xmldiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/jndiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/jxydiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/node-delta_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xcc_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xdiff-go_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xdiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xmldiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xop_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_insert_nasty/xydiff_article_min.xml_article_min_tree_edit_insert_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/diffmk_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/diffxml_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/fc-xmldiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/jndiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/jxydiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/node-delta_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xcc_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xdiff-go_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xmldiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xop_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move/xydiff_article_min.xml_article_min_tree_edit_move.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/diffmk_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/diffxml_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/fc-xmldiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/jndiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/jxydiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/node-delta_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xcc_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xdiff-go_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xdiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xmldiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xop_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_move_nasty/xydiff_article_min.xml_article_min_tree_edit_move_nasty.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/diffmk_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_add_style/article_min_text_edit_add_style.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/diffxml_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/fc-xmldiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/jndiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/jxydiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/node-delta_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xcc_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xdiff-go_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xdiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xmldiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xop_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/tree_edit_update_attribute/xydiff_article_min.xml_article_min_tree_edit_update_attribute.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/xcc_1.xml_2.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/xydiff_1.xml_2.xml_delta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMLDiffAnalyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/XMLDiffAnalyzer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMLDiffTools/XDiff-go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/TextEdits/text_edit_add_style/article_min_text_edit_add_style.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/deltaXML_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/diffmk_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/diffxml_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/fc-xmldiff_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/jndiff_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/jxydiff_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/node-delta_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/xcc_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/xdiff_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/xmldiff_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/xop_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_add_style/xydiff_article_min.xml_article_min_text_edit_add_style.xml_delta.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/jndiff_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/jndiff_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/jxydiff_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/jxydiff_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/node-delta_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/node-delta_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/xcc_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/xcc_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/xmldiff_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestingCorpus/deltas/text_edit_style_and_text/xmldiff_article_full.xml_article_full_text_edit_style_and_text.xml_delta.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,17 +82,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/XMLDiffTools/deltaXML" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Results" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/XMLDiffTools/deltaXML" />
-      <recent name="$PROJECT_DIR$/TestingCorpus" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Results" />
+      <recent name="$PROJECT_DIR$/TestingCorpus/deltas" />
       <recent name="$PROJECT_DIR$/XMLDiffTools" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/TestingCorpus/deltas" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Results" />
+      <recent name="$PROJECT_DIR$/XMLDiffTools/deltaXML" />
+      <recent name="$PROJECT_DIR$/TestingCorpus" />
       <recent name="$PROJECT_DIR$/XMLDiffTools" />
     </key>
   </component>
@@ -386,7 +226,9 @@
       <workItem from="1584527544635" duration="260000" />
       <workItem from="1584621174051" duration="96000" />
       <workItem from="1585737640686" duration="49000" />
-      <workItem from="1585737718366" duration="1008000" />
+      <workItem from="1585737718366" duration="2419000" />
+      <workItem from="1585830567958" duration="760000" />
+      <workItem from="1587390905420" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="Working example - initial time and memory monitor">
       <created>1575992472469</created>
@@ -514,7 +356,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583230688248</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add delta results">
+      <created>1585739419844</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585739419844</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add performance reports">
+      <created>1585741129827</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585741129827</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added supplementary">
+      <created>1585830845827</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1585830845828</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +412,10 @@
     <MESSAGE value="Replace xdiff with the new compiled version in C++" />
     <MESSAGE value="Adding graph generation and replace excel by cvs files" />
     <MESSAGE value="Fix node-delta + improve svg generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix node-delta + improve svg generation" />
+    <MESSAGE value="Add delta results" />
+    <MESSAGE value="Add performance reports" />
+    <MESSAGE value="Added supplementary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added supplementary" />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="183" key="#Notifications" timestamp="1579176172589">
@@ -572,13 +438,21 @@
     <state x="648" y="263" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.989@0.23.1920.989" timestamp="1582283639731" />
     <state x="648" y="263" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.991@0.23.1920.991" timestamp="1579711228380" />
     <state x="648" y="264" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.994@0.23.1920.994" timestamp="1580829996033" />
-    <state x="454" y="119" key="CommitChangelistDialog2" timestamp="1583230687721">
-      <screen x="0" y="23" width="1920" height="994" />
+    <state x="0" y="57" key="CommitChangelistDialog2" timestamp="1585830845528">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
+    <state x="0" y="57" key="CommitChangelistDialog2/0.23.1440.829@0.23.1440.829" timestamp="1585830845528" />
+    <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.831@0.23.1440.831" timestamp="1585741129622" />
+    <state x="0" y="60" key="CommitChangelistDialog2/0.23.1440.832@0.23.1440.832" timestamp="1585741403687" />
+    <state x="0" y="61" key="CommitChangelistDialog2/0.23.1440.833@0.23.1440.833" timestamp="1585739419055" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.988@0.23.1920.988" timestamp="1578927313861" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.991@0.23.1920.991" timestamp="1580122090874" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.992@0.23.1920.992" timestamp="1582901450032" />
     <state x="454" y="119" key="CommitChangelistDialog2/0.23.1920.994@0.23.1920.994" timestamp="1583230687721" />
+    <state x="144" y="114" key="DiffContextDialog" timestamp="1585739412956">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="144" y="114" key="DiffContextDialog/0.23.1440.833@0.23.1440.833" timestamp="1585739412956" />
     <state x="747" y="278" key="FileChooserDialogImpl" timestamp="1579176037962">
       <screen x="0" y="23" width="1920" height="991" />
     </state>
@@ -695,15 +569,20 @@
     <state width="903" height="550" key="GridCell.Tab.0.right/0.23.1920.997@0.23.1920.997" timestamp="1581694928537" />
     <state width="1858" height="442" key="GridCell.Tab.0.right/1920.23.1680.1027/0.23.1920.991@0.23.1920.991" timestamp="1579640912999" />
     <state width="1858" height="328" key="GridCell.Tab.0.right/1920.23.1680.1027/0.23.1920.994@0.23.1920.994" timestamp="1578215148576" />
-    <state x="461" y="156" key="SettingsEditor" timestamp="1583399533347">
-      <screen x="0" y="23" width="1920" height="994" />
+    <state x="346" y="133" key="SettingsEditor" timestamp="1585740434143">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
+    <state x="346" y="133" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1585740434143" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.991@0.23.1920.991" timestamp="1579177614961" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.994/1920.23.1680.1027@0.23.1920.994" timestamp="1583141734467" />
     <state x="461" y="156" key="SettingsEditor/0.23.1920.994@0.23.1920.994" timestamp="1583399533347" />
-    <state x="568" y="259" key="Vcs.Push.Dialog.v2" timestamp="1583230691136">
-      <screen x="0" y="23" width="1920" height="994" />
+    <state x="426" y="220" key="Vcs.Push.Dialog.v2" timestamp="1585830848433">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
+    <state x="426" y="220" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1585830848433" />
+    <state x="426" y="221" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1585741139175" />
+    <state x="426" y="221" key="Vcs.Push.Dialog.v2/0.23.1440.832@0.23.1440.832" timestamp="1585741405892" />
+    <state x="426" y="221" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1585739422115" />
     <state x="568" y="257" key="Vcs.Push.Dialog.v2/0.23.1920.988@0.23.1920.988" timestamp="1578927318161" />
     <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.989@0.23.1920.989" timestamp="1580122099594" />
     <state x="568" y="258" key="Vcs.Push.Dialog.v2/0.23.1920.991@0.23.1920.991" timestamp="1579264717424" />
@@ -741,6 +620,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/XMLDiffAnalyzer$XMLDiffAnalyzer.coverage" NAME="XMLDiffAnalyzer Coverage Results" MODIFIED="1584101777827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/XMLDiffAnalyzer$XMLDiffAnalyzer.coverage" NAME="XMLDiffAnalyzer Coverage Results" MODIFIED="1587390910504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
