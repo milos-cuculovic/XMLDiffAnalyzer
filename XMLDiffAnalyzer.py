@@ -99,19 +99,26 @@ class XMLDiffAnalyzer:
             average_memories_list.append(average_memories)
             max_memories_list.append(max_memories)
 
+            xmlDiffAnalyzer.generateGraph("Execution Time", "simple", "Seconds", 5, algorithms,
+                                          {"Time": times})
+
+            xmlDiffAnalyzer.generateGraph("Memory Usage", "double", "MB", 250, algorithms,
+                                          {"MAX": max_memories,
+                                          "AVG": average_memories})
+
             xmlDiffAnalyzer.generateGraph("Delta File Size", "simple", "KB", 360,
                                           algorithms, {"delta size": delta_sizes})
 
 
-        xmlDiffAnalyzer.generateGraph("Memory Usage", "quadruple", "MB", 250, algorithms,
-                                          {"One text delete MAX": max_memories_list[0],
-                                           "One text delete AVG": average_memories_list[0],
-                                           "Real-life author changes MAX": max_memories_list[1],
-                                           "Real-life author changes AVG": average_memories_list[1]
-                                           })
+        #xmlDiffAnalyzer.generateGraph("Memory Usage", "quadruple", "MB", 250, algorithms,
+        #                                  {"One text delete MAX": max_memories_list[0],
+        #                                   "One text delete AVG": average_memories_list[0],
+        #                               "Real-life author changes MAX": max_memories_list[1],
+        #                               "Real-life author changes AVG": average_memories_list[1]
+        #                               })
 
-        xmlDiffAnalyzer.generateGraph("Execution Time", "double", "Seconds", 5, algorithms,
-                                      {"One text delete": times_list[0], "Real-life author changes": times_list[1]})
+        #xmlDiffAnalyzer.generateGraph("Execution Time", "double", "Seconds", 5, algorithms,
+        #                           {"One text delete": times_list[0], "Real-life author changes": times_list[1]})
 
 
     def generateGraph(self, name, type, units, xlim, algorithms, data):
