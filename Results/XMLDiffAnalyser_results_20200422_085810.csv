@@ -1,0 +1,13 @@
+Tool,Rounds,Average memory (MB),Max memory (MB),File orig size (KB),File modified size (KB),File delta size (KB),Time (sec),File orig,File modified,File delta
+xydiff,1,7.1,12.5,159.78,159.77,0.4,0.1,one_change_orig.xml,one_change_new.xml,xydiff_one_change_orig.xml_one_change_new.xml_delta.xml
+jndiff,1,66.8,151.7,159.78,159.77,0.2,1.1,one_change_orig.xml,one_change_new.xml,jndiff_one_change_orig.xml_one_change_new.xml_delta.xml
+jxydiff,1,54.8,97.2,159.78,159.77,0.4,0.8,one_change_orig.xml,one_change_new.xml,jxydiff_one_change_orig.xml_one_change_new.xml_delta.xml
+fc-xmldiff,1,66.8,139.0,159.78,159.77,0.7,1.7,one_change_orig.xml,one_change_new.xml,fc-xmldiff_one_change_orig.xml_one_change_new.xml_delta.xml
+xcc,1,36.1,56.6,159.78,159.77,0.5,0.5,one_change_orig.xml,one_change_new.xml,xcc_one_change_orig.xml_one_change_new.xml_delta.xml
+node-delta,1,52.8,104.4,159.78,159.77,0.4,1.1,one_change_orig.xml,one_change_new.xml,node-delta_one_change_orig.xml_one_change_new.xml_delta.xml
+deltaXML,1,78.1,117.9,159.78,159.77,0.0,2.1,one_change_orig.xml,one_change_new.xml,deltaXML_one_change_orig.xml_one_change_new.xml_delta.xml
+xmldiff,1,19.8,27.5,159.78,159.77,124.4,0.8,one_change_orig.xml,one_change_new.xml,xmldiff_one_change_orig.xml_one_change_new.xml_delta.xml
+xop,1,37.7,60.1,159.78,159.77,1.9,0.6,one_change_orig.xml,one_change_new.xml,xop_one_change_orig.xml_one_change_new.xml_delta.xml
+diffmk,1,89.5,208.3,159.78,159.77,158.6,1.2,one_change_orig.xml,one_change_new.xml,diffmk_one_change_orig.xml_one_change_new.xml_delta.xml
+xdiff,1,4.0,5.8,159.78,159.77,0,0.1,one_change_orig.xml,one_change_new.xml,xdiff_one_change_orig.xml_one_change_new.xml_delta.xml
+diffxml,1,49.2,62.7,159.78,159.77,0.4,4.8,one_change_orig.xml,one_change_new.xml,diffxml_one_change_orig.xml_one_change_new.xml_delta.xml

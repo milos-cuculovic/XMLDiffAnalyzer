@@ -41,15 +41,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Results" />
-      <recent name="$PROJECT_DIR$/TestingCorpus/deltas" />
-      <recent name="$PROJECT_DIR$/XMLDiffTools" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Results" />
       <recent name="$PROJECT_DIR$/XMLDiffTools/deltaXML" />
       <recent name="$PROJECT_DIR$/TestingCorpus" />
+      <recent name="$PROJECT_DIR$/XMLDiffTools" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Supplement" />
+      <recent name="$PROJECT_DIR$/Results" />
+      <recent name="$PROJECT_DIR$/TestingCorpus/deltas" />
       <recent name="$PROJECT_DIR$/XMLDiffTools" />
     </key>
   </component>
@@ -188,6 +189,7 @@
       <workItem from="1594818386984" duration="652000" />
       <workItem from="1594996410563" duration="37000" />
       <workItem from="1595240408056" duration="80000" />
+      <workItem from="1595421811038" duration="718000" />
     </task>
     <task id="LOCAL-00001" summary="Working example - initial time and memory monitor">
       <created>1575992472469</created>
@@ -371,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595240477666</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added complex vs plain XML corpus and moved supplementary files">
+      <created>1595422026732</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1595422026732</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +398,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Working example - initial time and memory monitor" />
     <MESSAGE value="Fixed psutil.AccessDenied, total_time and memory variable calc" />
     <MESSAGE value="Changed time.sleep value to 0.0001 in order to increase precision" />
     <MESSAGE value="Added average_memory result variable" />
@@ -414,16 +422,17 @@
     <MESSAGE value="Code cleanup" />
     <MESSAGE value="Adding of the XML diff algorithms weighting editor in Excel" />
     <MESSAGE value="Rename the weight editor file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename the weight editor file" />
+    <MESSAGE value="Added complex vs plain XML corpus and moved supplementary files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added complex vs plain XML corpus and moved supplementary files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="63" key="CommitChangelistDialog2" timestamp="1595240477411">
+    <state x="0" y="63" key="CommitChangelistDialog2" timestamp="1595422026341">
       <screen x="0" y="23" width="1920" height="1009" />
     </state>
     <state x="0" y="56" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1587538811657" />
     <state x="0" y="57" key="CommitChangelistDialog2/0.23.1440.830@0.23.1440.830" timestamp="1587397240160" />
     <state x="0" y="64" key="CommitChangelistDialog2/0.23.1920.1007/1920.23.1680.1027@0.23.1920.1007" timestamp="1587469085416" />
-    <state x="0" y="63" key="CommitChangelistDialog2/0.23.1920.1009/1920.23.1680.1027@0.23.1920.1009" timestamp="1594818464483" />
+    <state x="0" y="63" key="CommitChangelistDialog2/0.23.1920.1009/1920.23.1680.1027@0.23.1920.1009" timestamp="1595422026341" />
     <state x="0" y="63" key="CommitChangelistDialog2/0.23.1920.1009@0.23.1920.1009" timestamp="1595240477411" />
     <state width="1398" height="162" key="GridCell.Tab.0.bottom" timestamp="1587541926125">
       <screen x="0" y="23" width="1440" height="828" />
@@ -445,13 +454,13 @@
     </state>
     <state width="1398" height="162" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1587541926124" />
     <state width="1398" height="163" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1587397254216" />
-    <state x="568" y="263" key="Vcs.Push.Dialog.v2" timestamp="1595240479586">
+    <state x="568" y="263" key="Vcs.Push.Dialog.v2" timestamp="1595422028521">
       <screen x="0" y="23" width="1920" height="1009" />
     </state>
     <state x="426" y="220" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1587538814574" />
     <state x="426" y="220" key="Vcs.Push.Dialog.v2/0.23.1440.830@0.23.1440.830" timestamp="1587397242618" />
     <state x="568" y="262" key="Vcs.Push.Dialog.v2/0.23.1920.1007/1920.23.1680.1027@0.23.1920.1007" timestamp="1587469087768" />
-    <state x="568" y="263" key="Vcs.Push.Dialog.v2/0.23.1920.1009/1920.23.1680.1027@0.23.1920.1009" timestamp="1594818466433" />
+    <state x="568" y="263" key="Vcs.Push.Dialog.v2/0.23.1920.1009/1920.23.1680.1027@0.23.1920.1009" timestamp="1595422028521" />
     <state x="568" y="263" key="Vcs.Push.Dialog.v2/0.23.1920.1009@0.23.1920.1009" timestamp="1595240479586" />
   </component>
   <component name="XDebuggerManager">
