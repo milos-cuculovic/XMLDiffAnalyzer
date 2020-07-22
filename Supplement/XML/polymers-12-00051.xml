@@ -1,0 +1,1963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">polymers</journal-id>
+      <journal-title-group>
+        <journal-title>Polymers</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Polymers</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Polymers</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4360</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/polym12010051</article-id>
+      <article-id pub-id-type="publisher-id">polymers-12-00051</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Multicompartmental Mesoporous Silica/Polymer Nanostructured Hybrids: Design Capabilities by Integrating Linear and Star-Shaped Block Copolymers</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Iatridi</surname>
+            <given-names>Zacharoula</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00051" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Evangelatou</surname>
+            <given-names>Kyriaki</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00051" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Theodorakis</surname>
+            <given-names>Nikolaos</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00051" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Angelopoulou</surname>
+            <given-names>Athina</given-names>
+          </name>
+          <xref rid="af2-polymers-12-00051" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Avgoustakis</surname>
+            <given-names>Konstantinos</given-names>
+          </name>
+          <xref rid="af2-polymers-12-00051" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tsitsilianis</surname>
+            <given-names>Constantinos</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00051" ref-type="aff">1</xref>
+          <xref rid="c1-polymers-12-00051" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-polymers-12-00051"><label>1</label>Department of Chemical Engineering, University of Patras, 26504 Patras, Greece; <email>ziatridi@gmail.com</email> (Z.I.); <email>kiriaki.evang@gmail.com</email> (K.E.); <email>nikolastheo96@hotmail.com</email> (N.T.)</aff>
+      <aff id="af2-polymers-12-00051"><label>2</label>Department of Pharmacy, Medical School, University of Patras, 26504 Patras, Greece; <email>angelopoulouathina@gmail.com</email> (A.A.); <email>avgoust@bioacademy.gr</email> (K.A.)</aff>
+      <author-notes>
+        <corresp id="c1-polymers-12-00051"><label>*</label>Correspondence: <email>ct@chemeng.upatras.gr</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>51</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>06</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>22</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Poly(2-vinyl pyridine)-<italic>b</italic>-poly(ethylene oxide) (P2VP-<italic>b</italic>-PEO) linear diblock copolymer and polystyrene&#x2013;poly(ethylene oxide) (PS<sub>10</sub>PEO<sub>10</sub>) heteroarm star copolymer were used as building elements to prepare organic&#x2013;inorganic hybrids. By using the layer-by-layer (LbL) methodology, these elements were integrated on mesoporous silica through non-covalent interactions, namely, ionic and H-bonding. For the latter, tannic acid (TA) was used as an intermediate layer. The deposition of the various layers was monitored by thermogravimetric analysis (TGA), electrophoretic measurements, and confocal microscopy. The final silica hybrid, bearing alternating P2VP-<italic>b</italic>-PEO and PS<sub>10</sub>PEO<sub>10</sub> star layers was capable of carrying one hydrophilic and two hydrophobic chemical species in distinct compartments. These multicompartmental organic&#x2013;inorganic hybrids could be used as nanostructured carriers for pH-responsive multiple drug delivery and potential theranostic applications.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>organic/inorganic hybrid</kwd>
+        <kwd>mesoporous silica</kwd>
+        <kwd>block copolymer</kwd>
+        <kwd>star-shaped copolymer</kwd>
+        <kwd>monomolecular micelle</kwd>
+        <kwd>LbL technique</kwd>
+        <kwd>multicompartmental</kwd>
+        <kwd>nanostructured carrier</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-polymers-12-00051" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The use of mesoporous silica particles (MSPs) as nanocarriers and promising platforms for delivery, diagnostic, or prognostic biomedical applications received tremendous attention from the scientific community. Their remarkable potential application in nanomedicine is due to their unique properties such as well-defined pores with tunable pore size that can encapsulate therapeutic drugs, genes, proteins, and targeting or imaging agents [<xref ref-type="bibr" rid="B1-polymers-12-00051">1</xref>,<xref ref-type="bibr" rid="B2-polymers-12-00051">2</xref>], large specific surface area, a reactive surface which can be easily functionalized, and biocompatibility [<xref ref-type="bibr" rid="B3-polymers-12-00051">3</xref>,<xref ref-type="bibr" rid="B4-polymers-12-00051">4</xref>,<xref ref-type="bibr" rid="B5-polymers-12-00051">5</xref>,<xref ref-type="bibr" rid="B6-polymers-12-00051">6</xref>,<xref ref-type="bibr" rid="B7-polymers-12-00051">7</xref>,<xref ref-type="bibr" rid="B8-polymers-12-00051">8</xref>]. Nevertheless, MSPs usually suffer from premature release of the encapsulated payload and leakage before reaching the targeted site. To overcome such barriers and confer together other advantageous properties including improved surface functionalities, switchability, responsiveness, or better stability, mesoporous silica nanoparticles (MSNs) are modified by polymers [<xref ref-type="bibr" rid="B9-polymers-12-00051">9</xref>,<xref ref-type="bibr" rid="B10-polymers-12-00051">10</xref>]. These polymers, which act as gatekeepers to retain the guest molecules inside the silica particles pores, usually respond to external stimuli. The gates open when a stimulus such as pH, temperature, light, ionic strength, magnetic field, or enzyme is applied, allowing the programmable desired payload release. Several studies were devoted to organic/inorganic polymer/MSN-based stimuli-responsive drug delivery systems [<xref ref-type="bibr" rid="B11-polymers-12-00051">11</xref>,<xref ref-type="bibr" rid="B12-polymers-12-00051">12</xref>], mainly pH-responsive [<xref ref-type="bibr" rid="B13-polymers-12-00051">13</xref>,<xref ref-type="bibr" rid="B14-polymers-12-00051">14</xref>,<xref ref-type="bibr" rid="B15-polymers-12-00051">15</xref>,<xref ref-type="bibr" rid="B16-polymers-12-00051">16</xref>], thermo-responsive [<xref ref-type="bibr" rid="B17-polymers-12-00051">17</xref>], or responsive to more than one stimulus (e.g., pH- and thermo-responsive [<xref ref-type="bibr" rid="B18-polymers-12-00051">18</xref>,<xref ref-type="bibr" rid="B19-polymers-12-00051">19</xref>] or photo- and thermo-responsive [<xref ref-type="bibr" rid="B20-polymers-12-00051">20</xref>]). In these systems, the polymers are usually covalently bonded onto the MSN surface through grafting methods or polymerization procedures in the presence of silica particles.</p>
+      <p>The layer-by-layer (LbL) technique is an alternative route to functionalize MSPs with polymers through non-permanent, physical associations, using weak non-covalent bonds, e.g., ionic, hydrogen, and hydrophobic bonds. LbL was proven to be a very promising method for endowing the MSNPs with the desired stimuli-responsive capabilities for controlled release applications. Polyelectrolyte multilayers (PEMs), formed by the ionic interactions of oppositely charged polyelectrolytes, can be adsorbed onto the MSN surface through the LbL technique, turning them into stimulus-responsive systems (pH-responsive), due to their change in structure under different pH conditions. Several studies focused on the assembly of PEM multilayers onto the surface of MNPs for the design of pH-sensitive drug release applications. Some examples of polyelectrolyte pairs used include poly (allylamine hydrochloride) (PAH)/sodium poly(styrene sulfonate) (PSS) [<xref ref-type="bibr" rid="B21-polymers-12-00051">21</xref>,<xref ref-type="bibr" rid="B22-polymers-12-00051">22</xref>,<xref ref-type="bibr" rid="B23-polymers-12-00051">23</xref>] and PAH/poly(acrylic acid) (PAA) [<xref ref-type="bibr" rid="B24-polymers-12-00051">24</xref>], or polyelectrolyte pairs based on natural polysaccharides such as chitosan (CHI)/alginate (ALG) [<xref ref-type="bibr" rid="B25-polymers-12-00051">25</xref>,<xref ref-type="bibr" rid="B26-polymers-12-00051">26</xref>], CHI/dialdehyde starch (DAS) [<xref ref-type="bibr" rid="B27-polymers-12-00051">27</xref>], CHI/acacia (ACA) [<xref ref-type="bibr" rid="B28-polymers-12-00051">28</xref>], and CHI/hyaluronic acid (HA) [<xref ref-type="bibr" rid="B29-polymers-12-00051">29</xref>,<xref ref-type="bibr" rid="B30-polymers-12-00051">30</xref>]. All these PEM-MSN systems exhibit controlled storage and release of therapeutic cargo (e.g., drugs, model drugs, imaging agents, biomolecules). The encapsulated cargo release is restrained in neutral or basic condition as the polyelectrolytes cover the MSN surface, while, in acidic conditions, the cargo is released quite easily due to the swelling or coiling of the polyelectrolytes, thus uncovering the MSN pores.</p>
+      <p>In this communication, we present a paradigm showing the various capabilities of designing MSPs, functionalized by block copolymers, using various interactions through the LbL technique. Two copolymers with different components and architecture were chosen for the coating of mesoporous silica particles. These polymers are a poly(2-vinyl pyridine)-<italic>b</italic>-poly(ethylene oxide) (P2VP-<italic>b</italic>-PEO) linear diblock copolymer and a polystyrene&#x2013;poly(ethylene oxide) (PS<sub>10</sub>PEO<sub>10</sub>) heteroarm star copolymer [<xref ref-type="bibr" rid="B31-polymers-12-00051">31</xref>]. Both bear biocompatible PEO blocks in order to endow the nanocarrier with non-toxicity and biocompatibility. The P2VP-<italic>b</italic>-PEO copolymer was selected to serve as a pore keeper, due to the pH-responsive P2VP block, attributed to the protonation/deprotonation of the pyridine groups (weak cationic polyelectrolyte behavior) [<xref ref-type="bibr" rid="B32-polymers-12-00051">32</xref>]. The second polymeric component, the PS<sub>10</sub>PEO<sub>10</sub> copolymer, bears 10 PS and 10 PEO arms. Thanks to the star-shaped architecture and the asymmetric length of the arms (PS short, PEO long), it tends to form monomolecular spherical micelles in water with a hydrophobic PS core and a hydrophilic PEO corona that preserves the polymer solubility in the aqueous solution [<xref ref-type="bibr" rid="B33-polymers-12-00051">33</xref>]. Hence, the hydrophobic PS pockets can be used for the encapsulation of hydrophobic molecules such as drugs and targeting or imaging agents [<xref ref-type="bibr" rid="B34-polymers-12-00051">34</xref>].</p>
+      <p>The LbL technique is an excellent process to integrate both types of the selected polymers onto the MSPs. In the present case, it was based on two different mechanisms. The first layer of P2VP-<italic>b</italic>-PEO, coating the surface of the SiO<sub>2</sub> particles, interacts with the silica surface through ionic interactions between the negatively charged silica and the positively charged P2VP block. The next layers are deposited through the formation of hydrogen bonds between the PEO blocks of the P2VP-<italic>b</italic>-PEO and PS<sub>10</sub>PEO<sub>10</sub> copolymers using intermediate tannic acid (TA) layers. TA is a polyphenol with characteristic antioxidant, anticarcinogenic, antimicrobial, and antibacterial properties that can interact with various molecules through several mechanisms (electrostatic interactions, hydrophobic interactions, hydrogen bonding, etc.) [<xref ref-type="bibr" rid="B35-polymers-12-00051">35</xref>,<xref ref-type="bibr" rid="B36-polymers-12-00051">36</xref>,<xref ref-type="bibr" rid="B37-polymers-12-00051">37</xref>,<xref ref-type="bibr" rid="B38-polymers-12-00051">38</xref>,<xref ref-type="bibr" rid="B39-polymers-12-00051">39</xref>]. It was used with the LbL technique forming multilayer assemblies via hydrogen bonding with pH-responsive, thermo-responsive, or neutral polymers including TA/poly(allylamine) (PAH) [<xref ref-type="bibr" rid="B36-polymers-12-00051">36</xref>], TA/poly(<italic>N</italic>-vinylpyrrolidone) (PVPON) [<xref ref-type="bibr" rid="B40-polymers-12-00051">40</xref>,<xref ref-type="bibr" rid="B41-polymers-12-00051">41</xref>,<xref ref-type="bibr" rid="B42-polymers-12-00051">42</xref>,<xref ref-type="bibr" rid="B43-polymers-12-00051">43</xref>], TA/poly(ethylene oxide) (PEO), TA/poly(ethylene glycol) (PEG) [<xref ref-type="bibr" rid="B44-polymers-12-00051">44</xref>,<xref ref-type="bibr" rid="B45-polymers-12-00051">45</xref>,<xref ref-type="bibr" rid="B46-polymers-12-00051">46</xref>], TA/poly(<italic>N</italic>-vinylcaprolactam) (PVCL) [<xref ref-type="bibr" rid="B37-polymers-12-00051">37</xref>], and TA/poly(<italic>N</italic>-isopropylacrylamide) (PNIPAM) [<xref ref-type="bibr" rid="B37-polymers-12-00051">37</xref>].</p>
+      <p>Therefore, by integrating pH-responsive block copolymers and monomolecular star-based micelles into the MSP, novel functional materials can emerge as multicompartmental carriers for multiple drug delivery and theranostic potential applications.</p>
+    </sec>
+    <sec id="sec2-polymers-12-00051">
+      <title>2. Experimental Section</title>
+      <sec id="sec2dot1-polymers-12-00051">
+        <title>2.1. Materials</title>
+        <p>The linear diblock P2VP-<italic>b</italic>-PEO and the heteroarm star PS<sub>10</sub>-PEO<sub>10</sub> copolymers were synthesized in the lab (see <xref ref-type="app" rid="app1-polymers-12-00051">Supplementary Materials</xref>). The detailed molecular characteristics of the copolymers are summarized in <xref ref-type="app" rid="app1-polymers-12-00051">Table S1 (Supplementary Materials)</xref>. Mesoporous silica particles with a diameter of 3.0 &#xB5;m were obtained from Sigma-Aldrich (Athens, Greece). The characteristics of the particles, as given from the provider, are presented in <xref ref-type="app" rid="app1-polymers-12-00051">Table S2 (Supplementary Materials)</xref>. Tannic acid (TA, molecular weight (Mw) = 1700 Da), calcein, Nile Red, and pyrene were products of Sigma-Aldrich (Athens, Greece). Standard solutions of hydrochloric acid (HCl) and sodium hydroxide (NaOH) were used as purchased from Panreac (Athens, Greece) without further purification. The organic solvent tetrahydrofuran (THF) was obtained from Sigma-Aldrich (Athens, Greece). Ultrapure water was obtained by means of an ELGA Medica-R7/15 device (ELGA Labwater, Athens, Greece).</p>
+      </sec>
+      <sec id="sec2dot2-polymers-12-00051">
+        <title>2.2. Preparation of SiO<sub>2</sub>@P2VP-b-PEO Particles</title>
+        <p>Three sets of SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles were fabricated following a simple method. Briefly, P2VP-<italic>b</italic>-PEO was dissolved in HCl 0.001 M (pH 3.0) at a concentration of 8 mg/mL. Then, a powder of bare SiO<sub>2</sub> (30 mg) was added in an adequate volume (from ~3 to 5 mL) of the P2VP-<italic>b</italic>-PEO solution, and the dispersion was stirred vigorously at room temperature for 15 min, followed by two centrifugation (3000 rpm for 2 min)/wash (with HCl 0.001 M) cycles. The theoretical m<sub>polymer</sub>/m<sub>SiO2</sub> ratios that were used for the preparation of the three SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles are presented in <xref ref-type="table" rid="polymers-12-00051-t001">Table 1</xref>. The SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles were separated as a precipitate and dried in the oven. The absorption percentage of the P2VP-<italic>b</italic>-PEO onto the SiO<sub>2</sub> particles was analyzed by thermogravimetric analysis (TGA) and ultraviolet&#x2013;visible light (UV&#x2013;Vis) spectroscopy.</p>
+      </sec>
+      <sec id="sec2dot3-polymers-12-00051">
+        <title>2.3. Encapsulation of Nile Red or Pyrene in PS<sub>10</sub>-PEO<sub>10</sub> Micelles</title>
+        <p>PS<sub>10</sub>-PEO<sub>10</sub> was firstly dissolved in a small amount of THF, followed by the addition of ultrapure water under stirring. THF was further removed from the polymer solution by heating in the oven. The polymer concentration was fixed at 0.2 mg/mL. At a next step, Nile Red was dissolved in THF with a concentration of 0.5 mg/mL. Then, 60 &#xB5;L of Nile Red solution was added to 10 mL of PS<sub>10</sub>-PEO<sub>10</sub> solution dropwise with constant stirring for 1 h. Afterward, the PS<sub>10</sub>-PEO<sub>10</sub>/Nile Red solution was dialyzed against ultrapure water for two days with repeated changes of water in order to remove excess Nile Red molecules in the solution. The final PS<sub>10</sub>-PEO<sub>10</sub>/Nile Red solution was kept in the dark. The same procedure was followed for the preparation of pyrene-encapsulated PS<sub>10</sub>-PEO<sub>10</sub> micelles.</p>
+      </sec>
+      <sec id="sec2dot4-polymers-12-00051">
+        <title>2.4. Preparation of SiO<sub>2</sub>@P2VP-b-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> Particles</title>
+        <p>Aqueous solution of PS<sub>10</sub>-PEO<sub>10</sub> with or without encapsulated Nile Red or pyrene had a concentration of 0.2 mg/mL. TA was dissolved in 0.1 M NaCl solution at the concentration of 0.2 mg/mL. The pH of the TA solution was adjusted to pH 5.0 with NaOH. SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles, prepared as described above, were incubated in 1.5 mL of TA solution for 15 min, followed by two centrifugation (3000 rpm for 2 min)/wash (aqueous solution with fixed pH 5.0) cycles. Afterward, 1.5 mL of PS<sub>10</sub>-PEO<sub>10</sub> aqueous solution was added, and 15 min was allowed for adsorption, followed by two centrifugation/wash cycles with water. The adsorption steps were repeated until the desired number of layers was built on silica particles.</p>
+      </sec>
+      <sec id="sec2dot5-polymers-12-00051">
+        <title>2.5. Loading and Release of Calcein in SiO<sub>2</sub>@P2VP-b-PEO Particles</title>
+        <p>Firstly, calcein was dispersed in ultrapure water (3 mg/mL) with a fixed pH 3.0 using HCl standard solution. The solution was magnetically stirred in the dark and at room temperature for 24 h. Afterward, 50 mg of SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO powder was dispersed in 11 mL of the calcein solution and stirred overnight in the dark. At a next step, three centrifugation (3000 rpm for 2 min)/wash (with HCl 0.001 M) cycles were performed, and the final SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@calcein particles were separated as a precipitate and dried.</p>
+        <p>For the determination of the encapsulated amount of calcein in SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles, a calibration curve of aqueous calcein solutions (various concentrations) was prepared through UV&#x2013;Vis absorbance measurements of standard calcein solutions (<xref ref-type="app" rid="app1-polymers-12-00051">Figure S3, Supplementary Materials</xref>). The encapsulation was calculated by measuring the absorbance of the supernatant solutions obtained from the centrifugation/wash cycles at 485 nm. The theoretical loading, loading capacity, or loading content and the entrapment efficiency of calcein in the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles were calculated using the following equations:<disp-formula id="FD1-polymers-12-00051"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mi>L</mml:mi><mml:mi>t</mml:mi><mml:mi>h</mml:mi><mml:mo>%</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mo>=</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi mathvariant="normal">W</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi mathvariant="normal">W</mml:mi><mml:mi mathvariant="normal">C</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="normal">W</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#xA0;</mml:mo><mml:mo>&#xD7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>100</mml:mn><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD2-polymers-12-00051"><label>(2)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>L</mml:mi><mml:mi>C</mml:mi><mml:mo>%</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mo>=</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mfrac><mml:mi mathvariant="normal">W</mml:mi><mml:mrow><mml:msub><mml:mi mathvariant="normal">W</mml:mi><mml:mi mathvariant="normal">C</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi mathvariant="normal">W</mml:mi></mml:mrow></mml:mfrac><mml:mo>&#xA0;</mml:mo><mml:mo>&#xD7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>100</mml:mn><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD3-polymers-12-00051"><label>(3)</label><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:mi>&#x395;</mml:mi><mml:mi>&#x395;</mml:mi><mml:mo>%</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mo>=</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mfrac><mml:mi mathvariant="normal">W</mml:mi><mml:mrow><mml:msub><mml:mi mathvariant="normal">W</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#xA0;</mml:mo><mml:mo>&#xD7;</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mn>100</mml:mn><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where W, W<sub>C</sub>, and W<sub>0</sub> are the amount of entrapped calcein according to UV&#x2013;Vis spectroscopy, the amount of SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@calcein particles, and the amount of initially added calcein, respectively. The theoretical loading was 39.8%, and it was found that the loading capacity of the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@calcein particles was 16.7%, while the entrapment efficiency was 30.3%.</p>
+        <p>For the pH-responsive calcein release test, phosphate buffer (PB) solutions (10 mM) with pH 5.0, 6.0, and 7.4 were firstly prepared. Then, ~2 mg of SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@calcein was dispersed in 1 mL of deionized water, and the dispersion was transferred into a dialysis bag (molecular weight cutoff 14 kDa). Subsequently, the dialysis bag was placed in 13 mL of buffer solution with pH 5.0, 6.0, or 7.4 at 37 &#xB0;C and shaken in the dark at 100 rpm. At timed intervals, the entire volume of the outer buffer solution was removed and renewed with 13 mL of fresh medium. The released calcein was calculated by UV&#x2013;Vis spectroscopy using the absorbance intensity at 485 nm and a calibration curve of calcein at PB buffers of pH 5.0, 6.0, and 7.4 (<xref ref-type="app" rid="app1-polymers-12-00051">Figures S4&#x2013;S6, Supplementary Materials</xref>).</p>
+      </sec>
+      <sec id="sec2dot6-polymers-12-00051">
+        <title>2.6. Techniques</title>
+        <p>Quantitative analysis in order to confirm the exact mass of each layer was done via thermogravimetric analysis (TGA) using a Discovery TGA&#x2122; equipment (TA Instruments, New Castle, DE, USA) under nitrogen atmosphere with a flow rate of 40 mL/min. Firstly, 5&#x2013;7 mg of each sample was deposited in an alumina ceramic crucible. Then, an isothermal process was carried out at 40 &#xB0;C. Temperature varied from 40 to 800 &#xB0;C, and the heating rate used was 20 &#xB0;C/min. UV&#x2013;Vis spectra were recorded using a double beam HITACHI U-2001 UV&#x2013;Vis spectrophotometer (HITACHI, Athens, Greece). Aqueous solutions of the samples were put into quartz cuvettes with a 1-cm optical path. The surface potentials of bare and coated silica particles were measured at 25 &#xB0;C on a zeta potential analyzer (Malvern Nano Zetasizer, Malvern, Athens, Greece) equipped with an He&#x2013;Ne laser at 633 nm. For these measurements, approximately 1-mL aqueous dispersions were used, and the zeta potential was calculated by the Smoluchowski relation. Each zeta potential value was obtained by averaging three independent measurements of 40 sub-runs each. The morphology of the bare and the LbL-coated SiO<sub>2</sub> particles was observed by TEM using a JEM-2100 microscope (JEOL, Haarlemmermeer, The Netherlands) operating at 200 kV. The specimens were prepared by dispersing the powdered samples in ultrapure water (0.1 mg/mL) and depositing some drops of the dispersion on a carbon grid. The grids were left to stand at room temperature until full evaporation of the diluent. The confocal images of the LbL-coated silica particles were obtained with a Leica SP5 Confocal Laser Scanning Microscope (CLSM) (Leica Microsystems, Athens, Greece) equipped with an argon laser source and a CApochromat 63&#xD7; oil immersion objective. A drop of the polymer-coated SiO<sub>2</sub> particle suspension was deposited on a microscope slide and left to dry. Then, the slide was mounted with Mowiol 4-88 (Sigma Aldrich, Athens, Greece).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-polymers-12-00051" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <p>The mesoporous silica microparticles were covered by successive polymeric layers using the LbL method in order to prepare potential pH-responsive nanostructured drug carriers. For this reason, two different copolymers were used, a linear pH-responsive diblock copolymer and a star-shaped amphiphilic copolymer. The molecular characteristics of the copolymers are presented in <xref ref-type="app" rid="app1-polymers-12-00051">Table S1 (Supplementary Materials)</xref>.</p>
+      <sec id="sec3dot1-polymers-12-00051">
+        <title>3.1. SiO<sub>2</sub>@P2VP-b-PEO Hybrids</title>
+        <p>Initially, SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO hybrids were designed using a P2VP-<italic>b</italic>-PEO diblock copolymer as the gatekeeper of the mesoporous silica. The hybrid was prepared by physisorption of the P2VP-<italic>b</italic>-PEO copolymer at the SiO<sub>2</sub> particle surface. From electrophoresis measurements of dispersions of the SiO<sub>2</sub> particles in aqueous solutions with fixed pH values varying from 2.0 to 7.5 (using HCl 1 M or NaOH 1 M) (<xref ref-type="app" rid="app1-polymers-12-00051">Figure S1, Supplementary Materials</xref>), it was found that the mesoporous silica particles were negatively charged above pH 2.0 with decreasing zeta potential, in accordance with the literature [<xref ref-type="bibr" rid="B47-polymers-12-00051">47</xref>]. On the other hand, the pH-responsive diblock copolymer P2VP-<italic>b</italic>-PEO bears positive charges in an acidic environment due to the protonation of the pyridine group of P2VP which exhibits a pKa at pH 5 (50% degree of ionization). Thus, the first layer coating of the SiO<sub>2</sub> particles with P2VP-<italic>b</italic>-PEO was attempted in an aqueous solution with pH 3.0 where both constituents bore charged moieties (<xref ref-type="app" rid="app1-polymers-12-00051">Figure S1, Supplementary Materials</xref>). Thus, the adsorption of the copolymer onto the silica surface was due to the ionic interactions between the negatively charged particle surface and the positively charged moieties of the copolymer P2VP block. Three samples of SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO were prepared, differing in the theoretical m<sub>polymer</sub>/m<sub>SiO2</sub> ratio (<xref ref-type="table" rid="polymers-12-00051-t001">Table 1</xref>).</p>
+        <p>The TGA curves of the bare SiO<sub>2</sub> particles, samples of silica particles coated with P2VP-<italic>b</italic>-PEO, and the polymer P2VP-<italic>b</italic>-PEO are presented in <xref ref-type="fig" rid="polymers-12-00051-f001">Figure 1</xref>. For the bare silica particles (<xref ref-type="fig" rid="polymers-12-00051-f001">Figure 1</xref>a), it can be observed that the TGA curve was almost horizontal, suggesting the lack of organic residues in the SiO<sub>2</sub> particles. On the contrary, the pure polymer P2VP-<italic>b</italic>-PEO sample (<xref ref-type="fig" rid="polymers-12-00051-f001">Figure 1</xref>e) exhibited a remarkably high mass loss (&#x2265;90%) for temperatures higher than 400 &#xB0;C, representative of the behavior of polymers and other organic substances. All three SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO samples showed an intermediate behavior (<xref ref-type="fig" rid="polymers-12-00051-f001">Figure 1</xref>b&#x2013;d). Their TGA curves declined upon increasing temperature, owing to the mass loss of the organic layer, proving that the surface of the silica particles was indeed successfully coated with polymer. In fact, the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO samples had a mass loss of ~15%. From this technique, the quantitative analysis of the adsorbed P2VP-<italic>b</italic>-PEO copolymer onto the silica surface was performed. At the same time, the amount of copolymer adsorbed onto the silica was determined with UV&#x2013;Vis spectroscopy through a calibration curve of the P2VP-<italic>b</italic>-PEO copolymer at aqueous solutions of pH 3.0 (<xref ref-type="app" rid="app1-polymers-12-00051">Figure S2, Supplementary Materials</xref>). More specifically, the concentration of the non-adsorbed copolymer in the supernatant solutions after the centrifugation/wash cycles was calculated through the calibration curve. Finally, the adsorbed copolymer was found, knowing the initial amount of copolymer added and the non-adsorbed amount. The results of the quantitative analysis from both TGA and UV&#x2013;Vis spectroscopy are tabulated in <xref ref-type="table" rid="polymers-12-00051-t001">Table 1</xref>. As can be seen, these two different techniques had a low deviation (~5%), implying the good agreement between them.</p>
+        <p>The morphology of the P2VP-<italic>b</italic>-PEO-coated silica particles was investigated by TEM (<xref ref-type="fig" rid="polymers-12-00051-f002">Figure 2</xref>). As can be seen in <xref ref-type="fig" rid="polymers-12-00051-f002">Figure 2</xref>a, the bare SiO<sub>2</sub> particles were spherical particles with a very smooth edge. In <xref ref-type="fig" rid="polymers-12-00051-f002">Figure 2</xref>b, a TEM image of the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particle hybrid is presented. As can be more clearly seen in the magnified area of <xref ref-type="fig" rid="polymers-12-00051-f002">Figure 2</xref>b,c, the surface of these particles clearly differs from that of the smooth SiO<sub>2</sub> particles. An increased roughness of the surface appeared, verifying the successful deposition of the P2VP-<italic>b</italic>-PEO polymer coating onto the SiO<sub>2</sub>. Due to the diblock architecture and the involved interactions between the SiO<sub>2</sub> and the P2VP blocks, the PEO block chains covered the outer layer of the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO hybrids. Yet, the adsorbed polymeric layer appeared uniform without defects. Due to the diblock architecture, the incompatibility of the blocks, and the involved interactions between the SiO<sub>2</sub> and the P2VP blocks, the PEO chains covered the outer layer of the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO hybrids. The stability of the adsorbed layer was checked by redispersing the particles in aqueous media of different pH. After rigorous stirring and centrifugation, possible delamination effects were evaluated by determining the amount of the polymer left in the supernatant. The polymer loss was lower than 3.6 wt.% for all pH values investigated (<xref ref-type="app" rid="app1-polymers-12-00051">Figure S7, Supplementary Materials</xref>).</p>
+        <p>In order to evaluate the function of the P2VP blocks as a pH-responsive gatekeeper, calcein (fluorescent molecule) was encapsulated within the pores of the SiO<sub>2</sub> particles followed by controlled release experiments at various pH values. The calcein encapsulation was qualitatively confirmed by means of confocal microscopy. In <xref ref-type="fig" rid="polymers-12-00051-f003">Figure 3</xref>a, the confocal image of calcein-loaded SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles is presented. As it can be seen, the calcein was successfully encapsulated (green color) in the silica particles.</p>
+        <p>Calcein release from the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@calcein particles was investigated in three different buffers with pH 5.0, 6.0, and 7.4 (corresponding roughly to the pH of lysosomes, the pH of cancer cells, and physiological pH, respectively). The samples were shaken in a shaker at a constant temperature of 37 &#xB0;C. The results of calcein release at pH 5.0, 6.0, and 7.4 are presented in <xref ref-type="fig" rid="polymers-12-00051-f003">Figure 3</xref>b. From the diagram, it can be clearly seen that the system exhibited pH sensitivity with pH-controlled release properties. At physiological pH (pH 7.4), the release rate was relatively low, and the released amount reached 36% in the first 5 h, while no further release observed for more than 40 h. The released amount might have arisen from a portion of calcein adsorbed on the SiO<sub>2</sub>/P2VP surface layer. This finding indicates a satisfactory storage ability and the gatekeeper effect of the P2VP-<italic>b</italic>-PEO layer. At this pH value, the 2VP groups of the P2VP-<italic>b</italic>-PEO diblock copolymer are completely deprotonated (zero zeta potential) and hydrophobic, thus adopting a globule chain conformation (<xref ref-type="fig" rid="polymers-12-00051-f003">Figure 3</xref>c right), sealing to a large extent the pores of the SiO<sub>2</sub> particles and keeping a high amount of calcein retained within the particles. When the pH value was lowered to 6.0, the release rate increased and 75% of calcein was released in 48 h. At this pH, the P2VP-<italic>b</italic>-PEO chains adopt a less compact conformation due to the partial (low) ionization of P2VP, thus blocking silica particle pores to a lesser extent and allowing leakage of higher amounts of calcein from the particles. At an even lower pH value of 5.0, the amount of released calcein was 96% in 48 h. This high release rate is attributed to further protonation of the 2VP groups (50% ionization) in the P2VP-<italic>b</italic>-PEO copolymer. As the ionization of the P2VP blocks increases, repulsive interactions along the chains impose expanded conformations (<xref ref-type="fig" rid="polymers-12-00051-f003">Figure 3</xref>c left). Hence, the pores of the silica particles become uncapped and the encapsulated model drug can easily diffuse into the release medium from the mesoporous canals.</p>
+      </sec>
+      <sec id="sec3dot2-polymers-12-00051">
+        <title>3.2. SiO<sub>2</sub>@P2VP-b-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> Nanostructured Hybrids</title>
+        <p>As a next step, the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles were enriched with another outer layer, constituting a PS<sub>10</sub>-PEO<sub>10</sub> heteroarm star copolymer. PS<sub>10</sub>-PEO<sub>10</sub> was chosen as the second copolymer because of its star-shaped architecture and its amphiphilic character. It mainly forms monomolecular micelles (<xref ref-type="fig" rid="polymers-12-00051-f004">Figure 4</xref>d) in water with a hydrophilic PEO corona and a hydrophobic PS core, which can be used as a hydrophobic pocket for encapsulating small hydrophobic molecules (e.g., drugs). The LbL technique was used to fabricate silica particles coated with alternating layers of the diblock P2VP-<italic>b</italic>-PEO copolymer and the PS<sub>10</sub>-PEO<sub>10</sub> star copolymer. The P2VP-<italic>b</italic>-PEO layer was adsorbed firstly onto the silica surface through ionic interactions as described previously. Tannic acid, the chemical structure of which is presented in <xref ref-type="fig" rid="polymers-12-00051-f004">Figure 4</xref>c, was used as an intermediate layer connecting the two polymeric layers P2VP-<italic>b</italic>-PEO and PS<sub>10</sub>-PEO<sub>10</sub> through hydrogen bonding between the PEO blocks and arms. <xref ref-type="scheme" rid="polymers-12-00051-sch001">Scheme 1</xref> represents the LbL procedure used for the fabrication of the SiO<sub>2</sub>/copolymer hybrids.</p>
+        <p>In <xref ref-type="fig" rid="polymers-12-00051-f004">Figure 4</xref>, the TGA curves of the bare SiO<sub>2</sub> particles and the LbL-coated silica particles SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO and SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> are presented. In the same figure, the TGA curves of the polymers (P2VP-<italic>b</italic>-PEO and PS<sub>10</sub>-PEO<sub>10</sub>) that were used for the LbL coating of the silica particles are shown (<xref ref-type="fig" rid="polymers-12-00051-f004">Figure 4</xref>a(d,e)). As already seen in <xref ref-type="fig" rid="polymers-12-00051-f001">Figure 1</xref>, the bare silica particles (<xref ref-type="fig" rid="polymers-12-00051-f004">Figure 4</xref>a) had an almost horizontal TGA curve, which implies the lack of organic residues in the SiO<sub>2</sub> particles. The pure polymers displayed high mass loss (&#x2265;90%) at T &gt; 400 &#xB0;C, representative of the behavior of polymers and other organic substances. The SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO and SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> samples showed an intermediate behavior. Their TGA curves declined upon increasing temperature, owing to the mass loss of the organic layers, indicating that the surface of the silica particles was indeed successfully coated with polymers. The SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles (<xref ref-type="fig" rid="polymers-12-00051-f004">Figure 4</xref>b) had a mass loss of ~15%, while the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> particles (<xref ref-type="fig" rid="polymers-12-00051-f004">Figure 4</xref>b) exhibited a higher mass loss of ~35%. Hence, the 20% higher mass loss was attributed to the TA/PS<sub>10</sub>-PEO<sub>10</sub> layers.</p>
+        <p>From the TEM image of an SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> particle in <xref ref-type="fig" rid="polymers-12-00051-f004">Figure 4</xref>b, it can be clearly seen that spherical monomolecular micelles of the PS<sub>10</sub>-PEO<sub>10</sub> copolymer, of about 116 nm in diameter, were adsorbed onto the surface of the silica particles. Several non-adsorbed micelles are also visible, in the vicinity of the particle. This image verifies the successful fabrication of the SiO<sub>2</sub>/copolymer hybrids.</p>
+        <p>In an attempt to develop a nanocarrier with the encapsulation of multiple therapeutic agents and delivery capabilities by integrating a pH-responsive block copolymer and monomolecular star-based micelles to the mesoporous SiO<sub>2</sub> particles, we proceeded in the fabrication of SiO<sub>2</sub>@calcein@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>/Nile Red, where the hydrophilic model drug calcein was encapsulated in the interior of the silica particles, followed by the coating of the silica surface through the LbL method. The first polymeric layer was by the diblock copolymer P2VP-<italic>b</italic>-PEO, an intermediate TA layer was added through hydrogen bonding, and a second polymeric layer of star-shaped monomolecular micelles formed by the PS<sub>10</sub>-PEO<sub>10</sub> in aqueous media was adsorbed. The hydrophobic associations formed by the hydrophobic PS arms of the amphiphilic star copolymer served as hydrophobic pockets that could encapsulate the hydrophobic dye Nile Red.</p>
+        <p>Indeed, calcein and Nile Red encapsulation in the interior of the particles and the PS<sub>10</sub>-PEO<sub>10</sub> polymer coating of the mesoporous silica particles, respectively, was confirmed by optical observation by means of confocal microscopy. In <xref ref-type="fig" rid="polymers-12-00051-f005">Figure 5</xref>, the images of SiO<sub>2</sub>@calcein@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>/Nile Red particles are shown. The green color in <xref ref-type="fig" rid="polymers-12-00051-f005">Figure 5</xref>a and the red color in <xref ref-type="fig" rid="polymers-12-00051-f005">Figure 5</xref>b are attributed to calcein and Nile Red fluorescence, respectively, and these colors are indicative of the fact that the SiO<sub>2</sub> particles encapsulated calcein, and that they were effectively coated with the PS<sub>10</sub>-PEO<sub>10</sub>/Nile Red polymer layer. After merging the images of <xref ref-type="fig" rid="polymers-12-00051-f005">Figure 5</xref>a,b, the green and red fluorescences completely overlapped (<xref ref-type="fig" rid="polymers-12-00051-f005">Figure 5</xref>c), which further confirmed the PS<sub>10</sub>-PEO<sub>10</sub>/Nile Red layer on the silica particles.</p>
+      </sec>
+      <sec id="sec3dot3-polymers-12-00051">
+        <title>3.3. SiO<sub>2</sub> Hybrids with Alternating P2VP-b-PEO and PS<sub>10</sub>-PEO<sub>10</sub> Layers</title>
+        <p>In an attempt to demonstrate the design capabilities toward multilayered multicompartmental mesoporous SiO<sub>2</sub> hybrids, capable of carrying multiple chemical species in different nanostructured compartments, we proceeded to fabricate SiO<sub>2</sub> particles with alternating P2VP-<italic>b</italic>-PEO and PS<sub>10</sub>-PEO<sub>10</sub> layers. As an example, SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>@TA@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> (see schematic structure in <xref ref-type="fig" rid="polymers-12-00051-f006">Figure 6</xref>a) nanostructured microparticles were prepared following the LbL procedure described in <xref ref-type="scheme" rid="polymers-12-00051-sch001">Scheme 1</xref>. The successive deposition of the various layers onto SiO<sub>2</sub> was monitored by electrophoretic measurements. The zeta potential evolution of the silica particles after the adsorption of each layer is presented in <xref ref-type="fig" rid="polymers-12-00051-f006">Figure 6</xref>b. Initially, when dispersed in an aqueous solution with a fixed pH value of pH 3.0, the bare SiO<sub>2</sub> particles had a negative zeta potential of &#x2212;10 mV. The zeta potential of the silica particles after the interaction with the P2VP-<italic>b</italic>-PEO polymer was changed from negative to positive, obtaining a value of +28 mV. This is due to the positive charges of the P2VP blocks that overcompensate for the negative charges of the silica particles, which suggests the effective adsorption of a polyelectrolyte layer. Such surface charge reversal is typical in electrostatic LbL assemblies. Next, an aqueous solution of TA was added, resulting in a hybrid system with a negative zeta potential of &#x2212;31 mV, indicative of the successful deposition of a TA layer. TA interacted with the PEO blocks of the P2VP-<italic>b</italic>-PEO adsorbed copolymer, which should be located in the outer layer of the SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particles, through hydrogen bonding. The zeta potential was measured after redispersion of the hybrid at pH 6.5. The relatively high negative value of the TA outer layer could be attributed to the ionized phenolic groups of TA molecules. Similar values were reported in hydrogen-bonded tannic acid LbL assemblies [<xref ref-type="bibr" rid="B40-polymers-12-00051">40</xref>].</p>
+        <p>Afterward, the PS<sub>10</sub>-PEO<sub>10</sub> solution was added, and the adsorption of the new layer onto the hybrid particle surface was proven as the zeta potential changed from &#x2212;31 mV to &#x2212;12 mV. In this case, the PEO arms of PS<sub>10</sub>-PEO<sub>10</sub> formed hydrogen bonds with TA. Again, after addition of TA to the system, the zeta potential became more negative, &#x2212;39 mV, confirming the TA deposition through hydrogen bonding. Next, P2VP-<italic>b</italic>-PEO was added, and the zeta potential exhibited a positive value of +18 mV, indicating that ionic interactions again came into play. Evidently, the positively charged P2VP blocks overcompensated for the negative charges of TA. The LbL procedure was continued with another bilayer (TA and PS<sub>10</sub>-PEO<sub>10</sub>). Reversal from +18 mV to &#x2212;49 mV and finally to &#x2212;29 mV confirmed the successful deposition of this bilayer. Therefore, by monitoring the zeta potential values of silica hybrids after the adsorption of each layer, the successful deposition of the different copolymers on the particles surface was confirmed (<xref ref-type="fig" rid="polymers-12-00051-f006">Figure 6</xref>a), which was achieved by a combination of ionic interactions and hydrogen bonding with the aid of TA. In <xref ref-type="fig" rid="polymers-12-00051-f006">Figure 6</xref>c, a TEM image of an isolated multilayered hybrid microparticle is also demonstrated, showing almost uniform deposition of the various layers with limited defects.</p>
+        <p>In an effort to confirm the successful preparation of the multilayered SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>@TA@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> (as seen in <xref ref-type="fig" rid="polymers-12-00051-f006">Figure 6</xref>), and to indicate the compartmentalization of the whole particle hybrid, confocal microscopy was used, by loading the various compartments with three different molecules. Thus, calcein was encapsulated in the interior of the SiO<sub>2</sub> particles, and two sets of PS<sub>10</sub>-PEO<sub>10</sub> micelles were loaded with two different hydrophobic dyes, Nile Red and pyrene, prior to the LbL procedure. The final loaded particle structure, resulting from the successive deposition of the layers, was SiO<sub>2</sub>(calcein)@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>(Nile Red)@TA@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>(pyrene). <xref ref-type="fig" rid="polymers-12-00051-f007">Figure 7</xref> shows the confocal images of the particles, where in fact the silica core contained calcein while the surface was coated by two successive layers of the PS<sub>10</sub>-PEO<sub>10</sub> micelles encapsulating Nile Red and pyrene (PS<sub>10</sub>-PEO<sub>10</sub>(Nile Red) and PS<sub>10</sub>-PEO<sub>10</sub>(pyrene)) in their hydrophobic pockets. The green fluorescence (<xref ref-type="fig" rid="polymers-12-00051-f007">Figure 7</xref>a), red fluorescence (<xref ref-type="fig" rid="polymers-12-00051-f007">Figure 7</xref>b), and blue fluorescence (<xref ref-type="fig" rid="polymers-12-00051-f007">Figure 7</xref>c) were accredited to calcein, Nile Red, and pyrene, respectively. The presence of all three colors indicates the effective encapsulation of the dyes in different compartments and distinct layers, i.e., the hydrophilic calcein in the silica cores, as well as the hydrophobic pyrene and Nile Red in the hydrophobic pockets of the PS<sub>10</sub>-PEO<sub>10</sub> star micelles in different successive layers. The merge image in <xref ref-type="fig" rid="polymers-12-00051-f007">Figure 7</xref>d shows that the three fluorescences completely overlapped, giving a light-purple color as expected from the LbL structure of the hybrid.</p>
+        <p>We should mention here an interesting future of these multilayered organic&#x2013;inorganic hybrid microparticles. The polymeric layers constitute nanostructured micellar structures of PS<sub>10</sub>PEO<sub>10</sub> stars. It is known that these amphiphilic heteroarm star copolymers form spherical, mainly unimolecular, micelles [<xref ref-type="bibr" rid="B48-polymers-12-00051">48</xref>] in which the PS arms are segregated in the center of the star-core forming spherical hydrophobic domains (hydrophobic pockets), while the long PEO arms form the surrounding corona (core&#x2013;shell structure). Due to the high hydrophobicity of the PS chains, the formed micellar structures are kinetically &#x201C;frozen&#x201D; and, thus, stable. Provided that the deposition of the heteroarm stars takes place under conditions favoring micellar nanostructuration, the star-micelles should be integrated into the particle surface as segregated nanoparticles, preserving the spherical domains of the PS cores.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-polymers-12-00051" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>In this work, organic&#x2013;inorganic hybrids constituting mesoporous silica, layered by linear and star-shaped PEO-based block copolymers, were prepared using the LbL methodology. In the present paradigm, the design capabilities of using various types of nanostructured block copolymers, as building elements, and various non-covalent interactions among them (i.e., ionic and hydrogen bonding) to create multicompartmental multilayered mesoporous silica were demonstrated. The P2VP-<italic>b</italic>-PEO diblock copolymer was used as the pH-responsive gatekeeper, and the PS<sub>10</sub>-PEO<sub>10</sub> star was used as monomolecular micelles bearing well-protected hydrophobic compartments. By integrating these building elements into the mesoporous SiO<sub>2</sub> in alternating layers of P2VP-<italic>b</italic>-PEO and PS<sub>10</sub>-PEO<sub>10</sub>, the resulting hybrid particles were capable of carrying three different chemical species, one hydrophilic compound within the mesoporous silica and two different hydrophobic species in different compartments at distinct layers. These types of multicompartmental nanostructured carriers could be suitably designed for biomedical applications such as stimuli (pH)-responsive multiple drug delivery systems and theranostics.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-polymers-12-00051">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>https://www.mdpi.com/2073-4360/12/1/51/s1</uri>: Table S1: Molecular characteristics of the polymers; Table S2: Characteristics of the SiO<sub>2</sub> particles; Figure S1: Zeta potential of aqueous dispersion of SiO<sub>2</sub> at different pH; Figure S2: (a) UV&#x2013;Vis spectra of aqueous P2VP-<italic>b</italic>-PEO solutions at a fixed pH 3.0; (b) calibration curve of the P2VP-<italic>b</italic>-PEO at pH 3.0; Figure S3: (a) Emission spectra of aqueous calcein solutions at a fixed pH 3.0; (b) calibration curve of calcein at pH 3.0; Figure S4: Calibration curve of calcein at PB buffer pH 5.0; Figure S5: Calibration curve of calcein at PB buffer pH 6.0; Figure S6: Calibration curve of calcein at PB buffer pH 7.4; Figure S7: Loss (wt.%) of adsorbed copolymer versus washing cycle (redispersion&#x2013;stirring&#x2013;centrifugation&#x2013;separation) at various pH.</p>
+		<supplementary-material id="polymers-12-00051-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00051-s001.pdf"></supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>K.E., N.T., A.A.: Investigation and methodology, writing&#x2014;review &amp; editing; Z.I.: Investigation, writing original draft, review &amp; editing; C.T.: Supervision, writing&#x2014;review &amp; editing; K.A.: writing&#x2014;review &amp; editing. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was co-financed by Greece and the European Union (European Social Fund&#x2014;ESF) through the Operational Program &#x201C;Human Resources Development, Education, and Lifelong Learning&#x201D; in the context of the project &#x201C;Reinforcement of Postdoctoral Researchers&#x201D; (MIS-5001552), implemented by the State Scholarships Foundation (&#x399;&#x39A;&#x3A5;).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-polymers-12-00051">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>N.T.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Souris</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Mou</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lo</surname>
+              <given-names>L.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Theranostic Applications of Mesoporous Silica Nanoparticles and Their Organic/Inorganic Hybrids</article-title>
+          <source>J. Mater. Chem. B</source>
+          <year>2013</year>
+          <volume>1</volume>
+          <fpage>3128</fpage>
+          <lpage>3135</lpage>
+          <pub-id pub-id-type="doi">10.1039/c3tb20249f</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-polymers-12-00051">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesoporous Silica Nanoparticles: Synthesis, Biocompatibility and Drug Delivery</article-title>
+          <source>Adv. Mater.</source>
+          <year>2012</year>
+          <volume>24</volume>
+          <fpage>1504</fpage>
+          <lpage>1534</lpage>
+          <pub-id pub-id-type="doi">10.1002/adma.201104763</pub-id>
+          <pub-id pub-id-type="pmid">22378538</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-polymers-12-00051">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hudson</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Padera</surname>
+              <given-names>R.F.</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kohane</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The biocompatibility of mesoporous silicates</article-title>
+          <source>Biomaterials</source>
+          <year>2008</year>
+          <volume>29</volume>
+          <fpage>4045</fpage>
+          <lpage>4055</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biomaterials.2008.07.007</pub-id>
+          <pub-id pub-id-type="pmid">18675454</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-polymers-12-00051">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liong</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zink</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <name>
+              <surname>Tamanoi</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biocompatibility, Biodistribution, and Drug-Delivery Efficiency of Mesoporous Silica Nanoparticles for Cancer Therapy in Animals</article-title>
+          <source>Small</source>
+          <year>2010</year>
+          <volume>6</volume>
+          <fpage>1794</fpage>
+          <lpage>1805</lpage>
+          <pub-id pub-id-type="doi">10.1002/smll.201000538</pub-id>
+          <pub-id pub-id-type="pmid">20623530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-polymers-12-00051">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>S.-H.</given-names>
+            </name>
+            <name>
+              <surname>Hung</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mou</surname>
+              <given-names>C.-Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesoporous silica nanoparticles as nanocarriers</article-title>
+          <source>Chem. Commun.</source>
+          <year>2011</year>
+          <volume>47</volume>
+          <fpage>9972</fpage>
+          <lpage>9985</lpage>
+          <pub-id pub-id-type="doi">10.1039/c1cc11760b</pub-id>
+          <pub-id pub-id-type="pmid">21716992</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-polymers-12-00051">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesoporous silica nanoparticle based nano drug delivery systems: Synthesis, controlled drug release and delivery, pharmacokinetics and biocompatibility</article-title>
+          <source>J. Mater. Chem.</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>5845</fpage>
+          <lpage>5855</lpage>
+          <pub-id pub-id-type="doi">10.1039/c0jm03851b</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-polymers-12-00051">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Colilla</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gonz&#xE1;leza</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Vallet-Reg&#xED;</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesoporous silica nanoparticles for the design of smart delivery nanodevices</article-title>
+          <source>Biomater. Sci.</source>
+          <year>2013</year>
+          <volume>1</volume>
+          <fpage>114</fpage>
+          <lpage>134</lpage>
+          <pub-id pub-id-type="doi">10.1039/C2BM00085G</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-polymers-12-00051">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watermann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Brieger</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesoporous Silica Nanoparticles as Drug Delivery Vehicles in Cancer</article-title>
+          <source>Nanomaterials</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <elocation-id>189</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/nano7070189</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-polymers-12-00051">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kango</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kalia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Celli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Njuguna</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Habibi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Surface modification of inorganic nanoparticles for development of organic&#x2013;inorganic nanocomposites&#x2014;A review</article-title>
+          <source>Prog. Polym. Sci.</source>
+          <year>2013</year>
+          <volume>38</volume>
+          <fpage>1232</fpage>
+          <lpage>1261</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.progpolymsci.2013.02.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-polymers-12-00051">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Goel</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Recent advancements in mesoporous silica nanoparticles towards therapeutic applications for cancer</article-title>
+          <source>Acta Biomater.</source>
+          <year>2019</year>
+          <volume>89</volume>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actbio.2019.02.031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-polymers-12-00051">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alberti</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Soler-Illia</surname>
+              <given-names>G.J.A.A.</given-names>
+            </name>
+            <name>
+              <surname>Azzaroni</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gated supramolecular chemistry in hybrid mesoporous silica nanoarchitectures: Controlled delivery and molecular transport in response to chemical, physical and biological stimuli</article-title>
+          <source>Chem. Commun.</source>
+          <year>2015</year>
+          <volume>51</volume>
+          <fpage>6050</fpage>
+          <lpage>6075</lpage>
+          <pub-id pub-id-type="doi">10.1039/C4CC10414E</pub-id>
+          <pub-id pub-id-type="pmid">25675435</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-polymers-12-00051">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gulzar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gaia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yanga</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ansaric</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Linb</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stimuli-responsive drug delivery application of polymer and silica in biomedicine</article-title>
+          <source>J. Mater. Chem. B</source>
+          <year>2015</year>
+          <volume>3</volume>
+          <fpage>8599</fpage>
+          <lpage>8622</lpage>
+          <pub-id pub-id-type="doi">10.1039/C5TB00757G</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-polymers-12-00051">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Niedermayer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Weiss</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Herrmann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Datz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;ller</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Bein</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Br&#xE4;uchle</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multifunctional polymer-capped mesoporous silica nanoparticles for pH-responsive targeted drug delivery</article-title>
+          <source>Nanoscale</source>
+          <year>2015</year>
+          <volume>7</volume>
+          <fpage>7953</fpage>
+          <lpage>7964</lpage>
+          <pub-id pub-id-type="doi">10.1039/C4NR07245F</pub-id>
+          <pub-id pub-id-type="pmid">25865957</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-polymers-12-00051">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fullriede</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Abendroth</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ehlert</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Doll</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xE4;ske</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Winkel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Stumpp</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>Stiesch</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Behrens</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>pH-responsive release of chlorhexidine from modified nanoporous silica nanoparticles for dental applications</article-title>
+          <source>BioNanoMaterials</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>59</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="doi">10.1515/bnm-2016-0003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-polymers-12-00051">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bilalis</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Tziveleka</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Varlas</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Iatrou</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>pH-Sensitive Nanogates Based on Poly(L-Histidine) for Controlled Drug Release from Mesoporous Silica Nanoparticles</article-title>
+          <source>Polym. Chem.</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>1475</fpage>
+          <lpage>1485</lpage>
+          <pub-id pub-id-type="doi">10.1039/C5PY01841B</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-polymers-12-00051">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nairi</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Magnolia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Piludu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nieddu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Caria</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Sogos</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Vallet-Reg&#xEC;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Monduzzi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Salis</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesoporous silica nanoparticles functionalized with hyaluronic acid. Effect of the biopolymer chain length on cell internalization</article-title>
+          <source>Colloid Surf. B</source>
+          <year>2018</year>
+          <volume>168</volume>
+          <fpage>50</fpage>
+          <lpage>59</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.colsurfb.2018.02.019</pub-id>
+          <pub-id pub-id-type="pmid">29456044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-polymers-12-00051">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Galiana</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Mart&#xED;nez-M&#xE1;&#xF1;ez</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Stroeve</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Marcos</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Aznar</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Sancen&#xF3;n</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Murgu&#xED;a</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Amor&#xF3;s</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poly(N&#x2013;isopropylacrylamide)&#x2013;gated Fe<sub>3</sub>O<sub>4</sub>/SiO<sub>2</sub> core shell nanoparticles with expanded mesoporous structures for the temperature triggered release of lysozyme</article-title>
+          <source>Colloid Surf. B</source>
+          <year>2015</year>
+          <volume>135</volume>
+          <fpage>652</fpage>
+          <lpage>660</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.colsurfb.2015.06.048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-polymers-12-00051">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sha</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jiao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermo and pH dual responsive, polymer shell coated, magnetic mesoporous silica nanoparticles for controlled drug release</article-title>
+          <source>J. Mater. Chem.</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>9239</fpage>
+          <lpage>9247</lpage>
+          <pub-id pub-id-type="doi">10.1039/c1jm10631g</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-polymers-12-00051">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>M.Y.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.X.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhuo</surname>
+              <given-names>R.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dual-stimuli-responsive polymer-coated mesoporous silica nanoparticles used for controlled drug delivery</article-title>
+          <source>J. Appl. Polym. Sci.</source>
+          <year>2015</year>
+          <volume>132</volume>
+          <fpage>42395</fpage>
+          <pub-id pub-id-type="doi">10.1002/app.42395</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-polymers-12-00051">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ouyang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reversible crosslinking terpolymer shell-based mesoporous silica nanoparticles as on-off nanocarriers for pyrene-releasing application</article-title>
+          <source>J. Taiwan Inst. Chem. E</source>
+          <year>2018</year>
+          <volume>168</volume>
+          <fpage>50</fpage>
+          <lpage>59</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jtice.2018.06.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-polymers-12-00051">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ruan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stimuli-Responsive Controlled Drug Release from a Hollow Mesoporous Silica Sphere/Polyelectrolyte Multilayer Core&#x2013;Shell Structure</article-title>
+          <source>Angew. Chem. Int. Ed.</source>
+          <year>2005</year>
+          <volume>44</volume>
+          <fpage>5083</fpage>
+          <lpage>5087</lpage>
+          <pub-id pub-id-type="doi">10.1002/anie.200501500</pub-id>
+          <pub-id pub-id-type="pmid">16015668</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-polymers-12-00051">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A mesoporous core-shell structure for pH-controlled storage and release of water-soluble drug</article-title>
+          <source>Micropor. Mesopor. Mater.</source>
+          <year>2007</year>
+          <volume>103</volume>
+          <fpage>243</fpage>
+          <lpage>249</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.micromeso.2007.02.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-polymers-12-00051">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamanna</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bulitta</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Controlling antibiotic release from mesoporous silica nano drug carriers via self-assembled polyelectrolyte coating</article-title>
+          <source>J. Mater. Sci.</source>
+          <year>2015</year>
+          <volume>26</volume>
+          <fpage>117</fpage>
+          <pub-id pub-id-type="doi">10.1007/s10856-015-5444-0</pub-id>
+          <pub-id pub-id-type="pmid">25665846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-polymers-12-00051">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Minati</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Antonini</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Dalla Serra</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Speranza</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Enrichi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Riello</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>pH-activated doxorubicin release from polyelectrolyte complex layer coated mesoporous silica nanoparticles</article-title>
+          <source>Microporous Mesoporous Mater.</source>
+          <year>2013</year>
+          <volume>180</volume>
+          <fpage>86</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.micromeso.2013.06.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-polymers-12-00051">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Nie</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of pH responsive alginate/chitosan multilayers coating on delivery efficiency, cellular uptake and biodistribution of mesoporous silica nanoparticles based nanocarriers</article-title>
+          <source>ACS Appl. Mater. Interfaces</source>
+          <year>2014</year>
+          <volume>6</volume>
+          <fpage>8447</fpage>
+          <lpage>8460</lpage>
+          <pub-id pub-id-type="doi">10.1021/am501337s</pub-id>
+          <pub-id pub-id-type="pmid">24745551</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-polymers-12-00051">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Du</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Layer-by-layer engineering fluorescent polyelectrolyte coated mesoporous silica nanoparticles as pH-sensitive nanocarriers for controlled release</article-title>
+          <source>Appl. Surf. Sci.</source>
+          <year>2015</year>
+          <volume>345</volume>
+          <fpage>90</fpage>
+          <lpage>98</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apsusc.2015.03.151</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-polymers-12-00051">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Leng</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>C.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autofluorescent and pH-responsive mesoporous silica for cancer-targeted and controlled drug release</article-title>
+          <source>Microporous Mesoporous Mater.</source>
+          <year>2014</year>
+          <volume>186</volume>
+          <fpage>187</fpage>
+          <lpage>193</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.micromeso.2013.11.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-polymers-12-00051">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multilayer encapsulated mesoporous silica nanospheres as an oral sustained drug delivery system for the poorly water-soluble drug felodipine</article-title>
+          <source>Mater. Sci. Eng. C</source>
+          <year>2015</year>
+          <volume>47</volume>
+          <fpage>313</fpage>
+          <lpage>324</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msec.2014.10.067</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-polymers-12-00051">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yilmaz</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Layer-by-layer hyaluronic acid/chitosan polyelectrolyte coated mesoporous silica nanoparticles as pH-responsive nanocontainers for optical bleaching of cellulose fabrics</article-title>
+          <source>Carbohydr. Polym.</source>
+          <year>2016</year>
+          <volume>146</volume>
+          <fpage>174</fpage>
+          <lpage>180</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.carbpol.2016.03.037</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-polymers-12-00051">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anirudhan</surname>
+              <given-names>T.S.</given-names>
+            </name>
+            <name>
+              <surname>Vasantha</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Sasidharan</surname>
+              <given-names>A.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Layer-by-layer assembly of hyaluronic acid/carboxymethylchitosan polyelectrolytes on the surface of aminated mesoporous silica for the oral delivery of 5-fluorouracil</article-title>
+          <source>Eur. Polym. J.</source>
+          <year>2017</year>
+          <volume>93</volume>
+          <fpage>572</fpage>
+          <lpage>589</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.eurpolymj.2017.06.033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-polymers-12-00051">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsitsilianis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Papanagopoulos</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lutz</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Amphiphilic heteroarm star copolymers of polystyrene and poly(ethylene oxide)</article-title>
+          <source>Polymer</source>
+          <year>1995</year>
+          <volume>36</volume>
+          <fpage>3745</fpage>
+          <lpage>3752</lpage>
+          <pub-id pub-id-type="doi">10.1016/0032-3861(95)93779-L</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-polymers-12-00051">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kennemur</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poly(vinylpyridine) Segments in Block Copolymers: Synthesis, Self-Assembly, and Versatility</article-title>
+          <source>Macromolecules</source>
+          <year>2019</year>
+          <volume>52</volume>
+          <fpage>1354</fpage>
+          <lpage>1370</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.macromol.8b01661</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-polymers-12-00051">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gunawidjaja</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Peleshanko</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Genson</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Tsitsilianis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tsukruk</surname>
+              <given-names>V.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monomolecular micelles Surface morphologies of Langmuir-Blodgett monolayers of PEO<sub>n</sub>PS<sub>n</sub> multiarm star copolymers</article-title>
+          <source>Langmuir</source>
+          <year>2006</year>
+          <volume>22</volume>
+          <fpage>6168</fpage>
+          <lpage>6176</lpage>
+          <pub-id pub-id-type="doi">10.1021/la060299k</pub-id>
+          <pub-id pub-id-type="pmid">16800672</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-polymers-12-00051">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ledin</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Iatridi</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Tsitsilianis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tsukruk</surname>
+              <given-names>V.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multicompartmental Microcapsules with Orthogonal Programmable Two-Way Sequencing of Hydrophobic and Hydrophilic Cargo Release</article-title>
+          <source>Angew. Chem. Int. Ed.</source>
+          <year>2016</year>
+          <volume>55</volume>
+          <fpage>4908</fpage>
+          <lpage>4913</lpage>
+          <pub-id pub-id-type="doi">10.1002/anie.201600383</pub-id>
+          <pub-id pub-id-type="pmid">26990494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-polymers-12-00051">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akagawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Suyama</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Amine oxidase-like activity of polyphenols. Mechanism and properties</article-title>
+          <source>Eur. J. Biochem.</source>
+          <year>2001</year>
+          <volume>268</volume>
+          <fpage>1953</fpage>
+          <lpage>1963</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1432-1327.2001.02068.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-polymers-12-00051">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shutava</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Balkundi</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Vangala</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Steffan</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Bigelow</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Cardelli</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Neal</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Lvov</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Layer-by-Layer-Coated Gelatin Nanoparticles as a Vehicle for Delivery of Natural Polyphenols</article-title>
+          <source>ACS Nano</source>
+          <year>2009</year>
+          <volume>3</volume>
+          <fpage>1877</fpage>
+          <lpage>1885</lpage>
+          <pub-id pub-id-type="doi">10.1021/nn900451a</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-polymers-12-00051">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Daglia</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polyphenols as antimicrobial agents</article-title>
+          <source>Curr. Opin. Biotechnol.</source>
+          <year>2012</year>
+          <volume>23</volume>
+          <fpage>174</fpage>
+          <lpage>181</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.copbio.2011.08.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-polymers-12-00051">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chung</surname>
+              <given-names>K.T.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>T.Y.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>C.I.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.W.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tannins and Human Health: A Review</article-title>
+          <source>Crit. Rev. Food Sci. Nutr.</source>
+          <year>1998</year>
+          <volume>38</volume>
+          <fpage>421</fpage>
+          <lpage>464</lpage>
+          <pub-id pub-id-type="doi">10.1080/10408699891274273</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-polymers-12-00051">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shutava</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Prouty</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kommireddy</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lvov</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>pH Responsive Decomposable Layer-by-Layer Nanofilms and Capsules on the Basis of Tannic Acid</article-title>
+          <source>Macromolecules</source>
+          <year>2005</year>
+          <volume>38</volume>
+          <fpage>2850</fpage>
+          <lpage>2858</lpage>
+          <pub-id pub-id-type="doi">10.1021/ma047629x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-polymers-12-00051">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kozlovskaya</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Kharlampieva</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Drachuk</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tsukruk</surname>
+              <given-names>V.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Responsive microcapsule reactors based on hydrogen-bonded tannic acid layer-by-layer assemblies</article-title>
+          <source>Soft Matter</source>
+          <year>2010</year>
+          <volume>6</volume>
+          <fpage>3596</fpage>
+          <lpage>3608</lpage>
+          <pub-id pub-id-type="doi">10.1039/b927369g</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-polymers-12-00051">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Release of Polyphenolic Drugs from Dynamically Bonded Layer-by-Layer Films</article-title>
+          <source>ACS Appl. Mater. Interfaces</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>3541</fpage>
+          <lpage>3548</lpage>
+          <pub-id pub-id-type="doi">10.1021/am4008787</pub-id>
+          <pub-id pub-id-type="pmid">23547529</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-polymers-12-00051">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kozlovskaya</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Zavgorodnya</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Martinez-Lopez</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Catledge</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kharlampieva</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Encapsulation of anticancer drug by hydrogen bonded multilayers of tannic acid</article-title>
+          <source>Soft Matter</source>
+          <year>2014</year>
+          <volume>10</volume>
+          <fpage>9237</fpage>
+          <lpage>9247</lpage>
+          <pub-id pub-id-type="doi">10.1039/C4SM01813C</pub-id>
+          <pub-id pub-id-type="pmid">25284271</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-polymers-12-00051">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kozlovskaya</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Goins</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Campos-Gomez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Saeed</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kharlampieva</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biocompatible Shaped Particles from Dried Multilayer Polymer Capsules</article-title>
+          <source>Biomacromolecules</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <fpage>3830</fpage>
+          <lpage>3841</lpage>
+          <pub-id pub-id-type="doi">10.1021/bm4008666</pub-id>
+          <pub-id pub-id-type="pmid">24063405</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-polymers-12-00051">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>H.I.</given-names>
+            </name>
+            <name>
+              <surname>Min</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Poon</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Hammond</surname>
+              <given-names>P.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hydrogen-bonded multilayer of pH-responsive polymeric micelles with tannic acid for surface drug delivery</article-title>
+          <source>Chem. Commun.</source>
+          <year>2009</year>
+          <volume>28</volume>
+          <fpage>4194</fpage>
+          <lpage>4196</lpage>
+          <pub-id pub-id-type="doi">10.1039/b908688a</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-polymers-12-00051">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Pei</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>pH-Degradable antioxidant nanoparticles based on hydrogen-bonded tannic acid assembly</article-title>
+          <source>RSC Adv.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>31374</fpage>
+          <lpage>31385</lpage>
+          <pub-id pub-id-type="doi">10.1039/C6RA02527G</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-polymers-12-00051">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sosa</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Pagels</surname>
+              <given-names>R.F.</given-names>
+            </name>
+            <name>
+              <surname>Priestley</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Prud&#x2019;homme</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient preparation of size tunable PEGylated gold nanoparticles</article-title>
+          <source>J. Mater. Chem. B</source>
+          <year>2016</year>
+          <volume>4</volume>
+          <fpage>4813</fpage>
+          <lpage>4817</lpage>
+          <pub-id pub-id-type="doi">10.1039/C6TB00886K</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-polymers-12-00051">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kosmilski</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>pH-dependent surface charging and points of zero charge II. Update</article-title>
+          <source>J. Colloid Interface Sci.</source>
+          <year>2004</year>
+          <volume>275</volume>
+          <fpage>214</fpage>
+          <lpage>224</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jcis.2004.02.029</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-polymers-12-00051">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Malak</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Heller</surname>
+              <given-names>W.T.</given-names>
+            </name>
+            <name>
+              <surname>Tsitsilianis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tsukruk</surname>
+              <given-names>V.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multicompartmental microcapsules from star copolymer micelles</article-title>
+          <source>Macromolecules</source>
+          <year>2013</year>
+          <volume>46</volume>
+          <fpage>1425</fpage>
+          <lpage>1436</lpage>
+          <pub-id pub-id-type="doi">10.1021/ma302483j</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures, Scheme and Table</title>
+      <fig id="polymers-12-00051-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Thermogravimetric analysis (TGA) curves of (<bold>a</bold>) the bare SiO<sub>2</sub> (black line), (<bold>b</bold>) SiO<sub>2</sub>@poly(2-vinyl pyridine)-<italic>b</italic>-poly(ethylene oxide) (P2VP-<italic>b</italic>-PEO)_1 (pink line), (<bold>c</bold>) SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO_2 (cyan line), (<bold>d</bold>) SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO_3 (orange line), and (<bold>e</bold>) P2VP-<italic>b</italic>-PEO (red line).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00051-g001.tif"/>
+      </fig>
+      <fig id="polymers-12-00051-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>TEM images of (<bold>a</bold>,<bold>c</bold>) bare SiO<sub>2</sub>, and (<bold>b</bold>,<bold>d</bold>) SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO particle hybrid. Scale bars in (<bold>a</bold>,<bold>b</bold>) 500 nm. The (<bold>c</bold>,<bold>d</bold>) images are magnifications of the corresponding (<bold>a</bold>,<bold>b</bold>) images, respectively.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00051-g002.tif"/>
+      </fig>
+      <fig id="polymers-12-00051-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>(<bold>a</bold>) Confocal microscopy image of calcein-loaded SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@calcein particles; (<bold>b</bold>) pH-triggered release profile of calcein from SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@calcein particles; (<bold>c</bold>) schematic representation of an SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO microparticle in acidic (left) and basic (right) pH environments. The red color represents P2VP and the green color represents PEO. Scale bar in (<bold>a</bold>): 4 &#x3BC;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00051-g003.tif"/>
+      </fig>
+      <fig id="polymers-12-00051-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>(<bold>a</bold>) TGA curves of (a) the bare SiO<sub>2</sub> (black line), (b) SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO (orange line), (c) SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@tannic acid (TA)@ polystyrene&#x2013;poly(ethylene oxide) (PS<sub>10</sub>-PEO<sub>10</sub>) (purple line), (d) P2VP-<italic>b</italic>-PEO (red line), and (e) PS<sub>10</sub>-PEO<sub>10</sub> (green line); (<bold>b</bold>) TEM image of an SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> particle, scale bar: 500 nm; the blue and red arrows indicate the free and adsorbed PS<sub>10</sub>-PEO<sub>10</sub> micelles, respectively. (<bold>c</bold>) Molecule of tannic acid; (<bold>d</bold>) a monomolecular micelle of the star-shaped PS<sub>10</sub>-PEO<sub>10</sub> copolymer.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00051-g004.tif"/>
+      </fig>
+      <fig id="polymers-12-00051-sch001" position="float">
+        <object-id pub-id-type="pii">polymers-12-00051-sch001_Scheme 1</object-id>
+        <label>Scheme 1</label>
+        <caption>
+          <p>Schematic representation of the layer-by-layer (LbL) method for the fabrication of SiO<sub>2</sub>/copolymer hybrids.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00051-sch001.tif"/>
+      </fig>
+      <fig id="polymers-12-00051-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Confocal microscopy images of SiO<sub>2</sub>@calcein@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>/Nile Red particles. In image (<bold>a</bold>), the green color from calcein is shown (excitation 495 nm/emission 519 nm). In image (<bold>b</bold>), the red color from Nile Red (excitation 550 nm/emission 573 nm) is shown. Image (<bold>c</bold>) is the merged image of green (<bold>a</bold>) and red (<bold>b</bold>) calcein and Nile Red, respectively. Scale bars: 4 &#x3BC;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00051-g005.tif"/>
+      </fig>
+      <fig id="polymers-12-00051-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>(<bold>a</bold>) Schematic representation of the LbL fabrication of SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>@TA@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub> hybrid (the various building blocks, P2VP-<italic>b</italic>-PEO, PS<sub>10</sub>-PEO<sub>10</sub> stars, and TA (tannic acid), are also illustrated to the lower left). (<bold>b</bold>) Evolution of zeta potential during deposition of multilayer on surfaces of silica particles in aqueous solution. (<bold>c</bold>) TEM image of the hybrid microparticle.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00051-g006.tif"/>
+      </fig>
+      <fig id="polymers-12-00051-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Confocal microscopy images of SiO<sub>2</sub>(calcein)@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>(NileRed)@TA@P2VP-<italic>b</italic>-PEO@TA@PS<sub>10</sub>-PEO<sub>10</sub>(pyrene) particles. In images (<bold>a</bold>&#x2013;<bold>c</bold>), the green channel from calcein (excitation 495 nm/emission 519 nm), the red channel from Nile Red (excitation 550 nm/emission 573 nm), and the blue channel from pyrene (excitation 359 nm/emission 457 nm) are shown, respectively. Image (<bold>d</bold>) is the merged channel from the green, red, and blue channels of calcein, Nile Red, and pyrene, respectively.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00051-g007.tif"/>
+      </fig>
+      <table-wrap id="polymers-12-00051-t001" position="float">
+        <object-id pub-id-type="pii">polymers-12-00051-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Quantitative analysis of the adsorbed poly(2-vinyl pyridine)-<italic>b</italic>-poly(ethylene oxide) (P2VP-<italic>b</italic>-PEO) through ultraviolet&#x2013;visible light (UV&#x2013;Vis) spectroscopy and thermogravimetric analysis (TGA).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Theoretical m<sub>polymer</sub>/m<sub>SiO2</sub> (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">m<sub>polymer</sub>/m<sub>SiO2</sub> (%) from UV&#x2013;Vis</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">m<sub>polymer</sub>/m<sub>SiO2</sub> (%) from TGA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO_1</td>
+              <td align="center" valign="middle">90.66</td>
+              <td align="center" valign="middle">12.35</td>
+              <td align="center" valign="middle">11.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO_2</td>
+              <td align="center" valign="middle">87.66</td>
+              <td align="center" valign="middle">12.87</td>
+              <td align="center" valign="middle">12.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">SiO<sub>2</sub>@P2VP-<italic>b</italic>-PEO_3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">137.33</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14.4</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

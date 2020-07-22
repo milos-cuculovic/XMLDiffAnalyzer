@@ -1,0 +1,2137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">cancers</journal-id>
+      <journal-title-group>
+        <journal-title>Cancers</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Cancers</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Cancers</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2072-6694</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cancers12010108</article-id>
+      <article-id pub-id-type="publisher-id">cancers-12-00108</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Application of Arsenic Trioxide in Ameliorating ABT-737 Target Therapy on Uterine Cervical Cancer Cells through Unique Pathways in Cell Death</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hsin</surname>
+            <given-names>I-Lun</given-names>
+          </name>
+          <xref rid="af1-cancers-12-00108" ref-type="aff">1</xref>
+          <xref rid="fn1-cancers-12-00108" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5888-4302</contrib-id>
+          <name>
+            <surname>Chou</surname>
+            <given-names>Ying-Hsiang</given-names>
+          </name>
+          <xref rid="af1-cancers-12-00108" ref-type="aff">1</xref>
+          <xref rid="af2-cancers-12-00108" ref-type="aff">2</xref>
+          <xref rid="af3-cancers-12-00108" ref-type="aff">3</xref>
+          <xref rid="fn1-cancers-12-00108" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hung</surname>
+            <given-names>Wei-Li</given-names>
+          </name>
+          <xref rid="af1-cancers-12-00108" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ko</surname>
+            <given-names>Jiunn-Liang</given-names>
+          </name>
+          <xref rid="af1-cancers-12-00108" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Po-Hui</given-names>
+          </name>
+          <xref rid="af1-cancers-12-00108" ref-type="aff">1</xref>
+          <xref rid="af4-cancers-12-00108" ref-type="aff">4</xref>
+          <xref rid="af5-cancers-12-00108" ref-type="aff">5</xref>
+          <xref rid="af6-cancers-12-00108" ref-type="aff">6</xref>
+          <xref rid="c1-cancers-12-00108" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-cancers-12-00108"><label>1</label>Institute of Medicine, Chung Shan Medical University, Taichung 40201, Taiwan<email>hideka.chou@gmail.com</email> (Y.-H.C.); <email>ayuatsushi@hotmail.com</email> (W.-L.H.); <email>jlko@csmu.edu.tw</email> (J.-L.K.)</aff>
+      <aff id="af2-cancers-12-00108"><label>2</label>Department of Medical Imaging and Radiological Sciences, Chung Shan Medical University, Taichung 40201, Taiwan</aff>
+      <aff id="af3-cancers-12-00108"><label>3</label>Department of Radiation Oncology, Chung Shan Medical University Hospital, Taichung 40201, Taiwan</aff>
+      <aff id="af4-cancers-12-00108"><label>4</label>Department of Obstetrics and Gynecology, Chung Shan Medical University Hospital, Taichung 40201, Taiwan</aff>
+      <aff id="af5-cancers-12-00108"><label>5</label>School of Medicine, Chung Shan Medical University, Taichung 40201, Taiwan</aff>
+      <aff id="af6-cancers-12-00108"><label>6</label>Department of Medical Research, Chung Shan Medical University Hospital, Taichung 40201, Taiwan</aff>
+      <author-notes>
+        <corresp id="c1-cancers-12-00108"><label>*</label>Correspondence: <email>wang082160@gmail.com</email>; Tel.: +886-4-24739595 (ext. 21721); Fax: +886-4-24738493</corresp>
+        <fn id="fn1-cancers-12-00108">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>108</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>16</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>ABT-737, a B cell lymphoma-2 (Bcl-2) family inhibitor, activates apoptosis in cancer cells. Arsenic trioxide is an apoptosis activator that impairs cancer cell survival. The aim of this study was to evaluate the effect of a combination treatment with ABT-737 and arsenic trioxide on uterine cervical cancer cells. MTT (3-(4,5-dimethylthiazol-2-yl)-25-diphenyltetrazolium bromide) assay revealed that ABT-737 and arsenic trioxide induced a synergistic effect on uterine cervical cancer cells. Arsenic trioxide enhanced ABT-737-induced apoptosis and caspase-7 activation and the ABT-737-mediated reduction of anti-apoptotic protein Mcl-1 in Caski cells. Western blot assay revealed that arsenic trioxide promoted the ABT-737-mediated reduction of CDK6 and thymidylate synthetase in Caski cells. Arsenic trioxide promoted ABT-737-inhibited mitochondrial membrane potential and ABT-737-inhibited ANT expression in Caski cells. However, ABT-737-elicited reactive oxygen species were not enhanced by arsenic trioxide. The combined treatment induced an anti-apoptosis autophagy in SiHa cells. This study is the first to demonstrate that a combination treatment with ABT-737 and arsenic trioxide induces a synergistic effect on uterine cervical cancer cells through apoptosis. Our findings provide new insights into uterine cervical cancer treatment.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>ABT-737</kwd>
+        <kwd>apoptosis</kwd>
+        <kwd>arsenic trioxide</kwd>
+        <kwd>autophagy</kwd>
+        <kwd>uterine cervical cancer</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-cancers-12-00108" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>B cell lymphoma-2 (Bcl-2) homology 3 (BH3) exhibits pro-apoptotic functions either by directly inducing Bcl-2-associated X protein (Bax) and Bcl-2 homologous antagonist/killer (Bak) or by displacing them away from inhibitory interactions with anti-apoptotic Bcl-2 family members [<xref ref-type="bibr" rid="B1-cancers-12-00108">1</xref>]. 4-[4-[(4&#x2032;-chloro[1,1&#x2032;-biphenyl]-2-yl)methyl]-1-piperazinyl]-N-[[4-[[(1R)-3-(dimethylamino)-1-[(phenylthio)methyl]propyl]amino]-3-nitrophenyl] sulfonyl]-benzamide (ABT-737) is one of the best-characterized BH3 mimetics. It targets and inhibits anti-apoptotic Bcl-2 family proteins, such as Bcl-2 [<xref ref-type="bibr" rid="B2-cancers-12-00108">2</xref>,<xref ref-type="bibr" rid="B3-cancers-12-00108">3</xref>]. ABT-737 can induce intrinsic apoptosis pathway and reduce cell viability through Bax and Bak [<xref ref-type="bibr" rid="B4-cancers-12-00108">4</xref>]. Cancer cells expressing high Bcl-2 levels are sensitive to ABT-737 treatment [<xref ref-type="bibr" rid="B2-cancers-12-00108">2</xref>,<xref ref-type="bibr" rid="B5-cancers-12-00108">5</xref>,<xref ref-type="bibr" rid="B6-cancers-12-00108">6</xref>], and ABT-737 combines with cytotoxic drugs against solid tumors and hematological malignancy and overcome cancer cell resistance [<xref ref-type="bibr" rid="B5-cancers-12-00108">5</xref>,<xref ref-type="bibr" rid="B6-cancers-12-00108">6</xref>,<xref ref-type="bibr" rid="B7-cancers-12-00108">7</xref>,<xref ref-type="bibr" rid="B8-cancers-12-00108">8</xref>,<xref ref-type="bibr" rid="B9-cancers-12-00108">9</xref>,<xref ref-type="bibr" rid="B10-cancers-12-00108">10</xref>].</p>
+      <p>Arsenic trioxide (As<sub>2</sub>O<sub>3</sub>) has been applied as a therapeutic agent for more than 2400 years, and its preparation (trade name Trisenox) was approved for the treatment of acute promyelocytic leukemia by the U.S. Food and Drug Administration in September 2000 [<xref ref-type="bibr" rid="B11-cancers-12-00108">11</xref>]. It can trigger the intrinsic pathway of apoptosis in human leukemia cells [<xref ref-type="bibr" rid="B12-cancers-12-00108">12</xref>]. This apoptotic signaling is presented with oxidative stress, change in mitochondrial membrane potential, and upregulation of apoptotic proteins, leading to cell death. As<sub>2</sub>O<sub>3</sub> can also induce apoptosis of the cancer cells of uterine cervix via the mitochondrial pathway [<xref ref-type="bibr" rid="B13-cancers-12-00108">13</xref>], suppresses the migration and angiogenesis of gastric cancer cells [<xref ref-type="bibr" rid="B14-cancers-12-00108">14</xref>], and reverses chemoresistance in hepatocellular carcinoma [<xref ref-type="bibr" rid="B15-cancers-12-00108">15</xref>].</p>
+      <p>Accumulating evidence suggests that the ratio between pro-apoptotic and anti-apoptotic Bcl-2 proteins determines the susceptibility of cancer cells, and cell apoptosis may be induced by inhibiting Bcl-2 [<xref ref-type="bibr" rid="B2-cancers-12-00108">2</xref>,<xref ref-type="bibr" rid="B3-cancers-12-00108">3</xref>,<xref ref-type="bibr" rid="B16-cancers-12-00108">16</xref>,<xref ref-type="bibr" rid="B17-cancers-12-00108">17</xref>,<xref ref-type="bibr" rid="B18-cancers-12-00108">18</xref>]. A synergistic therapeutic effect on triple-negative breast cancer cell line MDA-MB-231 that overexpresses Bcl-2 can be achieved by combining ABT-737 with docetaxel [<xref ref-type="bibr" rid="B10-cancers-12-00108">10</xref>]. In the present study, we investigated a novel treatment strategy that enhances the unique pathways of ABT-737 other than Bax and Bak to determine novel pathways and augment their effects that kill cancer cells in uterine cervixes. In the 2014 Annual Report of Taiwan Cancer Registry, cervical cancer was the second most common type of gynecological cancer and the eighth most frequent cause of female malignancy. It accounted for the age-standardized incidence rate of 8.50 per 100,000 women and a mortality rate of 3.39 in 2014. We hypothesize that the combined treatment of ABT-737 and arsenic trioxide reduces cancer cell viability and enhances the therapeutic effect of both drugs on cervical cancer. The aim of this study was to validate the synergic effect of ABT-737 and arsenic trioxide on cervical cancer cells and develop treatment strategies for this cancer. The pathways through which they promote cancer cell death were determined.</p>
+    </sec>
+    <sec id="sec2-cancers-12-00108">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-cancers-12-00108">
+        <title>2.1. Cell Culture and Chemicals</title>
+        <p>Caski and SiHa cervical cancer cell lines were obtained from the American Type Tissue Culture Collection. The Caski cells were cultured in Roswell Park Memorial Institute 1640 medium supplemented with 10% heat-inactivated fetal bovine serum (FBS), 0.2% sodium bicarbonate, 2 mM L-glutamine, 100 U/mL penicillin, and 100 &#x3BC;g/mL streptomycin. The SiHa cells were cultured in Dulbecco&#x2019;s Modified Eagle Medium with 10% FBS, 5.5% sodium bicarbonate, 2 mM L-glutamine, 100 U/mL penicillin, and 100 &#x3BC;g/mL streptomycin. As<sub>2</sub>O<sub>3</sub>, 3-methyladenine (3-MA), and chloroquine were purchased from Sigma (St. Louis, MO, USA). ABT-737 was obtained from Cayman (Ann Arbor, MI, USA).</p>
+        <p>MTT (3-(4,5-dimethylthiazol-2-yl)-25-diphenyltetrazolium bromide) assay (MTT assay). The Caski and SiHa cells (5 &#xD7; 10<sup>3</sup> cells/well) were seeded into a 96-well plate with a 100 &#x3BC;L culture medium. The medium was removed after treatment for 48 h, and 100 &#x3BC;L of the medium containing 0.5 mg/mL MTT (Sigma, M 2128) was added. MTT assay was performed as previously described [<xref ref-type="bibr" rid="B19-cancers-12-00108">19</xref>]. The combination index was calculated using the software Compusyn 1.0. [<xref ref-type="bibr" rid="B20-cancers-12-00108">20</xref>].</p>
+      </sec>
+      <sec id="sec2dot2-cancers-12-00108">
+        <title>2.2. Flow Cytometry for Apoptosis</title>
+        <p>The Caski and SiHa cells (2 &#xD7; 10<sup>5</sup> cells) were seeded onto a 60 mm dish containing 5 mL of culture medium. The medium was removed after 24 h incubation, and 5 mL of fresh medium containing As<sub>2</sub>O<sub>3</sub> and ABT-737 was added to the dish. The cells were used in investigating apoptosis after 48 h of treatment. Apoptosis was analyzed with fluorescein isothiocyanate (FITC)-labeled annexin V and propidium iodide (PI). A FITC-annexin V apoptosis detection kit I (BD Pharmingen&#x2122;, San Diego, CA, USA; BD Biosciences, San Jose, CA, USA) was used.</p>
+      </sec>
+      <sec id="sec2dot3-cancers-12-00108">
+        <title>2.3. Detection of Mitochondrial Membrane Potential (MMP, &#x394;&#x3A8;m)</title>
+        <p>About 5 &#xD7; 10<sup>5</sup> cells CaSki or SiHa cells were seeded onto a 60 mm dish containing 5 mL of culture medium. ABT-737 (2.5 or 5.0 &#xB5;M) or As<sub>2</sub>O<sub>3</sub> (2.0 &#xB5;M) was added 48 hr. At 30 min prior to harvesting, these cells were stained at 37 &#xB0;C using a 2.5-&#xB5;M final concentration of 5,5,6,6&#x2032;-tetrachloro-1,1,3,3&#x2032;-tetraethylbenzimi-dazolylcarbocy-anine iodide dye (JC-1, T3168, Invitrogen, Carlsbad, CA, USA; Thermo Fisher Scientific, Inc., San Jose, CA, USA) to detect the MMP by fluorescence microscopy and flow cytometry using CellQuest 5.1 software (BD Biosciences, San Jose, CA, USA).</p>
+      </sec>
+      <sec id="sec2dot4-cancers-12-00108">
+        <title>2.4. Detection of Reactive Oxygen Species (ROS)</title>
+        <p>The amount of H<sub>2</sub>O<sub>2</sub> was determined on the basis of fluorescent light detection for oxidative stress by flow cytometry based on the oxidization and then the conversion of 2&#x2032;,7&#x2032;-dichlorodihydrofluorescein diacetate dye (H2DCFDA; Invitrogen; Thermo Fisher Scientific, Inc., San Jose, CA, USA) into fluorescent 2&#x2032;,7&#x2032;-dichloro-fluorescein by intracellular ROS. The complete protocols for these analyses are described elsewhere [<xref ref-type="bibr" rid="B21-cancers-12-00108">21</xref>,<xref ref-type="bibr" rid="B22-cancers-12-00108">22</xref>].</p>
+      </sec>
+      <sec id="sec2dot5-cancers-12-00108">
+        <title>2.5. Western Blot Analysis</title>
+        <p>Anti-cleaved caspase-7 (#9491, Cell Signaling, Danvers, MA, USA), anti-myeloid cell leukemia 1 (#39224, Cell Signaling), anti-Bax (#2772, Cell Signaling), anti-Bak (#12105, Cell Signaling), anti-cyclin-dependent kinase 6 (GTX-103992, Genetex, Irvine, CA, USA), anti-thymidylate synthase (GTX-113289, Genetex, Irvine, CA, USA), anti-voltage-dependent anion channel 1 (Ab14734, Abcam, Cambridge, UK), anti-light chain 3B (#3868, Cell Signaling), anti-adenine nucleotide translocase (SC-9300, Santa Cruz, CA, USA), and anti-&#x3B2;-actin (Sigma, St. Louis, MI, USA) were used to detect the protein expression levels of the indicated genes. The complete protocols for Western blot assay are described in a previous publication [<xref ref-type="bibr" rid="B23-cancers-12-00108">23</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec3-cancers-12-00108" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-cancers-12-00108">
+        <title>3.1. Synergistic Cell Death Induced by Combing ABT-737 with Arsenic Trioxide as Compared to Single Arsenic Trioxide or ABT-737</title>
+        <p>MTT assay revealed that the ratios of cell viability of the SiHa cancer cells were 82.8%, 74.0%, and 37.8% after a single treatment of 1.25, 2.5, and 5 &#x3BC;M ABT-737, respectively, and the survival rates after treatment of 0, 2, and 8 &#x3BC;M As<sub>2</sub>O<sub>3</sub> alone were 100%, 91.8%, and 76%, respectively (<xref ref-type="fig" rid="cancers-12-00108-f001">Figure 1</xref>A). After the combined treatment of 1.25, 2.5, and 5 &#x3BC;M ABT-737 and 2 &#x3BC;M As<sub>2</sub>O<sub>3</sub>, the survival rates of SiHa cancer cells were 69.6%, 40.6%, and 11.4%, respectively; after the combined treatment of 1.25, 2.5, and 5 &#x3BC;M ABT-737 and 8 &#x3BC;M As<sub>2</sub>O<sub>3</sub>, the survival rates were 42.7%, 20.4%, and 12.5%, respectively. The ratios of cell viability of Caski cervical cancer cells after a single treatment of 1.25, 2.5, and 5 &#x3BC;M ABT-737 alone were 96.6%, 69.9%, and 23.7%, respectively, and the survival rates after treatment with 0, 2, and 8 &#x3BC;M As<sub>2</sub>O<sub>3</sub> were 100%, 69.1%, and 53.7%, respectively (<xref ref-type="fig" rid="cancers-12-00108-f001">Figure 1</xref>B). After the combined treatment of 1.25, 2.5, and 5 &#x3BC;M ABT-737 and 2 &#x3BC;M As<sub>2</sub>O<sub>3</sub>, the survival rates of the Caski cancer cells were 39.3%, 25.6%, and 14.7%, respectively. After the combined treatment of 1.25, 2.5, and 5 &#x3BC;M ABT-737 and 8 &#x3BC;M As<sub>2</sub>O<sub>3</sub>, the survival rates were 26.3%, 18.9%, and 15%, respectively. The combined effects of ABT-737 and As<sub>2</sub>O<sub>3</sub> were evaluated on the basis of a combination index. In the SiHa and Caski cells, the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> manifested synergistic inhibitory effects (combination index of &lt;0.9; <xref ref-type="fig" rid="cancers-12-00108-f001">Figure 1</xref>C,D), and cell viability was observed in nonmalignant cells. This combined treatment did not considerably decrease cell viability in the mouse embryonic fibroblast and human keratinocyte cell line HaCat cells (<xref ref-type="app" rid="app1-cancers-12-00108">Figure S1</xref>). These results demonstrated that the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> induced synergistic inhibitory effects on cervical cancer cells.</p>
+      </sec>
+      <sec id="sec3dot2-cancers-12-00108">
+        <title>3.2. Effect of ABT-737 Combined with As<sub>2</sub>O<sub>3</sub> on Annexin V/PI Assay in Cervical Cancer Cells</title>
+        <p>Cell death was investigated, and the underlying mechanism was analyzed by annexin V/PI assay. The combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> increased the population of annexin V(+)/PI(&#x2212;) and annexin V(+)/PI(+) in the SiHa and Caski cells. This result suggested that ABT-737 and As<sub>2</sub>O<sub>3</sub> induced apoptotic cell death (<xref ref-type="fig" rid="cancers-12-00108-f002">Figure 2</xref>A). Changes in cleaved caspase-7 after ABT-737 and As<sub>2</sub>O<sub>3</sub> treatment were observed through Western blot. The combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> markedly increased cleaved caspase-7 levels in the SiHa cells. Unlike in the SiHa cells, cleaved caspase-7 was slightly upregulated in the Caski cells after the combined treatment as compared with that in separate treatments (<xref ref-type="fig" rid="cancers-12-00108-f002">Figure 2</xref>B). Surprisingly, Z-VAD-FMK, a pan-caspase inhibitor, minimally reversed cytotoxicity in both cells after ABT-737 single agent or combined treatment, but did not reverse cytotoxicity induced by treatment with As<sub>2</sub>O<sub>3</sub> alone (<xref ref-type="app" rid="app1-cancers-12-00108">Figure S2</xref>). These results, suggest that SiHa and Caski cells undergo a hybrid form of cell death involving partly apoptosis as well as a non-apoptotic caspase-independent cell death awaiting characterization.</p>
+      </sec>
+      <sec id="sec3dot3-cancers-12-00108">
+        <title>3.3. Effect of ABT-737 Combined with As<sub>2</sub>O<sub>3</sub> on MMP, &#x394;&#x3A8;m</title>
+        <p>JC-1 is a lipophilic mitochondrial agent that detects mitochondrial polarization. JC-1 stains the mitochondria in living cells in a membrane potential-dependent fashion. The so-called J-aggregates, which are favored at a high MMP (mitochondrial membrane potential) and present in the mitochondria, are in equilibrium with JC-1 monomers, which are favored at a low MMP level and present in the cytoplasm [<xref ref-type="bibr" rid="B24-cancers-12-00108">24</xref>,<xref ref-type="bibr" rid="B25-cancers-12-00108">25</xref>]. The ratio between J-aggregates and monomers was calculated for the analysis of MMP detected by flow cytometry (BD Biosciences, San Jose, CA, USA).</p>
+        <p>As shown in <xref ref-type="fig" rid="cancers-12-00108-f003">Figure 3</xref>A, MMP level was 7% reduced by ABT-737 in the SiHa cells but not by the combination treatment. Unlike in the SiHa cells, the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> markedly reduced MMP level in the Caski cells (<xref ref-type="fig" rid="cancers-12-00108-f003">Figure 3</xref>A). The voltage-dependent anion channel 1 (VDAC1) did not substantially change after the separate treatment of ABT-737 or As<sub>2</sub>O<sub>3</sub> in the SiHa and Caski cells (<xref ref-type="fig" rid="cancers-12-00108-f003">Figure 3</xref>B,C). ABT-737 decreased As<sub>2</sub>O<sub>3</sub>-induced adenine nucleotide translocase (ANT) upregulation in the SiHa cells (<xref ref-type="fig" rid="cancers-12-00108-f003">Figure 3</xref>B). The amount of ANT was reduced after the separate treatment of ABT-737 in the Caski cells (<xref ref-type="fig" rid="cancers-12-00108-f003">Figure 3</xref>C). Furthermore, ANT reduction was promoted after the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> in the Caski cells as compared with that in separate treatments (<xref ref-type="fig" rid="cancers-12-00108-f003">Figure 3</xref>C).</p>
+      </sec>
+      <sec id="sec3dot4-cancers-12-00108">
+        <title>3.4. Effect of ABT-737 Combined with As<sub>2</sub>O<sub>3</sub> on ROS</title>
+        <p>The amount of H<sub>2</sub>O<sub>2</sub> was determined on the basis of fluorescent light detection for oxidative stress by flow cytometry using a H2DCFDA dye. The ROS signal shifted to the right in the SiHa and Caski cells after ABT-737 was administered 8 h later. These results indicated that ABT-737 induced oxidative stress in the cervical cancer cells (<xref ref-type="fig" rid="cancers-12-00108-f004">Figure 4</xref>).</p>
+      </sec>
+      <sec id="sec3dot5-cancers-12-00108">
+        <title>3.5. Expressions of Anti-Apoptosis Proteins, Cell Cycle Regulated Protein CDK6 and DNA Synthesis TS after ABT-737 and As<sub>2</sub>O<sub>3</sub> Co-Treatment</title>
+        <p>ABT-737 alone increased the expression levels of Mcl-1, and As<sub>2</sub>O<sub>3</sub> alone decreased the ABT-737-induced Mcl-1 (<xref ref-type="fig" rid="cancers-12-00108-f005">Figure 5</xref>A). Unlike in the SiHa cells, ABT-737 alone reduced the expression levels of Mcl-1 in the Caski cells. Furthermore, the combined treatment remarkably decreased Mcl-1 expression in the Caski cells compared with the separate treatments (<xref ref-type="fig" rid="cancers-12-00108-f005">Figure 5</xref>B). The expression levels of Bax and Bak were not altered after the separate or combined treatments in both types of cancer cells (<xref ref-type="fig" rid="cancers-12-00108-f005">Figure 5</xref>A). CDK6 expression decreased after separate ABT-737 or As<sub>2</sub>O<sub>3</sub> treatments in the SiHa cells (<xref ref-type="fig" rid="cancers-12-00108-f005">Figure 5</xref>C). The amount of TS in the SiHa cells was reduced by the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> (<xref ref-type="fig" rid="cancers-12-00108-f005">Figure 5</xref>C). The amounts of CDK6 and TS in the Caski cells progressively decreased as the dose of ABT-737 increased (<xref ref-type="fig" rid="cancers-12-00108-f005">Figure 5</xref>D). After the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub>, the performance of both proteins decreased as the dose increased (<xref ref-type="fig" rid="cancers-12-00108-f005">Figure 5</xref>D).</p>
+      </sec>
+      <sec id="sec3dot6-cancers-12-00108">
+        <title>3.6. Co-Treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> Induced Anti-Apoptotic Autophagy in SiHa Cells</title>
+        <p>Autophagy is an anti-apoptosis mechanism [<xref ref-type="bibr" rid="B26-cancers-12-00108">26</xref>]. The combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> increased the LC3B-II/LC3B-I ratio, suggesting that autophagy was induced in the SiHa cells after the treatment (<xref ref-type="fig" rid="cancers-12-00108-f006">Figure 6</xref>A). However, ABT-737 decreased the ratio of LC3B-II/LC3B-I in the Caski cells (<xref ref-type="fig" rid="cancers-12-00108-f006">Figure 6</xref>B). Furthermore, the As<sub>2</sub>O<sub>3</sub>-induced LC3B-II/LC3B-I ratio decreased because of ABT-737 (<xref ref-type="fig" rid="cancers-12-00108-f006">Figure 6</xref>B). To evaluate the role of autophagy as induced by the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> in activating apoptosis, we used the autophagy inhibitors 3-MA and chloroquine to inhibit autophagy in the SiHa cells. As shown in <xref ref-type="fig" rid="cancers-12-00108-f006">Figure 6</xref>C, 3-MA partially decreased the LC3B-II/LC3B-I ratio induced by ABT-737 and As<sub>2</sub>O<sub>3</sub>. Compared with the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub>, chloroquine increased the accumulation of LC3B-II, suggesting that the combined treatment induced autophagic flux in the SiHa cells (<xref ref-type="fig" rid="cancers-12-00108-f006">Figure 6</xref>C). Both autophagy inhibitors increased cleaved caspase-7 in the SiHa cells. This result showed that the combined treatment induced anti-apoptotic autophagy in the SiHa cells.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-cancers-12-00108" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>The action of ABT-737 on Bcl-2 has been demonstrated [<xref ref-type="bibr" rid="B2-cancers-12-00108">2</xref>,<xref ref-type="bibr" rid="B3-cancers-12-00108">3</xref>]. We explored the effects of ABT-737 on cervical cancer from a different perspective. Although the combination of ABT-737 with arsenic trioxide enhances cell apoptosis, their unique actions on cervical cancer cells were explored in other routes rather than the direct inhibition of Bcl-2. The unique actions of ABT-737 and arsenic trioxide on uterine cervical cancer are summarized in <xref ref-type="fig" rid="cancers-12-00108-f007">Figure 7</xref>.</p>
+      <p>We found that ABT-737 can induce cell death via different pathways other than Bax and Bak in Caski cervical cancer cells. ABT-737 augmented these actions after the combined treatment of As<sub>2</sub>O<sub>3</sub> with synergistic effect. However, these effects are slightly different in SiHa cells. Aside from the Bax and Bak pathways, other pathways induce cell death in SiHa cells, which are more resistant to chemotherapy than Caski cells because SiHa cells exhibit higher levels of antioxidant enzymes [<xref ref-type="bibr" rid="B27-cancers-12-00108">27</xref>]. Therefore, they may have different profiles to cytotoxic drugs. Caski cells, each containing 600 copies of the human papillomavirus 16 (HPV 16) genome, are more sensitive to cytokines than SiHa cells, which only have one or two copies of the HPV 16 genome [<xref ref-type="bibr" rid="B28-cancers-12-00108">28</xref>]. Another study reported that SiHa cells present resistance to therapy from their early oncogenic protein HPV E6, causing host cell damage and then promoting cancer cell growth [<xref ref-type="bibr" rid="B29-cancers-12-00108">29</xref>]. SiHa cell resistance can be reduced through p53 analogue p73 &#x3B1; overexpression. The present study implied that the stronger resistance of SiHa cells as compared with that of Caski cells may be overcome by the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub>.We have unique findings that ABT-737 can induce cell death via the pathways rather than Bax and Bak in Caski cervical cancer cells and augments these actions after co-treatment of As<sub>2</sub>O<sub>3</sub> with synergistic effect. However, these effects are slightly diverse in SiHa cells. In addition to via Bax and Bak, other pathways are demonstrated to induce cell death in SiHa cells. SiHa cells were found to be more resistant to chemotherapy than Caski cells because SiHa cells exhibited higher levels of antioxidant enzyme [<xref ref-type="bibr" rid="B27-cancers-12-00108">27</xref>]. Therefore, they may have potential to present different profiles to cytotoxic drugs. Caski cells, containing 600 copies of the human papillmovirus 16 (HPV 16) genome per cell were also found to be quite sensitive to the cytokine as compared to SiHa cells, with only one to two copies of the HPV 16 genome [<xref ref-type="bibr" rid="B28-cancers-12-00108">28</xref>]. Another study found that SiHa cells present more resistant to therapy results from their early oncogenic protein HPV E6, causing host cells damage and then promoting cancer cell growth [<xref ref-type="bibr" rid="B29-cancers-12-00108">29</xref>]. It revealed that SiHa cells resistance can be reduced through the p53 analogue, p73 &#x3B1; overexpression. Our study implied that the stronger resistance of SiHa cells than Caski cells may be overcome via combined ABT-737 and As<sub>2</sub>O<sub>3</sub>, exerting higher Bax and Bak expression and stronger synergistic effect in SiHa cells.</p>
+      <p>The amount of ANT in the Caski cells was substantially reduced after the combined treatment. This reduction is associated with the dissipation of MMP and the subsequent initiation of cell death. Hexokinase (HK) can bind to the outer mitochondrial membrane (OMM), especially to VDAC1; the outmost portion of the permeability transition pore complex (also known as the mitochondrial permeability transition pore (MPTP)) that is composed of VDAC1 at the OMM; ANT at the inner mitochondrial membrane (IMM); and cyclophilin D in the mitochondrial matrix [<xref ref-type="bibr" rid="B30-cancers-12-00108">30</xref>,<xref ref-type="bibr" rid="B31-cancers-12-00108">31</xref>]. Hexokinase II can convert glucose-6-phosphate, which is produced by HK in the cytoplasm, to ATP and glucose. ATP is transferred through the VDAC channel at OMM and ANT at IMM to maintain MMP &#x394;&#x3A8;<sub>m</sub> in aerobic glycolysis, which is the principal process of energy supply for cancer cells [<xref ref-type="bibr" rid="B32-cancers-12-00108">32</xref>,<xref ref-type="bibr" rid="B33-cancers-12-00108">33</xref>]. When ANT is depleted, MMP is dissipated, and the permeability to MPTP increases [<xref ref-type="bibr" rid="B32-cancers-12-00108">32</xref>]. This process leads to cytochrome c release and cell death. A previous study reported that non-small cell lung cancer with ANT overexpression may exhibit resistance to epidermal growth factor receptor/tyrosine kinase therapy [<xref ref-type="bibr" rid="B34-cancers-12-00108">34</xref>]. Targeting ANT overcomes the resistance. In the present study, the expression levels of Bax increased after the combined treatment in the SiHa cells but they did not change in the Caski cells. However, Yu et al. found that As<sub>2</sub>O<sub>3</sub> can trigger apoptosis associated with the dissociation of Bcl-2 from Bax and VDAC and then release cytochrome c from Bax and the VDAC channel that is different from MPTP [<xref ref-type="bibr" rid="B13-cancers-12-00108">13</xref>,<xref ref-type="bibr" rid="B35-cancers-12-00108">35</xref>]. This process may rescue the lower ANT reduction in SiHa cells as compared with that in Caski cell for the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> in our experiments to promote cell death.</p>
+      <p>We found that Mcl-1 expression in Caski cells obviously decreased after the combined treatment. By contrast, the expression levels of Bax and Bak did not change. Vikstr&#xF6;m et al. reported that the loss of MCL-1 promotes Bcl-2 inhibition in long-lived plasma cell populations to ABT-737 in animal experiments [<xref ref-type="bibr" rid="B36-cancers-12-00108">36</xref>]. Mcl-1 overexpression induces resistance against a number of widely-used anticancer therapies [<xref ref-type="bibr" rid="B37-cancers-12-00108">37</xref>], such as paclitaxel [<xref ref-type="bibr" rid="B38-cancers-12-00108">38</xref>], vincristine [<xref ref-type="bibr" rid="B38-cancers-12-00108">38</xref>], and gemcitabine [<xref ref-type="bibr" rid="B39-cancers-12-00108">39</xref>]. However, sensitivity to ABT-737 may be improved through the downregulation of Mcl-1 [<xref ref-type="bibr" rid="B40-cancers-12-00108">40</xref>,<xref ref-type="bibr" rid="B41-cancers-12-00108">41</xref>]. Furthermore, the combined treatment of ABT-737 and arsenic trioxide remarkably inhibits the xenograft growth of human gastric carcinoma cell lines SGC-7901, synergistically decreases tumor growth, and induces apoptosis in vivo [<xref ref-type="bibr" rid="B42-cancers-12-00108">42</xref>]. Therefore, an attractive strategy and promising cancer target for anti-apoptotic Bcl-2 family members using ABT-737 can be applied in combination with additional treatment modalities [<xref ref-type="bibr" rid="B43-cancers-12-00108">43</xref>].</p>
+      <p>Mitotic signals stimulate CDK4 and CDK6 activities, which promote cancer cell proliferation through the entrance of G1 into the S phase in cell cycle [<xref ref-type="bibr" rid="B44-cancers-12-00108">44</xref>]. Only ABT-737 cannot arrest cell cycle. However, As<sub>2</sub>O<sub>3</sub> can induce G2/M arrest by p21 upregulation in acute promyelocytic leukemia [<xref ref-type="bibr" rid="B45-cancers-12-00108">45</xref>]. CDK6 decreased after As<sub>2</sub>O<sub>3</sub> was added for 72 h. Thymidylate synthase participates in cell DNA synthesis [<xref ref-type="bibr" rid="B46-cancers-12-00108">46</xref>]. Suppression of TS reduces intracellular thymidine. As<sub>2</sub>O<sub>3</sub> can reportedly suppress TS in 5-fluorouracil-resistant colorectal cancer cell line HT29 and assumes its use as a chemosensitizer in combination therapy [<xref ref-type="bibr" rid="B47-cancers-12-00108">47</xref>]. Therefore, the reduced expression of CDK6 and TS results in cell cycle arrest and defect in DNA synthesis and leads to cell degradation and apoptosis [<xref ref-type="bibr" rid="B48-cancers-12-00108">48</xref>].</p>
+      <p>Autophagy can serve either as a pro-apoptosis or anti-apoptosis mechanism [<xref ref-type="bibr" rid="B49-cancers-12-00108">49</xref>]. In the present study, the combined treatment of ABT-737 and As<sub>2</sub>O<sub>3</sub> increased autophagy in the SiHa cells. Two inhibitors, namely, 3-MA and chloroquine were used to inhibit the different stages of autophagy. The combined treatment induced apoptosis-inhibiting autophagy. Chloroquine treatment increased LC3B-II accumulation in the SiHa cells after the combined treatment, suggesting that ABT-737 and As<sub>2</sub>O<sub>3</sub> induce autophagic flux. Furthermore, ABT-737 induced apoptosis to a greater extent in the Caski cells than in SiHa cells. These results suggested that autophagy inhibition by ABT-737 increases ABT-737 sensitivity in Caski cells.</p>
+    </sec>
+    <sec id="sec5-cancers-12-00108" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The combined treatment of ABT-737 and arsenic trioxide may exert a synergistic effect to induce the death of cervical cancer cells. The apoptotic ratio in the SiHa and Caski cells substantially increased after the combined treatment. ABT-737 and As<sub>2</sub>O<sub>3</sub> cause ANT depletion and may simultaneously generate oxidative stress that will lead to MMP reduction [<xref ref-type="bibr" rid="B30-cancers-12-00108">30</xref>,<xref ref-type="bibr" rid="B33-cancers-12-00108">33</xref>]. These phenomena are sequentially involved in the activation of cleaved caspase-7. Meanwhile, aside from aggravating the above situations, they inhibit the expression of anti-apoptotic proteins and induce cell arrest through CDK6 reduction and interruption of DNA synthesis. Aside from the Bax and Bak pathways, a novel model of how ABT-737 and arsenic trioxide induce cervical cancer cell death in various ways is depicted. These mechanisms can be developed as novel therapeutic strategies for treating uterine cervical cancer.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-cancers-12-00108">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>https://www.mdpi.com/2072-6694/12/1/108/s1</uri>, Figure S1: Effect of ABT-737 and As<sub>2</sub>O<sub>3</sub> on cell viability in Mouse Embryonic Fibroblasts (MEF) and human keratinocyte cell line, HaCaT, Figure S2: Effect of pan-caspase inhibitor Z-VAD-FMK on cell viability in SiHa and Caski cells after ABT-737 and As<sub>2</sub>O<sub>3</sub> treatment, Figure S3. Wetern blot.</p>
+		<supplementary-material id="cancers-12-00108-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cancers-12-00108-s001.pdf"></supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>I.-L.H., Y.-H.C., and W.-L.H. performed the experiments and analyzed the data. I.-L.H. and P.-H.W. wrote the paper. J.-L.K. and P.-H.W. designed the experiments, provided crucial suggestions, and revised the paper. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This study was supported by research grants from Taiwan Ministry of Science and Technology (MOST 107-2314-B-040-017-MY3).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>There are no conflicts of interest to declare.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-cancers-12-00108">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Willis</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Life in the balance: How BH3-only proteins induce apoptosis</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2005</year>
+          <volume>17</volume>
+          <fpage>617</fpage>
+          <lpage>625</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2005.10.001</pub-id>
+          <pub-id pub-id-type="pmid">16243507</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-cancers-12-00108">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oltersdorf</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Elmore</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Shoemaker</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Armstrong</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Augeri</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Belli</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Bruncko</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Deckwerth</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Dinges</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hajduk</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>An inhibitor of Bcl-2 family proteins induces regression of solid tumours</article-title>
+          <source>Nature</source>
+          <year>2005</year>
+          <volume>435</volume>
+          <fpage>677</fpage>
+          <lpage>681</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature03579</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-cancers-12-00108">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yecies</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Carlson</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Letai</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Acquired resistance to ABT-737 in lymphoma cells that up-regulate MCL-1 and BFL-1</article-title>
+          <source>Blood</source>
+          <year>2010</year>
+          <volume>115</volume>
+          <fpage>3304</fpage>
+          <lpage>3313</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2009-07-233304</pub-id>
+          <pub-id pub-id-type="pmid">20197552</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-cancers-12-00108">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Harada</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Dent</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Grant</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mcl-1 down-regulation potentiates ABT-737 lethality by cooperatively inducing Bak activation and Bax translocation</article-title>
+          <source>Cancer Res.</source>
+          <year>2007</year>
+          <volume>67</volume>
+          <fpage>782</fpage>
+          <lpage>791</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-06-3964</pub-id>
+          <pub-id pub-id-type="pmid">17234790</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-cancers-12-00108">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Konopleva</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Contractor</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Tsao</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Samudio</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Ruvolo</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Kitada</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhai</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y.X.</given-names>
+            </name>
+            <name>
+              <surname>Sneed</surname>
+              <given-names>T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mechanisms of apoptosis sensitivity and resistance to the BH3 mimetic ABT-737 in acute myeloid leukemia</article-title>
+          <source>Cancer Cell</source>
+          <year>2006</year>
+          <volume>10</volume>
+          <fpage>375</fpage>
+          <lpage>388</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ccr.2006.10.006</pub-id>
+          <pub-id pub-id-type="pmid">17097560</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-cancers-12-00108">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mason</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Vandenberg</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Cory</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>A.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>In Vivo efficacy of the Bcl-2 antagonist ABT-737 against aggressive Myc-driven lymphomas</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>17961</fpage>
+          <lpage>17966</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0809957105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-cancers-12-00108">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kutuk</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Letai</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alteration of the mitochondrial apoptotic pathway is key to acquired paclitaxel resistance and can be reversed by ABT-737</article-title>
+          <source>Cancer Res.</source>
+          <year>2008</year>
+          <volume>68</volume>
+          <fpage>7985</fpage>
+          <lpage>7994</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-08-1418</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-cancers-12-00108">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Dobrikov</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Keir</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Gromeier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pastan</surname>
+              <given-names>I.H.</given-names>
+            </name>
+            <name>
+              <surname>Reisfeld</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bigner</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Chandramohan</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergistic antitumor effects of 9.2.27-PE38KDEL and ABT-737 in primary and metastatic brain tumors</article-title>
+          <source>PLoS ONE</source>
+          <year>2019</year>
+          <volume>14</volume>
+          <elocation-id>e0210608</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0210608</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-cancers-12-00108">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Perifosine and ABT-737 synergistically inhibit lung cancer cells In Vitro and In Vivo</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2016</year>
+          <volume>473</volume>
+          <fpage>1170</fpage>
+          <lpage>1176</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2016.04.035</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-cancers-12-00108">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hwang</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Oh</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.A.</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>K.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>ABT-737 ameliorates docetaxel resistance in triple negative breast cancer cell line</article-title>
+          <source>Ann. Surg. Treat. Res.</source>
+          <year>2018</year>
+          <volume>95</volume>
+          <fpage>240</fpage>
+          <lpage>248</lpage>
+          <pub-id pub-id-type="doi">10.4174/astr.2018.95.5.240</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-cancers-12-00108">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Antman</surname>
+              <given-names>K.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Introduction: The history of arsenic trioxide in cancer therapy</article-title>
+          <source>Oncologist</source>
+          <year>2001</year>
+          <volume>6</volume>
+          <supplement>(Suppl. 2)</supplement>
+          <fpage>1</fpage>
+          <lpage>2</lpage>
+          <pub-id pub-id-type="doi">10.1634/theoncologist.6-suppl_2-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-cancers-12-00108">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kumar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yedjou</surname>
+              <given-names>C.G.</given-names>
+            </name>
+            <name>
+              <surname>Tchounwou</surname>
+              <given-names>P.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arsenic trioxide induces oxidative stress, DNA damage, and mitochondrial pathway of apoptosis in human leukemia (HL-60) cells</article-title>
+          <source>J. Exp. Clin. Cancer Res.</source>
+          <year>2014</year>
+          <volume>33</volume>
+          <fpage>42</fpage>
+          <pub-id pub-id-type="doi">10.1186/1756-9966-33-42</pub-id>
+          <pub-id pub-id-type="pmid">24887205</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-cancers-12-00108">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Therapeutic effect of arsenic trioxide (As<sub>2</sub>O<sub>3</sub>) on cervical cancer In Vitro and In Vivo through apoptosis induction</article-title>
+          <source>Cancer Biol. Ther.</source>
+          <year>2007</year>
+          <volume>6</volume>
+          <fpage>580</fpage>
+          <lpage>586</lpage>
+          <pub-id pub-id-type="doi">10.4161/cbt.6.4.3887</pub-id>
+          <pub-id pub-id-type="pmid">17374990</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-cancers-12-00108">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arsenic Trioxide Suppressed Migration and Angiogenesis by Targeting FOXO3a in Gastric Cancer Cells</article-title>
+          <source>Int. J. Mol. Sci.</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <elocation-id>3739</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ijms19123739</pub-id>
+          <pub-id pub-id-type="pmid">30477221</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-cancers-12-00108">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qiu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shan</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ju</surname>
+              <given-names>L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Arsenic trioxide reverses the chemoresistance in hepatocellular carcinoma: A targeted intervention of 14-3-3eta/NF-kappaB feedback loop</article-title>
+          <source>J. Exp. Clin. Cancer Res.</source>
+          <year>2018</year>
+          <volume>37</volume>
+          <fpage>321</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13046-018-1005-y</pub-id>
+          <pub-id pub-id-type="pmid">30572915</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-cancers-12-00108">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Antignani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Youle</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>How do Bax and Bak lead to permeabilization of the outer mitochondrial membrane?</article-title>
+          <source>Curr. Opin. Cell Biol.</source>
+          <year>2006</year>
+          <volume>18</volume>
+          <fpage>685</fpage>
+          <lpage>689</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2006.10.004</pub-id>
+          <pub-id pub-id-type="pmid">17046225</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-cancers-12-00108">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Annis</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Soucie</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Dlugosz</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Cruz-Aguado</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Penn</surname>
+              <given-names>L.Z.</given-names>
+            </name>
+            <name>
+              <surname>Leber</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Andrews</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bax forms multispanning monomers that oligomerize to permeabilize membranes during apoptosis</article-title>
+          <source>EMBO J.</source>
+          <year>2005</year>
+          <volume>24</volume>
+          <fpage>2096</fpage>
+          <lpage>2103</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.emboj.7600675</pub-id>
+          <pub-id pub-id-type="pmid">15920484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-cancers-12-00108">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dlugosz</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Billen</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Annis</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Leber</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Andrews</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bcl-2 changes conformation to inhibit Bax oligomerization</article-title>
+          <source>EMBO J.</source>
+          <year>2006</year>
+          <volume>25</volume>
+          <fpage>2287</fpage>
+          <lpage>2296</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.emboj.7601126</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-cancers-12-00108">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shen</surname>
+              <given-names>H.P.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>T.F.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Yeh</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>P.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of ABT-737 combined with irradiation treatment on uterine cervical cancer cells</article-title>
+          <source>Oncol. Lett.</source>
+          <year>2019</year>
+          <volume>18</volume>
+          <fpage>4328</fpage>
+          <lpage>4336</lpage>
+          <pub-id pub-id-type="doi">10.3892/ol.2019.10755</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-cancers-12-00108">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsin</surname>
+              <given-names>I.L.</given-names>
+            </name>
+            <name>
+              <surname>Ou</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Jan</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Hsiao</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>GMI, an Immunomodulatory Protein from Ganoderma microsporum, Potentiates Cisplatin-Induced Apoptosis via Autophagy in Lung Cancer Cells</article-title>
+          <source>Mol. Pharm.</source>
+          <year>2015</year>
+          <volume>12</volume>
+          <fpage>1534</fpage>
+          <lpage>1543</lpage>
+          <pub-id pub-id-type="doi">10.1021/mp500840z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-cancers-12-00108">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsin</surname>
+              <given-names>I.L.</given-names>
+            </name>
+            <name>
+              <surname>Ou</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Jan</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Chiu</surname>
+              <given-names>L.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lue</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>GMI, an immunomodulatory protein from Ganoderma microsporum, induces autophagy in non-small cell lung cancer cells</article-title>
+          <source>Autophagy</source>
+          <year>2011</year>
+          <volume>7</volume>
+          <fpage>873</fpage>
+          <lpage>882</lpage>
+          <pub-id pub-id-type="doi">10.4161/auto.7.8.15698</pub-id>
+          <pub-id pub-id-type="pmid">21490426</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-cancers-12-00108">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsin</surname>
+              <given-names>I.L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Ciou</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunomodulatory proteins FIP-gts and chloroquine induce caspase-independent cell death via autophagy for resensitizing cisplatin-resistant urothelial cancer cells</article-title>
+          <source>Phytomedicine</source>
+          <year>2016</year>
+          <volume>23</volume>
+          <fpage>1566</fpage>
+          <lpage>1573</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.phymed.2016.09.003</pub-id>
+          <pub-id pub-id-type="pmid">27823620</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-cancers-12-00108">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsin</surname>
+              <given-names>I.L.</given-names>
+            </name>
+            <name>
+              <surname>Hsu</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>GMI, a fungal immunomodulatory protein from Ganoderma microsporum, induce apoptosis via beta-catenin suppression in lung cancer cells</article-title>
+          <source>Environ. Toxicol.</source>
+          <year>2018</year>
+          <volume>33</volume>
+          <fpage>955</fpage>
+          <lpage>961</lpage>
+          <pub-id pub-id-type="doi">10.1002/tox.22582</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-cancers-12-00108">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>St John</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Amaral</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bowles</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Oliveira</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Lloyd</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Freitas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gray</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Navara</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Oliveira</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Schatten</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The analysis of mitochondria and mitochondrial DNA in human embryonic stem cells</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2006</year>
+          <volume>331</volume>
+          <fpage>347</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="doi">10.1385/1-59745-046-4:347</pub-id>
+          <pub-id pub-id-type="pmid">16881526</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-cancers-12-00108">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shah</surname>
+              <given-names>B.P.</given-names>
+            </name>
+            <name>
+              <surname>Pasquale</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>De</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>K.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Core-shell nanoparticle-based peptide therapeutics and combined hyperthermia for enhanced cancer cell apoptosis</article-title>
+          <source>ACS Nano</source>
+          <year>2014</year>
+          <volume>8</volume>
+          <fpage>9379</fpage>
+          <lpage>9387</lpage>
+          <pub-id pub-id-type="doi">10.1021/nn503431x</pub-id>
+          <pub-id pub-id-type="pmid">25133971</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-cancers-12-00108">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Doherty</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Baehrecke</surname>
+              <given-names>E.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Life, death and autophagy</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2018</year>
+          <volume>20</volume>
+          <fpage>1110</fpage>
+          <lpage>1117</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41556-018-0201-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-cancers-12-00108">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Filippova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Filippov</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kokoza</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bashkirova</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Duerksen-Hughes</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cellular levels of oxidative stress affect the response of cervical cancer cells to chemotherapeutic agents</article-title>
+          <source>Biomed. Res. Int.</source>
+          <year>2014</year>
+          <volume>2014</volume>
+          <fpage>574659</fpage>
+          <pub-id pub-id-type="doi">10.1155/2014/574659</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-cancers-12-00108">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Filippova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brown-Bryan</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Casiano</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Duerksen-Hughes</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The human papillomavirus 16 E6 protein can either protect or further sensitize cells to TNF: Effect of dose</article-title>
+          <source>Cell Death Differ.</source>
+          <year>2005</year>
+          <volume>12</volume>
+          <fpage>1622</fpage>
+          <lpage>1635</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.cdd.4401678</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-cancers-12-00108">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>K.Y.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>R.C.</given-names>
+            </name>
+            <name>
+              <surname>Law</surname>
+              <given-names>H.K.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>T.W.</given-names>
+            </name>
+            <name>
+              <surname>Ngan</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhancement of the radiosensitivity of cervical cancer cells by overexpressing p73alpha</article-title>
+          <source>Mol. Cancer Ther.</source>
+          <year>2006</year>
+          <volume>5</volume>
+          <fpage>1209</fpage>
+          <lpage>1215</lpage>
+          <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-05-0451</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-cancers-12-00108">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kroemer</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Galluzzi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Brenner</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial membrane permeabilization in cell death</article-title>
+          <source>Physiol. Rev.</source>
+          <year>2007</year>
+          <volume>87</volume>
+          <fpage>99</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="doi">10.1152/physrev.00013.2006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-cancers-12-00108">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gottlob</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Majewski</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kennedy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kandel</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Robey</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Hay</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of early apoptotic events by Akt/PKB is dependent on the first committed step of glycolysis and mitochondrial hexokinase</article-title>
+          <source>Genes Dev.</source>
+          <year>2001</year>
+          <volume>15</volume>
+          <fpage>1406</fpage>
+          <lpage>1418</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.889901</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-cancers-12-00108">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Halestrap</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>A.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mitochondrial permeability transition: A current perspective on its identity and role in ischaemia/reperfusion injury</article-title>
+          <source>J. Mol. Cell Cardiol.</source>
+          <year>2015</year>
+          <volume>78</volume>
+          <fpage>129</fpage>
+          <lpage>141</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.yjmcc.2014.08.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-cancers-12-00108">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chevrollier</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Loiseau</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Reynier</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Stepien</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adenine nucleotide translocase 2 is a key mitochondrial protein in cancer metabolism</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2011</year>
+          <volume>1807</volume>
+          <fpage>562</fpage>
+          <lpage>567</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbabio.2010.10.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-cancers-12-00108">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jang</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+            <name>
+              <surname>Nam</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Keam</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Jeon</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>C.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting Adenine Nucleotide Translocase-2 (ANT2) to Overcome Resistance to Epidermal Growth Factor Receptor Tyrosine Kinase Inhibitor in Non-Small Cell Lung Cancer</article-title>
+          <source>Mol. Cancer Ther.</source>
+          <year>2016</year>
+          <volume>15</volume>
+          <fpage>1387</fpage>
+          <lpage>1396</lpage>
+          <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-15-0089</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-cancers-12-00108">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shoshan-Barmatz</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>De Pinto</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Zweckstetter</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Raviv</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Keinan</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Arbel</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>VDAC, a multi-functional mitochondrial protein regulating cell life and death</article-title>
+          <source>Mol. Asp. Med.</source>
+          <year>2010</year>
+          <volume>31</volume>
+          <fpage>227</fpage>
+          <lpage>285</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mam.2010.03.002</pub-id>
+          <pub-id pub-id-type="pmid">20346371</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-cancers-12-00108">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vikstrom</surname>
+              <given-names>I.B.</given-names>
+            </name>
+            <name>
+              <surname>Slomp</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Carrington</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Moesbergen</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Glaser</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Leusen</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Strasser</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>MCL-1 is required throughout B-cell development and its loss sensitizes specific B-cell subsets to inhibition of BCL-2 or BCL-XL</article-title>
+          <source>Cell Death Dis.</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>e2345</fpage>
+          <pub-id pub-id-type="doi">10.1038/cddis.2016.237</pub-id>
+          <pub-id pub-id-type="pmid">27560714</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-cancers-12-00108">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Belmar</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fesik</surname>
+              <given-names>S.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Small molecule Mcl-1 inhibitors for the treatment of cancer</article-title>
+          <source>Pharmacol. Ther.</source>
+          <year>2015</year>
+          <volume>145</volume>
+          <fpage>76</fpage>
+          <lpage>84</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.pharmthera.2014.08.003</pub-id>
+          <pub-id pub-id-type="pmid">25172548</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-cancers-12-00108">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wertz</surname>
+              <given-names>I.E.</given-names>
+            </name>
+            <name>
+              <surname>Kusam</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Okamoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sandoval</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Helgason</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ernst</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Eby</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sensitivity to antitubulin chemotherapeutics is regulated by MCL1 and FBW7</article-title>
+          <source>Nature</source>
+          <year>2011</year>
+          <volume>471</volume>
+          <fpage>110</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature09779</pub-id>
+          <pub-id pub-id-type="pmid">21368834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-cancers-12-00108">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wei</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inducing apoptosis and enhancing chemosensitivity to gemcitabine via RNA interference targeting Mcl-1 gene in pancreatic carcinoma cell</article-title>
+          <source>Cancer Chemother. Pharmacol.</source>
+          <year>2008</year>
+          <volume>62</volume>
+          <fpage>1055</fpage>
+          <lpage>1064</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00280-008-0697-7</pub-id>
+          <pub-id pub-id-type="pmid">18297287</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-cancers-12-00108">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pan</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ruvolo</surname>
+              <given-names>V.R.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Konopleva</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Reed</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Pellecchia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Andreeff</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ruvolo</surname>
+              <given-names>P.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of Mcl-1 with the pan-Bcl-2 family inhibitor (-)BI97D6 overcomes ABT-737 resistance in acute myeloid leukemia</article-title>
+          <source>Blood</source>
+          <year>2015</year>
+          <volume>126</volume>
+          <fpage>363</fpage>
+          <lpage>372</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2014-10-604975</pub-id>
+          <pub-id pub-id-type="pmid">26045609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-cancers-12-00108">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Woo</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Min</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Seo</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Seo</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Jeong</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Kwon</surname>
+              <given-names>T.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>YM155 enhances ABT-737-mediated apoptosis through Mcl-1 downregulation in Mcl-1-overexpressed cancer cells</article-title>
+          <source>Mol. Cell Biochem.</source>
+          <year>2017</year>
+          <volume>429</volume>
+          <fpage>91</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11010-016-2938-0</pub-id>
+          <pub-id pub-id-type="pmid">28120212</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-cancers-12-00108">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>X.P.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Qiao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>ABT-737 synergizes with arsenic trioxide to induce apoptosis of gastric carcinoma cells In Vitro and In Vivo</article-title>
+          <source>J. Int. Med. Res.</source>
+          <year>2012</year>
+          <volume>40</volume>
+          <fpage>1251</fpage>
+          <lpage>1264</lpage>
+          <pub-id pub-id-type="doi">10.1177/147323001204000404</pub-id>
+          <pub-id pub-id-type="pmid">22971477</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-cancers-12-00108">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Souers</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Leverson</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Boghaert</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Ackler</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Catron</surname>
+              <given-names>N.D.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dayton</surname>
+              <given-names>B.D.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Enschede</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Fairbrother</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ABT-199, a potent and selective BCL-2 inhibitor, achieves antitumor activity while sparing platelets</article-title>
+          <source>Nat. Med.</source>
+          <year>2013</year>
+          <volume>19</volume>
+          <fpage>202</fpage>
+          <lpage>208</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm.3048</pub-id>
+          <pub-id pub-id-type="pmid">23291630</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-cancers-12-00108">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Asghar</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Witkiewicz</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Turner</surname>
+              <given-names>N.C.</given-names>
+            </name>
+            <name>
+              <surname>Knudsen</surname>
+              <given-names>E.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The history and future of targeting cyclin-dependent kinases in cancer therapy</article-title>
+          <source>Nat. Rev. Drug Discov.</source>
+          <year>2015</year>
+          <volume>14</volume>
+          <fpage>130</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrd4504</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-cancers-12-00108">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Hilsenbeck</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gazitt</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arsenic trioxide-induced apoptosis in myeloma cells: p53-dependent G1 or G2/M cell cycle arrest, activation of caspase-8 or caspase-9, and synergy with APO2/TRAIL</article-title>
+          <source>Blood</source>
+          <year>2003</year>
+          <volume>101</volume>
+          <fpage>4078</fpage>
+          <lpage>4087</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2002-10-3231</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-cancers-12-00108">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Longley</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Harkin</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Johnston</surname>
+              <given-names>P.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>5-fluorouracil: Mechanisms of action and clinical strategies</article-title>
+          <source>Nat. Rev. Cancer</source>
+          <year>2003</year>
+          <volume>3</volume>
+          <fpage>330</fpage>
+          <lpage>338</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrc1074</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-cancers-12-00108">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Subbarayan</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ardalan</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arsenic trioxide suppresses thymidylate synthase in 5-FU-resistant colorectal cancer cell line HT29 In Vitro re-sensitizing cells to 5-FU</article-title>
+          <source>Anticancer Res.</source>
+          <year>2010</year>
+          <volume>30</volume>
+          <fpage>1157</fpage>
+          <lpage>1162</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B48-cancers-12-00108">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilson</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Danenberg</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Johnston</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Lenz</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Ladner</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Standing the test of time: Targeting thymidylate biosynthesis in cancer therapy</article-title>
+          <source>Nat. Rev. Clin. Oncol.</source>
+          <year>2014</year>
+          <volume>11</volume>
+          <fpage>282</fpage>
+          <lpage>298</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrclinonc.2014.51</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-cancers-12-00108">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gump</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Thorburn</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autophagy and apoptosis: What is the connection?</article-title>
+          <source>Trends Cell Biol.</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>387</fpage>
+          <lpage>392</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2011.03.007</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="cancers-12-00108-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Effects of ABT-737 and As<sub>2</sub>O<sub>3</sub> on cell viability in cervical cancer cells. (<bold>A</bold>) SiHa (5 &#xD7; 10<sup>3</sup> cells/96 wells) were treated with different concentrations of ABT-737 (0, 1.25, 2.5, 5 &#x3BC;M) and As<sub>2</sub>O<sub>3</sub> (0, 2, 8 &#x3BC;M) for 48 h. (<bold>B</bold>) Caski cells (5 &#xD7; 10<sup>3</sup> cells/96 wells) were treated with different concentrations of ABT-737 (0, 1.25, 2.5, 5 &#x3BC;M) and As<sub>2</sub>O<sub>3</sub> (0, 2, 8 &#x3BC;M) for 48 h. The data were expressed as mean &#xB1; SD. Significant differences were determined by one-way ANOVA. * <italic>p</italic> &lt; 0.001, compared with cells without treatment; # <italic>p</italic> &lt; 0.001, compared with A<sub>s</sub>2O<sub>3</sub> individually treated but no ABT-737 treated cells. (<bold>C</bold>) Combination index of ABT-737 combined with As<sub>2</sub>O<sub>3</sub> on SiHa cancer cells. (<bold>D</bold>) Combination index of ABT-737 combined with As<sub>2</sub>O<sub>3</sub> on Caski cancer cells.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cancers-12-00108-g001.tif"/>
+      </fig>
+      <fig id="cancers-12-00108-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Effects of ABT-737 and As<sub>2</sub>O<sub>3</sub> mediated apoptosis in cervical cancer cells. (<bold>A</bold>) SiHa and Caski cells (4 &#xD7; 10<sup>5</sup> cells/6 cm dish) were co-treated with ABT-737 and As<sub>2</sub>O<sub>3</sub>. The cells were stained with annexin V-fluorescein isothiocyanate (FITC)/propidium iodide (PI) and analyzed by flow cytometry. annexin V-FITC positive (early apoptosis) and annexin V-FITC/PI positive (late apoptosis) were quantified as apoptosis cells. X axis, annexin staining; Y axis, PI staining. (<bold>B</bold>) SiHa and (<bold>C</bold>) Caski cells (4 &#xD7; 10<sup>5</sup> cells/6 cm dish) were co-treated with As<sub>2</sub>O<sub>3</sub> and ABT-737. Cleaved caspase-7 was detected by Western blot. &#x3B2;-actin was as a loading control. The relative ratio of cleaved caspase-7/&#x3B2;-actin is shown.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cancers-12-00108-g002.tif"/>
+      </fig>
+      <fig id="cancers-12-00108-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Effects of ABT-737 combined with As<sub>2</sub>O<sub>3</sub> on mitochondrial membrane potential (&#x394;&#x3A8;m) and mitochondrial membrane related proteins. (<bold>A</bold>) SiHa and Caski cells (4 &#xD7; 10<sup>5</sup> cells/6 cm dish) were combined with ABT-737 and As<sub>2</sub>O<sub>3</sub>for 48 h. The living cells were stained with 5,5,6,6&#x2032;-tetrachloro-1,1,3,3&#x2032;-tetraethylbenzimi-dazolylcarbocy-anine iodide (JC-1) dye to detect the mitochondrial membrane potential by flow cytometry. (<bold>B</bold>) SiHa and (<bold>C</bold>) Caski cells (4 &#xD7; 10<sup>5</sup> cells/6 cm dish) were co-treated with ABT-737 and As<sub>2</sub>O<sub>3</sub> for 48 h. Voltage&#x2013;dependent anion channel 1 (VDAC1) and adenine nucleotide translocase (ANT) 1/2/3 were detected by Western blot. &#x3B2;-actin was used as a loading control. The relative ratio of VDAC1/&#x3B2;-actin and ANT1/2/3/&#x3B2;-actin are shown.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cancers-12-00108-g003.tif"/>
+      </fig>
+      <fig id="cancers-12-00108-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Effects of ABT-737 combined with As<sub>2</sub>O<sub>3</sub> on reactive oxygen species (ROS) production in cervical cancer cells. SiHa cells (4 &#xD7; 10<sup>5</sup> cells/6 cm dish) and Caski (4 &#xD7; 10<sup>5</sup> cells/6 cm dish) were co-treated with ABT-737 and As<sub>2</sub>O<sub>3</sub> for 8 h. After treatment, the cells were stained with 2&#x2032;,7&#x2032;-dichlorodihydrofluorescein diacetate (H2DCFDA) dye to detect the production of ROS by flow cytometry.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cancers-12-00108-g004.tif"/>
+      </fig>
+      <fig id="cancers-12-00108-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>ABT-737 combined with As<sub>2</sub>O<sub>3</sub> altered expression levels of anti-apoptosis proteins and cell cycle regulating protein. (<bold>A</bold>) SiHa and (<bold>B</bold>) Caski cells (4 &#xD7; 10<sup>5</sup> cells/6 cm dish) were combined with ABT-737 and As<sub>2</sub>O<sub>3</sub> for 48 h. Myeloid cell leukemia 1 (Mcl-1), Bcl-2-associated X protein (Bax) and Bcl-2 homologous antagonist/killer (Bak) were detected by Western blot. &#x3B2;-actin was as a loading control. The relative ratio of Mcl-1/&#x3B2;-actin, BAX/&#x3B2;-actin, and Bak/&#x3B2;-actin were shown. (<bold>C</bold>) SiHa and (<bold>D</bold>) Caski cells (4 &#xD7; 10<sup>5</sup> cells/6 cm dish) were combined with ABT-737 and As<sub>2</sub>O<sub>3</sub> for 48 h. Cyclin-dependent kinase 6 (CDK6) and thymidylate synthase (TS) were detected by Western blot. &#x3B2;-actin was as a loading control. The relative ratio of CDK6/&#x3B2;-actin and TS/&#x3B2;-actin are shown.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cancers-12-00108-g005.tif"/>
+      </fig>
+      <fig id="cancers-12-00108-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Effects of ABT-737 and As<sub>2</sub>O<sub>3</sub> on autophagy induction in cervical cancer cells. (<bold>A</bold>) SiHa and (<bold>B</bold>) Caski cells (4 &#xD7; 10<sup>5</sup> cells/6 cm dish) were co-treated with ABT-737 and As<sub>2</sub>O<sub>3</sub> for 48 h. LC3B was detected by Western blot. &#x3B2;-actin was as a loading control. The relative ratio of LC3B II/LC3B I was shown. (<bold>C</bold>) After pretreatment of 3-MA for 1 h, ABT-737, As<sub>2</sub>O<sub>3</sub>, and chloroquine were treated for 48 h. LC3B and cleaved caspase-7 were detected by Western blot. &#x3B2;-actin was as a loading control. The relative ratio of LC3B-II/LC3B-I and cleaved caspase-7/&#x3B2;-actin are shown.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cancers-12-00108-g006.tif"/>
+      </fig>
+      <fig id="cancers-12-00108-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>A suggested model of ABT-737 combined with As<sub>2</sub>O<sub>3</sub> inducing cell death in SiHa cells.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cancers-12-00108-g007.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

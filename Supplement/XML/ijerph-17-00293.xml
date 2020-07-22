@@ -1,0 +1,2060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijerph</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Environmental Research and Public Health</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Environ. Res. Public Health</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Environmental Research and Public Health</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1660-4601</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijerph17010293</article-id>
+      <article-id pub-id-type="publisher-id">ijerph-17-00293</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Relationship between Leadership and Emotional Intelligence in Teachers in Universities and Other Educational Centres: A Structural Equation Model</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1189-894X</contrib-id>
+          <name>
+            <surname>Zurita-Ortega</surname>
+            <given-names>F&#xE9;lix</given-names>
+          </name>
+          <xref rid="af1-ijerph-17-00293" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0558-1513</contrib-id>
+          <name>
+            <surname>Olmedo-Moreno</surname>
+            <given-names>Eva Mar&#xED;a</given-names>
+          </name>
+          <xref rid="af2-ijerph-17-00293" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0937-1089</contrib-id>
+          <name>
+            <surname>Chac&#xF3;n-Cuberos</surname>
+            <given-names>Ram&#xF3;n</given-names>
+          </name>
+          <xref rid="af2-ijerph-17-00293" ref-type="aff">2</xref>
+          <xref rid="c1-ijerph-17-00293" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9076-0377</contrib-id>
+          <name>
+            <surname>Exp&#xF3;sito L&#xF3;pez</surname>
+            <given-names>Jorge</given-names>
+          </name>
+          <xref rid="af2-ijerph-17-00293" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8826-235X</contrib-id>
+          <name>
+            <surname>Mart&#xED;nez-Mart&#xED;nez</surname>
+            <given-names>Asunci&#xF3;n</given-names>
+          </name>
+          <xref rid="af2-ijerph-17-00293" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijerph-17-00293"><label>1</label>Department of Didactics of Musical, Plastic and Corporal Expression, University of Granada, 18071 Granada, Spain; <email>felixzo@ugr.es</email></aff>
+      <aff id="af2-ijerph-17-00293"><label>2</label>Department of Research Methods and Diagnosis in Education, University of Granada, 18071 Granada, Spain; <email>emolmedo@ugr.es</email> (E.M.O.-M.); <email>jorgeel@ugr.es</email> (J.E.L.); <email>asuncionmm@ugr.es</email> (A.M.-M.)</aff>
+      <author-notes>
+        <corresp id="c1-ijerph-17-00293"><label>*</label>Correspondence: <email>rchacon@ugr.es</email>; Tel.: +34-958-246-112</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>17</volume>
+      <issue>1</issue>
+      <elocation-id>293</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>09</day>
+          <month>10</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This study uses an explanatory model of the dimensions of leadership and emotional intelligence according to the methods used in particular teaching environments (universities and other educational institutions). The effect of different kinds of leadership on emotional intelligence dimensions is also established using an explanatory model. A total of 954 teachers participated in this cross-sectional study, teaching in 137 different schools/universities. The instruments used for the data collection were the Multifactor Leadership Questionnaire (MLQ-5) and the Trait Meta Mood Scale (TMMS-24). Data analysis was performed with the software IBM AMOS 23.0. (International Business Machines Corporation, Armonk, NY, USA) using multi-group analysis and structural equations. Results showed that the structural equation model had a good fit. Transformational leadership depends mainly on intellectual stimulation in university teachers, whereas intrinsic motivation is more relevant at the lower educational levels. In relation to transactional leadership, contingency reward has a greater regression weight in non-university education, whereas passive leadership is governed more by passive exception in university teachers. There was a positive and direct relationship between levels of emotional intelligence and transformational leadership in non-university teachers, which reveals the need for effective understanding and management of both one&#x2019;s own and students&#x2019; emotions in order to act effectively as a leader. Transactional leadership was negatively related to some emotional intelligence dimensions, given the relevance of obtaining power in this dimension.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>leadership</kwd>
+        <kwd>emotional intelligence</kwd>
+        <kwd>teaching</kwd>
+        <kwd>university</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijerph-17-00293" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Teachers&#x2019; personal traits as well as their professional skills are significant in relation to bringing about behavioral changes in students [<xref ref-type="bibr" rid="B1-ijerph-17-00293">1</xref>]. Among the factors justifying the training of teachers in emotional ability in all types and at all stages of education, it can be highlighted the need to carry out teaching tasks with emotional intelligence, as well as the need to teach emotional skills to students. These ideas concur with studies on students and teachers in secondary education in several contexts [<xref ref-type="bibr" rid="B2-ijerph-17-00293">2</xref>,<xref ref-type="bibr" rid="B3-ijerph-17-00293">3</xref>].</p>
+      <p>In light of the scientific literature on this topic, above all focusing on emotional understanding and control skills, these factors are considered predictors of a better management of everyday life and are related to higher levels of well-being and psychological adjustment [<xref ref-type="bibr" rid="B4-ijerph-17-00293">4</xref>,<xref ref-type="bibr" rid="B5-ijerph-17-00293">5</xref>,<xref ref-type="bibr" rid="B6-ijerph-17-00293">6</xref>,<xref ref-type="bibr" rid="B7-ijerph-17-00293">7</xref>]. Other studies, such as those by Mearns and Cain [<xref ref-type="bibr" rid="B8-ijerph-17-00293">8</xref>], revealed that teachers with high expectations of being able to manage their negative emotions used more coping strategies. Additionally, Rodr&#xED;guez-Corrales et al. [<xref ref-type="bibr" rid="B9-ijerph-17-00293">9</xref>] analyzed the direct effect of non-university teachers&#x2019; emotions on the assessment of students&#x2019; performance.</p>
+      <p>Notwithstanding the various viewpoints from which emotional intelligence and positive psychology have been studied, it can be seen that almost no studies address leadership as indicated by S&#xE1;nchez et al. [<xref ref-type="bibr" rid="B10-ijerph-17-00293">10</xref>], despite the fact that psychological theories highlight the importance of practice, reasoning and management. Nevertheless, several authors have shown the importance of teachers&#x2019; emotional intelligence and their correct use in order to improve thinking and management capacity [<xref ref-type="bibr" rid="B11-ijerph-17-00293">11</xref>,<xref ref-type="bibr" rid="B12-ijerph-17-00293">12</xref>]. In fact, high levels of emotional well-being have been developed in other professions, such as nursing and odontology, in order to get high levels of leadership, which is really important in these professions [<xref ref-type="bibr" rid="B3-ijerph-17-00293">3</xref>,<xref ref-type="bibr" rid="B13-ijerph-17-00293">13</xref>].</p>
+      <p>A positive relationship was found between emotional intelligence and the different styles of educational leadership [<xref ref-type="bibr" rid="B1-ijerph-17-00293">1</xref>]. In fact, various studies have confirmed that those teachers who are emotionally intelligent can manage and direct in a better way the daily challenges presented by students and by the teaching-learning process more effectively and positively [<xref ref-type="bibr" rid="B14-ijerph-17-00293">14</xref>].</p>
+      <p>Recently, the term leadership has come to represent one of the most important and recurrent lines of research in studies on organizations in general and on educational institutions in particular [<xref ref-type="bibr" rid="B15-ijerph-17-00293">15</xref>,<xref ref-type="bibr" rid="B16-ijerph-17-00293">16</xref>,<xref ref-type="bibr" rid="B17-ijerph-17-00293">17</xref>,<xref ref-type="bibr" rid="B18-ijerph-17-00293">18</xref>]. Most works and studies analyzed confirm the positive effect that leadership has on many and varied aspects, notably educational level and teachers&#x2019; results [<xref ref-type="bibr" rid="B19-ijerph-17-00293">19</xref>,<xref ref-type="bibr" rid="B20-ijerph-17-00293">20</xref>,<xref ref-type="bibr" rid="B21-ijerph-17-00293">21</xref>].</p>
+      <p>The idea of implementing emotional intelligence as a tool to improve teachers&#x2019; leadership and well-being has been considered in almost all educational institutions worldwide. Specifically, Asrar-ul-Haq et al. [<xref ref-type="bibr" rid="B11-ijerph-17-00293">11</xref>] have carried out research on the way intelligence influences teachers&#x2019; ways of working in Pakistan, while Vinichenko et al. [<xref ref-type="bibr" rid="B22-ijerph-17-00293">22</xref>] analyze differences related to the development of work and suggest measures for optimizing teachers&#x2019; training. A study by Ozdemir and Kocak [<xref ref-type="bibr" rid="B23-ijerph-17-00293">23</xref>] determined that human behavior in any working environment is associated with leadership styles and establishes a more positive emotional charge in teachers with academic posts.</p>
+      <p>In this way, several researches determine the existence of different types of leadership [<xref ref-type="bibr" rid="B19-ijerph-17-00293">19</xref>,<xref ref-type="bibr" rid="B20-ijerph-17-00293">20</xref>,<xref ref-type="bibr" rid="B21-ijerph-17-00293">21</xref>,<xref ref-type="bibr" rid="B22-ijerph-17-00293">22</xref>,<xref ref-type="bibr" rid="B23-ijerph-17-00293">23</xref>]. Specifically, passive leadership, which is based on letting the student perform the tasks without help; democratic leadership, whereby the students take part in the decisions about the learning process in educational context, and transformational leadership, based on intellectual stimulation and the idealized influence. Thus, this study aims to analyse the relationships between these three types of leadership and the basic skills of emotional intelligence, including the perception, regulation, and use of emotions.</p>
+      <p>Bearing all this in mind, this study is based on the following theoretical assumption and hypothetical model (<xref ref-type="fig" rid="ijerph-17-00293-f001">Figure 1</xref>) with the following factors: Factor 1: Transformational Leadership (TRANF-L); Factor 2: Transactional Leadership (TRANS-L); Factor 3: Passive Leadership (PAS-L); Factor 4: Behavioral Idealized Influence (BII); Factor 5: Attributed Idealized Influence (AII); Factor 6: Inspired Motivation (IM); Factor 7: Intellectual Stimulation (IS); Factor 8: Individualized Consideration (IC); Factor 9: Contingent Reward (CR); Factor 10: Management-by-exception: passive (MEP); Factor 11: Laissez-Faire (LF); Factor 12: Emotional Intelligence-Perception (IE-P); Factor 13: Emotional Intelligence-Understanding (IE-U); Factor 14: Emotional Intelligence-Regulation (IE-R).</p>
+      <p>The model that has been developed aims to ascertain the connection between the emotional intelligence dimensions (perception, understanding and regulation) of teachers and their different leadership styles, since various studies show a close relationship between them [<xref ref-type="bibr" rid="B24-ijerph-17-00293">24</xref>,<xref ref-type="bibr" rid="B25-ijerph-17-00293">25</xref>,<xref ref-type="bibr" rid="B26-ijerph-17-00293">26</xref>]. Additionally, the study aims to establish the connections between the three styles of leadership, since studies such as those by Griffioen and De Jong [<xref ref-type="bibr" rid="B27-ijerph-17-00293">27</xref>], Elrehail [<xref ref-type="bibr" rid="B28-ijerph-17-00293">28</xref>], or Hassan et al. [<xref ref-type="bibr" rid="B29-ijerph-17-00293">29</xref>] address how important, in terms of management, is the exchange of knowledge between different types of leadership and innovation in higher education institutions, and above all in teaching itself. Herein some of the errors detected having been attributed to poor-quality leadership.</p>
+      <p>It is also convenient to eliminate connections between dimensions in the TMSS-24, since each of the parameters (perception, understanding, and regulation) is an independent entity. In the same regard, and according to Marsh [<xref ref-type="bibr" rid="B30-ijerph-17-00293">30</xref>], it is convenient and necessary to eliminate the less significant connections, provided that the fit indices in the model are not affected, in order to obtain a synthesized and concise model (<xref ref-type="fig" rid="ijerph-17-00293-f001">Figure 1</xref>).</p>
+      <p>In the proposed model, passive leadership, transformational leadership, and transactional leadership act as exogenous variables, whereas behavioral idealized influence, attributed idealized influence, inspired motivation, intellectual stimulation, individualized consideration, contingent reward, management-by-exception passive, laissez-faire, emotional intelligence perception, emotional intelligence understanding, and emotional intelligence regulation act as endogenous variables. Two-way arrows (covariances) connect exogenous variables, whereas one-way arrows reveal the effects (direct and indirect) between endogenous variables. Associations are established between prediction errors in the endogenous variables, which receive the effects of others and need errors in variables. Estimation of the parameters was carried out using the maximum likelihood estimation method (ML), which is coherent, non-biased and unaffected by the type of scale. Thus, this study has as its main objectives: (a) to analyze and determine the relationship between leadership and emotional intelligence in Spanish teachers; (b) to define and contrast an explanatory model of the dimensions in emotional intelligence according to leadership styles and type of teaching (in universities or otherwise), and (c) to analyze the effect of leadership styles on emotional intelligence dimensions using a multigroup explanatory model according to different educational levels.</p>
+    </sec>
+    <sec id="sec2-ijerph-17-00293">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-ijerph-17-00293">
+        <title>2.1. Subjects and Design</title>
+        <p>This descriptive and cross-sectional research project was carried out on a sample of 954 teachers in Spain, both men and women (45.9%, 438 men and 54.1%, 516 women), from 137 schools, with different typologies and levels (Infant, Primary, Secondary, Training Courses, Universities and others). The sample was chosen by random sampling among teachers from all educational levels in Spain (N = 691,235), being 117,716 university teachers and 573,519 teachers at other levels. The sampling error was acceptable, specifically 0.03 for the overall sample (0.06 for university teachers and 0.04 for the rest). It should be noted that 65 questionnaires were invalidated because they were not properly completed.</p>
+      </sec>
+      <sec id="sec2dot2-ijerph-17-00293">
+        <title>2.2. Instruments</title>
+        <p>Three different types of instrument were used in this project. The first was a self-completion questionnaire where the teachers indicated their gender, their age, and their seniority or the educational level at which they taught (Infant, Primary, Secondary, Training Courses, University, and others, into which category came teachers of religious education, School Counselors, Special Needs, Adult Education teachers, etc.).</p>
+        <p>The second instrument used was the MLQ-5X by Bass &amp; Avolio [<xref ref-type="bibr" rid="B31-ijerph-17-00293">31</xref>], named in its original version Multifactor Leadership Questionnaire, which is considered one of the most effective instruments for measuring leadership [<xref ref-type="bibr" rid="B32-ijerph-17-00293">32</xref>]. This questionnaire is made up of 45 items, measured using a Likert scale with five options, whereby 0 is &#x201C;Totally disagree&#x201D; and 4 is &#x201C;Totally agree&#x201D;. The first 36 items identify leadership behavior in the leaders (Transformational, Transactional and Laissez-Faire), and items 37 to 45 are in response to those leadership results. The instrument had a Cronbach&#x2019;s Alpha of &#x3B1; = 0.879.</p>
+        <p>The third instrument is the TMMS-24, which is based on the Trait Meta Mood Scale (TMMS-24) proposed by Salovey, Mayer, Goldman, Turvey, &amp; Palfai [<xref ref-type="bibr" rid="B33-ijerph-17-00293">33</xref>]. The original scale assesses emotional states through 24 items, structured in three dimensions (perception, understanding and regulation) with 8 items each, and answered using a Likert scale with five options. In Spain, it has been used by Cazalla-Luna and Molero [<xref ref-type="bibr" rid="B34-ijerph-17-00293">34</xref>]. In this study, the Cronbach&#x2019;s Alpha was &#x3B1; = 0.864.</p>
+      </sec>
+      <sec id="sec2dot3-ijerph-17-00293">
+        <title>2.3. Procedure</title>
+        <p>Firstly, all the teachers in Spain were counted. Then, the Faculty of Education of the University of Granada (Spain) composed an explanatory letter inviting people to collaborate. This document explained the nature and objectives of the study and requested the consent of those willing to participate. Once an affirmative reply had been received, the questionnaire was sent by email so that participants could answer frankly; in some cases, on request, the questionnaire was mailed in paper form. A total number of 1019 teachers took part in this project, 65 questionnaires being invalidated because they were not correctly completed. The instruments were applied from January to March 2018. Anonymity and confidentiality of data was ensured. Data were collected and its quality was confirmed, whilst ensuring throughout that the process conformed to the ethical principles for research defined in the Declaration of Helsinki in 1975 and later updated in Brazil in 2013. </p>
+      </sec>
+      <sec id="sec2dot4-ijerph-17-00293">
+        <title>2.4. Statistical Analysis</title>
+        <p>For data analysis, the statistical software IBM SPSS 24.0. (International Business Machines Corporation, Armonk, NY, USA) was used in order to establish the values of the basic descriptors (means and frequencies). For the analysis of relations and effects existing between the constructs of the structural model, program IBM AMOS 23.0. (International Business Machines Corporation, Armonk, NY, USA) was used, carrying out a multigroup analysis. A model of route analysis was created with the following observable variables: transformational leadership (LTRANSF); transactional leadership (LTRANSA); passive Leadership (LPASIVO); Behavioral Idealized Influence (IIC); attributed idealized influence (IIA); inspired motivation (MI); intellectual stimulation (EI); individualized consideration (CI); contingent reward (RC); management-by-exception: passive (DEP); laissez-faire (LF); emotional intelligence perception (PERIE); emotional intelligence understanding (COMIE); emotional intelligence regulation (REGIE).</p>
+        <p>Model fit was checked in order to verify compatibility and the empirical information obtained. Fit reliability was assessed using Marsh&#x2019;s goodness-of-fit indices, which indicate that in Chi-square, non-significant values associated with p denote a good model fit. The comparative fit index (CFI) will be acceptable if higher than 0.90, and excellent if higher than 0.95. The normed fit index (NFI) must be higher than 0.90; the Incremental Fit Index (IFI) will be acceptable if higher than 0.90 and excellent if higher than 0.95. Finally, the root mean square error of approximation (RMSEA) will be excellent if lower than 0.05 and acceptable if lower than 0.08.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-ijerph-17-00293" sec-type="results">
+      <title>3. Results</title>
+      <p>The descriptive study of data relating to the 954 participants established that values were similar by gender. The greater proportion of non-university teachers is also significant, most such participants having worked as a teacher for less than 20 years. As regards the distribution of teachers according to education type, there were more men (35.6%) than women in higher education, the proportions being reversed in all other types of education. Regarding the length of service, there is a greater presence of senior teachers in higher education, as can be seen in the following table (<xref ref-type="table" rid="ijerph-17-00293-t001">Table 1</xref>).</p>
+      <p>The proposed structural equation model obtained a good fit in all assessment indices. The Chi-square had a significant value of p (&#x3C7;<sup>2</sup> = 273.540; gl = 70; <italic>p</italic> &lt; 0.001). Nevertheless, this index cannot be interpreted in a standardized way, added to which a problem is posed by its sensitivity to sample size [<xref ref-type="bibr" rid="B30-ijerph-17-00293">30</xref>]. Therefore, other standardized fit indices less sensitive to sample size were used. The comparative fit index (CFI) had a value of 0.918, which was acceptable. The normed fit index (NFI) had a value of 0.903 and the incremental fit index (IFI) a value of 0.905, both also acceptable. The root mean square error of approximation (RMSEA) had an acceptable value of 0.078.</p>
+      <p><xref ref-type="fig" rid="ijerph-17-00293-f002">Figure 2</xref> and <xref ref-type="table" rid="ijerph-17-00293-t002">Table 2</xref> show estimated values of the parameters in the model for teachers in preschool and primary levels. These must be of a suitable magnitude and the effects must be significantly different from zero. No improper estimations such as negative variances should be found. Statistically significant relations are found at the <italic>p</italic> &lt; 0.005 level in all associations between Transformational Leadership and its indicators, all of these being positive and direct and showing a stronger correlation for Inspired Motivation (r = 0.844) and Intellectual Stimulation (r = 0.784). Likewise, the same tendency is found in Passive Leadership (<italic>p</italic> &lt; 0.005), with a stronger correlation in Laissez-faire (r = 0.780) and Transactional Leadership (<italic>p</italic> &lt; 0.005), Contingent Reward being the variable with the highest positive correlation in relation to its dimension (r = 0.842).</p>
+      <p>Next, relations between the different leadership dimensions were analyzed. A positive and direct relationship between Transformational and Transactional Leadership is found (r = 0.863), the level being significant at <italic>p</italic> &lt; 0.005. In contrast, Passive Leadership is inversely related to Transformational Leadership (r = &#x2212;0.375) and to Transactional Leadership (r = &#x2212;0.298), both being significant at a level of <italic>p</italic> &lt; 0.01.</p>
+      <p>Checking associations between Leadership and Emotional Intelligence, statistically significant differences are revealed between Transformational Leadership and Emotional Intelligence Regulation (r = 0.986), and between Transformational Leadership and Emotional Intelligence Understanding (r = 0.785), both positive and direct. The same tendency is displayed in the relation between Transformational Leadership and Emotional Intelligence Perception (r = 0.311). Likewise, statistically significant differences are found in level <italic>p</italic> &lt; 0.01 between Transactional Leadership and Emotional Intelligence Regulation (r = &#x2212;0.673), and between Transactional Leadership and Emotional Intelligence Understanding (r = &#x2212;0.447), both negative and inverse. Finally, no association was found between Passive Leadership and the three dimensions of Emotional Intelligence (Perception, Understanding, and Regulation).</p>
+      <p><xref ref-type="fig" rid="ijerph-17-00293-f003">Figure 3</xref> and <xref ref-type="table" rid="ijerph-17-00293-t003">Table 3</xref> show estimated values of the parameters in the model for university teachers. These must be of an adequate magnitude and the effects must be significantly different from zero. No improper estimations such as negative variances should be found. There are statistically significant relations at the <italic>p</italic> &lt; 0.005 level for all the associations between Transformational Leadership and the indicators in this dimension, all of them being positive and direct, the factors having the strongest correlation being Inspired Motivation (r = 0.787) and Intellectual Stimulation (r = 0.829). Likewise, the same tendency is displayed for Passive Leadership (<italic>p</italic> &lt; 0.005) with a stronger correlation in Management-by-exception Passive (r = 0.589), and in Transactional Leadership (<italic>p</italic> &lt; 0.005), with Contingent Reward being the variable with the highest positive correlation with its dimension (r = 0.738).</p>
+      <p>Next, the relations between the different leadership dimensions are analyzed. In the first place, a positive and direct relation is revealed between Transformational Leadership and Transactional Leadership (r = 0.997), being significant at level <italic>p</italic> &lt; 0.005. In contrast, Passive Leadership is inversely related to Transformational Leadership (r = &#x2212;0.441) and Transactional Leadership (r = &#x2212;0.443), both being significant at level <italic>p</italic> &lt; 0.01.</p>
+      <p>Analyzing the associations between leadership and Emotional Intelligence, the only statistically significant difference found was between Passive Leadership and Emotional Intelligence Understanding, being positive and direct (r = 0.292; <italic>p</italic> &lt; 0.05).</p>
+    </sec>
+    <sec id="sec4-ijerph-17-00293" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>This study, conducted on a sample of 954 teachers working at different educational levels, focused on two aspects: on the one hand leadership, which has been a topic of discussion since time immemorial, its particular interest to thinkers and scientists being that it is the central axis of administration and organizational behavior; and on the other hand emotional intelligence, which is an essential element in positive psychology. In order to discover the cause and effect relationships of the theoretical assumption suggested, two groups were created: university teachers and teachers working at other educational levels (non-university teachers).</p>
+      <p>From the findings obtained herein, it can be deduced that the most influential indicator of transformational leadership in non-university teachers is intrinsic motivation, attributed idealized influence exerting the least influence. This could be related to the vocational component inherent in education at basic levels (Infant and Primary), in line with the studies by Evers et al. [<xref ref-type="bibr" rid="B35-ijerph-17-00293">35</xref>] and Andersson and Kopssen [<xref ref-type="bibr" rid="B36-ijerph-17-00293">36</xref>], who stress the importance of teacher&#x2019;s behavior being autonomous and of this being linked to professionalism and vocation. In the same way, the general principle of attributed idealized influence relies on the teacher being a respected and admired leader who enjoys the confidence of those who have conferred on him or her the role of leader. The fact that this applies much less to non-university education explains why in that sector attributed idealized influence is valued least in terms of transformational leadership.</p>
+      <p>In the case of university teachers, the most relevant indicator of transformational leadership is intellectual stimulation. This may be due to teaching strategies that aim to generate problems and get students to solve them in the context of higher education [<xref ref-type="bibr" rid="B37-ijerph-17-00293">37</xref>]. This type of work evolves rapidly, and teachers need to keep abreast of changes taking place and progress being made, constantly updating their teaching and intellectual stimulation. Thus, university teachers feel the need for professional self-development, an integral component of which is the combination of intellectual and affective factors, intelligence, and will [<xref ref-type="bibr" rid="B36-ijerph-17-00293">36</xref>,<xref ref-type="bibr" rid="B38-ijerph-17-00293">38</xref>]. At the other end of the scale, the weakest correlation was found in behavioral idealized influence.</p>
+      <p>With regard to passive leadership, it should be noted that the Laissez-faire dimension was the most relevant for non-university teachers, since at basic levels it is common to use methodologies based on the discovery and self-management of resources and tasks, with the aim of acquiring certain skills [<xref ref-type="bibr" rid="B39-ijerph-17-00293">39</xref>]. In addition, at the various educational stages, each teacher is freer to apply different methodologies, motivated by giving students greater decision-making power so that they can develop positive thinking, despite leadership being associated with lower performance when the leader is not there [<xref ref-type="bibr" rid="B40-ijerph-17-00293">40</xref>]. Conversely, in the case of university teachers, there is a stronger correlation with passive management-by-exception, which is characterized by the leader&#x2019;s intervention when a problem is identified or when help is requested by the group [<xref ref-type="bibr" rid="B16-ijerph-17-00293">16</xref>].</p>
+      <p>In relation to transactional leadership, contingent reward is the most influential factor in both types of teacher, although the correlation is stronger for teachers at the lower educational stages. This is common, given that contingent reward is based on the positive reinforcement of appropriate behavior, which is a widely used strategy for controlling contingency in infant and primary education [<xref ref-type="bibr" rid="B41-ijerph-17-00293">41</xref>]. By contrast, in higher education, academic behaviors are usually well established. Therefore, the use of contingency control techniques is less common, instead, motivational strategies with different levels of self-determination are used [<xref ref-type="bibr" rid="B42-ijerph-17-00293">42</xref>]. Equally, university teachers tend not to discuss their working practices or readily adopt innovations, which could be another reason for the low correlation, as suggested by Koeslag-Kreunen, Van der Klink, Van de Bossche, &amp; Gijselaers [<xref ref-type="bibr" rid="B43-ijerph-17-00293">43</xref>].</p>
+      <p>Analysis of the links among leadership dimensions showed a positive and direct relationship between transactional and transformational dimensions, which was stronger in university teachers. Transformational leadership is characterized by a leader&#x2019;s desire to bring about change, and in order to do so, he or she needs to be granted authority by the group. Similarly, transactional leadership is characterized by increasing empowerment of the leader as positive benefits for the group are achieved, evidencing the relationship between the two types of leadership [<xref ref-type="bibr" rid="B32-ijerph-17-00293">32</xref>]. Some university teachers are more charismatic and others more liberal, but passive leaders are scarce since the teaching profession does not allow this attitude, which substantiates these findings [<xref ref-type="bibr" rid="B44-ijerph-17-00293">44</xref>].</p>
+      <p>In the case of university teachers, there is little connection between emotional intelligence and leadership, the only positive relationship being that between passive leadership and emotional understanding, which implies that these teachers have less need to understand emotions in order to act as leaders. In the case of non-university teachers, this relationship is not statistically significant, contrary to the findings of Majeed et al. [<xref ref-type="bibr" rid="B24-ijerph-17-00293">24</xref>], which pointed to there being important and positive aspects to emotional intelligence on the organizational side of higher education, in contrast to secondary education. In fact, Tsvetkova [<xref ref-type="bibr" rid="B38-ijerph-17-00293">38</xref>] posited that university teachers&#x2019; intelligence contains self-knowledge components based on self-respect, sociability, emotional regulation, and self-acceptance [<xref ref-type="bibr" rid="B20-ijerph-17-00293">20</xref>]. </p>
+      <p>It is notable that in non-university teachers there are various connections between leadership and emotional intelligence that are not found in university teachers. As suggested by Halitsan et al. [<xref ref-type="bibr" rid="B45-ijerph-17-00293">45</xref>], as part of their training, prospective teachers are being taught pedagogical facilitation (empathy, emotional intelligence, pedagogical communication, motivation in teaching, etc.), suitable for use in the educational context of modern schools, which can help them become effective leaders [<xref ref-type="bibr" rid="B43-ijerph-17-00293">43</xref>,<xref ref-type="bibr" rid="B46-ijerph-17-00293">46</xref>]. </p>
+      <p>Finally, transformational leadership was positively related to emotional understanding and emotional regulation, having a strong positive and direct association that was not found in university teachers, thus confirming the conclusions of Majeed et al. [<xref ref-type="bibr" rid="B24-ijerph-17-00293">24</xref>]. Likewise, both transactional leadership and transformational leadership were positively related to emotional perception and emotional understanding, respectively, again demonstrating that those associations are not found in university teachers. In contrast, transactional leadership was negatively related to emotional understanding and regulation in non-university teachers, which seems logical in that the basis of this type of leadership is greater power for the leader [<xref ref-type="bibr" rid="B32-ijerph-17-00293">32</xref>]. </p>
+      <p>The data obtained from this study show the importance of conducting studies in this sphere, since, from the point of view of positive psychology and leadership, it is interesting to discover the influence of emotional intelligence on teachers&#x2019; ability to act as leaders, not only in higher education, but at all educational levels. One of the limitations of the study is that the multigroup analysis could only be performed on two groups, so a breakdown of the associations between variables for each of the different educational levels would give the study greater richness. Another limitation is the representativeness of the various groups, there having been substantial participation by infant, primary, secondary and university teachers, which was not the case in other categories (training courses or education for adults, among others).</p>
+    </sec>
+    <sec id="sec5-ijerph-17-00293" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The main conclusions of this study are:<list list-type="bullet"><list-item><p>Transformational leadership depends mainly on intellectual stimulation in university teachers, whereas intrinsic motivation is more relevant at the lower educational levels. In relation to transactional leadership, contingency reward has a greater regression weight in non-university education, whereas passive leadership is governed more by passive exception in university teachers.</p></list-item><list-item><p>There is a positive and direct relationship between transactional leadership and transformational leadership, which is stronger in university teachers. Additionally, both are inversely related to passive leadership at all levels.</p></list-item><list-item><p>There is a positive and direct relationship between levels of emotional intelligence and transformational leadership in non-university teachers, which reveals the need for effective understanding and management of both one&#x2019;s own and students&#x2019; emotions in order to act effectively as a leader. Transactional leadership was negatively related to some emotional intelligence dimensions, given the relevance of obtaining power in this dimension.</p></list-item></list></p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>F.Z.-O. and E.M.O.-M. conceived the hypothesis of this study. F.Z.-O., J.E.L., A.M.-M. and R.C.-C., participated in data collection. E.M.O.-M. and R.C.-C. analysed the data. All authors contributed to data interpretation of statistical analysis. F.Z.-O., A.M.-M., J.E.L. and R.C.-C. wrote the paper. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by the research group HUM-983 (&#xCD;TACA) of the University of Granada (Spain). </p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijerph-17-00293">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yildizbas</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Relationship between Teacher Candidates&#x2019; Emotional Intelligence Level, Leadership Styles and Their Academic Success</article-title>
+          <source>Eurasian J. Educ. Res.</source>
+          <year>2017</year>
+          <volume>67</volume>
+          <fpage>215</fpage>
+          <lpage>231</lpage>
+          <pub-id pub-id-type="doi">10.14689/ejer.2017.67.13</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijerph-17-00293">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Minor</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Porter</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Goldring</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Elliott</surname>
+              <given-names>S.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>A test-retest analysis of the Vanderbilt Assessment for leadership in education in the USA</article-title>
+          <source>Educ. Assess. Eval. Account.</source>
+          <year>2017</year>
+          <volume>29</volume>
+          <fpage>211</fpage>
+          <lpage>224</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11092-016-9254-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijerph-17-00293">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Foster</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fethney</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>McKenzie</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Harkness</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kozlowski</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Emotional intelligence increases over time: A longitudinal study of Australian pre-registration nursing students</article-title>
+          <source>Nurse Educ. Today</source>
+          <year>2017</year>
+          <volume>55</volume>
+          <fpage>65</fpage>
+          <lpage>70</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.nedt.2017.05.008</pub-id>
+          <pub-id pub-id-type="pmid">28528126</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijerph-17-00293">
+        <label>4.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salovey</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bedell</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Detweiler</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Current directions in emotional intelligence research</article-title>
+          <source>Handbook of Emotions</source>
+          <edition>2nd ed.</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Lewis</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Haviland-Jones</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Guilford Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2000</year>
+          <fpage>504</fpage>
+          <lpage>520</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijerph-17-00293">
+        <label>5.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayer</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Salovey</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Caruso</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <source>Mayer-Salovey-Caruso Emotional Intelligence Test (MSCEIT) User&#x2019;s Manual</source>
+          <publisher-name>MHS</publisher-name>
+          <publisher-loc>Toronto, ON, Canada</publisher-loc>
+          <year>2002</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijerph-17-00293">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brackett</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Floman</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Ashton-James</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cherkasskiy</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Salovey</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence of teacher emotion on grading practices: A preliminary look at the evaluation of student writing</article-title>
+          <source>Teach. Teach.</source>
+          <year>2013</year>
+          <volume>19</volume>
+          <fpage>634</fpage>
+          <lpage>646</lpage>
+          <pub-id pub-id-type="doi">10.1080/13540602.2013.827453</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijerph-17-00293">
+        <label>7.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Linnenbrink-Garcia</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Pekrun</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <source>International Handbook of Emotions in Education</source>
+          <publisher-name>Routledgel</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijerph-17-00293">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mearns</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cain</surname>
+              <given-names>J.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Relationships between teachers&#x2019; occupational stress and their burnout and distress: Roles of coping and negative mood regulation expectancies</article-title>
+          <source>Anxiety Stress Coping</source>
+          <year>2003</year>
+          <volume>16</volume>
+          <fpage>71</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="doi">10.1080/1061580021000057040</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijerph-17-00293">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodr&#xED;guez-Corrales</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cabello</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cobo</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Berrocal</surname>
+              <given-names>P.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence of the emotions of non-university teachers in the evaluation of student performance</article-title>
+          <source>Interuniv. J. Teach. Train.</source>
+          <year>2017</year>
+          <volume>88</volume>
+          <fpage>91</fpage>
+          <lpage>105</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijerph-17-00293">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>S&#xE1;nchez</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Garc&#xED;a</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rodr&#xED;guez</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluaci&#xF3;n del dise&#xF1;o del programa AedEM de Educaci&#xF3;n Emocional para Educaci&#xF3;n Secundaria</article-title>
+          <source>Relieve Rev. Electron. Investig. Eval. Educ.</source>
+          <year>2016</year>
+          <volume>22</volume>
+          <fpage>1</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="doi">10.7203/relieve.22.2.9422</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijerph-17-00293">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Asrar-ul-Haq</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Anwar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hassan</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of emotional intelligence on teacher&#x2019;s performance in higher education institutions of Pakistan</article-title>
+          <source>Future Bus. J.</source>
+          <year>2017</year>
+          <volume>3</volume>
+          <fpage>87</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fbj.2017.05.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijerph-17-00293">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meshkat</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nejati</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does Emotional Intelligence Depend on Gender? A Study on Undergraduate English Majors of Three Iranian Universities</article-title>
+          <source>SAGE OPEN</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <pub-id pub-id-type="doi">10.1177/2158244017725796</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijerph-17-00293">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roig-Jornet</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kalenderian</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effectiveness of an initial continuing education courses in leadership for dentists</article-title>
+          <source>Eur. J. Educ.</source>
+          <year>2018</year>
+          <volume>22</volume>
+          <fpage>128</fpage>
+          <lpage>141</lpage>
+          <pub-id pub-id-type="doi">10.1111/eje.12281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijerph-17-00293">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jennings</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Greenberg</surname>
+              <given-names>M.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The prosocial classroom: Teacher social and emotional competence in relation to student and classroom outcomes</article-title>
+          <source>Rev. Educ. Res.</source>
+          <year>2009</year>
+          <volume>79</volume>
+          <fpage>491</fpage>
+          <lpage>525</lpage>
+          <pub-id pub-id-type="doi">10.3102/0034654308325693</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijerph-17-00293">
+        <label>15.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>&#xC1;lvarez</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Educational Leadership and Teacher Professionalization</source>
+          <publisher-name>CONSUDEC</publisher-name>
+          <publisher-loc>Buenos Aires, Argentina</publisher-loc>
+          <year>2001</year>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijerph-17-00293">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sewerin</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Holmberg</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Contextualizing distributed leadership in higher education</article-title>
+          <source>High. Educ. Res. Dev.</source>
+          <year>2017</year>
+          <volume>36</volume>
+          <fpage>1280</fpage>
+          <lpage>1294</lpage>
+          <pub-id pub-id-type="doi">10.1080/07294360.2017.1303453</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijerph-17-00293">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ariffin</surname>
+              <given-names>T.F.</given-names>
+            </name>
+            <name>
+              <surname>Bush</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nordin</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Framing the roles and responsibilities of Excellent Teachers: Evidence from Malaysia</article-title>
+          <source>Teach. Teach. Educ.</source>
+          <year>2018</year>
+          <volume>73</volume>
+          <fpage>14</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tate.2018.03.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijerph-17-00293">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jooste</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Frantz</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Waggie</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Challenges of academic healthcare leaders in a higher education context in South Africa</article-title>
+          <source>Educ. Manag. Adm. Leadersh.</source>
+          <year>2018</year>
+          <volume>46</volume>
+          <fpage>692</fpage>
+          <lpage>708</lpage>
+          <pub-id pub-id-type="doi">10.1177/1741143216688468</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijerph-17-00293">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bogler</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence of leadership style on teacher job satisfaction</article-title>
+          <source>Educ. Adm. Q.</source>
+          <year>2001</year>
+          <volume>37</volume>
+          <fpage>662</fpage>
+          <lpage>683</lpage>
+          <pub-id pub-id-type="doi">10.1177/00131610121969460</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijerph-17-00293">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>S&#xE1;nchez-Moreno</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Hern&#xE1;ndez Castilla</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Other times, new visions of educational leadership</article-title>
+          <source>REICE</source>
+          <year>2014</year>
+          <volume>12</volume>
+          <fpage>5</fpage>
+          <lpage>8</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijerph-17-00293">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rawn</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Fox</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding the Work and Perceptions of Teaching Focused Faculty in a Changing Academic Landscape</article-title>
+          <source>Res. High. Educ.</source>
+          <year>2018</year>
+          <volume>59</volume>
+          <fpage>591</fpage>
+          <lpage>622</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11162-017-9479-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijerph-17-00293">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vinichenko</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Chulanova</surname>
+              <given-names>O.L.</given-names>
+            </name>
+            <name>
+              <surname>Oseev</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Bogdan</surname>
+              <given-names>E.S.</given-names>
+            </name>
+            <name>
+              <surname>Makushkin</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Grishan</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction of The Higher Education and Key Employer for The Formation of The Actual Profile of The Competences of Graduates of Engineering Directions</article-title>
+          <source>Modern J. Lang. Teach. Methods</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>394</fpage>
+          <lpage>404</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijerph-17-00293">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ozdemir</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kocak</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Predicting teacher emotional labour based on multi-frame leadership orientations: A case from Turkey</article-title>
+          <source>Ir. Educ. Stud.</source>
+          <year>2018</year>
+          <volume>37</volume>
+          <fpage>69</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="doi">10.1080/03323315.2018.1438912</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijerph-17-00293">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Majeed</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ramayah</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mustamil</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Nazri</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jamshed</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transformational leadership and organizational citizenship behavior: Modeling emotional intelligence as mediator</article-title>
+          <source>Manag. Mark. Chall. Knowl. Soc.</source>
+          <year>2017</year>
+          <volume>12</volume>
+          <fpage>571</fpage>
+          <lpage>590</lpage>
+          <pub-id pub-id-type="doi">10.1515/mmcks-2017-0034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijerph-17-00293">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nazarpoori</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A survey of the effect of leader&#x2019;s social intelligence on employee&#x2019;s perception of interpersonal justice: The mediating role of shared leadership</article-title>
+          <source>Int. J. Leadersh. Educ.</source>
+          <year>2017</year>
+          <volume>20</volume>
+          <fpage>618</fpage>
+          <lpage>631</lpage>
+          <pub-id pub-id-type="doi">10.1080/13603124.2017.1283063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijerph-17-00293">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gelaidan</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Al-Swidi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mabkhot</surname>
+              <given-names>H.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Employee Readiness for Change in Public Higher Education Institutions: Examining the Joint Effect of Leadership Behavior and Emotional Intelligence</article-title>
+          <source>Int. J. Public Adm.</source>
+          <year>2018</year>
+          <volume>41</volume>
+          <fpage>150</fpage>
+          <lpage>158</lpage>
+          <pub-id pub-id-type="doi">10.1080/01900692.2016.1255962</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijerph-17-00293">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Griffioen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>De Jong</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence of direct executive managers on lecturers&#x2019; perceptions on new organizational aims in times of academic drift</article-title>
+          <source>Int. J. Leadersh. Educ.</source>
+          <year>2017</year>
+          <volume>20</volume>
+          <fpage>451</fpage>
+          <lpage>467</lpage>
+          <pub-id pub-id-type="doi">10.1080/13603124.2015.1066867</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-ijerph-17-00293">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elrehail</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>The relationship among leadership, innovation and knowledge sharing: A guidance for analysis</article-title>
+          <source>Data Brief</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <fpage>128</fpage>
+          <lpage>133</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.dib.2018.04.138</pub-id>
+          <pub-id pub-id-type="pmid">29892626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-ijerph-17-00293">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hassan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gallear</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sivarajah</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Critical factors affecting leadership: A higher education context</article-title>
+          <source>Transform. Gov. Process Policy</source>
+          <year>2018</year>
+          <volume>12</volume>
+          <fpage>110</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1108/TG-12-2017-0075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-ijerph-17-00293">
+        <label>30.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marsh</surname>
+              <given-names>H.W.</given-names>
+            </name>
+          </person-group>
+          <source>Handbook of Sport Psychology</source>
+          <edition>3rd ed.</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Tenenbaum</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Eklund</surname>
+              <given-names>R.C.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>John Wiley &amp; Sons</publisher-name>
+          <publisher-loc>New Jersey, NJ, USA</publisher-loc>
+          <year>2007</year>
+          <pub-id pub-id-type="doi">10.1002/9781118270011.ch35</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-ijerph-17-00293">
+        <label>31.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bass</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Avolio</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <source>Manual for the Multifactor Leadership Questionnaire (Form 5X)</source>
+          <publisher-name>Mind Garden, Inc.</publisher-name>
+          <publisher-loc>Menlo Park, CA, USA</publisher-loc>
+          <year>1999</year>
+        </element-citation>
+      </ref>
+      <ref id="B32-ijerph-17-00293">
+        <label>32.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Antonakis</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>House</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The full-range leadership theory: The way forward</article-title>
+          <source>Transformational and Charismatic Leadership: The Road Ahead</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Avolio</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Yammarino</surname>
+              <given-names>F.J.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Emerald Group Publishing Limited</publisher-name>
+          <publisher-loc>Amsterdam, The Netherlands</publisher-loc>
+          <year>2013</year>
+          <fpage>3</fpage>
+          <lpage>33</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijerph-17-00293">
+        <label>33.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salovey</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Turvey</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Palfai</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Emotional attention, clarity, and repair: Exploring emotional intelligence using the Trait Meta-Mood Scale</article-title>
+          <source>Emotion, Disclosure, and Health</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Pennebaker</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>American Psychological Association</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>1995</year>
+          <fpage>125</fpage>
+          <lpage>154</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B34-ijerph-17-00293">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cazalla-Luna</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Molero</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Perceived Emotional Intelligence, Anxiety and Affections in university students</article-title>
+          <source>Span. J. Couns. Psychopedagogy</source>
+          <year>2014</year>
+          <volume>25</volume>
+          <fpage>56</fpage>
+          <lpage>73</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35-ijerph-17-00293">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Evers</surname>
+              <given-names>A.T.</given-names>
+            </name>
+            <name>
+              <surname>Verboon</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Klaeijsen</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The development and validation of a scale measuring teacher autonomous behavior</article-title>
+          <source>Br. Educ. Res. J.</source>
+          <year>2017</year>
+          <volume>43</volume>
+          <fpage>805</fpage>
+          <lpage>821</lpage>
+          <pub-id pub-id-type="doi">10.1002/berj.3291</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-ijerph-17-00293">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andersson</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kopssen</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Maintaining Competence in the Initial Occupation: Activities among Vocational Teachers</article-title>
+          <source>Vocat. Learn.</source>
+          <year>2018</year>
+          <volume>11</volume>
+          <fpage>317</fpage>
+          <lpage>344</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12186-017-9192-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-ijerph-17-00293">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>P&#xE0;mies-Rovira</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Senent-S&#xE1;nchez</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Essomba-Gelabert</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Educational leadership and teacher involvement as success factors in schools in disadvantaged areas of Spain</article-title>
+          <source>Relieve Rev. Electron. Investig. Eval. Educ.</source>
+          <year>2016</year>
+          <volume>22</volume>
+          <fpage>2</fpage>
+          <pub-id pub-id-type="doi">10.7203/relieve.22.2.7600</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-ijerph-17-00293">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsvetkova</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Emotional intelligence as a mental basis of university teachers&#x2019; professional self-development</article-title>
+          <source>Sci. Educ.</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <fpage>49</fpage>
+          <lpage>59</lpage>
+          <pub-id pub-id-type="doi">10.24195/2414-4665-2017-8-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-ijerph-17-00293">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Furtner</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Baldegger</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Rauthmann</surname>
+              <given-names>J.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Leading yourself and leading others: Linking self-leadership to transformational, transactional, and laissez-faire leadership</article-title>
+          <source>Eur. J. Work Organ. Psychol.</source>
+          <year>2013</year>
+          <volume>22</volume>
+          <fpage>436</fpage>
+          <lpage>449</lpage>
+          <pub-id pub-id-type="doi">10.1080/1359432X.2012.665605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-ijerph-17-00293">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>Y.Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.T.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>Z.R.</given-names>
+            </name>
+            <name>
+              <surname>Yore</surname>
+              <given-names>L.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Students&#x2019; awareness of science teachers&#x2019; leadership, attitudes toward science, and positive thinking</article-title>
+          <source>Int. J. Sci. Educ.</source>
+          <year>2016</year>
+          <volume>38</volume>
+          <fpage>2174</fpage>
+          <lpage>2196</lpage>
+          <pub-id pub-id-type="doi">10.1080/09500693.2016.1230792</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-ijerph-17-00293">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al-Husseini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Elbeltagi</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transformational leadership and innovation: A comparison study between Iraq&#x2019;s public and private higher education</article-title>
+          <source>Stud. High. Educ.</source>
+          <year>2016</year>
+          <volume>41</volume>
+          <fpage>159</fpage>
+          <lpage>181</lpage>
+          <pub-id pub-id-type="doi">10.1080/03075079.2014.927848</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-ijerph-17-00293">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ten-Cate</surname>
+              <given-names>O.T.</given-names>
+            </name>
+            <name>
+              <surname>Kusurkar</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>G.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>How self-determination theory can assist our understanding of the teaching and learning processes in medical education</article-title>
+          <source>Med. Teach.</source>
+          <year>2011</year>
+          <volume>33</volume>
+          <fpage>961</fpage>
+          <lpage>973</lpage>
+          <pub-id pub-id-type="doi">10.3109/0142159X.2011.595435</pub-id>
+          <pub-id pub-id-type="pmid">22225433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-ijerph-17-00293">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koeslag-Kreunen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Van der Klink</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Van de Bossche</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Gijselaers</surname>
+              <given-names>W.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Leadership for team learning: The case of university teacher teams</article-title>
+          <source>High. Educ.</source>
+          <year>2018</year>
+          <volume>75</volume>
+          <fpage>191</fpage>
+          <lpage>207</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10734-017-0126-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-ijerph-17-00293">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elrehail</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Emeagwali</surname>
+              <given-names>O.L.</given-names>
+            </name>
+            <name>
+              <surname>Alsaad</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Alzghoul</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of Transformational and Authentic leadership on innovation in higher education: The contingent role of knowledge sharing</article-title>
+          <source>Telem. Informat.</source>
+          <year>2018</year>
+          <volume>35</volume>
+          <fpage>55</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tele.2017.09.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-ijerph-17-00293">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Halitsan</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Foksha</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Baliuk</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental programme of future teachers&#x2019; pedagogical facilitation in terms of higher education</article-title>
+          <source>Sci. Educ.</source>
+          <year>2017</year>
+          <volume>12</volume>
+          <fpage>196</fpage>
+          <lpage>201</lpage>
+          <pub-id pub-id-type="doi">10.24195/2414-4665-2017-12-29</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-ijerph-17-00293">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ab&#xF3;s</surname>
+              <given-names>&#xC1;.</given-names>
+            </name>
+            <name>
+              <surname>Sevil</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sanz-Remacha</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Corral</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Estrada</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>How do sources of teachers&#x2019; stress affect the development of burnout? An analysis among Physical Education teachers</article-title>
+          <source>ESHPA Educ. Sport Health Phys. Act.</source>
+          <year>2019</year>
+          <volume>3</volume>
+          <fpage>107</fpage>
+          <lpage>117</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="ijerph-17-00293-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Theoretical model. Note1: TRANF-L, Transformational Leadership; TRANS-L, Transactional Leadership; PAS-L, Passive Leadership; BII, Behavioral Idealized Influence; AII, Attributed Idealized Influence; IM, Inspired Motivation; IS, Intellectual Stimulation; IC, Individualized Consideration; CR, Contingent Reward; MEP, Management-by-Exception Passive; LF, Laissez-Faire; IE-P, Emotional Intelligence Perception; IE-U, Emotional Intelligence Understanding; IE-R, Emotional Intelligence Regulation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijerph-17-00293-g001.tif"/>
+      </fig>
+      <fig id="ijerph-17-00293-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Structural equation model for inferior teachings. Note1: TRANF-L, Transformational Leadership; TRANS-L, Transactional Leadership; PAS-L, Passive Leadership; BII, Behavioral Idealized Influence; AII, Attributed Idealized Influence; IM, Inspired Motivation; IS, Intellectual Stimulation; IC, Individualized Consideration; CR, Contingent Reward; MEP, Management-by-Exception Passive; LF, Laissez-Faire; IE-P, Emotional Intelligence Perception; IE-U, Emotional Intelligence Understanding; IE-R, Emotional Intelligence Regulation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijerph-17-00293-g002.tif"/>
+      </fig>
+      <fig id="ijerph-17-00293-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Structural equation model for university teaching. Note1: TRANF-L, Transformational Leadership; TRANS-L, Transactional Leadership; PAS-L, Passive Leadership; BII, Behavioral Idealized Influence; AII, Attributed Idealized Influence; IM, Inspired Motivation; IS, Intellectual Stimulation; IC, Individualized Consideration; CR, Contingent Reward; MEP, Management-by-Exception Passive; LF, Laissez-Faire; IE-P, Emotional Intelligence Perception; IE-U, Emotional Intelligence Understanding; IE-R, Emotional Intelligence Regulation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijerph-17-00293-g003.tif"/>
+      </fig>
+      <table-wrap id="ijerph-17-00293-t001" position="float">
+        <object-id pub-id-type="pii">ijerph-17-00293-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Descriptive study.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Teaching</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Higher Teaching</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Other Teachings</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Male</bold>
+              </td>
+              <td align="center" valign="middle">Count</td>
+              <td align="center" valign="middle">156</td>
+              <td align="center" valign="middle">282</td>
+              <td align="center" valign="middle">438</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">% Gender</td>
+              <td align="center" valign="middle">35.6%</td>
+              <td align="center" valign="middle">64.4%</td>
+              <td align="center" valign="middle">100.0%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% Teaching</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">56.5%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.6%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">45.9%</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Female</bold>
+              </td>
+              <td align="center" valign="middle">Count</td>
+              <td align="center" valign="middle">120</td>
+              <td align="center" valign="middle">396</td>
+              <td align="center" valign="middle">516</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">% Gender</td>
+              <td align="center" valign="middle">23.3%</td>
+              <td align="center" valign="middle">76.7%</td>
+              <td align="center" valign="middle">100.0%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% Teaching</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">43.5%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">58.4%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">54.1%</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Experience (&lt;5 ages)</bold>
+              </td>
+              <td align="center" valign="middle">Count</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">213</td>
+              <td align="center" valign="middle">273</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">% Experience</td>
+              <td align="center" valign="middle">22.0%</td>
+              <td align="center" valign="middle">78.0%</td>
+              <td align="center" valign="middle">100.0%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% Teaching</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.7%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.4%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.6%</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Experience (5&#x2013;10 ages)</bold>
+              </td>
+              <td align="center" valign="middle">Count</td>
+              <td align="center" valign="middle">24</td>
+              <td align="center" valign="middle">149</td>
+              <td align="center" valign="middle">173</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">% Experience</td>
+              <td align="center" valign="middle">13.9%</td>
+              <td align="center" valign="middle">86.1%</td>
+              <td align="center" valign="middle">100.0%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% Teaching</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.7%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22.0%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18.1%</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Experience (10&#x2013;15 ages)</bold>
+              </td>
+              <td align="center" valign="middle">Count</td>
+              <td align="center" valign="middle">78</td>
+              <td align="center" valign="middle">184</td>
+              <td align="center" valign="middle">262</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">% Experience</td>
+              <td align="center" valign="middle">29.8%</td>
+              <td align="center" valign="middle">70.2%</td>
+              <td align="center" valign="middle">100.0%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% Teaching</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28.3%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.1%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.5%</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Experience (15&#x2013;20 ages)</bold>
+              </td>
+              <td align="center" valign="middle">Count</td>
+              <td align="center" valign="middle">66</td>
+              <td align="center" valign="middle">90</td>
+              <td align="center" valign="middle">156</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">% Experience</td>
+              <td align="center" valign="middle">42.3%</td>
+              <td align="center" valign="middle">57.7%</td>
+              <td align="center" valign="middle">100.0%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% Teaching</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.9%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.3%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16.4%</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Experience (&gt;20 ages)</bold>
+              </td>
+              <td align="center" valign="middle">Count</td>
+              <td align="center" valign="middle">48</td>
+              <td align="center" valign="middle">42</td>
+              <td align="center" valign="middle">90</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">% Experience</td>
+              <td align="center" valign="middle">53.3%</td>
+              <td align="center" valign="middle">46.7%</td>
+              <td align="center" valign="middle">100.0%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% Teaching</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.4%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.2%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.4%</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Total</bold>
+              </td>
+              <td align="center" valign="middle">Count</td>
+              <td align="center" valign="middle">276</td>
+              <td align="center" valign="middle">678</td>
+              <td align="center" valign="middle">954</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">% Experience</td>
+              <td align="center" valign="middle">28.9%</td>
+              <td align="center" valign="middle">71.1%</td>
+              <td align="center" valign="middle">100.0%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% Teaching</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100.0%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100.0%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100.0%</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="ijerph-17-00293-t002" position="float">
+        <object-id pub-id-type="pii">ijerph-17-00293-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Regression weights and standardized regression weights for inferior teaching.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Relationships between Variables</th>
+              <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R.W</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">S.R.W</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Estimate</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">E.E.</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">C.R.</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>p</italic>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">EST</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">BII</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.769</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">AII</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.147</td>
+              <td align="center" valign="middle">0.093</td>
+              <td align="center" valign="middle">12.381</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.669</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IM</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.271</td>
+              <td align="center" valign="middle">0.079</td>
+              <td align="center" valign="middle">16.046</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.844</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IS</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.015</td>
+              <td align="center" valign="middle">0.069</td>
+              <td align="center" valign="middle">14.815</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.784</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">MEP</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.674</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LF</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">1.046</td>
+              <td align="center" valign="middle">0.198</td>
+              <td align="center" valign="middle">5.284</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.780</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-P</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">&#x2212;0.140</td>
+              <td align="center" valign="middle">0.228</td>
+              <td align="center" valign="middle">&#x2212;0.616</td>
+              <td align="center" valign="middle">0.538</td>
+              <td align="center" valign="middle">&#x2212;0.099</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-R</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.331</td>
+              <td align="center" valign="middle">0.281</td>
+              <td align="center" valign="middle">4.732</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.986</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CR</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">1.648</td>
+              <td align="center" valign="middle">0.164</td>
+              <td align="center" valign="middle">10.072</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.842</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IC</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.588</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-P</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">0.135</td>
+              <td align="center" valign="middle">0.081</td>
+              <td align="center" valign="middle">1.657</td>
+              <td align="center" valign="middle">0.097</td>
+              <td align="center" valign="middle">0.120</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-R</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">&#x2212;1.215</td>
+              <td align="center" valign="middle">0.376</td>
+              <td align="center" valign="middle">&#x2212;3.232</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">&#x2212;0.673</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-U</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.160</td>
+              <td align="center" valign="middle">0.256</td>
+              <td align="center" valign="middle">4.524</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.785</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-P</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">0.587</td>
+              <td align="center" valign="middle">0.307</td>
+              <td align="center" valign="middle">1.912</td>
+              <td align="center" valign="middle">**</td>
+              <td align="center" valign="middle">0.311</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-U</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">&#x2212;0.884</td>
+              <td align="center" valign="middle">0.340</td>
+              <td align="center" valign="middle">&#x2212;2.601</td>
+              <td align="center" valign="middle">**</td>
+              <td align="center" valign="middle">&#x2212;0.447</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-R</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">&#x2212;0.076</td>
+              <td align="center" valign="middle">0.078</td>
+              <td align="center" valign="middle">&#x2212;0.973</td>
+              <td align="center" valign="middle">0.331</td>
+              <td align="center" valign="middle">&#x2212;0.071</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-U</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">&#x2212;0.062</td>
+              <td align="center" valign="middle">0.083</td>
+              <td align="center" valign="middle">&#x2212;0.746</td>
+              <td align="center" valign="middle">0.455</td>
+              <td align="center" valign="middle">&#x2212;0.052</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">&#x2194;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">&#x2212;0.077</td>
+              <td align="center" valign="middle">0.018</td>
+              <td align="center" valign="middle">&#x2212;4.292</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">&#x2212;0.375</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">&#x2194;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">0.106</td>
+              <td align="center" valign="middle">0.014</td>
+              <td align="center" valign="middle">7.568</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.863</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">TRANS-L</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2194;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PAS-L</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.046</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.014</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;3.381</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">***</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.298</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note1: TRANF-L, Transformational Leadership; TRANS-L, Transactional Leadership; PAS-L, Passive Leadership; BII, Behavioral Idealized Influence; AII, Attributed Idealized Influence; IM, Inspired Motivation; IS, Intellectual Stimulation; IC, Individualized Consideration; CR, Contingent Reward; MEP, Management-by-Exception Passive; LF, Laissez-Faire; IE-P, Emotional Intelligence Perception; IE-U, Emotional Intelligence Understanding; IE-R, Emotional Intelligence Regulation. Note2: R.W, Regression Weights; S.R.W., Standardized Regression Weights; E.E., Error estimation; C.R., Critical Ratio; EST, Estimations. Note3: *** Statistically significant relationship between variables at the level 0.005; ** Statistically significant relationship between variables at the level 0.01.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="ijerph-17-00293-t003" position="float">
+        <object-id pub-id-type="pii">ijerph-17-00293-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Regression weights and standardized regression weights for university teaching.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Relationships between Variables</th>
+              <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">R.W.</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">S.R.W</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Estimate</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">E.E.</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">C.R.</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>p</italic>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">EST</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">BII</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.665</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">AII</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.180</td>
+              <td align="center" valign="middle">0.159</td>
+              <td align="center" valign="middle">7.407</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.712</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IM</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.284</td>
+              <td align="center" valign="middle">0.159</td>
+              <td align="center" valign="middle">8.063</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.787</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IS</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">1.299</td>
+              <td align="center" valign="middle">0.154</td>
+              <td align="center" valign="middle">8.406</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.829</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">MEP</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.589</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LF</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">0.916</td>
+              <td align="center" valign="middle">0.267</td>
+              <td align="center" valign="middle">3.436</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.494</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-P</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">3.222</td>
+              <td align="center" valign="middle">2.432</td>
+              <td align="center" valign="middle">1.325</td>
+              <td align="center" valign="middle">0.185</td>
+              <td align="center" valign="middle">0.725</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-R</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">&#x2212;0.151</td>
+              <td align="center" valign="middle">0.435</td>
+              <td align="center" valign="middle">-0.346</td>
+              <td align="center" valign="middle">0.729</td>
+              <td align="center" valign="middle">&#x2212;0.103</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CR</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">1.117</td>
+              <td align="center" valign="middle">0.143</td>
+              <td align="center" valign="middle">7.834</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.738</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IC</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">1.000</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.641</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-P</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">&#x2212;0.799</td>
+              <td align="center" valign="middle">0.488</td>
+              <td align="center" valign="middle">&#x2212;1.637</td>
+              <td align="center" valign="middle">0.102</td>
+              <td align="center" valign="middle">&#x2212;0.478</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-R</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">0.720</td>
+              <td align="center" valign="middle">0.439</td>
+              <td align="center" valign="middle">1.642</td>
+              <td align="center" valign="middle">0.101</td>
+              <td align="center" valign="middle">0.500</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-U</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">0.153</td>
+              <td align="center" valign="middle">0.395</td>
+              <td align="center" valign="middle">0.387</td>
+              <td align="center" valign="middle">0.699</td>
+              <td align="center" valign="middle">0.107</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-P</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">&#x2212;3.261</td>
+              <td align="center" valign="middle">2.326</td>
+              <td align="center" valign="middle">&#x2212;1.402</td>
+              <td align="center" valign="middle">0.161</td>
+              <td align="center" valign="middle">&#x2212;0.761</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-U</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">0.602</td>
+              <td align="center" valign="middle">0.406</td>
+              <td align="center" valign="middle">1.484</td>
+              <td align="center" valign="middle">0.138</td>
+              <td align="center" valign="middle">0.427</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-R</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">0.225</td>
+              <td align="center" valign="middle">0.195</td>
+              <td align="center" valign="middle">1.151</td>
+              <td align="center" valign="middle">0.250</td>
+              <td align="center" valign="middle">0.173</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IE-U</td>
+              <td align="center" valign="middle">&#x2190;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">0.372</td>
+              <td align="center" valign="middle">0.202</td>
+              <td align="center" valign="middle">1.845</td>
+              <td align="center" valign="middle">*</td>
+              <td align="center" valign="middle">0.292</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">&#x2194;</td>
+              <td align="center" valign="middle">PAS-L</td>
+              <td align="center" valign="middle">&#x2212;0.053</td>
+              <td align="center" valign="middle">0.019</td>
+              <td align="center" valign="middle">&#x2212;2.839</td>
+              <td align="center" valign="middle">**</td>
+              <td align="center" valign="middle">&#x2212;0.441</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">TRANS-L</td>
+              <td align="center" valign="middle">&#x2194;</td>
+              <td align="center" valign="middle">TRANF-L</td>
+              <td align="center" valign="middle">0.115</td>
+              <td align="center" valign="middle">0.021</td>
+              <td align="center" valign="middle">5.406</td>
+              <td align="center" valign="middle">***</td>
+              <td align="center" valign="middle">0.997</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">TRANS-L</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2194;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PAS-L</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.054</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.021</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;2.608</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">**</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.443</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note1: TRANF-L, Transformational Leadership; TRANS-L, Transactional Leadership; PAS-L, Passive Leadership; BII, Behavioral Idealized Influence; AII, Attributed Idealized Influence; IM, Inspired Motivation; IS, Intellectual Stimulation; IC, Individualized Consideration; CR, Contingent Reward; MEP, Management-by-Exception Passive; LF, Laissez-Faire; IE-P, Emotional Intelligence Perception; IE-U, Emotional Intelligence Understanding; IE-R, Emotional Intelligence Regulation. Note2: R.W, Regression Weights; S.R.W., Standardized Regression Weights; E.E., Error estimation; C.R., Critical Ratio; EST, Estimations. Note3: *** Statistically significant relationship between variables at the level 0.005; ** Statistically significant relationship between variables at the level 0.01; * Statistically significant relationship between variables at the level 0.05.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

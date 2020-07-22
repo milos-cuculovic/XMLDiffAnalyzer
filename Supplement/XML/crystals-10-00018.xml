@@ -1,0 +1,2984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">crystals</journal-id>
+      <journal-title-group>
+        <journal-title>Crystals</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Crystals</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Crystals</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4352</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/cryst10010018</article-id>
+      <article-id pub-id-type="publisher-id">crystals-10-00018</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Quasi-Transient Calculation of Czochralski Growth of Ge Crystals Using the Software Elmer</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Miller</surname>
+            <given-names>Wolfram</given-names>
+          </name>
+          <xref rid="c1-crystals-10-00018" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abrosimov</surname>
+            <given-names>Nikolay</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fischer</surname>
+            <given-names>J&#xF6;rg</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gybin</surname>
+            <given-names>Alexander</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Juda</surname>
+            <given-names>Uta</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kayser</surname>
+            <given-names>Stefan</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Janicsk&#xF3;-Cs&#xE1;thy</surname>
+            <given-names>J&#xF3;szef</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-crystals-10-00018">Leibniz-Institut f&#xFC;r Kristallz&#xFC;chtung (IKZ), Max-Born-Str. 2, 12489 Berlin, Germany; <email>nikolay.abrosimov@ikz-berlin.de</email> (N.A.); <email>joerg.fischer@ikz-berlin.de</email> (J.F.); <email>alexander.gybin@ikz-berlin.de</email> (A.G.); <email>uta.juda@ikz-berlin.de</email> (U.J.); <email>stefan.kayser@ikz-berlin.de</email> (S.K.); <email>jozsef.janicsko-csathy@ikz-berlin.de</email> (J.J.-C.)</aff>
+      <author-notes>
+        <corresp id="c1-crystals-10-00018"><label>*</label>Correspondence: <email>wolfram.miller@ikz-berlin.de</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>1</issue>
+      <elocation-id>18</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>A numerical scheme was developed to compute the thermal and stress fields of the Czochralski process in a quasi-time dependent mode. The growth velocity was computed from the geometrical changes in melt and crystal due to pulling for every stage, for which the thermal and stress fields were computed by using the open source software Elmer. The method was applied to the Czochralski growth of Ge crystals by inductive heating. From a series of growth experiments, we chose one as a reference to check the validity of the scheme with respect to this Czochralski process. A good agreement both for the shapes of the melt/crystal interface at various time steps and the change in power consumption with process time was observed.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>global simulation</kwd>
+        <kwd>Czochralski</kwd>
+        <kwd>germanium</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec1-crystals-10-00018">
+      <title>1. Introduction</title>
+      <p>In contrast to silicon, it is still a challenge to grow germanium crystals without dislocations. In specific cases, it is even not wanted to grow dislocation free, but to keep the dislocation density in a certain range. This applies for Ge used in radiation detectors, where the Ge crystal is grown in hydrogen atmosphere and not in argon because of purity reasons. In dislocation-free crystals, a hydrogen double vacancy complex will be formed with hydrogen, which leads eventually to the degradation of the detector [<xref ref-type="bibr" rid="B1-crystals-10-00018">1</xref>]. Dislocation multiplication is driven by thermal stresses, and thus, tuning the thermal field in the crystal is of severe importance. In the case of Czochralski growth with resistance heating, numerical results have been presented by Artemyev et&#xA0;al. using the software package CGsim (<uri>http://str-soft.com/products/CGSim/</uri>) and compared with experimental results&#xA0; [<xref ref-type="bibr" rid="B2-crystals-10-00018">2</xref>]. In the case of inductive heating, which is required to grow Ge crystals for detectors, the tuning of the thermal field is much more challenging. Experimental work has been done by Wang et&#xA0;al. [<xref ref-type="bibr" rid="B3-crystals-10-00018">3</xref>]. However, no calculations have been made for these growth experiments. A global simulation for the Czochralski growth of Ge with induction heating was performed by Honarmandnia et&#xA0;al. [<xref ref-type="bibr" rid="B4-crystals-10-00018">4</xref>]. However, only the temperature field including the interface shape was computed for three distinctive growth stages. Later, they also considered thermal stress, but for a configuration with a resistance heater [<xref ref-type="bibr" rid="B5-crystals-10-00018">5</xref>].</p>
+      <p>In order to obtain information on dislocation density development, it is essential to simulate the entire growth process. This can be done in one run solving the time dependent heat transport equation. This approach is, e.g., realized in CGsim, but with some restrictions on the gas phase attached to the moving parts such as the crystal and melt. Furthermore, the grid is adapted in the parts of changing geometry by condensing and expanding the nodes, leading to a very dense mesh in the shrinking melt volume and a very coarse mesh in the growing crystal. Other approaches include a recalculation of the mesh in the relevant regions during the run as, e.g., that of Sabanski et al. [<xref ref-type="bibr" rid="B6-crystals-10-00018">6</xref>]. In this paper, we present an approach with different runs for every stage of the process. The crystal shape is preset either by the shape obtained in the experiment or an artificial one. Thus, the three phase junction (melt/gas/crystal) is defined by input, but the melt/crystal interface is calculated. We developed a script for an automatic setup of geometry and meshing for each growth stage. The calculation of the thermal and stress fields using the open source software Elmer (<uri>https://www.csc.fi/web/elmer</uri>) is started from a script. The&#xA0;shape of the crystal was given previously. In this paper, we use the shapes obtained by the growth experiments to compare experimental and numerical results. However, any artificial shape can be given as an input for the computation.</p>
+    </sec>
+    <sec id="sec2-crystals-10-00018">
+      <title>2. Growth Experiment and Characterization</title>
+      <p>For the Czochralski growth of high purity Ge single crystals, a growth furnace was constructed at IKZ. Details were described elsewhere [<xref ref-type="bibr" rid="B7-crystals-10-00018">7</xref>]. A sketch for the axisymmetric calculation is presented in <xref ref-type="fig" rid="crystals-10-00018-f001">Figure 1</xref>. The current setup with a quartz crucible of a 90&#xA0;mm inner diameter was used to grow 2<inline-formula><mml:math id="mm1" display="block"><mml:semantics><mml:msup><mml:mrow/><mml:mrow><mml:mo>&#x2033;</mml:mo></mml:mrow></mml:msup></mml:semantics></mml:math></inline-formula> crystals. The only graphite part in the setup was the susceptor holding the crucible. Heat was generated in the graphite part by inductive heating using a coil with 9&#xA0;windings made of silver. A frequency of 80&#xA0;kHz was applied. Crystals were pulled with a constant pulling velocity of <inline-formula><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.5</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, except when the bottom cone was grown to empty the crucible. The position of the crucible was fixed during the entire process of crystal growth. As a result, the melt level was decreasing in time, resulting in a higher growth velocity of the crystal than the pulling velocity. The rotation rates of the crystal and crucible were 15&#xA0;rpm and &#x2212;2&#xA0;rpm, respectively (counter rotation). The radius of the crystal was controlled by adapting the heating power. This was done manually. In the finishing process, the Ge melt was pulled out completely.</p>
+      <p>Two kinds of material analyses are relevant in this paper: lateral photovoltaic scanning (LPS) measurements to obtain information on the interface shape during crystal growth [<xref ref-type="bibr" rid="B8-crystals-10-00018">8</xref>] and etch pit density (EPD) measurements. Therefore, the crystals were cut orthogonal to the crystal growth direction for counting EPD and parallel for LPS. For EPD analysis, the polished wafers were etched to reveal the dislocations. The etch pit density was determined by manually counting the pits using a light microscope. For better comparability, all wafers were analyzed at the same positions (middle, half radius, edge) along a <inline-formula><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:mo stretchy="false">&#x2329;</mml:mo><mml:mn>100</mml:mn><mml:mo stretchy="false">&#x232A;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and a <inline-formula><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:mo stretchy="false">&#x2329;</mml:mo><mml:mn>110</mml:mn><mml:mo stretchy="false">&#x232A;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> direction. A typical LPS setup was shown in [<xref ref-type="bibr" rid="B9-crystals-10-00018">9</xref>,<xref ref-type="bibr" rid="B10-crystals-10-00018">10</xref>]. Here, a modulated and focused laser beam exited electrons and holes, which drifted/diffused inside the sample. If a resulting doping inhomogeneity existed in the area of electron/hole movement, a potential difference would be detectable between the ohmic rim contacts by using a lock-in-technique. In the case of high charge carrier lifetime and a resulting large mean free path of charge carriers, LPS measurements are quite challenging, because the information of the local resistivity gradient is smeared out. This makes the LPS measurements for high purity Ge extremely difficult. In addition, the high intrinsic charge carrier density at room temperature sets a barrier to the measurability. In order to measure differences in local resistivity, the charge carrier concentration had to be larger than the intrinsic charge carrier density. In the current setup, the intrinsic charge carrier density was about <inline-formula><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>3</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>13</mml:mn></mml:msup><mml:mspace width="3.33333pt"/><mml:msup><mml:mi>cm</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> (at 300&#xA0;K) [<xref ref-type="bibr" rid="B11-crystals-10-00018">11</xref>], which corresponded to a resistivity of <inline-formula><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>50</mml:mn><mml:mspace width="3.33333pt"/><mml:mo>&#x3A9;</mml:mo><mml:mrow><mml:mspace width="0.166667em"/><mml:mi>cm</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. The resistivity of the crystal investigated in this paper was just below this critical value (<inline-formula><mml:math id="mm7" display="block"><mml:semantics><mml:mrow><mml:mo>&#x2248;</mml:mo><mml:mn>40</mml:mn><mml:mspace width="3.33333pt"/><mml:mo>&#x3A9;</mml:mo><mml:mrow><mml:mspace width="0.166667em"/><mml:mi>cm</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>).</p>
+    </sec>
+    <sec id="sec3-crystals-10-00018">
+      <title>3. Numerical Solution Strategy</title>
+      <p>We wanted to compute the thermal and stress fields in the crystal by an axisymmetric global calculation for a sequence of process times. This should be done automatically considering the changes in geometry and in the growth velocity of the crystal because the melt height was changing during the process. Therefore, we developed a perl script calling to Gmsh (<uri>http://gmsh.info/</uri>) [<xref ref-type="bibr" rid="B12-crystals-10-00018">12</xref>] for geometry and mesh creation and afterwards to Elmer (<uri>https://www.csc.fi/web/elmer</uri>) for the calculation. Results were analyzed using Paraview (<uri>https://www.paraview.org/</uri>).</p>
+      <p>The calculations were performed in steps <inline-formula><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> of the crystal length. For all computations presented in this paper, we set <inline-formula><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mspace width="3.33333pt"/><mml:mi>mm</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>. Because the pulling velocity was constant, but the melt height was changing, this meant that the time for increasing the crystal length by <inline-formula><mml:math id="mm10" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> depended on the change in crystal volume and correspondingly in melt volume during this time step. We named the iteration step <inline-formula><mml:math id="mm11" display="block"><mml:semantics><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> so that the crystal had a length of <inline-formula><mml:math id="mm12" display="block"><mml:semantics><mml:mrow><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi><mml:mspace width="0.166667em"/><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> after time step <inline-formula><mml:math id="mm13" display="block"><mml:semantics><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>. For every <inline-formula><mml:math id="mm14" display="block"><mml:semantics><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>, we determined the meniscus, the melt height, and the time <inline-formula><mml:math id="mm15" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> required for the growth from <inline-formula><mml:math id="mm16" display="block"><mml:semantics><mml:mrow><mml:mi>l</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi><mml:mspace width="0.166667em"/><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> to <inline-formula><mml:math id="mm17" display="block"><mml:semantics><mml:mrow><mml:mi>l</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi><mml:mspace width="0.166667em"/><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. The crystal shape was given by a data file originating either from the shape of the crystal grown or a given profile. The input data points were used for the definition of a spline function representing the shape of the crystal. Thus, we had a smooth function without abrupt changes in the boundary of the crystal. Therefore, the change in the growth angle was also continuous, which was important for the computation of the meniscus. The meniscus height <inline-formula><mml:math id="mm18" display="block"><mml:semantics><mml:msub><mml:mi>h</mml:mi><mml:mi>menis</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> was computed by the approach of Hurle [<xref ref-type="bibr" rid="B13-crystals-10-00018">13</xref>]:<disp-formula id="FD1-crystals-10-00018"><label>(1)</label><mml:math id="mm19" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mi>menis</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>a</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:msup><mml:mfenced separators="" open="[" close="]"><mml:mfrac><mml:mrow><mml:mn>1.0</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mo form="prefix">cos</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>gr</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>1.0</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mi>a</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msqrt><mml:mn>2</mml:mn></mml:msqrt><mml:msub><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mfenced><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>The definitions are given in <xref ref-type="fig" rid="crystals-10-00018-f002">Figure 2</xref>. In particular, we have <inline-formula><mml:math id="mm20" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>gr</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x3C0;</mml:mi><mml:mo>/</mml:mo><mml:mn>2</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>wet</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi mathvariant="normal">X</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, where <inline-formula><mml:math id="mm21" display="block"><mml:semantics><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi mathvariant="normal">X</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> is obtained by:<disp-formula id="FD2-crystals-10-00018"><label>(2)</label><mml:math id="mm22" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi mathvariant="normal">X</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>atan</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mrow><mml:mi>it</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi></mml:mrow></mml:mfrac></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+	  <inline-formula><mml:math id="mm23" display="block"><mml:semantics><mml:msub><mml:mi>a</mml:mi><mml:mi>L</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> is the Laplace constant, defined as <inline-formula><mml:math id="mm24" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>a</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:mn>2</mml:mn><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>lg</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mi>m</mml:mi></mml:msub><mml:mi>g</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></inline-formula>, where <inline-formula><mml:math id="mm25" display="block"><mml:semantics><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>lg</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> is the surface tension between the melt and gas. <inline-formula><mml:math id="mm26" display="block"><mml:semantics><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm27" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>H</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, and <italic>g</italic> are the density of the melt, latent heat, and gravitational acceleration, respectively. In order to obtain the melt-gas interface, we computed the height <italic>h</italic> above the melt level at the crucible. Together with the corresponding radius <italic>r</italic>, we could computed a set of points of the melt-gas interface:
+	  <disp-formula id="FD3-crystals-10-00018"><label>(3)</label><mml:math id="mm28" display="block"><mml:semantics><mml:mtable displaystyle="true"><mml:mtr><mml:mtd columnalign="right"><mml:mi>h</mml:mi></mml:mtd><mml:mtd><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>a</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:msup><mml:mfenced separators="" open="[" close="]"><mml:mfrac><mml:mrow><mml:mn>1.0</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mo form="prefix">sin</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>1.0</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mi>a</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msqrt><mml:mn>2</mml:mn></mml:msqrt><mml:mi>r</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mfenced><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="right"><mml:mi>r</mml:mi></mml:mtd><mml:mtd><mml:mo>=</mml:mo></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mfrac><mml:mrow><mml:msqrt><mml:mn>2</mml:mn></mml:msqrt><mml:msub><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:msub></mml:mrow><mml:msub><mml:mi>a</mml:mi><mml:mi>L</mml:mi></mml:msub></mml:mfrac><mml:mo form="prefix">ln</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mrow><mml:mo form="prefix">tan</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mn>1</mml:mn><mml:mn>4</mml:mn></mml:mfrac><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>gr</mml:mi></mml:msub></mml:mfenced></mml:mrow><mml:mrow><mml:mo form="prefix">tan</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mn>1</mml:mn><mml:mn>4</mml:mn></mml:mfrac><mml:mi>&#x3B1;</mml:mi></mml:mfenced></mml:mrow></mml:mfrac></mml:mfenced><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:mfenced separators="" open="(" close=")"><mml:mo form="prefix">cos</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mi>&#x3B1;</mml:mi></mml:mfenced><mml:mo>&#x2212;</mml:mo><mml:mo form="prefix">cos</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>gr</mml:mi></mml:msub></mml:mfenced></mml:mfenced><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:semantics></mml:math></disp-formula></p>
+      <p>The calculation was done for values of <inline-formula><mml:math id="mm30" display="block"><mml:semantics><mml:mi>&#x3B1;</mml:mi></mml:semantics></mml:math></inline-formula> between <inline-formula><mml:math id="mm31" display="block"><mml:semantics><mml:msup><mml:mn>0</mml:mn><mml:mo>&#x2218;</mml:mo></mml:msup></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm32" display="block"><mml:semantics><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>gr</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> in steps of <inline-formula><mml:math id="mm33" display="block"><mml:semantics><mml:msup><mml:mn>5</mml:mn><mml:mo>&#x2218;</mml:mo></mml:msup></mml:semantics></mml:math></inline-formula>. For every iteration <inline-formula><mml:math id="mm34" display="block"><mml:semantics><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>, the crystal volume could be computed, and thus, the required melt volume was known. The latter was used to compute the melt level at the crucible <inline-formula><mml:math id="mm35" display="block"><mml:semantics><mml:msub><mml:mi>h</mml:mi><mml:mi>mc</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> by a simple numerical integration taking into account the melt volume beneath the crystal because of the meniscus (<inline-formula><mml:math id="mm36" display="block"><mml:semantics><mml:mrow><mml:mi>V</mml:mi><mml:mo>=</mml:mo><mml:mi>&#x3C0;</mml:mi><mml:msubsup><mml:mi>R</mml:mi><mml:mi>X</mml:mi><mml:mn>2</mml:mn></mml:msubsup><mml:msub><mml:mi>h</mml:mi><mml:mi>menis</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>). The melt volume below the meniscus itself was not taken into account. Getting <inline-formula><mml:math id="mm37" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>h</mml:mi><mml:mi>total</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>h</mml:mi><mml:mi>mc</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>h</mml:mi><mml:mi>menis</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, we can now compute the time step as:<disp-formula id="FD5-crystals-10-00018"><label>(4)</label><mml:math id="mm38" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>h</mml:mi><mml:mi>total</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>h</mml:mi><mml:mi>total</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>/</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      and the growth velocity by:<disp-formula id="FD6-crystals-10-00018"><label>(5)</label><mml:math id="mm39" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi><mml:mo>/</mml:mo><mml:mo>&#x394;</mml:mo><mml:mi>t</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>This velocity was used for setting the latent heat production at the interface. At this point, we would like to note that the shape of the crystal was an input for the calculations. The shape might be taken as the crystal grown in an experiment or one can preset an artificial shape. Therefore, the three phase junction (melt/gas/crystal) was defined by the input and not an object to be computed. However, one obtained the required input power as a function of time, which could be adapted in an experiment. In this paper, we used the shapes obtained in the experiments. The shape was defined via the picture of the crystal and normalized by a measured radius at a specific height.</p>
+      <p>The computation of the thermal field included heat conduction and wall-to-wall radiation, where the parts made of quartz were treated as transparent without refraction. Computations with and without gas convection both for argon and hydrogen showed that there was no significant change of the temperature field in the crystal and only little in power. In the quasi-transparent calculation, we neglected the effect of the moving crystal for the heat exchange. For the small pulling rates like <inline-formula><mml:math id="mm40" display="block"><mml:semantics><mml:mrow><mml:mn>0.5</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> or <inline-formula><mml:math id="mm41" display="block"><mml:semantics><mml:mrow><mml:mn>1.0</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and the crystal radius of about 2<inline-formula><mml:math id="mm42" display="block"><mml:semantics><mml:msup><mml:mrow/><mml:mrow><mml:mo>&#x2033;</mml:mo></mml:mrow></mml:msup></mml:semantics></mml:math></inline-formula>, this effect was small. In the melt, we additionally computed the advective heat transport. We took into account the forced convection induced by crucible and crystal rotation, as well as the Marangoni convection at the melt/gas interface and the buoyancy convection in the volume. Melt convection was always the critical point in such calculations. In order to obtain a stationary solution, either the turbulence model or an increased viscosity could be used. For a realistic time dependent solution, a 3D calculation was required, which meant a much higher computational effort. Here, we solved the time independent Navier&#x2013;Stokes equations directly without employing a turbulence model. Therefore, the viscosity used in the computation was larger by about a magnitude than the real one. In the next section, we will show that the agreement in the interface shapes during growth was good between experiment and numerical simulation, i.e., the heat transport in the melt was described well by the convection with the increased viscosity. In order to get a stable solution, we started with a viscosity of <inline-formula><mml:math id="mm43" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3BC;</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>Pa</mml:mi><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, which decreased linearly over 20&#xA0;inner iterations to <inline-formula><mml:math id="mm44" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3BC;</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>Pa</mml:mi><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+      <p>At the outer boundary of the furnace, we set a constant temperature of <inline-formula><mml:math id="mm45" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>bc</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>300</mml:mn><mml:mspace width="3.33333pt"/><mml:mi mathvariant="normal">K</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>. We also set this temperature at the inner boundary of the inductor coil (<inline-formula><mml:math id="mm46" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>coilbc</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>300</mml:mn><mml:mspace width="3.33333pt"/><mml:mi mathvariant="normal">K</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>); the coil was water cooled.</p>
+      <p>The power was adjusted by setting the melting point temperature of Ge (1210&#xA0;K) at the three phase line as the target value for a feedback loop. The isoline of melting point temperature was assumed to be the melt/crystal interface. The actual interface in an iteration was moved according to the distance from the isoline of melting point temperature. The mesh in crystal and melt was adapted by solving the equation for elastic deformation. As this solver in Elmer had by default the variable <monospace>displacement</monospace>for the displacement of the nodes, one had to define a new variable (e.g., <monospace>displacement-stress</monospace>) for the displacement used in the solver for the thermal stress.</p>
+      <p>The elastic stress due to the thermal strain <inline-formula><mml:math id="mm47" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3F5;</mml:mi><mml:mi>T</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>L</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mi>ref</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> with <inline-formula><mml:math id="mm48" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>ref</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>595</mml:mn><mml:mspace width="3.33333pt"/><mml:mi mathvariant="normal">K</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> was computed. <inline-formula><mml:math id="mm49" display="block"><mml:semantics><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>L</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> is the thermal expansion coefficient, and the value is given in <xref ref-type="table" rid="crystals-10-00018-t001">Table 1</xref>. We used the temperature dependent elastic coefficients as given in <xref ref-type="table" rid="crystals-10-00018-t002">Table 2</xref> and employed the approach of Lambropoulos [<xref ref-type="bibr" rid="B15-crystals-10-00018">15</xref>] for a crystal growing in the <inline-formula><mml:math id="mm50" display="block"><mml:semantics><mml:mrow><mml:mo stretchy="false">&#x2329;</mml:mo><mml:mn>001</mml:mn><mml:mo stretchy="false">&#x232A;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> direction:<disp-formula id="FD7-crystals-10-00018"><label>(6)</label><mml:math id="mm51" display="block"><mml:semantics><mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mtable><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>&#x3D5;</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>z</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:mfenced><mml:mo>=</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>11</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>4</mml:mn></mml:mfrac><mml:mi>H</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>12</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>4</mml:mn></mml:mfrac><mml:mi>H</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:msub><mml:mi>C</mml:mi><mml:mn>12</mml:mn></mml:msub></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>12</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>4</mml:mn></mml:mfrac><mml:mi>H</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>11</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>4</mml:mn></mml:mfrac><mml:mi>H</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:msub><mml:mi>C</mml:mi><mml:mn>12</mml:mn></mml:msub></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>C</mml:mi><mml:mn>12</mml:mn></mml:msub></mml:mtd><mml:mtd><mml:msub><mml:mi>C</mml:mi><mml:mn>12</mml:mn></mml:msub></mml:mtd><mml:mtd><mml:msub><mml:mi>C</mml:mi><mml:mn>11</mml:mn></mml:msub></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:msub><mml:mi>C</mml:mi><mml:mn>44</mml:mn></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:mfenced><mml:mfenced separators="" open="(" close=")"><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>&#x3F5;</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3F5;</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>&#x3F5;</mml:mi><mml:mrow><mml:mi>&#x3D5;</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3F5;</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>&#x3F5;</mml:mi><mml:mrow><mml:mi>z</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3F5;</mml:mi><mml:mi>T</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3F5;</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msub></mml:mtd></mml:mtr></mml:mtable></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <italic>H</italic> is given by <inline-formula><mml:math id="mm52" display="block"><mml:semantics><mml:mrow><mml:mi>H</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:msub><mml:mi>C</mml:mi><mml:mn>44</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>12</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>11</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. The stress calculation was performed in the seed and crystal. Displacements in the vertical direction were set to zero at the top of the seed.</p>
+      <p>Calculations were performed on a typical desktop computer. For the crystals considered in this paper and <inline-formula><mml:math id="mm53" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mspace width="3.33333pt"/><mml:mi>mm</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, the complete calculation took about one day.</p>
+    </sec>
+    <sec sec-type="results" id="sec4-crystals-10-00018">
+      <title>4. Results and Discussion</title>
+      <p>We considered two experimental runs for our numerical simulations. The examples were chosen out of a series of growth experiments for the process development, which was started with argon as the atmosphere and was later changed to hydrogen. In one case, we grew a crystal of 513 g total weight in an argon atmosphere (Case 1) and in the other one a crystal of 1530 g total weight in a hydrogen atmosphere (Case 2). Firstly, we discuss the results of Case 2. The crystal shape of the final crystal can be seen on the left hand side of <xref ref-type="fig" rid="crystals-10-00018-f003">Figure 3</xref>. Three wafers were cut out of the crystal as indicated by the horizontal yellow lines. These wafers were used for the measurements of the etch pitch density (EPD), which we will discuss later. Three vertical cuts were made, in the cone, the cylindrical part, and the final cone. All three were polished chemo-mechanically and used for LPS measurements. In the middle of <xref ref-type="fig" rid="crystals-10-00018-f003">Figure 3</xref>, the outcome of LPS is shown together with the computed interface lines (yellow). A good agreement can be observed over the entire growth process. Some minor differences can be seen in the middle of the shouldering. For comparison, on the right hand side, the interface lines are presented, which were obtained by running the calculation using <inline-formula><mml:math id="mm54" display="block"><mml:semantics><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> for computing the latent heat as was done in the standard computational scheme (<inline-formula><mml:math id="mm55" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>&#x2261;</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>). A significant difference in the shapes can be observed in the later stages of the growth, especially towards the end. The shape of the interface is of major importance for the von Mises stress in its vicinity. In <xref ref-type="fig" rid="crystals-10-00018-f004">Figure 4</xref>, the von Mises stress is shown for three different locations at the interface for the two runs with computed <inline-formula><mml:math id="mm56" display="block"><mml:semantics><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> and with <inline-formula><mml:math id="mm57" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>&#x2261;</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. The stress was always higher for <inline-formula><mml:math id="mm58" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>&#x2261;</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> except for a short time period. Because of the high temperature, the von Mises stress in the vicinity of the interface was the most critical for the multiplication of dislocations.</p>
+      <p>We also compared the change in the required power during the process time. Please note that the experimental value was given by the electrical current and voltage in the entire circuit, whereas the numerical values were the sum of the induced heat in the graphite and melt. For comparison, we shifted the experimental values by 350 W. The comparison is shown in <xref ref-type="fig" rid="crystals-10-00018-f005">Figure 5</xref>. After shouldering, the required power went down. There was some instability when reaching the cylindrical part, which was more pronounced in the numerical calculation than in the experiment. This might be because we did not perform fully transient calculations and did not take the change of the interface shape into account for the computation of <inline-formula><mml:math id="mm59" display="block"><mml:semantics><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>. The growth velocity was computed before the thermal calculation with Elmer starts and was not adapted later. This meant that the latent heat production corresponded to the evolution of a flat interface. Latent heat effects due to changes in the interface shape were not considered. The second instability occurred near the end of the process. For a better comparison, the crystal radius is also plotted in <xref ref-type="fig" rid="crystals-10-00018-f005">Figure 5</xref>. Please note that the plot was versus process time and not versus crystal length. Therefore, the shape given by the plot of the crystal radius differed from that of the crystal shape. We also show the result if only the change in the melt level was taken into account for computing <inline-formula><mml:math id="mm60" display="block"><mml:semantics><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> and the change of the meniscus height was neglected (light orange curve). In the regions where the crystal radius was going from an increasing to a decreasing one, a strong peak in power occurred. In these regions, the large change of <inline-formula><mml:math id="mm61" display="block"><mml:semantics><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>gr</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> led to a significant change of <inline-formula><mml:math id="mm62" display="block"><mml:semantics><mml:msub><mml:mi>h</mml:mi><mml:mi>menis</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> (see Equation (<xref ref-type="disp-formula" rid="FD1-crystals-10-00018">1</xref>)) and the melt volume beneath the crystal. Therefore, taking into account the effect of this melt volume in the computation of the growth velocity had a strong impact on the power consumption.</p>
+      <p>One of the key process parameters was the pulling velocity. The higher the velocity, the larger the amount of latent heat released and the lower the required power. For Case 2, we computed the process again for a pulling velocity of <inline-formula><mml:math id="mm63" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. In <xref ref-type="fig" rid="crystals-10-00018-f006">Figure 6</xref>, we show at the bottom the power consumption as a function of the process time. Please note that for the same length of the crystal, the process time was different for the two cases. The dotted lines indicate the growth stage where the von Mises stress in the crystal and the temperature in the melt are shown on the left hand side. For each stage, the left part and right part show the results for <inline-formula><mml:math id="mm64" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.5</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm65" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1.0</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, respectively. The reduced power consumption for <inline-formula><mml:math id="mm66" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> had a strong impact on the temperature in the melt (see <xref ref-type="fig" rid="crystals-10-00018-f006">Figure 6</xref> top). The melt would freeze at the top in the vicinity of the crucible. This meant that the position of the crucible should be changed when applying a high pulling velocity. The von Mises stress depended significantly on the growth stage and was sometimes larger in one case and sometimes in the other. We would like to note that we took the shape of the crystal as observed in the experiment with <inline-formula><mml:math id="mm67" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.5</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Therefore, a general statement on stresses and possible dislocation multiplication cannot be made. However, the situation for the melt/crystal interface was clear: the interface for <inline-formula><mml:math id="mm68" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1.0</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> was always concave, whereas for <inline-formula><mml:math id="mm69" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.5</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, it was always convex. We would like to mention that with the algorithm developed, we could give any crystal shape as an input and check the optimal pulling velocity. As an illustration of how the growth velocity was changing during the growth process in Case 2, we show the <inline-formula><mml:math id="mm70" display="block"><mml:semantics><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> as a function of the process time in <xref ref-type="fig" rid="crystals-10-00018-f007">Figure 7</xref>. One can see that the main deviations from the pulling velocity <inline-formula><mml:math id="mm71" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.5</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> were in the regions of increasing radius.</p>
+      <p>A transient or quasi-transient calculation was the prerequisite for computing the dislocation density. However, this was beyond the purpose of this paper, and we only wanted to make some simple calculations to estimate the situation for the two different growth cases. In the Alexander&#x2013;Haasen model [<xref ref-type="bibr" rid="B27-crystals-10-00018">27</xref>], the multiplication of dislocations is given by (see the Nomenclature):<disp-formula id="FD8-crystals-10-00018"><label>(7)</label><mml:math id="mm72" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>N</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mi>disl</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:munder><mml:munder accentunder="true"><mml:mrow><mml:mi>K</mml:mi><mml:msub><mml:mi>k</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:msubsup><mml:mi>&#x3C4;</mml:mi><mml:mrow><mml:mi>eff</mml:mi></mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>m</mml:mi><mml:mo>+</mml:mo><mml:mi>l</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msubsup><mml:mo form="prefix">exp</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>Q</mml:mi><mml:mo>/</mml:mo><mml:mi>k</mml:mi><mml:mi>T</mml:mi><mml:mo>}</mml:mo></mml:mrow></mml:mrow><mml:mo>&#xFE38;</mml:mo></mml:munder><mml:mi mathvariant="script">F</mml:mi></mml:munder><mml:msub><mml:mi>N</mml:mi><mml:mi>disl</mml:mi></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>The effective strain is given by <inline-formula><mml:math id="mm73" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C4;</mml:mi><mml:mi>eff</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:msub><mml:mi>J</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:msqrt><mml:mo>&#x2212;</mml:mo><mml:mi>D</mml:mi><mml:msqrt><mml:msub><mml:mi>N</mml:mi><mml:mi>disl</mml:mi></mml:msub></mml:msqrt></mml:mrow></mml:semantics></mml:math></inline-formula> with <inline-formula><mml:math id="mm74" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:msub><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msubsup><mml:mi>S</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm75" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B4;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mfrac><mml:mn>1</mml:mn><mml:mn>3</mml:mn></mml:mfrac><mml:msub><mml:mo>&#x2211;</mml:mo><mml:mi>k</mml:mi></mml:msub><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>k</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. <italic>D</italic> is the hardening factor. In this paper, we neglected the hardening effect and set <inline-formula><mml:math id="mm76" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C4;</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3C4;</mml:mi><mml:mi>vonMises</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, the von Mises stress. For Ge, <inline-formula><mml:math id="mm77" display="block"><mml:semantics><mml:mrow><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>, and the Peierls energy was <inline-formula><mml:math id="mm78" display="block"><mml:semantics><mml:mrow><mml:mi>Q</mml:mi><mml:mo>=</mml:mo><mml:mn>1.6</mml:mn><mml:mspace width="3.33333pt"/><mml:mi>eV</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> [<xref ref-type="bibr" rid="B28-crystals-10-00018">28</xref>]. The same value could be obtained from the data in Figure 10 of [<xref ref-type="bibr" rid="B29-crystals-10-00018">29</xref>] when choosing <inline-formula><mml:math id="mm79" display="block"><mml:semantics><mml:mrow><mml:mi>m</mml:mi><mml:mo>=</mml:mo><mml:mn>2.24</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> for both temperatures. In addition, one obtains <inline-formula><mml:math id="mm80" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>2.6</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>17</mml:mn><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>12</mml:mn></mml:mrow></mml:msup><mml:mspace width="3.33333pt"/><mml:mrow><mml:msup><mml:mi mathvariant="normal">m</mml:mi><mml:mrow><mml:mn>5.48</mml:mn></mml:mrow></mml:msup><mml:mspace width="0.166667em"/><mml:msup><mml:mi mathvariant="normal">N</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mi mathvariant="normal">s</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Taking <inline-formula><mml:math id="mm81" display="block"><mml:semantics><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>190</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi mathvariant="normal">m</mml:mi><mml:mo>/</mml:mo><mml:mi mathvariant="normal">N</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> [<xref ref-type="bibr" rid="B30-crystals-10-00018">30</xref>], we obtain:<disp-formula id="FD9-crystals-10-00018"><label>(8)</label><mml:math id="mm82" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="script">F</mml:mi><mml:mo>=</mml:mo><mml:mn>4.94</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:msup><mml:msubsup><mml:mi>&#x3C4;</mml:mi><mml:mrow><mml:mi>eff</mml:mi></mml:mrow><mml:mrow><mml:mn>3.24</mml:mn></mml:mrow></mml:msubsup><mml:mo form="prefix">exp</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>1.856</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>4</mml:mn></mml:msup><mml:mo>/</mml:mo><mml:mi>T</mml:mi><mml:mo>}</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Typically, EPD is measured on three wafers: one in the cone, one at the beginning of the cylindrical part, and one at the end of the cylindrical part. On each wafer, measurements were made at the centre, at <inline-formula><mml:math id="mm83" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm84" display="block"><mml:semantics><mml:msub><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>, where <inline-formula><mml:math id="mm85" display="block"><mml:semantics><mml:msub><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> is the radius of the wafer. Measurements were done in two crystallographic directions <inline-formula><mml:math id="mm86" display="block"><mml:semantics><mml:mrow><mml:mo stretchy="false">&#x2329;</mml:mo><mml:mn>100</mml:mn><mml:mo stretchy="false">&#x232A;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm87" display="block"><mml:semantics><mml:mrow><mml:mo stretchy="false">&#x2329;</mml:mo><mml:mn>110</mml:mn><mml:mo stretchy="false">&#x232A;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> on a <inline-formula><mml:math id="mm88" display="block"><mml:semantics><mml:mrow><mml:mo stretchy="false">&#x2329;</mml:mo><mml:mn>001</mml:mn><mml:mo stretchy="false">&#x232A;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> oriented plane. Because we performed axisymmetric calculations, we used the average value of the two directions. For the wafer in the cone, we only used one average value because the radius was much smaller than for the wafers from the cylindrical part. The EPD values <inline-formula><mml:math id="mm89" display="block"><mml:semantics><mml:msub><mml:mi>N</mml:mi><mml:mi>EPD</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> for Cases 1 and 2 are given in <xref ref-type="fig" rid="crystals-10-00018-f008">Figure 8</xref>. For all data points with average values, we also show the maximum variation. EPD was much higher in Case 2 than in Case 1. Please note that in Case 1, argon was used instead of hydrogen, as in Case 2. We also would like to stress that the crystal in Case 2 was grown as a reference crystal, and the process was not optimized with respect to the dislocation densities. In order to make any comparison with our numerical calculations, we summed up the volume averaged multiplication factor <inline-formula><mml:math id="mm90" display="block"><mml:semantics><mml:mi mathvariant="script">F</mml:mi></mml:semantics></mml:math></inline-formula> in a certain region in time:<disp-formula id="FD10-crystals-10-00018"><label>(9)</label><mml:math id="mm91" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="script">F</mml:mi><mml:mi>S</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>t</mml:mi></mml:munder><mml:mi mathvariant="script">F</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>t</mml:mi><mml:mi>it</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>&#x394;</mml:mo><mml:mi>t</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>These numbers are given in blue in <xref ref-type="fig" rid="crystals-10-00018-f008">Figure 8</xref>. They were significant larger for Case 2 than for Case 1. Thus, the observed tendency in EPD was reflected in the numerical results. The EPD was between 10 and 30 times larger in Case 2 than in Case 1. The calculations exhibited a similar behavior, but the numbers at the centre in Case 2 and those at the rim for Case 1 showed a disagreement from the trend. Nevertheless, the calculation strategy could be already used to find the process conditions where the dislocation density was low. However, a further improvement of the model was required, where the plastic strain should be included in the stress computation (Equation (6)), which was demonstrated by Helbig et al. [<xref ref-type="bibr" rid="B31-crystals-10-00018">31</xref>]. In addition, the dislocation density should be computed using Equation (7).</p>
+    </sec>
+    <sec sec-type="conclusions" id="sec5-crystals-10-00018">
+      <title>5. Conclusions</title>
+      <p>We developed a quasi-transient approach to compute the Czochralski growth of high purity Ge using the open source software Elmer. The approach was validated by a reference experiment. The key point was the comparison of the interface shape during the growth. For this reason, lateral photoscanning (LPS) measurements were performed at vertical cuts through the crystal. A good agreement between LPS measurements and numerical results was observed. We showed that it was essential to compute the local growth velocity instead of using the constant pulling velocity. Furthermore, the change in power with process time was in good agreement between the measured one in the experiment and the calculated one in the numerical calculations.</p>
+      <p>Employing the temperature field and the von Mises stress, we obtained a first guess for the evolution of the dislocation densities. The tendency from this approach with respect to the growth process and process time was the same as observed by the etch pit densities measured on three wafers of a crystal. A complete calculation of dislocation densities applying the Alexander&#x2013;Haasen model requires a much more advanced numerical approach, which is a project for the future.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, W.M.; methodology, W.M.; formal analysis, S.K. and U.J.; investigation, A.G., J.F. and J.J.-C.; writing&#x2013;original draft preparation, W.M., S.K.; writing&#x2013;review and editing, A.G., U.J. and J.J.-C.; supervision, N.A.; project administration, J.J.-C. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by Federal Ministry of Education and Research (BMBF) grant number 05A2017.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>Part of this work was funded by the Federal Ministry of Education and Research (BMBF) within the Collaborative Research Project (05A2017). We would like to thank F. M. Kie&#xDF;ling for his continuous support of the GERDA project.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <glossary>
+      <title>Nomenclature</title>
+      <array>
+        <tbody>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm92" display="block">
+                  <mml:semantics>
+                    <mml:mrow>
+                      <mml:mo>&#x394;</mml:mo>
+                      <mml:mi>l</mml:mi>
+                    </mml:mrow>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">change in crystal length in one time iteration step</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm93" display="block">
+                  <mml:semantics>
+                    <mml:mrow>
+                      <mml:mo>&#x394;</mml:mo>
+                      <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">real time of a time iteration step</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm94" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>a</mml:mi>
+                      <mml:mi>L</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">Laplace constant</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <italic>b</italic>
+            </td>
+            <td align="left" valign="top">Burgers vector</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm95" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>C</mml:mi>
+                      <mml:mrow>
+                        <mml:mi>i</mml:mi>
+                        <mml:mi>j</mml:mi>
+                      </mml:mrow>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">Elastic coefficients</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm96" display="block">
+                  <mml:semantics>
+                    <mml:mi mathvariant="script">F</mml:mi>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">Dislocation multiplication factor</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <italic>g</italic>
+            </td>
+            <td align="left" valign="top">gravitational acceleration</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm97" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>h</mml:mi>
+                      <mml:mi>menis</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">meniscus height</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm98" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>h</mml:mi>
+                      <mml:mi>mc</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">melt height at the crucible</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm99" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>h</mml:mi>
+                      <mml:mi>total</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">total melt height</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <italic>h</italic>
+            </td>
+            <td align="left" valign="top">height of melt/gas interface above the melt at the crucible</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <italic>k</italic>
+            </td>
+            <td align="left" valign="top">Boltzmann constant</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm100" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>k</mml:mi>
+                      <mml:mn>0</mml:mn>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">material constant for dislocation velocity</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <italic>K</italic>
+            </td>
+            <td align="left" valign="top">prefactor for dislocation multiplication</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <italic>l</italic>
+            </td>
+            <td align="left" valign="top">crystal length</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm101" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>N</mml:mi>
+                      <mml:mi>disl</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">dislocation density</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <italic>Q</italic>
+            </td>
+            <td align="left" valign="top">Peierls energy</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm102" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>R</mml:mi>
+                      <mml:mi>X</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">crystal radius</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <italic>r</italic>
+            </td>
+            <td align="left" valign="top">radial coordinate of the melt/gas interface</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm103" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>t</mml:mi>
+                      <mml:mi>it</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">time iteration step</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm104" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>T</mml:mi>
+                      <mml:mi>bc</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">temperature at the outer boundary</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm105" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>T</mml:mi>
+                      <mml:mi>coilbc</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">temperature at the inner part of the coils</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <italic>T</italic>
+            </td>
+            <td align="left" valign="top">temperature</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm106" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>v</mml:mi>
+                      <mml:mi>n</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">growth velocity</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm107" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>v</mml:mi>
+                      <mml:mi>pull</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">pulling velocity</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm108" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>&#x3B1;</mml:mi>
+                      <mml:mi>X</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">angle of the crystal rim with respect to the vertical direction (see <xref ref-type="fig" rid="crystals-10-00018-f002">Figure 2</xref>)</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm109" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>&#x3B1;</mml:mi>
+                      <mml:mi>wet</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">wetting angle (see <xref ref-type="fig" rid="crystals-10-00018-f002">Figure 2</xref>)</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm110" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>&#x3B1;</mml:mi>
+                      <mml:mi>gr</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">growth angle (see <xref ref-type="fig" rid="crystals-10-00018-f002">Figure 2</xref>)</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm111" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>&#x3F5;</mml:mi>
+                      <mml:mrow>
+                        <mml:mi>i</mml:mi>
+                        <mml:mi>j</mml:mi>
+                      </mml:mrow>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">strain components</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm112" display="block">
+                  <mml:semantics>
+                    <mml:msubsup>
+                      <mml:mi>&#x3F5;</mml:mi>
+                      <mml:mrow>
+                        <mml:mi>i</mml:mi>
+                        <mml:mi>j</mml:mi>
+                      </mml:mrow>
+                      <mml:mi>c</mml:mi>
+                    </mml:msubsup>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">components of plastic (creep) strain</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm113" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>&#x3C3;</mml:mi>
+                      <mml:mrow>
+                        <mml:mi>i</mml:mi>
+                        <mml:mi>j</mml:mi>
+                      </mml:mrow>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">stress components</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm114" display="block">
+                  <mml:semantics>
+                    <mml:mi>&#x3C4;</mml:mi>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">stress</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm115" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>&#x3C4;</mml:mi>
+                      <mml:mi>eff</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">effective stress</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <inline-formula>
+                <mml:math id="mm116" display="block">
+                  <mml:semantics>
+                    <mml:msub>
+                      <mml:mi>&#x3C4;</mml:mi>
+                      <mml:mi>vonMises</mml:mi>
+                    </mml:msub>
+                  </mml:semantics>
+                </mml:math>
+              </inline-formula>
+            </td>
+            <td align="left" valign="top">von Mises stress</td>
+          </tr>
+        </tbody>
+      </array>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-crystals-10-00018">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sande</surname>
+              <given-names>M.V.</given-names>
+            </name>
+            <name>
+              <surname>Goethem</surname>
+              <given-names>L.V.</given-names>
+            </name>
+            <name>
+              <surname>Laet</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Guislain</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dislocations in high-purity germanium and its relation to <italic>&#x3B3;</italic>-ray detector performance</article-title>
+          <source>Appl. Phys. A</source>
+          <year>1986</year>
+          <volume>40</volume>
+          <fpage>257</fpage>
+          <lpage>261</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00616604</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-crystals-10-00018">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Artemyev</surname>
+              <given-names>V.V.</given-names>
+            </name>
+            <name>
+              <surname>Smirnov</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Kalaev</surname>
+              <given-names>V.V.</given-names>
+            </name>
+            <name>
+              <surname>Mamedov</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Sidko</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Podkopaev</surname>
+              <given-names>O.I.</given-names>
+            </name>
+            <name>
+              <surname>Kravtsova</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Shimansky</surname>
+              <given-names>A.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling of dislocation dynamics in germanium Czochralski growth</article-title>
+          <source>J. Cryst. Growth</source>
+          <year>2017</year>
+          <volume>468</volume>
+          <fpage>443</fpage>
+          <lpage>447</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jcrysgro.2017.01.032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-crystals-10-00018">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mei</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mei</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Govani</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Khizar</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dislocation density control in high-purity germanium crystal growt</article-title>
+          <source>J. Cryst. Growth</source>
+          <year>2014</year>
+          <volume>393</volume>
+          <fpage>54</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jcrysgro.2013.11.075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-crystals-10-00018">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Honarmandnia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tavakolia</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Sadeghib</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Global simulation of an rf czochralski furnace during different stages of germanium single crystal growth</article-title>
+          <source>CrystEngComm</source>
+          <year>2016</year>
+          <volume>18</volume>
+          <fpage>3942</fpage>
+          <lpage>3948</lpage>
+          <pub-id pub-id-type="doi">10.1039/C6CE00532B</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-crystals-10-00018">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tavakoli</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Renani</surname>
+              <given-names>E.K.</given-names>
+            </name>
+            <name>
+              <surname>Honarmandnia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ezheiyan</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Computational analysis of heat transfer, thermal stress and dislocation density during resistively Czochralski growth of germanium single crysta</article-title>
+          <source>J. Cryst. Growth</source>
+          <year>2018</year>
+          <volume>483</volume>
+          <fpage>125</fpage>
+          <lpage>133</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jcrysgro.2017.11.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-crystals-10-00018">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sabanskis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bergfelds</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Muiznieks</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schr&#xF6;ck</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Krauze</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystal shape 2D modeling for transient CZ silicon crystal growth</article-title>
+          <source>J. Crystal Growth</source>
+          <year>2013</year>
+          <volume>377</volume>
+          <fpage>9</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jcrysgro.2013.04.055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-crystals-10-00018">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abrosimov</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Czupalla</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dropka</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gybin</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Irmscher</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Janicsk&#xF3;-Cs&#xE1;thy</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Juda</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Kayser</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>W.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Technology development of high purity germanium crystals for radiation detectors</article-title>
+          <source>J. Cryst. Growth</source>
+          <year>2019</year>
+          <comment>in press</comment>
+          <pub-id pub-id-type="doi">10.1016/j.jcrysgro.2019.125396</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-crystals-10-00018">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abrosimov</surname>
+              <given-names>N.V.</given-names>
+            </name>
+            <name>
+              <surname>L&#xFC;dge</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Riemann</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Schr&#xF6;der</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lateral photovoltage scanning (LPS) method for the visualization of the solid-liquid interface of Si<sub>1-<italic>x</italic></sub>Ge<sub><italic>x</italic></sub> single crystals</article-title>
+          <source>J. Cryst. Growth</source>
+          <year>2002</year>
+          <volume>237&#x2013;239</volume>
+          <fpage>356</fpage>
+          <lpage>360</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-0248(01)01940-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-crystals-10-00018">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>L&#xFC;dge</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Riemann</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Doping inhomogeneities in silicon crystals detected by the lateral photovoltage scanning (LPS) method</article-title>
+          <source>Inst. Phys. Conf. Ser.</source>
+          <year>1998</year>
+          <volume>160</volume>
+          <fpage>145</fpage>
+          <lpage>148</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B10-crystals-10-00018">
+        <label>10.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kayser</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>L&#xFC;dge</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>B&#xF6;ttcher</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Computational simulations of the of lateral-photovoltage-scanning-Method</article-title>
+          <source>Proceedings of the 8th International Scientific Colloquium: Modelling for Material Processing</source>
+          <conf-loc>Riga, Latvia</conf-loc>
+          <conf-date>21&#x2013;22 September 2017</conf-date>
+          <fpage>149</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="doi">10.22364/mmp2017.21</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-crystals-10-00018">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morin</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Maita</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Conductivity and hall effect in the intrinsic range of germanium</article-title>
+          <source>Phys. Rev.</source>
+          <year>1954</year>
+          <volume>94</volume>
+          <fpage>1525</fpage>
+          <lpage>1529</lpage>
+          <pub-id pub-id-type="doi">10.1103/PhysRev.94.1525</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-crystals-10-00018">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geuzaine</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Remacle</surname>
+              <given-names>J.-F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gmsh: A three-dimensional finite element mesh generator with built-in pre- and post-processing facilities</article-title>
+          <source>Int. J. Num. Meth. Eng.</source>
+          <year>2009</year>
+          <volume>79</volume>
+          <fpage>1309</fpage>
+          <lpage>1331</lpage>
+          <pub-id pub-id-type="doi">10.1002/nme.2579</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-crystals-10-00018">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hurle</surname>
+              <given-names>D.T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analytical representation of the shape of the meniscus in Czochralski growth</article-title>
+          <source>J. Cryst. Growth</source>
+          <year>1983</year>
+          <volume>63</volume>
+          <fpage>13</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-0248(83)90421-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-crystals-10-00018">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Den Bogaert</surname>
+              <given-names>N.V.</given-names>
+            </name>
+            <name>
+              <surname>Dupret</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic global simulation of the Czochralski process, I. Principles of the method</article-title>
+          <source>J. Cryst. Growth</source>
+          <year>1997</year>
+          <volume>171</volume>
+          <fpage>65</fpage>
+          <lpage>76</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-0248(96)00488-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-crystals-10-00018">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lambropoulos</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The isotropic assumption during the Czochralski growth of single semiconductors crystals</article-title>
+          <source>J. Cryst. Growth</source>
+          <year>1987</year>
+          <volume>84</volume>
+          <fpage>349</fpage>
+          <lpage>358</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-0248(87)90262-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-crystals-10-00018">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rhim</surname>
+              <given-names>W.-K.</given-names>
+            </name>
+            <name>
+              <surname>Ishikawa</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermophysical properties of molten germanium measured by a high-temperature electrostatic levitator</article-title>
+          <source>Int. J. Thermophys.</source>
+          <year>2000</year>
+          <volume>21</volume>
+          <fpage>429</fpage>
+          <lpage>443</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1006639714415</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-crystals-10-00018">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chathoth</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Damaschke</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Samwer</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermophysical properties of Si, Ge, and Si&#x2013;Ge alloy melts measured under microgravity</article-title>
+          <source>Appl. Phys. Lett.</source>
+          <year>2008</year>
+          <volume>93</volume>
+          <fpage>071902</fpage>
+          <pub-id pub-id-type="doi">10.1063/1.2973047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-crystals-10-00018">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nishi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shibata</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ohta</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal diffusivities and conductivities of molten germanium and silicon</article-title>
+          <source>Mater. Trans.</source>
+          <year>2003</year>
+          <volume>44</volume>
+          <fpage>2369</fpage>
+          <lpage>2374</lpage>
+          <pub-id pub-id-type="doi">10.2320/matertrans.44.2369</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-crystals-10-00018">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takasuka</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Tokizaki</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Terashima</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Emissivity of liquid germanium in visible and near infrared region</article-title>
+          <source>J. Appl. Phys.</source>
+          <year>1997</year>
+          <volume>85</volume>
+          <fpage>2590</fpage>
+          <lpage>2595</lpage>
+          <pub-id pub-id-type="doi">10.1063/1.366071</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-crystals-10-00018">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skinner</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Barnes</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>An oscillating coil system for contactless electrical conductivity measurements of aerodynamically levitated melts</article-title>
+          <source>Rev. Sci. Instrum.</source>
+          <year>2006</year>
+          <volume>77</volume>
+          <fpage>123904</fpage>
+          <pub-id pub-id-type="doi">10.1063/1.2403939</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-crystals-10-00018">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sato</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nishizuka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tachikawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hoshi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yamamura</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yamamura</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Viscosity and density of molten germanium</article-title>
+          <source>High Temp. High Press.</source>
+          <year>2000</year>
+          <volume>32</volume>
+          <fpage>252</fpage>
+          <lpage>260</lpage>
+          <pub-id pub-id-type="doi">10.1068/htwu265</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-crystals-10-00018">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Artemyev</surname>
+              <given-names>V.K.</given-names>
+            </name>
+            <name>
+              <surname>Folomeev</surname>
+              <given-names>V.I.</given-names>
+            </name>
+            <name>
+              <surname>Ginkin</surname>
+              <given-names>V.P.</given-names>
+            </name>
+            <name>
+              <surname>Kartavykh</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Mil&#x2019;vidskii</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Rakov</surname>
+              <given-names>V.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mechanism of Marangoni convection influence on dopant distribution in Ge space-grown single crystals</article-title>
+          <source>J. Cryst. Growth</source>
+          <year>2001</year>
+          <volume>223</volume>
+          <fpage>29</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-0248(00)00981-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-crystals-10-00018">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reeber</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal expansion and lattice parameters of group IV semiconductors</article-title>
+          <source>Mater. Chem. Phys.</source>
+          <year>1996</year>
+          <volume>46</volume>
+          <fpage>259</fpage>
+          <lpage>264</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0254-0584(96)01808-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-crystals-10-00018">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Glassbrenner</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Slack</surname>
+              <given-names>G.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal conductivity of silicon and germanium from 3 K to the melting point</article-title>
+          <source>Phys. Rev.</source>
+          <year>1964</year>
+          <volume>134</volume>
+          <fpage>A1058</fpage>
+          <lpage>A1069</lpage>
+          <pub-id pub-id-type="doi">10.1103/PhysRev.134.A1058</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-crystals-10-00018">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allen</surname>
+              <given-names>F.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Emissivity at 0.65 micron of silicon and germanium at high temperatures</article-title>
+          <source>J. Appl. Phys.</source>
+          <year>1957</year>
+          <volume>28</volume>
+          <fpage>1510</fpage>
+          <lpage>1512</lpage>
+          <pub-id pub-id-type="doi">10.1063/1.1722688</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-crystals-10-00018">
+        <label>26.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nikanorov</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Kardashev</surname>
+              <given-names>B.K.</given-names>
+            </name>
+          </person-group>
+          <source>Elasticity and Dislocation Inelasticity of Crystalls</source>
+          <publisher-name>Moscow Izdatel Nauka</publisher-name>
+          <publisher-loc>Moscow, Russia</publisher-loc>
+          <year>1985</year>
+        </element-citation>
+      </ref>
+      <ref id="B27-crystals-10-00018">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alexander</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Haasen</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dislocations and plastic flow in the diamond structure</article-title>
+          <source>Solid State Phys.</source>
+          <year>1968</year>
+          <volume>22</volume>
+          <fpage>27</fpage>
+          <lpage>158</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B28-crystals-10-00018">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haasen</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dislocations in semiconductors</article-title>
+          <source>J. Phys. Colloques</source>
+          <year>1966</year>
+          <volume>27</volume>
+          <fpage>C3-30</fpage>
+          <lpage>C3-38</lpage>
+          <pub-id pub-id-type="doi">10.1051/jphyscol:1966305</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-crystals-10-00018">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dupas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zuodar</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Coddet</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Kruml</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>J.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dislocation multiplication, exhaustion and mechanical behavior for Ge single crystals</article-title>
+          <source>J. Phys. Condens. Matter</source>
+          <year>2002</year>
+          <volume>14</volume>
+          <fpage>12989</fpage>
+          <lpage>12995</lpage>
+          <pub-id pub-id-type="doi">10.1088/0953-8984/14/48/342</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-crystals-10-00018">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kruml</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dupas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>A critical assessment of dislocation multiplication laws in germanium</article-title>
+          <source>Acta Mater.</source>
+          <year>2006</year>
+          <volume>54</volume>
+          <fpage>4721</fpage>
+          <lpage>4729</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actamat.2006.06.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-crystals-10-00018">
+        <label>31.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Helbig</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Funke</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>M&#xF6;ller</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simulation of the dislocation density during multicrystalline silicon ingot growth</article-title>
+          <source>Proceedings of the Wafer-Based Silicon Solar Cells and Materials Technology, EU PVSEC Proceedings</source>
+          <conf-loc>Hamburg, Germany</conf-loc>
+          <conf-date>5&#x2013;9 September 2011</conf-date>
+          <fpage>1938</fpage>
+          <lpage>1941</lpage>
+          <pub-id pub-id-type="doi">10.4229/26thEUPVSEC2011-2BV.4.51</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="crystals-10-00018-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Sketch of the furnace as used for the axisymmetric calculations. At the inner part of the coil (inner side of the black rings), a boundary condition of <inline-formula><mml:math id="mm117" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>coilbc</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>300</mml:mn><mml:mspace width="3.33333pt"/><mml:mi mathvariant="normal">K</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> was set because of the water cooling inside the coil.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="crystals-10-00018-g001.tif"/>
+      </fig>
+      <fig id="crystals-10-00018-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Definitions of the angles for meniscus calculations. The wetting angle is <inline-formula><mml:math id="mm118" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mi>wet</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msup><mml:mn>14</mml:mn><mml:mo>&#x2218;</mml:mo></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> [<xref ref-type="bibr" rid="B14-crystals-10-00018">14</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="crystals-10-00018-g002.tif"/>
+      </fig>
+      <fig id="crystals-10-00018-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Left: Crystal grown (Case 2) with the indication of horizontal cutting planes for etch pit density (EPD) measurements (A,B,C). Middle: Lateral photovoltaic scanning (LPS) at three vertical cuts and interface lines (yellow) obtained in the numerical calculation. Right: Interface lines for calculation with <inline-formula><mml:math id="mm119" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>&#x2261;</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="crystals-10-00018-g003.tif"/>
+      </fig>
+      <fig id="crystals-10-00018-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Average von Mises stress at the interface as a function of the growth stage (crystal length) for Case 2. Left: At the centre At the centre (<italic>r</italic> = 0&#x2013;3 mm); middle: around <inline-formula><mml:math id="mm121" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> (<italic>r</italic> = 10&#x2013;13 mm); right: near the rim (<italic>r</italic> = 18&#x2013;21 mm). The lower red curve is for the case with computed <inline-formula><mml:math id="mm124" display="block"><mml:semantics><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> and upper blue one for the case with <inline-formula><mml:math id="mm125" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>&#x2261;</mml:mo><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="crystals-10-00018-g004.tif"/>
+      </fig>
+      <fig id="crystals-10-00018-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Power as a function of the process time for Case 2. The calculated power is measured as the sum of induced power in the graphite susceptor and melt. The experimental value is the measured electrical power put into the entire coil system including the resonator circuit. It is reduced by 350 W to be comparable with computed curve. The light orange curve is for the computation without taking into account the melt volume change due to the change in meniscus height. For an easier analysis, the crystal radius is also given (scale on right hand side).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="crystals-10-00018-g005.tif"/>
+      </fig>
+      <fig id="crystals-10-00018-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Top: The von Mises stress in the crystal and the temperature in the melt are shown for three different growth stages. Left part of the crystal and melt: <inline-formula><mml:math id="mm126" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.5</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Right part of the crystal and melt: <inline-formula><mml:math id="mm127" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>pull</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1.0</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Bottom: The power consumption for the two runs is plotted as a function of process time. The three stages are indicated by dotted lines. Please note the time scales for <inline-formula><mml:math id="mm128" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> at the bottom and for <inline-formula><mml:math id="mm129" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>v</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.5</mml:mn><mml:mspace width="3.33333pt"/><mml:mrow><mml:mi>mm</mml:mi><mml:mo>/</mml:mo><mml:mi>min</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> at top.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="crystals-10-00018-g006.tif"/>
+      </fig>
+      <fig id="crystals-10-00018-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Growth velocity as a function of the process time for Case 2.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="crystals-10-00018-g007.tif"/>
+      </fig>
+      <fig id="crystals-10-00018-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p><bold>Left</bold>: EPD for Case 2 (<inline-formula><mml:math id="mm130" display="block"><mml:semantics><mml:msub><mml:mi>N</mml:mi><mml:mi>EPD</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> and computed factor for the multiplication of dislocations <inline-formula><mml:math id="mm131" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="script">F</mml:mi><mml:mi>S</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>). The wafers A&#x2013;C correspond to the cutting planes given for the crystal in <xref ref-type="fig" rid="crystals-10-00018-f003">Figure 3</xref>. <bold>Right</bold>: EPD for Case 1 and computed factor for the multiplication of dislocations. The cutting planes are indicated at the crystals.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="crystals-10-00018-g008.tif"/>
+      </fig>
+      <table-wrap id="crystals-10-00018-t001" position="float">
+        <object-id pub-id-type="pii">crystals-10-00018-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Physical properties of liquid and solid Germanium as used for the calculations.</p>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="5" align="left" valign="top" style="border-bottom:solid thin;border-top:solid thin">
+                <bold>Ge Melt</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Density</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm132" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>&#x3C1;</mml:mi>
+                        <mml:mi>m</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm133" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>kg</mml:mi>
+                        <mml:mo>/</mml:mo>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                          <mml:mn>3</mml:mn>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">5534</td>
+              <td align="center" valign="top">*</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat capacity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm134" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>c</mml:mi>
+                        <mml:mi>p</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm135" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="normal">J</mml:mi>
+                        <mml:msup>
+                          <mml:mi>kg</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">K</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm136" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>358</mml:mn>
+                        <mml:mspace width="1.em"/>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mo>@</mml:mo>
+                        <mml:msub>
+                          <mml:mi>T</mml:mi>
+                          <mml:mi>m</mml:mi>
+                        </mml:msub>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B16-crystals-10-00018">16</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Thermal expansion</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm137" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>&#x3B1;</mml:mi>
+                        <mml:mi mathvariant="normal">V</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm138" display="block">
+                    <mml:semantics>
+                      <mml:msup>
+                        <mml:mi mathvariant="normal">K</mml:mi>
+                        <mml:mrow>
+                          <mml:mo>&#x2212;</mml:mo>
+                          <mml:mn>1</mml:mn>
+                        </mml:mrow>
+                      </mml:msup>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm139" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mrow>
+                          <mml:mo stretchy="false">(</mml:mo>
+                          <mml:mn>1.06</mml:mn>
+                          <mml:mo>&#xB1;</mml:mo>
+                          <mml:mn>0.02</mml:mn>
+                          <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                        <mml:mo>&#xD7;</mml:mo>
+                        <mml:msup>
+                          <mml:mn>10</mml:mn>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>4</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B17-crystals-10-00018">17</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat conductivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm140" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3BB;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm141" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="normal">W</mml:mi>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">K</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm142" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>48</mml:mn>
+                        <mml:mspace width="1.em"/>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mo>@</mml:mo>
+                        <mml:msub>
+                          <mml:mi>T</mml:mi>
+                          <mml:mi>m</mml:mi>
+                        </mml:msub>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B18-crystals-10-00018">18</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Emissivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm143" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3B5;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top"> </td>
+              <td align="center" valign="top">0.2</td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B19-crystals-10-00018">19</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Electrical conductivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm144" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>&#x3C3;</mml:mi>
+                        <mml:mi>el</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm145" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="normal">S</mml:mi>
+                        <mml:mo>/</mml:mo>
+                        <mml:mi mathvariant="normal">m</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm146" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>1.4</mml:mn>
+                        <mml:mo>&#xD7;</mml:mo>
+                        <mml:msup>
+                          <mml:mn>10</mml:mn>
+                          <mml:mn>6</mml:mn>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B20-crystals-10-00018">20</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Dynamic viscosity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm147" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3BC;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm148" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>Pa</mml:mi>
+                        <mml:mspace width="0.166667em"/>
+                        <mml:mi mathvariant="normal">s</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm149" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>6.8</mml:mn>
+                        <mml:mo>&#xD7;</mml:mo>
+                        <mml:msup>
+                          <mml:mn>10</mml:mn>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>4</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                        <mml:mspace width="1.em"/>
+                        <mml:mrow>
+                          <mml:mo stretchy="false">(</mml:mo>
+                          <mml:mo>@</mml:mo>
+                          <mml:msub>
+                            <mml:mi>T</mml:mi>
+                            <mml:mi>m</mml:mi>
+                          </mml:msub>
+                          <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B21-crystals-10-00018">21</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Prandtl number</td>
+              <td align="center" valign="top">Pr</td>
+              <td align="center" valign="top"> </td>
+              <td align="center" valign="top">0.05</td>
+              <td align="center" valign="top"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Marangoni coefficient</td>
+              <td align="center" valign="top"> </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm150" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="normal">N</mml:mi>
+                        <mml:mspace width="0.166667em"/>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">K</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm151" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>7.32</mml:mn>
+                        <mml:mo>&#xD7;</mml:mo>
+                        <mml:msup>
+                          <mml:mn>10</mml:mn>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>5</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B22-crystals-10-00018">22</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Latent heat</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm152" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mo>&#x394;</mml:mo>
+                        <mml:mi>H</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">J/kg</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm153" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>4.65</mml:mn>
+                        <mml:mo>&#xD7;</mml:mo>
+                        <mml:msup>
+                          <mml:mn>10</mml:mn>
+                          <mml:mn>5</mml:mn>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B14-crystals-10-00018">14</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" style="border-bottom:solid thin">Laplace constant</td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm154" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>a</mml:mi>
+                        <mml:mi>L</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top" style="border-bottom:solid thin">m</td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm155" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>5.3</mml:mn>
+                        <mml:mo>&#xD7;</mml:mo>
+                        <mml:msup>
+                          <mml:mn>10</mml:mn>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>3</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td colspan="5" align="left" valign="top" style="border-bottom:solid thin">
+                <bold>Ge Solid</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Density</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm156" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>&#x3C1;</mml:mi>
+                        <mml:mi>s</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm157" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>kg</mml:mi>
+                        <mml:mo>/</mml:mo>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                          <mml:mn>3</mml:mn>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm158" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>5370</mml:mn>
+                        <mml:mspace width="1.em"/>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:mo>@</mml:mo>
+                        <mml:mn>300</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mi mathvariant="normal">K</mml:mi>
+                        <mml:mo stretchy="false">)</mml:mo>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B23-crystals-10-00018">23</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat capacity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm159" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>c</mml:mi>
+                        <mml:mi>p</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm160" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="normal">J</mml:mi>
+                        <mml:msup>
+                          <mml:mi>kg</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">K</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">418</td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B14-crystals-10-00018">14</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat conductivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm161" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3BB;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm162" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="normal">W</mml:mi>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                        <mml:msup>
+                          <mml:mi mathvariant="normal">K</mml:mi>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top"><inline-formula><mml:math id="mm163" display="block"><mml:semantics><mml:mrow><mml:mo>&#x2248;</mml:mo><mml:mn>17</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> (800&#x2013;1200 K)</td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B24-crystals-10-00018">24</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Emissivity</td>
+              <td align="center" valign="top"> </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm164" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3B5;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">0.55</td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B25-crystals-10-00018">25</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">thermal expansion</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm165" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>&#x3B1;</mml:mi>
+                        <mml:mi mathvariant="normal">L</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm166" display="block">
+                    <mml:semantics>
+                      <mml:msup>
+                        <mml:mi mathvariant="normal">K</mml:mi>
+                        <mml:mrow>
+                          <mml:mo>&#x2212;</mml:mo>
+                          <mml:mn>1</mml:mn>
+                        </mml:mrow>
+                      </mml:msup>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm167" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>7.5</mml:mn>
+                        <mml:mo>&#xD7;</mml:mo>
+                        <mml:msup>
+                          <mml:mn>10</mml:mn>
+                          <mml:mrow>
+                            <mml:mo>&#x2212;</mml:mo>
+                            <mml:mn>6</mml:mn>
+                          </mml:mrow>
+                        </mml:msup>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B23-crystals-10-00018">23</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Elastic constants</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm168" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>C</mml:mi>
+                        <mml:mn>11</mml:mn>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">Pa</td>
+              <td align="center" valign="top"><inline-formula><mml:math id="mm169" display="block"><mml:semantics><mml:mrow><mml:mn>13.2</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>10</mml:mn></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>&#x2013;<inline-formula><mml:math id="mm170" display="block"><mml:semantics><mml:mrow><mml:mn>1.7</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>7</mml:mn></mml:msup><mml:mspace width="3.33333pt"/><mml:msup><mml:mi mathvariant="normal">K</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mi>T</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula></td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B26-crystals-10-00018">26</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top"> </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm171" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>C</mml:mi>
+                        <mml:mn>12</mml:mn>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">Pa</td>
+              <td align="center" valign="top"><inline-formula><mml:math id="mm172" display="block"><mml:semantics><mml:mrow><mml:mn>2.8</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>10</mml:mn></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>&#x2013;<inline-formula><mml:math id="mm173" display="block"><mml:semantics><mml:mrow><mml:mn>8.2</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>6</mml:mn></mml:msup><mml:mspace width="3.33333pt"/><mml:msup><mml:mi mathvariant="normal">K</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mi>T</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula></td>
+              <td align="center" valign="top">[<xref ref-type="bibr" rid="B26-crystals-10-00018">26</xref>]</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm174" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>C</mml:mi>
+                        <mml:mn>44</mml:mn>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top" style="border-bottom:solid thin">Pa</td>
+              <td align="center" valign="top" style="border-bottom:solid thin"><inline-formula><mml:math id="mm175" display="block"><mml:semantics><mml:mrow><mml:mn>5.2</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>10</mml:mn></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>&#x2013;<inline-formula><mml:math id="mm176" display="block"><mml:semantics><mml:mrow><mml:mn>5.4</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mn>6</mml:mn></mml:msup><mml:mspace width="3.33333pt"/><mml:msup><mml:mi mathvariant="normal">K</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mi>T</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula></td>
+              <td align="center" valign="top" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B26-crystals-10-00018">26</xref>]</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>* Intermediate value between the measurements of [<xref ref-type="bibr" rid="B16-crystals-10-00018">16</xref>,<xref ref-type="bibr" rid="B21-crystals-10-00018">21</xref>].</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="crystals-10-00018-t002" position="float">
+        <object-id pub-id-type="pii">crystals-10-00018-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Physical properties of furnace materials.</p>
+        </caption>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="3" align="left" valign="top" style="border-bottom:solid thin;border-top:solid thin">
+                <bold>Stainless Steel</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Density</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm177" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3C1;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm178" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>7000</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi>kg</mml:mi>
+                          <mml:mo>/</mml:mo>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">m</mml:mi>
+                            <mml:mn>3</mml:mn>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat capacity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm179" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>c</mml:mi>
+                        <mml:mi>p</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm180" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>570</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">J</mml:mi>
+                          <mml:msup>
+                            <mml:mi>kg</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat conductivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm181" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3BB;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm182" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>1.5</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">W</mml:mi>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">m</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Emissivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm183" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3B5;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">0.1</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" style="border-bottom:solid thin">Electrical conductivity</td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm184" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>&#x3C3;</mml:mi>
+                        <mml:mi>el</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm185" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>1.4</mml:mn>
+                        <mml:mo>&#xD7;</mml:mo>
+                        <mml:msup>
+                          <mml:mn>10</mml:mn>
+                          <mml:mn>6</mml:mn>
+                        </mml:msup>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">S</mml:mi>
+                          <mml:mo>/</mml:mo>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" align="left" valign="top" style="border-bottom:solid thin">
+                <bold>Graphite <inline-formula><mml:math id="mm186" display="block"><mml:semantics><mml:msup><mml:mrow/><mml:mo>&#x2020;</mml:mo></mml:msup></mml:semantics></mml:math></inline-formula></bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Density</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm187" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3C1;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm188" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>1750</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi>kg</mml:mi>
+                          <mml:mo>/</mml:mo>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">m</mml:mi>
+                            <mml:mn>3</mml:mn>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat capacity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm189" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>c</mml:mi>
+                        <mml:mi>p</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm190" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>927</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">J</mml:mi>
+                          <mml:msup>
+                            <mml:mi>kg</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat conductivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm191" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3BB;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm192" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>90</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">W</mml:mi>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">m</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Emissivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm193" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3B5;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">0.8</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" style="border-bottom:solid thin">Electrical conductivity</td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm194" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>&#x3C3;</mml:mi>
+                        <mml:mi>el</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm195" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>2.0</mml:mn>
+                        <mml:mo>&#xD7;</mml:mo>
+                        <mml:msup>
+                          <mml:mn>10</mml:mn>
+                          <mml:mn>5</mml:mn>
+                        </mml:msup>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">S</mml:mi>
+                          <mml:mo>/</mml:mo>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" align="left" valign="top" style="border-bottom:solid thin">
+                <bold>Quartz <inline-formula><mml:math id="mm196" display="block"><mml:semantics><mml:msup><mml:mrow/><mml:mo>&#x2021;</mml:mo></mml:msup></mml:semantics></mml:math></inline-formula></bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Density</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm197" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3C1;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm198" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>2200</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi>kg</mml:mi>
+                          <mml:mo>/</mml:mo>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">m</mml:mi>
+                            <mml:mn>3</mml:mn>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat capacity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm199" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>c</mml:mi>
+                        <mml:mi>p</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm200" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>1000</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">J</mml:mi>
+                          <mml:msup>
+                            <mml:mi>kg</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat conductivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm201" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3BB;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm202" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mrow>
+                          <mml:mo stretchy="false">(</mml:mo>
+                          <mml:mn>1.8</mml:mn>
+                          <mml:mo>&#x2212;</mml:mo>
+                          <mml:mn>1.21</mml:mn>
+                          <mml:mo>&#xD7;</mml:mo>
+                          <mml:msup>
+                            <mml:mn>10</mml:mn>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>3</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:mspace width="3.33333pt"/>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:mi>T</mml:mi>
+                          <mml:mo>+</mml:mo>
+                          <mml:mn>1.75</mml:mn>
+                          <mml:mo>&#xD7;</mml:mo>
+                          <mml:msup>
+                            <mml:mn>10</mml:mn>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>6</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:mspace width="3.33333pt"/>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>2</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:msup>
+                            <mml:mi>T</mml:mi>
+                            <mml:mn>2</mml:mn>
+                          </mml:msup>
+                          <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">W</mml:mi>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">m</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" style="border-bottom:solid thin">Electrical conductivity</td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm203" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>&#x3C3;</mml:mi>
+                        <mml:mi>el</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm204" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>0</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">S</mml:mi>
+                          <mml:mo>/</mml:mo>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3" align="left" valign="top" style="border-bottom:solid thin">
+                <bold>Heat Shield</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Density</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm205" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3C1;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm206" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>4000</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi>kg</mml:mi>
+                          <mml:mo>/</mml:mo>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">m</mml:mi>
+                            <mml:mn>3</mml:mn>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat capacity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm207" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>c</mml:mi>
+                        <mml:mi>p</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm208" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>680</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">J</mml:mi>
+                          <mml:msup>
+                            <mml:mi>kg</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Heat conductivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm209" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3BB;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm210" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>3.3</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">W</mml:mi>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">m</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                          <mml:msup>
+                            <mml:mi mathvariant="normal">K</mml:mi>
+                            <mml:mrow>
+                              <mml:mo>&#x2212;</mml:mo>
+                              <mml:mn>1</mml:mn>
+                            </mml:mrow>
+                          </mml:msup>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top">Emissivity</td>
+              <td align="center" valign="top">
+                <inline-formula>
+                  <mml:math id="mm211" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3B5;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top">0.2</td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" style="border-bottom:solid thin">Electrical conductivity</td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm212" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mi>&#x3C3;</mml:mi>
+                        <mml:mi>el</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="top" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm213" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mn>0</mml:mn>
+                        <mml:mspace width="3.33333pt"/>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">S</mml:mi>
+                          <mml:mo>/</mml:mo>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p><inline-formula><mml:math id="mm214" display="block"><mml:semantics><mml:msup><mml:mrow/><mml:mo>&#x2020;</mml:mo></mml:msup></mml:semantics></mml:math></inline-formula> Values of EK98300 K. <inline-formula><mml:math id="mm215" display="block"><mml:semantics><mml:msup><mml:mrow/><mml:mo>&#x2021;</mml:mo></mml:msup></mml:semantics></mml:math></inline-formula> Data from the data sheets of Heraeus.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

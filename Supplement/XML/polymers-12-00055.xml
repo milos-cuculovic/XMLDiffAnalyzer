@@ -1,0 +1,2667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">polymers</journal-id>
+      <journal-title-group>
+        <journal-title>Polymers</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Polymers</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Polymers</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4360</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/polym12010055</article-id>
+      <article-id pub-id-type="publisher-id">polymers-12-00055</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Flexible TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub> Nanocomposite with Excellent Light Photocatalytic Performance</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7935-1473</contrib-id>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Tong-Tong</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00055" ref-type="aff">1</xref>
+          <xref rid="fn1-polymers-12-00055" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhao</surname>
+            <given-names>Feng-He</given-names>
+          </name>
+          <xref rid="af2-polymers-12-00055" ref-type="aff">2</xref>
+          <xref rid="fn1-polymers-12-00055" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cui</surname>
+            <given-names>Yu-Qian</given-names>
+          </name>
+          <xref rid="af3-polymers-12-00055" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Li-Xiang</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00055" ref-type="aff">1</xref>
+          <xref rid="c1-polymers-12-00055" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yan</surname>
+            <given-names>Jia-Shu</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00055" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Xiao-Xiong</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00055" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Long</surname>
+            <given-names>Yun-Ze</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00055" ref-type="aff">1</xref>
+          <xref rid="af4-polymers-12-00055" ref-type="aff">4</xref>
+          <xref rid="c1-polymers-12-00055" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-polymers-12-00055"><label>1</label>Collaborative Innovation Center for Nanomaterials &amp; Devices, College of Physics, Qingdao University, Qingdao 266071, China<email>wangxiaoxiong69@163.com</email> (X.-X.W.)</aff>
+      <aff id="af2-polymers-12-00055"><label>2</label>Qingdao SME Public Service Center, Qingdao 266034, China; <email>qdpx@163.com</email></aff>
+      <aff id="af3-polymers-12-00055"><label>3</label>College of Environmental Science &amp; Engineering, Qingdao University, Qingdao 266071, China; <email>bonnie_ie_cyq@163.com</email></aff>
+      <aff id="af4-polymers-12-00055"><label>4</label>Collaborative Innovation Center for Eco-Textiles of Shandong Province, Qingdao University, Qingdao 266071, China</aff>
+      <author-notes>
+        <corresp id="c1-polymers-12-00055"><label>*</label>Correspondence: <email>yunze.long@qdu.edu.cn</email> (Y.-Z.L.); <email>clxwlx@163.com</email> (L.-X.C.); Tel.: +86-1390-5329-0681 (Y.-Z.L.)</corresp>
+        <fn id="fn1-polymers-12-00055">
+          <label>&#x2020;</label>
+          <p>These two authors contributed to this work equally.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>55</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>10</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>As the world faces water shortage and pollution crises, the development of novel visible light photocatalysts to purify water resources is urgently needed. Over the past decades, most of the reported photocatalysts have been in powder or granular forms, creating separation and recycling difficulties. To overcome these challenges, a flexible and recyclable heterostructured TiO<sub>2</sub>/polyvinylidene fluoride/graphitic carbon nitride (TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub>) composite was developed by combining electrospinning, sintering and hydrothermal methods. In the composite, PVDF was used as a support template for removing and separating the photocatalyst from solution. Compared with pure TiO<sub>2</sub>, the TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub> composite exhibited the extended light capture range of TiO<sub>2</sub> into the visible light region. The photogenerated carriers were efficiently transferred and separated at the contact interface between TiO<sub>2</sub> and g-C<sub>3</sub>N<sub>4</sub> under visible light irradiation, which consequently increased the photocatalytic activity of the photocatalyst. In addition, the flexible composites exhibited excellent self-cleaning properties, and the dye on the photocatalysts was completely degraded by the as-prepared materials. Based on the intrinsic low cost, recyclability, absorption of visible light, facile synthesis, self-cleaning properties and good photocatalytic performances of the composite, the photocatalyst is expected to be used for water treatment.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub></kwd>
+        <kwd>electrospinning</kwd>
+        <kwd>visible light</kwd>
+        <kwd>photocatalyst</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-polymers-12-00055" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>In recent decades, photocatalysis has been recognized as the most promising and green technologies due to its environmentally friendly, low-cost and high efficiency characteristics. It has been widely used in the fields of environmental management and energy conversion [<xref ref-type="bibr" rid="B1-polymers-12-00055">1</xref>,<xref ref-type="bibr" rid="B2-polymers-12-00055">2</xref>]. The key of photocatalytic technology is to prepare advanced photocatalysts that can make full use of solar light sources to meet the urgent needs of current environmental treatment. The effective materials commonly used in recent years mainly include semiconductor photocatalysts, such as, metal and non-metal oxides, sulfides and nitrides [<xref ref-type="bibr" rid="B3-polymers-12-00055">3</xref>,<xref ref-type="bibr" rid="B4-polymers-12-00055">4</xref>]. Among these materials, the good photocatalytic performance and stability of titanium oxide (TiO<sub>2</sub>) have been largely demonstrated. As one of the most outstanding transition metal oxide semiconductor photocatalyst, TiO<sub>2</sub> exhibits of stable physical-chemical properties, low toxicity and excellent optical performances. Furthermore, it is easily synthesized, and it has a low cost [<xref ref-type="bibr" rid="B5-polymers-12-00055">5</xref>,<xref ref-type="bibr" rid="B6-polymers-12-00055">6</xref>,<xref ref-type="bibr" rid="B7-polymers-12-00055">7</xref>]. However, TiO<sub>2</sub> is limited in the practical applications, because it has a large band gap energy (3.2 eV) as an n-type wide band gap semiconductor and fast recombination rate of photogenerated electron-hole pairs [<xref ref-type="bibr" rid="B8-polymers-12-00055">8</xref>]. These defects lead to low utilization of sunlight and reduce the quantum efficiency, thereby indirectly affecting the photocatalytic performance [<xref ref-type="bibr" rid="B9-polymers-12-00055">9</xref>,<xref ref-type="bibr" rid="B10-polymers-12-00055">10</xref>]. In addition, TiO<sub>2</sub> that exists in a powder or particle state is difficult hard to separate from the solution; and even causes secondary pollution to the environment [<xref ref-type="bibr" rid="B11-polymers-12-00055">11</xref>,<xref ref-type="bibr" rid="B12-polymers-12-00055">12</xref>]. Therefore, it is necessary to find an efficient strategy to simultaneously expand the sunlight capture range and the narrow band gap of TiO<sub>2</sub>, enhance the lifetime of photogenerated electron-hole pairs and facilitate recycling. To date, various methods have been developed, and the design of heterostructured photocatalysts is an effective option [<xref ref-type="bibr" rid="B13-polymers-12-00055">13</xref>,<xref ref-type="bibr" rid="B14-polymers-12-00055">14</xref>,<xref ref-type="bibr" rid="B15-polymers-12-00055">15</xref>]. First, the TiO<sub>2</sub> compound with a narrow band gap semiconductor can capture the light in the visible region [<xref ref-type="bibr" rid="B16-polymers-12-00055">16</xref>]. Second, the matching energy level coupling between the narrow band gap semiconductor and the wide band gap TiO<sub>2</sub> can promote the transfer and separation of photogenerated carriers, thereby prolonging the lifetime of the photogenerated electron-hole pairs and improving the photocatalytic activity of the photocatalyst [<xref ref-type="bibr" rid="B17-polymers-12-00055">17</xref>].</p>
+      <p>As a narrow band gap semiconductor (2.7 eV), g-C<sub>3</sub>N<sub>4</sub> exhibits stable physicochemical properties, thermal stability and remarkable optoelectronic transmission performances. Furthermore, it is non-toxic it is easily stored, and it can be obtained from a wide variety of sources [<xref ref-type="bibr" rid="B18-polymers-12-00055">18</xref>]. It has been proven in recent years to be an optimal choice for composing heterostructured materials with wide band gap semiconductors. For example, Wang et al. developed a novel in situ microwave-assisted synthesis approach for fabricating N-TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub> composites, and the products exhibited remarkable enhancements of their photocatalytic activities [<xref ref-type="bibr" rid="B19-polymers-12-00055">19</xref>]. Miranda et al. obtained the g-C<sub>3</sub>N<sub>4</sub>/TiO<sub>2</sub> composites, which were highly photoactive by combining hydrothermal and sintering methods, and the final conversion rate of phenol was around 90% [<xref ref-type="bibr" rid="B20-polymers-12-00055">20</xref>]. Han et al. prepared a g-C<sub>3</sub>N<sub>4</sub>/TiO<sub>2</sub> composite by integrating electrospinning and calcination technology, and the hydrogen production rate under sunlight was 8931.3 &#x3BC;mol&#xB7;h<sup>&#x2212;1</sup>&#xB7;g<sup>&#x2212;1</sup> [<xref ref-type="bibr" rid="B21-polymers-12-00055">21</xref>]. However, these prepared materials were still in powder form. Therefore, they were difficult to recycle after the photocatalytic process [<xref ref-type="bibr" rid="B22-polymers-12-00055">22</xref>,<xref ref-type="bibr" rid="B23-polymers-12-00055">23</xref>]. This caused not only significant waste of the photocatalyst, but also secondary pollution to the environment. At present, a number of methods for recovering inorganic photocatalyst materials have been reported, such as adding magnetic materials, making tough, recyclable and flexible thin film materials, and loading them on organic polymer materials [<xref ref-type="bibr" rid="B24-polymers-12-00055">24</xref>,<xref ref-type="bibr" rid="B25-polymers-12-00055">25</xref>,<xref ref-type="bibr" rid="B26-polymers-12-00055">26</xref>,<xref ref-type="bibr" rid="B27-polymers-12-00055">27</xref>,<xref ref-type="bibr" rid="B28-polymers-12-00055">28</xref>,<xref ref-type="bibr" rid="B29-polymers-12-00055">29</xref>]. Usually, polyvinylidene fluoride (PVDF) is selected as the support material by electrospinning due to its mechanical strength stability, heat resistance and ease of forming fibers [<xref ref-type="bibr" rid="B30-polymers-12-00055">30</xref>,<xref ref-type="bibr" rid="B31-polymers-12-00055">31</xref>,<xref ref-type="bibr" rid="B32-polymers-12-00055">32</xref>]. Our previous work also indicated that the polymer fibers of PVDF prepared by electrospinning could be used as the substrate with inorganic TiO<sub>2</sub> tightly embedded on the fibers [<xref ref-type="bibr" rid="B33-polymers-12-00055">33</xref>].</p>
+      <p>In this work, flexible TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub> composites were prepared through electrospinning, sintering and a hydrothermal treatment [<xref ref-type="bibr" rid="B34-polymers-12-00055">34</xref>,<xref ref-type="bibr" rid="B35-polymers-12-00055">35</xref>]. The hydrothermal method not only successfully coated the PVDF fibers with g-C<sub>3</sub>N<sub>4</sub>, but also in situ formed granular TiO<sub>2</sub> on the PVDF fibers. The photocatalytic mechanism of the composite during the degradation of pollutants under light has been reasonably explained. The results confirmed that the TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub> composite extended the response of TiO<sub>2</sub> to the visible light range and simultaneously significantly improved the photocatalytic activity. In addition, the as-prepared material with the support of PVDF could be recycled easily and contamination by pollutants could be prevented. Therefore, the flexible TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub> composite is a good candidate for use in the environmental treatment of organic pollutants.</p>
+    </sec>
+    <sec id="sec2-polymers-12-00055" sec-type="methods">
+      <title>2. Experimental</title>
+      <sec id="sec2dot1-polymers-12-00055">
+        <title>2.1. Materials</title>
+        <p>PVDF (<italic>M</italic><sub>W</sub> = 500,000) powder was purchased from Shanghai 3F New Materials Co., Ltd. Melamine (Shanghai, China) (CP, 98.0%) was purchased from Sigma-Aldrich (Shanghai, China). Tetrabutyl orthotitanate (TBOT, CP, 98.0%), rhodamine B (RhB), methyl blue (MB), methyl orange (MO), dimethylformamide (DMF, AR, 99.5%), sulphuric acid (H<sub>2</sub>SO<sub>4</sub>, CP, 95.0%&#x2013;98.0%) and acetone (CP, 99.0%) were obtained from SinopharmChemical Reagent Co., Ltd (Shanghai, China). Degussa P25 (P25<sup>&#xAE;</sup>) was purchased from Evonik Degussa Company (Shanghai, China). All chemical reagents were used as received without further purification.</p>
+      </sec>
+      <sec id="sec2dot2-polymers-12-00055">
+        <title>2.2. Preparation of TBOT/PVDF Fibers</title>
+        <p>First 4 g of PVDF powder, 10 mL of DMF and 12 mL of acetone were placed into a 50 mL conical flask and stirred vigorously for 1 h. Next 10 mL of TBOT was added to the solution and stirred continuously for 1 h. The TBOT/PVDF solution was ultrasonically treated for 30 min, and the resultant solution was an electrospinning precursor. TBOT/PVDF fibers were obtained by electrospinning. During the electrospinning process, DC high voltage power was supplied at 10 kV, the pump rate was 2 mL h<sup>&#x2212;1</sup>, and the tip-to-collector distance was 10 cm. Finally, the collected TBOT/PVDF fibers were dried at 60 &#xB0;C.</p>
+      </sec>
+      <sec id="sec2dot3-polymers-12-00055">
+        <title>2.3. Preparation of g-C<sub>3</sub>N<sub>4</sub></title>
+        <p>The g-C<sub>3</sub>N<sub>4</sub> was prepared following a previously reported calcination method [<xref ref-type="bibr" rid="B36-polymers-12-00055">36</xref>]. Typically, 3 g of melamine was uniformly placed in a lidded crucible, after which it was transferred to a muffle furnace and maintained at 550 &#xB0;C for 4 h to produce the g-C<sub>3</sub>N<sub>4</sub>. The obtained g-C<sub>3</sub>N<sub>4</sub> was then ground in a mortar for 0.5 h to obtain a yellow powder.</p>
+      </sec>
+      <sec id="sec2dot4-polymers-12-00055">
+        <title>2.4. Fabrication of Flexible TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub> Composite</title>
+        <p>The prepared TBOT/PVDF fibers were cut into squares with sizes of 2.5 cm &#xD7; 2.5 cm. Different amounts of g-C<sub>3</sub>N<sub>4</sub> powder were added into 30 mL of a 0.5 M sulfuric acid water solution and were well stirred for 60 min. The mixture solution was then transferred into a 50 mL polytetrafluoroethylene (PTFE) autoclave containing a TBOT/PVDF square, and underwent hydrothermal treatment at 150 &#xB0;C for 24 h (as shown in <xref ref-type="table" rid="polymers-12-00055-t001">Table 1</xref>). The resulting sample was washed with deionized water and anhydrous ethanol for several times. After drying at 60 &#xB0;C for 10 h, the final product TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub> (TPCN) was obtained. As a control experiment, TiO<sub>2</sub>/PVDF fibers were also prepared under similar conditions without the addition of g-C<sub>3</sub>N<sub>4</sub>.</p>
+      </sec>
+      <sec id="sec2dot5-polymers-12-00055">
+        <title>2.5. Synthesis and Application Process</title>
+        <p>As shown in <xref ref-type="fig" rid="polymers-12-00055-f001">Figure 1</xref>, TPCN were synthesized by combining the facile electrospinning method, sintering and a controllable hydrothermal process [<xref ref-type="bibr" rid="B31-polymers-12-00055">31</xref>]. First, TBOT/PVDF fibers were obtained using convenient and simple electrospinning technology [<xref ref-type="bibr" rid="B28-polymers-12-00055">28</xref>,<xref ref-type="bibr" rid="B33-polymers-12-00055">33</xref>]. Secondly, g-C<sub>3</sub>N<sub>4</sub> was collected by one-step sintering [<xref ref-type="bibr" rid="B36-polymers-12-00055">36</xref>]. Later, the cut TBOT/PVDF (2.5 cm &#xD7; 2.5 cm) and a certain amount of g-C<sub>3</sub>N<sub>4</sub> were placed into a 50 mL reactor for hydrothermal treatment to prepare flexible TPCN. The photocatalyst contaminated with the dyes was subjected to a period of light irradiation to study the photocatalytic performance. Finally, collecting and cleaning the flexible TPCN composite was collected and cleaned from the solution for next reuse.</p>
+      </sec>
+      <sec id="sec2dot6-polymers-12-00055">
+        <title>2.6. Characterization</title>
+        <p>X-ray diffraction (XRD) patterns were collected using a Rigaku SmartLab X-ray diffractometer with Cu-K&#x3B1; radiation (&#x3BB; = 1.54178 &#xC5;) in the sweep range from 5&#xB0; to 85&#xB0; at a scan rate of 5&#xB0; min<sup>&#x2212;1</sup>. The morphology and structure images of the samples were obtained using scanning electron microscopy (SEM, JEOL JSM-7800F, JEOL, Tokyo, Japan). X-ray photoelectron spectroscopy (XPS) was performed using by a Thermo Scientific Escalab 250Xi instrument (Thermo Fisher Scientific, Shanghai, China) with an Al K&#x3B1; X-ray source at room temperature. The photoluminescence (PL) spectrum was obtained using a Hitachi F-4600 fluorescence spectrometer (HITACHI, Tokyo, Japan) to character the recombination behaviors of the photogenerated carriers using an excitation wavelength of 320 nm. The UV-Vis diffuse reflectance spectra (DRS) of the prepared samples were measured using a PERSEE-T9 UV/Vis spectrophotometer with a scanning wavelength range of 200&#x2013;800 nm with a resolution of 0.2 nm.</p>
+      </sec>
+      <sec id="sec2dot7-polymers-12-00055">
+        <title>2.7. Photocatalytic Activity Performance</title>
+        <p>The photocatalytic activities of the as-prepared samples were evaluated based on the degradation of RhB, a representative water pollutant, under visible light irradiation with an 800 W Xe lamp (equipped with a 420 nm cut-off filter, Beijing Princes Technology Co., Ltd., Beijing, China). The different types of prepared photocatalysts were added into 100 mL quartz tubes containing 50 mL of homogeneous RhB aqueous solution (5 mg L<sup>&#x2212;1</sup>). The quartz tube was then kept in a dark atmosphere for 30 min while stirring continuously to ensure the photocatalyst surfaces achieved adsorption&#x2013;desorption equilibrium [<xref ref-type="bibr" rid="B37-polymers-12-00055">37</xref>,<xref ref-type="bibr" rid="B38-polymers-12-00055">38</xref>]. A Xe lamp was subsequently turned on during the photodegradation process. Circulating water was applied in the reaction system to maintain a constant temperature at 20 &#xB0;C. Three-milliliter samples of the suspension were removed for centrifugation at specified time intervals. To determine the concentrations of the degraded pollutants, the absorption spectra of RhB in solution after centrifugation were detected using a PERSEE-T9 UV/VIS spectrophotometer (Shanghai Yuan Analysis Instrument Co., Ltd., Shanghai, China). To confirm the recycling stability, the as-prepared composite was washed several times with deionized water followed by drying at 60 &#xB0;C for 10 h.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-polymers-12-00055" sec-type="results">
+      <title>3. Results and Discussion </title>
+      <sec id="sec3dot1-polymers-12-00055">
+        <title>3.1. Structure and Morphological Characteristics</title>
+        <p>The XRD patterns of the as-prepared photocatalysts are depicted in <xref ref-type="fig" rid="polymers-12-00055-f002">Figure 2</xref>. As shown in <xref ref-type="fig" rid="polymers-12-00055-f002">Figure 2</xref>, curve a, only one broad diffraction peak located at 20.4&#xB0; was detected, which was attributed to the pure &#x3B2; phase of PVDF [<xref ref-type="bibr" rid="B39-polymers-12-00055">39</xref>]. This showed that during the electrospinning process, the TBOT did not convert to TiO<sub>2</sub> with good crystallinity, and only PVDF and the precursors of TiO<sub>2</sub> were presented in the form of fibers. After undergoing the hydrothermal process, the TBOT began to transform into anatase phase TiO<sub>2</sub>, due to the reactions of the fibers in the 0.5 M H<sub>2</sub>SO<sub>4</sub> at 150 &#xB0;C for 24 h, as shown in <xref ref-type="fig" rid="polymers-12-00055-f002">Figure 2</xref>, curve b. The curve contains three sharp 2&#x3B8; peaks at 25.4&#xB0;, 48.0&#xB0; and 54.8&#xB0;, which were attributed to the (101), (200) and (211) crystal faces of the anatase TiO<sub>2</sub> (JCPDS 21-1272), respectively [<xref ref-type="bibr" rid="B40-polymers-12-00055">40</xref>]. No other diffraction peaks were detected, except for those of the PVDF and anatase TiO<sub>2</sub>. <xref ref-type="fig" rid="polymers-12-00055-f002">Figure 2</xref>, curve f contains one broad diffraction peak at 13.1&#xB0; and one narrow diffraction peak at 27.5&#xB0;, which corresponded to the (001) and (002) crystal faces of the g-C<sub>3</sub>N<sub>4</sub> (JCPDS 87-1526) [<xref ref-type="bibr" rid="B41-polymers-12-00055">41</xref>]. In <xref ref-type="fig" rid="polymers-12-00055-f002">Figure 2</xref>, curves c and d, the peaks of TPCN1, TPCN2 and TPCN3 were similar to those of curve b. The peak intensities of PVDF and anatase TiO<sub>2</sub> began to decrease as the content of g-C<sub>3</sub>N<sub>4</sub> used in the hydrothermal process increased, indicating that the content of g-C<sub>3</sub>N<sub>4</sub> grown on the fibers gradually increased and the surface quantities of PVDF and anatase TiO<sub>2</sub> were masked. Thus, it was concluded that the g-C<sub>3</sub>N<sub>4</sub> had bonded to the PVDF/TiO<sub>2</sub> fibers, and the TPCN composites were successfully synthesized using the electrospinning technology and hydrothermal process.</p>
+        <p>The typical SEM images were used to observe the microscopic features and structures of the as-prepared materials. The initial electrospun TBOT/PVDF fibers were disordered, heterogeneous and interlaced to form a nonwoven material, as shown in <xref ref-type="fig" rid="polymers-12-00055-f003">Figure 3</xref>a. Partial fiber fractures fracture occurred, which mainly occurred because the TBOT in the fibers hydrolyzed due to contact with moisture in the air. <xref ref-type="fig" rid="polymers-12-00055-f003">Figure 3</xref>b reveals that the surface roughness of the TiO<sub>2</sub>/PVDF fibers appeared to be different from the surface roughness of the TBOT/PVDF fibers. Thus, the precursor of TiO<sub>2</sub> was confirmed to have been successfully doped into the fibers. After the initial product underwent hydrothermal treatment, unevenly distributed particulate matter could be clearly observed on the surfaces of the fibers, which was determined by the XRD patterns to be anatase phase TiO<sub>2</sub>. In the process of acidic hydrothermal growth, the TBOT doped inside and outside the fibers was simultaneously hydrolyzed to TiO<sub>2</sub>. <xref ref-type="fig" rid="polymers-12-00055-f003">Figure 3</xref>c depicts the morphology of the g-C<sub>3</sub>N<sub>4</sub> prepared using a previously reported method, which possessed a layered structure [<xref ref-type="bibr" rid="B42-polymers-12-00055">42</xref>]. As shown in <xref ref-type="fig" rid="polymers-12-00055-f003">Figure 3</xref>d, the fibers were embedded in the g-C<sub>3</sub>N<sub>4</sub>, and the g-C<sub>3</sub>N<sub>4</sub> was tightly wrapped around the fibers. The XRD patterns in <xref ref-type="fig" rid="polymers-12-00055-f002">Figure 2</xref> also demonstrated that the TiO<sub>2</sub> and g-C<sub>3</sub>N<sub>4</sub> could grow simultaneously on the PVDF fibers by addition of g-C<sub>3</sub>N<sub>4</sub> in the hydrothermal solution.</p>
+        <p>The XPS spectra were obtained to determine the surface elemental compositions, chemical bonding states and formation of TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub> heterostructures in the photocatalysts. High-resolution elemental analysis was performed to characterize the characteristic peaks of F, C, N, Ti and O. The F 1s spectrum in <xref ref-type="app" rid="app1-polymers-12-00055">Figure S1</xref> (from  <xref ref-type="app" rid="app1-polymers-12-00055">Supplementary Materials</xref>) shows one major peak centered at 688.2 eV, which was attributed to the presence of the most abundant component, PVDF, in the fibers. [<xref ref-type="bibr" rid="B33-polymers-12-00055">33</xref>] In <xref ref-type="fig" rid="polymers-12-00055-f004">Figure 4</xref>a, four carbon species were found in the binding energy region of C 1s spectrum, including 286.5 eV (C&#x2013;N) and 290.9 eV (F&#x2013;C&#x2013;F) [<xref ref-type="bibr" rid="B43-polymers-12-00055">43</xref>,<xref ref-type="bibr" rid="B44-polymers-12-00055">44</xref>,<xref ref-type="bibr" rid="B45-polymers-12-00055">45</xref>]. Meanwhile, the strong peak of N 1s shown in <xref ref-type="fig" rid="polymers-12-00055-f004">Figure 4</xref>b observed at 400.5 eV was related to the sp<sup>2</sup> hybridized nitrogen (C=N&#x2013;C) [<xref ref-type="bibr" rid="B46-polymers-12-00055">46</xref>]. The results confirmed that the g-C<sub>3</sub>N<sub>4</sub> was successfully compounded with the fibers. In the Ti 2p profiles (<xref ref-type="fig" rid="polymers-12-00055-f004">Figure 4</xref>c), the spectrum was divided into two peaks centered at 459.4eV and 465.2 eV, corresponding to Ti 2p<sup>3/2</sup> and Ti 2p<sup>1/2</sup>, respectively, due to the Ti<sup>4+</sup> of TiO<sub>2</sub>. [<xref ref-type="bibr" rid="B47-polymers-12-00055">47</xref>] As displayed in <xref ref-type="fig" rid="polymers-12-00055-f004">Figure 4</xref>d, the O1s peaks at binding energies of 530.7 eV and 532eV were associated with the Ti&#x2013;O, containing O<sup>2&#x2212;</sup>, in the TiO<sub>2</sub> and oxygen in the surface &#x2013;OH groups, respectively, proving that the TBOT had completely converted to TiO<sub>2</sub> in the hydrothermal process [<xref ref-type="bibr" rid="B48-polymers-12-00055">48</xref>]. Thus, the result was well matched with the results obtained by SEM and XRD.</p>
+      </sec>
+      <sec id="sec3dot2-polymers-12-00055">
+        <title>3.2. Optical Characteristics</title>
+        <p>The PL spectra were used to determine the recombination efficiencies of the photogenerated carriers and characterize the electron hole pair transfer behavior at the contact interface. The PL spectra of the TiO<sub>2</sub>/PVDF fibers and TiO<sub>2</sub>/PVDF fibers with different contents of g-C<sub>3</sub>N<sub>4</sub> are shown in <xref ref-type="fig" rid="polymers-12-00055-f005">Figure 5</xref>. The TiO<sub>2</sub>/PVDF and P25<sup>&#xAE;</sup> both produced four main emission peaks. The emission peak approximately 406 nm was due to the TiO<sub>2</sub>/PVDF, while the peak located at approximately 402 nm was due to the P25<sup>&#xAE;</sup>. The position of these two peaks may have been caused by the near-band edge emission of TiO<sub>2</sub> and P25<sup>&#xAE;</sup> [<xref ref-type="bibr" rid="B49-polymers-12-00055">49</xref>,<xref ref-type="bibr" rid="B50-polymers-12-00055">50</xref>]. In the various as-prepared TPCN composites, the emission peaks for TiO<sub>2</sub>/PVDF and P25<sup>&#xAE;</sup> were all transferred to a position of 437 nm, which was caused by the combination of g-C<sub>3</sub>N<sub>4</sub>. As the content of g-C<sub>3</sub>N<sub>4</sub> used in the reaction solution increased, the intensity of the emission peaks for different TPCN contents increased, because g-C<sub>3</sub>N<sub>4</sub> has a strong recombination rate of photogenerated carriers as previously reported [<xref ref-type="bibr" rid="B42-polymers-12-00055">42</xref>]. In addition, five emission peaks still appeared for the TiO<sub>2</sub>/PVDF and P25<sup>&#xAE;</sup> between 439 and 495 nm, which were assigned to the oxygen vacancy related defects occurring in the preparation process [<xref ref-type="bibr" rid="B51-polymers-12-00055">51</xref>,<xref ref-type="bibr" rid="B52-polymers-12-00055">52</xref>].</p>
+        <p>The UV-Vis absorption spectra in <xref ref-type="fig" rid="polymers-12-00055-f006">Figure 6</xref> were used to confirm the optical absorption properties of the TiO<sub>2</sub>/PVDF, TPCN1, TPCN2 and TPCN3, which were obtained by converting the UV-Vis diffuse reflectance spectra using the Kubelka&#x2212;Munk function [<xref ref-type="bibr" rid="B53-polymers-12-00055">53</xref>,<xref ref-type="bibr" rid="B54-polymers-12-00055">54</xref>]. The curves of the TiO<sub>2</sub>/PVDF suddenly and abruptly decreased at around 400 nm, indicating that there was no response in the visible range, and the response was in the ultraviolet range, owing to the formation of TiO<sub>2</sub> on the fibers. After adding various contents ofg-C<sub>3</sub>N<sub>4</sub>, the curves exhibited enhanced responses between 400 and 750 nm. The reason for the decrease in absorption in the UV region was that the addition of g-C<sub>3</sub>N<sub>4</sub> obstructed the ultraviolet absorption of some of the TiO<sub>2</sub>, increasing the absorption in the visible region. Thus, the curves proved that the range of light captured by the photocatalysts extended to the visible light region because the g-C<sub>3</sub>N<sub>4</sub> was bonded to the TiO<sub>2</sub>/PVDF fibers during the hydrothermal process. We make the tangent intersect the abscissa axis and show the absorbance of various components. As the content of g-C<sub>3</sub>N<sub>4</sub> added during the hydrothermal process increased, the response of the TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub> in the visible light region gradually increased. By extrapolating the Kubelka&#x2212;Munk function, the band gap energy of the as-prepared products was estimated to be 2.6&#x2013;3.15 eV. As shown in <xref ref-type="fig" rid="polymers-12-00055-f006">Figure 6</xref>, the curves of TPCN1, TPCN2 and TPCN3 exhibited a blue shift in the band gap energy compared to the TiO<sub>2</sub>/PVDF and began to respond to the visible light region.</p>
+      </sec>
+      <sec id="sec3dot3-polymers-12-00055">
+        <title>3.3. Photocatalytic and Self-Cleaning Performances</title>
+        <p>By detecting the change of the RhB concentration under visible light irradiation for a period of time, the photocatalytic performances of the as-prepared composites were evaluated. The sample was treated in a dark environment for 30 min to achieve adsorption equilibrium. <xref ref-type="fig" rid="polymers-12-00055-f007">Figure 7</xref>a shows the RhB degradation curves of the as-prepared photocatalysts under the same conditions, including P25<sup>&#xAE;</sup>, TiO<sub>2</sub>/PVDF, g-C<sub>3</sub>N<sub>4</sub>, TPCN1, TPCN2 and TPCN3. RhB without an added photocatalyst was used as a blank control group to confirm the inherent stability of the solution under visible light irradiation. As expected, a negligible change in the concentration of RhB occurred. The curves showed that TPCN2 exhibited a higher photocatalytic performance for degrading RhB than other types of photocatalysts. In particular, the photocatalytic activities of various TPCN composites were higher than those of the g-C<sub>3</sub>N<sub>4</sub> and TiO<sub>2</sub>/PVDF fibers, which indicated that the amount of g-C<sub>3</sub>N<sub>4</sub> coupled with TiO<sub>2</sub>/PVDF fibers significantly affected the photocatalytic activity during the reaction process. The effective separation of electron and holes pairs and the expanded specific surface area affected the interfacial contact of the g-C<sub>3</sub>N<sub>4</sub> and TiO<sub>2</sub> in the composite system. The proper amount of g-C3N4 added to the composite can significantly affected the efficiency of the photocatalysis. The photocatalytic process for the degradation of RhB can also be expressed using pseudo-first-order kinetics, as follows: [<xref ref-type="bibr" rid="B55-polymers-12-00055">55</xref>]
+        <disp-formula>&#x2013;ln(<italic>C/C</italic><sub>0</sub>) = <italic>k</italic><sub>app</sub><italic>t</italic><label>(1)</label></disp-formula>
+        where <italic>k</italic><sub>app</sub> is the reaction rate constant, and <italic>C</italic><sub>0</sub> and <italic>C</italic> are the concentrations of RhB initially and time <italic>t</italic>, respectively. The pseudo-first-order kinetics curves and reaction rate constant of different photocatalysts are shown in <xref ref-type="fig" rid="polymers-12-00055-f007">Figure 7</xref>b and <xref ref-type="app" rid="app1-polymers-12-00055">Figure S3</xref>. The calculated reaction rate constant of TPCN2 was 0.0083, which were approximately 2.95, 2.41, 2.84, 1.9 and 1.56 times higher than those of TiO<sub>2</sub>/PVDF, P25<sup>&#xAE;</sup>, g-C<sub>3</sub>N<sub>4</sub>, TPCN1 and TPCN3, respectively. The results indicated that the as-prepared product was suitable as a photocatalyst for eliminating actual environmental pollution. Furthermore, photocatalytic recyclability is an important attribute for engineering applications. Over three successive cycles, <xref ref-type="fig" rid="polymers-12-00055-f007">Figure 7</xref>c shows that the degradation rate of TPCN2 decreased by less than 5%, and similar photocatalytic behavior was maintained.</p>
+        <p>In <xref ref-type="fig" rid="polymers-12-00055-f008">Figure 8</xref>a&#x2013;h, the flexible bending performance of the as-prepared sample was demonstrated. By bending at different angles, the fiber membrane still could well been restored. The flexible nature of the sample contributed to the recycling. Under the irradiation of UV light with a wavelength of 254 nm, the self-cleaning properties of the photocatalyst contaminated with MB were measured as shown in <xref ref-type="fig" rid="polymers-12-00055-f008">Figure 8</xref>i,j. Obviously, the color of the photocatalyst contaminated with the dye having a concentration of 10 mg L<sup>&#x2212;1</sup> was barely visible when exposed to UV light for 1 h. Similarly, the dye prior polluted by 10 mg L<sup>&#x2212;1</sup> RhB was completely removed in <xref ref-type="fig" rid="polymers-12-00055-f008">Figure 8</xref>k,l after irradiation to UV light for 1 h. Veziroglu et al. studied that the residual residue on the CeO<sub>2</sub>-TiO<sub>2</sub> hybrid structure during oleic acid treatment completely disappeared within 60 min under ultraviolet irradiation [<xref ref-type="bibr" rid="B56-polymers-12-00055">56</xref>]; Zhang et al. reported the self-cleaning performance of CuS/PVDF/TiO<sub>2</sub> was studied by dropping 10 mg L<sup>&#x2212;1</sup> of RhB, methyl orange, and methylene blue onto the surface of the composite under visible light. The color of these dyes almost disappeared in about 120 min [<xref ref-type="bibr" rid="B57-polymers-12-00055">57</xref>]. As we know, in the photocatalysis process, the photocatalysts are easily attached to dye molecules causing self-pollution, which reduces its photocatalytic performance. The as-prepared products can greatly improve the photocatalytic effect in practical use due to their self-cleaning ability.</p>
+      </sec>
+      <sec id="sec3dot4-polymers-12-00055">
+        <title>3.4. Reaction Mechanisms</title>
+        <p>To further study the possible reaction mechanism of the prepared photocatalyst, a series of comparative experiments of radical scavengers were carried out in the reaction system to determine the active material leading to the photocatalytic process. The scavengers N<sub>2</sub>, EDTA-2Na, AgNO<sub>3</sub> and TBA were added to the removal of the active substances <inline-formula><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:msubsup><mml:mi mathvariant="normal">O</mml:mi><mml:mn>2</mml:mn><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula>, h, to further study the possible reaction and OH, respectively. As shown in <xref ref-type="fig" rid="polymers-12-00055-f009">Figure 9</xref>a, the photocatalytic properties changed slightly after the addition of EDTA-2Na, AgNO<sub>3</sub> and TBA, which means that h, e<sup>&#x2212;</sup> and <inline-formula><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>&#xB7;</mml:mi><mml:mi>OH</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> played minor roles in the degradation of RhB. When N<sub>2</sub> was added to the solution, the degradation efficiency of the CNT2 for RhB decreased sharply, indicating that &#x2219;<inline-formula><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:msubsup><mml:mi mathvariant="normal">O</mml:mi><mml:mn>2</mml:mn><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> played a leading role in the photocatalytic degradation of the pollutants. Based on the above results, a photocatalytic mechanism of the CNT degradation of the pollutants under visible light irradiation was proposed. The mechanism of photogenerated carrier transfer and separation under visible light irradiation is shown in <xref ref-type="fig" rid="polymers-12-00055-f009">Figure 9</xref>b. When the light irradiated the sample, an electron (e<sup>&#x2212;</sup>) was excited from the valence band (VB) of g-C<sub>3</sub>N<sub>4</sub> to the conduction band (CB), leaving equal numbers of holes (h<sup>+</sup>) in the VB. Therefore, the separation of photogenerated carriers inherent in the material was realized. Meanwhile, an electron (e<sup>&#x2212;</sup>) of TiO<sub>2</sub> was excited from the VB to the CB, leaving the same number of holes (h<sup>+</sup>) into VB. Since the VB potential of TiO<sub>2</sub> was lower than that of g-C<sub>3</sub>N<sub>4</sub>, the electrons were rapidly transferred from the CB of g-C<sub>3</sub>N<sub>4</sub> to the CB of TiO<sub>2</sub> through the tightly contact interface. Thus, the holes moved from the VB of TiO<sub>2</sub> to the VB of g-C<sub>3</sub>N<sub>4</sub>. Eventually, the survival time of the photogenerated carriers was prolonged, which was beneficial to the enhancement of the photocatalytic activity. The electrons transferred to the CB of TiO<sub>2</sub> were trapped by oxygen molecules in the dye solution, and thus a strong oxidizing oxygen radical (&#x2219;<inline-formula><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msubsup><mml:mi mathvariant="normal">O</mml:mi><mml:mn>2</mml:mn><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula>) formed on the surface of the sample (<inline-formula><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="normal">O</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msup><mml:mi mathvariant="normal">e</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msup><mml:mo>&#x2192;</mml:mo><mml:mi>&#xB7;</mml:mi><mml:msubsup><mml:mi mathvariant="normal">O</mml:mi><mml:mn>2</mml:mn><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula>) [<xref ref-type="bibr" rid="B58-polymers-12-00055">58</xref>]. Meanwhile, hydroxyl radicals (<inline-formula><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:mi>&#xB7;</mml:mi><mml:mi>OH</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>) were also produced on the surface of the photocatalyst due to the holes of the VB transferred to the g-C<sub>3</sub>N<sub>4</sub> reacting with water molecules in solution, (<inline-formula><mml:math id="mm7" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="normal">H</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi mathvariant="normal">O</mml:mi><mml:mo>+</mml:mo><mml:msup><mml:mi mathvariant="normal">h</mml:mi><mml:mo>+</mml:mo></mml:msup><mml:mo>&#x2192;</mml:mo><mml:mi>&#xB7;</mml:mi><mml:mi>OH</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>) [<xref ref-type="bibr" rid="B59-polymers-12-00055">59</xref>]. The &#x2219;<inline-formula><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:msubsup><mml:mi mathvariant="normal">O</mml:mi><mml:mn>2</mml:mn><mml:mo>&#x2212;</mml:mo></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:mo>&#xA0;</mml:mo><mml:mi>&#xB7;</mml:mi><mml:mi>OH</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> attached to the sample surface had strong oxidizing properties. In the process of contacting with organic pollutant RhB, the RhB finally mineralized into H<sub>2</sub>O and CO<sub>2</sub> after undergoing the processes of N-demethylation, chromophore cleavage, ring-opening and mineralization [<xref ref-type="bibr" rid="B60-polymers-12-00055">60</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec4-polymers-12-00055" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Heterostructured as-prepared TPCN composites with excellent flexibilities and outstanding visible light photocatalyzed performances and self-cleaning characteristics were developed by combining a facile electrospinning method with a convenient hydrothermal process. The TBOT that unevenly distributed on the surface and inside the fibers converted into granular TiO<sub>2</sub> during the hydrothermal process, which was tightly embedded on the PVDF fibers. The introduction of the narrow band gap g-C<sub>3</sub>N<sub>4</sub> in composed the novel TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub> heterostructures, ensured that the TPCN composite possessed a lower recombination efficiency of photogenerated carriers and remarkable photocatalytic activity under visible light irradiation. Use of the organic PVDF fibers as the support substrate enabled the composite to achieve self-standing and bendable properties. In contrast to the conventional powder photocatalysts, the TPCN composite could be easily recovered, so the secondary pollution challenge could be overcome. The current work offers a novel synthesis strategy for developing a new-type of recyclable photocatalyst with a visible light response, good photocatalytic performance and self-cleaning characteristics.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-polymers-12-00055">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>https://www.mdpi.com/2073-4360/12/1/55/s1</uri>.</p>
+		<supplementary-material id="polymers-12-00055-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-s001.pdf"></supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Formal analysis, T.-T.Z. and X.-X.W.; Funding acquisition, L.-X.C. and Y.-Z.L.; Investigation, T.-T.Z., F.-H.Z. and Y.-Q.C.; Methodology, T.-T.Z. and J.-S.Y.; Writing&#x2014;original draft, T.-T.Z. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was supported by the National Natural Science Foundation of China (51673103 and 51973100), and the Taishan Scholars Program.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-polymers-12-00055">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harish</surname>
+              <given-names>K.N.</given-names>
+            </name>
+            <name>
+              <surname>Naik</surname>
+              <given-names>H.S.B.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>P.N.P.</given-names>
+            </name>
+            <name>
+              <surname>Viswanath</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optical and photocatalytic properties of solar light active Nd-substituted Ni ferrite catalysts: for environmental protection</article-title>
+          <source>ACS Sustain. Chem. Eng.</source>
+          <year>2013</year>
+          <volume>1</volume>
+          <fpage>1143</fpage>
+          <lpage>1153</lpage>
+          <pub-id pub-id-type="doi">10.1021/sc400060z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-polymers-12-00055">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Poon</surname>
+              <given-names>C.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Photocatalytic cementitious materials: influence of the microstructure of cement paste on photocatalytic pollution degradation</article-title>
+          <source>Build. Environ.</source>
+          <year>2009</year>
+          <volume>43</volume>
+          <fpage>8948</fpage>
+          <lpage>8952</lpage>
+          <pub-id pub-id-type="doi">10.1021/es902359s</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-polymers-12-00055">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nosaka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Norimatsu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Miyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immobilization of enzyme on nylon containing pendant quaternized amine groups</article-title>
+          <source>Chem. Phys. Lett.</source>
+          <year>1984</year>
+          <volume>27</volume>
+          <fpage>1390</fpage>
+          <lpage>1392</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4-polymers-12-00055">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marschall</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Non-metal doping of transition metal oxides for visible-light photocatalysis</article-title>
+          <source>Catal. Today</source>
+          <year>2014</year>
+          <volume>225</volume>
+          <fpage>111</fpage>
+          <lpage>135</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cattod.2013.10.088</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-polymers-12-00055">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ueno</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Takabayashi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Misawa</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improvement of Plasmon-Enhanced Photocurrent Generation by Interference of TiO<sub>2</sub> Thin Film</article-title>
+          <source>J. Phys. Chem. C</source>
+          <year>2013</year>
+          <volume>117</volume>
+          <fpage>24733</fpage>
+          <lpage>24739</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp408472g</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-polymers-12-00055">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gul</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Variations in the structural, electronic and optical properties of N-doped TiO<sub>2</sub> with increasing N doping concentration</article-title>
+          <source>Mod. Phys. Lett. B</source>
+          <year>2015</year>
+          <volume>29</volume>
+          <fpage>1550022</fpage>
+          <pub-id pub-id-type="doi">10.1142/S0217984915500220</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-polymers-12-00055">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pakdel</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Daoud</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Seyedin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Razal</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tunable photocatalytic selectivity of TiO<sub>2</sub>/SiO<sub>2</sub> nanocomposites: Effect of silica and isolation approach</article-title>
+          <source>Colloids Surf. A</source>
+          <year>2018</year>
+          <volume>552</volume>
+          <fpage>130</fpage>
+          <lpage>141</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.colsurfa.2018.04.070</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-polymers-12-00055">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>X.Z.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>F.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of Au/Au<sup>3+</sup>-TiO<sub>2</sub> photocatalysts toward visible photooxidation for water and wastewater treatment</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2001</year>
+          <volume>35</volume>
+          <fpage>2381</fpage>
+          <lpage>2387</lpage>
+          <pub-id pub-id-type="doi">10.1021/es001752w</pub-id>
+          <pub-id pub-id-type="pmid">11414049</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-polymers-12-00055">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zalfani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schueren</surname>
+              <given-names>B.V.D.</given-names>
+            </name>
+            <name>
+              <surname>Mahdouani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bourguiga</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>W.B.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Deparis</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>B.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>ZnO quantum dots decorated 3DOM TiO<sub>2</sub> nanocomposites: Symbiose of quantum size effects and photonic structure for highly enhanced photocatalytic degradation of organic pollutants</article-title>
+          <source>Appl. Catal. B Environ.</source>
+          <year>2016</year>
+          <volume>199</volume>
+          <fpage>187</fpage>
+          <lpage>198</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2016.06.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-polymers-12-00055">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>AuPd/3DOM-TiO<sub>2</sub> catalysts for photocatalytic reduction of CO<sub>2</sub>: High efficient separation of photogenerated charge carriers</article-title>
+          <source>Appl. Catal. B Environ.</source>
+          <year>2017</year>
+          <volume>209</volume>
+          <fpage>228</fpage>
+          <lpage>239</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2017.02.076</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-polymers-12-00055">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Georgakopoulos</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Apostolopoulou</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Todorova</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Pomoni</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Trapalis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Stathatos</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of photoconductive and photoelectrochemical properties of mesoporous nanocrystalline TiO<sub>2</sub> powders and films prepared in acidic and alkaline media</article-title>
+          <source>J. Alloys Compd.</source>
+          <year>2017</year>
+          <volume>692</volume>
+          <fpage>313</fpage>
+          <lpage>321</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jallcom.2016.09.040</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-polymers-12-00055">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sol&#xED;s-Casados</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Escobar-Alarc&#xF3;n</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>G&#xF3;mez-Oliv&#xE1;n</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Poniatowski</surname>
+              <given-names>E.H.</given-names>
+            </name>
+            <name>
+              <surname>Klimova</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Photodegradation of pharmaceutical drugs using Sn-modified TiO<sub>2</sub> powders under visible light irradiation</article-title>
+          <source>Fuel</source>
+          <year>2017</year>
+          <volume>198</volume>
+          <fpage>3</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fuel.2017.01.059</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-polymers-12-00055">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interface engineering of anchored ultrathin TiO2/MoS2 heterolayers for highly-efficient electrochemical hydrogen production</article-title>
+          <source>ACS Appl. Mater. Interfaces</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <fpage>6084</fpage>
+          <lpage>6089</lpage>
+          <pub-id pub-id-type="pmid">29417816</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-polymers-12-00055">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Xi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Anatase TiO<sub>2</sub> nanosheets with coexposed {101} and {001} facets coupled with ultrathin SnS<sub>2</sub> nanosheets as a face-to-face <italic>n</italic>-<italic>p</italic>-<italic>n</italic> dual heterojunction photocatalyst for enhancing photocatalytic activity</article-title>
+          <source>Appl. Surf. Sci.</source>
+          <year>2017</year>
+          <volume>420</volume>
+          <fpage>839</fpage>
+          <lpage>848</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apsusc.2017.05.160</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-polymers-12-00055">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>In situ synthesis of C-TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub> heterojunction nanocomposite as highly visible light active photocatalyst originated from effective interfacial charge transfer</article-title>
+          <source>Appl. Catal. B Environ.</source>
+          <year>2017</year>
+          <volume>202</volume>
+          <fpage>489</fpage>
+          <lpage>499</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2016.09.052</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-polymers-12-00055">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon quantum dots serving as spectral converters through broadband upconversion of near-infrared photons for photoelectrochemical hydrogen generation</article-title>
+          <source>J. Mater. Chem. A</source>
+          <year>2013</year>
+          <volume>1</volume>
+          <fpage>11529</fpage>
+          <lpage>11533</lpage>
+          <pub-id pub-id-type="doi">10.1039/c3ta12568h</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-polymers-12-00055">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Well-Ordered Large-pore mesoporous anatase TiO<sub>2</sub> with remarkably high thermal stability and improved crystallinity: Preparation, characterization, and photo</article-title>
+          <source>Adv. Funct. Mater.</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>1922</fpage>
+          <lpage>1930</lpage>
+          <pub-id pub-id-type="doi">10.1002/adfm.201002535</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-polymers-12-00055">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Facile in situ synthesis of graphitic carbon nitride (g-C<sub>3</sub>N<sub>4</sub>)-N-TiO<sub>2</sub> heterojunction as an efficient photocatalyst for the selective photoreduction of CO<sub>2</sub> to CO</article-title>
+          <source>Appl. Catal. B Environ.</source>
+          <year>2014</year>
+          <volume>158</volume>
+          <fpage>20</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2014.03.037</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-polymers-12-00055">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>W.Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>F.T.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>Y.B.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>In situ microwave-assisted synthesis of porous N-TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub> heterojunctions with enhanced visible-light photocatalytic properties</article-title>
+          <source>Ind. Eng. Chem. Res.</source>
+          <year>2013</year>
+          <volume>52</volume>
+          <fpage>17140</fpage>
+          <lpage>17150</lpage>
+          <pub-id pub-id-type="doi">10.1021/ie402820v</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-polymers-12-00055">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miranda</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mansilla</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Y&#xE1;&#xF1;ez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Obreg&#xF3;n</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Col&#xF3;n</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improved photocatalytic activity of g-C<sub>3</sub>N<sub>4</sub>/TiO<sub>2</sub> composites prepared by a simple impregnation method</article-title>
+          <source>J. Photochem. Photobiol. A Chem.</source>
+          <year>2013</year>
+          <volume>253</volume>
+          <fpage>16</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jphotochem.2012.12.014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-polymers-12-00055">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Han</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>In situ synthesis of graphitic-C<sub>3</sub>N<sub>4</sub> nanosheet hybridized N-doped TiO<sub>2</sub> nanofibers for efficient photocatalytic H<sub>2</sub> production and degradation</article-title>
+          <source>Nano Res.</source>
+          <year>2015</year>
+          <volume>8</volume>
+          <fpage>1199</fpage>
+          <lpage>1209</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12274-014-0600-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-polymers-12-00055">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yao</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Facile surface modification of textiles with photocatalytic carbon nitride nanosheets and the excellent performance for self-cleaning and degradation of gaseous formaldehyde</article-title>
+          <source>J. Colloid Interface Sci.</source>
+          <year>2019</year>
+          <volume>533</volume>
+          <fpage>144</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jcis.2018.08.058</pub-id>
+          <pub-id pub-id-type="pmid">30149223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-polymers-12-00055">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pakdel</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immobilization of titanium dioxide on PAN fiber as a recyclable photocatalyst via co-dispersion solvent dip coating</article-title>
+          <source>Text. Res. J.</source>
+          <year>2017</year>
+          <volume>87</volume>
+          <fpage>570</fpage>
+          <pub-id pub-id-type="doi">10.1177/0040517516632479</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-polymers-12-00055">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>F.X.</given-names>
+            </name>
+            <name>
+              <surname>Ning</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.D.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+            <name>
+              <surname>Ning</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Flexible inorganic membranes used as a high thermal safety separator for the lithium-ion battery</article-title>
+          <source>RSC Adv.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>4072</fpage>
+          <lpage>4077</lpage>
+          <pub-id pub-id-type="doi">10.1039/C7RA13058A</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-polymers-12-00055">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.X.</given-names>
+            </name>
+            <name>
+              <surname>Nie</surname>
+              <given-names>G.D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.X.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Highly flexible Fe<sub>2</sub>O<sub>3</sub>/TiO<sub>2</sub> composite nanofibers for photocatalysis and utraviolet detection</article-title>
+          <source>J. Phys. Chem. Solids</source>
+          <year>2018</year>
+          <volume>121</volume>
+          <fpage>236</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jpcs.2018.05.019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-polymers-12-00055">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Magnetic TiO<sub>2</sub>-graphene composite as a high-performance and recyclable platform for efficient photocatalytic removal of herbicides from water</article-title>
+          <source>J. Hazard. Mater.</source>
+          <year>2013</year>
+          <volume>252</volume>
+          <fpage>115</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhazmat.2013.02.053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-polymers-12-00055">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Solvothermal synthesis of TiO<sub>2</sub>/CNFs heterostructures with photocatalytic activity</article-title>
+          <source>NANO Brief Rep. Rev.</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <fpage>1550080</fpage>
+          <pub-id pub-id-type="doi">10.1142/S1793292015500800</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-polymers-12-00055">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bahi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrospun nanofibrous Ag-TiO<sub>2</sub>/poly(vinylidene fluoride) (PVDF) membranes with enhanced photocatalytic activity</article-title>
+          <source>J. Nanosci. Nanotechnol.</source>
+          <year>2016</year>
+          <volume>16</volume>
+          <fpage>7388</fpage>
+          <lpage>7394</lpage>
+          <pub-id pub-id-type="doi">10.1166/jnn.2016.11120</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-polymers-12-00055">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peng</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>W.F.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>CsxWO3 nanosheet-coated cotton fabric with multiple functions: UV/NIR shielding and full-spectrum-responsive self-cleaning</article-title>
+          <source>Appl. Surf. Sci.</source>
+          <year>2019</year>
+          <volume>475</volume>
+          <fpage>325</fpage>
+          <lpage>333</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apsusc.2018.12.279</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-polymers-12-00055">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miao</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dutta</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Nasr</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Suib</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesoporous TiO<sub>2</sub> modified with carbon quantum dots as a high-performance visible light photocatalyst</article-title>
+          <source>Appl. Catal. B Environ.</source>
+          <year>2016</year>
+          <volume>189</volume>
+          <fpage>26</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2016.01.070</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-polymers-12-00055">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fan</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Gong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation of the TiO<sub>2</sub>/graphiccarbon nitride core-shell array as a photoanode for efficient photoelectrochemical water splitting</article-title>
+          <source>Langmuir ACS J. Surf. Colloids</source>
+          <year>2016</year>
+          <volume>32</volume>
+          <fpage>13322</fpage>
+          <lpage>13332</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.langmuir.6b03107</pub-id>
+          <pub-id pub-id-type="pmid">27936327</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-polymers-12-00055">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martins</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Ribeiro</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Teixeira</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Petrovykh</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+            <name>
+              <surname>Cuniberti</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pereira</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Mendez</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Photocatalytic microporous membrane against the increasing problem of water emerging pollutants</article-title>
+          <source>Materials</source>
+          <year>2019</year>
+          <volume>12</volume>
+          <elocation-id>1649</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ma12101649</pub-id>
+          <pub-id pub-id-type="pmid">31117217</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-polymers-12-00055">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.G.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>R.Z.</given-names>
+            </name>
+            <name>
+              <surname>Ning</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Controlling thermal emission of phonon by magnetic metasurfaces</article-title>
+          <source>Mater. Res. Express</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <fpage>41858</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep41858</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-polymers-12-00055">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ramakrishna</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>In situ assembly of well-dispersed ag nanoparticles throughout electrospun alginate nanofibers for monitoring human breath-smart fabrics</article-title>
+          <source>ACS Appl. Mater. Interfaces</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <fpage>19863</fpage>
+          <lpage>19870</lpage>
+          <pub-id pub-id-type="doi">10.1021/acsami.8b01718</pub-id>
+          <pub-id pub-id-type="pmid">29782141</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-polymers-12-00055">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>W.P.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yun</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ramakrishna</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ag/alginate nanofiber membrane for flexible electronic skin</article-title>
+          <source>Nanotechnology</source>
+          <year>2017</year>
+          <volume>28</volume>
+          <fpage>445502</fpage>
+          <pub-id pub-id-type="doi">10.1088/1361-6528/aa8746</pub-id>
+          <pub-id pub-id-type="pmid">28825406</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-polymers-12-00055">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.S.</given-names>
+            </name>
+            <name>
+              <surname>Zou</surname>
+              <given-names>Z.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Photodegradation performance of g-C<sub>3</sub>N<sub>4</sub> fabricated by directly heating melamine</article-title>
+          <source>Langmuir</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>10397</fpage>
+          <pub-id pub-id-type="doi">10.1021/la900923z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-polymers-12-00055">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Teixeira</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gurke</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Eckert</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>K&#xFC;hn</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fauler</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cuniberti</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Photocatalytic degradation of pharmaceuticals present in conventional treated wastewater by nanoparticle suspensions</article-title>
+          <source>J. Environ. Chem. Eng.</source>
+          <year>2016</year>
+          <volume>4</volume>
+          <fpage>287</fpage>
+          <lpage>292</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jece.2015.10.045</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-polymers-12-00055">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gong</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesoporous anatase TiO<sub>2</sub> nanocups with plasmonic metal decoration for highly active visible-light photocatalysis</article-title>
+          <source>Chem. Commun.</source>
+          <year>2013</year>
+          <volume>49</volume>
+          <fpage>5817</fpage>
+          <lpage>5819</lpage>
+          <pub-id pub-id-type="doi">10.1039/c3cc42029a</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-polymers-12-00055">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pramoda</surname>
+              <given-names>K.P.</given-names>
+            </name>
+            <name>
+              <surname>Mohamed</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Phang</surname>
+              <given-names>I.Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>T.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystal transformation and thermomechanical properties of poly(vinylidene fluoride)/clay nanocomposites</article-title>
+          <source>Polym. Int.</source>
+          <year>2005</year>
+          <volume>54</volume>
+          <fpage>226</fpage>
+          <lpage>232</lpage>
+          <pub-id pub-id-type="doi">10.1002/pi.1692</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-polymers-12-00055">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Zong</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>BaTiO3/TiO2 heterostructure nanotube arrays for improved photoelectrochemical and photocatalytic activity</article-title>
+          <source>Electrochim. Acta</source>
+          <year>2013</year>
+          <volume>91</volume>
+          <fpage>30</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.electacta.2012.12.073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-polymers-12-00055">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>N.Y.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>J.Q.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Qusti</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Asiri</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Al-Youbi</surname>
+              <given-names>A.O.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Au-nanoparticle-loaded graphitic carbon nitride nanosheets: green photocatalytic synthesis and application toward the degradation of organic pollutants</article-title>
+          <source>ACS Appl. Mater. Interface.s</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>6815</fpage>
+          <lpage>6819</lpage>
+          <pub-id pub-id-type="doi">10.1021/am401802r</pub-id>
+          <pub-id pub-id-type="pmid">23875941</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-polymers-12-00055">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.G.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>H.W.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.Q.</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>Y.F.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Ramakrishna</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>One-step Synthesis heterostructured g-C&#x2083;N&#x2084;/TiO&#x2082; composite for rapid degradation of pollutants in utilizing visible Light</article-title>
+          <source>Nanomaterials.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <elocation-id>8100842</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/nano8100842</pub-id>
+          <pub-id pub-id-type="pmid">30332837</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-polymers-12-00055">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ag/AgBr-grafted graphite-like carbon nitride with enhanced plasmonic photocatalytic activity under visible light</article-title>
+          <source>Chemcatchem.</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>2343</fpage>
+          <lpage>2351</lpage>
+          <pub-id pub-id-type="doi">10.1002/cctc.201300144</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-polymers-12-00055">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Komaba</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Murata</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ishikawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yabuuchi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ozeki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakayama</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ogata</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gotoh</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fujiwara</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrochemical Na insertion and solid electrolyte interphase for hard-carbon electrodes and application to Na-Ion batteries</article-title>
+          <source>Adv. Funct. Mater.</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>3859</fpage>
+          <lpage>3867</lpage>
+          <pub-id pub-id-type="doi">10.1002/adfm.201100854</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-polymers-12-00055">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.H.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Q.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Macroscopic 3D porous graphitic carbon nitride monolith for enhanced photocatalytic hydrogen evolution</article-title>
+          <source>Adv. Mater.</source>
+          <year>2015</year>
+          <volume>27</volume>
+          <fpage>4634</fpage>
+          <lpage>4639</lpage>
+          <pub-id pub-id-type="doi">10.1002/adma.201502057</pub-id>
+          <pub-id pub-id-type="pmid">26135383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-polymers-12-00055">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Xua</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Perovskite oxide ultrathin nanosheets/g-C<sub>3</sub>N<sub>4</sub> 2D-2D heterojunction photocatalysts with significantly enhanced photocatalytic activity towards the photodegradation of tetracycline</article-title>
+          <source>Appl. Catal. B Environ.</source>
+          <year>2017</year>
+          <volume>201</volume>
+          <fpage>617</fpage>
+          <lpage>628</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2016.09.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-polymers-12-00055">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Photocatalytic reduction of CO<sub>2</sub> into hydrocarbon solar fuels over g-C<sub>3</sub>N<sub>4</sub>-Pt nanocomposite photocatalysts</article-title>
+          <source>Phys. Chem. Chem. Phys.</source>
+          <year>2014</year>
+          <volume>16</volume>
+          <fpage>11492</fpage>
+          <lpage>11501</lpage>
+          <pub-id pub-id-type="doi">10.1039/c4cp00133h</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-polymers-12-00055">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergetic effect of Ti<sup>3+</sup> and oxygen doping on enhancing photoelectrochemical and photocatalytic properties of TiO<sub>2</sub>/g-C<sub>3</sub>N<sub>4</sub> heterojunctions</article-title>
+          <source>ACS Appl. Mater. Interfaces</source>
+          <year>2017</year>
+          <volume>9</volume>
+          <fpage>11577</fpage>
+          <lpage>11586</lpage>
+          <pub-id pub-id-type="doi">10.1021/acsami.6b16191</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-polymers-12-00055">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sing</surname>
+              <given-names>K.S.W.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>R.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Review: The use of molecular probes for the characterization of nanoporous adsorbents</article-title>
+          <source>Adsorpt. Sci. Technol.</source>
+          <year>2004</year>
+          <volume>21</volume>
+          <fpage>71</fpage>
+          <lpage>79</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B50-polymers-12-00055">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hierarchical MoS<sub>2</sub> nanosheet@TiO<sub>2</sub> nanotube array composites with enhanced photocatalytic and photocurrent performances</article-title>
+          <source>Small</source>
+          <year>2016</year>
+          <volume>12</volume>
+          <fpage>1527</fpage>
+          <lpage>1536</lpage>
+          <pub-id pub-id-type="doi">10.1002/smll.201503441</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-polymers-12-00055">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polypyrrole-decorated Ag-TiO<sub>2</sub> nanofibers exhibiting enhanced photocatalytic activity under visible-light Illumination</article-title>
+          <source>ACS Appl. Mater. Interfaces</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>6201</fpage>
+          <lpage>6207</lpage>
+          <pub-id pub-id-type="doi">10.1021/am401167y</pub-id>
+          <pub-id pub-id-type="pmid">23767991</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-polymers-12-00055">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Naldoni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Allieta</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Santangelo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Marelli</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fabbri</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Cappelli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Psaro</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Dal</surname>
+              <given-names>S.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of nature and location of defects on bandgap narrowing in black TiO<sub>2</sub> nanoparticles</article-title>
+          <source>J. Am. Chem. Soc.</source>
+          <year>2012</year>
+          <volume>134</volume>
+          <fpage>7600</fpage>
+          <lpage>7603</lpage>
+          <pub-id pub-id-type="doi">10.1021/ja3012676</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-polymers-12-00055">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hao</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Template-free preparation of macro/mesoporous g-C<sub>3</sub>N<sub>4</sub>/TiO<sub>2</sub> heterojunction photocatalysts with enhanced visible light photocatalytic activity</article-title>
+          <source>Appl. Catal. B Environ.</source>
+          <year>2016</year>
+          <volume>187</volume>
+          <fpage>47</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apcatb.2016.01.026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-polymers-12-00055">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient photocatalysts from polymorphic cuprous oxide/zinc oxide microstructures</article-title>
+          <source>RSC Adv.</source>
+          <year>2015</year>
+          <volume>5</volume>
+          <fpage>11917</fpage>
+          <lpage>11924</lpage>
+          <pub-id pub-id-type="doi">10.1039/C4RA14971H</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-polymers-12-00055">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Repousi</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Petala</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Frontistis</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Antonopoulou</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Konstantinou</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kondarides</surname>
+              <given-names>D.I.</given-names>
+            </name>
+            <name>
+              <surname>Mantzavinos</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Photocatalytic degradation of bisphenol A over Rh/TiO<sub>2</sub> suspensions in different water matrices</article-title>
+          <source>Catal. Today</source>
+          <year>2017</year>
+          <volume>284</volume>
+          <fpage>59</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cattod.2016.10.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-polymers-12-00055">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Veziroglu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>R&#xF6;der</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gronenberg</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Vahl</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Polonskyi</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Strunskus</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Rubahn</surname>
+              <given-names>H.G.</given-names>
+            </name>
+            <name>
+              <surname>Kienle</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Adam</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fiutowski</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cauliflower-like CeO<sub>2</sub>-TiO<sub>2</sub> hybrid nanostructures with extreme photocatalytic and self-cleaning properties</article-title>
+          <source>Nanoscale</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <fpage>9840</fpage>
+          <lpage>9844</lpage>
+          <pub-id pub-id-type="doi">10.1039/C9NR01208G</pub-id>
+          <pub-id pub-id-type="pmid">31038519</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-polymers-12-00055">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.G.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.X.</given-names>
+            </name>
+            <name>
+              <surname>Ramakrishna</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>One Step In Situ Loading of CuS Nanoflowers on Anatase TiO<sub>2</sub>/Polyvinylidene Fluoride Fibers and Their Enhanced Photocatalytic and Self-Cleaning Performance</article-title>
+          <source>Nanoscale Res. Lett.</source>
+          <year>2019</year>
+          <volume>14</volume>
+          <fpage>215</fpage>
+          <pub-id pub-id-type="doi">10.1186/s11671-019-3052-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-polymers-12-00055">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chai</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zan</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Graphitic carbon nitride (g-C<sub>3</sub>N<sub>4</sub>)-Pt-TiO<sub>2</sub> nanocomposite as an efficient photocatalyst for hydrogen production under visible light irradiation</article-title>
+          <source>Phys. Chem. Chem. Phys.</source>
+          <year>2012</year>
+          <volume>14</volume>
+          <fpage>16745</fpage>
+          <lpage>16752</lpage>
+          <pub-id pub-id-type="doi">10.1039/c2cp42484c</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-polymers-12-00055">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Teng</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>New application of Z-scheme Ag<sub>3</sub>PO<sub>4</sub>/g-C<sub>3</sub>N<sub>4</sub> composite in converting CO<sub>2</sub> to fuel</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2015</year>
+          <volume>49</volume>
+          <fpage>649</fpage>
+          <lpage>656</lpage>
+          <pub-id pub-id-type="doi">10.1021/es5046309</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-polymers-12-00055">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Idrees</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>C.B.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Butt</surname>
+              <given-names>F.K.</given-names>
+            </name>
+            <name>
+              <surname>Butt</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tahir</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tanvir</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aslam</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Ali</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel nano-flowers of Nb<sub>2</sub>O<sub>5</sub> by template free synthesis and enhanced photocatalytic response under visible light</article-title>
+          <source>Sci. Adv. Mater.</source>
+          <year>2015</year>
+          <volume>7</volume>
+          <fpage>1298</fpage>
+          <lpage>1303</lpage>
+          <pub-id pub-id-type="doi">10.1166/sam.2015.2044</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="polymers-12-00055-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Schematic illustration of synthesis and photocatalytic application of the TPCN composites.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-g001.tif"/>
+      </fig>
+      <fig id="polymers-12-00055-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>XRD patterns of (<bold>a</bold>) TBOT/PVDF fibers, (<bold>b</bold>) TiO<sub>2</sub>/PVDF fibers, (<bold>c</bold>) TPCN1, (<bold>d</bold>) TPCN2 (<bold>e</bold>) TPCN3 and <bold>(f</bold>) g-C<sub>3</sub>N<sub>4</sub>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-g002.tif"/>
+      </fig>
+      <fig id="polymers-12-00055-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>SEM images of (<bold>a</bold>) TBOT/PVDF fibers, (<bold>b</bold>) TiO<sub>2</sub>/PVDF fibers, (<bold>c</bold>) g-C<sub>3</sub>N<sub>4</sub> and (<bold>d</bold>) TPCN2.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-g003.tif"/>
+      </fig>
+      <fig id="polymers-12-00055-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>HR-XPS spectra of TPCN2 composite synthesized at 150 &#xB0;C for 24 h: (<bold>a</bold>) C 1s (<bold>b</bold>) N 1s, (<bold>c</bold>) Ti 2p and (<bold>d</bold>) O 1s.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-g004.tif"/>
+      </fig>
+      <fig id="polymers-12-00055-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Photoluminescence (PL) spectra of TiO<sub>2</sub>/PVDF, P25<sup>&#xAE;</sup> and various as-prepared TPCN composites.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-g005.tif"/>
+      </fig>
+      <fig id="polymers-12-00055-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>UV-Vis absorption spectra of TiO<sub>2</sub>/PVDF and various as-prepared TPCN composites.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-g006.tif"/>
+      </fig>
+      <fig id="polymers-12-00055-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>(<bold>a</bold>) Curves of photocatalytic degradation RhB (10 mg/L 50 mL 20 &#xB0;C) over different samples: RhB bared, P25<sup>&#xAE;</sup>, TiO<sub>2</sub>/PVDF and as-prepared TPCN composites. (<bold>b</bold>) Kinetic linear fitting curves for photocatalytic degradation of RhB by different photocatalysts. (<bold>c</bold>) The durability of TPCN2 for dye removal after several cycles.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-g007.tif"/>
+      </fig>
+      <fig id="polymers-12-00055-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Photographs: flexible performance of TPCN2 (<bold>a</bold>&#x2013;<bold>h</bold>), stained with MB (<bold>i</bold>,<bold>j</bold>) and RhB (<bold>k</bold>,<bold>l</bold>) under UV light irradiation, respectively.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-g008.tif"/>
+      </fig>
+      <fig id="polymers-12-00055-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>(<bold>a</bold>) Explore the effects of photocatalytic efficiency by adding different types of scavengers. (<bold>b</bold>) Schematic diagrams photocatalytic mechanism of the as-prepared TPCN composite under the visible light irradiation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00055-g009.tif"/>
+      </fig>
+      <table-wrap id="polymers-12-00055-t001" position="float">
+        <object-id pub-id-type="pii">polymers-12-00055-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>TiO<sub>2</sub>/PVDF/g-C<sub>3</sub>N<sub>4</sub> (TPCN) samples.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Samples</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">TPCN1</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">TPCN2</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">TPCN3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">TiO<sub>2</sub>/PVDF (cm<sup>2</sup>)</td>
+              <td align="center" valign="middle">2.5 &#xD7; 2.5</td>
+              <td align="center" valign="middle">2.5 &#xD7; 2.5</td>
+              <td align="center" valign="middle">2.5 &#xD7; 2.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">g-C<sub>3</sub>N<sub>4</sub> (mg)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">200</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">600</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1000</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

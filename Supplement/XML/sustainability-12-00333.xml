@@ -1,0 +1,2220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sustainability</journal-id>
+      <journal-title-group>
+        <journal-title>Sustainability</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sustainability</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sustainability</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2071-1050</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/su12010333</article-id>
+      <article-id pub-id-type="publisher-id">sustainability-12-00333</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Antecedents of Tourists&#x2019; Behavioral Intentions at Sporting Events: The Case of South Korea</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5253-2971</contrib-id>
+          <name>
+            <surname>Jeong</surname>
+            <given-names>Yunduk</given-names>
+          </name>
+          <xref rid="af1-sustainability-12-00333" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Andrew</given-names>
+          </name>
+          <xref rid="af2-sustainability-12-00333" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5362-8617</contrib-id>
+          <name>
+            <surname>Kim</surname>
+            <given-names>Suk-Kyu</given-names>
+          </name>
+          <xref rid="af3-sustainability-12-00333" ref-type="aff">3</xref>
+          <xref rid="c1-sustainability-12-00333" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sustainability-12-00333"><label>1</label>Department of Sport Management, Kyonggi University, Suwon 16277, Korea; <email>fcgangwon@nate.com</email></aff>
+      <aff id="af2-sustainability-12-00333"><label>2</label>Cypress College, Cypress, CA 90630, USA; <email>ayu8997@student.nocccd.edu</email></aff>
+      <aff id="af3-sustainability-12-00333"><label>3</label>Department of Sports Science, Dongguk University, Gyeongju 38066, Korea</aff>
+      <author-notes>
+        <corresp id="c1-sustainability-12-00333"><label>*</label>Correspondence: <email>skkim2018@dongguk.ac.kr</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>333</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>01</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Mega-sporting events can bring diverse benefits to the hosting areas, such as job creation and image improvement. However, only a handful of studies have explored the antecedents of destination image&#x2014;which plays a crucial role in eliciting certain tourist behaviors&#x2014;and personal involvement. To fill this gap, this study evaluates the relationships among personal involvement, destination image, place attachment, and behavioral intentions in the context of sporting event tourism to provide destination managers useful information for sustainable sports tourism development. We gathered information from 374 international tourists at the FINA (F&#xE9;d&#xE9;ration Internationale de Natation&#x2014;International Swimming Federation) World Masters Championships Gwangju 2019 in South Korea. We used structural equation modeling was used along with maximum likelihood estimation to examine the predicted relationships. The findings show the positive impacts of (a) personal involvement on destination image, (b) destination image on place attachment, and (c) place attachment on behavioral intentions. Furthermore, (d) place attachment dictated the relationship between destination image and behavioral intentions. The findings confirm the significant role personal involvement plays in the improvement of a destination&#x2019;s image. To ensure sustainable sports tourism, destination managers are advised to pay close attention to research findings on destination image in the development of their plans.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>personal involvement</kwd>
+        <kwd>destination image</kwd>
+        <kwd>place attachment</kwd>
+        <kwd>behavioral intention</kwd>
+        <kwd>sporting event tourism</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sustainability-12-00333" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>As many countries and regions are facing heavy competition attracting tourists, the intentions of the tourists to revisit and their engagement in word-of-mouth (WOM) remains a key focus in the tourism industry to achieve sustainable success of a destination or an organization [<xref ref-type="bibr" rid="B1-sustainability-12-00333">1</xref>]. For this reason, a major challenge for not only destination marketers but also tourism researchers is to assess and understand the behavioral intentions of tourists [<xref ref-type="bibr" rid="B2-sustainability-12-00333">2</xref>]. Assael [<xref ref-type="bibr" rid="B3-sustainability-12-00333">3</xref>] states that success is dependent on the repurchase rather than the initial purchase, and that a brand requires the loyalty of its buyers for its survival. In terms of intention to recommend, tourists can easily disseminate their honest opinions and experiences in visiting a destination through the internet, particularly through social media platforms such as Facebook, Instagram, and YouTube [<xref ref-type="bibr" rid="B2-sustainability-12-00333">2</xref>]. Social media has demonstrated a strong ripple effect it can bring as a tool that enables potential tourists to gain knowledge about a destination; thus, the intention to recommend through social media has become increasingly important [<xref ref-type="bibr" rid="B4-sustainability-12-00333">4</xref>]. Therefore, it is imperative for sustainable tourism development that destination marketers understand what factors drive tourist intentions to recommend and revisit.</p>
+      <p>A number of researchers have noted that tourism destination image plays a pivotal role in eliciting certain tourist behaviors such as destination choice, subsequent evaluation, and future behavioral intention [<xref ref-type="bibr" rid="B5-sustainability-12-00333">5</xref>]. If a tourist perceives a destination to be favorable, he is more likely to positively evaluate the destination, and thus revisit himself or recommend to family, relatives, and friends the destination [<xref ref-type="bibr" rid="B6-sustainability-12-00333">6</xref>]. As mentioned above, such word-of-mouth marketing enables potential tourists to accumulate knowledge about a destination [<xref ref-type="bibr" rid="B4-sustainability-12-00333">4</xref>]. Consequently, destination marketing organizations can reduce their budget on marketing expenses, which can contribute to sustainable tourism development. For this reason, destination marketers have invested time and energy to improve the tourists&#x2019; perceptions of specific destinations, which has been a topic of discussion in the tourism literature for the last 30 years [<xref ref-type="bibr" rid="B7-sustainability-12-00333">7</xref>]. In fact, exploring the relationships between destination image and its relevant factors dominates existing research [<xref ref-type="bibr" rid="B8-sustainability-12-00333">8</xref>]. Thus, an important challenge for tourism is how a negative image of a destination can be eradicated and a positive image promoted through additional useful tourist attractions.</p>
+      <p>Previous studies have suggested that mega-sporting events can act as strategic promotional tools to enhance a destination&#x2019;s image as their major function is providing the host country and region with the opportunity to create a favorable image in a saturated tourism marketplace [<xref ref-type="bibr" rid="B9-sustainability-12-00333">9</xref>]. According to Roche [<xref ref-type="bibr" rid="B10-sustainability-12-00333">10</xref>], mega sporting events, like the Olympics, the FIFA (F&#xE9;d&#xE9;ration Internationale de Football Association) World Cup, and World Championships, can be seen as large cultural events, and poses dramatic character, as well as appeals to public, and international significance. In this regard, many researchers have indicated that hosted successfully, mega sporting events can encapsulate many tangible (e.g., job creation and development of sports infrastructure) and intangible (e.g., image improvement and social unification) benefits relevant to countries and regions, even though the debate and discussion over the legacy of such events continue [<xref ref-type="bibr" rid="B11-sustainability-12-00333">11</xref>]. Hence, regional marketers may consider hosting sporting events to improve the image of the destination.</p>
+      <p>Although a number of studies have recognized the importance of destination image management in tourism literature [<xref ref-type="bibr" rid="B8-sustainability-12-00333">8</xref>], these studies have two limitations. First, prior studies fail to explore the antecedents of destination image [<xref ref-type="bibr" rid="B12-sustainability-12-00333">12</xref>], and second, they only consider common concepts such as quality or emotion as antecedents of destination image [<xref ref-type="bibr" rid="B8-sustainability-12-00333">8</xref>,<xref ref-type="bibr" rid="B13-sustainability-12-00333">13</xref>]. Almeida-Santana and Moreno-Gil [<xref ref-type="bibr" rid="B14-sustainability-12-00333">14</xref>] indicated that in order to obtain a competitive edge in the tourism industry, destination marketing organizations should develop a specific image and branding of a destination and comprehend which factors drive destination image. Surprisingly, despite the importance of &#x201C;personal involvement&#x201D; in understanding consumer behaviors, few studies in tourism have attempted to address this [<xref ref-type="bibr" rid="B15-sustainability-12-00333">15</xref>]. According to existing studies [<xref ref-type="bibr" rid="B15-sustainability-12-00333">15</xref>], personal involvement occurs when consumers are devoted to the products or services offered by providers. Jeong et al. [<xref ref-type="bibr" rid="B2-sustainability-12-00333">2</xref>] note that sporting event tourists usually have an interest in sports and a tendency to engage in sports-based tourism products or activities during the trip. In fact, one of the most common reasons for sporting event tourism is to cheer energetically for a country, a favorite team, or support favorite players [<xref ref-type="bibr" rid="B16-sustainability-12-00333">16</xref>]. Thus, grasping personal involvement in sporting event tourist behaviors is critical in understanding sport tourism behavior.</p>
+      <p>Moreover, although prior studies have examined destination image and behavioral intentions in tourism literature, insufficient information is available about the effect of place attachment on the destination image and behavioral intentions. Existing researchers have focused on the direct [<xref ref-type="bibr" rid="B17-sustainability-12-00333">17</xref>] and indirect [<xref ref-type="bibr" rid="B18-sustainability-12-00333">18</xref>] effects of destination image on behavioral intentions. According to a few comprehensive studies [<xref ref-type="bibr" rid="B19-sustainability-12-00333">19</xref>], place attachment is influential in nurturing future tourist behaviors, which implies that place attachment should be incorporated into tourist behavior models. Therefore, exploring the effects of place attachment on destination image and behavioral intentions could be a new perspective in understanding future tourist behaviors.</p>
+      <p>To address these gaps in the available literature, this study examines the structural relationships among personal involvement, destination image, place attachment, and behavioral intentions with an emphasis on the mediating effect of place attachment between destination image and behavioral intentions in the context of sporting event tourism. We find positive impacts of personal involvement on destination image, destination image on place attachment, and place attachment on behavioral intentions. Furthermore, place attachment fully mediated the relationship between destination image and behavioral intentions. The findings confirm the significance of personal involvement in improving a destination&#x2019;s image. We expect these findings to broaden the horizons of our understanding of the appropriate research variables underlying the mega-sporting events and, thereby, aid in the development of sustainable sports tourism.</p>
+    </sec>
+    <sec id="sec2-sustainability-12-00333">
+      <title>2. Literature Review</title>
+      <sec id="sec2dot1-sustainability-12-00333">
+        <title>2.1. Information about Gwangju City and the F&#xE9;d&#xE9;ration Internationale de Natation (FINA) World Masters Championships Gwangju 2019</title>
+        <p>Gwangju city, located in the southwestern area of the Korean peninsula and center of the Honam Region, is the sixth largest city in South Korea. In 2018, it had a population of 1,459,336 [<xref ref-type="bibr" rid="B20-sustainability-12-00333">20</xref>]. The city&#x2014;which witnessed a mass protest against the South Korean military government during 18&#x2013;27 May 1980&#x2014;is often considered the birthplace of Korean democracy [<xref ref-type="bibr" rid="B21-sustainability-12-00333">21</xref>]. Until 1988, the incident was referred to as a riot, but was renamed as &#x201C;the democratic uprising&#x201D; after extensive research [<xref ref-type="bibr" rid="B22-sustainability-12-00333">22</xref>]. Although democratic reform did not come about at the time, the sacrifice of citizens of Gwangju touched the Korean people deeply [<xref ref-type="bibr" rid="B23-sustainability-12-00333">23</xref>]. In fact, the &#x201C;18 May National Cemetery&#x201D; was found in 1995 to commemorate the Gwangju Democratization Movement and honor the ones who passed away in the uprising. Gwangju is also known as the &#x201C;City of Light&#x201D;, as its citizens &#x201C;look to the sun&#x201D; and &#x201C;live in the light&#x201D; [<xref ref-type="bibr" rid="B20-sustainability-12-00333">20</xref>]. This spirit has been the driving force for Gwangju citizens as they work to overcome difficult times and become a leading force in Korean history [<xref ref-type="bibr" rid="B24-sustainability-12-00333">24</xref>]. In addition, Gwangju has become the &#x201C;Home of the Arts&#x201D;, where many distinguished artists reside. In fact, the world-class cultural festival, &#x201C;Gwangju design Biennale&#x201D;, and a variety of other art festivals take place annually at the &#x201C;Kimdaejung Convention Center&#x201D;, one of the most famous landmarks in the city (<xref ref-type="fig" rid="sustainability-12-00333-f001">Figure 1</xref>) [<xref ref-type="bibr" rid="B25-sustainability-12-00333">25</xref>].</p>
+        <p>With the expected growth of the sporting industry both at home and abroad, Gwangju has looked to this tourism industry for sustainable urban development [<xref ref-type="bibr" rid="B26-sustainability-12-00333">26</xref>]. Currently, it has two professional sport teams representing the city, the Kia Tigers Baseball Club and Gwangju Football Club. Kia Tigers, having produced many legendary Korean baseball players, is regarded as one of the most prestigious teams in South Korea and has won 11 championship titles&#x2014;the most in Korean baseball history. The Gwangju Football Club is a municipal, government-owned football team, which recently received attention in Korean media for leading the second division in 2019. These professional sports teams have contributed to improve the image of Gwangju and to attracting domestic sport enthusiasts [<xref ref-type="bibr" rid="B26-sustainability-12-00333">26</xref>]. However, due to low international recognition, the city has put in place a plan to host a major international sporting event [<xref ref-type="bibr" rid="B27-sustainability-12-00333">27</xref>].</p>
+        <p>Thus, Gwangju hosted the 18th FINA (F&#xE9;d&#xE9;ration Internationale de Natation&#x2014;International Swimming Federation) World Masters Championships Gwangju 2019 from 12&#x2013;28 July 2019 [<xref ref-type="bibr" rid="B28-sustainability-12-00333">28</xref>]. The FINA World Masters Championships was launched in 1973 and is held biennially [<xref ref-type="bibr" rid="B28-sustainability-12-00333">28</xref>]. First FINA World Masters Championships was held in Belgrade (Yugoslavia) in which swimming, water polo, diving and synchronized swimming were represented (Open water Swimming is added to the program in 1991) [<xref ref-type="bibr" rid="B28-sustainability-12-00333">28</xref>]. The previous FINA World Championships was held from 14&#x2013;30 July 2017 in Budapest (Hungary). Gwangju&#x2019;s hosting of the event is the third time that the FINA World Masters Championships was held in Asia, since Fukuoka, Japan (2001), and Shanghai, China (2011). This major event was the largest in FINA World Championship history, with participation of approximately 2538 athletes from 194 countries [<xref ref-type="bibr" rid="B29-sustainability-12-00333">29</xref>]. The event included swimming, diving, water polo (<xref ref-type="fig" rid="sustainability-12-00333-f002">Figure 2</xref>), artistic swimming, open water, and high diving, held at five venues [<xref ref-type="bibr" rid="B29-sustainability-12-00333">29</xref>]. As three of the venues were on university campuses and the other two, water polo and high diving, were held in temporarily constructed stadiums, it set an example for how an international sporting event could be held without an enormous cost [<xref ref-type="bibr" rid="B30-sustainability-12-00333">30</xref>]. There are numerous commonalities between the event-like nature of sports event and the strategic nature of local events. Griffith has explained in his study regarding strategies in city marketing that sports events are very much ideal, and many other researchers have also interpreted sports as an extensive tool in city marketing [<xref ref-type="bibr" rid="B31-sustainability-12-00333">31</xref>,<xref ref-type="bibr" rid="B32-sustainability-12-00333">32</xref>,<xref ref-type="bibr" rid="B33-sustainability-12-00333">33</xref>].</p>
+      </sec>
+      <sec id="sec2dot2-sustainability-12-00333">
+        <title>2.2. Personal Involvement</title>
+        <p>Personal involvement has been studied in marketing and social-psychology research for a long time. It represents the importance and interest the consumers feel towards their purchase of a good, service, or an idea [<xref ref-type="bibr" rid="B34-sustainability-12-00333">34</xref>]. Despite the benefits of utilizing the concept of personal involvement to understand consumer behavior, due to the complexity of the concept, tourism researchers have failed to apply it to the tourism industry; as such, it has never been favored in the tourist setting [<xref ref-type="bibr" rid="B17-sustainability-12-00333">17</xref>]. Among the issues, no single accepted definition of personal involvement exists; moreover, there is a dearth of relevant sources on the concept in the context of tourism. However, Gursoy and Gavcar [<xref ref-type="bibr" rid="B35-sustainability-12-00333">35</xref>] have pioneered the field of tourist involvement, and Prayag and Ryan [<xref ref-type="bibr" rid="B15-sustainability-12-00333">15</xref>] and Gross and Brown [<xref ref-type="bibr" rid="B36-sustainability-12-00333">36</xref>] have explored theoretical models pertaining to involvement and relevant research variables; thus, tourism research addressing personal involvement has taken steps forward.</p>
+        <p>With respect to the measurement of personal involvement, there is no set standards among researchers. However, most studies have utilized the &#x201C;Consumer Involvement Profile&#x201D;, which consists five dimensions&#x2014;importance, pleasure, sign, risk probability, and risk consequence. Based on the literature [<xref ref-type="bibr" rid="B15-sustainability-12-00333">15</xref>,<xref ref-type="bibr" rid="B37-sustainability-12-00333">37</xref>], importance is the awareness of and interest in the products and services; pleasure is the hedonic value attributed to the products and services; sign is the symbolic value of the products and services; risk probability is the likelihood that consumers make a bad purchase decision; and risk consequence is the undesirable outcomes associated with the purchase of the products and services. In the study by Gursoy and Gavcar [<xref ref-type="bibr" rid="B35-sustainability-12-00333">35</xref>], only three dimensions are used: pleasure/interest, risk probability, and risk consequence. In our study, we use four items of the pleasure/interest dimension to reflect sporting event tourists&#x2019; involvement.</p>
+      </sec>
+      <sec id="sec2dot3-sustainability-12-00333">
+        <title>2.3. Destination Image</title>
+        <p>Definitions of destination image have been widely discussed by researchers as it is arguably the most crucial factor for growing a destination [<xref ref-type="bibr" rid="B38-sustainability-12-00333">38</xref>]. Image is generally defined as the mental representation or an overall impression shaped by the evaluation of individual attributes [<xref ref-type="bibr" rid="B39-sustainability-12-00333">39</xref>,<xref ref-type="bibr" rid="B40-sustainability-12-00333">40</xref>]. It is considered necessary to understand the process of tourist destination choices [<xref ref-type="bibr" rid="B41-sustainability-12-00333">41</xref>]. Destination image is commonly defined as &#x201C;the sum of beliefs, ideas and impressions that a person has of a destination&#x201D; [<xref ref-type="bibr" rid="B42-sustainability-12-00333">42</xref>]. Prior studies have classified different types of destination images. For instance, Tocquer and Zins [<xref ref-type="bibr" rid="B43-sustainability-12-00333">43</xref>] recognized four types of destination images: vague and unrealistic (formulated by education system, advertising, and WOM), distorted (formulated by additional information), improved (formulated by on-site, unique travel experience), and resulting (formulated by recent memory of the travel experience). Similarly, Gunn [<xref ref-type="bibr" rid="B44-sustainability-12-00333">44</xref>] recognized three types of destination images: organic (formed by information assimilated from non-commercial sources such as books, news reports, radio, TV, and magazines or opinions from family, relatives, friends, and the web), induced (formed by commercial sources such as travel advertising, guidebooks, brochures, and agents), and primary (formed by on-site travel experiences). A number of tourism studies have concentrated on improved images or primary images because they are more likely to influence both tourist satisfaction and behavioral intentions. Thus, in this study, we focus on and measure improved image.</p>
+        <p>In addition, many tourism studies recognize multi-dimensions of the destination image. For example, Echtner and Ritchie [<xref ref-type="bibr" rid="B45-sustainability-12-00333">45</xref>] carefully analyzed the concept of destination image and commented that destination image must be captured through several components: attribute-holistic, functional-psychological, and unique-common characteristics. MacKay and Fesenmaier [<xref ref-type="bibr" rid="B46-sustainability-12-00333">46</xref>] identified four categories of destination images: activity, familiarity, holiday, and atmosphere. In the 2000s, Lee, Lee, and Lee [<xref ref-type="bibr" rid="B47-sustainability-12-00333">47</xref>] suggested that destination image consisted of four dimensions: Attraction, comfort, value for money, and exotic atmosphere. Similarly, Park, and Njite [<xref ref-type="bibr" rid="B48-sustainability-12-00333">48</xref>] developed four categories of destination images: environment, attractions, value for money, and climate. More recently, researchers have agreed that destination image has two underlying theoretical mechanisms: cognitive (natural characteristics, amenities, attractions, social/travel environment, and accessibility/supporting) and affective [<xref ref-type="bibr" rid="B49-sustainability-12-00333">49</xref>]. Thus, in this study, we dichotomized destination image into cognitive and affective images.</p>
+        <p>With respect to the personal involvement and destination image relationship, only a handful of studies explore the relationship. Some studies have recognized that if tourists are involved in tourism events/activities, their chances of having a more memorable experience improve, which, in turn, significantly improves destination image evaluation [<xref ref-type="bibr" rid="B50-sustainability-12-00333">50</xref>]. Lu, Chi, and Liu [<xref ref-type="bibr" rid="B51-sustainability-12-00333">51</xref>] studied the influence of authenticity, tourist involvement, and destination image in a historic district in China and demonstrated that involvement contributed in creating a destination image. Prayag and Ryan [<xref ref-type="bibr" rid="B15-sustainability-12-00333">15</xref>] evaluated a theoretical model concerning relationships among destination image, place attachment, personal involvement, satisfaction, and loyalty. They found that personal involvement acted as an antecedent of destination image. This relationship can also be inferred from a study that tests the predictive effect of personal involvement on destination attractiveness (akin to destination image). As reported by Hou, Lin, and Morais [<xref ref-type="bibr" rid="B52-sustainability-12-00333">52</xref>], a causal relation between personal involvement and destination attractiveness can exist in a cultural tourism setting. However, no study has yet to examine the positive relationship between personal involvement and destination image in the context of sporting event tourism. Accordingly, the present study proposes the following hypothesis.</p>
+        <statement>
+          <label><bold>Hypothesis</bold>&#xA0;<bold>1</bold>&#xA0;<bold>(H1).</bold></label>
+          <p><italic>Personal involvement will positively influence destination image</italic>.</p>
+        </statement>
+      </sec>
+      <sec id="sec2dot4-sustainability-12-00333">
+        <title>2.4. Place Attachment</title>
+        <p>The theory of place attachment has its origins in environmental psychology and was first introduced to the tourism literature in the 1980s [<xref ref-type="bibr" rid="B53-sustainability-12-00333">53</xref>]. Although place attachment is devoid of a theoretical base, it is important in marketing destinations successfully because it is linked to tourist choice behavior [<xref ref-type="bibr" rid="B19-sustainability-12-00333">19</xref>]. Many researchers have studied the definition of place attachment. According to the comprehensive study by Morgan [<xref ref-type="bibr" rid="B54-sustainability-12-00333">54</xref>], place attachment can be defined as the bond between an individual and a particular geographical area, and the significance of that bond. In other words, psychologically, tourists develop a strong emotional (relating to special feelings) or functional (relating to special attractions) bond with a destination based on their accumulated experience. Several tourism studies have identified two dimensions of place attachment: place identity and place dependence. Place identity refers to the emotional connection to a place that gives meaning and purpose to life; the concept also shows a sense of belonging to a destination in that it becomes a part of one&#x2019;s self-identity [<xref ref-type="bibr" rid="B19-sustainability-12-00333">19</xref>]. Place dependence, a kind of functional dependence, reflects to what degree a setting enables the achievement of primary goals or desired activities [<xref ref-type="bibr" rid="B19-sustainability-12-00333">19</xref>]. Relatively little attention has been paid to sporting event tourists&#x2019; place attachment compared to the other tourists&#x2019; place attachment. Regarding this lack of sports tourism research on place attachment, our study can be useful for future reference.</p>
+        <p>Generally speaking, past findings confirm that destination image is a critical factor leading to place attachment. Kaplanidou, Jordan, Funk, and Ridinger [<xref ref-type="bibr" rid="B55-sustainability-12-00333">55</xref>] investigated the impact of destination image factors on behavioral intention and place attachment in terms of sporting events and affirmed that attractions, destination atmosphere, and the event characteristics of the destination&#x2019;s image predicted place identity and dependence. Lee, Busser, and Yang [<xref ref-type="bibr" rid="B56-sustainability-12-00333">56</xref>] examined a conceptual model describing the relationships among these predictors that create the destination image, the actual image itself, and place attachment, arguing that cognitive image and affective image were direct antecedents of all place attachment dimensions. Similarly, Jun, Hongliang, and Xuefei [<xref ref-type="bibr" rid="B57-sustainability-12-00333">57</xref>] stated that destination image affected place attachment. They tested the relationships among destination image, place attachment, and tourists&#x2019; environmentally responsible behavior, and stressed that affective images directly influenced place dependence. Therefore, it is reasonable to assume that destination image affects place attachment.</p>
+        <statement>
+          <label><bold>Hypothesis</bold>&#xA0;<bold>2</bold>&#xA0;<bold>(H2).</bold></label>
+          <p><italic>Destination image will positively influence place attachment</italic>.</p>
+        </statement>
+      </sec>
+      <sec id="sec2dot5-sustainability-12-00333">
+        <title>2.5. Behavioral Intentions</title>
+        <p>The determinants of behavioral intention is a topic frequently explored in tourism research, as behavioral intentions have been regarded as the decisive factor in drastic growth of destination&#x2019;s popularity [<xref ref-type="bibr" rid="B1-sustainability-12-00333">1</xref>,<xref ref-type="bibr" rid="B2-sustainability-12-00333">2</xref>]. Generally, behavioral intention can be captured by the intentions to recommend and revisit. Intention to recommend is the intention to share the experience through WOM communications and intention to revisit is the intention to return to the destination [<xref ref-type="bibr" rid="B2-sustainability-12-00333">2</xref>]. These intentions are likely to be influenced by destination image. In fact, a vast body of tourism literature is devoted to exploring the relationship between destination image and behavioral intentions. Previous tourism studies provided diverse empirical evidence concerning this path. Some tourism researchers report that destination image does not directly influence behavioral intentions [<xref ref-type="bibr" rid="B13-sustainability-12-00333">13</xref>]. However, the majority of researchers agree that destination image is an important predictor of behavioral intentions because destination image reflects the tourists&#x2019; perceptions of a destination which will impact the actual experience as well. For instance, Chen, and Tsai [<xref ref-type="bibr" rid="B58-sustainability-12-00333">58</xref>] proposed an integrated tourist behavioral model depicting the relationships among destination image, trip quality, perceived value, satisfaction, and behavioral intentions, emphasizing that destination image was a central precursor of behavioral intention. Aiming to understand sporting event tourist behavior, Moon, Ko, Connaughton, and Lee [<xref ref-type="bibr" rid="B59-sustainability-12-00333">59</xref>] examined the theoretical relationship among service quality at a sporting event, perceived value, destination image, and behavioral intention. Their findings suggest that the more favorable the destination image is, the more likely the tourists are to recommend. Similarly, in the context of sports tourism, Jeong and Kim [<xref ref-type="bibr" rid="B16-sustainability-12-00333">16</xref>] delved into the influence of destination image on tourist satisfaction and destination loyalty. They confirmed that destination image was a sustainable source for building sporting event destination loyalty. Based on the empirical findings described in the literature, we postulate:</p>
+        <statement>
+          <label><bold>Hypothesis</bold>&#xA0;<bold>3</bold>&#xA0;<bold>(H3).</bold></label>
+          <p><italic>Destination image will positively influence behavioral intentions</italic>.</p>
+        </statement>
+        <p>The tourism literature has taken an interest in exploring the positive relation between place attachment and behavioral intentions for several years. Jeong et al. [<xref ref-type="bibr" rid="B2-sustainability-12-00333">2</xref>] tested the structural relationships among event quality, tourist satisfaction, place attachment, and behavioral intentions in a sporting event setting, and demonstrated that place attachment played a key role in boosting behavioral intention. Loureiro [<xref ref-type="bibr" rid="B60-sustainability-12-00333">60</xref>] examined how place attachment and behavioral intentions were affected by the experience economy by the means of emotions and memories, emphasizing that place attachment acts as a key antecedent of behavioral intentions. Another comprehensive tourism study by Tonge, Ryan, Moore, and Beckley [<xref ref-type="bibr" rid="B61-sustainability-12-00333">61</xref>] also found strong evidence that place attachment relates to behavioral intentions. They tested the effect of multi-dimensional place attachment on behavioral intentions and revealed that place identity directly affects all three behavioral categories. The findings of these studies imply that the idea of a positive relation between place attachment and behavioral intentions. Accordingly, our proposed hypothesis is as follows:</p>
+        <statement>
+          <label><bold>Hypothesis</bold>&#xA0;<bold>4</bold>&#xA0;<bold>(H4).</bold></label>
+          <p><italic>Place attachment will positively influence behavioral intentions</italic>.</p>
+        </statement>
+      </sec>
+      <sec id="sec2dot6-sustainability-12-00333">
+        <title>2.6. Mediating Effect of Place Attachment between Destination Image and Behavioral Intentions</title>
+        <p>As revealed, previous studies have prioritized the direct effect destination image has on behavioral intentions [<xref ref-type="bibr" rid="B58-sustainability-12-00333">58</xref>,<xref ref-type="bibr" rid="B59-sustainability-12-00333">59</xref>]. Tourists with a positive image of their destination are likely to feel the same about their experiences as well, which will in turn stimulate behavioral intention [<xref ref-type="bibr" rid="B16-sustainability-12-00333">16</xref>]. Considering the indirect effect of place attachment, recent tourism studies view place attachment as a major intervening construct in the relation between destination image and behavioral intentions. For example, Song, Kim, and Yim [<xref ref-type="bibr" rid="B62-sustainability-12-00333">62</xref>] examined the relationship among place attachment, destination image, and revisit intention for golf tourists and indicated that the affective image indirectly affected revisit intention through place dependence. Similarly, Chiang [<xref ref-type="bibr" rid="B63-sustainability-12-00333">63</xref>] explored the relationships among destination image, place attachment, and destination loyalty, demonstrating that destination image had a direct impact on destination loyalty, while destination image had an indirect influence on destination image via place identity. Hence, we contend that place attachment mediates the link between destination image and behavioral intentions.</p>
+        <statement>
+          <label><bold>Hypothesis</bold>&#xA0;<bold>5</bold>&#xA0;<bold>(H5).</bold></label>
+          <p><italic>Place attachment mediates the relationship between destination image and behavioral intentions</italic>.</p>
+        </statement>
+        <p>Based on the literature, our study applied the following conceptual model (<xref ref-type="fig" rid="sustainability-12-00333-f003">Figure 3</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-sustainability-12-00333">
+      <title>3. Method</title>
+      <sec id="sec3dot1-sustainability-12-00333">
+        <title>3.1. Data Collection</title>
+        <p>We collected our study data from international tourists at the FINA World Masters Championships Gwangju 2019. The authors chose Gwangju as the site of this study primarily for two reasons. First, Gwangju has been in the spotlight of Korean media because the city has become one of the most popular cultural tourism spots in South Korea. Thanks to many cultural tourism resources, in 2018, an estimated 2.4 m domestic and international tourists visited Gwangju and the number is increasing year by year [<xref ref-type="bibr" rid="B64-sustainability-12-00333">64</xref>]. Next, the city has a high level of intention to revisit among Asian and domestic tourists, suggesting some level of personal involvement and place attachment [<xref ref-type="bibr" rid="B65-sustainability-12-00333">65</xref>]. These factors provide a meaningful case study for understanding sports tourists&#x2019; behavioral intentions and its antecedents. To collect a sample, a team of six trained research assistants administered face-to-face questionnaire-based surveys at three stadiums, the main train station, the bus terminal, and a hotel lobby from 16 to 21 July using convenience sampling. These locations represented effective means to obtain a sample of international tourists. We approached international tourists at the end or during the three days of their stay in Gwangju and politely asked them to participate in the survey without any incentive. In total, 400 questionnaires were completed, with 26 cases removed due to important unanswered questions or excessive missing data. A total of 374 valid questionnaires remained for subsequent analysis. The sample showed an even breakup of males (46%, <italic>n</italic> = 172) and females (54%, <italic>n</italic> = 202), and pluralities in each category as follows: aged between 50 and 59 (24.6%, <italic>n</italic> = 78), married (56.4%, <italic>n</italic> = 211), Asian (39.8%, <italic>n</italic> = 149), and annual household income between $40,000&#x2013;59,999 (27%, <italic>n</italic> = 101).</p>
+      </sec>
+      <sec id="sec3dot2-sustainability-12-00333">
+        <title>3.2. Measures</title>
+        <p>A five-point Likert scale, ranging from 1 (strongly disagree) to 5 (strongly agree), was used. The survey consisted of five main sections: (a) personal involvement, (b) destination image, (c) place attachment, (d) behavioral intentions, and (d) respondent demographic information. Personal involvement was assessed using four items adopted from Prayag and Ryan [<xref ref-type="bibr" rid="B15-sustainability-12-00333">15</xref>] and Gursoy and Gavcar [<xref ref-type="bibr" rid="B35-sustainability-12-00333">35</xref>]. Destination image was assessed using seven items (four items addressing cognitive image and three items representing affective image) derived from Jin et al. [<xref ref-type="bibr" rid="B13-sustainability-12-00333">13</xref>], Song et al. [<xref ref-type="bibr" rid="B62-sustainability-12-00333">62</xref>], and Kaplanidou [<xref ref-type="bibr" rid="B66-sustainability-12-00333">66</xref>] who had conducted sporting event tourism research. Place attachment was assessed using six items (three items addressed place identity and three, place dependence) adapted from Williams and Vaske [<xref ref-type="bibr" rid="B67-sustainability-12-00333">67</xref>]. Behavioral intention was assessed using three items derived from Jeong and Kim [<xref ref-type="bibr" rid="B16-sustainability-12-00333">16</xref>]. To ensure face validity, three tourism and sports marketing professors were invited to clarify these items.</p>
+      </sec>
+      <sec id="sec3dot3-sustainability-12-00333">
+        <title>3.3. Validity and Reliability</title>
+        <p>We used confirmatory factor analysis (CFA) to assess the dimensionality of the measurement model through the maximum likelihood estimation. The second order measurement model displayed satisfactory fit with our data (x<sup>2</sup> = 2.547, GFI = 0.941, NFI = 0.919, IFI = 0.937, CFI = 0.936, and root mean square error of approximation (RMSEA) = 0.062). The model fit indices were within the recommended thresholds [<xref ref-type="bibr" rid="B67-sustainability-12-00333">67</xref>].</p>
+        <p>To evaluate convergent validity, we calculated factor loadings, construct reliability (CR), and average variance extracted (AVE) based on the first order measurement model. All factor loading values were above 0.55 and significant (<italic>p</italic> &lt; 0.001) [<xref ref-type="bibr" rid="B68-sustainability-12-00333">68</xref>] (<xref ref-type="table" rid="sustainability-12-00333-t001">Table 1</xref>). All CR values (0.851&#x2013;0.937) satisfied the recommended minimum value of 0.7 and all AVE values (0.656&#x2013;0.831) exceeded the minimum requirement of 0.5 [<xref ref-type="bibr" rid="B69-sustainability-12-00333">69</xref>] (<xref ref-type="table" rid="sustainability-12-00333-t001">Table 1</xref>). Therefore, convergent validity was satisfactory.</p>
+        <p>Reliability estimates (Cronbach&#x2019;s alpha) for personal involvement, cognitive image, affective image, place identity, place dependence, and behavioral intentions (0.832&#x2013;0.938) were above the recommended threshold of 0.7, indicating the measures were reliable [<xref ref-type="bibr" rid="B70-sustainability-12-00333">70</xref>] (<xref ref-type="table" rid="sustainability-12-00333-t001">Table 1</xref>). We analyzed the hypothesized relationships using structural equation modeling (SEM).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-sustainability-12-00333" sec-type="results">
+      <title>4. Results</title>
+      <p>Overall, the SEM achieved acceptable fit (x<sup>2</sup>/df = 2.203, <italic>p</italic> &lt; 0.001). The absolute fit index (goodness of fit index = 0.926, and RMSEA = 0.058) and incremental fit index (normed fit index = 0.927, relative fit index = 0.931, incremental fit index = 0.915, Turker&#x2013;Lewis index = 0.947, and comparative fit index = 0.914) were satisfactory [<xref ref-type="bibr" rid="B68-sustainability-12-00333">68</xref>].</p>
+      <p>We based our tests on the proposed hypotheses on the estimates of the structural coefficients (paths). As shown in <xref ref-type="table" rid="sustainability-12-00333-t002">Table 2</xref>, personal involvement had a notable positive effect on destination image (1.305, <italic>p</italic> &lt; 0.001), which supports Hypothesis 1. The path coefficient from destination image to place attachment was positive and statistically significant (0.932, <italic>p</italic> &lt; 0.001), supporting Hypothesis 2. Non-significant paths emerged for destination image to behavioral intentions, thereby rejecting Hypothesis 3. Hypothesis 4 was supported, as place attachment had a positive and significant influence on behavioral intentions (0.529, <italic>p</italic> &lt; 0.001).</p>
+      <p>For the mediating effects of place attachment, we utilized the bootstrap test, which is a database resampling statistical method [<xref ref-type="bibr" rid="B71-sustainability-12-00333">71</xref>]. As shown in <xref ref-type="table" rid="sustainability-12-00333-t003">Table 3</xref>, for the mediating effect of place attachment on the relation between destination image and behavioral intentions, the direct effect did not include zero point, but was not significant; however, the indirect effect did not include zero point and was significant. Thus, place attachment displayed a full mediating effect, which supports Hypothesis 5.</p>
+    </sec>
+    <sec id="sec5-sustainability-12-00333" sec-type="discussion">
+      <title>5. Discussion and Conclusions</title>
+      <p>The purpose of our study was to determine the nature of the relationships among personal involvement, destination image, place attachment, and behavioral intentions, focusing on the mediating effect of place attachment in the context of sporting event tourism. The findings identify relationships between (1) personal involvement and destination image; (2) destination image and place attachment; (3) place attachment and behavioral intentions. Furthermore, they demonstrate that place attachment had a full mediating effect on the relation between destination image and behavioral intentions.</p>
+      <p>Incorporating all variables of personal involvement, destination image, place attachment, and behavioral intentions, our study offers tourism or researchers in sports tourism important theoretical insights to support sustainable tourism. First, advancing our current knowledge on personal involvement, our findings confirm the significant role of personal involvement in improving a destination&#x2019;s image. Existing studies support this result as well, highlighting the viewpoint that &#x201C;the more personally involved are tourists in the destination experience, the more relevant becomes destination attributes in providing that desired experience&#x201D; [<xref ref-type="bibr" rid="B15-sustainability-12-00333">15</xref>]. In particular, tourists&#x2019; special onsite experiences evoke positive emotions such as joy, pleasure, fun, happiness, and pride. As a result, tourists evaluate the attributes of the destination positively and ultimately experience favorable feelings towards the place [<xref ref-type="bibr" rid="B15-sustainability-12-00333">15</xref>,<xref ref-type="bibr" rid="B52-sustainability-12-00333">52</xref>]. Furthermore, despite the fundamental importance of involvement, as mentioned earlier, in the context of sports tourism, no study has explored how personal involvement and destination image synergizes. Given the lack of empirical evidence regarding sporting event tourists&#x2019; involvement, this study can serve as a reference for future studies.</p>
+      <p>Second, while identifying the relationship between destination image and place attachment, we were mindful of the arguments of previous tourism studies which concluded that destination image is central to the understanding of place attachment. For example, in conducting their research in sporting event tourism, Kaplanidou et al. [<xref ref-type="bibr" rid="B55-sustainability-12-00333">55</xref>] underlined that the destination&#x2019;s image played a pivotal role in building place attachment because sports tourists were susceptible to destination atmosphere, cultural context, and event characteristics; these elements were associated with the formation of strong place attachment. Tsai [<xref ref-type="bibr" rid="B72-sustainability-12-00333">72</xref>] also provided supportive evidence for the relationship. The author examined the relationships among destination image, quality, place attachment, satisfaction, and intentions, arguing that tourists with a favorable destination image would feel attached to the destination because if they enjoyed an emotional experience in the destination, they were more likely to intuit meaningful symbolism of the destination. In recent years, Kani, Aziz, Sambasivan and Bojei [<xref ref-type="bibr" rid="B73-sustainability-12-00333">73</xref>] explored the antecedents and consequences of destination image, indicating destination image&#x2019;s association with place attachment. Similarly, Jiang, Ramkissoon, Mavondo, and Feng [<xref ref-type="bibr" rid="B74-sustainability-12-00333">74</xref>] investigated the relationships between destination image, existential authenticity, and dimensions of place attachment and they reported an indirect effect of destination image and place attachment. Thus, our advice for destination management or event marketers is to hone their knowledge through research on destination image [<xref ref-type="bibr" rid="B4-sustainability-12-00333">4</xref>].</p>
+      <p>Third, this study responds to the rising need for tourism researchers to consider the critical concept of place attachment in developing tourist behavioral models. For years, extant research has explored place attachment in various disciplines including environmental psychology and geography. However, in past tourism literature, relatively few works have been devoted to place attachment; thus, recent tourism studies have focused on place attachment to understand tourist behaviors better [<xref ref-type="bibr" rid="B16-sustainability-12-00333">16</xref>]. Accordingly, this study responds to recent calls and presents empirical evidence that place attachment leads to behavioral intention. This finding supports previous works that have explored the role of place attachment in boosting loyalty (akin to behavioral intentions). For instance, Yuksel, Yuksel, and Bilim [<xref ref-type="bibr" rid="B75-sustainability-12-00333">75</xref>] examined the relationships among place attachment, tourist satisfaction, and loyalty. They concluded that place attachment acts as an antecedent of loyalty behaviors. Similarly, drawing upon the theory of place attachment, Yi, Fu, Jin and Okumus [<xref ref-type="bibr" rid="B76-sustainability-12-00333">76</xref>] constructed a model of exhibition attachment and showed that both exhibition dependence and exhibition identity have an impact on attendees&#x2019; loyalty. Therefore, creating and managing place attachment in target tourists&#x2019; minds should be prioritized to increase behavioral intentions.</p>
+      <p>Fourth, our study aids the sports tourism literature by exploring the mediating role of place attachment in the relation between destination image and behavioral intentions. As far as understanding goes, this is the first study that incorporates place attachment as a mediator in this relation in the sports tourism literature. Furthermore, the result demonstrates that place attachment has a full mediating effect and confirms that behavioral intention is indirectly influenced by destination image via place attachment. This implies that place attachment should be regarded as an essential factor to stimulate sporting event tourists&#x2019; behavioral intentions. As such, the finding helps bridge this gap in sports tourism research and broadens our understanding of the relation between destination image and behavioral intentions.</p>
+      <p>Contrary to our expectations based on previous studies, destination image did not influence behavioral intentions. There are some plausible reasons that may explain this result. First, tourists have a natural tendency to seek new destinations even when they are satisfied with the destinations they have already visited. Conducting research on international tourists&#x2019; satisfaction and destination loyalty, McDowall [<xref ref-type="bibr" rid="B77-sustainability-12-00333">77</xref>] mentioned that tourists value new experiences and destinations more than the guaranteed satisfaction from a previously visited destination. Similarly, Pratt, and Sparks [<xref ref-type="bibr" rid="B78-sustainability-12-00333">78</xref>] analyzed an integrated structural model of destination image and self-congruity to predict intention to visit a wine region. They argued that the destination&#x2019;s image had nothing to do with intention to visit. Second, the characteristics of our sample differed from those of the samples in previous sporting event tourism studies. Here, we collected research data from international sports tourists. Contrastingly, other studies have concentrated on groups of domestic tourists [<xref ref-type="bibr" rid="B16-sustainability-12-00333">16</xref>], recognizing that there are differences in perceptions between international and domestic tourists [<xref ref-type="bibr" rid="B8-sustainability-12-00333">8</xref>]. Third, the research setting here differed from those of prior studies. Demonstrating the link between destination image and behavioral intentions, Ramkissoon, and Uysal [<xref ref-type="bibr" rid="B17-sustainability-12-00333">17</xref>] examined their theoretical model using data collected from tourists in the context of cultural tourism. Our study finds that, in the context of sporting events, behavioral intentions are not influenced by destination image. However, as discussed above, since behavioral intentions are indirectly influenced by destination image through place attachment, destination marketers should not underestimate the power of place attachment in building behavioral intentions.</p>
+      <p>Our study offers important practical implications for sustainable sports tourism. To strengthen personal involvement, it is imperative for event marketers to organize various enjoyable activities such as fan signing, prize and ticket giveaways, music performances, charity campaigns, and local goods exhibitions. Such ancillary events or performances can stimulate personal involvement. To generate positive destination image and place attachment, first, destination marketers should offer tourists detailed information concerning the sporting event, lodging, public transportation, restaurants, and local attractions on the official website or through associated marketing material [<xref ref-type="bibr" rid="B13-sustainability-12-00333">13</xref>]. Such useful information provides tourists with additional knowledge about the destination to help them reach the destination easily and further their enjoyment of the tourism experience. Second, well-educated employees or trained volunteers should be employed at stadiums to welcome tourists with kindness. If employees or volunteers are brusque, tourists are likely to react negatively, thereby diminishing the positive image of the host city. Third, security should be reinforced to ensure the safety of tourists. If tourists are not worried about their safety at the destination, their trust in and the likelihood of revisiting the destination will increase.</p>
+      <p>Although our study has improved our knowledge of how to build sustainable sports tourism through our examination of multiple variables, it has some limitations. First, it would be interesting to analyze additional antecedents of destination image (e.g., event quality, novelty seeking, tourist experience, and self-congruity) to broaden our understanding of destination image. Second, it would be fruitful to explore other mediating variables (e.g., positive emotions) in the relation between destination image and behavioral intentions to provide a more thorough understanding and framework of tourist behaviors. Third, it would be of value to examine other moderating variables, such as destination familiarity, destination personality, destination social responsibility, and perceived risk, to improve the accuracy of the proposed model. Finally, these findings are limited to one sporting event, and data were collected at a specific place and time of year. Consequently, our findings cannot be generalized to event sport tourists. Future research could study event sport tourists at various sporting events and locations so that its results may be generalized.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, Y.J. and A.Y.; methodology, Y.J. and S.-K.K.; software, Y.J.; validation, A.Y. and S.-K.K.; formal analysis, Y.J.; investigation, S.-K.K.; resources, Y.J.; data curation, A.Y.; writing&#x2014;original draft preparation, Y.J.; writing&#x2014;review and editing, A.Y.; visualization, S.-K.K.; supervision, S.-K.K.; project administration, S.-K.K.; funding acquisition, A.Y. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was supported by the Dongguk University Research Fund of 2018.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-sustainability-12-00333">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hsu</surname>
+              <given-names>M.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The relationships of destination image, satisfaction, and behavioral intentions: An integrated model</article-title>
+          <source>J. Travel Tour. Mark.</source>
+          <year>2010</year>
+          <volume>27</volume>
+          <fpage>829</fpage>
+          <lpage>843</lpage>
+          <pub-id pub-id-type="doi">10.1080/10548408.2010.527249</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-sustainability-12-00333">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jeong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Determinants of Behavioral Intentions in the Context of Sport Tourism with the Aim of Sustaining Sporting Destinations</article-title>
+          <source>Sustainability</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>3073</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su11113073</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-sustainability-12-00333">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Assael</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <source>Consumer Behavior and Marketing Action</source>
+          <publisher-name>Kent Pub.</publisher-name>
+          <publisher-loc>Boston, MA, USA</publisher-loc>
+          <year>1984</year>
+        </element-citation>
+      </ref>
+      <ref id="B4-sustainability-12-00333">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jeong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The key antecedent and consequences of destination image in a mega sporting event</article-title>
+          <source>S. Afr. J. Bus. Manag.</source>
+          <year>2019</year>
+          <volume>50</volume>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.4102/sajbm.v50i1.1480</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-sustainability-12-00333">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Destination image and tourist loyalty: A meta-analysis</article-title>
+          <source>Tour. Manag.</source>
+          <year>2014</year>
+          <volume>40</volume>
+          <fpage>213</fpage>
+          <lpage>223</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tourman.2013.06.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-sustainability-12-00333">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoon</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Uysal</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>An examination of the effects of motivation and satisfaction on destination loyalty: A structural model</article-title>
+          <source>Tour. Manag.</source>
+          <year>2005</year>
+          <volume>26</volume>
+          <fpage>45</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tourman.2003.08.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-sustainability-12-00333">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Papadimitriou</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kaplanidou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Apostolopoulou</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Destination image components and word-of-mouth intentions in urban tourism: A multigroup approach</article-title>
+          <source>J. Hosp. Tour. Res.</source>
+          <year>2018</year>
+          <volume>42</volume>
+          <fpage>503</fpage>
+          <lpage>527</lpage>
+          <pub-id pub-id-type="doi">10.1177/1096348015584443</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-sustainability-12-00333">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Prayag</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hosany</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Muskat</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Del Chiappa</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding the relationships between tourists&#x2019; emotional experiences, perceived overall image, satisfaction, and intention to recommend</article-title>
+          <source>J. Travel Res.</source>
+          <year>2017</year>
+          <volume>56</volume>
+          <fpage>41</fpage>
+          <lpage>54</lpage>
+          <pub-id pub-id-type="doi">10.1177/0047287515620567</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-sustainability-12-00333">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gibson</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Qi</surname>
+              <given-names>C.X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Destination image and intent to visit China and the 2008 Beijing Olympic Games</article-title>
+          <source>J. Sport Manag.</source>
+          <year>2008</year>
+          <volume>22</volume>
+          <fpage>427</fpage>
+          <lpage>450</lpage>
+          <pub-id pub-id-type="doi">10.1123/jsm.22.4.427</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-sustainability-12-00333">
+        <label>10.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roche</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Mega-Events and Modernity</source>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2000</year>
+        </element-citation>
+      </ref>
+      <ref id="B11-sustainability-12-00333">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fourie</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Santana-Gallego</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of mega-sport events on tourist arrivals</article-title>
+          <source>Tour. Manag.</source>
+          <year>2011</year>
+          <volume>32</volume>
+          <fpage>1364</fpage>
+          <lpage>1370</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tourman.2011.01.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-sustainability-12-00333">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Pratt</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Destination Image of Taiwan from the perspective of Hong Kong residents: Revisiting structural relationships between destination image attributes and behavioral intention</article-title>
+          <source>Int. J. Hosp. Tour. Adm.</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <fpage>289</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="doi">10.1080/15256480.2017.1324339</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-sustainability-12-00333">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jin</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Event quality, perceived value, destination image, and behavioral intention of sports events: The case of the IAAF World Championship, Daegu, 2011</article-title>
+          <source>Asia Pac. J. Tour. Res.</source>
+          <year>2013</year>
+          <volume>18</volume>
+          <fpage>849</fpage>
+          <lpage>864</lpage>
+          <pub-id pub-id-type="doi">10.1080/10941665.2012.711336</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-sustainability-12-00333">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Almeida-Santana</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Moreno-Gil</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Perceived Sustainable Destination Image: Implications for Marketing Strategies in Europe</article-title>
+          <source>Sustainability</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>6466</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su11226466</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-sustainability-12-00333">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Prayag</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ryan</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antecedents of tourists&#x2019; loyalty to Mauritius: The role and influence of destination image, place attachment, personal involvement, and satisfaction</article-title>
+          <source>J. Travel Res.</source>
+          <year>2012</year>
+          <volume>51</volume>
+          <fpage>342</fpage>
+          <lpage>356</lpage>
+          <pub-id pub-id-type="doi">10.1177/0047287511410321</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-sustainability-12-00333">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jeong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exploring a suitable model of destination image: The case of a small-scale recurring sporting event</article-title>
+          <source>Asia Pac. J. Mark. Logist.</source>
+          <year>2019</year>
+          <volume>31</volume>
+          <fpage>1287</fpage>
+          <lpage>1307</lpage>
+          <pub-id pub-id-type="doi">10.1108/APJML-10-2018-0441</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-sustainability-12-00333">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramkissoon</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Uysal</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Relationship between destination image and behavioral intentions of tourists to consume cultural attractions</article-title>
+          <source>J. Hosp. Mark. Manag.</source>
+          <year>2011</year>
+          <volume>20</volume>
+          <fpage>575</fpage>
+          <lpage>595</lpage>
+          <pub-id pub-id-type="doi">10.1080/19368623.2011.570648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-sustainability-12-00333">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tavitiyaman</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Destination image and behavior intention of travelers to Thailand: The moderating effect of perceived risk</article-title>
+          <source>J. Travel Tour. Mark.</source>
+          <year>2103</year>
+          <volume>30</volume>
+          <fpage>169</fpage>
+          <lpage>185</lpage>
+          <pub-id pub-id-type="doi">10.1080/10548408.2013.774911</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-sustainability-12-00333">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hosany</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Prayag</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Van Der Veen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Deesilatham</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mediating effects of place attachment and satisfaction on the relationship between tourists&#x2019; emotions and intention to recommend</article-title>
+          <source>J. Travel Res.</source>
+          <year>2017</year>
+          <volume>56</volume>
+          <fpage>1079</fpage>
+          <lpage>1093</lpage>
+          <pub-id pub-id-type="doi">10.1177/0047287516678088</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-sustainability-12-00333">
+        <label>20.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>Gwangju City Hall</collab>
+          </person-group>
+          <article-title>2018 Annual Report of Gwangju City Hall</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.gwangju.go.kr/BD_0801080100/boardList.do?menuId=gwangju0508020100" ext-link-type="uri">https://www.gwangju.go.kr/BD_0801080100/boardList.do?menuId=gwangju0508020100</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-09-09">(accessed on 9 September 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B21-sustainability-12-00333">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eun</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Creating a human rights city through human rights governance&#x2014;Taking the city of Gwangju as a model</article-title>
+          <source>Demo. Hum. Right</source>
+          <year>2009</year>
+          <volume>9</volume>
+          <fpage>121</fpage>
+          <lpage>147</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B22-sustainability-12-00333">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bae</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The implicit influence of the May 18 Gwangju democratic movement on university student in Gwangju</article-title>
+          <source>Demo. Hum. Right</source>
+          <year>2016</year>
+          <volume>16</volume>
+          <fpage>75</fpage>
+          <lpage>102</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-sustainability-12-00333">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>May 18th Gwangju democratization archives collection development strategy for advancement of human rights awareness and democracy</article-title>
+          <source>Korean Soc. Arch. Stud.</source>
+          <year>2016</year>
+          <volume>48</volume>
+          <fpage>5</fpage>
+          <lpage>44</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B24-sustainability-12-00333">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jeong</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A study on &#x201C;Light of Gwangju&#x201D; seen in the cultural meaning of the light&#x2014;Focused on the analysis of cultural events of the light</article-title>
+          <source>Korean Sci. Art Forum</source>
+          <year>2014</year>
+          <volume>17</volume>
+          <fpage>339</fpage>
+          <lpage>413</lpage>
+          <pub-id pub-id-type="doi">10.17548/ksaf.2014.09.17.399</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-sustainability-12-00333">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahn</surname>
+              <given-names>M.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of 2008 and 2016 Gwangju biennale&#x2019;s community-based projects and their significance</article-title>
+          <source>Korean Soc. Art Theory Pract.</source>
+          <year>2017</year>
+          <volume>23</volume>
+          <fpage>38</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.15597/jksmi.25083538.2017.23.038</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-sustainability-12-00333">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoon</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>I.S.</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>G.W.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>B.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The creation plan for sport tourism attraction to promoting of urban tourism&#x2014;For Gwang-ju metropolitan city</article-title>
+          <source>Korean J. Sports Sociol.</source>
+          <year>2010</year>
+          <volume>23</volume>
+          <fpage>131</fpage>
+          <lpage>153</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B27-sustainability-12-00333">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choi</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>An analysis of regional inhabitant&#x2019;s expectation on opening 2019 world swimming championship</article-title>
+          <source>Korean J. Phys. Educ.</source>
+          <year>2014</year>
+          <volume>23</volume>
+          <fpage>103</fpage>
+          <lpage>120</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B28-sustainability-12-00333">
+        <label>28.</label>
+        <element-citation publication-type="web">
+          <article-title>The FINA World Masters Championships Gwangju 2019. Information</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.fina-gwangju2019.com/contentsView.do?pageId=eng17" ext-link-type="uri">https://www.fina-gwangju2019.com/contentsView.do?pageId=eng17</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-09-11">(accessed on 11 September 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B29-sustainability-12-00333">
+        <label>29.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kang</surname>
+              <given-names>P.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The FINA World Masters Championships Gwangju 2019 Begins</article-title>
+          <source>OSEN</source>
+          <day>12</day>
+          <month>July</month>
+          <year>2019</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://osen.mt.co.kr/article/G1111184100" ext-link-type="uri">http://osen.mt.co.kr/article/G1111184100</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-09-12">(accessed on 12 September 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B30-sustainability-12-00333">
+        <label>30.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choi</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>FINA World Masters Championships Gwangju 2019 Emphasizes Substance Ahead of Appearance</article-title>
+          <source>NewsMaker</source>
+          <day>10</day>
+          <month>October</month>
+          <year>2019</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.newsmaker.or.kr/news/articleView.html?idxno=79627" ext-link-type="uri">http://www.newsmaker.or.kr/news/articleView.html?idxno=79627</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-09-12">(accessed on 12 September 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B31-sustainability-12-00333">
+        <label>31.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collins</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sport for All in Government in the United Kingdom</article-title>
+          <source>Sport, The Third Millennium, International Symposium</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Landry</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Landry</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yerled</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Press de I&#x2019;Universiade Laval</publisher-name>
+          <publisher-loc>Sainte-Foy, France</publisher-loc>
+          <year>1991</year>
+          <fpage>261</fpage>
+          <lpage>268</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B32-sustainability-12-00333">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dixon</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>How an event on foreign soilis setting the trend for the future of big event sponsorship</article-title>
+          <source>Sport Mark. Q.</source>
+          <year>1993</year>
+          <volume>2</volume>
+          <fpage>22</fpage>
+          <lpage>28</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B33-sustainability-12-00333">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paddison</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>City Marketing, Image Reconstruction and Urban Regeneration</article-title>
+          <source>Urban Stud.</source>
+          <year>1993</year>
+          <volume>30</volume>
+          <fpage>339</fpage>
+          <lpage>350</lpage>
+          <pub-id pub-id-type="doi">10.1080/00420989320080331</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-sustainability-12-00333">
+        <label>34.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mowen</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Minor</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Consumer Behavior</source>
+          <edition>5th ed.</edition>
+          <publisher-name>Prentice-Hall</publisher-name>
+          <publisher-loc>Upper Saddle River, NJ, USA</publisher-loc>
+          <year>1998</year>
+        </element-citation>
+      </ref>
+      <ref id="B35-sustainability-12-00333">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gursoy</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gavcar</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>International leisure tourists&#x2019; involvement profile</article-title>
+          <source>Ann. Tour. Res.</source>
+          <year>2003</year>
+          <volume>30</volume>
+          <fpage>906</fpage>
+          <lpage>926</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0160-7383(03)00059-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-sustainability-12-00333">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gross</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>An empirical structural model of tourists and places: Progressing involvement and place attachment into tourism</article-title>
+          <source>Tour. Manag.</source>
+          <year>2008</year>
+          <volume>29</volume>
+          <fpage>1141</fpage>
+          <lpage>1151</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tourman.2008.02.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-sustainability-12-00333">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laurent</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kapferer</surname>
+              <given-names>J.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Measuring consumer involvement profiles</article-title>
+          <source>J. Mark. Res.</source>
+          <year>1985</year>
+          <volume>22</volume>
+          <fpage>41</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="doi">10.1177/002224378502200104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-sustainability-12-00333">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stepchenkova</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mills</surname>
+              <given-names>J.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Destination image: A meta-analysis of 2000&#x2013;2007 research</article-title>
+          <source>Jour. Hos. Market. Manage.</source>
+          <year>2010</year>
+          <volume>19</volume>
+          <fpage>575</fpage>
+          <lpage>609</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B39-sustainability-12-00333">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dichter</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>What&#x2019;s in an image</article-title>
+          <source>J. Consum. Mark.</source>
+          <year>1985</year>
+          <volume>2</volume>
+          <fpage>75</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.1108/eb038824</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-sustainability-12-00333">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fridgen</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of cognitive maps to determine perceived tourism regions</article-title>
+          <source>Leis. Sci.</source>
+          <year>1987</year>
+          <volume>9</volume>
+          <fpage>101</fpage>
+          <lpage>117</lpage>
+          <pub-id pub-id-type="doi">10.1080/01490408709512150</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-sustainability-12-00333">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baloglu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>McCleary</surname>
+              <given-names>K.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>A model of destination image formation</article-title>
+          <source>Ann. Tour. Res.</source>
+          <year>1999</year>
+          <volume>26</volume>
+          <fpage>868</fpage>
+          <lpage>897</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0160-7383(99)00030-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-sustainability-12-00333">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crompton</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Motivations for pleasure vacation</article-title>
+          <source>Ann. Tour. Res.</source>
+          <year>1979</year>
+          <volume>6</volume>
+          <fpage>408</fpage>
+          <lpage>424</lpage>
+          <pub-id pub-id-type="doi">10.1016/0160-7383(79)90004-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-sustainability-12-00333">
+        <label>43.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tocquer</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zins</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Marketing do Turismo</source>
+          <publisher-name>Instituto Piaget</publisher-name>
+          <publisher-loc>Lima Duarte, Brazil</publisher-loc>
+          <publisher-name>UNWTO</publisher-name>
+          <publisher-loc>Madrid, Spain</publisher-loc>
+          <year>2004</year>
+        </element-citation>
+      </ref>
+      <ref id="B44-sustainability-12-00333">
+        <label>44.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gunn</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <source>Vacationscape: Designing Tourist Regions</source>
+          <edition>2nd ed.</edition>
+          <publisher-name>Van Nostrand Reinhold</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>1988</year>
+        </element-citation>
+      </ref>
+      <ref id="B45-sustainability-12-00333">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Echtner</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Ritchie</surname>
+              <given-names>J.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>The measurement of destination image: An empirical assessment</article-title>
+          <source>J. Travel Res.</source>
+          <year>1993</year>
+          <volume>31</volume>
+          <fpage>3</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.1177/004728759303100402</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-sustainability-12-00333">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>MacKay</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Fesenmaier</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pictorial element of destination in image formation</article-title>
+          <source>Ann. Tour. Res.</source>
+          <year>1997</year>
+          <volume>24</volume>
+          <fpage>537</fpage>
+          <lpage>565</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0160-7383(97)00011-X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-sustainability-12-00333">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.K.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Korea&#x2019;s destination image formed by the 2002 World Cup</article-title>
+          <source>Ann. Tour. Res.</source>
+          <year>2005</year>
+          <volume>32</volume>
+          <fpage>839</fpage>
+          <lpage>858</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.annals.2004.11.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-sustainability-12-00333">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Njite</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Relationship between destination image and tourists&#x2019; future behavior: Observations from Jeju island, Korea</article-title>
+          <source>Asia Pac. J. Tour. Res.</source>
+          <year>2010</year>
+          <volume>15</volume>
+          <fpage>1</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="doi">10.1080/10941660903510024</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-sustainability-12-00333">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stylidis</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Belhassen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shani</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Destination image, on-site experience and behavioural intentions: Path analytic validation of a marketing model on domestic tourists</article-title>
+          <source>Curr. Issues Tour.</source>
+          <year>2017</year>
+          <volume>20</volume>
+          <fpage>1653</fpage>
+          <lpage>1670</lpage>
+          <pub-id pub-id-type="doi">10.1080/13683500.2015.1051011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-sustainability-12-00333">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chon</surname>
+              <given-names>K.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tourism destination image modification process: Marketing implications</article-title>
+          <source>Tour. Manag.</source>
+          <year>1991</year>
+          <volume>12</volume>
+          <fpage>68</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="doi">10.1016/0261-5177(91)90030-W</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-sustainability-12-00333">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chi</surname>
+              <given-names>C.G.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Authenticity, involvement, and image: Evaluating tourist experiences at historic districts</article-title>
+          <source>Tour. Manag.</source>
+          <year>2015</year>
+          <volume>50</volume>
+          <fpage>85</fpage>
+          <lpage>96</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tourman.2015.01.026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-sustainability-12-00333">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hou</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Morais</surname>
+              <given-names>D.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antecedents of attachment to a cultural tourism destination: The case of Hakka and non-Hakka Taiwanese visitors to Pei-Pu, Taiwan</article-title>
+          <source>J. Travel Res.</source>
+          <year>2005</year>
+          <volume>44</volume>
+          <fpage>221</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="doi">10.1177/0047287505278988</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-sustainability-12-00333">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsai</surname>
+              <given-names>C.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Memorable tourist experiences and place attachment when consuming local food</article-title>
+          <source>Int. J. Tour. Res.</source>
+          <year>2016</year>
+          <volume>18</volume>
+          <fpage>536</fpage>
+          <lpage>548</lpage>
+          <pub-id pub-id-type="doi">10.1002/jtr.2070</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-sustainability-12-00333">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morgan</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Towards a developmental theory of place attachment</article-title>
+          <source>J. Environ. Psychol.</source>
+          <year>2010</year>
+          <volume>30</volume>
+          <fpage>11</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvp.2009.07.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-sustainability-12-00333">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaplanidou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Jordan</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Funk</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ridinger</surname>
+              <given-names>L.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recurring sport events and destination image perceptions: Impact on active sport tourist behavioral intentions and place attachment</article-title>
+          <source>J. Sport Manag.</source>
+          <year>2012</year>
+          <volume>26</volume>
+          <fpage>237</fpage>
+          <lpage>248</lpage>
+          <pub-id pub-id-type="doi">10.1123/jsm.26.3.237</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-sustainability-12-00333">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Busser</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exploring the dimensional relationships among image formation agents, destination image, and place attachment from the perspectives of pop star fans</article-title>
+          <source>J. Travel Tour. Mark.</source>
+          <year>2015</year>
+          <volume>32</volume>
+          <fpage>730</fpage>
+          <lpage>746</lpage>
+          <pub-id pub-id-type="doi">10.1080/10548408.2014.934947</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-sustainability-12-00333">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jun</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hongliang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Xuefei</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tourist destination image, place attachment and tourists&#x2019; environmentally responsible behavior: A case of Zhejiang tourist resorts</article-title>
+          <source>Tour. Trib. Lvyou Xuekan</source>
+          <year>2014</year>
+          <volume>29</volume>
+          <fpage>55</fpage>
+          <lpage>66</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B58-sustainability-12-00333">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Tsai</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>How destination image and evaluative factors affect behavioral intentions?</article-title>
+          <source>Tour. Manag.</source>
+          <year>2007</year>
+          <volume>28</volume>
+          <fpage>1115</fpage>
+          <lpage>1122</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tourman.2006.07.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-sustainability-12-00333">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moon</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Connaughton</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A mediating role of destination image in the relationship between event quality, perceived value, and behavioral intention</article-title>
+          <source>J. Sport Tour.</source>
+          <year>2013</year>
+          <volume>18</volume>
+          <fpage>49</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1080/14775085.2013.799960</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-sustainability-12-00333">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loureiro</surname>
+              <given-names>S.M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of the rural tourism experience economy in place attachment and behavioral intentions</article-title>
+          <source>Int. J. Hosp. Manag.</source>
+          <year>2014</year>
+          <volume>40</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijhm.2014.02.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-sustainability-12-00333">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tonge</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ryan</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Beckley</surname>
+              <given-names>L.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of place attachment on pro-environment behavioral intentions of visitors to coastal natural area tourist destinations</article-title>
+          <source>J. Travel Res.</source>
+          <year>2015</year>
+          <volume>54</volume>
+          <fpage>730</fpage>
+          <lpage>743</lpage>
+          <pub-id pub-id-type="doi">10.1177/0047287514533010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-sustainability-12-00333">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Yim</surname>
+              <given-names>B.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mediating effect of place attachment on the relationship between golf tourism destination image and revisit intention</article-title>
+          <source>Asia Pac. J. Tour. Res.</source>
+          <year>2017</year>
+          <volume>22</volume>
+          <fpage>1182</fpage>
+          <lpage>1193</lpage>
+          <pub-id pub-id-type="doi">10.1080/10941665.2017.1377740</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63-sustainability-12-00333">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chiang</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Examining the relationships between destination image, place attachment, and destination loyalty in the context of night markets</article-title>
+          <source>Int. J. Bus. Manag.</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <fpage>11</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="doi">10.5539/ijbm.v11n2p11</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B64-sustainability-12-00333">
+        <label>64.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goo</surname>
+              <given-names>K.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Symposium on How to Attract 10 Million Tourists to Gwangju was Held</article-title>
+          <source>JoongAng Ilbo</source>
+          <day>6</day>
+          <month>December</month>
+          <year>2018</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://news.joins.com/article/23187268" ext-link-type="uri">https://news.joins.com/article/23187268</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-15">(accessed on 15 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B65-sustainability-12-00333">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of local tourist restaurant selection attributes on perceived value, customer satisfaction and revisit intention&#x2014;Focused on Gwangju area</article-title>
+          <source>J. Hosp. Res.</source>
+          <year>2019</year>
+          <volume>18</volume>
+          <fpage>331</fpage>
+          <lpage>350</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B66-sustainability-12-00333">
+        <label>66.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaplanidou</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Relationships among behavioral intentions, cognitive event and destination images among different geographic regions of Olympic Games spectators</article-title>
+          <source>J. Sport Tour.</source>
+          <year>2009</year>
+          <volume>14</volume>
+          <fpage>249</fpage>
+          <lpage>272</lpage>
+          <pub-id pub-id-type="doi">10.1080/14775080903453815</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B67-sustainability-12-00333">
+        <label>67.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Vaske</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The measurement of place attachment: Validity and generalizability of a psychometric approach</article-title>
+          <source>For. Sci.</source>
+          <year>2003</year>
+          <volume>49</volume>
+          <fpage>830</fpage>
+          <lpage>840</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B68-sustainability-12-00333">
+        <label>68.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hooper</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Coughlan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mullen</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural equation modelling: Guidelines for determining model fit</article-title>
+          <source>Electron. J. Bus. Res. Methods</source>
+          <year>2008</year>
+          <volume>6</volume>
+          <fpage>53</fpage>
+          <lpage>60</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B69-sustainability-12-00333">
+        <label>69.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tabachnick</surname>
+              <given-names>B.G.</given-names>
+            </name>
+            <name>
+              <surname>Fidell</surname>
+              <given-names>L.S.</given-names>
+            </name>
+          </person-group>
+          <source>Experimental Designs Using ANOVA</source>
+          <publisher-name>Duxbury Press</publisher-name>
+          <publisher-loc>Belmont, CA, USA</publisher-loc>
+          <year>2007</year>
+        </element-citation>
+      </ref>
+      <ref id="B70-sustainability-12-00333">
+        <label>70.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fornell</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Larcker</surname>
+              <given-names>D.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluating structural equation models with unobservable variables and measurement error</article-title>
+          <source>J. Mark. Res.</source>
+          <year>1981</year>
+          <volume>18</volume>
+          <fpage>39</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="doi">10.1177/002224378101800104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B71-sustainability-12-00333">
+        <label>71.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dwivedi</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Mallawaarachchi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Alvarado</surname>
+              <given-names>L.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of small sample size studies using nonparametric bootstrap test with pooled resampling method</article-title>
+          <source>Stat. Med.</source>
+          <year>2017</year>
+          <volume>36</volume>
+          <fpage>2187</fpage>
+          <lpage>2205</lpage>
+          <pub-id pub-id-type="doi">10.1002/sim.7263</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B72-sustainability-12-00333">
+        <label>72.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsai</surname>
+              <given-names>C.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Relationships among Destination Image, Perceived Quality, Emotional Place Attachment, Tourist Satisfaction, and Post-visiting Behavior Intentions</article-title>
+          <source>Mark. Rev. Xing Xiao Ping Lun</source>
+          <year>2015</year>
+          <volume>12</volume>
+          <fpage>455</fpage>
+          <lpage>479</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B73-sustainability-12-00333">
+        <label>73.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kani</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Aziz</surname>
+              <given-names>Y.A.</given-names>
+            </name>
+            <name>
+              <surname>Sambasivan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bojei</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antecedents and outcomes of destination image of Malaysia</article-title>
+          <source>J. Hosp. Tour. Manag.</source>
+          <year>2017</year>
+          <volume>32</volume>
+          <fpage>89</fpage>
+          <lpage>98</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhtm.2017.05.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B74-sustainability-12-00333">
+        <label>74.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ramkissoon</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mavondo</surname>
+              <given-names>F.T.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Authenticity: The link between destination image and place attachment</article-title>
+          <source>J. Hosp. Mark. Manag.</source>
+          <year>2017</year>
+          <volume>26</volume>
+          <fpage>105</fpage>
+          <lpage>124</lpage>
+          <pub-id pub-id-type="doi">10.1080/19368623.2016.1185988</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B75-sustainability-12-00333">
+        <label>75.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuksel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yuksel</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bilim</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Destination attachment: Effects on customer satisfaction and cognitive, affective and conative loyalty</article-title>
+          <source>Tour. Manag.</source>
+          <year>2010</year>
+          <volume>31</volume>
+          <fpage>274</fpage>
+          <lpage>284</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tourman.2009.03.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B76-sustainability-12-00333">
+        <label>76.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yi</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Okumus</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constructing a model of exhibition attachment: Motivation, attachment, and loyalty</article-title>
+          <source>Tour. Manag.</source>
+          <year>2018</year>
+          <volume>65</volume>
+          <fpage>224</fpage>
+          <lpage>236</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tourman.2017.10.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B77-sustainability-12-00333">
+        <label>77.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McDowall</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>International tourist satisfaction and destination loyalty: Bangkok, Thailand</article-title>
+          <source>Asia Pac. J. Tour. Res.</source>
+          <year>2010</year>
+          <volume>15</volume>
+          <fpage>21</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.1080/10941660903510040</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B78-sustainability-12-00333">
+        <label>78.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pratt</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Sparks</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Predicting wine tourism intention: Destination image and self-congruity</article-title>
+          <source>J. Travel Tour. Mark.</source>
+          <year>2014</year>
+          <volume>31</volume>
+          <fpage>443</fpage>
+          <lpage>460</lpage>
+          <pub-id pub-id-type="doi">10.1080/10548408.2014.883953</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="sustainability-12-00333-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Kimdaejung convention center.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00333-g001.tif"/>
+      </fig>
+      <fig id="sustainability-12-00333-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Water polo.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00333-g002.tif"/>
+      </fig>
+      <fig id="sustainability-12-00333-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>The proposed model.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00333-g003.tif"/>
+      </fig>
+      <table-wrap id="sustainability-12-00333-t001" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00333-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Summarized result for validity and reliability assessments.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Scale Items</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Standardize Loadings</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CR</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">AVE</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+               &#x3B1;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="5" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Personal Involvement</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I derive pleasure by participating in the various attractions here</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.919</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">0.909</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">0.720</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">0.885</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Being on holiday here is a bit like giving a gift to one self</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.913</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I attach great importance to being on holiday in Gwangju</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.619</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I have a lot of interest in Gwangju as a holiday destination</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.717</td>
+            </tr>
+            <tr>
+              <td colspan="5" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Cognitive Image</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">The people in Gwangju are friendly and interesting</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.714</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">0.891</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">0.672</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">0.861</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Gwangju offers suitable accommodation options</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.753</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I am not worried about personal safety in Gwangju</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.834</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">The structure of the stadium is well built</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.833</td>
+            </tr>
+            <tr>
+              <td colspan="5" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Affective Image</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Gwangju is a relaxing place</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.763</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.851</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.656</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.832</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Gwangju is an arousing place</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.844</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Gwangju is an exciting place</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.813</td>
+            </tr>
+            <tr>
+              <td colspan="5" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Place Identity</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Holidaying in Gwangju means a lot to me</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.827</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.898</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.746</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.872</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Gwangju is a very special destination for me</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.833</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I identify strongly with Gwangju as a holiday destination</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.840</td>
+            </tr>
+            <tr>
+              <td colspan="5" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Place Dependence</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Gwangju is the best option for what I like to do on holidays</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.708</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.886</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.723</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.866</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I would not substitute Gwangju for any other place for the types of things that I do during my holidays</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.855</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I got more satisfaction out of holidaying in Gwangju than from visiting other similar places</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.931</td>
+            </tr>
+            <tr>
+              <td colspan="5" align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>Behavioral Intentions</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I will recommend Gwangju to other people to visit</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.914</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.937</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.831</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.938</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I will say positive things about Gwangju to other people</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.909</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I will visit Gwangju again in the next 12 months</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.920</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>CR (construct reliability), AVE (average variance extracted).</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00333-t002" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00333-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Structural parameter estimates.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Hypothesis</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Path</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Standardized Coefficient</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>t</italic>-Value</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Supported?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>1</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Personal involvement &#x2192; Destination image</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.035</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.883 ***</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Yes</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>2</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Destination image &#x2192; Place attachment</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.932</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.927 ***</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Yes</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>3</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Destination image &#x2192; Behavioral intentions</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.242</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.788</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">No</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>4</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Place attachment &#x2192; Behavioral intentions</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.529</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.861 ***</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Yes</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>*** <italic>p</italic> &lt; 0.001.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00333-t003" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00333-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Mediating effects of place attachment.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Path</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Standardized Coefficient</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">95% Confidence Interval (CI) (Bias-Corrected)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>p</italic>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin"><bold>Destination image</bold><break/>&#x2192; <bold>Place attachment</bold><break/>&#x2192; <bold>Behavioral intentions</bold></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Direct effect</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.242</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.036~0.515</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.055</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Indirect effect</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.493</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.257~0.677</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.007</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Total effect</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.736</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.679~0.787</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.003</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

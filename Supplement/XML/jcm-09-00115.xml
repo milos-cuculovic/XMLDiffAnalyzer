@@ -1,0 +1,3131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">jcm</journal-id>
+      <journal-title-group>
+        <journal-title>Journal of Clinical Medicine</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">J. Clin. Med.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Journal of Clinical Medicine</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2077-0383</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/jcm9010115</article-id>
+      <article-id pub-id-type="publisher-id">jcm-09-00115</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Feasibility and Effectiveness of a New Practical Multidisciplinary Treatment for Low-Back Pain: A Randomized Controlled Trial</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wippert</surname>
+            <given-names>Pia-Maria</given-names>
+          </name>
+          <xref rid="af1-jcm-09-00115" ref-type="aff">1</xref>
+          <xref rid="af2-jcm-09-00115" ref-type="aff">2</xref>
+          <xref rid="c1-jcm-09-00115" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0311-9042</contrib-id>
+          <name>
+            <surname>Drie&#xDF;lein</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref rid="af3-jcm-09-00115" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Beck</surname>
+            <given-names>Heidrun</given-names>
+          </name>
+          <xref rid="af4-jcm-09-00115" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schneider</surname>
+            <given-names>Christian</given-names>
+          </name>
+          <xref rid="af5-jcm-09-00115" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7003-9857</contrib-id>
+          <name>
+            <surname>Puschmann</surname>
+            <given-names>Anne-Katrin</given-names>
+          </name>
+          <xref rid="af1-jcm-09-00115" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Banzer</surname>
+            <given-names>Winfried</given-names>
+          </name>
+          <xref rid="af6-jcm-09-00115" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0835-4172</contrib-id>
+          <name>
+            <surname>Schiltenwolf</surname>
+            <given-names>Marcus</given-names>
+          </name>
+          <xref rid="af7-jcm-09-00115" ref-type="aff">7</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-jcm-09-00115"><label>1</label>Sociology of Health and Physical Activity, University of Potsdam, 14469 Potsdam, Germany; <email>apuschma@uni-potsdam.de</email></aff>
+      <aff id="af2-jcm-09-00115"><label>2</label>Department of Health Sciences and Technology, Laboratory of Movement Biomechanics, ETH Z&#xFC;rich, CH-8092 Zurich, Switzerland</aff>
+      <aff id="af3-jcm-09-00115"><label>3</label>Statistical Consulting Unit StaBLab, Ludwig-Maximilians-Universit&#xE4;t M&#xFC;nchen, 80539 Munich, Germany; <email>david.driesslein@gmail.com</email></aff>
+      <aff id="af4-jcm-09-00115"><label>4</label>University Hospital Carl Gustav Carus at Technical University Dresden, 01307 Dresden, Germany; <email>Heidrun.Beck@uniklinikum-dresden.de</email></aff>
+      <aff id="af5-jcm-09-00115"><label>5</label>Orthop&#xE4;diezentrum Theresie, 80339 M&#xFC;nchen, Germany</aff>
+      <aff id="af6-jcm-09-00115"><label>6</label>Department of Sports Medicine, Goethe University Frankfurt, 60323 Frankfurt am Main, Germany; <email>banzer@med.uni-frankfurt.de</email></aff>
+      <aff id="af7-jcm-09-00115"><label>7</label>Pain Management, Centre of Orthopaedics and Trauma Surgery, Conservative Orthopaedics and Pain Management, Heidelberg University Hospital, 69120 Heidelberg, Germany; <email>marcus.schiltenwolf@med.uni-heidelberg.de</email></aff>
+      <author-notes>
+        <corresp id="c1-jcm-09-00115"><label>*</label>Correspondence: <email>wippert@uni-potsdam.de</email>; Tel.: +49-331-9771051</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>1</issue>
+      <elocation-id>115</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>05</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Low-back pain is a major health problem exacerbated by the fact that most treatments are not suitable for self-management in everyday life. Particularly, interdisciplinary programs consist of intensive therapy lasting several weeks. Additionally, therapy components are rarely coordinated regarding reinforcing effects, which would improve complaints in persons with higher pain. This study assesses the effectiveness of a self-management program, firstly for persons suffering from higher pain and secondly compared to regular routines. Study objectives were treated in a single-blind multicenter controlled trial. A total of <italic>n</italic> = 439 volunteers (age 18&#x2013;65 years) were randomly assigned to a twelve-week multidisciplinary sensorimotor training (3-weeks-center- and 9-weeks-homebased) or control group. The primary outcome pain (Chronic-Pain-Grade) as well as mental health were assessed by questionnaires at baseline and follow-up (3/6/12/24 weeks, M2-M5). For statistical analysis, multiple linear regression models were used. N = 291 (age 39.7 &#xB1; 12.7 years, female = 61.1%, 77% CPG = 1) completed training (M1/M4/M5), showing a significantly stronger reduction of mental health complaints (anxiety, vital exhaustion) in people with higher than those with lower pain in multidisciplinary treatment. Compared to regular routines, the self-management&#x2013;multidisciplinary treatment led to a clinically relevant reduction of pain&#x2013;disability and significant mental health improvements. Low-cost exercise programs may provide enormous relief for therapeutic processes, rehabilitation aftercare, and thus, cost savings for the health system.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>low-back pain</kwd>
+        <kwd>multidisciplinary pain treatment</kwd>
+        <kwd>sensorimotor exercise training</kwd>
+        <kwd>classical conditioning</kwd>
+        <kwd>executive function</kwd>
+        <kwd>MiSpEx Network</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-jcm-09-00115" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Low-back pain (LBP) is a fundamental health burden and a global challenge in an aging and increasing world population [<xref ref-type="bibr" rid="B1-jcm-09-00115">1</xref>]. Lifestyle changes such as sedentary occupations or obesity trends will amplify this further. Most studies, conducted in high-income countries, only give recommendations for treatment rather than for prevention. Questions regarding cost-effective population-based medical supply in rural and lower-income areas remain open [<xref ref-type="bibr" rid="B2-jcm-09-00115">2</xref>]. In Germany, a country with around 83 million people, the estimated annual costs for treatment of LBP are between 16 and 22 billion Euros [<xref ref-type="bibr" rid="B3-jcm-09-00115">3</xref>] and are likely to be higher if work absence is taken into account. As a result, many efforts are made to develop effective therapies for LBP [<xref ref-type="bibr" rid="B4-jcm-09-00115">4</xref>].</p>
+      <p>Therapy guidelines for nonspecific LBP point out that biopsychosocial factors should be taken into account as early as possible [<xref ref-type="bibr" rid="B5-jcm-09-00115">5</xref>,<xref ref-type="bibr" rid="B6-jcm-09-00115">6</xref>] and that medication, surgeries, and imaging should be handled prudently [<xref ref-type="bibr" rid="B7-jcm-09-00115">7</xref>]. They also point to comprehensive self-training and psychological treatment options for those affected. This is especially necessary for people with higher pain levels. Although interdisciplinary programs are more effective in reducing LBP [<xref ref-type="bibr" rid="B8-jcm-09-00115">8</xref>,<xref ref-type="bibr" rid="B9-jcm-09-00115">9</xref>,<xref ref-type="bibr" rid="B10-jcm-09-00115">10</xref>] than unimodal treatments [<xref ref-type="bibr" rid="B11-jcm-09-00115">11</xref>,<xref ref-type="bibr" rid="B12-jcm-09-00115">12</xref>], their long-term effects remain limited. Furthermore, there is hardly any knowledge on prevention, cost efficiency, and implementation of simple and evidence-based programs that can be carried out at home. There are several explanations for this:</p>
+      <p>Firstly, most interdisciplinary programs are not suitable for self-management in everyday life. In general, existing interdisciplinary therapies involve multidisciplinary treatment teams and consist of several weeks of intensive therapy, requiring significant time and other resources from both the patient and provider. Although addressing all the underlying components of LBP earlier in the chronification process may yield broader benefits for both patient and the health care systems, interdisciplinary therapies tend to only be available for patients in the advanced stages of LBP. Secondly, the widely accepted biopsychosocial model of chronic pain [<xref ref-type="bibr" rid="B13-jcm-09-00115">13</xref>] not only suggests that biological, social, and psychological factors contribute to the development of chronic pain, but also that there are interactions between these dimensions [<xref ref-type="bibr" rid="B14-jcm-09-00115">14</xref>]. Therefore, an interdisciplinary intervention that takes into account these interactions is likely to be more effective. Nonetheless, in most existing interdisciplinary therapies, the separate components have not been combined in order to achieve mutually reinforcing effects. Thirdly, as LBP is heterogeneous and people vary in their chronicity, pain intensity, activity level, and functional level, treatments should be tailored to the individual&#x2019;s capabilities and specific requirements of the patient, which most treatments do not do.</p>
+      <p>In this paper, the feasibility of a new multidisciplinary treatment for LBP is described that aims to address the mentioned limitations of lacking reinforcing components. It should be evaluated whether (1) persons with higher pain in multidisciplinary intervention improve more than those with lower pain regarding pain and mental health and whether (2) persons with higher pain in the multidisciplinary intervention group improve more than persons in the control group (with regular routines) regarding pain and mental health.</p>
+      <p>As studies with isolated therapy modules show mixed results, it is expected that this new low-cost, homebased multidisciplinary exercise intervention with mutually reinforcing therapeutic components may be more consistent in its effects on pain and mental health than regular routines, through which especially persons with higher pain grades may benefit more.</p>
+    </sec>
+    <sec id="sec2-jcm-09-00115">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-jcm-09-00115" sec-type="subjects">
+        <title>2.1. Participants</title>
+        <p>The study took place in orthopedic outpatient clinics across Germany. Patients contacting the clinic were informed about the study after their medical consultation. An open recruitment was chosen to be able to assess preventive and curative effects of the intervention. Eligible patients were between 18 and 65 years. Back pain was defined as a minimum score of 20 on a 100-point Visual Analogue Scale. Exclusion criteria were infections (lasting longer than 7 days), pregnancy, not being able to stand upright independently, not being able to get up from a lying position, inability to fill out questionnaires independently, the presence of illnesses/syndromes that contraindicate physical activity, acute back pain that started 7 days prior to study inclusion, and participation in another study from the same research consortium. In total, <italic>n</italic> = 744 patients signed up for the study after receiving both written and oral information. Sample size calculation was based on a pilot study (unpublished material) in which the largest effect size for the outcome pain was selected (<italic>&#x3B1;</italic> &#x2264; 0.05; 1-<italic>&#x3B2;</italic> = 0.999, drop out 30%, power analysis by G*Power [<xref ref-type="bibr" rid="B15-jcm-09-00115">15</xref>]). For this study, effect size was conservatively completed to <italic>f</italic> = 0.25.</p>
+      </sec>
+      <sec id="sec2dot2-jcm-09-00115">
+        <title>2.2. Design and Procedure</title>
+        <p>Study objectives were analyzed in two arms of a single-blind three-armed randomized controlled trial conducted by the MiSpEx network (design see [<xref ref-type="bibr" rid="B16-jcm-09-00115">16</xref>,<xref ref-type="bibr" rid="B17-jcm-09-00115">17</xref>,<xref ref-type="bibr" rid="B18-jcm-09-00115">18</xref>]). In this network, several thousand people were examined over 8 years in three multicenter studies and 34 partial studies [<xref ref-type="bibr" rid="B17-jcm-09-00115">17</xref>]. The objectives of the presented paper were treated in the second multicenter study. In this, participants were randomly allocated (<italic>n</italic><sub>block</sub> = 18, basis 1:1; <uri>www.randomization.com</uri>) to a unimodal (SMT, solely motor control exercise), a multidisciplinary (SMT + BT, motor control exercise and behavioral treatment), and a control group (CG, regular routines in ambulatory settings) shown in <xref ref-type="fig" rid="jcm-09-00115-f001">Figure 1</xref>. Study personnel were blinded, and participants were told not to communicate their group allocation to other participants or study staff. All clinical investigations have been conducted according to the principles expressed in the Declaration of Helsinki. Final ethical approval was provided on 01/25/2012 by the major institutional ethics review board of the University of Potsdam, Germany (number 36/2011). Measurement during this twelve-week intervention program took place at the beginning of the program (M1), after 3 (M2), 9 (M3), 12 (M4), and 24 weeks (M5). In each measurement, questionnaires (for an assessment of psychosocial risk factors and mental health), physical examination, and biomechanical measurements (for an assessment of physical function) were applied (for an overview of the overall study design, see [<xref ref-type="bibr" rid="B19-jcm-09-00115">19</xref>]). The study was registered as a clinical trial on 05/16/2013 in the German Clinical Trial Register with the identification number: DRKS00004977. Study conduction was between 06/2013 and 12/2014. All adverse events were reported in the manuscript.</p>
+        <p>Due to the consideration that multidisciplinary therapy is particularly indicated for people with higher and more complex pain problems, the study objectives were only realized within and for a comparison between the multidisciplinary and the control group.</p>
+      </sec>
+      <sec id="sec2dot3-jcm-09-00115">
+        <title>2.3. Intervention</title>
+        <sec id="sec2dot3dot1-jcm-09-00115">
+          <title>2.3.1. Sensorimotor Training</title>
+          <p>Rationale of selection: Although effects of exercising are mostly small and evidence about a specific form of exercise superior to another is lacking, it is suggested that motor control exercise (sensorimotor training, SMT) may be important for LBP patients by enhancing core stability, spine control, and muscle performance [<xref ref-type="bibr" rid="B20-jcm-09-00115">20</xref>,<xref ref-type="bibr" rid="B21-jcm-09-00115">21</xref>,<xref ref-type="bibr" rid="B22-jcm-09-00115">22</xref>,<xref ref-type="bibr" rid="B23-jcm-09-00115">23</xref>]. Through activation of the deep trunk muscles, improvement of innervation patterns and intra- as well as intermuscular function, SMT targets the restoration of control and coordination of spine muscles, progressing to more functional stability [<xref ref-type="bibr" rid="B24-jcm-09-00115">24</xref>]. This adaptation is influenced/moderated by sensory information from both passive and active structures to the central nervous system, from exercise related central neuroplastic effects [<xref ref-type="bibr" rid="B25-jcm-09-00115">25</xref>,<xref ref-type="bibr" rid="B26-jcm-09-00115">26</xref>,<xref ref-type="bibr" rid="B27-jcm-09-00115">27</xref>] and exercise-induced-hypoalgesia (EIH) [<xref ref-type="bibr" rid="B28-jcm-09-00115">28</xref>,<xref ref-type="bibr" rid="B29-jcm-09-00115">29</xref>,<xref ref-type="bibr" rid="B30-jcm-09-00115">30</xref>]. EIH further moderates pain sensation during exercise, anxiety, and fear-avoidance to exercise, which is often an underestimated problem in the success of and compliance to exercise interventions.</p>
+          <p>The sensorimotor training (SMT) consisted of two parts: a three-week supervised center-based training program, followed by a nine-week individual homebased training (see also [<xref ref-type="bibr" rid="B31-jcm-09-00115">31</xref>,<xref ref-type="bibr" rid="B32-jcm-09-00115">32</xref>,<xref ref-type="bibr" rid="B33-jcm-09-00115">33</xref>]). In both phases of the program, participants trained three times a week. The center-based program was guided by experienced sports therapists and physiotherapists and took place in small groups of up to six participants. The homebased training was audio-guided via DVD. Each training session took approximately 30 minutes and consisted of four different motor control exercises aiming at training core stability and/or surrounding muscles, and upper and/or lower extremities. The exercises were: (1) quadrupedal/all-fours stability; (2) deadlift/rowing; (3) double leg&#x2013;single leg heel-pad-stance; and (4) side planks. For each exercise, three sets of ten repetitions were performed with a two-minute break between sets. A graded activity approach was used, and each exercise had twelve difficulty levels. The baseline difficulty level for each participant was determined by the trainer at the beginning of the intervention. Before starting the homebased phase, a target level for the homebased phase was determined for each participant. The participant received a personalized training plan with the weekly level increase required to reach the target level. Participants could contact the trainer at any time during the homebased phase. The control group continued their standard medical care.</p>
+        </sec>
+        <sec id="sec2dot3dot2-jcm-09-00115">
+          <title>2.3.2. Multidisciplinary Intervention</title>
+          <p>In addition to the SMT, the interdisciplinary intervention group received three supplementary treatment modules. The above described SMT training was supplemented with (1) a cognitive distraction task during the SMT (see also [<xref ref-type="bibr" rid="B34-jcm-09-00115">34</xref>,<xref ref-type="bibr" rid="B35-jcm-09-00115">35</xref>]); (2) a body scan unit directly after the SMT; and (3) psychoeducation. All three modules were provided via DVD and were delivered as an integrated part of the SMT training (cognitive distraction and body scan unit) or as a separate component (psychoeducation) (see also [<xref ref-type="bibr" rid="B19-jcm-09-00115">19</xref>]). </p>
+        </sec>
+        <sec id="sec2dot3dot3-jcm-09-00115">
+          <title>2.3.3. Rationale of Selection </title>
+          <p>Cognitive distraction tasks have been proven to be effective in modulating pain sensation and affect [<xref ref-type="bibr" rid="B34-jcm-09-00115">34</xref>,<xref ref-type="bibr" rid="B36-jcm-09-00115">36</xref>] and may be helpful as a deconditioning tool for pain sensation and fear-avoidance to exercise [<xref ref-type="bibr" rid="B37-jcm-09-00115">37</xref>]. Several experimental studies showed that simultaneously offered (executive) memory working tasks during pain stimulation provoke a reduced pain sensation (intensity) and affective reaction (pleasantness) [<xref ref-type="bibr" rid="B38-jcm-09-00115">38</xref>,<xref ref-type="bibr" rid="B39-jcm-09-00115">39</xref>,<xref ref-type="bibr" rid="B40-jcm-09-00115">40</xref>,<xref ref-type="bibr" rid="B41-jcm-09-00115">41</xref>]. Some studies indicated that working memory tasks can be combined with general exercise tasks [<xref ref-type="bibr" rid="B35-jcm-09-00115">35</xref>,<xref ref-type="bibr" rid="B42-jcm-09-00115">42</xref>], but these studies did not discuss the influence of cognitive tasks on motor amplitude, fear, and functionality in pain patients. For this, a simultaneous presentation of cognitive distraction tasks during SMT exercises seems to be promising to influence pain sensation and to &#x2018;unlearn&#x2019; both conscious and unconscious associations between movement and pain (e.g., fear-avoidance or cortical and subcortical interactions). The tasks were audio-guided while performing the SMT exercises and comprised the n-back task ([<xref ref-type="bibr" rid="B23-jcm-09-00115">23</xref>]; for SMT-exercises 2 and 3) and an adapted version of the California Verbal Learning Task (CVLT; [<xref ref-type="bibr" rid="B43-jcm-09-00115">43</xref>]; for SMT-exercise 4). The first of four SMT exercises was provided without any cognitive distraction technique. In the n-back task, the participant was presented with a series of stimuli and was required to indicate whether the present stimulus matched the one from n steps earlier. As with the sensorimotor training, the cognitive distraction followed a graded activity approach with three difficulty levels (level 1: 1-n-back, first three weeks, level 2: 2-n-back, week four until seven; and level 3: 3-n-back, earliest start at week seven). For the adapted version of the CVLT, participants heard a list of 10 words and were required to repeat them in the same order after a 30 second interval. </p>
+          <p>Body Scan/ Bodily Awareness&#x2014;a subtype of distraction in form of bodily sensations&#x2014;can lead to a reduction in fear-avoidance behavior and an improved perception of sensory information [<xref ref-type="bibr" rid="B44-jcm-09-00115">44</xref>], while increasing neuronal activity and concentration of neurotransmitter [<xref ref-type="bibr" rid="B45-jcm-09-00115">45</xref>]. Furthermore, body scans&#x2014;mostly integrated in a mindfulness-based stress reduction program (MBSR [<xref ref-type="bibr" rid="B46-jcm-09-00115">46</xref>])&#x2014;may support the restructuring of the brain volume and biochemical deteriorations that affect pain patients [<xref ref-type="bibr" rid="B47-jcm-09-00115">47</xref>]. As it was shown that MBSR is powerful in increasing stress resilience [<xref ref-type="bibr" rid="B48-jcm-09-00115">48</xref>], this association may additionally reinforce the intended pathways through the combination of exercise and distraction [<xref ref-type="bibr" rid="B49-jcm-09-00115">49</xref>]. Because stress and pain stimuli are processed in the same brain areas, additional effects on central and peripheral sensitization may therefore be expected [<xref ref-type="bibr" rid="B14-jcm-09-00115">14</xref>]. One component of the MBSR&#x2014;the body scan&#x2014;is a training unit in which participants focus on different parts of bodily awareness which was shortened to 10 minutes [<xref ref-type="bibr" rid="B50-jcm-09-00115">50</xref>] and offered directly after the sensorimotor training. The body scan also had several levels, with the more advanced levels requiring the participants to focus their attention on two or more body parts simultaneously.</p>
+          <p>Psychoeducational activities, such as information about pain processing and principles of chronification as well as suggestions to family members, support changes in behavioral patterns and help to understand the mechanisms of the pain becoming chronic [<xref ref-type="bibr" rid="B51-jcm-09-00115">51</xref>,<xref ref-type="bibr" rid="B52-jcm-09-00115">52</xref>]. Psychoeducation would allow participants to understand the beneficial role of exercise in pain, thereby further supporting the interruption of the negative link between movement and pain. In addition, participants would learn about the role of personal factors, such as stress, in the chronification of pain and provide them with ways to cope with this. The psychoeducation module was provided via three films of 45 minutes each that participants were asked to watch at home together with their partners (if applicable) in the first weeks of the intervention (center-based phase). The overall objective of the psychoeducation was to change maladaptive pain cognitions such as fear-avoidance beliefs, stimulate the responsible use of medication, reduce inactivity and stress, and stimulate more adaptive interactions with the social environment. Each film had a specific focus: Part I explained the biopsychosocial model of chronic pain and the role of social and personal risk factors in its etiology (education phase), Part II focused on coping strategies and (provided) tasks to practice these coping strategies (exercise phase), and Part III focused on reflection on and the improvement of daily life routines (transfer phase).</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot4-jcm-09-00115">
+        <title>2.4. Instruments</title>
+        <p>Pain was assessed by the Chronic Pain Grade questionnaire (CPG [<xref ref-type="bibr" rid="B53-jcm-09-00115">53</xref>]) with the subscales: characteristic pain intensity (CPI: 0 = &#x201C;no pain&#x201D; to 100 = &#x201C;the worst pain imaginable&#x201D;), and subjective disability (DISS: 0 = &#x201C;no disability&#x201D; to 100 = &#x201C;I was incapable of doing anything&#x201D;) for the last three months. &#x201C;Mental Health&#x201D; was operationalized due to a measurement of stress (PSS [<xref ref-type="bibr" rid="B54-jcm-09-00115">54</xref>]), vital exhaustion (VE [<xref ref-type="bibr" rid="B55-jcm-09-00115">55</xref>]), and anxiety and depression (HADS-D [<xref ref-type="bibr" rid="B56-jcm-09-00115">56</xref>]). Pain-related cognitions were measured by the fear-avoidance beliefs questionnaire (FABQ-D, [<xref ref-type="bibr" rid="B57-jcm-09-00115">57</xref>]), and pain vigilance and awareness by the German version of the Pain Vigilance Questionnaire (PVAQ, [<xref ref-type="bibr" rid="B58-jcm-09-00115">58</xref>]). Lifestyle factors such as socioeconomic status, alcohol and tobacco consumption, medication, and physical activity status were assessed via standardized questions. Social support was measured via the Berliner Social Support Scales (BSSS, [<xref ref-type="bibr" rid="B59-jcm-09-00115">59</xref>]).</p>
+      </sec>
+      <sec id="sec2dot5-jcm-09-00115">
+        <title>2.5. Statistical Analysis</title>
+        <p>Study objectives were evaluated via multiple linear regression models (for objective 1: regression model for outcome M4, M5 with adjustment of baseline value M1 (baseline model); for objective 2: regression model for difference score M4-M1, M5-M1, in statistic software (R [<xref ref-type="bibr" rid="B60-jcm-09-00115">60</xref>], SPSS 22.0)); each model includes a categorical interaction between intervention group and pain class (i.e., CPG Pain Class dichotomized in grade 1 vs. 2&#x2013;4). The models were controlled for age, sex, and study center. The significance of the interaction was calculated using the F-test for the interaction term. Additionally, for the presentation of a confidence interval, an equivalent regression model was applied to assess the effect between high pain patients in the SMT + BT group and high pain patients in the CG. In the statistic models, only complete cases for M1, M4, and M5 of the outcome variables were considered. Further, participants with more than 10 hours of physical activity/week (athletes) and those with a pain class of 0 were excluded.</p>
+        <p>The <italic>p</italic>-value refers to the interaction term and indicates whether the inclusion of the interaction term significantly improves the model adaptation, i.e., whether, as in this perspective, the value of the follow-up measurement for a high pain patient compared to a low pain patient depends on the intervention group. This means that a significant effect describes that the difference between high and low pain people differs statistically significantly between the intervention groups.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-jcm-09-00115" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-jcm-09-00115">
+        <title>3.1. Descriptive for Pain, Pain-Related Cognitions, and Mental Health</title>
+        <p>In total, <italic>n</italic> = 660 volunteers were randomly allocated in the randomized controlled trial. Of those, <italic>n</italic> = 439 participated in the two arms (SMT + BT and CG), of whom <italic>n</italic> = 291 (age 39.7 &#xB1; 12.7 years, female = 61.1%) were available as complete cases, a minimum pain class of 1, and hit all methodological requirements for M1, M4, and M5. Most participants suffered from a moderate pain intensity (CPI) and mild disability (DISS) of LBP (<italic>n</italic> = 223 with pain class = 1 and <italic>n</italic> = 68 with pain class &gt;1). High standard deviations shown in <xref ref-type="table" rid="jcm-09-00115-t001">Table 1</xref> indicate that persons with higher pain were in the sample. Due to the necessity of performing physical activity, no severe (pain) cases were included.</p>
+        <p>Finally, 66% of all trial participants completed the study, indicating a good feasibility of this mixed, center-, and homebased program. There were no differences in baseline values between completers and noncompleters (n.s.).</p>
+      </sec>
+      <sec id="sec3dot2-jcm-09-00115">
+        <title>3.2. Objective 1: Within Group Comparison</title>
+        <p><xref ref-type="table" rid="jcm-09-00115-t002">Table 2</xref> and <xref ref-type="fig" rid="jcm-09-00115-f002">Figure 2</xref> show the effect on the outcome for participants with higher pain compared to participants with lower pain within the given intervention group. Participants suffering from higher pain have on average 8.57 CPG points less pain intensity at M4 than participants with low pain within the multidisciplinary group. People with higher pain show improvements in mental health scales in comparison to lower pain patients, participating in the multidisciplinary group. This was true for symptoms of anxiety directly after the intervention and for anxiety and vital exhaustion at the half-year follow-up (M5). By contrast, people with higher pain compared to those with lower pain treated in regular routines have on average only a 2.34 CPG points improvement in pain intensity at M4.</p>
+      </sec>
+      <sec id="sec3dot3-jcm-09-00115">
+        <title>3.3. Objective 2: Differences between the Multidisciplinary Intervention and the Control Group</title>
+        <p>The comparisons between difference scores of SMT + BT and CG are given in <xref ref-type="fig" rid="jcm-09-00115-f003">Figure 3</xref> and <xref ref-type="table" rid="jcm-09-00115-t003">Table 3</xref>. Regarding the profit of a multidisciplinary intervention for high pain persons in comparison to regular routines of the controls, it was shown that pain disability is more reduced, on average 11.81 CPG points (at the end of intervention) and on average 17.03 CPG points (at half-year follow-up) in the multidisciplinary group. Regarding mental health, people with higher pain profit more from the multidisciplinary intervention at both measurement points, while suffering less from symptoms of anxiety. The multidisciplinary group also seems to be more advantageous for other health complaints (exhaustion and inactivity). Again, the <italic>p</italic>-value refers to the interaction term, whereby only the patients with high pain are considered here.</p>
+        <p>Further information could be obtained by an additionally calculated equivalent regression model for anxiety (HADS anxiety M4: b = &#x2212;3.54 (95%CI &#x2212;5.56, &#x2212;1.53), <italic>p</italic> = 0.001 and HADS anxiety M5: b= &#x2212;2.88 (95%CI &#x2212;5.21, &#x2212;0.56), <italic>p</italic> =0.018) as well as for pain disability (DISS M4: b= &#x2212;11.81 (95%CI &#x2212;27.77, 4.16), <italic>p</italic> = 0.150 and DISS M5: b= &#x2212;17.03 (95%CI &#x2212;32.03, &#x2212;2.04), <italic>p</italic> = 0.029). The coefficients, presented here in this text block, are identical to the group differences in <xref ref-type="table" rid="jcm-09-00115-t003">Table 3</xref>.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-jcm-09-00115" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>In objective 1, it was shown to what extent patients with more pain benefit from the different programs. For the synergetic multidisciplinary exercise approach, it was shown that people with higher pain profit from the reinforcing modules regarding mental health. This is true for a reduction of anxiety symptoms directly after the intervention as well as half a year later. Vital exhaustion can also be reduced within the first half-year and thus stabilizes basic physical recovery over the long term. Further, multidisciplinary therapy with mutually reinforcing mechanisms leads up to around 9 CPG points, showing a clinically relevant reduction of pain intensity for people suffering from higher pain [<xref ref-type="bibr" rid="B61-jcm-09-00115">61</xref>,<xref ref-type="bibr" rid="B62-jcm-09-00115">62</xref>,<xref ref-type="bibr" rid="B63-jcm-09-00115">63</xref>,<xref ref-type="bibr" rid="B64-jcm-09-00115">64</xref>]. By contrast, people with higher pain, with their regular routines (controls), only had a small reduction of pain intensity and disability and almost no changes in mental health complaints compared to those with lower pain. The <italic>p</italic>-value refers to the interaction term and indicates that a difference between high and low pain patients can not only be shown for the different variables between the intervention groups but also reach statistical significance for the reduction of anxiety and vital exhaustion in the multidisciplinary group.</p>
+      <p>In study objective 2, whether the self-management program is advantageous for patients with more pain in comparison to regular routines of controls was analyzed. It was shown that people with higher pain participating in the multidisciplinary group had a stronger reduction of pain disability and, in detail, around 12 CPG more at the end of the intervention and 17 CPG points at the half-year follow-up, same as those in regular routines in ambulatory settings. In addition, with regard to mental health concerns, the intervention group performed better in direct comparison with the control group across all areas (except stress), with a significantly stronger reduction in anxiety symptoms and sustainability.</p>
+      <p>In summary, it can be said that this new and innovative self-management exercise program for everyday life is a remarkable success. Of particular interest are the improvements in mental health complaints, which were intended but not directly expected in the context of a nonclinical-based form of training. Although improvements are small to moderate, they are all higher than in comparable studies with combined exercise and cognitive behavior therapy [<xref ref-type="bibr" rid="B65-jcm-09-00115">65</xref>]. Positive effects on anxiety may be partially mediated by exercise itself [<xref ref-type="bibr" rid="B66-jcm-09-00115">66</xref>] but are always an important player in limiting fear-avoidance to exercise, which is an underestimated problem in exercise programs [<xref ref-type="bibr" rid="B67-jcm-09-00115">67</xref>]. The combination of reinforcing therapy components may therefore be the right approach to offer multidisciplinary therapy individually and yet broadly without long waiting times.</p>
+      <p>Regarding pain, in clinically relevant reductions between 12 and 17 CPG points and further, a good sustainability was shown in the homebased multidisciplinary program in direct comparison to regular routines [<xref ref-type="bibr" rid="B61-jcm-09-00115">61</xref>,<xref ref-type="bibr" rid="B62-jcm-09-00115">62</xref>,<xref ref-type="bibr" rid="B63-jcm-09-00115">63</xref>,<xref ref-type="bibr" rid="B64-jcm-09-00115">64</xref>]. Both the pain reduction and prolonged sustainability of the presented intervention narrow the earlier criticized gap of previous multidisciplinary programs [<xref ref-type="bibr" rid="B8-jcm-09-00115">8</xref>,<xref ref-type="bibr" rid="B9-jcm-09-00115">9</xref>,<xref ref-type="bibr" rid="B10-jcm-09-00115">10</xref>]. The reported effects there were either not very consistent or of low sustainability.</p>
+      <p>The results raise hope that such a cost- and resource-saving program for low-back-pain people will be successful in both preventive and rehabilitative settings in the future. In respect of the health care system and the availability of multidisciplinary therapies only for patients in the advanced stages of LBP, this innovative home program can address a broad range of people at higher risk of chronification of pain after an intermittent low-back pain phase in primary and secondary prevention.</p>
+    </sec>
+    <sec id="sec5-jcm-09-00115" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>This study shows that a self-management program with reinforcing components could be of high clinical relevance in the treatment of unspecific low-back pain. Further, the presented program may be suitable for the medical supply in rural or socioeconomic weak areas. Generally, the capacity of exercise programs for therapeutic processes and their transfer to other medical supply settings such as rehabilitation aftercare is conceivable and raising hope for cost savings for the health system.</p>
+    </sec>
+    <sec id="sec6-jcm-09-00115">
+      <title>6. Limitations</title>
+      <p>First of all, the data presented in this study arose from a feasibility study which examined the practicability of conducting a homebound exercise intervention for the treatment of LBP. Starting problems finally led to the exclusion of one study center and a reduced sample size. The final, small sample size was lower than the power calculation of the pretest, strongly limiting significance levels. In respect of the clinically relevant improvements in pain and anxiety ratings and the debate around the clinical relevance of significance [<xref ref-type="bibr" rid="B68-jcm-09-00115">68</xref>], the results still seem of high importance. Thirdly, for objective 2, the difference model was used&#x2014;a standard routine in comparing groups (intervention vs. control). However, a difference model does not consider the entrance baseline attitude of pain; an overestimation of treatment effects may be possible. Lastly, we cannot rule out that people participating in self-management programs have higher motivation than others and that people with LBP are heterogeneous and vary in their chronicity, pain intensity, and activity level. It is discussed whether exercise treatments should be tailored to the individual capabilities and specific requirements of the patients, and this should be analyzed in future studies. The presented new treatment forms for LBP and the here-reported evidence seem of high potential for further improvements and for different prevention possibilities for LBP in different societies.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>P.-M.W.: Writing Original Draft Preparation, Conceptualization, Methodology, Investigation; D.D.: Methodology, Formal analysis, Software; H.B., W.B., M.S., C.S.: Investigation, Data Curation, Review &amp; Editing; A.-K.P.: Writing-Review &amp; Editing; FM Project Administration, Funding Acquisition, Investigation (PI). All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>The present study was funded by the German Federal Institute of Sport Science on behalf of the Federal Ministry of the Interior of Germany as the major funder. It is realized within MiSpEx&#x2014;the National Research Network for Medicine in Spine Exercise (grant-number: 080102A/11&#x2013;14). The funder does not influence data collection, analysis, and interpretation or writing of the manuscript. The authors declare that they have no competing interests.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>Go to Frank Mayer, Helmut K&#xFC;chenhoff, Juliane M&#xFC;ller, Steffen M&#xFC;ller, Josephine Stoll, Tilman Engel, Philipp Fl&#xF6;&#xDF;el, Martin Handel, Thore Haag, Ann-Christin Pfeifer, Simone Gantz, Daniel Niederer, Lutz Vogt, Jessica de Witt Huberts, Anja Weiffen, and all local principal investigators for the invaluable support in study design. We prospectively thank both the technical and medical staff at study sites for their investment during study conduction.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <glossary>
+      <title>Abbreviations</title>
+      <array>
+        <tbody>
+          <tr>
+            <td align="left" valign="middle">CPG</td>
+            <td align="left" valign="middle">Chronic Pain Grade Questionnaire</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">CPI</td>
+            <td align="left" valign="middle">Characteristic Pain intensity, scale of Chronic Pain Grade questionnaire</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">DISS</td>
+            <td align="left" valign="middle">subjective pain disability, scale of Chronic Pain Grade questionnaire</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">DRKS</td>
+            <td align="left" valign="middle">German Clinical Trials Register</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">FABQ-D</td>
+            <td align="left" valign="middle">Fear-Avoidance Questionnaire</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">HADS</td>
+            <td align="left" valign="middle">Hamilton Anxiety and Depression Scale</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">LBP</td>
+            <td align="left" valign="middle">Low Back Pain</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">M1, M2, M3, M4, M5</td>
+            <td align="left" valign="middle">visits 1&#x2013;5</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">MiSpEx</td>
+            <td align="left" valign="middle">the German Research Network of Medicine in Spine Exercise</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">MBSR</td>
+            <td align="left" valign="middle">Mindfulness-Based Stress Reduction Program</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">N</td>
+            <td align="left" valign="middle">number of participants</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle"><italic>p</italic>-values</td>
+            <td align="left" valign="middle">significance level: <italic>p</italic> &lt; 0.01, <italic>p</italic> &lt; 0.05 or <italic>p</italic> &lt; 0.10</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">PSS</td>
+            <td align="left" valign="middle">Perceived Stress Scale</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">PVAQ</td>
+            <td align="left" valign="middle">Pain Vigilance Avoidance Questionnaire</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">SMT</td>
+            <td align="left" valign="middle">sensorimotor training</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">SMT-BT</td>
+            <td align="left" valign="middle">sensorimotor training with behavioural therapy elements</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">VE</td>
+            <td align="left" valign="middle">Vital Exhaustion</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">MBSR</td>
+            <td align="left" valign="middle">Mindfulness-Based Stress Reduction Program</td>
+          </tr>
+        </tbody>
+      </array>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-jcm-09-00115">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>Institute for Health Metrics and Evaluation</collab>
+          </person-group>
+          <article-title>Disease and Injury Incidence and Prevalence Collaborators. Global, regional, and national incidence, prevalence, and years lived with disability for 328 diseases and injuries for 195 countries, 1990&#x2013;2016: A systematic analysis for the Global Burden of Disease Study 2016</article-title>
+          <source>Lancet</source>
+          <year>2017</year>
+          <volume>390</volume>
+          <fpage>1211</fpage>
+          <lpage>1259</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B2-jcm-09-00115">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Foster</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Anema</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Cherkin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Chou</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>S.P.</given-names>
+            </name>
+            <name>
+              <surname>Gross</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Ferreira</surname>
+              <given-names>P.H.</given-names>
+            </name>
+            <name>
+              <surname>Fritz</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Koes</surname>
+              <given-names>B.W.</given-names>
+            </name>
+            <name>
+              <surname>Peul</surname>
+              <given-names>W.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Prevention and treatment of low back pain: Evidence, challenges, and promising directions</article-title>
+          <source>Lancet</source>
+          <year>2018</year>
+          <volume>391</volume>
+          <fpage>2368</fpage>
+          <lpage>2383</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(18)30489-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-jcm-09-00115">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>Techniker Krankenkasse</collab>
+          </person-group>
+          <source>Gesundheitsreport 2014&#x2014;Ver&#xF6;ffentlichungen zum Betrieblichen Gesundheitsmanagement der Techniker Krankenkasse</source>
+          <publisher-name>Techniker Krankenkasse</publisher-name>
+          <publisher-loc>Hamburg, Germany</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B4-jcm-09-00115">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buchbinder</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>van Tulder</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>&#xD6;berg</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Woolf</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schoene</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Croft</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Hartvigsen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cherkin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Foster</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Low back pain: A call for action</article-title>
+          <source>Lancet</source>
+          <year>2018</year>
+          <volume>391</volume>
+          <fpage>9</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(18)30488-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-jcm-09-00115">
+        <label>5.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>National Association of Statutory Health Insurance Physicians</collab>
+            <collab>Association of the Scientific Medical Societies in Germany</collab>
+          </person-group>
+          <source>Nationale Versorgungsleitlinie Nicht-Spezifischer Kreuzschmerz&#x2014;Langfassung. National Therapy Guideline for Non-Specific Low Back Pain</source>
+          <comment>National Association of Statutory Health Insurance Physicians</comment>
+          <publisher-name>Association of the Scientific Medical Societies in Germany</publisher-name>
+          <publisher-loc>Berlin, Germany</publisher-loc>
+          <year>2016</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-jcm-09-00115">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nicholas</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Linton</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Watson</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Main</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <collab>&#x201C;Decade of the Flags&#x201D; Working Group</collab>
+          </person-group>
+          <article-title>Early identification and management of psychological risk factors (&#x201C;yellow flags&#x201D;) in patients with low back pain: A reappraisal</article-title>
+          <source>Phys. Ther.</source>
+          <year>2011</year>
+          <volume>96</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.2522/ptj.20100224</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-jcm-09-00115">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maher</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Underwood</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Buchbinder</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Non-specific low back pain</article-title>
+          <source>Lancet</source>
+          <year>2017</year>
+          <volume>389</volume>
+          <fpage>736</fpage>
+          <lpage>747</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(16)30970-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-jcm-09-00115">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Engers</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Jellema</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wensing</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van der Windt</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Grol</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>van Tulder</surname>
+              <given-names>M.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Individual patient education for low back pain</article-title>
+          <source>Cochrane Database Syst. Rev.</source>
+          <year>2008</year>
+          <pub-id pub-id-type="doi">10.1002/14651858.CD004057.pub3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-jcm-09-00115">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heymans</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>van Tulder</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Esmail</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bombardier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Koes</surname>
+              <given-names>B.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Back schools for non-specific low-back pain</article-title>
+          <source>Cochrane Database Syst. Rev.</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <pub-id pub-id-type="doi">10.1002/14651858.CD000261.pub2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-jcm-09-00115">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Henschke</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ostelo</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>van Tulder</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Vlaeyen</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Morley</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Assendelft</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Main</surname>
+              <given-names>C.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Behavioural treatment for chronic low-back pain</article-title>
+          <source>Cochrane Database Syst. Rev.</source>
+          <year>2010</year>
+          <fpage>CD002014</fpage>
+          <pub-id pub-id-type="doi">10.1002/14651858.CD002014.pub3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-jcm-09-00115">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saragiotto</surname>
+              <given-names>B.T.</given-names>
+            </name>
+            <name>
+              <surname>Maher</surname>
+              <given-names>C.G.</given-names>
+            </name>
+            <name>
+              <surname>Yamato</surname>
+              <given-names>T.P.</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>L.O.</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>L.C.M.</given-names>
+            </name>
+            <name>
+              <surname>Ostelo</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Macedo</surname>
+              <given-names>L.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Motor control exercise for chronic non-specific low back pain: Cochrane review</article-title>
+          <source>Cochrane Database Syst. Rev.</source>
+          <year>2016</year>
+          <pub-id pub-id-type="doi">10.1002/14651858.CD012004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-jcm-09-00115">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kamper</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Apeldoorn</surname>
+              <given-names>A.T.</given-names>
+            </name>
+            <name>
+              <surname>Chiarotto</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Smeets</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Ostelo</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Guzman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>van Tulder</surname>
+              <given-names>M.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multidisciplinary biopsychosocial rehabilitation for chronic low back pain</article-title>
+          <source>Cochrane Database Syst. Rev.</source>
+          <year>2014</year>
+          <pub-id pub-id-type="doi">10.1002/14651858.CD000963.pub3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-jcm-09-00115">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hancock</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Maher</surname>
+              <given-names>C.G.</given-names>
+            </name>
+            <name>
+              <surname>Laslett</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hay</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Koes</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Discussion paper: What happened to the &#x2018;bio&#x2019; in the bio-psycho-social model of low back pain?</article-title>
+          <source>Eur. Spine J.</source>
+          <year>2011</year>
+          <volume>20</volume>
+          <fpage>2105</fpage>
+          <lpage>2110</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00586-011-1886-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-jcm-09-00115">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wippert</surname>
+              <given-names>P.-M.</given-names>
+            </name>
+            <name>
+              <surname>Wiebking</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stress and Alterations in the Pain Matrix: A Biopsychosocial Perspective on Back Pain and Its Prevention and Treatment</article-title>
+          <source>Int. J. Environ. Res. Public Health</source>
+          <year>2018</year>
+          <volume>15</volume>
+          <elocation-id>785</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ijerph15040785</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-jcm-09-00115">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Faul</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Erdfelder</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Lang</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Buchner</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>G* Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences</article-title>
+          <source>Behav. Res. Methods</source>
+          <year>2007</year>
+          <volume>39</volume>
+          <fpage>175</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="doi">10.3758/BF03193146</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-jcm-09-00115">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wippert</surname>
+              <given-names>P.-M.</given-names>
+            </name>
+            <name>
+              <surname>Wippert</surname>
+              <given-names>P.-M.</given-names>
+            </name>
+            <name>
+              <surname>Niederer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Drie&#xDF;lein</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Beck</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Banzer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schiltenwolf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Chicken-Egg-Affair: Moderators and Mediators of the responsiveness to exercise in low back pain: A Randomized Controlled Trial</article-title>
+          <source>Br. J. Sports Med.</source>
+          <year>2019</year>
+          <comment>under review</comment>
+        </element-citation>
+      </ref>
+      <ref id="B17-jcm-09-00115">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Arampatzis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Banzer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Beck</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Br&#xFC;ggemann</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Hasenbring</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kellmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kleinert</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Schiltenwolf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Medicine in Spine Exercise [MiSpEx]&#x2014;A National Research Network to evaluate Back Pain in High-performance Sports as well as the General Population</article-title>
+          <source>Ger. J. Sports Med.</source>
+          <year>2018</year>
+          <volume>69</volume>
+          <fpage>229</fpage>
+          <lpage>235</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B18-jcm-09-00115">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>H&#xF6;nning</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Stengel</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>G&#xFC;thoff</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical strategies to address main research questions of the MiSpEx network and meta-analytical approaches</article-title>
+          <source>Ger. J. Sports Med.</source>
+          <year>2018</year>
+          <volume>69</volume>
+          <fpage>236</fpage>
+          <lpage>239</lpage>
+          <pub-id pub-id-type="doi">10.5960/dzsm.2018.339</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-jcm-09-00115">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wippert</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>de Witt Huberts</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Klipker</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gantz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schiltenwolf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Beschreibung und empirische Fundierung des verhaltenstherapeutischen Moduls der MiSpEx-Intervention</article-title>
+          <source>Schmerz</source>
+          <year>2015</year>
+          <volume>29</volume>
+          <fpage>658</fpage>
+          <lpage>663</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00482-015-0044-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-jcm-09-00115">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hayden</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Cartwright</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Riley</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exercise therapy for chronic low back pain: Protocol for an individual participant data meta-analysis</article-title>
+          <source>Syst. Rev.</source>
+          <year>2012</year>
+          <volume>1</volume>
+          <fpage>64</fpage>
+          <pub-id pub-id-type="doi">10.1186/2046-4053-1-64</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-jcm-09-00115">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saragiotto</surname>
+              <given-names>B.T.</given-names>
+            </name>
+            <name>
+              <surname>Maher</surname>
+              <given-names>C.G.</given-names>
+            </name>
+            <name>
+              <surname>Yamato</surname>
+              <given-names>T.P.</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>L.O.</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>L.C.M.</given-names>
+            </name>
+            <name>
+              <surname>Ostelo</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Macedo</surname>
+              <given-names>L.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Motor control exercise for chronic non-specific low back pain: A Cochrane review</article-title>
+          <source>Spine</source>
+          <year>2016</year>
+          <volume>41</volume>
+          <fpage>1284</fpage>
+          <lpage>1295</lpage>
+          <pub-id pub-id-type="doi">10.1097/BRS.0000000000001645</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-jcm-09-00115">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Geneen</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Clarke</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Colvin</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>B.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Physical activity and exercise for chronic pain in adults: An overview of Cochrane Reviews</article-title>
+          <source>Cochrane Database of Syst. Rev.</source>
+          <year>2017</year>
+          <pub-id pub-id-type="doi">10.1002/14651858.CD011279.pub3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-jcm-09-00115">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Owen</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>McMillan</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Laird</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Bullmore</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies</article-title>
+          <source>Hum. Brain Mapp.</source>
+          <year>2005</year>
+          <volume>25</volume>
+          <fpage>46</fpage>
+          <lpage>59</lpage>
+          <pub-id pub-id-type="doi">10.1002/hbm.20131</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-jcm-09-00115">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Standaert</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Weinstein</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Rumpeltes</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence-informed management of chronic low back pain with lumbar stabilization exercises</article-title>
+          <source>Spine J.</source>
+          <year>2008</year>
+          <volume>8</volume>
+          <fpage>114</fpage>
+          <lpage>120</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.spinee.2007.10.015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-jcm-09-00115">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burciu</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Fritsche</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Granert</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Schmitz</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sp&#xF6;nemann</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Konczak</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Theysohn</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gerwig</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van Eimeren</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Timmann</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Brain changes associated with postural training in patients with cerebellar degeneration: A voxel-based morphometry study</article-title>
+          <source>J. Neurosci.</source>
+          <year>2013</year>
+          <volume>33</volume>
+          <fpage>4594</fpage>
+          <lpage>4604</lpage>
+          <pub-id pub-id-type="doi">10.1523/JNEUROSCI.3381-12.2013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-jcm-09-00115">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vivar</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Potter</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>van Praag</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>All about running: Synaptic plasticity, growth factors and adult hippocampal neurogenesis</article-title>
+          <source>Curr. Topics Behav. Neurosci.</source>
+          <year>2013</year>
+          <volume>15</volume>
+          <fpage>189</fpage>
+          <lpage>210</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B27-jcm-09-00115">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Erickson</surname>
+              <given-names>K.I.</given-names>
+            </name>
+            <name>
+              <surname>Gildengers</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Butters</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Physical activity and brain plasticity in late adulthood</article-title>
+          <source>Dialogues Clin. Neurosci.</source>
+          <year>2013</year>
+          <volume>15</volume>
+          <fpage>99</fpage>
+          <lpage>108</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B28-jcm-09-00115">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Naugle</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Fillingim</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Riley</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Meta-Analytic Review of the Hypoalgesic Effects of Exercise</article-title>
+          <source>J. Pain</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>1139</fpage>
+          <lpage>1150</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jpain.2012.09.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-jcm-09-00115">
+        <label>29.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoeger-Bement</surname>
+              <given-names>M.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exercise-induced hypoalgesia: An evidenced-based review</article-title>
+          <source>Management and Mechanisms of Pain for the Physical Therapist</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Sluka</surname>
+              <given-names>K.A.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Wolters Kluwer</publisher-name>
+          <publisher-loc>Alphen aan den Rijn, The Netherlands</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B30-jcm-09-00115">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dapunt</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Gantz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhuk</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gather</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Schiltenwolf</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative sensory testing in physically active individuals and patients who underwent multidisciplinary pain therapy in the longitudinal course</article-title>
+          <source>J. Pain Res.</source>
+          <year>2018</year>
+          <volume>11</volume>
+          <fpage>2323</fpage>
+          <lpage>2330</lpage>
+          <pub-id pub-id-type="doi">10.2147/JPR.S173000</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-jcm-09-00115">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Niederer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vogt</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wippert</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Puschmann</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Pfeifer</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Schiltenwolf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Banzer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Medicine in spine exercise (MiSpEx) for nonspecific low back pain patients: Study protocol of a multicentre, single-blind randomised controlled trial</article-title>
+          <source>Trials</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>507</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13063-016-1645-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-jcm-09-00115">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mueller</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stoll</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mueller</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dose-response relationship of core-specific sensorimotor interventions in healthy, well-trained participants: Study protocol for a (MiSpEx) randomized controlled trial</article-title>
+          <source>Trials</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <fpage>424</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13063-018-2799-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-jcm-09-00115">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arampatzis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schroll</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Catal&#xE1;</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Laube</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xFC;ler</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dreinhofer</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A random-perturbation therapy in chronic non-specific low-back pain patients: A randomised controlled trial</article-title>
+          <source>Eur. J. Appl. Physiol.</source>
+          <year>2017</year>
+          <volume>117</volume>
+          <fpage>2547</fpage>
+          <lpage>2560</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00421-017-3742-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-jcm-09-00115">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Doumas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rapp</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Krampe</surname>
+              <given-names>R.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Working memory and postural control: Adult age differences in potential for improvement, task priority, and dual tasking</article-title>
+          <source>J. Gerontol. Ser. B Psychol. Sci. Soc. Sci.</source>
+          <year>2009</year>
+          <volume>64</volume>
+          <fpage>193</fpage>
+          <lpage>201</lpage>
+          <pub-id pub-id-type="doi">10.1093/geronb/gbp009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-jcm-09-00115">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Resch</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>May</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Tomporowski</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Ferrara</surname>
+              <given-names>M.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Balance performance with a cognitive task: A continuation of the dual-task testing paradigm</article-title>
+          <source>J. Athlethic Train.</source>
+          <year>2011</year>
+          <volume>46</volume>
+          <fpage>170</fpage>
+          <lpage>175</lpage>
+          <pub-id pub-id-type="doi">10.4085/1062-6050-46.2.170</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-jcm-09-00115">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lautenbacher</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xF6;fer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kunz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Parthum</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weber</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Roman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Griessinger</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Sittl</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Attentional and emotional mechanisms related to pain as predictors of chronic postoperative pain: A comparison with other psychological and physiological predictors</article-title>
+          <source>Pain</source>
+          <year>2010</year>
+          <volume>151</volume>
+          <fpage>722</fpage>
+          <lpage>731</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.pain.2010.08.041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-jcm-09-00115">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Verhoeven</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Crombez</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Eccleston</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Van Ryckeghem</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Morley</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Van Damme</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of motivation in distracting attention away from pain: An experimental study</article-title>
+          <source>Pain</source>
+          <year>2010</year>
+          <volume>149</volume>
+          <fpage>229</fpage>
+          <lpage>234</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.pain.2010.01.019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-jcm-09-00115">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Villemure</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bushnell</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mood influences supraspinal pain processing separately from attention</article-title>
+          <source>J. Neurosci.</source>
+          <year>2009</year>
+          <volume>29</volume>
+          <fpage>705</fpage>
+          <lpage>715</lpage>
+          <pub-id pub-id-type="doi">10.1523/JNEUROSCI.3822-08.2009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-jcm-09-00115">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Valet</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sprenger</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Boecker</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Willoch</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Rummeny</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Conrad</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Erhard</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Tolle</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distraction modulates connectivity of the cingulo-frontal cortex and the midbrain during pain&#x2014;An fMRI analysis</article-title>
+          <source>Pain</source>
+          <year>2004</year>
+          <volume>109</volume>
+          <fpage>399</fpage>
+          <lpage>408</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.pain.2004.02.033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-jcm-09-00115">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Villarreal</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Brattico</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Vase</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>&#xD8;stergaard</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Vuust</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Superior analgesic effect of an active distraction versus pleasant unfamiliar sounds and music: The influence of emotion and cognitive style</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <elocation-id>1e29397</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0029397</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-jcm-09-00115">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tracey</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Ploghaus</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gati</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Clare</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Menon</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Matthews</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Imaging attentional modulation of pain in the periaqueductal gray in humans</article-title>
+          <source>J. Neurosci.</source>
+          <year>2002</year>
+          <volume>22</volume>
+          <fpage>2748</fpage>
+          <lpage>2752</lpage>
+          <pub-id pub-id-type="doi">10.1523/JNEUROSCI.22-07-02748.2002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-jcm-09-00115">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pichierri</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wolf</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Murer</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>de Bruin</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cognitive and cognitive-motor interventions affecting physical functioning: A systematic review</article-title>
+          <source>BMC Geriatr.</source>
+          <year>2011</year>
+          <volume>11</volume>
+          <elocation-id>29</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2318-11-29</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-jcm-09-00115">
+        <label>43.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Niemann</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <source>California Verbal Learning Test (CVLT)&#x2014;Deutsche Adaptation</source>
+          <publisher-name>Pearson</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="B44-jcm-09-00115">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeidan</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Grant</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>McHaffie</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Coghill</surname>
+              <given-names>R.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mindfulness meditation-related pain relief: Evidence for unique brain mechanisms in the regulation of pain</article-title>
+          <source>Neurosci. Lett.</source>
+          <year>2012</year>
+          <volume>520</volume>
+          <fpage>165</fpage>
+          <lpage>173</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neulet.2012.03.082</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-jcm-09-00115">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wiebking</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Duncan</surname>
+              <given-names>N.W.</given-names>
+            </name>
+            <name>
+              <surname>Tiret</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hayes</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Marja&#x1F9;ska</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Doyon</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bajbouj</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Northoff</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>GABA in the insula&#x2014;A predictor of the neural response to interoceptive awareness</article-title>
+          <source>Neuroimage</source>
+          <year>2014</year>
+          <volume>86</volume>
+          <fpage>10</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neuroimage.2013.04.042</pub-id>
+          <pub-id pub-id-type="pmid">23618604</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-jcm-09-00115">
+        <label>46.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Segal</surname>
+              <given-names>Z.V.</given-names>
+            </name>
+            <name>
+              <surname>Teasdale</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>J.M.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mindfulness-Based Cognitive Therapy: Theoretical Rationale and Empirical Status</article-title>
+          <source>Mindfulness and Acceptance: Expanding the Cognitive-Behavioral Tradition</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Hayes</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Follette</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Linehan</surname>
+              <given-names>M.M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Guilford Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2004</year>
+          <fpage>45</fpage>
+          <lpage>65</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B47-jcm-09-00115">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Creswell</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Lindsay</surname>
+              <given-names>E.K.</given-names>
+            </name>
+            <name>
+              <surname>Villalba</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Chin</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mindfulness Training and Physical Health. Mechanisms and Outcomes</article-title>
+          <source>Psychosom. Med.</source>
+          <year>2019</year>
+          <volume>81</volume>
+          <fpage>224</fpage>
+          <lpage>232</lpage>
+          <pub-id pub-id-type="doi">10.1097/PSY.0000000000000675</pub-id>
+          <pub-id pub-id-type="pmid">30806634</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-jcm-09-00115">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grossman</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Niemann</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Walach</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mindfulness-based stress reduction and health benefits-A meta-analysis</article-title>
+          <source>J. Psychosom. Res.</source>
+          <year>2004</year>
+          <volume>57</volume>
+          <fpage>35</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-3999(03)00573-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-jcm-09-00115">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taren</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Gianaros</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Greco</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Lindsay</surname>
+              <given-names>E.K.</given-names>
+            </name>
+            <name>
+              <surname>Fairgrieve</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Rosen</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Ferris</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Julson</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Marsland</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mindfulness Meditation Training and Executive Control Network Resting State Functional Connectivity: A Randomized Controlled Trial</article-title>
+          <source>Psychosom. Med.</source>
+          <year>2018</year>
+          <volume>79</volume>
+          <fpage>674</fpage>
+          <lpage>683</lpage>
+          <pub-id pub-id-type="doi">10.1097/PSY.0000000000000466</pub-id>
+          <pub-id pub-id-type="pmid">28323668</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-jcm-09-00115">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ditto</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Eclache</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Short-term autonomic and cardiovascular effects of mindfulness body scan meditation</article-title>
+          <source>Ann. Behav. Med. A Publ. Soc. Behav. Med.</source>
+          <year>2006</year>
+          <volume>32</volume>
+          <fpage>227</fpage>
+          <lpage>234</lpage>
+          <pub-id pub-id-type="doi">10.1207/s15324796abm3203_9</pub-id>
+          <pub-id pub-id-type="pmid">17107296</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-jcm-09-00115">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morlion</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Coluzzi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Aldington</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kocot-Kepska</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pergolizzi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mangas</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Ahlbeck</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kalso</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pain chronification: What should a non-pain medicine specialist know?</article-title>
+          <source>Curr. Med. Res. Opin.</source>
+          <year>2019</year>
+          <volume>34</volume>
+          <fpage>1169</fpage>
+          <lpage>1178</lpage>
+          <pub-id pub-id-type="doi">10.1080/03007995.2018.1449738</pub-id>
+          <pub-id pub-id-type="pmid">29513044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-jcm-09-00115">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carr</surname>
+              <given-names>D.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Postmodern pain education &#x201C;from being to becoming&#x201D;</article-title>
+          <source>Pain</source>
+          <year>2018</year>
+          <volume>159</volume>
+          <fpage>49</fpage>
+          <lpage>55</lpage>
+          <pub-id pub-id-type="doi">10.1097/j.pain.0000000000001334</pub-id>
+          <pub-id pub-id-type="pmid">30113947</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-jcm-09-00115">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Von Korff</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ormel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Keefe</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Dworkin</surname>
+              <given-names>S.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Grading the severity of chronic pain</article-title>
+          <source>Pain</source>
+          <year>1992</year>
+          <volume>50</volume>
+          <fpage>133</fpage>
+          <lpage>149</lpage>
+          <pub-id pub-id-type="doi">10.1016/0304-3959(92)90154-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-jcm-09-00115">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cohen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kamarck</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mermelstein</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A global measure of perceived stress</article-title>
+          <source>J. Health Soc. Behav.</source>
+          <year>1983</year>
+          <volume>24</volume>
+          <fpage>385</fpage>
+          <lpage>396</lpage>
+          <pub-id pub-id-type="doi">10.2307/2136404</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-jcm-09-00115">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Appels</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hoppener</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Mulder</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A questionnaire to assess premonitory symptoms of myocardial infarction</article-title>
+          <source>Int. J. Cardiol.</source>
+          <year>1987</year>
+          <volume>17</volume>
+          <fpage>15</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="doi">10.1016/0167-5273(87)90029-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-jcm-09-00115">
+        <label>56.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herrmann-Lingen</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Buss</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Snaith</surname>
+              <given-names>R.P.</given-names>
+            </name>
+          </person-group>
+          <source>Hospital Anxiety and Depression Scale&#x2014;Deutsche Version (HADS-D)</source>
+          <publisher-name>Verlag Hans Huber</publisher-name>
+          <publisher-loc>Bern, Switzerland</publisher-loc>
+          <year>1995</year>
+        </element-citation>
+      </ref>
+      <ref id="B57-jcm-09-00115">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pfingsten</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Leibing</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Franz</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bansemer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Busch</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Hildebrandt</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fear-avoidance-beliefs in patients with backpain</article-title>
+          <source>Schmerz</source>
+          <year>1997</year>
+          <volume>11</volume>
+          <fpage>387</fpage>
+          <lpage>395</lpage>
+          <pub-id pub-id-type="doi">10.1007/s004820050114</pub-id>
+          <pub-id pub-id-type="pmid">12799796</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-jcm-09-00115">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kunz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Capito</surname>
+              <given-names>E.S.</given-names>
+            </name>
+            <name>
+              <surname>Horn-Hofmann</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Baum</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Scheel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Karmann</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Priebe</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Lautenbacher</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Psychometric properties of the German version of the Pain Vigilance and Awareness Questionnaire (PVAQ) in pain-free samples and samples with acute and chronic pain</article-title>
+          <source>Int. J. Behav. Med.</source>
+          <year>2017</year>
+          <volume>24</volume>
+          <fpage>260</fpage>
+          <lpage>271</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12529-016-9585-4</pub-id>
+          <pub-id pub-id-type="pmid">27481106</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-jcm-09-00115">
+        <label>59.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schwarzer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Schulz</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <source>Berliner Social-Support Skalen</source>
+          <publisher-name>Freie Universit&#xE4;t</publisher-name>
+          <publisher-loc>Berlin, Germany</publisher-loc>
+          <year>2000</year>
+        </element-citation>
+      </ref>
+      <ref id="B60-jcm-09-00115">
+        <label>60.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>R-Core-Team</collab>
+          </person-group>
+          <article-title>R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing</article-title>
+          <year>2019</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.R-project.org/" ext-link-type="uri">https://www.R-project.org/</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-30">(accessed on 30 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B61-jcm-09-00115">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dworkin</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Turk</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Wyrwich</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Beaton</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Cleeland</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Farrar</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Haythornthwaite</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Jensen</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Kerns</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Ader</surname>
+              <given-names>D.N.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Interpreting the Clinical Importance of Treatment Outcomes in Chronic Pain Clinical Trials: IMMPACT Recommendations</article-title>
+          <source>J. Pain</source>
+          <year>2008</year>
+          <volume>9</volume>
+          <fpage>105</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jpain.2007.09.005</pub-id>
+          <pub-id pub-id-type="pmid">18055266</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-jcm-09-00115">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goldsmith</surname>
+              <given-names>E.S.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Greer</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Murdoch</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>MacDonald</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>McKenzie</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Rosebush</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Wilt</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Focused Evidence Review: Psychometric Properties of Patient-Reported Outcome Measures for Chronic Musculoskeletal Pain</article-title>
+          <source>J. Gen. Intern. Med.</source>
+          <year>2018</year>
+          <volume>33</volume>
+          <fpage>61</fpage>
+          <lpage>70</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11606-018-4327-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63-jcm-09-00115">
+        <label>63.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Von Korff</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of Chronic Pain in Epidemiological and Health Services Research: Empirical Bases and New Directions</article-title>
+          <source>Handbook of Pain Assessment</source>
+          <publisher-name>The Guilford Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2011</year>
+          <fpage>455</fpage>
+          <lpage>473</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B64-jcm-09-00115">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krebs</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Bair</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Damush</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Tu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kroenke</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative responsiveness of pain outcome measures among primary care patients with musculoskeletal pain</article-title>
+          <source>Med. Care</source>
+          <year>2010</year>
+          <volume>48</volume>
+          <fpage>1007</fpage>
+          <lpage>1014</lpage>
+          <pub-id pub-id-type="doi">10.1097/MLR.0b013e3181eaf835</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B65-jcm-09-00115">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bernard</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Romain</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Caudroit</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chevance</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Carayol</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gourlan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Needham Dancause</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Moullec</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cognitive behavior therapy combined with exercise for adults with chronic diseases: Systematic review and meta-analysis</article-title>
+          <source>Health Psychol.</source>
+          <year>2018</year>
+          <volume>37</volume>
+          <fpage>433</fpage>
+          <lpage>450</lpage>
+          <pub-id pub-id-type="doi">10.1037/hea0000578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B66-jcm-09-00115">
+        <label>66.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Broman-Fulks</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Abraham</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Canu</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Nieman</surname>
+              <given-names>D.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Anxiety sensitivity mediates the relationship between exercise frequency and anxiety and depression symptomology</article-title>
+          <source>Stress Health</source>
+          <year>2018</year>
+          <volume>34</volume>
+          <fpage>500</fpage>
+          <lpage>508</lpage>
+          <pub-id pub-id-type="doi">10.1002/smi.2810</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B67-jcm-09-00115">
+        <label>67.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>B.E.</given-names>
+            </name>
+            <name>
+              <surname>Hendrick</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bateman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Holden</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Littlewood</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>T.O.</given-names>
+            </name>
+            <name>
+              <surname>Logan</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Musculoskeletal pain and exercise&#x2014;Challenging existing paradigms and introducing new</article-title>
+          <source>Br. J. Sports Med.</source>
+          <year>2019</year>
+          <volume>53</volume>
+          <fpage>907</fpage>
+          <lpage>912</lpage>
+          <pub-id pub-id-type="doi">10.1136/bjsports-2017-098983</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B68-jcm-09-00115">
+        <label>68.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wasserstein</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Schirm</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Lazar</surname>
+              <given-names>N.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Moving to a World Beyond &#x201C;<italic>p</italic> &lt; 0.05&#x201D;</article-title>
+          <source>Am. Stat.</source>
+          <year>2019</year>
+          <volume>73</volume>
+          <fpage>1</fpage>
+          <lpage>19</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="jcm-09-00115-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Study flow. (SMT: Sensorimotor Training, SMT/BT: Sensorimotor and Behavioral Training, CG: Control Group, CPG: Chronic Pain Grade).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jcm-09-00115-g001.tif"/>
+      </fig>
+      <fig id="jcm-09-00115-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Baseline-Models for HADS anxiety (above) and vital exhaustion, showing an interaction effect of multidisciplinary treatment for high vs. low pain persons.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jcm-09-00115-g002.tif"/>
+      </fig>
+      <fig id="jcm-09-00115-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Difference score models for HADS anxiety (above) and subjective pain disability showing an interaction effect of treatments (multidisciplinary vs. regular routines) for persons with high pain.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jcm-09-00115-g003.tif"/>
+      </fig>
+      <table-wrap id="jcm-09-00115-t001" position="float">
+        <object-id pub-id-type="pii">jcm-09-00115-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Descriptive characteristics (X <bold>&#xB1;</bold> SD) at baseline (M1), 12 weeks (M4), and 24 weeks (M5) (<italic>n</italic> = 291).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Characteristic</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">%</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">X</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">SD</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>n</italic>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">X</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">SD</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>n</italic>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">X</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">SD</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>n</italic>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin">M1</td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin">M4</td>
+              <td colspan="3" align="center" valign="middle" style="border-bottom:solid thin">M5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Gender (female)</td>
+              <td align="center" valign="middle">61.1</td>
+              <td align="center" valign="middle">--</td>
+              <td align="center" valign="middle">--</td>
+              <td align="center" valign="middle">291</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Higher Education</td>
+              <td align="center" valign="middle">40.53</td>
+              <td align="center" valign="middle">--</td>
+              <td align="center" valign="middle">--</td>
+              <td align="center" valign="middle">227</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Living in partnership</td>
+              <td align="center" valign="middle">55.95</td>
+              <td align="center" valign="middle">--</td>
+              <td align="center" valign="middle">--</td>
+              <td align="center" valign="middle">227</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Age</td>
+              <td align="center" valign="middle">--</td>
+              <td align="center" valign="middle">39.7</td>
+              <td align="center" valign="middle">12.7</td>
+              <td align="center" valign="middle">291</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-top:solid thin">CPG CPI CG <sup>a</sup></td>
+              <td align="center" valign="middle" style="border-top:solid thin"> </td>
+              <td align="center" valign="middle" style="border-top:solid thin">32.81</td>
+              <td align="center" valign="middle" style="border-top:solid thin">19.35</td>
+              <td align="center" valign="middle" style="border-top:solid thin">146</td>
+              <td align="center" valign="middle" style="border-top:solid thin">28.43</td>
+              <td align="center" valign="middle" style="border-top:solid thin">20.07</td>
+              <td align="center" valign="middle" style="border-top:solid thin">83</td>
+              <td align="center" valign="middle" style="border-top:solid thin">25.42</td>
+              <td align="center" valign="middle" style="border-top:solid thin">17.69</td>
+              <td align="center" valign="middle" style="border-top:solid thin">83</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CPG CPI SMT + BT</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">36.34</td>
+              <td align="center" valign="middle">18.77</td>
+              <td align="center" valign="middle">145</td>
+              <td align="center" valign="middle">27.27</td>
+              <td align="center" valign="middle">17.85</td>
+              <td align="center" valign="middle">89</td>
+              <td align="center" valign="middle">23.65</td>
+              <td align="center" valign="middle">16.18</td>
+              <td align="center" valign="middle">80</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CPG DISS CG</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">17.05</td>
+              <td align="center" valign="middle">21.93</td>
+              <td align="center" valign="middle">146</td>
+              <td align="center" valign="middle">10.32</td>
+              <td align="center" valign="middle">17.11</td>
+              <td align="center" valign="middle">83</td>
+              <td align="center" valign="middle">8.05</td>
+              <td align="center" valign="middle">12.65</td>
+              <td align="center" valign="middle">83</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CPG DISS SMT + BT</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">25.08</td>
+              <td align="center" valign="middle">24.66</td>
+              <td align="center" valign="middle">145</td>
+              <td align="center" valign="middle">12.06</td>
+              <td align="center" valign="middle">17.38</td>
+              <td align="center" valign="middle">89</td>
+              <td align="center" valign="middle">8.71</td>
+              <td align="center" valign="middle">13.29</td>
+              <td align="center" valign="middle">80</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">fab_activity CG <sup>b</sup></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">12.56</td>
+              <td align="center" valign="middle">6.48</td>
+              <td align="center" valign="middle">142</td>
+              <td align="center" valign="middle">10.04</td>
+              <td align="center" valign="middle">6.66</td>
+              <td align="center" valign="middle">82</td>
+              <td align="center" valign="middle">14.58</td>
+              <td align="center" valign="middle">3.89</td>
+              <td align="center" valign="middle">36</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">fab_activity SMT+ BT</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">12.86</td>
+              <td align="center" valign="middle">5.29</td>
+              <td align="center" valign="middle">139</td>
+              <td align="center" valign="middle">13.01</td>
+              <td align="center" valign="middle">5.85</td>
+              <td align="center" valign="middle">88</td>
+              <td align="center" valign="middle">12.26</td>
+              <td align="center" valign="middle">5.71</td>
+              <td align="center" valign="middle">53</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HADS anxiety CG <sup>c</sup></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">5.17</td>
+              <td align="center" valign="middle">3.04</td>
+              <td align="center" valign="middle">144</td>
+              <td align="center" valign="middle">5.99</td>
+              <td align="center" valign="middle">3.20</td>
+              <td align="center" valign="middle">80</td>
+              <td align="center" valign="middle">5.80</td>
+              <td align="center" valign="middle">3.25</td>
+              <td align="center" valign="middle">79</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HADS anxiety SMT + BT</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">5.23</td>
+              <td align="center" valign="middle">3.04</td>
+              <td align="center" valign="middle">142</td>
+              <td align="center" valign="middle">4.63</td>
+              <td align="center" valign="middle">2.86</td>
+              <td align="center" valign="middle">82</td>
+              <td align="center" valign="middle">4.63</td>
+              <td align="center" valign="middle">3.02</td>
+              <td align="center" valign="middle">70</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HADS depression CG</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">3.69</td>
+              <td align="center" valign="middle">2.99</td>
+              <td align="center" valign="middle">144</td>
+              <td align="center" valign="middle">3.77</td>
+              <td align="center" valign="middle">3.33</td>
+              <td align="center" valign="middle">80</td>
+              <td align="center" valign="middle">3.79</td>
+              <td align="center" valign="middle">3.06</td>
+              <td align="center" valign="middle">77</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HADS depression SMT + BT</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">3.81</td>
+              <td align="center" valign="middle">2.97</td>
+              <td align="center" valign="middle">143</td>
+              <td align="center" valign="middle">3.13</td>
+              <td align="center" valign="middle">3.08</td>
+              <td align="center" valign="middle">84</td>
+              <td align="center" valign="middle">3.18</td>
+              <td align="center" valign="middle">3.30</td>
+              <td align="center" valign="middle">71</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PSS CG <sup>d</sup></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">16.09</td>
+              <td align="center" valign="middle">6.47</td>
+              <td align="center" valign="middle">139</td>
+              <td align="center" valign="middle">16.55</td>
+              <td align="center" valign="middle">5.65</td>
+              <td align="center" valign="middle">80</td>
+              <td align="center" valign="middle">14.25</td>
+              <td align="center" valign="middle">5.59</td>
+              <td align="center" valign="middle">79</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PSS SMT + BT</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">15.88</td>
+              <td align="center" valign="middle">5.77</td>
+              <td align="center" valign="middle">137</td>
+              <td align="center" valign="middle">14.59</td>
+              <td align="center" valign="middle">5.93</td>
+              <td align="center" valign="middle">86</td>
+              <td align="center" valign="middle">13.57</td>
+              <td align="center" valign="middle">7.37</td>
+              <td align="center" valign="middle">76</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">VE CG <sup>e</sup></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">7.00</td>
+              <td align="center" valign="middle">4.87</td>
+              <td align="center" valign="middle">144</td>
+              <td align="center" valign="middle">7.38</td>
+              <td align="center" valign="middle">4.89</td>
+              <td align="center" valign="middle">82</td>
+              <td align="center" valign="middle">6.83</td>
+              <td align="center" valign="middle">4.76</td>
+              <td align="center" valign="middle">82</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">VE SMT + BT</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">7.57</td>
+              <td align="center" valign="middle">5.15</td>
+              <td align="center" valign="middle">141</td>
+              <td align="center" valign="middle">6.15</td>
+              <td align="center" valign="middle">4.72</td>
+              <td align="center" valign="middle">85</td>
+              <td align="center" valign="middle">6.18</td>
+              <td align="center" valign="middle">5.08</td>
+              <td align="center" valign="middle">79</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PVAQ CG <sup>f</sup></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">37.27</td>
+              <td align="center" valign="middle">13.02</td>
+              <td align="center" valign="middle">146</td>
+              <td align="center" valign="middle">34.18</td>
+              <td align="center" valign="middle">13.55</td>
+              <td align="center" valign="middle">83</td>
+              <td align="center" valign="middle">--</td>
+              <td align="center" valign="middle">--</td>
+              <td align="center" valign="middle">--</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PVAQ SMT + BT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">38.10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.53</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">145</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11.68</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">89</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">--</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">--</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">--</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p><sup>a</sup> CPG (Chronic Pain Grade scales): CPI characteristic pain intensity and DISS: subjective disability (score 0&#x2013;100), <sup>b</sup> FABQ: pain-related cognitions scale: fab_activity (caused by bodily activity, score 0&#x2013;30), <sup>c</sup> HADS-D: Anxiety and Depression (score 0&#x2013;21), <sup>d</sup> PSS: Perceived Stress Scale (score 1&#x2013;40), <sup>e</sup> vital exhaustion questionnaire (score 0&#x2013;18), <sup>f</sup> PVAQ: Pain Vigilance and Avoidance Questionnaire (score 0&#x2013;80); CG: Control Group, SMT + BT: multidisciplinary group. X: Mean Value, SD: Standard Deviation.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="jcm-09-00115-t002" position="float">
+        <object-id pub-id-type="pii">jcm-09-00115-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Baseline&#x2013;Models: differences in outcome between high and low pain participants (within group comparison).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Characteristics</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">M1 to M4</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">M1 to M5</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Groups, Test Statistic</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">CG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SMT + BT</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">F&#x2003;&#x2003;(<italic>p</italic>)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">CG</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SMT + BT</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">F&#x2003;&#x2003;(<italic>p</italic>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">CPG CPI <sup>a</sup></td>
+              <td align="center" valign="middle">&#x2212;2.34</td>
+              <td align="center" valign="middle">&#x2212;8.57</td>
+              <td align="center" valign="middle">0.67 (0.415)</td>
+              <td align="center" valign="middle">0.35</td>
+              <td align="center" valign="middle">&#x2212;2.46</td>
+              <td align="center" valign="middle">0.15 (0.700)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CPG DISS</td>
+              <td align="center" valign="middle">&#x2212;3.40</td>
+              <td align="center" valign="middle">&#x2212;4.63</td>
+              <td align="center" valign="middle">0.02 (0.878)</td>
+              <td align="center" valign="middle">4.30</td>
+              <td align="center" valign="middle">4.56</td>
+              <td align="center" valign="middle">0.00 (0.964)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">FABQ_activity <sup>b</sup> </td>
+              <td align="center" valign="middle">1.91</td>
+              <td align="center" valign="middle">&#x2212;1.23</td>
+              <td align="center" valign="middle">0.91 (0.344)</td>
+              <td align="center" valign="middle">0.59</td>
+              <td align="center" valign="middle">&#x2212;0.10</td>
+              <td align="center" valign="middle">0.07 (0.786)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HADS anxiety <sup>c</sup></td>
+              <td align="center" valign="middle">1.62</td>
+              <td align="center" valign="middle">&#x2212;1.10</td>
+              <td align="center" valign="middle">5.96 (0.017) *</td>
+              <td align="center" valign="middle">2.21</td>
+              <td align="center" valign="middle">&#x2212;0.39</td>
+              <td align="center" valign="middle">4.00 (0.048) *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HADS depression</td>
+              <td align="center" valign="middle">0.90</td>
+              <td align="center" valign="middle">0.39</td>
+              <td align="center" valign="middle">0.17 (0.683)</td>
+              <td align="center" valign="middle">&#x2212;0.36</td>
+              <td align="center" valign="middle">0.02</td>
+              <td align="center" valign="middle">0.09 (0.765)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PSS Perceived stress <sup>d</sup></td>
+              <td align="center" valign="middle">&#x2212;0.11</td>
+              <td align="center" valign="middle">1.25</td>
+              <td align="center" valign="middle">0.36 (0.552)</td>
+              <td align="center" valign="middle">&#x2212;0.64</td>
+              <td align="center" valign="middle">0.98</td>
+              <td align="center" valign="middle">0. 13 (0.579)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">VE Vital Exhaustion <sup>e</sup></td>
+              <td align="center" valign="middle">1.33</td>
+              <td align="center" valign="middle">&#x2212;0.95</td>
+              <td align="center" valign="middle">1.70 (0.194)</td>
+              <td align="center" valign="middle">0.42</td>
+              <td align="center" valign="middle">&#x2212;2.20</td>
+              <td align="center" valign="middle">2.17 (0.144) <sup>#</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PVAQ Pain Vigilance Avoidance <sup>f</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.47</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.41</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.06 (0.800)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">--</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">--</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">--</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p><italic>p</italic> &lt; 0.1 <sup>#</sup> <italic>p</italic> &lt; 0.05 *; for the exact <italic>p</italic>-value for F-term, see in the brackets; the F-test shows significance of interaction terms. Multiple linear regression models with adjustment of baseline value, M1 to M4 and M1 to M5. Separate models for each scale, including categorical interaction between treatment group and pain class, controlled for age, gender, and study center. <sup>a</sup> CPG (Chronic Pain Grade scales): CPI characteristic pain intensity and DISS: subjective disability (score 0&#x2013;100), <sup>b</sup> FABQ: pain-related cognitions scale: fab_activity (caused by bodily activity, score 0&#x2013;30), <sup>c</sup> HADS-D: Anxiety and Depression (score 0&#x2013;21), <sup>d</sup> PSS: Perceived Stress Scale (score 1&#x2013;40), <sup>e</sup> vital exhaustion questionnaire (score 0&#x2013;18), <sup>f</sup> Pain Vigilance and Avoidance Questionnaire (score 0&#x2013;80).</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="jcm-09-00115-t003" position="float">
+        <object-id pub-id-type="pii">jcm-09-00115-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Difference score models between group differences in comparison to the control group. Presentation of the extent of profit for persons with higher pain in group comparison.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Characteristics</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">SMT + BT</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">F&#x2003;&#x2003;(<italic>p</italic>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">SMT + BT</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">F&#x2003;&#x2003;(<italic>p</italic>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Differences in comparison to CG</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">M4&#x2013;M1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">M5&#x2013;M1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CPG CPI <sup>a</sup> </td>
+              <td align="center" valign="middle">&#x2212;7.95</td>
+              <td align="center" valign="middle">0.85 (0.359)</td>
+              <td align="center" valign="middle">&#x2212;6.24</td>
+              <td align="center" valign="middle">0.34 (0.559)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CPG DISS</td>
+              <td align="center" valign="middle">&#x2212;11.81</td>
+              <td align="center" valign="middle">1.55 (0.215) </td>
+              <td align="center" valign="middle">&#x2212;17.03</td>
+              <td align="center" valign="middle">2.16 (0.109) <sup>#</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">FABQ_activity <sup>b</sup></td>
+              <td align="center" valign="middle">&#x2212;0.11</td>
+              <td align="center" valign="middle">0.72 (0.401)</td>
+              <td align="center" valign="middle">&#x2212;2.88</td>
+              <td align="center" valign="middle">0.02 (0.892)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HADS anxiety <sup>c</sup></td>
+              <td align="center" valign="middle">&#x2212;3.54</td>
+              <td align="center" valign="middle">10.55 (0.001) **</td>
+              <td align="center" valign="middle">&#x2212;2.88</td>
+              <td align="center" valign="middle">7.70 (0.006) **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HADS depression </td>
+              <td align="center" valign="middle">&#x2212;1.44</td>
+              <td align="center" valign="middle">0.46 (0.501)</td>
+              <td align="center" valign="middle">&#x2212;0.61</td>
+              <td align="center" valign="middle">0.00 (0.993)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PSS Perceived stress <sup>d</sup></td>
+              <td align="center" valign="middle">0.09</td>
+              <td align="center" valign="middle">0.09 (0.768)</td>
+              <td align="center" valign="middle">0.68</td>
+              <td align="center" valign="middle">0.11 (0.746)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">VE Vital Exhaustion <sup>e</sup> </td>
+              <td align="center" valign="middle">&#x2212;3.06</td>
+              <td align="center" valign="middle">1.37 (0.244)</td>
+              <td align="center" valign="middle">&#x2212;3.01</td>
+              <td align="center" valign="middle">1.86 (0.195) </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PVAQ Pain Vigilance Avoidance <sup>f</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.34 (0.560)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">--</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">--</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p><italic>p</italic> &lt; 0.1 <sup>#</sup>, <italic>p</italic> &lt; 0.01 **; for the exact <italic>p</italic>-value for the F-term, see in the brackets; the F-test shows significance of interaction terms. Multiple linear regression models: The models (separate models for each scale) with difference scores as outcome (M4&#x2013;M1 and M5&#x2013;M1) include categorical interaction between treatment group and pain class, controlled for age, gender, and study center. <sup>a</sup> CPG (Chronic Pain Grade scales): CPI characteristic pain intensity and DISS: subjective disability (score 0&#x2013;100), <sup>b</sup> FABQ: pain-related cognitions scale: fab_activity (caused by bodily activity, score 0&#x2013;30), <sup>c</sup> HADS-D: Anxiety and Depression (score 0&#x2013;21), <sup>d</sup> PSS: Perceived Stress Scales (score 1&#x2013;40), <sup>e</sup> Vital Exhaustion questionnaire (score 0&#x2013;18), <sup>f</sup> Pain Vigilance and Avoidance Questionnaire (score 0&#x2013;80).</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

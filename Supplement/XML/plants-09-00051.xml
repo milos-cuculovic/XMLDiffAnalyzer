@@ -1,0 +1,2536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">plants</journal-id>
+      <journal-title-group>
+        <journal-title>Plants</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Plants</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Plants</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2223-7747</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/plants9010051</article-id>
+      <article-id pub-id-type="publisher-id">plants-09-00051</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Complete Chloroplast Genomes of Two <italic>Lespedeza</italic> Species: Insights into Codon Usage Bias, RNA Editing Sites, and Phylogenetic Relationships in Desmodieae (Fabaceae: Papilionoideae)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7309-2327</contrib-id>
+          <name>
+            <surname>Somaratne</surname>
+            <given-names>Yamuna</given-names>
+          </name>
+          <xref rid="af1-plants-09-00051" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guan</surname>
+            <given-names>De-Long</given-names>
+          </name>
+          <xref rid="af1-plants-09-00051" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Wen-Qiang</given-names>
+          </name>
+          <xref rid="af2-plants-09-00051" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhao</surname>
+            <given-names>Liang</given-names>
+          </name>
+          <xref rid="af3-plants-09-00051" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7630-632X</contrib-id>
+          <name>
+            <surname>Xu</surname>
+            <given-names>Sheng-Quan</given-names>
+          </name>
+          <xref rid="af1-plants-09-00051" ref-type="aff">1</xref>
+          <xref rid="c1-plants-09-00051" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-plants-09-00051"><label>1</label>College of Life Sciences, Shaanxi Normal University, Xi&#x2019;an 710062, China; <email>yamuna@snnu.edu.cn</email> (Y.S.); <email>guandelong@snnu.edu.cn</email> (D.-L.G.)</aff>
+      <aff id="af2-plants-09-00051"><label>2</label>College of Life Sciences, Yan&#x2019;an University, Yan&#x2019;an 716000, China; <email>wenqiangwang@yau.edu.cn</email></aff>
+      <aff id="af3-plants-09-00051"><label>3</label>College of Life Sciences, Northwest A &amp; F University, Yangling 712100, China; <email>biology_zhaoliang@126.com</email></aff>
+      <author-notes>
+        <corresp id="c1-plants-09-00051"><label>*</label>Correspondence: <email>xushengquan@snnu.edu.cn</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>1</issue>
+      <elocation-id>51</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The genus <italic>Lespedeza</italic> (tribe: Desmodieae) consists of about 40 species that have high medicinal and economic value. However, in this genus, using morphological characters, the species identification is quite complicated, which can be solved by the analysis of the complete chloroplast genomes. As primary organelle genomes, the complete genome sequences of chloroplasts (cp) provide unique molecular information to study the divergence of species, RNA editing, and phylogeny. Therefore, to the best of our knowledge, for the first time, we sequenced the complete cp genomes of two representative <italic>Lespedeza</italic> species: <italic>Lespedeza davurica</italic> and <italic>Lespedeza cuneata</italic>. The cp genomes of both the species were found to be 149,010 bp in length, exhibiting the typical angiosperm chloroplast structure containing four regions. The <italic>Lespedeza</italic> cp genomes showed similar conserved gene contents, order, and orientations with a total GC content of 35.0%. A total of 128 genes, including 83 protein-coding genes, 37 tRNAs, and eight rRNAs, were identified from each genome. Unique molecular features of the two <italic>Lespedeza</italic> cp genome sequences were obtained by performing the analysis of repeats, sequence divergence, codon usage, and predicting the RNA editing sites in addition to phylogenetic analysis with other key genera in tribe Desmodieae. Using the two datasets, the phylogenetic relationship of <italic>Lespedeza</italic> species among Deasmodieae was discovered, suggesting that whole cp genomes provided useful information for phylogenetic studies of these species.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>
+          <italic>Lespedeza</italic>
+        </kwd>
+        <kwd>desmodieae</kwd>
+        <kwd>papilionoideae</kwd>
+        <kwd>fabaceae</kwd>
+        <kwd>chloroplast genome</kwd>
+        <kwd>phylogenetic relationships</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-plants-09-00051" sec-type="intro">
+      <title>1. Introduction</title>
+      <p><italic>Lespedeza</italic> is a genus in the tribe Desmodieae, which belongs to the subfamily Papilionoideae of the family Fabaceae, and this genus comprises nearly 40 species distributed mainly in eastern Asia and eastern North America [<xref ref-type="bibr" rid="B1-plants-09-00051">1</xref>]. These plants grow as shrubs or trailing vines and can be either annual or perennial. Due to the structure of the plants and their inflorescences, some species like <italic>Lespedeza bicolor</italic>, are used as ornamental plants. The leaves of these plants can be used as forage and for soil enrichment, and its deep root system is useful to prevent soil erosion. For example, <italic>Lespedeza cuneata</italic> and <italic>Lespedeza davurica</italic> plant as a forage crop for livestock and are used to conserve soil and improve soil conditions [<xref ref-type="bibr" rid="B2-plants-09-00051">2</xref>,<xref ref-type="bibr" rid="B3-plants-09-00051">3</xref>]. Due to its high tannin content at maturity, animals are fed on <italic>L. cuneata</italic> at an early stage of the plant. The high adaptability to drought and good forage quality of <italic>L. davurica</italic> are important for its use as a fodder legume [<xref ref-type="bibr" rid="B4-plants-09-00051">4</xref>]. Similar to most other legumes, the deep root system of the <italic>Lespedeza</italic> has nitrogen-fixing nodules that harbor the symbiotic soil bacteria, making this plant a nitrogen fertilizer [<xref ref-type="bibr" rid="B5-plants-09-00051">5</xref>]. Moreover, several bioactive compounds that have antidiabetic activities have been extracted from some species of <italic>Lespedeza</italic> that were used in medicine to prevent diabetes in ancient times. Recent studies have shown that <italic>L. davurica</italic> exerts a protective function on &#x3B2;-cells in the pancreas, which can regulate blood glucose in Type 1 diabetes [<xref ref-type="bibr" rid="B6-plants-09-00051">6</xref>]. Due to the distinct values of each <italic>Lespedeza</italic> species, it is vital to differentiate them at the species level for proper utilization and conservation.</p>
+      <p>Classification of these <italic>Lespedeza</italic> species has been performed for many years using different methods. Ohashi [<xref ref-type="bibr" rid="B7-plants-09-00051">7</xref>] classified genus <italic>Lespedeza</italic> into two subgenera, <italic>Lespedeza</italic> and <italic>Macrolespedeza</italic>, based on the floral characters and the pollen morphology [<xref ref-type="bibr" rid="B8-plants-09-00051">8</xref>]. <italic>Macrolespedeza</italic> is distributed only in East Asia while <italic>Lespedeza</italic> is distributed in both eastern North America and East Asia. The identification of eastern Asian and eastern North American species based on morphological characteristics was discussed decades ago [<xref ref-type="bibr" rid="B9-plants-09-00051">9</xref>]. However, Ohashi and Nemoto (2014) [<xref ref-type="bibr" rid="B10-plants-09-00051">10</xref>] showed that these two subgenera differ only in seedling morphology. Phylogenetic analysis has been performed from the DNA sequences of the nuclear ribosomal internal transcribed spacer (ITS) and plastid regions of <italic>Lespedeza</italic> species [<xref ref-type="bibr" rid="B1-plants-09-00051">1</xref>]. Moreover, Kim et al. (2012) [<xref ref-type="bibr" rid="B11-plants-09-00051">11</xref>] classified <italic>Lespedeza</italic> species using their metabolite profiling; previous research has shown that the floral morphology of <italic>Lespedeza</italic> was similar to that of two genera, <italic>Campylotropis</italic> and <italic>Kummerowia</italic>, which were formerly placed in <italic>Lespedeza</italic> [<xref ref-type="bibr" rid="B8-plants-09-00051">8</xref>]. Therefore, an accurate method of plant identification is essential for <italic>Lespedeza</italic> species. The whole chloroplast genome contains more effective molecular markers, referred to as DNA barcodes, which are useful for identifying species accurately. Chloroplast genomic sequences provide molecular information that is a good resource for plant systematics, phylogenetic studies, and population genomics [<xref ref-type="bibr" rid="B12-plants-09-00051">12</xref>,<xref ref-type="bibr" rid="B13-plants-09-00051">13</xref>]. Therefore, in recent years, many chloroplast genomes in the family Fabaceae, have been completely sequenced. Complete chloroplast sequences of <italic>L. maritima</italic>, classified in subgenus <italic>Macrolespedeza</italic> of the genus <italic>Lespedeza</italic>, has been reported recently [<xref ref-type="bibr" rid="B14-plants-09-00051">14</xref>].</p>
+      <p>The typical angiosperm chloroplast genome is a circular, double-stranded DNA molecule with a size ranging from 120 to 160 kb [<xref ref-type="bibr" rid="B15-plants-09-00051">15</xref>]. It contains about 130 genes within the regions of two identical copies of inverted repeats (IRs), a large single-copy (LSC) region, and a small single-copy (SSC) region [<xref ref-type="bibr" rid="B16-plants-09-00051">16</xref>,<xref ref-type="bibr" rid="B17-plants-09-00051">17</xref>]. Chloroplast genomes are maternally inherited, and they contain highly conserved gene structures [<xref ref-type="bibr" rid="B18-plants-09-00051">18</xref>]. Because of its stable structures and uniparental inheritance, it has been used in comparative analysis to understand the evolution of closely related species. Over the past few years, whole chloroplast (cp) genome sequencing with next-generation sequencing technology (NGS) has become much more accurate, less expensive, less labor-intensive, and less time consuming than conventional Sanger sequencing [<xref ref-type="bibr" rid="B19-plants-09-00051">19</xref>,<xref ref-type="bibr" rid="B20-plants-09-00051">20</xref>,<xref ref-type="bibr" rid="B21-plants-09-00051">21</xref>]. Illumina-based NGS technology has been widely used recently, and the molecular structures of many plant cp genomes have been discovered in detail within a short period [<xref ref-type="bibr" rid="B22-plants-09-00051">22</xref>]. Chloroplast genomic information has been widely used for molecular marker development in different evolutionary studies [<xref ref-type="bibr" rid="B17-plants-09-00051">17</xref>,<xref ref-type="bibr" rid="B23-plants-09-00051">23</xref>]. Polymorphic simple sequence repeats (SSR) identified in the cp genomes were previously used for species identification, population genetics, and phylogenetic studies [<xref ref-type="bibr" rid="B24-plants-09-00051">24</xref>,<xref ref-type="bibr" rid="B25-plants-09-00051">25</xref>]. Codon usage bias in cp genomes has been studied as it plays an important role in gene expression [<xref ref-type="bibr" rid="B26-plants-09-00051">26</xref>,<xref ref-type="bibr" rid="B27-plants-09-00051">27</xref>]. Furthermore, identifying the RNA editing sites in the cp genome is vital to understand the correct translation process and mutations of genes [<xref ref-type="bibr" rid="B28-plants-09-00051">28</xref>,<xref ref-type="bibr" rid="B29-plants-09-00051">29</xref>]. Comparative analyses of cp genomes based on these variations are useful resources to investigate the evolutionary relationship among species.</p>
+      <p>In this study, we obtained the complete cp DNA sequences of two <italic>Lespedeza</italic> species in subgenus <italic>Lespedeza</italic>, <italic>Lespedeza davurica</italic> and <italic>Lespedeza cuneata</italic>, using an Illumina HiSeq X Ten sequencing platform. Our aims of this study were (1) to explore the molecular features of each genome compared them with the <italic>Macrolespedeza</italic> species, <italic>L. maritima</italic>, and other members of the tribe Desmodieae; (2) to observe the variable regions between species in the genus <italic>Lespedeza</italic>; (3) to examine the SSR distributions, codon usage patterns, and RNA editing sites among <italic>Lespedeza</italic> cp genomes; and (4) to determine phylogenetic position of subgenus <italic>Lespedeza</italic> in the tribe Desmodieae. The results obtained from this study will provide a deeper understanding and classification of this genus in tribe Desmodieae.</p>
+    </sec>
+    <sec id="sec2-plants-09-00051" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-plants-09-00051">
+        <title>2.1. Comparison of Lespedeza cp Genome Structures</title>
+        <p>The length of the complete genomes of both <italic>L. davurica</italic> (MH800328) and <italic>L. cuneata</italic> (MN268503) were 149,010 bp and exhibited the typical angiosperm circular chloroplast structure containing four regions: Large single-copy region (LSC; 82,373 bp, 82,395 bp), small single-copy region (SSC; 18,975 bp, 18,951 bp), and a pair of inverted repeats (IR) each (23,831 bp, 23,832 bp). The cp genomes showed similar gene contents, orders, and orientations (<xref ref-type="fig" rid="plants-09-00051-f001">Figure 1</xref>). Nearly 52.2% of the complete chloroplast genomes consisted of protein-coding genes (77,868 bp), 6.1% consisted of rRNAs (9062 bp), and 1.8% consisted of tRNAs (2794 bp) in both species. In addition, similar characteristic features of the cp genomes were shared between <italic>L. davurica</italic> and <italic>L. cuneata</italic>.</p>
+        <p>The analysis revealed that the GC content of the cp genome of both the species was 35.0% and the IR regions exhibited highest GC content (42.2%) followed by the LSC regions (32.5%) and SSC regions (28.1%). The coding sequences (CDS) showed a similar total GC content of 36.0% in both species (<xref ref-type="table" rid="plants-09-00051-t001">Table 1</xref>).</p>
+        <p>A total of 128 total genes, including 83 protein-coding genes, 37 tRNAs, and eight rRNAs were identified from each genome and annotated using Dual Organellar GenoMe Annotator (DOGMA). In addition, 16 functional genes, including five protein-coding genes (<italic>rpl2</italic>, <italic>rpl23</italic>, <italic>ycf2</italic>, <italic>ndhB</italic>, and <italic>rps7</italic>), seven tRNA genes (<italic>trnI-CAU</italic>, <italic>trnN-GUU</italic>, <italic>trnR-ACG</italic>, <italic>trnA-UGC</italic>, <italic>trnI-GAU</italic>, <italic>trnV-GAC</italic>, and <italic>trnL-CAA</italic>), and four rRNA genes (<italic>rrn16</italic>, <italic>rrn23</italic>, <italic>rrn4.5</italic>, and <italic>rrn5</italic>) were duplicated in the IR regions of each chloroplast genome.</p>
+        <p>Eight protein-coding genes (<italic>petB</italic>, <italic>petD</italic>, <italic>atpF</italic>, <italic>ndhB</italic>, <italic>ndhA</italic>, <italic>rpoC1</italic>, <italic>rpl16</italic>, and <italic>rps16</italic>) and eight tRNA genes contained one intron, while three protein-coding genes (<italic>rps12</italic>, <italic>ycf3</italic>, and <italic>clpP</italic>) contained two introns (<xref ref-type="app" rid="app1-plants-09-00051">Supplementary Materials</xref>, <xref ref-type="app" rid="app1-plants-09-00051">Table S1</xref>). The 5&#x2032; end of the <italic>rps12</italic> gene was located in the LSC region and 3&#x2032; end duplicated in the IR regions in both the species. The basic features of these two chloroplast genomes were compared to six other species in the tribe Desmodieae: <italic>Lespedeza maritima</italic>, <italic>Kummerowia striata</italic>, <italic>Campylotropis macrocarpa</italic>, <italic>Hylodesmum podocarpum</italic>, <italic>Desmodium heterocarpon</italic>, and <italic>Ohwia caudata</italic> (<xref ref-type="app" rid="app1-plants-09-00051">Table S2</xref>).</p>
+      </sec>
+      <sec id="sec2dot2-plants-09-00051">
+        <title>2.2. Codon Usage Bias and Prediction of RNA Editing Sites</title>
+        <p>We analyzed the codon distribution among all protein-coding genes in the two <italic>Lespedeza</italic> species and compared them with <italic>L. maritima</italic>. These protein-coding sequences represented a total of 25,956 codons in <italic>L. davurica</italic> and <italic>L. cuneata</italic> each and 25,958 codons in <italic>L. maritima</italic>. They belonged to 61 codon types, which encoded 20 amino acids. Leucine was the most abundant amino acid, whereas cysteine showed the least abundance in three species (<xref ref-type="fig" rid="plants-09-00051-f002">Figure 2</xref>). The most often used synonymous codon was AAA, encoding lysine, and the least used was CGG, encoding arginine (<xref ref-type="app" rid="app1-plants-09-00051">Table S3</xref>). Relative synonymous codon usage (RSCU) is a good indicator to measure codon usage bias in coding sequences. This value is the ratio between the observed frequency and expected frequency of a codon. When the use of synonymous codons is less frequent than expected, the RSCU value is less than 1. However, when this value is more than 1, the expected frequency is less. Methionine and tryptophan showed RSCU = 1, indicating that codons AUG and UGG had no bias and preferences. The highest RSCU value was for UUA (~2.06) in leucine, and the lowest was GGC (0.3) in glycine. Moreover, leucine showed A or T (U) bias in all synonymous codons: UUA, UUG, CUU, CUC, CUA, and CUG. It was observed that the RSCU value for the specific amino acid increases with the number of codons. Leucine, serine, and arginine preferred six codon types, while methionine and tryptophan preferred one codon type. Similar codon usage patterns were exhibited in the three <italic>Lespedeza</italic> species (<xref ref-type="app" rid="app1-plants-09-00051">Table S3</xref>).</p>
+        <p>All RNA editing sites were in the same nucleotide and amino acid positions in <italic>Lespedeza</italic> species. A total of 84 RNA editing sites were predicted in 35 protein-coding genes in cp genomes. All the codon changes were C to T conversions. The most editing sites were observed for <italic>ndh</italic> genes. The <italic>ndhB</italic> gene showed the most (13) editing events. Among the <italic>ndh</italic> genes, <italic>ndhB</italic> showed maximum editing events (13), followed by <italic>ndhD</italic> (12), <italic>ndhF</italic> (11) <italic>ndhA</italic> (3), and <italic>ndhG</italic> (3). The most abundant amino acid change was the S to L, with 18 out of 84 editing events (<xref ref-type="fig" rid="plants-09-00051-f003">Figure 3</xref>). Editing was observed at first (21) and second (63) codon positions. The H to Y, P to S, and L to F amino acids conversions were due to changes in first codon position, while the P to L, S to L, T to M, A to V, T to I, and S to F changes occurred due to second codon positions (<xref ref-type="app" rid="app1-plants-09-00051">Table S4</xref>).</p>
+      </sec>
+      <sec id="sec2dot3-plants-09-00051">
+        <title>2.3. Simple Sequence Repeats and Repeat Structure Analysis</title>
+        <p>Simple-sequence repeats (SSRs), also known as microsatellites, are short tandem repeat DNA sequences that consist of repeating 1&#x2013;6 nucleotide motifs distributed throughout the chloroplast genome [<xref ref-type="bibr" rid="B31-plants-09-00051">31</xref>]. It shows a high degree of polymorphism that can be used as a molecular marker in species identification [<xref ref-type="bibr" rid="B32-plants-09-00051">32</xref>]. A total of 75, 77, and 78 SSRs were detected in <italic>L. davurica</italic>, <italic>L. cuneata</italic>, and <italic>L. maritima</italic> cp genomes, respectively (<xref ref-type="fig" rid="plants-09-00051-f004">Figure 4</xref>A; <xref ref-type="app" rid="app1-plants-09-00051">Table S5</xref>). Mononucleotide repeat A/T was the most abundant (<xref ref-type="fig" rid="plants-09-00051-f004">Figure 4</xref>B) and was encountered 42, 41, and 44 times in <italic>L. davurica</italic>, <italic>L. cuneata</italic>, and <italic>L. maritima</italic>, respectively. The numbers of dinucleotide SSRs (24, 23, and 22, respectively) were more than those of tetranucleotide SSRs, which were nine in each species. No pentanucleotide SSRs existed in these three species, and no trinucleotide SSRs were present in <italic>L. davurica</italic> and <italic>L. maritima</italic>. A hexanucleotide repeat was identified only in <italic>L. maritima</italic>. SSRs were distributed in LSC, SSC, and IR regions, with an abundance in the LSC as compared to the SSC and IR regions.</p>
+        <p>Dispersed repeat sequences occurred in multiple copies of the genome, and they are recognized as a source of genomic variation and rearrangement [<xref ref-type="bibr" rid="B33-plants-09-00051">33</xref>]. This generates diversity among genomes in a population, which is useful for studies on the phylogenetic relationships among different genomes. Most of these repeats are distributed in the intergenic spacer (IGS) and intron sequences. The structure analysis of repetitive sequences revealed an equal number of repeats in the three <italic>Lespedeza</italic> chloroplast genomes with slightly altered repeat types. The repeats in <italic>L. davurica</italic> were comprised of 18 forward, 30 palindromic, and one reverse repeats, <italic>L. cuneata</italic> contained 18 forward, 27 palindromic, three reverse, and one complement repeats, while <italic>L. maritima</italic> consisted of 20 forward repeats, 27 palindromic repeats, one reverse, and one complement repeats (<xref ref-type="fig" rid="plants-09-00051-f005">Figure 5</xref>A). The palindromic type was the most abundant repeat, with lengths in the range of 20&#x2013;40 bp in all the three species (<xref ref-type="fig" rid="plants-09-00051-f005">Figure 5</xref>B). These repeats could provide valuable information for studying the population phylogeny of these three species.</p>
+      </sec>
+      <sec id="sec2dot4-plants-09-00051">
+        <title>2.4. Sequence Divergence Analysis</title>
+        <p>mVISTA was used to compare whole chloroplast genome sequences of subtribe <italic>Lespedezinae</italic> including <italic>L. cuneata</italic>, <italic>L. maritima</italic>, <italic>Kummerowia striata</italic>, and <italic>Campylotropis macrocarpa</italic>, with <italic>L. davurica</italic> as a reference (<xref ref-type="fig" rid="plants-09-00051-f006">Figure 6</xref>). Sequence divergence was very low among the species, suggesting a rather conserved cp genome. However, high nucleotide variations were observed between the three <italic>Lespedeza</italic> sequences for the protein-coding region <italic>rpl32</italic>, and intergenic regions such as <italic>trnL-trnT</italic>, <italic>atpA-trnR-trnG</italic>, <italic>ndhF-rpl32</italic>, and <italic>rpl32-trnL</italic>. Sliding window analysis results revealed the same variable regions in the cp genomes of the three <italic>Lespedeza</italic> species. The sequence divergence level was estimated through the calculation of nucleotide variability (Pi) using the DnaSP software, and the average value of Pi among the <italic>Lespedeza</italic> species was estimated to be 0.00147 (<xref ref-type="fig" rid="plants-09-00051-f007">Figure 7</xref>A). Two highly variable regions, <italic>atpA-trnR-trnG</italic> and <italic>ndhF-rpl32-trnL</italic>, were observed with the higher Pi values (&gt;0.01) and were located at the LSC and SSC regions, respectively. Similar results were also obtained from mVISTA. However, the average Pi value of 0.00826 among all species in <italic>Lespedezinae</italic> (<xref ref-type="fig" rid="plants-09-00051-f007">Figure 7</xref>B) indicated the existence of divergence between cp genome sequences of different genera. The loci <italic>trnK-rbcL</italic>, <italic>psbM-petN</italic>, <italic>rps16-accD</italic>, <italic>rps3-rps19</italic>, and <italic>ndhF-rpl32-trnL</italic> showed variability in both analyses, and <italic>rps16-accD</italic> and <italic>ndhF-rpl32-trnL</italic> showed a remarkably higher Pi value (~0.033) among all species.</p>
+      </sec>
+      <sec id="sec2dot5-plants-09-00051">
+        <title>2.5. Phylogenetic Analysis</title>
+        <p>ML and BI trees showed similar results and identical topologies for both the datasets comprising the whole chloroplast genome sequences of different species of Desmodieae (<xref ref-type="fig" rid="plants-09-00051-f008">Figure 8</xref>A) and the 68 protein-coding genes (<xref ref-type="fig" rid="plants-09-00051-f008">Figure 8</xref>B). Support values in the ML tree were 100% in both datasets, and a sister relationship between <italic>L. davurica</italic> and <italic>L. cuneata</italic> was observed; moreover, both showed a sister relationship with <italic>L. maritima</italic>. Furthermore, <italic>Lespedeza</italic> formed a clade with <italic>Kummerowia striata</italic> and <italic>Campylotropis macrocarpa</italic> indicating their close relationship in the subtribe Lespedezinae. The high bootstrap and posterior probability values in this analysis suggested that the protein-coding genes and whole chloroplast genomes could be useful to find the phylogenetic positions and relationships of <italic>Lespedeza</italic> in the tribe Desmodieae.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-plants-09-00051" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>The Papilionoideae is a subfamily of Fabaceae that is the third-largest to the Asteraceae and Orchidaceae families in angiosperms. Many economically important trees and shrubs belong to this family, which comprises about 770 genera and 19,500 known species [<xref ref-type="bibr" rid="B34-plants-09-00051">34</xref>,<xref ref-type="bibr" rid="B35-plants-09-00051">35</xref>]. Among them, <italic>Astragalus</italic>, <italic>Acacia</italic>, <italic>Indigofera</italic>, <italic>Crotalaria</italic>, and <italic>Mimosa</italic> are the most abundant genera in this family, and they include over 3000, 1000, 700, 700, and 500 species, respectively. According to the APG III plant classification system, these genera belong to six subfamilies, Cercidoideae, Detarioideae, Duparquetioideae, Dialioideae, Caesalpinioideae, and Papilionoideae, within family Fabaceae. Papilionoideae is a widely distributed subfamily comprising about 14,000 species from 503 genera, which belong to several tribes. The Desmodieae is one of the tribes in Papilionoideae and comprises about 32 genera [<xref ref-type="bibr" rid="B36-plants-09-00051">36</xref>,<xref ref-type="bibr" rid="B37-plants-09-00051">37</xref>]. Furthermore, this tribe has historically divided into subtribes such as Bryinae, Desmodiinae, and Lespedezinae [<xref ref-type="bibr" rid="B38-plants-09-00051">38</xref>]. In the Lespedezinae, a close relationship between three genera <italic>Campylotropis</italic>, <italic>Kummerowia</italic>, and <italic>Lespedeza</italic> has been discussed previously using the floral characteristics [<xref ref-type="bibr" rid="B8-plants-09-00051">8</xref>].</p>
+      <p>About 40 species listed for the genus <italic>Lespedeza</italic> include eastern Asia species and North American species [<xref ref-type="bibr" rid="B36-plants-09-00051">36</xref>]. Only Asian species belong to subgenus <italic>Macrolespedeza</italic>, while both Asian and North American species belong to subgenus <italic>lespedeza</italic> within the genus <italic>Lespedeza</italic>. However, these two subgenera are very closely related, and species are indistinguishable. Phylogenetic analysis of Han et al. (2014) [<xref ref-type="bibr" rid="B1-plants-09-00051">1</xref>] showed that <italic>L. maritima</italic> clustered in the <italic>Macrolespedeza</italic> group and <italic>L. davurica</italic> and <italic>L. cuneata</italic> clustered with the <italic>lespedeza</italic> group.</p>
+      <p>Here, we determined the first complete chloroplast genome sequences of subgenus <italic>Lespedeza</italic> using the Illumina platform and deposited them in the NCBI Genbank. The lengths of complete chloroplast genomes that we obtained were similar to the cp genome sizes in most of the angiosperms that generally vary from 120 kb to 160 kb [<xref ref-type="bibr" rid="B39-plants-09-00051">39</xref>,<xref ref-type="bibr" rid="B40-plants-09-00051">40</xref>,<xref ref-type="bibr" rid="B41-plants-09-00051">41</xref>]. These cp genomes showed a quadripartite organization containing a pair of IRs, LSC, and SSC regions as a typical angiosperm [<xref ref-type="bibr" rid="B42-plants-09-00051">42</xref>], and the sequences had similar genome structures, gene orders, and gene contents. However, the higher GC content in the IR region of two sequences could be due to the presence of ribosomal RNA in this region [<xref ref-type="bibr" rid="B43-plants-09-00051">43</xref>]. There were no pseudogenes observed in <italic>Lespedeza</italic> cp genomes, whereas other angiosperms, such as <italic>Vernicia fordii</italic>, <italic>Cynara humilis</italic>, and <italic>Jacobaea vulgaris</italic>, showed pseudogenes in their cp genomes [<xref ref-type="bibr" rid="B44-plants-09-00051">44</xref>,<xref ref-type="bibr" rid="B45-plants-09-00051">45</xref>]. Among 83 protein-coding genes, <italic>psbL</italic>, <italic>rps19</italic>, and <italic>ndhD</italic> showed initiation codons other than the standard ATG in both species. <italic>psbL</italic> started with TTG, while <italic>rps19</italic> and <italic>ndhD</italic> started with GTG and ATC, respectively. Similar results of a GTG initiation codon in <italic>rps19</italic> were also reported in the tobacco chloroplast genome [<xref ref-type="bibr" rid="B46-plants-09-00051">46</xref>]. Further, a TTG initiation codon was reported in the chloroplast <italic>infA</italic> gene in the tobacco plant [<xref ref-type="bibr" rid="B47-plants-09-00051">47</xref>,<xref ref-type="bibr" rid="B48-plants-09-00051">48</xref>].</p>
+      <p>Codon usage bias reflects the importance of molecular evolutionary phenomena such as mutation, selection, and random genetic drift [<xref ref-type="bibr" rid="B27-plants-09-00051">27</xref>]. GC content in codon positions is one of the factors that shape the codon usage biases in different organisms. Typically, the overall GC content for a cp genome of a land plant is low due to the AT-rich intergenic regions [<xref ref-type="bibr" rid="B17-plants-09-00051">17</xref>]. A similar result was observed in the <italic>Lespedeza</italic> cp genomes. In higher plants, RNA editing occurs during the post-translation process, which means the amino acids change by converting cysteine (C) to uridine (U) at the specific codon. This is an essential mechanism for RNA maturation to avoid incorrect mutations. This process happens when PPR protein (pentatricopeptide repeats) binds to the transcript. RNA editing sites have been identified and validated in many plants including <italic>Arabidopsis</italic>, tobacco, pea, and tomato [<xref ref-type="bibr" rid="B29-plants-09-00051">29</xref>]. In our study, 84 RNA editing sites were predicted in 35 protein-coding genes of the <italic>Lespedeza</italic> cp genome. In <italic>Ligularia</italic> (Asteraceae) cp genomes, 48 RNA editing sites were reported [<xref ref-type="bibr" rid="B25-plants-09-00051">25</xref>]. Serine (S) conversion to leucine (L) was 22% of the editing, followed by 17% histidine (H) to tyrosine (Y) conversions. Although RNA editing pattern is conserved in studied <italic>Lespedeza</italic> cp genomes, detection of RNA editing sites is important to understand the missense mutations of genes.</p>
+      <p>In this study, SSR distribution was different in each species. In <italic>L. davurica</italic> and <italic>L. cuneata</italic>, SSRs were distributed in LSC and SSC region, while in <italic>L. maritima</italic>, C/G type SSRs in the IR. However, the majority of SSRs were located in the LSC region in all the three species. This was similar to the previously reported cp genome of <italic>Cercis chuniana</italic> in Fabaceae. Among the SSRs, the highly abundant mononucleotide was the A/T and dinucleotides were mostly composed of AT, suggesting that the SSRs in the cp genomes of the three <italic>Lespedeza</italic> species were more abundant in AT than in G/C repeats.</p>
+      <p>Based on mVISTA and sliding window analysis, we identified the sequence divergence regions that could be used as effective molecular markers. Variable regions <italic>trnL-trnT</italic>, <italic>ndhF-rpl32-trnL</italic>, and <italic>atpA</italic>- <italic>trnR</italic>-<italic>trnG</italic> could be ideal as molecular markers to distinguish the subgenera <italic>Lespedeza</italic> and <italic>Macrolespedeza</italic> species. The divergence was distributed in the LSC and SSC regions and mainly associated with the non-coding regions, except for <italic>rpl32</italic>. Previous studies have shown that the sequence divergence of the IR region was remarkably lower than that of the LSC and SSC regions in many angiosperms [<xref ref-type="bibr" rid="B49-plants-09-00051">49</xref>].</p>
+      <p>With the development of complete chloroplast sequencing technologies in recent decades, accurate phylogenetic studies have been enhanced, revealing the path to many unknown relationships within the plant kingdom [<xref ref-type="bibr" rid="B50-plants-09-00051">50</xref>]. Therefore, in this study, we used two datasets representing whole chloroplast genomes and 68 protein-coding genes that were present in all cp genomes of Desmodieae. Phylogenetic trees were constructed to determine the phylogenetic position of two <italic>Lespedeza</italic> (belonging to subgenus <italic>Lespedeza</italic>) among the species in the Desmodieae. Our results showed a close relationship between these two species and confirmed their phylogenetic position in the Desmodieae. Therefore, we suggest that whole chloroplast genomes and protein-coding genes could be used to find the phylogenetic positions and relationships of <italic>Lespedeza</italic> in the tribe Desmodieae. According to a previous phylogenetic analysis based on 67 protein-coding genes of cp genomes, <italic>L. maritima</italic> (belonging to subgenus Macrolespedeza) showed a monophyletic relationship with two genera <italic>Campylotropis</italic> and <italic>Kummerowia</italic>. Furthermore, <italic>L. maritima</italic> showed a sister relationship with <italic>Kummerowia</italic>, and these two together showed a sister relationship with <italic>Campylotropis</italic> [<xref ref-type="bibr" rid="B14-plants-09-00051">14</xref>]. Our results also revealed the same relationship between these two genera and resolved the <italic>Lespedeza</italic> position in the tribe Desmodieae. However, at present, complete chloroplast genomes of many <italic>Lespedeza</italic> have not been sequenced yet. Those data are needed to distinguish each species and for further investigation of this genus.</p>
+    </sec>
+    <sec id="sec4-plants-09-00051">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-plants-09-00051">
+        <title>4.1. Plant Materials and DNA Sequencing</title>
+        <p>Fresh leaves of <italic>L. davurica</italic> and <italic>L. cuneata</italic> were collected from a rebuild grassland near Yan&#x2019;an, Shaanxi, China (36&#xB0;39&#x2032;20&#x2033; N 109&#xB0;24&#x2032;26&#x2033; E) in July, 2018. Total genomic DNA was extracted from silica-dried leaves using the modified CTAB method [<xref ref-type="bibr" rid="B51-plants-09-00051">51</xref>]. Purified DNA was used for paired-end library preparation according to the manufacturer&#x2019;s protocol (Illumina, San Diego, CA, USA). Genomic DNA was sequenced on the HiSeq X Ten platform (Illumina, San Diego, CA, USA). Complete cp genomes of another six Desmodieae species, namely, <italic>Lespedeza maritima</italic> (NC_044115), <italic>Kummerowia striata</italic> (MG867569), <italic>Campylotropis macrocarpa</italic> (MG867566), <italic>Hylodesmum podocarpum</italic> (MG867568), <italic>Desmodium heterocarpon</italic> (MG867567), and <italic>Ohwia caudate</italic> (MG867572) were downloaded from Genbank.</p>
+      </sec>
+      <sec id="sec4dot2-plants-09-00051">
+        <title>4.2. Genome Assembly and Annotation</title>
+        <p>High-quality reads were obtained by trimming the raw reads using the Trimmomatic tool [<xref ref-type="bibr" rid="B52-plants-09-00051">52</xref>] and then assembled using the GetOrganelle pipeline (<uri>https://github.com/Kinggerm/GetOrganelle/blob/master/get_organelle_from_reads.py</uri>). Subsequently, the assembly was polished by mapping raw reads back to the retrieved sequence, and the consensus sequence was generated using Geneious 10.0.5 software (<uri>http://www.geneious.com</uri>). We confirmed the low coverage with ambiguous regions by mapped to the reference <italic>L. maritima</italic>. The consensus sequence was further adjusted by aligning with the available complete cp genomes of Desmodieae. Annotation of all protein-coding sequences and tRNA and mRNA genes were performed using the Dual Organellar GenoMe Annotator (DOGMA) with manual corrections of the uncertain annotations [<xref ref-type="bibr" rid="B53-plants-09-00051">53</xref>]. tRNA genes were confirmed with the tRNAscan-SE program [<xref ref-type="bibr" rid="B54-plants-09-00051">54</xref>]. To determine the accuracy of assembled complete cp genomes, we carried out BLAST using the available sequences of <italic>L. davurica</italic> and <italic>L. cuneata</italic> in the NCBI database. We found that these sequences were highly matched with our assembled cp genomes. The circular cp genomes of <italic>Lespedeza</italic> were drawn using the OrganellarGenome DRAW tool (OGDRAW) [<xref ref-type="bibr" rid="B30-plants-09-00051">30</xref>]. Complete chloroplast genomes of <italic>L. davurica</italic> and <italic>L. cuneata</italic> were deposited in Genbank with the accession numbers MH800328 and MN268503 respectively.</p>
+      </sec>
+      <sec id="sec4dot3-plants-09-00051">
+        <title>4.3. Codon Usage Bias, RNA Editing Sites, and Sequence Divergence</title>
+        <p>Relative synonymous codon usage (RSCU) values and GC contents of protein-coding sequences were calculated by MEGA 6.0 [<xref ref-type="bibr" rid="B55-plants-09-00051">55</xref>]. RNA editing sites of 35 coding sequences of the <italic>Lespedeza</italic> species were predicted by the online PREP-Cp program with a cutoff value of 0.8 [<xref ref-type="bibr" rid="B56-plants-09-00051">56</xref>]. The mVISTA program [<xref ref-type="bibr" rid="B57-plants-09-00051">57</xref>] was used to align the whole chloroplast genomes of subtribe Lespedezinae. Divergent regions of the chloroplast genomes were determined and variation of nucleotide diversity (Pi) was calculated using the sliding window using DnaSP v5.10. [<xref ref-type="bibr" rid="B58-plants-09-00051">58</xref>] with 200-bp step size and 800-bp window length, which were the common parameters reported in the literature [<xref ref-type="bibr" rid="B59-plants-09-00051">59</xref>,<xref ref-type="bibr" rid="B60-plants-09-00051">60</xref>,<xref ref-type="bibr" rid="B61-plants-09-00051">61</xref>].</p>
+      </sec>
+      <sec id="sec4dot4-plants-09-00051">
+        <title>4.4. Repeat Sequences Analysis</title>
+        <p>The MISA [<xref ref-type="bibr" rid="B62-plants-09-00051">62</xref>] microsatellite finder was used to detect SSRs with the parameters set to 10 repeat units for mononucleotide SSRs, 5 repeat units for dinucleotide SSRs, 4 repeat units for trinucleotide SSRs, and 3 repeat units each for tetra-, penta-, and hexanucleotide SSRs. To identify the forward, palindromic, reverse, and complement repeats in three species, REPuter [<xref ref-type="bibr" rid="B63-plants-09-00051">63</xref>] was used.</p>
+      </sec>
+      <sec id="sec4dot5-plants-09-00051">
+        <title>4.5. Phylogenetic Analysis</title>
+        <p>The whole chloroplast genome sequences of six species belonging to tribe Desmodieae and the out-group <italic>Mucuna macrocarpa</italic> were downloaded from the NCBI database to determine the phylogenetic positions of the two <italic>Lespedeza</italic> species analyzed in the present study. Two datasets (complete chloroplast genomes and 68 concatenated protein-coding genes) were used for the analysis. These 68 genes were conserved in all nine cp genomes. Coding sequences extracted from each cp genome were aligned using the MAFFT [<xref ref-type="bibr" rid="B64-plants-09-00051">64</xref>] alignment under default parameters, and these alignments were concatenated using Geneious software. Phylogenetic analysis was performed by the maximum likelihood (ML) and Bayesian inference (BI) methods using the final sequence alignments of both datasets. ML trees were constructed with MEGA 6.0 based on the general time reversible (GTR) + I + G model with 1000 replicates. A discrete Gamma distribution was used with four categories. Initial tree(s) for ML were obtained by the neighbor-joining and BioNJ algorithms. BI analysis was conducted using MrBayes 3.2 [<xref ref-type="bibr" rid="B65-plants-09-00051">65</xref>] and a GTR substitution model was used. Two independent Markov chain Monte Carlo (MCMC) chains were run for 1.5 million generations with a subsampling frequency of 200 generations.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-plants-09-00051" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The study presented the complete chloroplast genomes of <italic>Lespedeza davurica</italic> and <italic>L. cuneata</italic>. This is the first study reporting the cp genome sequences of <italic>Lespedeza</italic> subgenus. Our results showed that gene contents, orders, and structures were highly conserved among these species. Results based on codon usage bias and predicted RNA editing sites are useful for further studies about this genus. Our results based on the sequence divergence analysis identified variable regions that can be used for identifying <italic>Lespedeza</italic> species. Finally, the data obtained from this study could provide a useful resource for further research on these species at the genomic scale and in establishing deeper branches of the phylogeny.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-plants-09-00051">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>https://www.mdpi.com/2223-7747/9/1/51/s1</uri>, Table S1: Summary of gene contents present in the <italic>Lespedeza</italic> chloroplast genomes, Table S2: Comparison of chloroplast genomes among Desmodieae, Table S3: Summary of relative synonymous codon usage (RSCU) of the codon usage in the <italic>Lespedeza</italic> cp genomes, Table S4: Predicted RNA editing sites in chloroplast protein-coding genes of <italic>Lespedeza</italic>, Table S5: Distribution of Simple sequence repeats (SSRs) in the three <italic>Lespedeza</italic> cp genomes.</p>
+		<supplementary-material id="plants-09-00051-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-09-00051-s001.zip"></supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, S.-Q.X., Y.S., and D.-L.G.; methodology, L.Z. and Y.S.; software and formal analysis, Y.S. and D.-L.G.; writing&#x2014;original draft preparation, Y.S.; writing&#x2014;review and editing, S.-Q.X.; supervision, S.-Q.X. and W.-Q.W.; funding acquisition, S.-Q.X. and W.-Q.W. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was financially supported by the Excellent Doctor Innovation Project of Shaanxi Normal University (S2015YB03), and the Fundamental Research Funds for the Central Universities (GK201902010; GK201702010; GK201701006); The key R &amp; D plan of Shaanxi province (2018ZDXMSF-079), This work was supported in part by the National Natural Science Foundation of China (No. 61673251, No. 31760101).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare that they have no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-plants-09-00051">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Han</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Nemoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>B.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogenetic analysis of eastern Asian and eastern North American disjunct <italic>Lespedeza</italic> (Fabaceae) inferred from nuclear ribosomal ITS and plastid region sequences</article-title>
+          <source>Bot. J. Linn. Soc.</source>
+          <year>2010</year>
+          <volume>164</volume>
+          <fpage>221</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1095-8339.2010.01084.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-plants-09-00051">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differences in leaf &#x3B4; 13C among four dominant species in a secondary succession sere on the Loess Plateau of China</article-title>
+          <source>Photosynthetica</source>
+          <year>2003</year>
+          <volume>41</volume>
+          <fpage>525</fpage>
+          <lpage>531</lpage>
+          <pub-id pub-id-type="doi">10.1023/B:PHOT.0000027516.43278.c4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-plants-09-00051">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guan</surname>
+              <given-names>X.K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.H.</given-names>
+            </name>
+            <name>
+              <surname>Turner</surname>
+              <given-names>N.C.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>F.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two perennial legumes (<italic>Astragalus adsurgens</italic> Pall. and <italic>Lespedeza davurica</italic> S.) adapted to semiarid environments are not as productive as Lucerne (<italic>Medicago sativa</italic> L.) but use less water</article-title>
+          <source>Grass Forage Sci.</source>
+          <year>2013</year>
+          <volume>68</volume>
+          <fpage>469</fpage>
+          <lpage>478</lpage>
+          <pub-id pub-id-type="doi">10.1111/gfs.12010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-plants-09-00051">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>An</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Micro scale spatial heterogeneity and the loss of carbon, nitrogen and phosphorus in degraded grassland in Ordos Plateau, northwestern China</article-title>
+          <source>Plant Soil</source>
+          <year>2004</year>
+          <volume>259</volume>
+          <fpage>29</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="doi">10.1023/B:PLSO.0000020948.66471.2b</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-plants-09-00051">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Busby</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Gebhart</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Yannarell</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Invasive <italic>Lespedeza cuneata</italic> and native <italic>Lespedeza virginica</italic> experience asymmetrical benefits from rhizobial symbionts</article-title>
+          <source>Plant Soil</source>
+          <year>2014</year>
+          <volume>384</volume>
+          <fpage>315</fpage>
+          <lpage>325</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11104-014-2213-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-plants-09-00051">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharma</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Rhyu</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Lespedeza davurica</italic> (Lax.) Schindl. extract protects against cytokine-induced &#x3B2;-cell damage and streptozotocin-induced diabetes</article-title>
+          <source>BioMed Res. Int.</source>
+          <year>2015</year>
+          <volume>2015</volume>
+          <fpage>169256</fpage>
+          <pub-id pub-id-type="doi">10.1155/2015/169256</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-plants-09-00051">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohashi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nomenclatural changes in Leguminosae of Japan</article-title>
+          <source>J. Jpn. Bot.</source>
+          <year>1982</year>
+          <volume>57</volume>
+          <fpage>29</fpage>
+          <lpage>30</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B8-plants-09-00051">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pollen diversity and its systematic implications in <italic>Lespedeza</italic> (Fabaceae)</article-title>
+          <source>Syst. Bot.</source>
+          <year>2011</year>
+          <volume>36</volume>
+          <fpage>352</fpage>
+          <lpage>361</lpage>
+          <pub-id pub-id-type="doi">10.1600/036364411X569534</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-plants-09-00051">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nemoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ohashi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seedling morphology in Lespedeza (Leguminosae)</article-title>
+          <source>J. Plant Res.</source>
+          <year>1993</year>
+          <volume>106</volume>
+          <fpage>121</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02344415</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-plants-09-00051">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohashia</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nemoto</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>A New System of <italic>Lespedeza</italic> (Leguminosae Tribe Desmodieae)</article-title>
+          <source>J. Jpn. Bot.</source>
+          <year>2014</year>
+          <volume>89</volume>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B11-plants-09-00051">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>LC-MS-based chemotaxonomic classification of wild-type <italic>Lespedeza</italic> sp. and its correlation with genotype</article-title>
+          <source>Plant Cell Rep.</source>
+          <year>2012</year>
+          <volume>31</volume>
+          <fpage>2085</fpage>
+          <lpage>2097</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00299-012-1319-8</pub-id>
+          <pub-id pub-id-type="pmid">22847333</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-plants-09-00051">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhan</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Jia</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Mei</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>H.F.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.T.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>S.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complete chloroplast genome sequence of <italic>Aquilaria sinensis</italic> (Lour.) Gilg and evolution analysis within the Malvales order</article-title>
+          <source>Front. Plant Sci.</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>280</fpage>
+          <pub-id pub-id-type="doi">10.3389/fpls.2016.00280</pub-id>
+          <pub-id pub-id-type="pmid">27014304</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-plants-09-00051">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complete Chloroplast Genomes of <italic>Papaver rhoeas</italic> and <italic>Papaver orientale</italic>: Molecular Structures, Comparative Analysis, and Phylogenetic Analysis</article-title>
+          <source>Molecules</source>
+          <year>2018</year>
+          <volume>23</volume>
+          <elocation-id>437</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/molecules23020437</pub-id>
+          <pub-id pub-id-type="pmid">29462921</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-plants-09-00051">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jin</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>I.S.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>B.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plastid genome evolution in tribe Desmodieae (Fabaceae: Papilionoideae)</article-title>
+          <source>PLoS ONE</source>
+          <year>2019</year>
+          <volume>14</volume>
+          <elocation-id>e0218743</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0218743</pub-id>
+          <pub-id pub-id-type="pmid">31233545</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-plants-09-00051">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.W.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>Y.X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>K.F.</given-names>
+            </name>
+            <name>
+              <surname>Yun</surname>
+              <given-names>Q.Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Almssallem</surname>
+              <given-names>I.S.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The complete chloroplast genome sequence of date palm (<italic>Phoenix dactylifera</italic> L.)</article-title>
+          <source>PLoS ONE</source>
+          <year>2010</year>
+          <volume>5</volume>
+          <elocation-id>e12762</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0012762</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-plants-09-00051">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wicke</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schneeweiss</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;ller</surname>
+              <given-names>K.F.</given-names>
+            </name>
+            <name>
+              <surname>Quandt</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The evolution of the plastid chromosome in land plants: Gene content, gene order, gene function</article-title>
+          <source>Plant Mol. Biol.</source>
+          <year>2011</year>
+          <volume>76</volume>
+          <fpage>273</fpage>
+          <lpage>297</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11103-011-9762-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-plants-09-00051">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yue</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Niu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative Analysis of the Complete Chloroplast Genome of Four Endangered Herbals of <italic>Notopterygium</italic></article-title>
+          <source>Genes</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <elocation-id>124</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/genes8040124</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-plants-09-00051">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parks</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cronn</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Liston</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increasing phylogenetic resolution at low taxonomic levels using massively parallel sequencing of chloroplast genomes</article-title>
+          <source>BMC Biol.</source>
+          <year>2009</year>
+          <volume>7</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1186/1741-7007-7-84</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-plants-09-00051">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alkan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sajjadian</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Eichler</surname>
+              <given-names>E.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Limitations of next-generation genome sequence assembly</article-title>
+          <source>Nat. Methods</source>
+          <year>2011</year>
+          <volume>8</volume>
+          <fpage>61</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth.1527</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-plants-09-00051">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>L.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thirteen Camellia chloroplast genome sequences determined by high-throughput sequencing: Genome structure and phylogenetic relationships</article-title>
+          <source>BMC Evol. Biol.</source>
+          <year>2014</year>
+          <volume>14</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2148-14-151</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-plants-09-00051">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Daniell</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Ming</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>W.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chloroplast genomes: Diversity, evolution, and applications in genetic engineering</article-title>
+          <source>Genome Biol.</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>134</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13059-016-1004-2</pub-id>
+          <pub-id pub-id-type="pmid">27339192</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-plants-09-00051">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>Y.F.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.H.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>L.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative transcriptome analysis of eggplant (<italic>Solanum melongena</italic> L.) and turkey berry (<italic>Solanum torvum</italic> Sw.): Phylogenomics and disease resistance analysis</article-title>
+          <source>BMC Genom.</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <elocation-id>412</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2164-15-412</pub-id>
+          <pub-id pub-id-type="pmid">24885385</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-plants-09-00051">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Harijati</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Diao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative analysis of complete chloroplast genome sequences of four major Amorphophallus species</article-title>
+          <source>Sci. Rep.</source>
+          <year>2019</year>
+          <volume>9</volume>
+          <fpage>809</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-37456-z</pub-id>
+          <pub-id pub-id-type="pmid">30692573</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-plants-09-00051">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chloroplast microsatellite markers in Liriodendron tulipifera (Magnoliaceae) and cross-species amplification in L. chinense</article-title>
+          <source>Am. J. Bot.</source>
+          <year>2011</year>
+          <volume>98</volume>
+          <fpage>e123</fpage>
+          <lpage>e126</lpage>
+          <pub-id pub-id-type="doi">10.3732/ajb.1000532</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-plants-09-00051">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of Ligularia Herbs Using the Complete Chloroplast Genome as a Super-Barcode</article-title>
+          <source>Front. Pharmacol.</source>
+          <year>2018</year>
+          <volume>9</volume>
+          <fpage>695</fpage>
+          <pub-id pub-id-type="doi">10.3389/fphar.2018.00695</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-plants-09-00051">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nan</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comprehensive Analysis of Codon Usage Bias in Seven Epichlo&#xEB; Species and Their Peramine-Coding Genes</article-title>
+          <source>Front. Microbiol.</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <fpage>1419</fpage>
+          <pub-id pub-id-type="doi">10.3389/fmicb.2017.01419</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-plants-09-00051">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plastid Genome Comparative and Phylogenetic Analyses of the Key Genera in Fagaceae: Highlighting the Effect of Codon Composition Bias in Phylogenetic Inference</article-title>
+          <source>Front. Plant Sci.</source>
+          <year>2018</year>
+          <volume>9</volume>
+          <fpage>82</fpage>
+          <pub-id pub-id-type="doi">10.3389/fpls.2018.00082</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-plants-09-00051">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Maliga</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Messing</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>RNA editing in chloroplasts of <italic>Spirodela polyrhiza</italic>, an aquatic monocotelydonous species</article-title>
+          <source>PLoS ONE</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <elocation-id>e0140285</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0140285</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-plants-09-00051">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xing</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Weining</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nie</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and Analysis of RNA Editing Sites in the Chloroplast Transcripts of <italic>Aegilops tauschii</italic> L.</article-title>
+          <source>Genes</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <elocation-id>13</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/genes8010013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-plants-09-00051">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lohse</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Drechsel</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Bock</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>OrganellarGenomeDRAW (OGDRAW): A tool for the easy generation of high-quality custom graphical maps of plastid and mitochondrial genomes</article-title>
+          <source>Curr. Genet.</source>
+          <year>2007</year>
+          <volume>52</volume>
+          <fpage>267</fpage>
+          <lpage>274</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00294-007-0161-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-plants-09-00051">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Powell</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Morgante</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mcdevitt</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Vendramin</surname>
+              <given-names>G.G.</given-names>
+            </name>
+            <name>
+              <surname>Rafalski</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polymorphic simple sequence repeat regions in chloroplast genomes: Applications to the population genetics of pines</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1995</year>
+          <volume>92</volume>
+          <fpage>7759</fpage>
+          <lpage>7763</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.92.17.7759</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-plants-09-00051">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Complete Chloroplast Genome Sequences of Five <italic>Epimedium</italic> Species: Lights into Phylogenetic and Taxonomic Analyses</article-title>
+          <source>Front. Plant Sci.</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>306</fpage>
+          <pub-id pub-id-type="doi">10.3389/fpls.2016.00306</pub-id>
+          <pub-id pub-id-type="pmid">27014326</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-plants-09-00051">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Moon</surname>
+              <given-names>B.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The complete chloroplast genome sequences of <italic>Aconitum pseudolaeve</italic> and <italic>Aconitum longecassidatum</italic>, and development of molecular markers for distinguishing species in the Aconitum subgenus <italic>Lycoctonum</italic></article-title>
+          <source>Molecules</source>
+          <year>2017</year>
+          <volume>22</volume>
+          <elocation-id>2012</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/molecules22112012</pub-id>
+          <pub-id pub-id-type="pmid">29160852</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-plants-09-00051">
+        <label>34.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Judd</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Kellog</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Stevens</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>Donoghue</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <source>Plant Systematics: A Phylogenetic Approach</source>
+          <edition>2nd ed.</edition>
+          <publisher-name>Sinauer Associates</publisher-name>
+          <publisher-loc>Sunderland, MA, USA</publisher-loc>
+          <year>2002</year>
+          <fpage>287</fpage>
+          <lpage>292</lpage>
+          <isbn>0-87893-403-0</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B35-plants-09-00051">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rahman</surname>
+              <given-names>A.H.M.M.</given-names>
+            </name>
+            <name>
+              <surname>Parvin</surname>
+              <given-names>M.I.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of Medicinal Uses on Fabaceae Family at Rajshahi, Bangladesh</article-title>
+          <source>Res. Plant Sci.</source>
+          <year>2014</year>
+          <volume>2</volume>
+          <fpage>6</fpage>
+          <lpage>8</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B36-plants-09-00051">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>The Angiosperm Phylogeny Group</collab>
+          </person-group>
+          <article-title>An update of the Angiosperm Phylogeny Group classification for the orders and families of flowering plants: APG III</article-title>
+          <source>Bot. J. Linn. Soc.</source>
+          <year>2009</year>
+          <volume>161</volume>
+          <fpage>105</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1095-8339.2009.00996.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-plants-09-00051">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Magalion</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Sanderson</surname>
+              <given-names>K.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Absolute diversification rates in angiosperm clades</article-title>
+          <source>Evolution</source>
+          <year>2001</year>
+          <volume>55</volume>
+          <fpage>1762</fpage>
+          <lpage>1780</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.0014-3820.2001.tb00826.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-plants-09-00051">
+        <label>38.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohashi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Polhill</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Schubert</surname>
+              <given-names>B.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Desmodieae</article-title>
+          <source>Advances in Legume Systematics. Part 1</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Polhill</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Raven</surname>
+              <given-names>P.H.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Royal Botanic Gardens, Kew</publisher-name>
+          <publisher-loc>Richmond, VA, USA</publisher-loc>
+          <year>1981</year>
+          <fpage>292</fpage>
+          <lpage>300</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B39-plants-09-00051">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saski</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Daniell</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wood</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Tomkins</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.G.</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complete chloroplast genome sequence of <italic>Glycine max</italic> and comparative analyses with other legume genomes</article-title>
+          <source>Plant Mol. Biol.</source>
+          <year>2005</year>
+          <volume>59</volume>
+          <fpage>309</fpage>
+          <lpage>322</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11103-005-8882-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-plants-09-00051">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Messing</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>High-throughput sequencing of three <italic>Lemnoideae</italic> (duckweeds) chloroplast genomes from total DNA</article-title>
+          <source>PLoS ONE</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <elocation-id>e24670</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0024670</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-plants-09-00051">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yi</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complete chloroplast genome sequences of important oilseed crop <italic>Sesamum indicum</italic> L.</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <elocation-id>e35872</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0035872</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-plants-09-00051">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Diekmann</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hodkinson</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Wolfe</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>van den Bekerom</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Dix</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Barth</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complete chloroplast genome sequence of a major allogamous forage species, perennial ryegrass (<italic>Lolium perenne</italic> L.)</article-title>
+          <source>DNA Res.</source>
+          <year>2009</year>
+          <volume>16</volume>
+          <fpage>165</fpage>
+          <lpage>176</lpage>
+          <pub-id pub-id-type="doi">10.1093/dnares/dsp008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-plants-09-00051">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qian</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The complete chloroplast genome sequence of the medicinal plant <italic>Salvia miltiorrhiza</italic></article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <elocation-id>e57607</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0057607</pub-id>
+          <pub-id pub-id-type="pmid">23460883</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-plants-09-00051">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>The complete chloroplast genome sequence of tung tree (<italic>Vernicia fordii</italic>): Organization and phylogenetic relationships with other angiosperms</article-title>
+          <source>Sci. Rep.</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <fpage>1869</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-017-02076-6</pub-id>
+          <pub-id pub-id-type="pmid">28500291</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-plants-09-00051">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Doorduin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gravendeel</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lammers</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ariyurek</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chin-A-Woeng</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Vrieling</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The complete chloroplast genome of 17 individuals of pest species <italic>Jacobaea vulgaris</italic>: SNPs, microsatellites and barcoding markers for population and phylogenetic studies</article-title>
+          <source>DNA Res.</source>
+          <year>2011</year>
+          <volume>18</volume>
+          <fpage>93</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="doi">10.1093/dnares/dsr002</pub-id>
+          <pub-id pub-id-type="pmid">21444340</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-plants-09-00051">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kusnetsov</surname>
+              <given-names>V.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chloroplasts: Structure and Expression of the Plastid Genome</article-title>
+          <source>Russ. J. Plant Physiol.</source>
+          <year>2018</year>
+          <volume>65</volume>
+          <fpage>465</fpage>
+          <pub-id pub-id-type="doi">10.1134/S1021443718030044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-plants-09-00051">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shinozaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ohme</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wakasugi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hayashida</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Matsubayashi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Zaita</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Chunwongse</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Obokata</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yamaguchi-Shinozaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The complete nucleotide sequence of the tobacco chloroplast genome: Its gene organization and expression</article-title>
+          <source>EMBO J.</source>
+          <year>1986</year>
+          <volume>5</volume>
+          <fpage>2043</fpage>
+          <lpage>2049</lpage>
+          <pub-id pub-id-type="doi">10.1002/j.1460-2075.1986.tb04464.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-plants-09-00051">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hirose</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ideue</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wakasugi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sugiura</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The chloroplast <italic>infA</italic> gene with a functional UUG initiation codon</article-title>
+          <source>FEBS Lett.</source>
+          <year>1999</year>
+          <volume>445</volume>
+          <fpage>169</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0014-5793(99)00123-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-plants-09-00051">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Du</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Bi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complete chloroplast genome sequences of <italic>Lilium</italic>: Insights into evolutionary dynamics and phylogenetic analyses</article-title>
+          <source>Sci. Rep.</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <fpage>5751</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-017-06210-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-plants-09-00051">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>D.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>High-throughput sequencing of six bamboo chloroplast genomes: Phylogenetic implications for temperate woody bamboos (Poaceae: Bambusoideae)</article-title>
+          <source>PLoS ONE</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <elocation-id>e20596</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0020596</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-plants-09-00051">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Doyle</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Doyle</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arapid DNA isolation procedure for small quantities of fresh leaf tissue</article-title>
+          <source>Phytochem. Bull.</source>
+          <year>1987</year>
+          <volume>19</volume>
+          <fpage>11</fpage>
+          <lpage>15</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B52-plants-09-00051">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bolger</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Lohse</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Usadel</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Trimmomatic: A flexible trimmer for Illumina sequence data</article-title>
+          <source>Bioinformatics</source>
+          <year>2014</year>
+          <volume>30</volume>
+          <fpage>2114</fpage>
+          <lpage>2120</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btu170</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-plants-09-00051">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wyman</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Jansen</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Boore</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic annotation of organellar genomes with DOGMA</article-title>
+          <source>Bioinformatics</source>
+          <year>2004</year>
+          <volume>20</volume>
+          <fpage>3252</fpage>
+          <lpage>3255</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/bth352</pub-id>
+          <pub-id pub-id-type="pmid">15180927</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-plants-09-00051">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lowe</surname>
+              <given-names>T.M.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>P.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>tRNAscan-SE On-line: Integrating search and context for analysis of transfer RNA genes</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2016</year>
+          <volume>44</volume>
+          <fpage>W54</fpage>
+          <lpage>W57</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkw413</pub-id>
+          <pub-id pub-id-type="pmid">27174935</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-plants-09-00051">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamura</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Stecher</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Filipski</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>MEGA6: Molecular Evolutionary Genetics Analysis Version 6.0</article-title>
+          <source>Mol. Biol. Evol.</source>
+          <year>2013</year>
+          <volume>30</volume>
+          <fpage>2725</fpage>
+          <lpage>2729</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/mst197</pub-id>
+          <pub-id pub-id-type="pmid">24132122</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-plants-09-00051">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mower</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The PREP Suite: Predictive RNA editors for plant mitochondrial genes, chloroplast genes and user-defined alignments</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2009</year>
+          <volume>37</volume>
+          <fpage>W253</fpage>
+          <lpage>W259</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkp337</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-plants-09-00051">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frazer</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Pachter</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Poliakov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rubin</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Dubchak</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>VISTA: Computational tools for comparative genomics</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2004</year>
+          <volume>32</volume>
+          <fpage>W273</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkh458</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-plants-09-00051">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Librado</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rozas</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>DnaSP v5: A software for comprehensive analysis of DNA polymorphism data</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>1451</fpage>
+          <lpage>1452</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btp187</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-plants-09-00051">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nie</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and Phylogenetic Analysis of the Complete Chloroplast Genomes of Three <italic>Ephedra</italic> Herbs Containing Ephedrine</article-title>
+          <source>BioMed Res. Int.</source>
+          <year>2019</year>
+          <volume>2019</volume>
+          <fpage>5921725</fpage>
+          <pub-id pub-id-type="doi">10.1155/2019/5921725</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-plants-09-00051">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cui</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nie</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative and Phylogenetic Analyses of Ginger (Zingiberofficinale) in the Family Zingiberaceae Based on the Complete Chloroplast Genome</article-title>
+          <source>Plants</source>
+          <year>2019</year>
+          <volume>8</volume>
+          <elocation-id>283</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/plants8080283</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-plants-09-00051">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complete chloroplast genome sequences of Dioscorea: Characterization, genomic resources, and phylogenetic analyses</article-title>
+          <source>PeerJ</source>
+          <year>2018</year>
+          <volume>6</volume>
+          <fpage>e6032</fpage>
+          <pub-id pub-id-type="doi">10.7717/peerj.6032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-plants-09-00051">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beier</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Thiel</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;nch</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Scholz</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Mascher</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>MISA-web: A web server for microsatellite prediction</article-title>
+          <source>Bioinformatics</source>
+          <year>2017</year>
+          <volume>33</volume>
+          <fpage>2583</fpage>
+          <lpage>2585</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btx198</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63-plants-09-00051">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kurtz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schleiermacher</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>REPuter: Fast computation of maximal repeats in complete genomes</article-title>
+          <source>Bioinformatics</source>
+          <year>1999</year>
+          <volume>15</volume>
+          <fpage>426</fpage>
+          <lpage>427</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/15.5.426</pub-id>
+          <pub-id pub-id-type="pmid">10366664</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B64-plants-09-00051">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Katoh</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>MAFFT: A novel method for rapid multiple sequence alignment based on fast Fourier transform</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>3059</fpage>
+          <lpage>3066</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkf436</pub-id>
+          <pub-id pub-id-type="pmid">12136088</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B65-plants-09-00051">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ronquist</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Teslenko</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van der Mark</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ayres</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Darling</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>H&#xF6;hna</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Larget</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Suchard</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Huelsenbeck</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>MrBayes 3.2: Efficient Bayesian phylogenetic inference and model choice across a large model space</article-title>
+          <source>Syst. Biol.</source>
+          <year>2012</year>
+          <volume>61</volume>
+          <fpage>539</fpage>
+          <lpage>542</lpage>
+          <pub-id pub-id-type="doi">10.1093/sysbio/sys029</pub-id>
+          <pub-id pub-id-type="pmid">22357727</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="plants-09-00051-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Gene map of <italic>Lespedeza davurica</italic> and <italic>Lespedeza cuneata</italic> chloroplast genomes. Genes on the inside of the map are transcribed in the clockwise direction and genes on the outside of the map are transcribed in the counterclockwise direction. The darker gray in the inner circle represents GC content whereas the light gray corresponds to AT content. Different functional groups of genes are shown in different colors. The figure was drawn with OrganelleGenomeDRAW [<xref ref-type="bibr" rid="B30-plants-09-00051">30</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-09-00051-g001.tif"/>
+      </fig>
+      <fig id="plants-09-00051-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Amino acid frequencies of the chloroplast genomes of <italic>Lespedeza</italic> species.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-09-00051-g002.tif"/>
+      </fig>
+      <fig id="plants-09-00051-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Types and percentage of amino acid exchanges arising from chloroplast RNA editing in <italic>Lespedeza</italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-09-00051-g003.tif"/>
+      </fig>
+      <fig id="plants-09-00051-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Distribution of simple sequence repeats (SSRs) in the cp genomes of <italic>Lespedeza</italic>. (<bold>A</bold>) Type of SSRs in the chloroplast genome of three species. (<bold>B</bold>) Distribution of SSRs in the chloroplast genome of three species.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-09-00051-g004.tif"/>
+      </fig>
+      <fig id="plants-09-00051-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Repeat structure analysis of three <italic>Lespedeza</italic> sps. (<bold>A</bold>) Number of different types of repeats identified from the cp genomes. (<bold>B</bold>) Frequency of repeat lengths observed for different repeats. F, Forward; P, Palindromic; R, Reverse; C, Complement.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-09-00051-g005.tif"/>
+      </fig>
+      <fig id="plants-09-00051-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Sequence alignment plot comparing five cp genomes with <italic>L. davurica</italic> as a reference. Genome regions are color coded as protein coding, rRNA coding, tRNA coding, or conserved noncoding sequences. The vertical scale indicates the percentage identity, ranging from 50% to 100%.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-09-00051-g006.tif"/>
+      </fig>
+      <fig id="plants-09-00051-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Sliding window analysis of the whole chloroplast genomes. (<bold>A</bold>) Pi among <italic>Lespedeza</italic> species. (<bold>B</bold>) Pi among species in <italic>Lespedezinae</italic>. Window length: 800 bp; step size: 200 bp. X-axis: Position of the midpoint of a window. Y-axis: Nucleotide diversity of each window.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-09-00051-g007.tif"/>
+      </fig>
+      <fig id="plants-09-00051-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Phylogenetic relationship of Desmodieae species using maximum likelihood (ML) and Bayesian inferences (BI) analyses based on (<bold>A</bold>) whole chloroplast genomes, (<bold>B</bold>) 68 protein coding genes. The numbers in each node indicate ML bootstrap values on the right, and values on the left indicate Bayesian posterior probabilities (PP).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-09-00051-g008.tif"/>
+      </fig>
+      <table-wrap id="plants-09-00051-t001" position="float">
+        <object-id pub-id-type="pii">plants-09-00051-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Summary of chloroplast genome features of <italic>Lespedeza</italic>.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Characteristics</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>Lespedeza davurica</italic>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>Lespedeza cuneata</italic>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Accession Number</td>
+              <td align="center" valign="middle">MH800328</td>
+              <td align="center" valign="middle">MN268503</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Total cpDNA Size</td>
+              <td align="center" valign="middle">149,010</td>
+              <td align="center" valign="middle">149,010</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LSC</td>
+              <td align="center" valign="middle">82,373</td>
+              <td align="center" valign="middle">82,395</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IR</td>
+              <td align="center" valign="middle">23,831</td>
+              <td align="center" valign="middle">23,832</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SSC</td>
+              <td align="center" valign="middle">18,975</td>
+              <td align="center" valign="middle">18,951</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Total CDS Length</td>
+              <td align="center" valign="middle">77,868</td>
+              <td align="center" valign="middle">77,868</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Total tRNA Length</td>
+              <td align="center" valign="middle">2794</td>
+              <td align="center" valign="middle">2794</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Total rRNA Length</td>
+              <td align="center" valign="middle">9062</td>
+              <td align="center" valign="middle">9062</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Total Number of Genes</td>
+              <td align="center" valign="middle">128</td>
+              <td align="center" valign="middle">128</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Coding Genes</td>
+              <td align="center" valign="middle">83</td>
+              <td align="center" valign="middle">83</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">rRNA Genes</td>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="middle">8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">tRNA Genes</td>
+              <td align="center" valign="middle">37</td>
+              <td align="center" valign="middle">37</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Total GC %</td>
+              <td align="center" valign="middle">35.0</td>
+              <td align="center" valign="middle">35.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LSC</td>
+              <td align="center" valign="middle">32.5</td>
+              <td align="center" valign="middle">32.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">IR</td>
+              <td align="center" valign="middle">42.2</td>
+              <td align="center" valign="middle">42.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SSC</td>
+              <td align="center" valign="middle">28.1</td>
+              <td align="center" valign="middle">28.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CDS</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.0</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>LSC: Large single copy, IR: Inverted repeat, SSC: Small single copy, CDS: Coding sequences, GC: Guanine and Cytosine.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

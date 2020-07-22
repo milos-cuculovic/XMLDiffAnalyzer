@@ -1,0 +1,2069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010293</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00293</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Docker4Circ: A Framework for the Reproducible Characterization of circRNAs from RNA-Seq Data</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4580-0680</contrib-id>
+          <name>
+            <surname>Ferrero</surname>
+            <given-names>Giulio</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00293" ref-type="aff">1</xref>
+          <xref rid="fn1-ijms-21-00293" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Licheri</surname>
+            <given-names>Nicola</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00293" ref-type="aff">1</xref>
+          <xref rid="fn1-ijms-21-00293" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5889-6100</contrib-id>
+          <name>
+            <surname>Coscujuela Tarrero</surname>
+            <given-names>Lucia</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00293" ref-type="aff">2</xref>
+          <xref rid="af3-ijms-21-00293" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6791-7126</contrib-id>
+          <name>
+            <surname>De Intinis</surname>
+            <given-names>Carlo</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00293" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Miano</surname>
+            <given-names>Valentina</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00293" ref-type="aff">2</xref>
+          <xref rid="af4-ijms-21-00293" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2848-628X</contrib-id>
+          <name>
+            <surname>Calogero</surname>
+            <given-names>Raffaele Adolfo</given-names>
+          </name>
+          <xref rid="af5-ijms-21-00293" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cordero</surname>
+            <given-names>Francesca</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00293" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6666-9052</contrib-id>
+          <name>
+            <surname>De Bortoli</surname>
+            <given-names>Michele</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00293" ref-type="aff">2</xref>
+          <xref rid="c1-ijms-21-00293" ref-type="corresp">*</xref>
+          <xref rid="fn1-ijms-21-00293" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Beccuti</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00293" ref-type="aff">1</xref>
+          <xref rid="fn1-ijms-21-00293" ref-type="fn">&#x2020;</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00293"><label>1</label>Department of Computer Science, University of Turin, 10149 Turin, Italy; <email>giulio.ferrero@unito.it</email> (G.F.); <email>nicola.licheri@unito.it</email> (N.L.); <email>carlo.deintinis@unito.it</email> (C.D.I.); <email>francesca.cordero@unito.it</email> (F.C.); <email>marco.beccuti@unito.it</email> (M.B.)</aff>
+      <aff id="af2-ijms-21-00293"><label>2</label>Department of Clinical and Biological Sciences, University of Turin, Orbassano, 10043 Turin, Italy; <email>lucia.coscujuelatarrero@unito.it</email> (L.C.T.); <email>valentina.miano@gmail.com</email> (V.M.)</aff>
+      <aff id="af3-ijms-21-00293"><label>3</label>Center for Genomic Science, Italian Institute of Technology, 20139 Milan, Italy</aff>
+      <aff id="af4-ijms-21-00293"><label>4</label>Division of Cellular and Molecular Pathology, Department of Pathology, University of Cambridge, Addenbrooke&#x2019;s Hospital, Cambridge CB2 0QQ, UK</aff>
+      <aff id="af5-ijms-21-00293"><label>5</label>Department of Molecular Biotechnology and Health Sciences, University of Turin, 10126 Turin, Italy; <email>Raffaele.calogero@unito.it</email></aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00293"><label>*</label>Correspondence: <email>michele.debortoli@unito.it</email></corresp>
+        <fn id="fn1-ijms-21-00293">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>293</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Recent improvements in cost-effectiveness of high-throughput technologies has allowed RNA sequencing of total transcriptomes suitable for evaluating the expression and regulation of circRNAs, a relatively novel class of transcript isoforms with suggested roles in transcriptional and post-transcriptional gene expression regulation, as well as their possible use as biomarkers, due to their deregulation in various human diseases. A limited number of integrated workflows exists for prediction, characterization, and differential expression analysis of circRNAs, none of them complying with computational reproducibility requirements. We developed Docker4Circ for the complete analysis of circRNAs from RNA-Seq data. Docker4Circ runs a comprehensive analysis of circRNAs in human and model organisms, including: circRNAs prediction; classification and annotation using six public databases; back-splice sequence reconstruction; internal alternative splicing of circularizing exons; alignment-free circRNAs quantification from RNA-Seq reads; and differential expression analysis. Docker4Circ makes circRNAs analysis easier and more accessible thanks to: (i) its R interface; (ii) encapsulation of computational tasks into docker images; (iii) user-friendly Java GUI Interface availability; and (iv) no need of advanced bash scripting skills for correct use. Furthermore, Docker4Circ ensures a reproducible analysis since all its tasks are embedded into a docker image following the guidelines provided by Reproducible Bioinformatics Project.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>circRNA</kwd>
+        <kwd>reproducible analysis</kwd>
+        <kwd>pipeline</kwd>
+        <kwd>docker images</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00293" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>CircRNAs are circular RNA molecules with no free 5&#x2019;/3&#x2019; ends, formed by back-splicing (BS) events [<xref ref-type="bibr" rid="B1-ijms-21-00293">1</xref>]. To date five categories of circRNAs have been defined, arising respectively from: (i) One or more exons of the linear transcript (exonic); (ii) an intron of the linear transcript (intronic); (iii) an antisense transcript including exons (antisense); (iv) a transcript of the same gene locus of the main linear transcript, but not exonic or intronic (intragenic); and (v) a transcript from nongenic regions (intergenic) [<xref ref-type="bibr" rid="B2-ijms-21-00293">2</xref>]. Exonic circRNAs are the main category and here the mechanism is clearly dependent on the same machinery that carries out normal exon splicing, involving in this case a downstream 5&#x2019; splice site and an upstream 3&#x2019; splice site. In 2013, Jeck et al. described two possible models for circRNA formation [<xref ref-type="bibr" rid="B3-ijms-21-00293">3</xref>]. In the &#x201C;lariat driven circularization&#x201D; model, an exon skipping event generates a long intron lariat containing the skipped exon(s), which undergoes back-splicing to generate a circRNA. The &#x201C;intron-pairing-driven circularization&#x201D; suggests that introns flanking the circularizing exon(s) are paired forming a stem-loop structure, due either to complementary sequences, such as inverted Alu, or to interacting RBPs bound to the two introns.</p>
+      <p>The expression of circRNAs has been reported in almost all tissues, with special enrichment in the brain, and displays features of tissue specificity that is often not correlated with the expression of the cognate linear isoforms. Interestingly, there are many reports of altered circRNA expression in pathological tissues, including cancer, and the relative stability of circRNAs due to the lack of free ends makes them detectable also in body fluids [<xref ref-type="bibr" rid="B4-ijms-21-00293">4</xref>].</p>
+      <p>Several circRNAs databases are also becoming available including circBase [<xref ref-type="bibr" rid="B5-ijms-21-00293">5</xref>], Tissue-Specific CircRNA Database (TSCD) [<xref ref-type="bibr" rid="B6-ijms-21-00293">6</xref>], circRNADb [<xref ref-type="bibr" rid="B7-ijms-21-00293">7</xref>], Circ2Disease [<xref ref-type="bibr" rid="B8-ijms-21-00293">8</xref>], ExoRBase [<xref ref-type="bibr" rid="B9-ijms-21-00293">9</xref>], Cancer Specific CircRNA Database (CSCD) [<xref ref-type="bibr" rid="B10-ijms-21-00293">10</xref>], CircFunBase [<xref ref-type="bibr" rid="B11-ijms-21-00293">11</xref>], and Circ2Traits [<xref ref-type="bibr" rid="B12-ijms-21-00293">12</xref>], increasing the accessible information on annotated circRNAs.</p>
+      <p>Appreciation of circRNAs has escaped the common procedures for gene expression analysis until recently. However, aside from dedicated approaches such as Poly(A+)-depletion or RNAseR treatment followed by RNA-Seq, an increasing number of total RNA-Seq datasets suitable for circRNAs evaluation in a number of different biological contexts is nowadays available. This makes definitely relevant the possibility of studying circRNAs expression in a variety of cells and tissues using available datasets, thus expanding rapidly the knowledge on circRNAs regulation and functions in different experimental or pathological contexts.</p>
+      <p>The identification of circRNAs in RNA-Seq data relies solely on reads mapping to back-splicing junctions. The problem is analogous to identify novel splicing isoforms in linear transcripts, which may be quite hard when these isoforms are expressed at a low level, as indeed in the case of circRNAs. Once a back-splicing is predicted, establishing genomic features and reconstructing circRNA structure is necessary, based on the available data. Finally, differential expression analysis can be performed.</p>
+      <p>Many computational tools were developed for predicting circRNAs from RNA-Seq data [<xref ref-type="bibr" rid="B2-ijms-21-00293">2</xref>,<xref ref-type="bibr" rid="B13-ijms-21-00293">13</xref>], and different tools were proposed for the post-prediction analyses including FUCHS [<xref ref-type="bibr" rid="B14-ijms-21-00293">14</xref>] and CIRI-AS [<xref ref-type="bibr" rid="B15-ijms-21-00293">15</xref>] for defining circRNAs internal structures, Sailfish-circ [<xref ref-type="bibr" rid="B16-ijms-21-00293">16</xref>], and circTest [<xref ref-type="bibr" rid="B17-ijms-21-00293">17</xref>] for circRNAs quantification and differential expression analysis and CircView for visualization of circRNAs predictions [<xref ref-type="bibr" rid="B18-ijms-21-00293">18</xref>]. Furthermore, our group recently proposed the CircHunter algorithm for the characterization and quantification of circRNAs using public RNA-Seq datasets [<xref ref-type="bibr" rid="B19-ijms-21-00293">19</xref>]. All these aspects clearly highlight the need for workflows able to provide a comprehensive characterization of circRNAs. Extensive pipelines were designed for this purpose like CirCompara [<xref ref-type="bibr" rid="B20-ijms-21-00293">20</xref>], Ularcirc [<xref ref-type="bibr" rid="B21-ijms-21-00293">21</xref>], and circtools [<xref ref-type="bibr" rid="B22-ijms-21-00293">22</xref>]; however, they do not meet the computational reproducibility standards suggested by Sandve and colleagues [<xref ref-type="bibr" rid="B23-ijms-21-00293">23</xref>].</p>
+      <p>In this paper, we present Docker4Circ, a comprehensive framework for circRNAs analysis providing: (1) circRNAs prediction from RNA-Seq data; (2) classification and annotation of circRNAs over six public databases; (3) reconstruction of the back-splicing sequence; (4) internal alternative splicing for multi-exonic circRNAs; (5) alignment-free circRNAs quantification from RNA-Seq reads, and (6) differential expression analysis. The distinctive features of Docker4Circ are the usability and portability on all Unix-like systems achieved through docker containerization, an R interface and a Java Graphical User Interface (GUI); and the computational reproducibility of any performed analysis since it follows the guidelines provided by the Reproducible Bioinformatics Project (RBP) [<xref ref-type="bibr" rid="B24-ijms-21-00293">24</xref>,<xref ref-type="bibr" rid="B25-ijms-21-00293">25</xref>].</p>
+    </sec>
+    <sec id="sec2-ijms-21-00293" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-21-00293">
+        <title>2.1. A Framework to Create Modular Workflows for Reproducible Analysis of circRNA Data</title>
+        <p>We designed Docker4Circ as an integrated computational framework to the goal of providing all the common steps from RNA-Seq reads to full analysis of circRNA structure and expression, allowing a number of user-defined options in an easy interface. Docker4Circ consists of an R library (integrated into Docker4Seq package [<xref ref-type="bibr" rid="B23-ijms-21-00293">23</xref>]) and a set of docker images. The framework includes public analysis tools for RNA-Seq read quality control (FASTQC), read alignment (BWA and STAR), circRNA prediction (CIRI2 and STARChip), circRNA internal sequence analysis (CIRI-AS), circRNA classification (CircHunter), and expression analysis (CircHunter and DESeq2). Furthermore, additional functions were included to allow the integration of multiple circRNAs predictions from different tools and the circRNAs annotation with the information stored in public databases. To facilitate the usage of these tools and to achieve the computational reproducibility of the analysis, all the Docker4Circ tools are pre-installed into a set of docker images (according to the guidelines of the RBP). The Docker4Seq R library provides a simplified user interface to run Docker4Circ, for which no knowledge of the docker commands is needed.</p>
+        <p>The framework functionalities are grouped in four modules: circRNAs prediction (Module 1), circRNAs classification and annotation (Module 2), the Back-Splicing (BS) sequence analysis (Module 3), and circRNAs expression analysis (Module 4) (<xref ref-type="fig" rid="ijms-21-00293-f001">Figure 1</xref>).</p>
+        <p>Moreover, to simplify the use of Docker4Circ for users with no scripting experience, R functions can be controlled by a dedicated GUI, which is a part the 4SeqGUI project <uri>https://github.com/mbeccuti/4SeqGUI</uri> (<xref ref-type="fig" rid="ijms-21-00293-f002">Figure 2</xref>a).</p>
+        <p>Details on the usage of each function are reported in the <xref ref-type="app" rid="app1-ijms-21-00293">Supplementary Material</xref> of the manuscript. Docker4Circ functions and associated test data can be downloaded from <uri>https://github.com/kendomaniac/docker4seq</uri>.</p>
+        <sec id="sec2dot1dot1-ijms-21-00293">
+          <title>2.1.1. Module 1: circRNAs Prediction</title>
+          <p>This module is designed to predict circRNAs using either CIRI2 [<xref ref-type="bibr" rid="B26-ijms-21-00293">26</xref>] or STAR Chimeric Post (STARChip) [<xref ref-type="bibr" rid="B27-ijms-21-00293">27</xref>] starting from RNA-Seq reads.</p>
+          <p>The CIRI2 prediction analysis is implemented by the function <italic>wrapperCiri</italic>. This function initially calls the <italic>fastqc</italic> function for quality control of the input RNA-Seq reads using FASTQC (Available online: <uri>http://www.bioinformatics.babraham.ac.uk/projects/fastqc</uri>). Then it executes the <italic>bwa</italic> function for performing read alignment using BWA [<xref ref-type="bibr" rid="B28-ijms-21-00293">28</xref>]. Finally, <italic>ciri2</italic> function is called to execute the CIRI2 algorithm on the read alignment obtained by BWA.</p>
+          <p>The STARChip prediction-pipeline is implemented through <italic>wrapperSTARChip</italic> embedding the functions <italic>starChimeric</italic>, <italic>starChipIndex</italic>, and <italic>starchipCircle</italic>. Before running <italic>wrapperSTARChIP</italic>, the genomic sequence should be indexed using STAR through the function <italic>rsemstarIndex</italic>. In <italic>wrapperSTARChIP</italic> the RNA-Seq reads are aligned against indexed genomes using the <italic>starChimeric</italic> function which exploits the chimeric alignment mode of STAR algorithm. The chimeric alignments are then evaluated for candidate circRNA junctions using the function <italic>starChipIndex</italic> to pre-process the reference STAR genome index. Finally, the <italic>starchipCircle</italic> function returns a list of circRNAs supported by a user-defined minimum number of BS-supporting reads detected in a defined number of samples. An additional filter based on the count per million reads, the linear splicing information, as well as the circRNA annotation, can be also provided by the function.</p>
+          <p>Finally, we provided two functions for processing and overlapping multiple circRNA predictions. Specifically, we designed the function <italic>circrnaMergePredictions</italic> to merge the predicted circRNAs in each sample given a specific prediction tool. This function searches within the sample folders the circRNA predictions as stored in files named with a suffix &#x201C;tool.crna&#x201D; and &#x201C;tool.count_table&#x201D;, where <italic>tool</italic> is the chosen prediction tool (e.g., suffix <italic>ciri2</italic> for CIRI2 prediction). Then, it creates a joined BS count table from different samples and removes those circRNAs characterized by a few BS-supporting reads in each sample and by a low average number of BS-supporting reads among biological replicates of the same experimental condition (these two thresholds are passed to the function <italic>circrnaMergePredictions</italic> as input parameters). Finally, the function <italic>circrnaOverlapResults</italic> was designed to merge circRNAs predictions derived by different tools. It returns a list of predictions in which only the circRNAs discovered by at least N tools are considered (where N is an input parameter of this function). It is important to point out that these two functions are currently implemented to support the circRNA predictions derived from eleven tools: ACFS [<xref ref-type="bibr" rid="B28-ijms-21-00293">28</xref>], CIRI [<xref ref-type="bibr" rid="B29-ijms-21-00293">29</xref>], CIRI2 [<xref ref-type="bibr" rid="B26-ijms-21-00293">26</xref>], Find_Circ2, CIRCexplorer [<xref ref-type="bibr" rid="B30-ijms-21-00293">30</xref>], CIRCexplorer2 [<xref ref-type="bibr" rid="B31-ijms-21-00293">31</xref>], DCC [<xref ref-type="bibr" rid="B17-ijms-21-00293">17</xref>], KNIFE [<xref ref-type="bibr" rid="B32-ijms-21-00293">32</xref>], STARChip [<xref ref-type="bibr" rid="B27-ijms-21-00293">27</xref>], Uroborus [<xref ref-type="bibr" rid="B33-ijms-21-00293">33</xref>], and circRNA_Finder [<xref ref-type="bibr" rid="B34-ijms-21-00293">34</xref>].</p>
+        </sec>
+        <sec id="sec2dot1dot2-ijms-21-00293">
+          <title>2.1.2. Module 2: circRNAs Classification and Annotation</title>
+          <p>In this module, an extensive annotation of the circRNAs predicted in Module 1 is performed through the following two functions: <italic>circrnaClassification</italic> and <italic>circrnaAnnotations</italic>. The <italic>circrnaClassification</italic> function considers the Ensembl transcriptome annotations by overlapping the exons genomic coordinates against circRNAs genomic coordinates. Each overlap is classified on BS position within the annotations and the number of exons involved. This function is able to distinguish unconventional circRNAs classes including intronic and intergenic circRNAs, or circRNAs whose BS sites do not coincide with exon boundaries (putative exon circRNAs), as reported in [<xref ref-type="bibr" rid="B19-ijms-21-00293">19</xref>]. Specifically, if both circRNA BS sites coincide with the exon boundaries then circRNAs are classified as monoexonic or multiexonic depending on the number of exons involved. Conversely, the circRNAs are classified as intronic, intergenic, or putative exon if at least one BS site falls within intronic, intergenic, or intra-exonic regions, respectively. The <italic>circrnaClassification</italic> function takes as input the list of predicted circRNAs, the exons/transcripts data, and the selected genome assembly. The output of this function is thus a circRNAs classification at the transcript and gene level. The <italic>circrnaPrepareFiles</italic> function can be used to retry the exons/transcript data, in case they are not available, using the biomaRt R package [<xref ref-type="bibr" rid="B35-ijms-21-00293">35</xref>]. These functions can be applied on circRNA sets defined in human transcriptomic data (hg18, hg19, or hg38 genome assembly) as well as on data obtained in model organisms, including <italic>Mus musculus</italic> (mm9, mm10 assembly), <italic>Rattus norvegicus</italic> (Rn6), Drosophila melanogaster (dm6), and Caenorhabditis elegans (ce11). </p>
+          <p>On the other side, the <italic>circrnaAnnotations</italic> function compares the list of predicted circRNAs with a set of online circRNA databases. Based on the genomic coordinates of the input circRNAs, the function provides to the user their related information by querying six databases: circBase [<xref ref-type="bibr" rid="B5-ijms-21-00293">5</xref>] and TSCD [<xref ref-type="bibr" rid="B6-ijms-21-00293">6</xref>], ExoRBase [<xref ref-type="bibr" rid="B9-ijms-21-00293">9</xref>], Circ2Disease [<xref ref-type="bibr" rid="B8-ijms-21-00293">8</xref>], CSCD v2 [<xref ref-type="bibr" rid="B10-ijms-21-00293">10</xref>], and CircFunBase [<xref ref-type="bibr" rid="B11-ijms-21-00293">11</xref>]. Each circRNA identified in these databases is associated with their annotations including: Genomic coordinates and length, the cell lines in which a circRNA was detected, the best overlapping gene and transcript, the study in which it was discovered (from circBase), the information about the fetal or adult human and mouse tissues in which the circRNA was detected (from TSCD), the circRNA expression in disease and normal tissues (from CSCD, Circ2Disease, CircFunBase), the circRNA detection in circulating exosomes (from ExoRBase), andmiRNAs and proteins predicted to bind its sequence (from TSCD). </p>
+          <p>Noteworthy, if the version of the genome assembly used for the circRNA prediction is not compatible with those present in circBase and TSCD, the genomic coordinates are converted using the UCSC LiftOver program [<xref ref-type="bibr" rid="B36-ijms-21-00293">36</xref>]. The <italic>circrnaAnnotations</italic> is compatible with the human (hg18, hg19, and h38) and mouse (mm9, mm10) genome assemblies.</p>
+        </sec>
+        <sec id="sec2dot1dot3-ijms-21-00293">
+          <title>2.1.3. Module 3: circRNAs Sequence Analysis</title>
+          <p>This module is designed for the analysis of the back-splicing circRNAs sequence. The <italic>circrnaBSJunctions</italic> function takes as input the list of selected circRNAs and the human genome sequence providing the reconstructed BS sequences of the input circRNAs. The function exploits a python script which identifies two sets of genomic coordinates of 35 base pairs starting from the boundaries of the exons involved in the circularization. To reconstruct BS sequences, these genomic coordinates are then used as input for the functions <italic>getSeq</italic> and xscat provided by the R package GenomicRanges [<xref ref-type="bibr" rid="B37-ijms-21-00293">37</xref>]. <italic>circrnaBSJunction</italic> can be applied on circRNA set defined in human data (hg18, hg19, and hg38) or defined using model organisms data (mm9, mm10, Rn6, dm6, and ce11).</p>
+          <p>Moreover, <italic>ciri_as</italic> function implements the CIRI-AS analysis to detect internal alternative splicing (AS) events involving the exons composing the predicted multi-exonic circRNAs [<xref ref-type="bibr" rid="B15-ijms-21-00293">15</xref>]. Specifically, <italic>ciri_as</italic> takes as input BWA alignment files used for the CIRI2 circRNAs prediction, the reference genomic sequence (in fasta format), the gene annotations (in GTF/GFF), and the list of CIRI2-predicted circRNAs. Its output is the list of alternative splicing events involving the exons of the circRNAs under study.</p>
+        </sec>
+        <sec id="sec2dot1dot4-ijms-21-00293">
+          <title>2.1.4. Module 4: circRNAs Expression Analysis</title>
+          <p>This module provides the expression analysis of circRNAs. The differential expression analysis is based on the DESeq2 R package [<xref ref-type="bibr" rid="B38-ijms-21-00293">38</xref>]. The function <italic>wrapperDeseq2</italic> takes as input the circRNA BS count table generated by the R functions provided by the Module 1 and computes the differential expression analysis for each circRNA with respect to a specific covariate.</p>
+          <p>Conversely, if the user is interested in quantifying the expression of the set of circRNAs predicted in the previous modules in other independent RNA-Seq dataset, we provided the function <italic>circrnaQuantification</italic>. This function applies a two-step procedure to count the sequencing reads supporting a BS junction. In practice, the first step of the function takes as input the sample reads, the set of sequences and a threshold <italic>N</italic> and it returns the corresponding set of reads which contains at least <italic>N</italic> sub-sequences of length <italic>k</italic> (called <italic>k</italic>-mer) shared with the set of pre-defined BS sequences. The <italic>k</italic>-mers are stored in RAM exploiting an ad-hoc C++ hash table class implementation to optimize the trade-offs between the memory utilization and the execution time.</p>
+          <p>The second step takes as input the reads selected in the first step and directly align them against the pre-defined BS sequences. For this step, the Smith&#x2013;Waterman algorithm provided by SIMD Smith&#x2013;Waterman C++ library [<xref ref-type="bibr" rid="B39-ijms-21-00293">39</xref>] is used. The <italic>circrnaQuantification</italic> function can be applied by providing the input circRNAs BS junctions in fasta format, the RNA-Seq data to analyze in fastq format, and six parameters: the <italic>k</italic>-mer length, the number of threads, the dimension of the hash table, the dimension of the collision list, the number of <italic>k</italic>-mers that must be matched to the sequence and the number of perfect matches required to consider the sequence represented in the RNA-Seq data. The circRNAs BS count table obtained can then be joined together using the <italic>mergeData</italic> function and analyzed by the <italic>wrapperDeseq2</italic> function for a differential expression analysis.</p>
+        </sec>
+        <sec id="sec2dot1dot5-ijms-21-00293">
+          <title>2.1.5. How to Integrate a New Functionality in the Framework</title>
+          <p>As part of the RBP, Docker4Circ allows also users to include novel functionality in the framework by creating their own functions and Docker images. For this purpose, a template function called <italic>skeleton</italic> is provided as a prototype to build the docker controlling function. Furthermore, a tutorial on &#x201C;how to create the docker image called via the skeleton.R function&#x201D; was created (see available online: <uri>http://www.reproducible-bioinformatics.org/</uri> in the section &#x201C;How to be part of the Reproducible Bioinformatics project&#x201D;).</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot2-ijms-21-00293">
+        <title>2.2. Examples of the Application of Docker4Circ Framework</title>
+        <p>In the following section, we used Docker4Circ to identify the set of circRNAs expressed from RNA-Seq data of normal colon mucosa (NCM) NCM460 cell line and colorectal cancer (CRC) SW620 and SW480 cell lines [<xref ref-type="bibr" rid="B40-ijms-21-00293">40</xref>] (<xref ref-type="sec" rid="sec2dot2dot1-ijms-21-00293">Section 2.2.1</xref>). The expression analysis module was also used to quantify the expression of the circRNAs identified in an RNA-Seq dataset of primary CRC and paired NCM tissue data set (GSE104178) [<xref ref-type="bibr" rid="B41-ijms-21-00293">41</xref>]</p>
+        <sec id="sec2dot2dot1-ijms-21-00293">
+          <title>2.2.1. Docker4Circ for the Reproducible Analysis of circRNAs Expressed in Colorectal Cancer Cell Lines</title>
+          <p>The Docker4Circ modules were used to predict, classify, annotate, and analyze the expression of the circRNAs in NCM and CRC cell lines. The expression analysis (Module 4) was exploited to measure the expression of the detected circRNAs in an RNA-Seq experiment obtained from primary CRC tissues and adjacent normal tissue.</p>
+          <p>The prediction of circRNAs in NCM and CRC cell lines was performed using the CIRI2 pipeline, implemented by the <italic>wrapperCiri</italic> function. As reported in <xref ref-type="table" rid="ijms-21-00293-t001">Table 1</xref>, among the different samples the lowest number of circRNAs predicted by CIRI2 was 4,624, while the highest circRNAs predicted was 16,006 (average value = 9,474). The complete list of circRNAs, together with the number of BS-supporting reads for each sample, is reported in <xref ref-type="app" rid="app1-ijms-21-00293">Table S1</xref>. The number of circRNAs decreases from NCM to CRC cell lines, as previously reported by the authors [<xref ref-type="bibr" rid="B40-ijms-21-00293">40</xref>].</p>
+          <p>Using the <italic>ciri2MergePredictions</italic> function we merged the circRNAs predicted in each sample into a single circRNAs list. This list is composed of 7,086 out of 31,694 circRNAs characterized by more than two BS-supporting reads in at least two replicates and an average value of BS-supporting reads higher than 10 (<xref ref-type="app" rid="app1-ijms-21-00293">Table S2</xref>). Observe that 99.80% (<italic>n</italic> = 7,072) of the circRNAs belonging to our list was previously detected by Jiang et al [<xref ref-type="bibr" rid="B40-ijms-21-00293">40</xref>]. Starting from the same datasets, the circRNAs prediction was also performed with the STARChip pipeline. The analysis predicted 2,933 circRNAs of which 94.7% overlapped with CIRI2 (<xref ref-type="app" rid="app1-ijms-21-00293">Table S3</xref>).</p>
+          <p>As previously observed by our group, circRNAs can be synthesized by complex splicing patterns involving exonic, intronic, and intergenic regions [<xref ref-type="bibr" rid="B19-ijms-21-00293">19</xref>]. To better characterize the genomic regions involved in the back-splicing process of the 7,086 circRNAs predicted by CIRI2, we applied the function <italic>circrnaClassification</italic> that provides an accurate classification of each circRNA based on BS site location with respect to Ensembl transcript annotations. At the transcript level, the exons of 15,454 transcripts were associated with at least one circRNA, while 7,200 unique classifications were provided at the gene level (<xref ref-type="fig" rid="ijms-21-00293-f002">Figure 2</xref>b). The discrepancy between the number of inputs circRNAs and the unique classification results is due to those circRNAs that can be attributed equally to two or more genes sharing the same exons. <xref ref-type="app" rid="app1-ijms-21-00293">Table S4</xref> provides the classification results at the gene level with information of involved exons. Given our circRNAs classification, we observed that exonic circRNAs were the class associated with the highest expression and the circRNAs predicted on the <italic>HIPK3</italic> (exon 2), <italic>CAMSAP1</italic> (exons 2&#x2013;3), and <italic>ASXL1</italic> (exons 2&#x2013;4) were the most expressed circRNAs in both normal and cancer cell lines (<xref ref-type="app" rid="app1-ijms-21-00293">Table S4</xref>). These circRNAs were also identified by Jiang and coworkers as the most expressed circRNAs [<xref ref-type="bibr" rid="B40-ijms-21-00293">40</xref>].</p>
+          <p>To further characterize the structural properties of the circRNAs in our list, we applied the sequence analysis module of Docker4Circ to identify AS events involving the exons composing the circRNAs. This analysis was performed with CIRI-AS algorithm implemented in the <italic>ciri_as</italic> function and generated an average of 780.3 AS events involving multi-exonic circRNAs in our set (<xref ref-type="table" rid="ijms-21-00293-t001">Table 1</xref> and <xref ref-type="app" rid="app1-ijms-21-00293">Table S5</xref>).</p>
+          <p>Subsequently, to describe our circRNA set based on public database information, we applied the <italic>circrnaAnnotations</italic> function of Docker4Circ. The annotation with data from the six databases highlighted 4,950 circRNAs annotated in CircBase, 540 and 508 circRNAs annotated in the adult and fetal tissue sections of TSCD database, 334 in CircFunBase database, 24 in ExoRBase, 72 in Circ2Disease, and 29 in CSCD v2, respectively (<xref ref-type="app" rid="app1-ijms-21-00293">Table S6A&#x2013;G</xref>). Interestingly, 83 circRNAs were detected in adult colon tissue samples in TSCD data and 26, 2, and 29 were detected in CRC tissue using the CircFunBase, Circ2Disease, and CSCD v2 annotations, respectively (<xref ref-type="app" rid="app1-ijms-21-00293">Table S6H</xref>). A total of 1,132 circRNAs were not annotated in any of the considered database.</p>
+          <p>Finally, using the functions implemented in the expression analysis module, we assessed the differential expression level of our list of circRNAs among different experimental conditions or from independent RNA-Seq experiments. Then, we performed a differential expression analysis (<italic>wrapperDeseq2</italic> function) considering the number of BS-supporting reads measured in NCM and CRC cell lines. As reported in <xref ref-type="app" rid="app1-ijms-21-00293">Table S7</xref>, we identified 705, 655, and 430 circRNAs differentially expressed (adj. <italic>p</italic>-value &lt; 0.001) between NCM460 and SW480 cell lines, NCM460 and SW620 cell lines, and SW480 and SW620 cell lines (<xref ref-type="app" rid="app1-ijms-21-00293">Table S7</xref>). Among them, 639 (90.64%), 613 (93.59%), and 352 (81.86%) were detected as differentially expressed also by Jiang and coworker [<xref ref-type="bibr" rid="B40-ijms-21-00293">40</xref>]. Finally, 208 circRNAs were significantly differentially expressed in all the comparisons. Among them, the circRNAs mapped in <italic>EXOC6B</italic> (exons 1&#x2013;3), <italic>DCBLD2</italic> (exons 1&#x2013;2), and <italic>ASAP1</italic> (exon 2) were the most significant dysregulated circRNAs (<xref ref-type="app" rid="app1-ijms-21-00293">Tables S4 and S7</xref>).</p>
+        </sec>
+        <sec>
+          <title>2.2.2. Application of Docker4Circ to Directly Quantify circRNAs Expression from CRC Tissue RNA-Seq Data</title>
+          <p>The expression of the 7086 circRNAs identified using the cell lines data described in the previous section, was quantified in an RNA-Seq dataset of primary CRC and paired NCM tissue data set (GSE104178) [<xref ref-type="bibr" rid="B41-ijms-21-00293">41</xref>]. For this purpose, the sequences of the circRNAs back-splicing junctions were reconstructed using the Docker4Circ <italic>circrnaBSJunctions</italic> function. Using the hash table-based approach, the reconstructed BS sequences were searched directly in total RNA-Seq reads bypassing the circRNAs prediction in each tissue sample. Using this quantification method, 1,758 circRNAs were associated with at least one read. The most expressed circRNAs in NCM samples was chr17_45043900_45047675 an intronic circRNA of <italic>RP11-156P1.2</italic> gene, whereas a circRNA from the <italic>RPA3-AS1</italic> gene (exons 2 and 3) was the most expressed circRNA in CRC samples.</p>
+          <p>Then, the BS read count table was used as input of a differential expression analysis (<italic>wrapperDeseq2</italic> function) between the CRC and the paired NCM datasets. We identified six circRNAs differentially expressed between CRC and normal colonic mucosa samples (<italic>p</italic>-value &lt; 0.01) (<xref ref-type="fig" rid="ijms-21-00293-f002">Figure 2</xref>c and <xref ref-type="app" rid="app1-ijms-21-00293">Table S8A</xref>). Among the six differentially expressed circRNAs between primary tumors and matched normal mucosa, two circRNAs were detected as differentially expressed using the CRC cell line data. Specifically, a circRNA encoded by the <italic>PSMA3</italic> (chr14_58718837_58724716) and one encoded by the <italic>HDAC2</italic> gene (chr6_114274441_114277315) were upregulated in primary tumors. The circRNA chr14_58718837_58724716 was significantly up-regulated in SW480 compared to NCM460 cell lines, while chr6_114274441_114277315 was up-regulated in SW640 compared to SW480 cells.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-ijms-21-00293" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>CircRNAs are widely expressed in both cancerous and normal tissues [<xref ref-type="bibr" rid="B42-ijms-21-00293">42</xref>,<xref ref-type="bibr" rid="B43-ijms-21-00293">43</xref>] and an increased number of sequencing experiments is becoming accessible to explore circRNAs expression in a specific biological context. To deal with the increasing number of computational resources and public datasets available for circRNAs analysis, we propose Docker4Circ as a user-friendly framework to guarantee reproducible analysis of circRNAs data.</p>
+      <p>The framework was designed for users with different levels of expertise in computational analysis. Specifically, a Java graphic user interface was designed to provide a basic user-friendly framework. Conversely, more expert users can exploit the R environment to create their own analysis workflows using directly the R functions implemented in Docker4Circ.</p>
+      <p>The four modules composing the Docker4Circ framework facilitate the circRNAs prediction starting from raw RNA-Seq reads and the comparison of multiple circRNA lists (Module 1), the circRNA characterization by defining their genome context and the annotated knowledge about their expression (Module 2), the reconstruction of the circRNA BS sequence to easily design qPCR primers for validating circRNAs expression (Module 3), and the rapid quantification and differential expression analysis of circRNAs level using public datasets (Module 4). Indeed, starting from RNA-seq datasets, Docker4Circ provides all the features and annotations needed for further experimental work, such as the BS sequence, the genomic status and contextualization of the circRNAs within other linear cognate transcripts and alternative splicing isoforms, and potentially interacting RBPs and miRNAs. This is a consistent advantage with not having to jump to different packages for each of these aspects. In addition, along with the differential expression analysis run inside the original dataset, the fourth Docker4Circ Module allows the circRNAs identified in the original dataset to be quite rapidly analyzed in other independent external datasets thanks to the function <italic>circrnaQuantification</italic>.</p>
+      <p>We tested Docker4Circ to reproduce analyses performed by Jiang and colleagues [<xref ref-type="bibr" rid="B40-ijms-21-00293">40</xref>] on circRNAs expression in CRC cell lines showing that our framework is able to reproduce extensively their results. Furthermore, we added novel evidence on these circRNAs by executing a quantification and differential analysis of their expression level considering RNA-Seq performed on CRC and adjacent colonic tissues. This analysis showed two circRNAs differentially expressed both in tissues and cell lines models (<xref ref-type="app" rid="app1-ijms-21-00293">Table S8B</xref>). These circRNAs were annotated, respectively to the <italic>HNRNPC</italic> (exons 1&#x2013;2) and the <italic>PSMA3</italic> (exons 3&#x2013;5) genes. Furthermore, considering the circRNAs detected as differentially expressed in CRC cell lines data, we identified 355 circRNAs detected in the primary tissue datasets and five of them are annotated to CRC considering the Circ2Disease or CircFunBase annotations. Specifically, the circRNA hsa_circ_0005273 (from the <italic>PTK2</italic> gene) was annotated to CRC disease in both circ2disease and CircFunBase, while hsa_circ_0002321, hsa_circ_0005576, hsa_circ_0004820, and circ_004661 transcribed respectively from the <italic>PPP2R5A</italic>, <italic>CDC42</italic>, <italic>NUP35</italic>, and <italic>PTPRA</italic> genes were annotated to CRC in CircFunBase. Despite further experimental validations are needed to assess the expression of these circRNAs in CRC and normal colonic mucosa, we showed that our approach is able to provide a reproducible prediction and characterization of a circRNAs set.</p>
+      <p>As reported in <xref ref-type="app" rid="app1-ijms-21-00293">Table S9</xref>, all the modules and functions implemented in Docker4Circ can be run in a limited amount of time and the overall running time of the workflow was around six or ten hours if the CIRI2 or the STARchip prediction is performed, respectively. The workflow was performed on an Intel NUC6I7KYK mini-PC with 8 threads confirming that all the Docker4Circ functions can be executed on a standard workstation because the only requirement is 32 Gb of RAM available if the STAR Chimeric analysis is performed. Moreover, one additional aspect that should be considered is the time and computational power requested to run circRNA analysis from RNA-Seq data concerning elevated number of samples, such as in the case of tumor tissue or sera series, often involving (several) hundreds of samples. For this purpose, we included a hash-based circRNA expression quantification (<italic>circrnaQuantificiation</italic> function) which allows the direct computation of circRNA expression level from the sequencing reads avoiding the read alignment step, limited to a pre-defined set of circRNAs.</p>
+      <p>The most important aspect of our framework is its ability to guarantee the computational reproducibility of the analysis. This is obtained by embedding each analysis step into a specific docker image according to the guidelines of the RBP project. Thanks to this, our framework provided analyses whose results can be fully tracked on how they were produced by recording each analysis steps and version of tools applied without any data manipulation step.</p>
+      <p>In conclusion, Docker4Circ provides an efficient analysis framework to identify and characterize the circRNAs on a large number of sequencing experiments. The usage of Docker images ensures a reproducible circRNAs analyses to easily harmonize and combine the study of these molecules in different experimental and biological contexts.</p>
+    </sec>
+    <sec id="sec4-ijms-21-00293">
+      <title>4. Materials and Methods</title>
+      <p>The detailed analysis protocol that was followed for the analyses reported in this manuscript was released on the protocol.io portal at dx.doi.org/10.17504/protocols.io.9vmh646. The specific use of each function and associated parameters are reported in <xref ref-type="app" rid="app1-ijms-21-00293">Supplementary Materials</xref> of the manuscript.</p>
+      <sec id="sec4dot1-ijms-21-00293">
+        <title>4.1. CircRNAs Prediction</title>
+        <p>To test Docker4Circ, RNase-R RNA-Seq datasets from PRJNA393626 were selected. These data consist of a triplicate paired-end total and RNase-R treated RNA-Seq performed on NCM460 (normal colon cells), SW480 (primary CRC cells), and SW620 cell lines (metastatic CRC cells).</p>
+        <p>CircRNAs prediction was performed using the <italic>wrapperCiri</italic> function of Docker4Circ with the following parameters: max.span = 200,000, stringency.value = &#x201C;high&#x201D;, and quality.threshold = 10. Using this function, reads alignment was performed using the mem mode of BWA v.0.6.1 in default settings. CircRNAs prediction was performed using CIRI2 algorithm v.2.06 [<xref ref-type="bibr" rid="B26-ijms-21-00293">26</xref>]. Gencode v28 was used as reference transcriptome while Ensembl hg19 (GRCh37) as Human reference genome. CircRNAs predicted in at least two out of the three biological replicates in each condition and associated with an average number of BS-supporting reads &gt;10 were selected. This prediction overlap was performed with the <italic>ciri2MergePredictions</italic> function of Docker4Circ using the options min_reads = 2, min_reps = 2, and min_avg = 10. The list of circRNAs was overlapped with those predicted in [<xref ref-type="bibr" rid="B40-ijms-21-00293">40</xref>] by converting the circRNA genomic coordinates from hg19 to hg38 human genome assembly using LiftOver algorithm [<xref ref-type="bibr" rid="B36-ijms-21-00293">36</xref>].</p>
+        <p>For the circRNAs prediction with the STARChip pipeline, the reference genome was indexed using the function <italic>rsemstarIndex</italic> and <italic>starChipIndex</italic>. Subsequently chimeric read alignments for each dataset were detected using the function <italic>starChimeric</italic> with parameters chimSegmentMin = 20 and chimJunctionOverhangMin = 15. Finally, the function <italic>starchipCircle</italic> was applied to predict the circRNAs using the STAR Chimeric alignments. The function was applied with parameters reads.cutoff = 1, min.subject.limit = 2, do.splice = &#x201C;true&#x201D;, cpm.cutoff = 0, subjectCPM.cutoff = 0, annotation = &#x201C;true&#x201D;. The <italic>ciri2MergePredictions</italic> function was used to filter the circRNAs read count table using the same parameters exploited during the CIRI2 analysis. The overlap between CIRI2 and STARChip circRNA predictions was performed by considering their genomic coordinates.</p>
+      </sec>
+      <sec id="sec4dot2-ijms-21-00293">
+        <title>4.2. CircRNAs Classification and Annotations</title>
+        <p>The circRNAs classification was performed using <italic>circClassification</italic> function (with option assembly = &#x201C;hg19&#x201D;) applied on the list of circRNAs predicted by CIRI2 and on the reference hg19 transcript annotations from Ensembl (Ensembl v93) downloaded using the <italic>circrnaPrepareFiles</italic> function of Docker4Circ (with option assembly = &#x201C;hg19&#x201D;).</p>
+        <p>The circRNA annotation was performed using the <italic>circrnaAnnotations</italic> function with option genome.version = &#x201C;hg19&#x201D;.</p>
+      </sec>
+      <sec id="sec4dot3-ijms-21-00293">
+        <title>4.3. CircRNAs Sequence Analysis</title>
+        <p>The 70bp sequences representing the reconstructed circRNA BS junctions were obtained using the function <italic>circrnaBSJunctions</italic> of Docker4Circ. The resulting fasta file was used for the quantification analysis. Prediction of internal alternative splicing events involving multi-exonic circRNAs was performed using the <italic>ciri_as</italic> function on each list of circRNAs predicted by CIRI2.</p>
+      </sec>
+      <sec id="sec4dot4-ijms-21-00293">
+        <title>4.4. Quantification of circRNAs in RNA-Seq Datasets</title>
+        <p>The <italic>circrnaQuantification</italic> function of Docker4Circ was applied using six RNA-Seq datasets from GSE104178 [<xref ref-type="bibr" rid="B41-ijms-21-00293">41</xref>]. These data consist of total RNA-Seq performed on three matched pairs of colorectal cancer (CRC) samples and matched normal colonic mucosa (NCM) samples. The quantification analysis was performed selecting a k-mer length equal to 21 based on the read length (75 bp); a minimum number of matching k-mer equal to 17, and a minimum number of perfect matches equal to 30. The maximum number of the element stored in the hash table was set to 1,000,003. DESeq2 v1.20.0 [<xref ref-type="bibr" rid="B38-ijms-21-00293">38</xref>] was applied for BS read count normalization and differential expression analysis. The algorithm was applied in default settings. The analysis was performed using the <italic>wrapperDeseq2</italic> function of Docker4Circ on the result of the <italic>mergeData</italic> function which was used to join different circRNA count tables with the covariates indicating the samples classes.</p>
+      </sec>
+      <sec id="sec4dot5-ijms-21-00293">
+        <title>4.5. Availability of Source Code and Requirements</title>
+        <p>The Docker4Circ R functions were integrated into the Docker4Seq R package available at <uri>https://github.com/kendomaniac/docker4seq</uri>.</p>
+        <p>The Java GUI can be downloaded from <uri>https://github.com/mbeccuti/4SeqGUI</uri>.</p>
+        <p>The analysis is independent of the Linux operating system applied, while Docker software is required. All Docker4Circ modules are already integrated into a Docker image. Each docker image tag is then created following rule defined by RBP: Docker image tags are labelled with the extension YYYY.NN, where YYYY is the year of insertion in the stable version and NN a progressive number. YYYY changes only if any update on the program(s), implemented in the docker image, is done. This because any such updates will affect the reproducibility of the workflow. Previous version(s) will be also available in the repository. NN refers to changes in the docker image, which do not affect the reproducibility of the workflow.</p>
+        <p>The Docker4Circ docker images can be created using the Docker files provided in <uri>https://github.com/cursecatcher/biodocker/blob/master/docker4ciri/Dockerfile</uri>. </p>
+        <p>The Docker4Circ pipeline can be run by the Docker4Seq R package, by the 4SeqGUI Java graphical interface, and directly by the bash command lines using the commands reported in the <xref ref-type="app" rid="app1-ijms-21-00293">Supplementary Materials</xref> of the manuscript.</p>
+      </sec>
+      <sec id="sec4dot6-ijms-21-00293">
+        <title>4.6. Docker4Circ Running Time Estimation</title>
+        <p>The running time of each analysis was computed by considering the execution using 8 threads of an Intel NUC6I7KYK mini-PC [<xref ref-type="bibr" rid="B25-ijms-21-00293">25</xref>]. Specifically, multithreading was exploited only for the execution of the functions <italic>ciri2</italic>, <italic>circrnaQuantification</italic>, <italic>starChimeric</italic>, and <italic>starchipCircle</italic>.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-ijms-21-00293">
+        <title>Supplementary Materials</title>
+        <p>Supplementary materials can be found at <uri>https://www.mdpi.com/1422-0067/21/1/293/s1</uri>.</p>
+		<supplementary-material id="ijms-21-00293-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00293-s001.zip">
+		</supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>N.L., G.F. and C.D.I. implemented Docker4Circ functions, the GUI and the Docker containers. G.F. conducted empirical experiments. G.F., V.M., F.C. and M.B. drafted the manuscript. G.F., L.C.T. and V.M. designed the case study. R.A.C., M.B., M.D.B. coordinated the study. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was supported by Associazione Italiana per la Ricerca sul Cancro [Grant IG 15600 to MDB]; by Fondazione CRT [grant 2014.1854 to MDB and 2017.2025 to FC]; by University of Torino [2016 Local Research funding to MDB]; Consiglio Nazionale delle Ricerche [Flagship projects EPIGEN to RAC]; Fondazione Umberto Veronesi [Postdoctoral Fellowship to VM]. GF was supported by a FIRC-AIRC fellowship for Italy.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <glossary>
+      <title>Abbreviations</title>
+      <array>
+        <tbody>
+          <tr>
+            <td align="left" valign="middle">circRNA</td>
+            <td align="left" valign="middle">circular RNAs</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">CRC</td>
+            <td align="left" valign="middle">colorectal cancer</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">NCM</td>
+            <td align="left" valign="middle">normal colonic mucosa</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">AS</td>
+            <td align="left" valign="middle">alternative splicing</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">BS</td>
+            <td align="left" valign="middle">back-splicing</td>
+          </tr>
+        </tbody>
+      </array>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00293">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salzman</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Circular RNA Expression: Its Potential Regulation and Function</article-title>
+          <source>Trends Genet.</source>
+          <year>2016</year>
+          <volume>32</volume>
+          <fpage>309</fpage>
+          <lpage>316</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tig.2016.03.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00293">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szabo</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Salzman</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Detecting circular RNAs: Bioinformatic and experimental challenges</article-title>
+          <source>Nat. Rev. Genet.</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>679</fpage>
+          <lpage>692</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrg.2016.114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00293">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jeck</surname>
+              <given-names>W.R.</given-names>
+            </name>
+            <name>
+              <surname>Sorrentino</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Slevin</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Burd</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Marzluff</surname>
+              <given-names>W.F.</given-names>
+            </name>
+            <name>
+              <surname>Sharpless</surname>
+              <given-names>N.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Circular RNAs are abundant, conserved, and associated with ALU repeats</article-title>
+          <source>RNA</source>
+          <year>2013</year>
+          <volume>19</volume>
+          <fpage>141</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="doi">10.1261/rna.035667.112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00293">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Circular RNAs: Promising Biomarkers for Human Diseases</article-title>
+          <source>EBioMedicine</source>
+          <year>2018</year>
+          <volume>34</volume>
+          <fpage>267</fpage>
+          <lpage>274</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ebiom.2018.07.036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00293">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gla&#x17E;ar</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Papavasileiou</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rajewsky</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>circBase: A database for circular RNAs</article-title>
+          <source>RNA</source>
+          <year>2014</year>
+          <volume>20</volume>
+          <fpage>1666</fpage>
+          <lpage>1670</lpage>
+          <pub-id pub-id-type="doi">10.1261/rna.043687.113</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00293">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Comprehensive characterization of tissue-specific circular RNAs in the human and mouse genomes</article-title>
+          <source>Brief. Bioinform.</source>
+          <year>2017</year>
+          <volume>18</volume>
+          <fpage>984</fpage>
+          <lpage>992</lpage>
+          <pub-id pub-id-type="doi">10.1093/bib/bbw081</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00293">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>circRNADb: A comprehensive database for human circular RNAs with protein-coding annotations</article-title>
+          <source>Sci. Rep.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>34985</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep34985</pub-id>
+          <pub-id pub-id-type="pmid">27725737</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00293">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yao</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Circ2Disease: A manually curated database of experimentally validated circRNAs in human disease</article-title>
+          <source>Sci. Rep.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>11018</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-29360-3</pub-id>
+          <pub-id pub-id-type="pmid">30030469</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00293">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>X.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>exoRBase: A database of circRNA, lncRNA and mRNA in human blood exosomes</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2018</year>
+          <volume>46</volume>
+          <fpage>D106</fpage>
+          <lpage>D112</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkx891</pub-id>
+          <pub-id pub-id-type="pmid">30053265</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00293">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gong</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>CSCD: A database for cancer-specific circular RNAs</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2018</year>
+          <volume>46</volume>
+          <fpage>D925</fpage>
+          <lpage>D929</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkx863</pub-id>
+          <pub-id pub-id-type="pmid">29036403</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00293">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>CircFunBase: A database for functional circular RNAs</article-title>
+          <source>Database</source>
+          <year>2019</year>
+          <volume>2019</volume>
+          <fpage>baz003</fpage>
+          <pub-id pub-id-type="doi">10.1093/database/baz003</pub-id>
+          <pub-id pub-id-type="pmid">30715276</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00293">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghosal</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Das</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Basak</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Chakrabarti</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Circ2Traits: A comprehensive database for circular RNA potentially associated with disease and traits</article-title>
+          <source>Front. Genet.</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <fpage>283</fpage>
+          <pub-id pub-id-type="doi">10.3389/fgene.2013.00283</pub-id>
+          <pub-id pub-id-type="pmid">24339831</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00293">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Computational Strategies for Exploring Circular RNAs</article-title>
+          <source>Trends Genet.</source>
+          <year>2018</year>
+          <volume>34</volume>
+          <fpage>389</fpage>
+          <lpage>400</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tig.2017.12.016</pub-id>
+          <pub-id pub-id-type="pmid">29338875</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00293">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Metge</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Czaja-Hasse</surname>
+              <given-names>L.F.</given-names>
+            </name>
+            <name>
+              <surname>Reinhardt</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Dieterich</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>FUCHS-towards full circular RNA characterization using RNAseq</article-title>
+          <source>PeerJ</source>
+          <year>2017</year>
+          <volume>5</volume>
+          <fpage>e2934</fpage>
+          <pub-id pub-id-type="doi">10.7717/peerj.2934</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00293">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comprehensive identification of internal structure and alternative splicing events in circular RNAs</article-title>
+          <source>Nat. Commun.</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>12060</fpage>
+          <pub-id pub-id-type="doi">10.1038/ncomms12060</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijms-21-00293">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sheng</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantifying circular RNA expression from RNA-seq data using model-based framework</article-title>
+          <source>Bioinformatics</source>
+          <year>2017</year>
+          <volume>33</volume>
+          <fpage>2131</fpage>
+          <lpage>2139</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btx129</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijms-21-00293">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Metge</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Dieterich</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Specific identification and quantification of circular RNAs from sequencing data</article-title>
+          <source>Bioinformatics</source>
+          <year>2016</year>
+          <volume>32</volume>
+          <fpage>1094</fpage>
+          <lpage>1096</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btv656</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijms-21-00293">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ozguc</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Diao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>CircView: A visualization and exploration tool for circular RNAs</article-title>
+          <source>Brief. Bioinform.</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <fpage>1310</fpage>
+          <lpage>1316</lpage>
+          <pub-id pub-id-type="doi">10.1093/bib/bbx070</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijms-21-00293">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coscujuela Tarrero</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ferrero</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Miano</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>De Intinis</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ricci</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Arigoni</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Riccardo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Annaratone</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Castellano</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Calogero</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Luminal breast cancer-specific circular RNAs uncovered by a novel tool for data analysis</article-title>
+          <source>Oncotarget</source>
+          <year>2018</year>
+          <volume>9</volume>
+          <fpage>14580</fpage>
+          <lpage>14596</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijms-21-00293">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gaffo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Bonizzato</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kronnie</surname>
+              <given-names>G.T.</given-names>
+            </name>
+            <name>
+              <surname>Bortoluzzi</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>CirComPara: A Multi-Method Comparative Bioinformatics Pipeline to Detect and Study circRNAs from RNA-seq Data</article-title>
+          <source>Noncoding RNA</source>
+          <year>2017</year>
+          <volume>3</volume>
+          <elocation-id>8</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ncrna3010008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijms-21-00293">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Humphreys</surname>
+              <given-names>D.T.</given-names>
+            </name>
+            <name>
+              <surname>Fossat</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Tam</surname>
+              <given-names>P.P.L.</given-names>
+            </name>
+            <name>
+              <surname>Ho</surname>
+              <given-names>J.W.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ularcirc: Visualisation and enhanced analysis of circular RNAs via back and canonical forward splicing</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2019</year>
+          <volume>47</volume>
+          <fpage>e123</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkz718</pub-id>
+          <pub-id pub-id-type="pmid">31435647</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijms-21-00293">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jakobi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Uvarovskii</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dieterich</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>circtools&#x2014;A one-stop software solution for circular RNA research</article-title>
+          <source>Bioinformatics</source>
+          <year>2018</year>
+          <volume>35</volume>
+          <fpage>2326</fpage>
+          <lpage>2328</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/bty948</pub-id>
+          <pub-id pub-id-type="pmid">30462173</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijms-21-00293">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sandve</surname>
+              <given-names>G.K.</given-names>
+            </name>
+            <name>
+              <surname>Nekrutenko</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hovig</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ten simple rules for reproducible computational research</article-title>
+          <source>PLoS Comput. Biol.</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <elocation-id>e1003285</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pcbi.1003285</pub-id>
+          <pub-id pub-id-type="pmid">24204232</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijms-21-00293">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kulkarni</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Alessandr&#xEC;</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Panero</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Arigoni</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Olivero</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ferrero</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Cordero</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Beccuti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Calogero</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reproducible bioinformatics project: A community for reproducible bioinformatics analysis pipelines</article-title>
+          <source>BMC Bioinform.</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <elocation-id>349</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/s12859-018-2296-x</pub-id>
+          <pub-id pub-id-type="pmid">30367595</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijms-21-00293">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beccuti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cordero</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Arigoni</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Panero</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Amparore</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Donatelli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Calogero</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>SeqBox: RNAseq/ChIPseq reproducible analysis on a consumer game computer</article-title>
+          <source>Bioinformatics</source>
+          <year>2018</year>
+          <volume>34</volume>
+          <fpage>871</fpage>
+          <lpage>872</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btx674</pub-id>
+          <pub-id pub-id-type="pmid">29069297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijms-21-00293">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Circular RNA identification based on multiple seed matching</article-title>
+          <source>Brief. Bioinform.</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <fpage>803</fpage>
+          <lpage>810</lpage>
+          <pub-id pub-id-type="doi">10.1093/bib/bbx014</pub-id>
+          <pub-id pub-id-type="pmid">28334140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijms-21-00293">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akers</surname>
+              <given-names>N.K.</given-names>
+            </name>
+            <name>
+              <surname>Schadt</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Losic</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>STAR Chimeric Post for rapid detection of circular RNA and fusion transcripts</article-title>
+          <source>Bioinformatics</source>
+          <year>2018</year>
+          <volume>34</volume>
+          <fpage>2364</fpage>
+          <lpage>2370</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/bty091</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-ijms-21-00293">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>You</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Conrad</surname>
+              <given-names>T.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Acfs: Accurate circRNA identification and quantification from RNA-Seq data</article-title>
+          <source>Sci. Rep.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>38820</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep38820</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-ijms-21-00293">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>CIRI: An efficient and unbiased algorithm for de novo circular RNA identification</article-title>
+          <source>Genome Biol.</source>
+          <year>2015</year>
+          <volume>16</volume>
+          <fpage>4</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13059-014-0571-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-ijms-21-00293">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.O.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.L.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complementary sequence-mediated exon circularization</article-title>
+          <source>Cell</source>
+          <year>2014</year>
+          <volume>159</volume>
+          <fpage>134</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2014.09.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-ijms-21-00293">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.O.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.L.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Diverse alternative back-splicing and alternative splicing landscape of circular RNAs</article-title>
+          <source>Genome Res.</source>
+          <year>2016</year>
+          <volume>26</volume>
+          <fpage>1277</fpage>
+          <lpage>1287</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.202895.115</pub-id>
+          <pub-id pub-id-type="pmid">27365365</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-ijms-21-00293">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szabo</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Morey</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Palpant</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>P.L.</given-names>
+            </name>
+            <name>
+              <surname>Afari</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Parast</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Murry</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Laurent</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Salzman</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistically based splicing detection reveals neural enrichment and tissue-specific induction of circular RNA during human fetal development</article-title>
+          <source>Genome Biol.</source>
+          <year>2015</year>
+          <volume>16</volume>
+          <fpage>126</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13059-015-0690-5</pub-id>
+          <pub-id pub-id-type="pmid">26076956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijms-21-00293">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Moon</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Circular RNA profile in gliomas revealed by identification tool UROBORUS</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2016</year>
+          <volume>44</volume>
+          <fpage>e87</fpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkw075</pub-id>
+          <pub-id pub-id-type="pmid">26873924</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-ijms-21-00293">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Westholm</surname>
+              <given-names>J.O.</given-names>
+            </name>
+            <name>
+              <surname>Miura</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shenker</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Joseph</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sanfilippo</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Celniker</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Graveley</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>E.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide analysis of drosophila circular RNAs reveals their structural and sequence properties and age-dependent neural accumulation</article-title>
+          <source>Cell Rep.</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <fpage>1966</fpage>
+          <lpage>1980</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2014.10.062</pub-id>
+          <pub-id pub-id-type="pmid">25544350</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-ijms-21-00293">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Durinck</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Spellman</surname>
+              <given-names>P.T.</given-names>
+            </name>
+            <name>
+              <surname>Birney</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mapping identifiers for the integration of genomic datasets with the R/Bioconductor package biomaRt</article-title>
+          <source>Nat. Protoc.</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>1184</fpage>
+          <lpage>1191</lpage>
+          <pub-id pub-id-type="doi">10.1038/nprot.2009.97</pub-id>
+          <pub-id pub-id-type="pmid">19617889</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-ijms-21-00293">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hinrichs</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Karolchik</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Baertsch</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Barber</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Bejerano</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Clawson</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Diekhans</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Furey</surname>
+              <given-names>T.S.</given-names>
+            </name>
+            <name>
+              <surname>Harte</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Hsu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The UCSC Genome Browser Database: Update 2006</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2006</year>
+          <volume>34</volume>
+          <fpage>D590</fpage>
+          <lpage>D598</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkj144</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-ijms-21-00293">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Pag&#xE8;s</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Aboyoun</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Carlson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gentleman</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Morgan</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Carey</surname>
+              <given-names>V.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Software for computing and annotating genomic ranges</article-title>
+          <source>PLoS Comput. Biol.</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <elocation-id>e1003118</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pcbi.1003118</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-ijms-21-00293">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Love</surname>
+              <given-names>M.I.</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Anders</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</article-title>
+          <source>Genome Biol.</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <fpage>550</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13059-014-0550-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-ijms-21-00293">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>W.P.</given-names>
+            </name>
+            <name>
+              <surname>Garrison</surname>
+              <given-names>E.P.</given-names>
+            </name>
+            <name>
+              <surname>Marth</surname>
+              <given-names>G.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>SSW library: An SIMD Smith-Waterman C/C++ library for use in genomic applications</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <elocation-id>e82138</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0082138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-ijms-21-00293">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Timko</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Circular RNA Profiles of Colorectal Tumor Metastatic Cells</article-title>
+          <source>Front. Genet.</source>
+          <year>2018</year>
+          <volume>9</volume>
+          <fpage>34</fpage>
+          <pub-id pub-id-type="doi">10.3389/fgene.2018.00034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-ijms-21-00293">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamada</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Okugawa</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Boland</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Goel</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A RNA-Sequencing approach for the identification of novel long non-coding RNA biomarkers in colorectal cancer</article-title>
+          <source>Sci. Rep.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>575</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-017-18407-6</pub-id>
+          <pub-id pub-id-type="pmid">29330370</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-ijms-21-00293">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ji</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Expanded Expression Landscape and Prioritization of Circular RNAs in Mammals</article-title>
+          <source>Cell Rep.</source>
+          <year>2019</year>
+          <volume>26</volume>
+          <fpage>3444.e5</fpage>
+          <lpage>3460.e5</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2019.02.078</pub-id>
+          <pub-id pub-id-type="pmid">30893614</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-ijms-21-00293">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vo</surname>
+              <given-names>J.N.</given-names>
+            </name>
+            <name>
+              <surname>Cieslik</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shukla</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Dhanasekaran</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Engelke</surname>
+              <given-names>C.G.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Landscape of Circular RNA in Cancer</article-title>
+          <source>Cell</source>
+          <year>2019</year>
+          <volume>176</volume>
+          <fpage>869</fpage>
+          <lpage>881</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2018.12.021</pub-id>
+          <pub-id pub-id-type="pmid">30735636</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="ijms-21-00293-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Schematic representation of the Docker4Circ modules with indication of all the functions (reported in bold in the hexagons) and the input/output files involved (reported in the squares). The different modules implemented in the framework are reported with different colors. BS = back-splicing.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00293-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00293-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>(<bold>a</bold>) The Docker4Circ Graphical User Interface. Each module implemented in the framework is accessible using the panel on the left, the right panel reports the fields and parameters of each function; (<bold>b</bold>) Bar plot reporting the Docker4Circ classification of circRNAs identified in the analysis of RNA-Seq datasets from CRC cell lines; (<bold>c</bold>) Volcano plot reporting the -log10 p-value and the log2 expression fold change (red dashed lines) computed between Docker4Circ counts of BS supporting reads from RNA-Seq datasets of NCM and CRC tissue samples.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00293-g002.tif"/>
+      </fig>
+      <table-wrap id="ijms-21-00293-t001" position="float">
+        <object-id pub-id-type="pii">ijms-21-00293-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Table reporting the number of RNA-Seq paired reads analyzed, the number of detected circRNAs, and the number of alternative splicing (AS) events predicted by CIRI-AS.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Dataset ID</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reads</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">circRNAs</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">AS Events</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">NCM460_R1</td>
+              <td align="center" valign="middle">66,144,999</td>
+              <td align="center" valign="middle">14,003</td>
+              <td align="center" valign="middle">1,482</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NCM460_R2</td>
+              <td align="center" valign="middle">70,945,094</td>
+              <td align="center" valign="middle">16,006</td>
+              <td align="center" valign="middle">1,790</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NCM460_R3</td>
+              <td align="center" valign="middle">73,804,226</td>
+              <td align="center" valign="middle">12,413</td>
+              <td align="center" valign="middle">1,078</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SW480_R1</td>
+              <td align="center" valign="middle">88,915,933</td>
+              <td align="center" valign="middle">8,627</td>
+              <td align="center" valign="middle">532</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SW480_R2</td>
+              <td align="center" valign="middle">97,303,573</td>
+              <td align="center" valign="middle">5,688</td>
+              <td align="center" valign="middle">335</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SW480_R3</td>
+              <td align="center" valign="middle">66,144,999</td>
+              <td align="center" valign="middle">7,154</td>
+              <td align="center" valign="middle">470</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SW620_R1</td>
+              <td align="center" valign="middle">91,406,400</td>
+              <td align="center" valign="middle">1,0216</td>
+              <td align="center" valign="middle">790</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SW620_R2</td>
+              <td align="center" valign="middle">67,013,355</td>
+              <td align="center" valign="middle">4,624</td>
+              <td align="center" valign="middle">214</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SW620_R3</td>
+              <td align="center" valign="middle">69,789,394</td>
+              <td align="center" valign="middle">6,541</td>
+              <td align="center" valign="middle">332</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Average</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">76,829,774.78</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9,474.67</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">780.33</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

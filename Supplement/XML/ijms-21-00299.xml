@@ -1,0 +1,2434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010299</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00299</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Temperature-Dependent Retention of Introns in <italic>GPI8</italic> Transcripts Contributes to a Drooping and Fragile Shoot Phenotype in Rice</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhao</surname>
+            <given-names>Bo</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00299" ref-type="aff">1</xref>
+          <xref rid="af2-ijms-21-00299" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tang</surname>
+            <given-names>Yongyan</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00299" ref-type="aff">1</xref>
+          <xref rid="af2-ijms-21-00299" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Baocai</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00299" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Pingzhi</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00299" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Meiru</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00299" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xu</surname>
+            <given-names>Xinlan</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00299" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Guojiang</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00299" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jiang</surname>
+            <given-names>Huawu</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00299" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0118-4265</contrib-id>
+          <name>
+            <surname>Chen</surname>
+            <given-names>Yaping</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00299" ref-type="aff">1</xref>
+          <xref rid="c1-ijms-21-00299" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00299"><label>1</label>Key Laboratory of Plant Resources Conservation and Sustainable Utilization, South China Botanical Garden, Innovation Academy for Seed Design, Chinese Academy of Sciences, Guangzhou 510650, China; <email>1074854034@163.com</email> (B.Z.); <email>tangyongnian219@sina.com.cn</email> (Y.T.); <email>pzwu@scbg.ac.cn</email> (P.W.); <email>limr@scbg.ac.cn</email> (M.L.); <email>xxl@scbg.ac.cn</email> (X.X.); <email>wugj@scbg.ac.cn</email> (G.W.); <email>hwjiang@scbg.ac.cn</email> (H.J.)</aff>
+      <aff id="af2-ijms-21-00299"><label>2</label>University of Chinese Academy of Sciences, Beijing 100049, China</aff>
+      <aff id="af3-ijms-21-00299"><label>3</label>State Key Laboratory of Plant Genomics, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, Beijing 100101, China; <email>bczhang@genetics.ac.cn</email></aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00299"><label>*</label>Correspondence: <email>chenyp@scbg.ac.cn</email>; Tel.: +86-20-37252750</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>299</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Attachment of glycosylphosphatidylinositols (GPIs) to the C-termini of proteins is one of the most common posttranslational modifications in eukaryotic cells. GPI8/PIG-K is the catalytic subunit of the GPI transamidase complex catalyzing the transfer en bloc GPI to proteins. In this study, a T-DNA insertional mutant of rice with temperature-dependent drooping and fragile (<italic>df</italic>) shoots phenotype was isolated. The insertion site of the T-DNA fragment was 879 bp downstream of the stop codon of the <italic>OsGPI8</italic> gene, which caused introns retention in the gene transcripts, especially at higher temperatures. A complementation test confirmed that this change in the <italic>OsGPI8</italic> transcripts was responsible for the mutant phenotype. Compared to control plants, internodes of the <italic>df</italic> mutant showed a thinner shell with a reduced cell number in the transverse direction, and an inhomogeneous secondary wall layer in bundle sheath cells, while many sclerenchyma cells at the tops of the main veins of <italic>df</italic> leaves were shrunken and their walls were thinner. The <italic>df</italic> plants also displayed a major reduction in cellulose and lignin content in both culms and leaves. Our data indicate that GPI anchor proteins play important roles in biosynthesis and accumulation of cell wall material, cell shape, and cell division in rice.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>cell division</kwd>
+        <kwd>cell wall</kwd>
+        <kwd>GPI8</kwd>
+        <kwd>GPI-APs</kwd>
+        <kwd>pre-mRNA splicing</kwd>
+        <kwd>rice (<italic>Oryza sativa</italic> L.)</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00299" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Attachment of glycosylphosphatidylinositol (GPI) moieties to protein C-termini is one of the most common posttranslational modifications in eukaryotic cells [<xref ref-type="bibr" rid="B1-ijms-21-00299">1</xref>]. Proteins modified by GPI attachment are called GPI anchor proteins (GPI-APs). The GPIs have a common backbone whose structure is EtNP-6-mannose (Man)-1,2-Man-1,6-Man-1,4-glucosamine(GlcA)-1,6-inositol-P-lipid [<xref ref-type="bibr" rid="B2-ijms-21-00299">2</xref>]. The mature GPIs are transferred en bloc to proteins by GPI transamidase (GPI-T) complexes in the ER. The GPI-T complex consists of five subunits: PIG-K/GPI8 (human/yeast orthologs), PIG-S/GPI17, PIG-U/GAB1, PIG-T/GPI16, and GPAA1/GAA1 [<xref ref-type="bibr" rid="B3-ijms-21-00299">3</xref>]. GPI8 and GPAA1 are the catalytic subunits of GPI-T [<xref ref-type="bibr" rid="B3-ijms-21-00299">3</xref>]. GPAA1 catalyzes the formation of a bond between the substrate protein&#x2019;s omega-site and the GPI lipid anchor&#x2019;s phosphoethanolamine [<xref ref-type="bibr" rid="B4-ijms-21-00299">4</xref>]. GPI8 has a dual role: it carries out the proteolytic cleavage of the C-terminal signal sequence of the precursor protein, then forms an amide bond between the protein and the ethanolamine phosphate of the GPI [<xref ref-type="bibr" rid="B5-ijms-21-00299">5</xref>].</p>
+      <p>Loss of GPI anchoring in plants results in lethality, while a reduction in GPI seriously affects plant growth and development. Glucosamine-6-P acetyltransferase (GNA) is involved in de novo biosynthesis of UDP-<italic>N</italic>-acetylglucosamine (UDP-GlcNAc). The transfer of GlcNAc from UDP-GlcNAc to phosphatidylinositol is the initial reaction carried out by the GPI assembly [<xref ref-type="bibr" rid="B6-ijms-21-00299">6</xref>]. Mutation of GNA in rice (<italic>gna1</italic>, [<xref ref-type="bibr" rid="B7-ijms-21-00299">7</xref>]) affects cell shape and the growth of roots under low temperature conditions, and in Arabidopsis (<italic>lig</italic>; [<xref ref-type="bibr" rid="B8-ijms-21-00299">8</xref>]) it causes temperature-dependent growth defects and ectopic lignin deposition. <italic>SETH1</italic> and <italic>SETH2</italic> encode Arabidopsis homologs of two conserved proteins involved in the first step of the GPI biosynthetic pathway. The <italic>seth1</italic> and <italic>seth2</italic> mutations block pollen germination and tube growth [<xref ref-type="bibr" rid="B9-ijms-21-00299">9</xref>]. In the <italic>aptg1</italic> mutant, pollen tubes are able to elongate but suffer a reduction in their micropylar guidance capacity and there is embryo lethality in homozygotes [<xref ref-type="bibr" rid="B10-ijms-21-00299">10</xref>]. The <italic>PNT1</italic> gene encodes the Arabidopsis homolog of mammalian <italic>PIG-M</italic>. The <italic>pnt1</italic> mutants are seedling lethal [<xref ref-type="bibr" rid="B11-ijms-21-00299">11</xref>]. Loss of function of <italic>AtGPI8</italic> (<italic>atgpi8-2</italic>) in Arabidopsis is lethal. A mutation in <italic>atgpi8-1</italic> that results in low enzyme activity disrupts growth, fertility, and formation of stomata [<xref ref-type="bibr" rid="B12-ijms-21-00299">12</xref>].</p>
+      <p>A number of GPI-APs have been identified and/or predicted in plants [<xref ref-type="bibr" rid="B13-ijms-21-00299">13</xref>]. The functions of several GPI-APs have been revealed based on the study of mutants. Most of the reported functions of GPI-APs are associated with cell wall biosynthesis and maintenance. COBRA (COB), the first GPI-AP to be found in Arabidopsis, is involved in cell wall synthesis. Mutations in the <italic>COB</italic> gene of Arabidopsis reduce the content of crystalline cellulose in cell walls in the root growth zone [<xref ref-type="bibr" rid="B14-ijms-21-00299">14</xref>]. Loss of function of the fasciclin-like arabinogalactan-protein (FLA) SOS5 causes decreased root growth and thinner cell walls [<xref ref-type="bibr" rid="B15-ijms-21-00299">15</xref>]. Another GPI-AP, AtSHV3, contains two glycerol phosphate choline diester phosphodiesterase domains. Plants doubly mutate for this gene and its homolog <italic>SVL1</italic> shows shorter root hairs, swollen guard cells, abnormal hypocotyls, reduced cellulose content, ectopic lignin deposits, and fragile cell walls, indicating that <italic>SHV3</italic> and its homolog participate in primary cell wall synthesis [<xref ref-type="bibr" rid="B16-ijms-21-00299">16</xref>]. Fourteen FLAs in Arabidopsis have been identified as GPI-APs. Analysis of the <italic>fla11</italic>/<italic>fla12</italic> double mutant suggested that Arabidopsis FLA11 and FLA12 may enhance plant stem strength and stem modulus of elasticity [<xref ref-type="bibr" rid="B17-ijms-21-00299">17</xref>]. Mutations in <italic>AtSKU5</italic> (which contains a cupredoxin-like domain) change the growth properties of roots and influence the direction of root growth and cell expansion [<xref ref-type="bibr" rid="B18-ijms-21-00299">18</xref>]. In several mutants, loss of function of GPI-AP severely affects pollen development, pollen germination efficiency, and pollen tube growth. Examples include classical AGPs [<xref ref-type="bibr" rid="B19-ijms-21-00299">19</xref>], aspartic protease [<xref ref-type="bibr" rid="B20-ijms-21-00299">20</xref>], ENODL11-15 proteins that contain an early-nodulin like/plastocyanin domain [<xref ref-type="bibr" rid="B21-ijms-21-00299">21</xref>], and LORELEI [<xref ref-type="bibr" rid="B22-ijms-21-00299">22</xref>]. Other functions of the GPI-APs include immune recognition, transmembrane signaling, embryogenesis, formation of stomata, and export of cuticular wax [<xref ref-type="bibr" rid="B23-ijms-21-00299">23</xref>].</p>
+      <p>In rice, COB-like proteins and CLD1/SRL1 are the only GPI-APs whose functions have been studied in detail. <italic>BC1</italic> belongs to the COB-like family which is expressed mainly in developing sclerenchyma cells and vascular bundles. <italic>BC1</italic> mutations cause not only a reduction in cell wall thickness and cellulose content but also an increase in lignin [<xref ref-type="bibr" rid="B24-ijms-21-00299">24</xref>]. T-DNA insertion in <italic>OsBC1L4</italic> results in abnormal cell expansion, dwarfing, and fewer tillers in rice [<xref ref-type="bibr" rid="B25-ijms-21-00299">25</xref>]. The <italic>CLD1/SRL1</italic> gene encodes a GPI-anchored membrane protein that modulates leaf rolling and other aspects of rice growth and development [<xref ref-type="bibr" rid="B26-ijms-21-00299">26</xref>,<xref ref-type="bibr" rid="B27-ijms-21-00299">27</xref>].</p>
+      <p>In the present study, we further elucidated the biology function of GPI-APs in rice plants using a T-DNA insertional mutant that shows a drooping and fragile (<italic>df</italic>) phenotype. Tail-PCR and DNA sequencing indicated that the T-DNA was inserted downstream of the stop codon of <italic>OsGPI8</italic>, the ortholog of the Arabidopsis <italic>GPI8</italic> gene. Insertion of the T-DNA causes defective intron splicing of the <italic>OsGPI8</italic> pre-mRNA, especially under higher temperature conditions. Intron retention in transcripts of the <italic>OsGPI8</italic> gene results in the premature stop codon. Results from the anatomical analysis showed that the insertion of mutation led to a decreased cell number in the culm and a large change in cell wall structure. Reduced cellulose and lignin contents were deposited in the mutant culms and leaves correspondingly. Our results provide new insight into the function of GPI-anchored proteins in plant cell division in rice plants.</p>
+    </sec>
+    <sec id="sec2-ijms-21-00299" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-21-00299">
+        <title>2.1. Isolation of the Drooping and Fragile Shoot Rice Mutant</title>
+        <p>In a previous study, we constructed transgenic rice plants with RNA interference of the rice red chlorophyll catabolite reductase 1 gene (<italic>RCCR1i</italic>) and analyzed their phenotype. The <italic>RCCR1i</italic> transgenic plants displayed lesion mimic spots in older leaves and these leaves died off early [<xref ref-type="bibr" rid="B28-ijms-21-00299">28</xref>]. Among the homozygous <italic>RCCR1i</italic> lines grown in the greenhouse (day/night, 30&#x2013;36 &#xB0;C/25&#x2013;30 &#xB0;C), one line exhibiting drooping shoots (<xref ref-type="fig" rid="ijms-21-00299-f001">Figure 1</xref>A,B), fragile culms, and leaves (<xref ref-type="fig" rid="ijms-21-00299-f001">Figure 1</xref>C,D) was identified, and we named this rice mutant <italic>df</italic> (drooping and fragile). About 1/4 (8/30) of the plants of the T2 generation were drooping and fragile, indicating that a single recessive nuclear locus was likely to be responsible for this mutant phenotype. The mechanical strengths of <italic>df</italic> culms and leaves were found to be reduced to, respectively, ca. 17% and 39% for those of WT and <italic>RCCR1i</italic> lines when their breaking forces were measured (<xref ref-type="fig" rid="ijms-21-00299-f001">Figure 1</xref>E,F). The shoots of <italic>df</italic> seedlings showed the same morphology as those of <italic>RCCR1i</italic> seedlings under lower temperatures (LT; 19&#x2013;23 &#xB0;C), while manifesting the drooping phenotype at higher temperatures (HT; 29&#x2013;33 &#xB0;C) (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S1</xref>). The mutant phenotype of <italic>df</italic> was therefore inferred to be temperature-dependent.</p>
+      </sec>
+      <sec id="sec2dot2-ijms-21-00299">
+        <title>2.2. Changes in Morphological and Anatomical Structures of Culms</title>
+        <p>The leaves and culms of <italic>RCCR1i</italic> plants had the same mechanical strength as those of wild-type plants: one normal <italic>RCCR1i</italic> line was therefore chosen as the control for the next test. The <italic>df</italic> plants were shorter than <italic>RCCR1i</italic> plants (<xref ref-type="fig" rid="ijms-21-00299-f001">Figure 1</xref>B). Having measured the internode length in four internode-containing stems, we found that the lengths of the first top internode and the second top internode of <italic>df</italic> plants were decreased by about 22.6% compared to <italic>RCCR1i</italic> plants (<xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>A,B). The culm diameter of <italic>df</italic> plants was also significantly less than that of <italic>RCCR1i</italic> plants (<xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>C). Upon examining transverse sections of the internodes of mature stage plants, we observed that the shell of the culm is thinner (<xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>D), and the length of the vascular bundle is shorter (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S2</xref>) in <italic>df</italic> plants than in <italic>RCCR1i</italic> plants. No significant difference was observed in the average size of parenchyma cells in culms between <italic>df</italic> plants and <italic>RCCR1i</italic> plants, but the parenchyma cell layer number and peripheral sclerenchyma thickness in <italic>df</italic> plants were significantly reduced compared to those in <italic>RCCR1i</italic> plants (<xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>E; <xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S2</xref>). These results suggested a reduction in cross-sectional cell number in <italic>df</italic> internodes. To determine the pattern of deposition of cell wall polymers, ultra-thin sections of <italic>RCCR1i</italic> and <italic>df</italic> bundle sheath cells were examined by transmission electron microscopy. The secondary wall layer of <italic>RCCR1i</italic> had a uniform thickness and appearance, while showing a clearly layered structure with different electron-dense materials in <italic>df</italic> cell walls (<xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>F).</p>
+      </sec>
+      <sec id="sec2dot3-ijms-21-00299">
+        <title>2.3. Changes in the Morphological and Anatomical Structures of Leaves</title>
+        <p>Compared to those of <italic>RCCR1i</italic> plants, 11&#x2013;28% of mature leaves in <italic>df</italic> plants were shorter (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S3A</xref>). No differences in the morphology and arrangement of epidermal cells and stomata were observed in the fully expanded leaves of <italic>df</italic> (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S3B</xref>). To explore the causes of the reduced mechanical strength of <italic>df</italic> leaves, we observed the cell shape and sclerenchyma structure in the main vein by means of transverse sectioning of leaves at the tillering stage. Light microscopy revealed that cells lying between the phloem and epidermis at the distal end of the main vein were shrunken in <italic>df</italic> leaves. The sclerenchyma cells of the main vein displayed greater intracellular transparency in <italic>df</italic> than in <italic>RCCR1i</italic> (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S4</xref>). Electron microscopy indicated that some of the parenchyma and sclerenchyma cells within the distal end of the main vein in <italic>df</italic> leaves were shrunken, and that the cell walls of these sclerenchyma cells were significantly thinner in <italic>df</italic> than in RCCR1i leaves (<xref ref-type="fig" rid="ijms-21-00299-f003">Figure 3</xref>). The mean thickness of the radial walls of two adjacent sclerenchyma cells within the outermost layer and the secondary outer layer in the distal end of the main vein in <italic>df</italic> was 1.24 &#xB1; 0.34 &#x3BC;m and 1.37 &#xB1; 0.47 &#x3BC;m, respectively, while the corresponding values were 2.19 &#xB1; 0.54 &#x3BC;m and 3.13 &#xB1; 0.58 &#x3BC;m in <italic>RCCR1i</italic> plants, according to statistical analysis of thirty cells.</p>
+      </sec>
+      <sec id="sec2dot4-ijms-21-00299">
+        <title>2.4. Differences in Cell Wall Composition</title>
+        <p>The reduction in mechanical strength and defects in wall structure observed in <italic>df</italic> suggested that the cell wall composition may be altered in the mutant plants. Because cellulose and lignin are the major components of the second cell walls influencing mechanical strength in plants, we therefore analyzed these components in culms and leaves. Cellulose content was reduced by ca. 27% in culms and by ca. 32% in leaves in <italic>df</italic> plants compared to <italic>RCCR1i</italic> plants (<xref ref-type="table" rid="ijms-21-00299-t001">Table 1</xref>). The <italic>df</italic> plants also showed a decrease in lignin content in both leaves and culms. By contrast, most of the neutral sugars from culms and leaves in <italic>df</italic> plants were increased.</p>
+      </sec>
+      <sec id="sec2dot5-ijms-21-00299">
+        <title>2.5. Cloning of the Gene</title>
+        <p>Southern blot analysis using a hygromycin phosphotransferase gene fragment as a probe revealed that the <italic>df</italic> mutant contained only one copy of the T-DNA insertion (<xref ref-type="fig" rid="ijms-21-00299-f004">Figure 4</xref>A). The flanking sequences bordering the T-DNA tag were obtained using the thermal asymmetric interlaced (TAIL)-PCR method [<xref ref-type="bibr" rid="B29-ijms-21-00299">29</xref>]. The insertion site was identified as being 879 bp downstream of the stop codon of the LOC_Os02g12740 (Os02g0219400) gene, and 7575 bp before the start codon of the LOC_Os02g12730 (Os02g0219200) gene (<xref ref-type="fig" rid="ijms-21-00299-f004">Figure 4</xref>B). The LOC_Os02g12730 gene encodes a &#x3B2;-galactosidase family protein (OsBGAL1), which is homologous to Arabidopsis BGAL1 (At3g13750). The LOC_Os02g12740 gene (OsGPI8) encodes a putative catalytic subunit of GPI-T, which is the homolog of Arabidopsis GPI8 (At1g08750).</p>
+        <p>To identify the candidate gene, we examined the levels of expression of <italic>OsBGAL1</italic> and <italic>OsGPI8</italic> genes in shoots of control (<italic>RCCR1i</italic>, <italic>DF</italic>), heterozygote (<italic>DF</italic>/<italic>df</italic>), and homozygote (<italic>df</italic>) plants by semi-quantitative PCR. A primer pair hybridizing to regions located in exons 9 and 11 was used to test the expression of the <italic>OsBGAL1</italic> gene. The results showed that the <italic>OsBGAL1</italic> gene was weakly expressed in shoots of control plants (<italic>DF</italic>), but was more highly expressed in both heterozygote and <italic>df</italic> plants (<xref ref-type="fig" rid="ijms-21-00299-f004">Figure 4</xref>C). Being a recessive mutant, the <italic>OsBGAL1</italic> gene may not be responsible for the <italic>df</italic> phenotype. A primer pair hybridizing to regions located in exons 4 and 5 was used to test the expression of the <italic>OsGPI8</italic> gene (<xref ref-type="fig" rid="ijms-21-00299-f004">Figure 4</xref>B). The expected product, 266 bp in length, of the <italic>OsGPI8</italic> gene amplified using this primer pair was observed in <italic>DF</italic> plants, whereas a larger fragment was obtained in <italic>df</italic> plants. The heterozygote (<italic>DF</italic>/<italic>df</italic>) plants had both bands in the PCR products (<xref ref-type="fig" rid="ijms-21-00299-f004">Figure 4</xref>C). Results from the sequencing of these products indicated that the larger fragment from <italic>df</italic> plants contains the intron in the cDNA fragment. Subsequently, cDNA containing the complete coding sequence was amplified from <italic>DF</italic> and <italic>df</italic> seedlings. After cloning and sequencing, the PCR product from <italic>DF</italic> plants was found to be the predicted 1315 bp in length, while it was 3780 bp in length from <italic>df</italic> plants, retaining all the introns of the gene (<xref ref-type="fig" rid="ijms-21-00299-f004">Figure 4</xref>D). No DNA sequence variation was detected in the 3780 bp fragment from <italic>df</italic> plants. We therefore deduced that defective pre-mRNA processing of the <italic>OsGPI8</italic> gene transcript may be responsible for the mutant phenotype of <italic>df</italic> plants.</p>
+        <p>The <italic>GPI8</italic> gene is found ubiquitously across eukaryotic organisms and its sequence is highly conserved. Homology analysis of OsGPI8 revealed that the protein has a high amino acid sequence similarity to <italic>Saccharomyces cerevisiae</italic> GPI8 (46%) and <italic>Arabidopsis thaliana</italic> GPI8 (72%). The catalytic active site of GPI8 (His-166 and Cys-208) is conserved (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S5A</xref>). The coding region of the <italic>OsGPI8</italic> gene is 3603 bp in length, including 9 introns and 10 exons, which encodes 404 amino acids (<xref ref-type="fig" rid="ijms-21-00299-f004">Figure 4</xref>B, <xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S5A</xref>). While the intron retention in transcripts of the <italic>OsGPI8</italic> gene results in the premature stop codon and the encoded truncated protein lacking the main active domain (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S5A</xref>). Therefore, the retained introns in the DF transcript make <italic>OsGPI8</italic> lose functions.</p>
+        <p>To confirm whether the <italic>OsGPI8</italic> gene was responsible for the <italic>df</italic> mutant phenotype, the cDNA containing the complete coding sequence of the wild-type <italic>OsGPI8</italic> gene was cloned into the binary vector pCAMBIA2301. <italic>OsGPI8</italic> driven by the cauliflower mosaic virus 35S promoter (OsGPI8-Oe) was then introduced into <italic>df</italic> mutant plants via <italic>Agrobacterium tumefaciens</italic>-mediated transformation. A total of 11 transgenic lines (<italic>df GPI8-Oe</italic>) were obtained. Of these, two independent T2 lines that displayed a ca. 3:1 segregation ratio (17:5 and 7:2) of normal to <italic>df</italic> mutant plants were studied in detail (<xref ref-type="fig" rid="ijms-21-00299-f005">Figure 5</xref>A). The presence of the artificial <italic>OsGPI8</italic> in genomes of transgenic plants was determined by PCR analysis. An introduced cDNA fragment of the expected length (266 bp) was found in all morphologically normal plants, but it was absent from plants with the mutant phenotype in both of the two independent T2 lines (<xref ref-type="fig" rid="ijms-21-00299-f005">Figure 5</xref>B). In addition, complemented plants (<italic>df GPI8-Oe</italic>) showed similar cellulose content (292.5 &#xB1; 1.61 to 300.7 &#xB1; 1.12 mg per gram of alcohol-insoluble residues) in leaves with <italic>RCCR1i</italic> plants. These results confirmed that overexpression of the wild-type <italic>OsGPI8</italic> cDNA complemented the mutant phenotype. The <italic>OsGPI8</italic> gene was expressed in all tissues tested by real-time quantitative PCR (qRT-PCR), including roots, stems, leaves, panicles, and seeds (<xref ref-type="fig" rid="ijms-21-00299-f005">Figure 5</xref>C), suggesting that it plays roles in most tissues of rice plants.</p>
+        <p>A previous report has shown that GPI protein affects stomatal clustering and callose content in Arabidopsis seedlings [<xref ref-type="bibr" rid="B12-ijms-21-00299">12</xref>]. We therefore determined the callose contents in <italic>RCCR1i</italic> and <italic>df</italic> leaves at the four-leaf stage, and observed that <italic>df</italic> leaves had a significantly higher callose content (43.58 &#xB1; 0.24 &#x3BC;g g<sup>&#x2212;1</sup> fresh weight (FW)) than <italic>RCCR1i</italic> leaves did (21.26 &#xB1; 0.37 &#x3BC;g g<sup>&#x2212;1</sup> FW), but no stomatal clustering was observed in <italic>df</italic> leaf blades like <italic>atgpi8-1</italic> mutant (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S3B</xref>) [<xref ref-type="bibr" rid="B12-ijms-21-00299">12</xref>].</p>
+      </sec>
+      <sec id="sec2dot6-ijms-21-00299">
+        <title>2.6. Temperature Influences the Pre-mRNA Processing of OsGPI8 Transcripts in df Plants</title>
+        <p>The mutant phenotype of the <italic>df</italic> was found to be temperature-dependent. To investigate whether temperature influenced the pre-mRNA processing of <italic>OsGPI8</italic> transcripts, transcripts of the <italic>OsGPI8</italic> gene were analyzed by RT-PCR using total RNA extracted from shoots of 14-day seedlings grown at higher temperatures (HT; 29&#x2013;33 &#xB0;C) and at lower temperatures (LT; 19&#x2013;23 &#xB0;C). For this analysis, three primer pairs were designed for the PCR amplification, with the intended products corresponding to different exon-encoded regions of the 5&#x2032;, middle, and 3&#x2032; regions of the <italic>OsGPI8</italic> transcripts (<xref ref-type="fig" rid="ijms-21-00299-f006">Figure 6</xref>A). We found that the band corresponding to normally spliced transcripts for <italic>OsGPI8</italic> was weak when <italic>df</italic> shoots were grown at HT, whereas it was strong in RNA from <italic>df</italic> seedlings grown under LT conditions (<xref ref-type="fig" rid="ijms-21-00299-f006">Figure 6</xref>B). Most introns were retained in the transcripts (<xref ref-type="fig" rid="ijms-21-00299-f006">Figure 6</xref>B), and only a low level of normally spliced transcripts containing the complete coding domain sequences (<xref ref-type="fig" rid="ijms-21-00299-f006">Figure 6</xref>C) was observed in <italic>df</italic> seedlings grown at HT. These results indicate that temperature did affect the relative proportions of normal mRNA and intron-retaining forms of mRNA in <italic>OsGPI8</italic> transcripts from <italic>df</italic> mutant plants, and the temperature-dependent <italic>df</italic> phenotype may result from reduced pre-mRNA splicing of <italic>OsGPI8</italic> under HT conditions. On the other hand, no transcriptional silencing of full length or partial regions of the <italic>OsGPI8</italic> pre-mRNA was performed when plants were grown at HT.</p>
+      </sec>
+      <sec id="sec2dot7-ijms-21-00299">
+        <title>2.7. Change in Length of 3&#x2032;-UTR of OsGPI8 Transcripts</title>
+        <p>Intron retention and alternative splicing are associated with polyadenylation sites in plants [<xref ref-type="bibr" rid="B31-ijms-21-00299">31</xref>]. The <italic>OsGPI8</italic> gene contains at least two putative polyadenylation sites (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S5B</xref>). Normally, the 3&#x2032;-UTR of <italic>OsGPI8</italic> is about 257 bp in length according to the results of our 3&#x2032;-RACE analysis and also the EST data in GenBank (<uri>https://www.ncbi.nlm.nih.gov/</uri>), but a 3&#x2032;-UTR fragment over 1000 bp in the <italic>OsGPI8</italic> transcript was detected in the <italic>df</italic> plants. To test the abundance of 3&#x2032;-UTR with different lengths in <italic>RCCR1i</italic> and <italic>df</italic> plants, two primer pairs whose locations were indicated in <xref ref-type="fig" rid="ijms-21-00299-f006">Figure 6</xref>A were designed. qRT1 amplified by the primer pair 1F and 1R represents both the short and long 3&#x2032;UTR, while qRT2 amplified by the primer pair 2F and 2R only represents the long 3&#x2032;UTR. The expression levels of total <italic>OsGPI8</italic> transcripts had no difference between <italic>RCCR1i</italic> and <italic>df</italic> plants under either HT or LT conditions (<xref ref-type="fig" rid="ijms-21-00299-f006">Figure 6</xref>D), but the abundance of <italic>OsGPI8</italic> transcripts with the longer 3&#x2032;-UTR in the <italic>RCCR1i</italic> plants was around 1.7% of that in <italic>df</italic> plants under HT conditions (<xref ref-type="fig" rid="ijms-21-00299-f006">Figure 6</xref>E). Compared to HT conditions, the amount of <italic>OsGPI8</italic> transcripts with the longer 3&#x2032;-UTR was reduced by ca. 63% in <italic>df</italic> plants under LT conditions (<xref ref-type="fig" rid="ijms-21-00299-f006">Figure 6</xref>E). These results indicated that the length of <italic>OsGPI8</italic> transcripts increased at the 3&#x2032;-end, especially under HT conditions, in <italic>df</italic> plants.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-ijms-21-00299" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>The GPI anchor biosynthesis pathway has been studied intensively in yeast and in humans, and it is believed that this pathway may also be conserved in plants. In Arabidopsis, homologous genes exist for almost all the known components of the GPI anchoring pathway, although currently the only genes that have been studied are <italic>SETH1, SETH2, PEANUT1 (PNT1), APTG1,</italic> and <italic>AtGPI8</italic> [<xref ref-type="bibr" rid="B9-ijms-21-00299">9</xref>,<xref ref-type="bibr" rid="B10-ijms-21-00299">10</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00299">11</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00299">12</xref>]. These genes encode enzymes that catalyze specific steps in the biosynthesis of the anchor. The yeast and mammalian GPI transamidase complexes consist of five subunits [<xref ref-type="bibr" rid="B3-ijms-21-00299">3</xref>]. Like Arabidopsis [<xref ref-type="bibr" rid="B12-ijms-21-00299">12</xref>], rice has homologs of all five subunits, with all but one subunit encoded by only one gene: they are LOC_Os02g12740, which is a homolog of At1g08750 and Gpi8/PIG-K, LOC_Os01g48980 (At5g19130, Gaa1p/GAA1), LOC_Os01g67960 (At3g07180, Gpi17p/PIG-S), LOC_Os11g28980 (At3g07140, Gpi16p/PIG-T), LOC_Os02g46350, and LOC_Os01g64990 (At1g12730 and At3g27325, Gab1p/PIG-U).</p>
+      <p>Alternative splicing, which can lead to intron retention in transcripts, is widely observed in plants [<xref ref-type="bibr" rid="B32-ijms-21-00299">32</xref>,<xref ref-type="bibr" rid="B33-ijms-21-00299">33</xref>]. Changes in splicing are induced by environmental stimuli including ambient temperature [<xref ref-type="bibr" rid="B34-ijms-21-00299">34</xref>,<xref ref-type="bibr" rid="B35-ijms-21-00299">35</xref>]. There is an interplay between the messenger RNA processing reactions, splicing, and polyadenylation, which take place co-transcriptionally [<xref ref-type="bibr" rid="B36-ijms-21-00299">36</xref>]. Intron retention and alternative splicing are associated with polyadenylation sites in plants [<xref ref-type="bibr" rid="B31-ijms-21-00299">31</xref>]. Defects in pre-mRNA splicing of <italic>OsGPI8</italic> transcripts at higher temperatures in <italic>df</italic> plants is an interesting but as yet inexplicable phenomenon. The <italic>OsGPI8</italic> gene contains at least two polyadenylation sites (<xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Figure S5B</xref>). RT-PCR analysis indicated that when <italic>df</italic> plants were grown under HT conditions they had the same amount of OsGPI8 transcripts as at LT, but most of them had a longer 3&#x2032;-UTR and retained the majority of the nine introns (<xref ref-type="fig" rid="ijms-21-00299-f006">Figure 6</xref>). These results imply that the usage of alternative polyadenylation sites was one factor leading to intron retention in <italic>OsGPI8</italic> gene transcripts in the <italic>df</italic> plants. The mechanism underlying intron retention in OsGPI8 transcripts after the insertion of the T-DNA in <italic>df</italic> plants may be that, on the one hand, the basic terminators of rice GPI8 have variability, and the insertion of foreign DNA disrupts the termination message, which results in a large increase in the length of 3&#x2032;-UTR at a higher temperature. On the other hand, the DNA changes in structure or chromatin accessibility [<xref ref-type="bibr" rid="B37-ijms-21-00299">37</xref>], or transcriptional interference [<xref ref-type="bibr" rid="B38-ijms-21-00299">38</xref>] by the foreign <italic>GUS</italic> gene when it is inserted near the <italic>OsGPI8</italic> gene, and this merits further study. Expression of <italic>OsGPI8</italic> cDNA containing the complete coding sequences was found to rescue the rice <italic>df</italic> mutant (<xref ref-type="fig" rid="ijms-21-00299-f005">Figure 5</xref>A,B), confirming that it is the T-DNA insertion and defective pre-mRNA splicing of the <italic>OsGPI8</italic> transcript that cause the drooping and fragile phenotype of this <italic>df</italic> mutant.</p>
+      <p>Our study of the <italic>df</italic> mutant allowed us to explore the role of GPI-APs in morphology, growth, and development in rice. By analysis of the rice protein database of 66,338 proteins (Phytozome, <uri>http://www.phytozome.net/index.ph-p</uri>), a total of 481 proteins were predicted to be GPI-APs and were identified by two or more methods (shown in <xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Table S2</xref>). Eight members of BC1-like family proteins were predicted as GPI-APs. The <italic>CWA1/BC1</italic> gene encodes a COBRA-like protein and functions in the regulation of secondary cell wall deposition and assembly in rice [<xref ref-type="bibr" rid="B24-ijms-21-00299">24</xref>,<xref ref-type="bibr" rid="B39-ijms-21-00299">39</xref>,<xref ref-type="bibr" rid="B40-ijms-21-00299">40</xref>]. Mutation of <italic>BC1</italic> causes a reduction in cellulose content but an increase in lignin content [<xref ref-type="bibr" rid="B24-ijms-21-00299">24</xref>]. A decrease in cellulose content but an increase in pectin and starch contents were identified in <italic>Osbc1l4</italic> mutants that showed abnormal cell expansion, dwarfing, and fewer tillers phenotype [<xref ref-type="bibr" rid="B25-ijms-21-00299">25</xref>]. OsBC1L5 is required for pollen tube elongation in rice [<xref ref-type="bibr" rid="B41-ijms-21-00299">41</xref>]. Except for the BC1 family, <italic>CLD1/SRL1</italic> also encodes a <italic>GPI</italic>-anchored membrane protein that modulates leaf rolling and other aspects of rice growth [<xref ref-type="bibr" rid="B26-ijms-21-00299">26</xref>,<xref ref-type="bibr" rid="B27-ijms-21-00299">27</xref>]. The <italic>cld1</italic> mutant exhibits significant decreases in cellulose and lignin contents in cell walls of leaves.</p>
+      <p>According to annotation of rice GPI-APs, they are mainly involved in Glycosyl hydrolases family 17 (60), plastocyanin-like family proteins (41), lipid transfer like proteins (LTPs, 36), and Fasciclin-like (23). Glycosyl hydrolases were suggested to degrade the cell wall polymer, and are required for cell wall organization during tissue morphogenesis [<xref ref-type="bibr" rid="B42-ijms-21-00299">42</xref>]. The plastocyanin-like family proteins are plant-specific blue copper proteins that were reported to regulate lignin biosynthesis induced by oxidative stress [<xref ref-type="bibr" rid="B43-ijms-21-00299">43</xref>]. The LTPs may function in cuticular wax export [<xref ref-type="bibr" rid="B23-ijms-21-00299">23</xref>] as well as cell wall extension [<xref ref-type="bibr" rid="B44-ijms-21-00299">44</xref>]. Fasciclin-like GPI-APs were reported to play roles in regulating cell-type specification, cellulose deposition, and formation of secondary cell wall composition in Arabidopsis. In summary, many GPI-APs function on the formation of cell walls in plants. They can regulate the biosynthesis of cell wall composition such as cellulose and lignin, cellulose assembly, and the formation of the microfibril crystallinity in cell walls. Here, the <italic>df</italic> plants have a reduction of cellulose and lignin contents (<xref ref-type="table" rid="ijms-21-00299-t001">Table 1</xref>), suggesting GPI-APs may positive regulate the biosynthesis and accumulation of cellulose and lignin in rice. Moreover, we speculate that plastocyanin-like family proteins might be involved in the pathway of OsGPI8 regulating affecting cell wall components since plastocyanin-like proteins directly affect lignin biosynthesis. The dense structure of the cell wall was changed in the <italic>df</italic> mutant (<xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>F and <xref ref-type="fig" rid="ijms-21-00299-f003">Figure 3</xref>), indicating the roles of GPI-APs in regulating the deposition and assembly of cell wall polymers during cell wall formation in rice.</p>
+      <p>GPI-APs were found to modulate cell division in Arabidopsis. AtAGP19 is a lysine-rich, classical AGP that is predicted to be attached to the plasma membrane by a GPI anchor. The <italic>atagp19</italic> mutant has a reduced number of abaxial epidermal cells in rosette leaves, indicating a decrease in cell division [<xref ref-type="bibr" rid="B45-ijms-21-00299">45</xref>]. The reduction in cell division among parenchyma cells in internodes of <italic>df</italic> plants (<xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>D,E) indicated that, in rice, GPI-APs have a function related to cell division. The homology protein of AtAGP19 was not found in the rice protein database. The cell division related to GPI-APs in rice remains to be explored. The fragile culm and leaves phenotype of <italic>df</italic> plants is likely to be due to the reduction in parenchymal cell layers and in the deposition and assembly of secondary cell wall materials (<xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>E and <xref ref-type="fig" rid="ijms-21-00299-f003">Figure 3</xref>D). The drooping leaves may result from the significant reduction in wall thickness and cellulose content in sclerenchyma cells, which are thus insufficiently strong to support the blade.</p>
+      <p>The loss of GPI anchoring is lethal in Arabidopsis [<xref ref-type="bibr" rid="B10-ijms-21-00299">10</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00299">11</xref>]. A T-DNA insertion line of <italic>AtGPI8</italic>, <italic>atgpi8-2</italic> is distributed as a heterozygous line, and it does not segregate out homozygous plants. In addition, <italic>atgpi8-1/atgpi8-2</italic> plants were found to be severely dwarfed; they never flowered, and did not survive into maturity [<xref ref-type="bibr" rid="B12-ijms-21-00299">12</xref>]. The <italic>atgpi8-1</italic> mutant has a mutation consisting of a G to A substitution at base pair 125 which results in the replacement of Arg-42 with Gln-42 [<xref ref-type="bibr" rid="B12-ijms-21-00299">12</xref>]. While the <italic>atgpi8-1</italic> mutation strongly disrupts plant growth, it is not lethal. Since it is not a null mutant of <italic>GPI8</italic>, it is understandable that the <italic>df</italic> mutation is not lethal even when plants are grown at HT. No stomatal clustering [<xref ref-type="bibr" rid="B12-ijms-21-00299">12</xref>] in leaf blades or male defects [<xref ref-type="bibr" rid="B9-ijms-21-00299">9</xref>,<xref ref-type="bibr" rid="B10-ijms-21-00299">10</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00299">11</xref>] were observed in <italic>df</italic> plants, but there was a reduction in plant height and in cell number in the culm shell (<xref ref-type="fig" rid="ijms-21-00299-f001">Figure 1</xref> and <xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>). These results suggest distinct physiological and developmental differences between Arabidopsis and rice in response to a lower level of GPI anchoring.</p>
+      <p>GPI-APs are widespread in eukaryotic cells. However, direct evidence for the role of GPI-APs in rice physiology and development has hitherto been largely lacking. In conclusion, in this work, we confirm that the T-DNA insert the downstream of the stop codon in the <italic>OsGPI8</italic> gene in rice, which results in intron retention and the knockdown of the <italic>GPI8</italic> gene under higher temperature conditions. Analysis of knockdown of the <italic>GPI8</italic> gene demonstrates the importance of GPI-APs in the accumulation of cell wall material, cell expansion, and cell division, as well as the morphology and mechanical strength of rice plants.</p>
+    </sec>
+    <sec id="sec4-ijms-21-00299">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-ijms-21-00299">
+        <title>4.1. Plant Materials and Growth Conditions</title>
+        <p>The <italic>df</italic> mutant was generated from transgenic <italic>RCCR1i</italic> T-DNA insertion lines of the japonica rice cv. Huazhiwu. Wild-type rice (<italic>Oryza sativa</italic> L.), <italic>OsRCCR1i</italic>, and <italic>df</italic> plants were grown in a greenhouse under natural daylight at South China Botanical Garden, CAS, in Guangzhou during the natural growing seasons. For temperature treatments, the seedlings were cultivated in rice nutrient solution [<xref ref-type="bibr" rid="B46-ijms-21-00299">46</xref>] in square basins and placed in growth chambers (16 h light/8 h dark, higher temperature (29&#x2013;33 &#xB0;C), lower temperature (19&#x2013;23 &#xB0;C)).</p>
+      </sec>
+      <sec id="sec4dot2-ijms-21-00299">
+        <title>4.2. Cloning of the df Gene and Complementation Test</title>
+        <p>DNA fragments flanking the T-DNA insertions were amplified from the mutant plant genomic DNA using TAIL-PCR [<xref ref-type="bibr" rid="B29-ijms-21-00299">29</xref>]. The PCR products were cloned into a pMD18-T vector (Takara; <uri>http://www.takara.co.jp/english</uri>) and sequenced by a company (Augct, Beijing, China). BLAST analysis indicates that the gene obtained from the <italic>df</italic> mutant was on chromosome 2. The <italic>OsGPI8</italic> cDNA was cloned into a pMD18-T vector by reverse transcription-PCR using primers of fGPI8F and fGPI8R (shown in <xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Table S1</xref>). For the complementation test, the <italic>OsGPI8</italic> cDNA clone with the complete CDS was digested with <italic>Xba</italic> I and subcloned into the corresponding site of pCAMBIA2301 under the control of the cauliflower mosaic virus (CaMV) 35S promoter. The PCR primers used are listed in <xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Table S1</xref>. Agrobacterium strain EHA105 harboring the above vector was used to transform mutant calli via <italic>Agrobacterium tumefaciens</italic>-mediated transformation [<xref ref-type="bibr" rid="B7-ijms-21-00299">7</xref>].</p>
+      </sec>
+      <sec id="sec4dot3-ijms-21-00299">
+        <title>4.3. RNA Isolation and Expression Analysis</title>
+        <p>Total RNA was isolated from different tissues using Trizol reagent (Invitrogen, Carlsbad, CA, USA) following the manufacturer&#x2019;s instructions. First-strand cDNA was synthesized from 3 &#x3BC;g of the total RNA using M-MLV reverse transcriptase (Promega, Madison, WI, USA) and was used as a template for semi-quantitative PCR analysis after normalization relative to a rice polyubiquitin1 gene (<italic>OsRUB1</italic>, LOC_Os06g46770) [<xref ref-type="bibr" rid="B8-ijms-21-00299">8</xref>]. Primers used for this part of the study are listed in <xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Table S1</xref>. Quantitative real-time PCR was performed using an ABI 7500 fast system with a SYBR Premix Ex Taq<sup>TM</sup> II (perfect real-time) kit (Takara) and the following program: predenaturation at 95 &#xB0;C for 30 s, followed by 40 cycles of 95 &#xB0;C for 5 s, 60 &#xB0;C for 34 s, and a final dissociation cycle of 95 &#xB0;C for 15 s, 60 &#xB0;C for 1 min, and 95 &#xB0;C for 15 s. Each PCR assay was run in duplicate for three independent biological repeats. The comparative Ct method [<xref ref-type="bibr" rid="B30-ijms-21-00299">30</xref>] was used to determine the relative expression of the target genes, with <italic>OsRUB1</italic> as the reference gene.</p>
+      </sec>
+      <sec id="sec4dot4-ijms-21-00299">
+        <title>4.4. Southern Blot Analysis</title>
+        <p>Approximately 5 &#xB5;g of DNA from each sample was digested with <italic>Eco</italic>R I, <italic>Eco</italic>R V, <italic>Hind</italic> III, and <italic>Sac</italic> I (Takara) and separated on a 0.8% (<italic>w</italic>/<italic>v</italic>) agarose gel. The restriction enzyme recognition sites occur only once each within the T-DNA, allowing the transgene copy number to be estimated. The fractionated genomic DNA was transferred to a positively charged nylon membrane using 20&#xD7; saline sodium citrate (SSC; 1.5 M NaCl, 0.15 M sodium citrate) (Amersham Pharmacia Biotech, Piscataway, NJ, USA). Probes were prepared using a PCR DIG probe synthesis kit (Roche, Basel, Switzerland). Hybridization was performed according to the DIG Application Manual (Roche). Hybridization was at 42 &#xB0;C and washing was performed under high-stringency conditions at 65 &#xB0;C.</p>
+      </sec>
+      <sec id="sec4dot5-ijms-21-00299">
+        <title>4.5. Mechanical Strength Test</title>
+        <p>The breaking forces for rice culms or leaves were measured with a universal force/length testing device (model Zwick Z2010, Ulm, Germany). For the measurements, second internodes (with leaf sheath) and flag leaf blades of WT, RCCR1i and <italic>df</italic> plants cut to the same length were used.</p>
+      </sec>
+      <sec id="sec4dot6-ijms-21-00299">
+        <title>4.6. Microscopic Analysis</title>
+        <p>For light microscopic analysis, second internodes excised from rice plants were fixed in an FAA solution (formaldehyde 5 mL, glacial acetic acid 5 mL, and 70% ethanol 90 mL). The samples were dehydrated through an ethanol gradient and embedded in paraffin. For cell wall staining, sections were cut at a thickness of 10 &#x3BC;m with a microtome (Leica RM2255, Leica Biosystems, Buffalo Grove, IL, USA) and stained in 0.1% methylene blue for 3 to 5 min. The stained sections were examined and details recorded by taking pictures under a light microscope (ZEISS, Axio Imager A2, Jena, Germany) with a color CCD camera (AxioCam MRc). For electron microscopy, internodes excised from rice plants were fixed in 2.5% glutaraldehyde and 2% paraformaldehyde, then dehydrated through an ethanol series and embedded in Spurr resin. Ultra-thin sections were made using glass knives on an Ultracut E ultramicrotome (Leica). Ultra-thin sections (0.1 &#x3BC;m) were stained with 2% uranyl acetate for 1 h and 6% lead citrate for 20 min and observed with an electron microscope (JEM-1010, Jeol; <uri>http://www.jeol.com</uri>).</p>
+        <p>For microscopic analysis of leaf blade samples, the third leaves from four-leaf stage seedlings were fixed in 2.5% glutaraldehyde, vacuum treated, and post-fixed in 2% (<italic>w</italic>/<italic>v</italic>) osmium tetroxide, and washed with 0.1 M phosphate-buffered saline several times until osmium tetroxide was eliminated. Subsequently, samples were dehydrated successively with 30% (4 &#xB0;C, 20 min), 50% (4 &#xB0;C, 20 min), 70% (4 &#xB0;C, overnight), 80% (RT, 15 min), 90% (RT, 15 min), 100% alcohol (RT, 30 min for twice), and finally propylene oxide (RT, 30 min for twice). After dehydration, samples were treated by different ratios of propylene oxide and epoxy resin and then embedded in pure epoxy resin. Semithin sections (2 &#x3BC;m) were stained with toluidine blue for 30 s, then observed and recorded by taking pictures under a light microscope with a color CCD camera (Zeiss). Ultra-thin sections were stained with 2% uranyl acetate for 1 h and 6% lead citrate for 20 min and observed with an electron microscope (JEM-1010, Jeol; <uri>http://www.jeol.com</uri>).</p>
+      </sec>
+      <sec id="sec4dot7-ijms-21-00299">
+        <title>4.7. 3&#x2032;-RACE PCR</title>
+        <p>The 3&#x2032;-Race PCR was performed using a BD SMART&#x2122; RACE cDNA Amplification kit, referring to the manufacturer&#x2019;s instructions. The primers are listed in <xref ref-type="app" rid="app1-ijms-21-00299">Supplementary Table S1</xref>.</p>
+      </sec>
+      <sec id="sec4dot8-ijms-21-00299">
+        <title>4.8. Cell Wall Component Measurement</title>
+        <p>Carbohydrate was isolated and assayed according to the methods described previously [<xref ref-type="bibr" rid="B47-ijms-21-00299">47</xref>,<xref ref-type="bibr" rid="B48-ijms-21-00299">48</xref>,<xref ref-type="bibr" rid="B49-ijms-21-00299">49</xref>]. The samples (the second internode and flag leaf blades) were dried and ground into a fine powder using a food processor (JYL-B020). The powder was washed three times in phosphate buffer (50 mM, pH 7.2), extracted twice with 70% ethanol at 70 &#xB0;C for 1 h, and dried under vacuum to produce alcohol-insoluble residue (AIR). De-starching was performed by treating AIR with pullulanase M3 (0.5 U mg<sup>&#x2212;1</sup>, Megazyme, <uri>http://www.megazyme.com</uri>) and &#x3B1;-amylase (0.75 U mg<sup>&#x2212;1</sup>, Sigma) in 0.1 m NaOAc buffer (pH 5.0) overnight. The destarched AIRs further hydrolyzed into monosaccharides by Trifluoroacetic acid (TFA) and were reduced with sodiumborohydride. The alditol acetate derivatives produced by acetic anhydride treatment were subjected to GC-MS according to Zhang and Zhou (2017) [<xref ref-type="bibr" rid="B49-ijms-21-00299">49</xref>]. The remains of TFA treatment were hydrolyzed with sulfuric acid. After the development of color with anthrone in concentrated sulfuric acid, the absorption of each reaction at 625 nm was measured on a spectrophotometer [<xref ref-type="bibr" rid="B49-ijms-21-00299">49</xref>,<xref ref-type="bibr" rid="B50-ijms-21-00299">50</xref>].</p>
+        <p>The lignin content was measured using the acetyl bromide assay [<xref ref-type="bibr" rid="B51-ijms-21-00299">51</xref>]. About 10 mg of AIR for each sample was dissolved in 0.6 mL of 25% acetyl bromide in glacial acetic acid and heated at 50 &#xB0;C for 2 h with occasional mixing. After cooling, the samples were centrifuged (3000&#xD7; <italic>g</italic>, 15 min) and the supernatants were used for lignin quantification with hydroxylamine hydrochloride solution. Lignin (471003, SIGMA-ALDRICH) was used as the standard. The absorbance at 280 nm for each sample was measured using a spectrophotometer (UV-1800, MAPADA).</p>
+        <p>The callose content was measured as described previously [<xref ref-type="bibr" rid="B52-ijms-21-00299">52</xref>] with some modifications. About 100 mg of fresh leaves were ground into a fine powder in liquid nitrogen after washing 3 times with ethanol to eliminate autofluorescence and then suspended in 1 mL 1 M NaOH. Samples were incubated at 80 &#xB0;C for 15 min to solubilize the callose. The mixture was centrifuged (10,000&#xD7; <italic>g</italic>, 15 min) and the supernatants were used for the callose assay. For callose determination, 0.1% (w/v) aniline blue was used for the reaction and 1,3-&#x3B2;-glucan (Pachyman, Megazyme) was used as the standard. Fluorescence of the assay mixture was read in a spectrofluorometer (PE LS55, excitation 400 nm; emission, 510 nm; slit width, 10 nm).</p>
+      </sec>
+      <sec id="sec4dot9-ijms-21-00299">
+        <title>4.9. Statistical Analysis</title>
+        <p>Three to six biological repeats were used for all experiments, and all data in this work were analyzed with a Duncan test [<xref ref-type="bibr" rid="B53-ijms-21-00299">53</xref>] using the SAS software package (<uri>http://www.sas.com/en_us/software/sas9.html</uri>).</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-ijms-21-00299">
+        <title>Supplementary Materials</title>
+        <p>Supplementary materials can be found at <uri>https://www.mdpi.com/1422-0067/21/1/299/s1</uri>.</p>
+		<supplementary-material id="ijms-21-00299-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00299-s001.zip">
+		</supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>The research was designed by G.W., Y.C., and Y.Z. The experiments were performed by B.Z. (Bo Zhao), B.Z. (Baocai Zhang), P.W., H.J., and Y.T. Data were analyzed by Y.C. and P.W. The manuscript was written by B.Z. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was supported by the High-Tech Research and Development Program of China (863 Program, grant no.2006AA10Z163), the Nation Natural Science Foundation of China (grant no.30770174), and the CAS/SAFEA International Partnership Program for Creative Research Teams.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <glossary>
+      <title>Abbreviations</title>
+      <array>
+        <tbody>
+          <tr>
+            <td align="left" valign="middle">AIR</td>
+            <td align="left" valign="middle">Lcohol insoluble residue</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">At</td>
+            <td align="left" valign="middle">Arabidopsis thaliana</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">CaMV</td>
+            <td align="left" valign="middle">Cauliflower mosaic virus</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">
+              <italic>df</italic>
+            </td>
+            <td align="left" valign="middle">Drooping and fragile</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">EtNP</td>
+            <td align="left" valign="middle">Ethanolamine phosphate</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">GC-MS</td>
+            <td align="left" valign="middle">Gas Chromatography-Mass Spectrometer</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">GlcA</td>
+            <td align="left" valign="middle">Glucosamine</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">GNA</td>
+            <td align="left" valign="middle">Glucosamine-6-P acetyltransferase</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">GPI</td>
+            <td align="left" valign="middle">Glycosylphosphatidylinositol</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">GPI-Aps</td>
+            <td align="left" valign="middle">GPI anchor proteins</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">GPI-T</td>
+            <td align="left" valign="middle">GPI transamidase</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">GPIs</td>
+            <td align="left" valign="middle">Glycosylphosphatidylinositols</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">HT</td>
+            <td align="left" valign="middle">High temperature</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">LT</td>
+            <td align="left" valign="middle">Low temperature</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">Os</td>
+            <td align="left" valign="middle">Oryza sativa</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">PCR</td>
+            <td align="left" valign="middle">Polymerase Chain Reaction</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">RACE</td>
+            <td align="left" valign="middle">Rapid amplification of cDNA ends</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">RCCR</td>
+            <td align="left" valign="middle">Red chlorophyll catabolite reductase</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">SD</td>
+            <td align="left" valign="middle">Standard deviation</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">TAIL-PCR</td>
+            <td align="left" valign="middle">Thermal asymmetric interlaced PCR</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">UDP-GlcNAc</td>
+            <td align="left" valign="middle">UDP-<italic>N</italic>-acetylglucosamine</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">3&#x2032;-UTR</td>
+            <td align="left" valign="middle">3&#x2032;-Untranslated region</td>
+          </tr>
+        </tbody>
+      </array>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00299">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eisenhaber</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Bork</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Eisenhaber</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Post-translational GPI lipid anchor modification of proteins in kingdoms of life: Analysis of protein sequence data from complete genomes</article-title>
+          <source>Protein Eng.</source>
+          <year>2001</year>
+          <volume>14</volume>
+          <fpage>17</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="doi">10.1093/protein/14.1.17</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00299">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferguson</surname>
+              <given-names>M.A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The structure, biosynthesis and functions of glycosylphosphatidylinositol anchors, and the contributions of trypanosome research</article-title>
+          <source>J. Cell Sci.</source>
+          <year>1999</year>
+          <volume>112</volume>
+          <fpage>2799</fpage>
+          <lpage>2809</lpage>
+          <pub-id pub-id-type="pmid">10444375</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00299">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kinoshita</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enzymatic mechanism of GPI anchor attachment clarified</article-title>
+          <source>Cell Cycle</source>
+          <year>2014</year>
+          <volume>13</volume>
+          <fpage>1838</fpage>
+          <lpage>1839</lpage>
+          <pub-id pub-id-type="doi">10.4161/cc.29379</pub-id>
+          <pub-id pub-id-type="pmid">24865529</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00299">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eisenhaber</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Eisenhaber</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kwang</surname>
+              <given-names>T.Y.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xFC;ber</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Eisenhaber</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transamidase subunit GAA1/GPAA1 is a M28 family metallo-peptidesynthetase that catalyzes the peptide bond formation between the substrate protein&#x2019;s omega-site and the GPI lipid anchor&#x2019;s phosphoethanolamine</article-title>
+          <source>Cell Cycle</source>
+          <year>2014</year>
+          <volume>13</volume>
+          <fpage>1912</fpage>
+          <lpage>1917</lpage>
+          <pub-id pub-id-type="doi">10.4161/cc.28761</pub-id>
+          <pub-id pub-id-type="pmid">24743167</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00299">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zacks</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Garg</surname>
+              <given-names>A.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent developments in the molecular, biochemical and functional characterization of GPI8 and the GPI-anchoring mechanism</article-title>
+          <source>Mol. Membr. Biol.</source>
+          <year>2006</year>
+          <volume>23</volume>
+          <fpage>209</fpage>
+          <lpage>225</lpage>
+          <pub-id pub-id-type="doi">10.1080/09687860600601494</pub-id>
+          <pub-id pub-id-type="pmid">16785205</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00299">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Westfall</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Taron</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Orlean</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Takeda</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kinoshita</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The first step of glycosylphosphatidylinositol biosynthesis is mediated by a complex of PIG-A, PIG-H, PIG-C and GPI1</article-title>
+          <source>EMBO J.</source>
+          <year>1998</year>
+          <volume>17</volume>
+          <fpage>877</fpage>
+          <lpage>885</lpage>
+          <pub-id pub-id-type="doi">10.1093/emboj/17.4.877</pub-id>
+          <pub-id pub-id-type="pmid">9463366</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00299">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel short-root gene encodes a glucosamine-6-phosphate acetyltransferase required for maintaining normal root cell shape in rice</article-title>
+          <source>Plant Physiol.</source>
+          <year>2005</year>
+          <volume>138</volume>
+          <fpage>232</fpage>
+          <lpage>242</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.104.058248</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00299">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nozaki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sugiyama</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Uematsu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Genda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A missense mutation in the glucosamine-6-phosphate N-acetyltransferase-encoding gene causes temperature-dependent growth defects and ectopic lignin deposition in Arabidopsis</article-title>
+          <source>Plant Cell</source>
+          <year>2012</year>
+          <volume>24</volume>
+          <fpage>3366</fpage>
+          <lpage>3379</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.112.102806</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00299">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lalanne</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Honys</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Borner</surname>
+              <given-names>G.H.</given-names>
+            </name>
+            <name>
+              <surname>Lilley</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Dupree</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Grossniklaus</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Twell</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>SETH1 and SETH2, two components of the glycosylphosphatidylinositol anchor biosynthetic pathway, are required for pollen germination and tube growth in Arabidopsis</article-title>
+          <source>Plant Cell</source>
+          <year>2004</year>
+          <volume>16</volume>
+          <fpage>229</fpage>
+          <lpage>240</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.014407</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00299">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dai</surname>
+              <given-names>X.R.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>X.Q.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>G.H.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>L.L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>ABNORMAL POLLEN TUBE GUIDANCE1, an endoplasmic reticulum-localized mannosyltransferase homolog of GLYCOSYLPHOSPHATIDYLINOSITOL10 in yeast and PHOSPHATIDYLINOSITOL GLYCAN ANCHOR BIOSYNTHESIS B in human, is required for arabidopsis pollen tube micropylar guidance and embryo development</article-title>
+          <source>Plant Physiol.</source>
+          <year>2014</year>
+          <volume>165</volume>
+          <fpage>1544</fpage>
+          <lpage>1556</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.114.236133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00299">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gillmor</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Lukowitz</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Brininstool</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sedbrook</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Hamann</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Poindexter</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Somerville</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycosylphosphatidylinositol-anchored proteins are required for cell wall synthesis and morphogenesis in Arabidopsis</article-title>
+          <source>Plant Cell</source>
+          <year>2005</year>
+          <volume>17</volume>
+          <fpage>1128</fpage>
+          <lpage>1140</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.105.031815</pub-id>
+          <pub-id pub-id-type="pmid">15772281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00299">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bundy</surname>
+              <given-names>M.G.R.</given-names>
+            </name>
+            <name>
+              <surname>Kosentka</surname>
+              <given-names>P.Z.</given-names>
+            </name>
+            <name>
+              <surname>Willet</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Shpak</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>A mutation in the catalytic subunit of the glycosylphosphatidylinositol transamidase disrupts growth, fertility, and stomata formation</article-title>
+          <source>Plant Physiol.</source>
+          <year>2016</year>
+          <volume>171</volume>
+          <fpage>974</fpage>
+          <lpage>985</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.16.00339</pub-id>
+          <pub-id pub-id-type="pmid">27208238</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00299">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borner</surname>
+              <given-names>G.H.</given-names>
+            </name>
+            <name>
+              <surname>Lilley</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Stevens</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Dupree</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of glycosylphosphatidylinositol-anchored proteins in Arabidopsis. A proteomic and genomic analysis</article-title>
+          <source>Plant Physiol.</source>
+          <year>2003</year>
+          <volume>132</volume>
+          <fpage>568</fpage>
+          <lpage>577</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.103.021170</pub-id>
+          <pub-id pub-id-type="pmid">12805588</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00299">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schindelman</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Morikami</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Baskin</surname>
+              <given-names>T.I.</given-names>
+            </name>
+            <name>
+              <surname>Carpita</surname>
+              <given-names>N.C.</given-names>
+            </name>
+            <name>
+              <surname>Derbyshire</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>McCann</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Benfey</surname>
+              <given-names>P.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>COBRA encodes a putative GPI-anchored protein, which is polarly localized and necessary for oriented cell expansion in Arabidopsis</article-title>
+          <source>Genes Dev.</source>
+          <year>2001</year>
+          <volume>15</volume>
+          <fpage>1115</fpage>
+          <lpage>1127</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.879101</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00299">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Stevenson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Arabidopsis SOS5 locus encodes a putative cell surface adhesion protein and is required for normal cell expansion</article-title>
+          <source>Plant Cell</source>
+          <year>2003</year>
+          <volume>15</volume>
+          <fpage>19</fpage>
+          <lpage>32</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.007872</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijms-21-00299">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ishii</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Matsunaga</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tominaga</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kuromori</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wada</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shinozaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hirayama</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The glycerophosphoryl diester phosphodiesterase-like proteins SHV3 and its homologs play important roles in cell wall organization</article-title>
+          <source>Plant Cell Physiol.</source>
+          <year>2008</year>
+          <volume>49</volume>
+          <fpage>1522</fpage>
+          <lpage>1535</lpage>
+          <pub-id pub-id-type="doi">10.1093/pcp/pcn120</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijms-21-00299">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>MacMillan</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Mansfield</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Stachurski</surname>
+              <given-names>Z.H.</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Southerton</surname>
+              <given-names>S.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fasciclin-like arabinogalactan proteins: Specialization for stem biomechanics and cell wall architecture in Arabidopsis and Eucalyptus</article-title>
+          <source>Plant J.</source>
+          <year>2010</year>
+          <volume>62</volume>
+          <fpage>689</fpage>
+          <lpage>703</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-313X.2010.04181.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijms-21-00299">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sedbrook</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Carroll</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Hung</surname>
+              <given-names>K.F.</given-names>
+            </name>
+            <name>
+              <surname>Masson</surname>
+              <given-names>P.H.</given-names>
+            </name>
+            <name>
+              <surname>Somerville</surname>
+              <given-names>C.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Arabidopsis SKU5 gene encodes an extracellular glycosyl phosphatidylinositol-anchored glycoprotein involved in directional root growth</article-title>
+          <source>Plant Cell</source>
+          <year>2002</year>
+          <volume>14</volume>
+          <fpage>1635</fpage>
+          <lpage>1648</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.002360</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijms-21-00299">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coimbra</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mendes</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Pereira</surname>
+              <given-names>L.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pollen grain development is compromised in Arabidopsis agp6 agp11 null mutants</article-title>
+          <source>J. Exp. Bot.</source>
+          <year>2009</year>
+          <volume>60</volume>
+          <fpage>3133</fpage>
+          <lpage>3142</lpage>
+          <pub-id pub-id-type="doi">10.1093/jxb/erp148</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijms-21-00299">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two membrane-anchored aspartic proteases contribute to pollen and ovule development</article-title>
+          <source>Plant Physiol.</source>
+          <year>2017</year>
+          <volume>173</volume>
+          <fpage>219</fpage>
+          <lpage>239</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.16.01719</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijms-21-00299">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Cyprys</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Bleckmann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Dresselhaus</surname>
+              <given-names>T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Maternal ENODLs are required for pollen tube reception in Arabidopsis</article-title>
+          <source>Curr. Biol.</source>
+          <year>2016</year>
+          <volume>26</volume>
+          <fpage>2343</fpage>
+          <lpage>2350</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cub.2016.06.053</pub-id>
+          <pub-id pub-id-type="pmid">27524487</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijms-21-00299">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Capron</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gourgues</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Neiva</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Faure</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Pagnussat</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Krishnan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Alvarez-Mejia</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Vielle-Calzada</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>Y.R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Maternal control of male-gamete delivery in Arabidopsis involves a putative GPI-anchored protein encoded by the LORELEI gene</article-title>
+          <source>Plant Cell</source>
+          <year>2008</year>
+          <volume>20</volume>
+          <fpage>3038</fpage>
+          <lpage>3049</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.108.061713</pub-id>
+          <pub-id pub-id-type="pmid">19028964</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijms-21-00299">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yeats</surname>
+              <given-names>T.H.</given-names>
+            </name>
+            <name>
+              <surname>Bacic</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>K.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plant glycosylphosphatidylinositol anchored proteins at the plasma membrane-cell wall nexus</article-title>
+          <source>J. Integr. Plant Biol.</source>
+          <year>2018</year>
+          <volume>60</volume>
+          <fpage>649</fpage>
+          <lpage>669</lpage>
+          <pub-id pub-id-type="doi">10.1111/jipb.12659</pub-id>
+          <pub-id pub-id-type="pmid">29667761</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijms-21-00299">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Pang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>BRITTLE CULM1, which encodes a COBRA-like protein, affects the mechanical properties of rice plants</article-title>
+          <source>Plant Cell</source>
+          <year>2003</year>
+          <volume>15</volume>
+          <fpage>2020</fpage>
+          <lpage>2031</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.011775</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijms-21-00299">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dai</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>You</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>OsBC1L4 encodes a COBRA-like protein that affects cellulose synthesis in rice</article-title>
+          <source>Plant Mol. Biol.</source>
+          <year>2011</year>
+          <volume>75</volume>
+          <fpage>333</fpage>
+          <lpage>345</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11103-011-9730-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijms-21-00299">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>SEMI-ROLLED LEAF1 encodes a putative glycosylphosphatidylinositol-anchored protein and modulates rice leaf rolling by regulating the formation of bulliform cells</article-title>
+          <source>Plant Physiol.</source>
+          <year>2012</year>
+          <volume>159</volume>
+          <fpage>1488</fpage>
+          <lpage>1500</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.112.199968</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijms-21-00299">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Qiao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Miao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>CLD1/SRL1 modulates leaf rolling by affecting cell wall formation, epidermis integrity and water homeostasis in rice</article-title>
+          <source>Plant J.</source>
+          <year>2017</year>
+          <volume>92</volume>
+          <fpage>904</fpage>
+          <lpage>923</lpage>
+          <pub-id pub-id-type="doi">10.1111/tpj.13728</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-ijms-21-00299">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Knockdown of OsPAO and OsRCCR1 cause different plant death phenotypes in rice</article-title>
+          <source>J. Plant Physiol.</source>
+          <year>2011</year>
+          <volume>168</volume>
+          <fpage>1952</fpage>
+          <lpage>1959</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jplph.2011.05.026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-ijms-21-00299">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>High-efficiency thermal asymmetric interlaced PCR for amplification of unknown flanking sequences</article-title>
+          <source>Biotechniques</source>
+          <year>2007</year>
+          <volume>43</volume>
+          <fpage>649</fpage>
+          <lpage>656</lpage>
+          <pub-id pub-id-type="doi">10.2144/000112601</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-ijms-21-00299">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Livak</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Schmittgen</surname>
+              <given-names>T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of relative gene expression data using real-time quantitative PCR and the 2<sup>&#x2212;&#x394;&#x394;<italic>C</italic>t</sup> method</article-title>
+          <source>Methods</source>
+          <year>2001</year>
+          <volume>25</volume>
+          <fpage>402</fpage>
+          <lpage>408</lpage>
+          <pub-id pub-id-type="doi">10.1006/meth.2001.1262</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-ijms-21-00299">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interplay between alternative splicing and alternative polyadenylation defines the expression outcome of the plant unique OXIDATIVE TOLERANT-6 gene</article-title>
+          <source>Sci. Rep.</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <fpage>2052</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-017-02215-z</pub-id>
+          <pub-id pub-id-type="pmid">28515442</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-ijms-21-00299">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Brendel</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genomewide comparative analysis of alternative splicing in plants</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2006</year>
+          <volume>103</volume>
+          <fpage>7175</fpage>
+          <lpage>7180</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0602039103</pub-id>
+          <pub-id pub-id-type="pmid">16632598</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijms-21-00299">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reddy</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Marquez</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kalyna</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Barta</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complexity of the alternative splicing landscape in plants</article-title>
+          <source>Plant Cell</source>
+          <year>2013</year>
+          <volume>25</volume>
+          <fpage>3657</fpage>
+          <lpage>3683</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.113.117523</pub-id>
+          <pub-id pub-id-type="pmid">24179125</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-ijms-21-00299">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>James</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Syed</surname>
+              <given-names>N.H.</given-names>
+            </name>
+            <name>
+              <surname>Bordage</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Marshall</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Nimmo</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Jenkins</surname>
+              <given-names>G.I.</given-names>
+            </name>
+            <name>
+              <surname>Herzyk</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Nimmo</surname>
+              <given-names>H.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alternative splicing mediates responses of the Arabidopsis circadian clock to temperature changes</article-title>
+          <source>Plant Cell</source>
+          <year>2012</year>
+          <volume>24</volume>
+          <fpage>961</fpage>
+          <lpage>981</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.111.093948</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-ijms-21-00299">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Capovilla</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pajoro</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Immink</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Schmid</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of alternative pre-mRNA splicing in temperature signaling</article-title>
+          <source>Curr. Opin. Plant Biol.</source>
+          <year>2015</year>
+          <volume>27</volume>
+          <fpage>97</fpage>
+          <lpage>103</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.pbi.2015.06.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-ijms-21-00299">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Furger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dye</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Integrating mRNA processing with transcription</article-title>
+          <source>Cell</source>
+          <year>2002</year>
+          <volume>108</volume>
+          <fpage>501</fpage>
+          <lpage>512</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(02)00617-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-ijms-21-00299">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ullah</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hamilton</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Reddy</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Ben-Hur</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exploring the relationship between intron retention and chromatin accessibility in plants</article-title>
+          <source>BMC Genomics</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <elocation-id>21</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/s12864-017-4393-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-ijms-21-00299">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mazo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hodgson</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Petruk</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sedkov</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Brock</surname>
+              <given-names>H.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional interference: An unexpected layer of complexity in gene regulation</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2007</year>
+          <volume>120</volume>
+          <fpage>2755</fpage>
+          <lpage>2761</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.007633</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-ijms-21-00299">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sato</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Nishikubo</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Takenouchi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nakano</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nakaba</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sano</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Funada</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kajita</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Isolation of a novel cell wall architecture mutant of rice with defective Arabidopsis COBL4 ortholog BC1 required for regulated deposition of secondary cell wall components</article-title>
+          <source>Planta</source>
+          <year>2010</year>
+          <volume>232</volume>
+          <fpage>257</fpage>
+          <lpage>270</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00425-010-1171-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-ijms-21-00299">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Shang-Guan</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Brittle Culm1, a COBRA-like protein, functions in cellulose assembly through binding cellulose microfibrils</article-title>
+          <source>PLoS Genet.</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <elocation-id>e1003704</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1003704</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-ijms-21-00299">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dai</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>You</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular characterization, expression pattern, and function analysis of the OsBC1L family in rice</article-title>
+          <source>Plant Mol. Biol.</source>
+          <year>2009</year>
+          <volume>71</volume>
+          <fpage>469</fpage>
+          <lpage>481</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11103-009-9537-3</pub-id>
+          <pub-id pub-id-type="pmid">19688299</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-ijms-21-00299">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vaddepalli</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Fulton</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wieland</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wassmer</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Schaeffer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ranf</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schneitz</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The cell wall-localized atypical &#x3B2;-1,3 glucanase ZERZAUST controls tissue morphogenesis in <italic>Arabidopsis thaliana</italic></article-title>
+          <source>Development</source>
+          <year>2017</year>
+          <volume>144</volume>
+          <fpage>2259</fpage>
+          <lpage>2269</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.152231</pub-id>
+          <pub-id pub-id-type="pmid">28507000</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-ijms-21-00299">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ji</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cloix</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Jenkins</surname>
+              <given-names>G.I.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Arabidopsis RCC1 family protein TCF1 regulates freezing tolerance and cold acclimation through modulating lignin biosynthesis</article-title>
+          <source>PLoS Genet.</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <elocation-id>e1005471</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1005471</pub-id>
+          <pub-id pub-id-type="pmid">26393916</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-ijms-21-00299">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nieuwland</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Feron</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Huisman</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Fasolino</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hilbers</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Derksen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mariani</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lipid transfer proteins enhance cell wall extension in tobacco</article-title>
+          <source>Plant Cell</source>
+          <year>2005</year>
+          <volume>17</volume>
+          <fpage>2009</fpage>
+          <lpage>2019</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.105.032094</pub-id>
+          <pub-id pub-id-type="pmid">15937228</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-ijms-21-00299">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sardar</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>McGovern</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Showalter</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A lysine-rich arabinogalactan protein in Arabidopsis is essential for plant growth and development, including cell division and expansion</article-title>
+          <source>Plant J.</source>
+          <year>2007</year>
+          <volume>49</volume>
+          <fpage>629</fpage>
+          <lpage>640</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-313X.2006.02985.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-ijms-21-00299">
+        <label>46.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Forno</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Cock</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Gomez</surname>
+              <given-names>K.A.</given-names>
+            </name>
+          </person-group>
+          <source>Laboratory Manual for Physiological Studies of Rice</source>
+          <edition>3rd ed.</edition>
+          <publisher-name>International Rice Research Institute</publisher-name>
+          <publisher-loc>Manila, Philippines</publisher-loc>
+          <year>1976</year>
+          <fpage>61</fpage>
+          <lpage>64</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B47-ijms-21-00299">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harholt</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jensen</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Sorensen</surname>
+              <given-names>S.O.</given-names>
+            </name>
+            <name>
+              <surname>Orfila</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Pauly</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Scheller</surname>
+              <given-names>H.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>ARABINAN DEFICIENT 1 is a putative arabinosyltransferase involved in biosynthesis of pectic arabinan in Arabidopsis</article-title>
+          <source>Plant Physiol.</source>
+          <year>2006</year>
+          <volume>140</volume>
+          <fpage>49</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.105.072744</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-ijms-21-00299">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Pauly</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rice cellulose synthase-like D4 is essential for normal cell-wall biosynthesis and plant growth</article-title>
+          <source>Plant J.</source>
+          <year>2009</year>
+          <volume>60</volume>
+          <fpage>1055</fpage>
+          <lpage>1069</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-313X.2009.04022.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-ijms-21-00299">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbohydrate composition analysis in xylem</article-title>
+          <source>Methods Mol. Biol.</source>
+          <year>2017</year>
+          <volume>1544</volume>
+          <fpage>213</fpage>
+          <lpage>222</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-1-4939-6722-3_15</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-ijms-21-00299">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Updegraff</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Semimicro determination of cellulose in biological materials</article-title>
+          <source>Anal. Biochem.</source>
+          <year>1969</year>
+          <volume>32</volume>
+          <fpage>420</fpage>
+          <lpage>424</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0003-2697(69)80009-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-ijms-21-00299">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fukushima</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Hatfield</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extraction and isolation of lignin for utilization as a standard to determine lignin concentration using the acetyl bromide spectrophotometric method</article-title>
+          <source>J. Agric. Food Chem.</source>
+          <year>2001</year>
+          <volume>49</volume>
+          <fpage>3133</fpage>
+          <lpage>3139</lpage>
+          <pub-id pub-id-type="doi">10.1021/jf010449r</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-ijms-21-00299">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>K&#xF6;hle</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Jeblick</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Blaschek</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kauss</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chitosan-elicited callose synthesis in soybean cells as a Ca2+-dependent process</article-title>
+          <source>Plant Physiol.</source>
+          <year>1985</year>
+          <volume>77</volume>
+          <fpage>544</fpage>
+          <lpage>551</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.77.3.544</pub-id>
+          <pub-id pub-id-type="pmid">16664095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-ijms-21-00299">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duncan</surname>
+              <given-names>D.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple range and multiple F tests</article-title>
+          <source>Int. Biom. Soc.</source>
+          <year>1955</year>
+          <volume>11</volume>
+          <fpage>1</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.2307/3001478</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="ijms-21-00299-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>The phenotypes of <italic>df</italic> plants. (<bold>A</bold>) Tillering stage plants. (<bold>B</bold>) Filling stage plants. Brittleness of culms (<bold>C</bold>) and leaves (<bold>D</bold>). Breaking force for culms (<bold>E</bold>) and leaves (<bold>F</bold>). The second internode and flag leaves of filling stage plants were used for the test. When testing the culm, the leaf sheath was included. Error bar indicates &#xB1; SD from at least four biological repeats. ** Indicates significant difference (<italic>p</italic> &lt; 0.01) between the <italic>df</italic> (drooping and fragile) mutant and <italic>RCCR1i</italic> plants.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00299-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00299-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Differences in height and anatomical structures of internodes in <italic>RCCRi</italic> and <italic>df</italic> plants. (<bold>A</bold>) Morphology of the internodes. Each internodes are numbered below the panicle (P) to the base. (<bold>B</bold>) Statistical analysis of length changes among different internodes between <italic>RCCRi</italic> and <italic>df</italic> culms. (<bold>C</bold>) Statistical analysis of culm diameter changes of the second internodes between <italic>RCCRi</italic> and <italic>df</italic> plants. Error bar in (<bold>B</bold>) and (<bold>C</bold>) indicates &#xB1; SD from 15 plants. (<bold>D</bold>) Cellular analysis of <italic>RCCRi</italic> and <italic>df</italic> culms. Transverse sections of culms in the second internodes showing the reduced cell layers in <italic>df</italic> culms. (<bold>E</bold>) Statistical analysis of numbers of parenchyma cell layers in the second internodes of <italic>RCCRi</italic> and <italic>df</italic> culms. Error bar indicates &#xB1; SD from six measurements. ** Significant difference (<italic>p</italic> &lt; 0.01). (<bold>F</bold>) Ultrastructure of cell walls in vascular bundle sheath cells of the region indicated by the rectangles in (<bold>D</bold>). Arrows indicate regions contain layers of different electron-dense materials in <italic>df</italic> culms.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00299-g002.tif"/>
+      </fig>
+      <fig id="ijms-21-00299-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Electron microscopic observation of the sclerenchyma in the main leaf vein. Top of the main vein in leaves of <italic>RCCR1i</italic> (<bold>A</bold>) and <italic>df</italic> (<bold>B</bold>) plants. (<bold>C</bold>,<bold>D</bold>) Magnified sections of (<bold>A</bold>,<bold>B</bold>) showing the irregular shape and thin walls of sclerenchyma cells in the main leaf vein of <italic>df</italic> leaves. Arrows indicate the irregular shape cells.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00299-g003.tif"/>
+      </fig>
+      <fig id="ijms-21-00299-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Cloning of the <italic>df</italic> gene. (<bold>A</bold>) Southern blot for the <italic>df</italic> mutant using a <italic>Hygromycin</italic> probe. DNA was digested with <italic>Eco</italic>R I (EI), <italic>Eco</italic>R V (EV), <italic>Hind</italic> III (H), and <italic>Sac</italic> I (S). DNA size markers are indicated on the left. (<bold>B</bold>) Location of the T-DNA insertion. The T-DNA is located between the LOC_Os02g12730 and LOC_Os02g12740 genes. For the LOC_Os02g12740 gene, dark bars represent its ten exons. (<bold>C</bold>) Differences in expression of LOC_Os02g12730 and LOC_Os02g12740 among <italic>df</italic> mutant, heterozygote (<italic>DF</italic>/<italic>df</italic>), and <italic>RCCR1i</italic> (<italic>DF</italic>), determined by RT-PCR analysis. Localization of the binding sites in exons 4 and 5 for the primer pair used for the testing of LOC_Os02g12740 transcripts is indicated in (<bold>B</bold>). Lengths (bp) corresponding to the predicted cDNA and genomic DNA are indicated. (<bold>D</bold>) RT-PCR of the transcripts containing the complete coding sequence of the <italic>OsGPI8</italic> gene.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00299-g004.tif"/>
+      </fig>
+      <fig id="ijms-21-00299-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Complementation of the <italic>df</italic> mutant by the <italic>OsGPI8</italic> gene. (<bold>A</bold>) Two-week-old seedlings of two representative T2 lines of <italic>df</italic> plants overexpressing <italic>OsGPI8</italic> (<italic>df</italic>/<italic>OsGPI8-Oe</italic>) grown under 29&#x2013;33 &#xB0;C conditions. Phenotype segregation (the ratio of normal phenotype to <italic>df</italic> phenotype is 17:5 and 7:2, in two independent lines, respectively) was observed among two independent <italic>df</italic>/<italic>OsGPI8-Oe</italic> T2 families. (<bold>B</bold>) Genomic PCR analysis of <italic>df</italic>/<italic>OsGPI8-Oe</italic> T2 families. The 433 bp bands are products amplified from the rice genomic DNA of the <italic>OsGPI8</italic> gene, while the 266 bp bands are products from the artificial <italic>OsGPI8</italic> gene (which contains no intron). The 266 bp bands are absent in these plants. The binding sites for the primer pair are indicated in <xref ref-type="fig" rid="ijms-21-00299-f002">Figure 2</xref>B. (<bold>C</bold>) Analysis of expression of the <italic>OsGPI8</italic> gene. Each PCR assay was run in duplicate for three independent biological repeats. The comparative Ct method [<xref ref-type="bibr" rid="B30-ijms-21-00299">30</xref>] (Livak and Schmittgen, 2001) was used to determine the relative expression of the target genes, with <italic>OsRUB1</italic> as the reference gene.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00299-g005.tif"/>
+      </fig>
+      <fig id="ijms-21-00299-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Temperature-dependent pre-mRNA splicing in <italic>df</italic> plants. (<bold>A</bold>) Distribution of primer pairs used for (q) RT-PCR along the OsGPI8 gene. The lengths (bp) of predicted cDNAs/genomic DNAs are indicated. (<bold>B</bold>) RT-PCR products of different regions of <italic>OsGPI8</italic> transcripts. Bands corresponding to predicted cDNAs and genomic DNA are indicated. (<bold>C</bold>) RT-PCR products for transcripts which contain the complete coding domain sequence. Bands corresponding to predicted cDNAs are indicated. (<bold>D</bold>) qRT-PCR analysis of total OsGPI8 transcripts using the primer pair of 1F and 1R indicated in (A) in shoots grown at different temperatures. (<bold>E</bold>) qRT-PCR analysis of OsGPI8 transcripts with the longer 3&#x2032;-UTR using the primer pair of 2F and 2R indicated in (A) in shoots grown at different temperatures. Relative expression was normalized to that of the reference gene OsRUB1 (internal control). Bars show standard deviations of the repeats. Each assay was run in duplicate for three independent biological repeats. HT = higher temperature (29&#x2013;33 &#xB0;C). LT = lower temperature (19&#x2013;23 &#xB0;C).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00299-g006.tif"/>
+      </fig>
+      <table-wrap id="ijms-21-00299-t001" position="float">
+        <object-id pub-id-type="pii">ijms-21-00299-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Measurement of the cell wall composition in <italic>df</italic> and <italic>RCCR1i</italic> plants.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Compound<break/>(&#x3BC;g mg<sup>&#x2212;1</sup> AIR)</th>
+              <th align="center" valign="top" style="border-top:solid thin;border-bottom:solid thin">Culms<break/><italic>RCCR1i</italic></th>
+              <th align="center" valign="top" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>RCCR1i</italic>
+                <break/>
+                <italic>df</italic>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Leaf Blades<break/><italic>RCCR1i</italic></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Leaf Blades<break/><italic>df</italic></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Cellulose</td>
+              <td align="center" valign="top">453.74 &#xB1; 8.13</td>
+              <td align="center" valign="top">331.9 3 &#xB1; 4.79 **</td>
+              <td align="center" valign="middle">326.91 &#xB1; 5.62</td>
+              <td align="center" valign="middle">221.21 &#xB1; 7.06 **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Lignin</td>
+              <td align="center" valign="top">142.41 &#xB1; 3.84</td>
+              <td align="center" valign="top">104.45 &#xB1; 1.01 **</td>
+              <td align="center" valign="middle">98.72 &#xB1; 0.99</td>
+              <td align="center" valign="middle">85.54 &#xB1; 1.42 **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>Neutral Sugars</bold>
+              </td>
+              <td align="center" valign="top"> </td>
+              <td align="center" valign="top"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Rhamnose</td>
+              <td align="center" valign="top">2.15 &#xB1; 0.08</td>
+              <td align="center" valign="top">2.44 &#xB1; 0.05 *</td>
+              <td align="center" valign="middle">2.76 &#xB1; 0.09</td>
+              <td align="center" valign="middle">2.97 &#xB1; 0.08</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Fucose</td>
+              <td align="center" valign="top">1.20 &#xB1; 0.02</td>
+              <td align="center" valign="top">1.18 &#xB1; 0.02</td>
+              <td align="center" valign="middle">1.41 &#xB1; 0.04</td>
+              <td align="center" valign="middle">1.51 &#xB1; 0.01</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Arabinose</td>
+              <td align="center" valign="top">32.58 &#xB1; 0.70</td>
+              <td align="center" valign="top">34.97 &#xB1; 0.65 *</td>
+              <td align="center" valign="middle">41.79 &#xB1; 0.88</td>
+              <td align="center" valign="middle">45.40 &#xB1; 0.79 *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Xylose</td>
+              <td align="center" valign="top">212.59 &#xB1; 3.74</td>
+              <td align="center" valign="top">317.89 &#xB1; 5.00 **</td>
+              <td align="center" valign="middle">219.57 &#xB1; 4.83</td>
+              <td align="center" valign="middle">229.71 &#xB1; 3.58 *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Mannose</td>
+              <td align="center" valign="top">2.19 &#xB1; 0.06</td>
+              <td align="center" valign="top">2.16 &#xB1; 0.04</td>
+              <td align="center" valign="middle">2.56 &#xB1; 0.07</td>
+              <td align="center" valign="middle">2.79 &#xB1; 0.03</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Galactose</td>
+              <td align="center" valign="top">24.24 &#xB1; 0.296</td>
+              <td align="center" valign="top">19.89 &#xB1; 0.27 **</td>
+              <td align="center" valign="middle">17.10 &#xB1; 0.30</td>
+              <td align="center" valign="middle">18.56 &#xB1; 0.09 **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Glucose</td>
+              <td align="center" valign="top" style="border-bottom:solid thin">135.75 &#xB1; 0.83</td>
+              <td align="center" valign="top" style="border-bottom:solid thin">87.60 &#xB1; 1.58 **</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.86 &#xB1; 0.52</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.11 &#xB1; 0.31</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>*/** Significant difference compared with <italic>RCCR1i</italic> (<italic>p</italic> &lt; 0.05/0.01).</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">micromachines</journal-id>
+      <journal-title-group>
+        <journal-title>Micromachines</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Micromachines</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Micromachines</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2072-666X</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/mi11010054</article-id>
+      <article-id pub-id-type="publisher-id">micromachines-11-00054</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Micropatterning Method for Porous Materials Using the Difference of the Glass Transition Temperature between Exposed and Unexposed Areas of a Thick-Photoresist</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ueno</surname>
+            <given-names>Hidetaka</given-names>
+          </name>
+          <xref rid="af1-micromachines-11-00054" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sato</surname>
+            <given-names>Kiichi</given-names>
+          </name>
+          <xref rid="af2-micromachines-11-00054" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yamada</surname>
+            <given-names>Kou</given-names>
+          </name>
+          <xref rid="af1-micromachines-11-00054" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-2574-7971</contrib-id>
+          <name>
+            <surname>Suzuki</surname>
+            <given-names>Takaaki</given-names>
+          </name>
+          <xref rid="af1-micromachines-11-00054" ref-type="aff">1</xref>
+          <xref rid="c1-micromachines-11-00054" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-micromachines-11-00054"><label>1</label>Division of Mechanical Science and Technology, Gunma University, Kiryu 376-8515, Japan; <email>t162b001@gunma-u.ac.jp</email> (H.U.); <email>yamada@gunma-u.ac.jp</email> (K.Y.)</aff>
+      <aff id="af2-micromachines-11-00054"><label>2</label>Division of Molecular Science, Gunma University, Kiryu 376-8515, Japan; <email>kiichi.sato@gunma-u.ac.jp</email></aff>
+      <author-notes>
+        <corresp id="c1-micromachines-11-00054"><label>*</label>Correspondence: <email>suzuki.taka@gunma-u.ac.jp</email>; Tel.: +81-277-30-1579</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>11</volume>
+      <issue>1</issue>
+      <elocation-id>54</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>01</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>A cell culture on a scaffold has the advantages of functionality and easy handling, because the geometry of the cellular tissue is controlled by designing the scaffold. To create complex cellular tissue, scaffolds should be complex two-dimensional (2D) and three-dimensional (3D) structures. However, it is difficult to fabricate a scaffold with a 2D and 3D structure because the shape, size, and fabrication processes of a 2D structure in creating a cell layer, and a 3D structure containing cells, are different. In this research, we propose a micropatterning method for porous materials using the difference of the glass transition temperature between exposed and unexposed areas of a thick-photoresist. Since the proposed method does not require a vacuum, high temperature, or high voltage, it can be used for fabricating various structures with a wide range of scales, regardless of the materials used. Additionally, the patterning area can be fabricated accurately by photolithography. To evaluate the proposed method, a membrane integrated scaffold (MIS) with a 2D porous membrane and 3D porous material was fabricated. The MIS had a porous membrane with a pore size of 4 &#x3BC;m or less, which was impermeable to cells, and a porous material which was capable of containing cells. By seeding HUVECs and HeLa cells on each side of the MIS, the cellular tissue was formed with the designed geometry.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>thick photoresist</kwd>
+        <kwd>glass transition temperature</kwd>
+        <kwd>backside exposure</kwd>
+        <kwd>scaffold</kwd>
+        <kwd>micropatterning</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-micromachines-11-00054" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>An in vitro cell culture on a scaffold with microstructures can be used to create and elucidate biological functions and reproduction by constructing a biological structure similar to that which exists in vivo [<xref ref-type="bibr" rid="B1-micromachines-11-00054">1</xref>,<xref ref-type="bibr" rid="B2-micromachines-11-00054">2</xref>,<xref ref-type="bibr" rid="B3-micromachines-11-00054">3</xref>,<xref ref-type="bibr" rid="B4-micromachines-11-00054">4</xref>,<xref ref-type="bibr" rid="B5-micromachines-11-00054">5</xref>]. Cellular tissue for in vitro experiments is fabricated by spontaneous tissue formation. Since the external environment and structure affect spontaneous tissue formation, the geometry of the cellular tissue can be controlled by designing the scaffold for the cell culture. Additionally, since the cellular tissue is supported by the scaffold, it is more robust compared to natural cellular tissue or cellular tissue supported by gels. Scaffolding also enables easy handling, such as during transportation to another environment for cell culture or assay [<xref ref-type="bibr" rid="B6-micromachines-11-00054">6</xref>,<xref ref-type="bibr" rid="B7-micromachines-11-00054">7</xref>].</p>
+      <p>To elucidate the function of cellular tissue, it is necessary to create in vivo complex cell tissues in vitro. The in vivo cellular tissue consists of a 2-dimensional (2D) boundary, such as barrier tissues, and a 3-dimensional (3D) dense cell structure, such as organs. To reproduce these tissues by cell seeding on the scaffold alone, the scaffold also needs both 2D and 3D structures.</p>
+      <p>However, the fabrication methods for 2D shapes and 3D structures are often different, and these complex scaffold structures are difficult to produce by conventional fabrication methods. For example, the 2D microstructure is typically fabricated by photolithography or track-etching, which are suitable for a flat surface [<xref ref-type="bibr" rid="B8-micromachines-11-00054">8</xref>,<xref ref-type="bibr" rid="B9-micromachines-11-00054">9</xref>]. The 3D microstructure is typically fabricated by the phase separation method or 3D printing [<xref ref-type="bibr" rid="B10-micromachines-11-00054">10</xref>,<xref ref-type="bibr" rid="B11-micromachines-11-00054">11</xref>]. Moreover, it is difficult to integrate these micro-scale structures. For example, in the adhesion bonding method, the adhesive-filled microstructures create an unexpected adhesive layer due to surface tension. Additionally, solid bonding methods such as an anodic bonding are hard to apply to fragile materials such as porous materials, because it is limited to plane bonding and requires hard treatment conditions, such as a high temperature, high pressure, and high voltage [<xref ref-type="bibr" rid="B12-micromachines-11-00054">12</xref>].</p>
+      <p>In this study, we propose a micropatterning method on a porous material using the difference of the glass transition temperature between exposed and unexposed areas of a thick-photoresist. Since photoresists have been developed for manufacturing semiconductors and Micro Electro-Mechanical Systems (MEMS), the resolution of photoresists for the proposed method is enough to fabricate microstructures smaller than cell size. The microstructure is patterned on the porous material by partially reflowing the photoresist using the different glass transition temperatures of the exposed/unexposed areas. By using the proposed patterning method, a membrane integrated scaffold (MIS), with a 2D porous membrane capable of constructing cell boundaries, was patterned on a 3D porous material capable of containing cells internally. To evaluate the proposed MIS, two kinds of cells were respectively seeded on both sides of the fabricated MIS, and a co-culture test was performed.</p>
+    </sec>
+    <sec id="sec2-micromachines-11-00054">
+      <title>2. Tissue on Artificial Scaffold</title>
+      <p>In vivo structures consist of 2D and 3D cellular tissues. 2D tissues mainly act as a barrier tissue; a boundary between the inside/outside of a living body, or between tissues [<xref ref-type="bibr" rid="B13-micromachines-11-00054">13</xref>]. For example, as shown in <xref ref-type="fig" rid="micromachines-11-00054-f001">Figure 1</xref>a, vascular endothelial cells form a boundary by being arranged as the blood vessel wall, which is the 2D layer. Cells constituting an organ are the 3D cellular tissue attached to the blood vessel.</p>
+      <p>To fabricate cellular tissue in a shape similar to that found in vivo, the scaffold for fabricating the cellular tissue should also have 2D and 3D structures, such as a porous membrane and a porous material. Additionally, since in vitro cellular tissue studies require a large number of experiments, the devices need to be compatible with high reproducibility, mass production, and easy handling. An artificial scaffold with 2D and 3D structures has the potential to produce cellular tissue according to the scaffold structure by seeding cells (<xref ref-type="fig" rid="micromachines-11-00054-f001">Figure 1</xref>b).</p>
+    </sec>
+    <sec id="sec3-micromachines-11-00054">
+      <title>3. Materials and Methods</title>
+      <sec id="sec3dot1-micromachines-11-00054">
+        <title>3.1. Principles of the Micropatterning Method</title>
+        <p>The micropatterning method for porous materials in this paper is composed of a partial reflow process dependent on the difference of the glass transition temperature between the exposed/unexposed areas of a thick-photoresist, and a releasing process using the sacrificial layer. The principle of the proposed method is shown in <xref ref-type="fig" rid="micromachines-11-00054-f002">Figure 2</xref>. The method uses the porous material SU-8, which is a negative type thick-photoresist, a sacrificial layer for releasing, and two glass masks.</p>
+        <p>The characteristics of the exposed area of the SU-8, which is the negative type photoresist, are changed by cross-linking after the exposure process. A single SU-8 layer with thickness t<sub>1</sub> is fabricated by the single spin-coating process. Three-dimensional distribution of exposure in the SU-8 layer is achieved by exposure energy UV<sub>1</sub> with the first glass mask. In general, in a negative type photoresist, the exposed area is cross-linked and becomes insoluble during development, and the exposure depth correlates with the exposure energy. Therefore, the thickness ratio of the exposed area t<sub>2</sub> and the unexposed area t<sub>3</sub> is controlled by adjusting the first exposure energy UV<sub>1</sub>. By exposing the micropattern with exposure energy capable of exposing a depth of several micrometers t<sub>2</sub>, the patterning accuracy, depending on the aspect ratio, is kept high. Here, the cross-linked SU-8 changes its glass transition point to a higher temperature than the uncross-linked SU-8. Since the characteristics of SU-8 are affected by cross-linking, the glass transition temperature is different between the exposed/unexposed areas in a single SU-8 layer. Partial reflow, according to the distribution of exposure energy in the SU-8 layer, is generated by heating to a temperature which is higher than the glass transition temperature of the unexposed area and lower than that of the exposed area. The unexposed SU-8 layer, reflowed by heating, permeates into the porous material by capillarity. SU-8 permeating into the porous material is secondly exposed by exposure energy UV<sub>2</sub> with the second glass mask. The second exposure energy UV<sub>2</sub> is higher than the first exposure energy UV<sub>1</sub>, and is sufficient to expose the total film thickness t<sub>1</sub>. The second exposed area in the SU-8 becomes the adhesion area between the porous material and the micropattern. In addition, the area becomes a frame structure for the free-standing fabricated structures. The micropattern and adhesion area are fabricated by removing the unexposed area that has not been exposed to UV<sub>1</sub> and UV<sub>2</sub> by the single developing process.</p>
+        <p>The porous material with the micropattern is released by etching the sacrificial layer between the SU-8 layer and the first glass mask. Since the micropattern and porous material are bonded by the adhesion area, which is made of SU-8 permeating to depth <italic>t<sub>3</sub></italic> into the porous material, the micropattern does not separate from the porous material. Therefore, the micropattern remains on the porous material.</p>
+      </sec>
+      <sec id="sec3dot2-micromachines-11-00054">
+        <title>3.2. Materials</title>
+        <p>In this paper, the SU-8 3005 (SU-8, MicroChem Corp., Westborough, MA, USA.), which is an epoxy-based photosensitive material, was used as the thick photoresist. Scaffold membrane AVP 004-48 (Alvetex scaffold, ReproCELL Inc., Kanagawa, Japan) was used as the porous material. These materials have been used for various biological experiments [<xref ref-type="bibr" rid="B14-micromachines-11-00054">14</xref>,<xref ref-type="bibr" rid="B15-micromachines-11-00054">15</xref>].</p>
+        <p>SU-8, the negative type photoresist, is capable of fabricating a layer with a thickness ranging from micrometer-scale to submillimeter-scale. The minimum pattern size of SU-8 is lower than 1 &#x3BC;m, which is smaller than cell size. Since SU-8 has not only a high resolution but also a high aspect ratio of over 5, as well as high chemical stability, it is used for fabricating 3D microstructures, as a mold for microchannels, and as a scaffold for cell cultures [<xref ref-type="bibr" rid="B16-micromachines-11-00054">16</xref>,<xref ref-type="bibr" rid="B17-micromachines-11-00054">17</xref>,<xref ref-type="bibr" rid="B18-micromachines-11-00054">18</xref>]. Normally, negative type photoresists are exposed after becoming solid by evaporating their solvent. SU-8 is capable of reflowing by heating, even once its solvent has evaporated. The glass transition temperature of SU-8 is 50&#x2013;55 &#xB0;C for the unexposed area, and 200 &#xB0;C for the exposed area [<xref ref-type="bibr" rid="B19-micromachines-11-00054">19</xref>].</p>
+        <p>Alvetex scaffold is a porous material made of polystyrene for cell cultures. The porosity is 90% and it almost has a void structure. It is capable of containing cells because the pore size is larger than the cell size. The cells seeded on the Alvetex scaffold are attached to the surface and make cellular tissue inside it. Since the thickness of the Alvetex scaffold is 200 &#x3BC;m, the same as the distance of capillary blood vessels, there are no concerns regarding necrosis due to inhibiting circulation of nutrients and metabolized materials by the cells [<xref ref-type="bibr" rid="B20-micromachines-11-00054">20</xref>].</p>
+      </sec>
+      <sec id="sec3dot3-micromachines-11-00054">
+        <title>3.3. Process Flow of the Micropatterning Method</title>
+        <p>The MIS consists of a porous membrane with pores smaller than cells that is not permeable by the cells, and a porous material containing cells. The schematic images of the MIS are shown in <xref ref-type="fig" rid="micromachines-11-00054-f003">Figure 3</xref>. The Alvetex scaffold consists of the porous material. The porous membrane adheres to the Alvetex scaffold at the adhesion area.</p>
+        <p>The fabrication process consists of eight steps. The process flow for fabricating the MIS is shown in <xref ref-type="fig" rid="micromachines-11-00054-f004">Figure 4</xref>. First, the Cr layer was deposited on a cleaned glass substrate by sputtering (E-200S, Cannon Anelva, Kanagawa, Japan). Next, the pattern for the porous membrane was fabricated by photolithography and etching, using a positive type photosensitive resist Microposit S1813G (Rohm and Haas Electronic Materials, Marlborough, MA, USA) and the Cr etchant TK (Hayashi Pure Chemical Ind., Ltd., Osaka, Japan). The sacrificial layer, Omnicoat (MicroChem Co., Westborough, MA, USA.), which was made of the compound aliphatic imide, was spin-coated on the substrate at 1000 rpm and baked at 200 &#xB0;C for 1 min. SU-8 3005 was spin-coated on the Omnicoat layer at 1000 rpm. To remove the solvent, the SU-8 layer was baked at 65 &#xB0;C for 1 min and 95 &#xB0;C for 1 min. The SU-8 layer was exposed from the backside of the substrate (PM50C-125A1, Ushio Inc., Tokyo, Japan). After the SU-8 layer was exposed, the Alvetex scaffold was put on the SU-8 layer without mechanical pressure. During the post exposure bake (PEB) at 65 &#xB0;C for 1 min and 95 &#xB0;C for 1 min, the unexposed SU-8 recovered flowability and permeated the Alvetex scaffold. The SU-8 was cooled down to room temperature. By using the mask with the pattern for the adhesion area, the SU-8 layer was exposed at 70 mJ/cm<sup>2</sup> from the backside of the substrate. After PEB at 65 &#xB0;C for 1 min and 95 &#xB0;C for 1 min, the SU-8 was developed by the SU-8 developer (MicroChem Corp., Westborough, MA, USA.) and agitated by an ultrasonic wave. The SU-8 developer was replaced by isopropyl alcohol (Kanto Kagaku, Tokyo, Japan). Finally, the Alvetex scaffold integrated microstructure, made of SU-8, was released from the substrate by etching the Omnicoat layer using tetramethylammonium hydroxide (NMD-3, Tokyo Ohka Kogyo Co., Ltd., Kanagawa, Japan).</p>
+        <p>The surface of the fabricated MIS was observed by scanning electron microscope (SEM, JCM-5700LV, JEOL Ltd., Tokyo, Japan). The size of the micropattern was measured by image analysis, using Image J (National Institute of Health, MD, USA).</p>
+        <p>In the proposed method, the size of pores on the porous membrane was decided by the pattern size, which was on the glass substrate and the exposure energy. As parameters for finding out the minimum size of the pores we could fabricate, we prepared 4, 6 and 8 &#x3BC;m porous patterns on the glass substrate. Additionally, the parameter values of exposure energy were 30, 40, and 70 mJ/cm<sup>2</sup>.</p>
+      </sec>
+      <sec id="sec3dot4-micromachines-11-00054">
+        <title>3.4. Cell Culturing on the MIS</title>
+        <p>Cells seeded on the MIS were human umbilical vein endothelial cells (HUVECs) and HeLa-H2B-GFP cells (HeLa cells), which is the cell line of human cervix epithelioid carcinoma that has green fluorescence protein (GFP) in the core histone. Both cells are adherent cells derived from humans. The medium for each cell type was endothelial cell growth medium 2 (ECBM2, C-22111, Promo Cell. Inc, Heidelberg, Germany) and Dulbecco&#x2019;s modified eagle&#x2019;s medium, high glucose (DMEM, D5796500ML, Sigma, Mo, USA), to which we added 10 v/v% fetal bovine serum (35-076-CV, Corning, NY, USA) and 0.2 v/v% penicillin-streptomycin (P4333-20ML, Sigma, Mo, USA), respectively. Both cells were seeded in a petri dish and cultured. HeLa cells were peeled off from the petri dish and seeded on the Alvetex scaffold side of the MIS. After the HeLa cells attached and created cellular tissue, HUVECs were also peeled off from the petri dish and seeded on the porous membrane side of the MIS. Both cells were co-cultured for three days on the MIS, and observed by a fluorescence microscope.</p>
+        <p>As a preliminary treatment, the MIS was sterilized with ethanol and coated by a fibronectin. The fabricated MIS was sterilized with 78% ethanol. The 78% ethanol was then removed by phosphate buffered salts (PBS, T900, Roman Industries Co., Tokyo, Japan). The MIS was dipped into 10 mL PBS containing 1 &#x3BC;L fibronectin (FC010, Merck KGaA, Darmstadt, Germany) for 30 min. The excess fibronectin was removed by dipping in pure PBS three times. The silicone rubber sheet, with a thickness of 1.5 mm and &#x3D5;4 mm hole, was set in the petri dish after it was sterilized with 78% ethanol. The MIS was placed on the silicone rubber sheet with the Alvetex scaffold side up. To lock the MIS, the poly dimethylpolysiloxane (PDMS) chip, the thickness of which was 3 mm with a &#x3D5;4 mm hole, was set on the MIS after it was sterilized with 78% ethanol. The &#x3D5;4 mm hole would work as a chamber for dropping cell suspension.</p>
+        <p>HeLa cells were cultured in a petri dish with a diameter of &#x3D5;90 mm (I-90-20, BIO-BIK). After the HeLa cells became confluent, the DMEM was removed. The HeLa cells were washed with 10 mL PBS, then 1 mL of cell releasing solution (0.25% tripsin-EDTA(1X), Waltham, MA, USA) was dropped into the petri dish. After 5 min incubation, the cell suspension was created by adding 9 mL DMEM. After cell suspension, the mixture was moved into a centrifuge tube, and it was centrifuged at 900 rpm for 3 min by a centrifugal separator (SRX-201, TOMY SEIKO Co., Ltd., Tokyo, Japan). After removing the supernatant, 1 mL of DMEM was added, then 300 &#x3BC;L of the cell suspension was dropped on the Alvetex scaffold side of the MIS. After 2 mL of DMEM was added into the petri dish, the MIS was incubated for 24 h. After picking the MIS up from the silicone rubber sheet, the MIS was incubated for 20 days in another petri dish with 3.5 mL of DMEM.</p>
+        <p>HUVECs were cultured in a petri dish (MS-13900, Sumitomo Bakelite Co., Ltd., Tokyo, Japan) with a diameter of &#x3D5;90 mm, until the area covered by cells reached 90%. The cell stain solution was fabricated by mixing 20 &#x3BC;L of dimethyl sulfoxide (DMSO, 317275, Sigma, Mo, USA) and 50 &#x3BC;g of fluorescence dye (CellTracker RED, Thermo Fisher Scientific, Waltham, MA, USA) with 0.2 v/v% penicillin-streptomycin (P4333-20ML, Sigma, Mo, USA) and 2 mL DMEM. After the petri dish was washed with 10 mL PBS, cell stain solution was added to the petri dish. After 30 min incubation, the cell stain solution was replaced by 10 mL PBS. After adding 5 mL ECBM2, it was incubated for 2 h. The ECBM2 was replaced by 10 mL PBS. After the PBS was removed, 1 mL of cell releasing solution was dropped into the petri dish. After 5 min incubation, the cell suspension was created by adding 9 mL of ECBM2. After the cell suspension was moved to a centrifuge tube, it was centrifuged at 900 rpm for 3 min by the centrifugal separator. After removing the supernatant, 1 mL ECBM2 was added, and 300 &#x3BC;L cell suspension was dropped on the porous membrane side of the MIS. After 2 mL ECBM2 was added into the petri dish, the MIS was incubated for 24 h. HUVECs and HeLa cells which did not adhere to the MIS were removed by washing the MIS in PBS. The MIS was put into a petri dish with ECBM2 and co-cultured for three days.</p>
+        <p>Co-cultured HUVECs and HeLa cells on the MIS were observed by fluorescence microscopy. One mL PBS was added into another petri dish. The MIS was placed into a petri dish with the HUVECs-seeded side down. The side on which the HUVECs were seeded was observed by fluorescence microscopy. After that, 1 mL PBS was added into another petri dish. The MIS was placed into a petri dish with the HeLa cells, seeded-side down. The side on which the HeLa cells were seeded was observed by fluorescence microscopy. Finally, the MIS was cut using tweezers, and its cross-section was observed by fluorescence microscopy. Two filter sets were used for fluorescence microscopy: filter set 1 (excitation filter 470&#x2013;495 nm, emission filter 510&#x2013;550 nm) and filter set 2 (excitation filter 545&#x2013;580 nm, emission filter 610 nm).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-micromachines-11-00054" sec-type="results">
+      <title>4. Results</title>
+      <sec id="sec4dot1-micromachines-11-00054">
+        <title>4.1. Micropatterning on Porous Material</title>
+        <p>The porous membrane patterned on the Alvetex scaffold was observed by SEM, and its size and fabrication error were calculated by image analysis. The size and relative fabrication error of the pores on the fabricated MIS are shown in <xref ref-type="fig" rid="micromachines-11-00054-f005">Figure 5</xref>. The X-axis is the designed pore size. The Y-axis is the fabricated pore size. The R-axis is the relative fabrication error. The size of the pores is shown as circles. The relative fabrication error, which is the difference between the designed size and the fabricated pore size, is shown as triangles. Exposure was conducted with three conditions. Since there were no patterns when it was exposed at 30 mJ/cm<sup>2</sup>, these results are not plotted. The pattern size and the relative fabrication error of pores fabricated at 40 mJ/cm<sup>2</sup> and 70 mJ/cm<sup>2</sup> are shown by the fill pattern and blank pattern, respectively. The fabricated pore size after exposure at 40 mJ/cm<sup>2</sup> was larger than after exposure at 70 mJ/cm<sup>2</sup>. This means that there is an inverse relationship between the fabricated pore size and the exposure energy. The relative fabrication error at 40 mJ/cm<sup>2</sup> was smaller than at 70 mJ/cm<sup>2</sup>. This means there is a proportional relationship between the relative fabrication error and the exposure energy. To fabricate a pore smaller than 4 &#x3BC;m, the exposure energy must be 40 mJ/cm<sup>2</sup> and the designed pore size must be almost 4 &#x3BC;m.</p>
+        <p>The fabricated MIS was observed by SEM. SEM images of the fabricated MIS are shown in <xref ref-type="fig" rid="micromachines-11-00054-f006">Figure 6</xref>. The porous membrane side of the MIS is shown in <xref ref-type="fig" rid="micromachines-11-00054-f006">Figure 6</xref>a. The porous membrane, the adhesion area, and the porous material were observed. The porous membrane adhered on the Alvetex scaffold. There was no damage on the other side, which was not patterned (<xref ref-type="fig" rid="micromachines-11-00054-f006">Figure 6</xref>b). The size of the pores on the porous membrane was 3.46 &#xB1; 0.07 &#x3BC;m (<xref ref-type="fig" rid="micromachines-11-00054-f006">Figure 6</xref>c). All pores on the porous membrane were opened. After cutting the porous membrane, the cross-section of the porous membrane tilted at 45&#xB0;, as observed by SEM. The Alvetex scaffold was observed under the porous membrane. From the image analysis, we could see the thickness of the porous membrane was 8.29 &#xB1; 0.11 &#x3BC;m (<xref ref-type="fig" rid="micromachines-11-00054-f006">Figure 6</xref>d).</p>
+      </sec>
+      <sec id="sec4dot2-micromachines-11-00054">
+        <title>4.2. Cell Culturing on the MIS</title>
+        <p>Cells on the MIS were observed by fluorescence microscopy. First, we observed the inside of the MIS, which was seeded with HeLa cells. After 4 days and 20 days, the MIS which was seeded with HeLa cells was cut, and its cross-section was observed. The fluorescence images are shown in <xref ref-type="fig" rid="micromachines-11-00054-f007">Figure 7</xref>. At 4 days after seeding, the HeLa cells adhered on only the surface of the Alvetex scaffold. At 20 days after seeding, the HeLa cells proliferated and filled in the scaffold. Some HeLa cells reached the adhered side of the porous membrane.</p>
+        <p>After 21 days of seeding HeLa cells on the Alvetex scaffold side of the MIS, HUVECs were seeded on the porous membrane. After 3 days of co-culturing, fluorescence images of the porous membrane side, Alvetex scaffold side, and the cross-section of the MIS were taken. The fluorescence images are shown in <xref ref-type="fig" rid="micromachines-11-00054-f008">Figure 8</xref>. Using filter set 1, HUVECs, which had red fluorescence dye, were observed on the porous membrane (<xref ref-type="fig" rid="micromachines-11-00054-f008">Figure 8</xref>a). Using the Filter set 2, no cells with fluorescence were observed on the porous membrane (<xref ref-type="fig" rid="micromachines-11-00054-f008">Figure 8</xref>b). Using filter set 1, no cells with fluorescence were observed on the Alvetex scaffold (<xref ref-type="fig" rid="micromachines-11-00054-f008">Figure 8</xref>c). Using filter set 2, HeLa cells, which had green fluorescence, were observed on the Alvetex scaffold (<xref ref-type="fig" rid="micromachines-11-00054-f008">Figure 8</xref>d). The MIS was cut using tweezers. The cross-section of the MIS was observed using filter set 1 and filter set 2. Fluorescence images were merged by ImageJ. The merged image is shown in <xref ref-type="fig" rid="micromachines-11-00054-f008">Figure 8</xref>e. HUVECs were on the porous membrane. HeLa cells were not only on the surface of the Alvetex scaffold, but also inside it. Both cells were separated by the porous membrane.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-micromachines-11-00054" sec-type="discussion">
+      <title>5. Discussion</title>
+      <sec id="sec5dot1-micromachines-11-00054">
+        <title>5.1. Comparison with Other Micropatterning Methods</title>
+        <p>In this paper, we proposed a micropatterning method for porous material. This involved patterning the porous membrane which had 3.5 &#x3BC;m pores and a thickness of 8.5 &#x3BC;m, to the porous material of the Alvetex scaffold which had over 50 &#x3BC;m porous by exposure energy at 40 mJ/cm<sup>2</sup>. The patterned porous membrane had pores smaller than the pore size of a typical porous material. In the patterning process for a porous material, the influence on the patterning by the surface roughness of the porous material should be considered. For example, using screen printing to fabricate a pattern on a porous material is difficult for a pattern that is smaller than the size of the pores on the porous material, because photosensitive material permeates into the pores on the porous material [<xref ref-type="bibr" rid="B21-micromachines-11-00054">21</xref>,<xref ref-type="bibr" rid="B22-micromachines-11-00054">22</xref>]. The proposed method fabricates fine patterns smaller than the pores on the porous material because the micropattern is fabricated on a smooth surface and integrated by being peeled off from the substrate. Additionally, since the patterned structure is not affected by porous material, the proposed method is able to be applied to various materials and shapes, not only to an Alvetex scaffold.</p>
+        <p>There was an inverse relationship between the pore size of the porous membrane and the exposure energy. Since SU-8 is a chemical amplification negative type resist, the pattern becomes larger in proportion to the exposure energy [<xref ref-type="bibr" rid="B16-micromachines-11-00054">16</xref>]. Therefore, the exposure energy should be minimized when fabricating smaller patterns. In the conventional body of research, a porous membrane with &#x3D5;0.5 to 4 &#x3BC;m pores is fabricated by using a lower exposure energy of 20 mJ/cm<sup>2</sup> [<xref ref-type="bibr" rid="B23-micromachines-11-00054">23</xref>]. Additionally, Esch et al. reported that a 0.5 to 2.5 mm thickness is necessary to hold the structure itself. However, in our research, the porous membrane was not fabricated at an exposure energy of 30 mJ/cm<sup>2</sup>. This is because, even though the exposure energy was enough, the external force applied to the porous membrane during the development and peeling process was too much for the porous membrane to resist. We used an ultrasonic cleaning process to mix the developer and developing SU-8 between the glass substrate and the Alvetex scaffold efficiently. Additionally, since the porous membrane was gradually separated from the glass substrate during the peeling process, a local external force was generated at the time of peeling. These external forces made the porous membrane fracture. Therefore, for fabricating thinner porous membranes with smaller pores, we have to consider the developing and peeling off processes, not just the exposure energy and pattern size. In the developing process in particular, SU-8 is developed without an ultrasonic cleaning process. A porous membrane which has smaller pores is able to fabricate with these changes in the fabrication process.</p>
+        <p>In this paper, the 2D porous membrane was fabricated on the 3D porous material for the border in cellular tissue. Some 2D porous membranes were used as the border for the cellular tissue alone. Basically, it is desirable that the pore size should be much smaller than the cell size, and the thickness of the porous membrane should be as small as possible. However, there is a trade-off relationship between the thickness and strength of the porous membrane. Therefore, these parameters should be decided by considering the requirements of the membrane, such as the seeded cell size. For example, in the microdevice used for fabricating barrier tissue in the lungs, a porous membrane with &#x3D5;10 &#x3BC;m pores was used. In previous research on fabricating barrier tissue by using this porous membrane, the pore size and the thickness were decided based on the size of the cells cultured. The research used human lung alveolar epithelial cells and human lung capillary endothelial cells. These cells cannot pass through &#x3D5;10 &#x3BC;m pores [<xref ref-type="bibr" rid="B24-micromachines-11-00054">24</xref>]. It was observed that only bacteria smaller than 10 &#x3BC;m went through cell layers on both sides of the porous membrane; the function of the barrier tissue was successfully reproduced. On the other hand, there are some cells that are smaller than 10 &#x3BC;m, such as granule cells [<xref ref-type="bibr" rid="B25-micromachines-11-00054">25</xref>]. For these cells, researchers are currently trying to fabricate a porous membrane with smaller pores that is very thin. Kim et al. fabricated &#x3D5;0.8 &#x3BC;m and 1 &#x3BC;m thickness porous membranes [<xref ref-type="bibr" rid="B8-micromachines-11-00054">8</xref>]. In this study, HUVECs and HeLa cells did not pass through the fabricated porous membrane, as shown in <xref ref-type="fig" rid="micromachines-11-00054-f008">Figure 8</xref>. Therefore, the fabricated pore size was small enough to seed these cells. Additionally, a 2D porous membrane integrated to the Alvetex scaffold was able to fabricate a physical border in the cellular tissue.</p>
+        <p>According to these results and this discussion, the proposed micropatterning method can be applied to various shapes and materials, such as porous materials. Additionally, by changing the conditions of the developing process, porous membranes suitable to other kinds of cells can also be fabricated.</p>
+      </sec>
+      <sec id="sec5dot2-micromachines-11-00054">
+        <title>5.2. Cellular Tissue Cultured on an MIS Made of Photoresist and Polystyrene</title>
+        <p>In this research, we chose a scaffold for cell cultures as one of the applications of the proposed patterning method. We fabricated the scaffold to have a 2D porous membrane for making the cell layer, and a 3D porous material for containing the cells. We cultured two kinds of adherent cells, HUVECs and HeLa cells, on each structure. Both cells were attached to each structure; the HeLa cells especially proliferated and filled up the Alvetex scaffold. The 2D porous membrane was made of SU-8, and the 3D porous material was the Alvetex scaffold, made of polystyrene. Since the Alvetex scaffold is normally used as a scaffold for cell cultures and polystyrene is a consistent material for common cell culture dishes, the 3D porous material was considered suitable for the cell culture. On the other hand, since SU-8 is photosensitive material, it is not as suitable for cell culture when compared with polystyrene. Surface treatment using a coating material or plasma treatment is needed to culture cells on the photoresist [<xref ref-type="bibr" rid="B14-micromachines-11-00054">14</xref>,<xref ref-type="bibr" rid="B26-micromachines-11-00054">26</xref>,<xref ref-type="bibr" rid="B27-micromachines-11-00054">27</xref>]. Since a porous membrane made of the photoresist is fragile, it is coated using poly D-lysine or collagen, and is not plasma treated [<xref ref-type="bibr" rid="B28-micromachines-11-00054">28</xref>,<xref ref-type="bibr" rid="B29-micromachines-11-00054">29</xref>]. In this research, we coated the surface of the SU-8 with fibronectin. Since the HUVECs were attached to the SU-8 surface coated by fibronectin, the shape of the cellular tissue was controlled by a structure made of SU-8. On the other hand, the metabolic function of the cells was elucidated by observing the shape of the cells or by measuring the metabolized material, such as albumin or urea [<xref ref-type="bibr" rid="B30-micromachines-11-00054">30</xref>]. In a future work, the metabolized function of the cellular tissue should be evaluated by comparing it with other cellular tissues cultured in different environments.</p>
+        <p>The autofluorescence of a photoresist impedes fluorescence microscopy if the photoresist is used as the scaffold for the cell culture. In particular, the signal-to-noise ratio of the fluorescence of the cells and scaffold is decreased. Image analysis cannot then be performed accurately. A photoresist with low autofluorescence was developed to solve this issue [<xref ref-type="bibr" rid="B31-micromachines-11-00054">31</xref>]. In a future work, the issue of the signal-to-noise ratio should be solved by using a photoresist with a higher resolution and lower autofluorescence, comparable to the SU-8.</p>
+        <p>According to these results and this discussion, a micropattern fabricated by patterning a photoresist can be used as a scaffold for cell cultures as long as a proper coating process is undertaken. In a future work, it is expected that a new method more suitable for cell cultures and fluorescence imaging could be developed by reducing the autofluorescence of the photoresist.</p>
+      </sec>
+    </sec>
+    <sec id="sec6-micromachines-11-00054" sec-type="conclusions">
+      <title>6. Conclusions</title>
+      <p>In this paper, we proposed a micropatterning method using the difference in the glass transition temperature between exposed and unexposed areas of a thick-photoresist. Using the proposed method, the 2D porous membrane, which has pores smaller than cells, is patterned on the 3D porous material, which can contain cells. Since the proposed method does not require a high temperature, high pressure, or high voltage, it can be used for a lot of different types of porous materials. Moreover, since two kinds of cells seeded on the MIS create the boundary inside the tissue, the MIS fabricated by the proposed method is capable of fabricating cellular tissue which has both a 2D and 3D shape, just by seeding cells.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>H.U., K.S., K.Y., and T.S. conceived and designed the experiments; H.U. performed the experiments and analyzed the data; H.U., K.S., K.Y., and T.S. discussed and interpreted the results; H.U. and T.S. wrote the paper. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was partly supported by JSPS KAKENHI Grant Number 16J12039, JP17H03196, JST PRESTO Grant Number JPMJPR15R3, and JST CREST Grant Number JPMJCR19Q2.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>Mask lithography was performed at the Center for Nano Lithography &amp; Analysis at The University of Tokyo, supported by ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The funding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-micromachines-11-00054">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schindler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kamal</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Nur-E-Kamal</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Grafe</surname>
+              <given-names>T.H.</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Meiners</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A synthetic nanofibrillar matrix promotes in vivo-like organization and morphogenesis for cells in culture</article-title>
+          <source>Biomaterials</source>
+          <year>2005</year>
+          <volume>26</volume>
+          <fpage>5624</fpage>
+          <lpage>5631</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biomaterials.2005.02.014</pub-id>
+          <pub-id pub-id-type="pmid">15878367</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-micromachines-11-00054">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Finne-Wistrand</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mustafa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Albertsson</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Electroactive porous tubular scaffolds with degradability and non-cytotoxicity for neural tissue regeneration</article-title>
+          <source>Acta Biomater.</source>
+          <year>2012</year>
+          <volume>8</volume>
+          <fpage>144</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actbio.2011.09.027</pub-id>
+          <pub-id pub-id-type="pmid">21985870</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-micromachines-11-00054">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dang</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Leong</surname>
+              <given-names>K.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myogenic induction of aligned mesenchymal stem cell sheets by culture on thermally responsive electrospun nanofibers</article-title>
+          <source>Adv. Maters.</source>
+          <year>2007</year>
+          <volume>19</volume>
+          <fpage>2775</fpage>
+          <lpage>2779</lpage>
+          <pub-id pub-id-type="doi">10.1002/adma.200602159</pub-id>
+          <pub-id pub-id-type="pmid">18584057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-micromachines-11-00054">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raimondi</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Nava</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Eaton</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Bernasconi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vishnubhatla</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Cerullo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Osellame</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimization of femtosecond laser polymerized structural niches to control mesenchymal stromal cell fate in culture</article-title>
+          <source>Micromachines</source>
+          <year>2014</year>
+          <volume>5</volume>
+          <fpage>341</fpage>
+          <lpage>358</lpage>
+          <pub-id pub-id-type="doi">10.3390/mi5020341</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-micromachines-11-00054">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malinauskas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rek&#x161;tyte</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Luko&#x161;evicius</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Butkus</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Balciunas</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Peciukaityte</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Baltriukiene</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bukelskiene</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Butkevicius</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kucevicius</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>3D microporous scaffolds manufactured via combination of fused filament fabrication and direct laser writing ablation</article-title>
+          <source>Micromachines</source>
+          <year>2014</year>
+          <volume>5</volume>
+          <fpage>839</fpage>
+          <lpage>858</lpage>
+          <pub-id pub-id-type="doi">10.3390/mi5040839</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-micromachines-11-00054">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Edington</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>W.L.K.</given-names>
+            </name>
+            <name>
+              <surname>Geishecker</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kassis</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Soenksen</surname>
+              <given-names>L.R.</given-names>
+            </name>
+            <name>
+              <surname>Bhushan</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Freake</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kirschner</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Maass</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tsamandouras</surname>
+              <given-names>N.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Interconnected microphysiological systems for quantitative biology and pharmacology studies</article-title>
+          <source>Sci. Rep.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>4530</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-22749-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-micromachines-11-00054">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Satoh</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sugiura</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Onuki-Nagasaki</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ishida</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kikuchi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kakiki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kanamori</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>A multi-throughput multi-organ-on-a-chip system on a plate formatted pneumatic pressure-driven medium circulation platform</article-title>
+          <source>Lab Chip</source>
+          <year>2017</year>
+          <volume>18</volume>
+          <fpage>115</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="doi">10.1039/C7LC00952F</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-micromachines-11-00054">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>M.Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pham</surname>
+              <given-names>L.K.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>B.W.</given-names>
+            </name>
+            <name>
+              <surname>Hui</surname>
+              <given-names>E.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microfabrication of high-resolution porous membranes for cell culture</article-title>
+          <source>J. Membr. Sci.</source>
+          <year>2014</year>
+          <volume>452</volume>
+          <fpage>460</fpage>
+          <lpage>469</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.memsci.2013.11.034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-micromachines-11-00054">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mochida</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sakai</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Nakai</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nishimura</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kawada</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hotta</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Upregulation of the viability of nucleus pulposus cells by bone marrow-derived stromal cells: Significance of direct cell-to-cell contact in coculture system</article-title>
+          <source>SPINE</source>
+          <year>2004</year>
+          <volume>29</volume>
+          <fpage>1508</fpage>
+          <lpage>1514</lpage>
+          <pub-id pub-id-type="doi">10.1097/01.BRS.0000131416.90906.20</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-micromachines-11-00054">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bartolo</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Rende</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Morelli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Giusi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Salerno</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Piscioneri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gordano</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vito</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <name>
+              <surname>Canonaco</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Drioli</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of membrane surface properties on the growth of neuronal cells isolated from hippocampus</article-title>
+          <source>J. Membr. Sci.</source>
+          <year>2008</year>
+          <volume>325</volume>
+          <fpage>139</fpage>
+          <lpage>149</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.memsci.2008.07.022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-micromachines-11-00054">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Low-temperature deposition manufacturing: A novel and promising rapid prototyping technology for the fabrication of tissue-engineered scaffold</article-title>
+          <source>Mater. Sci. Eng.</source>
+          <year>2017</year>
+          <volume>70</volume>
+          <fpage>976</fpage>
+          <lpage>982</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msec.2016.04.014</pub-id>
+          <pub-id pub-id-type="pmid">27772729</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-micromachines-11-00054">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Design and manufacturing of a passive pressure sensor based on LC resonance</article-title>
+          <source>Micromachines</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <elocation-id>87</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/mi7050087</pub-id>
+          <pub-id pub-id-type="pmid">30404262</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-micromachines-11-00054">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sizdahkhani</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ho</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A dynamic in vivo-like organotypic blood-brain barrier model to probe metastatic brain tumors</article-title>
+          <source>Sci. Rep.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>36670</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep36670</pub-id>
+          <pub-id pub-id-type="pmid">27830712</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-micromachines-11-00054">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salazar</surname>
+              <given-names>G.T.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bachman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sims</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Allbritton</surname>
+              <given-names>N.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Micropallet arrays for the separation of single, adherent cells</article-title>
+          <source>Anal. Chem.</source>
+          <year>2007</year>
+          <volume>79</volume>
+          <fpage>682</fpage>
+          <lpage>687</lpage>
+          <pub-id pub-id-type="doi">10.1021/ac0615706</pub-id>
+          <pub-id pub-id-type="pmid">17222037</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-micromachines-11-00054">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maltman</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Przyborski</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Developments in three-dimensional cell culture technology aimed at improving the accuracy of in vitro analyses</article-title>
+          <source>Biochem. Soc. Trans.</source>
+          <year>2010</year>
+          <volume>38</volume>
+          <fpage>1072</fpage>
+          <lpage>1075</lpage>
+          <pub-id pub-id-type="doi">10.1042/BST0381072</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-micromachines-11-00054">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ueno</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yamada</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Integration method of microchannel and vertical micromesh structure for three-dimensional cell culture using inclined exposure and inclined oxygen ashing</article-title>
+          <source>Micromachines</source>
+          <year>2018</year>
+          <volume>9</volume>
+          <elocation-id>681</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/mi9120681</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-micromachines-11-00054">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Futai</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Tamura</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microfluidic long-term gradient generator with axon separation prototyped by 185 nm diffused light photolithography of SU-8 photoresist</article-title>
+          <source>Micromachines</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <elocation-id>9</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/mi10010009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-micromachines-11-00054">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Campo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Greiner</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>SU-8: A photoresist for high-aspect-ratio and 3D submicron lithography</article-title>
+          <source>J. Micromech. Microeng.</source>
+          <year>2007</year>
+          <volume>17</volume>
+          <fpage>81</fpage>
+          <lpage>95</lpage>
+          <pub-id pub-id-type="doi">10.1088/0960-1317/17/6/R01</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-micromachines-11-00054">
+        <label>19.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martinez-Duarte</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Madou</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <source>SU-8 Photolithography and Its Impact on Microfluidics</source>
+          <edition>1st ed.</edition>
+          <publisher-name>CRS Press Taylor &amp; Francis Group</publisher-name>
+          <publisher-loc>Abingdon, UK</publisher-loc>
+          <year>2011</year>
+          <fpage>233</fpage>
+          <lpage>238</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B20-micromachines-11-00054">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takei</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kitazono</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ozuno</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yoshinaga</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nishimata</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vascular-like network prepared using hollow hydrogel microfibers</article-title>
+          <source>J. Biosci. Bioeng.</source>
+          <year>2016</year>
+          <volume>121</volume>
+          <fpage>336</fpage>
+          <lpage>340</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jbiosc.2015.06.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-micromachines-11-00054">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lamas-Ardisana</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Martinez-Paredes</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Anorga</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Grande</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glucose biosensor based on disposable electrochemical paper-based transducers fully fabricated by screen-printing</article-title>
+          <source>Biosens. Bioelectron.</source>
+          <year>2018</year>
+          <volume>109</volume>
+          <fpage>8</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bios.2018.02.061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-micromachines-11-00054">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baradai</surname>
+              <given-names>O.E.</given-names>
+            </name>
+            <name>
+              <surname>Beneventi</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Alloin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bultel</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chaussy</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of cellulose nanofibers as an electrode binder for lithium ion battery screen printing on a paper separator</article-title>
+          <source>Nanomaterials</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <elocation-id>982</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/nano8120982</pub-id>
+          <pub-id pub-id-type="pmid">30486473</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-micromachines-11-00054">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Esch</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Sung</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>March</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Shuler</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>On chip porous polymer membranes for integration of gastrointestinal tract epithelium with microfluidic &#x2018;body-on-a-chip&#x2019; devices</article-title>
+          <source>Biomed. Microdevices</source>
+          <year>2012</year>
+          <volume>14</volume>
+          <fpage>895</fpage>
+          <lpage>906</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10544-012-9669-0</pub-id>
+          <pub-id pub-id-type="pmid">22847474</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-micromachines-11-00054">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huh</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Hamilton</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Ingber</surname>
+              <given-names>D.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>From 3D cell culture to organs-on-chips</article-title>
+          <source>Trends Cell Biol.</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>745</fpage>
+          <lpage>754</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2011.09.005</pub-id>
+          <pub-id pub-id-type="pmid">22033488</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-micromachines-11-00054">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pearce</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Cambray-Deakin</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Burgoyne</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glutamate acting on NMDA receptors stimulates neurite outgrowth from cerebellar granule cells</article-title>
+          <source>FEBS Lett.</source>
+          <year>1987</year>
+          <volume>223</volume>
+          <fpage>143</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="doi">10.1016/0014-5793(87)80525-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-micromachines-11-00054">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hennemeyer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Walther</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kerstan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xFC;rzinger</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gigler</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>R.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell proliferation assays on plasma activated SU-8</article-title>
+          <source>Microelectron. Eng.</source>
+          <year>2008</year>
+          <volume>85</volume>
+          <fpage>1298</fpage>
+          <lpage>1301</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mee.2008.01.026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-micromachines-11-00054">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>A microfluidic chip for cell patterning utilizing paired microwells and protein patterns</article-title>
+          <source>Micromachines</source>
+          <year>2016</year>
+          <volume>8</volume>
+          <elocation-id>1</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/mi8010001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-micromachines-11-00054">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Terryn</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jouret</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Vandenabeele</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Smolders</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Moreels</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Devuyst</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Steels</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kerkhove</surname>
+              <given-names>E.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>A primary culture of mouse proximal tubular cells, established on collagen-coated membranes</article-title>
+          <source>Am. J. Physiol. Renal Physiol.</source>
+          <year>2007</year>
+          <volume>293</volume>
+          <fpage>476</fpage>
+          <lpage>485</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajprenal.00363.2006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-micromachines-11-00054">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hayman</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Cameron</surname>
+              <given-names>N.R.</given-names>
+            </name>
+            <name>
+              <surname>Przyborski</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Growth of human stem cell-derived neurons on solid three-dimensional polymers</article-title>
+          <source>J. Biochem. Biophys. Methods</source>
+          <year>2005</year>
+          <volume>62</volume>
+          <fpage>231</fpage>
+          <lpage>240</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jbbm.2004.12.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-micromachines-11-00054">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Esch</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Ueno</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Applegate</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Shuler</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modular, pumpless body-on-a-chip platform for the co-culture of GI tract epithelium and 3D primary liver tissue</article-title>
+          <source>Lab Chip</source>
+          <year>2016</year>
+          <volume>16</volume>
+          <fpage>2719</fpage>
+          <lpage>2729</lpage>
+          <pub-id pub-id-type="doi">10.1039/C6LC00461J</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-micromachines-11-00054">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tamai</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Maruo</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ueno</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Terao</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kotera</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of low-fluorescence thick photoresist for high-aspect-ratio microstructure in bio-application</article-title>
+          <source>Biomicrofluidics</source>
+          <year>2015</year>
+          <volume>9</volume>
+          <fpage>022405</fpage>
+          <pub-id pub-id-type="doi">10.1063/1.4917511</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="micromachines-11-00054-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Schematic images of natural cellular tissue and cellular tissue on the scaffold. The cellular tissue inside the body consists of tissues with 2D/3D shapes. The cell layer which has a 2D shape creates a boundary between the inside/outside of the body, or between tissues. The 3D cellular tissue is arranged on the 2D tissue (<bold>a</bold>). The artificial scaffold MIS with a 2D porous membrane and the 3D porous material has the potential to create a similar structure to that of in vivo tissue, such as a blood vessel and organ cells, by seeding cells onto it (<bold>b</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="micromachines-11-00054-g001.tif"/>
+      </fig>
+      <fig id="micromachines-11-00054-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Principle of the proposed method. For micropatterning on a porous material, the method uses SU-8, which is a negative type thick photoresist, a sacrificial layer for releasing, and two glass masks.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="micromachines-11-00054-g002.tif"/>
+      </fig>
+      <fig id="micromachines-11-00054-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Schematic images of the MIS. The MIS consisted of the porous membrane with micro pore smaller than cell size, and the Alvetex scaffold which was capable of containing cells. The size of the pore in the porous membrane was required to be smaller than 4 &#x3BC;m. In the adhesion area, part of thick photoresist permeated into the Alvetex scaffold and adhered.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="micromachines-11-00054-g003.tif"/>
+      </fig>
+      <fig id="micromachines-11-00054-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>The fabrication process of the MIS. The MIS was fabricated by using the difference of the glass transition temperature between the exposed and unexposed areas of the thick-photoresist. First, the porous pattern was fabricated on the glass substrate by the Cr layer (<bold>a</bold>). The sacrificial layer was spin-coated on the substrate (<bold>b</bold>). SU-8 was spin-coated on the sacrificial layer (<bold>c</bold>). SU-8 was exposed from the backside of the substrate to the middle point of the SU-8 layer (<bold>d</bold>). The Alvetex scaffold was put on the SU-8 layer (<bold>e</bold>). The adhesion area was exposed from the backside of the substrate (<bold>f</bold>). The SU-8 layer was developed (<bold>g</bold>). Finally, the Alvetex scaffold adhered to the micropattern and was released from the substrate (<bold>h</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="micromachines-11-00054-g004.tif"/>
+      </fig>
+      <fig id="micromachines-11-00054-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>The size and the relative fabrication error of the pores on the fabricated MIS. There was no structure when it was fabricated with an exposure energy of 30 mJ/cm<sup>2</sup>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="micromachines-11-00054-g005.tif"/>
+      </fig>
+      <fig id="micromachines-11-00054-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>SEM images of the MIS. The porous membrane adhered on the Alvetex scaffold (<bold>a</bold>). There was no damage on the unpatterned surface of the Alvetex scaffold (<bold>b</bold>). All pores were opened on the porous membrane (<bold>c</bold>). The thickness of the porous membrane was about 8.3 &#x3BC;m (<bold>d</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="micromachines-11-00054-g006.tif"/>
+      </fig>
+      <fig id="micromachines-11-00054-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>(<bold>a</bold>) HeLa cells attached to the surface of the Alvetex scaffold 4 days after seeding. (<bold>b</bold>) HeLa cells reached to the backside of the porous membrane 20 days after seeding.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="micromachines-11-00054-g007.tif"/>
+      </fig>
+      <fig id="micromachines-11-00054-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Fluorescence images of the MIS. HUVECs were observed on the porous membrane using filter set 1 (<bold>a</bold>). No cells were observed on the porous membrane using filter set 2 (<bold>b</bold>). No cells were observed on the Alvetex scaffold using filter set 1 (<bold>c</bold>). HeLa cells were observed on the Alvetex scaffold using filter set 2 (<bold>d</bold>). HUVECs, which were emitting red fluorescence, and HeLa cells, which were emitting green fluorescence, were separated by the porous membrane, made of the SU-8 (<bold>e</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="micromachines-11-00054-g008.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

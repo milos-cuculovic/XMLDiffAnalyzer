@@ -1,0 +1,3500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010295</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00295</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Granulosa-Lutein Cell Sirtuin Gene Expression Profiles Differ between Normal Donors and Infertile Women</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gonz&#xE1;lez-Fern&#xE1;ndez</surname>
+            <given-names>Rebeca</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00295" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mart&#xED;n-Ram&#xED;rez</surname>
+            <given-names>Rita</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00295" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rotoli</surname>
+            <given-names>Deborah</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00295" ref-type="aff">1</xref>
+          <xref rid="af2-ijms-21-00295" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hern&#xE1;ndez</surname>
+            <given-names>Jairo</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00295" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Naftolin</surname>
+            <given-names>Frederick</given-names>
+          </name>
+          <xref rid="af4-ijms-21-00295" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2220-5774</contrib-id>
+          <name>
+            <surname>Mart&#xED;n-Vasallo</surname>
+            <given-names>Pablo</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00295" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Palumbo</surname>
+            <given-names>Angela</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00295" ref-type="aff">3</xref>
+          <xref rid="af4-ijms-21-00295" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5177-1188</contrib-id>
+          <name>
+            <surname>&#xC1;vila</surname>
+            <given-names>Julio</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00295" ref-type="aff">1</xref>
+          <xref rid="c1-ijms-21-00295" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00295"><label>1</label>Laboratorio de Biolog&#xED;a del Desarrollo, UD de Bioqu&#xED;mica y Biolog&#xED;a Molecular and Centro de Investigaciones Biom&#xE9;dicas de Canarias (CIBICAN), Universidad de La Laguna, Av. Astrof&#xED;sico S&#xE1;nchez s/n, 38206 La Laguna, Tenerife, Spain; <email>refernan@ull.edu.es</email> (R.G.-F.); <email>rmartira@ull.edu.es</email> (R.M.-R.); <email>deborah_rotoli@yahoo.it</email> (D.R.); <email>pmartin@ull.edu.es</email> (P.M.-V.)</aff>
+      <aff id="af2-ijms-21-00295"><label>2</label>Institute of Endocrinology and Experimental Oncology (IEOS), CNR-National Research Council, 80131 Naples, Italy</aff>
+      <aff id="af3-ijms-21-00295"><label>3</label>Centro de Asistencia a la Reproducci&#xF3;n Humana de Canarias, 38202 La Laguna, Tenerife, Spain; <email>jairoh@fivap.com</email> (J.H.); <email>apalumbo@fivap.com</email> (A.P.)</aff>
+      <aff id="af4-ijms-21-00295"><label>4</label>Department of Obstetrics and Gynecology, New York University, New York, NY 10016, USA; <email>frederick.naftolin@nyulangone.org</email></aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00295"><label>*</label>Correspondence: <email>javila@ull.edu.es</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>295</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Sirtuins are a family of deacetylases that modify structural proteins, metabolic enzymes, and histones to change cellular protein localization and function. In mammals, there are seven sirtuins involved in processes like oxidative stress or metabolic homeostasis associated with aging, degeneration or cancer. We studied gene expression of sirtuins by qRT-PCR in human mural granulosa-lutein cells (hGL) from IVF patients in different infertility diagnostic groups and in oocyte donors (OD; control group). Study 1: sirtuins genes&#x2019; expression levels and correlations with age and IVF parameters in women with no ovarian factor. We found significantly higher expression levels of <italic>SIRT1</italic>, <italic>SIRT2</italic> and <italic>SIRT5</italic> in patients &#x2265;40 years old than in OD and in women between 27 and 39 years old with tubal or male factor, and no ovarian factor (NOF). Only <italic>SIRT2</italic>, <italic>SIRT5</italic> and <italic>SIRT7</italic> expression correlated with age. Study 2: sirtuin genes&#x2019; expression in women poor responders (PR), endometriosis (EM) and polycystic ovarian syndrome. Compared to NOF controls, we found higher <italic>SIRT2</italic> gene expression in all diagnostic groups while <italic>SIRT3</italic>, <italic>SIRT5</italic>, <italic>SIRT6</italic> and <italic>SIRT7</italic> expression were higher only in PR. Related to clinical parameters <italic>SIRT1</italic>, <italic>SIRT6</italic> and <italic>SIRT7</italic> correlate positively with FSH and LH doses administered in EM patients. The number of mature oocytes retrieved in PR is positively correlated with the expression levels of <italic>SIRT3</italic>, <italic>SIRT4</italic> and <italic>SIRT5</italic>. These data suggest that cellular physiopathology in PR&#x2019;s follicle may be associated with cumulative DNA damage, indicating that further studies are necessary.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>granulosa-lutein cells</kwd>
+        <kwd>sirtuin</kwd>
+        <kwd>PCOS</kwd>
+        <kwd>poor responders</kwd>
+        <kwd>endometriosis</kwd>
+        <kwd>infertility diagnosis</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00295" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Sirtuins (silent information regulator proteins) were initially defined as an evolutionarily conserved family of class III nicotinamide adenine dinucleotide+ (NAD+)-dependent histone deacetylases that can also have mono-ADP-ribosyltransferase activity [<xref ref-type="bibr" rid="B1-ijms-21-00295">1</xref>,<xref ref-type="bibr" rid="B2-ijms-21-00295">2</xref>]. These enzymes cleave an acetyl group from acetyl-lysine residues in histones, although they can also act in nonhistone proteins, such us structural proteins, metabolic enzymes or transcriptional factors [<xref ref-type="bibr" rid="B1-ijms-21-00295">1</xref>,<xref ref-type="bibr" rid="B2-ijms-21-00295">2</xref>]. However, recent studies demonstrate that sirtuin family gene products catalyze additional reactions and enzymatic activities, including mono-ADP-ribosyltransferase, deacylase, deacetylase, desuccinylase, demalonylase, demyristoylase and depalmitoylase activities [<xref ref-type="bibr" rid="B2-ijms-21-00295">2</xref>,<xref ref-type="bibr" rid="B3-ijms-21-00295">3</xref>,<xref ref-type="bibr" rid="B4-ijms-21-00295">4</xref>]. </p>
+      <p>Sirtuins are implicated in aging, oxidative stress, maintenance of metabolic homeostasis, DNA repair and mitochondrial function [<xref ref-type="bibr" rid="B5-ijms-21-00295">5</xref>,<xref ref-type="bibr" rid="B6-ijms-21-00295">6</xref>] through the regulation of specific genes&#x2019; expression and activation or deactivation of other proteins [<xref ref-type="bibr" rid="B7-ijms-21-00295">7</xref>,<xref ref-type="bibr" rid="B8-ijms-21-00295">8</xref>]. </p>
+      <p>In mammals, seven sirtuin isoforms have so far been described (<italic>SIRT1</italic>&#x2013;<italic>SIRT7</italic>). These possess a conserved catalytic domain but differ in their amino and carboxyl terminal that confers specificity in cellular location and function [<xref ref-type="bibr" rid="B9-ijms-21-00295">9</xref>]. </p>
+      <p><italic>SIRT1</italic> is the most studied member of the sirtuin family, it is located mainly in the nucleus, although it shuttles to the cytosol in response to environmental signals [<xref ref-type="bibr" rid="B10-ijms-21-00295">10</xref>]. <italic>SIRT1</italic> has been implicated in processes such as inflammation, by reducing NF-&#x3BA;B activity [<xref ref-type="bibr" rid="B11-ijms-21-00295">11</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00295">12</xref>], apoptosis by inhibiting p53-dependent transcription [<xref ref-type="bibr" rid="B13-ijms-21-00295">13</xref>,<xref ref-type="bibr" rid="B14-ijms-21-00295">14</xref>] and in energy metabolism through effects on regulators of metabolic enzymes such as PPAR-&#x3B3; [<xref ref-type="bibr" rid="B15-ijms-21-00295">15</xref>]. Yeast Sir2 gene is a <italic>SIRT1</italic> homolog that is involved in yeast life span extension, nonetheless, but a similar role for <italic>SIRT1</italic> has been refuted [<xref ref-type="bibr" rid="B16-ijms-21-00295">16</xref>]. In the reproductive system, <italic>SIRT1</italic> plays a role in apoptosis of granulosa cells during follicular atresia [<xref ref-type="bibr" rid="B17-ijms-21-00295">17</xref>,<xref ref-type="bibr" rid="B18-ijms-21-00295">18</xref>] and has been related to preservation of follicular reserve and extension of ovarian lifespan [<xref ref-type="bibr" rid="B19-ijms-21-00295">19</xref>].</p>
+      <p><italic>SIRT2</italic> is located in the cytoplasm [<xref ref-type="bibr" rid="B9-ijms-21-00295">9</xref>]. It transiently migrates into the nucleus to deacetylate &#x3B1;-tubulin and to modulate chromatin condensation and cell cycle regulation by deacetylating H3 and H4 histones [<xref ref-type="bibr" rid="B20-ijms-21-00295">20</xref>,<xref ref-type="bibr" rid="B21-ijms-21-00295">21</xref>]. <italic>SIRT2</italic> deacetylates transcriptional factors like Foxo, p53 or NF-&#x3BA;B [<xref ref-type="bibr" rid="B4-ijms-21-00295">4</xref>,<xref ref-type="bibr" rid="B22-ijms-21-00295">22</xref>,<xref ref-type="bibr" rid="B23-ijms-21-00295">23</xref>,<xref ref-type="bibr" rid="B24-ijms-21-00295">24</xref>].</p>
+      <p><italic>SIRT3</italic> resides in the mitochondria [<xref ref-type="bibr" rid="B9-ijms-21-00295">9</xref>] and participates in the regulation of energy metabolism [<xref ref-type="bibr" rid="B25-ijms-21-00295">25</xref>,<xref ref-type="bibr" rid="B26-ijms-21-00295">26</xref>] and apoptosis [<xref ref-type="bibr" rid="B27-ijms-21-00295">27</xref>] and in reactive oxygen species (ROS) detoxification [<xref ref-type="bibr" rid="B28-ijms-21-00295">28</xref>,<xref ref-type="bibr" rid="B29-ijms-21-00295">29</xref>]. <italic>SIRT3</italic> has been involved in age-associated oxidative stress and infertility [<xref ref-type="bibr" rid="B30-ijms-21-00295">30</xref>,<xref ref-type="bibr" rid="B31-ijms-21-00295">31</xref>,<xref ref-type="bibr" rid="B32-ijms-21-00295">32</xref>].</p>
+      <p><italic>SIRT4</italic> located in the mitochondria [<xref ref-type="bibr" rid="B9-ijms-21-00295">9</xref>] regulates lipid metabolism promoting fatty acid oxidation and inhibiting lipogenesis [<xref ref-type="bibr" rid="B33-ijms-21-00295">33</xref>,<xref ref-type="bibr" rid="B34-ijms-21-00295">34</xref>]. The effects of <italic>SIRT3</italic> and <italic>SIRT4</italic> on glutamate dehydrogenase are opposite: while <italic>SIRT4</italic> represses GDH activity, deacetylation by <italic>SIRT3</italic> activates GDH [<xref ref-type="bibr" rid="B35-ijms-21-00295">35</xref>,<xref ref-type="bibr" rid="B36-ijms-21-00295">36</xref>].</p>
+      <p><italic>SIRT5</italic> in mitochondria [<xref ref-type="bibr" rid="B9-ijms-21-00295">9</xref>,<xref ref-type="bibr" rid="B37-ijms-21-00295">37</xref>] has been reported to possess low deacetylase activity compared to the other members of the family. In contrast, <italic>SIRT5</italic> possesses high desuccinylation, demalonylation and deglutarylation activities [<xref ref-type="bibr" rid="B4-ijms-21-00295">4</xref>]. It activates the urea cycle by deacetylating carbamoyl phosphate synthetase 1 [<xref ref-type="bibr" rid="B38-ijms-21-00295">38</xref>]. <italic>SIRT5</italic> desuccinylates isocitrate dehydrogenase 2 and deglutarylates glucose-6-phosphate dehydrogenase, which protect cells from oxidative damage by activating NADPH-producing enzymes [<xref ref-type="bibr" rid="B39-ijms-21-00295">39</xref>]. In women, <italic>SIRT5</italic> expression decreases along with ovarian reserve as maternal age increases [<xref ref-type="bibr" rid="B40-ijms-21-00295">40</xref>].</p>
+      <p><italic>SIRT6</italic>, nuclear [<xref ref-type="bibr" rid="B10-ijms-21-00295">10</xref>], is implicated in telomeres stabilization, DNA double strand break repair and regulation of transcription [<xref ref-type="bibr" rid="B41-ijms-21-00295">41</xref>,<xref ref-type="bibr" rid="B42-ijms-21-00295">42</xref>,<xref ref-type="bibr" rid="B43-ijms-21-00295">43</xref>,<xref ref-type="bibr" rid="B44-ijms-21-00295">44</xref>]. <italic>SIRT6</italic> overexpression increases lifespan in male mice by ~15% [<xref ref-type="bibr" rid="B45-ijms-21-00295">45</xref>]. Regarding fertility, <italic>SIRT6</italic> has been associated with follicle reserve preservation and increase of ovarian function lifespan [<xref ref-type="bibr" rid="B19-ijms-21-00295">19</xref>].</p>
+      <p><italic>SIRT7</italic>, predominantly localized in the nucleolus [<xref ref-type="bibr" rid="B9-ijms-21-00295">9</xref>], co-activates ribosomal DNA transcription by association with RNA polymerase I complex [<xref ref-type="bibr" rid="B46-ijms-21-00295">46</xref>,<xref ref-type="bibr" rid="B47-ijms-21-00295">47</xref>]. In addition, <italic>SIRT7</italic> interacts with chromatin remodeling complexes by association and deacetylation of the B-WICH component [<xref ref-type="bibr" rid="B48-ijms-21-00295">48</xref>] and plays a role in stress resistance to hypoxia, osmotic stress, ER-stress or genomic stress [<xref ref-type="bibr" rid="B49-ijms-21-00295">49</xref>,<xref ref-type="bibr" rid="B50-ijms-21-00295">50</xref>,<xref ref-type="bibr" rid="B51-ijms-21-00295">51</xref>]. </p>
+      <p>The aim of this study was to investigate the expression of the genes coding for the 7 sirtuins in human granulosa&#x2013;lutein (hGL) cells from in vitro fertilization (IVF) patients with different infertility diagnoses, aging women and oocyte donors (young controls) in order to seek differences in gene expression levels and possible correlation with clinical parameters.</p>
+    </sec>
+    <sec id="sec2-ijms-21-00295" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-21-00295">
+        <title>2.1. Descriptive Statistics and Clinical Variables </title>
+        <p>Significant differences in age distribution were found between OD (oocyte donors between 18 and 27 yo) and all other groups (<italic>p</italic> = 0.000) and between &#x2265;40 yo (women &#x2265; 40 yo with tubal or male factor and no ovarian factor) and all other groups (<italic>p</italic> = 0.000). No age difference was observed between NOF (women between 27 and 39 yo with tubal or male factor and no ovarian factor), PCOS (polycystic ovarian syndrome), EM (endometriosis) and PR (women &lt; 40 yo defined as poor responders) (<xref ref-type="table" rid="ijms-21-00295-t001">Table 1</xref>).</p>
+        <p>While agonist and antagonist protocols were differently represented between diagnostic groups, within each group there were no statistically significant differences in gene expression between the 2 protocols. </p>
+        <p>Regarding the amount of exogenous gonadotropins used for ovulation induction, PCOS, OD and NOF groups received significantly lower doses compared to EM, PR and &#x2265;40 yo (<italic>p</italic> = 0.000). The number of total and mature oocytes retrieved varied between groups: significant differences are shown in <xref ref-type="table" rid="ijms-21-00295-t001">Table 1</xref>. No statistically significant differences in mean E2 peak value were observed among groups.</p>
+      </sec>
+      <sec id="sec2dot2-ijms-21-00295">
+        <title>2.2. Sirtuin Gene Expression </title>
+        <sec id="sec2dot2dot1-ijms-21-00295">
+          <title>2.2.1. Study 1: Sirtuin Gene Expression Level and Correlations with Age and IVF Parameters in Women with No Ovarian Factor</title>
+          <p>All sirtuin family members were expressed in human granulosa-lutein cells, <xref ref-type="table" rid="ijms-21-00295-t002">Table 2</xref>. <italic>SIRT1</italic> and <italic>SIRT2</italic> were the most expressed. <italic>SIRT3</italic>, <italic>SIRT5</italic> and <italic>SIRT7</italic> showed an intermediate expression and <italic>SIRT4</italic> and <italic>SIRT6</italic> the least expression.</p>
+          <p>Comparing expression between different IVF diagnostic groups gene expression was higher in &#x2265;40 yo patients than in other groups for <italic>SIRT1</italic> (OD: <italic>p</italic> = 0.008; NOF: <italic>p</italic> = 0.000), <italic>SIRT2</italic> (OD: <italic>p</italic> = 0.000; NOF: <italic>p</italic> = 0.000) and <italic>SIRT5</italic> (OD: <italic>p</italic> = 0.032; NOF: <italic>p</italic> = 0.014). With the exception of <italic>SIRT2</italic> and <italic>SIRT7</italic> the NOF group did not differ from the controls, <xref ref-type="fig" rid="ijms-21-00295-f001">Figure 1</xref>.</p>
+          <p>Sirtuins and age&#x2014;When all women with no ovarian factor (OD, NOF and &#x2265;40 yo) were analyzed, we observed that only <italic>SIRT2</italic>, <italic>SIRT5</italic> and <italic>SIRT7</italic> expression correlated with age (r = 0.350, <italic>p</italic> &lt; 0.01; r = 0.324, <italic>p</italic> &lt; 0.05 and r = 303, <italic>p</italic> &lt; 0.05) (<xref ref-type="fig" rid="ijms-21-00295-f002">Figure 2</xref>). </p>
+          <p>Sirtuins and IVF parameters&#x2014;When different groups were analyzed, no correlation was found between NOF or &#x2265;40 yo with any IVF parameters. The ovum donor controls showed a negative correlation between <italic>SIRT2</italic>, <italic>SIRT3</italic>, <italic>SIRT4</italic> and <italic>SIRT6</italic> and administered gonadotrophin doses (<italic>p</italic> &lt; 0.01) and a negative correlation between <italic>SIRT7</italic> and FSH doses (<italic>p</italic> &lt; 0.05). In addition, <italic>SIRT2</italic>, <italic>SIRT4</italic>, <italic>SIRT6</italic>, <italic>SIRT7</italic> expression also correlated negatively with total treatment days (<italic>p</italic> &lt; 0.05). </p>
+        </sec>
+        <sec id="sec2dot2dot2-ijms-21-00295">
+          <title>2.2.2. Study 2: Correlations between Sirtuin Gene Expression and IVF Parameters in Women with Different Infertility Diagnosis compared to NOF.</title>
+          <p>Comparing expression between different groups (<xref ref-type="table" rid="ijms-21-00295-t002">Table 2</xref>), no significant difference was observed in <italic>SIRT1</italic> and <italic>SIRT4</italic> gene expression level among any group. Expression levels of <italic>SIRT2</italic> were statistically higher in EM (<italic>p</italic> = 0.000), PR (<italic>p</italic> = 0.000) and PCOS (<italic>p</italic> = 0.010) patients compared to NOF. However, PR present the higher expression level, statistically different from PCOS (<italic>p</italic> = 0.008), while EM has an intermediary value that did not differ from any other group, <xref ref-type="fig" rid="ijms-21-00295-f003">Figure 3</xref>. <italic>SIRT3</italic>, <italic>SIRT5</italic> and <italic>SIRT7</italic> gene expression was statistically higher in PR than in NOF (<italic>p</italic> = 0.029; <italic>p</italic> = 0.011; <italic>p</italic> = 0.003). PCOS and EM present an intermedia expression value that did not differ from NOF or PR (<xref ref-type="fig" rid="ijms-21-00295-f003">Figure 3</xref>). <italic>SIRT6</italic> expression was statistically higher in PR patients than in all other groups (NOF: <italic>p</italic> = 0.002; EM: <italic>p</italic> = 0.045; PCOS: <italic>p</italic> = 0.008) (<xref ref-type="fig" rid="ijms-21-00295-f003">Figure 3</xref>). </p>
+          <p>When different diagnostic groups were analyzed, we observed that in PR, &#x2265;40 yo and PCOS groups no correlation was found between sirtuin gene expression and gonadotrophin doses. Only in EM patients did <italic>SIRT1</italic>, <italic>SIRT6</italic> and <italic>SIRT7</italic> correlate positively with FSH and LH doses administered. Interestingly, these correlations with <italic>SIRT6</italic> and <italic>SIRT7</italic> were opposite to those found in control OD. </p>
+          <p>With the exception of a negative correlation for <italic>SIRT4</italic> in PCOS patients, no correlations were found between sirtuin expression and number of days of treatment in the analyzed groups.</p>
+          <p>There was a positive correlation between mitochondrial sirtuins and mature oocytes retrieved in PR patients.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-ijms-21-00295" sec-type="discussion">
+      <title>3. Discussion</title>
+      <sec id="sec3dot1-ijms-21-00295">
+        <title>3.1. These Are Novel Findings Regarding the Possible Role of the Sirtuin Gene Family in Reproductive Failure</title>
+        <p>In view of their NAD+ dependence [<xref ref-type="bibr" rid="B51-ijms-21-00295">51</xref>], there may be a role for sirtuins in intrafollicular cell redox balance and antioxidant response.</p>
+        <p>This article reports the expression levels of the seven sirtuin genes presently known in post-ovarian stimulation and human chorionic gonadotrophin treated human hGL cells and establishes correlations among sirtuin gene expression and clinical status: age, clinical diagnosis, specific ovulation induction and response to treatment; <xref ref-type="table" rid="ijms-21-00295-t001">Table 1</xref>. Notably, the average estradiol level in the PR group is relatively elevated. We defined PR based on the Bologna criteria [<xref ref-type="bibr" rid="B52-ijms-21-00295">52</xref>], but excluding the advanced maternal age subjects, which represent a separate group in our study. The stimulation protocol was adjusted to furnish satisfactory serum estradiol levels prior to hCG injection. We used an antagonist protocol with high doses of LH and FSH based on the expected poor response and the high estradiol levels obtained in some patients probably reflect the high dose of LH used for ovulation induction. Interestingly, our group of poor responders does not include patients &gt;40; the patients&#x2019; age range is 28&#x2013;39, which may have positively affected the ability of granulosa cells to produce estrogen. Our results are in agreement with the paper by Ku et al. [<xref ref-type="bibr" rid="B53-ijms-21-00295">53</xref>], which showed higher estradiol levels in patients treated with a combination of FSH and LH. However, Ku el al. used an ultralong protocol, which may be responsible for lower estradiol levels in their patients.</p>
+        <p>IVF patients with no ovarian factor (OD, NOF and &#x2265;40 yo) showed a direct correlation between their hGL cell sirtuin 2, 5 and 7 gene expression and age. This could be a means of maintenance of energy homeostasis, glucose metabolism and reactive oxygen species detoxification, DNA repair and other cell repair mechanism that decrease with age and could result is poor response to ovarian stimulation and compromised oocytes [<xref ref-type="bibr" rid="B54-ijms-21-00295">54</xref>,<xref ref-type="bibr" rid="B55-ijms-21-00295">55</xref>].</p>
+        <p>The positive correlation of <italic>SIRT2</italic> expression levels with age (<italic>p</italic> &lt; 0.01) in women with no ovarian factor shows a pronounced increase at 40 years old, as shown in <xref ref-type="fig" rid="ijms-21-00295-f002">Figure 2</xref> scatter plot. The expression levels of <italic>SIRT2</italic> in the PR and EM groups of patients resemble those of &#x2265;40 yo women, <xref ref-type="table" rid="ijms-21-00295-t002">Table 2</xref>. The higher expression levels of <italic>SIRT2</italic> gene in women older than 40 yo than in the OD and NOF groups supports the hypothesis that <italic>SIRT2</italic> expression increases most notably after forty years [<xref ref-type="bibr" rid="B56-ijms-21-00295">56</xref>,<xref ref-type="bibr" rid="B57-ijms-21-00295">57</xref>,<xref ref-type="bibr" rid="B58-ijms-21-00295">58</xref>], always within the age limits or our study.</p>
+        <p><italic>Summary</italic>&#x2014;Taken together, these findings imply a feedback loop that induces sirtuin 2, 5 and 7 expression with (ovarian) aging and in relation to disease states that foster the presence of reactive oxygen species in or around the ovary. However, these descriptive studies were not designed to test such relationships.</p>
+      </sec>
+      <sec id="sec3dot2-ijms-21-00295">
+        <title>3.2. These Findings Have Implications for Ovarian Aging.</title>
+        <p>Fertility decreases from age 35 and reaches a clinically perilous point in most women by age 40. In our study, <italic>SIRT1</italic> gene expression levels were higher in women older than 40 yo than in OD and NOF patients (<xref ref-type="fig" rid="ijms-21-00295-f001">Figure 1</xref>). These data are in agreement with those of Di Emidio et al. [<xref ref-type="bibr" rid="B30-ijms-21-00295">30</xref>], who reported higher levels of <italic>SIRT1</italic> mRNA in aged mouse oocytes and a decreased ability to react to H<sub>2</sub>O<sub>2</sub> addition as a sign of increased oxidative stress (OS). This coincides well with the increase of <italic>SIRT1</italic> expression in response to age dependent OS. A direct correlation between aging and OS increase has been reported with aging-related decay of fertility [<xref ref-type="bibr" rid="B59-ijms-21-00295">59</xref>], and our laboratory reported an increased expression levels of the oxidative stress response gene ALDH3A2 in granulosa-lutein cells that is related to age and infertility diagnosis [<xref ref-type="bibr" rid="B60-ijms-21-00295">60</xref>,<xref ref-type="bibr" rid="B61-ijms-21-00295">61</xref>].</p>
+        <p><italic>SIRT5</italic> gene expression level is significantly higher in &#x2265;40 yo than in OD and NOF (<italic>p</italic> = 0.045 and <italic>p</italic> = 0.010, respectively). <italic>SIRT5</italic>, localized in the mitochondrial matrix, regulates mitochondrial activity and function [<xref ref-type="bibr" rid="B62-ijms-21-00295">62</xref>] by succinylating [<xref ref-type="bibr" rid="B63-ijms-21-00295">63</xref>] or acetylating proteins such as cytochrome C, which is pivotal in oxidative metabolism and the apoptosis processes [<xref ref-type="bibr" rid="B36-ijms-21-00295">36</xref>]. </p>
+        <p>These studies closely link sirtuins to the aging ovary. The increase in expression of <italic>SIRT5</italic> gene in women older than 40 years old could represent a feedback loop that is related to the presence of oxidative species.</p>
+        <p><italic>Other studies of the sirtuin family and the ovary</italic>&#x2014;There have been other studies of <italic>SIRT5</italic> in human granulosa-lutein cells. Pacella-Ince et al. [<xref ref-type="bibr" rid="B40-ijms-21-00295">40</xref>] reported a lower gene expression level in women of advanced maternal age and reduced ovarian reserve compared to younger women, which is apparently opposite to our results. However, in the article by Pacella-Ince et al., the patients&#x2019; distributions within each age group include no ovarian factor women as well as different infertility diagnoses. Furthermore, the different infertility diagnoses are not represented in all groups and percentages among them are notably variable; as a result, the amount of <italic>SIRT5</italic> gene expression given is not specific for age, but just an average of the combined groups [<xref ref-type="bibr" rid="B40-ijms-21-00295">40</xref>].</p>
+        <p>While convincing of differences in mural hGL cells, these findings do not reveal sirtuin family expression in the cumulus cells that are directly in apposition to the oocyte/embryo. We have shown that there are important biochemical differences between mural and cumulus cells [<xref ref-type="bibr" rid="B64-ijms-21-00295">64</xref>,<xref ref-type="bibr" rid="B65-ijms-21-00295">65</xref>]. Additionally, there have been reports of miRNA differences in poor responders [<xref ref-type="bibr" rid="B66-ijms-21-00295">66</xref>] and other genes&#x2019; expression in cumulus cells from obese women [<xref ref-type="bibr" rid="B67-ijms-21-00295">67</xref>,<xref ref-type="bibr" rid="B68-ijms-21-00295">68</xref>]; the possibility of mural vs. cumulus differences is on the list for further study.</p>
+        <p><italic>Summary&#x2014;</italic>The human ovarian follicle, represented by post-ovulatory luteinized granulosa cells, expresses all known members of the sirtuin family of genes. We have proposed a feedback mechanism related to the presence of inflammation/reactive oxygen species/aging that drives expression of sirtuins as a defensive/protective mechanism. <italic>SIRT6</italic> and <italic>SIRT7</italic> functions include regulation of DNA-repair mechanisms [<xref ref-type="bibr" rid="B43-ijms-21-00295">43</xref>,<xref ref-type="bibr" rid="B44-ijms-21-00295">44</xref>,<xref ref-type="bibr" rid="B50-ijms-21-00295">50</xref>,<xref ref-type="bibr" rid="B69-ijms-21-00295">69</xref>]. The overexpression of <italic>SIRT6</italic> and <italic>SIRT7</italic> in the PR group of patients might be indicative of the role of these sirtuins in an attempt to repair accumulated damage to DNA caused by a deficient response to cellular genotoxic stress [<xref ref-type="bibr" rid="B45-ijms-21-00295">45</xref>,<xref ref-type="bibr" rid="B69-ijms-21-00295">69</xref>]. However, in NOF and &#x2265;40 yo, the expression levels of these sirtuins do not differ from those observed in younger women (OD) (<xref ref-type="table" rid="ijms-21-00295-t002">Table 2</xref>). This suggests that in PR the DNA damage is mainly due to genomic instability and not affected by aging [<xref ref-type="bibr" rid="B54-ijms-21-00295">54</xref>]. In the case of patients suffering from EM or PCOS, the slight increase expression of <italic>SIRT7</italic> gene observed may be an effect of incorrect balance between redox response mechanisms and the higher oxidative stress described for these pathologies.</p>
+        <p>The diverse expression patterns of sirtuins among groups reveals not only a clinical, diagnosis-specific profile, but also an age dependent feature. <xref ref-type="fig" rid="ijms-21-00295-f004">Figure 4</xref> presents a scheme of alterations and proposed compensatory responses by sirtuin expression in aging and in environmental and metabolic circumstances reflecting pathological and physiological conditions.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-ijms-21-00295">
+      <title>4. Materials and Methods </title>
+      <sec id="sec4dot1-ijms-21-00295" sec-type="subjects">
+        <title>4.1. Patients</title>
+        <p>Under a protocol approved by the Ethics Committee of the Universidad de La Laguna, women undergoing ovulation induction for oocyte donation or IVF consented to join this study. Upon reaching the target follicle sizes and receiving 250 &#xB5;g of hCG, the harvesting of oocytes was by standard methods, see below. After removal of the oocyte from the petri dish, the accompanying mural granulosa-lutein cells were set aside for evaluation, see below. Clinical information included the doses of exogenous follicle stimulating hormone (FSH) and luteinizing hormone (LH) administered, and IVF parameters related to ovarian response to ovulation induction (number of total and mature oocytes retrieved, estradiol concentration on the last day of stimulation, and total number of days of stimulation). </p>
+        <sec id="sec4dot1dot1-ijms-21-00295">
+          <title>4.1.1. Study 1: Women with No Ovarian Factor </title>
+          <p>Fifty-six women between 18 and 44 years of age (yo) with no ovarian factor were grouped as: women between 27 and 39 yo with tubal or male factor and no ovarian factor (NOF; <italic>n</italic> = 24); women &#x2265;40 yo with tubal or male factor and no ovarian factor (&#x2265;40 yo; <italic>n</italic> = 15); and oocyte donors between 18 and 27 yo (OD, <italic>n</italic> = 17). </p>
+        </sec>
+        <sec id="sec4dot1dot2-ijms-21-00295">
+          <title>4.1.2. Study 2: Women with Different Infertility Diagnosis Compared to NOF </title>
+          <p>Seventy-four patients were grouped as being between 27 and 39 yo with tubal or male factor and no ovarian factor (NOF; <italic>n</italic> = 24); women &lt;40 yo defined as poor responders according to the European Society of Human Reproduction and Embryology (ESHRE) criteria [<xref ref-type="bibr" rid="B52-ijms-21-00295">52</xref>] (PRs; <italic>n</italic> = 16); women with American Society for Reproductive Medicine (ASRM) [<xref ref-type="bibr" rid="B70-ijms-21-00295">70</xref>] stages III and IV endometriosis, with histologic diagnosis (EM; <italic>n</italic> = 18); polycystic ovarian syndrome (PCOS; <italic>n</italic> = 16) was defined according to the Rotterdam criteria [<xref ref-type="bibr" rid="B71-ijms-21-00295">71</xref>]. Patient demographics and the most relevant clinical characteristics of these sub-groups are shown in <xref ref-type="table" rid="ijms-21-00295-t001">Table 1</xref>.</p>
+        </sec>
+      </sec>
+      <sec id="sec4dot2-ijms-21-00295">
+        <title>4.2. Ovulation Induction and Intracytoplasmic Sperm Injection (ICSI)</title>
+        <p>Ovarian stimulation was carried out with an agonist or antagonist protocol using recombinant FSH (Gonal F, Serono, Madrid, Spain), combined with recombinant LH (Luveris, Serono, Madrid, Spain) or human menopausal gonadotropins (hMG,Lepori; Farma-Lepori, Madrid, Spain or Menopur, Ferring, Madrid, Spain). Initial doses were chosen based on patients&#x2019; age and infertility diagnosis. Ovulation induction was monitored by serial ultrasounds and serum estradiol and progesterone levels. Doses were adjusted to the individual patient&#x2019;s response. Ultrasound-guided egg retrieval was performed 36 h after administration of 250 &#xB5;g of recombinant human chorionic gonadotropin (hCG; Serono, Madrid, Spain) or 10,000 IU of urinary hCG (Farma-Lepori, Madrid, Spain). In all cases, the fertilization method for the mature oocytes retrieved was intracytoplasmic sperm injection. Embryo transfer was carried out with a Wallace catheter under ultrasound guidance. All retrievals were performed by the same experienced operator. </p>
+      </sec>
+      <sec id="sec4dot3-ijms-21-00295">
+        <title>4.3. Isolation of hGL Cells</title>
+        <p>Mural hGL cells were collected from follicular fluid (FF) obtained during ultrasound-guided transvaginal oocyte retrieval. After removal of the oocyte, FFs from each patient were pooled, and the hGL cells lightly centrifuged. Cells were then washed in &#x201C;isolation medium&#x201D; (Medium 199 (Sigma-Aldrich, Missouri, MI, USA), supplemented with sodium bicarbonate (3.7 g/L) (Sigma-Aldrich), penicillin (59 mg/L) (Sigma-Aldrich), streptomycin (100 mg/L) (Sigma-Aldrich), amphotericin B (25 mg/L) (Sigma-Aldrich), L-glutamine (0.29 g/L) (Sigma-Aldrich), and bovine serum albumin (0.1%) (Sigma-Aldrich) and separated from red blood cells using a 50% Percoll (Sigma-Aldrich) gradient. Leukocytes were removed using anti-CD45-coated magnetic beads (Dynabeads M-450 CD45; Dynal ASA, Oslo, Norway) and cellular viability was confirmed by trypan blue exclusion. In all cases, it was greater than 95%.</p>
+      </sec>
+      <sec id="sec4dot4-ijms-21-00295">
+        <title>4.4. Extraction of RNA</title>
+        <p>Total RNA from individual patients was extracted using Aurum total RNA mini kit (Bio-Rad Laboratories, California, CA, USA) following the manufacturer&#x2019;s instructions.</p>
+      </sec>
+      <sec id="sec4dot5-ijms-21-00295">
+        <title>4.5. Synthesis of Complementary DNA</title>
+        <p>RNA was reverse transcribed using &#x201C;iScript cDNA Synthesis kit&#x201D; (Bio-Rad Laboratories) following the manufacturer&#x2019;s instructions. Total RNA was reverse transcribed in 20 &#xB5;L as follows: 25 &#xB0;C for 5 min and 42 &#xB0;C for 30 min. The reverse transcriptase was inactivated by heating at 85 &#xB0;C for 5 min. </p>
+      </sec>
+      <sec id="sec4dot6-ijms-21-00295">
+        <title>4.6. Quantitative Reverse Transcription Polymerase Chain Reaction</title>
+        <p>Quantitative reverse transcription polymerase chain reaction of complementary DNA (PCR) was employed to study the relative expression of sirtuin genes in hGL cells. All PCR was carried out using a BioRad CFX96 real-time PCR system (Bio-Rad Laboratories). The specific primers used for each sirtuin gene and the housekeeping &#x3B2;-actin gene used as a reference for mRNA quantification are listed in <xref ref-type="table" rid="ijms-21-00295-t003">Table 3</xref>. The amplification reactions were performed in a 10 &#xB5;L final volume containing 2&#xD7; SsoFast EvaGreen Supermix (100 mmol/L KCl, 40 mmol/L Tris- HCl pH 8.4, 0.4 mmol/L of each nucleoside triphosphate, iTaq DNA polymerase 50 U/mL, 6 mmol/L MgCl2, SYBR Green I, 20 nmol/L fluorescein, and stabilizers (Bio-Rad Laboratories) and 0.4 &#xB5;mol/L of each primer.</p>
+        <p>Each sample was analyzed in triplicate, and multiple water blanks were included in the analysis. The thermal profile used for the analysis was as follows: after a 3-min denaturation at 95 &#xB0;C, 40 cycles of PCR were performed at 95 &#xB0;C for 5 s and 59 &#xB0;C for 5 s. Finally, a melting curve program at 65 &#xB0;C to 95 &#xB0;C was carried out with a heating rate of 0.1 &#xB0;C/s and read every 0.5 &#xB0;C. Expression levels of the genes studied are presented as individual data points as 2<sup>&#x2212;&#x394;CT</sup> [<xref ref-type="bibr" rid="B72-ijms-21-00295">72</xref>]. Gene expression values are expressed as x105 relative to &#x3B2;-actin expression.</p>
+      </sec>
+      <sec id="sec4dot7-ijms-21-00295">
+        <title>4.7. Statistical Analysis</title>
+        <p>Statistical analysis was performed with SPSS 23 software (IBM, New York, NY, USA). Descriptive statistics (mean and standard error (SE) are reported. One-way ANOVA followed by Tukey and Bonferroni post hoc tests were used to carry out comparisons between diagnostic groups. A Spearman rank correlation coefficient was used to assess the relationship between continuous variables. An experiment-wise &#x3B1; of 0.05 was chosen.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>J.&#xC1;. designed the study; was responsible for interpreting the results and writing the manuscript. A.P. recruited and managed the patients; supervised the clinical activities and was responsible for interpreting the results and writing the manuscript. R.G.-F. performed experimental procedures; analyzed the data and performed the statistical analysis and contributed to writing the manuscript. D.R. performed experimental procedures. R.M.-R. performed experimental procedures; analyzed the data and performed the statistical analysis. J.H. collected clinical data and IVF laboratory samples from patients. P.M.-V. and F.N., contributed to the interpretation of the results and final review of the manuscript. All authors discussed the results and implications of the study. All authors revised, edited and approved the manuscript and revisions.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by Instituto de Salud Carlos III, grant number PI12/00729, by Universidad de La Laguna, grant Proyecto Puente al Plan Estatal 2018, and by a FPI PhD fellowship from the Agencia Canaria de Investigaci&#xF3;n, Innovaci&#xF3;n y Sociedad de la Informaci&#xF3;n (ACIISI) cofounded by the European Social Found, to R.M-R.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors thank the collaboration of the laboratory and paramedical staff of Centro de Asistencia a la Reproducci&#xF3;n Humana de Canarias.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results. </p>
+    </notes>
+    <glossary>
+      <title>Abbreviations</title>
+      <array>
+        <tbody>
+          <tr>
+            <td align="left" valign="middle">Days</td>
+            <td align="left" valign="middle">Total number of days of stimulation</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">FF</td>
+            <td align="left" valign="middle">Follicular fluid</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">FSH</td>
+            <td align="left" valign="middle">Follicle stimulating hormone</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">hCG</td>
+            <td align="left" valign="middle">Human chorionic gonadotropin</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">hGL</td>
+            <td align="left" valign="middle">Human granulosa-lutein cells</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">hMG</td>
+            <td align="left" valign="middle">Human menopausal gonadotropins</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">ICSI</td>
+            <td align="left" valign="middle">Intracytoplasmic sperm injection</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">IVF</td>
+            <td align="left" valign="middle">In vitro fertilization</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">LH</td>
+            <td align="left" valign="middle">Luteinizing hormone</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">OD</td>
+            <td align="left" valign="middle">Oocyte donors</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">NOF</td>
+            <td align="left" valign="middle">Women with no ovarian factor</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">PCOS</td>
+            <td align="left" valign="middle">Polycystic ovarian syndrome</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">Peak E2</td>
+            <td align="left" valign="middle">Estradiol concentration on the last day of stimulation</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">PR</td>
+            <td align="left" valign="middle">Poor responders</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">rFSH</td>
+            <td align="left" valign="middle">Recombinant follicle stimulating hormone</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">rLH</td>
+            <td align="left" valign="middle">Recombinant luteinizing hormone</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">SIRT</td>
+            <td align="left" valign="middle">Sirtuin</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">UI</td>
+            <td align="left" valign="middle">International unit</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">&#x2265;40 yo</td>
+            <td align="left" valign="middle">Women &#x2265;40 years old with tubal or male factor and no ovarian factor</td>
+          </tr>
+        </tbody>
+      </array>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00295">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morris</surname>
+              <given-names>B.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seven sirtuins for seven deadly diseases of aging</article-title>
+          <source>Free Radic. Biol. Med.</source>
+          <year>2013</year>
+          <volume>56</volume>
+          <fpage>133</fpage>
+          <lpage>171</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2012.10.525</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00295">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schemies</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Uciechowska</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Sippl</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>NAD (+) -dependent histone deacetylases (sirtuins) as novel therapeutic targets</article-title>
+          <source>Med. Res. Rev.</source>
+          <year>2010</year>
+          <volume>30</volume>
+          <fpage>861</fpage>
+          <lpage>889</lpage>
+          <pub-id pub-id-type="doi">10.1002/med.20178</pub-id>
+          <pub-id pub-id-type="pmid">19824050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00295">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van de Ven</surname>
+              <given-names>R.A.H.</given-names>
+            </name>
+            <name>
+              <surname>Santos</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Haigis</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial Sirtuins and Molecular Mechanisms of Aging</article-title>
+          <source>Trends Mol. Med.</source>
+          <year>2017</year>
+          <volume>23</volume>
+          <fpage>320</fpage>
+          <lpage>331</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molmed.2017.02.005</pub-id>
+          <pub-id pub-id-type="pmid">28285806</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00295">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roessler</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tuting</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Meleshin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Steegborn</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Schutkowski</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Novel Continuous Assay for the Deacylase Sirtuin 5 and Other Deacetylases</article-title>
+          <source>J. Med. Chem.</source>
+          <year>2015</year>
+          <volume>58</volume>
+          <fpage>7217</fpage>
+          <lpage>7223</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.jmedchem.5b00293</pub-id>
+          <pub-id pub-id-type="pmid">26308971</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00295">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alageel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tomasi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tersigni</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Brietzke</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Zuckerman</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Subramaniapillai</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Iacobucci</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rosenblat</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Mansur</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Evidence supporting a mechanistic role of sirtuins in mood and metabolic disorders</article-title>
+          <source>Prog. Neuropsychopharmacol. Biol. Psychiatry</source>
+          <year>2018</year>
+          <volume>86</volume>
+          <fpage>95</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.pnpbp.2018.05.017</pub-id>
+          <pub-id pub-id-type="pmid">29802856</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00295">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mei</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tao</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirtuins in metabolism, DNA repair and cancer</article-title>
+          <source>J. Exp. Clin. Cancer Res.</source>
+          <year>2016</year>
+          <volume>35</volume>
+          <fpage>182</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13046-016-0461-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00295">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parodi-Rullan</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Chapa-Dubocq</surname>
+              <given-names>X.R.</given-names>
+            </name>
+            <name>
+              <surname>Javadov</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Acetylation of Mitochondrial Proteins in the Heart: The Role of SIRT3</article-title>
+          <source>Front. Physiol.</source>
+          <year>2018</year>
+          <volume>9</volume>
+          <fpage>1094</fpage>
+          <pub-id pub-id-type="doi">10.3389/fphys.2018.01094</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00295">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pinho</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Mawson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gill</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Arshi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Warmerdam</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Giry-Laterriere</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Eling</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Lie</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kuster</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Camargo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sirtuin 1 stimulates the proliferation and the expression of glycolysis genes in pancreatic neoplastic lesions</article-title>
+          <source>Oncotarget</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>74768</fpage>
+          <lpage>74778</lpage>
+          <pub-id pub-id-type="doi">10.18632/oncotarget.11013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00295">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Michishita</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Burneskis</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Barrett</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Horikawa</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolutionarily conserved and nonconserved cellular localizations and functions of human SIRT proteins</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2005</year>
+          <volume>16</volume>
+          <fpage>4623</fpage>
+          <lpage>4635</lpage>
+          <pub-id pub-id-type="doi">10.1091/mbc.e05-01-0033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00295">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanno</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sakamoto</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Miura</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shimamoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Horio</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nucleocytoplasmic shuttling of the NAD+-dependent histone deacetylase SIRT1</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2007</year>
+          <volume>282</volume>
+          <fpage>6823</fpage>
+          <lpage>6832</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M609554200</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00295">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yeung</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hoberg</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Ramsey</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Keller</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Frye</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Mayo</surname>
+              <given-names>M.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modulation of NF-kappaB-dependent transcription and cell survival by the SIRT1 deacetylase</article-title>
+          <source>EMBO J.</source>
+          <year>2004</year>
+          <volume>23</volume>
+          <fpage>2369</fpage>
+          <lpage>2380</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.emboj.7600244</pub-id>
+          <pub-id pub-id-type="pmid">15152190</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00295">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Lowry</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Guarente</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Haimovich</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Roles of SIRT1 in the acute and restorative phases following induction of inflammation</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>41391</fpage>
+          <lpage>41401</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.174482</pub-id>
+          <pub-id pub-id-type="pmid">20966076</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00295">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tran</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bergholz</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Kirkland</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>Z.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Insulin-like growth factor-1 regulates the SIRT1-p53 pathway in cellular senescence</article-title>
+          <source>Aging Cell</source>
+          <year>2014</year>
+          <volume>13</volume>
+          <fpage>669</fpage>
+          <lpage>678</lpage>
+          <pub-id pub-id-type="doi">10.1111/acel.12219</pub-id>
+          <pub-id pub-id-type="pmid">25070626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00295">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vaziri</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Dessain</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>E.E.</given-names>
+            </name>
+            <name>
+              <surname>Imai</surname>
+              <given-names>S.I.</given-names>
+            </name>
+            <name>
+              <surname>Frye</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Pandita</surname>
+              <given-names>T.K.</given-names>
+            </name>
+            <name>
+              <surname>Guarente</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Weinberg</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>hSIR2 (SIRT1) functions as an NAD-dependent p53 deacetylase</article-title>
+          <source>Cell</source>
+          <year>2001</year>
+          <volume>107</volume>
+          <fpage>149</fpage>
+          <lpage>159</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(01)00527-X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00295">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Picard</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kurtev</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Topark-Ngarm</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Senawong</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>De Machado</surname>
+              <given-names>O.R.</given-names>
+            </name>
+            <name>
+              <surname>Leid</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>McBurney</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Guarente</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirt1 promotes fat mobilization in white adipocytes by repressing PPAR-gamma</article-title>
+          <source>Nature</source>
+          <year>2004</year>
+          <volume>429</volume>
+          <fpage>771</fpage>
+          <lpage>776</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature02583</pub-id>
+          <pub-id pub-id-type="pmid">15175761</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijms-21-00295">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burnett</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Valentini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cabreiro</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Goss</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Somogyvari</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Piper</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Hoddinott</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sutphin</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Leko</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>McElwee</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Absence of effects of Sir2 overexpression on lifespan in C. elegans and Drosophila</article-title>
+          <source>Nature</source>
+          <year>2011</year>
+          <volume>477</volume>
+          <fpage>482</fpage>
+          <lpage>485</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature10296</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijms-21-00295">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wada-Hiraike</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Hirano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kawamura</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sakurabashi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shirane</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Morita</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Isono</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Oishi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Koga</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SIRT3 positively regulates the expression of folliculogenesis- and luteinization-related genes and progesterone secretion by manipulating oxidative stress in human luteinized granulosa cells</article-title>
+          <source>Endocrinology</source>
+          <year>2014</year>
+          <volume>155</volume>
+          <fpage>3079</fpage>
+          <lpage>3087</lpage>
+          <pub-id pub-id-type="doi">10.1210/en.2014-1025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijms-21-00295">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Roles of SIRT1 in granulosa cell apoptosis during the process of follicular atresia in porcine ovary</article-title>
+          <source>Anim. Reprod. Sci.</source>
+          <year>2014</year>
+          <volume>151</volume>
+          <fpage>34</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.anireprosci.2014.10.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijms-21-00295">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>X.H.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>Y.C.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>L.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapamycin preserves the follicle pool reserve and prolongs the ovarian lifespan of female rats via modulating mTOR activation and sirtuin expression</article-title>
+          <source>Gene</source>
+          <year>2013</year>
+          <volume>523</volume>
+          <fpage>82</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.gene.2013.03.039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijms-21-00295">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>W.W.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>W.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirtuins 1 and 2 Are Universal Histone Deacetylases</article-title>
+          <source>ACS Chem. Biol.</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <fpage>792</fpage>
+          <lpage>799</lpage>
+          <pub-id pub-id-type="doi">10.1021/acschembio.5b00886</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijms-21-00295">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skoge</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Dolle</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ziegler</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of SIRT2-dependent alpha-tubulin deacetylation by cellular NAD levels</article-title>
+          <source>DNA Repair</source>
+          <year>2014</year>
+          <volume>23</volume>
+          <fpage>33</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.dnarep.2014.04.011</pub-id>
+          <pub-id pub-id-type="pmid">24814981</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijms-21-00295">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoffmann</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Breitenbucher</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Schuler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ehrenhofer-Murray</surname>
+              <given-names>A.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel sirtuin 2 (SIRT2) inhibitor with p53-dependent pro-apoptotic activity in non-small cell lung cancer</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2014</year>
+          <volume>289</volume>
+          <fpage>5208</fpage>
+          <lpage>5216</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M113.487736</pub-id>
+          <pub-id pub-id-type="pmid">24379401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijms-21-00295">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>F.X.</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>SIRT2 deacetylates FOXO3a in response to oxidative stress and caloric restriction</article-title>
+          <source>Aging Cell</source>
+          <year>2007</year>
+          <volume>6</volume>
+          <fpage>505</fpage>
+          <lpage>514</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1474-9726.2007.00304.x</pub-id>
+          <pub-id pub-id-type="pmid">17521387</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijms-21-00295">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>H.K.</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Deacetylation of FOXO3 by SIRT1 or SIRT2 leads to Skp2-mediated FOXO3 ubiquitination and degradation</article-title>
+          <source>Oncogene</source>
+          <year>2012</year>
+          <volume>31</volume>
+          <fpage>1546</fpage>
+          <lpage>1557</lpage>
+          <pub-id pub-id-type="doi">10.1038/onc.2011.347</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijms-21-00295">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahn</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>I.H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Vassilopoulos</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>C.X.</given-names>
+            </name>
+            <name>
+              <surname>Finkel</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>A role for the mitochondrial deacetylase Sirt3 in regulating energy homeostasis</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>14447</fpage>
+          <lpage>14452</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0803790105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijms-21-00295">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rardin</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Newman</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Held</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Cusack</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Sorensen</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Schilling</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mooney</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Kahn</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Verdin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Label-free quantitative proteomics of the lysine acetylome in mitochondria identifies substrates of SIRT3 in metabolic pathways</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2013</year>
+          <volume>110</volume>
+          <fpage>6601</fpage>
+          <lpage>6606</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1302961110</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijms-21-00295">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alhazzazi</surname>
+              <given-names>T.Y.</given-names>
+            </name>
+            <name>
+              <surname>Kamarajan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ai</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Verdin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kapila</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Novel Sirtuin-3 Inhibitor, LC-0296, Inhibits Cell Survival and Proliferation, and Promotes Apoptosis of Head and Neck Cancer Cells</article-title>
+          <source>Anticancer Res.</source>
+          <year>2016</year>
+          <volume>36</volume>
+          <fpage>49</fpage>
+          <lpage>60</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B28-ijms-21-00295">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tumour suppressor SIRT3 deacetylates and activates manganese superoxide dismutase to scavenge ROS</article-title>
+          <source>EMBO Rep.</source>
+          <year>2011</year>
+          <volume>12</volume>
+          <fpage>534</fpage>
+          <lpage>541</lpage>
+          <pub-id pub-id-type="doi">10.1038/embor.2011.65</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-ijms-21-00295">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McDonnell</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Bomze</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Hirschey</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>SIRT3 regulates progression and development of diseases of aging</article-title>
+          <source>Trends Endocrinol. Metab.</source>
+          <year>2015</year>
+          <volume>26</volume>
+          <fpage>486</fpage>
+          <lpage>492</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tem.2015.06.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-ijms-21-00295">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Di</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Falone</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Vitti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Alessandro</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Vento</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Di</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Amicarelli</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tatone</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>SIRT1 signalling protects mouse oocytes against oxidative stress and is deregulated during aging</article-title>
+          <source>Hum. Reprod.</source>
+          <year>2014</year>
+          <volume>29</volume>
+          <fpage>2006</fpage>
+          <lpage>2017</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B31-ijms-21-00295">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Keefe</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Resveratrol protects against age-associated infertility in mice</article-title>
+          <source>Hum. Reprod.</source>
+          <year>2013</year>
+          <volume>28</volume>
+          <fpage>707</fpage>
+          <lpage>717</lpage>
+          <pub-id pub-id-type="doi">10.1093/humrep/des437</pub-id>
+          <pub-id pub-id-type="pmid">23293221</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-ijms-21-00295">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pacella-Inc</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zander-Fox</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Lan</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial SIRT3 and its target glutamate dehydrogenase are altered in follicular cells of women with reduced ovarian reserve or advanced maternal age</article-title>
+          <source>Hum. Reprod.</source>
+          <year>2014</year>
+          <volume>29</volume>
+          <fpage>1490</fpage>
+          <lpage>1499</lpage>
+          <pub-id pub-id-type="doi">10.1093/humrep/deu071</pub-id>
+          <pub-id pub-id-type="pmid">24771001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijms-21-00295">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laurent</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>German</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Saha</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>de Boer</surname>
+              <given-names>V.C.</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Koves</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Dephoure</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Boanca</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Vaitheesvaran</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SIRT4 coordinates the balance between lipid synthesis and catabolism by repressing malonyl CoA decarboxylase</article-title>
+          <source>Mol. Cell</source>
+          <year>2013</year>
+          <volume>50</volume>
+          <fpage>686</fpage>
+          <lpage>698</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2013.05.012</pub-id>
+          <pub-id pub-id-type="pmid">23746352</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-ijms-21-00295">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nasrin</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Fortier</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Bare</surname>
+              <given-names>O.C.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Streeper</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Bordone</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>SIRT4 regulates fatty acid oxidation mitochondrial gene expression in liver muscle cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2010</year>
+          <volume>285</volume>
+          <fpage>31995</fpage>
+          <lpage>32002</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.124164</pub-id>
+          <pub-id pub-id-type="pmid">20685656</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-ijms-21-00295">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haigis</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Mostoslavsky</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Haigis</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Fahie</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Christodoulou</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Valenzuela</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Yancopoulos</surname>
+              <given-names>G.D.</given-names>
+            </name>
+            <name>
+              <surname>Karow</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Blander</surname>
+              <given-names>G.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SIRT4 inhibits glutamate dehydrogenase and opposes the effects of calorie restriction in pancreatic beta cells</article-title>
+          <source>Cell</source>
+          <year>2006</year>
+          <volume>126</volume>
+          <fpage>941</fpage>
+          <lpage>954</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2006.06.057</pub-id>
+          <pub-id pub-id-type="pmid">16959573</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-ijms-21-00295">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schlicker</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gertz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Papatheodorou</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kachholz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Steegborn</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Substrates and regulation mechanisms for the human mitochondrial sirtuins Sirt3 and Sirt5</article-title>
+          <source>J. Mol. Biol.</source>
+          <year>2008</year>
+          <volume>382</volume>
+          <fpage>790</fpage>
+          <lpage>801</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jmb.2008.07.048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-ijms-21-00295">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gertz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Steegborn</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Function and regulation of the mitochondrial sirtuin isoform Sirt5 in Mammalia</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2010</year>
+          <volume>1804</volume>
+          <fpage>1658</fpage>
+          <lpage>1665</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbapap.2009.09.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-ijms-21-00295">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Guarente</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Urea cycle regulation by mitochondrial sirtuin, SIRT5</article-title>
+          <source>Aging</source>
+          <year>2009</year>
+          <volume>1</volume>
+          <fpage>578</fpage>
+          <lpage>581</lpage>
+          <pub-id pub-id-type="doi">10.18632/aging.100062</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-ijms-21-00295">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SIRT5 promotes IDH2 desuccinylation and G6PD deglutarylation to enhance cellular antioxidant defense</article-title>
+          <source>EMBO Rep.</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>811</fpage>
+          <lpage>822</lpage>
+          <pub-id pub-id-type="doi">10.15252/embr.201541643</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-ijms-21-00295">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pacella-Inc</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zander-Fox</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Lane</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial SIRT5 is present in follicular cells and is altered by reduced ovarian reserve and advanced maternal age</article-title>
+          <source>Reprod. Fertil. Dev.</source>
+          <year>2014</year>
+          <volume>26</volume>
+          <fpage>1072</fpage>
+          <lpage>1083</lpage>
+          <pub-id pub-id-type="doi">10.1071/RD13178</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-ijms-21-00295">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cea</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cagnetta</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Adamia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Acharya</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tai</surname>
+              <given-names>Y.T.</given-names>
+            </name>
+            <name>
+              <surname>Fulciniti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ohguchi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Munshi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Acharya</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bhasin</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Evidence for a role of the histone deacetylase SIRT6 in DNA damage response of multiple myeloma cells</article-title>
+          <source>Blood</source>
+          <year>2016</year>
+          <volume>127</volume>
+          <fpage>1138</fpage>
+          <lpage>1150</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2015-06-649970</pub-id>
+          <pub-id pub-id-type="pmid">26675349</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-ijms-21-00295">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawahara</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Rapicavoli</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Quake</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic chromatin localization of Sirt6 shapes stress- and aging-related transcriptional networks</article-title>
+          <source>PLoS Genet.</source>
+          <year>2011</year>
+          <volume>7</volume>
+          <elocation-id>e1002153</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1002153</pub-id>
+          <pub-id pub-id-type="pmid">21738489</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-ijms-21-00295">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCord</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Michishita</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Berber</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Boxer</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Kusumoto</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Gozani</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Burlingame</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SIRT6 stabilizes DNA-dependent protein kinase at chromatin for DNA double-strand break repair</article-title>
+          <source>Aging</source>
+          <year>2009</year>
+          <volume>1</volume>
+          <fpage>109</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.18632/aging.100011</pub-id>
+          <pub-id pub-id-type="pmid">20157594</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-ijms-21-00295">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagai</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Matsushita</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Matsuzaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Takayama</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Matsumoto</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kuroda</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kurosaka</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Depletion of SIRT6 causes cellular senescence, DNA damage, and telomere dysfunction in human chondrocytes</article-title>
+          <source>Osteoarthr. Cartil.</source>
+          <year>2015</year>
+          <volume>23</volume>
+          <fpage>1412</fpage>
+          <lpage>1420</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.joca.2015.03.024</pub-id>
+          <pub-id pub-id-type="pmid">25819580</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-ijms-21-00295">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kanfi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Naiman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Amir</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Peshti</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Zinman</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Nahum</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bar-Joseph</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>The sirtuin SIRT6 regulates lifespan in male mice</article-title>
+          <source>Nature</source>
+          <year>2012</year>
+          <volume>483</volume>
+          <fpage>218</fpage>
+          <lpage>221</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature10815</pub-id>
+          <pub-id pub-id-type="pmid">22367546</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-ijms-21-00295">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ford</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Voit</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Liszt</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Magin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Grummt</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Guarente</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mammalian Sir2 homolog SIRT7 is an activator of RNA polymerase I transcription</article-title>
+          <source>Genes Dev.</source>
+          <year>2006</year>
+          <volume>20</volume>
+          <fpage>1075</fpage>
+          <lpage>1080</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.1399706</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-ijms-21-00295">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grob</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Roussel</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>McStay</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hernandez-Verdun</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sirri</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of SIRT7 in resumption of rDNA transcription at the exit from mitosis</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2009</year>
+          <volume>122</volume>
+          <fpage>489</fpage>
+          <lpage>498</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.042382</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-ijms-21-00295">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Percipalle</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Fomproix</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Cavellan</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Voit</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Reimer</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kruger</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Thyberg</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Scheer</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Grummt</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Farrants</surname>
+              <given-names>A.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The chromatin remodelling complex WSTF-SNF2h interacts with nuclear myosin 1 and has a role in RNA polymerase I transcription</article-title>
+          <source>EMBO Rep.</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>525</fpage>
+          <lpage>530</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.embor.7400657</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-ijms-21-00295">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hubbi</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kshitiz Gilkes</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Semenza</surname>
+              <given-names>G.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirtuin-7 inhibits the activity of hypoxia-inducible factors</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2013</year>
+          <volume>288</volume>
+          <fpage>20768</fpage>
+          <lpage>20775</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M113.476903</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-ijms-21-00295">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kiran</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Oddi</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Ramakrishna</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirtuin 7 promotes cellular survival following genomic stress by attenuation of DNA damage, SAPK activation and p53 response</article-title>
+          <source>Exp. Cell Res.</source>
+          <year>2015</year>
+          <volume>331</volume>
+          <fpage>123</fpage>
+          <lpage>141</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.yexcr.2014.11.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-ijms-21-00295">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Paredes</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Villanova</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Nabavi</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Mohrin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wojnoonski</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SIRT7 represses Myc activity to suppress ER stress and prevent fatty liver disease</article-title>
+          <source>Cell Rep.</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>654</fpage>
+          <lpage>665</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2013.10.007</pub-id>
+          <pub-id pub-id-type="pmid">24210820</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-ijms-21-00295">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferraretti</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>La</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Fauser</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Tarlatzis</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Nargund</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Gianaroli</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>ESHRE consensus on the definition of &#x2018;poor response&#x2019; to ovarian stimulation for in vitro fertilization: The Bologna criteria</article-title>
+          <source>Hum. Reprod.</source>
+          <year>2011</year>
+          <volume>26</volume>
+          <fpage>1616</fpage>
+          <lpage>1624</lpage>
+          <pub-id pub-id-type="doi">10.1093/humrep/der092</pub-id>
+          <pub-id pub-id-type="pmid">21505041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-ijms-21-00295">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ku</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Suh</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Moon</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A pilot study of the use of low dose human menopausal gonadotropin in ovulation induction</article-title>
+          <source>Eur. J. Obstet. Gynecol. Reprod. Biol.</source>
+          <year>2003</year>
+          <volume>109</volume>
+          <fpage>55</fpage>
+          <lpage>59</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0301-2115(02)00476-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-ijms-21-00295">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lopez-Otin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Blasco</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Partridge</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Serrano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kroemer</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The hallmarks of aging</article-title>
+          <source>Cell</source>
+          <year>2013</year>
+          <volume>153</volume>
+          <fpage>1194</fpage>
+          <lpage>1217</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2013.05.039</pub-id>
+          <pub-id pub-id-type="pmid">23746838</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-ijms-21-00295">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vijg</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kennedy</surname>
+              <given-names>B.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Essence of Aging</article-title>
+          <source>Gerontology</source>
+          <year>2016</year>
+          <volume>62</volume>
+          <fpage>381</fpage>
+          <lpage>385</lpage>
+          <pub-id pub-id-type="doi">10.1159/000439348</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-ijms-21-00295">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qiu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirt2-BubR1 acetylation pathway mediates the effects of advanced maternal age on oocyte quality</article-title>
+          <source>Aging Cell</source>
+          <year>2018</year>
+          <volume>17</volume>
+          <fpage>10</fpage>
+          <pub-id pub-id-type="doi">10.1111/acel.12698</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-ijms-21-00295">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tatone</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Di</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Barbonetti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Carta</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Luciano</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Falone</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Amicarelli</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirtuins in gamete biology and reproductive physiology: Emerging roles and therapeutic potential in female and male infertility</article-title>
+          <source>Hum. Reprod. Update</source>
+          <year>2018</year>
+          <volume>24</volume>
+          <fpage>267</fpage>
+          <lpage>289</lpage>
+          <pub-id pub-id-type="doi">10.1093/humupd/dmy003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-ijms-21-00295">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Moley</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Schedl</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirt2 functions in spindle organization and chromosome alignment in mouse oocyte meiosis</article-title>
+          <source>FASEB J.</source>
+          <year>2014</year>
+          <volume>28</volume>
+          <fpage>1435</fpage>
+          <lpage>1445</lpage>
+          <pub-id pub-id-type="doi">10.1096/fj.13-244111</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-ijms-21-00295">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tatone</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Di</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Vitti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Di</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Santini</surname>
+              <given-names>S.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <name>
+              <surname>D&#x2019;Alessandro</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Falone</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Amicarelli</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirtuin Functions in Female Fertility: Possible Role in Oxidative Stress and Aging</article-title>
+          <source>Oxid. Med. Cell Longev.</source>
+          <year>2015</year>
+          <pub-id pub-id-type="doi">10.1155/2015/659687</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-ijms-21-00295">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Avila</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gonzalez-Fernandez</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rotoli</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Hernandez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Palumbo</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidative Stress in Granulosa-Lutein Cells From In Vitro Fertilization Patients</article-title>
+          <source>Reprod. Sci.</source>
+          <year>2016</year>
+          <volume>23</volume>
+          <fpage>1656</fpage>
+          <lpage>1661</lpage>
+          <pub-id pub-id-type="doi">10.1177/1933719116674077</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-ijms-21-00295">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gonzalez-Fernandez</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hernandez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Martin-Vasallo</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Puopolo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Palumbo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Avila</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression Levels of the Oxidative Stress Response Gene ALDH3A2 in Granulosa-Lutein Cells Are Related to Female Age and Infertility Diagnosis</article-title>
+          <source>Reprod. Sci.</source>
+          <year>2016</year>
+          <volume>23</volume>
+          <fpage>604</fpage>
+          <lpage>609</lpage>
+          <pub-id pub-id-type="doi">10.1177/1933719115607996</pub-id>
+          <pub-id pub-id-type="pmid">26449735</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-ijms-21-00295">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guedouari</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Daigle</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Scorrano</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hebert-Chatelain</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirtuin 5 protects mitochondria from fragmentation and degradation during starvation</article-title>
+          <source>Biochim. Biophys. Acta Mol. Cell Res.</source>
+          <year>2017</year>
+          <volume>1864</volume>
+          <fpage>169</fpage>
+          <lpage>176</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbamcr.2016.10.015</pub-id>
+          <pub-id pub-id-type="pmid">28340937</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63-ijms-21-00295">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Park</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tishkoff</surname>
+              <given-names>D.X.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zwaans</surname>
+              <given-names>B.M.</given-names>
+            </name>
+            <name>
+              <surname>Skinner</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SIRT5-mediated lysine desuccinylation impacts diverse metabolic pathways</article-title>
+          <source>Mol. Cell</source>
+          <year>2013</year>
+          <volume>50</volume>
+          <fpage>919</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2013.06.001</pub-id>
+          <pub-id pub-id-type="pmid">23806337</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B64-ijms-21-00295">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Acosta</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Pe&#xF1;a</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Naftolin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Avila</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Palumbo</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Angiotensin II induces apoptosis in human mural granulosa-lutein cells, but not in cumulus cells</article-title>
+          <source>Fertil. Steril.</source>
+          <year>2009</year>
+          <volume>91</volume>
+          <fpage>1984</fpage>
+          <lpage>1989</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fertnstert.2008.04.026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B65-ijms-21-00295">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pe&#xF1;a</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Palumbo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gonz&#xE1;lez-Fern&#xE1;ndez</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hern&#xE1;ndez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Naftolin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Avila</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of angiotensin II type 1 (AT1) and angiotensin II type 2 (AT2) receptors in human granulosa-lutein (GL) cells: Correlation with infertility diagnoses</article-title>
+          <source>Fertil. Steril.</source>
+          <year>2010</year>
+          <volume>93</volume>
+          <fpage>1601</fpage>
+          <lpage>1608</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fertnstert.2009.03.092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B66-ijms-21-00295">
+        <label>66.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karakaya</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Guzeloglu-Kayisli</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Uyar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kallen</surname>
+              <given-names>A.N.</given-names>
+            </name>
+            <name>
+              <surname>Babayev</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Bozkurt</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Unsal</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Karabacak</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Seli</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poor ovarian response in women undergoing in vitro fertilization is associated with altered microRNA expression in cumulus cells</article-title>
+          <source>Fertil. Steril.</source>
+          <year>2015</year>
+          <volume>103</volume>
+          <fpage>1469</fpage>
+          <lpage>1476</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fertnstert.2015.02.035</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B67-ijms-21-00295">
+        <label>67.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burnik Papler</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Vrta&#x10D;nik Bokal</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Prosenc Zmrzljak</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Stimpfel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lagan&#xE0;</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Ghezzi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Jan&#x10D;ar</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>PGR and PTX3 gene expression in cumulus cells from obese and normal weighting women after administration of long-acting recombinant follicle-stimulating hormone for controlled ovarian stimulation</article-title>
+          <source>Arch. Gynecol. Obstet.</source>
+          <year>2019</year>
+          <volume>299</volume>
+          <fpage>863</fpage>
+          <lpage>871</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00404-018-5031-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B68-ijms-21-00295">
+        <label>68.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Snider</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Wood</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Obesity Induces Ovarian Inflammation and Reduces Oocyte Quality</article-title>
+          <source>Reproduction</source>
+          <year>2019</year>
+          <volume>158</volume>
+          <fpage>R79</fpage>
+          <lpage>R90</lpage>
+          <pub-id pub-id-type="doi">10.1530/REP-18-0583</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B69-ijms-21-00295">
+        <label>69.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vazquez</surname>
+              <given-names>B.N.</given-names>
+            </name>
+            <name>
+              <surname>Thackray</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Serrano</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sirtuins and DNA damage repair: SIRT7 comes to play</article-title>
+          <source>Nucleus</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <fpage>107</fpage>
+          <lpage>115</lpage>
+          <pub-id pub-id-type="doi">10.1080/19491034.2016.1264552</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B70-ijms-21-00295">
+        <label>70.</label>
+        <element-citation publication-type="journal">
+          <article-title>Revised American Society for Reproductive Medicine classification of endometriosis</article-title>
+          <source>Fertil. Steril.</source>
+          <year>1997</year>
+          <volume>67</volume>
+          <fpage>817</fpage>
+          <lpage>821</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0015-0282(97)81391-X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B71-ijms-21-00295">
+        <label>71.</label>
+        <element-citation publication-type="journal">
+          <article-title>Revised 2003 consensus on diagnostic criteria and long-term health risks related to polycystic ovary syndrome (PCOS)</article-title>
+          <source>Hum. Reprod.</source>
+          <year>2004</year>
+          <volume>19</volume>
+          <fpage>41</fpage>
+          <lpage>47</lpage>
+          <pub-id pub-id-type="doi">10.1093/humrep/deh098</pub-id>
+          <pub-id pub-id-type="pmid">14688154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B72-ijms-21-00295">
+        <label>72.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmittgen</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Livak</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analyzing real-time PCR data by the comparative C (T) method</article-title>
+          <source>Nat. Protoc.</source>
+          <year>2008</year>
+          <volume>3</volume>
+          <fpage>1101</fpage>
+          <lpage>1108</lpage>
+          <pub-id pub-id-type="doi">10.1038/nprot.2008.73</pub-id>
+          <pub-id pub-id-type="pmid">18546601</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="ijms-21-00295-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Histogram representation of expression levels of sirtuin genes in OD, NOF and &gt;40 groups. Statistically significant different means (optical densities) compared to the control group are marked by an asterisk (*).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00295-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00295-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Graphic representation of correlation between <italic>SIRT2</italic>, <italic>SIRT5</italic> and <italic>SIRT7</italic> and age.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00295-g002.tif"/>
+      </fig>
+      <fig id="ijms-21-00295-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Histogram representation of expression levels of sirtuin-1&#x2013;7 gene expression in NOF, EM, PR and PCOS groups. Statistically significant different means with respect to the NOF group are marked by an asterisk (*).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00295-g003.tif"/>
+      </fig>
+      <fig id="ijms-21-00295-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Scheme of alterations in NOF and PR groups and possible sirtuins&#x2019; roles. According to our studies, NOF women between 18 to 38 years old may avoid OS damage by OSR, triggering a normal signaling response and maintaining an equilibrated OS/OSR status (<bold>A</bold>). It is possible that this equilibrium favors OS during pre-menopausal aging (<bold>B</bold>). In that case, OSR are not sufficient to protect cells from OS actions and <italic>SIRT1</italic>, <italic>SIRT2</italic> and <italic>SIRT5</italic> gene expression increase would be required to recover homeostasis. Failing this response, women poor responders show a different sirtuin pattern (<bold>C</bold>). In this group, women between 25 to 38 years old have an imbalance between OS and OSR similar to older NOF women. Cellular attempts to reach homeostasis by increasing <italic>SIRT1</italic>, <italic>SIRT2</italic> and <italic>SIRT5</italic> gene expression are insufficient and it is necessary activate protein, lipid and DNA repair mechanisms and others sirtuins&#x2019; expression. Despite the fact that <italic>SIRT6</italic> and <italic>SIRT7</italic> gene expression increase, cells cannot response to signaling and homeostasis cannot be recovered, leading to a clinically poor response to follicle stimulation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00295-g004.tif"/>
+      </fig>
+      <table-wrap id="ijms-21-00295-t001" position="float">
+        <object-id pub-id-type="pii">ijms-21-00295-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Clinical and IVF cycle parameters are shown per group.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Parameters</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">OD</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x2265;40 yo</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">NOF</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">EM</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">PR</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">PCOS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">N of patients</td>
+              <td align="center" valign="middle">17</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">24</td>
+              <td align="center" valign="middle">18</td>
+              <td align="center" valign="middle">16</td>
+              <td align="center" valign="middle">16</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Age</td>
+              <td align="center" valign="middle">22 &#xB1; 1 <sup>a</sup></td>
+              <td align="center" valign="middle">41 &#xB1; 1 <sup>b</sup></td>
+              <td align="center" valign="middle">34 &#xB1; 1 <sup>c</sup></td>
+              <td align="center" valign="middle">36 &#xB1; 1 <sup>c</sup></td>
+              <td align="center" valign="middle">36 &#xB1; 1 <sup>c</sup></td>
+              <td align="center" valign="middle">33 &#xB1; 1 <sup>c</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Days</td>
+              <td align="center" valign="middle">11 &#xB1; 1 <sup>a</sup></td>
+              <td align="center" valign="middle">11 &#xB1; 1 <sup>a</sup></td>
+              <td align="center" valign="middle">11 &#xB1; 1 <sup>a</sup></td>
+              <td align="center" valign="middle">11 &#xB1; 1 <sup>a</sup></td>
+              <td align="center" valign="middle">11 &#xB1; 1 <sup>a</sup></td>
+              <td align="center" valign="middle">10 &#xB1; 1 <sup>a</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">rFSH (IU)</td>
+              <td align="center" valign="middle">2812 &#xB1; 255 <sup>a</sup></td>
+              <td align="center" valign="middle">5750 &#xB1; 560 <sup>b</sup></td>
+              <td align="center" valign="middle">3199 &#xB1; 391 <sup>a</sup></td>
+              <td align="center" valign="middle">5622 &#xB1; 442 <sup>b</sup></td>
+              <td align="center" valign="middle">6154 &#xB1; 397 <sup>b</sup></td>
+              <td align="center" valign="middle">1723 &#xB1; 143 <sup>a</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">rLH (IU)</td>
+              <td align="center" valign="middle">1081 &#xB1; 161 <sup>a</sup></td>
+              <td align="center" valign="middle">2645 &#xB1; 335 <sup>b</sup></td>
+              <td align="center" valign="middle">1115 &#xB1; 13 <sup>a</sup></td>
+              <td align="center" valign="middle">2606 &#xB1; 263 <sup>b</sup></td>
+              <td align="center" valign="middle">2981 &#xB1; 274 <sup>b</sup></td>
+              <td align="center" valign="middle">430 &#xB1; 70 <sup>a</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Peak E2 (pg/mL)</td>
+              <td align="center" valign="middle">3171 &#xB1; 307 <sup>a</sup></td>
+              <td align="center" valign="middle">2797 &#xB1; 188 <sup>a</sup></td>
+              <td align="center" valign="middle">3054 &#xB1; 230 <sup>a</sup></td>
+              <td align="center" valign="middle">2763 &#xB1; 298 <sup>a</sup></td>
+              <td align="center" valign="middle">2032 &#xB1; 214 <sup>a</sup></td>
+              <td align="center" valign="middle">2901 &#xB1; 321 <sup>a</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Total oocytes</td>
+              <td align="center" valign="middle">25 &#xB1; 2 <sup>a</sup></td>
+              <td align="center" valign="middle">13 &#xB1; 2 <sup>c/d</sup></td>
+              <td align="center" valign="middle">17 &#xB1; 2 <sup>b/c</sup></td>
+              <td align="center" valign="middle">9 &#xB1; 1 <sup>c/d</sup></td>
+              <td align="center" valign="middle">6 &#xB1; 1 <sup>d</sup></td>
+              <td align="center" valign="middle">21 &#xB1; 2 <sup>a/b</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mature oocytes</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20 &#xB1; 2 <sup>a</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11 &#xB1; 2 <sup>c/d</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13 &#xB1; 1 <sup>b/c</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8 &#xB1; 1 <sup>c/d</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5 &#xB1; 1 <sup>d</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18 &#xB1; 2 <sup>a/b</sup></td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Results are expressed as mean &#xB1; standard error. Different lowercase letters (a, b, c and d) represent statistically significant different means. OD (oocyte donors between 18 and 27 yo), &#x2265;40 yo (women &#x2265;40 yo with tubal or male factor and no ovarian factor), NOF (women between 27 and 39 yo with tubal or male factor and no ovarian factor), EM (endometriosis), PR (women &lt; 40 yo defined as poor responders) and PCOS (polycystic ovarian syndrome).</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="ijms-21-00295-t002" position="float">
+        <object-id pub-id-type="pii">ijms-21-00295-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Expression levels of sirtuin-1&#x2013;7 genes by diagnostic group.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Study 1</th>
+              <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Study 2</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Gene</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">OD</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">NOF</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">&#x2265;40</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">NOF</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">EM</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">PR</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">PCOS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">
+                <italic>SIRT1</italic>
+              </td>
+              <td align="center" valign="middle">225.2 &#xB1; 46.0 <sup>a</sup></td>
+              <td align="center" valign="middle">169.1 &#xB1; 11.7 <sup>a</sup></td>
+              <td align="center" valign="middle">478.3 &#xB1; 111.1 <sup>b</sup></td>
+              <td align="center" valign="middle">169.1 &#xB1; 11.7 <sup>a</sup></td>
+              <td align="center" valign="middle">139.3 &#xB1; 16.2 <sup>a</sup></td>
+              <td align="center" valign="middle">166.4 &#xB1; 30.2 <sup>a</sup></td>
+              <td align="center" valign="middle">138.5 &#xB1; 36.4 <sup>a</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <italic>SIRT2</italic>
+              </td>
+              <td align="center" valign="middle">271.4 &#xB1; 36.6 <sup>a</sup></td>
+              <td align="center" valign="middle">161 &#xB1; 16.1 <sup>a</sup></td>
+              <td align="center" valign="middle">600.1 &#xB1; 97.0 <sup>b</sup></td>
+              <td align="center" valign="middle">161 &#xB1; 16.1 <sup>a</sup></td>
+              <td align="center" valign="middle">637.5 &#xB1; 57.1 <sup>b/c</sup></td>
+              <td align="center" valign="middle">793.0 &#xB1; 97.7 <sup>b</sup></td>
+              <td align="center" valign="middle">460.4 &#xB1; 68.5 <sup>c</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <italic>SIRT3</italic>
+              </td>
+              <td align="center" valign="middle">70.8 &#xB1; 8.9 <sup>a</sup></td>
+              <td align="center" valign="middle">72.1 &#xB1; 3.1 <sup>a</sup></td>
+              <td align="center" valign="middle">115.3 &#xB1; 27.6 <sup>a</sup></td>
+              <td align="center" valign="middle">72.1 &#xB1; 3.1 <sup>a</sup></td>
+              <td align="center" valign="middle">117.7 &#xB1; 14.7 <sup>a/b</sup></td>
+              <td align="center" valign="middle">150.9 &#xB1; 34.3 <sup>b</sup></td>
+              <td align="center" valign="middle">84.3 &#xB1; 14.3 <sup>a/b</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <italic>SIRT4</italic>
+              </td>
+              <td align="center" valign="middle">2.5 &#xB1; 0.6 <sup>a</sup></td>
+              <td align="center" valign="middle">4.3 &#xB1; 0.3 <sup>a</sup></td>
+              <td align="center" valign="middle">2.7 &#xB1; 0.9 <sup>a</sup></td>
+              <td align="center" valign="middle">4.3 &#xB1; 0.3 <sup>a</sup></td>
+              <td align="center" valign="middle">1.9 &#xB1; 0.2 <sup>a</sup></td>
+              <td align="center" valign="middle">3.6 &#xB1; 0.9 <sup>a</sup></td>
+              <td align="center" valign="middle">2.01 &#xB1; 0.6 <sup>a</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <italic>SIRT5</italic>
+              </td>
+              <td align="center" valign="middle">83.2 &#xB1;10.5 <sup>a</sup></td>
+              <td align="center" valign="middle">79.2 &#xB1; 4.9 <sup>a</sup></td>
+              <td align="center" valign="middle">171.6 &#xB1; 37.2 <sup>b</sup></td>
+              <td align="center" valign="middle">79.2 &#xB1; 4.9 <sup>a</sup></td>
+              <td align="center" valign="middle">143.8 &#xB1; 18.1 <sup>a/b</sup></td>
+              <td align="center" valign="middle">169.7 &#xB1; 22.2 <sup>b</sup></td>
+              <td align="center" valign="middle">146.8 &#xB1; 20.3 <sup>a/b</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <italic>SIRT6</italic>
+              </td>
+              <td align="center" valign="middle">3.2 &#xB1; 0.7 <sup>a</sup></td>
+              <td align="center" valign="middle">4.4 &#xB1; 0.5 <sup>a</sup></td>
+              <td align="center" valign="middle">2.5 &#xB1; 0.5 <sup>a</sup></td>
+              <td align="center" valign="middle">4.4 &#xB1; 0.5 <sup>a</sup></td>
+              <td align="center" valign="middle">6.3 &#xB1; 1.3 <sup>a</sup></td>
+              <td align="center" valign="middle">13.8 &#xB1; 3.8 <sup>b</sup></td>
+              <td align="center" valign="middle">4.7 &#xB1; 1.6 <sup>a</sup></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>SIRT7</italic>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32.7 &#xB1; 7.3 <sup>a</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.6 &#xB1; 8.8 <sup>a</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">66.5 &#xB1; 14.5 <sup>a</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.6 &#xB1; 8.8 <sup>a</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">104.9 &#xB1; 11.3 <sup>a</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">151.2 &#xB1; 30.8 <sup>b</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">91.4 &#xB1; 17.2 <sup>a/b</sup></td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Results were determined by qRT-PCR and are expressed as mean &#xB1; standard error. Different lowercase letters (a, b and c) represent statistically significant differences of the means in each study. Gene expression values are &#xD7;10<sup>5</sup> relative to &#x3B2;-actin expression.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="ijms-21-00295-t003" position="float">
+        <object-id pub-id-type="pii">ijms-21-00295-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>RT-PCR primers for sirtuin genes (1&#x2013;7) and &#x3B2;-actin.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Gene</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Oligonucleotide</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sequence (5&#x2032;&#x2192;3&#x2032;)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tm (&#xB0;C)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">
+                <italic>SIRT1</italic>
+              </td>
+              <td align="center" valign="middle">SIRT1-F</td>
+              <td align="center" valign="middle">CTATACCCAGAACATAGACACG</td>
+              <td align="center" valign="middle">54.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SIRT1-R</td>
+              <td align="center" valign="middle">ACAAATCAGGCAAGATGC</td>
+              <td align="center" valign="middle">54.5</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">
+                <italic>SIRT2</italic>
+              </td>
+              <td align="center" valign="middle">SIRT2-F</td>
+              <td align="center" valign="middle">CCATCTGTCACTACTTCATGC</td>
+              <td align="center" valign="middle">55.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SIRT2-R</td>
+              <td align="center" valign="middle">AAGTCCTCCTGTTCCAGC</td>
+              <td align="center" valign="middle">55.1</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">
+                <italic>SIRT3</italic>
+              </td>
+              <td align="center" valign="middle">SIRT3-F</td>
+              <td align="center" valign="middle">GCTGGACAGAAGAGATGC</td>
+              <td align="center" valign="middle">54.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SIRT3-R</td>
+              <td align="center" valign="middle">GTGGATGTCTCCTATGTTACC</td>
+              <td align="center" valign="middle">47.6</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">
+                <italic>SIRT4</italic>
+              </td>
+              <td align="center" valign="middle">SIRT4-F</td>
+              <td align="center" valign="middle">CAGATGTCGTTTTCTTCG</td>
+              <td align="center" valign="middle">44.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SIRT4-R</td>
+              <td align="center" valign="middle">CCAGAGTATACCTGCAAGG</td>
+              <td align="center" valign="middle">52.6</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">
+                <italic>SIRT5</italic>
+              </td>
+              <td align="center" valign="middle">SIRT5-F</td>
+              <td align="center" valign="middle">CCCAGAACATCGATGAGC</td>
+              <td align="center" valign="middle">55.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SIRT5-R</td>
+              <td align="center" valign="middle">GCCACAACTCCACAAGAGG</td>
+              <td align="center" valign="middle">57.9</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">
+                <italic>SIRT6</italic>
+              </td>
+              <td align="center" valign="middle">SIRT6-F</td>
+              <td align="center" valign="middle">AGGGACAAACTGGCAGAGC</td>
+              <td align="center" valign="middle">60.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SIRT6-R</td>
+              <td align="center" valign="middle">TTAGCCACGGTGCAGAGC</td>
+              <td align="center" valign="middle">61.1</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle">
+                <italic>SIRT7</italic>
+              </td>
+              <td align="center" valign="middle">SIRT7-F</td>
+              <td align="center" valign="middle">GCAGAGCAGACACCATCC</td>
+              <td align="center" valign="middle">57.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SIRT7-R</td>
+              <td align="center" valign="middle">GTTCACGATGTAAAGCTTCG</td>
+              <td align="center" valign="middle">56.1</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>&#x3B2;-Actin</italic>
+              </td>
+              <td align="center" valign="middle">ACTB-F</td>
+              <td align="center" valign="middle">CTTCCTTCCTGGGCATGG</td>
+              <td align="center" valign="middle">61.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">ACTB-R</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">GCCGCCAGACAGCACTGT</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">63.7</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">humanities</journal-id>
+      <journal-title-group>
+        <journal-title>Humanities</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Humanities</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Humanities</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2076-0787</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/h9010007</article-id>
+      <article-id pub-id-type="publisher-id">humanities-09-00007</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Slippery Pirates: Generic Conventions and Discursive Instability in John Fletcher and Philip Massinger&#x2019;s Pirate Plays</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gruss</surname>
+            <given-names>Susanne</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-humanities-09-00007">Department of English, American and Romance Studies, FAU Erlangen-N&#xFC;rnberg, 91054 Erlangen, Germany; <email>susanne.gruss@fau.de</email></aff>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>03</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>1</issue>
+      <elocation-id>7</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>01</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>22</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the author.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The term piracy marks a slippery category in early modern England: as a legal denomination, it describes the feats of armed robbery at sea for which pirates were prosecuted but their state-sanctioned counterparts, privateers, were not; in a seaman&#x2019;s professional life, being a pirate was often a phase rather than a stable marker of self-identification. Like their real-life models, literary pirates are contradictory creatures&#x2014;they shed their pirate identity as quickly as they have adopted it, are used for veiled socio-political commentary, or trimmed to size in order to fit generic constraints. The slipperiness of the pirate has made him (and sometimes her) an attractive figure for early modern playwrights. I argue that John Fletcher and Philip Massinger appropriate the discursive instability of piratical individuals for their pirate plays. Rather than looking at the ideological and political implications of piracy, I analyze the pirate figures in Fletcher and Massinger&#x2019;s <italic>The Double Marriage</italic> (1621) and <italic>The Sea Voyage</italic> (1622) as well as in Massinger&#x2019;s <italic>The Renegado</italic> (1623&#x2013;1624) and <italic>The Unnatural Combat</italic> (1624&#x2013;1625) as literary creations. Alternating between the heroic and the villainous, their pirates are convenient plot devices that are attuned to the evolving generic conventions of the early Stuart stage in general and early Stuart tragicomedy in particular.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>
+          <italic>The Double Marriage</italic>
+        </kwd>
+        <kwd>early modern drama</kwd>
+        <kwd>John Fletcher</kwd>
+        <kwd>Philip Massinger</kwd>
+        <kwd>piracy</kwd>
+        <kwd>privateering</kwd>
+        <kwd>
+          <italic>The Renegado</italic>
+        </kwd>
+        <kwd>
+          <italic>The Sea Voyage</italic>
+        </kwd>
+        <kwd>tragicomedy</kwd>
+        <kwd>
+          <italic>The Unnatural Combat</italic>
+        </kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-humanities-09-00007">
+      <title>1. Slippery Pirates: An Introduction</title>
+      <p>Pirates of various geographical extractions have enjoyed a long-lasting career in English literature and popular culture, ranging from the off-stage pirates who capture Hamlet&#x2019;s ship and unwittingly save the infamous procrastinator from a worse fate at the hands of the king of England to the Barbary pirates who abduct Robinson Crusoe and sell him into slavery, from Byron&#x2019;s long-suffering melancholic corsair Conrad (who never does, in fact, engage in any actual feats of corsairing) to that literary epitome of the English pirate, Robert Louis Stevenson&#x2019;s Long John Silver. The list of literary pirates is extensive, and the same is true of the narrative functions they serve. The pirates in <italic>Hamlet</italic> (1599&#x2013;1602) are a convenient plot device, summoned, as William E. Slights and Shelley Woloshyn remark with reference to the dramatic uses of piracy more generally, &#x201C;at key points in the narrative to save characters from one set of threats and set them on a fresh course toward new predicaments&#x201D; (<xref ref-type="bibr" rid="B41-humanities-09-00007">Slights and Woloshyn 2007, p. 252</xref>). The Barbary pirates in <italic>Robinson Crusoe</italic> (1719) invoke the familiarity of Daniel Defoe&#x2019;s readers with the current activities of Barbary pirates at the time of writing<xref ref-type="fn" rid="fn001-humanities-09-00007">1</xref> along with their cultural knowledge of the &#x2018;Golden Age of Piracy&#x2019; (c.1650&#x2013;1730) and biographies of (in)famous pirates like those published only a few years later in <italic>A General History of the Pyrates</italic> (1724). <italic>The Corsair</italic> (1814) can be read as one of the earliest incarnations of the brooding Byronic hero, a &#x201C;glamourous figure representing love, refinement and rebellion&#x201D; (<xref ref-type="bibr" rid="B28-humanities-09-00007">Lutz 2011, p. 28</xref>). And with <italic>Treasure Island</italic> (1881&#x2013;1882) Long John Silver became the quintessential pirate mold for the twentieth century in his multifaceted personality&#x2014;an ambivalent father figure, a clever businessman, and a fearful villain. As this admittedly patchy literary history of piracy shows, pirates always also served narrative ends, an argument neatly summarized in Frederick Burwick and Manushag N. Powell&#x2019;s <italic>British Pirates in Print and Performance</italic>. &#x201C;A great deal can be encompassed in the British notion of a pirate&#x201D;, they observe: &#x201C;fear, pride, otherness, sameness, tragedy, rebellion, fun, fantasy. Sometimes a pirate is, in the final balance, hardly piratical at all&#x201D; (<xref ref-type="bibr" rid="B5-humanities-09-00007">Burwick and Powell 2015, p. 15</xref>). In this article, I turn to the early modern period, the time frame when the conception of the English pirate was first formed and appropriated for the stage.</p>
+      <p>The identity of the early modern pirate is notoriously hard to pin down, not least because for early modern seamen piracy was often a brief phase in what might have been a professional career spanning several decades. State-sanctioned privateers, engaging in essentially the same form of sea-borne robbery as pirates, frequently &#x2018;became&#x2019; pirates when they lost their marque&#x2014;Richard Brucher contends that &#x201C;little besides official sanction (a royal license to plunder) distinguished privateering from piracy&#x201D; (<xref ref-type="bibr" rid="B4-humanities-09-00007">Brucher 1999, p. 212</xref>)<xref ref-type="fn" rid="fn002-humanities-09-00007">2</xref>&#x2014;and members of the English naval forces turned to piracy when they were no longer paid. This is not only true for English pirates, but also for the Barbary pirates operating in the Mediterranean. As in the Atlantic, Wolfgang Kaiser and Guillaume Calafat contend, &#x201C;sea robbery [in the Mediterranean] followed, as part-time activity in critical or desperate situations, economic and political conjectures&#x201D; (<xref ref-type="bibr" rid="B25-humanities-09-00007">Kaiser and Calafat 2014, p. 85</xref>). While privateering might be used as an economic and military asset in nation-building, piracy was often the result of economic duress for privateers who had been disbanded. Rather than signifying any form of long-lasting identity, the labels &#x2018;privateer&#x2019; and &#x2018;pirate&#x2019; were porous and served political and religious ideologies: &#x201C;[I]f European corsairs [...] were considered as honourable warriors against the &#x2018;infidel&#x2019;, their brethren from North Africa were castigated as pirates&#x201D; (ibid., p. 78). In the Mediterranean in particular, then, the term &#x2018;pirate&#x2019; also serves religious and racist stereotyping, denoting the non-English privateer as a religious and racial Other damaging the English realm from beyond the limits of the law.<xref ref-type="fn" rid="fn003-humanities-09-00007">3</xref> The discursive instability of the &#x2018;pirate&#x2019; and the &#x2018;privateer&#x2019; is always already inherent in the figure of the sea-borne robber. In literary and popular depictions, pirates consequently often serve to highlight political frustrations alongside a resistance to politics. Tales of piracy and privateering, published in ballads and pamphlets or staged in late Elizabethan and early Stuart theatre, are also tales of intercultural contact, turning to the Barbary pirates roaming the Mediterranean or the Caribbean buccaneers for depictions of the exotic cultural &#x2018;Other&#x2019;. Adding yet another facet to the legal and (inter)cultural repercussions of early modern piracy, Julie Sanders pertinently locates piracy on both the sea and the land, asserting that &#x201C;[p]irates and piracy speak to the environment of the open sea and the complicated legal geography of that space&#x201D; and, simultaneously, &#x201C;to the coastal communities and inland waterways as the smuggled goods themselves make their movement&#x201D; (<xref ref-type="bibr" rid="B38-humanities-09-00007">Sanders 2011, p. 61</xref>).</p>
+      <p>In this article, I focus on a group of four &#x2018;pirate plays&#x2019; written by John Fletcher and Philip Massinger in the last years of the reign of James I, their collaborative tragicomedies <italic>The Double Marriage</italic> (<xref ref-type="bibr" rid="B11-humanities-09-00007">Fletcher and Massinger [1621] 1994</xref>) and <italic>The Sea Voyage</italic> (<xref ref-type="bibr" rid="B12-humanities-09-00007">Fletcher and Massinger [1622] 1999</xref>) as well as Massinger&#x2019;s single-authored tragicomedy <italic>The Renegado</italic> (<xref ref-type="bibr" rid="B30-humanities-09-00007">Massinger [1624&#x2013;1625] 2010</xref>) and the tragedy <italic>The Unnatural Combat</italic> (<xref ref-type="bibr" rid="B29-humanities-09-00007">Massinger [1623&#x2013;1624] 1976</xref>). Even though piracy arguably only takes center stage in the playwrights&#x2019; first pirate venture, each of the plays contains episodes of armed robbery at sea and a particular strand of piracy that will allow me to open up a whole spectrum of dramatic pirates: the father-daughter duo Sesse and Martia in <italic>The Double Marriage</italic>, the French privateers/pirates in <italic>The Sea Voyage</italic>, the renegade pirate Antonio Grimaldi in <italic>The Renegado</italic>, and pirate captain Malefort Jr. in <italic>The Unnatural Combat</italic>. Pirates have gathered renewed critical interest in recent years, with a strong focus on what Claire Jowitt, with reference to Fletcher and Massinger, describes as &#x201C;the ways pirate typologies reflect and comment on the changing political landscape of the last years&#x2019; of James&#x2019;s reign&#x201D; (<xref ref-type="bibr" rid="B23-humanities-09-00007">Jowitt 2010, p. 172</xref>). The sea-borne robbers are now predominantly read in the context of the time of writing and performance, and frequently interpreted as literary ploys used to criticize Jacobean politics or the English colonial endeavor.<xref ref-type="fn" rid="fn004-humanities-09-00007">4</xref> My readings of Fletcher and Massinger&#x2019;s late Jacobean plays&#x2014;self-consciously lopsided for those plays in which the pirates are minor protagonists&#x2014;will analyze pirates as creatures of tragicomedy, the genre that has repeatedly been described as most characteristic for the work of both playwrights.<xref ref-type="fn" rid="fn005-humanities-09-00007">5</xref> &#x201C;Tragicomedy may have been the most popular form of drama in early-seventeenth-century England,&#x201D; Zachary Lesser maintains, &#x201C;but it has also long been the black sheep in the family of Renaissance dramatic genres&#x201D; (<xref ref-type="bibr" rid="B27-humanities-09-00007">Lesser 2007, p. 881</xref>). Like the pirate, whose slipperiness defies easy definition, tragicomedy has eluded clear-cut definitions. In the introduction to their co-edited volume <italic>The Politics of Tragicomedy</italic>, for instance, Gordon McMullan and Jonathan Hope argue that &#x201C;the word &#x2018;tragicomedy&#x2019; itself seems never to have acquired anything akin to a fixed meaning&#x201D; (<xref ref-type="bibr" rid="B32-humanities-09-00007">McMullan and Hope 1992, p. 1</xref>); more recently, Sanders has called it &#x201C;a slightly uncomfortable hybrid of multiple genres&#x201D; (<xref ref-type="bibr" rid="B39-humanities-09-00007">Sanders 2014, p. 179</xref>) that, I would argue, befits the depiction of early modern piracy as a generic framework. Nevertheless, tragicomedy has been used comparatively rarely in the analysis of dramatic pirates, even though ambiguous sea-robbers have featured frequently in that most slippery of early modern genres. By carving out a reading of early modern piracy that takes into account the oscillating or &#x2018;slippery&#x2019; identities of pirates, privateers, corsairs, and renegades as dramatic creatures as well as their generic affiliations, I will show how Fletcher and Massinger create a veritable inventory of early modern stage pirates that prefigures the pirate &#x2018;formula&#x2019; of the ambivalent swashbuckling seaman we are so familiar with today. </p>
+    </sec>
+    <sec id="sec2-humanities-09-00007">
+      <title>2. Early Modern (Stage) Pirates</title>
+      <p>Critics have regularly emphasized the liminal position of pirates in the legal landscape of early modern England. In the introduction to their important collection of essays <italic>Persistent Piracy: Maritime Violence and State-Formation in Global Historical Perspective</italic>, Stefan E. Amirell and Leos M&#xFC;ller pinpoint the &#x201C;vast grey borderland between the &#x2018;black&#x2019; of piracy and the &#x2018;white&#x2019; of state-sanctioned forms of prize-taking and maritime violence&#x201D; (<xref ref-type="bibr" rid="B2-humanities-09-00007">Amirell and M&#xFC;ller 2014, p. 2</xref>). In England, the borderline between the privateer as a national hero and the pirate as a depraved criminal was particularly instable (or, to pick up my title again, slippery). Under Elizabeth I, privateers such as Francis Drake and Walter Ralegh, attacking the Spanish fleet and plundering the ships they captured, were conceived of as heroic figures who served the national interest (and, of course, the royal coffers). This blurry distinction becomes even more convoluted when taking into account sea-robbers originating from or operating in different geographical locales. While usually distinguished from English pirates and privateers by denominations pointing to their provenance (Mediterranean corsairs, Barbary pirates, Caribbean buccaneers), these terms are equally characterized by their instability.<xref ref-type="fn" rid="fn006-humanities-09-00007">6</xref> As highlighted above, Kaiser and Calafat, for example, note that the terms &#x2018;pirate&#x2019; and &#x2018;corsair&#x2019; were and are very often conflated, and the differing assessment of piratical activities in the early modern Mediterranean was usually due to the seamen&#x2019;s nationality rather than the (il)legitimacy of the acts recorded in source material. James I famously hated pirates, but also outlawed privateers in 1604 in order to appease Spanish diplomats, who had complained about the ongoing attacks of English pirates and privateers on Spanish ships after James had negotiated peace with the Spanish shortly after his accession to the throne in 1603. James&#x2019;s &#x2018;war on pirates&#x2019; is documented not only in a pronounced increase in pirate executions, but also in as many as nine royal proclamations issued between 1603 and 1623. These proclamations can be interpreted as an attempt to police sea-robbery (in particular when it targeted Spanish ships) and, in the second decade of the seventeenth century, Barbary piracy against English ships.<xref ref-type="fn" rid="fn007-humanities-09-00007">7</xref> However, James&#x2019;s attempts to contain piracy as a challenge to his sovereignty &#x201C;at the margins&#x201D; of his jurisdiction (<xref ref-type="bibr" rid="B14-humanities-09-00007">Fuchs 2000, p. 48</xref>) remained essentially futile. &#x201C;Private prize-taking activity,&#x201D; David J. Starkey and Matthew McCarthy sum up, &#x201C;whether authorized, ignored or outlawed by government, swirled across and around the British Atlantic world throughout the Early Modern era&#x201D; (<xref ref-type="bibr" rid="B42-humanities-09-00007">Starkey and McCarthy 2014, p. 147</xref>). Like their real-life models, stage pirates are generally conceived of as a dramatic response to and criticism of James I&#x2019;s war on piracy in particular and of the king&#x2019;s politics in general, as a case study in the ambiguities of law (and literature), and of the economic dimensions of the budding English imperial project. The meaning of the term &#x2018;pirate&#x2019;, then, in the words of Laurie Ellinghausen, &#x201C;varied in the period, making it not so much an ontological identity, an expression of extreme otherness or social rebellion, as one that could be easily slipped on or off according to opportunity or necessity&#x201D; (<xref ref-type="bibr" rid="B9-humanities-09-00007">Ellinghausen 2018, p. 82</xref>). Ellinghausen&#x2019;s pertinent summary also serves as a succinct explanation for the appeal of piracy to early modern playwrights: pirates could easily be made to mean a variety of things, to articulate political resistance or cultural and/or religious otherness as a writer saw fit, all of which makes them interesting figures for dramatic appropriation.</p>
+      <p>It is little surprising that pirate figures populate early modern drama more pervasively than is commonly acknowledged&#x2014;and that, comparable to their real-life existence at the margins of English jurisdiction, they predominantly do so at the margins of plays rather than at their center. Jowitt has memorably put forward that, &#x201C;more often than not, pirates appear on the sidelines of literary texts, unruly, discontented figures, excluded from the main story, but refusing to be wholly suppressed&#x201D; (<xref ref-type="bibr" rid="B22-humanities-09-00007">Jowitt 2007, p. 3</xref>). Taking my cue from Jowitt&#x2019;s argument, I will briefly scrutinize the sidelines of early modern drama in order to delineate the budding tradition of liminal, slippery pirate figures Fletcher and Massinger could use as scaffolding for their own dramatic iterations of the armed sea-robber. In many plays (<italic>Hamlet</italic> chief among them), pirates only make a brief appearance, and acts of piracy are frequently committed off-stage and narrated to the audience by witnesses or messengers. In Henry Chettle&#x2019;s underappreciated <italic>The Tragedy of Hoffman, or, A Revenge for a Father</italic> (1602), for example, which borrows heavily from Shakespeare&#x2019;s <italic>Hamlet</italic>, pirate Old Hoffman (the protagonist&#x2019;s father) and his acts of piracy are resolutely relegated to the dramatic backdrop of the revenge tragedy&#x2014;Old Hoffman has been executed for his piratical acts long before the play starts. And yet, the pirate haunts the entire play: his death motivates the son&#x2019;s revenge plot, his identity as a pirate becomes increasingly questionable as the play progresses, and he is depicted as a victim of state injustice, a formerly trusted admiral who had served the state loyally and filled its treasury with booty captured during his career in their service. A similar ambiguity forms the basis of the depiction of piracy in Thomas Heywood and William Rowley&#x2019;s tragicomic <italic>Fortune by Land and Sea</italic> (1607&#x2013;1609), which builds on the notoriety of Elizabethan pirates Purser and Clinton, who are depicted as anti-heroes reigning over an almost utopian, egalitarian sea-borne realm before they are caught and executed. Like Old Hoffman, Heywood and Rowley&#x2019;s protagonist young Forrest is a dramatization of the uneasy relation between the pirate and the privateer: his actions are comparable to those of Purser and Clinton, but he is celebrated as a heroic privateer after his return. Robert Daborne&#x2019;s <italic>A Christian Turned Turk</italic> (1610&#x2013;1611), finally, is that rare example of a pirate play in which pirates&#x2014;renegade Englishman John Ward and his Dutch counterpart Dansiker&#x2014;are main protagonists on the one hand, and the pirate Ward remains &#x201C;an unredeemed criminal&#x201D; (<xref ref-type="bibr" rid="B9-humanities-09-00007">Ellinghausen 2018, p. 50</xref>) on the other.<xref ref-type="fn" rid="fn008-humanities-09-00007">8</xref></p>
+      <p>Even in the plays where piracy seems to be depicted as a comparatively minor incident&#x2014;Shakespeare&#x2019;s <italic>Twelfth Night, or What You Will</italic> (<xref ref-type="bibr" rid="B40-humanities-09-00007">Shakespeare [1602] 1997</xref>) or his and George Wilkins&#x2019;s <italic>Pericles</italic> (1607&#x2013;1608), for instance&#x2014;it carries meaning. In <italic>Twelfth Night</italic>, shipwrecked Viola is rescued by a captain, her brother Sebastian by Antonio, whom Orsino calls a &#x201C;[n]otable pirate&#x201D;, a &#x201C;salt-water thief&#x201D; (5.1.63). Merely indicating the divergent nature of their rescuers&#x2014;&#x201C;the captain and the pirate, a lawful and lawless sailor&#x201D;&#x2014;frames, Steve Mentz importantly indicates, &#x201C;the twins&#x2019; emergence from ocean to beach. [...] The captain [...] represents an orderly, circumspect nautical world&#x201D; (<xref ref-type="bibr" rid="B33-humanities-09-00007">Mentz 2009, p. 60</xref>) while the pirate, of course, does not. Antonio is clearly aware of the meaning(s) the term piracy carries and robustly rejects it. &#x201C;Orsino, noble sir, / Be pleased that I shake off these names you give me&#x201D;, he refutes (5.1.66&#x2013;67); &#x201C;Antonio never yet was thief or pirate&#x201D; (5.1.68). In Shakespeare&#x2019;s comedy, then, the label &#x2018;pirate&#x2019; only momentarily serves to clearly demarcate the legitimate from the illegitimate seaman and is repudiated as soon as it is articulated.<xref ref-type="fn" rid="fn009-humanities-09-00007">9</xref> In <italic>Pericles</italic>, Marina&#x2019;s abduction by pirates not only works as a dramatic ploy to quickly remove her from Tarsus, it equally serves &#x201C;as a narrative shorthand for radical disruption&#x201D; (<xref ref-type="bibr" rid="B33-humanities-09-00007">Mentz 2009, p. 76</xref>) that defines Marina&#x2019;s instability more than it does the act of piracy as such. In addition to these dramatic episodes of late Elizabethan and early Stuart piracy, Fletcher and Massinger could also draw on episodes of piracy in classical history and literature, which were &#x201C;often sympathetically presented&#x201D; (<xref ref-type="bibr" rid="B37-humanities-09-00007">Potter 1996, p. 124</xref>) or &#x201C;portrayed, like Robin Hood, as exemplifying a kind of justice&#x201D; (ibid., p. 124) that &#x2018;civilized&#x2019; society denied them, a positive take on piracy also found in plays such as <italic>Fortune by Land and Sea</italic> or popular accounts that capitalize on &#x201C;the egalitarian and democratic aspects of piratical communities&#x201D; (<xref ref-type="bibr" rid="B2-humanities-09-00007">Amirell and M&#xFC;ller 2014, p. 17</xref>). At the same time, piracy was conceptualized as a politically and ideologically charged label in classical literature. Cicero in particular was crucial in the depiction of piracy as &#x201C;an all-pervading maritime evil, outside the laws and conventions of civilized peoples&#x201D; (<xref ref-type="bibr" rid="B7-humanities-09-00007">De Souza 2014, p. 40</xref>), a representation of piracy that persists into the early modern age. There was, then, an established repository of conflicting and ambiguous piratical narratives Fletcher and Massinger could put to productive use in their pirate plays.<xref ref-type="fn" rid="fn010-humanities-09-00007">10</xref></p>
+    </sec>
+    <sec id="sec3-humanities-09-00007">
+      <title>3. Heroic Pirates, Piratical Privateers: The Fletcher&#x2013;Massinger Collaborations</title>
+      <p>The duo&#x2019;s first foray into piratical waters, the tragicomedy <italic>The Double Marriage</italic>, is one of several plays in which Massinger had a hand that are based on Seneca the Elder&#x2019;s <italic>Controversiae</italic>, fictional legal scenarios commonly used to teach rhetoric.<xref ref-type="fn" rid="fn011-humanities-09-00007">11</xref> The play can be read in the tradition of early modern tyrant plays, which gained currency with the rising anxieties about the absolutist tendencies James I had demonstrated in his political writings, <italic>The Trew Law of Free Monarchies</italic> (1598) and <italic>Basilikon Doron</italic> (1599), both of which had been republished and disseminated widely in 1603. It is also the only pirate play analyzed in this article in which not one, but two pirates serve as main protagonists, the discredited and banished aristocrat Sesse and his daughter Martia. The paranoid tyrant Ferrand is invested in financial gain first and foremost: he is identified as &#x201C;a Marchant, all the Countries fatt,&#x201D; who &#x201C;wholy does ingrosse unto himself&#x201D; (1.1.89&#x2013;90) in the first scene. Positioned against the tyrant of Naples, pirate Sesse is introduced as an &#x2018;honourable&#x2019; pirate whose &#x201C;seaborne regime [&#x2026;] appears effortlessly absolute&#x201D; (<xref ref-type="bibr" rid="B23-humanities-09-00007">Jowitt 2010, p. 173</xref>).<xref ref-type="fn" rid="fn012-humanities-09-00007">12</xref> Characterized as &#x201C;[s]o great, so fearlesse, and so fortunate, / So patient in his want, in Act so valiant&#x201D; (2.1.18&#x2013;20) by his men, righteous pirate Sesse is a popular hero in the vein of Robin Hood. In contrast to greedy Ferrand, the selfless pirate &#x201C;onely borrow[s] / What may supply his want: nor that for nothing; / But renders back what they may stand in need of, / And then parts lovingly&#x201D; (2.1.47&#x2013;50). Despite Sesse&#x2019;s heroic portrayal the play is initially set up as a revenge tragedy: after his banishment, the involuntary pirate is intent on carrying out a plot of (private) revenge against Ferrand. His plan is derailed by his own daughter Martia, an Amazonian warrior marked as unnatural early in the play when she is introduced by &#x201C;<italic>Strange Musick</italic>&#x201D; (2.4.79) and a &#x201C;horrid noyse&#x201D; (2.4.80). When Martia falls in love with prisoner Virolet (Ferrand&#x2019;s emissary) and flees the ship with him and another prisoner, Sesse&#x2019;s revenge plot is derailed by his daughter&#x2019;s betrayal. The otherwise controlled pirate threatens to degenerate into the manic avenger so well-known as a stock character in revenge plays&#x2014;he proclaims that he has no friends, &#x201C;None but my faire revenge&#x201D; (3.2.5) at one point&#x2014;but regains his heroic status when he leads a successful uprising against Ferrand in the name of &#x201C;liberty and honour&#x201D; (5.1.160&#x2013;62). Sesse is even offered the crown of Naples after the tyrant has been defeated (but declines), and steers the play&#x2019;s tragic bent into tragicomic terrain when he finally reveals his true identity to the Neapolitans. With the unveiling of his true aristocratic self (&#x201C;Tho fourteen yeares you have not seen this face, / You may remember it, and call to mind, / There was a Duke of <italic>Sess</italic>, a much wrong&#x2019;d Prince&#x201D; 5.3.30&#x2013;32)&#x2014;a typical ploy in the duke-in-disguise plays that were so popular at the beginning of James I&#x2019;s reign<xref ref-type="fn" rid="fn013-humanities-09-00007">13</xref>&#x2014;the play adopts a tragicomic trajectory. Sesse, who has modified his private revenge plot into one of political retribution, returns to sea, even though a further career as a pirate seems unlikely now that he has reasserted his position as an aristocratic leader.</p>
+      <p>The play&#x2019;s generic layout is confused by Martia, the &#x2018;unnatural&#x2019; female pirate, who, when Virolet ultimately rejects her, embarks on her own trail of revenge. Her status as a pirate warrior who is confident in the assertion of her sexual desires transfers the more problematic aspects of the pirate as a disruptive presence that needs to be contained from father to daughter. Unlike her father, who was forced into piracy by his banishment from court, remains a virtuous leader on the sea, and happily sheds his pirate identity once he can reveal his &#x2018;true&#x2019; self, Martia has grown up a pirate. Described as increasingly monstrous, she is killed by Sesse&#x2019;s loyal boatswain (who wants to spare the pirate chief the moral burden of having killed his own daughter). Martia&#x2019;s death precludes the tragicomic happy ending, and makes the play&#x2019;s generic structure inconclusive. This generic ambiguity is mirrored in critical evaluations: McMullan suggests that the &#x201C;narration [...] motivates piracy and revenge, and the redemptive possibilities customarily inherent in romantic tragicomedy are driven into a tragic process&#x201D; (<xref ref-type="bibr" rid="B31-humanities-09-00007">McMullan 1994, p. 182</xref>) with the death of Martia. In a more nuanced reading, Lucy Munro highlights the doublings that characterize <italic>The Double Marriage</italic> throughout: there are two marriages (Virolet, who is already married, agrees to marry Martia if she helps him escape), two pirates, and two genres: &#x201C;while Sesse&#x2019;s actions enable the political tragicomedy of the tyrant&#x2019;s death, Martia&#x2019;s lead to sexual tragedy&#x201D; (<xref ref-type="bibr" rid="B34-humanities-09-00007">Munro 2007, p. 120</xref>). <italic>The Double Marriage</italic> also remains ambivalent in its depiction of piracy. Sesse, the righteous pirate, passes on the &#x2018;stain&#x2019; of piracy as a socially unacceptable criminal identity to his daughter, who is depicted as &#x201C;out-swashbuckling all of the men&#x201D; (<xref ref-type="bibr" rid="B23-humanities-09-00007">Jowitt 2010, p. 175</xref>) and consequently has to be killed, combining the containment of the unruly woman with that of the unruly pirate. And yet Sesse&#x2019;s rejection of his proper place in Neapolitan society and his return to the sea with his band of pirates creates a piratical happy ending. The liminal existence of the pirate beyond the constraints of society persists as an ideological loophole the play does not close. The continuation of the honorable pirate&#x2019;s life at sea, freed from the shackles of society, is a dramatic mold Fletcher and Massinger would revisit in <italic>The Sea Voyage</italic>, where the (offspring of) pirate-privateers survive, as does Grimaldi, the penitent pirate in Massinger&#x2019;s <italic>The Renegado</italic>.</p>
+      <p>In their next collaboration, pirates lead a much more subdued existence. <italic>The Sea Voyage</italic>, in which a group of Portuguese colonialists is attacked by French privateers, centers on colonial enterprises and how they can go awry quickly. The Portuguese men are separated from their wives and are left stranded on an uninhabitable island rich in treasure while the women found an Amazonian community on a fertile island. The ensuing plot enfolds on these two contradictory islands, which accentuate the oppositional directions of colonization, looting and settlement. However, an act of piracy, we soon find out, has set the plot in motion&#x2014;the abduction of Portuguese Aminta by the French protagonist (and pirate) Albert. Albert is, however, already depicted as a reformed pirate by the beginning of the action (and thus as a dramatic successor of virtuous renegade Sesse). In contrast to Sesse, who is almost overwhelmed by the violent emotions elicited by his daughter&#x2019;s betrayal, Albert is in control of his feelings and acts in his budding relation with Aminta, the woman he abducted. &#x201C;Not one lascivious word,&#x201D; he promises, &#x201C;not one touch, lady&#x2013; / No, not a hope that might not render me / The unpolluted servant of your chastity&#x201D; (1.1.99&#x2013;101). When he is wounded in an altercation with the stranded Portuguese men, he even portrays himself in decidedly feminine terms (&#x201C;Sure we have changed sexes: you bear calamity / With a fortitude would become a man; / I like a weak girl suffer.&#x201D; 2.1.7&#x2013;9). Any form of pirate &#x2018;identity&#x2019; is consequently diluted heavily in <italic>The Sea Voyage</italic>, a useful dramatic maneuver that allows the playwrights to transform aggressive abductor Albert into a worthy love interest for Aminta in order to prefigure the play&#x2019;s eventual tragicomic turn. The play is otherwise outright critical of piratical ventures.<xref ref-type="fn" rid="fn014-humanities-09-00007">14</xref> The greedy pirates&#x2014;who lose their ship to the stranded Portuguese men because they start fighting over the material riches found on the resolutely barren island&#x2014;are described as &#x201C;ye that plough the seas for wealth and pleasures&#x201D; (1.3.160), eventually enabling &#x201C;those who plough the land (Portuguese colonists) [to] triumph despite the violent power of those who &#x2018;plough the seas&#x2019; (French pirates)&#x201D; (<xref ref-type="bibr" rid="B1-humanities-09-00007">Akhimie 2009, p. 154</xref>). This is not to say that the failed Portuguese settlers get to live out a success story. In Jowitt&#x2019;s words the play, which clearly engages with the Virginia project and the beginnings of English colonialism in the late sixteenth and early seventeenth centuries, &#x201C;satirizes both the behavior and roles of European men and women&#x201D; (<xref ref-type="bibr" rid="B19-humanities-09-00007">Jowitt 2001, p. 98</xref>). The rapacious pirates might be easily fooled by the prospect of material gain, but the Portuguese men have been shipwrecked on a barren island that resists any form of human settlement, and even though the Portuguese women&#x2019;s settlement on an abundant adjacent island looks more promising at first sight, their quasi-Amazonian existence eliminates any prospect of procreation and thus forecloses the longevity of their newly founded society. As in <italic>The Double Marriage</italic>, it is an unruly woman bent on revenge who threatens to confound the happy ending. &#x2018;Amazon&#x2019; Rosellia has nurtured a hatred of the pirates who have separated her from her husband, and plans to destroy the &#x201C;French pirates, and the sons of those I hate&#x201D; (5.4.15) when Albert and the French seamen arrive on her island. Her plan for a &#x2018;bloody banquet&#x2019; (see 4.2.7), in which she wants to sacrifice lovers Albert and Aminta, is only stopped short when she is happily reunited with her husband.</p>
+      <p>Although acts of piracy are not a defining feature of the play as such, piratical sea-faring is the driving force behind the play&#x2019;s conflicts. As Fletcher and Massinger depict mainly reformed pirate Albert, however, the notion of a <italic>pirate</italic> identity remains elusive. The ambiguity of the Frenchmen&#x2019;s seaborne venture in particular has seeped into academic discourse, which has reiterated its discursive instability in recent years by oscillating between descriptions of the Frenchmen as, variously, pirates and/or privateers. McMullan delineates the play&#x2019;s basic scenario as one of &#x201C;French piracy upon an island near Guiana&#x201D; (<xref ref-type="bibr" rid="B31-humanities-09-00007">McMullan 1994, p. 245</xref>). Lesser&#x2014;who is, admittedly, more interested in questions of genre than in piracy&#x2014;describes the fathers of Albert and Raymond (Aminta&#x2019;s brother who has come to her rescue) as colonial privateers (see <xref ref-type="bibr" rid="B27-humanities-09-00007">Lesser 2007, p. 899</xref>), and argues that the &#x201C;attack on piracy and colonial aggression&#x201D; in the play functions &#x201C;as an indictment of a western privateering war against Spain and a rebuke to Dutch attacks on English shipping in the east&#x201D; (ibid., p. 900); while Lesser&#x2019;s observations as such are correct, the terminological slippage between piracy and privateering in his argument is another case in point. Rita Banerjee initially indicates that the play focuses on a &#x201C;practice [...] which ran as an important corollary to the practice of colonization, piracy&#x201D; (<xref ref-type="bibr" rid="B3-humanities-09-00007">Banerjee 2013, p. 292</xref>) only to conflate piracy and privateering two pages later, when she remarks that the play &#x201C;foregrounds the practice of piracy <italic>or</italic> privateering, the institutionalized form of piracy&#x201D; (ibid., p. 294; my italics). All of these critical voices implicitly stress the importance of a political point of view in the depiction of armed robbery at sea: from the point of view of the Frenchmen in <italic>The Sea Voyage</italic>, their more predatory enterprise is as much part of the colonial venture as the settlement project of the Portuguese; from the vantage point of the Portuguese, the Frenchmen are aggressive pirates. This slippage between the pirate and the privateer&#x2014;the pirateer, perhaps?&#x2014;mirrors critics&#x2019; attempts to situate the play generically. Patricia Akhimie reads it as a comic travel drama that &#x201C;transports its audiences in real time to locations otherwise known only through stories, maps, or books&#x201D; (<xref ref-type="bibr" rid="B1-humanities-09-00007">Akhimie 2009, p. 154</xref>), and other critics have followed her trail. In another critical approach, Jowitt notes that, similar to the threatened executions in Shakespeare&#x2019;s <italic>Measure for Measure</italic>, for instance, the &#x201C;tension created by Rosellia&#x2019;s extreme violence so near to the end of the play simply does not have enough time to disperse. The horror in which her actions so nearly resulted cannot be contained in so short a space of time&#x201D; (<xref ref-type="bibr" rid="B19-humanities-09-00007">Jowitt 2001, p. 115</xref>). Lesser likewise argues for a tragicomic structure in <italic>The Sea</italic> Voyage (see 2007, passim), as does Banerjee, who (like me) locates the necessity for Albert&#x2019;s reform in the &#x201C;tragicomic scheme of the play&#x201D; (<xref ref-type="bibr" rid="B3-humanities-09-00007">Banerjee 2013, p. 304</xref>). The slippage between pirate and privateer becomes, then, a testing ground for the development of tragicomic plots, which thrive on the turns an ambiguous character such as the sea-borne robber invites.</p>
+    </sec>
+    <sec id="sec4-humanities-09-00007">
+      <title>4. A Rueful Renegade and More Heroic Piracy: Massinger&#x2019;s Pirate Plays</title>
+      <p>Massinger reiterates the concept of the reformed pirate in his solo-play <italic>The Renegado</italic>, and extends it by taking into account the dramatic appeal of the renegade (pirate Grimaldi is a converted Muslim) and the critical depiction of piracy in the Barbary region. Among the four plays under discussion here, <italic>The Renegado</italic> is the only play where the (renegade) pirate is distinctly othered. Sesse is a banished but innately noble aristocrat, Frenchman Albert&#x2019;s piratical career has been cut short by his love for Aminta, and Malefort Jr., in <italic>The Unnatural Combat</italic>, is the disgraced son of a French admiral (even though he is, admittedly, the captain of Algerian pirates). Grimaldi is first and foremost characterized by his conversion to Islam. The tragicomedy is consequently predominantly analyzed in the context of the politico-religious anxieties surrounding English or, more generally, Christian seamen &#x2018;turning Turk&#x2019; in their transcultural encounters on both the sea and the mainland that is most effectively dramatized in Daborne&#x2019;s play;<xref ref-type="fn" rid="fn015-humanities-09-00007">15</xref> or with topical reference to the failure of the diplomatic negotiations of a Spanish Match for James I&#x2019;s son Henry, supplanting a transcultural English-Spanish match with the more exotic Italian&#x2013;Tunisian match between Turkish princess Donusa and Venetian gentleman Vitelli.<xref ref-type="fn" rid="fn016-humanities-09-00007">16</xref> Jowitt in particular has demonstrated that, in his later pirate plays, Massinger uses the sea-borne criminal as &#x201C;a particularly sensitive barometer of the changing political culture of the late Jacobean court&#x201D; (<xref ref-type="bibr" rid="B23-humanities-09-00007">Jowitt 2010, p. 192</xref>). My own reading will, as with the two previous play, focus on the play&#x2019;s depiction of the pirate/privateer-slippage rather than its religious and historical contexts. Grimaldi is introduced as &#x201C;the perjured renegade&#x201D; (1.1.106&#x2013;07) and, much like Albert&#x2019;s crime in <italic>The Sea Voyage</italic>, the first piratical act that is narrated in <italic>The Renegado</italic> has set the plot in motion: Grimaldi has kidnapped Paulina and sold her into slavery to the Tunisian viceroy Asambeg, whose &#x201C;raging lust&#x201D; (<xref ref-type="bibr" rid="B44-humanities-09-00007">Vitkus 2003, p. 160</xref>) makes him a stereotypical Muslim; Paulina&#x2019;s brother Vitelli has just arrived in Tunis to save her. When Grimaldi first appears&#x2014;and in spite of his status as an eponymous hero, he is little more than a minor character&#x2014;he depicts the dangers and rewards of a life at sea that allow him &#x201C;to wallow in / All sensual pleasures&#x201D; (1.3.52&#x2013;53), a self-characterization that links him to the greedy Frenchmen in the preceding play. Befitting his status as a morally reprehensible apostate, he is depicted as a cruel and ruthless businessman who is interested in economic gain first and foremost (&#x201C;But the sea [...] / Yields every day a crop, if we dare reap it.&#x201D; 1.3.61&#x2013;63) and has no qualms about accepting a commission from the viceroy, who &#x201C;receives profit / From the prizes he [Grimaldi] brings in, and that excuses / Whatever he commits&#x201D; (1.3.95&#x2013;97). At the Tunisian court, in short, the Christian pirate has become a Muslim corsair. His position as Asambeg&#x2019;s privateer serves to throw into sharp relief the ambiguities surrounding the pirate trope. Grimaldi is ordered to fight against the (Christian) Knights of Malta by Asambeg, who are subsequently depicted as &#x201C;contemned thieves&#x201D;, as Grimaldi&#x2019;s &#x201C;fellow-pirates&#x201D; (2.5.53&#x2013;54) by the viceroy. While the pirate has become a corsair/privateer in the service of the Muslim world by a change of religion, employer, and perspective, the Christian seamen&#x2014;usually depicted as virtuous in their fight against the Muslim world&#x2014;have become a piratical threat.</p>
+      <p>After his introduction as a mercenary apostate intent on securing a life of luxury for himself, the Italian soon starts to regret his evil ways. In contrast to <italic>The Sea Voyage</italic>, where tragicomic tension is located in Rosellia&#x2019;s unquenchable thirst for revenge rather than the pirate&#x2019;s reformation (which, in Albert&#x2019;s case, has already taken place before the action starts), the tragicomic focus in <italic>The Renegado</italic> is divided among a number of characters who are in need of reformation or in danger of losing their virtue and integrity: the renegade Grimaldi has to repent both his apostasy and his piratical crimes; virtuous Paulina has to be rescued from the lecherous Asambeg before she loses her virginity; her brother Vitelli falls in love with seductive Muslim Donusa and is threatened with execution for his transcultural love affair; and Donusa, finally, has to be converted to Christendom to make her an acceptable love interest for Vitelli. The pirate&#x2019;s conversion from hardened Muslim criminal to repentant Christian is initiated early in the play: &#x201C;I could turn honest and forswear my trade,&#x201D; Grimaldi puts forward in a spat with Asambeg, &#x201C;Which [...] I hate&#x201D; (2.5.6&#x2013;8). As in <italic>The Double Marriage</italic>, the pirate&#x2019;s return to a respectable existence (and, in Grimaldi&#x2019;s case, religious integrity), has to start promptly&#x2014;a repentant Grimaldi places his ship, his crew, and their skills as seamen at Paulina&#x2019;s, Vitelli&#x2019;s, and Donusa&#x2019;s disposal&#x2014;to facilitate the tragicomic revelation, the lovers&#x2019; and Paulina&#x2019;s escape from Tunis in the play&#x2019;s finale. Even though Massinger spends much time on the depiction of Grimaldi&#x2019;s soul-searching and panicked anguish <italic>after</italic> he has seen the wrongs of his apostasy (Vitkus notes that his &#x201C;spiritual recovery is preceded [...] by a steep descent into despair.&#x201D; <xref ref-type="bibr" rid="B44-humanities-09-00007">Vitkus 2003, p. 160</xref>), his defection from Asambeg happens quickly. Grimaldi not only fails to fight off the Knights of Malta, he also disagrees with Asambeg&#x2019;s assessment of the Maltese seamen as pirates. His lack of subservience is a punishable offence in Asambeg&#x2019;s eyes, and he subsequently strips Grimaldi of his prized possessions. When Grimaldi next appears, he is already depicted as repentant, planning to return the sea&#x2019;s &#x201C;ravenous womb&#x201D; (3.3.97) in a ploy of self-destruction, and Jesuit priest Francisco (the mastermind behind the escape) plans to save him from himself. More upbeat by act four (after much encouragement from the good priest), Grimaldi dares to hope: &#x201C;Can good deeds redeem me? / I will rise up a wonder to the world, / When I have given strong proofs how I am altered&#x201D; (4.1.96&#x2013;98), he professes, and eventually becomes the &#x201C;good convert&#x201D; (5.2.24) in the last act, when he delivers the protagonists into freedom. Despite Massinger&#x2019;s attempts to motivate Grimaldi&#x2019;s return to a higher Christian good via the (former) pirate&#x2019;s soul-searching agony, the initial impetus for his renunciation of his corsair identity is located in his mercenary nature&#x2014;Grimaldi is prompted to act by his possessions (or rather, the sudden lack thereof). Michael Neill has very convincingly read the titular renegade as metonymic for the tragicomic mold: &#x201C;Massinger&#x2019;s tragicomedy&#x201D;, he explains, &#x201C;places this kind of &#x2018;turning&#x2019; at the centre of its action; but not only that&#x2014;in it there turns out to be a striking consonance between religious &#x2018;turning&#x2019; and the successive peripeties on which the excitements of its plot depend&#x201D; (<xref ref-type="bibr" rid="B35-humanities-09-00007">Neill 2007, p. 156</xref>). He analyzes <italic>The Renegado</italic> as a play that plays with genres in &#x201C;the way in which it yokes together elements from a whole range of genres and subgenres&#x201D; (ibid., p. 157) in a way that, I would argue, is also true for the two Fletcher&#x2013;Massinger collaborations I have scrutinized before. Grimaldi <italic>has</italic> to turn&#x2014;from Italian pirate to Muslim corsair to Italian seaman, from Catholic to Muslim and back again&#x2014;in order to set up the play&#x2019;s tragicomic logic. Like his instable identities as pirate-privateer, his religions are slippery: they are shed according to generic needs. The other turns in Massinger&#x2019;s play hinge on the turns of the pirate, whose slippery identity ideally caters to the generic needs of tragicomedy.</p>
+      <p>Massinger&#x2019;s last pirate play, <italic>The Unnatural Combat</italic>, deviates from the tragicomic plot trajectories I have identified in his other three pirate plays&#x2014;it is quite indisputably a tragedy that borrows heavily from the revenge mode. His treatment of piracy and the slipperiness of the pirate figure remains consistent with the earlier plays, however. As in <italic>The Double Marriage</italic>, we encounter a family constellation (in this case it is father and son), and the play capitalizes on the uneasy distinction between the pirate and the privateer. The initial scenario of the play seems to be quite straightforward: Malefort Sr., an esteemed admiral, has to fight for his own reputation when his wayward son Malefort Jr. threatens to capture the Marseillan port with a fleet of Algerian pirates. State official Beaufort Jr. expounds that Malefort&#x2019;s &#x201C;impious sonne, / [has] Turn&#x2019;d worse than Pirat in his cruelties&#x201D; (1.1.140&#x2013;41), and the father is accused of leaking information to his pirate son that has enabled him to reach the French port. In his hearing, Malefort stresses his own skills as a seaman (see 1.1.223&#x2013;36) and his past successes as an admiral who repeatedly &#x201C;return&#x2019;d loaden with spoile&#x201D; (1.1.243). &#x201C;Who suncke the Turkish gallies in the Straights, / but <italic>Malefort</italic>?&#x201D;, he asks, &#x201C;who rescu&#x2019;d the French Merchants, / When they were boorded, and stowed under hatches / By the Pirats of Argiers, [...] / [...] But your now doubted Admirall?&#x201D; (1.1.287&#x2013;291). Malefort consequently not only stresses his own position as an admiral, but also his position <italic>against</italic> pirates of different provenances (Turkey and Algiers in particular). The emphasis on the &#x201C;spoile&#x201D; he obtained for Marseilles, however, also associates him with state-sanctioned privateering and hence, as we have seen, positions him on a slippery slope. Malefort calls his son a &#x201C;disobedient rebell&#x201D; (1.1.422) and decides to fight the &#x201C;monster&#x201D; (1.1.385) he has raised in order to clear his reputation. In spite of the father&#x2019;s attempts to distinguish himself as clearly and vehemently as possible from the son, Malefort Jr.&#x2019;s captain (a dramatic iteration of the loyal boatswain in <italic>The Double Marriage</italic>) calls the son &#x201C;Admirall&#x201D; (1.1.348), and effectively makes a clear differentiation between father and son impossible. The futility of the attempt to differentiate privateer and pirate is marked even more decisively by the fact that the father has trained the son &#x201C;up in armes&#x201D; (2.1.168), thus creating a double of himself and making the two all but indistinguishable in name, title (Admiral), deeds, and skills. Malefort Jr.&#x2019;s three sea captains describe him as a worthy successor of Sesse (and, one might add, a dramatic predecessor of Byron&#x2019;s melancholic corsair Manfred), sighing &#x201C;as if inward griefe, / And melancholy at that instant would / Choke up his vitall spirits&#x201D; (2.1.17&#x2013;19). Curiously, perhaps, for a band of pirates that is located quite precisely as the Marseillans&#x2019; Algerian Other, the pirates are never recognizably othered or racialized despite the initial implication that Malefort Jr. might have adjusted to his new companions by &#x2018;turning Turk&#x2019; (&#x201C;Turn&#x2019;d worse than Pirat&#x201D;, see above).<xref ref-type="fn" rid="fn017-humanities-09-00007">17</xref> The pirates are depicted as loyal to their captain and seem to care for him deeply. Apart from his melancholy disposition which, as we find out in the latter half of the play, originates in the father&#x2019;s foul murder of young Malefort&#x2019;s mother, Malefort Jr. is a wise captain of his fleet, and his vengefulness against his father stands at odds with his prowess as their leader. In contrast to his dramatic predecessor, but in particular in contrast to the French pirates, Grimaldi, and his father, Malefort Jr. is invested in sea-borne adventure rather than in the money procured by pirating.</p>
+      <p>Malefort is successful in killing his son in single combat (the &#x2018;unnatural combat&#x2019; of the title that Sesse is spared by the boatswain, who kills his unruly daughter) and containing the imminent danger of piracy. But the association of the father with the son&#x2019;s piracy, and the discursive proximity of pirate and privateer, already anticipates the play&#x2019;s further development after Malefort Jr.&#x2019;s death. Malefort goes mad in the second half of the play, a process triggered by his incestuous obsession with his daughter and the murder of his first wife. As &#x201C;a symbolic figure of immeasurable evil&#x201D; (<xref ref-type="bibr" rid="B17-humanities-09-00007">Heinemann 1993, p. 253</xref>) he is eventually struck down and killed by a flash of lightning in a rather spectacular fashion. Unlike <italic>The Double Marriage</italic>, which combines tragic and tragicomic trajectories, <italic>The Unnatural Combat</italic> is not characterized by generic experimentation and robustly evades the tragicomic happy endings of <italic>The Sea Voyage</italic> and <italic>The Renegado</italic>. Like <italic>The Double Marriage</italic>, however, it has close ties with the tyrant play, as the Marseillan elite (Malefort and Montrevile, who later betrays his former friend and ally when he rapes his daughter) is depicted as morally compromised and the Governor fails to administer the state efficiently. In contrast to his son, Malefort&#x2019;s actions have been authorized by the state. Jowitt point out that &#x201C;[t]he state&#x2019;s anxiety about Malefort&#x2019;s allegiance reflects the notorious problem of maintaining clear distinctions between piracy and other forms of violence at sea&#x201D; (<xref ref-type="bibr" rid="B23-humanities-09-00007">Jowitt 2010, p. 195</xref>). Like his son, whose piratical &#x2018;identity&#x2019; is merely a role he has chosen to play in order to escape Marseillan society and his evil father, Malefort wears a mask&#x2014;that of the famous admiral, privateer, and seasoned statesman&#x2014;that disguises his true (dark) self. Rather than depicting piracy as a period of banishment before rehabilitation can be brought about (as in <italic>The Double Marriage</italic>) or criticizing piracy as mercenary and greedy (as in <italic>The Sea Voyage</italic> and <italic>The Renegado</italic>), the pirate is here characterized by an integrity that state officials cannot muster. With the only upright (male) character&#x2019;s death in the first scene of the play <italic>The Unnatural Combat</italic> can only culminate in catastrophe.</p>
+    </sec>
+    <sec id="sec5-humanities-09-00007">
+      <title>5. Tragicomic Pirates? A Conclusion</title>
+      <p>Fletcher and Massinger&#x2019;s pirates are, I have claimed in my introduction, predominantly tragicomic creatures. Ira Clark writes about tragicomedy that &#x201C;the genre sets up seemingly irresolvable problems, traces them through astounding reversals, then miraculously restores a balance when characters recognize their inevitable failings and feel contrite, forgive each other, and reunite into a familiar yet new society&#x201D; (<xref ref-type="bibr" rid="B6-humanities-09-00007">Clark 1993, p. 15</xref>). This is certainly true for the first three plays under consideration in this article: Sesse&#x2019;s vengeful plot against Ferrand is turned into a heroic rebellion against a tyrant figure, yet his relationship with pirate-daughter Martia cannot be reconciled; it is only the deus-ex-machina act of the boatswain that saves the play from turning into a full-blown tragedy. In <italic>The Sea Voyage</italic>, piracy serves as a crime that threatens (and impedes) the colonial project, but the main pirate figure has already discarded his piratical identity for romantic reasons, which facilitates the reunion of the other men and women in the play who have been separated by the play&#x2019;s founding piratical act. Like Sesse, Albert is an essentially virtuous character who disposes of piracy as a role (rather than an intrinsic part of his identity) that can easily be shed. The same is true for Grimaldi, who, albeit more clearly motivated by greed and the easy riches a piratical life promises, returns to a respectable (Christian) sea-borne life with comparable ease. And while Malefort Jr. does not share his predecessors&#x2019; tragicomic happy ending, piracy is equally marked as a role he has taken on by necessity. Writing against the still prevalent critical opinion of Massinger as a second-rate dramatist, Rui Homem suggests that &#x201C;Massinger&#x2019;s apparently simplistic characterization [...] may in fact reveal a perception of identity as constructed and contingent, rather than essential&#x201D; (<xref ref-type="bibr" rid="B18-humanities-09-00007">Homem 2012, p. 219</xref>). This is certainly true for the plays under scrutiny in this article, which do not only question the idea of a &#x2018;pirate identity&#x2019; by frequently blending the privateer, the pirate, and the corsair, and stressing the slippages between the different concepts. Piracy is also repeatedly marked as a role that is contingent on circumstances and, I would add, generic preconditions. In the three plays I have discussed as tragicomic (<italic>The Sea Voyage</italic> and <italic>The Renegado</italic>) or at least partially tragicomic (<italic>The Double Marriage</italic>), acts of piracy prepare the dramatic waters for the tragicomic turns while the piratical guises Albert, Grimaldi, and Sesse have adopted are shed quickly to make them worthy of a happy ending. In what I have called their &#x2018;repertory&#x2019; of pirate figures, Fletcher and Massinger conceive of two main varieties of the sea-borne criminal. The majority of their pirates are driven into piracy by private circumstances, and are motivated by an urge to take revenge and regain their rightful place in society rather than an interest in economic benefit (Sesse and Malefort Jr. and, after his early reformation, Albert); those who are motivated by quick economic gain (the French pirate-privateers and Grimaldi) are used to criticize piracy and, implicitly, the political frameworks that allow for piracy: colonization and the exotic allures of the foreign lands seamen travelled. None of their pirates are swashbuckling heroes&#x2014;with the possible exception of Martia, the Amazonian pirate&#x2014;and all of them are characterized by the discursive instability of &#x2018;piracy&#x2019; on the early modern stage on the one hand as well as the tragicomic framework that dominates most of these plays on the other. The ability of early modern pirates to &#x2018;turn&#x2019; from criminal to respectable seaman, to shed piracy quickly in order to take on a different identity, makes them, it would seem, ideal dramatic fodder for tragicomedy.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Funding</title>
+      <p>This research received no external funding.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The author declares no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akhimie</surname>
+              <given-names>Patricia</given-names>
+            </name>
+          </person-group>
+          <article-title>Travel, Drama, and Domesticity: Colonial Housewifery in John Fletcher and Philip Massinger&#x2019;s <italic>The Sea Voyage</italic></article-title>
+          <source>Studies in Travel Writing</source>
+          <year>2009</year>
+          <volume>13</volume>
+          <fpage>153</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1080/13645140902866993</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amirell</surname>
+              <given-names>Stefan E.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;ller</surname>
+              <given-names>Leos</given-names>
+            </name>
+          </person-group>
+          <article-title>Introduction: Persistent Piracy in World History</article-title>
+          <source>Persistent Piracy: Maritime Violence and State-Formation in Global Historical Perspective</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Amirell</surname>
+              <given-names>Stefan E.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;ller</surname>
+              <given-names>Leos</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Palgrave Macmillan</publisher-name>
+          <publisher-loc>Basingstoke</publisher-loc>
+          <year>2014</year>
+          <fpage>1</fpage>
+          <lpage>23</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banerjee</surname>
+              <given-names>Rita</given-names>
+            </name>
+          </person-group>
+          <article-title>Gold, Land, and Labor: Ideologies of Colonization and Rewriting <italic>The Tempest</italic> in 1622</article-title>
+          <source>Studies in Philology</source>
+          <year>2013</year>
+          <volume>110</volume>
+          <fpage>291</fpage>
+          <lpage>317</lpage>
+          <pub-id pub-id-type="doi">10.1353/sip.2013.0012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brucher</surname>
+              <given-names>Richard</given-names>
+            </name>
+          </person-group>
+          <article-title>Piracy and Parody in Chettle&#x2019;s Hoffman</article-title>
+          <source>The Ben Jonson Journal: Literary Contexts in the Age of Elizabeth, James, and Charles</source>
+          <year>1999</year>
+          <volume>6</volume>
+          <fpage>209</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="doi">10.3366/bjj.1999.6.1.11</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burwick</surname>
+              <given-names>Frederick</given-names>
+            </name>
+            <name>
+              <surname>Powell</surname>
+              <given-names>Manushag N.</given-names>
+            </name>
+          </person-group>
+          <source>British Pirates in Print and Performance</source>
+          <publisher-name>Palgrave Macmillan</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <year>2015</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clark</surname>
+              <given-names>Ira</given-names>
+            </name>
+          </person-group>
+          <source>The Moral Art of Philip Massinger</source>
+          <publisher-name>Bucknell University Press</publisher-name>
+          <publisher-loc>Lewisburg</publisher-loc>
+          <year>1993</year>
+        </element-citation>
+      </ref>
+      <ref id="B7-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Souza</surname>
+              <given-names>Philip</given-names>
+            </name>
+          </person-group>
+          <article-title>Piracy in Classical Antiquity: The Origins and Evolution of the Concept</article-title>
+          <source>Persistent Piracy: Maritime Violence and State-Formation in Global Historical Perspective</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Amirell</surname>
+              <given-names>Stefan E.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;ller</surname>
+              <given-names>Leos</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Palgrave Macmillan</publisher-name>
+          <publisher-loc>Basingstoke</publisher-loc>
+          <year>2014</year>
+          <fpage>24</fpage>
+          <lpage>50</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B8-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Earle</surname>
+              <given-names>Peter</given-names>
+            </name>
+          </person-group>
+          <source>The Pirate Wars</source>
+          <publisher-name>Methuen</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <year>2003</year>
+        </element-citation>
+      </ref>
+      <ref id="B9-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellinghausen</surname>
+              <given-names>Laurie</given-names>
+            </name>
+          </person-group>
+          <source>Pirates, Traitors, and Apostates: Renegade Identities in Early Modern English Writing</source>
+          <publisher-name>University of Toronto Press</publisher-name>
+          <publisher-loc>Toronto</publisher-loc>
+          <year>2018</year>
+        </element-citation>
+      </ref>
+      <ref id="B10-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fletcher</surname>
+              <given-names>John</given-names>
+            </name>
+          </person-group>
+          <article-title>The Faithful Shepherdess</article-title>
+          <source>The Dramatic Works in the Beaumont and Fletcher Canon</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Bowers</surname>
+              <given-names>Fredson</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <year>1976</year>
+          <volume>vol. 3</volume>
+          <fpage>489</fpage>
+          <lpage>612</lpage>
+          <comment>First published 1608&#x2013;1610</comment>
+        </element-citation>
+      </ref>
+      <ref id="B11-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fletcher</surname>
+              <given-names>John</given-names>
+            </name>
+            <name>
+              <surname>Massinger</surname>
+              <given-names>Philip</given-names>
+            </name>
+          </person-group>
+          <article-title>The Double Marriage</article-title>
+          <source>The Dramatic Works in the Beaumont and Fletcher Canon</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Bowers</surname>
+              <given-names>Fredson</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <year>1994</year>
+          <fpage>105</fpage>
+          <lpage>203</lpage>
+          <comment>First published 1621</comment>
+        </element-citation>
+      </ref>
+      <ref id="B12-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fletcher</surname>
+              <given-names>John</given-names>
+            </name>
+            <name>
+              <surname>Massinger</surname>
+              <given-names>Philip</given-names>
+            </name>
+          </person-group>
+          <article-title>The Sea Voyage</article-title>
+          <source>Three Renaissance Travel Plays</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Parr</surname>
+              <given-names>Anthony</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Manchester University Press</publisher-name>
+          <publisher-loc>Manchester</publisher-loc>
+          <year>1999</year>
+          <fpage>135</fpage>
+          <lpage>216</lpage>
+          <comment>First published 1622</comment>
+        </element-citation>
+      </ref>
+      <ref id="B13-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frohock</surname>
+              <given-names>Richard</given-names>
+            </name>
+          </person-group>
+          <source>Buccaneers and Privateers: The Story of the English Sea Rover, 1675&#x2013;1725</source>
+          <publisher-name>University of Delaware Press</publisher-name>
+          <publisher-loc>Newark</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B14-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>Barbara</given-names>
+            </name>
+          </person-group>
+          <article-title>Faithless Empires: Pirates, Renegadoes, and the English Nation</article-title>
+          <source>English Literary History</source>
+          <year>2000</year>
+          <volume>67</volume>
+          <fpage>45</fpage>
+          <lpage>69</lpage>
+          <pub-id pub-id-type="doi">10.1353/elh.2000.0002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harding</surname>
+              <given-names>Christopher</given-names>
+            </name>
+          </person-group>
+          <article-title>&#x2018;<italic>Hostis Humani Generis</italic>&#x2019;: The Pirate as Outlaw in the Early Modern Law of the Sea</article-title>
+          <source>Pirates? The Politics of Plunder, 1550&#x2013;1650</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Jowitt</surname>
+              <given-names>Claire</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Palgrave Macmillan</publisher-name>
+          <publisher-loc>Basingstoke and New York</publisher-loc>
+          <year>2007</year>
+          <fpage>20</fpage>
+          <lpage>38</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B16-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hebb</surname>
+              <given-names>David D.</given-names>
+            </name>
+          </person-group>
+          <source>Piracy and the English Government 1616&#x2013;1642: Policy-Making under the Early Stuarts</source>
+          <publisher-name>Scolar Press</publisher-name>
+          <publisher-loc>Aldershot</publisher-loc>
+          <year>1994</year>
+        </element-citation>
+      </ref>
+      <ref id="B17-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heinemann</surname>
+              <given-names>Margot</given-names>
+            </name>
+          </person-group>
+          <article-title>Drama and Opinion in the 1620s: Middleton and Massinger</article-title>
+          <source>Theatre and Government Under the Early Stuarts</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Mulryne</surname>
+              <given-names>J. R.</given-names>
+            </name>
+            <name>
+              <surname>Shewring</surname>
+              <given-names>Margaret</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <year>1993</year>
+          <fpage>237</fpage>
+          <lpage>65</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B18-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Homem</surname>
+              <given-names>Rui C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Philip Massinger: Drama, Reputation, and the Dynamics of Social History</article-title>
+          <source>The Cambridge Companion to Shakespeare and Contemporary Dramatists</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Hoenselaars</surname>
+              <given-names>Ton</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <year>2012</year>
+          <fpage>212</fpage>
+          <lpage>25</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B19-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jowitt</surname>
+              <given-names>Claire</given-names>
+            </name>
+          </person-group>
+          <article-title>&#x2018;Her Flesh Must Serve You&#x2019;: Gender, Commerce and the New World in Fletcher&#x2019;s and Massinger&#x2019;s <italic>The Sea Voyage</italic> and Massinger&#x2019;s <italic>The City Madam</italic></article-title>
+          <source>Parergon</source>
+          <year>2001</year>
+          <volume>18</volume>
+          <fpage>93</fpage>
+          <lpage>117</lpage>
+          <pub-id pub-id-type="doi">10.1353/pgn.2011.0175</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jowitt</surname>
+              <given-names>Claire</given-names>
+            </name>
+          </person-group>
+          <source>Voyage Drama and Gender Politics, 1589&#x2013;1642: Real and Imagined Worlds</source>
+          <publisher-name>Manchester University Press</publisher-name>
+          <publisher-loc>Manchester and New York</publisher-loc>
+          <year>2003</year>
+        </element-citation>
+      </ref>
+      <ref id="B21-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jowitt</surname>
+              <given-names>Claire</given-names>
+            </name>
+          </person-group>
+          <article-title>&#x2018;I am Another Woman&#x2019;: The Spanish and French Matches in Massinger&#x2019;s The Renegado (1624) and The Unnatural Combat (1624-5)</article-title>
+          <source>The Spanish Match: Prince Charles&#x2019;s Journey to Madrid, 1623</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Samson</surname>
+              <given-names>Alexander</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Ashgate</publisher-name>
+          <publisher-loc>Aldershot and Burlington</publisher-loc>
+          <year>2006</year>
+          <fpage>151</fpage>
+          <lpage>71</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B22-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jowitt</surname>
+              <given-names>Claire</given-names>
+            </name>
+          </person-group>
+          <article-title>Introduction: Pirates? The Politics of Plunder, 1550&#x2013;1650</article-title>
+          <source>Pirates? The Politics of Plunder, 1550&#x2013;1650</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Jowitt</surname>
+              <given-names>Claire</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Palgrave Macmillan</publisher-name>
+          <publisher-loc>Basingstoke and New York</publisher-loc>
+          <year>2007</year>
+          <fpage>3</fpage>
+          <lpage>19</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jowitt</surname>
+              <given-names>Claire</given-names>
+            </name>
+          </person-group>
+          <source>The Culture of Piracy, 1580&#x2013;1630: English Literature and Seaborne Crime</source>
+          <publisher-name>Ashgate</publisher-name>
+          <publisher-loc>Farnham and Burlington</publisher-loc>
+          <year>2010</year>
+        </element-citation>
+      </ref>
+      <ref id="B24-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jowitt</surname>
+              <given-names>Claire</given-names>
+            </name>
+          </person-group>
+          <article-title>Shakespeare&#x2019;s Pirates: The Politics of Seaborne Crime</article-title>
+          <source>Shakespeare Jahrbuch</source>
+          <year>2012</year>
+          <volume>148</volume>
+          <fpage>73</fpage>
+          <lpage>90</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B25-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaiser</surname>
+              <given-names>Wolfgang</given-names>
+            </name>
+            <name>
+              <surname>Calafat</surname>
+              <given-names>Guillaume</given-names>
+            </name>
+          </person-group>
+          <article-title>Violence, Protection and Commerce: Corsairing and ars piratica in the Early Modern Mediterranean</article-title>
+          <source>Persistent Piracy: Maritime Violence and State-Formation in Global Historical Perspective</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Amirell</surname>
+              <given-names>Stefan E.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;ller</surname>
+              <given-names>Leos</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Palgrave Macmillan</publisher-name>
+          <publisher-loc>Basingstoke</publisher-loc>
+          <year>2014</year>
+          <fpage>69</fpage>
+          <lpage>92</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B26-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Larkin</surname>
+              <given-names>James F.</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>Paul L.</given-names>
+            </name>
+          </person-group>
+          <source>Stuart Royal Proclamations. Vol. I: Royal Proclamations of King James I 1601&#x2013;1625</source>
+          <publisher-name>Clarendon Press</publisher-name>
+          <publisher-loc>Oxford</publisher-loc>
+          <year>1973</year>
+        </element-citation>
+      </ref>
+      <ref id="B27-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lesser</surname>
+              <given-names>Zachary</given-names>
+            </name>
+          </person-group>
+          <article-title>Tragical-Comical-Pastoral-Colonial: Economic Sovereignty, Globalization, and the Form of Tragicomedy</article-title>
+          <source>ELH</source>
+          <year>2007</year>
+          <volume>74</volume>
+          <fpage>881</fpage>
+          <lpage>908</lpage>
+          <pub-id pub-id-type="doi">10.1353/elh.2007.0031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lutz</surname>
+              <given-names>Deborah</given-names>
+            </name>
+          </person-group>
+          <article-title>The Pirate Poet in the Nineteenth Century: Trollope and Byron</article-title>
+          <source>Pirates and Mutineers of the Nineteenth Century: Swashbucklers and Swindlers</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Moore</surname>
+              <given-names>Grace</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Ashgate</publisher-name>
+          <publisher-loc>Farnham and Burlington</publisher-loc>
+          <year>2011</year>
+          <fpage>23</fpage>
+          <lpage>39</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B29-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Massinger</surname>
+              <given-names>Philip</given-names>
+            </name>
+          </person-group>
+          <article-title>The Unnatural Combat</article-title>
+          <source>The Plays and Poems of Philip Massinger</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Edwards</surname>
+              <given-names>Philip</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>Colin</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Clarendon Press</publisher-name>
+          <publisher-loc>Oxford</publisher-loc>
+          <year>1976</year>
+          <fpage>195</fpage>
+          <lpage>272</lpage>
+          <comment>First published 1623&#x2013;1624</comment>
+        </element-citation>
+      </ref>
+      <ref id="B30-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Massinger</surname>
+              <given-names>Philip</given-names>
+            </name>
+          </person-group>
+          <source>The Renegado</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Neill</surname>
+              <given-names>Michael</given-names>
+            </name>
+          </person-group>
+          <publisher-name>A &amp; C Black</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <year>2010</year>
+          <comment>First published 1624&#x2013;1625</comment>
+        </element-citation>
+      </ref>
+      <ref id="B31-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McMullan</surname>
+              <given-names>Gordon</given-names>
+            </name>
+          </person-group>
+          <source>The Politics of Unease in the Plays of John Fletcher</source>
+          <publisher-name>University of Massachusetts Press</publisher-name>
+          <publisher-loc>Amherst</publisher-loc>
+          <year>1994</year>
+        </element-citation>
+      </ref>
+      <ref id="B32-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McMullan</surname>
+              <given-names>Gordon</given-names>
+            </name>
+            <name>
+              <surname>Hope</surname>
+              <given-names>Jonathan</given-names>
+            </name>
+          </person-group>
+          <article-title>Introduction: The Politics of Tragicomedy, 1610&#x2013;50</article-title>
+          <source>The Politics of Tragicomedy: Shakespeare and After</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>McMullan</surname>
+              <given-names>Gordon</given-names>
+            </name>
+            <name>
+              <surname>Hope</surname>
+              <given-names>Jonathan</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>London and New York</publisher-loc>
+          <year>1992</year>
+          <fpage>1</fpage>
+          <lpage>20</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B33-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mentz</surname>
+              <given-names>Steve</given-names>
+            </name>
+          </person-group>
+          <source>At the Bottom of Shakespeare&#x2019;s Ocean</source>
+          <publisher-name>Continuum</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B34-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Munro</surname>
+              <given-names>Lucy</given-names>
+            </name>
+          </person-group>
+          <article-title>Virolet and Martia the Pirate&#x2019;s Daughter: Gender and Genre in Fletcher and Massinger&#x2019;s <italic>The Double Marriage</italic></article-title>
+          <source>Pirates? The Politics of Plunder, 1550&#x2013;1650</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Jowitt</surname>
+              <given-names>Claire</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Palgrave Macmillan</publisher-name>
+          <publisher-loc>Basingstoke and New York</publisher-loc>
+          <year>2007</year>
+          <fpage>118</fpage>
+          <lpage>34</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Neill</surname>
+              <given-names>Michael</given-names>
+            </name>
+          </person-group>
+          <article-title>Turn and Counterturn: Merchanting, Apostasy and Tragicomic Form in Massinger&#x2019;s The Renegado</article-title>
+          <source>Early Modern Tragicomedy</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Mukherji</surname>
+              <given-names>Subha</given-names>
+            </name>
+            <name>
+              <surname>Lyne</surname>
+              <given-names>Raphael</given-names>
+            </name>
+          </person-group>
+          <publisher-name>D. S. Brewer</publisher-name>
+          <publisher-loc>Woodbridge</publisher-loc>
+          <year>2007</year>
+          <fpage>154</fpage>
+          <lpage>74</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B36-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Owens</surname>
+              <given-names>W. R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Defoe, Robinson Crusoe, and the Barbary Pirates</article-title>
+          <source>English</source>
+          <year>2013</year>
+          <volume>62</volume>
+          <fpage>51</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1093/english/efs061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Potter</surname>
+              <given-names>Lois</given-names>
+            </name>
+          </person-group>
+          <article-title>Pirates and &#x2018;Turning Turk&#x2019; in Renaissance Drama</article-title>
+          <source>Travel and Drama in Shakespeare&#x2019;s Time</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Maquerlot</surname>
+              <given-names>Jean-Pierre</given-names>
+            </name>
+            <name>
+              <surname>Willems</surname>
+              <given-names>Mich&#xE8;le</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <year>1996</year>
+          <fpage>124</fpage>
+          <lpage>40</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B38-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanders</surname>
+              <given-names>Julie</given-names>
+            </name>
+          </person-group>
+          <source>The Cultural Geography of Early Modern Drama, 1620&#x2013;1650</source>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <year>2011</year>
+        </element-citation>
+      </ref>
+      <ref id="B39-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanders</surname>
+              <given-names>Julie</given-names>
+            </name>
+          </person-group>
+          <source>The Cambridge Introduction to Early Modern Drama, 1976&#x2013;1642</source>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B40-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shakespeare</surname>
+              <given-names>William</given-names>
+            </name>
+          </person-group>
+          <article-title>Twelfth Night, or What You Will</article-title>
+          <source>The Norton Shakespeare</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Greenblatt</surname>
+              <given-names>Stephen</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Norton</publisher-name>
+          <publisher-loc>New York and London</publisher-loc>
+          <year>1997</year>
+          <fpage>1768</fpage>
+          <lpage>821</lpage>
+          <comment>First published 1602</comment>
+        </element-citation>
+      </ref>
+      <ref id="B41-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Slights</surname>
+              <given-names>William E.</given-names>
+            </name>
+            <name>
+              <surname>Woloshyn</surname>
+              <given-names>Shelley</given-names>
+            </name>
+          </person-group>
+          <article-title>English Bess, English Pirates, English Drama: Feminism and Imperialism on the High Seas</article-title>
+          <source>Explorations in Renaissance Culture</source>
+          <year>2007</year>
+          <volume>33</volume>
+          <fpage>252</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="doi">10.1163/23526963-90000341</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Starkey</surname>
+              <given-names>David J.</given-names>
+            </name>
+            <name>
+              <surname>McCarthy</surname>
+              <given-names>Matthew</given-names>
+            </name>
+          </person-group>
+          <article-title>A Persistent Phenomenon: Private Prize-Taking in the British Atlantic World, c.1540&#x2013;1856</article-title>
+          <source>Persistent Piracy: Maritime Violence and State-Formation in Global Historical Perspective</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Amirell</surname>
+              <given-names>Stefan E.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;ller</surname>
+              <given-names>Leos</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Palgrave Macmillan</publisher-name>
+          <publisher-loc>Basingstoke</publisher-loc>
+          <year>2014</year>
+          <fpage>131</fpage>
+          <lpage>51</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B43-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vitkus</surname>
+              <given-names>Daniel J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Introduction: Three Turk Plays from Early Modern England</article-title>
+          <source>Three Turk Plays from Early Modern England: Selimus, A Christian Turned Turk, and The Renegado</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Vitkus</surname>
+              <given-names>Daniel J.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Columbia University Press</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <year>2000</year>
+          <fpage>1</fpage>
+          <lpage>53</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B44-humanities-09-00007">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vitkus</surname>
+              <given-names>Daniel J.</given-names>
+            </name>
+          </person-group>
+          <source>Turning Turk: English Theater and the Multicultural Mediterranean, 1570&#x2013;1630</source>
+          <publisher-name>Palgrave Macmillan</publisher-name>
+          <publisher-loc>Basingstoke and New York</publisher-loc>
+          <year>2003</year>
+        </element-citation>
+      </ref>
+      <ref id="B45-humanities-09-00007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wei</surname>
+              <given-names>Teresa J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polemical Tropes of Captivity in Philip Massinger&#x2019;s <italic>The Renegado</italic></article-title>
+          <source>Cahiers &#xC9;lisab&#xE9;thains</source>
+          <year>2009</year>
+          <volume>75</volume>
+          <fpage>33</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.7227/CE.75.1.5</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="fn001-humanities-09-00007">
+        <label>1</label>
+        <p>See, for example, W. R. Owens, who argues convincingly that &#x201C;for the contemporary readers of Defoe&#x2019;s <italic>Robinson Crusoe</italic>, the capture and enslavement of English citizens was not a remote, out of the ordinary event&#x201D; (<xref ref-type="bibr" rid="B36-humanities-09-00007">Owens 2013, p. 55</xref>), and that the brief references to piratical activity were enough to evoke readers&#x2019; previous knowledge.</p>
+      </fn>
+      <fn id="fn002-humanities-09-00007">
+        <label>2</label>
+        <p>Christopher Harding defines privateering as &#x201C;a form of maritime plunder carried out by private parties but authorized and sponsored by state authority through formal documentation known as letters of marque (sometimes referred to as &#x2018;commissions&#x2019;)&#x201D; (<xref ref-type="bibr" rid="B15-humanities-09-00007">Harding 2007, p. 24</xref>).</p>
+      </fn>
+      <fn id="fn003-humanities-09-00007">
+        <label>3</label>
+        <p>See Daniel J. Vitkus, who summarizes that, &#x201C;[i]n literature and legend, Saracens, Turks, and Moors frequently appear as ranting, fanatical killers who practice treachery, oath breaking, double-dealing, slavery, and piracy&#x201D; (<xref ref-type="bibr" rid="B43-humanities-09-00007">Vitkus 2000, p. 12</xref>).</p>
+      </fn>
+      <fn id="fn004-humanities-09-00007">
+        <label>4</label>
+        <p>Richard Frohock, for instance, points out that, &#x201C;[s]ailing on the literal and metaphorical margins of empire, pirates and privateers exposed the raw violence driving imperialism and raised questions about how brutalities reflected on personal and national values of heroism, benevolence, liberty, and trade&#x201D; (<xref ref-type="bibr" rid="B13-humanities-09-00007">Frohock 2012, p. 3</xref>).</p>
+      </fn>
+      <fn id="fn005-humanities-09-00007">
+        <label>5</label>
+        <p>With his pastoral tragicomedy <italic>The Faithful Shepherdess</italic> (1608, publ. 1608&#x2013;1610) Fletcher created one of the first generically self-conscious English tragicomedies. In the paratextual &#x2018;To the Reader&#x2019;, written to defend the play&#x2019;s (and its composer&#x2019;s) merits after its failure in performance, he famously defines that &#x201C;[a] tragie-comedie is not so called in respect of mirth and killing, but in respect it wants deaths, which is inough to make it no tragedie, yet brings some neere it, which is inough to make it no comedie&#x201D; (<xref ref-type="bibr" rid="B10-humanities-09-00007">Fletcher [1608&#x2013;1610] 1976, p. 497</xref>). Ira Clark suggests that &#x201C;[t]he whole of Massinger&#x2019;s dramatic art is founded on tragicomedy&#x201D; (<xref ref-type="bibr" rid="B6-humanities-09-00007">Clark 1993, p. 24</xref>).</p>
+      </fn>
+      <fn id="fn006-humanities-09-00007">
+        <label>6</label>
+        <p>Jowitt clarifies that &#x201C;the category of <italic>pirate</italic> includes a wide variety of figures from all sorts of social, religious and ethnic backgrounds, who were variously defined in different cultural registers as <italic>pirates</italic>, <italic>corsairs</italic>, <italic>buccaneers</italic>, and <italic>filibusters</italic>&#x201D; (<xref ref-type="bibr" rid="B24-humanities-09-00007">Jowitt 2012, p. 74</xref>).</p>
+      </fn>
+      <fn id="fn007-humanities-09-00007">
+        <label>7</label>
+        <p>For a brief delineation of James I&#x2019;s war policy against pirates see the introduction to David D. Hebb&#x2019;s <italic>Piracy and the English Government 1616&#x2013;1642: Policy-Making Under the Early Stuarts</italic> (<xref ref-type="bibr" rid="B16-humanities-09-00007">Hebb 1994</xref>) or Peter Earle&#x2019;s seminal <italic>The Pirate Wars</italic> (<xref ref-type="bibr" rid="B8-humanities-09-00007">Earle 2003</xref>). The proclamations concerning piracy are the following: &#x201C;A Proclamation concerning Warlike ships at Sea&#x201D;, 23 June 1603 (in <xref ref-type="bibr" rid="B26-humanities-09-00007">Larkin and Hughes 1973, pp. 30&#x2013;32</xref>); &#x201C;A Proclamation to represse all Piracies and Depredations upon the Sea&#x201D;, 30 September 1603 (ibid., pp. 53&#x2013;56); &#x201C;A Proclamation for the search and apprehension of certaine Pirats&#x201D;, 12 November 1604 (ibid., pp. 98&#x2013;99); &#x201C;A Proclamation for revocation of Mariners from forreine Services&#x201D;, 1 March 1605 (ibid., pp. 108&#x2013;11); &#x201C;A Proclamation with certaine Ordinances to be observed by his Majesties subjects toward the King of Spaine&#x201D;, 8 July 1605 (ibid., pp. 114&#x2013;17); &#x201C;A Proclamation for the search and apprehension of certaine Pirates&#x201D;, 13 June 1606 (ibid., pp. 145&#x2013;47); &#x201C;A Proclamation against Pirats&#x201D;, 8 January 1609 (ibid., pp. 203&#x2013;6); &#x201C;A Proclamation signifying his Majesties pleasure touching some former Proclamation; and some other things&#x201D;, 24 September 1610 (ibid., pp. 253&#x2013;57); and &#x201C;A Proclamation restraining the carrying of munition to Algeeres and Tunis&#x201D;, 6 April 1623 (ibid., pp. 574&#x2013;75).</p>
+      </fn>
+      <fn id="fn008-humanities-09-00007">
+        <label>8</label>
+        <p>Jowitt follows a slightly different line of argumentation in highlighting that by positioning the unrepentant, apostate pirate Ward against the repentant, Christian pirate Dansiker, Daborne&#x2019;s play is, essentially, ambiguous in its depiction of piracy (see <xref ref-type="bibr" rid="B20-humanities-09-00007">Jowitt 2003, pp. 158&#x2013;74</xref>).</p>
+      </fn>
+      <fn id="fn009-humanities-09-00007">
+        <label>9</label>
+        <p>Jowitt observes that Orsino&#x2019;s use of the term &#x2018;pirate&#x2019; is motivated by his own position: &#x201C;[...] Antonio is named a <italic>pirate&#x2014;</italic>clearly a term of abuse in Orsino&#x2019;s vocabulary&#x2014;largely because of the Duke&#x2019;s own interests, financial and familial, in the situation&#x201D; (<xref ref-type="bibr" rid="B24-humanities-09-00007">Jowitt 2012, p. 79</xref>).</p>
+      </fn>
+      <fn id="fn010-humanities-09-00007">
+        <label>10</label>
+        <p>See <xref ref-type="bibr" rid="B37-humanities-09-00007">Potter</xref> (<xref ref-type="bibr" rid="B37-humanities-09-00007">1996</xref>) for a more detailed delineation of classical pirate literature and the fear &#x2018;turning Turk&#x2019;. In her analysis of <italic>The Double Marriage</italic>, Munro notes that &#x201C;Fletcher and Massinger draw on literary and, in particular, classical material in their portrayal of the female pirate&#x201D; (<xref ref-type="bibr" rid="B34-humanities-09-00007">Munro 2007, p. 121</xref>).</p>
+      </fn>
+      <fn id="fn011-humanities-09-00007">
+        <label>11</label>
+        <p><italic>The Double Marriage</italic> combines the plotlines of two Senecan <italic>controversiae</italic>, &#x201C;The Pirate Chief&#x2019;s Daughter&#x201D; (1.6) and &#x201C;The Woman Who Was Tortured by the Tyrant for Her Husband&#x2019;s Sake&#x201D; (2.5). The other Massinger collaborations based on the <italic>controversiae</italic> are the tragicomic <italic>The Queen of Corinth</italic> (written with John Fletcher and Nathan Field, 1617); <italic>The Fatal Dowry</italic> (another Massinger-Field collaboration, <italic>c.</italic>1617&#x2013;1620); and <italic>The Laws of Candy</italic> (probably composed by Fletcher, Massinger, and new collaborator John Ford, <italic>c.</italic>1619&#x2013;1623).</p>
+      </fn>
+      <fn id="fn012-humanities-09-00007">
+        <label>12</label>
+        <p>See also (<xref ref-type="bibr" rid="B34-humanities-09-00007">Munro 2007, p. 131</xref>): &#x201C;In <italic>The Double Marriage</italic>, the tyrant acts like a pirate, and the pirate acts like a tyrant.&#x201D;</p>
+      </fn>
+      <fn id="fn013-humanities-09-00007">
+        <label>13</label>
+        <p>The texts most commonly named in this context are John Marston&#x2019;s <italic>The Malcontent</italic> (1603&#x2013;1604), Shakespeare&#x2019;s <italic>Measure for Measure</italic> (1603&#x2013;1604), and Thomas Middleton&#x2019;s <italic>The Phoenix</italic> (1604), which also, coincidentally, features a pirate captain.</p>
+      </fn>
+      <fn id="fn014-humanities-09-00007">
+        <label>14</label>
+        <p>See Rita Banerjee, who has pointed out that &#x201C;[t]he words denoting violent seizure&#x201D; in the last scene of the play&#x2014;&#x201C;&#x2018;spoyle,&#x2019; &#x2018;lawlesse rapine,&#x2019; &#x2018;force,&#x2019; &#x2018;ravish&#x2019;&#x2014;characterize piracy&#x201D; (<xref ref-type="bibr" rid="B3-humanities-09-00007">Banerjee 2013, p. 303</xref>) and asserts that piratical activity is one element of the general depiction of &#x201C;the brutal patriarchy of pirates that <italic>The Sea Voyage</italic> condemns and eliminates&#x201D; (ibid., p. 315).</p>
+      </fn>
+      <fn id="fn015-humanities-09-00007">
+        <label>15</label>
+        <p>See Vitkus&#x2019;s groundbreaking <italic>Turning Turk: English Theater and the Multicultural Mediterranean, 1570&#x2013;1630</italic> (2003). He argues that &#x201C;Massinger&#x2019;s tragicomedy rewrites <italic>A Christian Turned Turk</italic> to create a plot that reverses the outcome of Daborne&#x2019;s tragedy by affirming the power of Christianity to &#x2018;redeem&#x2019; and recover both Muslims and renegades&#x201D; (<xref ref-type="bibr" rid="B44-humanities-09-00007">Vitkus 2003, p. 161</xref>). Teresa J. Wei reads <italic>The Renegado</italic> as offering &#x201C;a dramatic rehearsal of the triangulated tensions of Anglo-Catholic-Islamic identity politics, playing out anxieties about the reversible nature of gender and religious identities in the early modern period&#x201D; (<xref ref-type="bibr" rid="B45-humanities-09-00007">Wei 2009, p. 42</xref>).</p>
+      </fn>
+      <fn id="fn016-humanities-09-00007">
+        <label>16</label>
+        <p>Jowitt reads <italic>The Renegado</italic> as an allegorical play in which &#x201C;the Italians act as surrogate English&#x201D; (<xref ref-type="bibr" rid="B21-humanities-09-00007">Jowitt 2006, p. 154</xref>).</p>
+      </fn>
+      <fn id="fn017-humanities-09-00007">
+        <label>17</label>
+        <p>The pirates might, of course, have been visibly marked as racial Others by make-up and costume in actual performances of the play.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

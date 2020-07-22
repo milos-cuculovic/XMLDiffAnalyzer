@@ -1,0 +1,2288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">education</journal-id>
+      <journal-title-group>
+        <journal-title>Education Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Educ. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Education Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2227-7102</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/educsci10010014</article-id>
+      <article-id pub-id-type="publisher-id">education-10-00014</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Implementation of an Ethical Education Curriculum in Secondary Schools in Ireland</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bourke</surname>
+            <given-names>Maria</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kinsella</surname>
+            <given-names>William</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0830-9817</contrib-id>
+          <name>
+            <surname>Prendeville</surname>
+            <given-names>Paula</given-names>
+          </name>
+          <xref rid="c1-education-10-00014" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-education-10-00014">School of Education, University College Dublin, D04 V1W8 Belfield, Dublin 4, Ireland; <email>maria.bourke1@ucdconnect.ie</email> (M.B.); <email>william.kinsella@ucd.ie</email> (W.K.)</aff>
+      <author-notes>
+        <corresp id="c1-education-10-00014"><label>*</label>Correspondence: <email>paula.prendeville@ucd.ie</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>1</issue>
+      <elocation-id>14</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The paper investigates teachers&#x2019; and principals&#x2019; experiences of implementing a pilot of an ethical education (EE) curriculum to a senior cycle programme in Educate Together secondary schools in Ireland. The development of this curriculum was informed by the Integrative Ethical Education Model (Lapsley and Narvaez, 2004). Thirteen teachers and two school principals were interviewed about their experiences of this curriculum and its impact on school culture and organisation. An implementation science approach informed a thematic analysis of transcripts that interrogated the perspectives of participants, and revealed the systemic factors that included barriers to, and facilitators of, EE curriculum implementation. Interviews were analysed inductively, by exploring participants&#x2019; experiences, and deductively, using Narvaez&#x2019;s framework of ethical skills. Results were presented within the domains of school setting, wider school setting, curriculum characteristics and teacher characteristics, reflecting an implementation science approach. Findings suggest that this curriculum nurtured a positive school climate where students identified as having a greater sense of school belonging as a result of access to this curriculum.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>moral education</kwd>
+        <kwd>character education</kwd>
+        <kwd>ethical education</kwd>
+        <kwd>secondary schools in Ireland</kwd>
+        <kwd>Integrative Ethical Education Model</kwd>
+        <kwd>curriculum implementation</kwd>
+        <kwd>educate together</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-education-10-00014" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The aim of this paper is to provide an account of an ethical education (EE) curriculum that was piloted in three secondary schools in Ireland as the first phase of a curriculum evaluation process. Educate Together (ET) is a non-governmental, registered charity, equality school organisation that adopts a secular approach to primary and secondary education. The approach of ET schools is in stark contrast to the largely traditional faith-based school system that has characterised the Irish school system to date. This paper commences by providing an overview of the educational context in Ireland in which ethical education (EE) has emerged. Moral identity in adolescence and EE are defined within philosophical and psychological paradigms. An implementation science framework informs the methodological section where principals and teachers were questioned on their experiences of the facilitators of, and barriers to, implementing this curriculum in schools. Interviews were thematically analysed using both inductive and deductive approaches, reflecting participants&#x2019; experiences and using an ethical skills framework [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>] respectively. The results illustrate the impact of the EE curriculum on participating schools from the domains of school setting, wider school setting, curriculum characteristics and teacher characteristics. The discussion section interrogates these findings in the context of previous research. How the EE curriculum impacts on school culture and student identity are addressed from the perspectives of teachers and school principals. In the final section, assessing EE in schools, and teacher fidelity to the curriculum are discussed.</p>
+      <sec id="sec1dot1-education-10-00014">
+        <title>1.1. Educational Context </title>
+        <p>Irish society has changed from being largely culturally and religiously homogenous to one that is increasingly characterised by diversity and pluralism [<xref ref-type="bibr" rid="B2-education-10-00014">2</xref>]. Reflecting on values within the education system is increasingly important given rapid changes in cultural, religious and ethnic pluralism in Ireland [<xref ref-type="bibr" rid="B3-education-10-00014">3</xref>]. To meet the needs of an increasingly pluralistic and secular society, Educate Together (ET) schools were set up in Ireland in 1984. Their aim was to ensure equal rights for children of all religions, cultural and social backgrounds against a backdrop of a school system which was predominantly denominational and run by the Catholic Church. The monopoly of the Catholic Church&#x2019;s hold on the values and lives of Irish people has greatly diminished [<xref ref-type="bibr" rid="B4-education-10-00014">4</xref>]. Indeed, some have noted that increased secularisation, individualisation and fragmentation of value systems [<xref ref-type="bibr" rid="B3-education-10-00014">3</xref>] present the youth of today with many challenges when navigating values and norms [<xref ref-type="bibr" rid="B5-education-10-00014">5</xref>] The Education Act [<xref ref-type="bibr" rid="B6-education-10-00014">6</xref>] in Ireland requires that schools &#x201C;promote the moral, spiritual, social and personal development of students in consultation with their parents, having regard to the characteristic spirit of the school.&#x201D; The aim of this ethical education (EE) curriculum for the senior cycle level is to enable learners to develop skills and values to become active and caring members of a culturally diverse society [<xref ref-type="bibr" rid="B7-education-10-00014">7</xref>] Engaging in this curriculum allows learners the opportunity to reflect on, and critique, their values, and the values of others, via exposure to ethical issues in globally diverse cultural contexts. Objectives of this curriculum also include providing learners with opportunities to engage in ethical reflections and debate to arrive at an informed perspective of the world, with particular emphasis placed on sustainable development and human rights [<xref ref-type="bibr" rid="B7-education-10-00014">7</xref>]. </p>
+        <p>Character and ethical education can play an important role the adolescent years, as it can influence teenagers&#x2019; value development and enrich the development of character traits, morals, prosocial behaviour and skills such as intercultural dialogue, critical thinking and decision making. The development of these skills can prepare young people to live in a society characterised by pluralism, increased crisis, turmoil and increased global interconnectivity [<xref ref-type="bibr" rid="B8-education-10-00014">8</xref>,<xref ref-type="bibr" rid="B9-education-10-00014">9</xref>,<xref ref-type="bibr" rid="B10-education-10-00014">10</xref>]. Moral self-identity is essential for adolescents to living a purposeful life and contributes to their well-being, generatively, and integrity [<xref ref-type="bibr" rid="B11-education-10-00014">11</xref>].</p>
+        <p>Character and ethical education programmes will need to capitalise on this important period of teenage growth, because, as a curriculum, it has often been neglected in the upper teenage years [<xref ref-type="bibr" rid="B12-education-10-00014">12</xref>,<xref ref-type="bibr" rid="B13-education-10-00014">13</xref>]. Therefore, it is important to investigate the processes required for effective character and ethical education implementation in these years so that best efforts can be made to support adolescents&#x2019; moral development as they transition into adulthood with minimal complications [<xref ref-type="bibr" rid="B14-education-10-00014">14</xref>]. </p>
+      </sec>
+      <sec id="sec1dot2-education-10-00014">
+        <title>1.2. Moral Identity and Development in Adolescence</title>
+        <p>Adolescents are at a particularly crucial time in terms of their neurodevelopment, which greatly impacts on their behaviour, decision making, emotional well-being and behaviour [<xref ref-type="bibr" rid="B15-education-10-00014">15</xref>,<xref ref-type="bibr" rid="B16-education-10-00014">16</xref>]. Although the teenage brain is vulnerable to risks, it is also primed to be positively influenced by role models, dynamic classroom strategies, school wide innovations and a rich learning environment at home and at school [<xref ref-type="bibr" rid="B17-education-10-00014">17</xref>] (Education, given its role in preparing individuals for further life and work, has gained considerable importance in this context and has become one of the fundamental pillars of societal development [<xref ref-type="bibr" rid="B8-education-10-00014">8</xref>]. </p>
+        <p>Historically, moral psychology was dominated by a rationalist, cognitive-developmental theoretical perspective that focused on moral reasoning or decision making regarding how right or wrong an act was [<xref ref-type="bibr" rid="B18-education-10-00014">18</xref>]. According to Rest et al. [<xref ref-type="bibr" rid="B19-education-10-00014">19</xref>], a Neo Kohlbergian theory postulates that a child&#x2019;s development is gradual and leads to more mature forms of thinking, and that moral rationality is a part of a much larger and more complex cognitive system [<xref ref-type="bibr" rid="B19-education-10-00014">19</xref>]. Narvaez [<xref ref-type="bibr" rid="B20-education-10-00014">20</xref>,<xref ref-type="bibr" rid="B21-education-10-00014">21</xref>] outlines the social, neurobiological underpinnings of moral functioning in her Triune Ethics Theory. This theory is an attempt to merge research in neurobiology, affective neuroscience [<xref ref-type="bibr" rid="B22-education-10-00014">22</xref>,<xref ref-type="bibr" rid="B23-education-10-00014">23</xref>] and cognitive science in order to integrate them into moral psychology. This theory posits that moral functioning is dependent on emotional systems shaped during sensitive periods. </p>
+        <p>Triune Ethics Theory has important implications for the moral development of teenagers, given that this time is characterised by a critical period of brain development. In particular, the engagement and communal imagination ethics are considered malleable and can be influenced in the classroom [<xref ref-type="bibr" rid="B24-education-10-00014">24</xref>]. An understanding of this theory can help educators to understand why some learners&#x2019; reasoning and emotions are disconnected from one another and why some learners may appear to be more morally immature than others. It also helps educators to understand the impact of developmental trauma and neglect on learners&#x2019; moral development and on the activation of their safety ethic, creating a more compassionate response to behaviour that may appear to be challenging. The theory stresses the importance of caring relationships and the presence of the &#x201C;one good adult&#x201D; in school settings for the moral development of teenagers. </p>
+      </sec>
+      <sec id="sec1dot3-education-10-00014">
+        <title>1.3. Defining Character and Ethical Education</title>
+        <p>The character and ethical education field is a &#x201C;semantic morass,&#x201D; filled with intractable problems relating to language and definition [<xref ref-type="bibr" rid="B25-education-10-00014">25</xref>,<xref ref-type="bibr" rid="B26-education-10-00014">26</xref>]. Ethical education is synonymously known as values education, character education and moral education [<xref ref-type="bibr" rid="B27-education-10-00014">27</xref>], all pointing to very different paradigmatic preferences or traditions in psychology, ethical theories and curricular objectives and pedagogies [<xref ref-type="bibr" rid="B28-education-10-00014">28</xref>]. Nucci and Narvaez [<xref ref-type="bibr" rid="B29-education-10-00014">29</xref>] point out that &#x201C;there is no single source that brings together research and scholarship on the diverse perspectives and approaches to moral and character education&#x201D; (p. ix). </p>
+        <p>According to Lapsley and Narvaez [<xref ref-type="bibr" rid="B30-education-10-00014">30</xref>], approaches to character education should be grounded in sound scientific literature in the areas of cognitive and developmental science, motivation, social cognition and personality. Furthermore, an understanding of character education will also need alignment with educational psychology literature compatible with best practice and evidence regarding teaching, learning and achievement [<xref ref-type="bibr" rid="B31-education-10-00014">31</xref>,<xref ref-type="bibr" rid="B32-education-10-00014">32</xref>]. These pedagogical approaches overlap with those that also nurture pro-social development and character in young people [<xref ref-type="bibr" rid="B30-education-10-00014">30</xref>]. For the purposes of this research, character and ethical education is defined within both a psychological, moral and an educational approach to building character in young people: &#x201C;Character education targets a subset of child development. This subset (character development) is the composite of those psychological characteristics that enable and motivate the child to function and identify as an effective moral agent&#x201D; [<xref ref-type="bibr" rid="B33-education-10-00014">33</xref>] (p. 30). </p>
+        <p>Researchers and educators are proposing integrative approaches to character and moral education that are multidimensional, in that they consider the best insight of both paradigms informing character education and moral education. These approaches have attempted to resolve philosophical questions by focusing on psychological issues instead [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>,<xref ref-type="bibr" rid="B18-education-10-00014">18</xref>]. They combine multiple theories in one overarching approach. One such approach is the Integrative Ethical Education Model (IEE) [<xref ref-type="bibr" rid="B34-education-10-00014">34</xref>,<xref ref-type="bibr" rid="B35-education-10-00014">35</xref>,<xref ref-type="bibr" rid="B36-education-10-00014">36</xref>]. The IEE is a developmental systems model [<xref ref-type="bibr" rid="B30-education-10-00014">30</xref>] that combines individual and community flourishing with a cognitive perspective of human learning and cognition. It acknowledges the goal of developing reflective reasoning and a commitment to justice, which is required for the development of democratic communities. Furthermore, the approach acknowledges the demands of citizenship in a pluralistic democracy and that the ability to engage in democratic procedures is reliant on having a character of a certain kind [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>] (p. 703). The IEE model attempts to integrate ancient Greek terms of <italic>eudaimonia</italic> (human flourishing in the community) with <italic>techne</italic> (expertise). It builds on the work of Rest&#x2019;s model and the Triune Ethics Theory, which provide the foundation for its core ideas [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>,<xref ref-type="bibr" rid="B24-education-10-00014">24</xref>]:</p>
+        <p>The IEE model [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>] has important implications for how schools and teachers can both directly and indirectly cultivate learner moral development. It indicates the need for teachers to directly teach the processes and skills of moral behaviour. Moral behaviour requires noticing a moral need, imagining and reasoning about what action to take, focusing on taking action and following through on the end result. Therefore, moral behaviour will require skills in all four processes (ethical sensitivity, ethical judgement, ethical focus and ethical action) for successful completion of moral action. </p>
+        <p>The need for educators to set up well-structured environments that foster appropriate ethical intuitions is also considered. Since behaviour is mainly based on our tacit knowledge, adults must endeavour to create an environment that tunes up the right intuitions in children. This is heavily related to a positive climate that meets the needs of the child and fosters a sense of belonging to the larger group as well as fosters flourishing and resiliency [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>]. Specifically, caring schools and classrooms that cultivate a caring connection supports mutual influence for mutual benefit, motivation and an engagement ethic [<xref ref-type="bibr" rid="B20-education-10-00014">20</xref>,<xref ref-type="bibr" rid="B24-education-10-00014">24</xref>]. Well-structured environments also involve creating opportunities for collaboration and participation in open discussions, training in social skills, opportunities for helping others and greater student autonomy, self-direction and influence.</p>
+        <p>In order to move learners from <italic>naivete</italic> to competence in ethical-know, teachers and educators should teach in ways that develop both the intuitive mind and the deliberative mind [<xref ref-type="bibr" rid="B24-education-10-00014">24</xref>]. Through teacher role modelling, a moral orientation to life [<xref ref-type="bibr" rid="B30-education-10-00014">30</xref>], as well immersion in active environments where skills are practised (e.g., role models and appropriate feedback), the intuitive mind can be developed, leading to automatized moral schemas [<xref ref-type="bibr" rid="B36-education-10-00014">36</xref>]. The deliberate mind can be developed through theoretical explanation and dialogue, as well as adults coaching children in how to select activities and environments that foster good intuition [<xref ref-type="bibr" rid="B30-education-10-00014">30</xref>]. The IEE model informed the development of the EE curriculum that was the focus of this study. </p>
+      </sec>
+      <sec id="sec1dot4-education-10-00014">
+        <title>1.4. Educate Together Schools in Ireland</title>
+        <p>Educate Together (ET) is a registered charity and non-governmental, patron body of a number of equality-based primary and secondary schools in Ireland. The ethos of ET schools espouses equity of access to all children and families, regardless of their religion, identity, race, ethnicity, language, lifestyle, class, gender or ability. These schools are run according to the Educate Together Charter [<xref ref-type="bibr" rid="B37-education-10-00014">37</xref>], which &#x201C;affirms that children of all social, cultural, religious and non-religious backgrounds have a right to an education that reflects their individual identity while exploring the different values and traditions of the world in which they live&#x201D; [<xref ref-type="bibr" rid="B38-education-10-00014">38</xref>]. All ET schools place a strong emphasis on ethical approaches to all aspects of school life. A set of ethical education curricula at both primary and secondary level education have been developed in contrast to traditional schools, which have attempted to explore matters such as ethical or moral education through religious education [<xref ref-type="bibr" rid="B4-education-10-00014">4</xref>,<xref ref-type="bibr" rid="B39-education-10-00014">39</xref>]. Educate Together schools provide an education to learners in a pluralistic environment without religious doctrine using EE curricula as distinct from other faith-based schools in Ireland. </p>
+      </sec>
+      <sec id="sec1dot5-education-10-00014">
+        <title>1.5. The Senior Ethical Education Curriculum</title>
+        <p>The EE curriculum (Access to Educate Together&#x2019;s ethical education documentation is available at <uri>https://learning.educatetogether.ie/course/view.php?id=26#section-2</uri>) specifically devised for the Senior Cycle programme in ET schools involves an exploration of different worldviews and beliefs, interrogates ethical dilemmas, and engages learners in the process of ethical decision making. It invites students and teachers to examine issues facing society to support students to develop the skills of critical thinking, self-awareness, altruism, communication, informed decisions and informed and considered values [<xref ref-type="bibr" rid="B7-education-10-00014">7</xref>]. Further detail on the programme is outlined in <xref ref-type="table" rid="education-10-00014-t001">Table 1</xref> below where each curricular strand is presented that illustrates how students have the opportunity to develop their ethical skills.</p>
+      </sec>
+    </sec>
+    <sec id="sec2-education-10-00014" sec-type="methods">
+      <title>2. Methodology</title>
+      <p>This study was the first phase of a curriculum evaluation of pilot implementation of the EE curriculum. The aim of this paper was to evaluate teachers&#x2019; and principals&#x2019; experiences of implementing a pilot EE curriculum to a senior cycle programme trialled in three ET secondary schools in Ireland. The second phase of this process will seek the perspectives of learners who have engaged in this curriculum to acknowledge their voices and to include them as active participants in this curriculum evaluation process. This focus of this paper is to report on the first phase of this research project that aims to identify the barriers to, and facilitators of, its effect on school culture and school organisation. The research questions include:<list list-type="order"><list-item><p>What are teachers&#x2019; and principals&#x2019; systemic perspectives of the EE curriculum?</p></list-item><list-item><p>What is the perceived impact of the curriculum on ET student identity formation, school policy, culture and organisation from the perspectives of teachers and school principals?</p></list-item></list></p>
+      <p>This research adopted a qualitative research design approach. Its purpose was to develop an in-depth understanding of a phenomenon under investigation (EE curriculum) and this method provides a holistic view of complex and dynamic social circumstances [<xref ref-type="bibr" rid="B40-education-10-00014">40</xref>]. Ethical approval was sought and granted by the university to which the researchers are affiliated. Consent was also sought and granted from Educate Together and from Boards of Management of each participating school where the curriculum was piloted. Each participant completed a process of informed consent prior to interviews taking place. They were informed that the information they shared would be treated anonymously and that no teacher or school would be identified in the analysis or write up of the findings from this process. This process also ensured that participants were open and honest about their experiences acknowledging the integrity of this research to inform the further development of this curriculum.</p>
+      <sec id="sec2dot1-education-10-00014">
+        <title>2.1. Data Collection</title>
+        <p>Interviewing as a method of data collection was chosen to generate a rich and contextualised insight into participants&#x2019; experiences of implementing this curriculum at a school staff level. A combination of both telephone and in-person interviews were conducted with 13 teachers and two school principals from three schools. </p>
+      </sec>
+      <sec id="sec2dot2-education-10-00014">
+        <title>2.2. Data Analysis</title>
+        <p>Thematic analysis is &#x201C;a method for systematically identifying, organising, and offering insight into patterns of meaning (themes) across a data set&#x2026;.it allows the researcher to see and make use of collective or shared meanings and experiences&#x201D; [<xref ref-type="bibr" rid="B41-education-10-00014">41</xref>] (p. 57). This method was chosen due to its flexibility of approach as analysis for these interviews involved a hybrid between inductive and deductive approaches [<xref ref-type="bibr" rid="B42-education-10-00014">42</xref>]. This approach allowed researchers to explore emergent themes from the data as well as using suitable frameworks and existing literature [<xref ref-type="bibr" rid="B43-education-10-00014">43</xref>]. Narvaez&#x2019;s framework of ethical skills informed the deductive analytical component of the analysis.</p>
+        <p>The interviews were transcribed using NVivo software package and subject to error. Checking for accuracy of transcriptions, alongside audio recordings, initially helped with familiarisation of the data. Initial notes were taken that aided in highlighting potential items of interest and to see the words in a more active, analytic and critical manner. The next stage of the method involved generating initial codes; identifying and providing a label for a feature of the data that is potentially relevant to the research question. A second round of data analysis took place, a theoretical thematic approach that was informed by an implementation framework. Analysis was conducted using QDA Miner Lite, a computer assisted software package for qualitative research analysis. </p>
+        <p>Once codes were created for the data, all codes were reviewed to identify broad topics of themes. Themes &#x201C;capture something important about the data in relation to the research question, and represent some level of patterned response or meaning within the data set [<xref ref-type="bibr" rid="B42-education-10-00014">42</xref>] (p. 82). The implementation framework [<xref ref-type="bibr" rid="B44-education-10-00014">44</xref>] was consulted in order to support themes. Themes that did not have sufficient data to support them, or were too diverse, were discarded and further coding occurred, ensuring that there were distinct and coherent themes that worked in relation to the coded data extracts, and with the entire data set [<xref ref-type="bibr" rid="B41-education-10-00014">41</xref>]. In order to assess how the senior EE curriculum was informed by an understanding of the literature relating to character, the learning outcomes were deductively coded using Narvaez&#x2019; [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>] framework of ethical skills. A sample of this coding is detailed in <xref ref-type="table" rid="education-10-00014-t002">Table 2</xref>. </p>
+      </sec>
+    </sec>
+    <sec id="sec3-education-10-00014" sec-type="results">
+      <title>3. Results</title>
+      <p>The analysis of interviews completed with teachers and principals, regarding their experiences of implementing the senior EE curriculum, are presented from an analysis of contexts that include school setting, wider school setting, curriculum characteristics and teacher characteristics. </p>
+      <sec id="sec3dot1-education-10-00014">
+        <title>3.1. School Setting</title>
+        <sec id="sec3dot1dot1-education-10-00014">
+          <title>3.1.1. Networks and Communications</title>
+          <p>Eight teachers described the strong collaboration and collegiality that existed among teachers working together in their schools. Teacher 4 noted how &#x201C;the whole school work together positively.&#x201D; She further described that there was collegiality among staff and departments who worked together for the good of the learners: &#x201C;Departments help each other and there is a sense of collaboration particularly when the school is involved in a project&#x201D;. Individual staff teams were reported to share resources among each other and to also have an electronic platform for sharing ideas and information among all schools. However, these systems were reported by four staff members to be inadequate. For example, Teacher 5 noted the difficulties with the communication system in place currently for sharing resources: &#x201C;&#x2026;Just through email and padlet you almost sometimes, you have too much and that&#x2019;s not just with ethical education, that&#x2019;s with every subject.&#x201D; </p>
+          <p>Collaborating with other teachers, who also teach the curriculum, generally during Continuous Professional Development (CPD) training days, was reported by ten participants to be very beneficial. These days provided opportunities &#x201C;to dialogue with the staff and ET or whoever they have hired to support them&#x201D; as well providing an opportunity to visit other schools (Principal 2). Teacher 12 stated: &#x201C;It&#x2019;s probably the most helpful to chat to people who have actually have taught it; their experiences so far, what&#x2019;s worked well and any good ideas they&#x2019;ve had.&#x201D; Teachers reported that they would like &#x201C;more opportunities to share with other teachers&#x201D; (Teacher 3). </p>
+        </sec>
+        <sec id="sec3dot1dot2-education-10-00014">
+          <title>3.1.2. Readiness for Implementation</title>
+          <sec>
+            <title>Teacher Preparedness</title>
+            <p>Both principals interviewed did not believe that teachers were sufficiently equipped with the knowledge and skills necessary to deliver the curriculum. Principal 2 stated: &#x201C;No they&#x2019;re not [prepared]. Because it&#x2019;s so new and that&#x2026;that&#x2019;s not necessarily as negative as it might sound&#x2026; because only four teachers have taught it for one year. All of them needed to have CPD. And it&#x2019;s very new to them&#x201D;. Although only two teachers stated that they felt prepared and competent to teach the curriculum, most teachers new to the subject stated that they did not feel adequately prepared to teach the curriculum at the start. Teacher 7 stated: &#x201C;Yes I do [feel prepared]&#x2026; I do now. I very much wasn&#x2019;t at the start of the year.&#x201D; This teacher also stated that experience helped her to feel more prepared: &#x201C;It&#x2019;s one of those things&#x2026; you know you do it for a year and you&#x2019;re just far better at it.&#x201D; Training and resources, including more teaching experience were noted to help teachers to feel more prepared to teach the curriculum. </p>
+          </sec>
+          <sec>
+            <title>Resources</title>
+            <p>Thirteen out of the fifteen participants spoke positively about the resources and curriculum specification. However, several teachers reported that, irrespective of what EE resources were available, some aspects of the pilot curriculum were not suitable to meet the needs of the some learners. For example, Teacher 8 stated: &#x201C;There&#x2019;s so much knowledge there already&#x2026; it&#x2019;s about making it relevant&#x201D;. Principal 2 noted that regardless of the resources, teachers must have foundational skills in pedagogy and the competence to apply them appropriately to meet the needs of specific learners. </p>
+          </sec>
+          <sec>
+            <title>Training</title>
+            <p>None of the teachers interviewed reported having received any training in ethical and moral education during their initial teacher training (ITE). One teacher reported having completed a module relating to EE in postgraduate study, and two other teachers could relate some of the content of their postgraduate studies to EE indirectly. Despite the availability of bursaries for teachers to complete EE diplomas, no teachers reported having completed these. It was noted by Teacher 1 that a lack of incentives for teachers may be acting as a barrier to staff completing additional training, &#x201C;It&#x2019;s not incentivised at second level so you will have people do it out of their own time.&#x201D; For eleven teachers, the training devised by ET was the sole source of their CPD in the area. Teachers were positive about the training days provided where Teacher 5 noted &#x201C;they were fantastic, very efficient.&#x201D; Principal 2 also stated: &#x201C;I know the feedback here from the team is that they value very much that. And they feel that the CPD, limited that it might be&#x2026;that it has been very valuable.&#x201D; The need for additional training in the philosophical component of the curriculum was highlighted, due to the difficulties experienced by teachers with no background in philosophy. </p>
+          </sec>
+        </sec>
+        <sec id="sec3dot1dot3-education-10-00014">
+          <title>3.1.3. School Culture and Classroom Structures that Support Ethical Development</title>
+          <p>Most teachers were optimistic that the curriculum had the potential to impact on school culture in a positive manner. For example, teacher 9 reported that &#x201C;it is evident in the everyday, you know, fabric of running of the school.&#x201D; Ethical practice, and an ethical agenda in the school, embraced and encouraged by management and staff, was said to encourage positive staff relationships among team members by principal 2: &#x201C;it&#x2019;s the management team and teachers embracing&#x2026;and trying to be ethical in our practice and in our relationships&#x201D;. Teachers and principals had mixed views about how teaching the curriculum directly impacted on learner&#x2013;teacher relationships. Many believed that that the curriculum had a positive effect in cultivating mutually respectful, equitable and collaborative relationships in learners&#x2019; interactions. Staff relationships were also said to be positively impacted by the ethical agenda in the school. Teacher 6 noted that EE &#x201C;is part and parcel of the school community, insofar as we are endeavouring to create active teachers, we&#x2019;re endeavouring to create an inclusive school community and that requires an awareness of others, awareness of self and acceptance of others&#x2026; [the curriculum] is the culture of our school&#x201D;.</p>
+          <p>Whole school ethical endeavours were noted as an attempt to help raise awareness of EE. However, efforts to raise teacher awareness of EE did not appear to be visible in all schools. Teacher 9 noted that she would like EE to be &#x201C;more visible in the schools&#x201D; for all staff members. Teachers also reported that efforts were being made to increase all teachers&#x2019; awareness in relation to ethical cross-curricular links. </p>
+        </sec>
+        <sec id="sec3dot1dot4-education-10-00014">
+          <title>3.1.4. Learner Centred </title>
+          <p>All teachers reported that learners enjoyed attending EE classes. In particular, teachers reported that learners enjoyed controversial issues, learning about the world and discussing topical issues. For example, Teacher 12 stated &#x201C;I think things that are quite topical they enjoy,&#x201D;. Teacher 11 also noted that learners &#x201C;love getting their values or opinions across in whatever they&#x2019;re doing&#x201D; and appreciated the stress-free time away from academic and exam pressures: &#x201C;But, generally speaking, students enjoyed the fact that they had an hour off from the pressures of exam, exam, exam&#x201D; (Teacher 11). Despite positive reports from teachers regarding learners&#x2019; experiences of the curriculum, teachers also noted that some learners were somewhat disengaged from the subject for various reasons. Academic and exam pressures were reported to be an issue, which led some learners to question the relevancy, or benefit, of engaging in the curriculum. </p>
+        </sec>
+      </sec>
+      <sec id="sec3dot2-education-10-00014">
+        <title>3.2. Wider School Setting</title>
+        <sec id="sec3dot2dot1-education-10-00014">
+          <title>3.2.1. Social Capital </title>
+          <p>Social capital is defined as the extent to which an organisation is networked with other external organisations. Applied to EE, this includes an examination of school&#x2013;community relationships as well home-school relationships. </p>
+        </sec>
+        <sec id="sec3dot2dot2-education-10-00014">
+          <title>3.2.2. School Community Relationships</title>
+          <p>Some teachers reported that positive relationships developed between school and community arising from engagement with the EE curriculum. Teachers reported that the school community had &#x201C;a more thorough understanding of the cultures and communities in which we work&#x201D; (Teacher 1) and was also due to activities in the school that involves the local community. Teacher 7 hoped that the curriculum would benefit the community because it was the job of the school &#x201C;to create more aware, decent people&#x201D;.</p>
+        </sec>
+        <sec id="sec3dot2dot3-education-10-00014">
+          <title>3.2.3. Home School Relationships</title>
+          <p>Eleven teachers specifically relayed that the curriculum had impacted home school relationships positively. According to Teacher 1, this was &#x201C;because of the celebration of diversity&#x201D; and acknowledging family diversity and culture. For example, Teacher 5 stated: &#x201C;Our relationship with parents&#x2026; I&#x2019;m not sure if you could pinpoint and say EE influences that we do we have a great relationship with parents. But again I think that&#x2019;s from Educate Together in that we&#x2019;re democratically run and the parents have a say in everything,&#x201D; Principal 2 echoed this sentiment, stating, &#x201C;I couldn&#x2019;t say that the actual EE program per say does, but I think the concept of ethical practice does.&#x201D; </p>
+        </sec>
+      </sec>
+      <sec id="sec3dot3-education-10-00014">
+        <title>3.3. Curriculum Characteristics</title>
+        <sec>
+          <title>Curriculum Assessment</title>
+          <p>Teachers&#x2019; reported on a range of assessment methods when teaching the EE curriculum. Generally, teachers tended towards less formal approaches to assessment such as journals, projects, online surveys, monitoring classroom discussions for comprehension, observation of learners in class, interviewing students and reflection. For example, Teacher 12 noted, &#x201C;Yes, it&#x2019;s kind of...It&#x2019;s really about their participation in class. I evaluate them by whether they get involved in the class discussion, where they come up with ideas, and are actually putting an effort in, or whether they just see it [EE class] as a class off.&#x201D; Some teachers discussed the challenges that they experienced attempting to effectively assess learners&#x2019; moral and ethical skill development. As Teacher 11 noted, &#x201C;assessment and reporting is definitely something that needs to be, I suppose, integrated a little bit more. Because we have to report students&#x2019; progress in EE three times a year.&#x201D;</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot4-education-10-00014">
+        <title>3.4. Teacher Characteristics</title>
+        <p>This theme reflects teachers&#x2019; perspectives regarding the benefit that the EE curriculum has for learners. It also is related to the personal characteristics and qualities that teachers considered important and helpful when delivering this curriculum.</p>
+        <sec id="sec3dot4dot1-education-10-00014">
+          <title>3.4.1. Knowledge and Beliefs</title>
+          <sec>
+            <title>Benefits for Learners</title>
+            <p>Teachers reported that students developed a range of moral and ethical skills by engaging in the EE curriculum. For example, developing skills in &#x201C;<italic>ethical sensitivity</italic>&#x201D; [<xref ref-type="bibr" rid="B32-education-10-00014">32</xref>]. Teacher 6 reported that learners &#x201C;learn more about one another and become more accepting of difference.&#x201D; Learners were observed engaging in &#x201C;<italic>ethical judgement</italic>&#x201D; [<xref ref-type="bibr" rid="B32-education-10-00014">32</xref>]: As Teacher 7 stated, &#x201C;students learned that decisions aren&#x2019;t always yes or no and somethings, you know, you should maybe question why people make particular decisions.&#x201D; Teachers reflected on students emerging skills in critical thinking. For example, regarding &#x201C;<italic>ethical focus skills</italic>&#x201D; [<xref ref-type="bibr" rid="B32-education-10-00014">32</xref>], teachers reported that students developed the ability to reflect on the meaning of life, flourishing and <italic>eudomonia</italic>. Speaking about a lesson that Teacher 1 completed with her learners, she stated that &#x201C;students both recognize the value in each other&#x2019;s religious perspectives and how you don&#x2019;t have to be Islam to think that alms is a good idea. You don&#x2019;t have to be a Muslim to think that Ramadan is a good idea.&#x201D; Other ethical skills that teachers observed in students included a greater understanding and awareness of themselves and others, critical thinking and reflection. Teacher 5 reported that the EE curriculum &#x201C;encourages [learners] to value education&#x201D;. This curriculum was also reported to cultivate well-being and that the EE class was viewed as a safe space for learners, away from the stresses of academic life. Teachers reported that this space encouraged more open discussions among students. </p>
+          </sec>
+        </sec>
+        <sec id="sec3dot4dot2-education-10-00014">
+          <title>3.4.2. Teaching the Ethical Education Curriculum</title>
+          <sec>
+            <title>Fidelity</title>
+            <p>Many interviewees also spoke about the flexibility and &#x201C;freedom&#x201D; (Teacher 12) that the EE curriculum afforded them. However, it was also noted that this may be problematic for some teachers who preferred a more structured approach to the curriculum content that they teach. For example, Teacher 12 stated the following: &#x201C;Well we&#x2019;re pretty relaxed&#x2026; we have up all our plans on the things we want to do. But, you have a lot of freedom yourself to kind of look at, pick your own topics within the curriculum you know.&#x201D; </p>
+          </sec>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec4-education-10-00014" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>The purpose of this qualitative study was to explore teachers&#x2019; and principals&#x2019; experiences of phase one of a pilot EE curriculum at senior cycle in three Educate Together schools using an implementation framework. In examining the barriers and facilitators to implementing this curriculum, inconsistencies were often evident in the opinions and experiences of those interviewed. Across multiple domains, while some teachers and principals spoke positively about aspects of this curricular implementation, others experienced the same implementation components as barriers. These differing opinions and experiences may be related to teacher individual differences, such as experience, conscientiousness levels and teacher self-efficacy. It may also reflect differing interpretations of the curriculum. Additionally, they may also be reflective of more systemic issues such as a clear lack of guidance, differing school structures and leadership approaches. Given the small-scale nature of the research, and the limited number of schools that participated, it is difficult to definitively ascertain the rationale for these differing opinions. Nevertheless, the facilitators and barriers to implementing this pilot EE curriculum, as detailed by teachers and principals, are detailed below.</p>
+      <sec id="sec4dot1-education-10-00014">
+        <title>4.1. Strengths and Facilitators to Implementation</title>
+        <p>This research highlights several strengths and facilitators in relation to the senior EE&#x2019;s content, delivery and implementation to school culture and organisation. The findings here were consistent with strategies required for effective EE elsewhere [<xref ref-type="bibr" rid="B24-education-10-00014">24</xref>,<xref ref-type="bibr" rid="B26-education-10-00014">26</xref>,<xref ref-type="bibr" rid="B30-education-10-00014">30</xref>,<xref ref-type="bibr" rid="B45-education-10-00014">45</xref>,<xref ref-type="bibr" rid="B46-education-10-00014">46</xref>]. Educate Together schools have a strong commitment to developing EE curricula to cultivate character and ethical skills in their learners and, indirectly, influence the school life. The findings here demonstrate that, to date, schools have benefitted from participation in this pilot. </p>
+        <p>Some teachers acknowledged the positive climate in ET schools, irrespective of the EE curriculum, that impacted positively on relationships in schools, including teacher&#x2013;teacher relationships, learner&#x2013;teacher relationships, school&#x2013;teacher relationships and school&#x2013;community relationships. Great efforts were reported to have been made to raise awareness of ethical issues among all teachers and to cultivate ethical practice, for example, by making cross-curricular links in schools. Strong teacher collaboration, in relation to curriculum planning and implementation, was also reported. The curriculum was reportedly well received by some learners, with teachers sharing their perspectives that students experienced a greater sense of belonging and safety as a result of the EE curriculum. Teachers also believed that learners had benefitted from partaking in the curriculum by expanding their ethical skills and learning transferrable skills. Regarding the content of the curriculum, its specification appears to have great potential in its scope to develop a broad range of ethical skills across the ethical sensitivity, judgement, focus and action domains [<xref ref-type="bibr" rid="B47-education-10-00014">47</xref>]. The curriculum also enabled learners to share opinions, thoughts, views and beliefs through respectful communication, discussion and debate. Such pedagogical techniques and approaches are required to develop the deliberate mind and moral expertise [<xref ref-type="bibr" rid="B26-education-10-00014">26</xref>,<xref ref-type="bibr" rid="B45-education-10-00014">45</xref>,<xref ref-type="bibr" rid="B47-education-10-00014">47</xref>]. The curriculum aims to cultivate both moral skill development, and the shaping of perceptions and desires, by addressing issues such as cognitive biases [<xref ref-type="bibr" rid="B47-education-10-00014">47</xref>]. The curriculum also proposes to use moral considerations to evaluate the norms and practices of social systems as well as connect with moral considerations of respect for cultural differences [<xref ref-type="bibr" rid="B48-education-10-00014">48</xref>]. </p>
+      </sec>
+      <sec id="sec4dot2-education-10-00014">
+        <title>4.2. Barriers to Implementation</title>
+        <p>Several barriers to the curriculum&#x2019;s implementation were highlighted by teachers: A lack of planning and preparation prior to introducing the curriculum was a significant barrier to implementation, which resulted in a lack of teacher preparedness. Insufficient access to training, time to prepare for lessons, and competing school-related and teacher-related demands, were also reportedly to have impacted on the delivery of the curriculum. Overall, results indicate little evidence of cross-curricular integration of the EE curriculum into other subject areas, mainly because of a lack of awareness of the curriculum content amongst teachers not directly involved in delivering it. In addition, many believed that a teacher&#x2019;s personal characteristics also had an impact on how well ethical concepts were applied across all subjects. Challenges were noted with regard to teacher and learner accessibility to specific components of the curriculum.</p>
+      </sec>
+      <sec id="sec4dot3-education-10-00014">
+        <title>4.3. Readiness for Implementation</title>
+        <p>In general, teachers did not feel adequately prepared to teach the curriculum, particularly those new to EE. Teachers&#x2019; capacity to directly teach the curriculum and to apply ethical concepts at whole school was identified as significant barriers to implementation. Specifically, it was noted that teachers had deficits in understanding philosophical concepts, using appropriate teaching methodologies and making cross-curricular links. Similar barriers to implementing character education initiatives have been noted elsewhere [<xref ref-type="bibr" rid="B49-education-10-00014">49</xref>,<xref ref-type="bibr" rid="B50-education-10-00014">50</xref>]. In order to develop moral expertise [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>], it has been suggested that teachers must deliberately and directly teach the processes and skills of moral behaviour. However, since many teachers reported not having the pedagogical skills and knowledge they require, it is likely that they are lacking awareness and skills to do so, thus limiting the ability to develop learner moral expertise.</p>
+        <p>The provision of teachers&#x2019; professional learning programmes at ITE and CPD are required to support the implementation of ethical and character education programmes in schools [<xref ref-type="bibr" rid="B45-education-10-00014">45</xref>]. Insufficient training was consistently noted by teachers and principals as a barrier to the implementation of the curriculum. This was noted, at the wider systems level, that a significant barrier to teacher content knowledge expertise in EE was lacking as none of the teachers interviewed had received any training in learner ethical or moral skill development as part of their ITE. This is consistent with other local and international research that has found that teachers&#x2019; professional learning programmes are not intentionally preparing them for the role as moral educators and fail to address values and ethical issues [<xref ref-type="bibr" rid="B51-education-10-00014">51</xref>,<xref ref-type="bibr" rid="B52-education-10-00014">52</xref>,<xref ref-type="bibr" rid="B53-education-10-00014">53</xref>,<xref ref-type="bibr" rid="B54-education-10-00014">54</xref>,<xref ref-type="bibr" rid="B55-education-10-00014">55</xref>]. This finding here reveals that teachers require, and would benefit from, input on EE at ITE and CPD levels. Additionally, teachers engaging in teachers&#x2019; professional learning would benefit from an ethical component to their respective subject matter to provide an integrated and interdisciplinary approach to teaching ethics to prepare and inform future generations in the workplace and wider society. </p>
+        <p>At a local level, although training was highly valued, and teachers and principals were very complimentary of the training they had received, opportunities to access training were not always availed of. Competing administrative demands were identified as a significant barrier to releasing teachers during school hours. A lack of incentivised training for teachers outside of school hours was also noted as a barrier. Barriers such as time and budgetary constraints have also been found to limit teachers&#x2019; access to training provision in schools [<xref ref-type="bibr" rid="B56-education-10-00014">56</xref>]. In general, the lack of training identified by teachers and principals in this research reflects similar challenges to implementing character education programmes internationally [<xref ref-type="bibr" rid="B50-education-10-00014">50</xref>,<xref ref-type="bibr" rid="B57-education-10-00014">57</xref>,<xref ref-type="bibr" rid="B58-education-10-00014">58</xref>] and locally in other ET schools [<xref ref-type="bibr" rid="B52-education-10-00014">52</xref>].</p>
+        <p>Adequate time for teaching duties is considered by teachers as essential to ensure that they have the greatest impact on learners [<xref ref-type="bibr" rid="B59-education-10-00014">59</xref>]. In this research, time to prepare for teaching the curriculum was identified as a barrier, particularly for teachers new to the curriculum. In addition, the interference of other teacher responsibilities impacted on teaching the curriculum and planning for its implementation. These results are consistent with those of other studies [<xref ref-type="bibr" rid="B60-education-10-00014">60</xref>,<xref ref-type="bibr" rid="B61-education-10-00014">61</xref>,<xref ref-type="bibr" rid="B62-education-10-00014">62</xref>,<xref ref-type="bibr" rid="B63-education-10-00014">63</xref>]. At secondary school level, an important component of ensuring successful implementation of character education is related to preparation and planning [<xref ref-type="bibr" rid="B50-education-10-00014">50</xref>]. Research has suggested that in the absence of such planning and implementation support, teachers struggle with implementation, and treatment integrity is compromised as a result [<xref ref-type="bibr" rid="B64-education-10-00014">64</xref>,<xref ref-type="bibr" rid="B65-education-10-00014">65</xref>]. It is likely that a lack of adequately preparing teachers and schools to implement this curriculum has impacted on its success. At a national level, there is currently no availability for teachers outside ET schools to access CPD in this area. As a registered charity, ET does not receive any state funding to provide CPD to their teachers in secondary level schools. This has wider implications for the provision of secondary level education in Ireland given the rapid changes in cultural, religious and ethnic pluralism [<xref ref-type="bibr" rid="B3-education-10-00014">3</xref>] that will require schools to evolve to meet the needs of an increasingly pluralistic and secular society.</p>
+      </sec>
+      <sec id="sec4dot4-education-10-00014">
+        <title>4.4. Ethical Education, the Role of Culture and Student Identity </title>
+        <p>It has been found that identifying a causal relationship between character curricula and other school-wide initiatives and structures can be difficult [<xref ref-type="bibr" rid="B66-education-10-00014">66</xref>]. Nevertheless, consistent with other research [<xref ref-type="bibr" rid="B49-education-10-00014">49</xref>], the information provided by teachers and principals here indicated that the appropriate pedagogies and structures that indirectly cultivate learner morality may not have infiltrated all layers of school community. Teachers&#x2019; reporting on learners&#x2019; acceptability of the EE curriculum varied. While some teachers reported that students enjoyed the curriculum, other students struggled to engage due to theoretical and philosophical components. Often, competing academic pressures were reported as the reason for learners&#x2019; difficulties with accessibility, consistent with character education research elsewhere [<xref ref-type="bibr" rid="B58-education-10-00014">58</xref>,<xref ref-type="bibr" rid="B61-education-10-00014">61</xref>]. Parental pressure to perform in school may partly account for learner stress [<xref ref-type="bibr" rid="B50-education-10-00014">50</xref>]. Given that the voice of learners has not yet been captured, this study only provides a snapshot of perspectives of a small number of school staff here. The voices of students will need to be examined to seek their perspective on the EE curriculum as part of this evaluation process. Interviews with teachers revealed that learners had difficulties engaging with this curriculum due to maturity levels and a general disengagement of students with school. Students&#x2019; individual differences were also reported to be a challenge when implementing character education [<xref ref-type="bibr" rid="B50-education-10-00014">50</xref>]. The pedagogical approaches that are known to support moral and ethical development implicitly, such as the cultivation of strong teacher&#x2013;parent relationships along with teacher role modelling [<xref ref-type="bibr" rid="B45-education-10-00014">45</xref>], will be critical. </p>
+        <p>Learners were also reported to demonstrate ethical inaction. This reflects previous research [<xref ref-type="bibr" rid="B52-education-10-00014">52</xref>] completed in other ET schools in Ireland that found that the whole school application of the EE curriculum was not always applied. Positive learner teacher relationships, and a caring, nurturing school, have been highlighted as critical for learners&#x2019; ethic of safety, as well as the development of learner morality. Although some teachers provided some indication that there were strong learner&#x2013;teacher relationships within the school, further evidence is required to ascertain learners&#x2019; experiences in relation to their perceptions of these relationships. The second phase of this research study will provide students&#x2019; insights regarding their perspectives on these relationships to inform the future development of this curriculum It is possible that consultations that seek to explore students&#x2019; experience of engaging in this curriculum could support, or refute, the perspectives of school staff identified here. The possible disparate views of this curriculum from the perspectives of school staff and students, facilitate ethical dialogue, and could be a potential outcome of this pilot. Educators can help restore the ecological system of support for some learners [<xref ref-type="bibr" rid="B67-education-10-00014">67</xref>]. It is engaging in their communities that youth have the opportunity to practise and apply their ethical competencies. Community links, an important component to developing learner moral development [<xref ref-type="bibr" rid="B27-education-10-00014">27</xref>,<xref ref-type="bibr" rid="B33-education-10-00014">33</xref>,<xref ref-type="bibr" rid="B68-education-10-00014">68</xref>,<xref ref-type="bibr" rid="B69-education-10-00014">69</xref>,<xref ref-type="bibr" rid="B70-education-10-00014">70</xref>], were not reported to be strong in all schools. This may be limiting learners&#x2019; opportunities for scaffolding the development of morally engaged citizens [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>].</p>
+      </sec>
+      <sec id="sec4dot5-education-10-00014">
+        <title>4.5. Assessment for Learning and Assessment of Learning</title>
+        <p>Finding an appropriate way to assess learner progress was revealed to be difficult for many teachers. This challenge, however, is not unique to this context. The challenges assessing and measuring learner progress in the development of character traits have been well documented [<xref ref-type="bibr" rid="B50-education-10-00014">50</xref>,<xref ref-type="bibr" rid="B57-education-10-00014">57</xref>,<xref ref-type="bibr" rid="B58-education-10-00014">58</xref>,<xref ref-type="bibr" rid="B61-education-10-00014">61</xref>,<xref ref-type="bibr" rid="B71-education-10-00014">71</xref>,<xref ref-type="bibr" rid="B72-education-10-00014">72</xref>]. Thoma and Walker [<xref ref-type="bibr" rid="B71-education-10-00014">71</xref>] recommend a multi-method approach to understand and assess moral and character education. Teachers generally believed that the EE curriculum should include some form of informal assessment to ensure that the curriculum is valued by learners. The importance of assessment and evaluation in character education has been noted elsewhere in the literature [<xref ref-type="bibr" rid="B73-education-10-00014">73</xref>,<xref ref-type="bibr" rid="B74-education-10-00014">74</xref>] (For example, Lickona [<xref ref-type="bibr" rid="B74-education-10-00014">74</xref>] noted that &#x201C;what gets measured matters&#x201D; and assessment will place a higher priority on character development in the minds of learners, teachers and parents. This suggests that teachers would benefit from identifying creative ways of assessing the progress and development of learners engaging in this curriculum. Students&#x2019; perspectives on assessment of this curriculum, to be identified at the next phase of this pilot, will inform assessment approaches also. This will add to the ethical and equality based approach to the delivery of this curriculum where the voices of all are acknowledged and equally valued. </p>
+      </sec>
+      <sec id="sec4dot6-education-10-00014">
+        <title>4.6. Curriculum Fidelity and Cross-Curricular Links</title>
+        <p>Teachers reported that a high-level of flexibility within the curriculum was a significant facilitator to teaching the EE curriculum. However, too much flexibility, as well as ambiguity, among some regarding core curriculum components to be taught, resulted in inconsistent delivery of the curriculum. Research on the ET primary EE curriculum identified a lacked consistency in its interpretation and a lack of a clear structure [<xref ref-type="bibr" rid="B52-education-10-00014">52</xref>,<xref ref-type="bibr" rid="B75-education-10-00014">75</xref>]. This finding suggests that the contents of the curriculum will need to be defined more clearly, particularly to support teachers who are new to the study and teaching components of ethics and philosophy. </p>
+        <p>The importance of cross curricular links has been identified for the developmental needs of late adolescents&#x2019; moral social and personal domains [<xref ref-type="bibr" rid="B48-education-10-00014">48</xref>]. However, like other research [<xref ref-type="bibr" rid="B50-education-10-00014">50</xref>,<xref ref-type="bibr" rid="B58-education-10-00014">58</xref>]), many teachers reported having great difficulties making cross curricular links and applying the curriculum to the real world. They also struggled to provide relevant examples for learners. In order to develop moral expertise, it is important as a first step that teachers provide plenty of examples to help learners learn basic patterns [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>]. Learners also require teachers to use incidental experiences to develop children&#x2019;s ethical intuitive and deliberate minds [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>]. However, given the reported difficulties of some teachers in making cross curricular links, it is likely that teachers may not have the ethical awareness to identify times of incidental learning. This may be further limiting opportunities to develop learners&#x2019; moral expertise [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>]. This is a key finding in this pilot programme and suggests that revisions are required that illustrate to teachers how this EE curriculum can be integrated to other curricula at the Senior Cycle level. </p>
+      </sec>
+      <sec id="sec4dot7-education-10-00014">
+        <title>4.7. Limitations of Research</title>
+        <p>There were limitations to this research that require acknowledgement. This is a small-scale pilot project that sought the perspectives of staff from only three schools. There may have been response bias among some teachers who participated in the research as one of the curriculum designers is a teacher in a school where the curriculum has been piloted. Participants may have been influenced by allegiance toward their colleague when providing responses. The authors endeavoured to counteract this via the informed consent process where the participants had the opportunity to freely and openly share their perspectives within the confidentially of the research process. The limited exposure of many teachers to moral character knowledge and curricula limited respondents&#x2019; ability to critically evaluate the strengths and limitations of the curriculum. </p>
+      </sec>
+      <sec id="sec4dot8-education-10-00014">
+        <title>4.8. Recommendations for Future Research</title>
+        <p>At a national level, the perspectives of learners who have engaged in the pilot of this curriculum are required to inform its development. This is planned for phase two of the evaluation of this pilot. Further research is required that examines the broader culture and teaching pedagogies that are recognised to cultivate moral development in young people, to ascertain if there is sufficient evidence of this. Additionally, the ethical impact of this curricula on other subjects at the senior cycle level would be worthy of investigation. The impact of the longer-term effectiveness of this curriculum would be informative in identifying if a lack of learner moral development is due to the success or failure of a curriculum [<xref ref-type="bibr" rid="B76-education-10-00014">76</xref>,<xref ref-type="bibr" rid="B77-education-10-00014">77</xref>] of this nature. Further evaluation is required with regard to the role of ethical leadership and the structural components that enable and facilitate the implementation of an EE curriculum. Additionally, it would be interesting to explore the perspectives of parents and guardians whose children engage in this curriculum to identify if the talk they engage in at home is framed in an ethical way.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-education-10-00014" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The findings from this study revealed from interviews with teachers and principals suggest that adolescent learners have benefitted from exposure to the EE curriculum in piloted schools. This paper revealed the barriers to, and facilitators of, the implementation of this curriculum. Its impact on school culture and student identity suggests that the academic pressures experienced by older adolescents, their maturity levels, and their disengagement from school in general are all factors impacting on EE&#x2019;s success, or otherwise. Additionally, monitoring students&#x2019; engagement with this programme was a challenge identified by teachers. Informed by an Integrative Ethical Education Model, the EE curriculum nurtures combined student and school community flourishing to cultivate students&#x2019; moral identity. From a systemic perspective, the ethos of ET schools has supported the successful implementation of this pilot of an EE to adolescents in the senior cycle of secondary schools in Ireland and suggests that this curriculum shows promise.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, W.K. and P.P.; Data curation, M.B., W.K. and P.P.; Formal analysis, M.B. and W.K.; Funding acquisition, W.K. and P.P.; Investigation, M.B. and W.K.; Methodology, M.B. and P.P.; Project administration, W.K. and P.P.; Supervision, W.K. and P.P.; Writing&#x2014;original draft, M.B.; Writing&#x2014;review and editing, W.K. and P.P. All authors have read and agreed to the published version of the manuscript. </p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by Educate Together, Ireland; The APC was also funded by Educate Together, Ireland.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to thank the teachers and principals of three Educate Together secondary schools who generously gave their time to participate in this research. Additionally, we would like to acknowledge the support of Sandra Irwin-Gowran, Education and Support Manager, and Laura Dooley, Second Level Education Officer, in Educate Together who provided assistance with this research and gave valuable suggestions that enhanced this paper. Finally, thank you to the peer reviewers whose comments improved the final version.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-education-10-00014">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Integrative ethical education</article-title>
+          <source>Handbook of Moral Education</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Killen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Smetana</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Erlbaum</publisher-name>
+          <publisher-loc>Mahwah, NJ, USA</publisher-loc>
+          <year>2006</year>
+          <fpage>703</fpage>
+          <lpage>733</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B2-education-10-00014">
+        <label>2.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Darmody</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Smyth</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <source>Teachers&#x2019;, Parents&#x2019; and the General Public&#x2019;s Views and Expectations of the Proposed Primary School Curriculum in Education about Religions and Beliefs (ERB) and Ethics</source>
+          <publisher-name>ESRI</publisher-name>
+          <publisher-loc>Dublin, Ireland</publisher-loc>
+          <year>2016</year>
+        </element-citation>
+      </ref>
+      <ref id="B3-education-10-00014">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O&#x2019;Flaherty</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liddy</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>McCormack</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>The teachers put effort into teaching us about life, and what&#x2019;s right and what&#x2019;s wrong: Values and moral education in publicly-managed schools in Ireland</article-title>
+          <source>J. Beliefs Values</source>
+          <year>2018</year>
+          <volume>39</volume>
+          <fpage>45</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="doi">10.1080/13617672.2017.1291109</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-education-10-00014">
+        <label>4.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mulcahy</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Voices, values and visions</article-title>
+          <source>A Study of the Educate Together Epistemic Community and its Voice in a Pluralist Ireland</source>
+          <comment>Unpublished Research Dissertation</comment>
+          <publisher-name>Education Department, Dublin City University</publisher-name>
+          <publisher-loc>Dublin, Ireland</publisher-loc>
+          <year>2006</year>
+        </element-citation>
+      </ref>
+      <ref id="B5-education-10-00014">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O&#x2019;Flaherty</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gleeson</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Irish student teachers&#x2019; levels -of moral reasoning: Context, comparisons, and contributing influences</article-title>
+          <source>Teach. Teach.</source>
+          <year>2017</year>
+          <volume>23</volume>
+          <fpage>59</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="doi">10.1080/13540602.2016.1203777</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-education-10-00014">
+        <label>6.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Government of Ireland</collab>
+          </person-group>
+          <source>Education Act, 1998</source>
+          <publisher-name>Stationery Office</publisher-name>
+          <publisher-loc>Dublin, Ireland</publisher-loc>
+          <year>1998</year>
+        </element-citation>
+      </ref>
+      <ref id="B7-education-10-00014">
+        <label>7.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McMackin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Dooley</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <source>Senior Cycle Ethical Education</source>
+          <comment>Curriculum Specification, Draft 2018</comment>
+          <publisher-name>Educate Together</publisher-name>
+          <publisher-loc>Dublin, Ireland</publisher-loc>
+          <year>2018</year>
+        </element-citation>
+      </ref>
+      <ref id="B8-education-10-00014">
+        <label>8.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>&#x106;urko</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Feiner</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gerjolj</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Juhant</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kre&#xDF;</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Mazzoni</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Mortari</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pokorny</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schlenk</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Strahovnik</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <source>Ethics and Values Education. A Manual for Teachers and Educators</source>
+          <publisher-name>Ethika</publisher-name>
+          <publisher-loc>San Clemente, CA, USA</publisher-loc>
+          <year>2015</year>
+        </element-citation>
+      </ref>
+      <ref id="B9-education-10-00014">
+        <label>9.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lockwood</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <source>The Case for Character Education: A Developmental Approach</source>
+          <publisher-name>Teachers College Press</publisher-name>
+          <publisher-loc>Columbia, NY, USA</publisher-loc>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="B10-education-10-00014">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roeser</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Eccles</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Sameroff</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>School as a context of early adolescents&#x2019; academic and social-emotional development: A summary of research findings</article-title>
+          <source>Elem. Sch. J.</source>
+          <year>2000</year>
+          <volume>100</volume>
+          <fpage>443</fpage>
+          <lpage>471</lpage>
+          <pub-id pub-id-type="doi">10.1086/499650</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-education-10-00014">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Hardy</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identity formation and moral development in emerging adulthood</article-title>
+          <source>Emerging Adulthood Series. Flourishing in Emerging Adulthood: Positive Development during the Third Decade of Life</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Padilla-Walker</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Nelson</surname>
+              <given-names>L.J.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2017</year>
+          <fpage>14</fpage>
+          <lpage>39</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B12-education-10-00014">
+        <label>12.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Davidson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lickona</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Khmelkov</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Smart and good schools: A new paradigm for high school character education</article-title>
+          <source>Handbook of Moral and Character Education</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Nucci</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Krettenauer</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2014</year>
+          <fpage>290</fpage>
+          <lpage>307</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B13-education-10-00014">
+        <label>13.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hildebrandt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zan</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constructivist approaches to moral education in early childhood</article-title>
+          <source>Handbook of Moral and Character Education</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Nucci</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Krettenauer</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2014</year>
+          <fpage>180</fpage>
+          <lpage>197</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B14-education-10-00014">
+        <label>14.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wagner</surname>
+              <given-names>B.P.</given-names>
+            </name>
+          </person-group>
+          <source>The Principal&#x2019;s Perception of Character Education Implementation in California Middle Schools Based on the Eleven Principles of Character Education</source>
+          <publisher-name>University of La Verne</publisher-name>
+          <publisher-loc>La Verne, CA, USA</publisher-loc>
+          <year>2008</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://search.proquest.com/docview/304388588?accountid=10357" ext-link-type="uri">http://search.proquest.com/docview/304388588?accountid=10357</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-09-09">(accessed on 9 September 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B15-education-10-00014">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cauffman</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Shulman</surname>
+              <given-names>E.P.</given-names>
+            </name>
+            <name>
+              <surname>Steinberg</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Claus</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Banich</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Graham</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Woolard</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Age differences in affective decision making as indexed by performance on the Iowa Gambling Task</article-title>
+          <source>Dev. Psychol.</source>
+          <year>2010</year>
+          <volume>46</volume>
+          <fpage>193</fpage>
+          <pub-id pub-id-type="doi">10.1037/a0016128</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-education-10-00014">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kelley</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Schochet</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Landry</surname>
+              <given-names>C.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Risk taking and novelty seeking in adolescence: Introduction to part I</article-title>
+          <source>Ann. N. Y. Acad. Sci.</source>
+          <year>2004</year>
+          <volume>1021</volume>
+          <fpage>27</fpage>
+          <lpage>32</lpage>
+          <pub-id pub-id-type="doi">10.1196/annals.1308.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-education-10-00014">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Armstrong</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>The Power of the Adolescent Brain: Strategies for Teaching Middle and High School Students</source>
+          <publisher-name>ASCD</publisher-name>
+          <publisher-loc>Alexandria, VA, USA</publisher-loc>
+          <year>2016</year>
+        </element-citation>
+      </ref>
+      <ref id="B18-education-10-00014">
+        <label>18.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roseth</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Character education, moral education, and moral-character education</article-title>
+          <source>Handbook of Educational Psychology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Corno</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Anderman</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2015</year>
+          <fpage>213</fpage>
+          <lpage>228</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B19-education-10-00014">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rest</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bebeau</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Thoma</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A neo-Kohlbergian approach: The DIT and schema theory</article-title>
+          <source>Educ. Psychol. Rev.</source>
+          <year>1999</year>
+          <volume>11</volume>
+          <fpage>291</fpage>
+          <lpage>324</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1022053215271</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-education-10-00014">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Triune ethics: The neurobiological roots of our multiple moralities</article-title>
+          <source>New Ideas Psychol.</source>
+          <year>2008</year>
+          <volume>26</volume>
+          <fpage>95</fpage>
+          <lpage>119</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.newideapsych.2007.07.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-education-10-00014">
+        <label>21.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Triune Ethics Theory and moral personality</article-title>
+          <source>Moral Personality, Identity and Character: An Interdisciplinary Future</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2009</year>
+          <fpage>136</fpage>
+          <lpage>158</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B22-education-10-00014">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schore</surname>
+              <given-names>A.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of a secure attachment relationship on right brain development, affect regulation, and infant mental health</article-title>
+          <source>Infant Ment. Health J.</source>
+          <year>2001</year>
+          <volume>22</volume>
+          <fpage>7</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1002/1097-0355(200101/04)22:1&lt;7::AID-IMHJ2&gt;3.0.CO;2-N</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-education-10-00014">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Siegel</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Toward an interpersonal neurobiology of the developing mind: Attachment relationships, &#x201C;mindsight,&#x201D; and neural integration</article-title>
+          <source>Infant Ment. Health J.</source>
+          <year>2001</year>
+          <volume>22</volume>
+          <fpage>67</fpage>
+          <lpage>94</lpage>
+          <pub-id pub-id-type="doi">10.1002/1097-0355(200101/04)22:1&lt;67::AID-IMHJ3&gt;3.0.CO;2-G</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-education-10-00014">
+        <label>24.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bock</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Developing ethical expertise and moral personalities</article-title>
+          <source>Handbook of Moral and Character Education</source>
+          <edition>2nd ed.</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Nucci</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2014</year>
+          <fpage>140</fpage>
+          <lpage>158</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B25-education-10-00014">
+        <label>25.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arthur</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <source>Education with Character: The Moral Economy of Schooling</source>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2002</year>
+        </element-citation>
+      </ref>
+      <ref id="B26-education-10-00014">
+        <label>26.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berkowitz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bier</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research-based fundamentals of the effective promotion of character development in schools</article-title>
+          <source>Handbook on Moral and Character Education</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Nucci</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Krettenauer</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Narv&#xE1;ez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2014</year>
+          <fpage>248</fpage>
+          <lpage>260</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B27-education-10-00014">
+        <label>27.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lovat</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Toomey</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <source>Values Education and Quality Teaching</source>
+          <comment>The Double Helix Effect</comment>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Dordrecht, The Netherlands</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B28-education-10-00014">
+        <label>28.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yeager</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Moral-character education</article-title>
+          <source>Handbook of Psychology: Educational Psychology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Reynolds</surname>
+              <given-names>W.M.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>G.E.</given-names>
+            </name>
+            <name>
+              <surname>Weiner</surname>
+              <given-names>I.B.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>John Wiley and Sons Inc.</publisher-name>
+          <publisher-loc>Hoboken, NJ, USA</publisher-loc>
+          <year>2013</year>
+          <fpage>147</fpage>
+          <lpage>177</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B29-education-10-00014">
+        <label>29.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Nucci</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <source>Handbook of Moral and Character Education</source>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="B30-education-10-00014">
+        <label>30.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Character Education</article-title>
+          <source>Handbook of Child Psychology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Renninger</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Siegel</surname>
+              <given-names>I.E.</given-names>
+            </name>
+            <name>
+              <surname>Damon</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lerner</surname>
+              <given-names>R.M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Wiley</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2007</year>
+          <volume>Volume 4</volume>
+          <pub-id pub-id-type="doi">10.1002/9780470147658.chpsy0407</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-education-10-00014">
+        <label>31.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Power</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <source>Character Psychology and Character Education</source>
+          <publisher-name>University of Notre Dame Press</publisher-name>
+          <publisher-loc>Notre Dame, IN, USA</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B32-education-10-00014">
+        <label>32.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The neo-Kohlbergian tradition and beyond: Schemas, expertise, and charter</article-title>
+          <source>Nebraska Symposium Conference Papers</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Pope-Edwards</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Carlo</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>University of Nebraska Press</publisher-name>
+          <publisher-loc>Lincoln, NE, USA</publisher-loc>
+          <year>2005</year>
+          <volume>Volume 51</volume>
+        </element-citation>
+      </ref>
+      <ref id="B33-education-10-00014">
+        <label>33.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berkowitz</surname>
+              <given-names>M.W.</given-names>
+            </name>
+            <name>
+              <surname>Bier</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <source>What Works in Character Education: A Research-Based Guide for Practitioners</source>
+          <publisher-name>Character Education Partnership</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B34-education-10-00014">
+        <label>34.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>A social-cognitive view of moral character</article-title>
+          <source>Moral Development: Self and Identity</source>
+          <publisher-name>Lawrence Erlbaum Associates</publisher-name>
+          <publisher-loc>Mahwah, NJ, USA</publisher-loc>
+          <year>2004</year>
+          <fpage>189</fpage>
+          <lpage>212</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35-education-10-00014">
+        <label>35.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The psychological foundations of moral expertise</article-title>
+          <source>Character Psychology and Character Education</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Power</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>University of Notre Dame Press</publisher-name>
+          <publisher-loc>Notre Dame, IN, USA</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B36-education-10-00014">
+        <label>36.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Character education</article-title>
+          <source>Handbook of Child Psychology</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Renninger</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Siegel</surname>
+              <given-names>I.E.</given-names>
+            </name>
+            <name>
+              <surname>Damon</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Lerner</surname>
+              <given-names>R.M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Wiley</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2006</year>
+          <volume>Volume 4</volume>
+          <fpage>248</fpage>
+          <lpage>296</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B37-education-10-00014">
+        <label>37.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>Educate Together</collab>
+          </person-group>
+          <source>The Educate Together Charter</source>
+          <publisher-name>Gulbenkien Foundation</publisher-name>
+          <publisher-loc>Galway, Ireland</publisher-loc>
+          <year>1990</year>
+        </element-citation>
+      </ref>
+      <ref id="B38-education-10-00014">
+        <label>38.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kelleher</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>McGovern</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Mulcahy</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>P.</given-names>
+            </name>
+            <collab>Educate Together</collab>
+          </person-group>
+          <source>Learn Together. An Ethical Education Curriculum for Educate Together Schools</source>
+          <publisher-name>Educate Together</publisher-name>
+          <publisher-loc>Dublin, Ireland</publisher-loc>
+          <year>2004</year>
+        </element-citation>
+      </ref>
+      <ref id="B39-education-10-00014">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Irwin</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interculturalism, ethos and ideology. Barriers to freedom and democracy in Irish primary education</article-title>
+          <source>REA A J. Relig. Educ. Arts</source>
+          <year>2010</year>
+        </element-citation>
+      </ref>
+      <ref id="B40-education-10-00014">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Padgett</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does the glove really fit? Qualitative research and clinical social work practice</article-title>
+          <source>Soc. Work</source>
+          <year>1998</year>
+          <volume>43</volume>
+          <fpage>373</fpage>
+          <lpage>381</lpage>
+          <pub-id pub-id-type="doi">10.1093/sw/43.4.373</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-education-10-00014">
+        <label>41.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Braun</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Clarke</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thematic analysis</article-title>
+          <source>APA Handbook of Research Methods in Psychology Volume 2: Research Designs: Quantitative, Qualitative, Neuropsychological, and Biological</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Cooper</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Camic</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Panter</surname>
+              <given-names>A.T.</given-names>
+            </name>
+            <name>
+              <surname>Rindskopf</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sher</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>American Psychological Association</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2012</year>
+          <fpage>57</fpage>
+          <lpage>71</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B42-education-10-00014">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Braun</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Clarke</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Using thematic analysis in psychology</article-title>
+          <source>Qual. Res. Psychol.</source>
+          <year>2006</year>
+          <volume>3</volume>
+          <fpage>77</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="doi">10.1191/1478088706qp063oa</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-education-10-00014">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bradley</surname>
+              <given-names>E.H.</given-names>
+            </name>
+            <name>
+              <surname>Curry</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Devers</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Qualitative data analysis for health services research: Developing taxonomy, themes, and theory</article-title>
+          <source>Health Serv. Res.</source>
+          <year>2007</year>
+          <volume>42</volume>
+          <fpage>1758</fpage>
+          <lpage>1772</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1475-6773.2006.00684.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-education-10-00014">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Damschroder</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Aron</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Keith</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kirsh</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Alexander</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lowery</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fostering implementation of health services research findings into practice: A consolidated framework for advancing implementation science</article-title>
+          <source>Implement. Sci.</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>50</fpage>
+          <pub-id pub-id-type="doi">10.1186/1748-5908-4-50</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-education-10-00014">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berkowitz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>McCauley</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Toward a science of character education: Frameworks for identifying and implementing effective practices</article-title>
+          <source>J. Character Educ.</source>
+          <year>2017</year>
+          <volume>13</volume>
+          <fpage>33</fpage>
+          <lpage>51</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B46-education-10-00014">
+        <label>46.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <source>Neurobiology and the Development of Human Morality: Evolution, Culture and Wisdom</source>
+          <publisher-name>W.W. Norton</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B47-education-10-00014">
+        <label>47.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>How cognitive and neurobiological sciences inform values education for creatures like us</article-title>
+          <source>Values Education and Lifelong Learning: Philosophy, Policy, Practices</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Aspin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Chapman</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer Press International</publisher-name>
+          <publisher-loc>Dordrecht, The Netherlands</publisher-loc>
+          <year>2007</year>
+          <fpage>127</fpage>
+          <lpage>159</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B48-education-10-00014">
+        <label>48.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nucci</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Powers</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Social cognitive domain theory and moral education</article-title>
+          <source>Handbook of Moral and Character Education</source>
+          <edition>2nd ed.</edition>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Nucci</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2014</year>
+          <fpage>140</fpage>
+          <lpage>158</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B49-education-10-00014">
+        <label>49.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jakubowski</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <source>Making Character Education a Reality: An Investigation of Secondary Teachers&#x2019; Perspectives Toward Implementation</source>
+          <publisher-name>California State University</publisher-name>
+          <publisher-loc>Long Beach, CA, USA</publisher-loc>
+          <year>2013</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://search.proquest.com.proxy.library.cpp.edu/docview/1449375345?accountid=10357" ext-link-type="uri">http://search.proquest.com.proxy.library.cpp.edu/docview/1449375345?accountid=10357</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-27">(accessed on 27 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B50-education-10-00014">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zurqoni</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Retnawati</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Apino</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Anazifa</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of character education implementation: A goal-free evaluation</article-title>
+          <source>Probl. Educ. 21st Century</source>
+          <year>2018</year>
+          <volume>76</volume>
+          <fpage>881</fpage>
+          <lpage>899</lpage>
+          <pub-id pub-id-type="doi">10.33225/pec/18.76.881</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-education-10-00014">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narvaez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lapsley</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Teaching moral character: Two alternatives for teacher education</article-title>
+          <source>Teach. Educ.</source>
+          <year>2008</year>
+          <volume>43</volume>
+          <fpage>156</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1080/08878730701838983</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-education-10-00014">
+        <label>52.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McNamara</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Mulcahy</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Hara</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <source>Learn Together: Fit for Purpose Evaluation</source>
+          <publisher-name>DCU</publisher-name>
+          <publisher-loc>Dublin, Ireland</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B53-education-10-00014">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panti&#x107;</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wubbels</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Teachers&#x2019; moral values and their interpersonal relationships with students and cultural competence</article-title>
+          <source>Teach. Teach. Educ.</source>
+          <year>2012</year>
+          <volume>28</volume>
+          <fpage>451</fpage>
+          <lpage>460</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tate.2011.11.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-education-10-00014">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Willemse</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lunenberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Korthagen</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>The moral aspects of teacher educators&#x2019; practices</article-title>
+          <source>J. Moral Educ.</source>
+          <year>2008</year>
+          <volume>37</volume>
+          <fpage>445</fpage>
+          <lpage>466</lpage>
+          <pub-id pub-id-type="doi">10.1080/03057240802399269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-education-10-00014">
+        <label>55.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zgaga</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <source>The Prospects of Teacher Education in South-East Europe</source>
+          <publisher-name>University of Ljubjana</publisher-name>
+          <publisher-loc>Ljubjana, Slovenia</publisher-loc>
+          <year>2006</year>
+        </element-citation>
+      </ref>
+      <ref id="B56-education-10-00014">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Opfer</surname>
+              <given-names>V.D.</given-names>
+            </name>
+            <name>
+              <surname>Pedder</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Conceptualizing teacher professional learning</article-title>
+          <source>Rev. Educ. Res.</source>
+          <year>2011</year>
+          <volume>81</volume>
+          <fpage>376</fpage>
+          <lpage>407</lpage>
+          <pub-id pub-id-type="doi">10.3102/0034654311413609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-education-10-00014">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Almerico</surname>
+              <given-names>G.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Building character through literacy with children&#x2019;s literature</article-title>
+          <source>Res. High. Educ. J.</source>
+          <year>2014</year>
+          <volume>26</volume>
+          <fpage>13</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B58-education-10-00014">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The planning, implementation and evaluation of a character-based school culture project in Taiwan</article-title>
+          <source>J. Moral Educ.</source>
+          <year>2009</year>
+          <volume>38</volume>
+          <fpage>165</fpage>
+          <lpage>184</lpage>
+          <pub-id pub-id-type="doi">10.1080/03057240902792686</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-education-10-00014">
+        <label>59.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rentner</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Kober</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Frizzell</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Listen to Us: Teachers&#x2019; Views and Voices</source>
+          <publisher-name>Center on Education Policy</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2016</year>
+        </element-citation>
+      </ref>
+      <ref id="B60-education-10-00014">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khoury</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Character education as a bridge from elementary to middle school: A case study of effective practices and processes</article-title>
+          <source>Int. J. Teach. Leadersh.</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <fpage>2</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B61-education-10-00014">
+        <label>61.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marshall</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Rooney</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Dunatchik</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <source>Developing Character Skills in Schools Quantitative Survey August 2017</source>
+          <publisher-name>NatCen Social Research</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2017</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://doc.ukdataservice.ac.uk/doc/8353/mrdoc/pdf/8353_developing_character_skills_survey-report.pdf" ext-link-type="uri">http://doc.ukdataservice.ac.uk/doc/8353/mrdoc/pdf/8353_developing_character_skills_survey-report.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-08-08">(accessed on 8 August 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B62-education-10-00014">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McGoey</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Rispoli</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Venesky</surname>
+              <given-names>L.G.</given-names>
+            </name>
+            <name>
+              <surname>Schaffner</surname>
+              <given-names>K.F.</given-names>
+            </name>
+            <name>
+              <surname>McGuirk</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Marshall</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A preliminary investigation into teacher perceptions of the barriers to behavior intervention implementation</article-title>
+          <source>J. Appl. Sch. Psychol.</source>
+          <year>2014</year>
+          <volume>30</volume>
+          <fpage>375</fpage>
+          <lpage>390</lpage>
+          <pub-id pub-id-type="doi">10.1080/15377903.2014.950441</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63-education-10-00014">
+        <label>63.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Provasnik</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dorfman</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <source>Mobility in the Teacher Workforce (NCES 2005&#x2013;114)</source>
+          <publisher-name>US Department of Education, National Center for Education Statistics</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B64-education-10-00014">
+        <label>64.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Noell</surname>
+              <given-names>G.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research examining the relationships among consultation process, treatment integrity, and outcomes</article-title>
+          <source>Handbook of Research in School Consultation: Empirical Foundations for the Field</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Erchul</surname>
+              <given-names>W.P.</given-names>
+            </name>
+            <name>
+              <surname>Sheridan</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Erlbaum</publisher-name>
+          <publisher-loc>Mahwah, NJ, USA</publisher-loc>
+          <year>2008</year>
+          <fpage>315</fpage>
+          <lpage>334</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B65-education-10-00014">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanetti</surname>
+              <given-names>L.M.H.</given-names>
+            </name>
+            <name>
+              <surname>Collier-Meek</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Byron</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kratochwill</surname>
+              <given-names>T.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increasing teacher treatment integrity of behavior support plans through consultation and implementation planning</article-title>
+          <source>J. Sch. Psychol.</source>
+          <year>2015</year>
+          <volume>53</volume>
+          <fpage>209</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jsp.2015.03.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B66-education-10-00014">
+        <label>66.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sims</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kettlewell</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <source>Leading Character Education in Schools: Case Study Report</source>
+          <publisher-name>National Foundation for Educational Research</publisher-name>
+          <publisher-loc>Slough, Berkshire, UK</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B67-education-10-00014">
+        <label>67.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lerner</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Dowling</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Positive youth development: Thriving as the basis of personhood and civil society</article-title>
+          <source>Appl. Dev. Sci.</source>
+          <year>2003</year>
+          <volume>7</volume>
+          <fpage>172</fpage>
+          <lpage>180</lpage>
+          <pub-id pub-id-type="doi">10.1207/S1532480XADS0703_8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B68-education-10-00014">
+        <label>68.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berkowitz</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>What Works in Values Education</article-title>
+          <source>Int. J. Educ. Res.</source>
+          <year>2011</year>
+          <volume>50</volume>
+          <fpage>153</fpage>
+          <lpage>158</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijer.2011.07.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B69-education-10-00014">
+        <label>69.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marzano</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <source>What Works in Schools: Translating Research into Action</source>
+          <publisher-name>Association for Supervision and Curriculum Development</publisher-name>
+          <publisher-loc>Alexandria, VA, USA</publisher-loc>
+          <year>2003</year>
+        </element-citation>
+      </ref>
+      <ref id="B70-education-10-00014">
+        <label>70.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marzano</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <source>The Art and Science of Teaching: A Comprehensive Framework for Effective Instruction</source>
+          <publisher-name>Association for Supervision and Curriculum Development</publisher-name>
+          <publisher-loc>Alexandria, VA, USA</publisher-loc>
+          <year>2007</year>
+        </element-citation>
+      </ref>
+      <ref id="B71-education-10-00014">
+        <label>71.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thoma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>D.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Moral and Character Education</article-title>
+          <comment>The Oxford Research Encyclopaedia of Education</comment>
+          <year>2017</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://oxfordre.com/education/view/10.1093/acrefore/9780190264093.001.0001/acrefore-9780190264093-e-119" ext-link-type="uri">https://oxfordre.com/education/view/10.1093/acrefore/9780190264093.001.0001/acrefore-9780190264093-e-119</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-31">(accessed on 31 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B72-education-10-00014">
+        <label>72.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Was</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Woltz</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Drew</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluating character education programs and missing the target: A critique of existing research</article-title>
+          <source>Educ. Res. Rev.</source>
+          <year>2006</year>
+          <volume>1</volume>
+          <fpage>148</fpage>
+          <lpage>156</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.edurev.2006.08.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B73-education-10-00014">
+        <label>73.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>USDOE</collab>
+          </person-group>
+          <source>Promoting Grit, Tenacity, and Perseverance: Critical Factors for Success in the 21st Century</source>
+          <publisher-name>US Department of Education Office of Educational Technology</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="B74-education-10-00014">
+        <label>74.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lickona</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comprehensive Assessment Plan (CAP) for Continuous Program Improvement</article-title>
+          <year>2013</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www2.cortland.edu/dotAsset/3f1074f6-d041-4b89-aa1c-948c7c84c761.pdf" ext-link-type="uri">https://www2.cortland.edu/dotAsset/3f1074f6-d041-4b89-aa1c-948c7c84c761.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-08-20">(accessed on 20 August 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B75-education-10-00014">
+        <label>75.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lalor</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <source>Educate Together: An Inclusive Response to the Needs of a Pluralist Ireland</source>
+          <publisher-name>Dublin City University</publisher-name>
+          <publisher-loc>Dublin, Ireland</publisher-loc>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="B76-education-10-00014">
+        <label>76.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bickman</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Athay</surname>
+              <given-names>M.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The worst of all possible program evaluation outcomes</article-title>
+          <source>The Field Research Survival Guide</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Stiffman</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B77-education-10-00014">
+        <label>77.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hohmann</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Shear</surname>
+              <given-names>M.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Community-based intervention research: Coping with the &#x201C;noise&#x201D; of real life in study design</article-title>
+          <source>Am. J. Psychiatry</source>
+          <year>2002</year>
+          <volume>159</volume>
+          <fpage>201</fpage>
+          <lpage>207</lpage>
+          <pub-id pub-id-type="doi">10.1176/appi.ajp.159.2.201</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Tables</title>
+      <table-wrap id="education-10-00014-t001" position="float">
+        <object-id pub-id-type="pii">education-10-00014-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Senior ethical education curriculum&#x2014;strands, key skills and ethical skills.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Strand</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Key Skill</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ethical Skill</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Introduction: Values&#x2014;assumptions and action</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Critical and creative thinking<break/>Working with others<break/>Critical and creative thinking</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Using criteria<break/>Productive discussion<break/>Avoiding cognitive biases</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Identity, inclusion and diversity</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Being personally effective</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Being consistent</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pleasure, purpose and the meaning of life</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Information processing<break/>Being personally effective</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Perception and reality<break/>Growth mindset</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Power and privilege</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Information processing<break/>Working with others</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Analysing statistics and data<break/>Negotiating a solution</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Acting on our values</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Being personally effective</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">SMART planning</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Justice</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Working with others</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Being reciprocal</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="education-10-00014-t002" position="float">
+        <object-id pub-id-type="pii">education-10-00014-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Coding of learning outcomes.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample of Learning Outcomes</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Theoretical Thematic Coding Based on Narvaez (2006) [<xref ref-type="bibr" rid="B1-education-10-00014">1</xref>]</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">
+                <bold>Living our values&#x2014;The Barriers</bold>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Explain &#x201C;Living our values&#x201D;</p>
+                  </list-item>
+                  <list-item>
+                    <p>Explain cognitive biases and cultural influences</p>
+                  </list-item>
+                  <list-item>
+                    <p>Identify the cognitive biases and cultural influences that impact on the way we live our values</p>
+                  </list-item>
+                </list>
+              </td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Ethical Focus (Motivation)&#x2014;Finding Life Purpose<break/>Ethical Sensitivity&#x2014;Controlling Social Bias<break/>Ethical Focus (Motivation)&#x2014;Developing Ethical Identity and Integrity</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">
+                <bold>Exercising our values&#x2014;Key Skill of &#x2018;Using Criteria&#x2019;</bold>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Develop criteria for respectful communication in a variety of settings including the classroom, among friends, in an online environment etc.</p>
+                  </list-item>
+                  <list-item>
+                    <p>Evaluate an interaction using that criteria</p>
+                  </list-item>
+                  <list-item>
+                    <p>Identify and critique commonly used &#x2018;criteria&#x2019; for evaluating ethical situations: 1. The Sustainable Development Goals, 2. Human Rights and 3. Kant&#x2019;s Categorical Imperative</p>
+                  </list-item>
+                </list>
+              </td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Ethical Judgement&#x2014;Using Codes and Identifying Judgement Criteria<break/>Ethical Judgement&#x2014;Reasoning Ethically<break/>Ethical Judgement&#x2014;Understanding Ethical Problems<break/>Ethical Action&#x2014;Resolve Conflicts and Problems<break/>Ethical Action&#x2014;Assert Respectively<break/>Ethical Focus (Motivation)&#x2014;Respecting others</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">
+                <bold>Exercising our values&#x2014;Key Skill of &#x2018;Productive Discussion&#x2019;</bold>
+                <list list-type="bullet">
+                  <list-item>
+                    <p>Compose criteria for a productive discussion</p>
+                  </list-item>
+                  <list-item>
+                    <p>Explain why respectful communication is important</p>
+                  </list-item>
+                  <list-item>
+                    <p>Discuss an issue with their peers using respectful communication</p>
+                  </list-item>
+                </list>
+              </td>
+              <td align="left" valign="middle" style="border-bottom:solid thin">Ethical Sensitivity&#x2014;Take the Perspective of Others<break/>Ethical Sensitivity&#x2014;Understand Emotional Expression<break/>Ethical Sensitivity&#x2014;Connecting to Others<break/>Ethical Focus (Motivation)&#x2014;Respecting Others<break/>Ethical Action&#x2014;Resolving Conflicts and Problems<break/>Ethical Action&#x2014;Assert Respectfully</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

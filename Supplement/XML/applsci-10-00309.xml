@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">applsci</journal-id>
+      <journal-title-group>
+        <journal-title>Applied Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Appl. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Applied Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2076-3417</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/app10010309</article-id>
+      <article-id pub-id-type="publisher-id">applsci-10-00309</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Biomechanical Characteristics of Single Leg Jump in Collegiate Basketball Players Based on Approach Technique</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tai</surname>
+            <given-names>Weihsun</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00309" ref-type="aff">1</xref>
+          <xref rid="af2-applsci-10-00309" ref-type="aff">2</xref>
+          <xref rid="af3-applsci-10-00309" ref-type="aff">3</xref>
+          <xref rid="fn1-applsci-10-00309" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Peng</surname>
+            <given-names>Hsiente</given-names>
+          </name>
+          <xref rid="af3-applsci-10-00309" ref-type="aff">3</xref>
+          <xref rid="af4-applsci-10-00309" ref-type="aff">4</xref>
+          <xref rid="fn1-applsci-10-00309" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lin</surname>
+            <given-names>Jianzhi</given-names>
+          </name>
+          <xref rid="af5-applsci-10-00309" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lo</surname>
+            <given-names>Shinliang</given-names>
+          </name>
+          <xref rid="af4-applsci-10-00309" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Haibin</given-names>
+          </name>
+          <xref rid="af2-applsci-10-00309" ref-type="aff">2</xref>
+          <xref rid="c1-applsci-10-00309" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Huang</surname>
+            <given-names>Jianlong</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00309" ref-type="aff">1</xref>
+          <xref rid="c1-applsci-10-00309" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-applsci-10-00309"><label>1</label>Faculty of Mathematics and Computer Science, Quanzhou Normal University, Fujian, Quanzhou 362000, China; <email>dlove520@hotmail.com</email></aff>
+      <aff id="af2-applsci-10-00309"><label>2</label>School of Physical Education, Quanzhou Normal University, Fujian, Quanzhou 362000, China</aff>
+      <aff id="af3-applsci-10-00309"><label>3</label>Graduate Institute of Sport Coaching Science, Chinese Culture University, Taipei 11114, Taiwan; <email>pxd@ulive.pccu.edu.tw</email></aff>
+      <aff id="af4-applsci-10-00309"><label>4</label>Department of Physical Education, Chinese Culture University, Taipei 11114, Taiwan; <email>lxl6@faculty.pccu.edu.tw</email></aff>
+      <aff id="af5-applsci-10-00309"><label>5</label>Department of Physical Education, National Taiwan Normal University, Taipei 10646, Taiwan; <email>102027@ntnu.edu.tw</email></aff>
+      <author-notes>
+        <corresp id="c1-applsci-10-00309"><label>*</label>Correspondence: <email>haibinyu1101@gmail.com</email> (H.Y.); <email>robotics@qztc.edu.cn</email> (J.H.)</corresp>
+        <fn id="fn1-applsci-10-00309">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>1</issue>
+      <elocation-id>309</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>07</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Our study investigated the characteristics of the biomechanics of lower extremities during running single leg jump (RSJ) in collegiate basketball players. Twelve division III male basketball players voluntarily participated in this study. They performed three trials of the running single leg jump with two approach speeds (fast and preferred) randomly. The kinematic data were collected by motion analysis system (200 Hz), and kinetic data were collected using the AMTI force platform (1000 Hz), and electromyography (EMG) data were recorded by the Delsys surface Electromyography (EMG) system (2000 Hz). Kinematic, kinetic and EMG signal were synchronized using EvaRT 4.6. Peak Ground reaction force, eccentric loading rate (ELR), gastrocnemius (GA) of pre-activation phase, and tibialis anterior (TA) of push-off phase were found significantly larger in the fast approach speed (<italic>p</italic> &lt; 0.05). RSJ improves muscle activation level and stretch reflex. Higher activation of TA and GA during RSJ may have the benefit of decreasing risk of injury and jump training. Thus, it is helpful in muscle stretch adaptation.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>sport biomechanics</kwd>
+        <kwd>jumping technical analysis</kwd>
+        <kwd>inverse dynamics</kwd>
+        <kwd>electromyography</kwd>
+        <kwd>muscle activation</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-applsci-10-00309" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Jumping ability is one of the most important skills of basketball players [<xref ref-type="bibr" rid="B1-applsci-10-00309">1</xref>]. Blocked shots and lay-ups are common skills in basketball competition, which is performed with a single leg. Differing from standing vertical jumps, the running single leg jump (RSJ) is generally preceded by an approaching and takeoff with one leg, [<xref ref-type="bibr" rid="B2-applsci-10-00309">2</xref>,<xref ref-type="bibr" rid="B3-applsci-10-00309">3</xref>] which is similar to the long jump and high jump. Hence, the ability of the RSJ is important for improving performance in sports. Moreover, a lot of the sports involve taking off from a single leg such as high jump, basketball, and handball [<xref ref-type="bibr" rid="B4-applsci-10-00309">4</xref>,<xref ref-type="bibr" rid="B5-applsci-10-00309">5</xref>].</p>
+      <p>The RSJ is a typical skill in sports competition. For example, such as being able to jump higher, faster, and farther, to break through the hostile or increase offensive opportunity in different circumstances. The ability of energy conversion from the horizontal-to-vertical explains the RSJ skill feature because the major joint power and work were generated by lower extremity [<xref ref-type="bibr" rid="B6-applsci-10-00309">6</xref>]. Some studies reported horizontal kinetic energy of the center of mass (CoM) decreases to transformation a higher vertical kinetic energy and potential energy during the long jump and high jump touchdown phase [<xref ref-type="bibr" rid="B7-applsci-10-00309">7</xref>,<xref ref-type="bibr" rid="B8-applsci-10-00309">8</xref>] and the takeoff leg is main conversion pivoting. Ankle plantar-flexion, knee, and hip extension torques are believed to be the main contributors that generate the energy for the jumping height in RSJ [<xref ref-type="bibr" rid="B8-applsci-10-00309">8</xref>,<xref ref-type="bibr" rid="B9-applsci-10-00309">9</xref>].</p>
+      <p>Various studies investigated the biomechanical difference and functional application on RSJs movement through kinematic, kinetic and EMG. They included the training effect of RSJ [<xref ref-type="bibr" rid="B4-applsci-10-00309">4</xref>,<xref ref-type="bibr" rid="B5-applsci-10-00309">5</xref>,<xref ref-type="bibr" rid="B10-applsci-10-00309">10</xref>], the difference in long jump [<xref ref-type="bibr" rid="B8-applsci-10-00309">8</xref>], high jump [<xref ref-type="bibr" rid="B7-applsci-10-00309">7</xref>,<xref ref-type="bibr" rid="B11-applsci-10-00309">11</xref>,<xref ref-type="bibr" rid="B12-applsci-10-00309">12</xref>], and approach drop jump [<xref ref-type="bibr" rid="B10-applsci-10-00309">10</xref>,<xref ref-type="bibr" rid="B13-applsci-10-00309">13</xref>]. None of them provide enough specific descriptions on RSJ of lower extremity work. As we know, jumping performance is achieved by the coordination, interaction and self-organization of the ground kinetic, body segments and muscles [<xref ref-type="bibr" rid="B14-applsci-10-00309">14</xref>]. Hence, to understand how an external force triggers the stretch-shortening cycle (SSC) and stretch reflex is needed. In addition, we need to know how the body segment and joints respond.</p>
+      <p>Some studies reported an approach that increases jumping movement activation level, thus improving the explosive power and coordination of the neuromuscular control of lower limbs [<xref ref-type="bibr" rid="B5-applsci-10-00309">5</xref>,<xref ref-type="bibr" rid="B10-applsci-10-00309">10</xref>]. Previous studies reported that the running movement can increase both the ground reaction force [<xref ref-type="bibr" rid="B15-applsci-10-00309">15</xref>] and lower extremities&#x2019; joint torque [<xref ref-type="bibr" rid="B7-applsci-10-00309">7</xref>,<xref ref-type="bibr" rid="B10-applsci-10-00309">10</xref>] while maintaining a shorter ground contact time [<xref ref-type="bibr" rid="B15-applsci-10-00309">15</xref>,<xref ref-type="bibr" rid="B16-applsci-10-00309">16</xref>]. Therefore, the feature of RSJ causes a faster and more powerful jump than a jump from a standing position. It is crucial to investigate the biomechanical characteristics of RSJ, as it can facilitate in determining the factor that improves jumping capability, decreasing risks of injury, or using RSJ as an optimized training method for explosive power.</p>
+      <p>Although studies were conducted based on the biomechanical parameters of RSJ between jumps for height and length, they are primarily used to compare the difference in parameters and are not applicable to athletes or coaches. To the best of our knowledge, none have examined the biomechanical characteristics of RSJ. Therefore, the present study aimed to clarify the biomechanical characteristics and muscle activation condition of the lower extremities during RSJ in collegiate basketball players. We hypothesized that RSJ performance will be affected by running speed and that the lower extremity biomechanical parameters may correspond with muscle activation, in which the ankle joint may be an essential factor.</p>
+    </sec>
+    <sec id="sec2-applsci-10-00309" sec-type="methods">
+      <title>2. Methods</title>
+      <sec id="sec2dot1-applsci-10-00309" sec-type="subjects">
+        <title>2.1. Participants</title>
+        <p>Twelve division III male basketball plays volunteered in the study (age: 21.9 &#xB1; 1.3 years; height: 1.81 &#xB1; 0.07 m; mass: 75.1. &#xB1; 8.3 kg). All participants were free of any previous lower extremity injury, and they were familiar with RSJ. The testing procedures were explained to every participant, all participants provided their written consent before the study proceeded, and the study was approved by the ethics committee at the university.</p>
+      </sec>
+      <sec id="sec2dot2-applsci-10-00309" sec-type="methods">
+        <title>2.2. Procedures</title>
+        <p>Participants wore standardized footwear (Mizuno K1GA140009, Lurng Furng, Inc., Taipei, Taiwan) to control the effect of differences in footwear properties. Prior to data collection, they performed a 15 min warm-up including a 5 min run on a treadmill followed by a 5 min dynamic stretching of the lower extremity muscles and 5 min RSJ practices. After the warm-up, they performed a fast and preferred RSJ in a randomized order. The fast RSJ implies that the approach run speed should be faster than the speed of the light-emitting diodes (LED) meteor light bar; the preferred RSJ implies that the participants run as their usual respectively. They were instructed to perform an approach run of 6 m, step onto a force platform, and jump as high as possible with the dominant leg. We suspended a sponge under the ceiling as an overhead target, and the target height was set as each participant&#x2019;s 125% countermovement jump height; they must jump to touch the overhead target. Three trials of each of the fast and preferred RSJ were collected.</p>
+      </sec>
+      <sec id="sec2dot3-applsci-10-00309">
+        <title>2.3. Data Collection</title>
+        <p>A wooden runway (length: 10 m, width: 3 m) was set for the participants to perform the 6 m approach run. An AMTI force platform (Advanced Mechanical Technology Inc., AMTI Inc., Watertown, MA, USA) at 2000 Hz sampling rate was set at the end of the runway. A three-dimensional motion capture system (Motion Analysis Corporation, Santa Rosa, CA, USA) with 11 Eagle cameras at a 200 Hz sampling rate were set around the experimental site. EVaRT software (Version 5.0.1, Motion Analysis Corporation, Santa Rosa, CA, USA) was synchronized with the cameras and force platform. To calculate the moments and power outputs, the force data were resampled at 200 Hz. The joint moment was calculated from the kinematic and force data using inverse dynamics for each trial, as described by Winter [<xref ref-type="bibr" rid="B17-applsci-10-00309">17</xref>]. A modified Helen Hayes marker set was used to measure the movement trajectories of the lower extremities. Total twenty-three retroreflective, spherical markers (19 mm in diameter) were placed on the sacrum and bilaterally on the shoulder, anterior superior iliac spine, greater trochanter, thigh, lateral femoral epicondyle, medial femoral epicondyle, shank, lateral malleolus, medial malleolus, second metatarsal head, and posterior aspect of the heel. More details regarding the segments can be found elsewhere [<xref ref-type="bibr" rid="B18-applsci-10-00309">18</xref>]. A 9 m LED meteor light bar with a speed of 4 m/s was set beside the runway. <xref ref-type="fig" rid="applsci-10-00309-f001">Figure 1</xref> shows the experimental site setting and instrumentation used in this study.</p>
+        <p>A wireless surface electromyography (EMG) system (Delsys Inc., Boston, MA, USA) with a sampling rate of 2000 Hz was used to measure the muscle activity of the rectus femoris, biceps femoris, tibialis anterior, medial gastrocnemius, and soleus of the dominant leg. We assumed there was no bilateral different in this study. The dominant leg was defined as the leg typically used to kick a ball [<xref ref-type="bibr" rid="B19-applsci-10-00309">19</xref>]. Each participant&#x2019;s skin was carefully shaved, abraded, and cleaned with alcohol prior to the attachment of the electrodes.</p>
+      </sec>
+      <sec id="sec2dot4-applsci-10-00309">
+        <title>2.4. Data Analysis</title>
+        <p>RSJ was divided into three phases: (1) the pre-activation phase defined as 50 ms before touchdown [<xref ref-type="bibr" rid="B13-applsci-10-00309">13</xref>]; (2) the downward phase defined from touchdown to the maximum knee flexion; (3) the push-off phase defined from the maximum knee flexion to push off [<xref ref-type="bibr" rid="B10-applsci-10-00309">10</xref>,<xref ref-type="bibr" rid="B13-applsci-10-00309">13</xref>]. Kinematic and kinetic variables were analyzed using the MotionMonitor (Version 8.0, Motion Analysis Corporation) software. A 10 N vertical ground reaction force (vGRF) threshold was used to identify touchdown and push-off from the ground. The kinematic variables were the jump height, touchdown velocity of center of mass (COM), time of downward and push-off phase, peak knee flexion angle, and change in knee angle. The jump height was calculated by the COM displacement from touchdown to the highest position. The horizontal-to-vertical velocity conversion rate (HVCR) was calculated using the following equation:<disp-formula id="FD1-applsci-10-00309"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mi>HVCR</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>v</mml:mi><mml:mi>t</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>v</mml:mi><mml:mi>t</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mi>v</mml:mi><mml:mi>t</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mi>v</mml:mi><mml:mi>t</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>%</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>v</mml:mi><mml:mi>t</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mrow><mml:mi>v</mml:mi><mml:mi>t</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are the horizontal COM velocities of take-off and touchdown, respectively; <inline-formula><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mi>v</mml:mi><mml:mi>t</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mi>v</mml:mi><mml:mi>t</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are the vertical COM velocities of take-off and touchdown, respectively.</p>
+        <p>The kinetic variables were the peak horizontal ground reaction force (hGRF), vGRF, moment and powers of the hip, knee, and ankle joint, and eccentric loading rate (ELR) during RSJ. The net internal joint moments were calculated using the inverse dynamics approach. The joint powers were computed by multiplying the respective joint moment by the joint angular velocity. The ELR is a measure of the absorption of landing explosive strength calculated from the average slope of the eccentric loading portion of the vGRF-time curve in the downward phase [<xref ref-type="bibr" rid="B16-applsci-10-00309">16</xref>]. The eccentric loading portion was determined from the vGRF exceeding the body mass to the peak vertical vGRF. The hGRF, vGRF, all force, and joint moment data were normalized by each participant&#x2019;s body weight.</p>
+        <p>Raw EMG signals were processed using a band-pass filter (20&#x2013;450 Hz) to remove artifacts and calculate root mean square (RMS) with a 50 ms time interval. The EMG data of each muscle were normalized to a percentage of the highest RMS value of each muscle from trials of RSJ set as the reference voluntary contraction (RVC). The averaged %RVC of each phase of pre-activation, downward, and push-off was used to evaluate the recruited muscle activities [<xref ref-type="bibr" rid="B13-applsci-10-00309">13</xref>].</p>
+      </sec>
+      <sec id="sec2dot5-applsci-10-00309">
+        <title>2.5. Statistical Analysis</title>
+        <p>Descriptive data were expressed as the means (M) &#xB1; standard deviations (SD) of the measurements. The student&#x2019;s paired t-test was applied to all biomechanical variables to determine any significant effects during fast and preferred RSJs. Due to the sample size and participant&#x2019;s ability was limited in this research. Cohen&#x2019;s d of effect size (EZ) for the differences was calculated to indicate the practical relevance of the significance (<xref ref-type="table" rid="applsci-10-00309-t001">Table 1</xref>). A Bonferroni correction was used to adjust the <italic>p</italic>-value for multiple comparisons in tests, the alpha level for the statistical tests was set at &#x3B1; = 0.005 after Bonferroni correction adjust. Pearson product-moment correlation (r) of jump height with all the predictor variables were provided to understand the correlation of the biomechanical parameters to RSJ performance (<xref ref-type="table" rid="applsci-10-00309-t002">Table 2</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-applsci-10-00309" sec-type="results">
+      <title>3. Results</title>
+      <p>The horizontal GRF shows significantly higher in the faster approach (<italic>p</italic> &lt; 0.001); No significant difference was found in the faster or preferred approach run during takeoff. Additionally, the HVCR indicated no difference between the faster (47.9 &#xB1; 12.3%) or preferred (52.3 &#xB1; 10.4%) approach run during the ground contact phase.</p>
+      <p><xref ref-type="fig" rid="applsci-10-00309-f002">Figure 2</xref> shows the averaged patterns of changes in the vertical and horizontal ground reaction forces during the ground contact phase. <xref ref-type="table" rid="applsci-10-00309-t001">Table 1</xref> shows that the biomechanical variables after the statistics. No significant difference in jump height (<italic>p</italic> = 0.583), vGRF (<italic>p</italic> = 0.035), touchdown velocity of vertical (<italic>p</italic> = 0.682) and horizontal (<italic>p</italic> = 0.059), duration of concentric (<italic>p</italic> = 0.008) and eccentric (<italic>p</italic> = 0.009) time, %RVC of TA (<italic>p</italic> = 0.020) and GA (<italic>p</italic> = 0.032), and ELR (<italic>p</italic> = 0.010) were found between the faster and preferred runs.</p>
+      <p>The GA muscle %RVC demonstrated an activation increase in the pre-activation phase of a faster run (47 &#xB1; 25%) compared to a prefer run (38 &#xB1; 22%), and the TA muscle %RVC increased in the push-off phase of a faster run (35 &#xB1; 31%) than in the preferred run (10 &#xB1; 6%).</p>
+    </sec>
+    <sec id="sec4-applsci-10-00309" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>Biomechanical patterns and muscle activities during the pre-activation, downward and push-off phases of RSJ were examined in this study. The primary results are as follows: (1) an approach run did not increase the joint moment and power outputs during RSJ, and only a part increases in the GRF and ELR were observed; (2) the increasing approach speed was shorter in the downward and push-off time; (3) the faster approach run increased the muscle pre-activation level of the GA and activation level of the TA during the push-off phase. These results supported the hypothesis that biomechanical variables change with increased approach speed.</p>
+      <p>The faster approach runs increased the horizontal velocity of touchdown, but the preferred runs&#x2019; condition exhibited a better HVCR. However, the HVCR in RSJ was still smaller compared to that in a high jump [<xref ref-type="bibr" rid="B20-applsci-10-00309">20</xref>]. Our study indicated that a horizontal velocity of 60% (1.47 m/s) decreased from touchdown to takeoff and a conversion to vertical velocity at approximately 3 m/s. The movement duration of the RSJ was significantly shorter when the approach speed increased whether in eccentric or concentric time. This indicates that RSJ is a fast SSC movement that activates muscles to develop the maximum forces in a short time [<xref ref-type="bibr" rid="B21-applsci-10-00309">21</xref>]. The result reflects the work efficiency of lower limb muscles that executed RSJs with fast SSCs [<xref ref-type="bibr" rid="B22-applsci-10-00309">22</xref>]. However, a less eccentric time and a higher external force imply an increase in braking loading in the downward phase that may result in a muscular system activation with a high stretch reflex [<xref ref-type="bibr" rid="B23-applsci-10-00309">23</xref>], thus enhancing muscle forces [<xref ref-type="bibr" rid="B24-applsci-10-00309">24</xref>]. We found a phenomenon where the time delay between the eccentric and contraction phases was shorter. However, the participants did appear to benefit from the effect of a fast SSC in our final results.</p>
+      <p>The vGRF and ELR (<xref ref-type="fig" rid="applsci-10-00309-f003">Figure 3</xref>) were larger in the fast approach RSJ movement. Wang (2011) indicated that the GRF may be affected by knee joint range of motion (ROM) change. However, no significantly different knee ROM was found in the present study [<xref ref-type="bibr" rid="B25-applsci-10-00309">25</xref>]. The knee joint angle trend decreased with increasing approach run speed. Our result indicates different patterns of the knee ROM with stop landing movement [<xref ref-type="bibr" rid="B26-applsci-10-00309">26</xref>]; this may be because the RSJ focuses on follow-up jumping instead of landing. A higher ELR will shorten the downward phase and may create a beneficial situation for the SSC effect [<xref ref-type="bibr" rid="B15-applsci-10-00309">15</xref>,<xref ref-type="bibr" rid="B16-applsci-10-00309">16</xref>]; however, it did not reflect on the jumping performance and no difference was found in the joint moment and power output. These findings were different than those of previous studies indicating that the summed power, knee moment, and knee power increased with the approach speed [<xref ref-type="bibr" rid="B10-applsci-10-00309">10</xref>]. The possible causes could be that previous studies involved performing an approach running drop jump (RDJ), while RSJ was performed in our study. Compared with RSJ, the 60 cm RDJ generated a higher mechanical output of the lower limbs.</p>
+      <p><xref ref-type="fig" rid="applsci-10-00309-f004">Figure 4</xref> presents the averaged patterns of change in joint moments and powers of the hip, knee, and ankle joints of the dominant leg during the ground contact phase; the RSJ kinetic patterns of the lower extremity were presented. The knee flexor and hip extensor are important in supporting the body in the impact phase. The hip joint moment quickly increased in the initial part of the ground contact phase. The power was positive in the initial touchdown phase and became negative at the 55% point of the ground contact phase. The hip joint pattern indicated that the function of RSJ was to reduce the COM velocity and counteract collisions in the initial touchdown phase [<xref ref-type="bibr" rid="B27-applsci-10-00309">27</xref>].</p>
+      <p>The knee flexor generated a large moment and a negative power of the dominant leg in the concentric phase. This pattern indicated that the knee joint resisted the impact force and absorbed the mechanical energy of the body during this phase. The knee joint moment was negative in the majority of the ground contact phase, but the power indicated two parts, i.e., positive and negative by peak knee flexion (43.1%). The knee flexor generated a large moment and a negative power of the dominant leg in the eccentric phase. This pattern indicated that the knee joint resisted the impact force and absorbed the mechanical energy of the body during this phase; simultaneously, the knee flexor had to exert a sufficiently large moment to support the body. In the concentric phase, the knee flexor continued to generate sufficient push-off moment by increasing the vertical COM velocity through the forward rotation of the body around the takeoff foot [<xref ref-type="bibr" rid="B9-applsci-10-00309">9</xref>]. The mechanical work of the knee joint to the horizontal COM velocity indicate that the concentric contraction of the knee flexor would reduce the decrease in horizontal COM velocity during the concentric phase (<xref ref-type="fig" rid="applsci-10-00309-f005">Figure 5</xref>) [<xref ref-type="bibr" rid="B27-applsci-10-00309">27</xref>]. In conclusion, the knee joint supported the body to optimize the effect of the horizontal-to-vertical movement over the dominant leg during the eccentric phase and extended the body during the concentric phase to increase the vertical COM velocity throughout the takeoff phase (<xref ref-type="fig" rid="applsci-10-00309-f005">Figure 5</xref>) [<xref ref-type="bibr" rid="B7-applsci-10-00309">7</xref>].</p>
+      <p>The ankle joint moment was positive throughout the ground contact phase; however, the power was negative in the initial touchdown phase and became positive at the 55% point of the ground contact phase. The ankle joint moment and power were substantial in the eccentric to concentric phase; this pattern indicated that the ankle dorsi-flexors were contracted eccentrically during the eccentric phase and that the ankle dorsi-flexors absorbed the mechanical energy of the body together with the knee flexors, particularly in the latter part of the eccentric phase. The plantar-flexors generated the most energy in the concentric phase (<xref ref-type="fig" rid="applsci-10-00309-f004">Figure 4</xref>). In addition, the plantar-flexors increased the mechanical energy and subsequently the COM velocity during the concentric phase. Therefore, the ankle dorsi-flexors act as an energy absorber in the eccentric phase, whereas the plantar-flexors act as an energy generator in the concentric phase that increases the vertical COM velocity throughout the takeoff phase [<xref ref-type="bibr" rid="B6-applsci-10-00309">6</xref>]. The ankle joint is important in transmitting the force generated through the joints and other body parts to the ground [<xref ref-type="bibr" rid="B28-applsci-10-00309">28</xref>]. This suggests that the jumper should exert a plantar-flexion moment in the early stages such that the positive work is larger during the concentric phase and the negative work duration is shorter.</p>
+      <p>The GA muscle activities increased significantly in pre-activation and the TA muscle activities increased significantly in the push-off phase. Pre-activation was to increase the sensitivity of muscle spindles that enhanced stretch reflexes, which may increase tendomuscular stiffness and enhance force production [<xref ref-type="bibr" rid="B13-applsci-10-00309">13</xref>]. In fact, we discovered that a higher ground reaction force corresponded to a faster approach run. When muscles are strongly pre-activated before touchdown, they will excitation dynamics to begin developing before landing. Owing to the specialized RSJ movement, the horizontal-to-vertical COM velocity transition caused a higher TA muscle activation in the push-off phase to stabilize the ankle joint.</p>
+      <p>In conclusion, the present study aimed to clarify the biomechanical characteristics and patterns of the lower extremity during an RSJ. We presented different biomechanical parameters form the faster and preferred approach runs, and described the kinetic patterns of the RSJ. Although we could not prove that the jump height is associated with the approach speed, we found that it was affected by the COM velocity of the horizontal-to-vertical transition. Furthermore, the joint power indicated that the ankle joint was important during the takeoff phase. These findings may be beneficial for training with running jumps for height movements. Additionally, we suggest that athletes process RSJ movements to practice performing a horizontal-to-vertical transition with a different approach speed to improve jumping performance and applications.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, W.T. and H.P.; Funding acquisition, J.H.; Methodology, H.Y.; Project administration, J.L. and S.L.; Writing&#x2014;original draft, H.Y. and J.H.; Writing&#x2014;review &amp; editing, W.T. and H.P. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research received no external funding.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was supported by the Fujian Provincial Key Laboratory of Data-Intensive Computing, Fujian University Laboratory of Intelligent Computing and Information Processing, Fujian Provincial Big Data Research Institute of Intelligent Manufacturing, and Ministry of Science and Technology in Taiwan (MOST 104-2410-H-034-028). </p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-applsci-10-00309">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alemdaroglu</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>The relationship between muscle strength, anaerobic performance, agility, sprint ability and vertical jump performance in professional basketball players</article-title>
+          <source>J. Hum. Kinet.</source>
+          <year>2012</year>
+          <volume>31</volume>
+          <fpage>149</fpage>
+          <lpage>158</lpage>
+          <pub-id pub-id-type="doi">10.2478/v10078-012-0016-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-applsci-10-00309">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sugiyama</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kameda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kageyama</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kiba</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kanehisa</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Maeda</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Asymmetry between the dominant and non-dominant legs in the kinematics of the lower extremities during a running single leg jump in collegiate basketball players</article-title>
+          <source>J. Sports Sci. Med.</source>
+          <year>2014</year>
+          <volume>13</volume>
+          <fpage>951</fpage>
+          <lpage>957</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3-applsci-10-00309">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schiltz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lehance</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Maquet</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bury</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Crielaard</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Croisier</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Explosive strength imbalances in professional basketball players</article-title>
+          <source>J. Athl. Train.</source>
+          <year>2009</year>
+          <volume>44</volume>
+          <fpage>39</fpage>
+          <lpage>47</lpage>
+          <pub-id pub-id-type="doi">10.4085/1062-6050-44.1.39</pub-id>
+          <pub-id pub-id-type="pmid">19180217</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-applsci-10-00309">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilson</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Yeadon</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effects of initial conditions and takeoff technique on running jumps for height and distance</article-title>
+          <source>J. Biomech.</source>
+          <year>2011</year>
+          <volume>44</volume>
+          <fpage>2207</fpage>
+          <lpage>2212</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jbiomech.2011.06.010</pub-id>
+          <pub-id pub-id-type="pmid">21733519</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-applsci-10-00309">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laffaye</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bardy</surname>
+              <given-names>B.G.</given-names>
+            </name>
+            <name>
+              <surname>Durey</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Leg stiffness and expertise in men jumping</article-title>
+          <source>Med. Sci. Sports Exerc.</source>
+          <year>2005</year>
+          <volume>37</volume>
+          <fpage>536</fpage>
+          <lpage>543</lpage>
+          <pub-id pub-id-type="doi">10.1249/01.MSS.0000158991.17211.13</pub-id>
+          <pub-id pub-id-type="pmid">15809549</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-applsci-10-00309">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sado</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yoshioka</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fukashiro</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hip Abductors and Lumbar Lateral Flexors act as Energy Generators in Running Single-leg Jumps</article-title>
+          <source>Int. J. Sports Med.</source>
+          <year>2018</year>
+          <volume>39</volume>
+          <fpage>1001</fpage>
+          <lpage>1008</lpage>
+          <pub-id pub-id-type="doi">10.1055/a-0749-8846</pub-id>
+          <pub-id pub-id-type="pmid">30326529</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-applsci-10-00309">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stefanyshyn</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Nigg</surname>
+              <given-names>B.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Contribution of the lower extremity joints to mechanical energy in running vertical jumps and running long jumps</article-title>
+          <source>J. Sports Sci.</source>
+          <year>1998</year>
+          <volume>16</volume>
+          <fpage>177</fpage>
+          <lpage>186</lpage>
+          <pub-id pub-id-type="doi">10.1080/026404198366885</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-applsci-10-00309">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lees</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Graham-Smith</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Fowler</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>A biomechanical analysis of the last stride, touchdown, and takeoff characteristics of the men&#x2019;s long jump</article-title>
+          <source>J. Appl. Biomech.</source>
+          <year>1994</year>
+          <volume>10</volume>
+          <fpage>61</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1123/jab.10.1.61</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-applsci-10-00309">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Muraki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ae</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Koyama</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yokozawa</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Joint torque and power of the takeoff leg in the long jump</article-title>
+          <source>Int. J. Sport Health. Sci.</source>
+          <year>2008</year>
+          <volume>6</volume>
+          <fpage>21</fpage>
+          <lpage>32</lpage>
+          <pub-id pub-id-type="doi">10.5432/ijshs.6.21</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-applsci-10-00309">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of a horizontal approach on the mechanical output during drop jumps</article-title>
+          <source>Res. Q. Exerc. Sport</source>
+          <year>2008</year>
+          <volume>77</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1080/02701367.2008.10599454</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-applsci-10-00309">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greig</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Yeadon</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence of touchdown parameters on the performance of a high jumper</article-title>
+          <source>J. Appl. Biomech.</source>
+          <year>2000</year>
+          <volume>16</volume>
+          <fpage>367</fpage>
+          <lpage>378</lpage>
+          <pub-id pub-id-type="doi">10.1123/jab.16.4.367</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-applsci-10-00309">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ritzdorf</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Approaches to technique and technical training in the high jump</article-title>
+          <source>New Stud. Athl.</source>
+          <year>2009</year>
+          <volume>3</volume>
+          <fpage>31</fpage>
+          <lpage>34</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B13-applsci-10-00309">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Approach run increases preactivation and eccentric phases muscle activity during drop jumps from different drop heights</article-title>
+          <source>J. Electromyogr. Kines.</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>932</fpage>
+          <lpage>938</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jelekin.2009.08.007</pub-id>
+          <pub-id pub-id-type="pmid">19775913</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-applsci-10-00309">
+        <label>14.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kelso</surname>
+              <given-names>J.A.S.</given-names>
+            </name>
+          </person-group>
+          <source>Dynamic Patterns: The Self-Organization of Brain and Behavior</source>
+          <publisher-name>MIT Press</publisher-name>
+          <publisher-loc>Cambridge, London, UK;</publisher-loc>
+          <publisher-loc>Boston, MA, USA</publisher-loc>
+          <year>1995</year>
+          <isbn>978-0262611312</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B15-applsci-10-00309">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tai</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.I.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>H.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biomechanical Comparisons of One-Legged and Two-Legged Running Vertical Jumps</article-title>
+          <source>J. Hum. Kinet.</source>
+          <year>2018</year>
+          <volume>64</volume>
+          <fpage>71</fpage>
+          <lpage>76</lpage>
+          <pub-id pub-id-type="doi">10.1515/hukin-2017-0185</pub-id>
+          <pub-id pub-id-type="pmid">30429900</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-applsci-10-00309">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laffaye</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Tombleson</surname>
+              <given-names>T.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Countermovement jump height: Gender and sport-specific differences in the force-time variables</article-title>
+          <source>J. Strength Cond. Res.</source>
+          <year>2014</year>
+          <volume>28</volume>
+          <fpage>1096</fpage>
+          <lpage>1105</lpage>
+          <pub-id pub-id-type="doi">10.1519/JSC.0b013e3182a1db03</pub-id>
+          <pub-id pub-id-type="pmid">23838969</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-applsci-10-00309">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Winter</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <source>Biomechanics and Motor Control of Human Movement</source>
+          <edition>4th ed.</edition>
+          <publisher-name>Wiley</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2009</year>
+          <fpage>107</fpage>
+          <lpage>138</lpage>
+          <isbn>978-0-470-39818-0</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B18-applsci-10-00309">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peng</surname>
+              <given-names>H.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes in biomechanical properties during drop jumps of incremental height</article-title>
+          <source>J. Strength Cond. Res.</source>
+          <year>2011</year>
+          <volume>25</volume>
+          <fpage>2510</fpage>
+          <lpage>2518</lpage>
+          <pub-id pub-id-type="doi">10.1519/JSC.0b013e318201bcb3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-applsci-10-00309">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Un</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Shiang</surname>
+              <given-names>T.Y.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative and reliability studies of neuromechanical leg muscle performances of volleyball athletes in different divisions</article-title>
+          <source>Eur. J. Appl. Physyol.</source>
+          <year>2013</year>
+          <volume>113</volume>
+          <fpage>457</fpage>
+          <lpage>466</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00421-012-2454-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-applsci-10-00309">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Isolehto</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Virmavirta</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kyr&#xF6;l&#xE4;inen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Komi</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biomechanical analysis of the high jump at the 2005 IAAF World Championships in Athletics</article-title>
+          <source>New Stud. Athl.</source>
+          <year>2007</year>
+          <volume>22</volume>
+          <fpage>17</fpage>
+          <lpage>27</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B21-applsci-10-00309">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van Ingen Schenau</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Bobbert</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>de Haan</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does elastic energy enhance work and efficiency in the stretch-shortening cycle?</article-title>
+          <source>J. Appl. Biomech.</source>
+          <year>1997</year>
+          <volume>13</volume>
+          <fpage>389</fpage>
+          <lpage>415</lpage>
+          <pub-id pub-id-type="doi">10.1123/jab.13.4.389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-applsci-10-00309">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Earp</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Kraemer</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Cormie</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Volek</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Maresh</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Joseph</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Newton</surname>
+              <given-names>R.U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of muscle-tendon unit structure on rate of force development during the squat, countermovement, and drop jumps</article-title>
+          <source>J. Strength Cond. Res.</source>
+          <year>2011</year>
+          <volume>25</volume>
+          <fpage>340</fpage>
+          <lpage>347</lpage>
+          <pub-id pub-id-type="doi">10.1519/JSC.0b013e3182052d78</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-applsci-10-00309">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Komi</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Gollhofer</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stretch reflexes can have an important role in force enhancement during SSC exercise</article-title>
+          <source>J. Appl. Biomech.</source>
+          <year>1997</year>
+          <volume>14</volume>
+          <fpage>451</fpage>
+          <lpage>460</lpage>
+          <pub-id pub-id-type="doi">10.1123/jab.13.4.451</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-applsci-10-00309">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kyrolainen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Avela</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Komi</surname>
+              <given-names>P.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes in muscle activity with increasing running speed</article-title>
+          <source>J. Sport Sci.</source>
+          <year>2005</year>
+          <volume>23</volume>
+          <fpage>1101</fpage>
+          <lpage>1109</lpage>
+          <pub-id pub-id-type="doi">10.1080/02640410400021575</pub-id>
+          <pub-id pub-id-type="pmid">16194986</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-applsci-10-00309">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>The lower extremity biomechanics of single- and double-leg stop-jump tasks</article-title>
+          <source>J. Sport Sci. Med.</source>
+          <year>2011</year>
+          <volume>10</volume>
+          <fpage>151</fpage>
+          <lpage>156</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B26-applsci-10-00309">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Garrett</surname>
+              <given-names>W.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lower extremity biomechanics during the landing of a stop-jump task</article-title>
+          <source>Clin. Biomech.</source>
+          <year>2006</year>
+          <volume>21</volume>
+          <fpage>297</fpage>
+          <lpage>305</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.clinbiomech.2005.11.003</pub-id>
+          <pub-id pub-id-type="pmid">16378667</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-applsci-10-00309">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kariyama</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hobara</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zushi</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differences in take-off leg kinetics between horizontal and vertical single-leg rebound jumps</article-title>
+          <source>Sports Biomech.</source>
+          <year>2017</year>
+          <volume>16</volume>
+          <fpage>187</fpage>
+          <lpage>200</lpage>
+          <pub-id pub-id-type="doi">10.1080/14763141.2016.1216160</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-applsci-10-00309">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ang</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coupling rub-impact dynamics of double translational joints with subsidence for time-varying load in a planar mechanical system</article-title>
+          <source>Multibody Syst Dyn.</source>
+          <year>2019</year>
+          <pub-id pub-id-type="doi">10.1007/s11044-019-09718-9</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="applsci-10-00309-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Experimental site setting and instrumentation used in this study.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00309-g001.tif"/>
+      </fig>
+      <fig id="applsci-10-00309-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Averaged patterns of changes in the vertical (<bold>a</bold>) and horizontal (<bold>b</bold>) ground reaction force during the ground contact phase (bold line, faster run; dot line, prefer run); black arrow indicates the start of the push-off phase during the RSJ with the faster run approach; gray arrow indicates the start of the push-off phase during the RSJ with prefer run approach.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00309-g002.tif"/>
+      </fig>
+      <fig id="applsci-10-00309-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Box plot of ELR in fast and prefer approach conditions.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00309-g003.tif"/>
+      </fig>
+      <fig id="applsci-10-00309-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Averaged patterns of change in joint moments (<bold>a</bold>) and joint powers (<bold>b</bold>) of the hip, knee, and ankle joints of the dominant leg during ground contact phase (bold line, average; dot lines, range of &#xB1; SD). The averaged point of peak knee flexion of the dominant leg was presented (43.1%). Stick figures are drawn from touchdown to the toe-off at every 20% point. Where the positive value of the moment of hip and knee means extension, the negative value was flexion and plantar-flexion of the ankle joint was present as a positive value, the negative value was dorsi-flexion.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00309-g004.tif"/>
+      </fig>
+      <fig id="applsci-10-00309-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Averaged patterns of vertical (<bold>a</bold>) and horizontal (<bold>b</bold>) COM velocities during ground contact phase (bold line, prefer approach run; dot line, faster approach run); black arrow indicates the start of the push-off phase during the RSJ with the faster run approach; gray arrow indicates the start of the push-off phase during the RSJ with prefer run approach.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00309-g005.tif"/>
+      </fig>
+      <table-wrap id="applsci-10-00309-t001" position="float">
+        <object-id pub-id-type="pii">applsci-10-00309-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Descriptive data on biomechanical parameters of lower extremity. Based on means (M) and standard deviations (SD).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fast Approach</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Prefer Approach</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>t</italic>
+              </th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>p</italic>
+              </th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>r</italic>
+              </th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>r<sup>2</sup></italic>
+              </th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>Cohen&#x2019;s d</italic>
+              </th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">M</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SD</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">M</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">SD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Jump height (m)</td>
+              <td align="center" valign="middle">0.78</td>
+              <td align="center" valign="middle">0.08</td>
+              <td align="center" valign="middle">0.77</td>
+              <td align="center" valign="middle">0.09</td>
+              <td align="center" valign="middle">0.57</td>
+              <td align="center" valign="middle">0.583</td>
+              <td align="center" valign="middle">0.74</td>
+              <td align="center" valign="middle">0.55</td>
+              <td align="center" valign="middle">0.161</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Horizontal GRF (BW) *</td>
+              <td align="center" valign="middle">1.58</td>
+              <td align="center" valign="middle">0.24</td>
+              <td align="center" valign="middle">1.36</td>
+              <td align="center" valign="middle">0.24</td>
+              <td align="center" valign="middle">&#x2212;7.11</td>
+              <td align="center" valign="middle">&lt;0.000</td>
+              <td align="center" valign="middle">0.91</td>
+              <td align="center" valign="middle">0.82</td>
+              <td align="center" valign="middle">2.139</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Vertical GRF (BW) </td>
+              <td align="center" valign="middle">3.46</td>
+              <td align="center" valign="middle">0.31</td>
+              <td align="center" valign="middle">3.27</td>
+              <td align="center" valign="middle">0.34</td>
+              <td align="center" valign="middle">2.40</td>
+              <td align="center" valign="middle">0.035</td>
+              <td align="center" valign="middle">0.65</td>
+              <td align="center" valign="middle">0.42</td>
+              <td align="center" valign="middle">0.695</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Horizontal touchdown velocity (m/s) </td>
+              <td align="center" valign="middle">4.31</td>
+              <td align="center" valign="middle">0.17</td>
+              <td align="center" valign="middle">3.96</td>
+              <td align="center" valign="middle">0.28</td>
+              <td align="center" valign="middle">&#x2212;2.91</td>
+              <td align="center" valign="middle">0.059</td>
+              <td align="center" valign="middle">0.61</td>
+              <td align="center" valign="middle">0.37</td>
+              <td align="center" valign="middle">1.577</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Vertical touchdown velocity (m/s)</td>
+              <td align="center" valign="middle">0.32</td>
+              <td align="center" valign="middle">0.17</td>
+              <td align="center" valign="middle">0.30</td>
+              <td align="center" valign="middle">0.17</td>
+              <td align="center" valign="middle">&#x2212;0.42</td>
+              <td align="center" valign="middle">0.682</td>
+              <td align="center" valign="middle">0.60</td>
+              <td align="center" valign="middle">0.36</td>
+              <td align="center" valign="middle">0.132</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Concentric time (ms) </td>
+              <td align="center" valign="middle">115</td>
+              <td align="center" valign="middle">16</td>
+              <td align="center" valign="middle">124</td>
+              <td align="center" valign="middle">13</td>
+              <td align="center" valign="middle">&#x2212;3.25</td>
+              <td align="center" valign="middle">0.008</td>
+              <td align="center" valign="middle">0.82</td>
+              <td align="center" valign="middle">0.67</td>
+              <td align="center" valign="middle">0.983</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Eccentric time (ms) </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">127</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">144</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;3.15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.009</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.56</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.914</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>* Indicates  significant difference found between fast and prefer RSJ, <italic>p</italic> &lt; 0.005.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="applsci-10-00309-t002" position="float">
+        <object-id pub-id-type="pii">applsci-10-00309-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Pearson product-moment correlation (r) of jump height of fast and prefer approach.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Variables</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fast Approach</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Prefer Approach</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>r</italic>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>p</italic>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>r</italic>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>p</italic>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Horizontal GRF (BW) </td>
+              <td align="center" valign="middle">0.082</td>
+              <td align="center" valign="middle">0.801</td>
+              <td align="center" valign="middle">0.480</td>
+              <td align="center" valign="middle">0.114</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Vertical GRF (BW) </td>
+              <td align="center" valign="middle">0.229</td>
+              <td align="center" valign="middle">0.474</td>
+              <td align="center" valign="middle">0.200</td>
+              <td align="center" valign="middle">0.533</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Horizontal touchdown velocity (m/s) </td>
+              <td align="center" valign="middle">0.358</td>
+              <td align="center" valign="middle">0.253</td>
+              <td align="center" valign="middle">0.223</td>
+              <td align="center" valign="middle">0.486</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Vertical touchdown velocity (m/s)</td>
+              <td align="center" valign="middle">0.215</td>
+              <td align="center" valign="middle">0.502</td>
+              <td align="center" valign="middle">0.315</td>
+              <td align="center" valign="middle">0.319</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Concentric time (ms) </td>
+              <td align="center" valign="middle">0.366</td>
+              <td align="center" valign="middle">0.242</td>
+              <td align="center" valign="middle">0.340</td>
+              <td align="center" valign="middle">0.280</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Eccentric time (ms) </td>
+              <td align="center" valign="middle">0.574</td>
+              <td align="center" valign="middle">0.051</td>
+              <td align="center" valign="middle">0.221</td>
+              <td align="center" valign="middle">0.490</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">ELR</td>
+              <td align="center" valign="middle">0.188</td>
+              <td align="center" valign="middle">0.558</td>
+              <td align="center" valign="middle">0.167</td>
+              <td align="center" valign="middle">0.604</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">GA%RVC in pre-activation (%)</td>
+              <td align="center" valign="middle">0.278</td>
+              <td align="center" valign="middle">0.382</td>
+              <td align="center" valign="middle">0.125</td>
+              <td align="center" valign="middle">0.699</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">TA%RVC in push-off (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.213</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.506</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.255</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.424</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,3236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">water</journal-id>
+      <journal-title-group>
+        <journal-title>Water</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Water</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Water</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4441</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/w12010131</article-id>
+      <article-id pub-id-type="publisher-id">water-12-00131</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Hydrothermal Enhanced Nanoscale Zero-Valent Iron Activated Peroxydisulfate Oxidation of Chloramphenicol in Aqueous Solutions: Fe-Speciation Analysis and Modeling Optimization</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2814-5311</contrib-id>
+          <name>
+            <surname>Yang</surname>
+            <given-names>Lie</given-names>
+          </name>
+          <xref rid="af1-water-12-00131" ref-type="aff">1</xref>
+          <xref rid="af2-water-12-00131" ref-type="aff">2</xref>
+          <xref rid="c1-water-12-00131" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Hong</given-names>
+          </name>
+          <xref rid="af1-water-12-00131" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xue</surname>
+            <given-names>Jianming</given-names>
+          </name>
+          <xref rid="af2-water-12-00131" ref-type="aff">2</xref>
+          <xref rid="af3-water-12-00131" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>He</surname>
+            <given-names>Liuyang</given-names>
+          </name>
+          <xref rid="af1-water-12-00131" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ma</surname>
+            <given-names>Yongfei</given-names>
+          </name>
+          <xref rid="af1-water-12-00131" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Li</given-names>
+          </name>
+          <xref rid="af1-water-12-00131" ref-type="aff">1</xref>
+          <xref rid="c1-water-12-00131" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Zulin</given-names>
+          </name>
+          <xref rid="af1-water-12-00131" ref-type="aff">1</xref>
+          <xref rid="af4-water-12-00131" ref-type="aff">4</xref>
+          <xref rid="c1-water-12-00131" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-water-12-00131"><label>1</label>Hubei Key Laboratory of Mineral Resources Processing and Environment, School of Resources and Environmental Engineering, Wuhan University of Technology, Wuhan 430070, China; <email>Lihong516@whut.edu.cn</email> (H.L.); <email>lyh1994@whut.edu.cn</email> (L.H.); <email>yongfei.ma@whut.edu.cn</email> (Y.M.)</aff>
+      <aff id="af2-water-12-00131"><label>2</label>Scion, Christchurch 8440, P.O. Box 29237, New Zealand; <email>jianming.xue@scionresearch.com</email></aff>
+      <aff id="af3-water-12-00131"><label>3</label>College of Biology and the Environment, Nanjing Forestry University, Nanjing 210037, China</aff>
+      <aff id="af4-water-12-00131"><label>4</label>The James Hutton Institute, Craigiebuckler, Aberdeen ABI5 8QH, UK</aff>
+      <author-notes>
+        <corresp id="c1-water-12-00131"><label>*</label>Correspondence: <email>yanglie612@whut.edu.cn</email> (L.Y.); <email>wuli774@whut.edu.cn</email> (L.W.); <email>Zulin.Zhang@hutton.ac.uk</email> (Z.Z.)</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>131</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>26</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The efficiencies of the nanoscale zero-valent iron (nZVI) and hydrothermal and nZVI-heat activation of peroxydisulfate (PS) were studied for the decomposition of chloramphenicol (CAP) in aqueous solutions. The nZVI heat combined with activation of PS provided a significant synergistic effect. A central composite design (CCD) with response surface methodology (RSM) was employed to explore the influences of single parameter and interactions of selected variables (initial pH, PS concentration, nZVI and temperature) on degradation rates with the purpose of condition optimization. A quadratic model was established based on the experimental results with excellent correlation coefficients of 0.9908 and 0.9823 for R<sup>2</sup> and R<sup>2</sup><sub>adj</sub>. The optimized experimental condition for 97.12% CAP removal was predicted with the quadratic model as 15 mg/L, 0.5 mmol/L, 7.08 and 70 &#xB0;C for nZVI dosage, PS, initial pH, and temperature, respectively. This study demonstrated the effectiveness of RSM for the modeling and prediction of CAP removal processes. In the optimal condition, Fe<sub>2</sub>O<sub>3</sub> and Fe<sub>3</sub>O<sub>4</sub> were the predominant solid products after reactions based on X-ray photoelectron spectroscopy (XPS) and X-ray diffraction (XRD) analysis, which could also act as the activators along with the reaction. Overall, it could be concluded that hydrothermal enhanced nZVI activation of PS was a promising and efficient choice for CAP degradation.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>persulfate</kwd>
+        <kwd>nZVI</kwd>
+        <kwd>chloramphenicol</kwd>
+        <kwd>Fe species</kwd>
+        <kwd>response surface methodology</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-water-12-00131" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Since the 1950s chloramphenicol (CAP) has acted as a widely applied broad-spectrum antibiotic with excellent antibacterial properties [<xref ref-type="bibr" rid="B1-water-12-00131">1</xref>,<xref ref-type="bibr" rid="B2-water-12-00131">2</xref>,<xref ref-type="bibr" rid="B3-water-12-00131">3</xref>]. Approximately 16% to 38% of CAP potentially leaves organisms as a form of parent compound through feces or urine before being discharged into sewage [<xref ref-type="bibr" rid="B4-water-12-00131">4</xref>]. It was reported that CAP was not effectively removed by traditional wastewater plants and largely reached surface waters, causing notable ecological risks [<xref ref-type="bibr" rid="B5-water-12-00131">5</xref>,<xref ref-type="bibr" rid="B6-water-12-00131">6</xref>]. CAP concentrations of up to 28.36 ng&#xB7;L<sup>&#x2212;1</sup> have been found in urban water supplies of Shanghai, China [<xref ref-type="bibr" rid="B7-water-12-00131">7</xref>]. The concentrations of CAP in raw wastewater and biologically treated wastewater were reported as 38.84 &#xB1; 44.74 mg&#xB7;L<sup>&#x2212;1</sup> and 21.24 &#xB1; 15.74 mg&#xB7;L<sup>&#x2212;1</sup>, respectively [<xref ref-type="bibr" rid="B8-water-12-00131">8</xref>]. Its negative effects, such as bone marrow suppression and aplastic anemia cannot be ignored, [<xref ref-type="bibr" rid="B9-water-12-00131">9</xref>], as they pose a notable threat to human health [<xref ref-type="bibr" rid="B10-water-12-00131">10</xref>]. Thus, novel techniques are urgently needed for efficient CAP removal.</p>
+      <p>There have been some techniques applied for CAP removal from aqueous solution, such as adsorption [<xref ref-type="bibr" rid="B11-water-12-00131">11</xref>,<xref ref-type="bibr" rid="B12-water-12-00131">12</xref>,<xref ref-type="bibr" rid="B13-water-12-00131">13</xref>,<xref ref-type="bibr" rid="B14-water-12-00131">14</xref>,<xref ref-type="bibr" rid="B15-water-12-00131">15</xref>], nano materials [<xref ref-type="bibr" rid="B16-water-12-00131">16</xref>,<xref ref-type="bibr" rid="B17-water-12-00131">17</xref>,<xref ref-type="bibr" rid="B18-water-12-00131">18</xref>,<xref ref-type="bibr" rid="B19-water-12-00131">19</xref>], electrochemistry [<xref ref-type="bibr" rid="B20-water-12-00131">20</xref>,<xref ref-type="bibr" rid="B21-water-12-00131">21</xref>], and advanced oxidation processes [<xref ref-type="bibr" rid="B8-water-12-00131">8</xref>]. Among them, persulfate (PS) has, in recent years, attracted great attention as an alternative to H<sub>2</sub>O<sub>2</sub> for advanced oxidation processes due to its high redox potential (2.5 V&#x2013;3.1 V) and longer lifetime than <sup>&#x2022;</sup>OH [<xref ref-type="bibr" rid="B22-water-12-00131">22</xref>,<xref ref-type="bibr" rid="B23-water-12-00131">23</xref>,<xref ref-type="bibr" rid="B24-water-12-00131">24</xref>]. Moreover, PS has the advantage of convenient storage and delivery in the form of solid particles due to its stability in the inactive state [<xref ref-type="bibr" rid="B22-water-12-00131">22</xref>] and its longevity. It is also non-selective for degradation of a variety of contaminants [<xref ref-type="bibr" rid="B25-water-12-00131">25</xref>]. There are a series of available methods for PS activation [<xref ref-type="bibr" rid="B25-water-12-00131">25</xref>]. It is worth mentioning that nanoscale zero-valent iron (nZVI) activation has attracted increasing attention due to its combined effects of Fe<sup>0</sup>, Fe<sup>2+</sup>, Fe<sup>3+</sup>, FeOOH, and Fe<sub>3</sub>O<sub>4</sub> [<xref ref-type="bibr" rid="B26-water-12-00131">26</xref>]. Furthermore, nZVI has been verified to be capable for decomposing organic pollutants through the reaction with dissolved oxygen to generate <sup>&#x2022;</sup>OH, O<sub>2</sub><sup>&#x2022;</sup>, and HO<sub>2</sub><sup>&#x2022;</sup> [<xref ref-type="bibr" rid="B27-water-12-00131">27</xref>,<xref ref-type="bibr" rid="B28-water-12-00131">28</xref>]. Thus, nZVI-activated PS oxidation could act as a potential choice for CAP removal. As for reaction rate improvement, reaction temperature is a crucial operational variable for aqueous viscosity [<xref ref-type="bibr" rid="B29-water-12-00131">29</xref>] and mass transfer coefficients [<xref ref-type="bibr" rid="B30-water-12-00131">30</xref>]. As the temperature increases, heat energy can also act as a persulfate activator to increase the SO<sub>4</sub><sup>&#x2212;&#x2022;</sup> radicals [<xref ref-type="bibr" rid="B31-water-12-00131">31</xref>]. Hydrothermal enhanced degradation of CAP using nZVI-activated PS oxidation was investigated in this study. Response surface methodology (RSM), a widely used optimized tool [<xref ref-type="bibr" rid="B32-water-12-00131">32</xref>,<xref ref-type="bibr" rid="B33-water-12-00131">33</xref>,<xref ref-type="bibr" rid="B34-water-12-00131">34</xref>], was used to assess the selected operational variables based on a proposed quadratic model. The main aims of this study were to: (1) investigate the synergistic effects of a heat/nZVI combined activation of PS on CAP removal and (2) optimize the operational conditions of CAP degradation based on a proposed quadratic model.</p>
+    </sec>
+    <sec id="sec2-water-12-00131">
+      <title>2. Material and Methods</title>
+      <sec id="sec2dot1-water-12-00131">
+        <title>2.1. Materials</title>
+        <p>Chloramphenicol (analytical grade, 99.2%) was bought from Dr. Ehrenstorfer GmbH. Sodium persulfate (Na<sub>2</sub>S<sub>2</sub>O<sub>8</sub>, &#x2265;98%) was obtained from Sinopharm Chemical Reagents Co., Ltd. (Shanghai, China). nZVI (&#x2265;99.9%, 50 nm) was purchased from Hubei Institute of Material Protection. All reagents were of analytical grade and all the solution were prepared with Milli-Q ultrapure water. The physicochemical characteristics and molecular details of CAP are demonstrated in <xref ref-type="table" rid="water-12-00131-t001">Table 1</xref> [<xref ref-type="bibr" rid="B6-water-12-00131">6</xref>].</p>
+      </sec>
+      <sec id="sec2dot2-water-12-00131">
+        <title>2.2. Experimental Setup and Analysis Method</title>
+        <p>A wide range of CAP concentrations were applied in the other studies, which included 110 mg/L [<xref ref-type="bibr" rid="B17-water-12-00131">17</xref>], 10 mg/L [<xref ref-type="bibr" rid="B21-water-12-00131">21</xref>], 20 mg/L [<xref ref-type="bibr" rid="B21-water-12-00131">21</xref>], and 9.69 mg/L [<xref ref-type="bibr" rid="B35-water-12-00131">35</xref>]. In this work, all trials were implemented in glass reaction tanks (250 mL) containing 100 mL of CAP solution and the initial concentration was 1 mg/L to simulate a low CAP concentration in wastewater. Before adding PS and nZVI, the reactor with CAP solution was heated in water-bath (HH-4, Changzhou Aohua Instrument Co., Ltd., Changzhou, China) for about 5 min to reach the required temperature (40&#x2013;80 &#xB0;C). The solution was continuously stirred with a mechanical stirrer equipped with Teflon stirring blades (DJ1C-40, Jintandadi, Changzhou, China) during the reaction period. A 4 cm diameter blade was placed in the middle of each vessel. The stirring speed was maintained at 250 rpm/min and an entire reaction lasted for 20 min. The solution pH was adjusted using 0.1 mol/L H<sub>2</sub>SO<sub>4</sub> or NaOH solution. At selected time points, 1 mL solution was taken out for further determination and an equal volume of methanol was added into the sample immediately to inhibit CAP oxidation during the determination process. The mixture was filtered through 0.22 &#x3BC;m membrane (Jinteng Ltd., Tianjin, China) and prepared for further LC-MS/MS analysis. The CAP concentrations in the reaction system was determined with Q-Sight<sup>TM</sup> 210 LX50 HPLC (PerkinElmer) coupled to a Triple Quad Mass Spectrometer with electrospray ionization (ESI). A Phenomenex Kinetic C18 100A column (Size 100 &#xD7; 4.6 mm; particle size 2.6 &#x3BC;m) and negative ESI mode was used for CAP determination. The column temperature was set as 35 &#xB0;C, and the injection volume was set as 2 &#x3BC;L each time. The mobile phase comprised acetonitrile and water (volume ratio 6:4) and the flow rate was maintained at 0.6 mL/min. The crystalline structure analysis of mixed powder after reactions was conducted with D8 X-ray diffraction (XRD) spectra (Bruker, Germany). Jade 5.0 software was used to determine the crystalline structure of nZVI surface after reactions. In addition, X-ray photoelectron spectroscopy (XPS) analysis of mixed powder was performed using KRATOS Axis Ultra (Kratos Analytical, Manchester, United Kingdom) and analyzed with XPS peak 41 software (Raymund Kwok, HongKong, China).</p>
+      </sec>
+      <sec id="sec2dot3-water-12-00131">
+        <title>2.3. Experimental Details</title>
+        <p>As a widely used method, RSM gives guidance for variable optimization within minimal trial runs by model prediction [<xref ref-type="bibr" rid="B36-water-12-00131">36</xref>]. In this research, four independent variables were selected and analyzed for the maximal CAP removal from aqueous solution. With a view to exploring the effects of relevant operating variables (initial pH, nZVI dosage, PS concentration, and temperature) on CAP decomposition, the selected vital factors affecting CAP removal rate and the optimal level of interaction were set by central composite design (CCD). For each factor, five levels (+2, +1, 0, &#x2212;1, and &#x2212;2) were applied (<xref ref-type="table" rid="water-12-00131-t002">Table 2</xref>) [<xref ref-type="bibr" rid="B33-water-12-00131">33</xref>]. Thus a four-factor of five-level CCD design with 30 runs was employed, and the five coded levels of each variable were designated as &#x2212;2, &#x2212;1, 0, +1, and +2 (<xref ref-type="table" rid="water-12-00131-t003">Table 3</xref>). A software named Design-Expert 8.0.6 (State-Ease, Minneapolis, AL, USA) was used to design, analyze, and optimize the experimental model [<xref ref-type="bibr" rid="B33-water-12-00131">33</xref>]. All experimental data were analyzed by the least-squares regression method to predict the process response and to estimate the coefficients according to a second-order equation [<xref ref-type="bibr" rid="B33-water-12-00131">33</xref>]. In order to determine the accuracy and adequacy of the prediction model, the appropriate graph of the &#x201C;actual vs. predicted&#x201D; values and the graph of the model response and residual application were presented, respectively. The accuracy of proposed equation was examined using the analysis of variance (ANOVA). Model coefficients calculated by multiple regression analysis of experimental data were analyzed to assess whether a given term had a significant effect (<italic>p</italic> &#x2264; 0.05). These effects were outlined based on a fitting quadratic equation. Eventually, the optimized operating condition was calculated and provided to maximize CAP removal.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-water-12-00131">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-water-12-00131">
+        <title>3.1. The Synergistic Effect of nZVI-Heat Activated PS Degradation of CAP</title>
+        <p>With a view to exploring the synergistic effects, CAP degradation was conducted under various treatments (nZVI, PS, nZVI-PS, heat-PS, and nZVI-heat-PS) with initial CAP concentration of 1 mg/L and with 20 min of reaction time. Different CAP degradation efficiencies were obtained in the various processes as demonstrated in <xref ref-type="fig" rid="water-12-00131-f001">Figure 1</xref>. The CAP removal efficiencies for nZVI alone and PS alone were only 11.57% and 10.13%, respectively. As for PS activation processes, 22.60%, 42.86%, and 70.89% were obtained in nZVI-PS, heat-PS, and nZVI-heat-PS processes, respectively. The pseudo-first-order kinetic model (Equation (1)) has been widely used to describe the removal of conventional and emerging organic contaminants [<xref ref-type="bibr" rid="B18-water-12-00131">18</xref>]. The combined degradation of CAP presented an enhanced degradation rate constant (5.76 &#xD7; 10<sup>&#x2212;2</sup> min<sup>&#x2212;1</sup>) compared with the individual activation processes of 1.18 &#xD7; 10<sup>&#x2212;2</sup> min<sup>&#x2212;1</sup> and 2.86 &#xD7; 10<sup>&#x2212;2</sup> min<sup>&#x2212;1</sup> for nZVI and heat activation, respectively. There is an equation for the calculation of synergistic influences (Equation (2)) [<xref ref-type="bibr" rid="B37-water-12-00131">37</xref>]. Synergy index values greater than 1.0 indicated a positive synergistic effect of the combined process [<xref ref-type="bibr" rid="B36-water-12-00131">36</xref>]. In this research, the combined activated PS degradation of CAP showed a synergistic index of 1.43, indicating an excellent performance of nZVI-heat activation. The phenomenon could be ascribed to a series of complicated reactions including radical effects and non-radical effects. The results evidently verified that the nZVI-heat combined activation of PS oxidation is an alternative solution for CAP removal from aqueous solution.
+        <disp-formula>ln(C<sub>t</sub>/C<sub>0</sub>) = &#x2212;k<sub>obs</sub> &#xD7; t<label>(1)</label></disp-formula>
+        <disp-formula>Synergy index = k(nZVI + heat + PS)/(k(nZVI + PS) + k(heat + PS))<label>(2)</label></disp-formula></p>
+      </sec>
+      <sec id="sec3dot2-water-12-00131">
+        <title>3.2. Model Analysis</title>
+        <p>The obtained results were fitted with the proposed model. The multiple regression analysis was applied in RSM and the detailed outcomes of regression analysis of the model for CAP removal were summarized (<xref ref-type="table" rid="water-12-00131-t004">Table 4</xref>). Additionally, the significance of linear, interactive, and quadratic terms could be expressed by <italic>p</italic>-values [<xref ref-type="bibr" rid="B33-water-12-00131">33</xref>,<xref ref-type="bibr" rid="B36-water-12-00131">36</xref>]. When <italic>p</italic>-values &lt; 0.05 (95%), the terms could be considered to be significant. Based on the results, it was observed that the obtained coefficients of all the first-order terms (X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub>, and X<sub>4</sub>), two interaction terms (X<sub>1</sub>X<sub>4</sub> and X<sub>3</sub>X<sub>4</sub>) and three quadratic coefficients (X<sub>1</sub><sup>2</sup>, X<sub>3</sub><sup>2</sup>, and X<sub>4</sub><sup>2</sup>) were significant (<italic>p</italic> &lt; 0.05, 95%). The other insignificant term coefficients (<italic>p</italic> &gt; 0.05, 95%) could be removed from the model due to their insignificant influence on CAP degradation efficiency. As a result, the model was presented in Equation (3) to simulate the CAP degradation efficiency using nZVI + heat + PS processes.
+        <disp-formula>Y = 75.47 + 1.69 X<sub>1</sub> + 4.53 X<sub>2</sub> &#x2212; 12.18 X<sub>3</sub> + 19.93 X<sub>4</sub> &#x2212; 2.84X<sub>1</sub>X<sub>4</sub> + 10.74 X<sub>3</sub>X<sub>4</sub> + 1.62 X<sub>1</sub><sup>2</sup> &#x2212; 2.73 X<sub>3</sub><sup>2</sup> &#x2212; 4.87 X<sub>4</sub><sup>2</sup><label>(3)</label></disp-formula></p>
+        <p>Y represents the efficiency of CAP degradation. X<sub>1</sub>, X<sub>2</sub>, X<sub>3</sub>, and X<sub>4</sub> represent the terms of nZVI (mg), PS concentration (mM), initial pH, and temperature (&#xB0;C), respectively. Generally, positive coefficients (&gt;0) indicate favorable effects on degradation efficiency, whereas negative coefficients (&lt;0) indicate unfavorable effects on degradation efficiency [<xref ref-type="bibr" rid="B36-water-12-00131">36</xref>,<xref ref-type="bibr" rid="B38-water-12-00131">38</xref>]. Based on data diagnostics, two representative graphs were obtained to verify the accuracy of proposed model. As demonstrated in <xref ref-type="fig" rid="water-12-00131-f002">Figure 2</xref>a, the points showed a good linearity and fit well with the normal distribution. According to <xref ref-type="fig" rid="water-12-00131-f002">Figure 2</xref>b, it was obvious that the predicted model could predict the degradation efficiency accurately. Thus, the established equation is creditable for the simulation of CAP degradation in the control condition.</p>
+        <p>The detailed statistical information of the established model was analyzed and summarized in <xref ref-type="table" rid="water-12-00131-t005">Table 5</xref>. The crucial parameters (F, P, CV, R<sup>2</sup>, and R<sup>2</sup><sub>adj</sub> etc.) were assessed for the validity and accuracy of the proposed model [<xref ref-type="bibr" rid="B39-water-12-00131">39</xref>,<xref ref-type="bibr" rid="B40-water-12-00131">40</xref>,<xref ref-type="bibr" rid="B41-water-12-00131">41</xref>,<xref ref-type="bibr" rid="B42-water-12-00131">42</xref>]. It was observed that Fisher&#x2019;s F-value of 115.86 was much higher than 2.3928 (F<sub>critical,0.05,9,20</sub>), implying the significance of the proposed model [<xref ref-type="bibr" rid="B33-water-12-00131">33</xref>,<xref ref-type="bibr" rid="B36-water-12-00131">36</xref>]. Additionally, the extremely low probability value (&lt;0.0001) could also confirm the significance of the proposed model. Also, the lack-of-fit (LOF) (F-value 0.0004 &lt; 4.7725) and the adequate precision ratio (AP 35.224 &gt; 4) could confirm the insignificant shortage and sufficient adequacy for the model [<xref ref-type="bibr" rid="B33-water-12-00131">33</xref>,<xref ref-type="bibr" rid="B36-water-12-00131">36</xref>]. It was reported that low coefficient of variance (CV) (&lt;10%) meant satisfactory repeatability of experiments [<xref ref-type="bibr" rid="B36-water-12-00131">36</xref>]. The CV of this study was 4.55% (&lt;10%) and met the mentioned requirement. The R<sup>2</sup> (0.9908) and adjusted R<sup>2</sup> (0.9823) indicated the model&#x2032;s satisfactory adequacy for the prediction of CAP removal.</p>
+      </sec>
+      <sec id="sec3dot3-water-12-00131">
+        <title>3.3. Interactive Effects of Operational Parameters</title>
+        <p>The 3D response surface and 2D contour plots, frequently being applied in other studies [<xref ref-type="bibr" rid="B32-water-12-00131">32</xref>,<xref ref-type="bibr" rid="B33-water-12-00131">33</xref>], were provided to demonstrate the interactive influences of selected variables (<xref ref-type="fig" rid="water-12-00131-f003">Figure 3</xref>). As shown in <xref ref-type="table" rid="water-12-00131-t005">Table 5</xref>, two interaction term coefficients (X<sub>1</sub>X<sub>4</sub> and X<sub>3</sub>X<sub>4</sub>) were significant (<italic>p</italic> &lt; 0.05, 95%), implying that the interactive effects of relevant operational parameters (nZVI and temperature and pH and temperature) were crucial for CAP degradation.</p>
+        <p><xref ref-type="fig" rid="water-12-00131-f003">Figure 3</xref>a,b show nZVI and temperature impacts on the CAP removal efficiency with 3D and 2D methods, respectively. It was clear that the CAP removal rate was mainly dependent on reaction temperature. With the temperature increasing, the CAP degradation efficiency kept increasing in the selected range. Similar phenomena have been frequently observed especially for thermal activation decomposition of organics [<xref ref-type="bibr" rid="B43-water-12-00131">43</xref>,<xref ref-type="bibr" rid="B44-water-12-00131">44</xref>,<xref ref-type="bibr" rid="B45-water-12-00131">45</xref>,<xref ref-type="bibr" rid="B46-water-12-00131">46</xref>]. The O&#x2013;O bond breakage is reasonably enhanced with temperature increase and more SO<sub>4</sub><sup>&#x2022;&#x2212;</sup> could be generated via Equation (4) [<xref ref-type="bibr" rid="B45-water-12-00131">45</xref>]. In addition, reaction temperature is a crucial variable for aqueous viscosity [<xref ref-type="bibr" rid="B29-water-12-00131">29</xref>] and the mass transfer coefficient [<xref ref-type="bibr" rid="B30-water-12-00131">30</xref>]. It has been frequently reported that increasing temperature has a positive effect on pollutant degradation [<xref ref-type="bibr" rid="B30-water-12-00131">30</xref>,<xref ref-type="bibr" rid="B31-water-12-00131">31</xref>,<xref ref-type="bibr" rid="B47-water-12-00131">47</xref>,<xref ref-type="bibr" rid="B48-water-12-00131">48</xref>]. As for nZVI dosage, the CAP removal efficiency was slightly enhanced by increasing nZVI dosage from 15 mg/L to 25 mg/L at 50 &#xB0;C. On the one hand, nZVI could react with S<sub>2</sub>O<sub>8</sub><sup>2&#x2212;</sup> to generate Fe<sup>2+</sup>, which could further activate S<sub>2</sub>O<sub>8</sub><sup>2&#x2212;</sup> to produce SO<sub>4</sub><sup>&#x2022;&#x2212;</sup> (Equations (5) and (6)) [<xref ref-type="bibr" rid="B49-water-12-00131">49</xref>,<xref ref-type="bibr" rid="B50-water-12-00131">50</xref>,<xref ref-type="bibr" rid="B51-water-12-00131">51</xref>]. When Fe<sup>2+</sup> accumulates in the solution, it could consume SO<sub>4</sub><sup>&#x2022;&#x2212;</sup> via Equation (7) [<xref ref-type="bibr" rid="B52-water-12-00131">52</xref>]. On the other hand, nZVI could react with dissolved oxygen to generate hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) as an intermediate product and <sup>&#x2022;</sup>OH formation would be found [<xref ref-type="bibr" rid="B17-water-12-00131">17</xref>,<xref ref-type="bibr" rid="B19-water-12-00131">19</xref>,<xref ref-type="bibr" rid="B27-water-12-00131">27</xref>]. When nZVI dosage increases, Fe<sup>3+</sup> could be reduced to Fe<sup>2+</sup> due to the reaction with excessive nZVI via Equation (10) [<xref ref-type="bibr" rid="B26-water-12-00131">26</xref>]. Then heterogeneous Fe<sup>0</sup> activation would be gradually replaced by homogeneous Fe<sup>2+</sup> activation along with the reaction process [<xref ref-type="bibr" rid="B26-water-12-00131">26</xref>,<xref ref-type="bibr" rid="B53-water-12-00131">53</xref>]. Therefore, the degradation enhancement could be ascribed to the greater Fe<sup>2+</sup> formation and the larger contact area between S<sub>2</sub>O<sub>8</sub><sup>2&#x2212;</sup> and nZVI. It is worth mentioning that the CAP degradation efficiency showed a higher value with a low range of nZVI dosage at 70 &#xB0;C as demonstrated in <xref ref-type="fig" rid="water-12-00131-f003">Figure 3</xref>a,b. The phenomenon was probably attributed to the scavenging effect of Fe<sup>2+</sup> on SO<sub>4</sub><sup>&#x2022;&#x2212;</sup> via Equation (7). At a high temperature, the mass transfer is accelerated and more Fe<sup>2+</sup> is generated with a certain dose of nZVI. It was reported that increasing the Fe<sup>2+</sup> concentration beyond a value over 300 &#x3BC;M would accelerate consumption of SO<sub>4</sub><sup>&#x2022;&#x2212;</sup> [<xref ref-type="bibr" rid="B54-water-12-00131">54</xref>]. As a result, appropriate nZVI dosage is vital for the CAP degradation efficiency.
+        <disp-formula>S<sub>2</sub>O<sub>8</sub><sup>2&#x2212;</sup> + heat&#x2192;2SO<sub>4</sub><sup>&#x2022;&#x2212;</sup><label>(4)</label></disp-formula>
+        <disp-formula>S<sub>2</sub>O<sub>8</sub><sup>2&#x2212;</sup> + Fe<sup>0</sup>&#x2192;Fe<sup>2+</sup> + 2SO<sub>4</sub><sup>2&#x2212;</sup><label>(5)</label></disp-formula>
+        <disp-formula>S<sub>2</sub>O<sub>8</sub><sup>2&#x2212;</sup> + Fe<sup>2+</sup>&#x2192;Fe<sup>3+</sup> + SO<sub>4</sub><sup>2&#x2212;</sup> + SO<sub>4</sub><sup>&#x2022;&#x2212;</sup><label>(6)</label></disp-formula>
+        <disp-formula>SO<sub>4</sub><sup>&#x2022;&#x2212;</sup> + Fe<sup>2+</sup>&#x2192;Fe<sup>3+</sup> + SO<sub>4</sub><sup>2&#x2212;</sup><label>(7)</label></disp-formula>
+        <disp-formula>Fe<sup>0</sup> + O<sub>2</sub> + 2H<sup>+</sup>&#x2192;H<sub>2</sub>O<sub>2</sub> + Fe<sup>2+</sup><label>(8)</label></disp-formula>
+        <disp-formula>H<sub>2</sub>O<sub>2</sub> + Fe<sup>2+</sup>&#x2192;Fe<sup>3+</sup> + <sup>&#x2022;</sup>OH + OH<sup>&#x2212;</sup><label>(9)</label></disp-formula>
+        <disp-formula>2Fe<sup>3+</sup> + Fe<sup>0</sup>&#x2192;3Fe<sup>2+</sup><label>(10)</label></disp-formula>
+        <disp-formula>SO<sub>4</sub><sup>&#x2022;&#x2212;</sup> + OH<sup>&#x2212;</sup>&#x2192;SO<sub>4</sub><sup>2&#x2212;</sup> + HO<sup>&#x2022;</sup><label>(11)</label></disp-formula></p>
+        <p><xref ref-type="fig" rid="water-12-00131-f003">Figure 3</xref>c,d show pH and temperature impact on the CAP removal efficiency with 3D and 2D methods, respectively. The thermal enhancement has been discussed above. The acidic pH was more favorable than neutral and alkaline pH for CAP removal efficiency at 50 &#xB0;C, which was evidently due to the enhancement of Equation (8). Increasing Fe<sup>2+</sup> could promote the activation of PS (Equation (6)). The amount of soluble Fe<sup>2+</sup> decreased at pH &gt; 4.0 due to the formation of Fe<sup>2+</sup> complexes which hindered the further activation of PS [<xref ref-type="bibr" rid="B55-water-12-00131">55</xref>]. SO<sub>4</sub><sup>&#x2022;&#x2212;</sup> are rapidly consumed by hydroxyl ions other than CAP and converted to HO<sup>&#x2022;</sup> at basic conditions, as shown in Equation (11) [<xref ref-type="bibr" rid="B6-water-12-00131">6</xref>]. On the whole, acidic pH could promote the CAP degradation based on the increasing Fe<sup>2+</sup> activation. When the temperature reached 70 &#xB0;C, higher removal efficiency was observed in the pH range of 5.5&#x2013;7.5 according to <xref ref-type="fig" rid="water-12-00131-f003">Figure 3</xref>d. Under the circumstance, thermal activation was believed to be the predominant role in the degradation process. The pH range of 5.5&#x2013;7.5 was favorable for the maintenance of appropriate Fe<sup>2+</sup> concentrations due to Fe<sup>2+</sup> shortage in alkaline pH and the radical scavenging effect of excessive Fe<sup>2+</sup> in acidic pH [<xref ref-type="bibr" rid="B56-water-12-00131">56</xref>].</p>
+      </sec>
+      <sec id="sec3dot4-water-12-00131">
+        <title>3.4. Fe-Speciation Analysis</title>
+        <p>To reveal the Fe-containing species of mixed powder after reaction, XPS was employed to analyze the Fe species under the optimal condition (<xref ref-type="fig" rid="water-12-00131-f004">Figure 4</xref>). Based on the binding energies of peaks, it could be inferred that Fe<sub>2</sub>O<sub>3</sub> and Fe<sub>3</sub>O<sub>4</sub> were the predominant components in mixed powder. The binding energy of Fe 2p<sub>1/2</sub> of Fe<sub>2</sub>O<sub>3</sub> was reported to be 724.6 eV [<xref ref-type="bibr" rid="B57-water-12-00131">57</xref>,<xref ref-type="bibr" rid="B58-water-12-00131">58</xref>], indicating that Peak A was the spectra of Fe<sub>2</sub>O<sub>3</sub>. Peak B located in the binding energy of 718.3 eV, which could be considered as the satellite peak for Fe 2p<sub>1/2</sub> [<xref ref-type="bibr" rid="B57-water-12-00131">57</xref>,<xref ref-type="bibr" rid="B58-water-12-00131">58</xref>]. Peak C was 713.4 eV, which was believed to be Fe<sub>3</sub>O<sub>4</sub> according to previous studies [<xref ref-type="bibr" rid="B58-water-12-00131">58</xref>,<xref ref-type="bibr" rid="B59-water-12-00131">59</xref>]. Based on the binding energy and cover ratio, Peak D could be inferred as Fe<sub>3</sub>O<sub>4</sub>, which is consistent with the existing studies [<xref ref-type="bibr" rid="B59-water-12-00131">59</xref>,<xref ref-type="bibr" rid="B60-water-12-00131">60</xref>]. In addition, Peaks E and F being located in 711.2 eV and 709.8 eV could be considered as Fe<sub>3</sub>O<sub>4</sub> and Fe<sub>2</sub>O<sub>3</sub>, respectively [<xref ref-type="bibr" rid="B58-water-12-00131">58</xref>,<xref ref-type="bibr" rid="B61-water-12-00131">61</xref>]. Overall, Fe<sub>2</sub>O<sub>3</sub> and Fe<sub>3</sub>O<sub>4</sub> were the predominant components in mixed powder.</p>
+        <p>Furthermore, the XRD patterns of the crystalline structure on nZVI surface before and after reactions are demonstrated in <xref ref-type="fig" rid="water-12-00131-f005">Figure 5</xref>. Sharp reflection peaks at 44.87&#xB0; and 65.24&#xB0; could be indexed as the planes of Fe<sup>0</sup> (PDF#65-4899). Thus, the nZVI sample before reactions was of high purity in iron content. Even after reactions, excess Fe<sup>0</sup> was observed in the system. In addition to Fe<sup>0</sup>, the XRD patterns of Fe<sub>3</sub>O<sub>4</sub> (PDF#65-3107) and Fe<sub>2</sub>O<sub>3</sub> (PDF#39-1346) fit well with the crystalline structure after reactions. It is worth mentioning that the planes of Fe<sub>3</sub>O<sub>4</sub> (PDF#65-3107) and Fe<sub>2</sub>O<sub>3</sub> (PDF#39-1346) showed high similarity in major reflection peaks, probably because stoichiometric Fe<sub>3</sub>O<sub>4</sub> could also be expressed to FeO&#xB7;Fe<sub>2</sub>O<sub>3</sub> with the Fe<sup>2+</sup>:Fe<sup>3+</sup> ratio of 1:2 [<xref ref-type="bibr" rid="B57-water-12-00131">57</xref>]. The XRD results were in line with those of XPS analysis.</p>
+        <p>Since the optimal pH was in the range of 5.5&#x2013;7.5, the precipitation of Fe<sup>3+</sup> ions occurred whenever the pH &gt; 4.0 [<xref ref-type="bibr" rid="B56-water-12-00131">56</xref>] and FeOOH and Fe<sub>3</sub>O<sub>4</sub> may be produced via a series of reactions Equations (12)&#x2013;(14) [<xref ref-type="bibr" rid="B26-water-12-00131">26</xref>]. Meanwhile Fe<sup>2+</sup>(s) in magnetite contributed to persulfate activation by donating electrons [<xref ref-type="bibr" rid="B26-water-12-00131">26</xref>,<xref ref-type="bibr" rid="B62-water-12-00131">62</xref>]. Furthermore, FeOOH was believed to react with Fe<sup>0</sup> to generate Fe<sub>3</sub>O<sub>4</sub> due to no FeOOH being found in this study. Meanwhile, it has been demonstrated that Fe(OH)<sub>3</sub> can produce the mixture of FeOOH and &#x3B1;-Fe<sub>2</sub>O<sub>3</sub> at the range of 40&#x2013;80 &#xB0;C (Equation (15)) [<xref ref-type="bibr" rid="B63-water-12-00131">63</xref>,<xref ref-type="bibr" rid="B64-water-12-00131">64</xref>]. FeOOH could be converted to Fe<sub>2</sub>O<sub>3</sub> due to poor chemical stability (Equation (16)) [<xref ref-type="bibr" rid="B63-water-12-00131">63</xref>]. Fe<sub>3</sub>O<sub>4</sub> and Fe<sub>2</sub>O<sub>3</sub> were both reported in previous persulfate activation investigations [<xref ref-type="bibr" rid="B65-water-12-00131">65</xref>,<xref ref-type="bibr" rid="B66-water-12-00131">66</xref>], thus, it could be induced that Fe<sub>3</sub>O<sub>4</sub> and Fe<sub>2</sub>O<sub>3</sub> gradually become the persulfate activators. Fe<sub>3</sub>O<sub>4</sub> and Fe<sub>2</sub>O<sub>3</sub> on the surface of nZVI slacken the release of Fe<sup>2+</sup> from nZVI, eliminating the scavenging effects of Fe<sup>2+</sup> on sulfate radicals. After the treatment, there might be Fe<sup>3+</sup> or Fe<sup>2+</sup> in the treated effluent. Therefore, alkaline pH is necessary for the treated effluent to remove Fe<sup>3+</sup> and Fe<sup>2+</sup> by precipitation formation.
+        <disp-formula>Fe<sup>3+</sup> + 3OH<sup>&#x2212;</sup>&#x2192;Fe(OH)<sub>3(s)</sub><label>(12)</label></disp-formula>
+        <disp-formula>Fe<sup>2+</sup> + 2H<sub>2</sub>O&#x2194;FeOOH<sub>(s)</sub> + 3H<sup>+</sup><label>(13)</label></disp-formula>
+        <disp-formula>8FeOOH<sub>(s)</sub> + Fe<sup>0</sup>&#x2192;3Fe<sub>3</sub>O<sub>4(s)</sub> + 4H<sub>2</sub>O<label>(14)</label></disp-formula>
+        <disp-formula>2Fe(OH)<sub>3(s)</sub>&#x2192;&#x3B1; &#x2212; Fe<sub>2</sub>O<sub>3</sub> + 3H<sub>2</sub>O<label>(15)</label></disp-formula>
+        <disp-formula>2&#x3B1; &#x2212; FeOOH<sub>(s)</sub>+&#x2192;&#x3B1; &#x2212; Fe<sub>2</sub>O<sub>3</sub> + H<sub>2</sub>O<label>(16)</label></disp-formula></p>
+      </sec>
+      <sec id="sec3dot5-water-12-00131">
+        <title>3.5. Optimization of Removal Process</title>
+        <p>Optimization treatment was carried out by numerical technique built in Design Expert 8.0.6 [<xref ref-type="bibr" rid="B33-water-12-00131">33</xref>]. The optimum values of parameters required to obtain the highest CAP removal were obtained. The goals for the parameters (initial pH, nZVI dosage, temperature, and PS concentration) were set as &#x201C;in range&#x201D;, while Y was set as &#x201C;maximize&#x201D;. And then the equation (Equation (3)) was employed as a predicting tool to calculate and provide the optimal conditions. The optimum solution was selected based on economic considerations and availability and cost of reagents and energy [<xref ref-type="bibr" rid="B36-water-12-00131">36</xref>]. Based on these principles, the model provided the optimal variable values of 15 mg/L, 0.5 mmol/L, 7.08, and 70 &#xB0;C for nZVI dosage, PS, initial pH, and temperature, respectively, with 97.12% of degradation efficiency. Eventually, an extra experiment was performed under the mentioned variables for accuracy confirmation. An excellent decomposition efficiency (average removal of 98.32% with triplicate) was observed, which was in proximity to the predicted efficiency. The main concern of the process is the need for relatively high temperature (70 &#xB0;C) because of the cost of treating large volumes of wastewater. More real conditions need to be considered in future work to evaluate the operational cost.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-water-12-00131" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>In this study, Design Expert 8.0 was employed to optimize the operational variables for CAP removal in a &#x201C;heat + nZVI + PS&#x201D; system. The combined activated PS degradation of CAP showed a synergistic index of 1.43, indicating an excellent performance of nZVI-heat activation. A 4-factor, 5-level CCD design based on RSM was carried out for the experiments. A quadratic model with high correlation coefficients (R<sup>2</sup><sub>adj</sub> = 0.9823) was established to predict the CAP degradation efficiency. The influences of selected variables (initial pH, PS concentration, nZVI, and temperature) and their interactions were assessed and summarized using ANOVA. Subsequently, the optimized experimental conditions for CAP removal in this study were predicted by the quadratic model of 15 mg/L, 0.5 mmol/L, 7.08, and 70 &#xB0;C for nZVI dosage, PS, initial pH, and temperature, respectively, for 97.12% of CAP removal. Under the optimum conditions, average removal of 98.32% with triplicate was achieved, which was in proximity to the predicted efficiency. In addition, Fe-speciation analysis was conducted to reveal the actual composition of mixed powders of Fe<sub>2</sub>O<sub>3</sub> and Fe<sub>3</sub>O<sub>4</sub> after reactions, which could also act as the activators along with the reaction. Overall, it could be concluded that the nZVI-heat activation of PS was an efficient technique for CAP degradation.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Writing&#x2014;original draft, L.Y.; investigation, H.L.; writing&#x2014;review and editing, resources, J.X.; investigation, L.H.; data curation, Y.M.; supervision, L.W.; writing&#x2014;review and editing, project administration, Z.Z. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was financially supported by the Changjiang River Scientific Research Institute (CRSRI) Open Research Program (Program SN: CKWV2019771/KY), National Natural Science Foundation of China (No. 51878523, No. U1703120, and No. 51508430), the Recruitment Program of Global Experts (Young Professionals), the Fundamental Research Funds for the Central Universities (WUT:193108003, 2019IVA032) and the Scottish Government&#x2032;s Rural and Environment Science and Analytical Service Division (RESAS).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-water-12-00131">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Podzelinska</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Latimer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bhattacharya</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vining</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Zechel</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Jia</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chloramphenicol Biosynthesis: The Structure of CmlS, a Flavin-Dependent Halogenase Showing a Covalent Flavin&#x2013;Aspartate Bond</article-title>
+          <source>J. Mol. Biol.</source>
+          <year>2010</year>
+          <volume>397</volume>
+          <fpage>316</fpage>
+          <lpage>331</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jmb.2010.01.020</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-water-12-00131">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samsonova</surname>
+              <given-names>J.V.</given-names>
+            </name>
+            <name>
+              <surname>Cannavan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Elliott</surname>
+              <given-names>C.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Critical Review of Screening Methods for the Detection of Chloramphenicol, Thiamphenicol, and Florfenicol Residues in Foodstuffs</article-title>
+          <source>Crit. Rev. Anal. Chem.</source>
+          <year>2012</year>
+          <volume>42</volume>
+          <fpage>50</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1080/10408347.2012.629951</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-water-12-00131">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Da</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Core&#x2013;shell molecularly imprinted polymers based on magnetic chitosan microspheres for chloramphenicol selective adsorption</article-title>
+          <source>Mon. Chem. Chem. Mon.</source>
+          <year>2015</year>
+          <volume>146</volume>
+          <fpage>465</fpage>
+          <lpage>474</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00706-014-1351-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-water-12-00131">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kramer</surname>
+              <given-names>W.G.</given-names>
+            </name>
+            <name>
+              <surname>Rensimer</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Ericsson</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Pickering</surname>
+              <given-names>L.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative Bioavailability of Intravenous and Oral Chloramphenicol in Adults</article-title>
+          <source>J. Clin. Pharmacol.</source>
+          <year>1984</year>
+          <volume>24</volume>
+          <fpage>181</fpage>
+          <lpage>186</lpage>
+          <pub-id pub-id-type="doi">10.1002/j.1552-4604.1984.tb01828.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-water-12-00131">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>N.H.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Occurrences and ecological risks of roxithromycin, trimethoprim, and chloramphenicol in the Han River, Korea</article-title>
+          <source>Environ. Toxicol. Chem.</source>
+          <year>2008</year>
+          <volume>27</volume>
+          <fpage>711</fpage>
+          <lpage>719</lpage>
+          <pub-id pub-id-type="doi">10.1897/07-143.1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-water-12-00131">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nie</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>C.X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.N.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>W.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of chloramphenicol by thermally activated persulfate in aqueous solution</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2014</year>
+          <volume>246</volume>
+          <fpage>373</fpage>
+          <lpage>382</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2014.02.047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-water-12-00131">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Occurrence, distribution and seasonal variation of antibiotics in the Huangpu River, Shanghai, China</article-title>
+          <source>Chemosphere</source>
+          <year>2011</year>
+          <volume>82</volume>
+          <fpage>822</fpage>
+          <lpage>828</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemosphere.2010.11.028</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-water-12-00131">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Badawy</surname>
+              <given-names>M.I.</given-names>
+            </name>
+            <name>
+              <surname>Wahaab</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>El-Kalliny</surname>
+              <given-names>A.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fenton-biological treatment processes for the removal of some pharmaceuticals from industrial wastewater</article-title>
+          <source>J. Hazard. Mater.</source>
+          <year>2009</year>
+          <volume>167</volume>
+          <fpage>567</fpage>
+          <lpage>574</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhazmat.2009.01.023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-water-12-00131">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chu</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>T.F.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>E.D.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>N.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased formation of halomethanes during chlorination of chloramphenicol in drinking water by UV irradiation, persulfate oxidation, and combined UV/persulfate pre-treatments</article-title>
+          <source>Ecotox. Environ. Safe</source>
+          <year>2016</year>
+          <volume>124</volume>
+          <fpage>147</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoenv.2015.10.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-water-12-00131">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shokri</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jodat</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Modirshahla</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Behnajady</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Photocatalytic degradation of chloramphenicol in an aqueous suspension of silver-doped TiO<sub>2</sub> nanoparticles</article-title>
+          <source>Environ. Technol.</source>
+          <year>2013</year>
+          <volume>34</volume>
+          <fpage>1161</fpage>
+          <lpage>1166</lpage>
+          <pub-id pub-id-type="doi">10.1080/09593330.2012.743589</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-water-12-00131">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adsorptive removal of chloramphenicol from wastewater by NaOH modified bamboo charcoal</article-title>
+          <source>Bioresour. Technol.</source>
+          <year>2010</year>
+          <volume>101</volume>
+          <fpage>7661</fpage>
+          <lpage>7664</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biortech.2010.04.046</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-water-12-00131">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel pitaya-inspired well-defined core&#x2013;shell nanospheres with ultrathin surface imprinted nanofilm from magnetic mesoporous nanosilica for highly efficient chloramphenicol removal</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2016</year>
+          <volume>284</volume>
+          <fpage>812</fpage>
+          <lpage>822</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2015.09.050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-water-12-00131">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel N-doped hierarchically porous carbons derived from sustainable shrimp shell for high-performance removal of sulfamethazine and chloramphenicol</article-title>
+          <source>J. Taiwan Inst. Chem. Eng.</source>
+          <year>2016</year>
+          <volume>62</volume>
+          <fpage>228</fpage>
+          <lpage>238</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jtice.2016.02.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-water-12-00131">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tran</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Ngo</surname>
+              <given-names>H.H.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ton-That</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Removal of antibiotics (sulfamethazine, tetracycline and chloramphenicol) from aqueous solution by raw and nitrogen plasma modified steel shavings</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2017</year>
+          <volume>601</volume>
+          <fpage>845</fpage>
+          <lpage>856</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2017.05.164</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-water-12-00131">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Facile synthesis of porous carbon sheets from potassium acetate via in-situ template and self-activation for highly efficient chloramphenicol removal</article-title>
+          <source>J. Alloys Compd.</source>
+          <year>2018</year>
+          <volume>732</volume>
+          <fpage>222</fpage>
+          <lpage>232</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jallcom.2017.10.237</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-water-12-00131">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Singh</surname>
+              <given-names>K.P.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Gupta</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rai</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling and optimization of reductive degradation of chloramphenicol in aqueous solution by zero-valent bimetallic nanoparticles</article-title>
+          <source>Environ. Sci. Pollut. R</source>
+          <year>2012</year>
+          <volume>19</volume>
+          <fpage>2063</fpage>
+          <lpage>2078</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11356-011-0700-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-water-12-00131">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xia</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hermanowicz</surname>
+              <given-names>S.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Removal of chloramphenicol from aqueous solution by nanoscale zero-valent iron particles</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2014</year>
+          <volume>257</volume>
+          <fpage>98</fpage>
+          <lpage>104</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2014.06.106</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-water-12-00131">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>Z.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>X.P.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y.P.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Insight into the kinetics and mechanism of removal of aqueous chlorinated nitroaromatic antibiotic chloramphenicol by nanoscale zero-valent iron</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2018</year>
+          <volume>334</volume>
+          <fpage>508</fpage>
+          <lpage>518</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2017.10.060</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-water-12-00131">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.W.</given-names>
+            </name>
+            <name>
+              <surname>Yue</surname>
+              <given-names>Q.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>Z.F.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>B.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immobilization of nanoscale zero-valent iron particles (nZVI) with synthesized activated carbon for the adsorption and degradation of Chloramphenicol (CAP)</article-title>
+          <source>J. Mol. Liq.</source>
+          <year>2018</year>
+          <volume>262</volume>
+          <fpage>19</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molliq.2018.04.032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-water-12-00131">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cotillas</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lacasa</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>S&#xE1;ez</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ca&#xF1;izares</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rodrigo</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrolytic and electro-irradiated technologies for the removal of chloramphenicol in synthetic urine with diamond anodes</article-title>
+          <source>Water Res.</source>
+          <year>2018</year>
+          <volume>128</volume>
+          <fpage>383</fpage>
+          <lpage>392</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.watres.2017.10.072</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-water-12-00131">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.Y.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of bio-electrochemical system on the fate and proliferation of chloramphenicol resistance genes during the treatment of chloramphenicol wastewater</article-title>
+          <source>Water Res.</source>
+          <year>2017</year>
+          <volume>117</volume>
+          <fpage>95</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.watres.2017.03.058</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-water-12-00131">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Devi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Das</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Dalai</surname>
+              <given-names>A.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>In-situ chemical oxidation: Principle and applications of peroxide and persulfate treatments in wastewater systems</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2016</year>
+          <volume>571</volume>
+          <fpage>643</fpage>
+          <lpage>657</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2016.07.032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-water-12-00131">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wac&#x142;awek</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lutze</surname>
+              <given-names>H.V.</given-names>
+            </name>
+            <name>
+              <surname>Gr&#xFC;bel</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Padil</surname>
+              <given-names>V.V.T.</given-names>
+            </name>
+            <name>
+              <surname>&#x10C;ern&#xED;k</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dionysiou</surname>
+              <given-names>D.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chemistry of persulfates in water and wastewater treatment: A review</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2017</year>
+          <volume>330</volume>
+          <fpage>44</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2017.07.132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-water-12-00131">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miklos</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Remy</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Jekel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Linden</surname>
+              <given-names>K.G.</given-names>
+            </name>
+            <name>
+              <surname>Drewes</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>H&#xFC;bner</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of advanced oxidation processes for water and wastewater treatment&#x2014;A critical review</article-title>
+          <source>Water Res.</source>
+          <year>2018</year>
+          <volume>139</volume>
+          <fpage>118</fpage>
+          <lpage>131</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.watres.2018.03.042</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-water-12-00131">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matzek</surname>
+              <given-names>L.W.</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>K.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activated persulfate for organic chemical degradation: A review</article-title>
+          <source>Chemosphere</source>
+          <year>2016</year>
+          <volume>151</volume>
+          <fpage>178</fpage>
+          <lpage>188</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemosphere.2016.02.055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-water-12-00131">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ahn</surname>
+              <given-names>J.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>T.Y.</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activation of Persulfate by Nanosized Zero-Valent Iron (NZVI): Mechanisms and Transformation Products of NZVI</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2018</year>
+          <volume>52</volume>
+          <fpage>3625</fpage>
+          <lpage>3633</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.est.7b05847</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-water-12-00131">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>High efficient removal of tetracycline from solution by degradation and flocculation with nanoscale zerovalent iron</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2015</year>
+          <volume>270</volume>
+          <fpage>631</fpage>
+          <lpage>640</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2015.02.070</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-water-12-00131">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karim</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bae</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Greenwood</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Hanna</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Singhal</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of 17&#x3B1;-ethinylestradiol by nano zero valent iron under different pH and dissolved oxygen levels</article-title>
+          <source>Water Res.</source>
+          <year>2017</year>
+          <volume>125</volume>
+          <fpage>32</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.watres.2017.08.029</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-water-12-00131">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Royer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ultrasound-assisted heterogeneous Fenton-like degradation of tetracycline over a magnetite catalyst</article-title>
+          <source>J. Hazard Mater.</source>
+          <year>2016</year>
+          <volume>302</volume>
+          <fpage>458</fpage>
+          <lpage>467</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhazmat.2015.09.033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-water-12-00131">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>F.Z.</given-names>
+            </name>
+            <name>
+              <surname>Yi</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of Acid Orange 7 by an ultrasound/ZnO-GAC/persulfate process</article-title>
+          <source>Sep. Purif. Technol.</source>
+          <year>2018</year>
+          <volume>194</volume>
+          <fpage>181</fpage>
+          <lpage>187</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.seppur.2017.10.072</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-water-12-00131">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zou</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>X.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergistic degradation of antibiotic sulfadiazine in a heterogeneous ultrasound-enhanced Fe-0/persulfate Fenton-like system</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2014</year>
+          <volume>257</volume>
+          <fpage>36</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2014.07.048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-water-12-00131">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Safari</surname>
+              <given-names>G.H.</given-names>
+            </name>
+            <name>
+              <surname>Nasseri</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mahvi</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Yaghmaeian</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nabizadeh</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Alimohammadi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimization of sonochemical degradation of tetracycline in aqueous solution using sono-activated persulfate process</article-title>
+          <source>J. Environ. Health Sci. Eng.</source>
+          <year>2015</year>
+          <volume>13</volume>
+          <fpage>76</fpage>
+          <pub-id pub-id-type="doi">10.1186/s40201-015-0234-7</pub-id>
+          <pub-id pub-id-type="pmid">26539297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-water-12-00131">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eslami</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Asadi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Meserghani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bahrami</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimization of sonochemical degradation of amoxicillin by sulfate radicals in aqueous solution using response surface methodology (RSM)</article-title>
+          <source>J. Mol. Liq.</source>
+          <year>2016</year>
+          <volume>222</volume>
+          <fpage>739</fpage>
+          <lpage>744</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molliq.2016.07.096</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-water-12-00131">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>M.X.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>G.G.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>W.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermo-activated peroxydisulfate oxidation of indomethacin: Kinetics study and influences of co-existing substances</article-title>
+          <source>Chemosphere</source>
+          <year>2018</year>
+          <volume>212</volume>
+          <fpage>1067</fpage>
+          <lpage>1075</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemosphere.2018.08.126</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-water-12-00131">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tan</surname>
+              <given-names>C.Q.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>N.Y.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>Q.D.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>H.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic degradation of chloramphenicol in water by UV/persulfate system</article-title>
+          <source>J. Photochem. Photobiol. A Chem.</source>
+          <year>2017</year>
+          <volume>332</volume>
+          <fpage>406</fpage>
+          <lpage>412</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jphotochem.2016.09.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-water-12-00131">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bahrami</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Eslami</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nabizadeh</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Mohseni-Bandpi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Asadi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sillanpaa</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of trichloroethylene by sonophotolytic-activated persulfate processes: Optimization using response surface methodology</article-title>
+          <source>J. Clean Prod.</source>
+          <year>2018</year>
+          <volume>198</volume>
+          <fpage>1210</fpage>
+          <lpage>1218</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2018.07.100</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-water-12-00131">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dur&#xE1;n</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Monteagudo</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Exp&#xF3;sito</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Monsalve</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling the sonophoto-degradation/mineralization of carbamazepine in aqueous solution</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2016</year>
+          <volume>284</volume>
+          <fpage>503</fpage>
+          <lpage>512</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2015.09.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-water-12-00131">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kusic</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Peternel</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Koprivanac</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Bozic</surname>
+              <given-names>A.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Iron-Activated Persulfate Oxidation of an Azo Dye in Model Wastewater: Influence of Iron Activator Type on Process Optimization</article-title>
+          <source>J. Environ. Eng.</source>
+          <year>2011</year>
+          <volume>137</volume>
+          <fpage>454</fpage>
+          <lpage>463</lpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)EE.1943-7870.0000347</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-water-12-00131">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Turan</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Arslano&#x11F;lu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Altundo&#x11F;an</surname>
+              <given-names>H.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimization of the leaching conditions of chalcopyrite concentrate using ammonium persulfate in an autoclave system</article-title>
+          <source>J. Taiwan Inst. Chem. Eng.</source>
+          <year>2015</year>
+          <volume>50</volume>
+          <fpage>49</fpage>
+          <lpage>55</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jtice.2014.12.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-water-12-00131">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel pretreatment process of mature landfill leachate with ultrasonic activated persulfate: Optimization using integrated Taguchi method and response surface methodology</article-title>
+          <source>Process Saf. Environ. Prot.</source>
+          <year>2015</year>
+          <volume>98</volume>
+          <fpage>268</fpage>
+          <lpage>275</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.psep.2015.08.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-water-12-00131">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tripathy</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Ramesh</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Debnath</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mature landfill leachate treatment using sonolytic-persulfate/hydrogen peroxide oxidation: Optimization of process parameters</article-title>
+          <source>Ultrason. Sonochem.</source>
+          <year>2019</year>
+          <volume>54</volume>
+          <fpage>210</fpage>
+          <lpage>219</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ultsonch.2019.01.036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-water-12-00131">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abu Amr</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Aziz</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Adlan</surname>
+              <given-names>M.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimization of stabilized leachate treatment using ozone/persulfate in the advanced oxidation process</article-title>
+          <source>Waste Manag.</source>
+          <year>2013</year>
+          <volume>33</volume>
+          <fpage>1434</fpage>
+          <lpage>1441</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.wasman.2013.01.039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-water-12-00131">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Murugananthan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of p-Nitrophenol by thermally activated persulfate in soil system</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2016</year>
+          <volume>283</volume>
+          <fpage>1357</fpage>
+          <lpage>1365</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2015.08.107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-water-12-00131">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Ou</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.B.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>L.Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.F.</given-names>
+            </name>
+            <name>
+              <surname>Ying</surname>
+              <given-names>G.G.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of azole fungicide fluconazole in aqueous solution by thermally activated persulfate</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2017</year>
+          <volume>321</volume>
+          <fpage>113</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2017.03.103</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-water-12-00131">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Serrano</surname>
+              <given-names>K.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation and mechanism of 2,4-dichlorophenoxyacetic acid (2,4-D) by thermally activated persulfate oxidation</article-title>
+          <source>Chemosphere</source>
+          <year>2018</year>
+          <volume>212</volume>
+          <fpage>784</fpage>
+          <lpage>793</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemosphere.2018.08.127</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-water-12-00131">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidative degradation of diclofenac by thermally activated persulfate: implication for ISCO</article-title>
+          <source>Environ. Sci. Pollut. R</source>
+          <year>2016</year>
+          <volume>23</volume>
+          <fpage>3824</fpage>
+          <lpage>3833</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11356-015-5630-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-water-12-00131">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nasseri</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mahvi</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Seyedsalehi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yaghmaeian</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nabizadeh</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Alimohammadi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Safari</surname>
+              <given-names>G.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation kinetics of tetracycline in aqueous solutions using peroxydisulfate activated by ultrasound irradiation: Effect of radical scavenger and water matrix</article-title>
+          <source>J. Mol. Liq.</source>
+          <year>2017</year>
+          <volume>241</volume>
+          <fpage>704</fpage>
+          <lpage>714</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molliq.2017.05.137</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-water-12-00131">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>B.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation Kinetic and Remediation Effectiveness of 1,4-Dioxane-Contaminated Groundwater by a Sono-Activated Persulfate Process</article-title>
+          <source>J. Environ. Eng.</source>
+          <year>2018</year>
+          <volume>144</volume>
+          <fpage>04018098</fpage>
+          <pub-id pub-id-type="doi">10.1061/(asce)ee.1943-7870.0001445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-water-12-00131">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodriguez</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Vasquez</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Romero</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Santos</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidation of Orange G by persulfate activated by Fe(II), Fe(III) and zero valent iron (ZVI)</article-title>
+          <source>Chemosphere</source>
+          <year>2014</year>
+          <volume>101</volume>
+          <fpage>86</fpage>
+          <lpage>92</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.chemosphere.2013.12.037</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-water-12-00131">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tan</surname>
+              <given-names>C.Q.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>N.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>J.X.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chloramphenicol removal by zero valent iron activated peroxymonosulfate system: Kinetics and mechanism of radical generation</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2018</year>
+          <volume>334</volume>
+          <fpage>1006</fpage>
+          <lpage>1015</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2017.10.020</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-water-12-00131">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>L.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhai</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Chovelon</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of p-Aminobenzoic Acid by Zero-Valent Iron Activated Persulfate System</article-title>
+          <source>J. Environ. Eng.</source>
+          <year>2018</year>
+          <volume>144</volume>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)EE.1943-7870.0001364</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-water-12-00131">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vicente</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Santos</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Romero</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic study of diuron oxidation and mineralization by persulphate: Effects of temperature, oxidant concentration and iron dosage method</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2011</year>
+          <volume>170</volume>
+          <fpage>127</fpage>
+          <lpage>135</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2011.03.042</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-water-12-00131">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nie</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>C.X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.N.</given-names>
+            </name>
+            <name>
+              <surname>Bi</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>W.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of chloramphenicol by persulfate activated by Fe2+ and zerovalent iron</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2015</year>
+          <volume>279</volume>
+          <fpage>507</fpage>
+          <lpage>515</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2015.05.055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-water-12-00131">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of clofibric acid in aqueous solution by an EC/Fe<sup>3+</sup>/PMS process</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2014</year>
+          <volume>244</volume>
+          <fpage>514</fpage>
+          <lpage>521</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2014.01.099</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-water-12-00131">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stef&#xE1;nsson</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Iron(III) Hydrolysis and Solubility at 25 &#xB0;C</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2007</year>
+          <volume>41</volume>
+          <fpage>6117</fpage>
+          <lpage>6123</lpage>
+          <pub-id pub-id-type="doi">10.1021/es070174h</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-water-12-00131">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>X.-R.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.-Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of azo dye Orange G in aqueous solutions by persulfate with ferrous ion</article-title>
+          <source>Sep. Purif. Technol.</source>
+          <year>2010</year>
+          <volume>72</volume>
+          <fpage>105</fpage>
+          <lpage>111</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.seppur.2010.01.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-water-12-00131">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamashita</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hayes</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of XPS spectra of Fe<sup>2+</sup> and Fe<sup>3+</sup> ions in oxide materials</article-title>
+          <source>Appl. Surf. Sci.</source>
+          <year>2008</year>
+          <volume>254</volume>
+          <fpage>2441</fpage>
+          <lpage>2449</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apsusc.2007.09.063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-water-12-00131">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lowry</surname>
+              <given-names>G.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Removal of Antibiotic Florfenicol by Sulfide-Modified Nanoscale Zero-Valent Iron</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2017</year>
+          <volume>51</volume>
+          <fpage>11269</fpage>
+          <lpage>11277</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.est.7b02480</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-water-12-00131">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biesinger</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Payne</surname>
+              <given-names>B.P.</given-names>
+            </name>
+            <name>
+              <surname>Grosvenor</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Lau</surname>
+              <given-names>L.W.M.</given-names>
+            </name>
+            <name>
+              <surname>Gerson</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Smart</surname>
+              <given-names>R.S.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Resolving surface chemical states in XPS analysis of first row transition metals, oxides and hydroxides: Cr, Mn, Fe, Co and Ni</article-title>
+          <source>Appl. Surf. Sci.</source>
+          <year>2011</year>
+          <volume>257</volume>
+          <fpage>2717</fpage>
+          <lpage>2730</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apsusc.2010.10.051</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-water-12-00131">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>T.-C.</given-names>
+            </name>
+            <name>
+              <surname>Seshadri</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kelber</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A consistent method for quantitative XPS peak analysis of thin oxide films on clean polycrystalline iron surfaces</article-title>
+          <source>Appl. Surf. Sci.</source>
+          <year>1997</year>
+          <volume>119</volume>
+          <fpage>83</fpage>
+          <lpage>92</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0169-4332(97)00167-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-water-12-00131">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grosvenor</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Kobe</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Biesinger</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>McIntyre</surname>
+              <given-names>N.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation of multiplet splitting of Fe 2p XPS spectra and bonding in iron compounds</article-title>
+          <source>Surf. Interface Anal.</source>
+          <year>2004</year>
+          <volume>36</volume>
+          <fpage>1564</fpage>
+          <lpage>1574</lpage>
+          <pub-id pub-id-type="doi">10.1002/sia.1984</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-water-12-00131">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhan</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Insights into removal of tetracycline by persulfate activation with peanut shell biochar coupled with amorphous Cu-doped FeOOH composite in aqueous solution</article-title>
+          <source>Environ. Sci. Pollut. R</source>
+          <year>2019</year>
+          <volume>26</volume>
+          <fpage>2820</fpage>
+          <lpage>2834</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11356-018-3777-1</pub-id>
+          <pub-id pub-id-type="pmid">30488247</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63-water-12-00131">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiong</surname>
+              <given-names>H.-X.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>L.-X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthesis of iron oxyhydroxides of different crystal forms and their roles in adsorption and removal of Cr(&#x2165;)from aqueous solutions</article-title>
+          <source>Acta Petrol. ET Mineral.</source>
+          <year>2008</year>
+          <volume>27</volume>
+          <fpage>559</fpage>
+          <lpage>566</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B64-water-12-00131">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Highly efficient nickel (II) removal by sewage sludge biochar supported &#x3B1;-Fe<sub>2</sub>O<sub>3</sub> and &#x3B1;-FeOOH: Sorption characteristics and mechanisms</article-title>
+          <source>PLoS ONE</source>
+          <year>2019</year>
+          <volume>14</volume>
+          <elocation-id>e0218114</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0218114</pub-id>
+          <pub-id pub-id-type="pmid">31188870</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B65-water-12-00131">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Anjum</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Zou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of sulfamonomethoxine with Fe3O4 magnetic nanoparticles as heterogeneous activator of persulfate</article-title>
+          <source>J. Hazard. Mater.</source>
+          <year>2011</year>
+          <volume>186</volume>
+          <fpage>1398</fpage>
+          <lpage>1404</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhazmat.2010.12.017</pub-id>
+          <pub-id pub-id-type="pmid">21237557</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B66-water-12-00131">
+        <label>66.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kermani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mohammadi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kakavandi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Esrafili</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rostamifasih</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simultaneous catalytic degradation of 2,4-D and MCPA herbicides using sulfate radical-based Heterog oxidation over persulfate activated by natural hematite (&#x3B1;-Fe<sub>2</sub>O<sub>3</sub>/PS)</article-title>
+          <source>J. Phys. Chem. Solids</source>
+          <year>2018</year>
+          <volume>117</volume>
+          <fpage>49</fpage>
+          <lpage>59</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jpcs.2018.02.009</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="water-12-00131-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Degradation efficiencies of CAP under different processes. Experimental conditions: initial CAP concentration C<sub>0</sub> = 1 mg/L, pH = 7.0, nZVI 20 mg/L, temperature 60 &#xB0;C, PS concentration = 0.4 mM, and the solution volume 100 mL.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00131-g001.tif"/>
+      </fig>
+      <fig id="water-12-00131-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>(<bold>a</bold>) Normal plot of the internally studentized residuals and (<bold>b</bold>) actual values versus predicted data for CAP removal.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00131-g002.tif"/>
+      </fig>
+      <fig id="water-12-00131-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>The 3D response surface and 2D contour plots of the effects of the interaction on the CAP degradation efficiency (%). (<bold>a</bold>) 3D graph of temperature and nZVI, (<bold>b</bold>) 2D graph of temperature and nZVI, (<bold>c</bold>) 3D graph of temperature and initial pH, and (<bold>d</bold>) 2D graph of temperature and nZVI.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00131-g003.tif"/>
+      </fig>
+      <fig id="water-12-00131-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>The X-ray photoelectron spectroscopy (XPS) spectrum of nZVI surface after reactions.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00131-g004.tif"/>
+      </fig>
+      <fig id="water-12-00131-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>X-ray diffraction (XRD) spectra of solid powders before and after reactions.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00131-g005.tif"/>
+      </fig>
+      <table-wrap id="water-12-00131-t001" position="float">
+        <object-id pub-id-type="pii">water-12-00131-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Physicochemical properties of chloramphenicol (CAP) [<xref ref-type="bibr" rid="B6-water-12-00131">6</xref>].</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Parameter</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Character</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Formula</td>
+              <td align="center" valign="middle">C<sub>11</sub>H<sub>12</sub>Cl<sub>2</sub>N<sub>2</sub>O<sub>5</sub></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Molecular weight</td>
+              <td align="center" valign="middle">323.13</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Solubility (mg/L), 25 &#xB0;C</td>
+              <td align="center" valign="middle">2500</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Log K<sub>ow</sub></td>
+              <td align="center" valign="middle">1.14</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">pK<sub>a</sub></td>
+              <td align="center" valign="middle">9.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CAS number</td>
+              <td align="center" valign="middle">56-75-7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Molecular structure</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00131-i001.tif"/>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="water-12-00131-t002" position="float">
+        <object-id pub-id-type="pii">water-12-00131-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Experimental arrangements based on central composite design (CCD).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Factors</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Symbols</th>
+              <th colspan="5" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Level of Factors</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">&#x2212;2</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">&#x2212;1</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">0</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">1</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Nanoscale zero-valent iron (nZVI) (mg/L)</td>
+              <td align="center" valign="middle">X<sub>1</sub></td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">30</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Peroxydisulfate (PS) concentration (mM)</td>
+              <td align="center" valign="middle">X<sub>2</sub></td>
+              <td align="center" valign="middle">0.2</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">0.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Initial pH</td>
+              <td align="center" valign="middle">X<sub>3</sub></td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">11</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Temperature (&#xB0;C)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">X<sub>4</sub></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">40</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">60</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">80</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="water-12-00131-t003" position="float">
+        <object-id pub-id-type="pii">water-12-00131-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>The 4-factor CCD matrix and the actual values for CAP removal.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Run Number</th>
+              <th colspan="4" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Factors</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Degradation Efficiency (%)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">X<sub>1</sub></th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">X<sub>2</sub></th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">X<sub>3</sub></th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">X<sub>4</sub></th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Observed</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Predicted</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">80.72</td>
+              <td align="center" valign="middle">81.82</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">80</td>
+              <td align="center" valign="middle">93.07</td>
+              <td align="center" valign="middle">95.84</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">90.62</td>
+              <td align="center" valign="middle">88.90</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.6</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">84.76</td>
+              <td align="center" valign="middle">82.45</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">60.93</td>
+              <td align="center" valign="middle">62.96</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">17.42</td>
+              <td align="center" valign="middle">18.36</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">70</td>
+              <td align="center" valign="middle">94.95</td>
+              <td align="center" valign="middle">94.64</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">24.45</td>
+              <td align="center" valign="middle">27.15</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">70</td>
+              <td align="center" valign="middle">96.25</td>
+              <td align="center" valign="middle">95.02</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">70</td>
+              <td align="center" valign="middle">93.54</td>
+              <td align="center" valign="middle">90.88</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">11</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">11</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">37.52</td>
+              <td align="center" valign="middle">40.16</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">70</td>
+              <td align="center" valign="middle">80.11</td>
+              <td align="center" valign="middle">79.40</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">13</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">82.83</td>
+              <td align="center" valign="middle">78.58</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">14</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">70</td>
+              <td align="center" valign="middle">86.62</td>
+              <td align="center" valign="middle">84.89</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">76.42</td>
+              <td align="center" valign="middle">75.47</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">16</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">70</td>
+              <td align="center" valign="middle">86.76</td>
+              <td align="center" valign="middle">86.53</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">17</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">40</td>
+              <td align="center" valign="middle">17.97</td>
+              <td align="center" valign="middle">16.12</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">18</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">74.80</td>
+              <td align="center" valign="middle">75.47</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">19</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">75.61</td>
+              <td align="center" valign="middle">75.47</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">70</td>
+              <td align="center" valign="middle">89.03</td>
+              <td align="center" valign="middle">85.70</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">21</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">75.70</td>
+              <td align="center" valign="middle">75.47</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">22</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.2</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">61.12</td>
+              <td align="center" valign="middle">64.35</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">23</td>
+              <td align="center" valign="middle">30</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">80.16</td>
+              <td align="center" valign="middle">85.33</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">24</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">69.16</td>
+              <td align="center" valign="middle">69.58</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">73.46</td>
+              <td align="center" valign="middle">73.48</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">26</td>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">0.3</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">28.59</td>
+              <td align="center" valign="middle">24.22</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">27</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">75.51</td>
+              <td align="center" valign="middle">75.47</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">28</td>
+              <td align="center" valign="middle">25</td>
+              <td align="center" valign="middle">0.5</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">50</td>
+              <td align="center" valign="middle">34.79</td>
+              <td align="center" valign="middle">34.73</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">29</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0.4</td>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">60</td>
+              <td align="center" valign="middle">74.77</td>
+              <td align="center" valign="middle">75.47</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">90.38</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">94.12</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="water-12-00131-t004" position="float">
+        <object-id pub-id-type="pii">water-12-00131-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Significant terms from regression analysis of the proposed model.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Term</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Coefficient Estimate</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Standard Error</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>p</italic>-Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Intercept</td>
+              <td align="center" valign="middle">75.47</td>
+              <td align="center" valign="middle">1.31</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>1</sub></td>
+              <td align="center" valign="middle">1.69</td>
+              <td align="center" valign="middle">0.65</td>
+              <td align="center" valign="middle">0.0208</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>2</sub></td>
+              <td align="center" valign="middle">4.53</td>
+              <td align="center" valign="middle">0.65</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>3</sub></td>
+              <td align="center" valign="middle">&#x2212;12.18</td>
+              <td align="center" valign="middle">0.65</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>4</sub></td>
+              <td align="center" valign="middle">19.93</td>
+              <td align="center" valign="middle">0.65</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>1</sub>X<sub>4</sub></td>
+              <td align="center" valign="middle">&#x2212;2.84</td>
+              <td align="center" valign="middle">0.80</td>
+              <td align="center" valign="middle">0.0029</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>3</sub>X<sub>4</sub></td>
+              <td align="center" valign="middle">10.74</td>
+              <td align="center" valign="middle">0.80</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>1</sub><sup>2</sup></td>
+              <td align="center" valign="middle">1.62</td>
+              <td align="center" valign="middle">0.61</td>
+              <td align="center" valign="middle">0.0181</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>3</sub><sup>2</sup></td>
+              <td align="center" valign="middle">&#x2212;2.73</td>
+              <td align="center" valign="middle">0.61</td>
+              <td align="center" valign="middle">0.0004</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">X<sub>4</sub><sup>2</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;4.87</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.61</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&lt;0.0001</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="water-12-00131-t005" position="float">
+        <object-id pub-id-type="pii">water-12-00131-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Details of the proposed model for the CAP removal.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Term</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Squares</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">df</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Square</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Value</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Probability &gt; F</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Model</td>
+              <td align="center" valign="middle">16,615.92</td>
+              <td align="center" valign="middle">14</td>
+              <td align="center" valign="middle">1186.85</td>
+              <td align="center" valign="middle">115.86</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>1</sub></td>
+              <td align="center" valign="middle">68.28</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">68.28</td>
+              <td align="center" valign="middle">6.66</td>
+              <td align="center" valign="middle">0.0208</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>2</sub></td>
+              <td align="center" valign="middle">491.41</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">491.41</td>
+              <td align="center" valign="middle">47.97</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>3</sub></td>
+              <td align="center" valign="middle">3562.89</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">3562.89</td>
+              <td align="center" valign="middle">347.80</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>4</sub></td>
+              <td align="center" valign="middle">9532.92</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">9532.92</td>
+              <td align="center" valign="middle">930.57</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>1</sub>X<sub>2</sub></td>
+              <td align="center" valign="middle">2.98</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">2.98</td>
+              <td align="center" valign="middle">0.29</td>
+              <td align="center" valign="middle">0.5978</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>1</sub>X<sub>3</sub></td>
+              <td align="center" valign="middle">21.72</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">21.72</td>
+              <td align="center" valign="middle">2.12</td>
+              <td align="center" valign="middle">0.1660</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>1</sub>X<sub>4</sub></td>
+              <td align="center" valign="middle">128.71</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">128.71</td>
+              <td align="center" valign="middle">12.56</td>
+              <td align="center" valign="middle">0.0029</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>2</sub>X<sub>3</sub></td>
+              <td align="center" valign="middle">4.69</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">4.69</td>
+              <td align="center" valign="middle">0.46</td>
+              <td align="center" valign="middle">0.5091</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>2</sub>X<sub>4</sub></td>
+              <td align="center" valign="middle">0.94</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">0.94</td>
+              <td align="center" valign="middle">0.092</td>
+              <td align="center" valign="middle">0.7660</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>3</sub>X<sub>4</sub></td>
+              <td align="center" valign="middle">1845.13</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">1845.13</td>
+              <td align="center" valign="middle">180.11</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>1</sub><sup>2</sup></td>
+              <td align="center" valign="middle">72.15</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">72.15</td>
+              <td align="center" valign="middle">7.04</td>
+              <td align="center" valign="middle">0.0181</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>2</sub><sup>2</sup></td>
+              <td align="center" valign="middle">7.33</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">7.33</td>
+              <td align="center" valign="middle">0.72</td>
+              <td align="center" valign="middle">0.4110</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>3</sub><sup>2</sup></td>
+              <td align="center" valign="middle">205.08</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">205.08</td>
+              <td align="center" valign="middle">20.02</td>
+              <td align="center" valign="middle">0.0004</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">X<sub>4</sub><sup>2</sup></td>
+              <td align="center" valign="middle">651.02</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">651.02</td>
+              <td align="center" valign="middle">63.55</td>
+              <td align="center" valign="middle">&lt;0.0001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Residual</td>
+              <td align="center" valign="middle">153.66</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">10.24</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Lack of Fit</td>
+              <td align="center" valign="middle">151.75</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">15.17</td>
+              <td align="center" valign="middle">39.61</td>
+              <td align="center" valign="middle">0.0004</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Pure Error</td>
+              <td align="center" valign="middle">1.92</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">0.38</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Corrected Total</td>
+              <td align="center" valign="middle">16,769.58</td>
+              <td align="center" valign="middle">29</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">R<sup>2</sup></td>
+              <td align="center" valign="middle">0.9908</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Adjusted R<sup>2</sup></td>
+              <td align="center" valign="middle">0.9823</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Adequate Precision</td>
+              <td align="center" valign="middle">35.224</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">C.V.%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.55</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

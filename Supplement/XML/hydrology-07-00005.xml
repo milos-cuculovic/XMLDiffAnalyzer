@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">hydrology</journal-id>
+      <journal-title-group>
+        <journal-title>Hydrology</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Hydrology</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Hydrology</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2306-5338</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/hydrology7010005</article-id>
+      <article-id pub-id-type="publisher-id">hydrology-07-00005</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Effects of Aquifer Bed Slope and Sea Level on Saltwater Intrusion in Coastal Aquifers</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abd-Elhamid</surname>
+            <given-names>Hany F.</given-names>
+          </name>
+          <xref rid="af1-hydrology-07-00005" ref-type="aff">1</xref>
+          <xref rid="af2-hydrology-07-00005" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abd-Elaty</surname>
+            <given-names>Ismail</given-names>
+          </name>
+          <xref rid="af1-hydrology-07-00005" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6368-8143</contrib-id>
+          <name>
+            <surname>Sherif</surname>
+            <given-names>Mohsen M.</given-names>
+          </name>
+          <xref rid="af3-hydrology-07-00005" ref-type="aff">3</xref>
+          <xref rid="c1-hydrology-07-00005" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-hydrology-07-00005"><label>1</label>Department of Water and Water Structures Engineering, Faculty of Engineering, Zagazig University, Zagazig 44519, Egypt; <email>hany_farhat2003@yahoo.com</email> (H.F.A.-E.); <email>Eng_abdelaty2006@yahoo.com</email> (I.A.-E.)</aff>
+      <aff id="af2-hydrology-07-00005"><label>2</label>Civil Engineering Department, College of Engineering, Shaqra University, Dawadmi 11911, Saudi Arabia</aff>
+      <aff id="af3-hydrology-07-00005"><label>3</label>National Water Center, United Arab Emirates University, Al Ain P.O. Box 15551, UAE</aff>
+      <author-notes>
+        <corresp id="c1-hydrology-07-00005"><label>*</label>Correspondence: <email>msherif@uaeu.ac.ae</email>; Tel.: +971-507638044</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>03</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>1</issue>
+      <elocation-id>5</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>08</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The quality of groundwater resources in coastal aquifers is affected by saltwater intrusion. Over-abstraction of groundwater and seawater level rise due to climate change accelerate the intrusion process. This paper investigates the effects of aquifer bed slope and seaside slope on saltwater intrusion. The possible impacts of increasing seawater head due to sea level rise and decreasing groundwater level due to over-pumping and reduction in recharge are also investigated. A numerical model (SEAWAT) is applied to well-known Henry problem to assess the movement of the dispersion zone under different settings of bed and seaside slopes. The results showed that increasing seaside slope increased the intrusion of saltwater by 53.2% and 117% for slopes of 1:1 and 2:1, respectively. Increasing the bed slope toward the land decreased the intrusion length by 2% and 4.8%, respectively. On the other hand, increasing the bed slope toward the seaside increased the intrusion length by 3.6% and 6.4% for bed slopes of 20:1 and 10:1, respectively. The impacts of reducing the groundwater level at the land side and increasing the seawater level at the shoreline by 5% and 10% considering different slopes are studied. The intrusion length increased under both conditions. Unlike Henry problem, the current investigation considers inclined beds and sea boundaries and, hence, provides a better representation of the field conditions.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>coastal aquifer</kwd>
+        <kwd>seaside slope</kwd>
+        <kwd>bed slope</kwd>
+        <kwd>sea level</kwd>
+        <kwd>seawater intrusion</kwd>
+        <kwd>SEAWAT</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-hydrology-07-00005" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Saltwater intrusion (SWI) is a serious and common problem in many coastal aquifers around the globe. The degree and severity of the problem depend on several natural and man-made parameters [<xref ref-type="bibr" rid="B1-hydrology-07-00005">1</xref>,<xref ref-type="bibr" rid="B2-hydrology-07-00005">2</xref>]. To investigate SWI problems, density dependent groundwater flow and solute transport models are employed to simulate water flow and concentration pattern in the transition zone between freshwater and saltwater bodies. Under certain circumstances, the saltwater body moves inland, and the problem becomes more pronounced. In severe cases, drinking and irrigation wells might be abandoned due to high water salinity. Over-pumping of groundwater from coastal aquifers disturbs the long-term hydraulic balance between freshwater and saltwater bodies and accelerates inland migration of saltwater [<xref ref-type="bibr" rid="B3-hydrology-07-00005">3</xref>,<xref ref-type="bibr" rid="B4-hydrology-07-00005">4</xref>].</p>
+      <p>The simulation of SWI in coastal aquifers started long-time back by [<xref ref-type="bibr" rid="B5-hydrology-07-00005">5</xref>,<xref ref-type="bibr" rid="B6-hydrology-07-00005">6</xref>]. Based on some experimental work, they developed an equation to analyze the problem. They assumed that the freshwater and saltwater are two immiscible fluids and hence a sharp interface will be developed between the two water bodies. This assumption, however, oversimplifies the problem and may not be valid in most cases. In reality, a transition (dispersion) zone is developed between the two water bodies. In the transition zone, the flow of water is under the hydraulic gradient, while the transport of salt ions is governed by the hydrodynamic dispersion processes.</p>
+      <p>For undisturbed coastal aquifers, saltwater intrusion problems can be studied analytically using the sharp interface assumption based on Ghyben&#x2013;Herzberg relation and the single potential theory [<xref ref-type="bibr" rid="B7-hydrology-07-00005">7</xref>]. This model depends on the hydrostatic balance between fresh and saline water. In other words, the weight of a saltwater column is balanced with a weight of a freshwater column to locate the interface. The steady state Henry analytical solution [<xref ref-type="bibr" rid="B8-hydrology-07-00005">8</xref>] has exclusively served as a benchmark for testing SWI models for over five decades [<xref ref-type="bibr" rid="B8-hydrology-07-00005">8</xref>]. A comparison between the results of different codes applied to Henry&#x2019;s problem was conducted and a sensitivity analysis to identify the most dominant parameters that govern the severity of the problem was performed [<xref ref-type="bibr" rid="B9-hydrology-07-00005">9</xref>]. An example of the analytical solutions of SWI problems is provided in [<xref ref-type="bibr" rid="B10-hydrology-07-00005">10</xref>]. A numerical model considering the dispersion zone between freshwater and saltwater was developed [<xref ref-type="bibr" rid="B11-hydrology-07-00005">11</xref>]. The model was used to predict the effect of saltwater upconning on the salinity of pumped groundwater. Other researchers [<xref ref-type="bibr" rid="B12-hydrology-07-00005">12</xref>,<xref ref-type="bibr" rid="B13-hydrology-07-00005">13</xref>] investigated the seawater intrusion in the Nile Delta aquifer in the aerial view under different recharge conditions. The possible effects of climate change and possible seawater level rise on SWI in the Nile Delta aquifer of Egypt and the Madras aquifer of India were investigated using a numerical model [<xref ref-type="bibr" rid="B14-hydrology-07-00005">14</xref>]. Due to the geometric conditions and its wider exposure to the saline water body of the Mediterranean Sea, the Nile Delta aquifer is more vulnerable to the SWI problem under the conditions of climate change.</p>
+      <p>A numerical model using SEAWAT code to simulate SWI at Chaouia aquifer in Morocco was developed [<xref ref-type="bibr" rid="B15-hydrology-07-00005">15</xref>]. A laboratory study was conducted to assess the transport patterns of saltwater wedge in costal aquifers under different conditions [<xref ref-type="bibr" rid="B16-hydrology-07-00005">16</xref>]. The effect of the changes of groundwater and seawater levels on seawater intrusion in an unconfined coastal aquifer using SEAWAT was investigated [<xref ref-type="bibr" rid="B17-hydrology-07-00005">17</xref>]. The results showed that increasing seawater level will increase the inland migration of SWI [<xref ref-type="bibr" rid="B18-hydrology-07-00005">18</xref>] also used SEAWAT to simulate the SWI under different hydraulic parameters in coastal aquifers. The results indicated that the aquifer hydraulic properties have a significant effect on the dynamics and severity of SWI problems and hence might be altered to mitigate and retard the intrusion process.</p>
+      <p>Analytical methods and a numerical model (SUTRA) were used to study the impact of seawater level rise (SLR) and land-surface inundation (LSI) on SWI considering different recharge rates and variations of land-surface and aquifer bed slopes [<xref ref-type="bibr" rid="B19-hydrology-07-00005">19</xref>]. The results indicated that theses parameters have significant impact on SWI. A numerical model based on mesh free method to study SWI using Henry&#x2019;s problem was employed for the case of a confined aquifer [<xref ref-type="bibr" rid="B20-hydrology-07-00005">20</xref>]. They considered the effects of the aquifer hydraulic parameters, boundary conditions, pumping and recharge rates and aquifer depth [<xref ref-type="bibr" rid="B21-hydrology-07-00005">21</xref>] extended the semi-analytical solution of the dispersive Henry problem based on the Fourier&#x2013;Galerkin method to simulate heterogeneous and anisotropic coastal aquifers. The results indicated that the modified analytical solution can be effectively used for verification of existing and future numerical models. The method can also be used to investigate SWI under the combined influence of stratification and anisotropy.</p>
+      <p>According to the available literature, many researchers used Henry problem as a benchmark for calibration of SWI models. The Henry problem assumed horizontal bed and vertical land and sea sides. Such conditions might not be applicable for the majority of the costal aquifers. Moreover, the groundwater and seawater levels were assumed constant. Unlike Henry problem, the current study aims to assess the effect of changing aquifer bed and seaside slops on SWI. The effects of groundwater and seawater levels on SWI are also considered. A better understanding of the SWI problem is, therefore, provided.</p>
+    </sec>
+    <sec id="sec2-hydrology-07-00005">
+      <title>2. Materials and Methods</title>
+      <p>In this study, the numerical model SEAWAT [<xref ref-type="bibr" rid="B22-hydrology-07-00005">22</xref>] is used to investigate the effects of different parameters on the seawater intrusion problem in coastal aquifers. The investigated parameters include the seaside and bed slopes, the seawater level, and the freshwater flux from the land side boundary. The results of the model were compared with a number of published cases and was then used to investigate the effects of the different parameters.</p>
+      <sec id="sec2dot1-hydrology-07-00005">
+        <title>2.1. Numerical Model</title>
+        <p>The SEAWAT model is based on coupling MODFLOW and MT3DMS to solve fluid flow and solute transport equations. In this study, the model was validated using Henry problem. <xref ref-type="fig" rid="hydrology-07-00005-f001">Figure 1</xref> presents a vertical cross section of an idealized confined aquifer and the applied boundary conditions. The most popular analytical solution for saltwater intrusion phenomena was developed by [<xref ref-type="bibr" rid="B8-hydrology-07-00005">8</xref>]. A number of researchers used Henry problem for the verification of numerical models (e.g., [<xref ref-type="bibr" rid="B23-hydrology-07-00005">23</xref>,<xref ref-type="bibr" rid="B24-hydrology-07-00005">24</xref>,<xref ref-type="bibr" rid="B25-hydrology-07-00005">25</xref>,<xref ref-type="bibr" rid="B26-hydrology-07-00005">26</xref>,<xref ref-type="bibr" rid="B27-hydrology-07-00005">27</xref>,<xref ref-type="bibr" rid="B28-hydrology-07-00005">28</xref>]). Typically, the study domain is 200 cm in length, 100 cm in height and 10 cm in width. In this study, the domain was discretized using 4 rows, 80 columns and 44 layers with a cell dimension of 2.5 cm in each direction.</p>
+        <p>The boundary conditions for head and concentration were set based on the following. At the land side, a hydrostatic freshwater head distribution was considered and a constant flux (Q<sub>in</sub>) of 0.5702 m<sup>3</sup>/d/m was implemented. The concentration (C<sub>in</sub>) was sent constant along the boundary and equals to zero mg/L. At the seaside, a hydrostatic seawater head was considered to represent the density variation with depth at this boundary, with a hydraulic head of 1.0 m above the upper boundary of the aquifer. A constant concentration of 35,000 mg/L (seawater concertation) was implemented. The upper and lower horizontal boundaries were set as no flow boundary for both the fluid and salt ions. As such, the stream lines should be parallel and the equipotential lines should be perpendicular to the upper and lower boundaries. The implement hydraulic parameters are presented in <xref ref-type="table" rid="hydrology-07-00005-t001">Table 1</xref>.</p>
+      </sec>
+      <sec id="sec2dot2-hydrology-07-00005">
+        <title>2.2. Model Verification</title>
+        <p>In this study, SEAWAT is employed to simulate Henry problem considering the above boundary conditions and hydraulic parameters. As shown in <xref ref-type="fig" rid="hydrology-07-00005-f002">Figure 2</xref>a, the intrusion of 0.5 Isochlor (17,500 mg/L) reached a distance of 62.5 cm measured along the bottom boundary from the seaside. The results of this simulation represent the basic run. For model verification, the results are compared with other available simulations of Henry problem. <xref ref-type="fig" rid="hydrology-07-00005-f002">Figure 2</xref>b shows a comparison between the results of current simulation by SEAWAT, other models, and the semi-analytical solution developed by [<xref ref-type="bibr" rid="B29-hydrology-07-00005">29</xref>]. It is clear that a good agreement between SEAWAT and other models has been achieved. As such, the developed model is considered calibrated and could be applied to study different settings of SWI problems considering different seaside and bed slopes toward the sea and the land.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-hydrology-07-00005" sec-type="results">
+      <title>3. Results</title>
+      <p>SEAWAT is applied on the Henry problem to study the effect of changing bed and seaside slopes on SWI considering a constant saltwater head of 100 cm at the seaside and a constant flux rate of (Q<sub>in</sub>) 0.5702 m<sup>3</sup>/d/m at the land side. The seawater level is expected to increase due to climate change, and groundwater levels in coastal aquifers are expected to decrease due to the expected increase of groundwater abstractions to substitute for the reduction of rainfall and natural recharge [<xref ref-type="bibr" rid="B13-hydrology-07-00005">13</xref>,<xref ref-type="bibr" rid="B14-hydrology-07-00005">14</xref>]. Three cases were considered to study the effect changing groundwater and seawater levels on saltwater intrusion including: (a) increasing seawater head, (b) decreasing groundwater level at the land side, and (c) a combination of both. Different settings of bed and seaside slopes were also examined, and all simulations were conducted under the steady state conditions to represent the ultimate case of inland migration of the seawater.</p>
+      <sec id="sec3dot1-hydrology-07-00005">
+        <title>3.1. Effect of Changing Seaside Slope on SWI</title>
+        <p>A number of scenarios were considered to analyze the SWI problem under different slopes of seabed and aquifer bottom. In the basic run, the numerical model was employed to solve Henry problem using the same parameters and boundary conditions that were considered by other researchers. In this study, the intrusion length is represented by the 0.5 equi-concentration (isochlor) line and is measured along the bottom boundary from the seaside. Based on the results of the basic run, the intrusion length was 62.5 cm measured along the bottom boundary, as shown in <xref ref-type="fig" rid="hydrology-07-00005-f002">Figure 2</xref>a. In the first and second scenarios, two seaside slopes (1h:1v and 2h:1v) were considered as shown in <xref ref-type="fig" rid="hydrology-07-00005-f003">Figure 3</xref>, and the same flux of the Henry problem was used. All other hydraulic and transport parameters remained constant as given in <xref ref-type="table" rid="hydrology-07-00005-t001">Table 1</xref>. The intrusion length of 0.5 equi-concentration line for the two cases reached 95.75 and 136.0 cm, respectively, measured along the bed as shown in <xref ref-type="fig" rid="hydrology-07-00005-f004">Figure 4</xref>a,b. The relation between intrusion length and seaside slope was developed to determine the intrusion length (X<sub>T</sub>) for different seaside slopes as shown in <xref ref-type="fig" rid="hydrology-07-00005-f005">Figure 5</xref>. The results indicate that the intrusion length increases with the increase of the horizontal to vertical ratio of the seaside slope.</p>
+      </sec>
+      <sec id="sec3dot2-hydrology-07-00005">
+        <title>3.2. Effect of Changing Aquifer Bed Slope on SWI</title>
+        <p>In scenarios three and four, the effect of changing the aquifer bed slope on SWI is investigated. Two bed slopes were considered. In scenario three, the aquifer bed slope was taken as 20h:1v representing a mild increase in the aquifer depth toward the seaside. In scenario four, the bed slope was taken as 10h:1v (<xref ref-type="fig" rid="hydrology-07-00005-f006">Figure 6</xref>). All other parameters and boundary conditions remained unchanged, and the simulations were allowed to continue until reaching the steady state conditions. Under scenario three, Isochlor line 0.5 reached a distance of 61.25 cm measured from the seaside boundary, <xref ref-type="fig" rid="hydrology-07-00005-f007">Figure 7</xref>a. Under scenario four, the same Isochlor line reached a distance of 59.5 cm, measured from the seaside boundary, <xref ref-type="fig" rid="hydrology-07-00005-f007">Figure 7</xref>b. The relation between intrusion length and bed slope toward the land is presented in <xref ref-type="fig" rid="hydrology-07-00005-f008">Figure 8</xref>. A linear equation is developed to determine the intrusion length (X<sub>T</sub>) for different bed slops (<xref ref-type="fig" rid="hydrology-07-00005-f008">Figure 8</xref>). The results reveled that for the same hydraulic and boundary conditions, the intrusion length would decrease if the inland depth of the aquifer decreases with the distance from the shore boundary.</p>
+        <p>In scenarios five and six, the bed slope was set as 20h:1v and 10h:1v, respectively (<xref ref-type="fig" rid="hydrology-07-00005-f009">Figure 9</xref>). The seawater represented by 0.5 Isochlor reached 64.75 and 66.5 cm, for scenarios five and six, respectively, as given in <xref ref-type="fig" rid="hydrology-07-00005-f010">Figure 10</xref>a,b. A linear relation between the intrusion length and bed slope is established as illustrated in <xref ref-type="fig" rid="hydrology-07-00005-f011">Figure 11</xref>. The results indicated that the intrusion length increases with the increase of the landward increase of the aquifer depth.</p>
+      </sec>
+      <sec id="sec3dot3-hydrology-07-00005">
+        <title>3.3. Effect of Changing Sea Level on SWI</title>
+        <p>One of the most probable and important application of SWI problems is the effect of seawater level rise. Prior to 1990, available records from tide gauges showed a 1 mm sea level rise per year over a period of 2 centuries. After 1990, both satellites and tide gauges have revealed a rise of 3.2 mm per year [<xref ref-type="bibr" rid="B30-hydrology-07-00005">30</xref>]. Due to global warming trends and the associated melting of ice sheets and expansion of water in oceans, it is estimated that the seawater level will continue to rise even if the emission of greenhouse gases is controlled [<xref ref-type="bibr" rid="B31-hydrology-07-00005">31</xref>]. </p>
+        <p>The possible seawater rise was simulated by increasing water level at the seaside by 5% and 10%, respectively. In scenario seven, the seawater level was set at 105 cm, while in scenario eight, it was set at 110 cm above the aquifer bottom. As before, a constant recharge 0.5702 m<sup>3</sup>/d of freshwater was considered at the land side. Under the steady state conditions, the 0.5 Isochlor reached a distance of 70.5 and 76.0 cm, respectively, for the two scenarios as shown in <xref ref-type="fig" rid="hydrology-07-00005-f012">Figure 12</xref>a,b measured along the horizontal bed from the shore line. The relations between seawater level and intrusion length (X<sub>T</sub>) for different bed and seaside slopes are shown in <xref ref-type="fig" rid="hydrology-07-00005-f013">Figure 13</xref>. A summary of the intrusion length for different cases is provided in <xref ref-type="table" rid="hydrology-07-00005-t002">Table 2</xref>.</p>
+        <p>Increasing seawater level by 5% and 10% combined with different seaside and bed slopes affected the intrusion length as shown in <xref ref-type="table" rid="hydrology-07-00005-t002">Table 2</xref> and <xref ref-type="fig" rid="hydrology-07-00005-f013">Figure 13</xref>. For a seaside slope of 1:1, the intrusion of 0.5 Isochlor reached to 106.0 and 115.25 cm, respectively, while it reached 149 and 158.25 cm for a seaside slope of 2:1, respectively. For a bed slope of 1:20 toward the land, the intrusion reached to 66.6 and 72.25 cm, respectively, while it reached 65.5 and 71.0 cm, respectively, for a bed slope of 1:10. For bed slope of 1:20 toward the sea, the intrusion reached to 71.50 and 77.0 cm, respectively, while it reached 72.25 and 78.75 cm, respectively for a bed slope of 1:10 toward the sea. The bed slope toward the land gave less intrusion than the slope toward the sea for the two seawater levels. However, the seaside slope resulted in a bigger intrusion length for the two cases.</p>
+      </sec>
+      <sec id="sec3dot4-hydrology-07-00005">
+        <title>3.4. Effect of Reducing the Landside Recharge</title>
+        <p>In this case, the effect of excessive pumping from the aquifer and hence reduction of the specific recharge at the landside were considered. The case was simulated by decreasing the flux of freshwater by 5% and 10% from the original rate (Q<sub>in</sub>) of 0.5702 m<sup>3</sup>/d to be 0.5417 m<sup>3</sup>/d and 0.5132 m<sup>3</sup>/d with a constant saltwater head, at the seaside of 1m. <xref ref-type="fig" rid="hydrology-07-00005-f014">Figure 14</xref>a and b indicate that the intrusion of 0.5 Isochlor reached 66.70 and 68.15 cm, measured from the shore line along the bottom boundary, respectively.</p>
+        <p>The relationships between the recharge rate and intrusion length (X<sub>T</sub>) for different slopes are shown in <xref ref-type="fig" rid="hydrology-07-00005-f015">Figure 15</xref>. Decreasing the freshwater landside recharge rate by 5% and 10% combined with different seaside and bed slopes has affected the intrusion length with different values as shown in <xref ref-type="fig" rid="hydrology-07-00005-f015">Figure 15</xref>. For s bed slope of 1:20 toward the land the intrusion lengths reached to 63.0 and 65.25 cm, while the corresponding intrusion lengths reached 61.5 and 63.75 cm for a slope of 1:10. For a bed slope of 1:20 toward the sea, the intrusion reached to 67.0 and 69.75 cm, while it reached 68.75 and 71.5 cm for a bed slope of 1:10. For a slope of 1:1, the intrusion length reached to 98.5 and 100.75 cm and for a slope of 2:1, the intrusion length reached 138.5 and 140.75 cm, respectively.</p>
+      </sec>
+      <sec id="sec3dot5-hydrology-07-00005">
+        <title>3.5. Combined Effect of Increasing Sea Level and Decreasing Landside Recharge</title>
+        <p>This case represents the combination of the two previous scenarios; increasing seawater head by 5% and 10% and decreasing the flux of freshwater at the land side by 5% and 10%. The resulted intrusion of sweater is shown in <xref ref-type="fig" rid="hydrology-07-00005-f016">Figure 16</xref>a,b. The intrusion of 0.5 Isochlor reached 72.9 and 81.5 cm, respectively. More inland intrusion has been observed in this scenario. </p>
+        <p><xref ref-type="fig" rid="hydrology-07-00005-f017">Figure 17</xref> shows the relation between the combined scenario and intrusion length (X<sub>T</sub>) for different slopes. Increasing seawater head and decreasing recharge rate by 5% and 10% combined with different seaside and bed slopes has increased the intrusion length with different levels as shown in <xref ref-type="fig" rid="hydrology-07-00005-f017">Figure 17</xref>. For a seaside slope of 1:1, the intrusion length advanced to 108.5 and 120.5 cm, and for a seaside slope of 2:1, the corresponding intrusion lengths were, 151.0 and 162.25 cm, respectively. For a bed slope of 1:20 toward the land, the intrusion lengths reached to 69.0 and 77.0 cm, and for a bed slope of 1:10, the corresponding intrusion lengths were 68.0 and 75.25 cm, respectively. For a bed slope 1:20 of toward the sea, the intrusion lengths reached 74.0 and 83.0 cm, and for a bed slope of 1:10, the corresponding intrusion distances were 75.0 and 85.5 cm, respectively. <xref ref-type="fig" rid="hydrology-07-00005-f017">Figure 17</xref> indicates that the presence of seaside slope would increase the total intrusion length, while the presence of a bed slope toward the land would reduce the intrusion length for the studied cases.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-hydrology-07-00005" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Groundwater quality in coastal aquifers is vulnerable to deterioration due to the seawater intrusion problem. The seawater level is expected to rise due to the anticipated climate change, and the freshwater flux from the landside is expected to decline due to limited natural recharge and over-abstraction of groundwater. This will help accelerate the seawater intrusion problem. In this paper, the effects of aquifer geometric slopes, including seaside slope and bed slopes toward the land and the sea, on seawater intrusion were presented and discussed. Moreover, the effects of changing groundwater and seawater levels on seawater intrusion were investigated. The SEAWAT code was applied to Henry problem considering different seaside slopes of 1:1 and 2:1 and bed slopes toward the sea and the land of 1:20 and 1:10. Different conditions of seawater levels and land side recharge were considered with different boundary and geometric slopes. The results revealed that increasing the bed slope toward the sea would increase the intrusion length, while increasing the bed slope toward the land would decrease the intrusion of seawater. Increasing the seaside slope would increase the total intrusion length by 50% for a slope of 1:1 and 100% for a slope of 2:1. Increasing seawater level and decreasing the land side freshwater flux would also increase the intrusion length. The concurrence of these two scenarios gave additional inland intrusion. The study demonstrated the sensitivity of the seawater intrusion problem to a number of parameters including slopes of the bed and sea boundary, freshwater flux at the land side and seawater level. </p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, H.F.A.-E.; methodology, I.A.-E.; validation, I.A.-E.; formal analysis, M.M.S.; investigation, M.M.S.; data preparation and review, H.F.A.-E.; writing&#x2014;original draft preparation, H.F.A.-E. and I.A.-E.; writing&#x2014;review and editing, M.M.S. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>The support of the National Water Center, UAE University towards the open access publication of this paper is acknowledged. </p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors are grateful to Department of Water and Water Structures Engineering, Faculty of Engineering, Zagazig University, Zagazig 44519, Egypt for the use of lab facilities. </p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-hydrology-07-00005">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bear</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Sorek</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Quazar</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Herrera</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <source>Seawater Intrusion in Coastal Aquifers, Concepts, Methods and Practices</source>
+          <publisher-name>Kluwer Academic Publisher</publisher-name>
+          <publisher-loc>Dordrecht, The Netherlands</publisher-loc>
+          <year>1999</year>
+          <isbn>0-7923-5573-3</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B2-hydrology-07-00005">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sefelnasr</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sherif</surname>
+              <given-names>M.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impacts of seawater rise on seawater intrusion in the Nile Delta Aquifer, Egypt</article-title>
+          <source>Groundwater</source>
+          <year>2014</year>
+          <volume>52</volume>
+          <fpage>264</fpage>
+          <lpage>276</lpage>
+          <pub-id pub-id-type="doi">10.1111/gwat.12058</pub-id>
+          <pub-id pub-id-type="pmid">23600466</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-hydrology-07-00005">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harman</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <source>The Effect of Basement on Heterogeneity on Saltwater Wedge&#x2014;Aphysical and Numerical Modelling Approach</source>
+          <publisher-name>The University of Western Australia</publisher-name>
+          <publisher-loc>Crawley, Australia</publisher-loc>
+          <year>2002</year>
+        </element-citation>
+      </ref>
+      <ref id="B4-hydrology-07-00005">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abdelhamid</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Javadi</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Abd-Elaty</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Sherif</surname>
+              <given-names>M.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simulation of seawater intrusion in the Nile Delta aquifer under the condition of climate change</article-title>
+          <source>Hydrol. Res.</source>
+          <year>2016</year>
+          <volume>47</volume>
+          <fpage>1198</fpage>
+          <lpage>1210</lpage>
+          <pub-id pub-id-type="doi">10.2166/nh.2016.157</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-hydrology-07-00005">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghyben</surname>
+              <given-names>B.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nota in Verband Met de Voorgenomen put Boring Nabij Amsterdam</article-title>
+          <source>Tydscrift Van Het Koninkyky Institute Van Ingenieurs</source>
+          <year>1889</year>
+          <volume>21</volume>
+          <fpage>8</fpage>
+          <lpage>22</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6-hydrology-07-00005">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herzberg</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Die wasserversorgung Einnger Nordsecbader</article-title>
+          <source>J. Gasbeleucht. U. Wasservesurg</source>
+          <year>1901</year>
+          <fpage>815</fpage>
+          <lpage>819</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B7-hydrology-07-00005">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Strack</surname>
+              <given-names>O.D.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Single-potential Solution for Regional Interface Problems in Coastal Aquifers</article-title>
+          <source>Water Resour. Res.</source>
+          <year>1976</year>
+          <volume>12</volume>
+          <fpage>1165</fpage>
+          <lpage>1174</lpage>
+          <pub-id pub-id-type="doi">10.1029/WR012i006p01165</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-hydrology-07-00005">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Henry</surname>
+              <given-names>H.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Saltwater intrusion into coastal aquifers</article-title>
+          <source>Int. Assoc. Sci. Hydrol. Publ.</source>
+          <year>1960</year>
+          <volume>2</volume>
+          <fpage>478</fpage>
+          <lpage>487</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B9-hydrology-07-00005">
+        <label>9.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taylor</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hulme</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Foot</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Benchmarking of Variable Density Model Codes against Henry&#x2019;s Problem</article-title>
+          <source>Proceedings of the 1st International Conference and Workshop on Saltwater Intrusion and Coastal Aquifers, Monitoring, Modelling, and Management</source>
+          <conf-loc>Essaouira, Morocco</conf-loc>
+          <conf-date>23&#x2013;25 April 2001</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B10-hydrology-07-00005">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kacimov</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Obnosove</surname>
+              <given-names>Y.V.</given-names>
+            </name>
+            <name>
+              <surname>Sherif</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Perret</surname>
+              <given-names>J.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analytical Solutions to a Sea-water Intrusion Problem with a Fresh Water Zone Tapering to a Triple Point</article-title>
+          <source>J. Eng. Math.</source>
+          <year>2006</year>
+          <volume>54</volume>
+          <fpage>197</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10665-006-9030-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-hydrology-07-00005">
+        <label>11.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hamza</surname>
+              <given-names>K.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Numerical Analysis of Saltwater Upconing below a Pumping Well</article-title>
+          <source>Proceedings of the 18th Salt Water Intrusion Meeting</source>
+          <conf-loc>Cartagena, Spain</conf-loc>
+          <conf-date>31 May&#x2013;3 June 2004</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B12-hydrology-07-00005">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sherif</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Sefelnasr</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Javadi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Areal Simulation of Seawater Intrusion In The Nile Delta Aquifer</article-title>
+          <source>ASCE World Environ. Water Resour. Congr.</source>
+          <year>2012</year>
+          <pub-id pub-id-type="doi">10.1061/9780784412312.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-hydrology-07-00005">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sherif</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>V.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of groundwater pumping on seawater intrusion in coastal aquifers</article-title>
+          <source>J. Agric. Mar. Sci.</source>
+          <year>2002</year>
+          <volume>7</volume>
+          <fpage>61</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="doi">10.24200/jams.vol7iss2pp61-67</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-hydrology-07-00005">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sherif</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>V.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Climate Changes on Seawater Intrusion in Coastal Aquifers</article-title>
+          <source>Hydrol. Process.</source>
+          <year>1999</year>
+          <volume>13</volume>
+          <fpage>1277</fpage>
+          <lpage>1287</lpage>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1099-1085(19990615)13:8&lt;1277::AID-HYP765&gt;3.0.CO;2-W</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-hydrology-07-00005">
+        <label>15.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lakfifi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Larabi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bzioui</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Benbiba</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lahmouri</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regional Model for Seawater Intrusion in the Chaouia Coastal Aquifer (Morocco)</article-title>
+          <source>Proceedings of the 18th Saltwater Intrusion Meeting</source>
+          <conf-loc>Cartagena, Spain</conf-loc>
+          <conf-date>31 May&#x2013;3 June 2004</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B16-hydrology-07-00005">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goswami</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Clement</surname>
+              <given-names>T.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Laboratory-scale investigation of saltwater intrusion dynamics</article-title>
+          <source>Water Resour. Res.</source>
+          <year>2007</year>
+          <volume>43</volume>
+          <fpage>W04418</fpage>
+          <pub-id pub-id-type="doi">10.1029/2006WR005151</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-hydrology-07-00005">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Freydoon</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Abolghasemi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation of Sea and Groundwater Level Changes on Seawater Intrusion in an unconfined Coastal Aquifer</article-title>
+          <source>J. Middle East Appl. Sci. Technol.</source>
+          <year>2014</year>
+          <volume>20</volume>
+          <fpage>684</fpage>
+          <lpage>688</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B18-hydrology-07-00005">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abdelaty</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Abd-Elhamid</surname>
+              <given-names>H.F.</given-names>
+            </name>
+            <name>
+              <surname>Javadi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Numerical analysis of the effects of changing hydraulic parameters on saltwater intrusion in coastal aquifers</article-title>
+          <source>Eng. Comput. J.</source>
+          <year>2016</year>
+          <volume>33</volume>
+          <fpage>2546</fpage>
+          <lpage>2564</lpage>
+          <pub-id pub-id-type="doi">10.1108/EC-11-2015-0342</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-hydrology-07-00005">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ketabchi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mahmoodzadeh</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ataie-Ashtiani</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Simmons</surname>
+              <given-names>C.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sea-level rise impacts on seawater intrusion in coastal aquifers: Review and integration</article-title>
+          <source>J. Hydrol.</source>
+          <year>2016</year>
+          <volume>535</volume>
+          <fpage>235</fpage>
+          <lpage>255</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhydrol.2016.01.083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-hydrology-07-00005">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Eldho</surname>
+              <given-names>T.I.</given-names>
+            </name>
+            <name>
+              <surname>Rastogi</surname>
+              <given-names>A.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simulation of Seawater Intrusion in Coastal Confined Aquifer Using a Point Collocation Method Based Mesh Free Model</article-title>
+          <source>J. Water Resour. Prot.</source>
+          <year>2016</year>
+          <volume>8</volume>
+          <fpage>534</fpage>
+          <lpage>549</lpage>
+          <pub-id pub-id-type="doi">10.4236/jwarp.2016.84045</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-hydrology-07-00005">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fahs</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Koohbor</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Belfort</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ataie-Ashtiani</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Simmons</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Younes</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ackerer</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Generalized Semi-Analytical Solution for the Dispersive Henry Problem: Effect of Stratification and Anisotropy on Seawater Intrusion</article-title>
+          <source>Water</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <elocation-id>230</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/w10020230</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-hydrology-07-00005">
+        <label>22.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Langevin</surname>
+              <given-names>C.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>User&#x2019;s Guide to SEAWAT: A Computer Program for Simulation of Three-Dimensional Variable-Density Groundwater Flow</article-title>
+          <source>Techniques of Water-Resources Investigations 06-A7</source>
+          <publisher-name>USGS</publisher-name>
+          <publisher-loc>Reston, VA, USA</publisher-loc>
+          <year>2002</year>
+          <fpage>77</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-hydrology-07-00005">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>R.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seawater Encroachment in Coastal Aquifer</article-title>
+          <source>Water Resour. Res.</source>
+          <year>1974</year>
+          <volume>10</volume>
+          <fpage>1039</fpage>
+          <lpage>1043</lpage>
+          <pub-id pub-id-type="doi">10.1029/WR010i005p01039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-hydrology-07-00005">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Segol</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pinder</surname>
+              <given-names>G.F.</given-names>
+            </name>
+            <name>
+              <surname>Gray</surname>
+              <given-names>W.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Galerkin Finite Element Technique for Calculating the Transition Position of the Saltwater Front</article-title>
+          <source>Water Resour. Res.</source>
+          <year>1975</year>
+          <volume>11</volume>
+          <fpage>343</fpage>
+          <lpage>347</lpage>
+          <pub-id pub-id-type="doi">10.1029/WR011i002p00343</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-hydrology-07-00005">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huyakorn</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>Mercer</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>H.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Saltwater Intrusion in Aquifers Development and Testing of a Three-dimensional Finite Element Model</article-title>
+          <source>Water Resour. Res.</source>
+          <year>1987</year>
+          <volume>23</volume>
+          <fpage>293</fpage>
+          <lpage>312</lpage>
+          <pub-id pub-id-type="doi">10.1029/WR023i002p00293</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-hydrology-07-00005">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frind</surname>
+              <given-names>E.O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simulation of long-term transient density-dependent transport in groundwater</article-title>
+          <source>Water Resour. Res.</source>
+          <year>1982</year>
+          <volume>5</volume>
+          <fpage>73</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1016/0309-1708(82)90049-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-hydrology-07-00005">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Strobl</surname>
+              <given-names>R.O.</given-names>
+            </name>
+            <name>
+              <surname>Yeh</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modelling of 2D Density-Dependent Flow and Transport in the Subsurface</article-title>
+          <source>J. Hydrol. Eng.</source>
+          <year>1998</year>
+          <volume>3</volume>
+          <fpage>248</fpage>
+          <lpage>257</lpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)1084-0699(1998)3:4(248)</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-hydrology-07-00005">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rastogi</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>G.W.</given-names>
+            </name>
+            <name>
+              <surname>Ukarande</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Diffused interface model to prevent ingress of seawater in multi-layer coastal aquifers</article-title>
+          <source>J. Spat. Hydrol.</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <fpage>1</fpage>
+          <lpage>31</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B29-hydrology-07-00005">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simpson</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Clement</surname>
+              <given-names>T.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improving the worthiness of the Henry problem as A benchmark for Density-Dependent Groundwater Flow Models</article-title>
+          <source>Water Resour. Res.</source>
+          <year>2004</year>
+          <volume>40</volume>
+          <pub-id pub-id-type="doi">10.1029/2003WR002199</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-hydrology-07-00005">
+        <label>30.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Church</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>P.U.</given-names>
+            </name>
+          </person-group>
+          <source>Sea Level Change, In Climate Change 2013: The Physical Science Basis, Contribution of Working Group 1 to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</source>
+          <publisher-name>IPCC</publisher-name>
+          <publisher-loc>Geneva, Switzerland</publisher-loc>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="B31-hydrology-07-00005">
+        <label>31.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>U.S. Global Change Research Program</collab>
+          </person-group>
+          <source>Climate Science Special Report: Fourth National Climate Assessment</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Wuebbles</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Fahey</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Hibbard</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Dokken</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Maycock</surname>
+              <given-names>T.K.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>USGCRP</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2017</year>
+          <volume>Volume 1</volume>
+          <fpage>470</fpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="hydrology-07-00005-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Boundary conditions of Henry&#x2019;s problem.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g001.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Comparing results of (<bold>a</bold>) SEAWAT (current) and (<bold>b</bold>) Simpson and Clement (2004) [<xref ref-type="bibr" rid="B29-hydrology-07-00005">29</xref>].</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g002.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Schematic sketch of different seaside slopes.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g003.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Saltwater intrusion for seaside slope (<bold>a</bold>) 1:1 and (<bold>b</bold>) 2:1.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g004.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Relationship between seaside slope and intrusion length (X<sub>T</sub>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g005.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Schematic sketch of bed slopes of 20:1 and 10:1 toward the land.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g006.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Saltwater intrusion for different bed slope toward the land side (<bold>a</bold>) 20:1 and (<bold>b</bold>) 10:1.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g007a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g007b.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Relationship between bed slope toward the land side and intrusion length (X<sub>T</sub>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g008.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Schematic sketch of bed slopes of 20:1 and 10:1 toward the sea.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g009.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Saltwater intrusion for different bed slopes toward the seaside (<bold>a</bold>) 20:1 and (<bold>b</bold>) 10:1.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g010.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Relationship between bed slope toward the seaside and intrusion length (X<sub>T</sub>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g011.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>SWI due to increasing saltwater head by (<bold>a</bold>) 5% and (<bold>b</bold>) 10%.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g012.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f013" position="float">
+        <label>Figure 13</label>
+        <caption>
+          <p>Relationship between intrusion length (X<sub>T</sub>) and SLR for different slopes.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g013.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f014" position="float">
+        <label>Figure 14</label>
+        <caption>
+          <p>SWI due to decreasing freshwater influx by (<bold>a</bold>) 5% and (<bold>b</bold>) 10%.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g014.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f015" position="float">
+        <label>Figure 15</label>
+        <caption>
+          <p>Relationship between intrusion length (X<sub>T</sub>) and recharge for different slopes.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g015.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f016" position="float">
+        <label>Figure 16</label>
+        <caption>
+          <p>SWI due to increasing saltwater head (<bold>a</bold>) and decreasing freshwater (<bold>b</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g016a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g016b.tif"/>
+      </fig>
+      <fig id="hydrology-07-00005-f017" position="float">
+        <label>Figure 17</label>
+        <caption>
+          <p>Relationship between intrusion length (X<sub>T</sub>) and combination of SLR and recharge for different slopes.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="hydrology-07-00005-g017.tif"/>
+      </fig>
+      <table-wrap id="hydrology-07-00005-t001" position="float">
+        <object-id pub-id-type="pii">hydrology-07-00005-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Hydraulic parameter of Henry problem.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Parameter</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Values</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Units</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Porosity (n)</td>
+              <td align="center" valign="middle">0.30</td>
+              <td align="center" valign="middle">Dimensionless</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Inland Freshwater Flux (q<sub>in</sub>)</td>
+              <td align="center" valign="middle">5.702</td>
+              <td align="center" valign="middle">(m<sup>3</sup>/day/m)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Saltwater head (h<sub>s</sub>)</td>
+              <td align="center" valign="middle">1.00</td>
+              <td align="center" valign="middle">(m)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Freshwater density (&#x3C1;<sub>f</sub>)</td>
+              <td align="center" valign="middle">1000</td>
+              <td align="center" valign="middle">(kg/m<sup>3</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Saltwater density (&#x3C1;<sub>s</sub>)</td>
+              <td align="center" valign="middle">1025</td>
+              <td align="center" valign="middle">(kg/m<sup>3</sup>)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Saltwater concentration (C)</td>
+              <td align="center" valign="middle">35,000</td>
+              <td align="center" valign="middle">(mg/L)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Hydraulic conductivity (k) (Isotropic)</td>
+              <td align="center" valign="middle">864</td>
+              <td align="center" valign="middle">(m/day)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Specific Storage</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">(1/m)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Longitudinal dispersivity (&#x3B1;<sub>L</sub>)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">(m)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Transverse dispersivity (&#x3B1;<sub>T</sub>)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">(m)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Molecular diffusion coefficient(D*)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.6295</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">(m<sup>2</sup>/day)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="hydrology-07-00005-t002" position="float">
+        <object-id pub-id-type="pii">hydrology-07-00005-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>The intrusion length (X<sub>T</sub>) for different cases.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Case</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Slope</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Base Case</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">SLR</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reduction in Recharge</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Combination</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">5%</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">10%</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">5%</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">10%</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">5%</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">10%</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Slandered Henry (Horizontal slope)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">62.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">70.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">76</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">66.70</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.90</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">81.50</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Seaside bed slope </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1:1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">95.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">106</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">115.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">98.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">108.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">120.50</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2:1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">136</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">149</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">158.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">138.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">140.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">151</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">162.25</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Bed slope toward the land </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1:20</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">61.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">66.60</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">63</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">65.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">69</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">77</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1:10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">59.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">65.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">71</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">61.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">63.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">75.25</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Bed slope toward the sea</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1:20</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">64.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">71.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">77</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">67</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">69.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">74</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">83</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1:10</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">66.50</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">78.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">68.75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">71.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">75</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">85.50</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sustainability</journal-id>
+      <journal-title-group>
+        <journal-title>Sustainability</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sustainability</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sustainability</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2071-1050</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/su12010337</article-id>
+      <article-id pub-id-type="publisher-id">sustainability-12-00337</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Estimation of the Value of Ecosystem Carbon Sequestration Services under Different Scenarios in the Central China (the Qinling-Daba Mountain Area)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Yuyang</given-names>
+          </name>
+          <xref rid="af1-sustainability-12-00337" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Jing</given-names>
+          </name>
+          <xref rid="af1-sustainability-12-00337" ref-type="aff">1</xref>
+          <xref rid="c1-sustainability-12-00337" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Zixiang</given-names>
+          </name>
+          <xref rid="af2-sustainability-12-00337" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zeng</surname>
+            <given-names>Li</given-names>
+          </name>
+          <xref rid="af1-sustainability-12-00337" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Cheng</given-names>
+          </name>
+          <xref rid="af1-sustainability-12-00337" ref-type="aff">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sustainability-12-00337"><label>1</label>School of Geography and Tourism, Shaanxi Normal University, Xi&#x2019;an 710119, China; <email>yuyuyang@snnu.edu.cn</email> (Y.Y.); <email>zengli@snnu.edu.cn</email> (L.Z.); <email>zhangcheng@snnu.edu.cn</email> (C.Z.)</aff>
+      <aff id="af2-sustainability-12-00337"><label>2</label>College of Geomatics, Xi&#x2019;an University of Science and Technology, Xi&#x2019;an 710054, China; <email>zhouzixiang@snnu.edu.cn</email></aff>
+      <author-notes>
+        <corresp id="c1-sustainability-12-00337"><label>*</label>Correspondence: <email>lijing@snnu.edu.cn</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>337</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>10</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The Qinling-Daba Mountain area is a transitional zone between north and south China and not much is known about its carbon storage, particularly its pool of soil organic carbon (SOC). Given this shortcoming, more reliable information regarding its SOC is needed. In light of this, we quantified above and below-ground carbon sinks using both the Carnegie-Ames-Stanford approach (CASA) model and an improved carbon cycle process model. We also assessed the net present value (NPV) for carbon budgets under different carbon price and discount rate scenarios using the NPV model. Our results indicated that the net primary productivity (NPP) was lower in places with low density forests that were situated at high elevation. The spatial distribution of carbon storage depended on NPP production and litter decompositon, which reflected specific vegetation as well as temperature and moisture gradients. The lowest amounts of carbon storage were in the center of the Qinling Mountains and also partly in the Daba area, which is a location associated with sparse grassland. Contrastingly, the broad-leaved forested area showed the highest amount of carbon storage. NPV was positively correlated with discount rate and carbon prices, thus resulting in the highest values in the forests and grassland. The net present value of total soil carbon sequestration in the six scenarios in 2015 was 3.555 b yuan, 3.621 b yuan, 5.421 b yuan, 5.579 b yuan, 7.530 b yuan, 7.929 b yuan; The net present value of total soil carbon sequestration in 6 scenarios in 2017 is 2.816 b yuan, 2.845 b yuan, 4.361 b yuan, 4.468 b yuan, 6.144 b yuan, 6.338 b yuan (billion = 10<sup>9</sup>; b; RMB is the legal currency of the China, and its unit is yuan, 1 euro = 7.7949 yuan, and 1 pound = 9.2590 yuan). Levying a carbon tax would be a notable option for decision makers as they develop carbon emission reduction policies. Given this, incorporating discount rates and carbon pricing would allow for more realistic value estimations of soil organic carbon. This approach would also provide a theoretical basis and underscore the practical significance for the government to set a reasonable carbon price.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>net primary productivity</kwd>
+        <kwd>soil organic carbon</kwd>
+        <kwd>soil respiration</kwd>
+        <kwd>net present value</kwd>
+        <kwd>China&#x2019;s north-south transition zone</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sustainability-12-00337" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Increasing economic development coupled with accelerated urbanization has led to a rapid increase in anthropogenic carbon dioxide emissions. This has resulted in increased carbon dioxide concentration in the atmosphere [<xref ref-type="bibr" rid="B1-sustainability-12-00337">1</xref>], which has led to rising global temperatures [<xref ref-type="bibr" rid="B2-sustainability-12-00337">2</xref>]. One important option in alleviating the many social problems caused by this temperature rise is to increasing the carbon sink capacity of terrestrial ecosystems [<xref ref-type="bibr" rid="B3-sustainability-12-00337">3</xref>]. Soil is the basis of human survival, providing food, nutrition and various resources (including carbon, primary minerals, secondary minerals, organic matter and microorganisms), and also an important part of the global carbon cycle. Soil organic carbon (SOC) decomposition also releases carbon dioxide, which is an important, naturogenic cause of elevated atmospheric carbon dioxide concentration that also has a direct impact on global warming. SOC is important in the global carbon cycle and an integral part of many initiatives and policies to mitigate climate change [<xref ref-type="bibr" rid="B4-sustainability-12-00337">4</xref>]. To better account for these emissions, carbon accounting has become the most important task for the National Development and Reform Commission to deploy the China unified carbon market construction. Such accounting approaches are urgently needed to allow for the calculation of soil carbon storage and the estimate of its value.</p>
+      <p>Geostatistical methods [<xref ref-type="bibr" rid="B5-sustainability-12-00337">5</xref>,<xref ref-type="bibr" rid="B6-sustainability-12-00337">6</xref>,<xref ref-type="bibr" rid="B7-sustainability-12-00337">7</xref>] are commonly used to study the spatial variability of SOC, and recently some machine learning methods frequently used to predict SOC [<xref ref-type="bibr" rid="B8-sustainability-12-00337">8</xref>,<xref ref-type="bibr" rid="B9-sustainability-12-00337">9</xref>,<xref ref-type="bibr" rid="B10-sustainability-12-00337">10</xref>]. Many non-linear models including Cubist (Cu), Random Forest (RF), Regression Tree (RT) and a Multiple Linear Regression (MLR) were used to simulate the distribution of soil carbon reserves, in order to predict and generate a continuous spatial clear soil carbon map [<xref ref-type="bibr" rid="B8-sustainability-12-00337">8</xref>,<xref ref-type="bibr" rid="B9-sustainability-12-00337">9</xref>,<xref ref-type="bibr" rid="B10-sustainability-12-00337">10</xref>]. In the field of soil monitoring, the strict geostatistical requirements for sampling and subsequent laboratory analysis limit its practicability; to this end, remote-sensing technology has obvious advantages [<xref ref-type="bibr" rid="B11-sustainability-12-00337">11</xref>]. The application of this method in China has primarily focused on the estimation and spatial distribution of SOC pools at a national scale [<xref ref-type="bibr" rid="B12-sustainability-12-00337">12</xref>], the impact of wind erosion on soil carbon pools [<xref ref-type="bibr" rid="B13-sustainability-12-00337">13</xref>], and the impact mechanism of SOC pools at a regional scale [<xref ref-type="bibr" rid="B14-sustainability-12-00337">14</xref>,<xref ref-type="bibr" rid="B15-sustainability-12-00337">15</xref>] as well as SOC changes across a time series [<xref ref-type="bibr" rid="B16-sustainability-12-00337">16</xref>]. Many methods have been previously applied to SOC estimation, including direct estimation of remote-sensing imaging, indirect estimation of vegetation index, and non-imaging spectrometry estimation [<xref ref-type="bibr" rid="B17-sustainability-12-00337">17</xref>]. Generally speaking, there are some problems in the application of remote sensing estimation, field investigation and statistical data modeling in organic carbon estimation. With the improvement of remote sensing inversion technology, the estimation method of organic carbon is more accurate. Therefore, this paper combines the carbon cycle process model of an ecosystem with the estimation model of net primary productivity to make the simulation results more ideal.</p>
+      <p>Commonly used methods to calculate domestic carbon sequestration estimates include afforestation cost, industrial oxygen production, carbon tax, and market value. In 2011, Li and Ren [<xref ref-type="bibr" rid="B18-sustainability-12-00337">18</xref>] estimated the distribution characteristics and changes of carbon fixation value and oxygen release value in the loess plateau of northern Shaanxi, and adopted two methods: afforestation cost and industrial oxygen production. In 2014, Kong and Zhang [<xref ref-type="bibr" rid="B19-sustainability-12-00337">19</xref>] estimated the functional value of carbon sequestration of wetlands in protected areas by using the carbon tax law, providing a certain reference for the functional value of carbon sequestration of wetlands in China. In 2014, Pang et al. [<xref ref-type="bibr" rid="B20-sustainability-12-00337">20</xref>] used the market value method to quantitatively evaluate the ecosystem service value provided by the Zoige alpine wetlands. The net present value of a project is the present value of current and future benefits minus the present value of current and future costs. [<xref ref-type="bibr" rid="B21-sustainability-12-00337">21</xref>]. The net present value mainly measures the profit index of economic evaluation; because its theory foundation is relatively perfect and has important economic significance, it is widely applied in each domain. For example, the NPV method has been used to estimate the economic value associated with air pollution, soil fertility management, greenhouse gas emission reductions, and other ecological projects such as agricultural land value estimates [<xref ref-type="bibr" rid="B22-sustainability-12-00337">22</xref>,<xref ref-type="bibr" rid="B23-sustainability-12-00337">23</xref>,<xref ref-type="bibr" rid="B24-sustainability-12-00337">24</xref>]. Albornoz et al. [<xref ref-type="bibr" rid="B25-sustainability-12-00337">25</xref>] uses the NPV method to judge whether a project has investment criteria or not. Elariane et al. [<xref ref-type="bibr" rid="B26-sustainability-12-00337">26</xref>] examine the feasibility of such projects by assessing the NPV of the smart and economic housing model. In 2014, Baral et al. [<xref ref-type="bibr" rid="B27-sustainability-12-00337">27</xref>] estimated NPV to assess and compare the economic value between ecosystem services in different scenarios; their study found that the higher the discount rate, the greater the value of the corresponding value. In 2015, Tremblay et al. [<xref ref-type="bibr" rid="B28-sustainability-12-00337">28</xref>] applied NPV to small-scale agricultural income accounting in the Brazilian Amazon. Their study concluded that there was a significant difference between different discount rates and agricultural income. Nghiem et al. [<xref ref-type="bibr" rid="B29-sustainability-12-00337">29</xref>] used NPV method to determine how to estimate the conservation benefits of carbon sequestration and biodiversity under different forest management models to maximize the NPV of timber sales. Previous studies have found that NPV method is applicable to various fields and has certain advantages in value estimation. This paper combines the NPV method with the application of soil organic carbon in geography. It is found that the NPV method, which incorporates carbon price and discount rate into the soil carbon sequestration model, is a more practical method compared with the afforestation cost method, carbon tax law method and cost avoidance method.</p>
+      <p>China&#x2019;s carbon trading market is still in the pilot stage, and the discount rate has certain directivity to the economy. The NPV method is an economic method combined with carbon tax and discount rate, while the soil organic carbon estimation method combined with ecosystem carbon cycle process model and net primary productivity estimation model is now a more accurate evaluation method, combined with the economic method and remote sensing method, this is a new attempt to evaluate the value of soil organic carbon. Given this, we sought to combine soil organic carbon with a carbon cycle process model to estimate the spatial distribution of soil respiration using a CASA (Carnegie-Ames-Stanford approach) model. We also established a linear regression model for soil organic carbon storage and soil respiration, and then estimated soil organic carbon (30 cm) reserves. Based on this approach, we then used the NPV method to estimate soil organic carbon value in the Qinling-Daba Mountain. This study regarding carbon value according to a scenario mode will provide a useful reference for the future developments in the government&#x2019;s macro-control of carbon prices.</p>
+    </sec>
+    <sec id="sec2-sustainability-12-00337">
+      <title>2. Study Area and Data</title>
+      <sec id="sec2dot1-sustainability-12-00337">
+        <title>2.1. Study Area</title>
+        <p>China&#x2019;s north-south transition zone-known as the Qinling-Daba Mountain is located in the western-central region of China. The complete area is located between 102&#xB0;54&#x2032; to 112&#xB0;40&#x2032; E and 30&#xB0;50&#x2032; to 34&#xB0;59&#x2032; N, covering the provinces of Shaanxi, Gansu, Sichuan, Hubei, Henan, and Chongqing city [<xref ref-type="bibr" rid="B30-sustainability-12-00337">30</xref>,<xref ref-type="bibr" rid="B31-sustainability-12-00337">31</xref>] (<xref ref-type="fig" rid="sustainability-12-00337-f001">Figure 1</xref>). The Qinling-Daba Mountain is the upstream part of the Hanjiang River, which area of the basin in this area reaches 62,000 km<sup>2</sup> [<xref ref-type="bibr" rid="B32-sustainability-12-00337">32</xref>]. The northern branch of the Hanjiang River basin originates from the southern slope of the Qinling Mountains and the southern branch from the northern slope of the Daba Mountains. The northern slope of Qinling Mountains has steep terrain, many canyons, and the southern foothills are long and gentle. The northern foot of the Qinling Mountains is a large fault cliff. The northern slope is short and steep, forming many gorges. The southern slope is long and gentle, with many mountains and intermountain basins. The Daba Mountains are composed of hard crystalline limestone, with a high mountain range and a well-developed Lysite landform. There are many large-scale karst depressions, caves, funnels and karst springs [<xref ref-type="bibr" rid="B33-sustainability-12-00337">33</xref>].</p>
+        <p>The region is located in the transition zone between the warm temperate zone and the north subtropical zone, and the vegetation floristic composition is complex and diverse, mainly reflected in the vegetation type dominated by the deciduous broad-leaved forest in the main body of the Qinling mountains, and the mixed vegetation type of deciduous broad-leaved forest containing evergreen broad-leaved forest in the south of the Qinling mountains [<xref ref-type="bibr" rid="B34-sustainability-12-00337">34</xref>,<xref ref-type="bibr" rid="B35-sustainability-12-00337">35</xref>], detailed information on vegetation classification is shown in <xref ref-type="table" rid="sustainability-12-00337-t001">Table 1</xref>. The region has a large elevation drop, steep mountain topography, less man-made destructive activities, and mild climate, which makes natural vegetation flourish, rich soil resources and various types, mainly including brown earths, yellow-brown earths, skeletal soils, litho soils, paddy soils, cinnamon soils, yellow-cinnamon soils and so on [<xref ref-type="bibr" rid="B36-sustainability-12-00337">36</xref>], the classification system of soil is shown in <xref ref-type="table" rid="sustainability-12-00337-t002">Table 2</xref>.</p>
+      </sec>
+      <sec id="sec2dot2-sustainability-12-00337">
+        <title>2.2. Data Sources</title>
+        <p>The data sources used in this study were as follows: remote-sensing data, including 250 m spatial resolution MOD13Q1 data obtained from 2003&#x2013;2017, (<uri>http://data.cma.cn/site/index.html</uri>); the Harmonized World Soil Database (HWSD), which provided 30 cm, soil surface organic carbon content for 1:1,000,000 soils in China; soil and vegetation data mainly comes from the Resource and Environment Data Cloud Platform of the Chinese Academy of Sciences (<uri>http://www.resdc.cn/DataSearch.aspx</uri>); China&#x2019;s meteorological science data sharing service network, which included data on monthly average precipitation, monthly average temperature, and surface solar radiation.</p>
+      </sec>
+      <sec id="sec2dot3-sustainability-12-00337">
+        <title>2.3. Models</title>
+        <p>According to relevant models, we estimated the carbon sequestration above and belowground, and set up different scenarios to evaluate the carbon sequestration according to different indicators. The method scheme is shown in <xref ref-type="fig" rid="sustainability-12-00337-f002">Figure 2</xref>.</p>
+        <sec id="sec2dot3dot1-sustainability-12-00337">
+          <title>2.3.1. Aboveground Carbon Sequestration</title>
+          <p>NPP refers to the organic mass accumulated by green plants in unit time and unit area. It is the remaining part of the total organic matter produced by plants after photosynthesis minus autotrophic respiration. CASA [<xref ref-type="bibr" rid="B37-sustainability-12-00337">37</xref>,<xref ref-type="bibr" rid="B38-sustainability-12-00337">38</xref>] mainly extracted normalized vegetation index (NDVI) from remote sensing images. Based on the principle of light energy utilization, the model is used to estimate the NPP of global terrestrial ecosystem. The model mainly calculates the NPP of the vegetation using two parameters: the absorbed photosynthetic active radiation (APAR) and the light energy conversion rate <inline-formula><mml:math display="block" id="mm1"><mml:semantics><mml:mi>&#x3B5;</mml:mi></mml:semantics></mml:math></inline-formula> [<xref ref-type="bibr" rid="B37-sustainability-12-00337">37</xref>,<xref ref-type="bibr" rid="B38-sustainability-12-00337">38</xref>]. The equation is as follows:<disp-formula id="FD1-sustainability-12-00337"><label>(1)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>N</mml:mi><mml:mi>P</mml:mi><mml:mi>P</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>A</mml:mi><mml:mi>P</mml:mi><mml:mi>A</mml:mi><mml:mi>R</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>&#xD7;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+          <disp-formula id="FD2-sustainability-12-00337"><label>(2)</label><mml:math display="block" id="mm3"><mml:semantics><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi>N</mml:mi><mml:mi>P</mml:mi><mml:mi>P</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>&#xD7;</mml:mo><mml:mi>&#x3C3;</mml:mi></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+          <p>The parameters <italic>APAR</italic>(<italic>x,t</italic>) (MJ m<sup>&#x2212;2</sup> month<sup>&#x2212;1</sup>) represents the amount of photosynthetic active radiation absorbed by element <italic>x</italic> in month <italic>t</italic>; <italic>&#x3B5;</italic>(<italic>x,t</italic>) is a factor that reflects the efficiency with which light energy is used to produce organic compounds in grid <italic>x</italic> for month <italic>t</italic>; <italic>NPP</italic>(<italic>x,t</italic>) (gC MJ<sup>&#x2212;1</sup>) represents the amount of net primary production aboveground; <italic>C<sub>a</sub>(x,t)</italic> represents the carbon aboveground, and &#x3C3; is the carbon content of organic matter, <italic>&#x3C3;</italic> = 0.4 [<xref ref-type="bibr" rid="B39-sustainability-12-00337">39</xref>].</p>
+        </sec>
+        <sec id="sec2dot3dot2-sustainability-12-00337">
+          <title>2.3.2. Below-Ground Carbon Sequestration</title>
+          <p>Below-ground carbon consisted of three components: SOC, carbon in litter, and carbon in biological roots. For the aboveground carbon cycle, the estimation of NPP was based on photosynthesis process. For underground biomass, we considered the litter and roots of the vegetation. As previously described in the literature [<xref ref-type="bibr" rid="B39-sustainability-12-00337">39</xref>,<xref ref-type="bibr" rid="B40-sustainability-12-00337">40</xref>,<xref ref-type="bibr" rid="B41-sustainability-12-00337">41</xref>,<xref ref-type="bibr" rid="B42-sustainability-12-00337">42</xref>], we used the ratio of below-above-ground biomass (<xref ref-type="table" rid="sustainability-12-00337-t003">Table 3</xref>) to estimate the underground biomass carbon sequestration of different communities (i.e., cultivated land, forests, and grasslands). Remote-sensing images described the differences between cultivated land, forest, and grassland. This approach accounted for the differences between litter and root biomass in different communities [<xref ref-type="bibr" rid="B40-sustainability-12-00337">40</xref>,<xref ref-type="bibr" rid="B41-sustainability-12-00337">41</xref>,<xref ref-type="bibr" rid="B42-sustainability-12-00337">42</xref>].
+          <disp-formula id="FD3-sustainability-12-00337"><label>(3)</label><mml:math display="block" id="mm4"><mml:semantics><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>u</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>S</mml:mi><mml:mi>O</mml:mi><mml:mi>C</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mi>i</mml:mi><mml:mi>t</mml:mi><mml:mi>t</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>o</mml:mi><mml:mi>o</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+          <disp-formula id="FD4-sustainability-12-00337"><label>(4)</label><mml:math display="block" id="mm5"><mml:semantics><mml:mrow><mml:mi>T</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>u</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>a</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+          <p>The parameters <italic>C<sub>u</sub></italic>, <italic>SOC</italic>, <italic>C<sub>litter</sub></italic>, and <italic>C<sub>root</sub></italic> describe the amount of below-ground carbon, SOC, litter carbon, and root carbon, respectively. Past studies have established the theoretical relationship between the components of dead branches and fallen leaves comprising NPP and soil organic carbon reserves [<xref ref-type="bibr" rid="B43-sustainability-12-00337">43</xref>,<xref ref-type="bibr" rid="B44-sustainability-12-00337">44</xref>,<xref ref-type="bibr" rid="B45-sustainability-12-00337">45</xref>]; however, the long-term impact of climate change on carbon emissions remains unclear [<xref ref-type="bibr" rid="B46-sustainability-12-00337">46</xref>]. <italic>T</italic>, <italic>C<sub>a</sub></italic>, and <italic>C<sub>u</sub></italic> represent the total carbon sequestration, above-ground carbon, and below-ground carbon, respectively.</p>
+          <p>Owing to limited data sources, the SOC was calculated indirectly. Soil respiration (SR) is an essential variable for measuring the rate at which soil releases carbon dioxide [<xref ref-type="bibr" rid="B37-sustainability-12-00337">37</xref>]. Previous studies have confirmed a significant negative correlation between soil respiration and SOC [<xref ref-type="bibr" rid="B47-sustainability-12-00337">47</xref>]; therefore, SOC can be quantified using SR and regression models.</p>
+          <p>SR refers to a combination of factors, including the plant roots in the soil, food debris (e.g., animals, fungi, and bacteria metabolic activity), consumption of organic matter, and the process of generating carbon dioxide. This activity is often called heterotrophic respiration, and is part of foundational SR. Zhou et al. [<xref ref-type="bibr" rid="B48-sustainability-12-00337">48</xref>] published an approach to improve the carbon cycle process model to invert soil respiration, build the relationship between SOC and CO<sub>2</sub> emissions in the soil, this model considered moisture factor, using annual precipitation and a factor accounting for annual potential evaporation temperature sensitivity to describe the influence of soil moisture on soil respiration. This approach was more consistent with the actual, on the ground conditions in the study area. The formula used is as follows:<disp-formula id="FD5-sustainability-12-00337"><label>(5)</label><mml:math display="block" id="mm6"><mml:semantics><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>N</mml:mi><mml:mi>P</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi><mml:mi>x</mml:mi><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi>b</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mi>T</mml:mi><mml:mo>)</mml:mo><mml:mo>&#xD7;</mml:mo><mml:mi>y</mml:mi></mml:mrow></mml:mfrac></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi mathvariant="normal">y</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mn>30.0</mml:mn><mml:mo>&#xD7;</mml:mo><mml:mi>e</mml:mi><mml:mi>x</mml:mi><mml:mi>p</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>8.5</mml:mn><mml:mo>&#xD7;</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mfrac></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>P</mml:mi><mml:mi>P</mml:mi><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mi>P</mml:mi><mml:mi>E</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:mfrac></mml:mtd></mml:mtr></mml:mtable></mml:semantics></mml:math></disp-formula>
+          <disp-formula id="FD6-sustainability-12-00337"><label>(6)</label><mml:math display="block" id="mm7"><mml:semantics><mml:mrow><mml:mi>S</mml:mi><mml:mi>O</mml:mi><mml:mi>C</mml:mi><mml:mo>=</mml:mo><mml:mi>f</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where parameters <italic>A<sub>ij</sub></italic> is the soil respiration, refers to the amount of soil respiration at 0 &#xB0;C without water stress [<xref ref-type="bibr" rid="B49-sustainability-12-00337">49</xref>]; <italic>PPT</italic> is the annual precipitation; <italic>PET</italic> is the annual potential evapotranspiration; <italic>b</italic> is the temperature sensitivity constant; <italic>x</italic> is the ratio of precipitation to evapotranspiration, and <italic>y</italic> is the limit of water on soil respiration, which is between [0.03,1].</p>
+          <p>Based on the combination of NPP data from the CASA model and carbon cycle process model, the study calculated the annual basic soil respiration. Based on this, a total of 500 sampling points were randomly selected and the inversion data of 500 random points for soil respiration and data from the second National Soil Census were assessed. A linear regression was conducted to compare the two values (<xref ref-type="fig" rid="sustainability-12-00337-f003">Figure 3</xref>). The determination coefficient R<sup>2</sup> between the two is 0.72, and the results passed the 0.001 significance test. (unit: t hm<sup>&#x2212;2</sup> a<sup>&#x2212;1</sup> stands for ton/square hectare per year).</p>
+        </sec>
+        <sec id="sec2dot3dot3-sustainability-12-00337">
+          <title>2.3.3. Estimation Model of Net Present Value (NPV)</title>
+          <p>This study adopted the NPV model established by Polglase to incorporate the discount rate into the estimation model [<xref ref-type="bibr" rid="B50-sustainability-12-00337">50</xref>], making the calculation results more practical. The calculation formula is as follows:<disp-formula id="FD7-sustainability-12-00337"><label>(7)</label><mml:math display="block" id="mm8"><mml:semantics><mml:mrow><mml:mi>N</mml:mi><mml:mi>P</mml:mi><mml:msub><mml:mi>V</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mi>V</mml:mi><mml:msub><mml:mi>B</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mi>P</mml:mi><mml:mi>V</mml:mi><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where parameters <italic>NPV<sub>ijs</sub></italic> represents the current value of revenue, which is obtained based on the carbon price; <italic>PVB<sub>ij</sub></italic> represents the value of carbon sequestration; and <italic>PVC<sub>js</sub></italic> represents the cost of each price scenario.
+          <disp-formula id="FD8-sustainability-12-00337"><label>(8)</label><mml:math display="block" id="mm9"><mml:semantics><mml:mrow><mml:mi>P</mml:mi><mml:mi>V</mml:mi><mml:msub><mml:mi>B</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:munderover><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>r</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mi>t</mml:mi></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+          where parameters <italic>p<sub>i</sub></italic> represents the price of carbon; <italic>q<sub>ti</sub></italic> represents the annual carbon storage capacity; <italic>r</italic> represents the annual discount rate; and <italic>t</italic> represents the time cycle. The carbon price refers to the price of China&#x2019;s carbon trading market and the carbon price survey results (2013) [<xref ref-type="bibr" rid="B51-sustainability-12-00337">51</xref>,<xref ref-type="bibr" rid="B52-sustainability-12-00337">52</xref>] and the discount rate was set according to China&#x2019;s national conditions and based on the discount rate value used to calculate forest value with respect to some European countries [<xref ref-type="bibr" rid="B22-sustainability-12-00337">22</xref>]. This study used 5% and 7% discount rates as scenario parameters.
+          <disp-formula id="FD9-sustainability-12-00337"><label>(9)</label><mml:math display="block" id="mm10"><mml:semantics><mml:mrow><mml:mi>P</mml:mi><mml:mi>V</mml:mi><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>E</mml:mi><mml:msub><mml:mi>C</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>T</mml:mi></mml:munderover><mml:mrow><mml:mfrac><mml:mrow><mml:mi>M</mml:mi><mml:mi>C</mml:mi><mml:mo>&#xD7;</mml:mo><mml:mi>P</mml:mi><mml:mi>F</mml:mi><mml:msub><mml:mi>E</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>r</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mi>t</mml:mi></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+          <p>The parameters <italic>PFEs</italic> represents the opportunity cost of planting and afforestation carbon; <italic>EC<sub>j</sub></italic> is the one-time cost; and <italic>MC</italic> is the annual carbon maintenance and transaction cost.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-sustainability-12-00337">
+      <title>3. Result</title>
+      <sec id="sec3dot1-sustainability-12-00337">
+        <title>3.1. Spatiotemporal Analysis</title>
+        <p>Based on the remote sensing data, the CASA model was used to estimate the mass of NPP across 2003&#x2013;2017. The annual average NPP of different vegetation types showed interannual differences (<xref ref-type="table" rid="sustainability-12-00337-t004">Table 4</xref>). The decreasing order of mean value was as follows: broad-leaved forest, cultivated vegetation, grassland, shrub, swamp, coniferous-broad-leaved mixed forest, coniferous forest, alpine vegetation, and other vegetation.</p>
+        <p>In the examine area (<xref ref-type="fig" rid="sustainability-12-00337-f004">Figure 4</xref>), the distribution pattern was &#x201C;middle high, low ambient&#x201D;. The high values were mainly concentrated in the Qinling and Daba Mountain, where had higher altitude and higher NDVI. NPP and NDVI were positively correlated. In addition to the high altitude, there was a low population density, with a correspondingly lower ability to decrease vegetation cover in the mountainous. At the same time, the extensive implementation of the policy of returning farmland to forests and grassland will increase the carbon sequestration capacity of forests and grasses in the region to a certain extent. Low values were primarily in Huining and Yuzhong counties and other northern regions in the southern Gansu province.</p>
+      </sec>
+      <sec id="sec3dot2-sustainability-12-00337">
+        <title>3.2. Spatial Distribution of Soil Organic Carbon</title>
+        <p>The annual spatial and temporal distribution of soil basic respiration was obtained by combining the NPP data obtained from the CASA model with the carbon cycle process model. From <xref ref-type="fig" rid="sustainability-12-00337-f004">Figure 4</xref>, the soil respiration had a lower distribution towards the northwest and southeast regions. As the western area is largely mountainous with high altitudes, the main factor behind this pattern was temperature; resulting in significantly lower temperatures relative to the eastern area. The soil foundation of respiration inversion was conducted on the basis of the temperature, leading to the east to west pattern of lower to higher temperatures, respectively.</p>
+        <p>Using a simulated linear regression model and soil respiration data, the SOC distribution map covering 250 m was inversely presented. The figure shows that the spatial distribution of soil organic carbon is consistent with that of soil respiration where is higher in the west than the east; the high value in the west mainly appeared in the north of the Qinling and Daba Mountains. The NPP and SOC in the central region are higher than in the eastern region. Because that the central region has good hydrothermal conditions; this leads to the region having high vegetation coverage and primary productivity, and jointly improves the regional SOC.</p>
+        <p>In terms of interannual change, the year 2003&#x2013;2015 continued to rise, and the year 2015&#x2013;2017 was in a downward trend. Climate factors were the main indicators of NPP in restricted areas. Precipitation and temperature in 2015 were higher than those in other years, evapotranspiration was larger, and solar radiation was strong, which was conducive to vegetation growth, vegetation growth was good, and in a certain process. The carbon storage in 2015 is higher than that in other years because of the promotion of carbon storage and the positive effect of human activities on vegetation growth. However, the carbon storage in 2015&#x2013;2017 is in a downward trend. The main reason is that the economic development has led to the destruction of better vegetation areas such as forests and grasslands, which has led to the construction of forests and grasslands. The increase of land use, to a certain extent, affects the local climate, making the local temperature rise, evaporation changes, precipitation reduction and other negative effects, and ultimately will have a negative impact on the local ecological environment, making carbon storage decline.</p>
+      </sec>
+      <sec id="sec3dot3-sustainability-12-00337">
+        <title>3.3. Total Carbon Sequestration</title>
+        <p><xref ref-type="fig" rid="sustainability-12-00337-f005">Figure 5</xref> shows that from 2003 to 2017, total carbon sequestration fluctuates in interannual changes, mainly due to the impact of national policies on vegetation restoration, coupled with the change of land use patterns. The figure shows that underground carbon sequestration is higher than aboveground carbon storage, mainly because underground carbon storage is directly related to the machinery of soil respiration. Biomass is mainly the aboveground part, which is related to NPP. There are abundant vegetation types and high forest coverage in Qinling-Daba Mountain, where is many national forest parks, which are well protected by forests. At the same time, ecological projects such as returning farmland to forestry and grassland and afforestation have been carried out in many areas of Qinling-Daba Mountain, which has promoted the promotion of forest and herbaceous biomass in the study area. Soil carbon pool is mainly underground, which is related to soil respiration. Vegetation fixes atmospheric CO<sub>2</sub> through photosynthesis and forms organic carbon of plants, then enters the soil in the form of litter. Some soil organic carbon returns to the atmosphere in the form of CO<sub>2</sub> through the mineralization process of litter, while the other part of organic carbon returns to the atmosphere in the form of CO<sub>2</sub>. Carbon is transformed into soil humus through humification. Soil humus is further decomposed by microorganisms to release CO<sub>2</sub> to the atmosphere. Under the influence of climate factors, soil organic carbon gradually reaches dynamic equilibrium during the long-term evolution of soil. At this time, the organic carbon released through litter into soil is equal to that released through soil respiration. Soil organic carbon as the raw material of soil respiration, directly affects the soil respiration intensity.</p>
+        <p>The content of soil organic carbon depends on the input and output of soil organic carbon. That is, soil organic carbon content is determined by net primary productivity of vegetation and soil organic carbon mineralization intensity. Mineralization intensity is mainly affected by climatic conditions (precipitation, temperature, radiation, etc.) [<xref ref-type="bibr" rid="B53-sustainability-12-00337">53</xref>]. The soil organic carbon in the middle of the Qinling-Daba Mountain was higher than that around the mountain, this was the result of the high vegetation density and primary productivity resulting from the good temperatures and precipitation conditions in these areas Soil organic carbon in southwestern Qinling-Daba Mountain was also relatively high, this was due to a high net primary productivity, giving rise to a large amount of litter input every year. Coupled with the low temperature, the decomposition rate of wood litter was also low. However, in the southern part of the region, soil organic carbon was low, mainly because the warm climate promoted the decomposition of soil organic carbon. This resulted in low soil organic carbon content in the region, which was consistent with the relatively low soil respiration in the region.</p>
+        <p>Based on the time scales used to explore the vegetation types (<xref ref-type="fig" rid="sustainability-12-00337-f006">Figure 6</xref>), we analyzed the effect of different vegetation types on the carbon layers. As time passed, different vegetation types increased in the carbon layers. When conducting an analysis from the perspective of vegetation type, the broad-leaved forest had the most abundant carbon reserves. The order of vegetation according to decreasing carbon reserves was as follows: broad-leaved forest, grassland, cultivated vegetation, shrub, coniferous broad-leaved mixed forest, swamp, coniferous forest, alpine vegetation, and other vegetation.</p>
+      </sec>
+      <sec id="sec3dot4-sustainability-12-00337">
+        <title>3.4. Estimation of Soil Organic Carbon Value under Different Scenarios</title>
+        <p>China&#x2019;s carbon trading market is still in its pilot stage. Despite this, the discount rate can still directly affect the economy as it is one of the most important means of macro-control of market interest rates. Therefore, different carbon prices and discount rates were set to study the effects on carbon value. Based on past work [<xref ref-type="bibr" rid="B39-sustainability-12-00337">39</xref>], this study established six different scenarios with a mix of different discount rates (5% and 7%) and carbon prices (30 yuan/ton, 45 yuan/ton, and 60 yuan/ton) to explore the spatial pattern of soil organic carbon value in 2015 and 2017 (<xref ref-type="fig" rid="sustainability-12-00337-f007">Figure 7</xref>). As shown, there were differences in the value of organic carbon obtained with these different discount rates and prices. Notably, the higher the discount rate, the larger the corresponding total NPV. When the discount rate was 7% and the carbon price was 60 yuan/ton, the total carbon value was maximized.</p>
+        <p>The average NPV values for each land-use type according to these different scenarios as well as the total NPV are shown in <xref ref-type="fig" rid="sustainability-12-00337-f008">Figure 8</xref>. Different land use types based on unit of NPV and total NPV also showed differences. The order of per unit NPV was: grassland, forest land, cultivated land, and unused land; additionally, the order of total NPV was: forest land, grassland, cultivated land, and unused land. The total carbon value was lowest across the six scenarios for the unused land, and its highest value was 0.1 billion yuan (data not shown). <xref ref-type="fig" rid="sustainability-12-00337-f007">Figure 7</xref> also shows that the carbon price and discount rate directly impacted the total carbon price; in other words, the higher the carbon price and discount rate, the higher the NPV per unit area and the higher the total NPV for each land use type.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-sustainability-12-00337" sec-type="discussion">
+      <title>4. Discussion</title>
+      <sec id="sec4dot1-sustainability-12-00337">
+        <title>4.1. Soil Organic Carbon Estimation Method</title>
+        <p>Through reading the IPCC report found that the spatial and temporal variations of carbon balance on ocean warming, the arctic sea ice is melting and sea level rise have important influence, and cumulative CO<sub>2</sub> emissions on the climate of the 21st century and later had a huge impact, effective and sustainable greenhouse gas emission reduction measures is around the corner, so to improve the estimate precision of carbon, to support the economic development in the future [<xref ref-type="bibr" rid="B54-sustainability-12-00337">54</xref>].</p>
+        <p>Currently, the two main methods used in the estimation of soil organic carbon have their own advantages and disadvantages [<xref ref-type="bibr" rid="B48-sustainability-12-00337">48</xref>]. In this paper, the high temporal and spatial resolution characteristics of remote sensing were combined with the process model to reflect the dynamic changes in an ecosystem&#x2019;s carbon cycle. The spatial resolution of soil organic carbon was increased, and the difference between soil types was also be reflected through the spatial distribution of soil types, for example the brown earths, yellow-brown earths, skeletal soils, litho soils, paddy soils, cinnamon soils, yellow-cinnamon soils and so on.</p>
+        <p>When combining remote-sensing data, carbon cycle model, measured soil organic carbon, and meteorological observation data, the main uncertainties in estimating the spatial distribution of soil organic carbon arose from two sources [<xref ref-type="bibr" rid="B48-sustainability-12-00337">48</xref>]. First, the inconsistency in various spatial data scales was an important source, as the spatial scale of soil organic carbon measurement sample points was very small, but the spatial scale of remote sensing was relatively large [<xref ref-type="bibr" rid="B55-sustainability-12-00337">55</xref>,<xref ref-type="bibr" rid="B56-sustainability-12-00337">56</xref>]. Uncertainty caused by different scales is currently a hot research topic, but remains unresolved [<xref ref-type="bibr" rid="B57-sustainability-12-00337">57</xref>]. Second, the soil respiration was mainly affected by soil organic carbon, but also by some non-zonal factors (e.g., soil parent material, groundwater) [<xref ref-type="bibr" rid="B58-sustainability-12-00337">58</xref>]. In order to reduce the impact of these factors, improve the accuracy of soil organic carbon estimation, and reduce the impact of spatial scale inconsistency, the strategy adopted in this paper did not directly estimate soil organic carbon from either meteorological data or soil respiration data [<xref ref-type="bibr" rid="B59-sustainability-12-00337">59</xref>]. Rather, we retrieved more closely related and physically significant data relative to the soil organic carbon content; this was done by combining meteorological data, a carbon cycle process model, and remote-sensing data. More obvious indicators (i.e., soil respiration) have significantly improved the accuracy of estimating soil organic carbon.</p>
+        <p>Several researchers have estimated soil organic carbon in China using different models. Using InVEST to estimate the carbon sequestration in the Shaanxi section of the Hanjiang River; the calculation source and sink are 6.44 &#xD7; 10<sup>4</sup> and 1.41 &#xD7; 10<sup>6</sup> t CO<sub>2</sub>, respectively, and the ecosystem service is valued by replacing the 6.07 &#xD7; 10<sup>11</sup> yuan with the market method [<xref ref-type="bibr" rid="B60-sustainability-12-00337">60</xref>]. Carbon sequestration in Guanzhong Tianshui Economic Zone was estimated using the CASA model; the economic value of sequestered carbon was calculated using the reforestation cost method. A study shows that the carbon sequestration per unit area in 2007 was 2.821 t CO<sub>2</sub> hm<sup>&#x2212;2</sup> a<sup>&#x2212;1</sup>, and the economic value was 2.16 &#xD7; 10<sup>11</sup> yuan a<sup>&#x2212;1</sup> [<xref ref-type="bibr" rid="B61-sustainability-12-00337">61</xref>]. The carbon source (mixed vegetation) and carbon footprint of Shaanxi were evaluated according to the IPCC guidelines; the carbon source level and carbon footprint in 2009 were 3.55 &#xD7; 10<sup>9</sup> and 2.60 &#xD7; 10<sup>8</sup> t C, respectively [<xref ref-type="bibr" rid="B62-sustainability-12-00337">62</xref>]. It can be seen from the above literature that the estimation of soil organic carbon has been relatively mature in China and is suitable for remote sensing estimation at different scales.</p>
+      </sec>
+      <sec id="sec4dot2-sustainability-12-00337">
+        <title>4.2. Difference of Carbon Sequestration between Aboveground and Belowground</title>
+        <p>SOC is composed of the NPP of vegetation and the intensity of soil mineralization; the intensity of soil mineralization is closely related to the regional climate conditions. Water and heat conditions affect the degree of regional soil mineralization [<xref ref-type="bibr" rid="B48-sustainability-12-00337">48</xref>]. When comparing the NPP and the spatial distribution of SOC found in the western area of this region, the NPP values were lower, but the corresponding SOC was higher. This was mainly because of the negative aspects regarding rainfall and temperature conditions [<xref ref-type="bibr" rid="B63-sustainability-12-00337">63</xref>]; in short, the decomposition rate of the soil humus lowers the amount of soil respiration [<xref ref-type="bibr" rid="B56-sustainability-12-00337">56</xref>]. Simultaneously, there is a notably amount of litter input, which ultimately promotes a higher SOC level in this region.</p>
+        <p>The main factors affecting soil organic carbon are vegetation types, climate, and human activities [<xref ref-type="bibr" rid="B39-sustainability-12-00337">39</xref>]. There are significant differences in organic carbon content and density between different vegetation types. Different vegetation types are important factors affecting SOC content and density. Vegetation types affect the concentration and distribution of SOC, this is mainly because of the different forms of vegetation on the surface, resulting in different kinds and quantities of organic matter imported into the soil. Then, there are also differences in decomposition difficulty, decomposition rate, and decomposition products. Collectively, this leads to variations in the distribution of organic carbon content. Soil organic carbon is lower in some regions as the result of myriad factors including policy, traffic, and population. Together, these factors can lead to significant changes in regional land use; this was reflected in the increased carbon reserves seen in different land-use types (i.e., cultivated land, forest land, meadow soil). Moreover, SOC decreases in locations where there is urban construction [<xref ref-type="bibr" rid="B39-sustainability-12-00337">39</xref>]. Land use changes can also change the soil structure, prompting an increase in the SOC decomposition rate. These factors can all affect a region&#x2019;s SOC content. At the same time, because the missing information of deep soil carbon pool and the soil thickness also varied by ecosystem type (e.g., farmland, forest, grassland), so the estimation of belowground carbon was not that even close.</p>
+        <p>The results showed that different types of land use had different carbon reserves, and forest and grassland had higher carbon reserves. But with the development of economy, more and more forests and grasslands have been transformed into urban construction land, which changes the carbon storage. Thus, land use change is often accompanied by a large amount of carbon exchange, which affects greenhouse gas emissions and land carbon storage. Therefore, land use change significantly impacts land carbon reserves. Implementing a policy of returning farmland to forestry and grassland would allow for an increased planting area for trees and grasslands, the subsequent growth of trees and the increase of defoliation will increase soil carbon content, as well as the sensitivity of soil carbon to temperature. Given the current global warming trend, a policy of returning farmland to forestry and grassland would enable plants to fix more carbon in the soil, thus promoting grassland and forests.</p>
+      </sec>
+      <sec id="sec4dot3-sustainability-12-00337">
+        <title>4.3. Estimation of Carbon Sequestration Value</title>
+        <p>According to the work presented here, carbon trading is a potential economic means to protect forests and yield great environmental benefits, this is because it would increase the price of trading, thereby indirectly encouraging people to protect the ecological environment [<xref ref-type="bibr" rid="B64-sustainability-12-00337">64</xref>]. Moreover, the discount rate is an estimate of future people&#x2019;s interests and an indicator to ensure the interests of future generations. Within a certain range, the discount rate is proportional to the value: the higher the discount rate, the greater the corresponding value, and the greater the attention paid to the interests of future generations. Given the current state of today&#x2019;s society, proper and reasonable increase in the discount rate and carbon price would be conducive to improving the benefits of soil organic carbon, thus promoting people&#x2019;s recognition of the function of carbon sequestration in the ecosystem. This would also stimulate people&#x2019;s protection of soil and vegetation, thus promoting greener development of the social economy; this is aligned with current trends [<xref ref-type="bibr" rid="B39-sustainability-12-00337">39</xref>].</p>
+        <p>With an increase in carbon storage, the value of carbon is higher under different carbon price and discount rate scenarios. However, this research constructed six scenarios based on different carbon prices and discount rates to explore the carbon sequestration value of soil, which is far from enough regarding the uncertainty of future developments. In future work, we hope to integrate climate change, forest age, forest management model [<xref ref-type="bibr" rid="B50-sustainability-12-00337">50</xref>,<xref ref-type="bibr" rid="B52-sustainability-12-00337">52</xref>], related policies and so on. This will allow us to build more scenarios that allow for even better simulation of real future developments.</p>
+      </sec>
+      <sec id="sec4dot4-sustainability-12-00337">
+        <title>4.4. Limitations</title>
+        <p>The CASA model has inherent limits as all biogeochemical models in the representation of the carbon dynamics. First, the establishment of the model is initially aimed at the vegetation in North America, and the ecological environment and climate differences around the world are relatively large, so the scale adaptability of the model needs to be studied. Second, light energy utilization is a very important factor for accurate estimation of NPP, which is affected by soil environment, temperature, precipitation, vegetation type and other factors, among which the value of maximum light energy utilization plays a decisive role in determining the actual light energy utilization. Therefore, in the future, we should try more accurate methods to make the model more suitable for this region.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-sustainability-12-00337" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The high value area of soil organic carbon density is mainly distributed in the middle area of the Qinling Mountain and in the high forest coverage areas like the Daba Mountain; this is followed by the southwest area, which is covered by grasses and shrubs, and includes the Kunlun and Minshan Mountain, and areas with cultivated land distribution have low soil carbon density. From 2003 to 2017, the average soil carbon density fluctuated over a small range in the Qinling-Daba Mountain. Soil organic carbon was affected by the interaction of nature and human society. Climate factors such as precipitation and temperature have a great influence on soil organic carbon density and this effect is mediated through soil respiration. Land use types have a great impact on soil surface carbon storage: forest land has the largest carbon density and cultivated land has the largest total carbon storage; population expansion, urban construction, and land expansion have resulted in sharp decreases in the soil carbon storage of some cities (districts). Carbon prices and discount rates can be reasonably set and effectively adjusted to allow for improved soil carbon sequestration benefits. The results show that different carbon price and discount rate have significant effect on the net present value of soil carbon sequestration. Similarly, different types of land use respond differently to carbon prices. This study warns us that while developing the economy, we should also protect the ecological environment, improve the fragile ecological environment, and promote the coordinated development of economy and ecology.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization and methodology, Y.Y. and J.L.; software, L.Z. and C.Z.; validation, Y.Y., C.Z. and L.Z.; formal analysis and investigation, resources, data curation, writing&#x2014;original draft preparation and visualization, Y.Y.; writing-review and editing, Y.Y. and J.L.; supervision, J.L.; project administration and funding acquisition, J.L. and Z.Z. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by National Science and Technology Fundamental Resources Investigation &#x201C;Comprehensive Scientific Investigation of China&#x2019;s North-South Transitional Zone&#x201D;, &#x201C;Basic Geographic Elements and Major Resources Investigation and Mapping: 2017FY100905, The Fundamental Research Funds For the Central Universities, Shaanxi Normal University: GK201901009, Natural Science Basic Research Plan in Shaanxi Province of China: No. 2018JM4010, National Natural Science Foundation of China: No.41771198, National Natural Science Foundation of China: No.41771576, The Fundamental Research Funds For the Central Universities, Shaanxi Normal University, No. 2019TS019.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflicts of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-sustainability-12-00337">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>World Meteorological Organization</collab>
+          </person-group>
+          <source>The State of Greenhouse Gases in the Atmosphere Using Global Observations through 2008</source>
+          <publisher-name>WMO Greenhouse Gas Bulletin</publisher-name>
+          <publisher-loc>Geneva, Switzerland</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B2-sustainability-12-00337">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimate value of soil organic carbon based on remote sensing and process model in Guanzhong-Tianshui Economic Region</article-title>
+          <source>Arid Land Geogr.</source>
+          <year>2016</year>
+          <volume>39</volume>
+          <fpage>451</fpage>
+          <lpage>459</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3-sustainability-12-00337">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ren</surname>
+              <given-names>Z.Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The values of CO<sub>2</sub> fixation and O<sub>2</sub> release by vegetation ecosystem in Qinling-Daba Mountains of Shaanxi Province</article-title>
+          <source>Geogr. Res.</source>
+          <year>2004</year>
+          <volume>23</volume>
+          <fpage>769</fpage>
+          <lpage>775</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4-sustainability-12-00337">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Piikki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>S&#xF6;derstr&#xF6;m</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sommer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Da Silva</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Munialo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Abera</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>A boundary plane approach to map hotspots for achievable soil carbon sequestration and soil fertility improvement</article-title>
+          <source>Sustainability</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>4038</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su11154038</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-sustainability-12-00337">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>X.Y.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>W.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>The dominating research methods of soil organiccarbon spatial pattern in different periods</article-title>
+          <source>Chin. J. Soil Sci.</source>
+          <year>2008</year>
+          <volume>39</volume>
+          <fpage>1449</fpage>
+          <lpage>1453</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6-sustainability-12-00337">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sources and sinks of carbon from forest land use change in Xinjiang, China during 1975&#x2013;2005</article-title>
+          <source>Geogr. Res.</source>
+          <year>2013</year>
+          <volume>32</volume>
+          <fpage>1987</fpage>
+          <lpage>1999</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B7-sustainability-12-00337">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.Y.</given-names>
+            </name>
+            <name>
+              <surname>Gong</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distribution characteristics and storage of soil organic carbon in the southern slope Altai Mountains</article-title>
+          <source>Arid Land Geogr.</source>
+          <year>2014</year>
+          <volume>37</volume>
+          <fpage>1231</fpage>
+          <lpage>1239</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B8-sustainability-12-00337">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hinge</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Surampalli</surname>
+              <given-names>R.Y.</given-names>
+            </name>
+            <name>
+              <surname>Goyal</surname>
+              <given-names>M.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prediction of soil organic carbon stock using digital mapping approach in humid India</article-title>
+          <source>Environ. Earth Sci.</source>
+          <year>2018</year>
+          <volume>77</volume>
+          <fpage>172</fpage>
+          <pub-id pub-id-type="doi">10.1007/s12665-018-7374-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-sustainability-12-00337">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeraatpisheh</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ayoubi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jafari</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tajik</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Finke</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Digital mapping of soil properties using multiple machine learning in a semi-arid region, central Iran</article-title>
+          <source>Geoderma</source>
+          <year>2019</year>
+          <volume>338</volume>
+          <fpage>445</fpage>
+          <lpage>452</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geoderma.2018.09.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-sustainability-12-00337">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ratnayake</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Karunaratne</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lessels</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yogenthiran</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Rajapaksha</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gnanavelrajah</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Digital soil mapping of organic carbon concentration in paddy growing soils of Northern Sri Lanka</article-title>
+          <source>Geoderma Reg.</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>167</fpage>
+          <lpage>176</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geodrs.2016.03.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-sustainability-12-00337">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>X.Y.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>W.T.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison and application of remote sensing and geostatistics methods to spatial distribution of surface soil organic carbon</article-title>
+          <source>Trans. Chin. Soc. Agric. Eng.</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>148</fpage>
+          <lpage>152</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B12-sustainability-12-00337">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deng</surname>
+              <given-names>X.Z.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Q.O.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simulation of the changes of soil organic carbon stock of cropland in China</article-title>
+          <source>Geogr. Res.</source>
+          <year>2010</year>
+          <volume>29</volume>
+          <fpage>93</fpage>
+          <lpage>101</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B13-sustainability-12-00337">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Niu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X.G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Application of principal component analysis by using different vegetation index derived from multitemporal AVHRR data</article-title>
+          <source>J. Remote Sens.</source>
+          <year>2002</year>
+          <volume>6</volume>
+          <fpage>30</fpage>
+          <lpage>34</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B14-sustainability-12-00337">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>W.Q.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>Y.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Progress of research on soil carbon cycle using carbon isotope approach</article-title>
+          <source>Arid Land Geogr.</source>
+          <year>2014</year>
+          <volume>37</volume>
+          <fpage>980</fpage>
+          <lpage>987</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B15-sustainability-12-00337">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>G.H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.N.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>X.M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatial heterogeneity of soil respiration at Ebinur lake wetland nature reserve in arid area</article-title>
+          <source>Arid Land Geogr.</source>
+          <year>2014</year>
+          <volume>37</volume>
+          <fpage>704</fpage>
+          <lpage>712</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B16-sustainability-12-00337">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dai</surname>
+              <given-names>E.F.</given-names>
+            </name>
+            <name>
+              <surname>Zhai</surname>
+              <given-names>R.X.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>Q.S.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>X.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Topsoil organic carbon storage and its changes in Inner Mongolia grassland from the 1980s to 2010s</article-title>
+          <source>Acta Geogr. Sin.</source>
+          <year>2014</year>
+          <volume>69</volume>
+          <fpage>1651</fpage>
+          <lpage>1660</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B17-sustainability-12-00337">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Q.G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Application and progress in estimating soil organic matter content based on remote sensing</article-title>
+          <source>J. Shandong Agric. Univ. Nat. Sci. Ed.</source>
+          <year>2011</year>
+          <volume>42</volume>
+          <fpage>317</fpage>
+          <lpage>321</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B18-sustainability-12-00337">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>Z.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research on the values of CO<sub>2</sub> fixation and O<sub>2</sub> release by landaus ecosystem in Loess Plateau in Northern Shaanxi Province</article-title>
+          <source>Sci. Agric. Sin.</source>
+          <year>2011</year>
+          <volume>44</volume>
+          <fpage>2943</fpage>
+          <lpage>2950</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B19-sustainability-12-00337">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kong</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation on the value of carbon sequestration function in the Heihe wetland national nature reserve in Zhangye</article-title>
+          <source>Wetl. Sci.</source>
+          <year>2014</year>
+          <volume>12</volume>
+          <fpage>29</fpage>
+          <lpage>34</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B20-sustainability-12-00337">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pang</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>M.Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of ecosystem services valuation of alpine wetlands in Zoig&#xEA; Plateau</article-title>
+          <source>Wetl. Sci.</source>
+          <year>2014</year>
+          <volume>12</volume>
+          <fpage>273</fpage>
+          <lpage>278</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B21-sustainability-12-00337">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>C.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of forest ownership value with carbon sequestration based on net present value of income method</article-title>
+          <source>China Collect. Econ.</source>
+          <year>2019</year>
+          <fpage>66</fpage>
+          <lpage>67</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B22-sustainability-12-00337">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ajayi</surname>
+              <given-names>O.C.</given-names>
+            </name>
+            <name>
+              <surname>Akinnifesi</surname>
+              <given-names>F.K.</given-names>
+            </name>
+            <name>
+              <surname>Sileshi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Kanjipite</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>The labour inputs and financial profitability of but and agroforestry-based soil fertility management practices in Zambia</article-title>
+          <source>Agrekon</source>
+          <year>2009</year>
+          <volume>48</volume>
+          <fpage>276</fpage>
+          <pub-id pub-id-type="doi">10.1080/03031853.2009.9523827</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-sustainability-12-00337">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ickiewicz</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ecological and economic aspects of modernizing district heating systems in north-eastern Poland</article-title>
+          <source>Ecol. Chem. Eng. S</source>
+          <year>2011</year>
+          <volume>18</volume>
+          <fpage>429</fpage>
+          <lpage>443</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B24-sustainability-12-00337">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Afshari</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nikolopoulou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Life-cycle analysis of building retrofits at the urban scale: A case study in the United Arab Emirates</article-title>
+          <source>Sustainability</source>
+          <year>2014</year>
+          <volume>6</volume>
+          <fpage>453</fpage>
+          <lpage>473</lpage>
+          <pub-id pub-id-type="doi">10.3390/su6010453</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-sustainability-12-00337">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Albornoz</surname>
+              <given-names>V.A.C.</given-names>
+            </name>
+            <name>
+              <surname>Galera</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Mill&#xE1;n</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Is it correct to use the internal rate of return to evaluate the sustainability of investment decisions in public private partnership projects?</article-title>
+          <source>Sustainability</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <elocation-id>4371</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su10124371</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-sustainability-12-00337">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elariane</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Dub&#xE9;</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Is Smart Housing a Good Deal? An answer based on monte carlo net present value analysis</article-title>
+          <source>Sustainability</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>4193</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su11154193</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-sustainability-12-00337">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baral</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Keenan</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Stork</surname>
+              <given-names>N.E.</given-names>
+            </name>
+            <name>
+              <surname>Kasel</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Economic evaluation of ecosystem goods and services under different landscape management scenarios</article-title>
+          <source>Land Use Policy</source>
+          <year>2014</year>
+          <volume>39</volume>
+          <fpage>54</fpage>
+          <lpage>64</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2014.03.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-sustainability-12-00337">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tremblay</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lucotte</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rev&#xE9;ret</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Davidson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Mertens</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Passos</surname>
+              <given-names>C.J.S.</given-names>
+            </name>
+            <name>
+              <surname>Roma&#xF1;a</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Agroforestry systems as a profitable alternative to slash and burn practices in small-scale agriculture of the Brazilian Amazon</article-title>
+          <source>Agrofor. Syst.</source>
+          <year>2015</year>
+          <volume>89</volume>
+          <fpage>193</fpage>
+          <lpage>204</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10457-014-9753-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-sustainability-12-00337">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nghiem</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal rotation age for carbon sequestration and biodiversity conservation in Vietnam</article-title>
+          <source>For. Policy Econ.</source>
+          <year>2014</year>
+          <volume>38</volume>
+          <fpage>56</fpage>
+          <lpage>64</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.forpol.2013.04.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-sustainability-12-00337">
+        <label>30.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gan</surname>
+              <given-names>Z.M.</given-names>
+            </name>
+            <name>
+              <surname>Hui</surname>
+              <given-names>Z.D.</given-names>
+            </name>
+          </person-group>
+          <source>Geomorphological Map of Qinling-Daba Mountains, China</source>
+          <publisher-name>Shaanxi People&#x2019;s Publishing House</publisher-name>
+          <publisher-loc>Xi&#x2019;an, China</publisher-loc>
+          <year>1989</year>
+        </element-citation>
+      </ref>
+      <ref id="B31-sustainability-12-00337">
+        <label>31.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bai</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+          </person-group>
+          <source>The Response of Vegetation to Environmental Change in Qinba Mountains</source>
+          <publisher-name>Science Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B32-sustainability-12-00337">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>P.T.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>B.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatio-temporal characteristics of the trade-off and synergy relationships among multiple ecosystem services in the upper reaches of Hanjiang River Basin</article-title>
+          <source>Acta Geogr. Sin.</source>
+          <year>2017</year>
+          <volume>72</volume>
+          <fpage>146</fpage>
+          <lpage>160</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B33-sustainability-12-00337">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research on land category</article-title>
+          <source>Geogr. Cent.</source>
+          <year>1983</year>
+          <volume>1</volume>
+          <fpage>47</fpage>
+          <lpage>56</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B34-sustainability-12-00337">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatiotemporal variation of vegetationcoverage in Qinling-Daba Mountains in relation to environmental factors</article-title>
+          <source>Acta Geogr. Sin.</source>
+          <year>2015</year>
+          <volume>70</volume>
+          <fpage>705</fpage>
+          <lpage>716</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35-sustainability-12-00337">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>Q.R.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>F.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Construction of soil information system for Qinling-bashan Mountains area</article-title>
+          <source>Bull. Soil Water Conserv.</source>
+          <year>2011</year>
+          <volume>31</volume>
+          <fpage>155</fpage>
+          <lpage>159</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B36-sustainability-12-00337">
+        <label>36.</label>
+        <element-citation publication-type="web">
+          <article-title>Resource and Environment Data Center of Chinese Academy of Sciences-Resource and Environment Data Cloud Platform</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.resdc.cn/DataSearch.aspx" ext-link-type="uri">http://www.resdc.cn/DataSearch.aspx</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-06-15">(accessed on 15 June 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B37-sustainability-12-00337">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Field</surname>
+              <given-names>C.B.</given-names>
+            </name>
+            <name>
+              <surname>Randerson</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Malmstr&#xF6;m</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Global net primary production: Combining ecology and remote sensing</article-title>
+          <source>Remote Sens. Environ.</source>
+          <year>1995</year>
+          <volume>51</volume>
+          <fpage>74</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1016/0034-4257(94)00066-V</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-sustainability-12-00337">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Potter</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Randerson</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Field</surname>
+              <given-names>C.B.</given-names>
+            </name>
+            <name>
+              <surname>Matson</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Vitousek</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Mooney</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Klooster</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Terrestrial ecosystem production: A process model based on global satellite and surface data</article-title>
+          <source>Glob. Biogeochem. Cycles</source>
+          <year>1993</year>
+          <volume>7</volume>
+          <fpage>811</fpage>
+          <lpage>841</lpage>
+          <pub-id pub-id-type="doi">10.1029/93GB02725</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-sustainability-12-00337">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Z.X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.N.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>K.Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Taking climate, land use, and social economy into estimation of carbon budget in the Guanzhong-Tianshui Economic Region of China</article-title>
+          <source>Environ. Sci. Pollut. Res.</source>
+          <year>2017</year>
+          <volume>24</volume>
+          <fpage>10466</fpage>
+          <lpage>10480</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11356-017-8483-x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-sustainability-12-00337">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Canga</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Dieguez</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Afif</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>C&#xE1;mara</surname>
+              <given-names>O.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aboveground biomass equations for pinus radiata D. Don in Asturias</article-title>
+          <source>For. Syst.</source>
+          <year>2003</year>
+          <volume>22</volume>
+          <fpage>408</fpage>
+          <lpage>415</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B41-sustainability-12-00337">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>F.R.</given-names>
+            </name>
+            <name>
+              <surname>Jia</surname>
+              <given-names>W.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>An analysis on the carbon content rate of natural white birch in Xiaoxinganling mountain area</article-title>
+          <source>Adv. Mater. Res.</source>
+          <year>2011</year>
+          <volume>393&#x2013;395</volume>
+          <fpage>580</fpage>
+          <lpage>586</lpage>
+          <pub-id pub-id-type="doi">10.4028/www.scientific.net/AMR.393-395.580</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-sustainability-12-00337">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ren</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon storage and density of tree layer of three types of forest at Huoditang forest region in the Qinling Mountains</article-title>
+          <source>J. Henan Agric. Sci.</source>
+          <year>2012</year>
+          <volume>41</volume>
+          <fpage>73</fpage>
+          <lpage>77</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B43-sustainability-12-00337">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abbasi</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Tahir</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Sabir</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Khurshid</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of the addition of different plant residues on nitrogen mineralization-immobilization turnover and carbon content of a soil incubated under laboratory conditions</article-title>
+          <source>Solid Earth</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <fpage>197</fpage>
+          <lpage>205</lpage>
+          <pub-id pub-id-type="doi">10.5194/se-6-197-2015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-sustainability-12-00337">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gumus</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Seker</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of humic acid applications on modulus of rupture, aggregate stability, electrical conductivity, carbon and nitrogen content of a crusting problem soil</article-title>
+          <source>Solid Earth</source>
+          <year>2015</year>
+          <volume>6</volume>
+          <fpage>1231</fpage>
+          <lpage>1236</lpage>
+          <pub-id pub-id-type="doi">10.5194/se-6-1231-2015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-sustainability-12-00337">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Todd-Brown</surname>
+              <given-names>K.E.O.</given-names>
+            </name>
+            <name>
+              <surname>Randerson</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Arora</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes in soil organic carbon storage predicted by Earth system models during the 21st century</article-title>
+          <source>Biogeosciences</source>
+          <year>2014</year>
+          <volume>11</volume>
+          <fpage>2341</fpage>
+          <lpage>2356</lpage>
+          <pub-id pub-id-type="doi">10.5194/bg-11-2341-2014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-sustainability-12-00337">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>K&#xF6;chy</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Don</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Molen</surname>
+              <given-names>M.V.D.</given-names>
+            </name>
+            <name>
+              <surname>Freibauer</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Global distribution of soil organic carbon-part 2: Certainty of changes related to land use and climate</article-title>
+          <source>Soil</source>
+          <year>2015</year>
+          <volume>1</volume>
+          <fpage>367</fpage>
+          <lpage>380</lpage>
+          <pub-id pub-id-type="doi">10.5194/soil-1-367-2015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-sustainability-12-00337">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>K.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Qi</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on estimating model of pinus massoniana stand volume in Minjiang Watershed based on RS technologies</article-title>
+          <source>J. Fujian For. Sci. Technol.</source>
+          <year>2006</year>
+          <fpage>16</fpage>
+          <lpage>23</lpage>
+          <page-range>16&#x2013;19, 23</page-range>
+        </element-citation>
+      </ref>
+      <ref id="B48-sustainability-12-00337">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>Z.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estmiation of soil organic carbon based on remote sensing and process model</article-title>
+          <source>J. Remote Sens.</source>
+          <year>2007</year>
+          <volume>11</volume>
+          <fpage>127</fpage>
+          <lpage>136</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B49-sustainability-12-00337">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hui</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wallace</surname>
+              <given-names>L.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Acclimatization of soil respiration to warming in a Tall Grass Prairie</article-title>
+          <source>Nature</source>
+          <year>2001</year>
+          <volume>413</volume>
+          <fpage>622</fpage>
+          <lpage>625</lpage>
+          <pub-id pub-id-type="doi">10.1038/35098065</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-sustainability-12-00337">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Polglase</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Reeson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hawkins</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Paul</surname>
+              <given-names>K.I.</given-names>
+            </name>
+            <name>
+              <surname>Siggins</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Turner</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Crawford</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Jovanovic</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hobbs</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Opie</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Potential for forest carbon plantings against offset greenhouse emissions in environmental protection. Australia: economics and constraints to implementation</article-title>
+          <source>Clim. Chang.</source>
+          <year>2013</year>
+          <volume>121</volume>
+          <fpage>161</fpage>
+          <lpage>175</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10584-013-0882-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-sustainability-12-00337">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.X.</given-names>
+            </name>
+            <name>
+              <surname>Kou</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>The economic impact of carbon pricing with regulated electricity prices in China-An application of a computable general equilibrium approach</article-title>
+          <source>Energy Policy</source>
+          <year>2014</year>
+          <volume>75</volume>
+          <fpage>46</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.enpol.2014.07.021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-sustainability-12-00337">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>P.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>The contents, methods and tendency of greened GDP for forest accounting</article-title>
+          <source>Green China</source>
+          <year>2004</year>
+          <fpage>18</fpage>
+          <lpage>20</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B53-sustainability-12-00337">
+        <label>53.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>National Soil Survey Office</collab>
+          </person-group>
+          <source>Soils of China</source>
+          <publisher-name>Agricultural Press</publisher-name>
+          <publisher-loc>Beijing, China</publisher-loc>
+          <year>1998</year>
+        </element-citation>
+      </ref>
+      <ref id="B54-sustainability-12-00337">
+        <label>54.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>IPCC</collab>
+          </person-group>
+          <source>Climate Change 2014: Mitigation of Climate Change; Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</source>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge, UK</publisher-loc>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B55-sustainability-12-00337">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Q.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Organic carbon content and distribution in soils under different landuses in Tropicaland Subtropical China</article-title>
+          <source>Plant Soil</source>
+          <year>2001</year>
+          <volume>231</volume>
+          <fpage>175</fpage>
+          <lpage>185</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B56-sustainability-12-00337">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.Q.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>H.Q.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>S.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pattern and change of soil organic carbon storage in China: 1960s&#x2013;1980s</article-title>
+          <source>Tellus</source>
+          <year>2003</year>
+          <volume>55</volume>
+          <fpage>416</fpage>
+          <lpage>427</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B57-sustainability-12-00337">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Turner</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Ritts</surname>
+              <given-names>W.D.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>W.B.</given-names>
+            </name>
+            <name>
+              <surname>Maeirsperger</surname>
+              <given-names>T.K.</given-names>
+            </name>
+            <name>
+              <surname>Gower</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Kirschbaum</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Running</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Wofsy</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Dunn</surname>
+              <given-names>A.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Site-level evaluation of satellite-based global terrestrial gross primary production and net primary production monitoring</article-title>
+          <source>Glob. Chang. Biol.</source>
+          <year>2005</year>
+          <volume>11</volume>
+          <fpage>666</fpage>
+          <lpage>684</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2486.2005.00936.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-sustainability-12-00337">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trumbore</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon respired by terrestrial ecosystems-recent progress and challenges</article-title>
+          <source>Glob. Chang. Biol.</source>
+          <year>2010</year>
+          <volume>12</volume>
+          <fpage>141</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2486.2006.01067.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-sustainability-12-00337">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impacts of climate change and human activities on soil carbon storage in China</article-title>
+          <source>Acta Geogr. Sin.</source>
+          <year>2003</year>
+          <volume>58</volume>
+          <fpage>727</fpage>
+          <lpage>734</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B60-sustainability-12-00337">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wei</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon source/sink estimation for agro-ecosystem in Guanzhong Area</article-title>
+          <source>Bull. Soil Water Conserv.</source>
+          <year>2014</year>
+          <volume>34</volume>
+          <fpage>121</fpage>
+          <lpage>125</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B61-sustainability-12-00337">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>The value of fixing carbon and releasing oxygen in the Guanzhong-Tianshui economic region using GIS</article-title>
+          <source>Acta Geogr. Sin.</source>
+          <year>2013</year>
+          <volume>33</volume>
+          <fpage>2907</fpage>
+          <lpage>2918</lpage>
+          <pub-id pub-id-type="doi">10.5846/stxb201202130187</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-sustainability-12-00337">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spatio-temporal changes of carbon footprint in Shaanxi province</article-title>
+          <source>Sci. Geogr. Sin.</source>
+          <year>2013</year>
+          <volume>33</volume>
+          <fpage>1537</fpage>
+          <lpage>1542</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B63-sustainability-12-00337">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.Q.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>M.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Carbon storage invegetation and soil of China</article-title>
+          <source>Sci. China Ser. D</source>
+          <year>2003</year>
+          <volume>33</volume>
+          <fpage>72</fpage>
+          <lpage>80</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B64-sustainability-12-00337">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pei</surname>
+              <given-names>Z.Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Ou</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>W.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>A carbon budget of alpine steppe area in the Tibetan Plateau</article-title>
+          <source>Geogr. Res.</source>
+          <year>2010</year>
+          <volume>29</volume>
+          <fpage>102</fpage>
+          <lpage>110</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="sustainability-12-00337-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Location of the study area.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00337-g001.tif"/>
+      </fig>
+      <fig id="sustainability-12-00337-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Framework of study.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00337-g002.tif"/>
+      </fig>
+      <fig id="sustainability-12-00337-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Correlation analysis between soil respiration and soil organic carbon.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00337-g003.tif"/>
+      </fig>
+      <fig id="sustainability-12-00337-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Spatial and temporal distribution of NPP, soil respiration, soil organic carbon in 2003&#x2013;2017.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00337-g004.tif"/>
+      </fig>
+      <fig id="sustainability-12-00337-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Spatial distribution of total carbon sequestration in the study area.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00337-g005.tif"/>
+      </fig>
+      <fig id="sustainability-12-00337-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Difference of vegetation types on the above, below and total carbon sequestration.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00337-g006.tif"/>
+      </fig>
+      <fig id="sustainability-12-00337-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Spatial differences in soil organic carbon net present value (NPV) in 2015 and 2017 under different scenarios.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00337-g007.tif"/>
+      </fig>
+      <fig id="sustainability-12-00337-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>NPV mean and total value of soil organic carbon for land use under different scenarios. (Scenarios 1&#x2013;6 represent each other: CP = 32 yuan t<sup>&#x2212;1</sup>, r = 5%; CP = 32 yuan t<sup>&#x2212;1</sup>, r = 7%; CP = 45 yuan t<sup>&#x2212;1</sup>, r = 5%; CP = 45 yuan t<sup>&#x2212;1</sup>, r = 7%; CP = 60 yuan t<sup>&#x2212;1</sup>, r = 5%; CP = 60 yuan t<sup>&#x2212;1</sup>, r = 7%).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00337-g008.tif"/>
+      </fig>
+      <table-wrap id="sustainability-12-00337-t001" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00337-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Information about the vegetation type data source (the definition of vegetation type comes from the Resource and Environment Data Center of Chinese Academy of Sciences-Resource and Environment Data Cloud Platform <uri>http://www.resdc.cn/DataSearch.aspx</uri>).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Vegetation Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Definition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Coniferous forest</td>
+              <td valign="middle" style="border-bottom:solid thin" align="left">Coniferous forest is a general term for all kinds of forests composed of coniferous trees for the construction of population.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Broad-leaf forest</td>
+              <td valign="middle" style="border-bottom:solid thin" align="left">Broad-leaf forest is composed of broad-leaved trees, with broad leaves, compared with coniferous forest and common leaves.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Coniferous-broad-leaved mixed forest</td>
+              <td valign="middle" style="border-bottom:solid thin" align="left">Coniferous broad-leaved mixed forest refers to the transition type between cold temperate coniferous forest and summer green broad-leaved forest. It is usually composed of broad-leaved tree species such as Quercus, Acer, Tilia and some species of Picea, Abies and Pinus.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Shrub</td>
+              <td valign="middle" style="border-bottom:solid thin" align="left">Shrub refers to the type of vegetation dominated by shrubs. Most of the species are medium-growing and clustered shrub life forms. The community height is usually less than 5 m, and the canopy density is usually 0.3&#x2013;0.4. Thickets are often found in places where the climate is too dry or cold and forests are difficult to grow.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Grassland</td>
+              <td valign="middle" style="border-bottom:solid thin" align="left">Grassland is one of the earth&#x2019;s ecosystems and is the most widely distributed vegetation type on the earth. Meadow refers to the vegetation type with perennial mesophytic herbs as the main body developed under moderate water conditions. Grass refers to herbaceous plant communities, including grasses and non-grasses.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Swamp</td>
+              <td valign="middle" style="border-bottom:solid thin" align="left">Swamp refer to the surface and subsurface soils that are often over-wetted, with wet plants and marsh plants growing on the surface.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Alpine vegetation</td>
+              <td valign="middle" style="border-bottom:solid thin" align="left">Alpine vegetation refers to a variety of community types consisting of cold-resistant, drought-tolerant and snow-tolerant plants located in the alpine zone.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cultivated vegetation</td>
+              <td valign="middle" style="border-bottom:solid thin" align="left">Cultivated vegetation refers to wild plants which have certain production value or economic characteristics, stable heredity and can meet human needs after artificial cultivation.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Other vegetation</td>
+              <td valign="middle" style="border-bottom:solid thin" align="left">Other vegetation types include water area, unused land, wasteland, etc.</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00337-t002" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00337-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Classification system of soil types (the Classification system of soil types comes from the Resource and Environment Data Center of Chinese Academy of Sciences-Resource and Environment Data Cloud Platform <uri>http://www.resdc.cn/DataSearch.aspx</uri>).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Soil Order</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Great Soil Group</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="7" align="center" valign="middle" style="border-bottom:solid thin">Leached soil</td>
+              <td align="center" valign="middle">Brown coniferous forest soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Brown earths</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Yellow-brown earths</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Yellow-cinnamon soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Brown earths</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Dark-brown earths</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Albic soils</td>
+            </tr>
+            <tr>
+              <td rowspan="5" align="center" valign="middle" style="border-bottom:solid thin">Semi-leaching soil</td>
+              <td align="center" valign="middle">Torrid red soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cinnamon soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Grey-cinnamon soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Black soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Grey forest soils</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Calcium layer soil</td>
+              <td align="center" valign="middle">Chernozems</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Castanozems</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Castano-cinnamon soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Dark loessial soils</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Arid soil</td>
+              <td align="center" valign="middle">Brown pedocals</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Sierozems</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Desert soil</td>
+              <td align="center" valign="middle">Gray desery soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Gray-brown desrt soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Brown desert soils</td>
+            </tr>
+            <tr>
+              <td rowspan="10" align="center" valign="middle" style="border-bottom:solid thin">Primary soil</td>
+              <td align="center" valign="middle">Cultivated loessial soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Red clay soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Alluvial soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Takyr soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Aeolian soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Limestone soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Volcanic soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Purplish soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Litho soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Skeletol soils</td>
+            </tr>
+            <tr>
+              <td rowspan="5" align="center" valign="middle" style="border-bottom:solid thin">Semi-aqueous soil</td>
+              <td align="center" valign="middle">Meadow soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Lime concretion black soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Mountain meadow soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Shruby meadow soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Fluvo-aquic soils</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Aqueous soil</td>
+              <td align="center" valign="middle">Bog soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Peat soils</td>
+            </tr>
+            <tr>
+              <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin">Saline soil</td>
+              <td align="center" valign="middle">Saline soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Desert solonchaks</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Coastal solonchaks</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Acid sulphate soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Frigid plateau solonchaks</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Solonetzs</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Artificial soil</td>
+              <td align="center" valign="middle">Paddy soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cumulated irrigated soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Irrigated desert soils</td>
+            </tr>
+            <tr>
+              <td rowspan="8" align="center" valign="middle" style="border-bottom:solid thin">High-Mountain soils</td>
+              <td align="center" valign="middle">Felty soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Dark felty soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Frigid calcic soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cold calcic soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cold brown calcic soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Frigid desert soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cold desert soils</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Frigid frozen soils</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Iron bauxite</td>
+              <td align="center" valign="middle">Humid-thermo ferralitic</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Lateritic red earths</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Red earths</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Yellow earths</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00337-t003" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00337-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Relationship between carbon in root/litter and above-ground carbon relative to different land types [<xref ref-type="bibr" rid="B39-sustainability-12-00337">39</xref>,<xref ref-type="bibr" rid="B40-sustainability-12-00337">40</xref>,<xref ref-type="bibr" rid="B41-sustainability-12-00337">41</xref>,<xref ref-type="bibr" rid="B42-sustainability-12-00337">42</xref>].</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Specific Relation</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cultivated Land</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Forest</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Grassland</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Root/aboveground</td>
+              <td align="center" valign="middle">18.85%</td>
+              <td align="center" valign="middle">28.30%</td>
+              <td align="center" valign="middle">169%</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Litter/aboveground</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">45.60%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">14.39%</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.30%</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00337-t004" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00337-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Annual average NPP of different vegetation types in 2003&#x2013;2017, unit: gC per square meter per year.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Vegetation Types</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">2003</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">2005</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">2010</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">2015</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">2017</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Coniferous forest</td>
+              <td align="center" valign="middle">442</td>
+              <td align="center" valign="middle">466.1</td>
+              <td align="center" valign="middle">452.8</td>
+              <td align="center" valign="middle">564</td>
+              <td align="center" valign="middle">468</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Coniferous-broad-leaved mixed forest</td>
+              <td align="center" valign="middle">509</td>
+              <td align="center" valign="middle">518.3</td>
+              <td align="center" valign="middle">500</td>
+              <td align="center" valign="middle">634.6</td>
+              <td align="center" valign="middle">520.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Broad-leaf forest</td>
+              <td align="center" valign="middle">917</td>
+              <td align="center" valign="middle">977.8</td>
+              <td align="center" valign="middle">939.6</td>
+              <td align="center" valign="middle">1155</td>
+              <td align="center" valign="middle">992.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Shrub</td>
+              <td align="center" valign="middle">573.9</td>
+              <td align="center" valign="middle">672.9</td>
+              <td align="center" valign="middle">545</td>
+              <td align="center" valign="middle">562</td>
+              <td align="center" valign="middle">521.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Grassland</td>
+              <td align="center" valign="middle">580.9</td>
+              <td align="center" valign="middle">625.5</td>
+              <td align="center" valign="middle">623.3</td>
+              <td align="center" valign="middle">776.8</td>
+              <td align="center" valign="middle">643.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Swamp</td>
+              <td align="center" valign="middle">505.3</td>
+              <td align="center" valign="middle">523.7</td>
+              <td align="center" valign="middle">544.6</td>
+              <td align="center" valign="middle">673.2</td>
+              <td align="center" valign="middle">455.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Alpine vegetation</td>
+              <td align="center" valign="middle">428</td>
+              <td align="center" valign="middle">423.3</td>
+              <td align="center" valign="middle">431.1</td>
+              <td align="center" valign="middle">528.6</td>
+              <td align="center" valign="middle">419.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cultivated vegetation</td>
+              <td align="center" valign="middle">592.7</td>
+              <td align="center" valign="middle">642.2</td>
+              <td align="center" valign="middle">636.6</td>
+              <td align="center" valign="middle">764.4</td>
+              <td align="center" valign="middle">668.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Other vegetation</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">387.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">432.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">435</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">485.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">429.6</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

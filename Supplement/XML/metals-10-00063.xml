@@ -1,0 +1,1469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">metals</journal-id>
+      <journal-title-group>
+        <journal-title>Metals</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Metals</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Metals</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2075-4701</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/met10010063</article-id>
+      <article-id pub-id-type="publisher-id">metals-10-00063</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Comparison between Shot Peening, Cavitation Peening, and Laser Peening by Observation of Crack Initiation and Crack Growth in Stainless Steel</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Soyama</surname>
+            <given-names>Hitoshi</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-metals-10-00063">Department of Finemechanics, Tohoku University, Sendai 980-8579, Japan; <email>soyama@mm.mech.tohoku.ac.jp</email>; Tel.: +81-22-795-6891; Fax: +81-22-795-3758</aff>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>1</issue>
+      <elocation-id>63</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the author.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The traditional technique used to modify the surface of a metallic material is shot peening; however, cavitation peening, a more recent technique in which shot is not used, was developed, and improvements in the fatigue strength of metallic materials were demonstrated. In order to compare the fatigue properties introduced by shot peening with those introduced by cavitation peening, crack initiation and crack growth in specimens of austenitic stainless steel (Japanese Industrial Standards JIS SUS316L) treated using these techniques were investigated. With conventional cavitation peening, cavitation is produced by injecting a high speed water jet into water. In the case of submerged laser peening, bubbles are generated using a pulsed laser after laser ablation, and the impact produced when the bubbles collapse is larger than that due to laser ablation. Thus, in this study, cavitation peening using a water jet and submerged laser peening were investigated. To clarify the mechanisms whereby the fatigue strength is improved by these peening techniques, crack initiation and crack growth in specimens with and without treatment were examined by means of a <italic>K</italic>-decreasing test, where <italic>K</italic> is the stress intensity factor, and using a constant applied stress test using a load controlled plane bending fatigue tester. It was found that the improvement in crack initiation and the reduction in crack growth were roughly in a linear relationship, even though the specimens were treated using different peening methods. The results presented here show that the fatigue strength of SUS316L treated by these peening techniques is closely related to the reduction in crack growth, rather than crack initiation.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>cavitation peening</kwd>
+        <kwd>shot peening</kwd>
+        <kwd>crack</kwd>
+        <kwd>fatigue</kwd>
+        <kwd>stainless steel</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-metals-10-00063" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Austenitic stainless steel is a bioinert material commonly used for implants [<xref ref-type="bibr" rid="B1-metals-10-00063">1</xref>,<xref ref-type="bibr" rid="B2-metals-10-00063">2</xref>]; unfortunately, this type of steel has insufficient fatigue resistance [<xref ref-type="bibr" rid="B2-metals-10-00063">2</xref>]. One of the best ways to enhance the fatigue life and/or strength of a metal is by shot peening, which introduces compressive residual stress into the sub-surface and work hardening. However, a disadvantage of shot peening is that there is an increase in surface roughness due to the physical collision with the shot. Recently, cavitation peening, in which shot is not used, has been developed [<xref ref-type="bibr" rid="B3-metals-10-00063">3</xref>,<xref ref-type="bibr" rid="B4-metals-10-00063">4</xref>]. To clarify the mechanism through which the fatigue characteristics are improved by peening, crack initiation and crack growth in peened specimens are usually investigated. This has been done for shot peened austenitic stainless steel [<xref ref-type="bibr" rid="B5-metals-10-00063">5</xref>]; however, it has not been done for cavitation peened stainless steel.</p>
+      <p>To improve the fatigue properties of stainless steel in order to be able to use it for medical implants, the effect of shot peening on the fatigue properties has been investigated by examining the corrosion behavior in Ringer&#x2019;s solution [<xref ref-type="bibr" rid="B6-metals-10-00063">6</xref>]. The effect of the shot peening conditions on the surface properties and the corrosion behavior of medical grade 316L stainless steel has also been examined [<xref ref-type="bibr" rid="B7-metals-10-00063">7</xref>]. Moreover, the effect of the surface roughness of shot peened stainless steel 316L has been investigated for the purpose of modulating the interaction between the biological environment and the material [<xref ref-type="bibr" rid="B8-metals-10-00063">8</xref>].</p>
+      <p>Cavitation peening is a shotless peening method, in which the impact is produced by bubbles collapsing. In the case of conventional cavitation peening, cavitation is produced by injecting a high speed water jet into a water filled chamber, and the cavitation is generated inside and/or near the nozzle [<xref ref-type="bibr" rid="B9-metals-10-00063">9</xref>]. A water jet with cavitation is called a cavitating jet. In the case of a cavitating jet, cavitation clouds shed periodically from the nozzle, develop on the target, then collapse, generating the impacts [<xref ref-type="bibr" rid="B9-metals-10-00063">9</xref>]. On the other hand, in the case of water jet peening, the impact of the water column at the center of the jet is used. Please note that the water column at the center of the jet can also peen the metal; however, the peened area is very limited and the peening intensity is smaller than that due to cavitation [<xref ref-type="bibr" rid="B10-metals-10-00063">10</xref>]. Soyama proposed a classification map to distinguish between cavitation peening and water jet peening using the distance between the nozzle and the target, the injection pressure, the nozzle diameter, and the cavitation number [<xref ref-type="bibr" rid="B3-metals-10-00063">3</xref>].</p>
+      <p>In the case of laser peening, there are two methods. One is laser peening using a water film on the target [<xref ref-type="bibr" rid="B11-metals-10-00063">11</xref>,<xref ref-type="bibr" rid="B12-metals-10-00063">12</xref>,<xref ref-type="bibr" rid="B13-metals-10-00063">13</xref>], and the other method is submerged laser peening, in which the target is placed in water [<xref ref-type="bibr" rid="B14-metals-10-00063">14</xref>]. In the case of submerged laser peening, bubbles generated after laser ablation develop, then collapse. As the behavior of these bubbles is similar to that of cavitation bubbles, this is called laser cavitation. It has been believed that the peening effect is due to laser ablation, as the amplitude of the shock wave induced by laser ablation is larger than that due to laser cavitation; however, when the impact through the target was measured using a Polyvinylidene Fluoride (PVDF) sensor [<xref ref-type="bibr" rid="B15-metals-10-00063">15</xref>,<xref ref-type="bibr" rid="B16-metals-10-00063">16</xref>], the impact due to laser cavitation collapse was found to be larger than that due to laser ablation [<xref ref-type="bibr" rid="B3-metals-10-00063">3</xref>,<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>]. Soyama proposed a technique for cavitation peening using a pulsed laser without laser ablation by focusing the laser in the water [<xref ref-type="bibr" rid="B18-metals-10-00063">18</xref>].</p>
+      <p>Another common method used to generate cavitation is ultrasonic cavitation. For example, a vibratory erosion test is commonly used to evaluate the cavitation erosion resistance of materials, i.e., ASTM G32 [<xref ref-type="bibr" rid="B19-metals-10-00063">19</xref>]. Please note that an erosion test using a cavitating jet has been standardized as ASTM G134 [<xref ref-type="bibr" rid="B20-metals-10-00063">20</xref>]. A vibratory horn is placed close to the surface of the material to be treated. It was found that at submillmeter horn to target distances the aggressive intensity changed drastically [<xref ref-type="bibr" rid="B21-metals-10-00063">21</xref>], and this was confirmed experimentally and theoretically by Bai et al. [<xref ref-type="bibr" rid="B22-metals-10-00063">22</xref>]. As the sensitivity to distance of ultrasonic cavitation limits its applications, it was not examined in this paper, and only cavitation induced by a submerged water jet and using a submerged pulsed laser were investigated. Generally, peening using a submerged water jet is called cavitation peening (CP), and peening using a submerged laser is called laser peening (LP). These are the terms used in this paper.</p>
+      <p>In a study done to compare the effects of different peening methods on austenitic stainless steel SUS304, it was found that grain boundary hardening and dislocation hardening are the most important mechanisms [<xref ref-type="bibr" rid="B23-metals-10-00063">23</xref>]. Moreover, it was reported that fatigue loading reduces the compressive residual stress introduced by peening and that the reduction depends on the particular surface treatment employed [<xref ref-type="bibr" rid="B24-metals-10-00063">24</xref>,<xref ref-type="bibr" rid="B25-metals-10-00063">25</xref>,<xref ref-type="bibr" rid="B26-metals-10-00063">26</xref>].</p>
+      <p>Although an energy-based parameter to describe shot peening was proposed [<xref ref-type="bibr" rid="B27-metals-10-00063">27</xref>], this is not possible in the case of cavitation peening, since, at present, the intensity of the impact at a particular energy cannot be simulated theoretically; therefore, experimental studies of cavitation peening are required. The fatigue life and strength of austenitic stainless steel JIS SUS316L treated by several peening methods were investigated using a displacement controlled fatigue test [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>], and it was shown that the fatigue strength of cavitation peening was larger than that of shot peening, although the fatigue life at relatively high applied stress for shot peened specimens was larger than that of cavitation peened specimens. As mentioned above, as crack initiation and growth affect the fatigue properties, these need to be investigated.</p>
+      <p>To investigate crack growth rates, a compact tension specimen is commonly used [<xref ref-type="bibr" rid="B28-metals-10-00063">28</xref>]. However, it is difficult to evaluate the crack growth in the modified surface layer, as the effect of the underlying material is much larger than that of the modified layer. As the maximum tensile stress is applied at the surface, i.e., in the surface modified layer, a plane bending fatigue test is suitable for evaluating the crack growth of peened materials. However, the plane bending fatigue testers currently available cannot be used, because these are displacement controlled machines. With a displacement controlled plane bending fatigue tester, the applied stress decreases as the crack area increases. Thus, a load controlled plane bending fatigue tester was developed [<xref ref-type="bibr" rid="B29-metals-10-00063">29</xref>], and using this, it was demonstrated that the threshold stress intensity factor range <italic>&#x2206;K<sub>th</sub></italic> and the stress intensity factor range increment <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) were improved by cavitation peening [<xref ref-type="bibr" rid="B30-metals-10-00063">30</xref>]. The load controlled plane bending fatigue tester was used in these experiments to evaluate crack initiation and growth in surface layers treated by shot peening, cavitation peening, and laser peening. Please note that <italic>K</italic>-decreasing test was carried out in order to determine whether crack initiation or crack growth is important, and also the improvement of the fatigue life within short crack by cavitation peening was dominant [<xref ref-type="bibr" rid="B31-metals-10-00063">31</xref>].</p>
+      <p>In this paper, the fatigue properties of austenitic stainless steel after treatment by cavitation peening, laser peening and shot peening were compared. To make this comparison, crack initiation and growth in steel specimens were evaluated by a <italic>K</italic>-decreasing test and a constant applied stress test using a load controlled plane bending fatigue tester, respectively.</p>
+    </sec>
+    <sec id="sec2-metals-10-00063">
+      <title>2. Experimental Apparatus and Procedure</title>
+      <sec id="sec2dot1-metals-10-00063">
+        <title>2.1. Crack Growth Test</title>
+        <p>The material under test was austenitic stainless steel JIS SUS316L. <xref ref-type="table" rid="metals-10-00063-t001">Table 1</xref> and <xref ref-type="table" rid="metals-10-00063-t002">Table 2</xref> show the chemical composition and mechanical properties of tested steel. The geometry of the specimens for the fatigue test is shown in <xref ref-type="fig" rid="metals-10-00063-f001">Figure 1</xref>. The thickness of the specimens was 4 mm. To investigate the growth of the crack, a notch was introduced by milling using a 0.5 mm diameter end mill. The width and depth of the notch was 0.5 mm and 0.25 mm, respectively. The length was 2 mm for the <italic>K</italic>-decreasing test and 5 mm for the constant applied stress test. A pre-crack was developed from the notch using the handmade plane bending fatigue tester. The lengths of the pre-crack before the respective tests were 2.4 mm and 5.4 mm. <xref ref-type="fig" rid="metals-10-00063-f002">Figure 2</xref> and <xref ref-type="fig" rid="metals-10-00063-f003">Figure 3</xref> show a schematic illustration and a photograph of the load controlled plane bending fatigue tester [<xref ref-type="bibr" rid="B29-metals-10-00063">29</xref>]. The load is applied to the specimen using a servomotor (Harmonic Drive Systems Inc., Tokyo, Japan) which has a feedback system that detects the applied load via a load sensor. The test frequency was 5 Hz and the stress ratio <italic>R</italic> was &#x2212;1. The details of the bending fatigue test were shown in the references [<xref ref-type="bibr" rid="B29-metals-10-00063">29</xref>,<xref ref-type="bibr" rid="B30-metals-10-00063">30</xref>,<xref ref-type="bibr" rid="B32-metals-10-00063">32</xref>].</p>
+        <p>To investigate crack initiation and growth in the surface layer, the stress intensity factor range <italic>&#x2206;K</italic> and the crack growth rate <italic>da</italic>/<italic>dn</italic> were evaluated using the plane bending fatigue tester. The applied bending stress <italic>&#x3C3;<sub>a</sub></italic> was calculated from the bending moment <italic>M</italic>, the width of the specimen <italic>W</italic> and the thickness of the specimen <italic>t</italic> using the following equation:<disp-formula id="FD1-metals-10-00063"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mtext>&#xA0;</mml:mtext><mml:mo>=</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mfrac><mml:mrow><mml:mn>6</mml:mn><mml:mtext>&#xA0;</mml:mtext><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>W</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:msup><mml:mi>t</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <italic>&#x2206;K</italic> was calculated using the Newman-Raju equation [<xref ref-type="bibr" rid="B33-metals-10-00063">33</xref>], as follows:<disp-formula id="FD2-metals-10-00063"><label>(2)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>&#x394;</mml:mi><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mi>&#x394;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>a</mml:mi></mml:msub><mml:mtext>&#xA0;</mml:mtext><mml:msqrt><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>b</mml:mi></mml:mrow></mml:msqrt><mml:mtext>&#xA0;</mml:mtext><mml:mfrac><mml:mi>J</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:mfrac><mml:mtext>&#xA0;</mml:mtext><mml:mi>S</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>H</mml:mi></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>b</italic> is the depth of the crack, <italic>&#x2206;&#x3C3;<sub>a</sub></italic> is 2 <italic>&#x3C3;<sub>a</sub></italic>, and <italic>J</italic>, <italic>&#x3D5;</italic>, <italic>S</italic> and <italic>H</italic> are shape factors. Although the crack propagates in three dimensions, the depth of the crack <italic>b</italic> is estimated from the length of the crack 2<italic>a</italic>.</p>
+        <p>At the surface. Specimens were tested at certain number of cycles, and put into the furnace to oxidize the crack propagation area, i.e., half elliptic region, and fractured (see Figure 6 in the reference [<xref ref-type="bibr" rid="B30-metals-10-00063">30</xref>]). The length of the crack 2<italic>a</italic> was measured by a digital microscope at 1000&#xD7; magnification. Under the present conditions, the relationships between 2<italic>a</italic> and <italic>b</italic> for the peened and non-peened specimens were the same [<xref ref-type="bibr" rid="B30-metals-10-00063">30</xref>]. The following relationship between 2<italic>a</italic> and <italic>b</italic> was obtained by observation of the crack shape, enabling <italic>b</italic> to be estimated by measuring 2<italic>a</italic> on the surface (see Figure 7 in the reference [<xref ref-type="bibr" rid="B30-metals-10-00063">30</xref>]).
+        <disp-formula id="FD3-metals-10-00063"><label>(3)</label><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:mi>b</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mo>=</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>b</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>e</mml:mi><mml:mi>x</mml:mi><mml:mi>p</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>2</mml:mn><mml:mi>a</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>2</mml:mn><mml:msub><mml:mi>a</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where 2<italic>a</italic><sub>0</sub> and <italic>b</italic><sub>0</sub> are the length and the depth of the notch, and <italic>C</italic><sub>1</sub> and <italic>C</italic><sub>2</sub> are constants obtained from experimental data using the least squares method. For the present experiments, 2<italic>a</italic><sub>0</sub>, <italic>b</italic><sub>0</sub>, <italic>C</italic><sub>1</sub> and <italic>C</italic><sub>2</sub> were 2, 0.25, 2.51 and &#x2212;0.51 for the <italic>K</italic>-decreasing test and 5, 0.25, 2.26 and &#x2212;0.28 for the crack growth test at constant applied stress, respectively.</p>
+        <p>The effect of peening on crack initiation was examined by determining the threshold stress intensity factor range, <italic>&#x2206;K<sub>th</sub></italic>. The crack length was measured after each 10<sup>5</sup> cycles using an optical microscope, then <italic>da</italic>/<italic>dn</italic> and <italic>&#x2206;K</italic> were calculated. Please note that the secant method [<xref ref-type="bibr" rid="B28-metals-10-00063">28</xref>] was used for computing the crack growth rate <italic>da</italic>/<italic>dn</italic>. A <italic>K</italic>-decreasing test was carried out, and <italic>&#x2206;K<sub>th</sub></italic> is given by the value of <italic>&#x2206;K</italic> at <italic>da</italic>/<italic>dn</italic> = 10<sup>&#x2212;10</sup> m/cycle.</p>
+        <p>The stress intensity factor range increment, <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>), was used in order to investigate the effect of peening on crack growth, considering a previous report [<xref ref-type="bibr" rid="B30-metals-10-00063">30</xref>]. Larger values of <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) signify greater reductions in crack growth. In the present study, the domain for Paris&#x2019; law is from <italic>da</italic>/<italic>dn</italic> = 10<sup>&#x2212;9</sup> m/cycle to <italic>da</italic>/<italic>dn</italic> = 10<sup>&#x2212;8</sup> m/cycle. <italic>da</italic>/<italic>dn</italic> is plotted against <italic>&#x2206;K</italic> on a log-log scale in this domain in <xref ref-type="fig" rid="metals-10-00063-f004">Figure 4</xref> [<xref ref-type="bibr" rid="B30-metals-10-00063">30</xref>]. The intercepts A and B at <italic>da</italic>/<italic>dn</italic> = 10<sup>&#x2212;8</sup> m/cycle, and <italic>C</italic> and <italic>D</italic> at <italic>da</italic>/<italic>dn</italic> = 10<sup>&#x2212;9</sup> m/cycle were obtained for non-peened and peened specimens, respectively. The average value <italic>m</italic> of the values of AC and BD was determined. <italic>&#x2206;</italic>(<italic>&#x2206;K)</italic> is defined as 10<italic><sup>m</sup></italic>. For the crack growth test at constant applied load, the applied stress was 160 MPa for the non-peened specimen and 200 MPa for the peened specimen.</p>
+        <p>To confirm repeatability and reproducibility, two sets of non-peened, cavitation peening, laser peening and shot peening at <italic>t<sub>p</sub></italic> = 0.88 s/mm were tested at the <italic>K</italic>-decreasing test and the constant applied stress test. In <xref ref-type="sec" rid="sec3-metals-10-00063">Section 3</xref>. Result, the averaged value and error bar, which show the maximum value and minimum value, were shown.</p>
+        <p>The surface residual stress, surface Vickers hardness and surface roughness of the peened surfaces were measured. The residual stress in the longitudinal direction was measured by a 2D X-ray diffraction method using K&#x3B1; X-rays from a Cr-tube operating at 35 kV and 40 mA [<xref ref-type="bibr" rid="B34-metals-10-00063">34</xref>]. The X-rays passed through a 0.8 mm diameter collimator and a monochromator, and the X-ray diffraction patterns obtained. The diffraction angle from the &#x3B3;-Fe (2 2 0) plane without strain was 128 degrees. Twenty-four diffraction rings were detected from the specimens at various angles using a two-dimensional detector (Bruker Japan Co., Ltd., Yokohama, Japan), considering the conditions used in a previous report [<xref ref-type="bibr" rid="B35-metals-10-00063">35</xref>]. The load used in measuring the Vickers hardness was 0.2 kgf, i.e., 1.96 N. The surface roughness was evaluated using a stylus type profilometer (Mitutoyo Corporation, Kawasaki, Japan).</p>
+      </sec>
+      <sec id="sec2dot2-metals-10-00063">
+        <title>2.2. Submerged Water Jet System</title>
+        <p><xref ref-type="fig" rid="metals-10-00063-f005">Figure 5</xref> shows an illustration of a submerged water jet system for cavitation peening. Water, pressurized by a plunger pump, is injected into a water filled stainless steel tank through a test nozzle. The test nozzle has a cavitator and a guide pipe which were optimized to enhance the aggressive intensity of the cavitating jet [<xref ref-type="bibr" rid="B36-metals-10-00063">36</xref>]. As the length <italic>L</italic> and diameter <italic>D</italic> of the outlet bore at the nozzle exit also affect the aggressive intensity of the jet, <italic>L</italic> and <italic>D</italic> were optimized experimentally [<xref ref-type="bibr" rid="B37-metals-10-00063">37</xref>]. The nozzle throat diameter <italic>d</italic> was 2 mm, the diameter of the cavitator <italic>d<sub>c</sub></italic> was 3 mm, the injection pressure was 30 MPa and the standoff distance was 222 mm, the same as used in a previous study [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>]. Cavitation develops as cloud cavitation, and becomes ring vortex cavitation at the surface, before collapsing. Thus, the specimens were placed in a recess so that the whole surface was flat.</p>
+        <p>The processing time per unit length, <italic>t<sub>p</sub></italic> is defined as follows.
+        <disp-formula id="FD4-metals-10-00063"><label>(4)</label><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>t</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mtext>&#xA0;</mml:mtext><mml:mo>=</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mfrac><mml:mi>n</mml:mi><mml:mi>v</mml:mi></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>n</italic> and <italic>v</italic> are the number of passes and the scanning speed of the nozzle, respectively. For these experiments, the processing time per unit length was chosen to be <italic>t<sub>p</sub></italic> = 8 s/mm, the same as in the previous study [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>].</p>
+      </sec>
+      <sec id="sec2dot3-metals-10-00063">
+        <title>2.3. Submerged Pulse Laser System </title>
+        <p><xref ref-type="fig" rid="metals-10-00063-f006">Figure 6</xref> shows the set up for submerged laser peening. The specimen is placed on a stage in a water filled glass chamber, and the stage is moved horizontally and vertically by stepping motors. The chamber walls are 3 mm thick. The laser pulses are generated by a Q-switched Nd:YAG laser (Continuum Inc., San Jose, CA, USA) with a fundamental wavelength of 1064 nm. The optimum standoff distance is partly in air <italic>s<sub>a</sub></italic> and partly in water <italic>s<sub>w</sub></italic>. The maximum energy, the beam diameter, the pulse width, and the repetition frequency of the laser pulses used in the experiments for this study were 0.35 J, 6 mm, 6 ns and 10 Hz, respectively. The focal length of the final convex lens was 100 mm and the spot size of the laser on the target was about 0.8 mm in diameter in these experiments, the laser pulse density was chosen to be 4 pulse/mm<sup>2</sup>, the same as in the previous study [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>].</p>
+      </sec>
+      <sec id="sec2dot4-metals-10-00063">
+        <title>2.4. Recirculating Shot Peening Accelerated by Water Jet System</title>
+        <p>Shot peening was carried out using recirculating shot accelerated by a water jet system, which was developed by Naito et al. [<xref ref-type="bibr" rid="B38-metals-10-00063">38</xref>], and was used by us in the previous study [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>]. <xref ref-type="fig" rid="metals-10-00063-f007">Figure 7</xref> shows a schematic diagram of the shot peening system. The conditions were chosen to be the same as those used in the previous work [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>]. The shot, made of stainless steel JIS SUS440C, were installed in the chamber and accelerated by pressurized water coming through three 0.8 mm diameter holes. The diameter and the number of shot were 3.2 mm and 500, respectively. The standoff distance and the injection pressure were 50 mm and 12 MPa, respectively. Please note that no compressive residual stress was introduced into the stainless steel by the water jet alone under the same conditions. To avoid loose shot, the specimen was placed in a recess to make the surface flat, and the chamber was scanned across the surface. The processing time per unit length is defined in the same way as for cavitation peening (Equation (4)). In the case of shot peening, <italic>t<sub>p</sub></italic> was chosen to be 0.18, 0.29, 0.58 and 0.88 s/mm considering the results obtained and presented in the previous report [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec3-metals-10-00063" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-metals-10-00063">
+        <title>3.1. Improvement of &#x2206;K<sub>th</sub> and &#x2206;(&#x2206;K) by Peening</title>
+        <p>To compare the effect of the peening methods on crack initiation, <xref ref-type="fig" rid="metals-10-00063-f008">Figure 8</xref> shows the relationship between the stress intensity factor range <italic>&#x2206;K</italic> and the crack growth rate <italic>da</italic>/<italic>dn</italic> obtained by the <italic>K</italic>-decreasing test. In <xref ref-type="fig" rid="metals-10-00063-f008">Figure 8</xref>, in the case of non-peened, cavitation peening, laser peening and shot peening at <italic>t<sub>p</sub></italic> = 0.88 s/mm, the 1st set was shown by closed symbols and the 2nd set was shown by open symbols. In <xref ref-type="fig" rid="metals-10-00063-f008">Figure 8</xref>, the number after &#x201C;Shot peening (SP)&#x201D; shows the processing time per unit length. For example, &#x201C;SP0.18&#x201D; means shot peened at <italic>t<sub>p</sub></italic> = 0.18 s/mm. As shown in <xref ref-type="fig" rid="metals-10-00063-f008">Figure 8</xref>, the <italic>&#x2206;K</italic>-<italic>da</italic>/<italic>dn</italic> curves of the peened specimens have shifted to the right. <italic>&#x2206;K<sub>th</sub></italic> was calculated from these curve at <italic>da</italic>/<italic>dn</italic> = 10<sup>10</sup> m/cycle, and the values are 3.71 &#xB1; 0.11 MPa<inline-formula><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msqrt><mml:mi mathvariant="normal">m</mml:mi></mml:msqrt></mml:mrow></mml:semantics></mml:math></inline-formula> for the non-peened specimen, 6.33 &#xB1; 0.20 MPa<inline-formula><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:msqrt><mml:mi mathvariant="normal">m</mml:mi></mml:msqrt></mml:mrow></mml:semantics></mml:math></inline-formula> for the laser peened specimen, 6.46 &#xB1; 0.25 MPa<inline-formula><mml:math id="mm7" display="block"><mml:semantics><mml:mrow><mml:msqrt><mml:mi mathvariant="normal">m</mml:mi></mml:msqrt></mml:mrow></mml:semantics></mml:math></inline-formula> for the cavitation peened specimen and 6.52 &#xB1; 0.17 MPa<inline-formula><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:msqrt><mml:mi mathvariant="normal">m</mml:mi></mml:msqrt></mml:mrow></mml:semantics></mml:math></inline-formula> for the shot peened specimen at 0.88 s/mm, as shown in <xref ref-type="table" rid="metals-10-00063-t003">Table 3</xref>. In the case of shot peening with short processing times per unit length, <italic>t<sub>p</sub></italic> = 0.18, 0.29 and 0.58 s/mm, <italic>&#x2206;K<sub>th</sub></italic> is 5.51, 5.74 and 6.49 MPa<inline-formula><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:msqrt><mml:mi mathvariant="normal">m</mml:mi></mml:msqrt></mml:mrow></mml:semantics></mml:math></inline-formula>, respectively. As reported in the previous reference [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>], the optimum value of <italic>t<sub>p</sub></italic> is 0.88 s/mm, thus <italic>&#x2206;K<sub>th</sub></italic> cannot be improved by reducing <italic>t<sub>p</sub></italic>. Thus, it can be concluded that peening at the optimum value of <italic>t<sub>p</sub></italic> increases <italic>&#x2206;K<sub>th</sub></italic> by more than 70%.</p>
+        <p><xref ref-type="fig" rid="metals-10-00063-f009">Figure 9</xref> shows the crack length changing with number of cycle obtained by the constant applied stress test. In <xref ref-type="fig" rid="metals-10-00063-f009">Figure 9</xref>, in the case of non-peened, cavitation peening, laser peening and shot peening at <italic>t<sub>p</sub></italic> = 0.88 s/mm, the 1st set was shown by closed symbols and the 2nd set was shown by open symbols. As shown in <xref ref-type="fig" rid="metals-10-00063-f009">Figure 9</xref>, the number of cycles to fracture was extended by peening. The longest number of cycle to fracture was obtained with cavitation peening, followed by shot peening at <italic>t<sub>p</sub></italic> = 0.88 s/mm.</p>
+        <p><xref ref-type="fig" rid="metals-10-00063-f010">Figure 10</xref> shows the fractured surface after the constant applied stress test. As shown in <xref ref-type="fig" rid="metals-10-00063-f010">Figure 10</xref>, the crack propagated in a semi-elliptical shape from the notch, then fractured. The steps near the surface was generated by the secondary cracks.</p>
+        <p>To compare the effect of the peening methods on crack growth, <xref ref-type="fig" rid="metals-10-00063-f011">Figure 11</xref> shows the relationship between the stress intensity factor range <italic>&#x2206;K</italic> and the crack growth rate <italic>da</italic>/<italic>dn</italic> obtained by the constant applied stress test. <xref ref-type="fig" rid="metals-10-00063-f011">Figure 11</xref>a,c show the complete data range and <xref ref-type="fig" rid="metals-10-00063-f011">Figure 11</xref>b.</p>
+        <p>And (d) show the data in the Paris&#x2019; law domain, i.e., <italic>da</italic>/<italic>dn</italic> = 10<sup>&#x2212;9</sup> m/cycle to <italic>da</italic>/<italic>dn</italic> = 10<sup>&#x2212;8</sup> m/cycle. The constants of Paris&#x2019; law and correlation coefficient of the data in <xref ref-type="fig" rid="metals-10-00063-f011">Figure 11</xref>b,d are shown in <xref ref-type="table" rid="metals-10-00063-t004">Table 4</xref>. The number of data points and the probability of non-correlation were also shown in <xref ref-type="table" rid="metals-10-00063-t004">Table 4</xref>. The probability of non-correlation was less than 1% except shot peening at <italic>t<sub>p</sub></italic> = 0.18 s/mm. Namely the relationship in <xref ref-type="fig" rid="metals-10-00063-f011">Figure 11</xref> is worth to discussing. The constant <italic>C</italic> was reduced by shot peening, cavitation peening and laser peening remarkably. In addition, the constant <italic>m</italic> of cavitation peening and laser peening increased. This result suggested that the crack growth at initial stage was reduced by cavitation peening and laser peening. As shown in <xref ref-type="fig" rid="metals-10-00063-f011">Figure 11</xref>a&#x2013;d, the <italic>&#x2206;K</italic>-<italic>da</italic>/<italic>dn</italic> curves shift to the right and down after peening. This means that at equivalent values of <italic>&#x2206;K</italic>, <italic>da</italic>/<italic>dn</italic> decreases after peening. If equivalent values of <italic>da</italic>/<italic>dn</italic> are compared, <italic>&#x2206;K</italic> increases after peening. <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) was calculated as described in <xref ref-type="sec" rid="sec2dot1-metals-10-00063">Section 2.1</xref>, and is 2.05 &#xB1; 0.23 for laser peening, 2.21 &#xB1; 0.05 for shot peening at <italic>t<sub>p</sub></italic> = 0.88 s/mm, and 2.32 &#xB1; 0.05 for cavitation peening. These values are also shown in <xref ref-type="table" rid="metals-10-00063-t003">Table 3</xref>. At the present condition base on the longer fatigue test changing with processing time per unit length and pulse density [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>], both <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) of laser peening were slightly smaller than those of shot peening at <italic>t<sub>p</sub></italic> = 0.88 s/mm, as shown in <xref ref-type="table" rid="metals-10-00063-t003">Table 3</xref>. If the laser peening condition was changed, the result would be changed. In the case of shot peening at shorter <italic>t<sub>p</sub></italic>, <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) is 1.68 &#xB1; 0.32 for <italic>t<sub>p</sub></italic> = 0.18 s/mm, 1.69 &#xB1; 0.10 for <italic>t<sub>p</sub></italic> = 0.29 s/mm and 1.99 &#xB1; 0.11 for <italic>t<sub>p</sub></italic> = 0.58 s/mm. As with <italic>&#x2206;K<sub>th</sub></italic>, <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) does not improve with shorter <italic>t<sub>p</sub></italic>. Thus, both <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) increase with <italic>t<sub>p</sub></italic> under the conditions used here.</p>
+        <p>As shown in <xref ref-type="fig" rid="metals-10-00063-f011">Figure 11</xref>, the data scatter for SP0.18 was higher than the others. To clarify the reason, <xref ref-type="fig" rid="metals-10-00063-f012">Figure 12</xref> shows the aspect of shot peened surface at <italic>t<sub>p</sub></italic> = 0.18 and 0.29 s/mm. Please note that aspects of the peened surface treated by cavitation peening, laser peening and shot peening at <italic>t<sub>p</sub></italic> = 0.88 s/mm were shown in the reference [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>]. As shown in <xref ref-type="fig" rid="metals-10-00063-f012">Figure 12</xref>, in the case of SP0.18 and SP0.29, plastic deformation pits introduced by the shots did not cover whole area, and not-peened surface was observed. This is one of reasons why data of SP0.18 was more scattered compared to the others.</p>
+        <p><xref ref-type="fig" rid="metals-10-00063-f013">Figure 13</xref> shows the relationship between <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>). As <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) is an improvement ratio against non-peened specimen, <italic>&#x2206;K<sub>th</sub></italic> is revealed by <italic>&#x2206;K<sub>th</sub></italic>&#x2019; which is normalized by non-peened one. As shown in <xref ref-type="fig" rid="metals-10-00063-f013">Figure 13</xref>, <italic>&#x2206;K<sub>th</sub></italic>&#x2019; and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) are roughly in a linear relationship. Please note that the correlation coefficient for the 7 points is 0.963. This means that the probability of non-correlation is less than 0.05%. Thus, it can be said that the relationship between <italic>&#x2206;K<sub>th</sub></italic>&#x2019; and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) is highly significant. The values of <italic>&#x2206;K<sub>th</sub></italic>&#x2019; for cavitation peening and shot peening are similar. On the other hand, in the case of <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>), this is slightly larger for cavitation peening than for shot peening as shown in <xref ref-type="table" rid="metals-10-00063-t003">Table 3</xref>. This suggests that the effect on reducing crack growth is slightly larger for cavitation peening than for shot peening.</p>
+      </sec>
+      <sec id="sec3dot2-metals-10-00063">
+        <title>3.2. Effect of the Mechanical Properties on &#x2206;K<sub>th</sub> and &#x2206;(&#x2206;K)</title>
+        <p>To investigate the effect of the mechanical properties on <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>), <xref ref-type="fig" rid="metals-10-00063-f014">Figure 14</xref> and <xref ref-type="fig" rid="metals-10-00063-f015">Figure 15</xref> show <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) as functions of the mechanical properties, including (a) the Vickers hardness <italic>HV</italic>, (b) the maximum height of the roughness <italic>R<sub>z</sub></italic> and (c) the surface residual stress <italic>&#x3C3;<sub>R</sub></italic>. The correlation coefficients for each of these curves are 0.855 for <xref ref-type="fig" rid="metals-10-00063-f014">Figure 14</xref>a, 0.830 for <xref ref-type="fig" rid="metals-10-00063-f014">Figure 14</xref>b, 0.924 for <xref ref-type="fig" rid="metals-10-00063-f014">Figure 14</xref>c, 0.912 for <xref ref-type="fig" rid="metals-10-00063-f015">Figure 15</xref>a, 0.658 for <xref ref-type="fig" rid="metals-10-00063-f015">Figure 15</xref>b and 0.930 for <xref ref-type="fig" rid="metals-10-00063-f015">Figure 15</xref>c. These results show that both <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) increase with increasing Vickers hardness and compressive residuals stress. As is well known, peening is a mechanical surface treatment used for work hardening and introducing compressive residual stress by generating local plastic deformation. The surface roughness is increased by shot peening, laser peening and cavitation peening. This is why <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) increase with increasing <italic>R<sub>z</sub></italic>. However, the increase in roughness also increases crack initiation. Thus, a small increase in surface roughness by peening is best for improving the fatigue properties.</p>
+        <p>When the different peening methods are compared, <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) are similar to each other as shown in <xref ref-type="table" rid="metals-10-00063-t003">Table 3</xref>. As shown in <xref ref-type="fig" rid="metals-10-00063-f014">Figure 14</xref>a and <xref ref-type="fig" rid="metals-10-00063-f015">Figure 15</xref>a, the Vickers hardness after shot peening, laser peening and cavitation peening are very close to each other. On the other hand, the surface roughness after cavitation peening is smoother than that after shot peening and laser peening, as shown in <xref ref-type="fig" rid="metals-10-00063-f014">Figure 14</xref>b and <xref ref-type="fig" rid="metals-10-00063-f015">Figure 15</xref>b. This shows that <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) can be improved by cavitation peening with a smaller increase in surface roughness compared with shot peening and laser peening. When the compressive residual stress at the surface is compared as shown in <xref ref-type="fig" rid="metals-10-00063-f014">Figure 14</xref>c and <xref ref-type="fig" rid="metals-10-00063-f015">Figure 15</xref>c, the largest value is for shot peening, with cavitation peening second and laser peening the smallest. It can be concluded that the smallest possible surface roughness is obtained with cavitation peening, and that shot peening introduces the largest compressive residual stress, but with the greatest increase in surface roughness.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-metals-10-00063" sec-type="discussion">
+      <title>4. Discussions</title>
+      <p>To investigate the relationship between the fatigue strength and crack growth, <xref ref-type="fig" rid="metals-10-00063-f016">Figure 16</xref> and <xref ref-type="fig" rid="metals-10-00063-f017">Figure 17</xref> show the fatigue strength <italic>&#x3C3;<sub>fs</sub></italic> as a function of <italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>), respectively. The value of the fatigue strength of austenitic stainless JIS SUS316L was obtained from reference [<xref ref-type="bibr" rid="B17-metals-10-00063">17</xref>], and is shown in <xref ref-type="table" rid="metals-10-00063-t003">Table 3</xref>. In <xref ref-type="fig" rid="metals-10-00063-f016">Figure 16</xref> and <xref ref-type="fig" rid="metals-10-00063-f017">Figure 17</xref>, <italic>&#x3C3;<sub>fs</sub></italic> is revealed by <italic>&#x3C3;<sub>fs</sub></italic>&#x2019; which is normalized by non-peened one. As mentioned above, there are no big differences between the values of <italic>&#x2206;K<sub>th</sub></italic>&#x2019;. The correlation coefficient between <italic>&#x3C3;<sub>fs</sub></italic>&#x2019; and <italic>&#x2206;K<sub>th</sub></italic>&#x2019; is 0.806. This means that the probability of non-correlation is larger than 20%. On the other hand, the correlation coefficient between <italic>&#x3C3;<sub>fs</sub></italic>&#x2019; and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) is 0.884, and the probability of non-correlation is about 12%. Thus, it can be concluded that the decrease in the crack growth rate rather than in crack initiation is the main reason for the improvement in fatigue strength.</p>
+    </sec>
+    <sec id="sec5-metals-10-00063" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>To clarify the mechanism by which the mechanical properties of austenitic stainless steel is improved by mechanical surface treatments, austenitic stainless steel JIS SUS316L was treated by shot peening, cavitation peening using a submerged water jet and cavitation peening using a submerged pulsed laser. To avoid confusion, these latter two are referred to as cavitation peening and laser peening, respectively. Comparisons between crack initiation and growth in the surface layer after being subjected to these different peening processes was investigated by determining the threshold stress intensity factor range <italic>&#x2206;K<sub>th</sub></italic> and the stress intensity factor range increment <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) obtained by means of a <italic>K</italic>-decreasing test and a constant applied stress test, respectively. Please note that in the present experiments, a load controlled plane bending fatigue tester was used. The results obtained for the material under test, JIS SUS316L, which were treated by shot peening, cavitation peening and laser peening, can be summarized as follows.
+      <list list-type="order"><list-item><label>(1)</label><p>The values of <italic>&#x2206;K<sub>th</sub></italic>&#x2019; and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) are roughly in a linear relationship, even though the specimens were treated using different peening methods. Please note that <italic>&#x2206;K<sub>th</sub></italic>&#x2019; is <italic>&#x2206;K<sub>th</sub></italic> normalized by non-peened one. The reduction in crack growth after cavitation peening is larger than that after the other peening methods at equivalent values of <italic>&#x2206;K<sub>th</sub></italic>&#x2019;.</p></list-item><list-item><label>(2)</label><p>The correlation between <italic>&#x2206;(&#x2206;K</italic>) and the fatigue strength of the stainless steel specimens treated by the various peening processes is better than that between <italic>&#x2206;K<sub>th</sub></italic>&#x2019; and the fatigue strength.</p></list-item><list-item><label>(3)</label><p><italic>&#x2206;K<sub>th</sub></italic> and <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) are increased with increasing surface hardness and compressive residual stress.</p></list-item><list-item><label>(4)</label><p>The values of <italic>&#x2206;K<sub>th</sub></italic> and values of <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) of the specimens after treatment by the different peening methods are each roughly the same. When the mechanical properties of the peened specimens were compared, it was found that the cavitation peened specimen was smoother than the others. The compressive residual stress at the surface introduced by shot peening was larger than that introduced by the other peening methods.</p></list-item></list></p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Funding</title>
+      <p>This research was partly supported by JSPS KAKENHI Grant Number 17H03138 and 18KK0103.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The author wishes to thank Kazumasa Sanada and Ryosuke Hori, Ex-students of the Department of Finemechanics, Tohoku University for their help in the experiments. </p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The author declares no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-metals-10-00063">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Disegi</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Eschbach</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stainless steel in bone surgery</article-title>
+          <source>Inj. Int. J. Care Inj.</source>
+          <year>2000</year>
+          <volume>31</volume>
+          <fpage>S2</fpage>
+          <lpage>S6</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0020-1383(00)80015-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-metals-10-00063">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Asri</surname>
+              <given-names>R.I.M.</given-names>
+            </name>
+            <name>
+              <surname>Harun</surname>
+              <given-names>W.S.W.</given-names>
+            </name>
+            <name>
+              <surname>Samykano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lah</surname>
+              <given-names>N.A.C.</given-names>
+            </name>
+            <name>
+              <surname>Ghani</surname>
+              <given-names>S.A.C.</given-names>
+            </name>
+            <name>
+              <surname>Tarlochan</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Raza</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Corrosion and surface modification on biocompatible metals: A review</article-title>
+          <source>Mater. Sci. Eng. C Mater. Biol. Appl.</source>
+          <year>2017</year>
+          <volume>77</volume>
+          <fpage>1261</fpage>
+          <lpage>1274</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msec.2017.04.102</pub-id>
+          <pub-id pub-id-type="pmid">28532004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-metals-10-00063">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Key factors and applications of cavitation peening</article-title>
+          <source>Inter. J. Peen. Sci. Technol.</source>
+          <year>2017</year>
+          <volume>1</volume>
+          <fpage>3</fpage>
+          <lpage>60</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4-metals-10-00063">
+        <label>4.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fundamentals and applications of cavitation peening comparing with shot peening and laser peening</article-title>
+          <source>Proceedings of the Advanced Surface Enhancement, INCASE 2019, Lecture Notes in Mechanical Engineering</source>
+          <conf-loc>Singapore</conf-loc>
+          <conf-date>10&#x2013;12 September 2020</conf-date>
+          <fpage>76</fpage>
+          <lpage>87</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5-metals-10-00063">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Delosrios</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Walley</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Milan</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Hammersley</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fatigue-crack initiation and propagation on shot-peened surfaces in A316 stainless-steel</article-title>
+          <source>Int. J. Fatigue</source>
+          <year>1995</year>
+          <volume>17</volume>
+          <fpage>493</fpage>
+          <lpage>499</lpage>
+          <pub-id pub-id-type="doi">10.1016/0142-1123(95)00044-T</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-metals-10-00063">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Azar</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Hashemi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Yazdi</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of shot peening on fatigue and corrosion behavior of 316L stainless steel in ringer&#x2019;s solution</article-title>
+          <source>Surf. Coat. Technol.</source>
+          <year>2010</year>
+          <volume>204</volume>
+          <fpage>3546</fpage>
+          <lpage>3551</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.surfcoat.2010.04.015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-metals-10-00063">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Mhaede</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Basha</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wollmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of shot peening parameters and hydroxyapatite coating on surface properties and corrosion behavior of medical grade AISI 316L stainless steel</article-title>
+          <source>Surf. Coat. Technol.</source>
+          <year>2015</year>
+          <volume>280</volume>
+          <fpage>347</fpage>
+          <lpage>358</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.surfcoat.2015.09.026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-metals-10-00063">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bagherifard</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Slawik</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fernandez-Pariente</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Pauly</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Mucklich</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Guagliano</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nanoscale surface modification of AISI 316L stainless steel by severe shot peening</article-title>
+          <source>Mater. Des.</source>
+          <year>2016</year>
+          <volume>102</volume>
+          <fpage>68</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.matdes.2016.03.162</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-metals-10-00063">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yamauchi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Adachi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shindo</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Oba</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>High-speed observations of the cavitation cloud around a high-speed submerged water-jet</article-title>
+          <source>JSME Int. J.</source>
+          <year>1995</year>
+          <volume>38</volume>
+          <fpage>245</fpage>
+          <lpage>251</lpage>
+          <pub-id pub-id-type="doi">10.1299/jsmeb.38.245</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-metals-10-00063">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kamisaka</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of injection pressure on mechanical surface treatment using a submerged water jet</article-title>
+          <source>J. Jet Flow Eng.</source>
+          <year>2018</year>
+          <volume>33</volume>
+          <fpage>4</fpage>
+          <lpage>10</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B11-metals-10-00063">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peyre</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Fabbro</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Merrien</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lieurade</surname>
+              <given-names>H.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Laser shock processing of aluminium alloys. Application to high cycle fatigue behaviour</article-title>
+          <source>Mater. Sci. Eng. A Struct. Mater. Prop. Microstruct. Process.</source>
+          <year>1996</year>
+          <volume>210</volume>
+          <fpage>102</fpage>
+          <lpage>113</lpage>
+          <pub-id pub-id-type="doi">10.1016/0921-5093(95)10084-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-metals-10-00063">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hatamleh</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Rivero</surname>
+              <given-names>I.V.</given-names>
+            </name>
+            <name>
+              <surname>Lyons</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of surface residual stresses in friction stir welds due to laser and shot peening</article-title>
+          <source>J. Mater. Eng. Perform.</source>
+          <year>2007</year>
+          <volume>16</volume>
+          <fpage>549</fpage>
+          <lpage>553</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11665-007-9091-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-metals-10-00063">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Telang</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gili</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Mannava</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vasudevan</surname>
+              <given-names>V.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of temperature on microstructure and residual stresses induced by surface treatments in inconel 718 SPF</article-title>
+          <source>Surf. Coat. Technol.</source>
+          <year>2018</year>
+          <volume>344</volume>
+          <fpage>93</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.surfcoat.2018.02.094</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-metals-10-00063">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sano</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Obata</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kubo</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mukai</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yoda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Masaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ochi</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Retardation of crack initiation and growth in austenitic stainless steels by laser peening without protective coating</article-title>
+          <source>Mater. Sci. Eng. A</source>
+          <year>2006</year>
+          <volume>417</volume>
+          <fpage>334</fpage>
+          <lpage>340</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msea.2005.11.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-metals-10-00063">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lichtarowicz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Momma</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>E.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A new calibration method for dynamically loaded transducers and its application to cavitation impact measurement</article-title>
+          <source>J. Fluids Eng.</source>
+          <year>1998</year>
+          <volume>120</volume>
+          <fpage>712</fpage>
+          <lpage>718</lpage>
+          <pub-id pub-id-type="doi">10.1115/1.2820728</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-metals-10-00063">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sekine</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of the enhanced cavitation impact energy using a PVDF transducer with an acrylic resin backing</article-title>
+          <source>Measurement</source>
+          <year>2011</year>
+          <volume>44</volume>
+          <fpage>1279</fpage>
+          <lpage>1283</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.measurement.2011.03.027</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-metals-10-00063">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison between the improvements made to the fatigue strength of stainless steel by cavitation peening, water jet peening, shot peening and laser peening</article-title>
+          <source>J. Mater. Process. Technol.</source>
+          <year>2019</year>
+          <volume>269</volume>
+          <fpage>65</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jmatprotec.2019.01.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-metals-10-00063">
+        <label>18.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Surface mechanics design by cavitation peening using submerged pulse laser</article-title>
+          <source>Proceedings of the Abstracts of 7th International Conference on Laser Peening and Related Phenomena</source>
+          <conf-loc>Singapore</conf-loc>
+          <conf-date>17&#x2013;22 June 2018</conf-date>
+          <fpage>57</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B19-metals-10-00063">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <article-title>G32-16 Standard test method for cavitation erosion using vibratory apparatus1</article-title>
+          <source>ASTM Stand.</source>
+          <year>2016</year>
+          <volume>3</volume>
+          <fpage>1</fpage>
+          <lpage>20</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B20-metals-10-00063">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <article-title>G134-17 Standard test method for erosion of solid materials by a cavitating liquid jet</article-title>
+          <source>ASTM Stand.</source>
+          <year>2017</year>
+          <volume>3</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B21-metals-10-00063">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kikuchi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Hiraiwa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Oba</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>An indirect vibratory method capable of simulating several cavitating states</article-title>
+          <source>JSME Int. J. Ser. B Fluids Therm. Eng.</source>
+          <year>1991</year>
+          <volume>34</volume>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="doi">10.1299/jsmeb1988.34.1_1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-metals-10-00063">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bai</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>Y.Y.</given-names>
+            </name>
+            <name>
+              <surname>Saalbach</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Twiefel</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Theoretical and experimental investigations of ultrasonic sound fields in thin bubbly liquid layers for ultrasonic cavitation peening</article-title>
+          <source>Ultrasonics</source>
+          <year>2019</year>
+          <volume>93</volume>
+          <fpage>130</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ultras.2018.11.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-metals-10-00063">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lesyk</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mordyuk</surname>
+              <given-names>B.N.</given-names>
+            </name>
+            <name>
+              <surname>Dzhemelinskyi</surname>
+              <given-names>V.V.</given-names>
+            </name>
+            <name>
+              <surname>Martinez</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Khripta</surname>
+              <given-names>N.I.</given-names>
+            </name>
+            <name>
+              <surname>Lamikiz</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical surface treatments of AISI 304 stainless steel: Effects on surface microrelief, residual stress, and microstructure</article-title>
+          <source>J. Mater. Eng. Perform.</source>
+          <year>2019</year>
+          <volume>28</volume>
+          <fpage>5307</fpage>
+          <lpage>5322</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11665-019-04273-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-metals-10-00063">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Munoz-Cubillos</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Coronado</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Deep rolling effect on fatigue behavior of austenitic stainless steels</article-title>
+          <source>Int. J. Fatigue</source>
+          <year>2017</year>
+          <volume>95</volume>
+          <fpage>120</fpage>
+          <lpage>131</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijfatigue.2016.10.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-metals-10-00063">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Retraint</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Kanoute</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative study of the effects of surface mechanical attrition treatment and conventional shot peening on low cycle fatigue of a 316L stainless steel</article-title>
+          <source>Surf. Coat. Technol.</source>
+          <year>2018</year>
+          <volume>349</volume>
+          <fpage>556</fpage>
+          <lpage>566</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.surfcoat.2018.06.041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-metals-10-00063">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ben Moussa</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gharbi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Chaieb</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Ben Fredj</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improvement of AISI 304 austenitic stainless steel low-cycle fatigue life by initial and intermittent deep rolling</article-title>
+          <source>Int. J. Adv. Manuf. Technol.</source>
+          <year>2019</year>
+          <volume>101</volume>
+          <fpage>435</fpage>
+          <lpage>449</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00170-018-2955-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-metals-10-00063">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghelichi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Crispiatico</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Guagliano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bagherifard</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>An energetic approach to predict the effect of shot peening-based surface treatments</article-title>
+          <source>Metals</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <elocation-id>190</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/met8030190</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-metals-10-00063">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <article-title>E647-13 Standard test method for measurement of fatigue crack growth rates</article-title>
+          <source>ASTM Stand.</source>
+          <year>2013</year>
+          <volume>3</volume>
+          <fpage>1</fpage>
+          <lpage>48</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B29-metals-10-00063">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of crack initiation and propagation of stainless steel treated by cavitating peening using a load controlled plate bending fatigue tester</article-title>
+          <source>Met. Finish. News</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <fpage>60</fpage>
+          <lpage>62</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B30-metals-10-00063">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takakuwa</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Sanada</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of fatigue crack propagation in surface modification layer by a load-controlled plate bending fatigue tester</article-title>
+          <source>Trans. JSME</source>
+          <year>2014</year>
+          <volume>80</volume>
+          <fpage>1</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1299/transjsme.2014smm0022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-metals-10-00063">
+        <label>31.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Masaki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ochi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fatigue property improvement of type 316L steel by cavitation shotless peening</article-title>
+          <source>Proceedings of the 10th International Conference on Shot Peening</source>
+          <conf-loc>Tokyo, Japan</conf-loc>
+          <conf-date>15&#x2013;18 September 2008</conf-date>
+          <fpage>53</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B32-metals-10-00063">
+        <label>32.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improvement of threshold stress intensity factor range of stainless steel by cavitation peening</article-title>
+          <source>Proceedings of the 12th International Conference on Shot Peening</source>
+          <conf-loc>Goslar, Germany</conf-loc>
+          <conf-date>15&#x2013;18 September 2014</conf-date>
+          <fpage>55</fpage>
+          <lpage>60</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B33-metals-10-00063">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raju</surname>
+              <given-names>I.S.</given-names>
+            </name>
+            <name>
+              <surname>Newman</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Stress-intensity factors for a wide-range of semi-elliptical surface cracks in finite-thickness plates</article-title>
+          <source>Eng. Fract. Mech.</source>
+          <year>1979</year>
+          <volume>11</volume>
+          <fpage>817</fpage>
+          <lpage>829</lpage>
+          <pub-id pub-id-type="doi">10.1016/0013-7944(79)90139-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-metals-10-00063">
+        <label>34.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>B.B.</given-names>
+            </name>
+          </person-group>
+          <source>Two-Dimensional X-Ray Diffraction</source>
+          <publisher-name>John Wiley &amp; Sons, Inc.</publisher-name>
+          <publisher-loc>Hoboken, NJ, USA</publisher-loc>
+          <year>2009</year>
+          <fpage>249</fpage>
+          <lpage>328</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35-metals-10-00063">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takakuwa</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimizing the conditions for residual stress measurement using a two-dimensional XRD method with specimen oscillation</article-title>
+          <source>Adv. Mater. Phys. Chem.</source>
+          <year>2013</year>
+          <volume>3</volume>
+          <fpage>8</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.4236/ampc.2013.31A002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-metals-10-00063">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhancing the aggressive intensity of a cavitating jet by introducing a cavitator and a guide pipe</article-title>
+          <source>J. Fluid Sci. Technol.</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <fpage>1</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="doi">10.1299/jfst.2014jfst0001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-metals-10-00063">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhancing the aggressive intensity of a cavitating jet by means of the nozzle outlet geometry</article-title>
+          <source>J. Fluids Eng.</source>
+          <year>2011</year>
+          <volume>133</volume>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.1115/1.4004905</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-metals-10-00063">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Naito</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Takakuwa</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Soyama</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of peening technique using recirculating shot accelerated by water jet</article-title>
+          <source>Mater. Sci. Technol.</source>
+          <year>2012</year>
+          <volume>28</volume>
+          <fpage>234</fpage>
+          <lpage>239</lpage>
+          <pub-id pub-id-type="doi">10.1179/1743284711Y.0000000027</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="metals-10-00063-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Dimensions of plane bending fatigue specimens (thickness: 4 mm).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g001.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Schematic diagram of load controlled plane bending fatigue tester (side view).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g002.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Photograph of load controlled plane bending fatigue tester (front view).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g003.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Schematic diagram illustrating the definition of the stress intensity factor range increment, <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) = 10<italic><sup>m</sup></italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g004.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Schematic illustration of the set up for cavitation peeing using a submerged water jet.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g005.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Schematic illustration of the set up for cavitation peeing using a submerged laser.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g006.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Schematic illustration of the set up for peeing using recirculating shot.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g007.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Relationship between the stress intensity factor range <italic>&#x2206;K</italic> and the crack growth rate <italic>da</italic>/<italic>dn</italic> obtained by the <italic>K</italic>-decreasing test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g008.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Crack length as a function of number of cycle obtained by the constant applied stress test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g009.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Aspect of fractured surface after the constant applied stress test of specimens of (<bold>a</bold>) non-peened, (<bold>b</bold>) shot peening, (<bold>c</bold>) cavitation peening and (<bold>d</bold>) laser peening.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g010.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Relationship between the stress intensity factor range <italic>&#x2206;K</italic> and the crack growth rate <italic>da</italic>/<italic>dn</italic> obtained by the constant applied stress test (continued).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g011.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>Aspect of shot peened surface at <italic>t<sub>p</sub></italic> = 0.18 and 0.29 s/mm.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g012.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f013" position="float">
+        <label>Figure 13</label>
+        <caption>
+          <p>Relationship between the stress intensity factor range increment <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) and the normalized threshold stress intensity factor range <italic>&#x2206;K<sub>th</sub></italic>&#x2019;.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g013.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f014" position="float">
+        <label>Figure 14</label>
+        <caption>
+          <p>Relationship between and the surface mechanical properties and the threshold stress intensity factor range <italic>&#x2206;K<sub>th</sub></italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g014a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g014b.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f015" position="float">
+        <label>Figure 15</label>
+        <caption>
+          <p>Relationship between the surface mechanical properties and the stress intensity factor range increment <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g015.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f016" position="float">
+        <label>Figure 16</label>
+        <caption>
+          <p>Relationship between the normalized threshold stress intensity factor range <italic>&#x2206;K<sub>th</sub></italic>&#x2019; and the normalized fatigue strength <italic>&#x3C3;<sub>fs</sub></italic>&#x2019;.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g016.tif"/>
+      </fig>
+      <fig id="metals-10-00063-f017" position="float">
+        <label>Figure 17</label>
+        <caption>
+          <p>Relationship between the stress intensity factor range increment <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) and the normalized fatigue strength <italic>&#x3C3;<sub>fs</sub></italic>&#x2019;.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00063-g017.tif"/>
+      </fig>
+      <table-wrap id="metals-10-00063-t001" position="float">
+        <object-id pub-id-type="pii">metals-10-00063-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Chemical composition of the stainless steel used in the tests (mass %).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">C</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Si</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mn</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">P</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">S</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ni</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cr</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.014</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.63</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.97</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.030</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.004</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12.03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.45</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.05</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="metals-10-00063-t002" position="float">
+        <object-id pub-id-type="pii">metals-10-00063-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Mechanical properties of the stainless steel used in the tests.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Yield Strength (0.2%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tensile Strength</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Elongation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">304 MPa</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">576 MPa</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">52%</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="metals-10-00063-t003" position="float">
+        <object-id pub-id-type="pii">metals-10-00063-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Threshold stress intensity factor range <italic>&#x2206;K<sub>th</sub></italic>, stress intensity factor range increment <italic>&#x2206;</italic>(<italic>&#x2206;K</italic>) and fatigue strength <italic>&#x3C3;<sub>fs</sub></italic>.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Process</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>&#x2206;K<sub>th</sub></italic>
+                <inline-formula>
+                  <mml:math id="mm10" display="block">
+                    <mml:semantics>
+                      <mml:mstyle mathvariant="bold">
+                        <mml:mrow>
+                          <mml:mi mathvariant="bold">MPa</mml:mi>
+                          <mml:msqrt>
+                            <mml:mi mathvariant="bold">m</mml:mi>
+                          </mml:msqrt>
+                        </mml:mrow>
+                      </mml:mstyle>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>&#x2206;K<sub>th</sub></italic>&#x2019;</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>&#x2206;</italic>(<italic>&#x2206;K</italic>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fatigue Strength <italic>&#x3C3;<sub>fs</sub></italic> MPa</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>&#x3C3;<sub>fs</sub></italic>&#x2019;</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Non-peened</td>
+              <td align="center" valign="middle">3.71 &#xB1; 0.11</td>
+              <td align="center" valign="middle">1.00 &#xB1; 0.03</td>
+              <td align="center" valign="middle">1.00 &#xB1; 0.05</td>
+              <td align="center" valign="middle">278.9 &#xB1; 5.2</td>
+              <td align="center" valign="middle">1.00 &#xB1; 0.02</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Shot peening</td>
+              <td align="center" valign="middle">6.52 &#xB1; 0.17</td>
+              <td align="center" valign="middle">1.76 &#xB1; 0.07</td>
+              <td align="center" valign="middle">2.21 &#xB1; 0.05</td>
+              <td align="center" valign="middle">325.0 &#xB1; 8.7</td>
+              <td align="center" valign="middle">1.17 &#xB1; 0.04</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cavitation peening</td>
+              <td align="center" valign="middle">6.46 &#xB1; 0.25</td>
+              <td align="center" valign="middle">1.74 &#xB1; 0.09</td>
+              <td align="center" valign="middle">2.32 &#xB1; 0.05</td>
+              <td align="center" valign="middle">348.1 &#xB1; 8.4</td>
+              <td align="center" valign="middle">1.25 &#xB1; 0.04</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Laser peening</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.33 &#xB1; 0.20</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.71 &#xB1; 0.07</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.05 &#xB1; 0.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">303.2 &#xB1; 8.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.09 &#xB1; 0.04</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="metals-10-00063-t004" position="float">
+        <object-id pub-id-type="pii">metals-10-00063-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Paris&#x2019; law constants and correlation coefficient.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Heading</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Paris&#x2019; Law Constants</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Correlation Coefficient</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Number of Data Points</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Probability of Non-Correlation (%)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><italic>C</italic> m/cycle</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <italic>m</italic>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Non-peened</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.8 &#xD7; 10<sup>&#x2212;10</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4 &#xB1; 0.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.67</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">18</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.23</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Shot peening<break/>(<italic>t<sub>p</sub></italic> = 0.18 s/mm)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.5 &#xD7; 10<sup>&#x2212;10</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.1 &#xB1; 1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.38</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">53</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Shot peening<break/>(<italic>t<sub>p</sub></italic> = 0.29 s/mm)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.5 &#xD7; 10<sup>&#x2212;11</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.0 &#xB1; 0.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.80</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">19</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.004</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Shot peening<break/>(<italic>t<sub>p</sub></italic> = 0.58 s/mm)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2 &#xD7; 10<sup>&#x2212;10</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.4 &#xB1; 0.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.55</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Shot peening<break/>(<italic>t<sub>p</sub></italic> = 0.88 s/mm)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.6 &#xD7; 10<sup>&#x2212;11</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.6 &#xB1; 0.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.66</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">52</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cavitation peening</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.7 &#xD7; 10<sup>&#x2212;11</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.8 &#xB1; 0.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.66</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Laser peening</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.3 &#xD7; 10<sup>&#x2212;11</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.8 &#xB1; 0.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.71</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.013</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

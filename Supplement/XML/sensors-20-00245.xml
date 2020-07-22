@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sensors</journal-id>
+      <journal-title-group>
+        <journal-title>Sensors</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sensors</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sensors</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1424-8220</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/s20010245</article-id>
+      <article-id pub-id-type="publisher-id">sensors-20-00245</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Theoretical Analysis and Determination of the Correction Factor for a Waveguide Microcalorimeter</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9202-5800</contrib-id>
+          <name>
+            <surname>Cui</surname>
+            <given-names>Xiaohai</given-names>
+          </name>
+          <xref rid="af1-sensors-20-00245" ref-type="aff">1</xref>
+          <xref rid="c1-sensors-20-00245" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0601-8696</contrib-id>
+          <name>
+            <surname>Meng</surname>
+            <given-names>Yu Song</given-names>
+          </name>
+          <xref rid="af2-sensors-20-00245" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yuan</surname>
+            <given-names>Wenze</given-names>
+          </name>
+          <xref rid="af1-sensors-20-00245" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Yong</given-names>
+          </name>
+          <xref rid="af1-sensors-20-00245" ref-type="aff">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sensors-20-00245"><label>1</label>National Institute of Metrology, Beijing 100013, China; <email>yuanwz@nim.ac.cn</email> (W.Y.); <email>liy@nim.ac.cn</email> (Y.L.)</aff>
+      <aff id="af2-sensors-20-00245"><label>2</label>National Metrology Centre, Agency for Science, Technology and Research (A*STAR), Singapore 118221, Singapore; <email>meng_yusong@nmc.a-star.edu.sg</email></aff>
+      <author-notes>
+        <corresp id="c1-sensors-20-00245"><label>*</label>Correspondence: <email>cuixh@nim.ac.cn</email>; Tel.: +86-10-6452-5221</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>20</volume>
+      <issue>1</issue>
+      <elocation-id>245</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This paper proposes a new method for determining the correction factor of a newly developed waveguide primary power measurement system (i.e., microcalorimeter), based on the electromagnetic field theory analysis for waveguide thermal isolation section (TIS) in foil short measurement mode. The new method determines the contribution of the power dissipated within the TIS into the correction factor, in term of the physical dimensions of the TIS. Performance comparison and analysis show that the newly proposed method can significantly reduce the measurement uncertainty when evaluating the correction factor of waveguide microcalorimeters.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>correction factor</kwd>
+        <kwd>electromagnetic field theory</kwd>
+        <kwd>microcalorimeter</kwd>
+        <kwd>primary standards</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sensors-20-00245" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Microcalorimeters have been recognized to be an effective solution for radio frequency (RF), microwave, and millimeter-wave power measurements [<xref ref-type="bibr" rid="B1-sensors-20-00245">1</xref>,<xref ref-type="bibr" rid="B2-sensors-20-00245">2</xref>,<xref ref-type="bibr" rid="B3-sensors-20-00245">3</xref>], and have been successfully developed within the National Metrology Institutes worldwide over past few decades [<xref ref-type="bibr" rid="B4-sensors-20-00245">4</xref>,<xref ref-type="bibr" rid="B5-sensors-20-00245">5</xref>,<xref ref-type="bibr" rid="B6-sensors-20-00245">6</xref>,<xref ref-type="bibr" rid="B7-sensors-20-00245">7</xref>,<xref ref-type="bibr" rid="B8-sensors-20-00245">8</xref>]. The main function and application of a microcalorimeter is to determine the effective efficiency <inline-formula><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> of a transfer standard (e.g., a thermistor mount, and referred as a device under test (DUT) in this paper), and its correction factor g is found to be critical and has been studied in many different ways [<xref ref-type="bibr" rid="B9-sensors-20-00245">9</xref>,<xref ref-type="bibr" rid="B10-sensors-20-00245">10</xref>,<xref ref-type="bibr" rid="B11-sensors-20-00245">11</xref>,<xref ref-type="bibr" rid="B12-sensors-20-00245">12</xref>].</p>
+      <p>In the millimeter-wave range, waveguide microcalorimeter has been adopted due to its good reliability and accuracy up to 110 GHz [<xref ref-type="bibr" rid="B8-sensors-20-00245">8</xref>,<xref ref-type="bibr" rid="B10-sensors-20-00245">10</xref>,<xref ref-type="bibr" rid="B11-sensors-20-00245">11</xref>,<xref ref-type="bibr" rid="B12-sensors-20-00245">12</xref>] or further. To accurately determine its correction factor g, a method based on the measurement of offset shorts of different length followed by one single calibration measurement of a DUT has been proposed in [<xref ref-type="bibr" rid="B10-sensors-20-00245">10</xref>]. Recently, another method based on attaching a thermistor sensor into the waveguide thermal isolation section (TIS) to accurately measure its temperature change has been proposed in [<xref ref-type="bibr" rid="B12-sensors-20-00245">12</xref>]. Both the methods are found to have good performance during the evaluations of a WR-22 (33&#x2013;50 GHz) waveguide microcalorimeter.</p>
+      <p>However, as the frequency of interest further increases, the size of waveguide becomes smaller which motivates us to find other solutions without using extra fixtures/accessories. As a continued work of [<xref ref-type="bibr" rid="B13-sensors-20-00245">13</xref>], theoretical analysis and modeling of the correction factor g of a waveguide microcalorimeter will be performed in this paper, in terms of the physical dimensions of its TIS, based on the electromagnetic field theory analysis. The proposed solution tends to eliminate the usage of external fixtures, and reduce the measurement uncertainty when calibrating a RF/microwave/millimeter-wave power sensor with waveguide connection. For simplicity in the rest of this paper, RF will be synonymous for RF, microwave, and millimeter-wave.</p>
+      <p>In the remainder of this paper, the theoretical background and operation principle of a waveguide microcalorimeter is discussed in <xref ref-type="sec" rid="sec2-sensors-20-00245">Section 2</xref>. This is followed by the proposal of a new method for determining its correction factor g in <xref ref-type="sec" rid="sec3-sensors-20-00245">Section 3</xref>. In <xref ref-type="sec" rid="sec4-sensors-20-00245">Section 4</xref>, detailed description of electromagnetic field theory analysis for waveguide TIS in foil short measurement mode will be carried out. Performance comparison of the new method will be given in <xref ref-type="sec" rid="sec5-sensors-20-00245">Section 5</xref>. Finally, conclusion of this paper will be drawn in <xref ref-type="sec" rid="sec6-sensors-20-00245">Section 6</xref>.</p>
+    </sec>
+    <sec id="sec2-sensors-20-00245">
+      <title>2. Theoretical Background and Operation Principle</title>
+      <p>The effective efficiency <inline-formula><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> of a thermistor mount (a type of power sensor which is widely used for precision RF power measurements) is important for accurate determination of total power <inline-formula><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> dissipated within the thermistor mount, and is defined as
+      <disp-formula id="FD1-sensors-20-00245"><label>(1)</label><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the direct current (DC) substituted power of the thermistor mount and calculated in term of its bias voltages without and with RF signal applied (i.e., <italic>V</italic><sub>1</sub> and <italic>V</italic><sub>2</sub>) at a steady status as follows,
+      <disp-formula id="FD2-sensors-20-00245"><label>(2)</label><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msubsup><mml:mi>V</mml:mi><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>V</mml:mi><mml:mn>2</mml:mn><mml:mn>2</mml:mn></mml:msubsup></mml:mrow><mml:mi>R</mml:mi></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Here, <italic>R</italic> is the operating resistance of the thermistor mount. <xref ref-type="fig" rid="sensors-20-00245-f001">Figure 1</xref> below shows a detailed measurement setup for determining the effective efficiency <inline-formula><mml:math id="mm7" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> of a DUT thermistor mount. Its core part consists of a thermally insulated microcalorimeter (twin-line structure) including a thermopile and a thermal reference (dummy), and a Type-IV power meter. <italic>V</italic><sub>1</sub> and <italic>V</italic><sub>2</sub> are measured by the Type-IV meter directly.</p>
+      <p>According to the law of conservation of energy, the unsubstituted portion (labeled as <inline-formula><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>w</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, and <inline-formula><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>w</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) of total dissipated power <inline-formula><mml:math id="mm10" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> can cause relative temperature rise of the DUT mount referring to the Dummy mount, which is monitored by the thermopile as shown in <xref ref-type="fig" rid="sensors-20-00245-f001">Figure 1</xref>, and supposed to be indicated by thermopile output voltage change <inline-formula><mml:math id="mm11" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:mi>e</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>e</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>e</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, where <italic>e</italic><sub>1</sub> and <italic>e</italic><sub>2</sub> are the output voltages of the thermopile corresponding to <italic>V</italic><sub>1</sub> and <italic>V</italic><sub>2</sub> and measured by a nanovoltmeter. It is noted that this unsubstituted power <inline-formula><mml:math id="mm12" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>w</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the portion of RF power dissipated but does not affect the reading <italic>V</italic><sub>2</sub> of the nanovoltmeter.</p>
+      <sec id="sec2dot1-sensors-20-00245">
+        <title>2.1. Definition of the Correction Factor</title>
+        <p>However, the power <inline-formula><mml:math id="mm13" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> dissipated at its waveguide TIS can also contribute to <inline-formula><mml:math id="mm14" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, and therefore has to be differentiated. Without differentiation, the output voltage change <inline-formula><mml:math id="mm15" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> of thermopile includes the contribution from <inline-formula><mml:math id="mm16" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>w</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm17" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, with the following relationship,
+        <disp-formula id="FD3-sensors-20-00245"><label>(3)</label><mml:math id="mm18" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:mi>e</mml:mi><mml:mo>=</mml:mo><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>w</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>c</mml:mi><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm19" display="block"><mml:semantics><mml:mi>k</mml:mi></mml:semantics></mml:math></inline-formula> is a proportionality constant that depends on the fraction of power that is detectable by the thermopile and the thermopile sensitivity [<xref ref-type="bibr" rid="B11-sensors-20-00245">11</xref>], and <inline-formula><mml:math id="mm20" display="block"><mml:semantics><mml:mi>c</mml:mi></mml:semantics></mml:math></inline-formula> is an equivalence factor that considers the thermal paths which are different comparing to those from the mount to the thermopile.</p>
+        <p>The uncorrected effective efficiency <inline-formula><mml:math id="mm21" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> [<xref ref-type="bibr" rid="B7-sensors-20-00245">7</xref>] comparing to the effective efficiency <inline-formula><mml:math id="mm22" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> in (1), including the contribution from <inline-formula><mml:math id="mm23" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> to the thermopile output voltage change <inline-formula><mml:math id="mm24" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, and is defined as
+        <disp-formula id="FD4-sensors-20-00245"><label>(4)</label><mml:math id="mm25" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>c</mml:mi><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>w</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mi>c</mml:mi><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>b</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:mi>e</mml:mi></mml:mrow><mml:mi>k</mml:mi></mml:mfrac></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The correction factor g of a microcalorimeter is then defined as,
+        <disp-formula id="FD5-sensors-20-00245"><label>(5)</label><mml:math id="mm26" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="normal">g</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi>c</mml:mi><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The correction factor g is used to remove the contribution of <inline-formula><mml:math id="mm27" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> from the directly calculated uncorrected effective efficiency <inline-formula><mml:math id="mm28" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>/</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>e</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>e</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> [<xref ref-type="bibr" rid="B7-sensors-20-00245">7</xref>,<xref ref-type="bibr" rid="B12-sensors-20-00245">12</xref>] with the measured <italic>V</italic><sub>1</sub>, <italic>V</italic><sub>2</sub>, <italic>e</italic><sub>1</sub>, and <italic>e</italic><sub>2</sub> using the hardware setup in <xref ref-type="fig" rid="sensors-20-00245-f001">Figure 1</xref>.</p>
+      </sec>
+      <sec id="sec2dot2-sensors-20-00245">
+        <title>2.2. System Constant</title>
+        <p>For a thermistor mount with input reflection coefficient of <inline-formula><mml:math id="mm29" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and incident power of <inline-formula><mml:math id="mm30" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, the dissipated power <inline-formula><mml:math id="mm31" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> at the TIS due to both the forward and reverse transmissions is,
+        <disp-formula id="FD6-sensors-20-00245"><label>(6)</label><mml:math id="mm32" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x2245;</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm33" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the power dissipation coefficient of TIS. The net absorbed power by the thermistor mount is
+        <disp-formula id="FD7-sensors-20-00245"><label>(7)</label><mml:math id="mm34" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>r</mml:mi><mml:mi>f</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Therefore, it can be obtained from Equations (5)&#x2013;(7) that
+        <disp-formula id="FD8-sensors-20-00245"><label>(8)</label><mml:math id="mm35" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="normal">g</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>c</mml:mi><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>As <inline-formula><mml:math id="mm36" display="block"><mml:semantics><mml:mi>c</mml:mi></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm37" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are determined by the physical structure and the material property of a waveguide TIS, their product <inline-formula><mml:math id="mm38" display="block"><mml:semantics><mml:mrow><mml:mi>c</mml:mi><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is actually a system constant of the microcalorimeter and denoted as <inline-formula><mml:math id="mm39" display="block"><mml:semantics><mml:mi>&#x3C6;</mml:mi></mml:semantics></mml:math></inline-formula> in this study. From Equation (8), note that once the system constant <inline-formula><mml:math id="mm40" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C6;</mml:mi><mml:mo>=</mml:mo><mml:mi>c</mml:mi><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is obtained, the correction factor g of microcalorimeter for calibrating a thermistor mount with known input reflection coefficient <inline-formula><mml:math id="mm41" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> can be determined, and thereby the effective efficiency <inline-formula><mml:math id="mm42" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> of the thermistor mount.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-sensors-20-00245">
+      <title>3. Determination of the Correction Factor</title>
+      <p>&#x201C;Foil Short&#x201D; measurement has been well-accepted for experimental determination of the correction factor g [<xref ref-type="bibr" rid="B7-sensors-20-00245">7</xref>,<xref ref-type="bibr" rid="B11-sensors-20-00245">11</xref>]. A schematic illustration of &#x201C;Foil Short&#x201D; measurement is shown in <xref ref-type="fig" rid="sensors-20-00245-f002">Figure 2</xref> as a reference, where a foil short is inserted between the DUT (thermistor mount) to be calibrated and the interface plate. During the &#x201C;Foil Short&#x201D; measurements, the DUT is dc-biased through the Type-IV power meter in a steady status.</p>
+      <p>With the RF input on, the power <inline-formula><mml:math id="mm43" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> dissipated at the foil short and the power <inline-formula><mml:math id="mm44" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> dissipated at the TIS cause the output voltage change <inline-formula><mml:math id="mm45" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> of the thermopile. Similar to Equation (3), the following relationship can be arrived at
+      <disp-formula id="FD9-sensors-20-00245"><label>(9)</label><mml:math id="mm46" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>c</mml:mi><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>For the foil short with a reflection coefficient of <inline-formula><mml:math id="mm47" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and incident power of <inline-formula><mml:math id="mm48" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> to the TIS, similar to Equation (6), the dissipated power <inline-formula><mml:math id="mm49" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> at the TIS can be determined as
+      <disp-formula id="FD10-sensors-20-00245"><label>(10)</label><mml:math id="mm50" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2245;</mml:mo><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Combining Equations (9) and (10), it can be obtained that
+      <disp-formula id="FD11-sensors-20-00245"><label>(11)</label><mml:math id="mm51" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C6;</mml:mi><mml:mo>=</mml:mo><mml:mi>c</mml:mi><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Since <inline-formula><mml:math id="mm52" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, conventionally combing (8) and (11), the correction factor g of a microcalorimeter can be determined as
+      <disp-formula id="FD12-sensors-20-00245"><label>(12)</label><mml:math id="mm53" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="normal">g</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#xD7;</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:munder><mml:mrow><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo>&#xD7;</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac></mml:mrow><mml:mo>&#xFE38;</mml:mo></mml:munder><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>This relationship has been reported in [<xref ref-type="bibr" rid="B7-sensors-20-00245">7</xref>,<xref ref-type="bibr" rid="B11-sensors-20-00245">11</xref>,<xref ref-type="bibr" rid="B12-sensors-20-00245">12</xref>]. However, a recent bilateral comparison [<xref ref-type="bibr" rid="B14-sensors-20-00245">14</xref>] of scattering parameter magnitude measurements of WR-15 (50&#x2013;75 GHz) and WR-10 (75&#x2013;110 GHz) waveguide type between the Istituto Nazionale di Ricerca Metrologica (INRIM), Italy and the National Metrology Center, A*STAR (NMC), Singapore showed that the uncertainty of reflection coefficient for a &#x201C;Short&#x201D; traveling standard can vary from 0.005 to 0.02 (at a 95% confidence level). Higher uncertainty of the reflection coefficient <inline-formula><mml:math id="mm54" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> for foil short can then be propagated to the estimated correction factor g, and thereby the determined effective efficiency <inline-formula><mml:math id="mm55" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. Therefore, it motivates us to find an alternative solution for determining the correction factor g as discussed below.</p>
+      <p>Through reorganizing (11), we can achieve that
+      <disp-formula id="FD13-sensors-20-00245"><label>(13)</label><mml:math id="mm56" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C6;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mrow><mml:mi>k</mml:mi><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>With (9), it is found that
+      <disp-formula id="FD14-sensors-20-00245"><label>(14)</label><mml:math id="mm57" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C6;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>c</mml:mi><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mi>c</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>In this study, a power ratio <inline-formula><mml:math id="mm58" display="block"><mml:semantics><mml:mi>&#x3C1;</mml:mi></mml:semantics></mml:math></inline-formula> between <inline-formula><mml:math id="mm59" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm60" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is defined as <inline-formula><mml:math id="mm61" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C1;</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, then we can get
+      <disp-formula id="FD15-sensors-20-00245"><label>(15)</label><mml:math id="mm62" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C6;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mi>c</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3C1;</mml:mi></mml:mrow></mml:mfrac><mml:mo>&#xD7;</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Combining (15) with (8), a new correction factor g is proposed in this study for evaluating the waveguide microcalorimeter as follows,
+      <disp-formula id="FD16-sensors-20-00245"><label>(16)</label><mml:math id="mm63" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="normal">g</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mfrac><mml:mi>c</mml:mi><mml:mrow><mml:mi>c</mml:mi><mml:mo>+</mml:mo><mml:mi>&#x3C1;</mml:mi></mml:mrow></mml:mfrac><mml:mo>&#xD7;</mml:mo><mml:mfrac><mml:mrow><mml:mi mathvariant="sans-serif">&#x394;</mml:mi><mml:msub><mml:mi>e</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>k</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#xD7;</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Note that the significant uncertainty portion involving <inline-formula><mml:math id="mm64" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm65" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>M</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> as underbraced in Equation (12) has been eliminated in Equation (16); however, with the introduction of another factor determined by power ratio <inline-formula><mml:math id="mm66" display="block"><mml:semantics><mml:mi>&#x3C1;</mml:mi></mml:semantics></mml:math></inline-formula> and equivalence factor <inline-formula><mml:math id="mm67" display="block"><mml:semantics><mml:mi>c</mml:mi></mml:semantics></mml:math></inline-formula> which may be under control better. This proposed solution in (16) theoretically may offer a smaller combined uncertainty. The equivalence factor <inline-formula><mml:math id="mm68" display="block"><mml:semantics><mml:mi>c</mml:mi></mml:semantics></mml:math></inline-formula> that considers the thermal paths which are different comparing to those from the thermistor mount to the thermopile approximates to be 0.5 (as representative of all the microcalorimeters in [<xref ref-type="bibr" rid="B7-sensors-20-00245">7</xref>]). This is because the relative heating effectiveness through the TIS changes linearly from a value of approximately one at the mount flange to almost zero at the far end as discussed in [<xref ref-type="bibr" rid="B7-sensors-20-00245">7</xref>]. As a result, only half of the heating in the TIS is measured by the thermopile.</p>
+      <p>Therefore, proper determination of the power ratio <inline-formula><mml:math id="mm69" display="block"><mml:semantics><mml:mi>&#x3C1;</mml:mi></mml:semantics></mml:math></inline-formula> between <inline-formula><mml:math id="mm70" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> (the power dissipated at the foil short) and <inline-formula><mml:math id="mm71" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> (the power dissipated at the TIS) in &#x201C;Foil Short&#x201D; measurements becomes very important for evaluating the system constant <inline-formula><mml:math id="mm72" display="block"><mml:semantics><mml:mi>&#x3C6;</mml:mi></mml:semantics></mml:math></inline-formula> of a waveguide microcalorimeter, and thereby its correction factor g for calibrating the thermistor mounts. In the following section, we propose to apply the electromagnetic field theory analysis to determine this power ratio theoretically in this study.</p>
+    </sec>
+    <sec id="sec4-sensors-20-00245">
+      <title>4. Mathematical Modeling Through Electromagnetic Field Theory Analysis</title>
+      <p>The properties of waveguides in support of wave propagation and mode are characterized by the presence of longitudinal magnetic or electric field components, and can be derived by electromagnetic field theory analysis ([<xref ref-type="bibr" rid="B15-sensors-20-00245">15</xref>] Chapter 3).</p>
+      <p>In a rectangular waveguide, the dominant wave propagating inside is the TE<sub>1,0</sub> mode. In the following analysis, it is assumed that that both the waveguide walls and the foil short have high conductivity <inline-formula><mml:math id="mm73" display="block"><mml:semantics><mml:mi>&#x3C3;</mml:mi></mml:semantics></mml:math></inline-formula> and small skin depth <inline-formula><mml:math id="mm74" display="block"><mml:semantics><mml:mi>&#x3B4;</mml:mi></mml:semantics></mml:math></inline-formula> resulting in small losses (almost lossless, with attenuation constant &#x3B1; &#x2248; 0), which do not appreciably perturb the TE<sub>1,0</sub> mode fields. For the incident wave in + <italic>z</italic> direction with a peak amplitude level of <italic>A</italic>, and with a foil short at <italic>z</italic> = 0 along the rectangular waveguide (<inline-formula><mml:math id="mm75" display="block"><mml:semantics><mml:mrow><mml:mi>a</mml:mi><mml:mo>&gt;</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>) as shown in <xref ref-type="fig" rid="sensors-20-00245-f003">Figure 3</xref>, the transverse field components are
+      <disp-formula id="FD17-sensors-20-00245"><label>(17)</label><mml:math id="mm76" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>A</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mi>cos</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>j</mml:mi><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>j</mml:mi><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mi>A</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mi>sin</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>j</mml:mi><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>y</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>j</mml:mi><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:msub><mml:mi>Z</mml:mi><mml:mi>h</mml:mi></mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mi>sin</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mi>j</mml:mi><mml:mn>2</mml:mn><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>j</mml:mi><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>H</mml:mi><mml:mi>y</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow><mml:mo>&#xA0;</mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math id="mm80" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the cutoff wave number, <inline-formula><mml:math id="mm81" display="block"><mml:semantics><mml:mi>&#x3B2;</mml:mi></mml:semantics></mml:math></inline-formula> is the phase constant, and <inline-formula><mml:math id="mm82" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>h</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the wave impedance, as follows,
+      <disp-formula id="FD21-sensors-20-00245"><mml:math id="mm83" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mi>&#x3C0;</mml:mi><mml:mi>a</mml:mi></mml:mfrac><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>&#x3B2;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>&#x3C0;</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mo>&#xA0;</mml:mo><mml:msub><mml:mi>Z</mml:mi><mml:mi>h</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>&#x3B7;</mml:mi><mml:mfrac><mml:mrow><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:mrow><mml:mi>&#x3BB;</mml:mi></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Here, <inline-formula><mml:math id="mm84" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the guide wavelength and equal to,
+      <disp-formula id="FD22-sensors-20-00245"><mml:math id="mm85" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>g</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:msqrt><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>&#x3BB;</mml:mi><mml:mrow><mml:mn>2</mml:mn><mml:mi>a</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+      for the wavelength <inline-formula><mml:math id="mm86" display="block"><mml:semantics><mml:mi>&#x3BB;</mml:mi></mml:semantics></mml:math></inline-formula> in TE<sub>1,0</sub> mode. <inline-formula><mml:math id="mm87" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x393;</mml:mi><mml:mi>z</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the voltage reflection coefficient at <italic>z</italic> = 0 (approximately 1 for the foil short) as shown in <xref ref-type="fig" rid="sensors-20-00245-f003">Figure 3</xref>. The incident power <inline-formula><mml:math id="mm88" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> (at <italic>z</italic> = 0) is
+      <disp-formula id="FD23-sensors-20-00245"><label>(18)</label><mml:math id="mm89" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>I</mml:mi><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mi>Re</mml:mi><mml:msubsup><mml:mstyle displaystyle="true"><mml:mo>&#x222B;</mml:mo></mml:mstyle><mml:mn>0</mml:mn><mml:mrow><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mi>a</mml:mi></mml:mrow></mml:msubsup><mml:msubsup><mml:mstyle displaystyle="true"><mml:mo>&#x222B;</mml:mo></mml:mstyle><mml:mn>0</mml:mn><mml:mrow><mml:mi>y</mml:mi><mml:mo>=</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:msubsup><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo stretchy="false">&#x2192;</mml:mo></mml:mover><mml:mo>&#xD7;</mml:mo><mml:mover accent="true"><mml:mi>H</mml:mi><mml:mo stretchy="false">&#x2192;</mml:mo></mml:mover><mml:msup><mml:mrow/><mml:mo>&#x2217;</mml:mo></mml:msup><mml:mo>&#xB7;</mml:mo><mml:mover accent="true"><mml:mi>z</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mi>d</mml:mi><mml:mi>x</mml:mi><mml:mi>d</mml:mi><mml:mi>y</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:msub><mml:mi>Z</mml:mi><mml:mi>h</mml:mi></mml:msub><mml:msup><mml:mi>A</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mfrac><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>For convenient in calculation, Equation (17) can be reformatted as [<xref ref-type="bibr" rid="B16-sensors-20-00245">16</xref>]
+      <disp-formula id="FD24-sensors-20-00245"><label>(19)</label><mml:math id="mm90" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>2</mml:mn><mml:mi>j</mml:mi><mml:mi>A</mml:mi><mml:mi>cos</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>sin</mml:mi><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>H</mml:mi><mml:mi>x</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mi>j</mml:mi><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mi>A</mml:mi><mml:mi>sin</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>cos</mml:mi><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>y</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mn>2</mml:mn><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:msub><mml:mi>Z</mml:mi><mml:mi>h</mml:mi></mml:msub><mml:mi>A</mml:mi><mml:mi>sin</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>sin</mml:mi><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable><mml:mo>&#xA0;</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Note that the dissipated power <inline-formula><mml:math id="mm93" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> at a wall surface with surface resistance <inline-formula><mml:math id="mm94" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is
+      <disp-formula id="FD27-sensors-20-00245"><label>(20)</label><mml:math id="mm95" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:mfrac><mml:mo>&#x222C;</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>J</mml:mi><mml:mo stretchy="false">&#x2192;</mml:mo></mml:mover><mml:mi>s</mml:mi></mml:msub><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>J</mml:mi><mml:mo stretchy="false">&#x2192;</mml:mo></mml:mover><mml:mi>s</mml:mi></mml:msub><mml:msup><mml:mrow/><mml:mo>&#x2217;</mml:mo></mml:msup><mml:mi>d</mml:mi><mml:mi>A</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where the surface current density <inline-formula><mml:math id="mm96" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>J</mml:mi><mml:mo stretchy="false">&#x2192;</mml:mo></mml:mover><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is given by
+      <disp-formula id="FD28-sensors-20-00245"><label>(21)</label><mml:math id="mm97" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mover accent="true"><mml:mi>J</mml:mi><mml:mo stretchy="false">&#x2192;</mml:mo></mml:mover><mml:mi>s</mml:mi></mml:msub><mml:mo>&#x2245;</mml:mo><mml:mover accent="true"><mml:mi>n</mml:mi><mml:mo>^</mml:mo></mml:mover><mml:mo>&#xD7;</mml:mo><mml:msub><mml:mover accent="true"><mml:mi>H</mml:mi><mml:mo stretchy="false">&#x2192;</mml:mo></mml:mover><mml:mrow><mml:mi>s</mml:mi><mml:mi>u</mml:mi><mml:mi>r</mml:mi><mml:mi>f</mml:mi><mml:mi>a</mml:mi><mml:mi>c</mml:mi><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Therefore, for the broad wall (<inline-formula><mml:math id="mm98" display="block"><mml:semantics><mml:mi>a</mml:mi></mml:semantics></mml:math></inline-formula> by <inline-formula><mml:math id="mm99" display="block"><mml:semantics><mml:mi>l</mml:mi></mml:semantics></mml:math></inline-formula>) as shown in <xref ref-type="fig" rid="sensors-20-00245-f003">Figure 3</xref>, the magnitudes of the <inline-formula><mml:math id="mm100" display="block"><mml:semantics><mml:mi>x</mml:mi></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm101" display="block"><mml:semantics><mml:mi>z</mml:mi></mml:semantics></mml:math></inline-formula> component of the current densities are
+      <disp-formula id="FD29-sensors-20-00245"><label>(22)</label><mml:math id="mm102" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mi>x</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2245;</mml:mo><mml:mn>2</mml:mn><mml:mi>A</mml:mi><mml:mi>cos</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>sin</mml:mi><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      <disp-formula id="FD30-sensors-20-00245"><label>(23)</label><mml:math id="mm103" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mi>z</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2245;</mml:mo><mml:mn>2</mml:mn><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>A</mml:mi><mml:mi>sin</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>cos</mml:mi><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>The magnitudes of the current density in the narrow wall (<inline-formula><mml:math id="mm104" display="block"><mml:semantics><mml:mi>b</mml:mi></mml:semantics></mml:math></inline-formula> by <inline-formula><mml:math id="mm105" display="block"><mml:semantics><mml:mi>l</mml:mi></mml:semantics></mml:math></inline-formula>) is
+      <disp-formula id="FD31-sensors-20-00245"><label>(24)</label><mml:math id="mm106" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mrow><mml:mi>N</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2245;</mml:mo><mml:mn>2</mml:mn><mml:mi>A</mml:mi><mml:mi>sin</mml:mi><mml:mi>&#x3B2;</mml:mi><mml:mi>z</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>The magnitudes of the current density in the foil short (<inline-formula><mml:math id="mm107" display="block"><mml:semantics><mml:mi>a</mml:mi></mml:semantics></mml:math></inline-formula> by <inline-formula><mml:math id="mm108" display="block"><mml:semantics><mml:mi>b</mml:mi></mml:semantics></mml:math></inline-formula>) is
+      <disp-formula id="FD32-sensors-20-00245"><label>(25)</label><mml:math id="mm109" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2245;</mml:mo><mml:mn>2</mml:mn><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>A</mml:mi><mml:mi>sin</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3C0;</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mi>a</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>According to (20), the power <inline-formula><mml:math id="mm110" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>B</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> dissipated in the two broad walls is
+      <disp-formula id="FD33-sensors-20-00245"><label>(26)</label><mml:math id="mm111" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>B</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>&#xB7;</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>S</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:mfrac><mml:mstyle displaystyle="true"><mml:msubsup><mml:mstyle displaystyle="true"><mml:mo>&#x222B;</mml:mo></mml:mstyle><mml:mn>0</mml:mn><mml:mrow><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mi>a</mml:mi></mml:mrow></mml:msubsup></mml:mstyle><mml:mstyle displaystyle="true"><mml:msubsup><mml:mstyle displaystyle="true"><mml:mo>&#x222B;</mml:mo></mml:mstyle><mml:mn>0</mml:mn><mml:mrow><mml:mi>z</mml:mi><mml:mo>=</mml:mo><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:mstyle><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mi>x</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mi>z</mml:mi></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>d</mml:mi><mml:mi>x</mml:mi><mml:mi>d</mml:mi><mml:mi>z</mml:mi><mml:mo>&#x2245;</mml:mo><mml:msup><mml:mi>A</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mfrac><mml:mrow><mml:mi>a</mml:mi><mml:mi>l</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mi>&#x3B4;</mml:mi></mml:mrow></mml:mfrac><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mo>&#xA0;</mml:mo><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Similarly, the power <inline-formula><mml:math id="mm112" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>N</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> dissipated in the two narrow walls is
+      <disp-formula id="FD34-sensors-20-00245"><label>(27)</label><mml:math id="mm113" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>N</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:mo>&#xB7;</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>S</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:mfrac><mml:mstyle displaystyle="true"><mml:msubsup><mml:mstyle displaystyle="true"><mml:mo>&#x222B;</mml:mo></mml:mstyle><mml:mn>0</mml:mn><mml:mrow><mml:mi>y</mml:mi><mml:mo>=</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:msubsup></mml:mstyle><mml:mstyle displaystyle="true"><mml:msubsup><mml:mstyle displaystyle="true"><mml:mo>&#x222B;</mml:mo></mml:mstyle><mml:mn>0</mml:mn><mml:mrow><mml:mi>z</mml:mi><mml:mo>=</mml:mo><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:mstyle><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mrow><mml:mi>N</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mi>d</mml:mi><mml:mi>y</mml:mi><mml:mi>d</mml:mi><mml:mi>z</mml:mi><mml:mo>=</mml:mo><mml:mn>4</mml:mn><mml:msup><mml:mi>A</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mfrac><mml:mrow><mml:mi>b</mml:mi><mml:mi>l</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mi>&#x3B4;</mml:mi></mml:mrow></mml:mfrac><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mrow><mml:mi>sin</mml:mi><mml:mn>2</mml:mn><mml:mi>&#x3B2;</mml:mi><mml:mi>l</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x3B2;</mml:mi><mml:mi>l</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo>}</mml:mo></mml:mrow><mml:mo>&#x2245;</mml:mo><mml:mn>2</mml:mn><mml:msup><mml:mi>A</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mfrac><mml:mrow><mml:mi>b</mml:mi><mml:mi>l</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mi>&#x3B4;</mml:mi></mml:mrow></mml:mfrac><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      and the power <inline-formula><mml:math id="mm114" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> dissipated in the foil short is
+      <disp-formula id="FD35-sensors-20-00245"><label>(28)</label><mml:math id="mm115" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>S</mml:mi></mml:msub></mml:mrow><mml:mn>2</mml:mn></mml:mfrac><mml:msubsup><mml:mstyle displaystyle="true"><mml:mo>&#x222B;</mml:mo></mml:mstyle><mml:mn>0</mml:mn><mml:mrow><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mi>a</mml:mi></mml:mrow></mml:msubsup><mml:msubsup><mml:mstyle displaystyle="true"><mml:mo>&#x222B;</mml:mo></mml:mstyle><mml:mn>0</mml:mn><mml:mrow><mml:mi>y</mml:mi><mml:mo>=</mml:mo><mml:mi>b</mml:mi></mml:mrow></mml:msubsup><mml:msup><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mi>d</mml:mi><mml:mi>x</mml:mi><mml:mi>d</mml:mi><mml:mi>y</mml:mi><mml:mo>&#xA0;</mml:mo><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:msup><mml:mi>A</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mfrac><mml:mrow><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mi>&#x3B4;</mml:mi></mml:mrow></mml:mfrac><mml:mo>&#xA0;</mml:mo><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Therefore,
+      <disp-formula id="FD36-sensors-20-00245"><label>(29)</label><mml:math id="mm116" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C1;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>F</mml:mi><mml:mi>S</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>B</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>N</mml:mi><mml:mi>W</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>b</mml:mi><mml:mi>l</mml:mi><mml:mo>+</mml:mo><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mi>a</mml:mi><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>b</mml:mi><mml:mi>l</mml:mi><mml:mo>+</mml:mo><mml:mi>a</mml:mi><mml:mi>l</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>g</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>.</mml:mo><mml:mo>&#xA0;</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>Here, it needs to be highlighted that final expression in (29) is achieved with the elimination of the surface resistance <inline-formula><mml:math id="mm117" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> at both the denominator and numerator. This elimination/simplification is valid only under the assumption that the TIS and the foil short share the same (or approximately the same) electrical characteristics such as conductivity <inline-formula><mml:math id="mm118" display="block"><mml:semantics><mml:mi>&#x3C3;</mml:mi></mml:semantics></mml:math></inline-formula> and skin depth <inline-formula><mml:math id="mm119" display="block"><mml:semantics><mml:mi>&#x3B4;</mml:mi></mml:semantics></mml:math></inline-formula>, and if the metal thickness is higher than the skin depth for both the TIS and the foil short.</p>
+      <p>In practice, these requirements could be achieved during the fabrication of TIS and foil short using the same metal material with enough thickness and with same surface treatment. Together with Equation (16), the correction factor g can be determined properly using (29). In the next section, its performance will be compared with conventional method with detailed discussion.</p>
+    </sec>
+    <sec id="sec5-sensors-20-00245">
+      <title>5. Performance Evaluation and Analysis</title>
+      <p>Performance of the newly proposed correction factor g in (16) has been evaluated with a WR-15 microcalorimeter that is now serving as the national waveguide primary power standard of China. <xref ref-type="fig" rid="sensors-20-00245-f004">Figure 4</xref> below shows an assembled WR-15 microcalorimeter that will be used in the evaluation, which covers the frequency range of 50 to 75 GHz.</p>
+      <sec id="sec5dot1-sensors-20-00245">
+        <title>5.1. Performance Evaluation of the Proposed Correction Factor g</title>
+        <p>The TIS of the fabricated microcalorimeter has dimensions of <inline-formula><mml:math id="mm120" display="block"><mml:semantics><mml:mi>a</mml:mi></mml:semantics></mml:math></inline-formula> = 0.00376 m, <inline-formula><mml:math id="mm121" display="block"><mml:semantics><mml:mi>b</mml:mi></mml:semantics></mml:math></inline-formula> = 0.00188 m, and <inline-formula><mml:math id="mm122" display="block"><mml:semantics><mml:mi>l</mml:mi></mml:semantics></mml:math></inline-formula> = 0.0105 m. Note that the interface plate as shown in <xref ref-type="fig" rid="sensors-20-00245-f004">Figure 4</xref> has an exactly same size as the TIS.</p>
+        <p><xref ref-type="fig" rid="sensors-20-00245-f005">Figure 5</xref> presents the experimental results of <italic>&#x3C1;</italic> and the estimated correction factor g covering the whole frequency band (50&#x2013;75 GHz) for the fabricated WR-15 microcalorimeter shown in <xref ref-type="fig" rid="sensors-20-00245-f004">Figure 4</xref>, using the proposed method (Equation (16)) and the conventional method (Equation (12)). From <xref ref-type="fig" rid="sensors-20-00245-f005">Figure 5</xref>, good agreement exists between the results for correction factor g from the electromagnetic theory analysis and from the conventional method. The proposed method with electromagnetic theory analysis is then used for evaluating the WR-15 microcalorimeter at the National Institute of Metrology, China. Detailed analysis with uncertainty evaluation are discussed below.</p>
+      </sec>
+      <sec id="sec5dot2-sensors-20-00245">
+        <title>5.2. Uncertainty Evaluation</title>
+        <p><xref ref-type="table" rid="sensors-20-00245-t001">Table 1</xref> shows one example for evaluating the measurement uncertainty of the correction factor <italic>g</italic> of a reference standard (Hughes 45774H-1100 thermistor power sensor), using the proposed method (Equation (16)) at 72 GHz. <inline-formula><mml:math id="mm123" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm124" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>e</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are the DC-biased power and the output voltage of thermopile without RF input respectively, and they are used to experimentally determine <inline-formula><mml:math id="mm125" display="block"><mml:semantics><mml:mi>k</mml:mi></mml:semantics></mml:math></inline-formula>, the proportionality constant that depends on the fraction of power flowing through the thermopile and the thermopile sensitivity [<xref ref-type="bibr" rid="B11-sensors-20-00245">11</xref>]. The calculated combined standard uncertainty for correction factor g at 72 GHz is around 0.002, following the &#x201C;Guide to the Expression of Uncertainty in Measurement&#x201D; (GUM) [<xref ref-type="bibr" rid="B17-sensors-20-00245">17</xref>].</p>
+        <p>To obtain the measurement uncertainty <inline-formula><mml:math id="mm132" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> for the effective efficiency <inline-formula><mml:math id="mm133" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> (<inline-formula><mml:math id="mm134" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="normal">g</mml:mi><mml:mo>&#xB7;</mml:mo><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) of the thermistor mount under test, it can arrive that
+        <disp-formula id="FD37-sensors-20-00245"><label>(30)</label><mml:math id="mm135" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi mathvariant="normal">g</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x394;</mml:mo><mml:msup><mml:mi mathvariant="normal">g</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mi>e</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x394;</mml:mo><mml:msubsup><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:msqrt><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The uncertainty for the uncorrected effective efficiency <inline-formula><mml:math id="mm136" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>e</mml:mi><mml:mo>,</mml:mo><mml:mi>u</mml:mi><mml:mi>n</mml:mi><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> was evaluated in the conventional way, and is found to be 0.0013 at 72 GHz. Using Equation (30), the combined standard uncertainty for the effective efficiency of the thermistor mount under test at 72 GHz is 0.0024. That is, the expanded uncertainty is approximately 0.0048 at a level of confidence of approximately 95% assuming a Gaussian distribution.</p>
+      </sec>
+      <sec id="sec5dot3-sensors-20-00245">
+        <title>5.3. International Comparison</title>
+        <p>To further evaluate the performance of the proposed method (Equation (16)) with the newly fabricated WR-15 microcalorimeter shown in <xref ref-type="fig" rid="sensors-20-00245-f004">Figure 4</xref>, an informal international comparison [<xref ref-type="bibr" rid="B18-sensors-20-00245">18</xref>] of WR-15 (50 to 75 GHz) power measurements has been arranged among at the National Institute of Metrology (NIM) of China, the National Institute of Standards and Technology (NIST) of USA, the Physikalisch-Technische Bundesanstalt (PTB) of Germany, and the National Metrology Centre (NMC) of Singapore.</p>
+        <p>Comparison results of the measured effective efficiency for one of the traveling standards, Hughes 45774H-1100 thermistor power sensors are presented in <xref ref-type="fig" rid="sensors-20-00245-f006">Figure 6</xref> for the whole frequency range of 50 to 75 GHz, using the proposed method in this paper and also compared to the primary power measurement systems at NIST and PTB. From the results, good equivalence of power measurements in WR-15 waveguide has been clearly observed among the participating laboratories. This further validates the proposed method and newly developed primary power measurement system at the NIM, China, for calibrating the waveguide RF power sensors.</p>
+      </sec>
+    </sec>
+    <sec id="sec6-sensors-20-00245" sec-type="conclusions">
+      <title>6. Conclusions</title>
+      <p>In this paper, a new method for determining the correction factor g of a waveguide microcalorimeter was reported, using the electromagnetic field theory to analysis the effect of waveguide TIS in &#x201C;foil short&#x201D; measurement mode. The proposed method determines the contribution of the power dissipated within the TIS into the correction factor g, in term of the physical dimensions of the TIS.</p>
+      <p>The proposed method has been implemented to evaluate a newly fabricated WR-15 microcalorimeter at the NIM, China. The estimated correction factor g of the microcalorimeter using the proposed method has been compared against the conventional method, and good agreements have been observed. To further evaluate its performance, the proposed method with the newly fabricated WR-15 microcalorimeter has been evaluated in an informal international comparison of WR-15 (50 to 75 GHz) power measurements with the NIST of USA, the PTB of Germany and the NMC of Singapore, where good equivalence has been observed.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, X.C., W.Y., and Y.L.; methodology, X.C. and Y.L.; software, W.Y.; validation, X.C., Y.S.M., W.Y., and Y.L.; formal analysis, X.C., Y.S.M., and W.Y.; investigation, X.C., Y.S.M., W.Y., and Y.L.; resources, X.C.; writing&#x2014;original draft preparation, X.C. and Y.S.M.; writing&#x2014;review and editing, X.C. and Y.S.M.; visualization, X.C., Y.S.M., and W.Y.; supervision, X.C.; project administration, X.C.; funding acquisition, X.C. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was funded in part by the National Key R&amp;D Program of China entitled Terahertz Wave WR-3 (220 GHz to 330 GHz) Power Primary Standard, China, under Grant No. 2018YFF0212101. Y.S.M. was supported by the Overseas Experts Supporting Program of the State Administration of Foreign Experts Affairs, China.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-sensors-20-00245">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fantom</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <source>Radio Frequency and Microwave Power Measurement</source>
+          <publisher-name>Peter Peregrinus Ltd.</publisher-name>
+          <publisher-loc>Stevenage, UK</publisher-loc>
+          <year>1990</year>
+        </element-citation>
+      </ref>
+      <ref id="B2-sensors-20-00245">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Neji</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Titus</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Meltzer</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Micro-fabricated DC comparison calorimeter for RF power measurement</article-title>
+          <source>Sensors</source>
+          <year>2014</year>
+          <volume>14</volume>
+          <fpage>20245</fpage>
+          <lpage>20261</lpage>
+          <pub-id pub-id-type="doi">10.3390/s141120245</pub-id>
+          <pub-id pub-id-type="pmid">25350509</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-sensors-20-00245">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martinovic</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Dadic</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ivsic</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Malaric</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>An adiabatic coaxial line for microcalorimeter power measurements in wireless communication for smart grid</article-title>
+          <source>Energies</source>
+          <year>2019</year>
+          <volume>12</volume>
+          <elocation-id>4194</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/en12214194</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-sensors-20-00245">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Engen</surname>
+              <given-names>G.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>A refined X-band microwave microcalorimeter</article-title>
+          <source>J. Res. Natl. Bur. Stand.</source>
+          <year>1959</year>
+          <volume>63</volume>
+          <fpage>77</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="doi">10.6028/jres.063C.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-sensors-20-00245">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chung</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Sin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bayer</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Honigbaum</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coaxial and waveguide microcalorimeters for RF and microwave power standards</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>1989</year>
+          <volume>38</volume>
+          <fpage>460</fpage>
+          <lpage>464</lpage>
+          <pub-id pub-id-type="doi">10.1109/19.192327</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-sensors-20-00245">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kang</surname>
+              <given-names>T.W.</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Honigbaum</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>R&#xFC;haak</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stumper</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>K- and Ka-band waveguide microcalorimeters for microwave power standards</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>1997</year>
+          <volume>46</volume>
+          <fpage>1247</fpage>
+          <lpage>1250</lpage>
+          <pub-id pub-id-type="doi">10.1109/19.668264</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-sensors-20-00245">
+        <label>7.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allen</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Clague</surname>
+              <given-names>F.R.</given-names>
+            </name>
+            <name>
+              <surname>Larsen</surname>
+              <given-names>N.T.</given-names>
+            </name>
+            <name>
+              <surname>Weidman</surname>
+              <given-names>M.P.</given-names>
+            </name>
+          </person-group>
+          <source>NIST Microwave Power Standards in Waveguide</source>
+          <comment>NIST Technical Note 1511</comment>
+          <publisher-name>Radio-Frequency Technology Division, Electronics and Electrical Engineering Laboratory, National Institute of Standards and Technology</publisher-name>
+          <publisher-loc>Boulder, CO, USA</publisher-loc>
+          <year>1999</year>
+        </element-citation>
+      </ref>
+      <ref id="B8-sensors-20-00245">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shimaoka</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kinoshita</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>A broadband waveguide calorimeter in the frequency range from 50 to 110 GHz</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>2013</year>
+          <volume>62</volume>
+          <fpage>1828</fpage>
+          <lpage>1833</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIM.2012.2225956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-sensors-20-00245">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clague</surname>
+              <given-names>F.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A method to determine the calorimetric equivalence correction for a coaxial microwave microcalorimeter</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>1994</year>
+          <volume>43</volume>
+          <fpage>421</fpage>
+          <lpage>425</lpage>
+          <pub-id pub-id-type="doi">10.1109/19.293461</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-sensors-20-00245">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Judaschke</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ruhaak</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Determination of the correction factor of waveguide microcalorimeters in the millimeter-wave range</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>2009</year>
+          <volume>58</volume>
+          <fpage>1104</fpage>
+          <lpage>1108</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIM.2008.2012381</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-sensors-20-00245">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cui</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Crowley</surname>
+              <given-names>T.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of experimental techniques for evaluating the correction factor of a rectangular waveguide microcalorimeter</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>2011</year>
+          <volume>60</volume>
+          <fpage>2690</fpage>
+          <lpage>2695</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIM.2011.2130990</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-sensors-20-00245">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cui</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>Y.S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shan</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>An improved design and simplified evaluation technique for waveguide microcalorimeter</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>2016</year>
+          <volume>65</volume>
+          <fpage>1450</fpage>
+          <lpage>1455</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIM.2016.2534239</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-sensors-20-00245">
+        <label>13.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cui</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>Y.S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Shan</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative modeling of thermal isolation section in a rectangular waveguide microcalorimeter</article-title>
+          <source>Proceedings of the Conference on Precision Electromagnetic Measurements</source>
+          <conf-loc>Ottawa, ON, Canada</conf-loc>
+          <conf-date>10&#x2013;15 July 2016</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B14-sensors-20-00245">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sellone</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Oberto</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Shan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>Y.S.</given-names>
+            </name>
+            <name>
+              <surname>Brunetti</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Shoaib</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of S-Parameter measurements at millimeter wavelengths between INRIM and NMC</article-title>
+          <source>IEEE Trans. Instrum. Meas.</source>
+          <year>2014</year>
+          <volume>63</volume>
+          <fpage>1810</fpage>
+          <lpage>1817</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIM.2013.2293227</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-sensors-20-00245">
+        <label>15.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pozar</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <source>Microwave Engineering</source>
+          <publisher-name>Addison-Wesley</publisher-name>
+          <publisher-loc>Reading, MA, USA</publisher-loc>
+          <year>1993</year>
+        </element-citation>
+      </ref>
+      <ref id="B16-sensors-20-00245">
+        <label>16.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beatty</surname>
+              <given-names>R.W.</given-names>
+            </name>
+          </person-group>
+          <source>Applications of Waveguide and Circuit Theory to the Development of Accurate Microwave Measurement Methods and Standards</source>
+          <publisher-name>US Department of Commerce, National Bureau of Standards</publisher-name>
+          <publisher-loc>Boulder, CO, USA</publisher-loc>
+          <year>1973</year>
+        </element-citation>
+      </ref>
+      <ref id="B17-sensors-20-00245">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>BIPM</collab>
+            <collab>IEC</collab>
+            <collab>IFCC</collab>
+            <collab>ILAC</collab>
+            <collab>ISO</collab>
+            <collab>IUPAC</collab>
+            <collab>IUPAP</collab>
+            <collab>OIML</collab>
+          </person-group>
+          <source>Evaluation of Measurement Data&#x2014;Guide to the Expression of Uncertainty in Measurement</source>
+          <comment>JCGM 100:2008 (GUM 1995 with Minor Corrections)</comment>
+          <publisher-name>Joint Committee for Guides in Metrology</publisher-name>
+          <publisher-loc>Paris, France</publisher-loc>
+          <year>2008</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.bipm.org/en/publications/guides/gum.html" ext-link-type="uri">http://www.bipm.org/en/publications/guides/gum.html</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-30">(accessed on 30 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B18-sensors-20-00245">
+        <label>18.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cui</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>Y.S.</given-names>
+            </name>
+            <name>
+              <surname>Judaschke</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ruehaak</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Crowley</surname>
+              <given-names>T.P.</given-names>
+            </name>
+            <name>
+              <surname>Ginley</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>International comparison of WR15 (50 to 75 GHz) power measurements among NIST, NIM, PTB and NMC, A*STAR</article-title>
+          <source>Proceedings of the Conference on Precision Electromagnetic Measurements</source>
+          <conf-loc>Ottawa, ON, Canada</conf-loc>
+          <conf-date>10&#x2013;15 July 2016</conf-date>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="sensors-20-00245-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Schematic diagram for the setup and operation of a waveguide microcalorimeter.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00245-g001.tif"/>
+      </fig>
+      <fig id="sensors-20-00245-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Concept of &#x201C;foil short&#x201D; measurements for determining the correction factor of a waveguide microcalorimeter.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00245-g002.tif"/>
+      </fig>
+      <fig id="sensors-20-00245-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Dimensional illustration of thermal isolation section (TIS) with incident TE<sub>1,0</sub> mode wave in &#x201C;Foil Short&#x201D; measurement.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00245-g003.tif"/>
+      </fig>
+      <fig id="sensors-20-00245-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Picture of a WR-15 (50&#x2013;75 GHz) microcalorimeter assembled at the National Institute of Metrology, China.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00245-g004.tif"/>
+      </fig>
+      <fig id="sensors-20-00245-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Results of power ratio <italic>&#x3C1;</italic>, and comparison of correction factor g for the WR-15 microcalorimeter using the conventional method and the proposed method with electromagnetic field theory analysis.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00245-g005.tif"/>
+      </fig>
+      <fig id="sensors-20-00245-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Measured results of the effective efficiency &#x3B7;<sub>e</sub> for a Hughes 45774H-1100 thermistor power sensor at different laboratories for performance comparison. Uncertainty bars are shown at a level of confidence of approximately 95% assuming a Gaussian distribution. Frequency values are shifted for better readability and no uncertainty value provided by NIST for 68, 69, 70, and 71 GHz.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00245-g006.tif"/>
+      </fig>
+      <table-wrap id="sensors-20-00245-t001" position="float">
+        <object-id pub-id-type="pii">sensors-20-00245-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Uncertainty budget for correction factor at 72 GHz.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Quantity</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Uncertainty Components</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Probability Distribution</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Standard Uncertainty <italic>u<sub>i</sub></italic> (<italic>x</italic>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sensitivity Coefficient <italic>c</italic><sub>i</sub></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>u<sub>i</sub></italic> (<italic>y</italic>) = <italic>c<sub>i</sub> u<sub>i</sub></italic> (<italic>x</italic>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm126" display="block">
+                    <mml:semantics>
+                      <mml:mi>&#x3C1;</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">Caliper</td>
+              <td align="center" valign="middle">B</td>
+              <td align="center" valign="middle">Rectangular</td>
+              <td align="center" valign="middle">0.0005</td>
+              <td align="center" valign="middle">&#x2212;0.01371</td>
+              <td align="center" valign="middle">&#x2212;0.000007</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <italic>P</italic>
+                <sub>1</sub>
+              </td>
+              <td align="center" valign="middle">Digital multimeter</td>
+              <td align="center" valign="middle">B</td>
+              <td align="center" valign="middle">Rectangular</td>
+              <td align="center" valign="middle">0.001</td>
+              <td align="center" valign="middle">0.00070</td>
+              <td align="center" valign="middle">0.000001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm127" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mi>e</mml:mi>
+                          <mml:mn>1</mml:mn>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">Digital voltmeter</td>
+              <td align="center" valign="middle">B</td>
+              <td align="center" valign="middle">Rectangular</td>
+              <td align="center" valign="middle">0.04</td>
+              <td align="center" valign="middle">&#x2212;0.00002</td>
+              <td align="center" valign="middle">&#x2212;0.000001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm128" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="sans-serif">&#x394;</mml:mi>
+                        <mml:msub>
+                          <mml:mi>e</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>F</mml:mi>
+                            <mml:mi>S</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">Digital voltmeter</td>
+              <td align="center" valign="middle">B</td>
+              <td align="center" valign="middle">Rectangular</td>
+              <td align="center" valign="middle">0.08</td>
+              <td align="center" valign="middle">0.01520</td>
+              <td align="center" valign="middle">0.001216</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm129" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mi mathvariant="sans-serif">&#x393;</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>F</mml:mi>
+                            <mml:mi>S</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">Network analyzer</td>
+              <td align="center" valign="middle">B</td>
+              <td align="center" valign="middle">Rectangular</td>
+              <td align="center" valign="middle">0.01</td>
+              <td align="center" valign="middle">&#x2212;0.01502</td>
+              <td align="center" valign="middle">&#x2212;0.000150</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm130" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mi>P</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>I</mml:mi>
+                            <mml:mi>F</mml:mi>
+                            <mml:mi>S</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">Type IV power meter &amp; Digital voltmeter</td>
+              <td align="center" valign="middle">B</td>
+              <td align="center" valign="middle">Rectangular</td>
+              <td align="center" valign="middle">0.08</td>
+              <td align="center" valign="middle">&#x2212;0.01683</td>
+              <td align="center" valign="middle">&#x2212;0.001347</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm131" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mi mathvariant="sans-serif">&#x393;</mml:mi>
+                          <mml:mi>M</mml:mi>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">Network analyzer</td>
+              <td align="center" valign="middle">B</td>
+              <td align="center" valign="middle">Rectangular</td>
+              <td align="center" valign="middle">0.01</td>
+              <td align="center" valign="middle">0.00777</td>
+              <td align="center" valign="middle">0.000078</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>g</italic>
+              </td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Repeatability (Typical)</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">A</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Normal</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">0.001</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">1</td>
+              <td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">0.001</td>
+            </tr>
+            <tr>
+              <td colspan="6" align="center" valign="middle" style="border-bottom:solid thin">Combined Standard Uncertainty for Correction Factor g at 72 GHz</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.002</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

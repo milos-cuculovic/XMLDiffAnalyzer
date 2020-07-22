@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010301</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00301</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title><italic>N</italic>-Butyldeoxygalactonojirimycin Induces Reversible Infertility in Male CD Rats</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8915-3393</contrib-id>
+          <name>
+            <surname>Gupta</surname>
+            <given-names>Vijayalaxmi</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00301" ref-type="aff">1</xref>
+          <xref rid="c1-ijms-21-00301" ref-type="corresp">*</xref>
+          <xref rid="fn1-ijms-21-00301" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hild</surname>
+            <given-names>Sheri A.</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00301" ref-type="aff">2</xref>
+          <xref rid="fn2-ijms-21-00301" ref-type="fn">&#x2021;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jakkaraj</surname>
+            <given-names>Sudhakar R.</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00301" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carlson</surname>
+            <given-names>Erick J.</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00301" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wong</surname>
+            <given-names>Henry L.</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00301" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Allen</surname>
+            <given-names>C. Leigh</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00301" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8900-9460</contrib-id>
+          <name>
+            <surname>Georg</surname>
+            <given-names>Gunda I.</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00301" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tash</surname>
+            <given-names>Joseph S.</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00301" ref-type="aff">1</xref>
+          <xref rid="c1-ijms-21-00301" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00301"><label>1</label>Department of Molecular and Integrative Physiology, University of Kansas Medical Center, Kansas City, KS 66160, USA</aff>
+      <aff id="af2-ijms-21-00301"><label>2</label>Division of Reproductive Endocrinology and Toxicology, BIOQUAL, Inc., Rockville, MD 20850, USA; <email>sheri.hild@nih.gov</email></aff>
+      <aff id="af3-ijms-21-00301"><label>3</label>Department of Medicinal Chemistry, Institute for Therapeutics Discovery and Development, College of Pharmacy, University of Minnesota, Minneapolis, MN 55414, USA; <email>jakka002@umn.edu</email> (S.R.J.); <email>carl2810@umn.edu</email> (E.J.C.); <email>hlwong@umn.edu</email> (H.L.W.); <email>clallen@umn.edu</email> (C.L.A.); <email>georg@umn.edu</email> (G.I.G.)</aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00301"><label>*</label>Correspondence: <email>vgupta@kumc.edu</email> (V.G.); <email>jtash@kumc.edu</email> (J.S.T.)</corresp>
+        <fn id="fn1-ijms-21-00301">
+          <label>&#x2020;</label>
+          <p>Current address: Department of Obstetrics and Gynecology, University of Kansas Medical Center, Kansas City, KS 66160, USA.</p>
+        </fn>
+        <fn id="fn2-ijms-21-00301">
+          <label>&#x2021;</label>
+          <p>Current address: Division of Comparative Medicine, ORIP, DPCPSI, Bethesda, MD 20892, USA.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>301</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>02</day>
+          <month>10</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This study shows for the first time that an iminosugar exerts anti-spermiogenic effect, inducing reversible infertility in a species that is not related to C57BL/6 male mice. In CD rats, <italic>N</italic>-butyldeoxygalactonojirimycin (<italic>N</italic>B-DGJ) caused reversible infertility at 150 mg/kg/day when administered daily as single oral dose. <italic>N</italic>B-DGJ inhibited CD rat-derived testicular &#x3B2;-glucosidase 2 (GBA2) activity at 10 &#xB5;M but did not inhibit CD rat-derived testicular ceramide-specific glucosyltransferase (CGT) at doses up to 1000 &#xB5;M. Pharmacokinetic studies revealed that sufficient plasma levels of <italic>N</italic>B-DGJ (50 &#xB5;M) were achieved to inhibit the enzyme. Fertility was blocked after 35 days of treatment and reversed one week after termination of treatment. The rapid return of fertility indicates that the major effect of <italic>N</italic>B-DGJ may be epididymal rather than testicular. Collectively, our in vitro and in vivo studies in rats suggest that iminosugars should continue to be pursued as potential lead compounds for development of oral, non-hormonal male contraceptives. The study also adds evidence that GBA2, and not CGT, is the major target for the contraceptive effect of iminosugars.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>iminosugar</kwd>
+        <kwd>contraceptive</kwd>
+        <kwd>NB-DGJ</kwd>
+        <kwd>NB-DNJ</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00301" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Access to orally bioavailable, safe, effective, and reversible male contraceptive agents would be an important advance in expanding current contraceptive options available to couples. While female oral hormonal contraceptive agents have been on the market since 1960, the development of male hormonal contraceptives has been slow [<xref ref-type="bibr" rid="B1-ijms-21-00301">1</xref>,<xref ref-type="bibr" rid="B2-ijms-21-00301">2</xref>,<xref ref-type="bibr" rid="B3-ijms-21-00301">3</xref>]. Since the 1950s, a multitude of clinical trials have been conducted to develop hormonal male contraceptive agents, but side effects and pharmacokinetic issues have made it difficult to bring such agents to market [<xref ref-type="bibr" rid="B4-ijms-21-00301">4</xref>]. Non-hormonal experimental approaches for male contraception using gossypol [<xref ref-type="bibr" rid="B5-ijms-21-00301">5</xref>] and alpha-chlorohydrin [<xref ref-type="bibr" rid="B6-ijms-21-00301">6</xref>] showed promise in animals and in early stage human studies, but neither compound has proven safe or effective enough to be acceptable for human use [<xref ref-type="bibr" rid="B7-ijms-21-00301">7</xref>]. Therefore, the discovery of alternative lead compounds is important for the development of male non-hormonal contraceptive agents [<xref ref-type="bibr" rid="B8-ijms-21-00301">8</xref>,<xref ref-type="bibr" rid="B9-ijms-21-00301">9</xref>]. Glycosphingolipids are among possible targets for non-hormonal contraception. They are abundant in sperm [<xref ref-type="bibr" rid="B10-ijms-21-00301">10</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00301">11</xref>] and thought to be necessary for normal spermatogenesis and spermiogenesis. Mice deficient in enzymes involved in glycolipid synthesis, such as ceramide-specific glucosyltransferase (CGT) and &#x3B2;-glucosidase 2 (GBA2) are known to have severely impaired fertility [<xref ref-type="bibr" rid="B12-ijms-21-00301">12</xref>,<xref ref-type="bibr" rid="B13-ijms-21-00301">13</xref>,<xref ref-type="bibr" rid="B14-ijms-21-00301">14</xref>,<xref ref-type="bibr" rid="B15-ijms-21-00301">15</xref>,<xref ref-type="bibr" rid="B16-ijms-21-00301">16</xref>]. CGT is the enzyme that catalyzes the first step of glycolipid biosynthesis, the reaction between uridine diphosphate glucose (UDP-Glu) and ceramide (Cer) to form glucosylceramide (<xref ref-type="fig" rid="ijms-21-00301-f001">Figure 1</xref>), a process that eventually leads to acrosome formation. GBA2 has the opposite function and catalyzes the cleavage of glucosylceramide into glucose (Glu) and ceramide. GBA2-deficient mice have increased levels of glycosylceramide in testes, liver and brain [<xref ref-type="bibr" rid="B17-ijms-21-00301">17</xref>].</p>
+      <p>Iminosugars, which are sugar analogs carrying a nitrogen at the position of the endocyclic oxygen atom, are one of the most interesting classes of glycomimetics [<xref ref-type="bibr" rid="B18-ijms-21-00301">18</xref>]. The <italic>N</italic>-alkylated iminosugar <italic>N</italic>-butyldeoxynojirimycin (<italic>N</italic>B-DNJ, <xref ref-type="fig" rid="ijms-21-00301-f002">Figure 2</xref>) inhibits somatic and testicular CGT (ceramide-specific glucosyltransferase) in vitro and in vivo [<xref ref-type="bibr" rid="B19-ijms-21-00301">19</xref>,<xref ref-type="bibr" rid="B20-ijms-21-00301">20</xref>,<xref ref-type="bibr" rid="B21-ijms-21-00301">21</xref>,<xref ref-type="bibr" rid="B22-ijms-21-00301">22</xref>] and was shown to be an effective and reversible oral male contraceptive agent when tested in C57BL/6 mice. Reversible inhibition of fertility was observed three weeks after daily oral administration of 15 mg/kg <italic>N</italic>B-DNJ [<xref ref-type="bibr" rid="B22-ijms-21-00301">22</xref>]. Fertility returned three weeks after cessation of <italic>N</italic>B-DNJ administration [<xref ref-type="bibr" rid="B22-ijms-21-00301">22</xref>]. Spermatozoa obtained from the treated mice exhibited abnormal acrosomes, disorganized tails, small and widely spaced mitochondrial sheaths and nuclear dysmorphia [<xref ref-type="bibr" rid="B22-ijms-21-00301">22</xref>]. Testicular histology revealed that iminosugar <italic>N</italic>-butyldeoxygalactonojirimycin (<italic>N</italic>B-DGJ, <xref ref-type="fig" rid="ijms-21-00301-f002">Figure 2</xref>) also disrupts spermiogenesis at a dose equivalent to 1200 mg/kg of <italic>N</italic>B-DNJ [<xref ref-type="bibr" rid="B22-ijms-21-00301">22</xref>]. <italic>N</italic>B-DGJ is known to be a more selective inhibitor of glycolipid biosynthesis than <italic>N</italic>B-DNJ and to have fewer adverse side effects in mice, especially at high dosage (2400 mg/kg) [<xref ref-type="bibr" rid="B23-ijms-21-00301">23</xref>].</p>
+      <p>Subsequent studies revealed that the activity of <italic>N</italic>B-DNJ was species specific and only effective as a male contraceptive in C57BL/6 and C57BL/6-related mice, but not in other mouse strains tested, nor in the Russenkaninchen rabbit strain (Crl:CHBB (HM)) [<xref ref-type="bibr" rid="B24-ijms-21-00301">24</xref>]. <italic>N</italic>B-DNJ also had no effect in human subjects, and sperm counts, and semen parameters remained normal [<xref ref-type="bibr" rid="B25-ijms-21-00301">25</xref>,<xref ref-type="bibr" rid="B26-ijms-21-00301">26</xref>,<xref ref-type="bibr" rid="B27-ijms-21-00301">27</xref>]. <italic>N</italic>B-DNJ (USAN name, miglustat) is a clinically utilized agent for the treatment of type 1 Gaucher disease, a glycosphingolipid storage disease [<xref ref-type="bibr" rid="B18-ijms-21-00301">18</xref>].</p>
+      <p>Later, iminosugars <italic>N</italic>B-DNJ and <italic>N</italic>B-DGJ were found to inhibit GBA2 at lower concentrations than CGT, and the levels of glucosylceramide were increased in the testes, brain, and spleen of mice treated with iminosugars [<xref ref-type="bibr" rid="B15-ijms-21-00301">15</xref>,<xref ref-type="bibr" rid="B21-ijms-21-00301">21</xref>]. Thus, the inhibition of GBA2 appears to be the more likely mechanism of action of the iminosugars. Recent studies showed that in GBA2 knock-out mice, glycosylceramide accumulation results in cytoskeletal defects in Sertoli cells and germs cells. In particular, F-actin structures in the ectoplasmic specialization as well as microtubule structures in sperm were affected as early as the first spermatogenic wave [<xref ref-type="bibr" rid="B16-ijms-21-00301">16</xref>]. Effects on F-actin structures in the ectoplasmic specialization were also observed in animals treated with the male contraceptive agents adjudin and gamendazole [<xref ref-type="bibr" rid="B28-ijms-21-00301">28</xref>,<xref ref-type="bibr" rid="B29-ijms-21-00301">29</xref>,<xref ref-type="bibr" rid="B30-ijms-21-00301">30</xref>].</p>
+      <p>Interestingly, the level of glucosylceramide in the testes was also increased in mouse strains that remained fertile after iminosugar treatment, indicating that the sensitivity to glucosylceramide may be species dependent or that additional mechanisms may be at work [<xref ref-type="bibr" rid="B21-ijms-21-00301">21</xref>]. Since the iminosugars do not seem to interfere with meiosis and therefore do not affect spermatogonial cells and spermatocyte populations, their effects should generally be reversible. These properties make iminosugars attractive lead compounds for the development of new analogs that possess contraceptive efficacy across a broader range of species, including humans.</p>
+      <p>To further investigate the contraceptive properties of iminosugars, we designed a study to (1) determine whether <italic>N</italic>B-DGJ shows anti-spermiogenic efficacy in CD rats when administered as a daily single oral dose over 35 consecutive days, (2) compare the relative inhibitory efficacy of <italic>N</italic>B-DGJ against testis CGT and testis GBA2 from C57BL/6J mice and CD rats and also Long Evans (LE) rat testicular microsome preparations to determine strain specificity, (3) compare the in vivo anti-spermiogenic efficacy in rats with the in vitro biochemical efficacy in mice and rats to determine whether the results obtained in the in vitro enzyme assays correlate with observations made in the in vivo studies, and (4) to perform a pharmacokinetic study with <italic>N</italic>B-DGJ to determine if plasma levels of <italic>N</italic>B-DGJ in CD rats dosed orally with a single bolus were sufficient to inhibit GBA2 activity.</p>
+    </sec>
+    <sec id="sec2-ijms-21-00301" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-21-00301">
+        <title>2.1. Synthesis of Iminosugars</title>
+        <p>The synthesis of <italic>N</italic>-butyl-1-deoxynojirimycin (<italic>N</italic>B-DNJ, <xref ref-type="fig" rid="ijms-21-00301-f002">Figure 2</xref>) and <italic>N</italic>-butyl-1-deoxygalactonojirimycin (<italic>N</italic>B-DGJ, <xref ref-type="fig" rid="ijms-21-00301-f002">Figure 2</xref>) was accomplished following known procedures (detailed in <xref ref-type="app" rid="app1-ijms-21-00301">SI, Schemes S1 and S2, Figures S1 and S2</xref>) using 2,3,4,6-tetra-<italic>O</italic>-benzyl-&#x3B1;-glucopyranose and 2,3,4,6-tetra-<italic>O</italic>-benzyl-<sc>d</sc>-galactopyranose, respectively, as the starting materials [<xref ref-type="bibr" rid="B31-ijms-21-00301">31</xref>,<xref ref-type="bibr" rid="B32-ijms-21-00301">32</xref>]. Since the iminosugars are likely to be administered orally to men in a single dose, we selected a once a day oral drug dosing regimen for our study. This protocol would also avoid potential problems from food digestion that could influence drug bioavailability and metabolism.</p>
+      </sec>
+      <sec id="sec2dot2-ijms-21-00301">
+        <title>2.2. NB-DGJ Impact Testis Histology and Sperm Acrosome in C57Bl6J Mice</title>
+        <p>It is known that NB-DNJ caused infertility in male C57BL6J mice [<xref ref-type="bibr" rid="B22-ijms-21-00301">22</xref>], so we carried out in vivo studies using NB-DNJ as positive control to test whether NB-DGJ affected testicular histology and sperm morphology. Mice were treated with 15, 15 or 50 mg/kg NB-DNJ or NB-DGJ or water (vehicle). While testis obtained from vehicle group showed normal spermatid with elongated head, both NB-DNJ and NB-DGJ treated mice testis had rounded, abnormally shaped spermatid heads (<xref ref-type="fig" rid="ijms-21-00301-f003">Figure 3</xref>a).</p>
+        <p>Sperm acrosome morphology analyzed by using FITC-PSA staining showed that NB-DNJ at all three concentrations caused abnormal acrosome in all spermatozoa, whereas NB-DGJ caused a dose-dependent increase in the number of abnormal spermatozoa, as indicated in <xref ref-type="table" rid="ijms-21-00301-t001">Table 1</xref>, <xref ref-type="fig" rid="ijms-21-00301-f003">Figure 3</xref>b.</p>
+        <p>Our observation and published reports encouraged us to test NB-DGJ in higher rodent species, so we used male CD rats to carry out fertility studies.</p>
+      </sec>
+      <sec id="sec2dot3-ijms-21-00301">
+        <title>2.3. NB-DGJ Induced Reversible Infertility in Male CD Rats</title>
+        <p>It had been demonstrated [<xref ref-type="bibr" rid="B33-ijms-21-00301">33</xref>] that 150 mg/kg <italic>N</italic>B-DGJ caused reversible infertility in C57BL/6J male mice, so we decided to use the same dose in rats assuming that this regimen would provide a relatively higher drug exposure in rats than in mice. This rationale is based on the fact that the dosage of a compound when tested in a higher species depends on blood volume and body surface area rather than body weight. We conducted mating trials with two groups of six male CD rats each that were treated for 35 consecutive days (weeks 0&#x2013;4; total 5 weeks) with an oral daily dose of 150 mg/kg <italic>N</italic>B-DGJ, or with vehicle control (water), as detailed in the Experimental Section. Each male rat was cohabited with two female rats weekly during weeks 1 through 9 of the trial. The females were necropsied seven days after separation from the males to determine the number of conceptuses. The male rats were necropsied at week 11 (<xref ref-type="app" rid="app1-ijms-21-00301">Figure S5</xref>).</p>
+        <p>The fertility of the male rats was determined by counting the number of normal and abnormal conceptuses in pregnant female rats. The rat mating trial with <italic>N</italic>B-DGJ at a dose of 150 mg/kg/day induced reversible infertility (<xref ref-type="table" rid="ijms-21-00301-t002">Table 2</xref> and <xref ref-type="fig" rid="ijms-21-00301-f004">Figure 4</xref>). Female rats mated with vehicle treated male rats showed an average of 14 normal conceptuses per pregnant female throughout the entire study. In the treatment group, the female rats mated with <italic>N</italic>B-DGJ treated male rats produced the same number of normal conceptuses as females mated with vehicle treated rats in the first week of mating. However, in the second week, the numbers of normal conceptuses were reduced by 50% as seen in <xref ref-type="table" rid="ijms-21-00301-t002">Table 2</xref>. The male rats were still designated as fertile, as they were able to impregnate the female rats. At week three, 50% of the NB-DGJ treated rats were rendered infertile, and by week four, 100% of the NB-DGJ treated rats were infertile. Fertility returned rapidly, within one week (week 5, <xref ref-type="table" rid="ijms-21-00301-t002">Table 2</xref>, <xref ref-type="fig" rid="ijms-21-00301-f004">Figure 4</xref>), following termination of the dosage regimen as opposed to the gradual loss of fertility seen during the initial three weeks (weeks 2&#x2013;4, <xref ref-type="table" rid="ijms-21-00301-t002">Table 2</xref>, <xref ref-type="fig" rid="ijms-21-00301-f004">Figure 4</xref>) of the <italic>N</italic>B-DGJ mating studies.</p>
+      </sec>
+      <sec id="sec2dot4-ijms-21-00301">
+        <title>2.4. NB-DGJ Significantly Reduced Epididymal Sperm Motility and Caused Altered Morphology</title>
+        <p>The effects of <italic>N</italic>B-DGJ on rat body weight, testis weight, prostate weight, sperm count, sperm motility, and serum hormone values were examined. At week 11 (completion) of the study, the male rats were weighed, anesthetized, and exsanguinated. No significant difference (Student&#x2019;s <italic>t</italic>-test) was observed between vehicle and <italic>N</italic>B-DGJ treated groups for final body weight (<italic>p</italic> &lt; 0.673), paired testis weight (<italic>p</italic> &lt; 0.167), spermatid head count (<italic>p</italic> &lt; 0.254), paired epididymal weight (<italic>p</italic> &lt; 0.184), seminal vesicle weight (<italic>p</italic> &lt; 0.233), or ventral prostate weight (<italic>p</italic> &lt; 0.254) (<xref ref-type="table" rid="ijms-21-00301-t003">Table 3</xref>). However, epididymal sperm motility determined at week 11 (* <italic>p</italic> &lt; 0.05) as per Student&#x2019;s <italic>t</italic>-test was significantly lower in <italic>N</italic>B-DGJ treated rats than those treated with the vehicle (60% in <italic>N</italic>B-DGJ treated rats compared to 87% in control rats, <xref ref-type="table" rid="ijms-21-00301-t003">Table 3</xref>; <xref ref-type="app" rid="app1-ijms-21-00301">Figure S4A</xref>). This is in line with lower number of epididymal sperm with normal morphology in NB-DGJ treated rats compared to the vehicle group (<xref ref-type="table" rid="ijms-21-00301-t003">Table 3</xref>; <xref ref-type="app" rid="app1-ijms-21-00301">Figure S4B</xref>).</p>
+        <p>These low values, however, did not hinder the ability of the male rats to impregnate the female rats once iminosugar administration was stopped, as seen in <xref ref-type="fig" rid="ijms-21-00301-f004">Figure 4</xref>. Thus, this is the first reported effect of <italic>N</italic>B-DGJ on fertility in rats. Whether there are strain-selective issues related to efficacy like those reported for the mice will require additional detailed dose finding and strain comparison studies.</p>
+        <p>The male rats were bled from the tail vein at weeks 0, 1, 4 and 7 and the sera were analyzed for levels of inhibin B, testosterone, and rFSH. No significant differences between treated versus control group (<xref ref-type="app" rid="app1-ijms-21-00301">Figure S3</xref>) were observed (based on ANOVA). This clearly indicated that spermatogenesis was intact in the NB-DGJ treated rats and that NB-DGJ does not impact the testes, further strengthening our finding that epididymes is the target.</p>
+      </sec>
+      <sec id="sec2dot5-ijms-21-00301">
+        <title>2.5. Mechanism of Anti-Fertility Effect on NB-DGJ</title>
+        <p>Our next objective was to delineate the mechanism by which <italic>N</italic>B-DGJ exerts its anti-fertility effect in male rats. To meet this goal, we conducted In Vitro assays to determine the potency and selectivity of <italic>N</italic>B-DGJ to inhibit testicular CGT and testicular GBA2. Microsomes were isolated from the testes of adult C57BL/6J male mice and CD rats as well as LE rats and used to measure the in vitro inhibition of testicular CGT by the iminosugars. The same microsomal preparation was employed to assess the in vitro inhibition of testicular GBA2. The results are shown in <xref ref-type="table" rid="ijms-21-00301-t004">Table 4</xref>. The IC<sub>50</sub> values were 76 and 42 &#x3BC;M for mouse- and LE rat-derived CGT inhibition, respectively, whereas no enzyme inhibition was observed for CD rat-derived enzyme up to 1000 &#x3BC;M. Testicular GBA2 inhibition by <italic>N</italic>B-DGJ was similar for mice and both rat strains, with IC<sub>50</sub> values of ~16 &#x3BC;M for mice, ~14 &#x3BC;M for LE rats and ~11 &#x3BC;M for CD rats.</p>
+      </sec>
+      <sec id="sec2dot6-ijms-21-00301">
+        <title>2.6. NB-DGJ Is Orally Bio-Available in CD Rats</title>
+        <p>To correlate in vivo activity with the bioavailability of <italic>N</italic>B-DGJ, we performed a pharmacokinetic (PK) study to examine plasma levels following a single bolus oral dose at 150 mg/kg. Briefly, male CD rats (225&#x2013;235 g) were orally dosed with <italic>N</italic>B-DGJ by gavage (<italic>n</italic> = 4). At various time points following dosing, the rats were bled, and the resulting plasma was analyzed by LC/MS/MS. As seen in <xref ref-type="table" rid="ijms-21-00301-t005">Table 5</xref> and <xref ref-type="fig" rid="ijms-21-00301-f005">Figure 5</xref>, oral dosing of <italic>N</italic>B-DGJ resulted in a t<sub>&#xBD;</sub> of 6.5 h with a C<sub>max</sub> of 11,016.7 ng/mL (~50 &#xB5;M). These data are very similar to results presented in a previous study [<xref ref-type="bibr" rid="B34-ijms-21-00301">34</xref>] that examined the pharmacokinetics of <italic>N</italic>B-DNJ (miglustat) using radioactively labeled compound. Nevertheless, it appears that oral dosing of <italic>N</italic>B-DGJ results in sufficient plasma levels to potently inhibit rat GBA2 activity in CD rats.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-ijms-21-00301" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>Administration of <italic>N</italic>B-DGJ as a daily single oral dose of 150 mg/kg for 35 days caused reversible infertility in male CD rats. Epididymal sperm motility in treated males was significantly lower than in the control group. Fertility returned within one week after the dosing was stopped, indicating that <italic>N</italic>B-DGJ may exert its major effect on the epididymis rather than the testis, since the response occurs in less than the epididymal transit time for sperm from the rete testis. It is known that the epididymal transit time of sperm in rats is ~8 days, thus the reversal of fertility in NB-DGJ treated male rats in one week suggests that epididymal sperm were affected, leaving the testis functionally intact. Infertility in these rats lasted only till the next wave of sperm were received in the caput to undergo the maturation process. Moreover, as indicated in <xref ref-type="table" rid="ijms-21-00301-t003">Table 3</xref>, mean testis weight and testicular spermatid head count were similar between the vehicle and NB-DGJ treated group.</p>
+      <p>It should be noted here that <italic>N</italic>B-DGJ at the same concentrations was effective in inducing infertility in C57BL/6J male mice [<xref ref-type="bibr" rid="B22-ijms-21-00301">22</xref>]. In C57BL/6J, it took approximately three weeks for fertility to resume, which indicates that the major effect in mice may be at the testicular level [<xref ref-type="bibr" rid="B35-ijms-21-00301">35</xref>].</p>
+      <p>In the studies reported here, the body weight and gonadal weight of <italic>N</italic>B-DGJ treated animals were similar to the control group animals. Circulating levels of inhibin B, testosterone, and rFSH in <italic>N</italic>B-DGJ treated rats showed no significant difference when compared to the control group.</p>
+      <p>We next studied the inhibition of testicular CGT and testicular GBA2 activity, derived from C57BL/6J mice, CD rats, and LE rats (<xref ref-type="table" rid="ijms-21-00301-t004">Table 4</xref>). For the mouse-derived enzymes, we found that <italic>N</italic>B-DGJ is a weak inhibitor of CGT and that GBA2 activity is inhibited more strongly than CGT activity. Very similar enzyme inhibition trends have been reported previously [<xref ref-type="bibr" rid="B15-ijms-21-00301">15</xref>,<xref ref-type="bibr" rid="B20-ijms-21-00301">20</xref>,<xref ref-type="bibr" rid="B21-ijms-21-00301">21</xref>,<xref ref-type="bibr" rid="B36-ijms-21-00301">36</xref>] and are shown in <xref ref-type="table" rid="ijms-21-00301-t005">Table 5</xref>. In one of the studies, <italic>N</italic>B-DGJ inhibited GBA2 with an IC<sub>50</sub> of 300 nM [<xref ref-type="bibr" rid="B36-ijms-21-00301">36</xref>], which is approximately 44 times more potent than what we found. However, the enzyme sources for the experiments in <xref ref-type="table" rid="ijms-21-00301-t006">Table 6</xref> were mostly non-testicular, not differentiated by species, or generated from transfected cells in some instances. The most potent iminosugar reported to date is an analog of DGJ that carries an <italic>N</italic>-(5-(adaman-1-ylmethoxy) pentyl) group and inhibits GBA2 with an IC<sub>50</sub> value of 0.7 nM [<xref ref-type="bibr" rid="B15-ijms-21-00301">15</xref>]. However, that compound has not yet been evaluated in vivo for male contraception. The corresponding DNJ <italic>N</italic>-(5-(adaman-1-ylmethoxy-pentyl) analog was shown to potently control hyperglycemia in a rodent model of diabetes [<xref ref-type="bibr" rid="B36-ijms-21-00301">36</xref>].</p>
+      <p>When we investigated LE-derived CGT, we found that <italic>N</italic>B-DGJ is a weak inhibitor of this enzyme and that <italic>N</italic>B-DGJ did not inhibit CD-derived CGT up to 1000 &#xB5;M. This indicates that there might be species- and tissue-dependent inhibition of the CGT enzymes.</p>
+      <p>We noted that <italic>N</italic>B-DGJ inhibited mouse-derived and rat-derived GBA2 at similar concentrations. This suggested that <italic>N</italic>B-DGJ given at relatively higher doses could be an effective contraceptive agent in rats if GBA2 is a major target for inducing sterility, which has now been confirmed several times. This was further supported by the observation that <italic>N</italic>B-DGJ inhibited CD rat GBA2 at 10 &#xB5;M. Thus, comparing our in vitro enzyme assays using C57BL/6J mice, LE and CD rats as well as in vivo experiments performed with CD rats, it appears certain that the inhibition of testicular GBA2 is crucial to rendering male rats infertile. In conclusion, <italic>N</italic>B-DGJ inhibited mouse testicular and LE- as well as CD-derived rat testicular GBA2 at similar concentrations (15.7, 13.8, and 10 &#xB5;M respectively; <xref ref-type="table" rid="ijms-21-00301-t003">Table 3</xref>) and at a daily dose of 150 mg/kg, rendered CD rats infertile after 35 days of treatment. All evidence points towards GBA2 as a likely target for developing iminosugars as male contraceptive, as suggested previously [<xref ref-type="bibr" rid="B15-ijms-21-00301">15</xref>]. One of the encouraging observations is the lack of adverse effects in any of the treated animals. As additional confirmation, we performed a PK study in CD rats to determine if <italic>N</italic>B-DGJ was sufficiently bioavailable to exert an inhibitory effect in vivo. As it is difficult to measure drug concentrations at the target organ (especially in human patients), the plasma drug concentration is typically used as a surrogate since there is typically a direct correlation between drug levels in the blood and drug levels in the surrounding tissues. The resulting analysis (<xref ref-type="fig" rid="ijms-21-00301-f004">Figure 4</xref>) revealed a t<sub>&#xBD;</sub> of 6.5 h with a C<sub>max</sub> and t<sub>max</sub> of 11,016.7 ng/mL (~50 &#xB5;M) and 1.3 h, respectively. These data are similar to published work by Treiber, et al. for <italic>N</italic>B-DNJ in which they orally dosed male and female CD rats with [<sup>3</sup>H]-<italic>N</italic>B-DNJ (160 mg/kg) and reported a t<sub>&#xBD;</sub> = 4.5 h, C<sub>max</sub> = 13,800 ng/mL (~63 &#xB5;M) and t<sub>max</sub> = 0.5 h [<xref ref-type="bibr" rid="B34-ijms-21-00301">34</xref>].</p>
+      <p>Our study is the first to demonstrate that an iminosugar can induce reversible infertility in a species other than C57BL/6-related mice. The observed rapid reversibility of infertility in CD rats after cessation of drug treatment (one week), compared to mice (three weeks) suggests that other targets and/or species differences may be influencing the effects of the iminosugars. Thus, the results of our study provide new evidence that it might be possible to develop iminosugars as male contraceptive agents for human use. Our current study has limitations; however, the results are encouraging and lay a strong foundation for future investigations with higher dosage and/or modified analogs of iminosugars. We have already synthesized and determined the in vitro efficacy of various four- and eight-membered analogs of iminosugars as part of our structure&#x2013;activity-relationship (SAR) approach to determine the best structure that can exhibit anti-fertility effects over a broad range of species [<xref ref-type="bibr" rid="B37-ijms-21-00301">37</xref>]. These iminosugars are attractive lead compounds for development of non-hormonal male contraceptives, because they are orally bioavailable, are well tolerated, have no toxic side effects, and do not affect male endocrinology.</p>
+    </sec>
+    <sec id="sec4-ijms-21-00301">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-ijms-21-00301">
+        <title>4.1. General Methods</title>
+        <p>All reagents, unless otherwise specified, were purchased from Sigma and were ACS grade. Thin layer chromatography (TLC) plates (silica Gel 60 A, 20 &#xD7; 20 cm, layer thickness 250 &#x3BC;m) were obtained from Whatman International Limited, England. Bouin&#x2019;s Fixative was obtained from Fisher Diagnostics.</p>
+      </sec>
+      <sec id="sec4dot2-ijms-21-00301">
+        <title>4.2. Ethics Statement</title>
+        <p>For all studies using animals, the minimum number of animals to achieve statistical robustness and reduction requirements of the IACUC-approved studies (University of Minnesota Protocol# 1503-32441A, Kansas University Medical Center Protocol #s 2009-1800 and 2006-1564, and BIOQUAL Protocol #s 107 AC and 107 AD) were used. Animals for mating studies were euthanized (CO<sub>2</sub> chamber) following the blood collection at 48 h in accordance with the recommendations of the American Veterinary Medical Association (AVMA) Guidelines for the Euthanasia of Animals. Animals used for harvesting testes tissues for microsome preparation were euthanized by CO<sub>2</sub> asphyxiation followed by cervical dislocation, as per IACUC protocol approved by University of Kansas Medical Center.</p>
+      </sec>
+      <sec id="sec4dot3-ijms-21-00301">
+        <title>4.3. Effect of NB-DGJ on C57BL6J Mice Testis and Spermatozoa</title>
+        <p>Groups of six mice, each, were used for three different doses of NB-DNJ or NB-DGJ formulated in milliQ water at 50 mg/kg, 25 mg/kg and 15 mg/kg, respectively. Control groups were given an equivalent volume of water. Animals were given compound or control once daily for 35 consecutive days via oral gavage using animal feeding needles (Biomedical Needles, Popper, NY, USA). Body weight was noted every week for all treatment groups. Mice were euthanized at the end of a 35 days dosing regimen using CO<sub>2</sub> asphyxia followed by cervical dislocation. Testes were harvested, weighed and stored in Bouin&#x2019;s fixative for 48 h, then sliced into two halves, and stored in fresh Bouin&#x2019;s for another 24 h. The tissue slices were then rinsed in 70% ethanol and processed and stained for histology using a standard protocol for Hematoxylin and eosin staining. Spermatids with elongated and abnormally shaped heads were counted per 20 fields and average number calculated for 6 mice/group.</p>
+        <p>For sperm retrieval, epididymis was removed from the animal and placed in Petri dish. One mL of capacitation buffer (Capacitation buffer consisted of 110 mM NaCl, 2.68 mM KCl, 0.36 mM NaH2PO4, 25 mM NaHCO3, 0.49 mM MgCl2, 2.40 mM CaCl2, 25 mM HEPES, 5.50 mM Glucose, 1 mM Pyruvic acid, pH 7.4; Tash and Bracho, 1998) at room temperature was added to the dish. Using forceps, the caput of the epididymis was held in place and the cauda sliced repeatedly with a razor blade. The spermatozoa were allowed to disperse for 15 min with gentle swirling intermittently. A 100 &#xB5;L aliquot of the sperm suspension was dropped onto a standard glass microscope slide (Fisherbrand superfrost microscope slides 25 &#xD7; 75 &#xD7; 1.0 mm)) and smeared with side of pipette tip. The slides were air dried flat for 1 h at room temperature. The sperm smear was fixed in methanol for 2 min. The sperm smear was than stained using FITC-PSA (Fluorescein isothiocyanate Pisum Sativum Agglutinin; Vector Laboratories, Burlingame, CA) was diluted 1:7000 in PBS containing 1:10,000 DAPI dihydrochloride, FluoroPure&#x2122; grade, Invitrogen) (&#x2265;98% pure) to make the stock solution. To each slide, 100 &#xB5;L of FITC-PSA was added and spread out with edge of pipette tip to cover the dried sperm smear. The slides were incubated at 37 &#xB0;C for 10 min, and then washed with 5 changes of PBS for 5 min each. The slides were air-dried and mounted with 20 &#xB5;L Vectashield mounting medium for fluorescence (Vector Laboratories, Burlingame, CA, USA) and observed. Slides were viewed on a Nikon IX-81 microscope under a 40&#xD7; objective using FITC and DAPI filter to visualize acrosome morphology. The phase contrast images were also collected at the same magnification to compare morphological details.</p>
+      </sec>
+      <sec id="sec4dot4-ijms-21-00301">
+        <title>4.4. Rat Mating Trials Challenged with NB-DGJ</title>
+        <p>Eighteen adult male CD rats were divided into three groups of six rats each. One group of six CD rats was treated with vehicle (distilled water containing 0.9% benzyl alcohol) via oral gavage (5 mL/kg/day), and the second group (6 rats) was treated with <italic>N</italic>B-DGJ (in distilled water containing 0.9% benzyl alcohol) via oral gavage at 150 mg/kg/day (in approximately 5 mL/kg of water) daily for 35 consecutive days. The third group (6 rats) was treated with 15 mg/kg NB-DNJ in distilled water containing 0.9% benzyl alcohol) via oral gavage (in approximately 5 mL/kg of water) daily for 35 consecutive days (<xref ref-type="app" rid="app1-ijms-21-00301">Figure S5</xref>).</p>
+        <p>Rats were weighed on day 0 (first day of dosing) and weekly thereafter. Dosages were adjusted based on the most recent body weight. Males were cohabited with untreated females (one male per two females) weekly at weeks 1 through 9 [<xref ref-type="bibr" rid="B38-ijms-21-00301">38</xref>,<xref ref-type="bibr" rid="B39-ijms-21-00301">39</xref>]. Females were necropsied seven days after separation from males to determine the numbers of implantation sites. Individual male rats were bled from the tail vein at weeks 0, 1, 4, and 7 and serum was harvested by centrifugation. At week 11, the male rats were weighed, anesthetized, and exsanguinated. Sera were analyzed for inhibin B by ELISA (enzyme-linked immunosorbent assay), and rat follicle stimulating hormone (rFSH) and testosterone by radioimmunoassay [<xref ref-type="bibr" rid="B38-ijms-21-00301">38</xref>]. Testes, epididymides, ventral prostates, and seminal vesicles were excised and weighed. The left testis was homogenized, and spermatid head counts obtained [<xref ref-type="bibr" rid="B39-ijms-21-00301">39</xref>].</p>
+        <p>Sperm were obtained from the left cauda epididymis and evaluated for sperm motility, as follows. The cauda epididymis was punctured with an 18-gauge needle and sperm expressed into the well of a culture slide. The sperm were diluted with capacitation buffer [<xref ref-type="bibr" rid="B40-ijms-21-00301">40</xref>] containing 0.1% BSA to obtain about 20&#x2013;40 sperm per field as viewed in the inverted microscope. The number of motile and non-motile sperm was determined, and the percent of motile sperm were calculated. A smear of the diluted sperm was also prepared and used to assess sperm morphology under phase contrast. The percent of normal/abnormal sperm were calculated.</p>
+        <p>Statistical analysis using the Student&#x2019;s <italic>t</italic>-test was performed on body weights, paired testes weights, ventral prostrate weights, seminal vesicle weights, paired epididymal weights, spermatid head counts, percent motile and normal epididymal sperm. We used analysis of variance (ANOVA) for serum inhibin B, rFSH, and testosterone, since these measurements were repeated throughout the study period. The effect of <italic>N</italic>B-DNJ at 15 mg/kg/day dose in the rat model was studied following the same protocol as that for <italic>N</italic>B-DGJ. Since the mating trials did not show effect on fertility by week 6, the study was terminated at week 7 (data not presented).</p>
+      </sec>
+      <sec id="sec4dot5-ijms-21-00301">
+        <title>4.5. Pharmacokinetic Analysis</title>
+        <p>Four male CD rats (225&#x2013;235 g) were purchased from Harlan (Indianapolis, IN, USA) with in-dwelling jugular cannulas and allowed to acclimate for 72 h in climate-regulated holding rooms in the University of Minnesota&#x2019;s AAALAC-certified animal facilities. Standard rat chow and water were provided ad libitum throughout the study. <italic>N</italic>B-DGJ was formulated as described above to 33.75 mg/mL for in vivo administration. Rats were dosed orally by using a 15 G &#xD7; 3&#x201D; disposable gavage needle with a maximum volume of 5 mL/kg body weight. At various time points (0.083, 0.25, 0.5, 1, 2, 4, 8, 12, 24 and 48 h) following dosing, approximately 0.1 mL of blood was collected from each rat into BD Microtainer<sup>&#xAE;</sup> with Lithium Heparin (Becton-Dickinson). Plasma was then isolated by allowing the samples to sit at room temperature for 30 min followed by microcentrifugation at 15,000&#xD7; <italic>g</italic> for 5 min. Plasma samples were then stored at &#x2212;70 &#xB0;C until processing and analysis.</p>
+        <sec id="sec4dot5dot1-ijms-21-00301">
+          <title>4.5.1. Sample Processing</title>
+          <p>Frozen plasma samples were thawed on ice and processed by adding 2 volumes of 100% acetonitrile (containing 750 ng/mL miglitol (<italic>N</italic>-hydroxyethyl-1-deoxynojirimycin) as an internal standard) and vortexed. The samples were then incubated on ice for 1 h and then microcentrifuged at 15,000&#xD7; <italic>g</italic> for 5 min. The cleared supernatants were then transferred to 12 &#xD7; 32 mm glass vials with inserts (Thermo Scientific&#x2122; National&#x2122; Inserts for Target&#x2122; LoVial&#x2122; Wide-Opening Vials).</p>
+        </sec>
+        <sec id="sec4dot5dot2-ijms-21-00301">
+          <title>4.5.2. LC/MS/MS Quantitation</title>
+          <p>Processed samples were analyzed by LC/MS/MS using a previously published method [<xref ref-type="bibr" rid="B41-ijms-21-00301">41</xref>]. A standard curve consisting of normal rat plasma containing varying concentrations (1500, 500, 166.7, 55.6, 18.5, 6.2, 2.1, 0.7 and 0.22 ng/mL) of <italic>N</italic>B-DGJ was constructed and processed as described above. The analytical system was composed of a Quattro Ultima triple quadrupole MS/MS coupled with a Waters Acquity UPLC (Ultra Performance Liquid Chromatography). UPLC isocratic separation of analytes was performed using a Waters Atlantis Hilic 3 &#xB5;m, 150 &#xD7; 2.1 mm analytical column (Waters Corporation, Milford, MA, USA) maintained at 30 &#xB0;C. The eluent was a mixture of acetonitrile/water/buffer (75/10/15, <italic>v</italic>/<italic>v</italic>/<italic>v</italic>) delivered at 0.25 mL/min. The buffer consisted of 100 mM ammonium acetate, pH 5. For the quantification of <italic>N</italic>B-DGJ and miglitol (internal standard), the transitions <italic>m/z</italic> 220 (Q1) &#x2192;  <italic>m/z</italic> 158 (Q3) and <italic>m/z</italic> 208 (Q1) &#x2192;  <italic>m/z</italic> 146 (Q3) were monitored, respectively. Data reduction was performed with QuanLynx software. PK analysis was performed by WinNonLin using a non-compartmental model.</p>
+        </sec>
+      </sec>
+      <sec id="sec4dot6-ijms-21-00301">
+        <title>4.6. Microsome Preparation from Mouse and Rat Testes</title>
+        <p>Testes in 5 g batches were placed in a 50 mL culture tube containing 25 mL of Reagent B (50 mM Tris-HCl, pH 7.4, 0.25 M sucrose and 2.5 mL of reagent A), where reagent A is 1 &#x3BC;g/mL antipain, 1 &#x3BC;g/mL leupeptin, 10 &#x3BC;g/mL aprotinin, 13.2 &#x3BC;g/mL 4-amidinophenyl-methanesulfonyl fluoride hydrochloride (APMSF) and 250 mM KCl. The testes were minced with scissors and then blended by 10 s bursts repeated 2&#x2212;3 times on Power Gen 700 (Fisher Scientific, Hampton, NH, USA) at setting 5&#x2013;6, while on ice. The homogenate was centrifuged at 7500 rpm for 10 min at 4 &#xB0;C using a Beckman SW28 rotor (5660 g). The resulting supernatant was collected and centrifuged at 23,500 rpm for 1 h at 4 &#xB0;C in a Beckman SW40 rotor. The supernatant was discarded and the pellet containing the microsomes was suspended in 600 &#x3BC;L of reagent D (66% (<italic>v</italic>/<italic>v</italic>) reagent C, 10 mM DTT, 8 mM EDTA, 1 mM UDP-Glu and 1% CHAPSO) and dispersed by passage through a 25-gauge needle followed by an insulin needle. (15 mL of reagent C contained 0.17% <italic>N</italic>-laurosarcosine, 75 mM HEPES, pH 7.4, 30% glycerol, 0.03% NaN<sub>3</sub>, 1.5 mM EDTA, 2.25 mL of reagent A, and 3 mM DTT.) The microsome suspension was stored as 100 &#x3BC;L aliquots in microcentrifuge tubes, flash frozen in liquid nitrogen for 1&#x2212;2 min, stored at &#x2212;80 &#xB0;C, and used as needed.</p>
+        <sec id="sec4dot6dot1-ijms-21-00301">
+          <title>4.6.1. Ceramide-Specific Glucosyltransferase Assay</title>
+          <p>The following solutions were added to each assay tube (Fisher 15 &#xD7; 85 mm borosilicate glass): 295 &#x3BC;L of assay mix (50 mM HEPES, pH 7.4, 10% (<italic>v</italic>/<italic>v</italic>) reagent A, 5 mM MnCl<sub>2</sub>, 0.1 mM phosphatidylcholine, 50 &#x3BC;M conduritol B epoxide, 2 mM EDTA, 5 mM UDP-Glu), 145 &#x3BC;L water, 50 &#x3BC;L iminosugar from serially diluted stock solutions prepared in water, and 100 &#x3BC;g testicular microsomes. Control tubes contained the same components, except microsomes. Reactions were initiated by the addition of 3 &#x3BC;L of bovine serum albumin&#x2013;ceramide and incubated at 37 &#xB0;C for 30 min, then terminated by addition of 1 mL of 2:1 (<italic>v</italic>:<italic>v</italic>) chloroform: methanol, vortexed, and incubated at room temperature for 30&#x2013;60 min to allow phase separation. The upper phase and the mid-layer were removed and discarded, and 500 &#xB5;L of chloroform:methanol: water (3:48:47) was added to the bottom layer, vortexed, and allowed to sit for 15 min at room temperature. The resulting upper phase was again removed and 100 &#xB5;L of chloroform:methanol (2:1) was added, and then sample tubes were dried in a vortex evaporator overnight.</p>
+          <sec>
+            <title>Thin Layer Chromatography</title>
+            <p>TLC plates (Whatman silica gel 60 A, 20 &#xD7; 20 cm, layer thickness 250 &#x3BC;m) were pre-treated by immersion in chloroform:methanol: water (50:50:15) for 5 min, air dried for 10 min, then immersed in 5% sodium borate (prepared in methanol) for 1 min, dried and heated at 120 &#xB0;C for 1.5 h. The dried sample tubes were reconstituted with 100 &#xB5;L chloroform:methanol (2:1) and vortexing, and 20 &#xB5;L was then spotted onto the plates at the origin. The spotted plates were air-dried and placed in a sealed TLC chamber saturated with chloroform:methanol: water (60:30:5) and run approximately 1 h until the solvent reached &lt;1 cm from the top of plate).</p>
+          </sec>
+          <sec>
+            <title>Detection and Quantitation of Substrate/Product</title>
+            <p>The TLC plates were documented using a UV transilluminator (at 302 nm) and analyzed using AlphaEase (Fluorchem SP, Windows v5.0.2) software. The integrated density value (IDV) was plotted against iminosugar concentration using Sigma Plot 10. A linear regression plot was used to determine IC<sub>50</sub> values.</p>
+          </sec>
+        </sec>
+        <sec id="sec4dot6dot2-ijms-21-00301">
+          <title>4.6.2. Testicular Glucosidase Assay</title>
+          <p>The assay was carried out in 96-well plates: 50 &#x3BC;L of 3 mg/mL 4-methyl umbelliferyl-beta-<sc>d</sc>-glucoside (MUG; Sigma, St. Louis, MO, USA) was added to each well using a multi-channel pipette, followed by 10 &#x3BC;L of iminosugar serial dilutions to yield 0, 5, 10, 50, 100, 500 and 1000 &#x3BC;M final concentrations, added from left to right, to provide increasing concentrations of the iminosugar from the top to the bottom of the plate. Then, 50 &#x3BC;L of testicular microsomes (1 &#x3BC;g/&#x3BC;L) was added to each well using a multi-channel pipette in the first column. Another multi-channel pipette was kept pre-loaded with terminator solution (100 &#x3BC;L 1 M sodium carbonate, pH 10.7) and was added simultaneously to the first row as a 0-time point. Microsomes were then added to the remaining rows after setting the timer to 1 min. Every 1 min, the terminator solution was added to each row until the 12th row. Absorbance was then detected at 360/460 nm using Synergy HT Multi-Mode Microplate Reader (BioTek). The absorbance values were subtracted from background (MUG only). A linear regression plot was created using Prism software (Graph Pad Prism 5) to determine the IC<sub>50</sub> values.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec5-ijms-21-00301" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>NB-DGJ, administered orally, induced reversible infertility in male CD rats. Thus, unlike, previously reported, iminosugars exert anti-fertility effects in rodent species other than C57Bl6J, indicating that iminosugars and their derivatives should continue to be explored as potential non-hormonal male contraceptive compounds. They are attractive candidates due to their safety, efficacy and excellent bioavailability.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-ijms-21-00301">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>https://www.mdpi.com/1422-0067/21/1/301/s1</uri>.</p>
+		<supplementary-material id="ijms-21-00301-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00301-s001.pdf">
+		</supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>V.G., S.A.H., S.R.J., E.J.C., H.L.W., G.I.G., and J.S.T., Conceptualization: G.I.G. and J.S.T.; Formal analysis: V.G., S.A.H. and H.L.W. Application of statistical, mathematical, computational, or other formal techniques to analyze or synthesize study data: S.A.H., S.R.J., E.J.C. and H.L.W.; Investigation: V.G., S.A.H., S.R.J., E.J.C. and H.L.W.; original draft preparation: V.G., G.I.G., J.S.T., S.A.H. Project administration: G.I.G. and J.S.T. Reviewing/editing: V.G., S.A.H., S.R.J., E.J.C., H.L.W., G.I.G., C.L.A. and J.S.T. Funding acquisition: G.I.G. and J.S.T. Validation: V.G., S.A.H. and H.L.W. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was supported by the Contraception Research Branch of the Eunice Kennedy Shriver National Institute of Child Health and Human Development through contracts HHSN275200503400C and HHSN275201300017C (to GIG and JT). The rat mating trial was supported by the National Institute of Child Health and Human Development contract N01-HD-2-3338 awarded to BIOQUAL, Inc.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors wish to thank the following BIOQUAL technicians for their technical expertise: Jean Engbring, Anne Semon, Janet Burgenson, David Gropp, Jessica Luke, Margaret Krol, Trung Pham, and Bruce Till. We also wish to thank the following technicians in the Tash laboratory for their technical support: Aneesha Garry and Brian Kern. We thank NICHD program officers. H.K. Kim, Diana Blithe and Min Lee for their support of this program.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The research for this article was conducted while Hild was employed at Bioqual Inc. Her current affiliation is Office of Research Infrastructure Programs, Office of the Director, National Institutes of Health (NIH), Bethesda, MD. The opinions expressed in this article are the author&#x2019;s own and do not reflect the views of NIH or the Department of Health and Human Services.</p>
+    </notes>
+    <glossary>
+      <title>Abbreviations</title>
+      <array>
+        <tbody>
+          <tr>
+            <td align="left" valign="middle">NB-DGJ</td>
+            <td align="left" valign="middle"><italic>N</italic>-butyldeoxygalactonojirimycin</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">GBA2</td>
+            <td align="left" valign="middle">Beta-glucosidase 2</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">CGT</td>
+            <td align="left" valign="middle">ceramide-specific glucosyltransferase</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">UDP-Glu</td>
+            <td align="left" valign="middle">Uridine diphosphate glucose</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">NB-DNJ</td>
+            <td align="left" valign="middle"><italic>N</italic>-butyldeoxynojirimycin</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">TLC</td>
+            <td align="left" valign="middle">Thin layer chromatography</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">MUG</td>
+            <td align="left" valign="middle">4-methyl umbelliferyl-beta-<sc>d</sc>-glucoside</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">CO2</td>
+            <td align="left" valign="middle">Carbon-di-oxide</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">NaCl</td>
+            <td align="left" valign="middle">Sodium Chloride</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">KCl</td>
+            <td align="left" valign="middle">Potassium chloride</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">NaH2PO4</td>
+            <td align="left" valign="middle">Mono sodium phosphate</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">NAHCO3</td>
+            <td align="left" valign="middle">Sodium bi carbonate</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">MgCl2</td>
+            <td align="left" valign="middle">Magnesium chloride</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">CaCl2</td>
+            <td align="left" valign="middle">Calcium chloride</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">HEPES</td>
+            <td align="left" valign="middle">4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">FITC-PSA</td>
+            <td align="left" valign="middle">Fluorescein isothiocyanate Pisum Sativum Agglutinin</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">PBS</td>
+            <td align="left" valign="middle">Phosphate buffered saline</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">LC/MS</td>
+            <td align="left" valign="middle">Liquid chromatography&#x2013;mass spectrometry</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">SAR</td>
+            <td align="left" valign="middle">Structure Activity Relationship</td>
+          </tr>
+        </tbody>
+      </array>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00301">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oudshoorn</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <source>The Male Pill: A Biography of a Technology in the Making</source>
+          <publisher-name>Duke University Press</publisher-name>
+          <publisher-loc>Durham, NC, USA</publisher-loc>
+          <year>2003</year>
+          <fpage>306</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00301">
+        <label>2.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>May</surname>
+              <given-names>E.T.</given-names>
+            </name>
+          </person-group>
+          <source>America and the Pill: A History of Promise, Peril, and Liberation</source>
+          <publisher-name>Basic Books</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2010</year>
+          <fpage>214</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00301">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kogan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wald</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Male contraception: History and development</article-title>
+          <source>Urol. Clin. N. Am.</source>
+          <year>2014</year>
+          <volume>41</volume>
+          <fpage>145</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ucl.2013.08.012</pub-id>
+          <pub-id pub-id-type="pmid">24286773</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00301">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Page</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Amory</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Bremner</surname>
+              <given-names>W.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Advances in male contraception</article-title>
+          <source>Endocr. Rev.</source>
+          <year>2008</year>
+          <volume>29</volume>
+          <fpage>465</fpage>
+          <lpage>493</lpage>
+          <pub-id pub-id-type="doi">10.1210/er.2007-0041</pub-id>
+          <pub-id pub-id-type="pmid">18436704</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00301">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gu</surname>
+              <given-names>Z.P.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>B.Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.X.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>You</surname>
+              <given-names>G.D.</given-names>
+            </name>
+            <name>
+              <surname>Segal</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Low dose gossypol for male contraception</article-title>
+          <source>Asian J. Androl.</source>
+          <year>2000</year>
+          <volume>2</volume>
+          <fpage>283</fpage>
+          <lpage>287</lpage>
+          <pub-id pub-id-type="pmid">11202417</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00301">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jones</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antifertility actions of alpha-chlorohydrin in the male</article-title>
+          <source>Aust. J. Biol. Sci.</source>
+          <year>1983</year>
+          <volume>36</volume>
+          <fpage>333</fpage>
+          <lpage>350</lpage>
+          <pub-id pub-id-type="pmid">6362633</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00301">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>G.Z.</given-names>
+            </name>
+            <name>
+              <surname>Lyle</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Clinical trial of gossypol as a male contraceptive drug. Part 1. Efficacy study</article-title>
+          <source>Fertil. Steril.</source>
+          <year>1987</year>
+          <volume>48</volume>
+          <fpage>459</fpage>
+          <lpage>461</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0015-0282(16)59418-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00301">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murdoch</surname>
+              <given-names>F.E.</given-names>
+            </name>
+            <name>
+              <surname>Goldberg</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Male contraception: Another holy grail</article-title>
+          <source>Bioorg. Med. Chem. Lett.</source>
+          <year>2014</year>
+          <volume>24</volume>
+          <fpage>419</fpage>
+          <lpage>424</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bmcl.2013.12.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00301">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nya-Ngatchou</surname>
+              <given-names>J.-J.</given-names>
+            </name>
+            <name>
+              <surname>Amory</surname>
+              <given-names>J.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>New approaches to male non-hormonal contraception</article-title>
+          <source>Contraception</source>
+          <year>2013</year>
+          <volume>87</volume>
+          <fpage>296</fpage>
+          <lpage>299</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.contraception.2012.08.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00301">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ritter</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Krause</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Geyer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Stirm</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wiegandt</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycosphingolipid composition of human semen</article-title>
+          <source>Arch. Biochem. Biophys.</source>
+          <year>1987</year>
+          <volume>257</volume>
+          <fpage>370</fpage>
+          <lpage>378</lpage>
+          <pub-id pub-id-type="doi">10.1016/0003-9861(87)90579-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00301">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Honke</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hirahara</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Dupree</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Popko</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fukushima</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fukushima</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Nagasawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Wada</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Paranodal junction formation and spermatogenesis require sulfoglycolipids</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>4227</fpage>
+          <lpage>4232</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.032068299</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00301">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takamiya</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Furukawa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fukumoto</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yamashiro</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Haraguchi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kishikawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Complex gangliosides are essential in spermatogenesis of mice: Possible roles in the transport of testosterone</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1998</year>
+          <volume>95</volume>
+          <fpage>12147</fpage>
+          <lpage>12152</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.95.21.12147</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00301">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujimoto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tadano-Aritomi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tokumasu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hikita</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ishizuka</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Requirement of seminolipid in spermatogenesis revealed by UDP-galactose: Ceramide galactosyltransferase-deficient mice</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2000</year>
+          <volume>275</volume>
+          <fpage>22623</fpage>
+          <lpage>22626</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.C000200200</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00301">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yildiz</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Matern</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Allegood</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Warren</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Ramirez</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Hammer</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Hamra</surname>
+              <given-names>F.K.</given-names>
+            </name>
+            <name>
+              <surname>Matern</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutation of beta-glucosidase 2 causes glycolipid storage disease and impaired male fertility</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>2006</year>
+          <volume>116</volume>
+          <fpage>2985</fpage>
+          <lpage>2994</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI29224</pub-id>
+          <pub-id pub-id-type="pmid">17080196</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00301">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ridley</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Thur</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Shanahan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Thillaiappan</surname>
+              <given-names>N.B.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Uhl</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Walden</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Rahim</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Waddington</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>&#x3B2;-Glucosidase 2 (GBA2) activity and imino sugar pharmacology</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2013</year>
+          <volume>288</volume>
+          <fpage>26052</fpage>
+          <lpage>26066</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M113.463562</pub-id>
+          <pub-id pub-id-type="pmid">23880767</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijms-21-00301">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raju</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Schonauer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hamzeh</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wachten</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Flynn Kevin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bradke</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Vom Dorp</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>D&#xF6;rmann</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Yildiz</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tr&#xF6;tschel</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Accumulation of glucosylceramide in the absence of the beta-glucosidase GBA2 alters cytoskeletal dynamics</article-title>
+          <source>PLoS Genet.</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <elocation-id>e1005063</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1005063</pub-id>
+          <pub-id pub-id-type="pmid">25803043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijms-21-00301">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>St&#xFC;tz</surname>
+              <given-names>A.E.</given-names>
+            </name>
+          </person-group>
+          <source>Iminosugars as Glycosidase Inhibitors: Nojirimycin and Beyond</source>
+          <publisher-name>Wiley-VCH</publisher-name>
+          <publisher-loc>Weinheim, NY, USA</publisher-loc>
+          <year>1999</year>
+          <fpage>397</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijms-21-00301">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Butters</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Dwek</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Imino sugar inhibitors for treating the lysosomal glycosphingolipidoses</article-title>
+          <source>Glycobiology</source>
+          <year>2005</year>
+          <volume>15</volume>
+          <fpage>43R</fpage>
+          <lpage>52R</lpage>
+          <pub-id pub-id-type="doi">10.1093/glycob/cwi076</pub-id>
+          <pub-id pub-id-type="pmid">15901676</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijms-21-00301">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dwek</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Butters</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>Zitzmann</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting glycosylation as a therapeutic approach</article-title>
+          <source>Nat. Rev. Drug Discov.</source>
+          <year>2002</year>
+          <volume>1</volume>
+          <fpage>65</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrd708</pub-id>
+          <pub-id pub-id-type="pmid">12119611</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijms-21-00301">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>Neises</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Dwek</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Butters</surname>
+              <given-names>T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>N</italic>-butyldeoxynojirimycin is a novel inhibitor of glycolipid biosynthesis</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1994</year>
+          <volume>269</volume>
+          <fpage>8362</fpage>
+          <lpage>8365</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijms-21-00301">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walden</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Sandhoff</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chuang</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Yildiz</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Butters</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Dwek</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>van der Spoel</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Accumulation of glucosylceramide in murine testis, caused by inhibition of beta-glucosidase 2: implications for spermatogenesis</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2007</year>
+          <volume>282</volume>
+          <fpage>32655</fpage>
+          <lpage>32664</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M702387200</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijms-21-00301">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van Der Spoel</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Jeyakumar</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Butters</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Charlton</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>H.D.</given-names>
+            </name>
+            <name>
+              <surname>Dwek</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reversible infertility in male mice after oral administration of alkylated imino sugars: A nonhormonal approach to male contraception</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>17173</fpage>
+          <lpage>17178</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.262586099</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijms-21-00301">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andersson</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Butters</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Dwek</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>N-Butyldeoxygalactonojirimycin: a more selective inhibitor of glycosphingolipid biosynthesis than <italic>N</italic>-butyldeoxynojirimycin, in vitro and in vivo</article-title>
+          <source>Biochem. Pharmacol.</source>
+          <year>2000</year>
+          <volume>59</volume>
+          <fpage>821</fpage>
+          <lpage>829</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0006-2952(99)00384-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijms-21-00301">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bone</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Walden</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Fritsch</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Voigtmann</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Leifke</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gottwald</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Boomkamp</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>van der Spoel</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The sensitivity of murine spermiogenesis to miglustat is a quantitative trait: A pharmacogenetic study</article-title>
+          <source>Reprod. Biol. Endocrinol.</source>
+          <year>2007</year>
+          <volume>5</volume>
+          <fpage>1</fpage>
+          <pub-id pub-id-type="doi">10.1186/1477-7827-5-1</pub-id>
+          <pub-id pub-id-type="pmid">17241468</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijms-21-00301">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amory</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Page</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Leifke</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Pagel</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Bhandari</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Subramanyam</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Bone</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Radlmaier</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bremner</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Miglustat has no apparent effect on spermatogenesis in normal men</article-title>
+          <source>Hum. Reprod.</source>
+          <year>2007</year>
+          <volume>22</volume>
+          <fpage>702</fpage>
+          <lpage>707</lpage>
+          <pub-id pub-id-type="doi">10.1093/humrep/del414</pub-id>
+          <pub-id pub-id-type="pmid">17067996</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijms-21-00301">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cox</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Lachmann</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hollak</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Aerts</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>van Weely</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hrebicek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Butters</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dwek</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Moyses</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Novel oral treatment of Gaucher&#x2019;s disease with <italic>N</italic>-butyldeoxynojirimycin (OGT 918) to decrease substrate biosynthesis</article-title>
+          <source>Lancet</source>
+          <year>2000</year>
+          <volume>355</volume>
+          <fpage>1481</fpage>
+          <lpage>1485</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(00)02161-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijms-21-00301">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fischl</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Resnick</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Coombs</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kremer</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Pottage</surname>
+              <given-names>J.C.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <name>
+              <surname>Fass</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Fife</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Powderly</surname>
+              <given-names>W.G.</given-names>
+            </name>
+            <name>
+              <surname>Collier</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Aspinall</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The safety and efficacy of combination N-butyl-deoxynojirimycin (SC-48334) and zidovudine in patients with HIV-1 infection and 200-500 CD4 cells/mm<sup>3</sup></article-title>
+          <source>J. Acquir. Immune Defic. Syndr.</source>
+          <year>1994</year>
+          <volume>7</volume>
+          <fpage>139</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="pmid">7905523</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-ijms-21-00301">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Tang Elizabeth</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of blood-testis barrier by actin binding proteins and protein kinases</article-title>
+          <source>Reproduction</source>
+          <year>2016</year>
+          <volume>151</volume>
+          <fpage>R29</fpage>
+          <lpage>R41</lpage>
+          <pub-id pub-id-type="doi">10.1530/REP-15-0463</pub-id>
+          <pub-id pub-id-type="pmid">26628556</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-ijms-21-00301">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tash</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Attardi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hild</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Chakrasali</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Jakkaraj</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Georg</surname>
+              <given-names>G.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel potent indazole carboxylic acid derivative blocks spermatogenesis and is contraceptive in rats after a single oral dose</article-title>
+          <source>Biol. Reprod.</source>
+          <year>2008</year>
+          <volume>78</volume>
+          <fpage>1127</fpage>
+          <lpage>1138</lpage>
+          <pub-id pub-id-type="doi">10.1095/biolreprod.106.057810</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-ijms-21-00301">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tash</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Chakrasali</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Jakkaraj</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Hornbaker</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Heckert</surname>
+              <given-names>L.L.</given-names>
+            </name>
+            <name>
+              <surname>Ozturk</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Hadden</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Kinzy</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Gamendazole, an orally active indazole carboxylic acid male contraceptive agent, targets HSP90AB1 (HSP90BETA) and EEF1A1 (eEF1A), and stimulates IL1a transcription in rat Sertoli cells</article-title>
+          <source>Biol. Reprod.</source>
+          <year>2008</year>
+          <volume>78</volume>
+          <fpage>1139</fpage>
+          <lpage>1152</lpage>
+          <pub-id pub-id-type="doi">10.1095/biolreprod.107.062679</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-ijms-21-00301">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matos</surname>
+              <given-names>C.R.R.</given-names>
+            </name>
+            <name>
+              <surname>Lopes Rsc</surname>
+              <given-names>C.C.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthesis of 1-deoxynjirimycin and <italic>N</italic>-butyl-1-deoxynojirimycin</article-title>
+          <source>Synthesis</source>
+          <year>1999</year>
+          <volume>4</volume>
+          <fpage>571</fpage>
+          <lpage>573</lpage>
+          <pub-id pub-id-type="doi">10.1055/s-1999-3430</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-ijms-21-00301">
+        <label>32.</label>
+        <element-citation publication-type="patent">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aman</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Lanz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <collab>Scopes DIC Inventors</collab>
+          </person-group>
+          <article-title>Process for the Production of Deoxygalactonojirimycin Derivatives</article-title>
+          <source>International Patent</source>
+          <patent>WO 2004/054975</patent>
+          <day>1</day>
+          <month>July</month>
+          <year>2004</year>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijms-21-00301">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suganuma</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Walden</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Butters</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Platt</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>Dwek</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Yanagimachi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>van der Spoel</surname>
+              <given-names>A.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alkylated imino sugars, reversible male infertility-inducing agents, do not affect the genetic integrity of male mouse germ cells during short-term treatment despite induction of sperm deformities</article-title>
+          <source>Biol. Reprod.</source>
+          <year>2005</year>
+          <volume>72</volume>
+          <fpage>805</fpage>
+          <lpage>813</lpage>
+          <pub-id pub-id-type="doi">10.1095/biolreprod.104.036053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-ijms-21-00301">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Treiber</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Morand</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Clozel</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The pharmacokinetics and tissue distribution of the glucosylceramide synthase inhibitor miglustat in the rat</article-title>
+          <source>Xenobiotica</source>
+          <year>2007</year>
+          <volume>37</volume>
+          <fpage>298</fpage>
+          <lpage>314</lpage>
+          <pub-id pub-id-type="doi">10.1080/00498250601094543</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-ijms-21-00301">
+        <label>35.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Russell</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Ettlin</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Sinha</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Clegg</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <source>Histological and Histopathological Evaluation of the Testis</source>
+          <publisher-name>Cache River Press</publisher-name>
+          <publisher-loc>Clearwater, FL, USA</publisher-loc>
+          <year>1990</year>
+          <fpage>286</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B36-ijms-21-00301">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wennekes</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Meijer Alfred</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Groen Albert</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Boot Rolf</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Groener Johanna</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>van Eijk</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ottenhoff</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bijl</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ghauharali</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dual-action lipophilic iminosugar improves glycemic control in obese rodents by reduction of visceral glycosphingolipids and buffering of carbohydrate assimilation</article-title>
+          <source>J. Med. Chem.</source>
+          <year>2010</year>
+          <volume>53</volume>
+          <fpage>689</fpage>
+          <lpage>698</lpage>
+          <pub-id pub-id-type="doi">10.1021/jm901281m</pub-id>
+          <pub-id pub-id-type="pmid">20000679</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-ijms-21-00301">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Francis</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dutta</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gupta</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.-Y.</given-names>
+            </name>
+            <name>
+              <surname>Tash</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xF6;nbrunnm</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Georg</surname>
+              <given-names>G.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthesis and evaluation of eight- and four-membered iminosugar analogues as inhibitors of testicular ceramide-specific glucosyltransferase, testicular &#x3B2;-glucosidase 2, and other glycosidases</article-title>
+          <source>J. Org. Chem.</source>
+          <year>2012</year>
+          <volume>77</volume>
+          <fpage>3082</fpage>
+          <lpage>3098</lpage>
+          <pub-id pub-id-type="doi">10.1021/jo202054g</pub-id>
+          <pub-id pub-id-type="pmid">22432895</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-ijms-21-00301">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hild</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Attardi</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Reel</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ability of a gonadotropin-releasing hormone antagonist, acyline, to prevent irreversible infertility induced by the indenopyridine, CDB-4022, in adult male rats: The role of testosterone</article-title>
+          <source>Biol. Reprod.</source>
+          <year>2004</year>
+          <volume>71</volume>
+          <fpage>348</fpage>
+          <lpage>358</lpage>
+          <pub-id pub-id-type="doi">10.1095/biolreprod.103.026989</pub-id>
+          <pub-id pub-id-type="pmid">15044265</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-ijms-21-00301">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hild</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Reel</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Larner</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Blye</surname>
+              <given-names>R.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Disruption of spermatogenesis and Sertoli cell structure and function by the indenopyridine CDB-4022 in rats</article-title>
+          <source>Biol. Reprod.</source>
+          <year>2001</year>
+          <volume>65</volume>
+          <fpage>1771</fpage>
+          <lpage>1779</lpage>
+          <pub-id pub-id-type="doi">10.1095/biolreprod65.6.1771</pub-id>
+          <pub-id pub-id-type="pmid">11717140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-ijms-21-00301">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tash</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Bracho</surname>
+              <given-names>G.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of phosphoproteins coupled to initiation of motility in live epididymal mouse sperm</article-title>
+          <source>Biochem. Biophys Res. Commun.</source>
+          <year>1998</year>
+          <volume>251</volume>
+          <fpage>557</fpage>
+          <lpage>563</lpage>
+          <pub-id pub-id-type="doi">10.1006/bbrc.1998.9516</pub-id>
+          <pub-id pub-id-type="pmid">9792812</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-ijms-21-00301">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guitton</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Coste</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Guffon-Fouilhoux</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Manchon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Guillaumony</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapid quantification of miglstat in human plasma and cerebrospinal fluid by liquid chromatography coupled with tandem mass spectrometry</article-title>
+          <source>J. Chromatog. B</source>
+          <year>2009</year>
+          <volume>877</volume>
+          <fpage>149</fpage>
+          <lpage>154</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jchromb.2008.11.040</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="ijms-21-00301-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Metabolism of glucosylceramide. Ceramide-specific glucosyltransferase (CGT) is responsible for catalyzing the reaction between uridine diphosphate glucose (UDP-Glu) and ceramide (Cer) to form glucosylceramide, which is catabolized into glucose (Glu) and ceramide by &#x3B2;-glucosidase 2 (GBA2).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00301-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00301-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Structures of iminosugars <italic>N</italic>B-DNJ and <italic>N</italic>B-DGJ.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00301-g002.tif"/>
+      </fig>
+      <fig id="ijms-21-00301-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Testis histology and epididymal sperm morphology C57BL6 mice treated with vehicle and/or various dosage (15,25 and 50 mg/kg) of NB-DGJ/NB-DNJ (<bold>a</bold>) NB-DGJ and NB-DNJ treated mice testis showed abnormal spermatids (arrow) unlike elongated spermatids seen in the control(arrow) group. Scale bar&#x2014;25 micron). (<bold>b</bold>) NB-DNJ treated mice epididymal sperm had abnormal acrosome at all three doses, whereas ND-DGJ treated mice showed an increasing number of sperm with abnormal acrosomes with increasing NB-DGJ dose (sperm head indicated by arrows). Scale bar&#x2014;50 micron.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00301-g003.tif"/>
+      </fig>
+      <fig id="ijms-21-00301-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Effect of <italic>N</italic>B-DGJ on the fertility of male CD rats. The <italic>x</italic>-axis represents the week at which fertility was analyzed on the final day of the mating week and the y-axis denotes the number of rats (out of six) that were able to impregnate female rats. The green line indicates the weeks for which the rats were receiving daily treatment (weeks 0&#x2013;4, days 0&#x2013;34). All male rats were necropsied at week 11.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00301-g004.tif"/>
+      </fig>
+      <fig id="ijms-21-00301-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Pharmacokinetics of <italic>N</italic>B-DGJ in male CD rats. Rats (<italic>n</italic> = 4) with in-dwelling jugular vein cannulas were orally dosed with <italic>N</italic>B-DGJ (150 mg/kg) and at various times (0.083, 0.25, 0.5, 1, 2, 4, 8, 12, 24 and 48 h) afterwards, approximately 0.1 mL whole blood was collected from each animal. <italic>N</italic>B-DGJ was quantified in the resulting plasma using LC/MS/MS. Data are represented as the mean plasma levels &#xB1; S.D.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00301-g005.tif"/>
+      </fig>
+      <table-wrap id="ijms-21-00301-t001" position="float">
+        <object-id pub-id-type="pii">ijms-21-00301-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Statistical analysis of normal and abnormal spermatozoa seen in mice treated with 50 mg/kg, 25 mg/kg and 15 mg/kg NB-DGJ. Numbers indicate the average percentage of spermatozoa population in all six mice/group.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Parameter</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">50 mg/kg</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">25 mg/kg</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">15 mg/kg</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">SPERM MORPHOLOGY</td>
+              <td align="center" valign="middle">Normal</td>
+              <td align="center" valign="middle">Abnormal</td>
+              <td align="center" valign="middle">Normal</td>
+              <td align="center" valign="middle">Abnormal</td>
+              <td align="center" valign="middle">Normal</td>
+              <td align="center" valign="middle">Abnormal</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">AVERAGE (%)</td>
+              <td align="center" valign="middle">11.78</td>
+              <td align="center" valign="middle">88.21</td>
+              <td align="center" valign="middle">37.85</td>
+              <td align="center" valign="middle">62.05</td>
+              <td align="center" valign="middle">48.4</td>
+              <td align="center" valign="middle">51.59</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">STDEV</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.95</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.95</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.27</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.14</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.87</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.87</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="ijms-21-00301-t002" position="float">
+        <object-id pub-id-type="pii">ijms-21-00301-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Mean normal and abnormal implants.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Week of Study</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Vehicle Conceptus</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fertile/Mated</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>N</italic>B-DGJ Conceptus</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fertile/Mated</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">14/0.3</td>
+              <td align="center" valign="middle">6/6</td>
+              <td align="center" valign="middle">14/0.3</td>
+              <td align="center" valign="middle">6/6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">13/0.7</td>
+              <td align="center" valign="middle">6/6</td>
+              <td align="center" valign="middle">6/0.1</td>
+              <td align="center" valign="middle">6/6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">13/0.8</td>
+              <td align="center" valign="middle">6/6</td>
+              <td align="center" valign="middle">1/0</td>
+              <td align="center" valign="middle">3/6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">13/0.5</td>
+              <td align="center" valign="middle">6/6</td>
+              <td align="center" valign="middle">0/0</td>
+              <td align="center" valign="middle">0/6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">14/0.2</td>
+              <td align="center" valign="middle">6/6</td>
+              <td align="center" valign="middle">10/2</td>
+              <td align="center" valign="middle">6/6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">13/0.3</td>
+              <td align="center" valign="middle">6/6</td>
+              <td align="center" valign="middle">13/0.3</td>
+              <td align="center" valign="middle">6/6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">7</td>
+              <td align="center" valign="middle">14/0.2</td>
+              <td align="center" valign="middle">6/6</td>
+              <td align="center" valign="middle">13/0.3</td>
+              <td align="center" valign="middle">6/6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="middle">13/0.3</td>
+              <td align="center" valign="middle">6/6</td>
+              <td align="center" valign="middle">14/0.3</td>
+              <td align="center" valign="middle">6/6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13/0.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6/6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13/0.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6/6</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Notes: Total numbers of conceptuses in both female rats housed per male were counted. Conceptuses = mean normal/mean abnormal conceptuses.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="ijms-21-00301-t003" position="float">
+        <object-id pub-id-type="pii">ijms-21-00301-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Effect of single oral daily dose of <italic>N</italic>B-DGJ over 35 days on adult male CD rats. Parameters measured at necropsy (end of fertility trial; Week 11).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Treatment Group (<italic>n</italic> = 6)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Final Body Weight Week 11 (g &#xB1; SE)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Paired Testis Weight (g &#xB1; SE)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Spermatid Head Count/Testis<break/># Cells &#xD7; 10<sup>6</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Paired<break/>Epididymal Weight (g &#xB1; SE)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Epididymal Sperm Motility (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Epididymal Sperm with Normal Morphology (% &#xB1; SE)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Seminal Vesicle Weight with Coagulating Gland (g)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">vehicle control</td>
+              <td align="center" valign="middle">563 &#xB1; 12</td>
+              <td align="center" valign="middle">3.57 &#xB1; 0.10</td>
+              <td align="center" valign="middle">122.32 &#xB1; 4.24</td>
+              <td align="center" valign="middle">1.54 &#xB1; 0.07</td>
+              <td align="center" valign="middle">87 &#xB1; 1</td>
+              <td align="center" valign="middle">87 &#xB1; 1</td>
+              <td align="center" valign="middle">1.58 &#xB1; 0.10</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>N</italic>B-DGJ <sup>a</sup></td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">572 &#xB1; 17</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.80 &#xB1; 0.11</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">123.59 &#xB1; 3.73</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.64 &#xB1; 0.03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">60 &#xB1; 3 *</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">72 &#xB1; 1 *</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.40 &#xB1; 0.11</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Notes: <sup>a</sup> <italic>N</italic>B-DGJ at 150 mg/kg/day on days 0&#x2013;34. * significant difference observed.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="ijms-21-00301-t004" position="float">
+        <object-id pub-id-type="pii">ijms-21-00301-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Inhibition of testicular CGT and GBA2 derived from adult C57BL/6J mice and LE and CD rat testes by <italic>N</italic>B-DGJ.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">IC<sub>50</sub> CGT Inhibition (&#xB5;M) <sup>a</sup></th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">IC<sub>50</sub> GBA2 Inhibition (&#xB5;M) <sup>a</sup></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">C57BL/6J mouse</td>
+              <td align="center" valign="middle">LE rat</td>
+              <td align="center" valign="middle">CD rat</td>
+              <td align="center" valign="middle">C57BL/6J mouse</td>
+              <td align="center" valign="middle">LE rat</td>
+              <td align="center" valign="middle">CD rat</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">76.0 &#xB1; 2.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42.0 &#xB1; 29.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&gt;1000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15.7 &#xB1; 3.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">13.8 &#xB1; 2.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.5 &#xB1; 1.6</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Notes: <bold><sup>a</sup></bold> The IC<sub>50</sub> values were determined as the mean &#xB1; SE average of three assays each.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="ijms-21-00301-t005" position="float">
+        <object-id pub-id-type="pii">ijms-21-00301-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Pharmacokinetic (PK) analysis of NB-DGJ.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">AUCINF_Obs (h * ng/mL)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">C<sub>max</sub> (ng/mL)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>max</sub> (h)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">t<sub>&#xBD;</sub>_Lambda_z (h)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">55,600.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11,016.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.5</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Notes: Performed using WinNonLin using a non-compartmental model; * = multiplication</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="ijms-21-00301-t006" position="float">
+        <object-id pub-id-type="pii">ijms-21-00301-t006_Table 6</object-id>
+        <label>Table 6</label>
+        <caption>
+          <p>IC<sub>50</sub> data for enzyme inhibition by <italic>N</italic>B-DGJ from the literature.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CGT IC<sub>50</sub> (&#xB5;M)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reference</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">GBA2 IC<sub>50</sub> (&#xB5;M)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reference</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B36-ijms-21-00301">36</xref>]</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.30</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B36-ijms-21-00301">36</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B20-ijms-21-00301">20</xref>]</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B21-ijms-21-00301">21</xref>]</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1&#x2013;6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">[<xref ref-type="bibr" rid="B15-ijms-21-00301">15</xref>]</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,3600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010290</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00290</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Molecular Mapping and Candidate Gene Analysis for GA<sub>3</sub> Responsive Short Internode in Watermelon (<italic>Citrullus lanatus</italic>)</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6891-3605</contrib-id>
+          <name>
+            <surname>Gebremeskel</surname>
+            <given-names>Haileslassie</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dou</surname>
+            <given-names>Junling</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Bingbing</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhao</surname>
+            <given-names>Shengjie</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Muhammad</surname>
+            <given-names>Umer</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lu</surname>
+            <given-names>Xuqiang</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>He</surname>
+            <given-names>Nan</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Wenge</given-names>
+          </name>
+          <xref rid="c1-ijms-21-00290" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00290">Zhengzhou Fruit Research Institute, Chinese Academy of Agricultural Sciences, Zhengzhou 450009, China; <email>hailenakirosa@gmail.com</email> (H.G.); <email>junlingdou@163.com</email> (J.D.); <email>newbbing@gmail.com</email> (B.L.); <email>zhaoshengjie@caas.cn</email> (S.Z.); <email>mjawadumer@gmail.com</email> (U.M.); <email>luxuqiang@caas.cn</email> (X.L.); <email>henan@caas.cn</email> (N.H.)</aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00290"><label>*</label>Correspondence: <email>liuwenge@caas.cn</email>; Tel.: +86-0371-6533-0936</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>290</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>10</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Plants with shorter internodes are suitable for high-density planting, lodging resistance and the preservation of land resources by improving yield per unit area. In this study, we identified a locus controlling the short internode trait in watermelon using Zhengzhouzigua (long internode) and Duan125 (short internode) as mapping parents. Genetic analysis indicated that F<sub>1</sub> plants were consistent with long internode plants, which indicates that the long internode was dominant over the short internode. The observed F<sub>2</sub> and BC<sub>1</sub> individuals fitted the expected phenotypic segregation ratios of 3:1 and 1:1, respectively. The locus was mapped on chromosome 9 using a bulked segregant analysis approach. The region was narrowed down to 8.525 kb having only one putative gene, <italic>Cla015407</italic>, flanking by CAPS90 and CAPS91 markers, which encodes gibberellin 3&#x3B2;-hydroxylase (GA 3&#x3B2;-hydroxylase). The sequence alignment of the candidate gene between both parents revealed a 13 bp deletion in the short internode parent, which resulted in a truncated protein. Before GA<sub>3</sub> application, significantly lower GA<sub>3</sub> content and shorter cell length were obtained in the short internode plants. However, the highest GA<sub>3</sub> content and significant increase in cell length were observed in the short internode plants after exogenous GA<sub>3</sub> application. In the short internode plants, the expression level of the <italic>Cla015407</italic> was threefold lower than the long internode plants in the stem tissue. In general, our results suggested that <italic>Cla015407</italic> might be the candidate gene responsible for the short internode phenotype in watermelon and the phenotype is responsive to exogenous GA<sub>3</sub> application.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>candidate gene</kwd>
+        <kwd>BSA-Seq</kwd>
+        <kwd>GA 3&#x3B2;-hydroxylase</kwd>
+        <kwd>fine mapping</kwd>
+        <kwd>cytological analysis</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00290" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Watermelon (<italic>Citrullus lanatus</italic> (Thumb) Matsum and Nakai) belongs to the genus <italic>Citrullus</italic>, is one of the most important horticultural crop in the world [<xref ref-type="bibr" rid="B1-ijms-21-00290">1</xref>,<xref ref-type="bibr" rid="B2-ijms-21-00290">2</xref>,<xref ref-type="bibr" rid="B3-ijms-21-00290">3</xref>,<xref ref-type="bibr" rid="B4-ijms-21-00290">4</xref>]. The genus <italic>Citrullus</italic> includes about 118 genera and 825 species for diploid species (2<italic>n</italic> = 22), which are grown in Africa, Asia and in the Mediterranean region [<xref ref-type="bibr" rid="B4-ijms-21-00290">4</xref>,<xref ref-type="bibr" rid="B5-ijms-21-00290">5</xref>]. Watermelon is an important member of Cucurbitaceae family that is commercially cultivated worldwide and currently China is by far the world&#x2019;s largest producer of watermelon, followed by Turkey and Iran, 79.2, 3.9 and 2.8 million tons, respectively (<uri>https://www.worldatlas.com</uri>, accessed on 12 April 2019). Watermelon has a small genome: 4.25 &#xD7; 10<sup>8</sup> base pairs for the diploid chromosomes [<xref ref-type="bibr" rid="B6-ijms-21-00290">6</xref>,<xref ref-type="bibr" rid="B7-ijms-21-00290">7</xref>]. The watermelon genome has been sequenced and 23,440 predicted protein-coding genes were identified [<xref ref-type="bibr" rid="B8-ijms-21-00290">8</xref>,<xref ref-type="bibr" rid="B9-ijms-21-00290">9</xref>]. From the genetic studies, more than 100 genes have been identified [<xref ref-type="bibr" rid="B7-ijms-21-00290">7</xref>] that are involved in seed and seedling, vine, flower and fruit as well as resistance to diseases, insects, and stress traits.</p>
+      <p>Dwarf genes played a vital role during the &#x2018;Green Revolution&#x2019;, which was one of breakthroughs in yield improvement via the introgressive hybridization of dwarf and semi-dwarf traits into cereal crop cultivars [<xref ref-type="bibr" rid="B10-ijms-21-00290">10</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00290">11</xref>]. Dwarf genes are associated with optimizing yield [<xref ref-type="bibr" rid="B12-ijms-21-00290">12</xref>], dense field cultivation [<xref ref-type="bibr" rid="B13-ijms-21-00290">13</xref>], lodging resistance [<xref ref-type="bibr" rid="B14-ijms-21-00290">14</xref>], decrease damages due to wind and rain [<xref ref-type="bibr" rid="B15-ijms-21-00290">15</xref>], early maturity [<xref ref-type="bibr" rid="B16-ijms-21-00290">16</xref>], increase tillering capacity [<xref ref-type="bibr" rid="B17-ijms-21-00290">17</xref>,<xref ref-type="bibr" rid="B18-ijms-21-00290">18</xref>], and used in modern plant breeding programs. In watermelon breeding programs, dwarf genes with short internode have significant advantages in reducing the labor required for cultivation, suitable for high density planting and save land resources by improving the yield per unit area [<xref ref-type="bibr" rid="B19-ijms-21-00290">19</xref>].</p>
+      <p>In crop plants, dwarfism mainly occurred due to gene mutation related to hormonal biosynthesis and signaling pathways [<xref ref-type="bibr" rid="B20-ijms-21-00290">20</xref>,<xref ref-type="bibr" rid="B21-ijms-21-00290">21</xref>]. The mutation of genes in GA biosynthesis pathway caused GA deficiency, which resulted in a severe dwarf phenotype in plants [<xref ref-type="bibr" rid="B22-ijms-21-00290">22</xref>,<xref ref-type="bibr" rid="B23-ijms-21-00290">23</xref>]. The predominant semidwarf1 (<italic>sd1</italic>) gene in rice cultivars caused dwarf phenotype due to the deficiency of GA20-oxidase activity [<xref ref-type="bibr" rid="B24-ijms-21-00290">24</xref>]. The dwarf genes in wheat <italic>Rht-B1b</italic> and <italic>Rht-D1b</italic> were caused due to the mutation in the GA signaling pathway, <italic>Rht18</italic> due to increased <italic>GA2-oxidaseA9</italic>expression [<xref ref-type="bibr" rid="B25-ijms-21-00290">25</xref>,<xref ref-type="bibr" rid="B26-ijms-21-00290">26</xref>], and the shortened basal internodes (<italic>SBI</italic>) in rice was due to decreased gibberellin 2-oxidase activity [<xref ref-type="bibr" rid="B27-ijms-21-00290">27</xref>]. Likewise, the <italic>btwd1</italic> [<xref ref-type="bibr" rid="B28-ijms-21-00290">28</xref>] in barley, <italic>Dw1</italic> [<xref ref-type="bibr" rid="B29-ijms-21-00290">29</xref>] in sorghum and a recessive <italic>d2</italic> [<xref ref-type="bibr" rid="B30-ijms-21-00290">30</xref>] in pearl millet were reported as mutants in the GA biosynthesis associated with dwarf phenotype.</p>
+      <p>In cucurbit crops, several recessive genes have been reported to confer the short internode length. The bushy growth habit in pumpkin was characterized by short internode [<xref ref-type="bibr" rid="B18-ijms-21-00290">18</xref>,<xref ref-type="bibr" rid="B31-ijms-21-00290">31</xref>] and showed monogenic inheritance, in which the bushy genotype is dominant (<italic>Bu</italic>) to the vine genotype (<italic>bu</italic>) [<xref ref-type="bibr" rid="B32-ijms-21-00290">32</xref>]. In cucumber, <italic>cp</italic> gene loci was associated with short internodes and shorter growing period [<xref ref-type="bibr" rid="B33-ijms-21-00290">33</xref>,<xref ref-type="bibr" rid="B34-ijms-21-00290">34</xref>]. Four recessive dwarfing genes, <italic>si-1</italic>, <italic>si-2</italic>, <italic>si-3</italic>, and <italic>mdw1</italic>, were reported to determine the short internode [<xref ref-type="bibr" rid="B35-ijms-21-00290">35</xref>,<xref ref-type="bibr" rid="B36-ijms-21-00290">36</xref>] in melon. In <italic>Cucurbita pepo</italic> and squash (<italic>Cucurbita</italic> spp.), a dominant <italic>Bu</italic> locus was associated to short internode phenotype [<xref ref-type="bibr" rid="B37-ijms-21-00290">37</xref>]. In watermelon, four single recessive gene loci, <italic>dw-1</italic>, <italic>dw-2</italic>, <italic>dw-3</italic> and <italic>dw-4</italic> were associated with short internode and dwarf vine with bushy growth habit [<xref ref-type="bibr" rid="B5-ijms-21-00290">5</xref>]. Furthermore, a candidate gene (<italic>Cla010726</italic>) encodes gibberellin 20-oxidase-like protein was responsible for dwarfism in watermelon [<xref ref-type="bibr" rid="B19-ijms-21-00290">19</xref>].</p>
+      <p>In the GA biosynthetic pathway of higher plants, GA 3&#x3B2;-hydroxylase catalyzes the conversion of inactive gibberellin precursors (GA<sub>20</sub>, GA<sub>5</sub> and GA<sub>9</sub>) to bioactive gibberellins (GA<sub>1</sub>, GA<sub>3</sub> and GA<sub>4</sub>), respectively [<xref ref-type="bibr" rid="B38-ijms-21-00290">38</xref>,<xref ref-type="bibr" rid="B39-ijms-21-00290">39</xref>]. Bioactive GAs are synthesized by 3-beta-hydroxylation and catalyzed by GA 3&#x3B2;-hydroxylase enzyme in the presence of 2-oxoglutarate binding region, which is essential for its activity [<xref ref-type="bibr" rid="B40-ijms-21-00290">40</xref>]. Several GA 3&#x3B2;-hydroxylase encoding genes have been cloned from different plant species [<xref ref-type="bibr" rid="B41-ijms-21-00290">41</xref>]; including barley [<xref ref-type="bibr" rid="B42-ijms-21-00290">42</xref>], rice [<xref ref-type="bibr" rid="B43-ijms-21-00290">43</xref>] and Arabidopsis [<xref ref-type="bibr" rid="B44-ijms-21-00290">44</xref>]. Moreover, GA 3&#x3B2;-hydroxylase from pumpkin endosperm catalyzes both 2-beta and 3&#x3B2;-hydroxylation [<xref ref-type="bibr" rid="B45-ijms-21-00290">45</xref>] and in maize <italic>dwarf-1</italic>, catalyzes three hydroxylation steps in GA biosynthesis pathway [<xref ref-type="bibr" rid="B46-ijms-21-00290">46</xref>] indicating that GA 3&#x3B2;-hydroxylase has a multifunctional activity.</p>
+      <p>The development of high-throughput sequencing technologies and availability of the watermelon reference genome [<xref ref-type="bibr" rid="B8-ijms-21-00290">8</xref>], genomic variation maps [<xref ref-type="bibr" rid="B47-ijms-21-00290">47</xref>], bulked-segregant analysis [<xref ref-type="bibr" rid="B48-ijms-21-00290">48</xref>], and next generation sequencing (NGS) technologies [<xref ref-type="bibr" rid="B49-ijms-21-00290">49</xref>] significantly accelerated the identification of candidate genes controlling important agronomic traits. Bulked segregant analysis (BSA) is an important method for rapidly identifying gene or genomic regions on chromosomes that are linked to a causative mutation in a group of phenotypically mutant plants [<xref ref-type="bibr" rid="B50-ijms-21-00290">50</xref>,<xref ref-type="bibr" rid="B51-ijms-21-00290">51</xref>]. This method works with selected and pooled individuals that has been extensively used in gene mapping with bi-parental populations, mapping by sequencing with major gene mutants and pooled genome wide association study using extreme variants [<xref ref-type="bibr" rid="B52-ijms-21-00290">52</xref>]. Although many research works on dwarfing traits in watermelon had been done before, the underlying molecular mechanisms and identification of genes responsible for short internode was not yet identified. Therefore, this experiment was designed to characterize the inheritance of the short internode in Duan125, identified the genomic region through bulked segregant analysis sequencing (BSA-Seq) approach, and a candidate gene controlling the short internode phenotype in watermelon.</p>
+    </sec>
+    <sec id="sec2-ijms-21-00290" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-21-00290">
+        <title>2.1. Agronomic Characteristics and Inheritance of the Short Internode</title>
+        <p>The Zhengzhouzigua (long internode) plants had longer internode length (cm), more number of internodes, longer vine length (m) (<xref ref-type="fig" rid="ijms-21-00290-f001">Figure 1</xref>A,E, <xref ref-type="app" rid="app1-ijms-21-00290">Supplementary Figure S1A,C</xref>) compared with Duan125 (short internode) plants (<xref ref-type="fig" rid="ijms-21-00290-f001">Figure 1</xref>B,H, <xref ref-type="app" rid="app1-ijms-21-00290">Supplementary Figure S1B,D</xref>).</p>
+        <p>The highest internode length (5.50 cm), number of internodes (26.50) and vine length (2.04 m) were obtained from the long internode plants. In contrast, the lowest values were obtained from the short internode plants (<xref ref-type="fig" rid="ijms-21-00290-f002">Figure 2</xref>A&#x2013;C). In the short internode plants, internode length, number of internodes and vine length were significantly reduced by 42.73%, 49.70%, and 57.84%, respectively, compared to long internode plants.</p>
+        <p>In this study, we successfully developed F<sub>2</sub> and BC<sub>1</sub> populations from Zhengzhouzigua (long internode) and Duan125 (short internode) as mapping parents in 2016, 2017 and 2018 (Henan) and in 2017 (Hainan). Phenotypes of F<sub>1</sub> plants exhibited long internode confirming that the long internode is dominant over the short internode. The observed segregation in the F<sub>2</sub> individuals showed that 278, 325 and 367 plants were segregated as long internode, while 89, 105 and 119 plants were with short internode in 2016 (winter), 2017 and 2018 (spring) seasons in Henan, which fitted the expected segregation ratio of 3:1 (&#x3C7;<sup>2</sup> = 0.110, <italic>p</italic> = 0.740; &#x3C7;<sup>2</sup> = 0.078, <italic>p</italic> = 0.781; &#x3C7;<sup>2</sup> = 0.069, <italic>p</italic> = 0.79), respectively. Moreover, 431 plants were segregated as long internode, while 147 plants were with short internode in 2017 (winter) in Hainan, which fitted the expected segregation ratio of 3:1 (&#x3C7;<sup>2</sup> = 0.058, <italic>p</italic> = 0.81). None of the BC<sub>1</sub>P<sub>1</sub> individuals obtained from a backcross between F<sub>1</sub> and long internode plants were short internodes. However, for the backcross of F<sub>1</sub> with short internode (BC<sub>1</sub>P<sub>2</sub>), 38 plants had long internodes while 42 plants had short internodes, which fitted a segregation ratio of 1:1 (&#x3C7;<sup>2</sup> = 0.200, <italic>p</italic>= 0.6547) (<xref ref-type="app" rid="app1-ijms-21-00290">Table S1</xref>). These results confirm that the short internode is controlled by a single gene with the short internode phenotype being recessive in watermelon.</p>
+      </sec>
+      <sec id="sec2dot2-ijms-21-00290">
+        <title>2.2. BSA-Seq Analysis Identified a Candidate Gene Located on Chromosome 9</title>
+        <p>The whole genome resequencing (WGR) through BSA-seq approach was used for identifying the genomic region contributing to the short internode phenotype. A total of 30.1 Gb raw data having approximately 30 &#xD7; depth and more than 99% coverage for each pool were generated. After filtering out adaptor and low quality reads, the clean reads were aligned to &#x2018;97103&#x2032; watermelon reference genome (<uri>http://cucurbitgenomics.org/organism/v1</uri>, accessed on 5 June 2019), to identify high quality SNPs between the long internode and short internode pools. From the L-pool and S-pool, 102,832,531 and 108,242,182 short reads were generated through the high-throughput sequencing, respectively. Furthermore, after clean reads were aligned to watermelon reference genome, 304,565 SNPs were obtained between the two mixed pools. Finally, using the &#x394;SNP index strategy, we identified a candidate region on chromosome 9 (<xref ref-type="fig" rid="ijms-21-00290-f003">Figure 3</xref>A). Therefore, these results indicated that there was a locus, designated <italic>dw</italic>, responsible for the short internode trait located between 9.433 kb to 34.42 Mb on chromosome 9.</p>
+      </sec>
+      <sec id="sec2dot3-ijms-21-00290">
+        <title>2.3. Fine Mapping, Annotation and Candidate Gene Sequencing</title>
+        <p>Cleaved amplified polymorphic sequence (CAPS) markers were developed based on the SNPs between the two parental lines using the &#x2018;97103&#x2019; watermelon reference genome (<uri>http://cucurbitgenomics.org/organism/v1</uri>, accessed on 19 January 2019) (<xref ref-type="app" rid="app1-ijms-21-00290">Supplementary Table S2</xref>) for polymorphic screening. The mapping interval was narrowed down to a physical distance of 8.525 kb (1,850,884&#x2013;1,859,409 kb) between CAPS90 and CAPS91 markers with 12 recombinant individuals (<xref ref-type="fig" rid="ijms-21-00290-f003">Figure 3</xref>B, <xref ref-type="app" rid="app1-ijms-21-00290">Supplementary Table S3</xref>). In this mapping interval, only one putative (<italic>Cla015407</italic>) gene having two exons and one intron was annotated using the online &#x2018;97103&#x2032; watermelon reference genome (<xref ref-type="fig" rid="ijms-21-00290-f003">Figure 3</xref>C). We designed gene specific primers (<xref ref-type="app" rid="app1-ijms-21-00290">Supplementary Table S4</xref>) to amplify both the genomic and entire coding sequences (CDS) of both the parental lines. The sequences alignment indicated that a 13 base pair deletion (502&#x2013;514 bp) was found in the second exon of the short internode parent (<xref ref-type="fig" rid="ijms-21-00290-f003">Figure 3</xref>D). The 13 bp deletion resulted in a frameshift mutation, which led to truncated protein. The gene annotation in &#x2018;97103&#x2019; watermelon reference genome revealed that <italic>Cla015407</italic> encodes GA 3&#x3B2;-hydroxylase. GA 3&#x3B2;-hydroxylase is an important enzyme in the downstream of GA biosynthesis pathway, which catalyze the inactive precursors of GA<sub>9</sub>, GA<sub>20,</sub> and GA<sub>5</sub> into bioactive GA<sub>4</sub>, GA<sub>1,</sub> and GA<sub>3</sub>, respectively.</p>
+      </sec>
+      <sec id="sec2dot4-ijms-21-00290">
+        <title>2.4. Homology, Phylogenic Tree and Conseved Domain Analysis</title>
+        <p>The BLAST result in TAIR (<uri>https://www.arabidopsis.org</uri>, accessed on 23 May 2019) indicated that <italic>Cla015407</italic> was highly homologous to <italic>AT1G15550</italic> in <italic>Arabidopsis thaliana</italic>, which encodes GA 3&#x3B2;-hydroxylase enzyme. This enzyme is involved in the later steps of the gibberellic acid biosynthetic pathway activated by AGAMOUS in a <italic>cal-1</italic> and <italic>ap1-1</italic> background [<xref ref-type="bibr" rid="B53-ijms-21-00290">53</xref>,<xref ref-type="bibr" rid="B54-ijms-21-00290">54</xref>]. To understand the relationship between <italic>Cla015407</italic> protein sequences and other homologous, we BLAST the protein sequence of <italic>Cla015407</italic> in both NCBI (<uri>http://www.ncbi.nlm.nih.gov/</uri>, accessed on 24 May 2019) and Uniprot database (<uri>https://www.uniprot.org/</uri>, accessed on 23 May 2019). The phylogenetic tree was generated using the neighbor-joining method as implemented in MEGA7 software through bootstrap method with 1000 replications [<xref ref-type="bibr" rid="B55-ijms-21-00290">55</xref>]. The result indicated that <italic>Cla015407</italic> gene has a close relationship and shares a common ancestor with <italic>XP004135830</italic> from <italic>Cucumis sativus</italic> and <italic>XP008461056</italic> from <italic>Cucumis melo</italic> (<xref ref-type="fig" rid="ijms-21-00290-f004">Figure 4</xref>A). This indicated that the <italic>Cla015407</italic> was evolutionarily conserved within the Cucurbitaceae family. Furthermore, we generate the protein domain structure for <italic>Cla015407</italic> using the online Pfam database (<uri>http://pfam.xfam.org/</uri>, accessed on 23 December 2019). The sequence alignment using UniProt and SMART indicated that <italic>Cla015407</italic> was shared 57.10% sequence identity with <italic>AT1G15550</italic> in <italic>Arabidopsis thaliana</italic>, which containing two domains: DIOX_N and 2OG-Fell_Oxy [<xref ref-type="bibr" rid="B44-ijms-21-00290">44</xref>]. The deletion in the CDS region of short internode watermelon caused a premature stop codon, producing a truncated protein with only 173 amino acid residues, losing the 2OG-Fell_Oxy domain (<xref ref-type="fig" rid="ijms-21-00290-f004">Figure 4</xref>B).</p>
+      </sec>
+      <sec id="sec2dot5-ijms-21-00290">
+        <title>2.5. Gene Expression Analysis</title>
+        <p>To analyze the expression levels of <italic>Cla015407</italic> in both long and short internode parents, gene specific primers (<xref ref-type="app" rid="app1-ijms-21-00290">Table S4</xref>) were designed. The expression pattern of <italic>Cla015407</italic> indicated that it was expressed in all tissue parts, most prominently in the stem (internode) part. In the long internode plants, the expression level of <italic>Cla015407</italic> was much higher (2.99) in stem followed by root (0.60) and leaf (0.54) tissue parts. Whereas in the short internode parent, transcript level in the stem tissue was 3.56 fold lower than in the long internode parent (<xref ref-type="fig" rid="ijms-21-00290-f005">Figure 5</xref>). These results revealed that the expression level of <italic>Cla015407</italic> in short internode parent was significantly reduced compared with the long internode parent in the stem, and this result further confirmed that <italic>Cla015407</italic> might be the candidate gene controlling the short internode phenotype in watermelon.</p>
+      </sec>
+      <sec id="sec2dot6-ijms-21-00290">
+        <title>2.6. Determination of GA<sub>3</sub> Hormone in the Short Internode</title>
+        <p>Phenotypically, internode and vine length were increased in the short internode plants after GA<sub>3</sub> application (<xref ref-type="fig" rid="ijms-21-00290-f001">Figure 1</xref>E, <xref ref-type="app" rid="app1-ijms-21-00290">Supplementary Figure S1B</xref>). The internode length (5.69 cm) and vine length (1.88 m) was increased in the short internode plants (<xref ref-type="fig" rid="ijms-21-00290-f001">Figure 1</xref>D,G and <xref ref-type="fig" rid="ijms-21-00290-f002">Figure 2</xref>E,F); however, there was no significant difference compared with long internode plants (<xref ref-type="fig" rid="ijms-21-00290-f001">Figure 1</xref>C,F and <xref ref-type="fig" rid="ijms-21-00290-f002">Figure 2</xref>E). These results showed that the short internode phenotype was restored after exogenous GA<sub>3</sub> application and was a GA<sub>3</sub> responsive short internode phenotype. Moreover, to determine the amount of GA<sub>3</sub>, samples were collected from top, middle and basal internode positions of both inbred lines. Before GA<sub>3</sub> application, significantly higher GA<sub>3</sub> content (11.16 ng.g<sup>&#x2212;1</sup> FW) was obtained at middle internode position of the long internode plants (<xref ref-type="fig" rid="ijms-21-00290-f006">Figure 6</xref>A). In contrast, the lowest GA<sub>3</sub> content (6.76 ng.g<sup>&#x2212;1</sup> FW) was obtained at the top internode position of the short internode plants. After exogenous GA<sub>3</sub> application, the significantly higher GA<sub>3</sub> content (20.88 ng.g<sup>&#x2212;1</sup> FW) was found at the top internode position of the short internode plants, while the lowest (15.69 ng.g<sup>&#x2212;1</sup> FW) value was obtained at the same internode position in the long internode plants (<xref ref-type="fig" rid="ijms-21-00290-f006">Figure 6</xref>B). Overall, GA<sub>3</sub> content was significantly reduced before GA<sub>3</sub> application; however, it was increased after exogenous GA<sub>3</sub> application in the short internode plants, suggesting that the loss of function of <italic>Cla015407</italic> caused an impaired GA 3&#x3B2;-hydroxylase enzyme activity, and thus led to short internode phenotype.</p>
+      </sec>
+      <sec id="sec2dot7-ijms-21-00290">
+        <title>2.7. Microscopic Observation and Verification of the Short Internode</title>
+        <p>To observe the difference in length and size of cells between short and long internode plants, samples were collected from three different internode positions (top, middle and basal). Before GA<sub>3</sub> application, the length and thickness of cells in the short internode plants were significantly reduced (<xref ref-type="fig" rid="ijms-21-00290-f007">Figure 7</xref>G&#x2013;I) compared with long internode plants (<xref ref-type="fig" rid="ijms-21-00290-f007">Figure 7</xref>A&#x2013;C) in all internode positions. In the short internode plants, the cell length in the basal internode position was reduced; whereas, the cell size was increased (<xref ref-type="fig" rid="ijms-21-00290-f007">Figure 7</xref>I) compared with long internode plants (<xref ref-type="fig" rid="ijms-21-00290-f007">Figure 7</xref>C). After GA<sub>3</sub> application, the length and size of cells in the short internode plants were increased (<xref ref-type="fig" rid="ijms-21-00290-f007">Figure 7</xref>J,K), and had no significant difference with long internode plants in all internode positions (<xref ref-type="fig" rid="ijms-21-00290-f007">Figure 7</xref>D,E) except in the basal internodes (<xref ref-type="fig" rid="ijms-21-00290-f007">Figure 7</xref>F,L). Therefore, these results further suggested that loss of function of <italic>Cla015407</italic> led to shorter cells and internode length in watermelon.</p>
+        <p>In order to verify whether the 13 bp deletion in <italic>Cla015407</italic> was the causal variation for the short internode phenotype, we develop an InDel marker based on the 13 bp sequence of <italic>Cla015407</italic> gene (<xref ref-type="app" rid="app1-ijms-21-00290">Table S4</xref>). Then to validate this marker, 135 F<sub>2</sub> individuals including the 12 recombinants were selected to confirm the genotype. The results indicated that 33 individuals were homozygous dominant and 67 individuals were heterozygous, while 35 individuals were homozygous recessive. This result confirmed that the phenotype was in harmony with the genotype (<xref ref-type="fig" rid="ijms-21-00290-f008">Figure 8</xref>). Overall, these results indicated that <italic>Cla015407</italic> could be the candidate gene that controls the short internode phenotype in watermelon.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-ijms-21-00290" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>The development of dwarf varieties having short internode with improved mechanical stability of stems prevents lodging, leading to significant increase in crop productivity. Miniature dwarf type in cucurbits may provide an alternative to standard vining types for plastic tunnel production due to their amenability to low maintenance upright cultivation [<xref ref-type="bibr" rid="B36-ijms-21-00290">36</xref>]. The dwarf vine watermelon with short internode has a significant advantage in enhancing yield per unit area, lodging resistance (for upright vine growth habit), reduces the labor for cultivation, is suitable for high density planting, and saves land resources. Internode length and vine length are significantly reduced in &#x2018;<italic>dsh</italic>&#x2019; dwarf mutant than the ordinary watermelon [<xref ref-type="bibr" rid="B5-ijms-21-00290">5</xref>]. In soybean, both internode length and plant height were reduced in <italic>dw</italic> mutant compared to wild type [<xref ref-type="bibr" rid="B56-ijms-21-00290">56</xref>]. In pear millet, the shorter internode was reduced, which resulted in total reduction in plant height [<xref ref-type="bibr" rid="B57-ijms-21-00290">57</xref>]. In this study, the short internode plants showed significantly reduced internode length (cm), number of internodes, and vine length compared to the long internode (<xref ref-type="fig" rid="ijms-21-00290-f001">Figure 1</xref> and <xref ref-type="fig" rid="ijms-21-00290-f002">Figure 2</xref>).</p>
+      <p>Forward genetics can reveal new genes and advanced view of gene function essential for isolating candidate genes of important traits [<xref ref-type="bibr" rid="B56-ijms-21-00290">56</xref>]. It is also useful to understand how genes and gene networks contribute to build an organism [<xref ref-type="bibr" rid="B58-ijms-21-00290">58</xref>,<xref ref-type="bibr" rid="B59-ijms-21-00290">59</xref>,<xref ref-type="bibr" rid="B60-ijms-21-00290">60</xref>]. Several mapping strategies based on next generation sequencing (NGS), such as direct resequencing, have been developed for the rapid detection of causal mutations controlling target traits [<xref ref-type="bibr" rid="B36-ijms-21-00290">36</xref>]. Nowadays, the bulked-segregant analysis (BSA-Seq) approach is a more popular strategy for cloning mutant genes in various crops [<xref ref-type="bibr" rid="B52-ijms-21-00290">52</xref>]. It helps in identifying a mapping interval and candidate single nucleotide polymorphisms (SNPs) from whole genome sequencing of pooled F<sub>2</sub> individuals [<xref ref-type="bibr" rid="B59-ijms-21-00290">59</xref>]. In watermelon, four single recessive gene loci, <italic>dw-1</italic>, <italic>dw-2</italic>, <italic>dw-3</italic> and <italic>dw-4</italic> were reported to confer the short internode and dwarf vine with bushy growth habit [<xref ref-type="bibr" rid="B5-ijms-21-00290">5</xref>,<xref ref-type="bibr" rid="B61-ijms-21-00290">61</xref>]. The <italic>cp</italic>, <italic>cp-2</italic>, and <italic>scp</italic> genes had been identified for dwarfism related plant architecture in cucumber [<xref ref-type="bibr" rid="B62-ijms-21-00290">62</xref>,<xref ref-type="bibr" rid="B63-ijms-21-00290">63</xref>], whereas in tropical pumpkin and squash the dwarf vine was regulated by <italic>Bu</italic> gene [<xref ref-type="bibr" rid="B37-ijms-21-00290">37</xref>]. In this study, we identified a locus (<italic>dw</italic>) responsible for short internode on chromosome 9 through BSA-Seq approach (<xref ref-type="fig" rid="ijms-21-00290-f003">Figure 3</xref>A) and the candidate gene (<italic>Cla015407)</italic> corresponding to short internode was delimited to 1850884&#x2013;1859409 kb region between CAPS90 and CAPS91 markers (<xref ref-type="fig" rid="ijms-21-00290-f003">Figure 3</xref>B). The sequence alignment between the two parental lines indicated that a 13 bp deletion was identified in the CDS region of <italic>Cla015407</italic> in short internode parents causing a frameshift mutation (<xref ref-type="fig" rid="ijms-21-00290-f003">Figure 3</xref>C). The expression of <italic>Cla015407</italic> gene in the short internode parent was significantly reduced as compared to long internode parents; however, there was no significant difference in leaf and root parts.</p>
+      <p>Dwarfing genes associated with gibberellin acid (GA) were categorized as gibberellin insensitive (GAI) and gibberellin responsive (GAR) based on their effect on plant height or internode length. The reduction in plant height by dwarf genes varies with different genetic backgrounds [<xref ref-type="bibr" rid="B64-ijms-21-00290">64</xref>,<xref ref-type="bibr" rid="B65-ijms-21-00290">65</xref>,<xref ref-type="bibr" rid="B66-ijms-21-00290">66</xref>]. The double dwarf genes produced more shorter internode length than single dwarf genes [<xref ref-type="bibr" rid="B66-ijms-21-00290">66</xref>,<xref ref-type="bibr" rid="B67-ijms-21-00290">67</xref>]. The GAI dwarfing genes have been widely used to reduce plant height and increase grain yield in crop breeding programs. GAI dwarfing genes <italic>Rht-B1b (Rht1)</italic> and <italic>Rht-D1b (Rht2)</italic> were reported in wheat that reduced internode length and the overall plant height [<xref ref-type="bibr" rid="B68-ijms-21-00290">68</xref>]. In contrast, in GAR genes, shorter internode plants respond positively to exogenous GA hormone and were grown similarly as a normal plants [<xref ref-type="bibr" rid="B69-ijms-21-00290">69</xref>]. Mutants deficient in GA biosynthesis can be rescued by exogenous application of bioactive GAs; however, it is not possible if the mutation is in the GA signaling pathway [<xref ref-type="bibr" rid="B70-ijms-21-00290">70</xref>,<xref ref-type="bibr" rid="B71-ijms-21-00290">71</xref>]. A number of GAR dwarf mutants has been isolated from various plant species, including watermelon, maize, pea, tomato, Arabidopsis, rice and wheat [<xref ref-type="bibr" rid="B5-ijms-21-00290">5</xref>,<xref ref-type="bibr" rid="B68-ijms-21-00290">68</xref>,<xref ref-type="bibr" rid="B72-ijms-21-00290">72</xref>,<xref ref-type="bibr" rid="B73-ijms-21-00290">73</xref>,<xref ref-type="bibr" rid="B74-ijms-21-00290">74</xref>]. In this study, the internode length and vine length increased in the short internode plants after exogenous GA<sub>3</sub> application.</p>
+      <p>Different plant hormones interact each other hormones [<xref ref-type="bibr" rid="B75-ijms-21-00290">75</xref>,<xref ref-type="bibr" rid="B76-ijms-21-00290">76</xref>] and coordinately control the cell elongation, cell proliferation and cell differentiation [<xref ref-type="bibr" rid="B77-ijms-21-00290">77</xref>]. Brassinosteroids (BR) related mutants display pleiotropic dwarf phenotypes caused by defects in cell elongation and differentiation processes, which determine the cell length [<xref ref-type="bibr" rid="B66-ijms-21-00290">66</xref>,<xref ref-type="bibr" rid="B78-ijms-21-00290">78</xref>]. In rice [<xref ref-type="bibr" rid="B79-ijms-21-00290">79</xref>] and cotton [<xref ref-type="bibr" rid="B80-ijms-21-00290">80</xref>], the mutation of GA biosynthesis related genes inhibits cell elongation, indicating that GA has an important role in internode cell elongation. In this study, to elucidate the length and size of cells, we conduct cytological analysis of both long and short internode plants at different internode positions. Before GA<sub>3</sub> application, the length and size cells were significantly reduced in short internode plants. However, the length and size of cells in the short internode plants were similar with long internode plants after exogenous GA<sub>3</sub> application at top and middle internode positions. In the top internode positions, elongated and un-thickened cells were observed; whereas, modestly elongated and thickened cells were observed in the middle internodes. However, basal internodes had well developed tissues, shorter length, and more thick cells than middle and top internode positions in both long and short internode plants. GA<sub>3</sub> is important in determining plant height by regulating internode cell elongation. In rice, a positive regulator of both GA biosynthesis and GA signaling <italic>AtERF11</italic> gene is associated with internode cell elongation and promotes by increasing bioactive GA<sub>3</sub> accumulation [<xref ref-type="bibr" rid="B81-ijms-21-00290">81</xref>]. Exogenous GA<sub>3</sub> application enhanced internode cell elongation in pea that the dwarf cultivar responds positively to exogenous GA<sub>3</sub> [<xref ref-type="bibr" rid="B82-ijms-21-00290">82</xref>]. Furthermore, other studies have shown that GA<sub>3</sub> can promote cell elongation in internode tissue and act as regulators of stem elongation [<xref ref-type="bibr" rid="B83-ijms-21-00290">83</xref>,<xref ref-type="bibr" rid="B84-ijms-21-00290">84</xref>]. GA<sub>3</sub> induced cell elongation should have great significance to rice plants, which in turn develop a low-sensitivity pathway in response to high hormone levels [<xref ref-type="bibr" rid="B85-ijms-21-00290">85</xref>].</p>
+      <p>Our results revealed that the loss of function of <italic>Cla015407</italic> impaired GA 3&#x3B2;-hydroxylase enzyme activity, which led to a reduced GA<sub>3</sub> content, shorter cells, and shorter internode length in the short internode plants. In general, we identified a candidate gene (<italic>Cla015407)</italic> responsible for short internode length encoding GA 3&#x3B2;-hydroxylase enzyme that catalyzes the conversion of inactive GA<sub>20</sub>, GA<sub>9</sub> and GA<sub>5</sub> to bioactive GA<sub>1</sub>, GA<sub>4</sub> and GA<sub>3</sub>, respectively. This research finding will be helpful for the marker-assisted selection and molecular regulatory mechanisms of short internode length in watermelon.</p>
+    </sec>
+    <sec id="sec4-ijms-21-00290">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-ijms-21-00290">
+        <title>4.1. Plant Materials and Mapping Population</title>
+        <p>In this study, two inbred lines Zhengzhouzigua (LI: long internode) and Duan125 (SI: short internode) were used as mapping parents. The short internode plants had short internodes, fewer numbers of internodes, shorter vine length, bushy growth habit and shorter internode cell length than the long internode plants. The seeds of both inbred lines were obtained from Zhengzhou Fruit Research Institute, National Watermelon and Melon Germplasm Resource Library, Henan, China. F<sub>1</sub> plants were obtained after crossing the two parental lines and then F<sub>2</sub> population was developed through selfing F<sub>1</sub> plants. Backcross population was also obtained by hybridizing F<sub>1</sub> with each of the parental lines to develop BC<sub>1</sub>P<sub>1</sub> (F<sub>1</sub> X Zhengzhouzigua) and BC<sub>1</sub>P<sub>2</sub> (F<sub>1</sub> X Duan125). For genetic mapping and segregation analysis, F<sub>2</sub> population were grown at two locations and three different years: Xinxiang experimental site in 2016 (Henan, winter), 2017 and 2018 (Henan, spring) and Sanya experimental site in 2017 (Hainan: spring) seasons. The two parental lines, F<sub>1</sub>, 70 BC<sub>1</sub>P<sub>1</sub> and 80 BC<sub>1</sub>P<sub>2</sub> individuals, were grown in spring 2018 at Xinxiang experimental site Henan, China (<xref ref-type="app" rid="app1-ijms-21-00290">Supplementary Table S1</xref>). The short internode trait was evaluated for phenotypic analysis and data on internode length, number of internodes and total vine length were measured and analyzed using analysis of variance (ANOVA) using general linear model (GLM) statistical analysis software programs.</p>
+      </sec>
+      <sec id="sec4dot2-ijms-21-00290">
+        <title>4.2. DNA Extraction and Bulked Segregant Analysis</title>
+        <p>Genomic DNA from the young leaves of 30 long and 30 short internodes of F<sub>2</sub> individuals and the two inbred lines were isolated using plant genomic DNA kit (TIANGEN, Beijing, China). Whereas, the genomic DNA from 430 F<sub>2</sub> population was extracted using CTAB (Hexadecyl Trimethyl Ammonium Bromide) method as previously reported [<xref ref-type="bibr" rid="B86-ijms-21-00290">86</xref>] with minor modifications from the original method. Equal amount of DNA (5-&#xB5;g) from 30 long and 30 short internodes were pooled together to construct long internode pool (L-pool) and short internode pool (S-pool), respectively. The two DNA pools were used for BSA-sequencing and a pair end sequencing libraries having read length of 100 bp with insert size approximately 500 bp were prepared for sequencing using an Illumina HiSeq2000 machine. The sequence reads from L-pool and S-pool were aligned to the &#x2018;97103&#x2019; watermelon reference genome (<uri>http://cucurbitgenomics.org/organism/v1</uri>, accessed on 21 January 2019) using BWA software (Wellcome Trust Sanger Institute, Wellcome Genome Campus, Cambridge, CB10 1SA, UK.) [<xref ref-type="bibr" rid="B87-ijms-21-00290">87</xref>]. The aligned files were converted to SAM/BAM files using SAM tools [<xref ref-type="bibr" rid="B88-ijms-21-00290">88</xref>] and then applied to SNP calling filter [<xref ref-type="bibr" rid="B89-ijms-21-00290">89</xref>,<xref ref-type="bibr" rid="B90-ijms-21-00290">90</xref>]. The SNP index was assigned as zero, i.e., all the short reads were from the &#x2018;97103&#x2019; watermelon reference genome. The average SNP indices of the SNPs located in a given genomic region were calculated using sliding window analysis with a 1 Mb window size and a 10 kb increment. The SNP index graphs for each L-pool, S-pool, and &#x394;SNP index were plotted to identify the genomic region containing the short internode locus. The &#x394;SNP index was calculated by subtracting the S-pool index from the L-pool index [<xref ref-type="bibr" rid="B91-ijms-21-00290">91</xref>,<xref ref-type="bibr" rid="B92-ijms-21-00290">92</xref>]. Computer simulation was performed to generate confidence intervals of the SNP index value under the null hypothesis of no locus. The &#x394;SNP index was derived from the calculated SNP index for each pool and this process was repeated 10,000 times for each read depth, and confidence intervals were produced.</p>
+      </sec>
+      <sec id="sec4dot3-ijms-21-00290">
+        <title>4.3. Fine Mapping through CAPS Markers</title>
+        <p>To narrow down the genomic region and identify candidate gene responsible for short internode, cleaved amplified polymorphic sequences markers (CAPS) were developed based on the SNPs generated from BSA-Seq method (<xref ref-type="app" rid="app1-ijms-21-00290">Supplementary Table S2</xref>). These markers were used to screen the 430 F<sub>2</sub> population developed by selfing from long and short internode plants. The PCR reaction mixture for CAPS amplification was carried out in a total volume of 10 &#x3BC;L containing 1&#x3BC;L (10 ng) of genomic DNA, 0.5 &#x3BC;L for each forward and reverse primers (10 pmol/&#x3BC;L), 1 &#x3BC;L 10 &#xD7; PCR buffer, 0.2 &#x3BC;L dNTPs (10 mM), and 0.1 &#x3BC;LTaq polymerase (5 units/&#x3BC;L) or 5 &#x3BC;L 2 &#xD7; Power Taq PCR Master Mix. PCR was performed by pre-heating samples for 5 min at 95 &#xB0;C followed by 30 cycles of 30 s at 95 &#xB0;C, 30 s at 57 &#xB0;C, and 50 s at 72 &#xB0;C, finishing with post-heating for 10 min at 72 &#xB0;C. Then, the PCR products were digested by restriction endonuclease enzyme to verify polymorphisms of the CAPS markers. The reaction mixture for enzyme digestion was contained 10 &#x3BC;L PCR product and 5 &#x3BC;L total enzyme reaction solution having 3.3 &#x3BC;L ddH<sub>2</sub>O, 1.5 &#x3BC;L 10 &#xD7; buffer and 0.2 &#x3BC;L restriction enzyme which was incubated at 37 &#xB0;C, 50 or 65 &#xB0;C for 5&#x2013;16 h depending on the instructions for the restriction enzymes. Finally, the enzyme-digested products were separated in 1% agarose gel electrophoresis.</p>
+      </sec>
+      <sec id="sec4dot4-ijms-21-00290">
+        <title>4.4. Annotation, Cloning and Sequencing Analysis of Candidate Genes</title>
+        <p>After narrowing down of the mapping interval through CAPS markers, the candidate genes in target region were predicted using the online &#x2018;97103&#x2019; watermelon reference genome database (<uri>http://cucurbitgenomics.org/organism/v1</uri>, accessed on 25 May 2019) and their annotations were obtained with the BLASTP in NCBI (<uri>https://blast.ncbi.nlm.nih.gov/Blast.cgi</uri>, accessed on 26 May 2019). Gene specific primers were designed and the full length of genomic DNA and entire coding sequence (CDS) were amplified from both long and short internode inbred lines. The PCR amplification was carried out according to the user manual with 2 &#xD7; Phanta Max Master Mix (Vazyme Biotech, Nanjing, China). The amplicons were separated on 1% agarose gel, cloned and purified with a TIANgel midi DNA Purification Kit (TIANGEN, Beijing, China) according to the manufacturer&#x2019;s instructions. The purified products were then subjected to a &#x201C;<sup>+</sup> A base reaction using a kit (ZOMANBIO, Beijing, China), introduced in to the vector pMD19-T with a pMD&#x2122;18-T Vector Cloning Kit (TaKaRa, Tokyo, Japan), and transformed into DH5&#x3B1; chemically competent cell (<italic>E. coli</italic> strain DH5&#x3B1;) (Weidibio, Shanghai, China) according to the manufacturer&#x2019;s protocol. All the fragments were sequenced by Sangon Biotech Co., Ltd. (Shanghai, China).</p>
+      </sec>
+      <sec id="sec4dot5-ijms-21-00290">
+        <title>4.5. Conserved Domain, Phylogenetic Analysis and Verification of the Short Internode Using an InDel Marker</title>
+        <p>The protein sequence alignment was performed using Uniprot (<uri>https://www.uniprot.org/</uri>, accessed on 27 May 2019) and SMART (<uri>https://blast.ncbi.nlm.nih.gov/smartblast/</uri>, accessed on 27 May 2019, databases to illustrate the domain structure. Phylogenetic analysis was performed using MEGA 7 software (The Pennsylvania State University, University Park, PA, USA) with a bootstrap method and 1000 replications [<xref ref-type="bibr" rid="B93-ijms-21-00290">93</xref>]. Moreover, to validate the causal mutation, an InDel marker was developed conferring to the 13 bp sequence of <italic>Cla015407</italic> and 135F<sub>2</sub> progenies including the recombinant individuals were selected to check the polymorphism of the marker.</p>
+      </sec>
+      <sec id="sec4dot6-ijms-21-00290">
+        <title>4.6. Expression Analysis of Candidate Gene</title>
+        <p>To analyze the gene expression; samples were collected from root, stem and leaf parts of both long and short internode parents. Total RNA was isolated using plant RNA purification kit (TIANGEN, Beijing, China) following the manufacturer&#x2019;s protocol and treated with RNase free DNase) to remove residual genomic DNA. Complementary DNA (cDNA) was synthesized with reverse transcriptase M-MLV (RNase) following the manufacturer&#x2019;s instructions (TaKaKa, Tokyo, Japan). Primers for candidate gene and reference gene used in quantitative reverse transcription polymerase chain reaction (qRT-PCR) were designed based on &#x2018;97103&#x2019; watermelon reference genome (<uri>http://cucurbitgenomics.org/organism/v1</uri>, accessed on 7 June 2019). Expression levels of the target gene were evaluated by qRT-PCR using a LightCycler480 RT-PCR system (Roche, Basel, Switzerland). All reactions were performed using the SYBR Green real-time PCR mix according to the manufacturer&#x2019;s instructions. Each 20 &#x3BC;L RT-PCR reaction mixture containing 1 &#x3BC;L cDNA, 1 &#x3BC;L forward primer (10 &#x3BC;M), 1 &#x3BC;L reverse primer (10 &#x3BC;M), 10 &#x3BC;L 2x SYBR Green real-time PCR mix, and 7 &#x3BC;L nuclease-free water was pre-heated at 95 &#xB0;C for 5 min, followed by 45 cycles of 95 &#xB0;C for 30 sec and 72 &#xB0;C for 30 sec. High-resolution melting was performed at 95 &#xB0;C for 1 min, at 40 &#xB0;C for 1 min, at 65 &#xB0;C for 1 min, and continuous at 95 &#xB0;C. All experiments were performed in three biological replicates. The raw data obtained from qRT-PCR was analyzed using LCS480 software 1.5.0.39 (Roche, Basel, Switzerland) and the relative expression was determined using the 2<sup>&#x2212;&#x394;&#x394;CT</sup> method [<xref ref-type="bibr" rid="B94-ijms-21-00290">94</xref>].</p>
+      </sec>
+      <sec id="sec4dot7-ijms-21-00290">
+        <title>4.7. Application of Exogenous GA<sub>3</sub> Hormone</title>
+        <p>A stock solution of GA<sub>3</sub> hormone having 200 mg/L was sprayed two times a week after seven days from the date of transplanting and the control was treated with equivalent amount of distilled water. After twenty days of the second GA<sub>3</sub> application, samples were collected from (3th), (11th) and (19th), as well as (3rd), (7th), and (10th) internode positions starting from the top part for both long and short internode plants, respectively. The amount of GA<sub>3</sub> hormone was determined using enzyme-linked immunosorbent assays (ELISA) method (College of Agriculture and Biotechnology, China Agricultural University, Beijing, China) with three biological and three technical replicates for each set of treatments.</p>
+      </sec>
+      <sec id="sec4dot8-ijms-21-00290">
+        <title>4.8. Cytological Analysis of the Short Internodes</title>
+        <p>To understand the difference in length and size of cells, internode samples were collected from top, middle and basal internode positions of both long and short internode plants. The samples were immediately fixed in FAA (3.7% formaldehyde, 5% glacial acetic acid and 50% ethanol) under vacuum for 24 h. The samples were subsequently dehydrated in a graded ethanol series (70%, 85%, 95% and 100%), infiltrated with xylene and embedded in paraffin with an Epon812 (Henan Chinese Science and Technology, Henan, China). Ultrathin longitudinal sections were sliced using an ultramicrotome, mounted on slides, and stained with 0.05% Toluidine Blue O. The internodes cell elongation was examined with an OLYMPUS BX51 light microscope (Hitachi, Ibaraki, Japan) for 5 min of staining at 10&#xD7; magnification.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-ijms-21-00290" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>The <italic>dw</italic> locus was located on chromosome 9 using bulk segregant analysis (BSA-Seq) and the mapping region was narrowed down to the 8.525 kb region. The identified candidate <italic>Cla015407</italic> gene has related function with short internode length encoding GA 3&#x3B2;-hydroxylase. The enzyme is involved in the downstream GA biosynthetic pathway, particularly in the conversion of inactive GA<sub>20</sub>, GA<sub>9</sub>, and GA<sub>5</sub> to bioactive GA<sub>1</sub>, GA<sub>4</sub>, and GA<sub>3</sub>, respectively. This study will provide a useful reference for understanding the molecular mechanism of short internode, GA biosynthesis pathway, cloning of candidate genes, and the development of short internode watermelon cultivars using marker-assisted breeding.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-ijms-21-00290">
+        <title>Supplementary Materials</title>
+        <p>Supplementary materials can be found at <uri>https://www.mdpi.com/1422-0067/21/1/290/s1</uri>.</p>
+		<supplementary-material id="ijms-21-00290-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00290-s001.zip">
+		</supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>W.L. conceived the research and designed the experiments. H.G. performed most of the research work, data analysis and wrote the manuscript. J.D., X.L., S.Z., and N.H. involved in population development, phenotypic selection, DNA extraction work and provided valuable experimental methods. B.L. assist laboratory work and facilitate materials. U.M. was checked the manuscript. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was supported by the Agricultural Science and Technology Innovation Program (CAAS-ASTIP-2018-ZFRI), National Key R&amp;D Program of China (2018YFD0100704), the China Agriculture Research System (CARS-25-03), the National Nature Science Foundation of China (31672178 and 31471893) and Central Public-interest Scientific Institution Basal Research Fund (NO. 1616032017209 and NO. 1610192016209).</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to thank the researchers of Polyploidy watermelon research group, Zhengzhou Fruit Research Institute, Chinese Academy of Agricultural Sciences.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00290">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dane</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Diversity and origin of cultivated and citron type watermelon (<italic>Citrullus lanatus</italic>)</article-title>
+          <source>Genet. Resour. Crop Evol.</source>
+          <year>2006</year>
+          <volume>54</volume>
+          <fpage>1255</fpage>
+          <lpage>1265</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10722-006-9107-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00290">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Keinath</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Wehner</surname>
+              <given-names>T.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic diversity among watermelon (<italic>Citrullus lanatus</italic> and <italic>Citrullus colocynthis</italic>) accessions</article-title>
+          <source>Genet. Resour. Crop Evol.</source>
+          <year>2001</year>
+          <volume>48</volume>
+          <fpage>559</fpage>
+          <lpage>566</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1013888418442</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00290">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wechter</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Massey</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>An Extended Genetic Linkage Map for Watermelon Based on a Testcross and a BC<sub>2</sub>F<sub>2</sub> Population</article-title>
+          <source>Am. J. Plant. Sci.</source>
+          <year>2011</year>
+          <volume>2</volume>
+          <fpage>93</fpage>
+          <lpage>110</lpage>
+          <pub-id pub-id-type="doi">10.4236/ajps.2011.22012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00290">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paris</surname>
+              <given-names>H.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Origin and emergence of the sweet dessert watermelon</article-title>
+          <source>Citrullus lanatus. Ann. Bot.</source>
+          <year>2015</year>
+          <volume>116</volume>
+          <fpage>133</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="doi">10.1093/aob/mcv077</pub-id>
+          <pub-id pub-id-type="pmid">26141130</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00290">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic Analysis of a Dwarf Vine and Small Fruit Watermelon Mutant</article-title>
+          <source>Hortic. Plant J.</source>
+          <year>2016</year>
+          <volume>2</volume>
+          <fpage>224</fpage>
+          <lpage>228</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.hpj.2016.10.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00290">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arumuganathan</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Earle</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear DNA content of some important plant species</article-title>
+          <source>Plant Mol. Biol. Rep.</source>
+          <year>1991</year>
+          <volume>9</volume>
+          <fpage>208</fpage>
+          <lpage>218</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF02672069</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00290">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wenhner</surname>
+              <given-names>T.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Qualitative Inheritance of External Fruit Traits in Watermelon</article-title>
+          <source>HortScience</source>
+          <year>2016</year>
+          <volume>51</volume>
+          <fpage>487</fpage>
+          <lpage>496</lpage>
+          <pub-id pub-id-type="doi">10.21273/HORTSCI.51.5.487</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00290">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Salse</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lucas</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The draft genome of watermelon (<italic>Citrullus lanatus</italic>) and resequencing of 20 diverse accessions</article-title>
+          <source>Nat. Genet.</source>
+          <year>2013</year>
+          <volume>45</volume>
+          <fpage>51</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.2470</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00290">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ren</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Resequencing of 414 cultivated and wild watermelon accessions identifies selection for fruit quality traits</article-title>
+          <source>Nat. Genet.</source>
+          <year>2019</year>
+          <volume>51</volume>
+          <fpage>1616</fpage>
+          <lpage>1623</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41588-019-0518-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00290">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khush</surname>
+              <given-names>G.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Green revolution: The way forward</article-title>
+          <source>Nat. Rev. Genet.</source>
+          <year>2001</year>
+          <volume>1</volume>
+          <fpage>815</fpage>
+          <lpage>822</lpage>
+          <pub-id pub-id-type="doi">10.1038/35093585</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00290">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salamini</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hormones and the Green Revolution</article-title>
+          <source>Science</source>
+          <year>2003</year>
+          <volume>302</volume>
+          <fpage>71</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1090811</pub-id>
+          <pub-id pub-id-type="pmid">14526071</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00290">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kendall</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Holmes</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Clarke</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Berry</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantifying lodging-induced yield losses in oilseed rape</article-title>
+          <source>Field Crops Res.</source>
+          <year>2017</year>
+          <volume>211</volume>
+          <fpage>106</fpage>
+          <lpage>113</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fcr.2017.06.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00290">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Overexpression of the Gibberellin 2-Oxidase Gene from <italic>Camellia lipoensis</italic> Induces Dwarfism and Smaller Flowers in <italic>Nicotiana tabacum</italic></article-title>
+          <source>Plant Mol. Biol. Rep.</source>
+          <year>2015</year>
+          <volume>34</volume>
+          <fpage>182</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11105-015-0917-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00290">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mapping a major QTL responsible for dwarf architecture in Brassica napus using a single-nucleotide polymorphism marker approach</article-title>
+          <source>BMC Plant Biol.</source>
+          <year>2016</year>
+          <volume>16</volume>
+          <elocation-id>178</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/s12870-016-0865-6</pub-id>
+          <pub-id pub-id-type="pmid">27538713</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00290">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Itoh</surname>
+              <given-names>T.T.</given-names>
+            </name>
+            <name>
+              <surname>Tomoaki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kazuko</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Tomonobu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hidemi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Motoyuki</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shigeyuki</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Makoto</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A rice semi-dwarf gene, Tan-Ginbozu (<italic>D35</italic>), encodes the gibberellin biosynthesis enzyme, ent-kaurene oxidase</article-title>
+          <source>Plant Mol. Biol.</source>
+          <year>2004</year>
+          <volume>54</volume>
+          <fpage>533</fpage>
+          <lpage>547</lpage>
+          <pub-id pub-id-type="doi">10.1023/B:PLAN.0000038261.21060.47</pub-id>
+          <pub-id pub-id-type="pmid">15316288</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijms-21-00290">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Weng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Cytochrome P450 Gene <italic>CsCYP85A1</italic> Is a Putative Candidate for Super Compact-1 (<italic>Scp-1</italic>) Plant Architecture Mutation in Cucumber (<italic>Cucumis sativus</italic> L.)</article-title>
+          <source>Front. Plant Sci.</source>
+          <year>2017</year>
+          <volume>8</volume>
+          <fpage>266</fpage>
+          <lpage>278</lpage>
+          <pub-id pub-id-type="doi">10.3389/fpls.2017.00266</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijms-21-00290">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mondal</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Badigannavar</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Souza</surname>
+              <given-names>S.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inheritance and molecular mapping of a gibberellin-insensitive dwarf mutant in groundnut (<italic>Arachis hypogaea</italic> L.)</article-title>
+          <source>J. Appl. Genet.</source>
+          <year>2010</year>
+          <volume>52</volume>
+          <fpage>35</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13353-010-0002-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijms-21-00290">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization and inheritance of a bush-type in tropical pumpkin (<italic>Cucurbita moschata</italic> Duchesne)</article-title>
+          <source>Sci. Hortic.</source>
+          <year>2007</year>
+          <volume>114</volume>
+          <fpage>1</fpage>
+          <lpage>4</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scienta.2007.04.014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijms-21-00290">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dong</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Next-generation sequencing from bulked segregant analysis identifies a dwarfism gene in watermelon</article-title>
+          <source>Sci. Rep.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>2908</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-018-21293-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijms-21-00290">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holst</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Schmulling</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Werner</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhanced cytokinin degradation in leaf primordia of transgenic Arabidopsis plants reduces leaf size and shoot organ primordia formation</article-title>
+          <source>J. Plant Physiol.</source>
+          <year>2011</year>
+          <volume>168</volume>
+          <fpage>1328</fpage>
+          <lpage>1334</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jplph.2011.03.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijms-21-00290">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>T.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gibberellin metabolism, perception and signaling pathways in Arabidopsis</article-title>
+          <source>Arab. Book</source>
+          <year>2008</year>
+          <volume>6</volume>
+          <fpage>e0103</fpage>
+          <pub-id pub-id-type="doi">10.1199/tab.0103</pub-id>
+          <pub-id pub-id-type="pmid">22303234</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijms-21-00290">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fleet</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>T.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>A DELLAcate balance: The role of gibberellin in plant morphogenesis</article-title>
+          <source>Curr. Opin. Plant Biol.</source>
+          <year>2005</year>
+          <volume>8</volume>
+          <fpage>77</fpage>
+          <lpage>85</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.pbi.2004.11.015</pub-id>
+          <pub-id pub-id-type="pmid">15653404</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijms-21-00290">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spielmeyer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Marc HEa Peter</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Semidwarf (<italic>sd-1</italic>), green revolution rice, contains a defective gibberellin 20-oxidase gene</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>9043</fpage>
+          <lpage>9048</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.132266399</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijms-21-00290">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Monna</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kitazawa</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yoshino</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Masuda</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Maehara</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tanji</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nasu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Minobe</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Positional Cloning of Rice Semi-dwarfing Gene, <italic>sd-1</italic>: Rice Green Revolution Gene Encodes a Mutant Enzyme Involved in Gibberellin Synthesis</article-title>
+          <source>DNA Res.</source>
+          <year>2002</year>
+          <volume>9</volume>
+          <fpage>11</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1093/dnares/9.1.11</pub-id>
+          <pub-id pub-id-type="pmid">11939564</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijms-21-00290">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ford</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Foo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Sharwood</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Karafiatova</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vrana</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>MacMillan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Nichols</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Steuernagel</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Uauy</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Dolezel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title><italic>Rht18</italic> Semidwarfism in Wheat Is Due to Increased GA 2-oxidaseA9 Expression and Reduced GA Content</article-title>
+          <source>Plant Physiol.</source>
+          <year>2018</year>
+          <volume>177</volume>
+          <fpage>168</fpage>
+          <lpage>180</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.18.00023</pub-id>
+          <pub-id pub-id-type="pmid">29545269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijms-21-00290">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silverstone</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>T.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gibberellins and the Green Revolution</article-title>
+          <source>Trends Plant Sci.</source>
+          <year>2000</year>
+          <volume>5</volume>
+          <fpage>1</fpage>
+          <lpage>2</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1360-1385(99)01516-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijms-21-00290">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gui</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Shortened Basal Internodes Encodes a Gibberellin 2-Oxidase and Contributes to Lodging Resistance in Rice</article-title>
+          <source>Mol. Plant</source>
+          <year>2018</year>
+          <volume>11</volume>
+          <fpage>288</fpage>
+          <lpage>299</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molp.2017.12.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-ijms-21-00290">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ren</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inheritance and identification of molecular markers associated with a novel dwarfing gene in barley</article-title>
+          <source>BMC Genet.</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>1471</fpage>
+          <lpage>2156</lpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2156-11-89</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-ijms-21-00290">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hilley</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Truong</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Morishige</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mullet</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of <italic>Dw1</italic>, a Regulator of Sorghum Stem Internode Length</article-title>
+          <source>PLoS ONE</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <elocation-id>e0151271</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0151271</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-ijms-21-00290">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Azhaguvel</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mapping the <italic>d1</italic> and <italic>d2</italic> Dwarfing Genes and the Purple Foliage Color Locus <italic>P</italic> in Pearl Millet</article-title>
+          <source>J. Hered.</source>
+          <year>2003</year>
+          <volume>94</volume>
+          <fpage>155</fpage>
+          <lpage>159</lpage>
+          <pub-id pub-id-type="doi">10.1093/jhered/esg025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-ijms-21-00290">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donald</surname>
+              <given-names>N.M.</given-names>
+            </name>
+            <name>
+              <surname>Gary</surname>
+              <given-names>W.E.</given-names>
+            </name>
+            <name>
+              <surname>Stephen</surname>
+              <given-names>T.T.A.</given-names>
+            </name>
+            <name>
+              <surname>Carle</surname>
+              <given-names>R.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>&#x2018;El Dorado&#x2019; and &#x2018;La Estrella&#x2019;: Compact Plant Tropical Pumpkin Hybrids</article-title>
+          <source>HortScience</source>
+          <year>2002</year>
+          <volume>37</volume>
+          <fpage>831</fpage>
+          <lpage>833</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B32-ijms-21-00290">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential gene expression of tropical pumpkin (<italic>Cucurbita moschata</italic> Duchesne) bush mutant during internode development</article-title>
+          <source>Sci. Hortic.</source>
+          <year>2008</year>
+          <volume>117</volume>
+          <fpage>219</fpage>
+          <lpage>224</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scienta.2008.04.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijms-21-00290">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pathak</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Weng</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fine genetic mapping of cp: A recessive gene for compact (dwarf) plant architecture in cucumber, <italic>Cucumis sativus</italic> L.</article-title>
+          <source>Theor. Appl. Genet.</source>
+          <year>2011</year>
+          <volume>123</volume>
+          <fpage>973</fpage>
+          <lpage>983</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00122-011-1640-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-ijms-21-00290">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Weng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Truncated F-Box Protein Confers the Dwarfism in Cucumber</article-title>
+          <source>J. Genet. Genom.</source>
+          <year>2016</year>
+          <volume>43</volume>
+          <fpage>223</fpage>
+          <lpage>226</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jgg.2016.01.007</pub-id>
+          <pub-id pub-id-type="pmid">27090606</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-ijms-21-00290">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fukino</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ohara</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sugiyama</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kubo</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hirai</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sakata</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Matsumoto</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mapping of a gene that confers short lateral branching (<italic>slb</italic>) in melon (<italic>Cucumis melo</italic> L.)</article-title>
+          <source>Euphytica</source>
+          <year>2012</year>
+          <volume>187</volume>
+          <fpage>133</fpage>
+          <lpage>143</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10681-012-0667-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-ijms-21-00290">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hwang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Oh</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Staub</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>S.-M.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fine genetic mapping of a locus controlling short internode length in melon (<italic>Cucumis melo</italic> L.)</article-title>
+          <source>Mol. Breed.</source>
+          <year>2014</year>
+          <volume>34</volume>
+          <fpage>949</fpage>
+          <lpage>961</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11032-014-0088-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-ijms-21-00290">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Paris</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>R.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Genes of Pumpkin and Squash</article-title>
+          <source>HortScience</source>
+          <year>2005</year>
+          <volume>40</volume>
+          <fpage>1620</fpage>
+          <lpage>1630</lpage>
+          <pub-id pub-id-type="doi">10.21273/HORTSCI.40.6.1620</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-ijms-21-00290">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Itoh</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ueguchi-Tanaka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sentoku</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kitano</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Matsuoka Ma Kobayashi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning and functional analysis of two gibberellin 3b-hydroxylase genes that are differently expressed during the growth of rice</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1999</year>
+          <volume>98</volume>
+          <fpage>8909</fpage>
+          <lpage>8914</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.141239398</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-ijms-21-00290">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tien</surname>
+              <given-names>D.N.</given-names>
+            </name>
+            <name>
+              <surname>Oo</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Soh</surname>
+              <given-names>M.-S.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bioengineering of Male Sterility in Rice (<italic>Oryza sativa</italic> L.)</article-title>
+          <source>Plant Breed. Biotechnol.</source>
+          <year>2013</year>
+          <volume>1</volume>
+          <fpage>218</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="doi">10.9787/PBB.2013.1.3.218</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-ijms-21-00290">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Hedden</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular cloning and functional expression of gibberellin 2-oxidases, multifunctional enzymes involved in gibberellin deactivation</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1999</year>
+          <volume>96</volume>
+          <fpage>4698</fpage>
+          <lpage>4704</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.96.8.4698</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-ijms-21-00290">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hedden Pa Philips</surname>
+              <given-names>A.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gibberellin metabolism: New insights revealed by the genes</article-title>
+          <source>Trends Plant Sci.</source>
+          <year>2000</year>
+          <volume>5</volume>
+          <fpage>553</fpage>
+          <lpage>563</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B42-ijms-21-00290">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spielmeyer</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ellis</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Robertson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ali</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lenton</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Chandler</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation of gibberellin metabolic pathway genes from barley and comparative mapping in barley, wheat and rice</article-title>
+          <source>Theor. Appl. Genet.</source>
+          <year>2004</year>
+          <volume>109</volume>
+          <fpage>847</fpage>
+          <lpage>855</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00122-004-1689-6</pub-id>
+          <pub-id pub-id-type="pmid">15146318</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-ijms-21-00290">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iwamoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kiyota</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hanada</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yamaguchi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Takano</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The multiple contributions of phytochromes to the control of internode elongation in rice</article-title>
+          <source>Plant Physiol.</source>
+          <year>2011</year>
+          <volume>157</volume>
+          <fpage>1187</fpage>
+          <lpage>1195</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.111.184861</pub-id>
+          <pub-id pub-id-type="pmid">21911595</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-ijms-21-00290">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Andy</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Paul</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Peter</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Function and Substrate Specificity of the Gibberellin 3b-Hydroxylase Encoded by the Arabidopsis GA4 Gene</article-title>
+          <source>Plant Physiol.</source>
+          <year>1998</year>
+          <volume>117</volume>
+          <fpage>559</fpage>
+          <lpage>563</lpage>
+          <pub-id pub-id-type="doi">10.1104/pp.117.2.559</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-ijms-21-00290">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lange</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Robatzek</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Frisse</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning and expression of a gibberellin 2 beta,3 beta-hydroxylase cDNA from pumpkin endosperm</article-title>
+          <source>Plant Cell</source>
+          <year>1997</year>
+          <volume>9</volume>
+          <fpage>1459</fpage>
+          <lpage>1467</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.9.8.1459</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-ijms-21-00290">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spray</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Masatomo</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yoshihito</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bernard</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Paul Ga Jake</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The dwarf-i (<italic>dl</italic>) mutant of Zea mays blocks three steps in the gibberellin-biosynthetic pathway</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1996</year>
+          <volume>99</volume>
+          <fpage>10515</fpage>
+          <lpage>10518</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.93.19.10515</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-ijms-21-00290">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Miao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A genomic variation map provides insights into the genetic basis of cucumber domestication and diversity</article-title>
+          <source>Nat. Genet.</source>
+          <year>2013</year>
+          <volume>45</volume>
+          <fpage>1510</fpage>
+          <lpage>1515</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.2801</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-ijms-21-00290">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramirez-Gonzalez</surname>
+              <given-names>R.H.</given-names>
+            </name>
+            <name>
+              <surname>Segovia</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Bird</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Fenwick</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Holdgate</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Berry</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jack</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Caccamo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Uauy</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>RNA-Seq bulked segregant analysis enables the identification of high-resolution genetic markers for breeding in hexaploid wheat</article-title>
+          <source>Plant Biotechnol. J.</source>
+          <year>2015</year>
+          <volume>13</volume>
+          <fpage>613</fpage>
+          <lpage>624</lpage>
+          <pub-id pub-id-type="doi">10.1111/pbi.12281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-ijms-21-00290">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>J.-S.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>X.-X.</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.-X.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>X.-Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of dwarf mutants and molecular mapping of a dwarf locus in soybean</article-title>
+          <source>J. Integr. Agric.</source>
+          <year>2016</year>
+          <volume>15</volume>
+          <fpage>2228</fpage>
+          <lpage>2236</lpage>
+          <pub-id pub-id-type="doi">10.1016/S2095-3119(15)61312-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-ijms-21-00290">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Obholzer</surname>
+              <given-names>N.D.</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>A.N.</given-names>
+            </name>
+            <name>
+              <surname>Megason</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Moens</surname>
+              <given-names>C.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>RNA-seq-based mapping and candidate identification of mutations from forward genetic screens</article-title>
+          <source>Genome Res.</source>
+          <year>2013</year>
+          <volume>23</volume>
+          <fpage>679</fpage>
+          <lpage>686</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.147322.112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-ijms-21-00290">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Cregan</surname>
+              <given-names>P.B.</given-names>
+            </name>
+            <name>
+              <surname>Nelson</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>G.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide association study for flowering time, maturity dates and plant height in early maturing soybean (<italic>Glycine max</italic>) germplasm</article-title>
+          <source>BMC Genom.</source>
+          <year>2015</year>
+          <volume>16</volume>
+          <elocation-id>217</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/s12864-015-1441-4</pub-id>
+          <pub-id pub-id-type="pmid">25887991</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-ijms-21-00290">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bulked sample analysis in genetics, genomics and crop improvement</article-title>
+          <source>Plant Biotechnol. J.</source>
+          <year>2016</year>
+          <volume>14</volume>
+          <fpage>1941</fpage>
+          <lpage>1955</lpage>
+          <pub-id pub-id-type="doi">10.1111/pbi.12559</pub-id>
+          <pub-id pub-id-type="pmid">26990124</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-ijms-21-00290">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gomez-Mena</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>de Folter</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Angenent</surname>
+              <given-names>G.C.</given-names>
+            </name>
+            <name>
+              <surname>Sablowski</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional program controlled by the floral homeotic gene AGAMOUS during early organogenesis</article-title>
+          <source>Development</source>
+          <year>2005</year>
+          <volume>132</volume>
+          <fpage>429</fpage>
+          <lpage>438</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.01600</pub-id>
+          <pub-id pub-id-type="pmid">15634696</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-ijms-21-00290">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wellmer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Alves-Ferreira</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dubois</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Riechmann</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Meyerowitz</surname>
+              <given-names>E.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide analysis of gene expression during early Arabidopsis flower development</article-title>
+          <source>PLoS Genet.</source>
+          <year>2006</year>
+          <volume>2</volume>
+          <fpage>1012</fpage>
+          <lpage>1024</lpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.0020117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-ijms-21-00290">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Russo</surname>
+              <given-names>C.A.D.M.</given-names>
+            </name>
+            <name>
+              <surname>Selvatti</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Tamura</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bootstrap and Rogue Identification Tests for Phylogenetic Analyses</article-title>
+          <source>Mol. Biol. Evol.</source>
+          <year>2018</year>
+          <volume>35</volume>
+          <fpage>2327</fpage>
+          <lpage>2333</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/msy118</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-ijms-21-00290">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.F.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z.X.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of the dwarf gene GmDW1 in soybean (<italic>Glycine max</italic> L.) by combining mapping-by-sequencing and linkage analysis</article-title>
+          <source>Theor. Appl. Genet.</source>
+          <year>2018</year>
+          <volume>131</volume>
+          <fpage>1001</fpage>
+          <lpage>1016</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00122-017-3044-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-ijms-21-00290">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bidinger</surname>
+              <given-names>F.R.</given-names>
+            </name>
+            <name>
+              <surname>Raju</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of the <italic>d2</italic> dwarfing gene in pearl millet</article-title>
+          <source>Theor. Appl. Genet.</source>
+          <year>1990</year>
+          <volume>79</volume>
+          <fpage>521</fpage>
+          <lpage>524</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00226162</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-ijms-21-00290">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gillmor</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Roeder</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Sieber</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Somerville</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lukowitz</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Genetic Screen for Mutations Affecting Cell Division in the Arabidopsis thaliana Embryo Identifies Seven Loci Required for Cytokinesis</article-title>
+          <source>PLoS ONE</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <elocation-id>e0146492</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0146492</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59-ijms-21-00290">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klein</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Conklin</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Govindarajulu</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Scanlon</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Whipple</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Bartlett</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bulked-Segregant Analysis Coupled to Whole Genome Sequencing (BSA-Seq) for Rapid Gene Cloning in Maize</article-title>
+          <source>G3 Genes Genet. Genom.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>3583</fpage>
+          <lpage>3592</lpage>
+          <pub-id pub-id-type="doi">10.1534/g3.118.200499</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-ijms-21-00290">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nawy</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bayer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mravec</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Friml</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Birnbaum</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Lukowitz</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>The GATA factor HANABA TARANU is required to position the proembryo boundary in the early Arabidopsis embryo</article-title>
+          <source>Dev. Cell</source>
+          <year>2010</year>
+          <volume>19</volume>
+          <fpage>103</fpage>
+          <lpage>113</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.devcel.2010.06.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-ijms-21-00290">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inheritance of male-sterility and dwarfism inwatermelon <italic>Citrullus lanatus</italic> (Thunb.) Matsum. and Nakaix</article-title>
+          <source>Sci. Hortic.</source>
+          <year>1998</year>
+          <volume>74</volume>
+          <fpage>175</fpage>
+          <lpage>181</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B62-ijms-21-00290">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hou</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Niu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tao</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gong</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Weng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>A mutant in the CsDET2 gene leads to a systemic brassinosteriod deficiency and super compact phenotype in cucumber (<italic>Cucumis sativus</italic> L.)</article-title>
+          <source>Theor. Appl. Genet.</source>
+          <year>2017</year>
+          <volume>130</volume>
+          <fpage>1693</fpage>
+          <lpage>1703</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00122-017-2919-z</pub-id>
+          <pub-id pub-id-type="pmid">28516384</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63-ijms-21-00290">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Brassinosteroids are involved in response of cucumber (<italic>Cucumis sativus</italic>) to iron deficiency</article-title>
+          <source>Ann. Bot.</source>
+          <year>2012</year>
+          <volume>110</volume>
+          <fpage>681</fpage>
+          <lpage>688</lpage>
+          <pub-id pub-id-type="doi">10.1093/aob/mcs126</pub-id>
+          <pub-id pub-id-type="pmid">22684685</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B64-ijms-21-00290">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellis</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Bonnett</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Rebetzke</surname>
+              <given-names>G.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A 192bp allele at the Xgwm261 locus is not always associated with the <italic>Rht8</italic> dwarfing gene in wheat (<italic>Triticum aestivum</italic> L.)</article-title>
+          <source>Euphytica</source>
+          <year>2007</year>
+          <volume>157</volume>
+          <fpage>209</fpage>
+          <lpage>214</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10681-007-9413-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B65-ijms-21-00290">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rebetzke</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Bonnett</surname>
+              <given-names>D.J.A.</given-names>
+            </name>
+            <name>
+              <surname>Ellis</surname>
+              <given-names>M.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Combining gibberellic acid-sensitive and insensitive dwarfing genes in breeding of higher-yielding, sesqui-dwarf wheats</article-title>
+          <source>Field Crops Res.</source>
+          <year>2012</year>
+          <volume>127</volume>
+          <fpage>17</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fcr.2011.11.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B66-ijms-21-00290">
+        <label>66.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Condon</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.-G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparing the effects of GA-responsive dwarfing genes <italic>Rht13</italic> and <italic>Rht8</italic> on plant height and some agronomic traits in common wheat</article-title>
+          <source>Field Crops Res.</source>
+          <year>2015</year>
+          <volume>179</volume>
+          <fpage>35</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fcr.2015.04.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B67-ijms-21-00290">
+        <label>67.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Na</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Effects of Dwarfing Genes (<italic>Rht-B1b</italic>, <italic>Rht-D1b</italic>, and <italic>Rht8</italic>) with Different Sensitivity to GA3 on the Coleoptile Length and Plant Height of Wheat</article-title>
+          <source>Agric. Sci. China</source>
+          <year>2009</year>
+          <volume>8</volume>
+          <fpage>1028</fpage>
+          <lpage>1038</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1671-2927(08)60310-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B68-ijms-21-00290">
+        <label>68.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Condon</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Parry</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>GA-responsive dwarfing gene <italic>Rht12</italic> affects the developmental and agronomic traits in common bread wheat</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <elocation-id>e62285</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0062285</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B69-ijms-21-00290">
+        <label>69.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barratt</surname>
+              <given-names>N.M.</given-names>
+            </name>
+            <name>
+              <surname>Peter</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Developmental changes in the gibberellin-induced growth response in stem segments of light-grown pea genotypes</article-title>
+          <source>Plant Growth Regul.</source>
+          <year>1997</year>
+          <volume>21</volume>
+          <fpage>127</fpage>
+          <lpage>134</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1005782114132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B70-ijms-21-00290">
+        <label>70.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Condon</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Exogenous GA3 application can compensate the morphogenetic effects of the GA-responsive dwarfing gene <italic>Rht12</italic> in bread wheat</article-title>
+          <source>PLoS ONE</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <elocation-id>e86431</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0086431</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B71-ijms-21-00290">
+        <label>71.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Magome</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shinjiro</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Atsushi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yuji</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kenji</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dwarf and delayed flowering 1, a novel Arabidopsis mutant deficient in Gibberellin biosynthesis because of overexpression of a putative AP2 transcription factor</article-title>
+          <source>Plant J.</source>
+          <year>2004</year>
+          <volume>37</volume>
+          <fpage>720</fpage>
+          <lpage>729</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-313X.2003.01998.x</pub-id>
+          <pub-id pub-id-type="pmid">14871311</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B72-ijms-21-00290">
+        <label>72.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J.-P.</given-names>
+            </name>
+            <name>
+              <surname>Ali</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>F.-J.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>L.-X.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>R.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phenotypic characterization and genetic mapping of the dwarf mutant <italic>m34</italic> in maize</article-title>
+          <source>J. Integr. Agric.</source>
+          <year>2019</year>
+          <volume>18</volume>
+          <fpage>948</fpage>
+          <lpage>957</lpage>
+          <pub-id pub-id-type="doi">10.1016/S2095-3119(18)61959-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B73-ijms-21-00290">
+        <label>73.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Noguchi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of red light on gibberellin 3&#x3B2;-hydroxylase gene expression in dark-grown seedlings of dwarf and tall cultivars of <italic>Pisum sativum</italic></article-title>
+          <source>J. Plant Physiol.</source>
+          <year>2002</year>
+          <volume>159</volume>
+          <fpage>607</fpage>
+          <lpage>612</lpage>
+          <pub-id pub-id-type="doi">10.1078/0176-1617-0758</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B74-ijms-21-00290">
+        <label>74.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Shu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ali Mohamed</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhi</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification and Characterization of <italic>EI</italic> (Elongated Internode) Gene in Tomato (<italic>Solanum lycopersicum</italic>)</article-title>
+          <source>Int. J. Mol. Sci.</source>
+          <year>2019</year>
+          <volume>20</volume>
+          <elocation-id>2204</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ijms20092204</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B75-ijms-21-00290">
+        <label>75.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ayano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kani</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kojima</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sakakibara</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kitaoka</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kuroha</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Angeles-Shim</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Kitano</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nagai</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ashikari</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gibberellin biosynthesis and signal transduction is essential for internode elongation in deepwater rice</article-title>
+          <source>Plant Cell Environ.</source>
+          <year>2014</year>
+          <volume>37</volume>
+          <fpage>2313</fpage>
+          <lpage>2324</lpage>
+          <pub-id pub-id-type="doi">10.1111/pce.12377</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B76-ijms-21-00290">
+        <label>76.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>Y.C.</given-names>
+            </name>
+            <name>
+              <surname>Reid</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>C.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Controlling plant architecture by manipulation of gibberellic acid signalling in petunia</article-title>
+          <source>Hortic. Res.</source>
+          <year>2014</year>
+          <volume>1</volume>
+          <fpage>14061</fpage>
+          <pub-id pub-id-type="doi">10.1038/hortres.2014.61</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B77-ijms-21-00290">
+        <label>77.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takatsuka</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Umeda</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hormonal control of cell division and elongation along differentiation trajectories in roots</article-title>
+          <source>J. Exp. Bot.</source>
+          <year>2014</year>
+          <volume>65</volume>
+          <fpage>2633</fpage>
+          <lpage>2643</lpage>
+          <pub-id pub-id-type="doi">10.1093/jxb/ert485</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B78-ijms-21-00290">
+        <label>78.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Xing</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lou</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dwarf and short grain 1, encoding a putative U-box protein regulates cell division and elongation in rice</article-title>
+          <source>J. Plant Physiol.</source>
+          <year>2017</year>
+          <volume>209</volume>
+          <fpage>84</fpage>
+          <lpage>94</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jplph.2016.11.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B79-ijms-21-00290">
+        <label>79.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cong</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>TFL1/CEN</italic>-like genes control intercalary meristem activity and phase transition in rice</article-title>
+          <source>Plant Sci.</source>
+          <year>2005</year>
+          <volume>168</volume>
+          <fpage>1393</fpage>
+          <lpage>1408</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.plantsci.2004.10.022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B80-ijms-21-00290">
+        <label>80.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Mu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of mepiquat chloride on elongation of cotton (<italic>Gossypium hirsutum</italic> L.) internode is associated with low concentration of gibberellic acid</article-title>
+          <source>Plant Sci.</source>
+          <year>2014</year>
+          <volume>225</volume>
+          <fpage>15</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.plantsci.2014.05.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B81-ijms-21-00290">
+        <label>81.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gibberellin in plant height control: Old player, new story</article-title>
+          <source>Plant Cell Rep.</source>
+          <year>2017</year>
+          <volume>36</volume>
+          <fpage>391</fpage>
+          <lpage>398</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00299-017-2104-5</pub-id>
+          <pub-id pub-id-type="pmid">28160061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B82-ijms-21-00290">
+        <label>82.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jones</surname>
+              <given-names>T.K.</given-names>
+            </name>
+            <name>
+              <surname>Roddic</surname>
+              <given-names>J.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of steroidal responses and gibberellic acid on stem elongation on tall and dwarf cultivars of <italic>Pisum sativum</italic></article-title>
+          <source>New Phytol.</source>
+          <year>1977</year>
+          <volume>79</volume>
+          <fpage>493</fpage>
+          <lpage>499</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1469-8137.1977.tb02232.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B83-ijms-21-00290">
+        <label>83.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ueguchi-Tanaka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ashikari</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nakajima</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Itoh</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Katoh</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chow</surname>
+              <given-names>T.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hsing</surname>
+              <given-names>Y.I.</given-names>
+            </name>
+            <name>
+              <surname>Kitano</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yamaguchi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title><italic>GIBBERELLIN INSENSITIVE DWARF1</italic> encodes a soluble receptor for gibberellin</article-title>
+          <source>Nature</source>
+          <year>2005</year>
+          <volume>437</volume>
+          <fpage>693</fpage>
+          <lpage>698</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature04028</pub-id>
+          <pub-id pub-id-type="pmid">16193045</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B84-ijms-21-00290">
+        <label>84.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yue</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative Analyses of Anatomical Structure, Phytohormone Levels, and Gene Expression Profiles Reveal Potential Dwarfing Mechanisms in Shengyin Bamboo (<italic>Phyllostachys edulis</italic> f. <italic>tubaeformis</italic>)</article-title>
+          <source>Int. J. Mol. Sci.</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <elocation-id>1697</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ijms19061697</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B85-ijms-21-00290">
+        <label>85.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tong</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Brassinosteroid regulates cell elongation by modulating gibberellin metabolism in rice</article-title>
+          <source>Plant Cell</source>
+          <year>2014</year>
+          <volume>26</volume>
+          <fpage>4376</fpage>
+          <lpage>4393</lpage>
+          <pub-id pub-id-type="doi">10.1105/tpc.114.132092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B86-ijms-21-00290">
+        <label>86.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luan</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Delannay</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Staub</surname>
+              <given-names>J.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chinese melon (<italic>Cucumis melo</italic> L.) diversity analyses provide strategies for germplasm curation, genetic improvement, and evidentiary support of domestication patterns</article-title>
+          <source>Euphytica</source>
+          <year>2008</year>
+          <volume>164</volume>
+          <fpage>445</fpage>
+          <lpage>461</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10681-008-9699-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B87-ijms-21-00290">
+        <label>87.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Durbin</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fast and accurate long-read alignment with Burrows-Wheeler transform</article-title>
+          <source>Bioinformatics</source>
+          <year>2010</year>
+          <volume>26</volume>
+          <fpage>589</fpage>
+          <lpage>595</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btp698</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B88-ijms-21-00290">
+        <label>88.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Handsaker</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wysoker</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fennell</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ruan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Homer</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Marth</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Abecasis</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Durbin</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome Project Data Processing S: The Sequence Alignment/Map format and SAMtools</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>2078</fpage>
+          <lpage>2079</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btp352</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B89-ijms-21-00290">
+        <label>89.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abe</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kosugi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Natsume</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Takagi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kanzaki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Matsumura</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Mitsuoka</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tamiru</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genome sequencing reveals agronomically important loci in rice using MutMap</article-title>
+          <source>Nat. Biotechnol.</source>
+          <year>2012</year>
+          <volume>30</volume>
+          <fpage>174</fpage>
+          <lpage>178</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt.2095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B90-ijms-21-00290">
+        <label>90.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takagi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Abe</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kosugi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Natsume</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mitsuoka</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Uemura</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Utsushi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tamiru</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Takuno</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>QTL-seq: Rapid mapping of quantitative trait loci in rice by whole genome resequencing of DNA from two bulked populations</article-title>
+          <source>Plant J.</source>
+          <year>2013</year>
+          <volume>74</volume>
+          <fpage>174</fpage>
+          <lpage>183</lpage>
+          <pub-id pub-id-type="doi">10.1111/tpj.12105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B91-ijms-21-00290">
+        <label>91.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Das</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Upadhyaya</surname>
+              <given-names>H.D.</given-names>
+            </name>
+            <name>
+              <surname>Bajaj</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kujur</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Badoni</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Laxmi Kumar</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Tripathi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gowda</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Deploying QTL-seq for rapid delineation of a potential candidate gene underlying major trait-associated QTL in chickpea</article-title>
+          <source>DNA Res.</source>
+          <year>2015</year>
+          <volume>22</volume>
+          <fpage>193</fpage>
+          <lpage>203</lpage>
+          <pub-id pub-id-type="doi">10.1093/dnares/dsv004</pub-id>
+          <pub-id pub-id-type="pmid">25922536</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B92-ijms-21-00290">
+        <label>92.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Singh</surname>
+              <given-names>V.K.</given-names>
+            </name>
+            <name>
+              <surname>Khan</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Saxena</surname>
+              <given-names>R.K.</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Kale</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Sinha</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Chitikineni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pazhamala</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>Garg</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Next-generation sequencing for identification of candidate genes for Fusarium wilt and sterility mosaic disease in pigeonpea (<italic>Cajanus cajan</italic>)</article-title>
+          <source>Plant Biotechnol. J.</source>
+          <year>2016</year>
+          <volume>14</volume>
+          <fpage>1183</fpage>
+          <lpage>1194</lpage>
+          <pub-id pub-id-type="doi">10.1111/pbi.12470</pub-id>
+          <pub-id pub-id-type="pmid">26397045</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B93-ijms-21-00290">
+        <label>93.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kumar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Stecher</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Tamura</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>MEGA7: Molecular evolutionary genetics analysis version 7.0 for bigger datasets</article-title>
+          <source>Mol. Biol. Evol.</source>
+          <year>2016</year>
+          <volume>33</volume>
+          <fpage>1870</fpage>
+          <lpage>1874</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/msw054</pub-id>
+          <pub-id pub-id-type="pmid">27004904</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B94-ijms-21-00290">
+        <label>94.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Livak</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Schmittgen</surname>
+              <given-names>T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) Method</article-title>
+          <source>Methods</source>
+          <year>2001</year>
+          <volume>25</volume>
+          <fpage>402</fpage>
+          <lpage>408</lpage>
+          <pub-id pub-id-type="doi">10.1006/meth.2001.1262</pub-id>
+          <pub-id pub-id-type="pmid">11846609</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="ijms-21-00290-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Phenotypic characteristics of Zhengzhouzigua (long internode) and Duan125 (short internode) parents. (<bold>A</bold>) Long internode, and (<bold>B</bold>) Short internode plants before GA<sub>3</sub> application. (<bold>C</bold>) Long internode, and (<bold>D</bold>) Short internode plants after GA<sub>3</sub> application. (<bold>E</bold>) Internodes of the long internode plants before GA<sub>3</sub> application, (<bold>F</bold>) Internodes of the long internode plants after GA<sub>3</sub> application. (<bold>G</bold>) Internodes of the short internode plants after GA<sub>3</sub> application, and (<bold>H</bold>) Internodes of the short internode plants before GA<sub>3</sub> application.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00290-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00290-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Agronomic traits of long and short internode plants. (<bold>A</bold>) Number of internodes, (<bold>B</bold>) Internodes length (cm), and (<bold>C</bold>) Vine length (m) before GA<sub>3</sub> application. (<bold>D</bold>) Number of internodes, (<bold>E</bold>) Internodes length (cm) and (<bold>F</bold>) Vine length (m) after GA<sub>3</sub> application. Data were averages of three biological replications taken from three plants. LI = Long internodes, and SI= Short internodes before GA3 application. LI + GA<sub>3</sub> = Long internodes, and SI + GA3 = Short internodes after GA<sub>3</sub> application. Error bars indicates standard deviations from three repeats (<italic>n</italic> = 3). Values are means + SD (<italic>n</italic> = 3). * significant at <italic>p</italic> &lt; 0.05; ** significant at <italic>p</italic> &lt; 0.01 and *** significant at <italic>p</italic> &lt; 0.001 probability levels.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00290-g002.tif"/>
+      </fig>
+      <fig id="ijms-21-00290-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Fine mapping and isolation of the <italic>dw</italic> gene. (<bold>A</bold>) &#x394;SNP index graph of BSA-seq analysis, (<bold>B</bold>) The <italic>dw</italic> gene was narrow down to an interval 8.525 kb using 430 F<sub>2</sub> individuals flanking by CAPS90 and CAPS91 markers, (<bold>C</bold>) The gene structure of <italic>Cla015407</italic>. (<bold>D</bold>) Sequence alignment between long and short internode parents showed a 13 bp deletion in the short internode parent.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00290-g003.tif"/>
+      </fig>
+      <fig id="ijms-21-00290-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>The phylogenetic analysis and conserved domains of the candidate gene. (<bold>A</bold>) Phylogenetic tree for the <italic>Cla015407</italic>. The tree was constructed using MEGA 7 with Bootstrap values calculated from 1000 replicates. The <italic>Cla015407</italic> is circled in red. (<bold>B</bold>) The conserved domain of <italic>Cla015407</italic> gene, which was analyzed by online Pfam database.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00290-g004.tif"/>
+      </fig>
+      <fig id="ijms-21-00290-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Relative expression level of <italic>Cla015407</italic> in different tissues of both long and short internode parents, Error bars indicates standard deviations from three repeats (<italic>n</italic> = 3). Values are means + SD (<italic>n</italic> = 3). LI = Long internodes, SI = Short internodes. ** Significant at <italic>p</italic> &lt; 0.05 probability level.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00290-g005.tif"/>
+      </fig>
+      <fig id="ijms-21-00290-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>GA<sub>3</sub> content in top, middle and basal internodes of long and short internode plants. (<bold>A</bold>) GA<sub>3</sub> content before GA<sub>3</sub> application, (<bold>B</bold>) GA<sub>3</sub> content after GA<sub>3</sub> application. LI = Long internode, and SI = Short internode before GA<sub>3</sub> application; LI + GA<sub>3</sub> = Long internode, and SI + GA<sub>3</sub> = Short internode after GA<sub>3</sub> application. Error bars indicates standard deviations from three repeats (<italic>n</italic> = 3). Values are means + SD (<italic>n</italic> = 3). * significant at <italic>p</italic> &lt; 0.05 probability level.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00290-g006.tif"/>
+      </fig>
+      <fig id="ijms-21-00290-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Cytological observation of internode length and size of cells between long and short internode plants. (<bold>A</bold>&#x2013;<bold>C</bold>) The internode cell length of long internode plants, and (<bold>G</bold>&#x2013;<bold>I</bold>) The internode cell length of short internode plants from top, middle and basal internode positions, respectively before GA<sub>3</sub> application. (<bold>D</bold>&#x2013;<bold>F</bold>) The internode cell length of long internode plants and (<bold>J</bold>&#x2013;<bold>L</bold>) The internode cell length of short internode plants from top, middle, and basal internode positions, respectively after GA<sub>3</sub> application. Bar = 100 &#x3BC;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00290-g007.tif"/>
+      </fig>
+      <fig id="ijms-21-00290-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Validation of the candidate gene using an InDel marker. (<bold>A</bold>) The gene structure of <italic>Cla015407</italic>. Gray boxes represent exons and open boxes represent untranslated regions (UTRs), while lines represent introns. (<bold>B</bold>) Confirmation of the deletion in short internode through sequencing. The vertical red dotted line indicates the 13 bp deletion from 502&#x2013;514 bp. (<bold>C</bold>) Co-segregation of the short internode phenotype and the 13 bp deletion of <italic>Cla015407</italic> in F<sub>2</sub> population containing 135 individuals. Genotyping by PCR of the 135 individuals revealed that 33 were homozygous dominant (long internode) and 67 individuals were heterozygous, while 35 individuals were homozygous recessive (short internode).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00290-g008.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">algorithms</journal-id>
+      <journal-title-group>
+        <journal-title>Algorithms</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Algorithms</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Algorithms</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1999-4893</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/a13010014</article-id>
+      <article-id pub-id-type="publisher-id">algorithms-13-00014</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Image Completion with Large or Edge-Missing Areas</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ji</surname>
+            <given-names>Jianjian</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Gang</given-names>
+          </name>
+          <xref rid="c1-algorithms-13-00014" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-algorithms-13-00014">School of Information Science &amp; Technology, Beijing Forestry University, Beijing 100083, China; <email>kakacnn@163.com</email></aff>
+      <author-notes>
+        <corresp id="c1-algorithms-13-00014"><label>*</label>Correspondence: <email>yanggang@bjfu.edu.cn</email>; Tel.: +86-136-812-58163</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>13</volume>
+      <issue>1</issue>
+      <elocation-id>14</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Existing image completion methods are mostly based on missing regions that are small or located in the middle of the images. When regions to be completed are large or near the edge of the images, due to the lack of context information, the completion results tend to be blurred or distorted, and there will be a large blank area in the final results. In addition, the unstable training of the generative adversarial network is also prone to cause pseudo-color in the completion results. Aiming at the two above-mentioned problems, a method of image completion with large or edge-missing areas is proposed; also, the network structures have been improved. On the one hand, it overcomes the problem of lacking context information, which thereby ensures the reality of generated texture details; on the other hand, it suppresses the generation of pseudo-color, which guarantees the consistency of the whole image both in vision and content. The experimental results show that the proposed method achieves better completion results in completing large or edge-missing areas.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>image completion</kwd>
+        <kwd>generative adversarial networks</kwd>
+        <kwd>large missing area</kwd>
+        <kwd>edge-missing area</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-algorithms-13-00014" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Image completion technology is designed to synthesize the missing or damaged areas of an image and is a fundamental problem in low-level vision. The technology has attracted widespread interest in the field of computer vision and graphics because it can be used to complement occluded image areas or to repair damaged photographs [<xref ref-type="bibr" rid="B1-algorithms-13-00014">1</xref>,<xref ref-type="bibr" rid="B2-algorithms-13-00014">2</xref>]. In addition, it can erase distracting scene elements or adjust the object position in the image for better composition, or restore the image content in the occluded image area [<xref ref-type="bibr" rid="B3-algorithms-13-00014">3</xref>,<xref ref-type="bibr" rid="B4-algorithms-13-00014">4</xref>,<xref ref-type="bibr" rid="B5-algorithms-13-00014">5</xref>]. These and many other editing operations require automatic completion of missing areas, but due to the inherent ambiguity of the problem and the complexity of natural images, it is still a challenging task to synthesize content with reasonable detail for any natural image. At present, although many methods for image completion have been proposed, such as sample-based [<xref ref-type="bibr" rid="B6-algorithms-13-00014">6</xref>,<xref ref-type="bibr" rid="B7-algorithms-13-00014">7</xref>,<xref ref-type="bibr" rid="B8-algorithms-13-00014">8</xref>,<xref ref-type="bibr" rid="B9-algorithms-13-00014">9</xref>] and data-driven [<xref ref-type="bibr" rid="B4-algorithms-13-00014">4</xref>,<xref ref-type="bibr" rid="B10-algorithms-13-00014">10</xref>,<xref ref-type="bibr" rid="B11-algorithms-13-00014">11</xref>] image completion, problems remain. Not only does the texture pattern need to be completed, but the structure of the scene and the object to be completed must be understood.</p>
+      <p>In the past, the main method of image completion was to copy the existing image block in the uncorrupted area to the missing area. However, this method can achieve effective results only when the image to be complemented has a strong structure, the texture information such as the color of each region has strong similarity, and the missing region has a regular shape [<xref ref-type="bibr" rid="B12-algorithms-13-00014">12</xref>,<xref ref-type="bibr" rid="B13-algorithms-13-00014">13</xref>,<xref ref-type="bibr" rid="B14-algorithms-13-00014">14</xref>,<xref ref-type="bibr" rid="B15-algorithms-13-00014">15</xref>,<xref ref-type="bibr" rid="B16-algorithms-13-00014">16</xref>]. This approach has significant limitations for image completion work with complex structures and contents. Therefore, the method of intercepting an image block directly from surrounding information is not versatile.</p>
+      <p>Deep learning has advanced substantially and been used in image completion due to the strong learning ability of deep neural networks. The usual deep learning-based image completion methods are completed by the generation adversarial network (GAN) [<xref ref-type="bibr" rid="B17-algorithms-13-00014">17</xref>]. The generator and discriminator in GAN can generate clear and reasonable texture content [<xref ref-type="bibr" rid="B18-algorithms-13-00014">18</xref>,<xref ref-type="bibr" rid="B19-algorithms-13-00014">19</xref>,<xref ref-type="bibr" rid="B20-algorithms-13-00014">20</xref>]. However, the existing GAN-based image completion methods have important limitations. GAN adopts an encoder-decoder structure in which two fully connected networks (FCNs) are used as intermediate layers connecting two structures. However, the existing image completion methods using GAN cannot maintain the consistency of the image space structure and context information. Therefore, most of the methods proposed above can only synthesize content with a small missing area, and the synthesis method depends on the low-level features of the image. Additionally, the input can only be a fixed-size picture. When the corrupted image has a large missing area, a complicated structure, or is located at the border of the image, the result is not ideal.</p>
+      <p>To solve the above problems, Iizuka et al. [<xref ref-type="bibr" rid="B21-algorithms-13-00014">21</xref>] proposed a globally and locally consistent image completion method. However, when the areas of the missing regions are large, it will generate distortion and blurred results. Notably, when the missing areas are located at the edge of the image, the results will have blanking and color distortion due to the lack of surrounding information and the instability of training (<xref ref-type="fig" rid="algorithms-13-00014-f001">Figure 1</xref>).</p>
+      <p>To solve the problems of completing large missing areas or regions located at the border of the image, and overcome the problem of unstable training of adversarial network, this paper proposes an image completion method with large or edge-missing areas, and makes improvements of the network structure used in Iizuka&#x2019;s method. The contributions can be summarized as follows:<list list-type="bullet"><list-item><p>First, by separating the middle region of the preliminary complemented area and inputting it into the local discriminator for adversarial training overcomes the problems of the existing method, such as ambiguity and distortion when the missing areas are large. It not only ensures the authenticity and clarity of the content of the central area, but also guarantees the local consistency between the central area and surrounding area.</p></list-item><list-item><p>Second, based on the existing network structure, we add a local discriminator 2 to solve the pseudo-color problem caused by the inconsistent training speed of the generator and the discriminators in the original network structure. In addition, we have made another two improvements to the original network structure, one is to remove the sigmoid activation function in the last layer of the original discriminator network, and the other is to replace the ReLU layer (Rectified Linear Unit layer) with the combination of batch normalization layer (BN layer) and Leaky_ReLU layer, so that the completion results are more realistic and the edges are more fused.</p></list-item></list></p>
+    </sec>
+    <sec id="sec2-algorithms-13-00014">
+      <title>2. Related Work</title>
+      <p>At present, many methods have been introduced to solve the problems of image completion. Image completion based on diffusion is the first digital repair method. In this method, missing pixels are filled by diffusing image information from a known region to a missing region at the pixel level. These algorithms are based on variational methods and the partial differential equation (PDE) theory. The PDE algorithm was proposed by Bertalmio et al. [<xref ref-type="bibr" rid="B22-algorithms-13-00014">22</xref>]. The algorithm is an iterative algorithm, and its primary goal is to propagate the gradient direction and the grey value of the image to the interior of the region to be filled and to solve the demand for high-order partial differential equations in image processing. If the missing areas are small, the PDE algorithm will produce good results. However, when the missing areas are large, the algorithm will take a long time to process and will produce bad results. Vague areas will be produced by the algorithm that make the filling area unnatural. Another more traditional approach is to fill a missing image area with a large external database in a data-driven manner. These methods assume that areas surrounded by similar environments may have similar content [<xref ref-type="bibr" rid="B4-algorithms-13-00014">4</xref>,<xref ref-type="bibr" rid="B10-algorithms-13-00014">10</xref>,<xref ref-type="bibr" rid="B11-algorithms-13-00014">11</xref>], such as Zhu et al. assume that the input image is taken at a well-known landmark, so similar images taken at the same location can be easily found on the Internet. This method is very effective in finding sample images with enough visual similarity to the query but may fail when the query images are not of good quality in the database. These methods also require access to an external database, which greatly limits the possible application scenarios.</p>
+      <p>Compared with data-driven technology, the sample-based method can perform more complex image filling task and fill large areas of missing regions in natural images. Sample-based image completion method was initially used for texture synthesis by resampling either pixels [<xref ref-type="bibr" rid="B23-algorithms-13-00014">23</xref>] or whole patches [<xref ref-type="bibr" rid="B24-algorithms-13-00014">24</xref>] of the original texture to generate a new texture. This method is then extended to image mosaic [<xref ref-type="bibr" rid="B25-algorithms-13-00014">25</xref>] by image segmentation and texture generation based on energy optimization. In image completion applications, this method has been improved [<xref ref-type="bibr" rid="B12-algorithms-13-00014">12</xref>,<xref ref-type="bibr" rid="B22-algorithms-13-00014">22</xref>,<xref ref-type="bibr" rid="B26-algorithms-13-00014">26</xref>], such as the best patch search method. In particular, Wexler et al. [<xref ref-type="bibr" rid="B27-algorithms-13-00014">27</xref>] and Simakov et al. [<xref ref-type="bibr" rid="B8-algorithms-13-00014">8</xref>] proposed a method based on global optimization to obtain a more consistent filling. These techniques were later accelerated by a random block search algorithm (PatchMatch) [<xref ref-type="bibr" rid="B5-algorithms-13-00014">5</xref>], allowing real-time advanced image editing. However, sample-based completion method works well only when the missing region is composed of simple structure and texture.</p>
+      <p>In recent years, deep learning has also shown outstanding results in image completion. It can fill large missing areas while preserving semantic and contextual details and capturing the high-level features of images. Recently, deep neural networks have been used in texture synthesis and image stylization [<xref ref-type="bibr" rid="B28-algorithms-13-00014">28</xref>,<xref ref-type="bibr" rid="B29-algorithms-13-00014">29</xref>,<xref ref-type="bibr" rid="B30-algorithms-13-00014">30</xref>,<xref ref-type="bibr" rid="B31-algorithms-13-00014">31</xref>,<xref ref-type="bibr" rid="B32-algorithms-13-00014">32</xref>]. In particular, Phatak et al. [<xref ref-type="bibr" rid="B18-algorithms-13-00014">18</xref>] trained an encoder-decoder convolutional neural network (context encoder) with L2 loss and adversarial loss [<xref ref-type="bibr" rid="B17-algorithms-13-00014">17</xref>] to directly predict lost image regions. This work predicts a reasonable image structure and requires only one forward propagation, which is very fast. Although the results are encouraging, sometimes it lacks fine texture details and creates visible artifacts around the boundaries of the missing areas. In addition, this method is also not suitable for processing high-resolution images. The adversarial network needs to adjust the network parameters inversely according to the loss between the generated image and the real image, so it is difficult to train against the loss when the input is large. In view of the shortcomings of the above methods, Chao Yang et al. [<xref ref-type="bibr" rid="B20-algorithms-13-00014">20</xref>] proposed using the encoder-decoder convolutional neural network as the global content constraint and the similarity between the missing regions and the original regions as the texture constraint, the two combined to perform image completion. Chao Yang divided the high-resolution image into several steps to enhance the authenticity of the texture information, but it was difficult to ensure the global consistency of the complemented images.</p>
+      <p>To make sure the consistency of the complemented images, Iizuka uses a global and local consistency method to complete the images [<xref ref-type="bibr" rid="B21-algorithms-13-00014">21</xref>]. First, the method generates missing regions and the corresponding binary channel mask (1 indicates the region to be completed and 0 indicates the intact region) on the original image randomly. Second, the images with missing regions and corresponding binary channel masks are input into the completion network with the mean square error loss (MSE Loss) of the missing regions in the original image and the complementary regions in the generated image to train the completion network. Third, the generated image and the region centered on the complemented region are input into the global discriminator and the local discriminator respectively while keeping the completion network fixed. The two networks are trained by using the generated adversarial loss. At last, the three networks are trained as a whole with the combination of the three losses. Iizuka&#x2019;s method is better than the existing image completion methods, but there are still problems: (1) when the missing areas are large, the final completion results are blurry; (2) when the missing areas are located at the border of the images, the lack of context information and the inconsistency training speed between the completion network and the discriminator network leads to the problem of blurring and color distortion. </p>
+      <p>In addition, the networks structure adopted in Iizuka&#x2019;s method is the basic GAN model. One of the most obvious shortcomings of the basic GAN is that the training process is difficult to converge and has great instability. The reasons are that (1) different from the general training process by the gradient descent method, which has a clear objective function, GAN&#x2019;s training is a process of finding Nash equilibrium points. The decrease in the error of either side of the generator and the discriminator during the training process may causes the error of the other party to rise. It is difficult for GAN to reach a relatively balanced state, and always oscillate between various modes of generated samples, one of the most common case is that GAN maps different input samples to the same generated sample, i.e., repeatedly generates the same data. This phenomenon is also called model collapse. (2) In general, since the iterative speed of the discriminator is quicker than that of the generator, the inconsistent iteration speed of the two will leads to the instability of the GAN model, therefor it is difficult to obtain an optimal model. (3) It is prone to the phenomenon that the gradient disappears during the backpropagation process, which makes the model more difficult to train. In response to the shortcomings of GAN, the researchers derived a series of new models based on the basic GAN model, such as Conditional GAN (cGAN) [<xref ref-type="bibr" rid="B33-algorithms-13-00014">33</xref>], Deep Convolutional GAN (DCGAN).) [<xref ref-type="bibr" rid="B34-algorithms-13-00014">34</xref>], Wasserstein GAN (wGAN) [<xref ref-type="bibr" rid="B35-algorithms-13-00014">35</xref>] and so on. Among them, wGAN is mainly to improve the stability of the basic GAN&#x2019;s training. The generation problem can be approximated as a regression problem; however, the last layer of the discriminator in the basic GAN&#x2019;s network structure uses the sigmoid activation function, which approximates the generation problem to the 0&#x2013;1 two classification problem that causes problems, such as mode collapse and difficulty in convergence, and difficulty for the generator and the discriminator to reach an equilibrium. WGAN improves the stability of the training by removing the last sigmoid function in the last layer of the discriminators.</p>
+      <p>Combined with wGAN, this paper improves the image completion method and network structure based on the Iizuka&#x2019;s method. (1) On the one hand, by using the central block of the complemented region as the input of the local discriminator 2 added in this paper, the synthesis results are more realistic because the training process is back-propagated in the loss function of the central region and the corresponding region of the real image; (2) On the other hand, the training of the network structure used in Iizuka&#x2019;s method is unstable and difficult to converge. By &#x201C;widening&#x201D; the network, i.e., adding the local discriminator 2 in the original network, removing the last sigmoid activation layer of the discriminators and replacing each ReLU layer with the combination of the BN layer and Leaky_ReLU layer, this paper avoids the problems of gradient disappearance, mode collapse, and difficulty in convergence, which make the network structure more stable and the completion results more realistic and clear.</p>
+    </sec>
+    <sec id="sec3-algorithms-13-00014">
+      <title>3. Method</title>
+      <p>Based on Iizuka&#x2019;s method [<xref ref-type="bibr" rid="B21-algorithms-13-00014">21</xref>], we randomly generate blank areas with arbitrary shape on the original image <inline-formula><mml:math display="block" id="mm1"><mml:semantics><mml:mrow><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> to get the input image <inline-formula><mml:math display="block" id="mm2"><mml:semantics><mml:mi>x</mml:mi></mml:semantics></mml:math></inline-formula> and the corresponding binary mask (<xref ref-type="fig" rid="algorithms-13-00014-f002">Figure 2</xref>). In the training process, the MSE loss between the complementary region <inline-formula><mml:math display="block" id="mm3"><mml:semantics><mml:mi>c</mml:mi></mml:semantics></mml:math></inline-formula> and the corresponding region in the original image <inline-formula><mml:math display="block" id="mm4"><mml:semantics><mml:mrow><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is used to train the completion network (Equation (1)). Next, an image block <inline-formula><mml:math display="block" id="mm5"><mml:semantics><mml:mi>d</mml:mi></mml:semantics></mml:math></inline-formula> centered on the complemented region is cropped, the entire generated image and <inline-formula><mml:math display="block" id="mm6"><mml:semantics><mml:mi>d</mml:mi></mml:semantics></mml:math></inline-formula> are input into the global discriminator and the local discriminator respectively and the two networks are trained with generate adversarial loss (GAN loss) (Equation (2)). The preliminary completion result preserved the structural information of the image. The global network discriminator is used to ensure the global consistency of the image, and the local network discriminator is used to maintain the local consistency of the complementary region with other regions.
+      <disp-formula id="FD1-algorithms-13-00014"><label>(1)</label><mml:math display="block" id="mm7"><mml:semantics><mml:mrow><mml:mi>L</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mo>|</mml:mo><mml:mo>|</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>&#x2299;</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>C</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>|</mml:mo><mml:msup><mml:mo>|</mml:mo><mml:mn>2</mml:mn></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      <disp-formula id="FD2-algorithms-13-00014"><label>(2)</label><mml:math display="block" id="mm8"><mml:semantics><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>d</mml:mi><mml:mi>v</mml:mi><mml:mi mathvariant="normal">d</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munder><mml:mrow><mml:mi>min</mml:mi></mml:mrow><mml:mi>C</mml:mi></mml:munder><mml:mtext>&#xA0;</mml:mtext><mml:munder><mml:mrow><mml:mi>max</mml:mi></mml:mrow><mml:mi>D</mml:mi></mml:munder><mml:mtext>&#xA0;</mml:mtext><mml:mi mathvariant="normal">E</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>log</mml:mi><mml:mi>D</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>d</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi>log</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>D</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>C</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <inline-formula><mml:math display="block" id="mm9"><mml:semantics><mml:mi>C</mml:mi></mml:semantics></mml:math></inline-formula> denotes the completion network, <inline-formula><mml:math display="block" id="mm10"><mml:semantics><mml:mi>D</mml:mi></mml:semantics></mml:math></inline-formula> denotes the discriminator networks, <inline-formula><mml:math display="block" id="mm11"><mml:semantics><mml:mrow><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the input binary mask, and <inline-formula><mml:math display="block" id="mm12"><mml:semantics><mml:mrow><mml:msub><mml:mi>M</mml:mi><mml:mi>d</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the area corresponding to the local area <inline-formula><mml:math display="block" id="mm13"><mml:semantics><mml:mi>d</mml:mi></mml:semantics></mml:math></inline-formula> centered on the missing area in the binary image.</p>
+      <p>However, when the missing areas are large or located at the edge of the image, due to the lack of context information and the instability of the training, the result of the completion of the above three networks may be blurred and the color distorted. Therefore, as shown in <xref ref-type="fig" rid="algorithms-13-00014-f002">Figure 2</xref>, we also generate an image block which located at the center of the missing region. By inputting <inline-formula><mml:math display="block" id="mm14"><mml:semantics><mml:mrow><mml:msup><mml:mi>d</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> into the local discriminator network 2 and calculating the GAN loss (Equation (3)) between <inline-formula><mml:math display="block" id="mm15"><mml:semantics><mml:mrow><mml:msup><mml:mi>d</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> and the original image, the completion result of the central position <inline-formula><mml:math display="block" id="mm16"><mml:semantics><mml:mrow><mml:msup><mml:mi>d</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> of the large missing area has global and local consistency with the surrounding information.</p>
+      <p>Finally, the entire network structure is trained synchronously with the joint loss of three networks (Equation (4)), where <italic>&#x3B1;</italic> denotes coefficient of the proportion of the adversarial loss.
+      <disp-formula id="FD3-algorithms-13-00014"><label>(3)</label><mml:math display="block" id="mm17"><mml:semantics><mml:mrow><mml:msub><mml:mi>L</mml:mi><mml:mrow><mml:mi>adv</mml:mi><mml:msup><mml:mi>d</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:munder><mml:mrow><mml:mi>min</mml:mi></mml:mrow><mml:mi>C</mml:mi></mml:munder><mml:mtext>&#xA0;</mml:mtext><mml:munder><mml:mrow><mml:mi>max</mml:mi></mml:mrow><mml:mi>D</mml:mi></mml:munder><mml:mtext>&#xA0;</mml:mtext><mml:mi mathvariant="normal">&#x395;</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>log</mml:mi><mml:mi>D</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mrow><mml:msup><mml:mi>d</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi>log</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>D</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>C</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      <disp-formula id="FD4-algorithms-13-00014"><label>(4)</label><mml:math display="block" id="mm18"><mml:semantics><mml:mrow><mml:msup><mml:mi>L</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>=</mml:mo><mml:munder><mml:mrow><mml:mi>min</mml:mi></mml:mrow><mml:mi>C</mml:mi></mml:munder><mml:mtext>&#xA0;</mml:mtext><mml:munder><mml:mrow><mml:mi>max</mml:mi></mml:mrow><mml:mi>D</mml:mi></mml:munder><mml:mtext>&#xA0;</mml:mtext><mml:mi mathvariant="normal">&#x395;</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>L</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mi>log</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>D</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>C</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo><mml:mo>+</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mi>log</mml:mi><mml:mi>D</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mi>d</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mi>log</mml:mi><mml:mi>D</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>o</mml:mi><mml:mi>r</mml:mi><mml:mi>i</mml:mi><mml:mi>g</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>M</mml:mi><mml:mrow><mml:msup><mml:mi>d</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      <p>The network structure adopted by our method is shown in <xref ref-type="fig" rid="algorithms-13-00014-f003">Figure 3</xref>. The network includes a completion network, a global discriminator, a local discriminator, and a local discriminator 2. The completion network is used to generate content of the missing area, the global discriminator views global consistency of the generated image, and the local discriminator only looks at small areas centered on the complemented region to ensure local consistency of the generated image blocks. Our added local discriminator network (local discriminator 2) is used to ensure the content accuracy of the image generated in the central region of the missing region and the local consistency between the central area and the outer area.</p>
+      <p>The inputs of the completion network are the entire image with the missing areas and the corresponding binary channel mask. The output is the combined image of the intact area and the completed areas of the input image. Then, the entire generated image is input into the global network discriminator to judge the accuracy of the generated content and to maintain the global consistency of the image. The input of the local network discriminator is a local region centered on the completed region in the generated image, which is used to maintain local consistency of the generated area with other areas. The input of the local network discriminator 2 added herein is to generate a central region of the completed region in the image for determining the accuracy of the generated content of the central region of the large-area missing regions and the local consistency with other regions.</p>
+      <p>Among them, the completion network adopts an encoder-decoder structure, which includes ten convolution layers, four dilated convolution layers, two deconvolutional layers, and one output layer. Except that the first convolutional layer uses a 5 &#xD7; 5 convolution kernel, all other convolutional layers and dilated convolutional layers use a 3 &#xD7; 3 convolution kernel, and the deconvolutional layer uses a 4 &#xD7; 4 convolution kernel. In Iizuka&#x2019;s method, except for the last layer in the completion network, there is a ReLU layer behind each of the convolutional layers. Since the ReLU activation function ignores the effect of a negative value, the gradient of the neuron is set to 0 when its input is a negative value, causing a &#x201C;neuron death&#x201D; phenomenon. For this defect of ReLU, this paper replaces ReLU layers with the combination of the BN layers and the Leaky_ReLU layers. The network backpropagation process is carried out by biasing the error between the actual output and the expected output obtained during the forward propagation of the network, and then adjusting the parameters of each layer of the network. When the network layers are deep, the partial derivative approaches zero when the backpropagation is close to the input layer, which is easy to fall into local optimum. The BN operation keeps the input of each layer the same distribution in the network training process, avoiding above problems. Leaky_ReLU solves the problem that when the input is negative, the output is 0 in the ReLU activation function, avoiding the problem of the gradient disappearing.</p>
+      <p>In the original network structure, the discriminators train much faster than the generator, which causes the discriminator to easily distinguish which one is a natural image and which one is the generated image, but the gradient that is passed to the completion network in the backpropagation can only make it generates strange textures, which easily cause color distortion problems. In this paper, by &#x201C;widening&#x201D; the network structure, i.e., adding a local discriminator, the training speed of the two can be balanced, and the generated texture is more realistic, and pseudo-color is not generated. In addition, the last layer of the discriminators in the Iizuka&#x2019;s method uses the sigmoid activation function to obtain a continuous value in the interval [0, 1] to represent the probability that the image is from the real sample. Since the sigmoid function approximates the image generation problem to a two-class problem, which is easy to cause the gradient disappearance, the mode collapses, and the difficulty to reach equilibrium between generator and discriminators. This paper draws on the idea of wGAN method and removes the last sigmoid activation function, making network training more stable and easier to converge, which resulting in more realistic and clear results.</p>
+      <p>The experiment is based on TensorFlow framework and implemented in python. The training process is similar to Iizuka&#x2019;s method, i.e., the completion network is iteratively trained <inline-formula><mml:math display="block" id="mm23"><mml:semantics><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> times; then, the three discriminator networks are trained <inline-formula><mml:math display="block" id="mm24"><mml:semantics><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>d</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> times; finally, the entire network is iteratively trained <inline-formula><mml:math display="block" id="mm25"><mml:semantics><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>t</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> times until the network is stable. The data set used in the experiment contains pictures of grass downloaded from Baidu and Google Chrome image search engine, where the training set contains 1000 images, and the test set contains 120 images. The training set used in this paper is not large, only contains 1000 pictures, but for the grass-like texture with local similarity, good experimental results can be obtained, which can reflect the advantages of this method. In our experiment, the batch size is set to 16. The input of the completion network is a 256 &#xD7; 256 picture with missing areas and a corresponding mask picture. The missing area is set to an area of 80 &#xD7; 80 to 128 &#xD7; 128 randomly generated at the original images. The number of iterations of the completion network is 4000 times; the input of the global discriminator which maintains the global consistency of the synthesis result is a 256 &#xD7; 256 picture of the completion network output. The input of the local discriminator is the center of the synthesis result of the completion network. The area of 128 &#xD7; 128 maintains the local consistency of the missing area and the context. The input of the local discriminator 2 is the 64 &#xD7; 64 area in the center of the missing area in the synthesis result. The number of iterations of the discriminators is 1500. The completion network and the discriminators are iterated 8000 times together. The iteration required a week to process on the NVIDIA 1080Ti graphics card. </p>
+    </sec>
+    <sec id="sec4-algorithms-13-00014" sec-type="results">
+      <title>4. Results</title>
+      <p>To compare the experimental results, we tested the Iizuka method using the same parameters as our method. The experimental results are shown in <xref ref-type="fig" rid="algorithms-13-00014-f004">Figure 4</xref>.</p>
+      <p>The results show that when the missing area is large (the width and length are both more than 50% in this case) or located at the border of the image, the results of the completion of the Iizuka&#x2019;s method are ambiguous. In <xref ref-type="fig" rid="algorithms-13-00014-f004">Figure 4</xref>, the size of the input images of (1) to (3) is 256 &#xD7; 256 pixels, wherein the missing area is an area of 128 &#xD7; 128 size located at the center of the image, i.e., 1/4 size of the input image. It can be seen from the figures that the completion results of Iizuka&#x2019;s method will be blurred, distorted, etc., especially the difference at the boundary of the missing area is obvious. In this paper, both the global and local consistency of the completed image are considered. At the same time, the central region of the missing region in the preliminary completion result is input into the local discriminator 2 for confrontation training to guarantee the authenticity of the texture information, so the results of this paper are more clear and realistic; The input image of (4) contains a plurality of missing regions, wherein the missing regions are randomly distributed at different positions of the image. Due to the lack of context information, the completion result of the Iizuka&#x2019;s method will have obvious blank areas.</p>
+      <p>In addition, when the missing area is large and located at the edge of the image, as shown in (5) to (8), the Iizuka&#x2019;s method&#x2019;s completion results contains pseudo-color in addition to the large-area blank. This is because the iteration speed of the discriminator in the Iizuka&#x2019;s method is quicker than the generator, which causes the instability training of generated adversarial network. We measured the running time of the discriminators and generator in the Iizuka&#x2019;s method and found that the generator running time is 50% slower than the discriminators average, which causes the discriminator to easily distinguish which one is a natural image and which one is the generated image. The gradient only makes the generator generates strange textures that produce pseudo-colors during backpropagation. In this paper, the local discriminator 2, i.e., the &#x201C;widening&#x201D; network, is added to balance the training speed of the generator and discriminators. In addition, we also replace the ReLU layer behind each convolution layer with the combination of BN layer and Leaky_ReLU layer, and remove the sigmoid activation function of the last layer of the discriminator, avoiding gradient disappearance and pattern collapse and other problems during network training, which makes the network training more stable. Experiments show that the difference between the running speed of our network and Iizuka&#x2019;s method network is only 10%. This improvement makes the network training more stable and easier to converge, and overcomes the defects of generating pseudo-color in Iizuka&#x2019;s method, making the result more realistic. In <xref ref-type="fig" rid="algorithms-13-00014-f004">Figure 4</xref>, <xref ref-type="fig" rid="algorithms-13-00014-f005">Figure 5</xref>, <xref ref-type="fig" rid="algorithms-13-00014-f006">Figure 6</xref> and <xref ref-type="fig" rid="algorithms-13-00014-f007">Figure 7</xref>, our synthesis results are clearer and more realistic than Iizuka&#x2019;s method, but due to the lack of context information, blank areas still appear. This is a problem that we still need to improve.</p>
+      <p>We use a combination of MSE and structural similarity (SSIM) to evaluate the similarity of the complemented images and the original images. Among them, the MSE is used to compare the absolute error between image pixels, i.e., the difference between pixels, and the SSIM is used to evaluate the internal dependence between image pixels, i.e., human visual perception on images. The smaller the MSE and the greater the SSIM are, the more similar the images are. <xref ref-type="fig" rid="algorithms-13-00014-f005">Figure 5</xref> shows the MSE result pairs and <xref ref-type="fig" rid="algorithms-13-00014-f006">Figure 6</xref> shows the SSIM result pairs of the Iizuka&#x2019;s method and our method on images of <xref ref-type="fig" rid="algorithms-13-00014-f004">Figure 4</xref>. The red line denotes our method&#x2019;s results and the green line denotes Iizuka&#x2019;s method&#x2019;s results.</p>
+      <p>As can be seen from <xref ref-type="fig" rid="algorithms-13-00014-f005">Figure 5</xref>, when the missing area are large, the MSE results of Iizuka&#x2019;s method are higher than our method, which indicate that our method guarantees the realistic of texture information when completing large missing areas. As shown in 4 to 8 of the horizontal coordinate in both <xref ref-type="fig" rid="algorithms-13-00014-f005">Figure 5</xref> and <xref ref-type="fig" rid="algorithms-13-00014-f006">Figure 6</xref>, when the missing area are located at the border of the image, both difference of MSE and SSIM between the results of Iizuka&#x2019;s method and our method with the original images have significant difference, which indicate that the method of this paper has better completion results than Iizuka&#x2019;s method in context information and global and local consistency, and the completed images are closer to the original images.</p>
+      <p><xref ref-type="fig" rid="algorithms-13-00014-f007">Figure 7</xref> shows the operation of each loss in the training process of the network structure using the ReLU layer and the sigmoid activation function in the last layer of the discriminator in Iizuka&#x2019;s method. <xref ref-type="fig" rid="algorithms-13-00014-f008">Figure 8</xref> shows the operation of each loss in the training process of the network structure using the combination of BN layer and leak_relu layer which replaces the ReLU layer, and the sigmoid activation function of the last layer is removed, also, the local discriminator 2 is added.</p>
+      <p>It can be seen from the figures that the gradient disappearance phenomenon is easy to occur during the training of the network structure of Iizuka&#x2019;s method, and the training process is very unstable. The training process of the network structure adopted in this method is relatively stable, and when the generation loss decreases, the adversarial loss shows an upward trend, and the two always maintain the confrontation state until the balance is reached.</p>
+      <p>The following is another set of experimental results. We used the same parameter settings as the grass to train and complete the image of the barbed wire with certain structural features. The result of the completion is shown in <xref ref-type="fig" rid="algorithms-13-00014-f009">Figure 9</xref>.</p>
+      <p>In addition, to verify the generalization ability of the proposed method, we randomly extracted 15,000 images from the Places2 dataset for training. The test results are shown in <xref ref-type="fig" rid="algorithms-13-00014-f010">Figure 10</xref>.</p>
+      <p>It can be seen from the figures that the complemented area of the image generated by Iizuka&#x2019;s method are very blurred, and the boundary areas are more obvious, which cannot maintain the authenticity and consistency of the image well. Our method has improved the network structure, so that the network avoids the gradient disappearing during the training process, and reduces the inconsistency of the generator and discriminator iteration speed, which prove that the method is able to generate clearer, more realistic images and guarantee the globally and locally consistency of the images.</p>
+    </sec>
+    <sec id="sec5-algorithms-13-00014" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>In this paper, we propose an image completion method with large or edge-missing areas. The method divides the image into the region centered on the missing region and the region at the center of the missing region. The local discriminator 2 is added to complete the image, and the GAN model used in the Iizuka&#x2019;s method is improved. On the one hand, it overcomes the problem of lacking context information due to the large missing area which thereby generates more realistic texture details; on the other hand, it makes the adversarial generate network training more stable and suppresses the generation of pseudo-color. The method considers both the global consistency and local consistency of the image when the completion step is performed, and the authenticity and consistency of the texture information of the large-area and edge-missing regions are also considered.</p>
+      <p>However, there are still limitations of our method. Since there is a lack of context information, the results of our method still have small blank areas when the large missing area is located at the border of the image. Whether it is possible to match the appropriate context information in the image library will be an interesting way to explore.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>J.J. and G.Y. contributed to analysis and manuscript preparation; J.J. and G.Y. conceived and designed the experiments; J.J. and G.Y. performed the data analyses and wrote the manuscript. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by [Fundamental Research Funds for the Central Universities] grant number [No. 2015ZCQ-XX] and [National Key Research and Development Project] grant number [No. 2017YFC0504404].</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>We declare that no conflict of interest exits in the submission of this manuscript, and manuscript is approved by all authors for publication.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-algorithms-13-00014">
+        <label>1.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jia</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Image repairing: Robust image synthesis by adaptive nd tensor voting</article-title>
+          <source>Proceedings of the 2003 IEEE Computer Society Conference on Computer Vision and Pattern Recognition</source>
+          <conf-loc>Madison, WI, USA</conf-loc>
+          <conf-date>18&#x2013;20 June 2003</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B2-algorithms-13-00014">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rares</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Reinders</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Biemond</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Edge-based image restoration</article-title>
+          <source>IEEE Trans. Image Process.</source>
+          <year>2005</year>
+          <volume>14</volume>
+          <fpage>1454</fpage>
+          <lpage>1468</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIP.2005.854466</pub-id>
+          <pub-id pub-id-type="pmid">16238052</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-algorithms-13-00014">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Ahuja</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kopf</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Image Completion Using Planar Structure Guidance</article-title>
+          <source>ACM Trans. Graph.</source>
+          <year>2014</year>
+          <volume>33</volume>
+          <fpage>1</fpage>
+          <lpage>10</lpage>
+          <pub-id pub-id-type="doi">10.1145/2601097.2601205</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-algorithms-13-00014">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Whyte</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Sivic</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zisserman</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Get Out of my Picture! Internet-based Inpainting</article-title>
+          <source>Br. Mach. Vis. Conf.</source>
+          <year>2009</year>
+          <volume>2</volume>
+          <fpage>5</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B5-algorithms-13-00014">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kr&#xE4;henb&#xFC;hl</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Koltun</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient inference in fully connected crfs with gaussian edge potentials</article-title>
+          <source>Adv. Neural Inform. Process. Syst.</source>
+          <year>2011</year>
+          <volume>24</volume>
+          <fpage>104</fpage>
+          <lpage>117</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6-algorithms-13-00014">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barnes</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Shechtman</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Finkelstein</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>D.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Patch-Match: A Randomized Correspondence Algorithm for Structural Image Editing</article-title>
+          <source>ACM Trans. Graph.</source>
+          <year>2009</year>
+          <volume>28</volume>
+          <fpage>24</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B7-algorithms-13-00014">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Darabi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shechtman</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Barnes</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Goldman</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Sen</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Image Melding: Combining Inconsistent Images using Patch-based Synthesis</article-title>
+          <source>ACM Trans. Graph.</source>
+          <year>2012</year>
+          <volume>31</volume>
+          <fpage>82</fpage>
+          <pub-id pub-id-type="doi">10.1145/2185520.2185578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-algorithms-13-00014">
+        <label>8.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simakov</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Caspi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shechtman</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Irani</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Summarizing visual data using bidirectional similarity</article-title>
+          <source>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</source>
+          <conf-loc>Anchorage, AK, USA</conf-loc>
+          <conf-date>23&#x2013;28 June 2008</conf-date>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B9-algorithms-13-00014">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wexler</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shechtman</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Irani</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Space-Time Completion of Video</article-title>
+          <source>IEEE Trans. Pattern Anal. Mach. Intell.</source>
+          <year>2007</year>
+          <volume>29</volume>
+          <fpage>463</fpage>
+          <lpage>476</lpage>
+          <pub-id pub-id-type="doi">10.1109/TPAMI.2007.60</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-algorithms-13-00014">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hays</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Efros</surname>
+              <given-names>A.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Scene completion using millions of photographs</article-title>
+          <source>ACM Trans. Graph.</source>
+          <year>2007</year>
+          <volume>26</volume>
+          <fpage>4</fpage>
+          <pub-id pub-id-type="doi">10.1145/1276377.1276382</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-algorithms-13-00014">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.Z.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>Z.P.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Faithful Completion of Images of Scenic Landmarks using Internet Images</article-title>
+          <source>IEEE Trans. Vis. Comput. Graph.</source>
+          <year>2015</year>
+          <volume>22</volume>
+          <fpage>1945</fpage>
+          <lpage>1958</lpage>
+          <pub-id pub-id-type="doi">10.1109/TVCG.2015.2480081</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-algorithms-13-00014">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Drori</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Cohen-Or</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yeshurun</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fragment-based image completion</article-title>
+          <source>ACM Trans. Graph.</source>
+          <year>2003</year>
+          <volume>22</volume>
+          <fpage>303</fpage>
+          <lpage>312</lpage>
+          <pub-id pub-id-type="doi">10.1145/882262.882267</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-algorithms-13-00014">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roth</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Black</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fields of experts</article-title>
+          <source>Int. J. Comput. Vis.</source>
+          <year>2009</year>
+          <volume>82</volume>
+          <fpage>205</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11263-008-0197-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-algorithms-13-00014">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fast and accurate matrix completion via truncated nuclear norm regularization</article-title>
+          <source>IEEE Trans. Pattern Anal. Mach. Intell.</source>
+          <year>2013</year>
+          <volume>35</volume>
+          <fpage>2117</fpage>
+          <lpage>2130</lpage>
+          <pub-id pub-id-type="doi">10.1109/TPAMI.2012.271</pub-id>
+          <pub-id pub-id-type="pmid">23868774</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-algorithms-13-00014">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilczkowiak</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brostow</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Tordoff</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cipolla</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hole filling through photomontage</article-title>
+          <source>BMVC</source>
+          <year>2005</year>
+          <volume>5</volume>
+          <fpage>492</fpage>
+          <lpage>501</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B16-algorithms-13-00014">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Komodakis</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Tziritas</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Image completion using efficient belief propagation via priority scheduling and dynamic pruning</article-title>
+          <source>IEEE Trans. Image Process.</source>
+          <year>2007</year>
+          <volume>16</volume>
+          <fpage>2649</fpage>
+          <lpage>2661</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIP.2007.906269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-algorithms-13-00014">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pouget-Abadie</surname>
+              <given-names>I.J.G.</given-names>
+            </name>
+            <name>
+              <surname>Mirza</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Generative adversarial nets</article-title>
+          <source>arXiv</source>
+          <year>2014</year>
+          <pub-id pub-id-type="arxiv">1406.2661</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-algorithms-13-00014">
+        <label>18.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pathak</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Krahenbuhl</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Donahue</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Darrell</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Efros</surname>
+              <given-names>A.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Context encoders: Feature learning by inpainting</article-title>
+          <source>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</source>
+          <conf-loc>Las Vegas, NV, USA</conf-loc>
+          <conf-date>26 June&#x2013;1 July 2016</conf-date>
+          <fpage>2536</fpage>
+          <lpage>2544</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B19-algorithms-13-00014">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yeh</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>T.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hasegawa-Johnson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Do</surname>
+              <given-names>M.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Semantic image inpainting with perceptual and contextual losses</article-title>
+          <source>arXiv</source>
+          <year>2016</year>
+          <pub-id pub-id-type="arxiv">1607.07539</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-algorithms-13-00014">
+        <label>20.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Shechtman</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>High resolution image inpainting using multi-scale neural patch synthesis</article-title>
+          <source>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</source>
+          <conf-loc>Honolulu, HI, USA</conf-loc>
+          <conf-date>21 July&#x2013;26 July 2017</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B21-algorithms-13-00014">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iizuka</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Simo-serra</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ishikawa</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Globally and Locally Consistent Image Completion</article-title>
+          <source>ACM Trans. Graph.</source>
+          <year>2017</year>
+          <volume>36</volume>
+          <fpage>107</fpage>
+          <pub-id pub-id-type="doi">10.1145/3072959.3073659</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-algorithms-13-00014">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bertalmio</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vese</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sapiro</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simultaneous Structure and Texture Image Inpainting</article-title>
+          <source>IEEE Trans. Image Process.</source>
+          <year>2001</year>
+          <volume>10</volume>
+          <fpage>1200</fpage>
+          <lpage>1211</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-algorithms-13-00014">
+        <label>23.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Efros</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>T.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Texture synthesis by non-parametric sampling</article-title>
+          <source>Proceedings of the IEEE Computer Society</source>
+          <conf-loc>Kerkyra, Greece</conf-loc>
+          <conf-date>20&#x2013;27 September 1999</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B24-algorithms-13-00014">
+        <label>24.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Efros</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Freeman</surname>
+              <given-names>W.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Image quilting for texture synthesis and transfer</article-title>
+          <source>Proceedings of the Conference on Computer Graphics and Interactive Techniques</source>
+          <conf-loc>Los Angeles, CA, USA</conf-loc>
+          <conf-date>12&#x2013;17 August 2001</conf-date>
+          <fpage>341</fpage>
+          <lpage>346</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B25-algorithms-13-00014">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kwatra</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xF6;dl</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Essa</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Turk</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bobick</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Graphcut Textures: Image and Video Synthesis Using Graph Cuts</article-title>
+          <source>ACM Trans. Graph.</source>
+          <year>2003</year>
+          <volume>22</volume>
+          <fpage>277</fpage>
+          <lpage>286</lpage>
+          <pub-id pub-id-type="doi">10.1145/882262.882264</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-algorithms-13-00014">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Criminisi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Perez</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Toyama</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Region Filling and Object Removal by Exemplar-based Image Inpainting</article-title>
+          <source>IEEE Trans. Image Process.</source>
+          <year>2004</year>
+          <volume>13</volume>
+          <fpage>1200</fpage>
+          <lpage>1212</lpage>
+          <pub-id pub-id-type="doi">10.1109/TIP.2004.833105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-algorithms-13-00014">
+        <label>27.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wand</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Combining markov random fields and convolutional neural networks for image synthesis</article-title>
+          <source>Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition</source>
+          <conf-loc>Las Vegas, NV, USA</conf-loc>
+          <conf-date>26 June&#x2013;1 July 2016</conf-date>
+          <fpage>2479</fpage>
+          <lpage>2486</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B28-algorithms-13-00014">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gatys</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Ecker</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Bethge</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A neural algorithm of artistic style</article-title>
+          <source>arXiv</source>
+          <year>2016</year>
+          <pub-id pub-id-type="arxiv">1508.06576</pub-id>
+          <pub-id pub-id-type="doi">10.1167/16.12.326</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-algorithms-13-00014">
+        <label>29.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gatys</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Ecker</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Bethge</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Texture synthesis and the controlled generation of natural stimuli using convolutional neural networks</article-title>
+          <source>Proceedings of the Bernstein Conference</source>
+          <conf-loc>Heidelberg, Germany</conf-loc>
+          <conf-date>14&#x2013;17 September 2015</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B30-algorithms-13-00014">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Champandard</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Semantic Style Transfer and Turning Two-Bit Doodles into Fine Artworks</article-title>
+          <source>arXiv</source>
+          <year>2016</year>
+          <pub-id pub-id-type="arxiv">1603.01768</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-algorithms-13-00014">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ulyanov</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lebedev</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Vedaldi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lempitsky</surname>
+              <given-names>V.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Texture networks: Feed-forward synthesis of textures and stylized images</article-title>
+          <source>Int. Conf. Mach. Learn.</source>
+          <year>2016</year>
+          <volume>1</volume>
+          <fpage>4</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B32-algorithms-13-00014">
+        <label>32.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Alahi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fei-Fei</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Perceptual losses for real-time style transfer and super-resolution</article-title>
+          <source>European Conference on Computer Vision</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>Cham, Switzerland</publisher-loc>
+          <year>2016</year>
+          <fpage>694</fpage>
+          <lpage>711</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B33-algorithms-13-00014">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mirza</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Osindero</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Conditional generative adversarial nets</article-title>
+          <source>Comput. Sci.</source>
+          <year>2014</year>
+          <volume>21</volume>
+          <fpage>2672</fpage>
+          <lpage>2680</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B34-algorithms-13-00014">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Radford</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Metz</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chintala</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks</article-title>
+          <source>arXiv</source>
+          <year>2015</year>
+          <pub-id pub-id-type="arxiv">1511.06434</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-algorithms-13-00014">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arjovsky</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chintala</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bottou</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Wasserstein GAN</article-title>
+          <source>arXiv</source>
+          <year>2017</year>
+          <pub-id pub-id-type="arxiv">1701.07875</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="algorithms-13-00014-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>(<bold>a</bold>) A corrupted image to be completed; (<bold>b</bold>) The result of Iizuka&#x2019;s method; (<bold>c</bold>) The result of our method.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g001.tif"/>
+      </fig>
+      <fig id="algorithms-13-00014-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>(<bold>a</bold>) Iizuka&#x2019;s method; (<bold>b</bold>) Our method. <inline-formula><mml:math display="block" id="mm19"><mml:semantics><mml:mi>x</mml:mi></mml:semantics></mml:math></inline-formula> denotes the input image, <inline-formula><mml:math display="block" id="mm20"><mml:semantics><mml:mi>d</mml:mi></mml:semantics></mml:math></inline-formula> denotes the image block centered on the missing area in the image, <inline-formula><mml:math display="block" id="mm21"><mml:semantics><mml:mi>c</mml:mi></mml:semantics></mml:math></inline-formula> denotes the missing area, and <inline-formula><mml:math display="block" id="mm22"><mml:semantics><mml:mrow><mml:msup><mml:mi>d</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the image block located at the center of the missing area and having a size of 1/4 of the missing area.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g002.tif"/>
+      </fig>
+      <fig id="algorithms-13-00014-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Overview of the network architecture we used.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g003.tif"/>
+      </fig>
+      <fig id="algorithms-13-00014-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>The result of Iizuka&#x2019;s (<bold>b</bold>) method and ours (<bold>c</bold>). (<bold>a</bold>) Input.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g004a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g004b.tif"/>
+      </fig>
+      <fig id="algorithms-13-00014-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>The MSE result pairs of our method and Iizuka&#x2019;s method on images of <xref ref-type="fig" rid="algorithms-13-00014-f004">Figure 4</xref>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g005.tif"/>
+      </fig>
+      <fig id="algorithms-13-00014-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>The SSIM result pairs of our method and Iizuka&#x2019;s method on images of <xref ref-type="fig" rid="algorithms-13-00014-f004">Figure 4</xref>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g006.tif"/>
+      </fig>
+      <fig id="algorithms-13-00014-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>The losses graph of the Iizuka&#x2019;s network structure.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g007.tif"/>
+      </fig>
+      <fig id="algorithms-13-00014-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>The losses graph of this method&#x2019;s network structure.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g008.tif"/>
+      </fig>
+      <fig id="algorithms-13-00014-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>The results comparison of Iizuka&#x2019;s method and ours with barbed wire images.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g009.tif"/>
+      </fig>
+      <fig id="algorithms-13-00014-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>The results comparison of Iizuka&#x2019;s method and ours with Places2 dataset.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g010a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="algorithms-13-00014-g010b.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

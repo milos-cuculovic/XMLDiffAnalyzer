@@ -1,0 +1,2253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">jcm</journal-id>
+      <journal-title-group>
+        <journal-title>Journal of Clinical Medicine</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">J. Clin. Med.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Journal of Clinical Medicine</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2077-0383</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/jcm9010116</article-id>
+      <article-id pub-id-type="publisher-id">jcm-09-00116</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Growth Differentiation Factor-8 (GDF8)/Myostatin Is a Predictor of Troponin I Peak and a Marker of Clinical Severity after Acute Myocardial Infarction</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Meloux</surname>
+            <given-names>Alexandre</given-names>
+          </name>
+          <xref rid="af1-jcm-09-00116" ref-type="aff">1</xref>
+          <xref rid="af2-jcm-09-00116" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rochette</surname>
+            <given-names>Luc</given-names>
+          </name>
+          <xref rid="af1-jcm-09-00116" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1289-9370</contrib-id>
+          <name>
+            <surname>Maza</surname>
+            <given-names>Maud</given-names>
+          </name>
+          <xref rid="af1-jcm-09-00116" ref-type="aff">1</xref>
+          <xref rid="af2-jcm-09-00116" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bichat</surname>
+            <given-names>Florence</given-names>
+          </name>
+          <xref rid="af1-jcm-09-00116" ref-type="aff">1</xref>
+          <xref rid="af2-jcm-09-00116" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tribouillard</surname>
+            <given-names>Laura</given-names>
+          </name>
+          <xref rid="af2-jcm-09-00116" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cottin</surname>
+            <given-names>Yves</given-names>
+          </name>
+          <xref rid="af1-jcm-09-00116" ref-type="aff">1</xref>
+          <xref rid="af2-jcm-09-00116" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-5763-4579</contrib-id>
+          <name>
+            <surname>Zeller</surname>
+            <given-names>Marianne</given-names>
+          </name>
+          <xref rid="af1-jcm-09-00116" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4009-776X</contrib-id>
+          <name>
+            <surname>Vergely</surname>
+            <given-names>Catherine</given-names>
+          </name>
+          <xref rid="af1-jcm-09-00116" ref-type="aff">1</xref>
+          <xref rid="c1-jcm-09-00116" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-jcm-09-00116"><label>1</label>Laboratoire Physiopathologie et Epid&#xE9;miologie C&#xE9;r&#xE9;bro-Cardiovasculaires (PEC2, EA 7460), Universit&#xE9; de Bourgogne-Franche-Comt&#xE9;, UFR des Sciences de Sant&#xE9;; 7 Bd Jeanne d&#x2019;Arc, 21000 Dijon, France; <email>alexandre.meloux@u-bourgogne.fr</email> (A.M.); <email>luc.rochette@u-bourgogne.fr</email> (L.R.); <email>maud.maza@chu-dijon.fr</email> (M.M.); <email>florence.bichat@chu-dijon.fr</email> (F.B.); <email>yves.cottin@chu-dijon.fr</email> (Y.C.); <email>marianne.zeller@u-bourgogne.fr</email> (M.Z.)</aff>
+      <aff id="af2-jcm-09-00116"><label>2</label>Department of Cardiology, University Hospital of Dijon, 21000 Dijon, France; <email>laura.tribouillard@chu-dijon.fr</email></aff>
+      <author-notes>
+        <corresp id="c1-jcm-09-00116"><label>*</label>Correspondence: <email>cvergely@u-bourgogne.fr</email>; Tel.: +33-3803-93292; Fax: +33-3803-93293</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>1</issue>
+      <elocation-id>116</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>06</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Objective: Growth differentiation factor-8 (GDF8), also known as myostatin, is a member of the transforming growth factor-&#x3B2; superfamily that inhibits skeletal muscle growth. We aimed to investigate the association between GDF8 and peak troponin I levels after acute myocardial infarction (AMI). Methods: All consecutive patients admitted from June 2016 to February 2018 for type 1 AMI in the Coronary Care Unit of University Hospital of Dijon Bourgogne (France) were included in our prospective study. Blood samples were harvested on admission, and serum levels of GDF8 were measured using a commercially available enzyme-linked immunosorbent assay kit. Results: Among the 296 patients with type 1 AMI, median age was 68 years and 27% were women. GDF8 levels (median (IQR) = 2375 ng/L) were negatively correlated with age, sex and diabetes (<italic>p</italic> &lt; 0.001 for all). GDF8 levels were higher in patients with in-hospital ventricular tachycardia or fibrillation (VT/VF) than those without in-hospital VT/VF. GDF8 was positively correlated with troponin I peak (r = 0.247; <italic>p</italic> &lt; 0.001). In multivariate linear regression analysis, log GDF8 (OR: 21.59; 95% CI 34.08&#x2013;119.05; <italic>p</italic> &lt; 0.001) was an independent predictor of troponin I peak. Conclusions: These results suggest that GDF8 levels could reflect the extent of myocardial damage during AMI, similar to peak troponin I, which is currently used to estimate infarct size. Further studies are needed to elucidate the underlying mechanisms linking the GDF8 cytokine with troponin I levels.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>GDF8</kwd>
+        <kwd>myostatin</kwd>
+        <kwd>AMI</kwd>
+        <kwd>troponin</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-jcm-09-00116" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Patients with acute myocardial infarction (AMI) have a high rate of mortality, and the risk of fatal events is highest in the first hours following onset. The severity of AMI, which is usually determined early on with the measurement of circulating troponins, has a major impact on the development of late AMI consequences such as heart failure. Therefore, precise and rapid assessment of the severity of AMI critically affects treatment choices and patient prognoses. Recently, there has been interest in the potential role of new biomarkers for the assessment of severity in the early stages of AMI, with a particular focus on NT-pro-natriuretic peptide (NT-proBNP), heart-type fatty acid binding protein (hFABP) and circulating cytokines such as growth differentiation factor-15 [<xref ref-type="bibr" rid="B1-jcm-09-00116">1</xref>].</p>
+      <p>Growth differentiation factor-8 (GDF8), also known as myostatin, is a member of the transforming growth factor-&#x3B2; (TGF-&#x3B2;) superfamily. GDF8 shares many structural similarities with other members such as growth differentiation factor-11 [<xref ref-type="bibr" rid="B2-jcm-09-00116">2</xref>,<xref ref-type="bibr" rid="B3-jcm-09-00116">3</xref>]. GDF8 is mainly expressed in skeletal muscles, particularly during the development period but also in adulthood, and is considered a negative regulator of muscle growth [<xref ref-type="bibr" rid="B4-jcm-09-00116">4</xref>]. Genetic inhibition of myostatin leads to an increase in skeletal muscle mass and triggers a hyper-muscular phenotype in mammals [<xref ref-type="bibr" rid="B5-jcm-09-00116">5</xref>,<xref ref-type="bibr" rid="B6-jcm-09-00116">6</xref>]. In the heart muscle, GDF8 is expressed in fetal and adult myocardium [<xref ref-type="bibr" rid="B7-jcm-09-00116">7</xref>], and its expression is increased in cardiac diseases such as advanced heart failure [<xref ref-type="bibr" rid="B8-jcm-09-00116">8</xref>] or congenital heart disease [<xref ref-type="bibr" rid="B9-jcm-09-00116">9</xref>]. Following experimental myocardial infarction, GDF8 is up-regulated in cardiomyocytes surrounding the infarcted area [<xref ref-type="bibr" rid="B7-jcm-09-00116">7</xref>] and its concentration rapidly increases in the circulation [<xref ref-type="bibr" rid="B10-jcm-09-00116">10</xref>]. However, the role of GDF8 during the acute phase of AMI in humans is poorly understood.</p>
+      <p>The aim of our study was to evaluate GDF8/myostatin levels in patients admitted for AMI, and to investigate the associations between GDF8 and markers of AMI severity such as troponin.</p>
+    </sec>
+    <sec id="sec2-jcm-09-00116" sec-type="methods">
+      <title>2. Methods</title>
+      <sec id="sec2dot1-jcm-09-00116" sec-type="subjects">
+        <title>2.1. Patients</title>
+        <p>The methods and design of the French Regional Observatoire des Infarctus de C&#xF4;te-d&#x2019;Or (RICO) survey have been previously described [<xref ref-type="bibr" rid="B11-jcm-09-00116">11</xref>]. From June 2016 to February 2018, all consecutive patients admitted to the coronary care unit of the Dijon University Hospital (France) for type 1 AMI were prospectively included. Type 1 MI is defined as an acute atherothrombotic coronary event resulting in the formation of an intra-luminal thrombus (plaque rupture, ulceration, erosion or coronary dissection) [<xref ref-type="bibr" rid="B12-jcm-09-00116">12</xref>]. The present study is in agreement with the ethical guidelines of the Declaration of Helsinki. All of the participants provided consent prior to inclusion, and the Ethics Committee of the University Hospital of Dijon approved the protocol (BIOCARDIS-2016&#x2013;9205AAO034S02117).</p>
+      </sec>
+      <sec id="sec2dot2-jcm-09-00116">
+        <title>2.2. Data Collection</title>
+        <p>Patient characteristics were obtained at hospital admission. These included cardiovascular risk factors and history, and clinical and biological data. Risk scores were calculated (GRACE score and SYNTAX score). Blood samples were collected on admission to measure serum C-reactive protein (CRP), creatinine, creatine kinase peak, troponin Ic peak, NT-proBNP, blood lipids, glucose and hemoglobin. eGFR was calculated using Chronic Kidney Disease-EPIdemiology Collaboration formula (CKD-EPI). Echocardiographic data such as left ventricular ejection fraction (LVEF) were recorded. Finally, in-hospital events were documented, including death, cardiovascular death, re-infarction, stroke, development of heart failure and ventricular tachycardia or fibrillation (VT/VF).</p>
+      </sec>
+      <sec id="sec2dot3-jcm-09-00116">
+        <title>2.3. Determination of Serum GDF8</title>
+        <p>Blood samples were collected on admission from a vein in the arm, centrifuged at 4 &#xB0;C to isolate the serum, and samples were stored at &#x2212;80 &#xB0;C until use. Median (IQR) time from symptom onset to blood sampling was 16(8&#x2013;30) hours. Serum GDF8 was measured in duplicate using a commercially available Quantitine kit (DGDF80, R&amp;D systems, MN). The minimum detectable concentration was 2.25 ng/L, and the coefficient of variation between duplicates did not exceed 10%.</p>
+      </sec>
+      <sec id="sec2dot4-jcm-09-00116">
+        <title>2.4. Statistical Analysis</title>
+        <p>Dichotomous variables are expressed as <italic>n</italic> (%) and continuous variables as mean &#xB1; SD or median (interquartile range). A Kolmogorov&#x2013;Smirnov test was performed to test the normality of continuous variables. For non-normally distributed variables (i.e., NT-proBNP), they were log transformed. The Mann-Whitney test or Student&#x2019;s <italic>t</italic> test was used to compare continuous data, and the Chi 2 test or Fisher&#x2019;s test was used for dichotomous data, as appropriate.</p>
+        <p>Pearson correlation analyses (for normally distributed variables) or Spearman correlation analyses (one or two non-Gaussian variables) were performed. The threshold for significance was set at 5%.</p>
+        <p>Bivariate linear regression analyses were used to adjust GDF8 with age.</p>
+        <p>Multivariate logistic regression models were built to estimate in-hospital VT/VF and troponin Ic peak based on significant variables in univariate analysis. The inclusion threshold was set at 5%.</p>
+        <p>SPSS version 12.0.1 (IBM Inc, Armonk, NY, USA) was used for all of the statistical tests.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-jcm-09-00116" sec-type="results">
+      <title>3. Results</title>
+      <p>The baseline characteristics of the study population are shown in <xref ref-type="table" rid="jcm-09-00116-t001">Table 1</xref>. Predictors of GDF8 are shown in <xref ref-type="table" rid="jcm-09-00116-t002">Table 2</xref>. GDF8 levels were significantly associated with age, sex and diabetes. Clinical data showed an association with systolic and diastolic blood pressure, STEMI, heart failure and GRACE risk score. Moreover, GDF8 was strongly correlated with CRP, creatine kinase peak, troponin Ic peak, NT-proBNP and LDL-cholesterol, as well as creatinine clearance and acute statin medication.</p>
+      <sec id="sec3dot1-jcm-09-00116">
+        <title>3.1. Baseline Characteristics</title>
+        <p>Among the 296 included patients, eighty-one (27%) were female. The median age was 68 years, 178 (60%) had hypertension, 117 (40%) had hypercholesterolemia, 75 (25%) had diabetes and 85 (29%) are active smokers. Median GDF8 was 2375 (1640&#x2013;3347) ng/L.</p>
+      </sec>
+      <sec id="sec3dot2-jcm-09-00116">
+        <title>3.2. Associations between GDF8 Levels and in-Hospital Development of Ventricular Tachycardia or Fibrillation</title>
+        <p>Ten patients (3%) developed VT/VF during their hospital stay. GDF8 levels were higher in these patients than in those who did not experience VT/VF (2565 &#xB1; 75 vs. 3852 &#xB1; 642 ng/L, <italic>p</italic> = 0.034, <xref ref-type="fig" rid="jcm-09-00116-f001">Figure 1</xref>). To assess VT/VF risk, a GDF8 cut-off value of 2878 ng/L was established with a receiver operating characteristic (ROC) curve analysis. The value was rounded to 2800 ng/L to improve clinical relevance. The area under the curve (AUC) was 0.697 (<italic>p</italic> = 0.034) and the sensitivity and specificity were good (70% and 66%, respectively). Among patients with GDF8 &gt; 2800 ng/L (112/296), the risk of developing in-hospital VT/VF was higher than in patients with GDF8 &lt; 2800 ng/L (184/296) (<italic>p</italic> = 0.046). The other relevant biomarkers (CK and peak troponin Ic) showed similar associations with the outcome (VT/VF): the respective AUC were 0.717 (<italic>p</italic> = 0.027) and 0.698 (<italic>p</italic> = 0.034), and the cut-off values were 400.5 UI/L and 7.6 ng/mL. Sensitivity and specificity were respectively 100% and 44% for CK and 100% and 43% for peak troponin IC. Both CK and troponin Ic were significantly associated with VT/VF in logistic regression analysis (CK peak: OR (95% CI): 6.034 (1.684&#x2013;21.621) and troponin Ic peak: OR (95% CI): 2.751 (1.079&#x2013;7.019)).</p>
+      </sec>
+      <sec id="sec3dot3-jcm-09-00116">
+        <title>3.3. Associations between GDF8 Levels and Peak Troponin Ic</title>
+        <p>GDF8 was correlated with peak troponin Ic (r = 0.247; <italic>p</italic> &lt;0.001). Patients with high (i.e., supramedian) GDF8 levels had a trend toward an increased risk of TV/FV compared with patients who had lower (i.e., inframedian) GDF8 levels (4.8% vs. 2%). Moreover, the troponin peak was much higher (X3) in patients with a supramedian GDF8 level, as shown in <xref ref-type="table" rid="jcm-09-00116-t003">Table 3</xref>. In univariate analysis, diabetes (OR 11.82, 95% CI &#x2212;3.49&#x2013;43.03; <italic>p</italic> = 0.095), smoking (OR 11.34, 95% CI 0.78&#x2013;45.40; <italic>p</italic> = 0.043), left ventricular ejection fraction &lt;40% (OR 19.53, 95% CI 10.88&#x2013;87.76; <italic>p</italic> = 0.012), GRACE risk score (OR 0.16, 95% CI 0.16&#x2013;0.76; <italic>p</italic> = 0.003), and time to admission (OR 0.01, 95% CI &#x2212;0.02&#x2013;0.001; <italic>p</italic> = 0.065) and log GDF8 (OR 21.59, 95% CI 34.08&#x2013;119.05; <italic>p</italic> &lt;0.001) were associated with the prediction of troponin Ic peak. In multivariable analysis, log GDF8 remained associated to the prediction of troponin Ic peak, after adjustment for confounding factors (<xref ref-type="table" rid="jcm-09-00116-t004">Table 4</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="sec4-jcm-09-00116" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>In our study, GDF8 levels were shown to be negatively associated with older age, and positively with female sex; these results corroborate existing clinical data. For instance, previous studies have shown that GDF8 levels were highest in men in their 20s and statistically declined throughout subsequent decades [<xref ref-type="bibr" rid="B13-jcm-09-00116">13</xref>]. Indeed, in men, serum GDF8 increases slightly with age until 57 years and then decreases [<xref ref-type="bibr" rid="B14-jcm-09-00116">14</xref>]. In both the &#x201C;Heart and Soul&#x201D; and the HUNT3 cohorts, GDF11/8 levels were lower in older participants [<xref ref-type="bibr" rid="B15-jcm-09-00116">15</xref>]. In patients aged 60 years and older, a recent study has shown that women had higher GDF8 plasma levels than men and that the circulating plasma GDF8 was negatively associated with muscle function [<xref ref-type="bibr" rid="B16-jcm-09-00116">16</xref>].</p>
+      <p>In the present work, we also observed correlations between GDF8 levels and traditional cardiovascular risk factors such as diabetes, increased systolic and diastolic blood pressure, increased LDL cholesterol and CRP. The role of GDF8 in regulating tissue glucose uptake has been documented both in experimental [<xref ref-type="bibr" rid="B17-jcm-09-00116">17</xref>] and clinical studies [<xref ref-type="bibr" rid="B18-jcm-09-00116">18</xref>,<xref ref-type="bibr" rid="B19-jcm-09-00116">19</xref>]. Blocked GDF8 expression in mice resulted in increased insulin signaling and better insulin sensitivity in skeletal muscle [<xref ref-type="bibr" rid="B20-jcm-09-00116">20</xref>]. Therefore, in patients with insulin resistance, GDF8 inactivation is a potential target for the prevention of risk factors associated with the development of ischemic cardiovascular diseases. The clinical data are sparse for hypertension, cholesterol levels and CRP, but one experimental study has demonstrated that GDF8 deletion in a mouse model of metabolic syndrome resulted in increased muscle mass and prevented an increase in blood pressure [<xref ref-type="bibr" rid="B21-jcm-09-00116">21</xref>]. Inactivation of GDF8 in in <italic>Ldlr-/-</italic> mice was shown to protect against the development of insulin resistance, proatherogenic dyslipidemia and aortic atherogenesis [<xref ref-type="bibr" rid="B22-jcm-09-00116">22</xref>].</p>
+      <p>The main findings of the present study involve the association of GDF8 with the markers of AMI severity such as ST-elevation myocardial infarction (STEMI), occurrence of complicating heart failure, GRACE risk score, CK peak, NT-proBNP, and troponin levels. In multivariable analysis, log GDF8 was associated with the prediction of troponin I peak, even after adjustment for age. Moreover, among patients with the highest GDF8 levels (&gt;2800 ng/L), the risk of developing in-hospital VT/VF was higher. To our knowledge, this is the first time that GDF8 has been associated with clinical severity in the acute phase of MI. Previous studies in sheep found that GDF8 was expressed in the fetal and adult heart and was localized in the cardiomyocytes and Purkinje fibers [<xref ref-type="bibr" rid="B7-jcm-09-00116">7</xref>]. Furthermore, after experimental myocardial infarction, GDF8 expression was upregulated in the cardiomyocytes surrounding the infarcted zone. Studies performed in mice have shown that GDF8 was upregulated in the heart as early as 10 min after coronary artery ligation, reaching peak expression in tissue between 24 h and 1 month following the acute event. In the serum of the mice, GDF8 levels also promptly and steadily increased [<xref ref-type="bibr" rid="B10-jcm-09-00116">10</xref>]. Indeed, elevated circulating levels of GDF8 have been observed in several types of serious myocardial diseases such as anthracycline-induced cardiotoxicity [<xref ref-type="bibr" rid="B23-jcm-09-00116">23</xref>] and in experimental [<xref ref-type="bibr" rid="B24-jcm-09-00116">24</xref>,<xref ref-type="bibr" rid="B25-jcm-09-00116">25</xref>,<xref ref-type="bibr" rid="B26-jcm-09-00116">26</xref>] and clinical heart failure [<xref ref-type="bibr" rid="B8-jcm-09-00116">8</xref>,<xref ref-type="bibr" rid="B9-jcm-09-00116">9</xref>,<xref ref-type="bibr" rid="B27-jcm-09-00116">27</xref>]. In particular, serum GDF8 levels were shown to have predictive value for the severity of chronic heart failure and to be a predictor of adverse prognosis in these patients [<xref ref-type="bibr" rid="B27-jcm-09-00116">27</xref>]. In myocardial infarction, both the destruction of the cardiac tissue and the up-regulation of its expression may account for the elevated levels found in serum. Consequently, it has been suggested that the heart could function as an endocrine organ promoting skeletal or myocardial muscle wasting, inducing cardiac muscle weakness [<xref ref-type="bibr" rid="B25-jcm-09-00116">25</xref>]. In fact, the absence of GDF8 in GDF8-deficient mice subjected to myocardial infarction seemed to protect the heart, possibly by limiting the extent of fibrosis and improving survival [<xref ref-type="bibr" rid="B28-jcm-09-00116">28</xref>]. We suggest here that during the course of AMI, GDF8 is produced and released by the cardiac tissue proportionally to the severity of the ischemia. GDF levels may therefore be strongly associated with peak troponin, but also with the occurrence of complications such as heart failure or ventricular arrhythmias. Of course, the estimation of myocardial damage is complex and might not be only reflected by one circulating factor such as GDF8 and/or troponin peak. Hemodynamic measurements, expansion index, and other exams as such as magnetic resonance imaging are necessary to quantify the extent of the infarct, the myocardial tissue loss and fibrosis after AMI [<xref ref-type="bibr" rid="B29-jcm-09-00116">29</xref>,<xref ref-type="bibr" rid="B30-jcm-09-00116">30</xref>]. Further studies should be conducted to evaluate whether GDF8 could be a predictor of poor outcomes after AMI, in particular those related to skeletal or myocardial muscle wasting.</p>
+    </sec>
+    <sec id="sec5-jcm-09-00116">
+      <title>5. Study Limitations</title>
+      <p>The first limitation of our study is the small number of patients who developed VT/VF (<italic>n</italic> = 10), limiting statistical power. The second limitation is the monocentric nature of the study with a subsequent selection bias. However, the strong association between GDF8 and the prediction of troponin I peak was supported by results of univariate regression analysis (<italic>p</italic> &lt; 0.001) and the enduring significance after adjustment for determinants (<italic>p</italic> &lt; 0.001). In future, these preliminary results need to be confirmed in larger studies.</p>
+    </sec>
+    <sec id="sec6-jcm-09-00116" sec-type="conclusions">
+      <title>6. Conclusions</title>
+      <p>To conclude, our original results suggest that GDF8 levels could reflect the extent of myocardial damage during AMI, similar to peak troponin I, which is currently used to estimate infarct size. Further studies are needed to elucidate the underlying mechanisms linking the GDF8 cytokine with troponin I levels.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, C.V., L.R. and M.Z.; Methodology, C.V. and M.Z.; Validation, M.Z.; Formal analysis, A.M. and M.M.; Investigation, Y.C., A.M., F.B. and L.T.; Resources, L.T. and F.B.; Writing&#x2014;original draft preparation, A.M., C.V., L.R. and M.Z.; writing&#x2014;review and editing, C.V., L.R. and M.Z.; Supervision, C.V.; Project administration, C.V.; Funding acquisition, C.V., M.Z. and Y.C. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was supported by the Dijon University Hospital, the French Federation of Cardiology, the Association de Cardiology de Bourgogne, and by grants from the Agence R&#xE9;gionale de Sant&#xE9; (ARS) de Bourgogne-Franche-Comt&#xE9; and from the Regional Council of Burgundy-Franche-Comt&#xE9;.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors thank Suzanne Rankin for English revision of the manuscript, Ivan Porcherot and Morgane Laine for providing technical assistance.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-jcm-09-00116">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wollert</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Kempf</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wallentin</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Growth Differentiation Factor 15 as a Biomarker in Cardiovascular Disease</article-title>
+          <source>Clin Chem.</source>
+          <year>2017</year>
+          <volume>63</volume>
+          <fpage>140</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="doi">10.1373/clinchem.2016.255174</pub-id>
+          <pub-id pub-id-type="pmid">28062617</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-jcm-09-00116">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Poggioli</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Katsimpardi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Buchanan</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Oh</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wattrus</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Heidecker</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fong</surname>
+              <given-names>Y.W.</given-names>
+            </name>
+            <name>
+              <surname>Rubin</surname>
+              <given-names>L.L.</given-names>
+            </name>
+            <name>
+              <surname>Ganz</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Biochemistry and Biology of GDF11 and Myostatin: Similarities, Differences, and Questions for Future Investigation</article-title>
+          <source>Circ. Res.</source>
+          <year>2016</year>
+          <volume>118</volume>
+          <fpage>1125</fpage>
+          <lpage>1141</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.116.308391</pub-id>
+          <pub-id pub-id-type="pmid">27034275</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-jcm-09-00116">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rochette</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zeller</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cottin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Vergely</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Growth and differentiation factor 11 (GDF11): Functions in the regulation of erythropoiesis and cardiac regeneration</article-title>
+          <source>Pharmacol. Ther.</source>
+          <year>2015</year>
+          <volume>156</volume>
+          <fpage>26</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.pharmthera.2015.10.006</pub-id>
+          <pub-id pub-id-type="pmid">26523637</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-jcm-09-00116">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Argiles</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Orpi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Busquets</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lopez-Soriano</surname>
+              <given-names>F.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myostatin: More than just a regulator of muscle mass</article-title>
+          <source>Drug Discov. Today</source>
+          <year>2012</year>
+          <volume>17</volume>
+          <fpage>702</fpage>
+          <lpage>709</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.drudis.2012.02.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-jcm-09-00116">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McPherron</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Double muscling in cattle due to mutations in the myostatin gene</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1997</year>
+          <volume>94</volume>
+          <fpage>12457</fpage>
+          <lpage>12461</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.94.23.12457</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-jcm-09-00116">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mosher</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Quignon</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bustamante</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Sutter</surname>
+              <given-names>N.B.</given-names>
+            </name>
+            <name>
+              <surname>Mellersh</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Parker</surname>
+              <given-names>H.G.</given-names>
+            </name>
+            <name>
+              <surname>Ostrander</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>A mutation in the myostatin gene increases muscle mass and enhances racing performance in heterozygote dogs</article-title>
+          <source>PLoS Genet.</source>
+          <year>2007</year>
+          <volume>3</volume>
+          <elocation-id>e79</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.0030079</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-jcm-09-00116">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharma</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kambadur</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Matthews</surname>
+              <given-names>K.G.</given-names>
+            </name>
+            <name>
+              <surname>Somers</surname>
+              <given-names>W.G.</given-names>
+            </name>
+            <name>
+              <surname>Devlin</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Conaglen</surname>
+              <given-names>J.V.</given-names>
+            </name>
+            <name>
+              <surname>Fowke</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Bass</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myostatin, a transforming growth factor-beta superfamily member, is expressed in heart muscle and is upregulated in cardiomyocytes after infarct</article-title>
+          <source>J. Cell Physiol.</source>
+          <year>1999</year>
+          <volume>180</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1097-4652(199907)180:1&lt;1::AID-JCP1&gt;3.0.CO;2-V</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-jcm-09-00116">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>George</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Bish</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>Kamalakkannan</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Petrilli</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Oz</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Naka</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lee Sweeney</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Maybaum</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myostatin activation in patients with advanced heart failure and after mechanical unloading</article-title>
+          <source>Eur. J. Heart Fail.</source>
+          <year>2010</year>
+          <volume>12</volume>
+          <fpage>444</fpage>
+          <lpage>453</lpage>
+          <pub-id pub-id-type="doi">10.1093/eurjhf/hfq039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-jcm-09-00116">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bish</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>George</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Maybaum</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Sweeney</surname>
+              <given-names>H.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myostatin is elevated in congenital heart disease and after mechanical unloading</article-title>
+          <source>PLoS ONE</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <elocation-id>e23818</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0023818</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-jcm-09-00116">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Castillero</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Akashi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Najjar</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ji</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kennel</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Sweeney</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Schulze</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>George</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cardiac myostatin upregulation occurs immediately after myocardial ischemia and is involved in skeletal muscle activation of atrophy</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2015</year>
+          <volume>457</volume>
+          <fpage>106</fpage>
+          <lpage>111</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2014.12.057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-jcm-09-00116">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zeller</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Steg</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Ravisy</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lorgis</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Laurent</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sicard</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Janin-Manificat</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Beer</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Makki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lagrost</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Relation between body mass index, waist circumference, and death after acute myocardial infarction</article-title>
+          <source>Circulation</source>
+          <year>2008</year>
+          <volume>118</volume>
+          <fpage>482</fpage>
+          <lpage>490</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.107.753483</pub-id>
+          <pub-id pub-id-type="pmid">18625893</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-jcm-09-00116">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thygesen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Alpert</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Jaffe</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Simoons</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Chaitman</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>H.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Third universal definition of myocardial infarction</article-title>
+          <source>Circulation</source>
+          <year>2012</year>
+          <volume>126</volume>
+          <fpage>2020</fpage>
+          <lpage>2035</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIR.0b013e31826e1058</pub-id>
+          <pub-id pub-id-type="pmid">22923432</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-jcm-09-00116">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schafer</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Vanderboom</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Kotajarvi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Bruce</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Greason</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Suri</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Khosla</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Quantification of GDF11 and Myostatin in Human Aging and Cardiovascular Disease</article-title>
+          <source>Cell Metab.</source>
+          <year>2016</year>
+          <volume>23</volume>
+          <fpage>1207</fpage>
+          <lpage>1215</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2016.05.023</pub-id>
+          <pub-id pub-id-type="pmid">27304512</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-jcm-09-00116">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szulc</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Schoppet</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Goettsch</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Rauner</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dschietzig</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Chapurlat</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hofbauer</surname>
+              <given-names>L.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endocrine and clinical correlates of myostatin serum concentration in men--the STRAMBO study</article-title>
+          <source>J. Clin. Endocrinol. Metab.</source>
+          <year>2012</year>
+          <volume>97</volume>
+          <fpage>3700</fpage>
+          <lpage>3708</lpage>
+          <pub-id pub-id-type="doi">10.1210/jc.2012-1273</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-jcm-09-00116">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olson</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Beatty</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Heidecker</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Regan</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Brody</surname>
+              <given-names>E.N.</given-names>
+            </name>
+            <name>
+              <surname>Foreman</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mehler</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Singer</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Hveem</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Association of growth differentiation factor 11/8, putative anti-ageing factor, with cardiovascular outcomes and overall mortality in humans: Analysis of the Heart and Soul and HUNT3 cohorts</article-title>
+          <source>Eur. Heart J.</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>3426</fpage>
+          <lpage>3434</lpage>
+          <pub-id pub-id-type="doi">10.1093/eurheartj/ehv385</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-jcm-09-00116">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fife</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kostka</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kroc</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Guligowska</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Piglowska</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Soltysik</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kaufman-Szymczyk</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fabianowska-Majewska</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kostka</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Relationship of muscle function to circulating myostatin, follistatin and GDF11 in older women and men</article-title>
+          <source>BMC Geriatr.</source>
+          <year>2018</year>
+          <volume>18</volume>
+          <elocation-id>200</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/s12877-018-0888-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-jcm-09-00116">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wall</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transgenic expression of myostatin propeptide prevents diet-induced obesity and insulin resistance</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2005</year>
+          <volume>337</volume>
+          <fpage>248</fpage>
+          <lpage>255</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2005.09.044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-jcm-09-00116">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brandt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Nielsen</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>C.P.</given-names>
+            </name>
+            <name>
+              <surname>Hansen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Plomgaard</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plasma and muscle myostatin in relation to type 2 diabetes</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <elocation-id>e37236</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0037236</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-jcm-09-00116">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hittel</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Berggren</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Shearer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Boyle</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Houmard</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased secretion and expression of myostatin in skeletal muscle from extremely obese women</article-title>
+          <source>Diabetes</source>
+          <year>2009</year>
+          <volume>58</volume>
+          <fpage>30</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="doi">10.2337/db08-0943</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-jcm-09-00116">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>McFarlane</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lokireddy</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bonala</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Masuda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gluckman</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kambadur</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myostatin-deficient mice exhibit reduced insulin resistance through activating the AMP-activated protein kinase signalling pathway</article-title>
+          <source>Diabetologia</source>
+          <year>2011</year>
+          <volume>54</volume>
+          <fpage>1491</fpage>
+          <lpage>1501</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00125-011-2079-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-jcm-09-00116">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Butcher</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Mintz</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Larion</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ruan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Fulton</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Stepp</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased Muscle Mass Protects Against Hypertension and Renal Injury in Obesity</article-title>
+          <source>J. Am. Heart Assoc.</source>
+          <year>2018</year>
+          <volume>7</volume>
+          <fpage>e009358</fpage>
+          <pub-id pub-id-type="doi">10.1161/JAHA.118.009358</pub-id>
+          <pub-id pub-id-type="pmid">30369309</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-jcm-09-00116">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bhasin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hruz</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <name>
+              <surname>Herbst</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Castellani</surname>
+              <given-names>L.W.</given-names>
+            </name>
+            <name>
+              <surname>Hua</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hamilton</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic disruption of myostatin reduces the development of proatherogenic dyslipidemia and atherogenic lesions in Ldlr null mice</article-title>
+          <source>Diabetes</source>
+          <year>2009</year>
+          <volume>58</volume>
+          <fpage>1739</fpage>
+          <lpage>1748</lpage>
+          <pub-id pub-id-type="doi">10.2337/db09-0349</pub-id>
+          <pub-id pub-id-type="pmid">19509018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-jcm-09-00116">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kesik</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Honca</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gulgun</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Uysal</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kurt</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+            <name>
+              <surname>Cayci</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Babacan</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Gocgeldi</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Korkmazer</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myostatin as a Marker for Doxorubicin Induced Cardiac Damage</article-title>
+          <source>Ann. Clin. Lab. Sci.</source>
+          <year>2016</year>
+          <volume>46</volume>
+          <fpage>26</fpage>
+          <lpage>31</lpage>
+          <pub-id pub-id-type="pmid">26927339</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-jcm-09-00116">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biesemann</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Mendler</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wietelmann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hermann</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schafers</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kruger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Boettger</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Borchardt</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Braun</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myostatin regulates energy homeostasis in the heart and prevents heart failure</article-title>
+          <source>Circ. Res.</source>
+          <year>2014</year>
+          <volume>115</volume>
+          <fpage>296</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.115.304185</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-jcm-09-00116">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heineke</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Auger-Messier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sargent</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>York</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Welle</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Molkentin</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic deletion of myostatin from the heart prevents skeletal muscle atrophy in heart failure</article-title>
+          <source>Circulation</source>
+          <year>2010</year>
+          <volume>121</volume>
+          <fpage>419</fpage>
+          <lpage>425</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.109.882068</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-jcm-09-00116">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Damatto</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Lima</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Martinez</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>Cezar</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Okoshi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Okoshi</surname>
+              <given-names>M.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myocardial myostatin in spontaneously hypertensive rats with heart failure</article-title>
+          <source>Int. J. Cardiol.</source>
+          <year>2016</year>
+          <volume>215</volume>
+          <fpage>384</fpage>
+          <lpage>387</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijcard.2016.04.101</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-jcm-09-00116">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Predictive value of serum myostatin for the severity and clinical outcome of heart failure</article-title>
+          <source>Eur. J. Intern. Med.</source>
+          <year>2019</year>
+          <volume>64</volume>
+          <fpage>33</fpage>
+          <lpage>40</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ejim.2019.04.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-jcm-09-00116">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lim</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>McMahon</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Matthews</surname>
+              <given-names>K.G.</given-names>
+            </name>
+            <name>
+              <surname>Devlin</surname>
+              <given-names>G.P.</given-names>
+            </name>
+            <name>
+              <surname>Elston</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Conaglen</surname>
+              <given-names>J.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Absence of Myostatin Improves Cardiac Function Following Myocardial Infarction</article-title>
+          <source>Heart Lung Circ.</source>
+          <year>2018</year>
+          <volume>27</volume>
+          <fpage>693</fpage>
+          <lpage>701</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.hlc.2017.05.138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-jcm-09-00116">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Flachskampf</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Schmid</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rost</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Achenbach</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>DeMaria</surname>
+              <given-names>A.N.</given-names>
+            </name>
+            <name>
+              <surname>Daniel</surname>
+              <given-names>W.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cardiac imaging after myocardial infarction</article-title>
+          <source>Eur. Heart J.</source>
+          <year>2011</year>
+          <volume>32</volume>
+          <fpage>272</fpage>
+          <lpage>283</lpage>
+          <pub-id pub-id-type="doi">10.1093/eurheartj/ehq446</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-jcm-09-00116">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ibanez</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>James</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Agewall</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Antunes</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Bucciarelli-Ducci</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bueno</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Caforio</surname>
+              <given-names>A.L.P.</given-names>
+            </name>
+            <name>
+              <surname>Crea</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Goudevenos</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Halvorsen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>2017 ESC Guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation: The Task Force for the management of acute myocardial infarction in patients presenting with ST-segment elevation of the European Society of Cardiology (ESC)</article-title>
+          <source>Eur. Heart J.</source>
+          <year>2018</year>
+          <volume>39</volume>
+          <fpage>119</fpage>
+          <lpage>177</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figure and Tables</title>
+      <fig id="jcm-09-00116-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Serum growth differentiation factor-8 (GDF8) levels rise more in AMI patients with ventricular tachycardia or fibrillation (VT/VF) than AMI patients without VT/VF.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jcm-09-00116-g001.tif"/>
+      </fig>
+      <table-wrap id="jcm-09-00116-t001" position="float">
+        <object-id pub-id-type="pii">jcm-09-00116-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Baseline characteristics.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">N (%) or Median (IQR) N = 296</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>Risk factors</bold>
+              </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Age, y</td>
+              <td align="center" valign="middle">68 (58&#x2013;78)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Female</td>
+              <td align="center" valign="middle">81 (27%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">BMI, kg/m&#xB2;</td>
+              <td align="center" valign="middle">26 (24&#x2013;30), <italic>n</italic> = 295</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Hypertension</td>
+              <td align="center" valign="middle">178 (60%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Diabetes</td>
+              <td align="center" valign="middle">75 (25%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Hypercholesterolemia</td>
+              <td align="center" valign="middle">117 (40%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Family history of CAD</td>
+              <td align="center" valign="middle">74 (25%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Current smoking</td>
+              <td align="center" valign="middle">85 (29%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>Cardiovascular history</bold>
+              </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CAD</td>
+              <td align="center" valign="middle">53 (18%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Stroke</td>
+              <td align="center" valign="middle">17 (6%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Chronic kidney disease</td>
+              <td align="center" valign="middle">16 (5%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>Clinical data</bold>
+              </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LVEF, %</td>
+              <td align="center" valign="middle">55 (50&#x2013;60), <italic>n</italic> = 294</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LVEF &lt;40%</td>
+              <td align="center" valign="middle">22 (7%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HR, bpm</td>
+              <td align="center" valign="middle">76 (64&#x2013;87), <italic>n</italic> = 283</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SBP, mmHg</td>
+              <td align="center" valign="middle">142 (123&#x2013;165), <italic>n</italic> = 275</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">DBP, mmHg</td>
+              <td align="center" valign="middle">82 (70&#x2013;94), <italic>n</italic> = 274</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">STEMI</td>
+              <td align="center" valign="middle">143 (48%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HF</td>
+              <td align="center" valign="middle">56 (19%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">GRACE risk score </td>
+              <td align="center" valign="middle">141 (116&#x2013;170), <italic>n</italic> = 268</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">ICU length of stay, <italic>d</italic></td>
+              <td align="center" valign="middle">3 (3&#x2013;4), <italic>n</italic> = 290</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Coronary angiography</td>
+              <td align="center" valign="middle">294 (99%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SYNTAX score</td>
+              <td align="center" valign="middle">12 (7&#x2013;18), <italic>n</italic> = 284</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Multivessel disease</td>
+              <td align="center" valign="middle">184 (63%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Percutaneous coronary intervention</td>
+              <td align="center" valign="middle">252 (86%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>Biological data</bold>
+              </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">GDF8 relative expression</td>
+              <td align="center" valign="middle">2375.0 (1640.0&#x2013;3346.7)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CRP &gt; 3 mg/L</td>
+              <td align="center" valign="middle">158 (54%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Creatinine, &#xB5;mol/L</td>
+              <td align="center" valign="middle">79 (68&#x2013;95), <italic>n</italic> = 295</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">eGFR CKD, mL/min</td>
+              <td align="center" valign="middle">82.7 (65.9&#x2013;95.5), <italic>n</italic> = 295</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> eGFR CKD &lt; 45 mL/min</td>
+              <td align="center" valign="middle">34 (12%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CK peak, UI/L</td>
+              <td align="center" valign="middle">583 (195&#x2013;1483), <italic>n</italic> = 291</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Troponin Ic peak, ng/mL</td>
+              <td align="center" valign="middle">15.00 (3.21&#x2013;70.00), <italic>n</italic> = 295</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Nt-ProBNP, pg/mL</td>
+              <td align="center" valign="middle">394 (93&#x2013;1588), <italic>n</italic> = 295</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LDL cholesterol, g/L</td>
+              <td align="center" valign="middle">1.24 (0.92&#x2013;1.53), <italic>n</italic> = 293</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HDL cholesterol, g/L</td>
+              <td align="center" valign="middle">0.50 (0.40&#x2013;0.60), <italic>n</italic> = 293</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Total cholesterol, g/L</td>
+              <td align="center" valign="middle">2.06 (1.70&#x2013;2.35), <italic>n</italic> = 293</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Triglycerides, g/L</td>
+              <td align="center" valign="middle">1.21 (0.84&#x2013;1.76), <italic>n</italic> = 293</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Glycemia, mmol/L</td>
+              <td align="center" valign="middle">6.80 (5.80&#x2013;8.63), <italic>n</italic> = 295</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>In-hospital events</bold>
+              </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Death</td>
+              <td align="center" valign="middle">7 (2%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cardiovascular death</td>
+              <td align="center" valign="middle">6 (2%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Recurrent MI</td>
+              <td align="center" valign="middle">7 (2%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Stroke</td>
+              <td align="center" valign="middle">2 (1%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HF</td>
+              <td align="center" valign="middle">75 (26%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">VT or VF</td>
+              <td align="center" valign="middle">10 (3%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>Chronic medications</bold>
+              </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Antiplatelet therapy</td>
+              <td align="center" valign="middle">24 (8%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Aspirin</td>
+              <td align="center" valign="middle">72 (24%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">ARB</td>
+              <td align="center" valign="middle">63 (21%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">ACE inhibitor</td>
+              <td align="center" valign="middle">58 (20%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Statin</td>
+              <td align="center" valign="middle">92 (31%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Beta blocker</td>
+              <td align="center" valign="middle">83 (28%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Diuretic</td>
+              <td align="center" valign="middle">57 (19%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>Acute medications</bold>
+              </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Antiplatelet therapy</td>
+              <td align="center" valign="middle">283 (96%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Aspirin</td>
+              <td align="center" valign="middle">290 (98%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">ARB</td>
+              <td align="center" valign="middle">36 (12%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">ACE inhibitor</td>
+              <td align="center" valign="middle">179 (60%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Statin</td>
+              <td align="center" valign="middle">270 (91%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Beta blocker</td>
+              <td align="center" valign="middle">207 (70%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Diuretic</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">65 (22%)</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Data are expressed as <italic>n</italic> (%) or median (25th and 75th percentiles). <italic>n</italic>: number; GDF8: growth differentiation factor 8; BMI: body mass index; CAD: coronary artery disease; LVEF: left ventricular ejection fraction; HR: heart rate; HF: Heart failure; SBP: systolic blood pressure; DBP: diastolic blood pressure; STEMI: ST segment elevation myocardial infarction; GRACE: Global Registry of Acute Coronary Events; ICU: Intensive Care Unit; CRP: C-reactive protein; CK: creatine kinase; NT-proBNP: N-terminal pro-brain natriuretic peptide; LDL: low density lipoprotein; HDL: high density lipoprotein; ARB: angiotensin receptor blockers; ACE: angiotensin converting enzyme.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="jcm-09-00116-t002" position="float">
+        <object-id pub-id-type="pii">jcm-09-00116-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Association between GDF8 levels and study variables (<italic>n</italic> = 296).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Patients (n = 296)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">GDF8 Relative Expression or r</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>p</italic> Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">CV risk factors</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Age (years)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">68 (58&#x2013;78)</td>
+              <td align="center" valign="middle">&#x2212;0.26</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Female</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">81 (27)</td>
+              <td align="center" valign="middle">2002 (1284&#x2013;2785)</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">215 (73)</td>
+              <td align="center" valign="middle">2554.9 (1759&#x2013;3489)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">BMI (kg/m&#xB2;)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">26 (24&#x2013;30)</td>
+              <td align="center" valign="middle">0.08</td>
+              <td align="center" valign="middle">0.191</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Hypertension</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">178 (60)</td>
+              <td align="center" valign="middle">2247 (1532&#x2013;3321)</td>
+              <td align="center" valign="middle">0.063</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">118 (40)</td>
+              <td align="center" valign="middle">2585 (1756&#x2013;3381)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Diabetes</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">75 (25)</td>
+              <td align="center" valign="middle">1946 (1429&#x2013;2621)</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">221 (75)</td>
+              <td align="center" valign="middle">2574 (1751&#x2013;3526)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Hypercholesterolemia</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">117 (40)</td>
+              <td align="center" valign="middle">2501 (1697&#x2013;3397)</td>
+              <td align="center" valign="middle">0.396</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">179 (60)</td>
+              <td align="center" valign="middle">2311 (1621&#x2013;3304)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Current smoking</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">85 (29)</td>
+              <td align="center" valign="middle">2482 (1689&#x2013;3396)</td>
+              <td align="center" valign="middle">0.306</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">211 (71)</td>
+              <td align="center" valign="middle">2256 (1633&#x2013;3320)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Cardiovascular history</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CAD</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">53 (18)</td>
+              <td align="center" valign="middle">2209 (1477&#x2013;2991)</td>
+              <td align="center" valign="middle">0.189</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">243 (82)</td>
+              <td align="center" valign="middle">2426 (1688&#x2013;3381)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Stroke</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">17 (6)</td>
+              <td align="center" valign="middle">1742 (1070&#x2013;2636)</td>
+              <td align="center" valign="middle">0.062</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">279 (94)</td>
+              <td align="center" valign="middle">2431 (1679&#x2013;3372)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Chronic kidney disease</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">16 (5)</td>
+              <td align="center" valign="middle">2712 (1315&#x2013;3416)</td>
+              <td align="center" valign="middle">0.885</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">280 (95)</td>
+              <td align="center" valign="middle">2368 (1663&#x2013;3346)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Clinical data</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LVEF</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">55 (50&#x2013;60)</td>
+              <td align="center" valign="middle">&#x2212;0.05</td>
+              <td align="center" valign="middle">0.396</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HR (bpm)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">76 (64&#x2013;87)</td>
+              <td align="center" valign="middle">&#x2212;0.06</td>
+              <td align="center" valign="middle">0.304</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SBP (mmHg)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">142 (123&#x2013;165)</td>
+              <td align="center" valign="middle">0.14</td>
+              <td align="center" valign="middle">0.022</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">DBP (mmHg)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">82 (70&#x2013;94)</td>
+              <td align="center" valign="middle">0.22</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">STEMI</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">143 (48)</td>
+              <td align="center" valign="middle">2748 (1802&#x2013;3445)</td>
+              <td align="center" valign="middle">0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">153 (52)</td>
+              <td align="center" valign="middle">2141 (1519&#x2013;2973)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Heart failure</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">56 (19)</td>
+              <td align="center" valign="middle">2018 (1252&#x2013;2775)</td>
+              <td align="center" valign="middle">0.006</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">238 (81)</td>
+              <td align="center" valign="middle">2511 (1695&#x2013;3413)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">GRACE risk score</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">141 (116&#x2013;170)</td>
+              <td align="center" valign="middle">&#x2212;0.22</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">ICU stay length (days)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">3 (3&#x2013;4)</td>
+              <td align="center" valign="middle">&#x2212;0.01</td>
+              <td align="center" valign="middle">0.877</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Biological data</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CRP &#x2265; 3 mg/L</td>
+              <td align="center" valign="middle">Yes</td>
+              <td align="center" valign="middle">158 (54)</td>
+              <td align="center" valign="middle">2102 (1471&#x2013;3197)</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">No</td>
+              <td align="center" valign="middle">136 (46)</td>
+              <td align="center" valign="middle">2722 (1957&#x2013;3525)</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Creatinine clearance (CKD EPI) (mL/min)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">83 (66&#x2013;96)</td>
+              <td align="center" valign="middle">0.15</td>
+              <td align="center" valign="middle">0.010</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CK peak (UI/L)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">583 (195&#x2013;1493)</td>
+              <td align="center" valign="middle">0.26</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Peak troponin Ic (ng/mL)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">15 (3&#x2013;70)</td>
+              <td align="center" valign="middle">0.25</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">NT-proBNP (pg/mL)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">394 (93&#x2013;1588)</td>
+              <td align="center" valign="middle">&#x2212;0.27</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Glucose (mmol/L)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">7 (6&#x2013;9)</td>
+              <td align="center" valign="middle">&#x2212;0.02</td>
+              <td align="center" valign="middle">0.684</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LDL cholesterol (g/L)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">1.2 (0.9&#x2013;1.5)</td>
+              <td align="center" valign="middle">0.25</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HDL cholesterol (g/L)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.5 (0.4&#x2013;0.6)</td>
+              <td align="center" valign="middle">0.07</td>
+              <td align="center" valign="middle">0.211</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Triglycerides (g/L)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.2 (0.8&#x2013;1.8)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.773</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Data are expressed as <italic>n</italic> (%) or median (25th and 75th percentiles). <italic>n</italic>: number; r: correlation coefficient; GDF8: growth differentiation factor 8; BMI: body mass index; CAD: coronary artery disease; LVEF: left ventricular ejection fraction; HR: heart rate; SBP: systolic blood pressure; DBP: diastolic blood pressure; STEMI: ST segment elevation myocardial infarction; GRACE: Global Registry of Acute Coronary Events; ICU: Intensive Care Unit; CRP: C-reactive protein; CK: creatine kinase; NT-proBNP: N-terminal pro-brain natriuretic peptide; LDL: low density lipoprotein; HDL: high density lipoprotein; ARB: angiotensin II receptor blockers; ACE inhibitors: angiotensin converting enzyme inhibitors.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="jcm-09-00116-t003" position="float">
+        <object-id pub-id-type="pii">jcm-09-00116-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Relevant outcomes according to high/low GDF8 levels (cutoff on median GDF8 value).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">GDF 8 &#x2264; 2400 ng/L <break/>N = 151</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">GDF 8 &gt; 2400 ng/L<break/>N = 145</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>p</italic> Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">In-hospital VF/VT</td>
+              <td align="center" valign="middle">3 (2.0%)</td>
+              <td align="center" valign="middle">7 (4.8%)</td>
+              <td align="center" valign="middle">0.211</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Troponin Ic peak, ng/mL</td>
+              <td align="center" valign="middle">8.30 (2.10&#x2013;36.00)</td>
+              <td align="center" valign="middle">29.50 (4.22&#x2013;92.75)</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LVEF, %</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">56 (50&#x2013;60)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">55 (50&#x2013;60)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.498</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="jcm-09-00116-t004" position="float">
+        <object-id pub-id-type="pii">jcm-09-00116-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Logistic regression analysis for prediction of troponin I peak.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Univariate</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Multivariate</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">OR</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">95% CI</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><italic>p</italic> Value</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">OR</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">95% CI</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin"><italic>p</italic> Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>Diabetes</bold>
+              </td>
+              <td align="center" valign="middle">11.82</td>
+              <td align="center" valign="middle">&#x2212;3.49&#x2013;43.03</td>
+              <td align="center" valign="middle">0.095</td>
+              <td align="center" valign="middle">12.98</td>
+              <td align="center" valign="middle">7.86&#x2013;59.00</td>
+              <td align="center" valign="middle">0.011</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>Smoking</bold>
+              </td>
+              <td align="center" valign="middle">11.34</td>
+              <td align="center" valign="middle">0.78&#x2013;45.40</td>
+              <td align="center" valign="middle">0.043</td>
+              <td align="center" valign="middle">13.19</td>
+              <td align="center" valign="middle">10.32&#x2013;62.28</td>
+              <td align="center" valign="middle">0.006</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>LVEF &gt; 40%</bold>
+              </td>
+              <td align="center" valign="middle">19.53</td>
+              <td align="center" valign="middle">10.88&#x2013;87.76</td>
+              <td align="center" valign="middle">0.012</td>
+              <td align="center" valign="middle">22.23</td>
+              <td align="center" valign="middle">6.75&#x2013;94.34</td>
+              <td align="center" valign="middle">0.024</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">
+                <bold>GRACE risk score</bold>
+              </td>
+              <td align="center" valign="middle">0.15</td>
+              <td align="center" valign="middle">0.16&#x2013;0.76</td>
+              <td align="center" valign="middle">0.003</td>
+              <td align="center" valign="middle">0.168</td>
+              <td align="center" valign="middle">0.39&#x2013;1.05</td>
+              <td align="center" valign="middle">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><bold>Time to admission</bold>, per min</td>
+              <td align="center" valign="middle">0.01</td>
+              <td align="center" valign="middle">&#x2212;0.02&#x2013;0.00</td>
+              <td align="center" valign="middle">0.065</td>
+              <td align="center" valign="middle">0.01</td>
+              <td align="center" valign="middle">&#x2212;0.02&#x2013;0.01</td>
+              <td align="center" valign="middle">0.233</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><bold>Log GDF8</bold>, per unit</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21.59</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.08&#x2013;119.05</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&lt;0.001</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.68</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">67.05&#x2013;172.17</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&lt;0.001</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>LVEF: left ventricular ejection fraction; GRACE: Global Registry of Acute Coronary Events; NT-proBNP: N-terminal pro-brain natriuretic peptide; GDF8: growth differentiation factor 8; OR: odds ratio; CI: confidence interval.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010288</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00288</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Co-Expression Profile of TNF Membrane-Bound Receptors Type 1 and 2 in Rheumatoid Arthritis on Immunocompetent Cells Subsets</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Alshevskaya</surname>
+            <given-names>Alina</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00288" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lopatnikova</surname>
+            <given-names>Julia</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00288" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhukova</surname>
+            <given-names>Julia</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00288" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chumasova</surname>
+            <given-names>Oksana</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00288" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shkaruba</surname>
+            <given-names>Nadezhda</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00288" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sizikov</surname>
+            <given-names>Aleksey</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00288" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Evsegneeva</surname>
+            <given-names>Irina</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00288" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gladkikh</surname>
+            <given-names>Victor</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00288" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1930-5424</contrib-id>
+          <name>
+            <surname>Karaulov</surname>
+            <given-names>Aleksander</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00288" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-7366-7768</contrib-id>
+          <name>
+            <surname>Sennikov</surname>
+            <given-names>Sergey V.</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00288" ref-type="aff">1</xref>
+          <xref rid="af4-ijms-21-00288" ref-type="aff">4</xref>
+          <xref rid="c1-ijms-21-00288" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00288"><label>1</label>Federal State Budgetary Scientific Institution Research Institute of Fundamental and Clinical Immunology (RIFCI), 630099 Novosibirsk, Russia; <email>alkkina@yandex.ru</email> (A.A.); <email>lopatnikova_j_a@ngs.ru</email> (J.L.); <email>zhukova1982@rambler.ru</email> (J.Z.); <email>chumoks@mail.ru</email> (O.C.); <email>sen-nadezhda@yandex.ru</email> (N.S.); <email>depaidici@online.nsk.su</email> (A.S.)</aff>
+      <aff id="af2-ijms-21-00288"><label>2</label>Federal State Autonomous Educational Institution of Higher Education I.M. Sechenov First Moscow State Medical University of the Ministry of Health of the Russian Federation, 119435 Moscow, Russia; <email>ivevsegneeva@yandex.ru</email> (I.E.); <email>drkaraulov@mail.ru</email> (A.K.)</aff>
+      <aff id="af3-ijms-21-00288"><label>3</label>Biostatistics and Clinical Trials Center, 630090 Novosibirsk, Russia; <email>gladvs_ru@mail.ru</email></aff>
+      <aff id="af4-ijms-21-00288"><label>4</label>Novosibirsk State University, 630090 Novosibirsk, Russia</aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00288"><label>*</label>Correspondence: <email>sennikovsv@gmail.com</email>; Tel.: +7-383-222-1910</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>288</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Introduction: Tumor necrosis factor (TNF&#x3B1;) is an important proinflammatory cytokine in rheumatoid arthritis (RA) immune processes. However, TNF&#x3B1; activity and functions may be regulated by soluble receptors, which act as decoys, and by number, density, and co-expression of its membrane-bound receptors type 1 and 2 (TNFR1 and TNFR2). The aim of this study was to reveal associations between TNFR1/2 co-expression profile parameters and RA disease activity indicators. Methods: PBMC were analyzed from 46 healthy donors and 64 patients with RA using flow cytometry. Patients were divided according to the disease activity score (DAS) 28 index into groups with high (<italic>n</italic> = 22, 34.4%), moderate (<italic>n</italic> = 30, 46.9%), and low (<italic>n</italic> = 12, 18.8%) disease activity. Co-expression of TNFR1 and TNFR2 was studied by evaluating the percentage of cells, with different receptors, and by counting the number of receptors of each type per cell, using QuantiBritePE beads. Associations between disease severity and activity indicators and parameters of TNF&#x3B1; receptor expression in subpopulations of immune cells were studied. Results: T cell subsets from RA patients were characterized by co-expression of TNFR1 and TNFR2, and were found to differ significantly compared with healthy donors. Memory cells both among T helper cells and cytotoxic T cells demonstrated the most significant differences in TNFR-expression profile. Multivariable logistic regression revealed model to identified RA patients from healthy individual based on the TNFR1/2 co-expression parameters. Conclusion: The profile of TNFR1\2 co-expression differs in RA comparing with health. Proportion of TNFR1+TNFR2- cells increased significantly among memory T helper cells and activated cytotoxic T cells, and decreased significantly among na&#xEF;ve cytotoxic T cells and T regulatory cells as compared with health. The parameters of TNFR1\2 co-expression in RA are associated with clinical and laboratory indicators of disease activity.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>TNF</kwd>
+        <kwd>cytokine receptors</kwd>
+        <kwd>co-expression</kwd>
+        <kwd>rheumatoid arthritis</kwd>
+        <kwd>disease activity</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00288" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The immunoregulatory cytokine tumor necrosis factor (TNF)-&#x3B1; plays a key role at all stages of the pathogenic process of rheumatoid arthritis (RA) [<xref ref-type="bibr" rid="B1-ijms-21-00288">1</xref>,<xref ref-type="bibr" rid="B2-ijms-21-00288">2</xref>]. TNF&#x3B1; functions only in the presence of a sufficient number of specific receptors on the cell surface. The interaction of cytokine with type 1 receptor ensures the development of inflammatory and cytotoxic reactions, and stimulates apoptosis. Signal transmission through the type 2 receptor usually increases the survival of cells and stimulates their proliferation, synthesis, and secretion of various mediators, including cytokines [<xref ref-type="bibr" rid="B3-ijms-21-00288">3</xref>]. However, there are alternative possibilities for triggering signaling pathways through type 1 and type 2 receptors, which depend on the proportion of cells with receptors, expression density, co-expression on subpopulations, and the structure of the receptor. In particular, change in the ratio of different types of receptors can lead to a shift in the balance between pro-apoptotic and proliferative signaling pathways [<xref ref-type="bibr" rid="B4-ijms-21-00288">4</xref>]. Changes in the expression of TNF&#x3B1; receptors during active inflammation may be triggered by the ongoing pathological processes. Moreover, previous studies demonstrate that a change in the expression level of type 1 and 2 receptors for TNF&#x3B1; in the main blood cell populations in immune-mediated diseases is associated with the activity indices of the pathological process [<xref ref-type="bibr" rid="B5-ijms-21-00288">5</xref>,<xref ref-type="bibr" rid="B6-ijms-21-00288">6</xref>]. For tuberculosis patients, increase of TNFR1 expression on immune cells as compared to healthy donors was found [<xref ref-type="bibr" rid="B5-ijms-21-00288">5</xref>], and in atopic dermatitis TNFR1 and TNFR2 expression was found to increase in lymphocyte and monocyte populations as compared to health [<xref ref-type="bibr" rid="B6-ijms-21-00288">6</xref>]. Thus, different immunopathogenetic processes leads to redistribution of TNFR1 and TNFR2 in immune cell subsets. However, to date, there are no data analyzing the co-expression of different types of TNF&#x3B1; receptors on individual subpopulations of cells actively involved in pathological processes (T regulatory cells, memory T cells, T helper cells).</p>
+      <p>We hypostasized that receptor co-expression may change significantly in pathology, influencing the potential of the immune system to respond to a particular type of trigger or to a therapy. The first step to test this hypothesis was to investigate the influence of disease activity and severity on receptor co-expression. The aim of the study was to analyze the expression of type 1 and 2 receptors for TNF&#x3B1; in individual subpopulations of peripheral blood cells in patients with RA compared with healthy donors. We also aimed to identify differences between TNFR1/2 co-expression on cell subpopulations actively involved in immunopathological processes and to reveal the trends in changing the parameter during disease flares.</p>
+    </sec>
+    <sec id="sec2-ijms-21-00288" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-21-00288">
+        <title>2.1. TNFR1/2 Co-Expression in RA Patients with Different Disease Activity</title>
+        <p>Preliminary studies of healthy donors revealed significant heterogeneity of expression and co-expression levels of type 1 and 2 receptors for TNF&#x3B1; on individual subpopulations of immune cells. Further to this, we studied the most significant subpopulations of lymphocytes actively involved in the pathogenic processes associated with RA, by analyzing co-expression of type 1 and 2 receptors for TNF&#x3B1;, and calculated the average number of receptors on the cell surface with each of the co-expression variants. The following populations were selected: total monocytes; total B lymphocytes; total T lymphocytes; subpopulations of cytotoxic T cells (CD8+), T helper cells (CD4+), activated CD8+ cells, activated CD4+ cells, subpopulations of memory T cells (CD45RO+), and na&#xEF;ve T cells (CD45RA+) among cytotoxic and T helper cells and T regulatory cells (Tregs, CD4+CD25 high CD127 low). </p>
+        <p>We found that the expression of type 1 and 2 receptors for TNF&#x3B1; differ significantly on the surface of analyzed cell populations (monocytes, B cells, total T cells, and Tregs) between each receptor and compared with healthy donors (<xref ref-type="fig" rid="ijms-21-00288-f001">Figure 1</xref>).</p>
+        <p>The most pronounced differences in the co-expression profile of type 1 and 2 receptors for TNF were shown for B lymphocytes and cytotoxic T lymphocytes. There were significantly fewer B cells expressing only type 2 receptor compared with healthy donors. The proportion of cells with expression of the type 2 receptor varied from 9.4 to 23.8% in RA patients as compared to 50.8% in healthy donors. Conversely, cytotoxic T cells in patients with RA were characterized by an increase in the percentage of cells expressing the type 1 receptor with 13&#x2212;23.6% of double positive cells (as compared with 7.2% in healthy donors) and 10&#x2212;16.2% of cells with single expression of the type 1 receptor (as compared with 1.6% in healthy donors).</p>
+        <p>The differences between subpopulations of T helper cells (<xref ref-type="fig" rid="ijms-21-00288-f002">Figure 2</xref>) and cytotoxic T cells (<xref ref-type="fig" rid="ijms-21-00288-f003">Figure 3</xref>) were analyzed. The most pronounced redistribution of receptors was shown for subpopulations of T helper memory cells and cytotoxic T memory cells. More than 90% of healthy donor memory T helper cells and memory cytotoxic T cells expressed type 2 receptors and less than 2% of the cells were negative for TNF receptors. Concurrently, from 12 to 54.2% of RA patient&#x2019; cells (depending on disease activity) were negative for both type 1 and 2 receptors for TNF&#x3B1;. Type 1 receptor expression was predominantly expressed by healthy donor cytotoxic na&#xEF;ve T cells, while the type 2 receptor predominated on cytotoxic T cells from patients with RA.</p>
+        <p>The obtained data demonstrated that distribution of type 1 and type 2 receptors for TNF&#x3B1; differs significantly between immune cell populations and changed during pathology. The highest percentage of double-negative cells in healthy donors was naive T helper cells and the highest percentage of double-positive cells was activated cytotoxic lymphocytes. Furthermore, the largest percentage of cells expressing the type 1 receptor alone was cytotoxic memory T lymphocytes, while the largest percentage of cells expressing the type 2 receptor alone was naive cytotoxic T lymphocytes and memory T helper cells. In RA patients, there was a tendency for an increase in the percentage of double-negative cells among most of populations, which may be due to the active process of shedding of the membrane-bound receptors. Additionally, there was a redistribution of receptors in the subpopulations. However, the largest percentage of cells expressing only type 1 receptor was cytotoxic memory T lymphocytes, similar to healthy donors.</p>
+        <p>The mean number of receptors per cell were calculated for each subset (<xref ref-type="fig" rid="ijms-21-00288-f004">Figure 4</xref> and <xref ref-type="table" rid="ijms-21-00288-t001">Table 1</xref>). The most pronounced differences in quantitative expression of the receptors were found for memory cells both among T helper cells and cytotoxic T cells: the number of type 2 receptors on these subpopulations in patients with RA exceeded that in healthy patients 5.1-fold and 4.7-fold, respectively.</p>
+      </sec>
+      <sec id="sec2dot2-ijms-21-00288">
+        <title>2.2. Correlations between Co-Expression Parameters and Disease Severity Indicators</title>
+        <p>A total of seven indicators of receptor expression were identified that differ significantly in RA patients with high disease activity compared with healthy donors but do not differ between healthy donors and patients with low disease activity: four indicators based on the number of receptors on cells (number of type 2 receptors on double-positive TNFR1+TNFR2+ cells among B cells and activated cytotoxic lymphocytes (CD8+CD25+), number of type 2 receptors among TNFR1&#x2212;TNFR2+ B lymphocytes, number of type 1 receptors among TNFR1+TNFR2&#x2212; monocytes) and three indicators based on the percentage of cells expressing certain combinations of receptors (percentage of TNFR1+TNFR2&#x2212; cells among the total pool of T lymphocytes and percentage of cells expressing at least one of the two types of receptors for TNF&#x3B1; among naive T helper cells and memory T helper cells). These indicators may be promising for the establishment of threshold model to identify patients who have the potential to for their disease to flare up.</p>
+        <p>A correlation analysis of the relationship between disease severity and activity indicators (DAS-28 index, disease duration, radiological stage, activity stage, rheumatoid factor (RF) levels, anti-CCP and CRP levels, the presence of systemic manifestations and erosive arthritis) and parameters of TNF&#x3B1; receptor expression was performed in the subpopulations of immune cells (<xref ref-type="table" rid="ijms-21-00288-t002">Table 2</xref>). Roentgenology stage and presence of systemic features were not found to correlate with any TNFR1 or TNFR2 expression parameter. </p>
+      </sec>
+      <sec id="sec2dot3-ijms-21-00288">
+        <title>2.3. Regression Analysis for Disease Activity Indicators</title>
+        <p>As several co-expression indicators were found to be associated with disease severity and activity, univariable and multivariable regression analysis were performed to find possible predictors for RA (through all RA patients and healthy individuals), for high disease activity (through all RA patients and healthy individuals), and for low disease activity (through RA patients) (<xref ref-type="table" rid="ijms-21-00288-t003">Table 3</xref>). <italic>R</italic><sup>2</sup> were 0.68 for all RA patients, 0.32 for high disease activity, and 0.3 for low disease activity. Thus, parameters of TNFR1/2 co-expression may be used as predictors to identified RA patients from healthy individuals.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-ijms-21-00288" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>We investigated the expression of TNF&#x3B1; receptors on immune cells in RA patients, and found that the distribution pattern of TNF&#x3B1; receptors on immune cells differs between patients with RA and healthy donors. Specifically, the total proportion of cells expressing at least one of the receptors decreased significantly on B cells and memory T helper cells, and increased significantly on naive cytotoxic T cells, naive T helper cells, monocytes, and T regulatory cells compared with healthy donors. This indicator reflects the overall sensitivity of the cell subpopulation to the action of cytokine, and, accordingly, the ability of the cells to react to a change in TNF concentration.</p>
+      <p>One of the most interesting features revealed by this study was the change in the distribution pattern among patients with different RA activity levels. Although the indicators and the pattern of receptor distribution in RA patients significantly differed from healthy, in patients with low disease activity there was no tendency for the indicators to approach the level of healthy donors. This feature was revealed for the first time. We believe that this indicates that with a decrease in the activity of RA, processes of stabilization of the activity of the immune system occur; however, the new conditionally stable system differs greatly from that of healthy donors. Further studies of the state of patients in the dynamics of the disease are needed to confirm this hypothesis.</p>
+      <p>The functional activity of T regulatory cells and their participation in inflammatory processes are compromised in RA [<xref ref-type="bibr" rid="B7-ijms-21-00288">7</xref>]. A number of authors associate these changes to the action of TNF, which results in inhibition of the suppressor function of T regulatory cells [<xref ref-type="bibr" rid="B8-ijms-21-00288">8</xref>]; this process is associated with the expression of the TNF type 2 receptor [<xref ref-type="bibr" rid="B9-ijms-21-00288">9</xref>]. We observed a redistribution of these receptors in RA, namely, a tendency in increasing the proportion of TNFR1&#x2212;TNFR2+ cells with a significant decrease in the proportion of double-positive cells. At the same time, the average number of type 2 receptors on the cell surface was almost 2 times higher in patients with RA than in healthy donors. The role of type 2 receptors in providing suppressor functions of immune cells has been previously shown. We suggest that the increase in expression of type 2 receptors detected on T regulatory cells is associated with a change in their suppressor activity in RA.</p>
+      <p>Reduced expression of type 2 receptors on B cells and cytotoxic T cells in patients with RA may also be associated with changes in their suppressor activity [<xref ref-type="bibr" rid="B10-ijms-21-00288">10</xref>]. Meanwhile, the redistribution of receptors in these populations may occur in different ways. In the case of B cells, this reduction is manifested by a decrease in the proportion of TNFR2+ cells and a decrease in the number of type 2 receptors on the cells. The proportion of receptor-positive cytotoxic T cells decreased, while the number of receptors on them did not change or even increased slightly. These changes in B cells led to their decreased sensitivity to TNF and the effects mediated by type 2 receptors, while redistribution of receptors in cytotoxic T cells and an increase in their number may represent a compensatory mechanism.</p>
+      <p>We have demonstrated that the proportion of TNFR2+ cells (and, in general, cells with receptors for TNF) among memory T helper cells is sharply reduced in patients with RA compared with healthy donors. At the same time, these cells are characterized by the highest quantitative expression of type 2 receptors among all the studied subpopulations. Such a sharp increase in the density of receptor expression on individual cells may be due to a change of their functional ability.</p>
+      <p>An interesting variant of receptor redistribution was demonstrated for naive cytotoxic T cells compared with the healthy donors: the proportion of cells with type 1 receptors was dramatically increased, while the percentage of cells expressing type 2 receptors was sharply reduced. Since type 1 and type 2 receptors implement different functions, these changes may indicate a change in the nature of the response of these cells to cytokines [<xref ref-type="bibr" rid="B11-ijms-21-00288">11</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00288">12</xref>], and as a result, a change in their functional activity in RA. Evidence suggests that triggering a signal through type 1 and type 2 receptors simultaneously has significant therapeutic potential. In a model of autoimmune encephalitis [<xref ref-type="bibr" rid="B13-ijms-21-00288">13</xref>], the different roles of type 1 and type 2 receptors for TNF have been demonstrated. For type 2 receptors, their ability to induce pronounced inflammation was shown, with minimal signs of demyelination; and on the contrary, the type 1 receptors, although they did not contribute to inflammation, actively participated in the destruction of the nervous system&#x2019;s autoimmune processes. This example shows that the redistribution of receptors on a subpopulation of cells favoring the expression of TNFR2 may be a defensive reaction or a manifestation of the aggressive course of the auto-inflammatory process in RA; however, this requires further investigation.</p>
+      <p>We studied the associations between disease severity and activity indicators (DAS-28 index, disease duration, radiological stage, activity stage, RF levels, anti-CCP and CRP levels, the presence of systemic manifestations and erosive arthritis) and parameters of TNF&#x3B1; receptor expression in immune cells. A series of correlated relationships were identified that led to study of predicative models using parameters of TNFR1/2 co-expression. Model aimed to define RA patients with high or low disease activity showed low predicative potential. However, model, identifying RA patients through hole cohort of individual showed 68% <italic>R</italic><sup>2</sup>. Indicators from this model may have diagnostic value to identify RA patients.</p>
+      <p>Although our study demonstrates for the first time the relationship between TNFR1/2 co-expression parameters and the clinical characteristics of patients with rheumatoid arthritis, it has limitations. Firstly, this is a small sample of subgroups of patients with different disease activity, which did not allow revealing statistically significant differences in a number of trends. Secondly, it is the sex-age heterogeneity of patients and healthy donors which could affect the characteristics of the distribution of receptors in subpopulations.</p>
+      <p>Our study raised a number of questions for further in-depth study of the relationship between co-expression and clinical parameters. Firstly, the effect is of considerable interest that the indicators of patients with low disease activity in most cases are not intermediate between high RA activity and healthy donors, but on the contrary are very different. This testifies to the fact that, even with effective therapy, the receptor system forms a certain balance that differs from healthy donors&#x2019; one. Therefore, for an effective clinical response, it is not always necessary to strive to bring indicators with the norms of conditionally healthy donors. Secondly, the established associations between clinical indicators and expression indices make it possible to suggest the presence of feedback. Namely, the use of targeted modulation of the receptor level to change the level of inflammatory processes in animal models of the disease, followed by implementation in clinical practice is of interest for further studies.</p>
+    </sec>
+    <sec id="sec4-ijms-21-00288">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-ijms-21-00288">
+        <title>4.1. Samples</title>
+        <p>Mononuclear cells (MNC) were isolated from the peripheral blood of healthy donors and patients with RA. Health group included donors from Novosibirsk Blood Station who provided their written informed consent to participate the study. RA group included undergoing treatment at the Rheumatology Department of the Clinic of Immunopathology of the Scientific Research Institute of Fundamental and Clinical Immunology (RIFCI). Diagnosis of RA was estimated according to ACR/EULAR (2010) Classification Criteria for RA [<xref ref-type="bibr" rid="B14-ijms-21-00288">14</xref>]. The study was approved by the local ethics committee of RIFCI (protocol no. 24, dated 8 September 2016). The study included 46 healthy donors aged 18&#x2013;77 years (median (interquartile range; IQR), 36.5 (30:54) years) including 16 (34.8%) males, 30 (65.2%) females and 64 patients with RA aged 22&#x2013;83 years (median (IQR), 55 (45:65) years), among which 54 (85.4%) were women. The demographic and clinical characteristics of the patients and healthy donors are presented in <xref ref-type="table" rid="ijms-21-00288-t004">Table 4</xref>. Our group differed significantly by both age (<italic>p</italic> = 0.005) and gender (<italic>p</italic> = 0.094); however, these indicators were not found to be associated with any studied parameters of receptor expression. RA patients received main therapy as followed: rituximab (3 (4.7%)), rituximab+sulfasalazine (2 (3.1%)), rituximab+leflunomide (9 (14.1%)), rituximab+methotrexate (14 (21.9%)), methotrexate (10 (15.6%)), methotrexate+oral glucocorticoids (10 (15.6%)), leflunomide+methotraxate (1 (1.6%)), oral glucocorticoids (6 (9.4%)), tocilizumab (4 (6.3%)), abatacept+methotraxate (1 (1.6%)), and leflunomide (4 (6.3%)). No associations between therapy and studied expression parameters were found. </p>
+        <p>Venous blood (6 mL) was collected on an empty stomach from the ulnar vein under sterile conditions into vacuum tubes with K3-EDTA anticoagulant (ethylenediaminetetraacetic acid tripotassium salt, Vacuette K3-EDTA, Greiner Bio-One GmbH, Kremsm&#xFC;nster, Austria).</p>
+        <p>Sample preparation was performed using BD FACS Lysing Solution buffer (cat. no. 349202; BD, San Jose, CA, USA) according to the manufacturer&#x2019;s instructions.</p>
+      </sec>
+      <sec id="sec4dot2-ijms-21-00288">
+        <title>4.2. Flow Cytometry</title>
+        <p>Evaluation of phenotypic characteristics was performed by flow cytometry (FACSVerse cytometer (BD, USA)) using monoclonal antibodies: anti-human CD3 APC/Cy7, anti-human CD19 PE/Cy7, anti-human CD8 APC/Cy7, anti-human CD14 PerCP, anti-human CD25 FITC, anti-human CD127 (IL-7R&#x3B1;) APC/Cy7, anti-human CD45RO FITC, anti-human CD45RA Pacific Blue, anti-human CD45 PerCP, anti-human CD4 Pe/Cy7, anti-human TNFRI-PE, anti-human TNFRII-PE, anti-human TNFRI-APC, and anti-human TNFRII-APC (R&amp;D Systems, Minneapolis, MN, USA). Data processing and calculation of fluorescence intensity values were performed using FACSDiva 7 software (BD, USA).</p>
+        <p>To obtain the calibration curve and convert the fluorescence intensity values into absolute number of receptors for cells expressing the corresponding marker, BD QuantiBRITE PE kit (BD Biosciences, San Jose, CA, USA) containing four fractions of lyophilized beads, each carrying a different level of phycoerythrin (PE), was used. According to the manufacturer&#x2019;s instructions, a log&#x2013;log graph of the number of PE molecules versus fluorescence intensity was plotted based on the results of bead analysis, and linear relationship was identified using the trend line. The obtained relationship was used to determine a formula for converting the fluorescence intensity values for the PE channel into the number of PE molecules for each of the studied subpopulations, and the average values of the number of receptors per cell were calculated.</p>
+        <p>For the simultaneous determination of the number of TNF&#x3B1; receptors types 1 and 2 on cells in all four fractions of each cell line (TNFR1+TNFR2&#x2212;, TNFR1+TNFR2+, TNFR1&#x2212;TNFR2+, TNFR1&#x2212;TNFR2&#x2212;), double labeling of paired samples was carried out. Each sample with a certain dose of rhTNF (or control sample without TNF) was divided into two tubes stained with TNFR1-PE and TNFR2-APC or with TNFR2-PE and TNFR1-APC.</p>
+        <p>After cytometry analysis, the number of type 1 receptors (for TNFR1+TNFR2&#x2212; and TNFR1+TNFR2+ fractions) was calculated in tubes with TNFR1-PE and TNFR2-APC. The number of type 2 receptors (for TNFR1&#x2212;TNFR2+ and TNFR1+TNFR2+ fractions) was calculated in tubes with TNFR2-PE and TNFR1-APC. The percentage of each fraction was determined as the mean between the two samples.</p>
+        <p>Detailed gating strategy and examples of co-expression analysis were provided in our previous publication describing this analysis in healthy individuals [<xref ref-type="bibr" rid="B15-ijms-21-00288">15</xref>].</p>
+      </sec>
+      <sec id="sec4dot3-ijms-21-00288">
+        <title>4.3. Statistics</title>
+        <p>Statistical data processing was performed using STATISTICA 7.0 software (StatSoft, Tulsa, OK, USA). The data are presented as median and IQR. Independent samples were compared by determining the statistical significance of differences using the non-parametric Kruskal&#x2013;Wallis test with multiple comparison of medians (comparison of identical indicators for different subpopulations and identification of differences between the studied subgroups). Correlations between the studied parameters were determined using Pearson correlation coefficient (at <italic>p</italic> &lt; 0.05). Univariable and multivariable logistic regression were performed. Multifactor models were obtained by reducing insignificant indicators to achieve the best model quality indicators (lowest AIC and highest <italic>R</italic><sup>2</sup>). The statistical significance of changes, in parameters in dependent samples in patients after correction of background therapy, was established using Wilcoxon test (differences were considered significant at <italic>p</italic> &lt; 0.05).</p>
+      </sec>
+    </sec>
+    <sec id="sec5-ijms-21-00288" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>In the present study, we showed that a redistribution of type 1 and type 2 receptors for TNF&#x3B1; takes place in RA immune cells compared with healthy donors. These changes are associated with clinical and laboratory indicators of disease activity.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, S.V.S.; Data curation, A.A., J.L., J.Z., O.C., and N.S.; Formal analysis, A.A., J.Z., O.C., N.S., and V.G.; Investigation, J.Z.; Methodology, A.A., J.L., J.Z., O.C., N.S., and I.E.; Project administration, A.A., J.L., A.S., A.K., and S.V.S.; Resources, I.E. and A.K.; Software, J.L. and V.G.; Supervision, S.V.S.; Validation, O.C., N.S., and A.S.; Visualization, A.A. and V.G.; Writing&#x2014;original draft, A.A.; Writing&#x2014;review and editing, J.L., J.Z., O.C., N.S., A.S., I.E., V.G., A.K., and S.V.S. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by Russian project &#x201C;5-100&#x201D;. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank S. Win, from Edanz Group (<uri>www.edanzediting.com/ac</uri>) for editing a draft of this manuscript.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. </p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00288">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smolen</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Landew&#xE9;</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bijlsma</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Burmester</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Chatzidionysiou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Dougados</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nam</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ramiro</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Voshaar</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van Vollenhoven</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2016 update</article-title>
+          <source>Ann. Rheum. Dis.</source>
+          <year>2017</year>
+          <volume>76</volume>
+          <fpage>960</fpage>
+          <lpage>977</lpage>
+          <pub-id pub-id-type="doi">10.1136/annrheumdis-2016-210715</pub-id>
+          <pub-id pub-id-type="pmid">28264816</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00288">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feldmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brennan</surname>
+              <given-names>F.M.</given-names>
+            </name>
+            <name>
+              <surname>Maini</surname>
+              <given-names>R.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of cytokines in rheumatoid arthritis</article-title>
+          <source>Annu. Rev. Immunol.</source>
+          <year>1996</year>
+          <volume>14</volume>
+          <fpage>397</fpage>
+          <lpage>440</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.immunol.14.1.397</pub-id>
+          <pub-id pub-id-type="pmid">8717520</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00288">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cabal-Hierro</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lazo</surname>
+              <given-names>P.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Signal transduction by tumor necrosis factor receptors</article-title>
+          <source>Cell Signal.</source>
+          <year>2012</year>
+          <volume>24</volume>
+          <fpage>1297</fpage>
+          <lpage>1305</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cellsig.2012.02.006</pub-id>
+          <pub-id pub-id-type="pmid">22374304</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00288">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fotin-Mleczek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Henkler</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Samel</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Reichwein</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hausser</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Parmryd</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Scheurich</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Schmid</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Wajant</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Apoptotic crosstalk of, TNF receptors: TNF-R2-induces depletion of TRAF2 and IAP proteins and accelerates TNF-R1-dependent activation of cascase-8</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2002</year>
+          <volume>115</volume>
+          <issue-part>Pt 13</issue-part>
+          <fpage>2757</fpage>
+          <lpage>2770</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00288">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alshevskaya</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Kireev</surname>
+              <given-names>F.D.</given-names>
+            </name>
+            <name>
+              <surname>Laushkina</surname>
+              <given-names>Z.A.</given-names>
+            </name>
+            <name>
+              <surname>Lopatnikova</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Gladkikh</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Sennikova</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Karaulov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Sennikov</surname>
+              <given-names>S.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhanced expression of TNF-&#x3B1; type-1 receptors by immune cells in active pulmonary tuberculosis</article-title>
+          <source>Int. J. Tuberc. Lung Dis.</source>
+          <year>2018</year>
+          <volume>22</volume>
+          <fpage>212</fpage>
+          <lpage>220</lpage>
+          <pub-id pub-id-type="doi">10.5588/ijtld.17.0404</pub-id>
+          <pub-id pub-id-type="pmid">29506619</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00288">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lopatnikova</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Alshevskaya</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Krugleeva</surname>
+              <given-names>O.L.</given-names>
+            </name>
+            <name>
+              <surname>Nepomnyschih</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Gladkikh</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Lukinov</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>Karaulov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Sennikov</surname>
+              <given-names>S.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of TNF&#x3B1; Receptors on Immunocompetent Cells Is Increased in Atopic Dermatitis</article-title>
+          <source>Int. Arch. Allergy Immunol.</source>
+          <year>2017</year>
+          <volume>174</volume>
+          <fpage>151</fpage>
+          <lpage>160</lpage>
+          <pub-id pub-id-type="doi">10.1159/000481135</pub-id>
+          <pub-id pub-id-type="pmid">29212072</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00288">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ehrenstein</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Warnes</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Isenberg</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Mauri</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Compromised function of regulatory T cells in rheumatoid arthritis and reversal by anti-TNFalpha therapy</article-title>
+          <source>J. Exp. Med.</source>
+          <year>2004</year>
+          <volume>200</volume>
+          <fpage>277</fpage>
+          <lpage>285</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.20040165</pub-id>
+          <pub-id pub-id-type="pmid">15280421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00288">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Valencia</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Stephens</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Goldbach-Mansky</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shevach</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Lipsky</surname>
+              <given-names>P.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>TNF downmodulates the function of human CD4+CD25hi T-regulatory cells</article-title>
+          <source>Blood</source>
+          <year>2006</year>
+          <volume>108</volume>
+          <fpage>253</fpage>
+          <lpage>261</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2005-11-4567</pub-id>
+          <pub-id pub-id-type="pmid">16537805</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00288">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Atretkhany</surname>
+              <given-names>K.N.</given-names>
+            </name>
+            <name>
+              <surname>Mufazalov</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Dunst</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kuchmiy</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Gogoleva</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Andruszewski</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Drutskaya</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Faustman</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Schwabenland</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Prinz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Intrinsic TNFR2 signaling in T regulatory cells provides protection in CNS autoimmunity</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2018</year>
+          <volume>115</volume>
+          <fpage>13051</fpage>
+          <lpage>13056</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1807499115</pub-id>
+          <pub-id pub-id-type="pmid">30498033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00288">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Polz</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Remke</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weber</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Weber-Steffens</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Pietryga-Krieger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;ller</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ritter</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Mostb&#xF6;ck</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>M&#xE4;nnel</surname>
+              <given-names>D.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myeloid suppressor cells require membrane TNFR2 expression for suppressive activity</article-title>
+          <source>Immun. Inflamm. Dis.</source>
+          <year>2014</year>
+          <volume>2</volume>
+          <fpage>121</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1002/iid3.19</pub-id>
+          <pub-id pub-id-type="pmid">25400932</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00288">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalliolias</surname>
+              <given-names>G.D.</given-names>
+            </name>
+            <name>
+              <surname>Ivashkiv</surname>
+              <given-names>L.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>TNF biology, pathogenic mechanisms and emerging therapeutic strategies</article-title>
+          <source>Nat. Rev. Rheumatol.</source>
+          <year>2016</year>
+          <volume>12</volume>
+          <fpage>49</fpage>
+          <lpage>62</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrrheum.2015.169</pub-id>
+          <pub-id pub-id-type="pmid">26656660</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00288">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sennikov</surname>
+              <given-names>S.V.</given-names>
+            </name>
+            <name>
+              <surname>Alshevskaya</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Zhukova</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Belomestnova</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Karaulov</surname>
+              <given-names>A.V.</given-names>
+            </name>
+            <name>
+              <surname>Lopatnikova</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression Density of Receptors as a Potent Regulator of Cell Function and Property in Health and Pathology</article-title>
+          <source>Int. Arch. Allergy Immunol.</source>
+          <year>2019</year>
+          <volume>178</volume>
+          <fpage>182</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="doi">10.1159/000494387</pub-id>
+          <pub-id pub-id-type="pmid">30544119</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00288">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madsen</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Motti</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Karmally</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Szymkowski</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Lambertsen</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Bethea</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Brambilla</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Oligodendroglial, TNFR2 Mediates Membrane TNF-Dependent Repair in Experimental Autoimmune Encephalomyelitis by Promoting Oligodendrocyte Differentiation and Remyelination</article-title>
+          <source>J. Neurosci.</source>
+          <year>2016</year>
+          <volume>36</volume>
+          <fpage>5128</fpage>
+          <lpage>5143</lpage>
+          <pub-id pub-id-type="doi">10.1523/JNEUROSCI.0211-16.2016</pub-id>
+          <pub-id pub-id-type="pmid">27147664</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00288">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aletaha</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Neogi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Silman</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Funovits</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Felson</surname>
+              <given-names>D.T.</given-names>
+            </name>
+            <name>
+              <surname>Bingham</surname>
+              <given-names>C.O.</given-names>
+              <suffix>III</suffix>
+            </name>
+            <name>
+              <surname>Birnbaum</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Burmester</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Bykerk</surname>
+              <given-names>V.P.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>2010 Rheumatoid arthritis classification criteria: An American College of Rheumatology/European League Against Rheumatism collaborative initiative</article-title>
+          <source>Arthritis Rheum.</source>
+          <year>2010</year>
+          <volume>62</volume>
+          <fpage>2569</fpage>
+          <lpage>2581</lpage>
+          <pub-id pub-id-type="doi">10.1002/art.27584</pub-id>
+          <pub-id pub-id-type="pmid">20872595</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00288">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sennikov</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Alshevskaya</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhukova</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Belomestnova</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Karaulov</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Evsegneeva</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Lopatnikova</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Co-expression of membrane-bound TNF-alpha type 1 and 2 receptors differ in the subsets of immunocompetent cells</article-title>
+          <source>Immunol. Lett.</source>
+          <year>2019</year>
+          <volume>207</volume>
+          <fpage>1</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.imlet.2019.01.005</pub-id>
+          <pub-id pub-id-type="pmid">30639514</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="ijms-21-00288-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Co-expression profiles for TNF receptors in main subpopulations of MNC PC of healthy donors and patients with RA.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00288-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00288-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Subpopulations of T helper cells. Proportion of cells expressing type 1 and 2 receptors for TNF&#x3B1; among T helper cells. Data have been normalized to the total median value.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00288-g002.tif"/>
+      </fig>
+      <fig id="ijms-21-00288-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Subpopulations of cytotoxic T cells. Proportion of cells expressing type 1 and 2 receptors for TNF&#x3B1; among cytotoxic T cells. Data have been normalized to the total median value.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00288-g003.tif"/>
+      </fig>
+      <fig id="ijms-21-00288-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Number of type 1 and 2 receptors for TNF&#x3B1; on the surfaces of immune cells. Data are presented as median. Arrows indicate statistically significant differences (<italic>p</italic> &lt; 0.05).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00288-g004.tif"/>
+      </fig>
+      <table-wrap id="ijms-21-00288-t001" position="float">
+        <object-id pub-id-type="pii">ijms-21-00288-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Number of type 1 and 2 receptors for TNF&#x3B1; on the surfaces of immune cells. Data are presented as median and interquartile range.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">TNFR1/2</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Subset</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Health</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">RA</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>p</italic> Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="12" align="center" valign="middle" style="border-bottom:solid thin">TNFR1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD14+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4107 (2713&#x2013;12,435)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4604 (1853&#x2212;10,353)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.640</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD19+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2147 (1510&#x2013;6077)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">820 (577&#x2212;2218)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.757</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD3+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">743 (190&#x2013;2036)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">754 (481&#x2212;1844)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.120</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1685 (673&#x2212;5286)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">784 (437&#x2212;1074)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4+CD25+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1965 (973&#x2212;14,891)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">730 (500&#x2212;970)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.000</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4+CD45R0+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5575 (1893&#x2212;12,654)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">818 (530&#x2212;1142)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4+CD45RA+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">918 (276&#x2212;2269)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">469 (376&#x2212;674)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.000</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8+25+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">729 (127&#x2212;1885)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">450 (366&#x2212;525)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.034</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8+CD2525+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">703 (164&#x2212;1658)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">523 (415&#x2212;619)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.203</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8+CD45R0+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1336 (292&#x2212;3363)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">787 (565&#x2212;1008)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.047</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8+CD45RA+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">667 (175&#x2212;1489)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">443 (404&#x2212;681)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.178</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Treg</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1253 (569&#x2212;6191)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">764 (592&#x2212;1560)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.020</td>
+            </tr>
+            <tr>
+              <td rowspan="12" align="center" valign="middle" style="border-bottom:solid thin">TNFR2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD14+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15181 (12,588&#x2212;33,641)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8029 (4809&#x2212;21,546)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.785</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD19+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4704 (3155&#x2212;12,446)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2056 (1264&#x2212;3022)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.033</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD3+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">935 (120&#x2212;2269)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1404 (1075&#x2212;2405)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&lt;0.001</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1570 (463&#x2212;3504)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2477 (1434&#x2212;4620)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.475</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4+CD25+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1657 (465&#x2212;3750)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3238 (1586&#x2212;6582)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.327</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4+CD45R0+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4601 (2547.5&#x2212;12,913.5)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23392 (3536&#x2212;56,201)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.048</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4+CD45RA+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2372.5 (979&#x2212;6276.5)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1209 (970&#x2212;1981)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.009</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8+25+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1092 (322&#x2212;2528)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1302 (833&#x2212;2781)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.252</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8+CD2525+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1370 (388&#x2212;4578)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1628 (922&#x2212;3060)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.728</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8+CD45R0+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2543.5 (1146.5&#x2212;7057)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">11,915 (2476&#x2212;27,212)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.009</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8+CD45RA+</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1496.5 (336.5&#x2212;3657)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1220 (857&#x2212;2415)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.743</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Treg</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1460 (201&#x2212;5029)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2885 (1790&#x2212;6996)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.237</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="ijms-21-00288-t002" position="float">
+        <object-id pub-id-type="pii">ijms-21-00288-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Correlation analysis (<italic>p</italic> &lt; 0.05).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cell Subset</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">DAS-28</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">RA Duration</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">RF Level</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">ACCP</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CRP Level</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Erosive Arthritis</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Active Stage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD14</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T1 (r = &#x2212;0.72) <break/>% T2 (r = 0.82) <break/>N T2++ (r = 0.71) <break/>N T2+ (r = 0.71)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T2 (r = 0.78)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">%-- (r = 0.97) <break/>% T1 (r = 0.79)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T2 (r = 0.78)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD19</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T1 (r = 0.77)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N T2++ (r = 0.96) <break/>N T2+ (r = 0.95) <break/>N T2 full (r = 0.95)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T1 (r = 0.71)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T2 (r = 0.70)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N T2+ (r = 0.77) <break/>N T2 full (r = 0.77)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Treg</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% ++ (r = 0.82) <break/>N T1 + (r = 0.87) <break/>N T2++ (r = 0.89) <break/>N T2full(r = 0.94) <break/>N T2+ (r = 0.93)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N T1++ (r = 0.78)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% ++ (r = 0.75)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% ++ (r = 0.79) <break/>% T1 (r = 0.81) <break/>% T2 (r = &#x2212;0.73)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4 activated</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% ++ (r = 0.85)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T1 (r = &#x2212;0.72)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N T2 ++ <break/>(r = 0.72)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4 memory</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% ++ (r = 0.73) <break/>NT2++(r = 0.74) <break/>N T2full r = 0.79) <break/>N T2 + (r = 0.80)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T1 (r = &#x2212;0.96)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N T1 ++ (r = &#x2212;0.73) <break/>N T1 full (r = &#x2212;0.73)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD4 na&#xEF;ve</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N T2full (r = 0.75) <break/>N T2+ (r = 0.73)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T1 (r = &#x2212;0.86)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8 memory</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N T2full (r = 0.75) <break/>N T2 + (r = 0.76)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% ++ (r = 0.90) <break/>% T2= (r =&#x2212;0.074) <break/>N T1 ++(r = 0.77) <break/>N T1full(r = 0.77)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N T2++(r = 0.78) <break/>N T2full(r = 0.90) <break/>N T2 +(r = 0.98)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% T1+ (r = &#x2212;0.89)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">N T2 + (r = 0.70)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CD8 na&#xEF;ve</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">% ++ (r = 0.83) <break/>N T ++ (r = 0.77) <break/>N T1full(r = 0.78)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>%--: percentage of double-negative cells. %++: percentage of double-positive cells. %T1: percentage of TNFR1+TNFR2- cells. %T1: percentage of TNFR1-TNFR2+ cells. N T1 (T2) ++: number of TNFR1 (TNFR2) on double-positive cells. N T1+: number of TNFR1 on TNFR1+TNFR2- cells. N T2+: number of TNFR2 on TNFR1-TNFR2+ cells. N T1 (T2) full: total number of TNFR1 (TNFR2) in subset.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="ijms-21-00288-t003" position="float">
+        <object-id pub-id-type="pii">ijms-21-00288-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Multivariable logistic regression analysis.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Indicator</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">OR (2.5&#x2013;97.5% CI)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>p</italic>-Value</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>R</italic>
+                <sup>2</sup>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">High disease activity RA patients</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Number of TNFR2 on TNFR2+ cells from CD8CD45R0 cells</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.002 (1.001&#x2013;1.005)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.016</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.32</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Percentage of TNFR1+TNFR2&#x2212; cells from CD8 cells</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.41 (1.08&#x2013;1.96)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.021</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Percentage of TNFR1+TNFR2&#x2212; cells from activated CD8 cells</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.75 (0.54&#x2013;0.98)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.05</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">RA (vs. health)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Percentage of TNFR1+TNFR2&#x2212; cells from CD4CD45RA cells</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.326 (1.111&#x2013;1.695)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.008</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.68</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Number of TNFR1 on TNFR1+ cells from CD4CD45R0 cells</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.998 (0.995&#x2013;1)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.005</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Number of TNFR2 on TNFR2+ cells from CD3 cells</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.003 (1.001&#x2013;1.008)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.008</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">Low disease activity (vs. medium and high)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Percentage of double-positive cells from Tregs</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.039 (1&#x2013;1.08)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.044</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">0.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Percentage of double-negative cells from CD8 cells</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.059 (1&#x2013;1.13)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.045</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Percentage of TNFR1-TNFR2+ cells from CD8CD45RA cells</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.067 (1.01&#x2013;1.15)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.041</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="ijms-21-00288-t004" position="float">
+        <object-id pub-id-type="pii">ijms-21-00288-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Baseline characteristics of the studied groups.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Indicator</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Healthy Donors (<italic>n</italic> = 43)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">RA Patients (<italic>n</italic> = 64)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Gender</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Females, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30 (65.2%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">54 (84.4%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Age</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Median (IQR)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">36.5 (30: 54)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">55 (45: 65)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Disease duration</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Median (IQR)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.5 (5: 17)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Erosive arthritis</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">52 (81.3%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Systemic manifestations of arthritis</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"><italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32 (50%)</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Radiological stage</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">I, <italic>n</italic> (%)</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1 (1.6%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">II, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25 (39.1%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">III, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30 (46.9%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">IV, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8 (12.5%)</td>
+            </tr>
+            <tr>
+              <td rowspan="5" align="center" valign="middle" style="border-bottom:solid thin">Degree of activity</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0, <italic>n</italic> (%)</td>
+              <td rowspan="5" align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7 (10.9%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4 (6.3%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">32 (50%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21 (32.8%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0 (0%)</td>
+            </tr>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">DAS-28 disease activity</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">low (&lt;3.2), <italic>n</italic> (%)</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">12 (18.8%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">medium (3.2&#x2212;5.1), <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">28 (43.8%)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">high (&gt;5.1), <italic>n</italic> (%)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">24 (37.5%)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

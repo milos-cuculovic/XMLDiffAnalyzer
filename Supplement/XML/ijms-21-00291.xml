@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010291</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00291</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Detection and Quantification of Extracellular Vesicles via FACS: Membrane Labeling Matters!</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ender</surname>
+            <given-names>Fanny</given-names>
+          </name>
+          <xref rid="c1-ijms-21-00291" ref-type="corresp">*</xref>
+          <xref rid="fn1-ijms-21-00291" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zamzow</surname>
+            <given-names>Piet</given-names>
+          </name>
+          <xref rid="fn1-ijms-21-00291" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>von Bubnoff</surname>
+            <given-names>Nikolas</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6409-3822</contrib-id>
+          <name>
+            <surname>Gieseler</surname>
+            <given-names>Frank</given-names>
+          </name>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00291">Experimental Oncology, University Hospital and Medical School (UKSH), University of Luebeck, Ratzeburger Allee 160, 23538 Luebeck, Germany; <email>Piet.Zamzow@uksh.de</email> (P.Z.); <email>Nikolas.vonBubnoff@uksh.de</email> (N.v.B.); <email>Frank.Gieseler@uksh.de</email> (F.G.)</aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00291"><label>*</label>Correspondence: <email>fanny.ender@uksh.de</email>; Tel.: +49-451-3101-8412; Fax: +49-451-3101-8404</corresp>
+        <fn id="fn1-ijms-21-00291">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>291</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>30</day>
+          <month>09</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The field of extracellular vesicle (EV) research is challenged by the lack of standardized protocols to identify and specifically distinguish between exosomes and ectosomes, which are released via exocytosis or plasma membrane shedding, respectively. Using sequential centrifugation, we separated EV subpopulations from supernatants of COLO 357 pancreas carcinoma cells based on size and mass. After 10,000&#xD7; <italic>g</italic> centrifugation, we reconstituted high-speed (hs) EVs from the pellet, directly labeled them with the membrane dye carboxyfluorescein diacetate succinimidyl ester (CFSE), and performed flow cytometry based analysis. The aim was to optimize the conditions for EV labeling and detection and hence to obtain a maximum yield of intact hsEVs. We found that, for sufficient labeling of EVs, minimal temperature variations and short incubation times correlated with EV stability. Furthermore, threshold adjustment significantly improved the sensitivity of the flow cytometer for the detection of CFSE labeled hsEVs. When cells were CFSE labeled, we observed a transition of fluorescence onto EVs that were reconstituted from the pellet but not onto those that remained in the supernatant after hs centrifugation, suggesting the indirect labeling of EVs based on the way of biogenesis as a specific method for the distinction of exosomes and ectosomes. Protocol standardization is of major importance for the use of EVs as diagnostic markers in liquid biopsies.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>extracellular vesicles</kwd>
+        <kwd>exosomes</kwd>
+        <kwd>ectosomes</kwd>
+        <kwd>flow cytometry</kwd>
+        <kwd>CFSE</kwd>
+        <kwd>threshold adjustment</kwd>
+        <kwd>COLO 357</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00291" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Before the development of high-resolution flow cytometers, small particles were simply excluded from the analysis of cellular preparations because they were seen as cellular debris or background noise. Today, we know that these particles are actively secreted as important mediators of intercellular communication. Furthermore, it has been shown that the so-called &#x201C;extracellular vesicles&#x201D; (EVs) play a decisive role in inflammatory processes as well as the development and the progression of malignant diseases [<xref ref-type="bibr" rid="B1-ijms-21-00291">1</xref>,<xref ref-type="bibr" rid="B2-ijms-21-00291">2</xref>]. However, the exact mechanisms by which EVs mediate physiological and pathological processes are incompletely understood. One of the reasons is that the research field is challenged by inconsistencies regarding EV isolation, purification, and characterization. Although EV subsets arise from different biological pathways (ectosomes: budding from the outer plasma membrane; exosomes: secreted from multivesicular bodies) [<xref ref-type="bibr" rid="B3-ijms-21-00291">3</xref>] they overlap in size and yet no specific marker could be assigned to one or the other subset [<xref ref-type="bibr" rid="B4-ijms-21-00291">4</xref>]. The most promising approach to separate ectosomes from exosomes is a combination of different methods for EV purification (e.g., sequential centrifugation, magnetic beads) and characterization (e.g., high-resolution flow cytometry, nanoparticle tracking analysis (NTA), electron microscopy). According to a worldwide survey in 2016, sequential centrifugation is the most common method used for primary EV separation and concentration [<xref ref-type="bibr" rid="B5-ijms-21-00291">5</xref>]. We and others have used this method with small adaptations to successfully separate larger EVs from smaller EVs, showing differences in content and functionality of those subpopulations [<xref ref-type="bibr" rid="B6-ijms-21-00291">6</xref>,<xref ref-type="bibr" rid="B7-ijms-21-00291">7</xref>]. Enabling multi-parameter single particle analysis of EVs, high-resolution flow cytometry is considered as the most promising technique for ideal EV analysis. A high-resolution flow cytometer typically differs from a conventional machine by having: (1) high powered lasers with a smaller focused beam spot size, (2) a stable, slow velocity core stream with a small diameter, (3) smaller fluorescence/side scatter collection optical apertures and/or higher sensitivity detectors, and (4) larger forward scatter obscuration bars and higher sensitivity detectors [<xref ref-type="bibr" rid="B8-ijms-21-00291">8</xref>].</p>
+      <p>Following the suggestion of the International Society for Extracellular Vesicles (ISEV), we chose an EV nomenclature that refers to the physical characteristics (size and mass) for the experimental preparations of this study [<xref ref-type="bibr" rid="B4-ijms-21-00291">4</xref>]. Using both sequential centrifugation and high-resolution flow cytometry, we aim to contribute to the elaboration of a standardized protocol for EV isolation, differentiation, and quantification. We also want to highlight the importance of ectosomes, since they mirror the outer membrane of their cellular origin, such as tumor cells, and are thus promising candidates for use as biomarkers in patients&#x2019; body fluids (liquid biopsies).</p>
+    </sec>
+    <sec id="sec2-ijms-21-00291" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-21-00291">
+        <title>2.1. Purification and Detection and of High-Speed EVs</title>
+        <p>For the purification of EV subpopulations, we used sequential centrifugation, as this method is reported to be the one most commonly used worldwide [<xref ref-type="bibr" rid="B5-ijms-21-00291">5</xref>] (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>A). Furthermore, we showed before that high-speed centrifugation separates EV subpopulations based not only on size and density but also on their coagulative capacity, since the amount of tissue factor (TF) activity was significantly higher on the surface of high-speed (hs) EVs after 10,000&#xD7; <italic>g</italic> centrifugation when compared to smaller EVs that resided in the supernatant of malignant effusions from patients [<xref ref-type="bibr" rid="B7-ijms-21-00291">7</xref>].</p>
+        <p>Using both flow cytometry (FC) (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>B, left) and nanoparticle tracking analysis (NTA) (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>B, right), we confirmed a selective enrichment of larger EVs in the pellet and smaller EVs in the supernatant after high-speed centrifugation. Of note, a sharp separation between EV populations based on size was not possible using sequential centrifugation due to overlapping sizes. Scanning electron microscopic images of COLO 357 cell line-derived hsEVs show small, round structures that we identified as EVs (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>C). To ensure that we had intact EVs after running the centrifugation procedure, we fluorescently stained hsEVs using the cell permeable membrane dye carboxfluorescein diacetate succinimidyl erster (CFDA-SE). The intravesicular turnover of the non-fluorescent CFDA-SE to the fluorescent variant is dependent on the presence of active esterases and hence is indicative of an intact biological system [<xref ref-type="bibr" rid="B9-ijms-21-00291">9</xref>]. To further confirm the lipid-bilayer structure specific of EVs, we assessed the presence of the tetraspanins CD9, CD63, and CD81 on the surface of hsEVs by FC. We found considerable amounts of CD9 and CD81 but not CD63 within independent isolations of hsEVs (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>E, upper panel). Ensuring specificity of our results, we included a fluorescence minus one (FMO) (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>E, left) as well as an isotype control (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>E, right) in our analysis. Notably, CD9 and CD81 were not uniformly present within our preparations, as we detected these markers only on a subpopulation of CFSE<sup>+</sup> hsEVs. We showed before that hsEVs are functionally active, as they are capable of inducing tumor cell migration in vitro [<xref ref-type="bibr" rid="B10-ijms-21-00291">10</xref>]. After size calibration with megamix beads (size range of interest was 0.3&#x2013;0.9 &#xB5;m), we were able to quantify intact hsEVs based on the amount of CFSE<sup>+</sup> events detected by FC (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>D).</p>
+      </sec>
+      <sec id="sec2dot2-ijms-21-00291">
+        <title>2.2. CFSE Staining Conditions Have to Be Adjusted for Sufficient Labeling of EVs</title>
+        <p>Performing membrane labeling with CFDA-SE at 37 &#xB0;C ensures optimal conditions for enzyme activity and thus the turnover to the fluorescent variant CFSE. However, as the centrifugation protocol is always run at 4 &#xB0;C, and variations in temperature are reported to negatively affect EV stability [<xref ref-type="bibr" rid="B4-ijms-21-00291">4</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00291">11</xref>], we wondered if the labeling at 4 &#xB0;C would not give a better yield of intact CFSE<sup>+</sup> hsEVs. To get a complete picture, we compared 4 &#xB0;C, room temperature (RT), as well as 37 &#xB0;C. Additionally, we compared different incubation times for the labeling of hsEVs with the dye. Impressively, incubating hsEVs with 40 &#xB5;M CFSE for 10 min at 4 &#xB0;C or room temperature gave the best yield of intact CFSE<sup>+</sup> hsEVs. Significantly lower amounts of CFSE<sup>+</sup> hsEVs were detected after longer incubation times and/or at higher temperature, suggesting that longer incubation times and big temperature variations resulted in the degradation of hsEVs (<xref ref-type="fig" rid="ijms-21-00291-f002">Figure 2</xref>).</p>
+      </sec>
+      <sec id="sec2dot3-ijms-21-00291">
+        <title>2.3. Protein-Containing Sample Buffers Generate Strong Background Signals</title>
+        <p>With 200 nm, the lower resolution limit of the Novocyte flow cytometer is in close vicinity to the expected size range of EVs. Therefore, a clear distinction between electronic noise and EV-derived signals is of major importance. Of note, measuring filtered phosphate buffered saline (PBS) (0.22 &#xB5;m) alone resulted in the detection of 1.19 &#xD7; 10<sup>8</sup> &#xB1; 5.8 &#xD7; 10<sup>6</sup> events/mL (<italic>n</italic> = 4), which can be defined as background or electronic noise produced by the machine itself. Expressing the histogram axis in linear scaling format for software-based analysis, we were able to set the cut off for background signals at 250 (FITC channel) and thereby excluded 99% of the background noise (<xref ref-type="fig" rid="ijms-21-00291-f003">Figure 3</xref>A).</p>
+        <p>The situation got more complex when the membrane labeling dye CFSE was added to the sample buffer. Without any EV preparation (no enzymatic turnover), the addition of the dye to PBS sample buffer resulted in the detection of a weak CFSE<sup>+</sup> signal in the fluorescent channel (<xref ref-type="fig" rid="ijms-21-00291-f003">Figure 3</xref>B). This EV-independent CFSE<sup>+</sup> signal was stronger when PBS was supplemented with bovine serum albumin (BSA) (<xref ref-type="fig" rid="ijms-21-00291-f003">Figure 3</xref>C) or when complete cell culture medium was used (<xref ref-type="fig" rid="ijms-21-00291-f003">Figure 3</xref>D). Only the comparison with a CFSE-labeled hsEV preparation revealed that such a signal could be assigned to CFSE noise, as the EV-dependent CFSE signal was of a higher intensity (<xref ref-type="fig" rid="ijms-21-00291-f003">Figure 3</xref>E). In summary, to avoid any contaminating signal for the detection of CFSE-labeled hsEVs, we recommend using protein-free sample buffers such as pure PBS.</p>
+      </sec>
+      <sec id="sec2dot4-ijms-21-00291">
+        <title>2.4. Threshold Adjustment Reduces Background Noise and Increases the Sensitivity for the Detection of CFSE-Labeled EVs</title>
+        <p>As mentioned before, detecting small EVs by FC is always a matter of working close to the detection limit. To get an overall impression of the sample contents, we first analyzed all events that were detected by the FC and displayed them in the FITC channel as the total amount of CFSE-positive and CFSE-negative signals (<xref ref-type="fig" rid="ijms-21-00291-f004">Figure 4</xref>A). When we included almost all signals by setting a low threshold for the FITC channel (100), we obtained counts for both unlabeled and CFSE-labeled hsEVs that were even below the counts from a PBS sample, suggesting that they disappeared within the background noise. Increasing the threshold for the FITC channel up to 300 excluded the background noise but kept detecting signals coming from the fluorescently labeled hsEV sample. After excluding background signals, the total amount of CFSE negative and CFSE-positive events detected was stable within a threshold range of 300 to 1000, since a two-way ANOVA revealed no statistical difference between those samples (<xref ref-type="fig" rid="ijms-21-00291-f004">Figure 4</xref>A, green bars). Subsequently, we analyzed the impact of threshold adjustment on the detection of CFSE<sup>+</sup> hsEVs more in detail. When we set the threshold at 100, the machine detected only 1.5% CFSE<sup>+</sup> events. In contrast, with a threshold set at 1000, we obtained 10.6% CFSE<sup>+</sup> events (<xref ref-type="fig" rid="ijms-21-00291-f004">Figure 4</xref>B). This seven-fold increase in CFSE<sup>+</sup> counts was highly significant, suggesting that threshold adjustment has a strong impact on the resolution of hsEV detection by FC. Additionally, we wanted to investigate how administration of detergent affects the detection of CFSE<sup>+</sup> hsEVs. Treating CFSE-labeled hsEVs with Triton X-100 led to a highly significant decrease in CFSE<sup>+</sup> hsEV detection, suggesting EV lysis as a consequence of treatment with the detergent and thus demonstrating once more that our EV preparations comprised intact vesicles (<xref ref-type="fig" rid="ijms-21-00291-f004">Figure 4</xref>C).</p>
+      </sec>
+      <sec id="sec2dot5-ijms-21-00291">
+        <title>2.5. Tracking of Ectosome Shedding by CFSE Labeling of Their Cellular Origin</title>
+        <p>Cellular labeling with CFSE resulted in the detection of CFSE<sup>+</sup> events with high fluorescence intensity (<xref ref-type="fig" rid="ijms-21-00291-f005">Figure 5</xref>A). However, as seen in <xref ref-type="fig" rid="ijms-21-00291-f003">Figure 3</xref>E and with the aid of the respective unstained controls, the cutoff for the identification of CFSE<sup>+</sup> hsEVs was just below 10<sup>4</sup> in the CFSE detection channel. Accordingly, we used a gate to detect fluorescence in EV subpopulations from the CFSE-labeled cell culture 24 h and 48 h after seeding. Indeed, we were able to detect a transition of fluorescence from cells to EVs over time but only in the pellet (<xref ref-type="fig" rid="ijms-21-00291-f005">Figure 5</xref>B) and not in the supernatant (<xref ref-type="fig" rid="ijms-21-00291-f005">Figure 5</xref>C) after high-speed centrifugation. In summary, membrane labeling of cells enables the tracking of ectosome shedding and hence might be a specific method to differentiate between ectosomes and exosomes based on the process of their biogenesis.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-ijms-21-00291" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>In the presented study, we elaborated upon an optimized protocol for the detection and the quantification of EV subsets for cell culture supernatants. As suggested by the International Society for Extracellular Vesicles (ISEV), we chose an EV nomenclature that refers to the physical characteristics (size and mass) for the experimental preparations of this study [<xref ref-type="bibr" rid="B4-ijms-21-00291">4</xref>]. Since membrane labeling of EVs resulted in higher numbers of EVs detected, EV quantities from unstained sample preparations are underrepresented. We could show that, for sufficient labeling of EVs, minimal temperature differences and short incubation times correlated with EV stability. During fluorescence triggering, threshold adjustment improved the EV detection sensitivity of our flow cytometer considerably, which can be considered as an important piece of information regarding data comparability between different laboratories. Furthermore, in light of the different biogenesis pathways of exosomes and ectosomes, fluorescent labeling of cells enables the tracking of ectosome shedding from the plasma membrane. Herewith, we provide a simple method allowing a specific distinction of ectosomes and exosomes based on their way of biogenesis. This method, however, is only applicable for cell culture systems and not for patient samples.</p>
+      <p>Here, we isolated and purified EV subsets from cell culture supernatants of COLO 357 cells by sequential centrifugation. Such protocols separate samples by size and mass and are commonly used in the field of EV research [<xref ref-type="bibr" rid="B5-ijms-21-00291">5</xref>,<xref ref-type="bibr" rid="B7-ijms-21-00291">7</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00291">12</xref>,<xref ref-type="bibr" rid="B13-ijms-21-00291">13</xref>,<xref ref-type="bibr" rid="B14-ijms-21-00291">14</xref>]. The final step of our EV purification protocol was a 10,000&#xD7; <italic>g</italic> centrifugation resulting in the separation of EV fractions into the pellet and the supernatant according to their different sizes and masses. We focused on EVs reconstituted from the pellet after high-speed centrifugation that we designated &#x201C;hsEVs&#x201D;. Using flow cytometry and NTA, we could confirm that our protocol results in a selective enrichment of larger particles in the pellet. Electron microscopic images of hsEVs revealed round-shaped structures sticking together that we identified as EVs (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>C). We showed before that an increased amount of phosphatidylserine (PS) on EVs is associated with a sticky phenotype [<xref ref-type="bibr" rid="B10-ijms-21-00291">10</xref>]. The detectability of PS on the outer leaflet of ectosomes has been associated with their way of generation by budding from the plasma membrane of the cell of origin [<xref ref-type="bibr" rid="B15-ijms-21-00291">15</xref>].</p>
+      <p>Ectosomes and exosomes are often described as particles with sizes of 100&#x2013;1000 nm and 30&#x2212;100 nm, respectively [<xref ref-type="bibr" rid="B2-ijms-21-00291">2</xref>,<xref ref-type="bibr" rid="B16-ijms-21-00291">16</xref>]. However, the applicability of techniques for a precise size determination strongly differs between currently available methods. Flow cytometry compares the scatter parameters of EVs with those of standard particles (e.g., polystyrene beads) of a known diameter. However, the intensity of FSC is not directly related to the particle size [<xref ref-type="bibr" rid="B17-ijms-21-00291">17</xref>]. Additionally, light scattering also depends on the refractive index, the absorption coefficient, and the particle shape properties. Therefore, the characteristics of polystyrene beads significantly differ from those of cells and EVs [<xref ref-type="bibr" rid="B18-ijms-21-00291">18</xref>]. In our study, we also refer to such beads for size calibration. For the identification of larger EVs (presumably ectosomes), we created a 0.3&#x2013;0.9 &#xB5;m size gate and analyzed the amount of intact hsEVs therein. We are aware that our results do not match this size range in equal measure, but it is applicable as a consistent parameter for the CFSE-labeling and -detection protocol optimization procedure. In comparison to flow cytometry, nanoparticle tracking analysis (NTA) is not influenced by the different refractive indices of size beads and biological material but uses the scattered light to detect a particle and tracks its motion as a function of time [<xref ref-type="bibr" rid="B19-ijms-21-00291">19</xref>]. Using this method, we could show that EVs reconstituted from the pellet after high-speed centrifugation comprised a broad spectrum of particle sizes ranging from 80&#x2013;400 nm, whereas a rather monodisperse EV population with a size of approximately 100 nm resided in the supernatant. This finding is in agreement with that of Cocucci and Meldolesi, who summarized the literature on similarities and differences between exosomes and ectosomes [<xref ref-type="bibr" rid="B3-ijms-21-00291">3</xref>].</p>
+      <p>To demonstrate that purified hsEVs are intact biological objects, we used the membrane labeling dye CFSE, as the turnover of the non-fluorescent to the fluorescent variant is dependent on active esterases [<xref ref-type="bibr" rid="B20-ijms-21-00291">20</xref>,<xref ref-type="bibr" rid="B21-ijms-21-00291">21</xref>,<xref ref-type="bibr" rid="B22-ijms-21-00291">22</xref>]. Furthermore, we detected considerable amounts of CD9 and CD81 on the surface of hsEVs (see <xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>E), demonstrating the lipid-bilayer structure of EVs in general. Despite Western blotting being the most commonly used method for assessing the presence of proteins in total EV preparations, FC of membrane labeled intact EVs provides the advantage to evaluate the proportion of intact and surface marker positive events within the total preparation. Accordingly, we could show that the presence of these proteins is limited to a subpopulation of EVs. As sequential centrifugation separates EVs according to size and mass rather than based on the way of biogenesis, we cannot confidently ascribe the presence of CD9 and CD81 to exosomes or ectosomes. In light of our protocol optimization, the aim was to improve CFSE staining conditions (incubation time and temperature), ensuring hsEV stability during preparation and thus obtaining the highest yield of intact hsEVs. Enzymes of the human body typically have a temperature optimum of 37 &#xB0;C characterized by high enzyme activity. However, the sequential centrifugation protocol was always run at 4 &#xB0;C, which means that hsEVs have to withstand big temperature differences during the process of preparation. Therefore, we tested the impact of a CFSE incubation at 4 &#xB0;C, room temperature, or 37 &#xB0;C on the quantification of CFSE<sup>+</sup> hsEVs by flow cytometry. Furthermore, we determined the influence of a 10 min and a 60 min CFSE incubation on hsEV counts. Indeed, keeping temperature variations at a low level during a short-term staining improves hsEV stability, since we obtained the highest amounts of CFSE<sup>+</sup> hsEVs after a 10 min staining at 4 &#xB0;C or at room temperature, which was significantly different from the other conditions tested. Although it is already known that temperature affects EV stability, researchers often only refer to storage conditions and suggest avoiding freeze-thaw cycles [<xref ref-type="bibr" rid="B4-ijms-21-00291">4</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00291">11</xref>]. Only one study showed that longer incubation times improved EV staining but at the same time decreased EV concentration in a time- and a temperature-dependent manner [<xref ref-type="bibr" rid="B23-ijms-21-00291">23</xref>].</p>
+      <p>After CFSE labeling, we performed sequential speed centrifugation, including high-speed centrifugation at 10,000&#xD7; <italic>g</italic> for 90 min. Since we are interested in the identification and the characterization of biologically active EV sub-fractions from the pellet&#x2014;in essence, ectosomes for reasons explained earlier&#x2014;we had to find an appropriate sample buffer for reconstitution. Our demand on such a buffer was a minimal generation of background signals, alone and in combination with the dye, as well as a stabilizing impact on the hsEV preparations. Therefore, we tested PBS, PBS supplemented with BSA, as well as complete cell culture medium. It is known from cell-based flow cytometry that the addition of serum proteins maintains cell viability and maximizes fluorescence signal intensities generated by pH-sensitive fluorochromes [<xref ref-type="bibr" rid="B24-ijms-21-00291">24</xref>]. In addition, as serum or serum proteins are known to decrease unspecific binding of antibodies [<xref ref-type="bibr" rid="B24-ijms-21-00291">24</xref>], we considered the use of PBS/BSA as worthy in anticipation of future experiments dealing with antibody-based characterization of hsEV. Complete cell culture medium was tested as control. Surprisingly, without the presence of hsEVs at all, the addition of CFSE to the sample buffers tested resulted in the detection of a weak fluorescent-positive signal. Only in direct comparison to a CFSE-labeled hsEV sample could we confirm that this weak signal was EV-independent and could be referred to as CFSE noise (<xref ref-type="fig" rid="ijms-21-00291-f003">Figure 3</xref>). This phenomenon was observed before and was described as spontaneous hydrolysis of free dye causing unbound fluorescence. It can be reduced by the application of size exclusion chromatography [<xref ref-type="bibr" rid="B23-ijms-21-00291">23</xref>,<xref ref-type="bibr" rid="B25-ijms-21-00291">25</xref>]. In summary, we recommend the use of protein-free sample buffers, such as pure PBS, for reconstituting hsEVs from pellets after 10,000&#xD7; <italic>g</italic> centrifugation to keep the level of potential contaminants low.</p>
+      <p>After optimization of CFSE incubation conditions and the selection of the appropriate sample buffer for hsEV reconstitution, we improved hsEV detection by adjusting the settings of the flow cytometer. As we found that unlabeled hsEVs mostly disappeared in the background noise due to the close vicinity to the detection limit of the machine, we decided first to follow the experience of Arraud et al., who described that triggering the detection by a fluorescence signal results in the detection of considerably more EVs than by the conventional approach based on light scatter triggering [<xref ref-type="bibr" rid="B26-ijms-21-00291">26</xref>]. Second, we excluded all the background noise by setting the threshold on the fluorescence detection channel (FITC) to 250, which excluded 99% of the background noise coming from a PBS sample (see <xref ref-type="fig" rid="ijms-21-00291-f003">Figure 3</xref>A); further threshold increases from 300 to 1000 resulted in stable values. When we then determined the actual amount of CFSE<sup>+</sup> hsEVs among all events, we found that increasing the threshold allowed the detection of even more CFSE<sup>+</sup> events. In conclusion, the exclusion of events by threshold adjustment was compensated by an improvement of detection sensitivity. To the best of our knowledge, this has not been shown before, but we believe this is important for evaluating the comparability of data from different laboratories. Furthermore, improving the detection sensitivity may have an implication for sensing the expression of rare antigens in future experimental settings. According to the Minimal information for studies of extracellular vesicles 2018 guidelines [<xref ref-type="bibr" rid="B4-ijms-21-00291">4</xref>], all machines and all techniques used for the identification and the characterization of EV preparations should be explained in detail. Based on our finding, threshold settings that are associated with fluorescence triggering should definitely be included in publications dealing with EV characterization.</p>
+      <p>In this study, we used CFDA-SE to label cells in vitro, as they are the source for EV generation. The non-fluorescent progenitor permeates biological membranes and is activated by esterases and covalently binds to free amines on the inner membrane leaflet as fluorescent variant (CFSE) [<xref ref-type="bibr" rid="B9-ijms-21-00291">9</xref>,<xref ref-type="bibr" rid="B20-ijms-21-00291">20</xref>,<xref ref-type="bibr" rid="B21-ijms-21-00291">21</xref>,<xref ref-type="bibr" rid="B22-ijms-21-00291">22</xref>]. Then, we cultivated CFSE-labeled COLO 357 cells and harvested cell free supernatants after 24 h and 48 h to determine the presence of CFSE<sup>+</sup> EV in the pellet or the supernatant after high-speed centrifugation. We found CFSE<sup>+</sup> EVs exclusively within a small sub-fraction of EVs that were reconstituted from the pellet after 10,000&#xD7; <italic>g</italic> centrifugation, suggesting that fluorescence was transferred from cell to vesicle during the process of membrane shedding (<xref ref-type="fig" rid="ijms-21-00291-f005">Figure 5</xref>). We suggest that, by using this method, ectosomes generated from the outer cell membrane labeled by CFSE can be distinguished from exosomes generated inside the cell from multivesicular bodies not labeled by CFSE.</p>
+    </sec>
+    <sec id="sec4-ijms-21-00291">
+      <title>4. Material and Methods</title>
+      <sec id="sec4dot1-ijms-21-00291">
+        <title>4.1. Cell Culture</title>
+        <p>EV preparations used for this study were isolated from COLO 357 cell culture supernatants. This human cell line was once derived from a metastasis of a pancreatic adenocarcinoma and grew as an adhering monolayer with a cell doubling time of 21 h [<xref ref-type="bibr" rid="B27-ijms-21-00291">27</xref>]. Cells were cultured under serum-free conditions using RPMI1640 (Lonza, Basel, Switzerland) supplemented with 10% panexin NTA (Pan-Biotech, Aidenbach, Germany), 1% penicillin streptomycin with glutamine (Gibco, Thermo Fisher Scientific, Waltham, MA, USA), and 1% sodium pyruvate (Biochrom, Berlin, Germany). Notably, we substituted FCS by panexin NTA to avoid contaminating our experimental preparation with FCS-derived EVs. Therefore, the concentration of FCS was diminished stepwise, and panexin NTA was increased over several weeks. After successful transition, COLO 357 cells were grown in a T75 flask covered by a total volume of 15 mL and incubated at 37 &#xB0;C and 5% CO<sub>2</sub>. If a flask reached 80% confluency, the supernatant was collected and further prepared according to the protocol described below. Cell-free supernatants were kept at &#x2212;80 &#xB0;C until used. Supernatants were analyzed within 3 months after freezing to avoid EV degradation due to long-term storage. Cells were split using accutase (Sigma-Aldrich, St. Louis, MO, USA), and performing regular tests for detection of mycoplasma infections (Mycoalert, Lonza, Basel, Switzerland) revealed that COLO 357 cells were free of contamination.</p>
+      </sec>
+      <sec id="sec4dot2-ijms-21-00291">
+        <title>4.2. CFSE Labeling of Cells and EVs (Direct Labeling)</title>
+        <p>For fluorescent labeling of cells and EV preparations, we used CFDA-SE, here and commonly referred to as CFSE (Cayman Chemical Company, Ann Arbor, MI, USA), a non-fluorescent progenitor of CFSE. CFDA-SE permeates biological membranes and gets activated by unspecific esterases inside the cell or the vesicle. Then, the fluorescent variant CFSE covalently binds to free amide groups of membrane proteins [<xref ref-type="bibr" rid="B21-ijms-21-00291">21</xref>]. Membrane labeling was performed after low-speed and before high-speed centrifugation (as described below) of cell culture supernatants. We used CFSE at a concentration of 40 &#xB5;M [<xref ref-type="bibr" rid="B10-ijms-21-00291">10</xref>] and incubated the samples for either 10 or 60 min at 4 &#xB0;C, room temperature, or 37 &#xB0;C. To confirm the presence of intact EVs in our preparations, we administered the detergent Triton X-100 (Sigma-Aldrich, St. Louis, MI, USA) at a final concentration of 0.1% for 20 min at room temperature for EV lysis.</p>
+      </sec>
+      <sec id="sec4dot3-ijms-21-00291">
+        <title>4.3. Antibody Labeling of EVs</title>
+        <p>To demonstrate the lipid-bilayer structure of hsEV by flow cytometry, the following antibodies against proteins of the tetraspanin family were used: anti-human CD9 Antibody (HI9a), anti-human CD63 Antibody (H5C6), and anti-human CD81 Antibody (5A6), all labeled with phycoerythrin (PE) and purchased from BioLegend (San Diego, CA, USA). Lacking specific target binding, we used an isotype control (mouse anti-human; IgG1&#x3BA;) purchased from eBiosciences/Affymetrix (San Diego, CA, USA) in place of the primary antibody to determine the contribution of non-specific background to staining. Optimal antibody concentrations were titrated beforehand. Antibody labeling was performed for 20 min at 4 &#xB0;C subsequent to CFSE labeling and just before high-speed centrifugation.</p>
+      </sec>
+      <sec id="sec4dot4-ijms-21-00291">
+        <title>4.4. CFSE Labeling of EVs via Their Biogenesis (Indirect Labeling)</title>
+        <p>As ectosomes but not exosomes are generated by the outward budding of the plasma membrane, we investigated if membrane labeling of the cell of origin leads to the transition of fluorescence into one but not the other EV subpopulation over time. Therefore, 1.5 &#xD7; 10<sup>6</sup> COLO 357 cells were labeled with 40 &#xB5;M CFSE for 10 min at 37 &#xB0;C. Following a washing step, cells were re-suspended in a total volume of 5 mL cell culture medium and seeded into a T25 flask. Twenty-four hours and 48 h after seeding, we purified EVs from cell culture supernatant by sequential centrifugation (as described below) and analyzed the different fractions for the presence of CFSE<sup>+</sup> EVs.</p>
+      </sec>
+      <sec id="sec4dot5-ijms-21-00291">
+        <title>4.5. Sequential Centrifugation</title>
+        <p>In our study, EVs were enriched using the protocols previously published by Lacroix et al. [<xref ref-type="bibr" rid="B12-ijms-21-00291">12</xref>] and Muralidharan-Chari et al. [<xref ref-type="bibr" rid="B13-ijms-21-00291">13</xref>]. In short, samples were thawed at room temperature. For depletion of cells and large cell debris including most apoptotic bodies and large oncosomes, samples were spun twice at a low-speed centrifugation of 2500&#xD7; <italic>g</italic> for 15 min (Cenrifuge 5430R, Eppendorf AG, Hamburg, Germany), and the supernatant was collected. Membrane labeling was done as described above. Subsequently, the labeled supernatant was spun at 10,000&#xD7; <italic>g</italic> for 90 min (Cenrifuge 5430R, Eppendorf AG, Hamburg, Germany). The pellet was then collected and re-suspended in 0.22 &#xB5;m filtered PBS (<xref ref-type="fig" rid="ijms-21-00291-f001">Figure 1</xref>A). In addition, PBS supplemented with bovine serum albumin (BSA) (Roche Diagnistics International, Rotkreuz, Switzerland) and complete cell culture medium was used as sample buffer to determine background noise or potential interactions with the membrane dye CFSE.</p>
+      </sec>
+      <sec id="sec4dot6-ijms-21-00291">
+        <title>4.6. High-Resolution Flow Cytometry</title>
+        <p>For the analysis of hsEV preparations, we used a high-resolution Novocyte flow cytometer (ACEA Biosciences Inc., San Diego, CA, USA). The device was equipped with a blue laser (488 nm) and an auto sampler allowing the procession of 96-well plates. We loaded plates with 100 &#xB5;L sample suspensions per well and set the stop condition to 25 &#xB5;L per sample. To create a stable, slow velocity core stream recommended for the detection of EVs, the sample acquisition speed was adjusted to 10 &#xB5;L per min, resulting in a core diameter of 6.5 &#xB5;m. For the detection of larger cells, the speed was set to 64 &#xB5;L per min and a corresponding core diameter of 16.6 &#xB5;m. We used the forward scatted light to estimate the particle size within our preparations. In parallel, we compared the scatter parameters of our particles with those of standard particles of a known diameter. These Megamix Plus FSC beads (Biocytex, Marseille, France) comprised distinct populations (0.3, 0.5, and 0.9 &#xB5;m of size), which allowed defining a size range of 0.3&#x2013;0.9 &#xB5;m for the detection of EVs. Within this size range, we quantified CFSE<sup>+</sup> events as intact hsEVs. Threshold triggering was done on the fluorescence channel (FITC) to discriminate sample-derived signals from background noise and to evaluate the sensitivity of the detection system. Threshold settings ranged between 100 and 1000. Data generated by the Novocyte were analyzed using the NovoExpress software version 1.2.4 (ACEA Biosciences Inc., San Diego, CA, USA).</p>
+      </sec>
+      <sec id="sec4dot7-ijms-21-00291">
+        <title>4.7. Nanoparticle Tracking Analysis</title>
+        <p>Nanoparticle tracking analysis (NTA) visualizes and measures small particles (10&#x2013;1000 nm) in suspension based on the analysis of Brownian motion from a video sequence. Particles in the sample were visualized by the illumination with a laser beam. The scattered light of the particles was recorded with a light-sensitive camera, which was arranged at a 90&#xB0; angle to the irradiation plane. The 90&#xB0; arrangement allowed detection and tracking of the Brownian motion of vesicles 10 to 1000 nm in size. Using a special algorithm, particles were detected, and their path was registered. The size of each individually tracked particle was calculated, thus simultaneously allowing determination of their size distribution and concentration. For this study, we used an NS300 (Malvern Instruments Ltd., Malvern, UK) equipped with a 488 nm laser module.</p>
+      </sec>
+      <sec id="sec4dot8-ijms-21-00291">
+        <title>4.8. Electron Microscopy</title>
+        <p>Isolated EVs intended for scanning electron microscopy (SEM) were fixed with glutaraldehyde at a final concentration of 2.5% in filtered PBS and stored at 4 &#xB0;C until further preparation. After homogenization, 10&#x2013;20 mL of each sample was placed onto a Thermanox coverslip (Thermo Fisher Scientific, Waltham, MA, USA) and allowed to settle for 90&#x2013;120 min in a humid chamber to prevent drying. For dehydration, the samples were then placed into solutions with increasing acetone concentration (70&#x2013;100%) and subsequently fully dried via critical point drying using CO<sub>2</sub> to avoid shrinkage effects and loss of structure from air-drying. The dehydrated samples were sputtered with gold and analyzed with an EVO LS 15 scanning electron microscope (Carl Zeiss AG, Oberkochen, Germany).</p>
+      </sec>
+      <sec id="sec4dot9-ijms-21-00291">
+        <title>4.9. Statistical Analysis</title>
+        <p>Statistical analysis was performed using GraphPad Prism version 8.2.1. (San Diego, CA, USA) Data were analyzed using two-tailed student&#x2019;s <italic>t</italic>-test or two-way ANOVA (Tukey&#x2019;s multiple comparison test) depending on the sample size. Values of <italic>p</italic> &lt; 0.05 were considered statistically significant. All data are described as mean &#xB1; SD.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-ijms-21-00291" sec-type="conclusions">
+      <title>5. Conclusions and Outlook</title>
+      <p>In this paper, we describe several improvements and requirements to correctly characterize different EV sub-populations. Such discrimination is of potential clinical relevance, as ectosomes presenting antigens from their (tumor) cell of origin could be used as biomarkers in liquid biopsies. As we provide a method for the specific distinction of exosomes and ectosomes according to their biogenesis, further characterization of EVs regarding surface antigen expression or functionality has to be considered in future experiments.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, F.E. and F.G.; Methodology, F.E.; Software, F.G.; Validation, F.E. and P.Z.; Formal Analysis, P.Z.; Investigation, F.E. and P.Z.; Resources, F.G.; Data Curation, F.E.; Writing&#x2013;Original Draft Preparation, F.E.; Writing&#x2013;Review &amp; Editing, F.G., P.Z. and N.v.B.; Visualization, F.E.; Supervision, F.G. and F.E.; Project Administration, F.G.; Funding Acquisition, F.G. and F.E. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This project has been supported in part by Anelise-Asmussen foundation, Luebeck (grant 180802), LEO Pharma Germany (grant 180208).</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We thank Franziska Axt for the technical assistance. We thank Matthias Klinger and Hristo &#xD6;run for performing scanning electron microscopy.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00291">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ender</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Von Bubnoff</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gieseler</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular vesicles: Subcellular organelles with the potential to spread cancer resistance</article-title>
+          <source>Anticancer Res.</source>
+          <year>2019</year>
+          <volume>39</volume>
+          <fpage>3395</fpage>
+          <lpage>3404</lpage>
+          <pub-id pub-id-type="doi">10.21873/anticanres.13483</pub-id>
+          <pub-id pub-id-type="pmid">31262861</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00291">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Y&#xE1;&#xF1;ez-M&#xF3;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Siljander</surname>
+              <given-names>P.R.-M.</given-names>
+            </name>
+            <name>
+              <surname>Andreu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zavec</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Borr&#xE0;s</surname>
+              <given-names>F.E.</given-names>
+            </name>
+            <name>
+              <surname>Buzas</surname>
+              <given-names>E.I.</given-names>
+            </name>
+            <name>
+              <surname>Buzas</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Casal</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Cappello</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Carvalho</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Biological properties of extracellular vesicles and their physiological functions</article-title>
+          <source>J. Extracell. Vesicles</source>
+          <year>2015</year>
+          <volume>4</volume>
+          <fpage>27066</fpage>
+          <pub-id pub-id-type="doi">10.3402/jev.v4.27066</pub-id>
+          <pub-id pub-id-type="pmid">25979354</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00291">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cocucci</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Meldolesi</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ectosomes and exosomes: Shedding the confusion between extracellular vesicles</article-title>
+          <source>Trends Cell Boil.</source>
+          <year>2015</year>
+          <volume>25</volume>
+          <fpage>364</fpage>
+          <lpage>372</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2015.01.004</pub-id>
+          <pub-id pub-id-type="pmid">25683921</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00291">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Th&#xE9;ry</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Witwer</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Aikawa</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Alcaraz</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Andriantsitohaina</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Antoniou</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Arab</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Archer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Atkin-Smith</surname>
+              <given-names>G.K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Minimal information for studies of extracellular vesicles 2018 (MISEV2018): A position statement of the international society for extracellular vesicles and update of the MISEV2014 guidelines</article-title>
+          <source>J. Extracell. Vesicles</source>
+          <year>2018</year>
+          <volume>7</volume>
+          <fpage>1535750</fpage>
+          <pub-id pub-id-type="doi">10.1080/20013078.2018.1535750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00291">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gardiner</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Di Vizio</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sahoo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Th&#xE9;ry</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Witwer</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Wauben</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>A.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Techniques used for the isolation and characterization of extracellular vesicles: Results of a worldwide survey</article-title>
+          <source>J. Extracell. Vesicles</source>
+          <year>2016</year>
+          <volume>5</volume>
+          <fpage>27066</fpage>
+          <pub-id pub-id-type="doi">10.3402/jev.v5.32945</pub-id>
+          <pub-id pub-id-type="pmid">27802845</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00291">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crescitelli</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>L&#xE4;sser</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Szab&#xF3;</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Kittel</surname>
+              <given-names>&#xC1;.</given-names>
+            </name>
+            <name>
+              <surname>Eldh</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dianzani</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Buz&#xE1;s</surname>
+              <given-names>E.I.</given-names>
+            </name>
+            <name>
+              <surname>L&#xF6;tvall</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct RNA profiles in subpopulations of extracellular vesicles: Apoptotic bodies, microvesicles and exosomes</article-title>
+          <source>J. Extracell. Vesicles</source>
+          <year>2013</year>
+          <volume>2</volume>
+          <fpage>20677</fpage>
+          <pub-id pub-id-type="doi">10.3402/jev.v2i0.20677</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00291">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gamperl</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Plattfaut</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Freund</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Quecke</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Theophil</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gieseler</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular vesicles from malignant effusions induce tumor cell migration: Inhibitory effect of LMWH tinzaparin</article-title>
+          <source>Cell Boil. Int.</source>
+          <year>2016</year>
+          <volume>40</volume>
+          <fpage>1050</fpage>
+          <lpage>1061</lpage>
+          <pub-id pub-id-type="doi">10.1002/cbin.10645</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00291">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Welsh</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Holloway</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Englyst</surname>
+              <given-names>N.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular vesicle flow cytometry analysis and standardization</article-title>
+          <source>Front. Cell Dev. Boil.</source>
+          <year>2017</year>
+          <volume>5</volume>
+          <fpage>78</fpage>
+          <pub-id pub-id-type="doi">10.3389/fcell.2017.00078</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00291">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parish</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Glidden</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Quah</surname>
+              <given-names>B.J.C.</given-names>
+            </name>
+            <name>
+              <surname>Warren</surname>
+              <given-names>H.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of the intracellular fluorescent dye cfse to monitor lymphocyte migration and proliferation</article-title>
+          <source>Curr. Protoc. Immunol.</source>
+          <year>2009</year>
+          <volume>84</volume>
+          <fpage>9</fpage>
+          <pub-id pub-id-type="doi">10.1002/0471142735.im0409s84</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00291">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gieseler</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Plattfaut</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Quecke</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Freund</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ungefroren</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ender</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Heterogeneity of microvesicles from cancer cell lines under inflammatory stimulation with TNF-&#x3B1;</article-title>
+          <source>Cell Boil. Int.</source>
+          <year>2018</year>
+          <volume>42</volume>
+          <fpage>1533</fpage>
+          <lpage>1544</lpage>
+          <pub-id pub-id-type="doi">10.1002/cbin.11040</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00291">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lucchetti</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Fattorossi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sgambato</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular vesicles in oncology: Progress and pitfalls in the methods of isolation and analysis</article-title>
+          <source>Biotechnol. J.</source>
+          <year>2019</year>
+          <volume>14</volume>
+          <fpage>e1700716</fpage>
+          <pub-id pub-id-type="doi">10.1002/biot.201700716</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00291">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lacroix</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Robert</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Poncelet</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kasthuri</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Key</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Dignat-George</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Standardization of platelet-derived microparticle enumeration by flow cytometry with calibrated beads: Results of the international society on thrombosis and haemostasis SSC collaborative workshop</article-title>
+          <source>J. Thromb. Haemost.</source>
+          <year>2010</year>
+          <volume>8</volume>
+          <fpage>2571</fpage>
+          <lpage>2574</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1538-7836.2010.04047.x</pub-id>
+          <pub-id pub-id-type="pmid">20831623</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00291">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Muralidharan-Chari</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Clancy</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Plou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Romao</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chavrier</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Raposo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Souza-Schorey</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>ARF6-regulated shedding of tumor cell-derived plasma membrane microvesicles</article-title>
+          <source>Curr. Boil.</source>
+          <year>2009</year>
+          <volume>19</volume>
+          <fpage>1875</fpage>
+          <lpage>1885</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cub.2009.09.059</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00291">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stagnara</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ottou</surname>
+              <given-names>F.G.</given-names>
+            </name>
+            <name>
+              <surname>Angelot</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Mourey</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Seilles</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Biichl&#xE9;</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Saas</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Racadot</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Correlation between platelet-derived microparticle enumeration by flow cytometry and phospholipid-dependent procoagulant activity in microparticles: The centrifugation step matters!</article-title>
+          <source>Thromb. Haemost.</source>
+          <year>2012</year>
+          <volume>107</volume>
+          <fpage>1185</fpage>
+          <lpage>1187</lpage>
+          <pub-id pub-id-type="doi">10.1160/TH11-07-0509</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00291">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leventis</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Grinstein</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The distribution and function of phosphatidylserine in cellular membranes</article-title>
+          <source>Annu. Rev. Biophys.</source>
+          <year>2010</year>
+          <volume>39</volume>
+          <fpage>407</fpage>
+          <lpage>427</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.biophys.093008.131234</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijms-21-00291">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van Niel</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Angelo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Raposo</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shedding light on the cell biology of extracellular vesicles</article-title>
+          <source>Nat. Rev. Mol. Cell Boil.</source>
+          <year>2018</year>
+          <volume>19</volume>
+          <fpage>213</fpage>
+          <lpage>228</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm.2017.125</pub-id>
+          <pub-id pub-id-type="pmid">29339798</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijms-21-00291">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shapiro</surname>
+              <given-names>H.M.</given-names>
+            </name>
+          </person-group>
+          <source>Practical Flow Cytometry</source>
+          <edition>4th ed.</edition>
+          <publisher-name>John Wiley &amp; Sons</publisher-name>
+          <publisher-loc>Hoboken, NJ, USA</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijms-21-00291">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Curl</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Bellair</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Harris</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Allman</surname>
+              <given-names>B.E.</given-names>
+            </name>
+            <name>
+              <surname>Harris</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nugent</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Delbridge</surname>
+              <given-names>L.M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Refractive index measurement in viable cells using quantitative phase-amplitude microscopy and confocal microscopy</article-title>
+          <source>Cytom. Part A</source>
+          <year>2005</year>
+          <volume>65</volume>
+          <fpage>88</fpage>
+          <lpage>92</lpage>
+          <pub-id pub-id-type="doi">10.1002/cyto.a.20134</pub-id>
+          <pub-id pub-id-type="pmid">15800856</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijms-21-00291">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szatanek</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Baj-Krzyworzeka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zimoch</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lekka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Siedlar</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Baran</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The methods of choice for Extracellular Vesicles (EVs) characterization</article-title>
+          <source>Int. J. Mol. Sci.</source>
+          <year>2017</year>
+          <volume>18</volume>
+          <elocation-id>1153</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ijms18061153</pub-id>
+          <pub-id pub-id-type="pmid">28555055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijms-21-00291">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banks</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Paquette</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of three common amine reactive fluorescent probes used for conjugation to biomolecules by capillary zone electrophoresis</article-title>
+          <source>Bioconjugate Chem.</source>
+          <year>1995</year>
+          <volume>6</volume>
+          <fpage>447</fpage>
+          <lpage>458</lpage>
+          <pub-id pub-id-type="doi">10.1021/bc00034a015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijms-21-00291">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parish</surname>
+              <given-names>C.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fluorescent dyes for lymphocyte migration and proliferation studies</article-title>
+          <source>Immunol. Cell Boil.</source>
+          <year>1999</year>
+          <volume>77</volume>
+          <fpage>499</fpage>
+          <lpage>508</lpage>
+          <pub-id pub-id-type="doi">10.1046/j.1440-1711.1999.00877.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijms-21-00291">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weston</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Parish</surname>
+              <given-names>C.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>New fluorescent dyes for lymphocyte migration studies. Analysis by flow cytometry and fluorescence microscopy</article-title>
+          <source>J. Immunol. Methods</source>
+          <year>1990</year>
+          <volume>133</volume>
+          <fpage>87</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-1759(90)90322-M</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijms-21-00291">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morales-Kastresana</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Telford</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Musich</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>McKinnon</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Clayborne</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Braig</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Rosner</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Demberg</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Watson</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Karpova</surname>
+              <given-names>T.S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Labeling extracellular vesicles for nanoscale flow cytometry</article-title>
+          <source>Sci. Rep.</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <fpage>1878</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-017-01731-2</pub-id>
+          <pub-id pub-id-type="pmid">28500324</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijms-21-00291">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holmes</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lantz</surname>
+              <given-names>L.M.</given-names>
+            </name>
+            <name>
+              <surname>Fowlkes</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Schmid</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Giorgi</surname>
+              <given-names>J.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation of cells and reagents for flow cytometry</article-title>
+          <source>Curr. Protoc. Immunol.</source>
+          <year>2001</year>
+          <volume>44</volume>
+          <fpage>5.3.1</fpage>
+          <lpage>5.3.24</lpage>
+          <pub-id pub-id-type="doi">10.1002/0471142735.im0503s44</pub-id>
+          <pub-id pub-id-type="pmid">18432799</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijms-21-00291">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Rond</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Van Der Pol</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hau</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Varga</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Sturk</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Van Leeuwen</surname>
+              <given-names>T.G.</given-names>
+            </name>
+            <name>
+              <surname>Nieuwland</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Coumans</surname>
+              <given-names>F.A.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of generic fluorescent markers for detection of extracellular vesicles by flow cytometry</article-title>
+          <source>Clin. Chem.</source>
+          <year>2018</year>
+          <volume>64</volume>
+          <fpage>680</fpage>
+          <lpage>689</lpage>
+          <pub-id pub-id-type="doi">10.1373/clinchem.2017.278978</pub-id>
+          <pub-id pub-id-type="pmid">29453194</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijms-21-00291">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arraud</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gounou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Turpin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Brisson</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fluorescence triggering: A general strategy for enumerating and phenotyping extracellular vesicles by flow cytometry</article-title>
+          <source>Cytometry A</source>
+          <year>2016</year>
+          <volume>89</volume>
+          <fpage>184</fpage>
+          <lpage>195</lpage>
+          <pub-id pub-id-type="doi">10.1002/cyto.a.22669</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijms-21-00291">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morgan</surname>
+              <given-names>R.T.</given-names>
+            </name>
+            <name>
+              <surname>Woods</surname>
+              <given-names>L.K.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>G.E.</given-names>
+            </name>
+            <name>
+              <surname>Quinn</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>McGavran</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>S.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human cell line (COLO 357) of metastatic pancreatic adenocarcinoma</article-title>
+          <source>Int. J. Cancer</source>
+          <year>1980</year>
+          <volume>25</volume>
+          <fpage>591</fpage>
+          <lpage>598</lpage>
+          <pub-id pub-id-type="doi">10.1002/ijc.2910250507</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="ijms-21-00291-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Identification and characterization of high-speed extracellular vesicles (EVs). (<bold>A</bold>) Purification of EV subsets using sequential centrifugation. (<bold>B</bold>) Analysis of EV size distribution by flow cytometry (left) and nanoparticle tracking analysis (NTA) (right). Orange histograms represent the supernatant, and cyan histograms represent the pellet after high-speed centrifugation. (<bold>C</bold>) Scanning electron microscopic image of high-speed (hs) EVs (pellet). Scale bar 100 nm. (<bold>D</bold>) Gating strategy for the identification of intact hsEVs by high-resolution flow cytometry. A gate representing the size range of interest (0.3&#x2013;0.9 &#xB5;m) was set according to known diameters of standard beads (left). Within the estimated size range of 0.3&#x2013;0.9 &#xB5;m, carboxyfluorescein diacetate succinimidyl ester (CFSE<sup>+)</sup> events were identified as intact hsEVs (right). Samples were measured with a threshold of 0 for the FITC channel. (<bold>E</bold>) Flow cytometry analysis of tetraspanin markers CD9, CD63, and CD81 on hsEVs (upper panel), fluorescence minus one (FMO) control (lower panel left), and isotype control (lower panel right). Data shown are representative of three independent experiments.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00291-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00291-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Optimization of CFSE-staining conditions for hsEVs. After low-speed centrifugation, the supernatant was harvested and stained with 40 &#xB5;M carboxfluorescein diacetate succinimidyl erster (CFDA-SE) for 10 min or 60 min at 4 &#xB0;C, room temperature (RT), or 37 &#xB0;C. Samples were then centrifuged at 10,000&#xD7; <italic>g</italic> for 90 min at 4 &#xB0;C. Pellets were re-suspended in phosphate buffered saline (PBS). Quantification of CFSE<sup>+</sup> hsEVs was done using high-resolution flow cytometry. A representative picture for the yield of intact hsEVs depending on the incubation condition is expressed by the histogram (left). Samples were measured with a threshold of 600 for the FITC channel. Bar graph shows the mean &#xB1; SD (<italic>n</italic> = 4) (right). Statistical analysis was done using two-way ANOVA and Tukey&#x2019;s multiple comparison test. <italic>p</italic> values &lt; 0.05 were considered statistically significant. * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01, *** <italic>p</italic> &lt; 0.001.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00291-g002.tif"/>
+      </fig>
+      <fig id="ijms-21-00291-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Selection of the appropriate sample buffer for hsEV reconstitution. (<bold>A</bold>) PBS without EVs and CFSE dye was measured to determine background noise. Events detected in the FITC channel are expressed in linear axis scaling format. Accordingly, a threshold of 250 in the FITC channel would exclude almost all events, since the gated area comprises less than 1%. We detected EV-independent signals over background noise when CFDA-SE was incubated in (<bold>B</bold>) PBS, (<bold>C</bold>) PBS/bovine serum albumin (BSA) or (<bold>D</bold>) cell culture medium. (<bold>E</bold>) The gate for detecting EV-dependent fluorescence signals in the FITC channel was set according to a CFSE-labeled hsEV sample. Samples were measured with a threshold of 0 for the FITC channel. Grey filled histogram = PBS without CFDA-SE; black line histogram = buffer with CFDA-SE; green filled histogram = CFSE-labeled hsEVs.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00291-g003.tif"/>
+      </fig>
+      <fig id="ijms-21-00291-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Impact of cytometer settings on the detection of hsEVs. (<bold>A</bold>) Shown is the total amount of events detected by the flow cytometer in the FITC channel and expressed as all events/mL. Bar graph shows mean &#xB1; SD (<italic>n</italic> = 4) for different threshold settings (100&#x2013;1000). PBS control (dark grey), unlabeled hsEVs (light grey), CFSE-labeled hsEVs (green). For the comparison of PBS and unlabeled hsEVs, student&#x2019;s <italic>t</italic>-test (two-tailed) was used. Statistical analysis of CFSE-labeled hsEVs (300&#x2013;1000) was done using two-way ANOVA and Tukey&#x2019;s multiple comparison test. <italic>p</italic> values &lt; 0.05 were considered statistically significant. (<bold>B</bold>) Comparison of the relative amount of CFSE<sup>+</sup> hsEVs within all events. Bar graph shows mean &#xB1; SD (<italic>n</italic> = 4) for different threshold settings (100&#x2013;1000). Statistical analysis of CFSE-labeled hsEVs (threshold 100&#x2013;1000) was done using two-way ANOVA and Tukey&#x2019;s multiple comparison test. <italic>p</italic> values &lt; 0.05 were considered statistically significant. Shown are the results of the multiple comparisons of 1000 to all the other values only. (<bold>C</bold>) HsEVs were CFSE-labeled and incubated with or without the detergent Triton X-100 (0.1%). Bar graph shows the impact of detergent treatment on the quantification of intact hsEVs. Samples were measured with a threshold of 1000 for the FITC channel representing the setting for the highest detection sensitivity. Statistical analysis was done using student&#x2019;s <italic>t</italic>-test (two-tailed). <italic>p</italic> values &lt; 0.05 were considered statistically significant. * <italic>p</italic> &lt; 0.05, *** <italic>p</italic> &lt; 0.01, **** <italic>p</italic> &lt; 0.001, ns = not significant.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00291-g004.tif"/>
+      </fig>
+      <fig id="ijms-21-00291-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Tracking of ectosome shedding by CFSE-labeling of cells. COLO 357 cells were fluorescently labeled with CFSE and cultivated under standard cell culture conditions for 48 h. Cell culture supernatants were harvested 24 and 48 h after seeding, and cells were detached and collected from their surface 48 h after seeding. The presence of CFSE<sup>+</sup> signals was determined (<bold>A</bold>) in cells after 48 h of cell culture as well as in (<bold>B</bold>) the pellet and (<bold>C</bold>) the supernatant after high-speed centrifugation (10,000&#xD7; <italic>g</italic>) by flow cytometry. Samples were measured with a threshold of 600 for the FITC channel. Black line histogram = unstained control; green line histogram = CFSE-labeled COLO 357 cells; dark green filled histogram = hs pellet 24 h after seeding; light green filled histogram = hs pellet 48 h after seeding; dark grey filled histogram = supernatant 24 h after seeding; light grey filled histogram = hs supernatant 48 h after seeding. The CFSE<sup>+</sup> gate was set according to the EV-dependent signal from a directly labeled hsEV preparation (see <xref ref-type="fig" rid="ijms-21-00291-f003">Figure 3</xref>E).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00291-g005.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sensors</journal-id>
+      <journal-title-group>
+        <journal-title>Sensors</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sensors</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sensors</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1424-8220</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/s20010247</article-id>
+      <article-id pub-id-type="publisher-id">sensors-20-00247</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Tracking Monochloramine Decomposition in MIMS Analysis</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Roumigui&#xE8;res</surname>
+            <given-names>Adrien</given-names>
+          </name>
+          <xref rid="af1-sensors-20-00247" ref-type="aff">1</xref>
+          <xref rid="af2-sensors-20-00247" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kinani</surname>
+            <given-names>Said</given-names>
+          </name>
+          <xref rid="af1-sensors-20-00247" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bouchonnet</surname>
+            <given-names>St&#xE9;phane</given-names>
+          </name>
+          <xref rid="af2-sensors-20-00247" ref-type="aff">2</xref>
+          <xref rid="c1-sensors-20-00247" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sensors-20-00247"><label>1</label>Laboratoire National d&#x2019;Hydraulique et Environnement (LNHE), Division Recherche et D&#xE9;veloppement, Electricit&#xE9; de France (EDF), 6 Quai Watier, 78401 Chatou, CEDEX 01, France; <email>adrien.roumiguieres@polytechnique.edu</email> (A.R.); <email>said.kinani@edf.fr</email> (S.K.)</aff>
+      <aff id="af2-sensors-20-00247"><label>2</label>Laboratoire de Chimie Mol&#xE9;culaire, CNRS, Institut Polytechnique de Paris, Route de Saclay, 91128 Palaiseau, France</aff>
+      <author-notes>
+        <corresp id="c1-sensors-20-00247"><label>*</label>Correspondence: <email>stephane.bouchonnet@polytechnique.edu</email>; Tel.: +33-(0)1-69-33-48-05</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>20</volume>
+      <issue>1</issue>
+      <elocation-id>247</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>10</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Membrane-introduction mass spectrometry (MIMS) has been presented as one of the promising approaches for online and real-time analysis of monochloramine (NH<sub>2</sub>Cl) in diverse matrices such as air, human breath, and aqueous matrices. Selective pervaporation of NH<sub>2</sub>Cl through the introduction membrane overcomes the need for sample preparation steps. However, both the selectivity and sensitivity of MIMS can be affected by isobaric interferences, as reported by several researchers. High-resolution mass spectrometry helps to overcome those interferences. Recent miniaturization of Fourier transform&#x2014;ion cyclotron resonance&#x2014;mass spectrometry (FT-ICR MS) technology coupled to the membrane-introduction system provides a potent tool for in field analysis of monochloramine in environmental matrices. Monochloramine analysis by MIMS based FT-ICR MS system demonstrated decomposition into ammonia. To further clarify the origin of this decomposition, headspace analyses after bypassing the membrane were undertaken and showed that monochloramine decomposition was not exclusively related to interactions within the membrane. Adsorption inside the MIMS device, followed by surface-catalyzed decomposition, was suggested as a plausible additional mechanism of monochloramine decomposition to ammonia.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>monochloramine</kwd>
+        <kwd>membrane-introduction mass spectrometry</kwd>
+        <kwd>Fourier transform-ion cyclotron resonance</kwd>
+        <kwd>adsorption</kwd>
+        <kwd>surface-catalyzed decomposition</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sensors-20-00247" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Monochloramine (NH<sub>2</sub>Cl) has useful applications in many important industrial activities. It is widely used as a disinfection and/or antifouling agent [<xref ref-type="bibr" rid="B1-sensors-20-00247">1</xref>,<xref ref-type="bibr" rid="B2-sensors-20-00247">2</xref>,<xref ref-type="bibr" rid="B3-sensors-20-00247">3</xref>]. NH<sub>2</sub>Cl may also be formed as a constituent of &#x201C;chlorine-produced oxidants&#x201D; during chlorination of water with high ammonium content, such as coastal waters [<xref ref-type="bibr" rid="B4-sensors-20-00247">4</xref>]. Online analysis of NH<sub>2</sub>Cl is of major interest because it addresses various questions related to treatment efficacy and environmental impact. For example, determining NH<sub>2</sub>Cl concentrations in seawater contributes to the chemical speciation of chlorine-derived oxidants, which is helpful in understanding chlorine chemistry and to optimize treatment. In seawater ammonia competes with bromide to react with chlorine. Several studies reported that formation of NH<sub>2</sub>Cl dominates that of bromine (Br<sub>2</sub>/HOBr/<sup>&#x2212;</sup>OBr) in chlorinated seawater when ammonia concentration exceeds 0.4 ppm [<xref ref-type="bibr" rid="B5-sensors-20-00247">5</xref>,<xref ref-type="bibr" rid="B6-sensors-20-00247">6</xref>]. At ammonia concentrations over 0.1 ppm, NH<sub>2</sub>Cl concentration is higher than bromamines concentration [<xref ref-type="bibr" rid="B7-sensors-20-00247">7</xref>]. Compared to bromamines, which are very unstable and decompose rapidly, NH<sub>2</sub>Cl can remain longer in chlorinated seawater [<xref ref-type="bibr" rid="B8-sensors-20-00247">8</xref>]. Being a weaker oxidant than free bromine, monochloramine has a longer half-life and produces significantly less total organic halogen compounds such as trihalomethanes and haloacetic acid.</p>
+      <p>However, monochloramine analysis at low concentrations presents significant analytical challenges due to its physicochemical properties: Unstable in water, relatively low molecular weight, high polarity, good water solubility, and absence of chemical groups that might facilitate detection. Much effort has been devoted in recent years to the development of sensitive and robust methods to measure NH<sub>2</sub>Cl concentrations in different aqueous matrices [<xref ref-type="bibr" rid="B1-sensors-20-00247">1</xref>,<xref ref-type="bibr" rid="B2-sensors-20-00247">2</xref>]. Several previous studies presented membrane-introduction mass spectrometry (MIMS) as one of the promising approaches for online and real-time analysis of monochloramine [<xref ref-type="bibr" rid="B1-sensors-20-00247">1</xref>,<xref ref-type="bibr" rid="B9-sensors-20-00247">9</xref>,<xref ref-type="bibr" rid="B10-sensors-20-00247">10</xref>]. In this technique, analytes of interest are introduced into a mass spectrometer through a membrane, according to the principle of pervaporation. Polydimethylsiloxane (PDMS) is the most common used permselective membrane material. Mass spectrometry enables analytes to be identified by their mass-to-charge ratio. The amplitude of the product ion signal gives a quantitative measurement of analyte concentrations in the sample. The feasibility of MIMS for online screening of inorganic haloamines in water samples was examined in several studies [<xref ref-type="bibr" rid="B11-sensors-20-00247">11</xref>,<xref ref-type="bibr" rid="B12-sensors-20-00247">12</xref>,<xref ref-type="bibr" rid="B13-sensors-20-00247">13</xref>,<xref ref-type="bibr" rid="B14-sensors-20-00247">14</xref>,<xref ref-type="bibr" rid="B15-sensors-20-00247">15</xref>]. Literature backgrounds regarding inorganic chloramines analysis using the MIMS method are summarized in <xref ref-type="app" rid="app1-sensors-20-00247">Table S1 (given in Supporting Information)</xref>. Current applications for NH<sub>2</sub>Cl analysis mainly rely on electron ionization (EI) at 70 eV on low-resolution mass analyzers (usually quadrupoles, or sometimes ion traps). The resulting fingerprints comprise complex spectra of many overlapping fragments, which does not allow isobaric compounds to be distinguished. Detection limits were often too high to be useful [<xref ref-type="bibr" rid="B1-sensors-20-00247">1</xref>].</p>
+      <p>Recently, we investigated a novel transportable MIMS system equipped with a compact Fourier transform&#x2014;ion cyclotron resonance mass spectrometer (FT-ICR MS) based on a permanent magnet (1.5 Tesla), allowing high resolution in the range 15&#x2013;300 amu. One of the advantages of this instrument is its ability to discriminate between ions of interest and isobaric interference, in contrast to commonly used low-resolution analyzers: A simple quadrupole for Li and Blatchley [<xref ref-type="bibr" rid="B9-sensors-20-00247">9</xref>], triple quadrupole for Yang and Shang [<xref ref-type="bibr" rid="B16-sensors-20-00247">16</xref>], and ion trap for Weaver et al. [<xref ref-type="bibr" rid="B17-sensors-20-00247">17</xref>]. In addition, this instrument uses hydronium ions (H<sub>3</sub>O<sup>+</sup>) as a chemical ionization (CI) reagent. The acquired mass spectra are simpler, because proton transfer reaction (PTR) CI is &#x201C;soft&#x201D; and causes little or no fragmentation, resulting in higher sensitivity. PTR ionization of NH<sub>2</sub>Cl can be represented by the following reaction:<disp-formula>NH<sub>2</sub>Cl + H<sub>3</sub>O<sup>+</sup> &#x2192; NH<sub>3</sub>Cl<sup>+</sup> + H<sub>2</sub>O<label>(1)</label></disp-formula></p>
+      <p>According to this ionization reaction, protonated NH<sub>2</sub>Cl should present at two peaks, <italic>m</italic>/<italic>z</italic> 51.995 (NH<sub>3</sub><sup>35</sup>Cl<sup>+</sup>) and 53.992 (NH<sub>3</sub><sup>37</sup>Cl<sup>+</sup>), due to the isotopic distribution of the chlorine atom. However, contrary to our expectations, the acquired mass spectrum also had an intense ion at <italic>m</italic>/<italic>z</italic> 18.034, which is attributed to the NH<sub>4</sub><sup>+</sup>. The recent study by Louarn et al. suggests that this ion results from monochloramine decomposition inside the membrane [<xref ref-type="bibr" rid="B11-sensors-20-00247">11</xref>]. This decomposition has never been reported in other studies. In the present study, an aqueous NH<sub>2</sub>Cl solution was analyzed on an FT-ICR device of the same type, with and without membrane introduction (MIMS versus headspace-MS) to accurately determine where NH<sub>2</sub>Cl decomposition occurred and whether it could be avoided.</p>
+    </sec>
+    <sec id="sec2-sensors-20-00247">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-sensors-20-00247">
+        <title>2.1. Reagents and Chemicals</title>
+        <p>All reagents and chemicals were of analytic quality. Ammonium chloride (purity &gt; 99.5%), sodium hypochlorite (13% as Cl<sub>2</sub>), and sulfuric acid (purity &gt; 95.0%) were purchased from Sigma-Aldrich (Steinheim, Germany); sodium hydroxide (purity &gt; 99.0%), from Merck (Darmstadt, Germany); DPD (N,N-diethyl-p-phenylenediamine) kits for &#x201C;free and total chlorine&#x201D; analysis, from Hach (Lognes, France); and aqueous solutions were prepared with ultrapure water (specific resistance, 18 M&#x2126; cm<sup>&#x2212;1</sup> at 25 &#xB0;C) produced by a PURELAB Chorus 1 water purification system purchased from Veolia Water Technologies (Wissous, France).</p>
+      </sec>
+      <sec id="sec2dot2-sensors-20-00247">
+        <title>2.2. Monochloramine Preparation and Standardization</title>
+        <p>Monochloramine is unstable in aqueous media and no standards are commercially available. NH<sub>2</sub>Cl solutions were prepared fresh daily, as described by Kinani et al. [<xref ref-type="bibr" rid="B2-sensors-20-00247">2</xref>,<xref ref-type="bibr" rid="B3-sensors-20-00247">3</xref>]. To reduce ammonia traces in standard solution, an excess of chlorine was added to ammonium chloride (molar Cl:N ratio = 1.05:1). The pH of the NH<sub>2</sub>Cl solution was then adjusted between 7 and 7.2 by dropwise addition of 1 N NaOH and H<sub>2</sub>SO<sub>4</sub>. At this pH value, 99% of residual ammonia traces are in the NH<sub>4</sub><sup>+</sup> form (pKa (NH<sub>4</sub><sup>+</sup>/NH<sub>3</sub>) = 9.25), which is not volatile. NH<sub>3</sub> and NH<sub>2</sub>Cl have similar volatilities, with Henry&#x2019;s law constants of 0.59 and 0.86 mol m<sup>&#x2212;3</sup> Pa<sup>&#x2212;1</sup>, respectively [<xref ref-type="bibr" rid="B18-sensors-20-00247">18</xref>]. Under those experimental conditions, NH<sub>3</sub> can be considered negligible compared to NH<sub>2</sub>Cl. The resulting monochloramine solutions were standardized by DPD colorimetry, following the procedure described in the Standard Method NF EN ISO 7393-2 [<xref ref-type="bibr" rid="B19-sensors-20-00247">19</xref>].</p>
+      </sec>
+      <sec id="sec2dot3-sensors-20-00247">
+        <title>2.3. Instrumentation and MIMS Analytical Conditions</title>
+        <p>&#x201C;Free and total chlorine&#x201D; were measured using DPD method-based test kits (Hach #1406428, Loveland, CO, USA) and a DR 2800 UV-visible spectrophotometer with 2.5 cm quartz cell (Hach, Loveland, CO, USA). During chlorination of ammonium chloride at different Cl:N ratios, a double-beam Jenway 6800 UV-visible spectrophotometer with 5 cm quartz cells was used (Jenway, Essex, UK). For all samples, spectra were recorded in the 190&#x2013;500 nm range against blank, using sampling intervals of 0.2 nm with a scan speed of 500 nm min<sup>&#x2212;1</sup>. pH was measured with a &#x201C;SevenEasy&#x201D; pH-meter from Mettler Toledo (Columbus, OH, USA).</p>
+        <p>MIMS experiments were performed using a 1.5 Tesla BTrap&#x2122; Fourier transform-ion cyclotron resonance-mass spectrometer (Alyxan, Juvisy-sur-Orge, France) equipped with an internal ion source. A similar system has been described in detail elsewhere [<xref ref-type="bibr" rid="B20-sensors-20-00247">20</xref>,<xref ref-type="bibr" rid="B21-sensors-20-00247">21</xref>]. Analysis was performed by chemical ionization using H<sub>2</sub>O as reagent. The proton affinity (PA) of monochloramine (PA = 797.05 kJ&#xB7;mol<sup>&#x2212;1</sup>) exceeds that of H<sub>2</sub>O (PA = 691.0 kJ mol<sup>&#x2212;1</sup>), signifying that monochloramine might be able to undergo proton transfer reaction with H<sub>3</sub>O<sup>+</sup>, as shown in Equation (1) [<xref ref-type="bibr" rid="B22-sensors-20-00247">22</xref>,<xref ref-type="bibr" rid="B23-sensors-20-00247">23</xref>]. Hydronium ions were generated inside the ICR cell from water vapor pulses after electron ionization and molecular ion reactions. The FT-ICR MS acquisition required optimization of a set of parameters: Water as ionization reagent; trimethylbenzene as internal standard for mass calibration, and sample introduction times; reaction time; trap and exciting potentials. The optimized analytical sequence presented in <xref ref-type="app" rid="app1-sensors-20-00247">Figure S1 (given in Supporting Information)</xref> was adapted from Louarn et al. [<xref ref-type="bibr" rid="B20-sensors-20-00247">20</xref>]. The FT-ICR MS acquisition sequence for all experiments was as follows: After the quench event (to remove ions from the ICR cell), water from the reservoir was pulsed into the ICR cell for 15 ms (<italic>t</italic> = 0 to 15 ms). After a short interval of 35 ms (<italic>t</italic> = 15 to 50 ms), the water reagent was ionized by 70 eV electrons for 25 ms (<italic>t</italic> = 50 to 75 ms). A reaction time of 415 ms was used to generate H<sub>3</sub>O<sup>+</sup> ions. These reagent ions were isolated between <italic>t</italic> = 490 to 491 ms using stored waveform inverse Fourier transform (SWIFT), prior to introducing the sample vapor and trimethylbenzene via a separate pulsed valve for 500 and 5 ms, respectively. After an interval of 1260 ms (at <italic>t</italic> = 991 to 2251 ms) to allow the ICR cell region to return to near-baseline vacuum conditions, the ions were detected. The total cycle time was 5 s. To improve sensitivity, 10 spectra were summed, bringing the total cycle time to 50 s. The mass range scanned was <italic>m</italic>/<italic>z</italic> 15 to 150. The identities of the observed ions were confirmed by accurate mass measurement. Mass calibration was performed on H<sub>3</sub>O<sup>+</sup> (19.0184 Da) and C<sub>9</sub>H<sub>13</sub><sup>+</sup> (121.1017 Da) ions. Mass errors for detected ions are given in the <xref ref-type="app" rid="app1-sensors-20-00247">Supporting Information, Table S2</xref>. Over this mass range (18 to 100 Da), the high resolution of the FT-ICR MS device (&lt;&#xB1;0.003 Da) enabled reliable determination of targeted compounds. Prior to carrying out tests, the FT-ICR MS was kept isothermal at 150 &#xB0;C for 24 h to release potentially adsorbed compounds on the walls. The vacuum chamber surrounding the ICR cell was set at 90 &#xB0;C during the analysis phase.</p>
+        <p>The BTrap&#x2122; MS system is equipped by three possible sample inlets: (i) A membrane inlet for air, (ii) a membrane inlet for aqueous samples, and (iii) a sniffer probe for direct gas introduction. A schematic presentation of the instrument is given in <xref ref-type="fig" rid="sensors-20-00247-f001">Figure 1</xref>. A closed amber glass sample reservoir (1 L, septum equipped) was used for all experiments and was plumbed to the mass spectrometer. The headspace vapors distilled from aqueous solutions were delivered to the PTR-MS device through a PFA (perfluoroalkoxy) transfer line (Swagelok, PFA-T2-030-100, 30 cm length &#xD7; 0.16 mm I.D) to minimize memory effects. A DOSE IT peristaltic pump from Integra Biosciences bubbled air into the water samples (flow rate, 100 mL min<sup>&#x2212;1</sup>) to facilitate the volatilization and transfer of the analytes of interest into the MS system. A needle valve was positioned on the inlet line to adapt the headspace vapor flow rate to the pressure value required by the mass spectrometer, which should be around 10<sup>&#x2212;5</sup> mbar during sample introduction and 10<sup>&#x2212;8</sup> mbar at detection [<xref ref-type="bibr" rid="B21-sensors-20-00247">21</xref>]. A three-way valve transferred the sampling flow intermittently and more accurately to the &#x201C;Waste&#x201D; before discarding or to the &#x201C;ICR chamber&#x201D; for analysis. The line&#x2014;starting at the membrane position exit and extending to the entrance to the ion source&#x2014;was maintained at 50 &#xB0;C to minimize analyte adsorption. All experiments were carried out at room temperature (22 &#xB1; 1 &#xB0;C). Before analyzing each sample, a blank spectrum was acquired.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-sensors-20-00247" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-sensors-20-00247">
+        <title>3.1. Monochloramine Analysis in Water</title>
+        <p>The first tests were carried out using a membrane route (for liquid samples) in order to optimize mass spectrometric parameters and characterize the mass spectrum of monochloramine. Thus, parameters that affect membrane introduction, such as membrane apparatus temperature and sample flow rate, were firstly optimized for NH<sub>2</sub>Cl measurement. The membrane was a thin film of polydimethylsiloxane (PDMS) (Goodfellow, SI301126) with thickness of 125 &#xB5;m and sampling area of 60 mm<sup>2</sup>. Each parameter was studied individually using NH<sub>2</sub>Cl aqueous solution at a concentration of 70 mg L<sup>&#x2212;1</sup> (as Cl<sub>2</sub>). The effect of sample flow rate was investigated at 1, 10, and 100 mL min<sup>&#x2212;1</sup> (at 22 &#xB0;C membrane temperature). MIMS signals were examined at six temperatures: 20, 30, 40, 50, 60, 70, and 80 &#xB0;C. Using a PDMS membrane similar to that used in this research, Louarn et al. reported that steady state was not reached after 15 min of analysis; the NH<sub>2</sub>Cl solutions were therefore circulated through the membrane for 45 min, to equilibrium response [<xref ref-type="bibr" rid="B11-sensors-20-00247">11</xref>].</p>
+        <p>Results (<xref ref-type="fig" rid="sensors-20-00247-f002">Figure 2</xref>) showed that signal intensity increased abruptly with increasing sample flow through the membrane (at room temperature (22 &#xB1; 1 &#xB0;C)). This is consistent with results reported previously by She and Hwang [<xref ref-type="bibr" rid="B24-sensors-20-00247">24</xref>]. By increasing the flow rate, turbulence along the membrane increases, the boundary layer decreases and analyte transfer is thus facilitated. The system reached maximum signal abundance at a sample flow rate of 100 mL min<sup>&#x2212;1</sup>. Increasing the flow rate above this value could irreversibly damage the membrane and mass spectrometer. 100 mL min<sup>&#x2212;1</sup> was thus chosen as optimal flow rate and selected for membrane temperature studies. No significant effect of membrane temperature on MIMS signal intensity was observed at any values studied, and membrane temperature was therefore set at room temperature (22 &#xB1; 1&#xB0;C).</p>
+        <p><xref ref-type="fig" rid="sensors-20-00247-f003">Figure 3</xref> shows the mass spectrum of the NH<sub>2</sub>Cl aqueous solution at a concentration of 10 mg L<sup>&#x2212;1</sup> (as Cl<sub>2</sub>). This spectrum agreed well with that reported by Louarn et al. [<xref ref-type="bibr" rid="B11-sensors-20-00247">11</xref>]. The dominant peak at <italic>m</italic>/<italic>z</italic> 19.018 represents the H<sub>3</sub>O<sup>+</sup> reagent ion signal, and the secondary peak at <italic>m</italic>/<italic>z</italic> 121.102 represents the C<sub>6</sub>H<sub>3</sub>(CH<sub>3</sub>)<sub>3</sub>H<sup>+</sup> protonated trimethylbenzene. The characteristic peaks of protonated monochloramine were at <italic>m</italic>/<italic>z</italic> 51.995 (NH<sub>3</sub><sup>35</sup>Cl<sup>+</sup>) and 53.992 (NH<sub>3</sub><sup>37</sup>Cl<sup>+</sup>). Ricci and Rosi found that these ions showed the NH<sub>3</sub>-Cl<sup>+</sup> structure [<xref ref-type="bibr" rid="B22-sensors-20-00247">22</xref>,<xref ref-type="bibr" rid="B23-sensors-20-00247">23</xref>]. In addition, the mass spectrum of NH<sub>2</sub>Cl solutions exhibited an intense peak at <italic>m</italic>/<italic>z</italic> 18.034, attributed to the NH<sub>4</sub><sup>+</sup> ions. Two hypotheses may be formulated to explain their formation: (i) Fragmentation of protonated monochloramine and/or (ii) protonation of ammonia present in the NH<sub>2</sub>Cl solution. The first hypothesis can be ruled out, since protonated monochloramine contains only three hydrogen atoms. An alternative route involving ion-molecule reactions, such as those given in Equations (2) and (3), could be suggested. However, the reaction time and hydronium ion pressure in the ICR cell make this mechanism unlikely.
+        <disp-formula>NH<sub>3</sub>Cl<sup>+</sup> + NH<sub>2</sub>Cl &#x2192; NHCl<sub>2</sub> + NH<sub>4</sub><sup>+</sup><label>(2)</label></disp-formula>
+        <disp-formula>NH<sub>3</sub>Cl<sup>+</sup> + H<sub>2</sub>O &#x2192; HOCl + NH<sub>4</sub><sup>+</sup><label>(3)</label></disp-formula></p>
+        <p>As described above (<xref ref-type="sec" rid="sec2dot2-sensors-20-00247">Section 2.2</xref>), the chlorine-to-nitrogen molar ratio was set at 1.05 to ensure complete transformation of ammonia into NH<sub>2</sub>Cl. If there is a free ammonia residual in the sample, it will be at more than 99% in the NH<sub>4</sub><sup>+</sup> form (pKa (NH<sub>4</sub><sup>+</sup>/NH<sub>3</sub>) = 9.25), because the NH<sub>2</sub>Cl solution pH was adjusted 7.0&#x2013;7.2. Note that MIMS yields mass spectral signals only for analytes that are able to pervaporate through the membrane. It is generally believed that hydrophobic membranes such as PDMS, used in this research, impede the diffusion of ionic and hydrophilic compounds [<xref ref-type="bibr" rid="B25-sensors-20-00247">25</xref>]. This suggests that the detected NH<sub>4</sub><sup>+</sup> resulted from decomposition of monochloramine into ammonia inside the MIMS instrument. A similar conclusion was reported recently by Louarn et al., who suggested that this decomposition takes place across the membrane, since the low pressure inside the mass spectrometer source prevents adsorption and degradation reactions downstream of the membrane [<xref ref-type="bibr" rid="B11-sensors-20-00247">11</xref>]. Monochloramine decomposition on membrane has never been reported in other studies. As discussed above, current applications for NH<sub>2</sub>Cl analysis mainly rely on electron ionization (EI) at 70 eV. If the decomposition of monochloramine had occurred in previous studies, a peak at <italic>m</italic>/<italic>z</italic> 17 (NH<sub>3</sub><sup>+</sup>) and 18 (NH<sub>4</sub><sup>+</sup>) should be observed in the reported spectra. These spectra are given in <xref ref-type="app" rid="app1-sensors-20-00247">Supporting Information, Figure S2</xref>. However, the formation of these ions cannot be verified since the published mass spectra start at <italic>m</italic>/<italic>z</italic> &gt; 35, to avoid the recording of water (H<sub>2</sub>O<sup>+.</sup> at <italic>m</italic>/<italic>z</italic> 18, and H<sub>3</sub>O<sup>+</sup> at <italic>m</italic>/<italic>z</italic> 19) and air (mainly: N<sub>2</sub><sup>+.</sup> at <italic>m</italic>/<italic>z</italic> 28 and, O<sub>2</sub><sup>+.</sup> at <italic>m</italic>/<italic>z</italic> 32) ions.</p>
+        <p>It should be noted that disproportionation of monochloramine into dichloramine (NHCl<sub>2</sub>) is possible at pH 7 [<xref ref-type="bibr" rid="B3-sensors-20-00247">3</xref>,<xref ref-type="bibr" rid="B26-sensors-20-00247">26</xref>]. However, no trace of characteristic NHCl<sub>2</sub> ions was found, even though its proton affinity (PA = 757.0 &#xB1; 10 kJ mol<sup>&#x2212;1</sup>) is higher than that of water [<xref ref-type="bibr" rid="B22-sensors-20-00247">22</xref>,<xref ref-type="bibr" rid="B23-sensors-20-00247">23</xref>]. This is likely due to the fact that the NHCl<sub>2</sub> concentration in monochloramine solutions was below the MIMS detection limit. In order to accurately determine where NH<sub>2</sub>Cl decomposition occurs (and if it could be avoided), the sniffer route (without membrane) was used in the tests presented in the following sections.</p>
+      </sec>
+      <sec id="sec3dot2-sensors-20-00247">
+        <title>3.2. Headspace Analysis of Ammonia (NH<sub>3</sub>/NH<sub>4</sub><sup>+</sup>) and NH<sub>2</sub>Cl in Aqueous Solutions</title>
+        <p>In separate experiments, a 20 mM NH<sub>4</sub>Cl solution and a 20 mM NH<sub>2</sub>Cl solution were analyzed at neutral pH in headspace (without membrane) for 100 min. The NH<sub>2</sub>Cl synthesis protocol described in the Materials and Methods Section was used; it allows the ammonia concentration to be taken as negligible in comparison with the monochloramine concentration. The distilled vapors of the aqueous solutions were analyzed by FT-ICR MS according to the analytical sequence described above in <xref ref-type="sec" rid="sec2dot3-sensors-20-00247">Section 2.3</xref>. The headspace-MS profiles obtained are shown in <xref ref-type="fig" rid="sensors-20-00247-f004">Figure 4</xref>.</p>
+        <p>As illustrated in <xref ref-type="fig" rid="sensors-20-00247-f004">Figure 4</xref>, no signal of NH<sub>4</sub><sup>+</sup> ions (<italic>m</italic>/<italic>z</italic> = 18.034) was detected during headspace analysis of NH<sub>4</sub>Cl, presumably because of its low volatility at pH 7. In contrast, NH<sub>4</sub><sup>+</sup>, NH<sub>3</sub><sup>35</sup>Cl<sup>+</sup>, and NH<sub>3</sub><sup>37</sup>Cl<sup>+</sup> ions were detected as soon as the NH<sub>2</sub>Cl solution vapor was introduced. Their abundances increased as long as NH<sub>2</sub>Cl was being introduced, with a corresponding decrease in the abundance of reagent ions (H<sub>3</sub>O<sup>+</sup>). These results unambiguously confirm that NH<sub>4</sub><sup>+</sup> ions arise from NH<sub>2</sub>Cl decomposition, which does not occur exclusively inside the membrane. After 100 min of analysis, the NH<sub>2</sub>Cl solution was removed and replaced by ultrapure water. The intensities of NH<sub>3</sub><sup>35</sup>Cl<sup>+</sup> and NH<sub>3</sub><sup>37</sup>Cl<sup>+</sup> decreased rapidly in a few minutes, long enough to empty the entire line of introduction of NH<sub>2</sub>Cl vapor. In contrast, the abundance of NH<sub>4</sub><sup>+</sup> decreased much more slowly. After 30 min cleaning, there was still about a third of the maximum abundance observed during monochloramine analysis. This suggests that NH<sub>4</sub><sup>+</sup> ions do not arise from ion-molecule reactions involving NH<sub>3</sub>Cl<sup>+</sup> and NH<sub>2</sub>Cl. Given the remanence of NH<sub>4</sub><sup>+</sup> ions, it is reasonable to assume that the ammonia adsorbs on the internal walls of the transfer line between the input of the analytical system and that of the ICR cell.</p>
+      </sec>
+      <sec id="sec3dot3-sensors-20-00247">
+        <title>3.3. Headspace Analysis of Chlorinated Ammonium Chloride Solutions at Different Cl:N Molar Ratios</title>
+        <p>A 20 mM NH<sub>4</sub>Cl solution was chlorinated by successive additions of hypochlorous acid at molar Cl:N ratios of 0.35, 0.70, 1.05, 1.40, and 1.75. After each addition, pH was adjusted to 7.0&#x2013;7.2 in order to minimize the ratio of NH<sub>3</sub> to NH<sub>4</sub><sup>+</sup>. Each mixture was analyzed in headspace for 15 min. Ultrapure water steam was introduced for 15 min to clean the system between each measurement. The chlorinated solutions were also monitored by UV-Vis spectrophotometry operating in the 200&#x2013;500 nm wavelengths range. The spectra are given in <xref ref-type="app" rid="app1-sensors-20-00247">Supporting Information, Figures S3 and S4</xref>. <xref ref-type="fig" rid="sensors-20-00247-f005">Figure 5</xref> shows the evolution of ion abundance as a function of sample introduction time. For molar Cl:N ratios less than 1, ammonia is in excess over chlorine and only NH<sub>3</sub>Cl<sup>+</sup> and NH<sub>4</sub><sup>+</sup> ions were detected by MIMS. Moreover, the concentration of monochloramine in solution increases while that of ammonia decreases with Cl/N (up to a ratio of 1). If NH<sub>4</sub><sup>+</sup> ions are produced by protonation of NH<sub>3</sub> present in the aqueous solution, the intensity of NH<sub>4</sub><sup>+</sup> should decrease over time, which what was not observed in this study. This further confirms the conclusions of <xref ref-type="sec" rid="sec3dot2-sensors-20-00247">Section 3.2</xref>. At a Cl:N molar ratio of 1.40, the abundances of NH<sub>4</sub><sup>+</sup> and NH<sub>3</sub>Cl<sup>+</sup> ions still increased. In addition, an ion appeared at <italic>m</italic>/<italic>z</italic> 85.956 (NH<sub>2</sub>Cl<sub>2</sub><sup>+</sup>), indicating the formation of dichloramine, as also confirmed by UV-Vis spectrophotometry. Finally, increasing the Cl:N molar ratio to 1.75 led to a peak at <italic>m</italic>/<italic>z</italic> 84.949, corresponding to NHCl<sub>2</sub><sup>+</sup> ions. NHCl<sub>2</sub><sup>+</sup> is formed by protonation of trichloramine followed by the loss of a Cl atom [<xref ref-type="bibr" rid="B27-sensors-20-00247">27</xref>]. The isotopic distributions of both NH<sub>2</sub>Cl<sub>2</sub><sup>+</sup> and NHCl<sub>2</sub><sup>+</sup> are confirmed in the <xref ref-type="app" rid="app1-sensors-20-00247">Supporting Information, Figure S5</xref>. It is noteworthy that the abundance of all ions increased rapidly before decreasing suddenly. Monochloramine and dichloramine signal decrease may be explained in part by their conversion to trichloramine. Trichloramine is a volatile compound (Henry&#x2019;s law constant of 9.9 &#xD7; 10<sup>&#x2212;4</sup> mol m<sup>&#x2212;3</sup> Pa<sup>&#x2212;1</sup> [<xref ref-type="bibr" rid="B18-sensors-20-00247">18</xref>]) and its concentration rapidly decreases, as confirmed by DPD measurements.</p>
+        <p>The transient state (due to pervaporation steps) should not be observed analyzing headspace vapor using a sniffer route. Ion intensities are expected to increase nearly instantaneously and then remain constant. However, the results showed that the MS signal continued to increase, as shown in <xref ref-type="fig" rid="sensors-20-00247-f005">Figure 5</xref>. This is consistent with the results reported by Hansen et al., with a second increase, slower than the first, explained by an adsorption phenomenon on the walls of the mass spectrometer between the introduction system and the ion source [<xref ref-type="bibr" rid="B28-sensors-20-00247">28</xref>]. They also reported surface-catalyzed decomposition of phenoxyacetic acid and chloroethylenes into phenol and HCl/Cl<sub>2</sub>, respectively. To deal with this phenomenon, they advised minimizing the distance between the membrane and the ion source. They used a 2 cm long stainless-steel tube to connect the membrane inlet to the closed ion source. In the present research, the membrane inlet and ICR cell were spaced at more than 70 cm distance. Louarn et al. estimated that this phenomenon should not be observed, due to the low pressure inside the ICR cell [<xref ref-type="bibr" rid="B11-sensors-20-00247">11</xref>]. The total pressure measured by Hansen et al. inside their ion source was 0.7 mTorr [<xref ref-type="bibr" rid="B28-sensors-20-00247">28</xref>]. A 0.03 mTorr permeate pressure was measured inside the MI-FT-ICR MS used for their study. In the adsorption model presented by the authors, the amount of adsorbed molecules increased linearly with both wall surface area and pressure. In the present study, although the pressure was 20-fold lower inside the BTrap&#x2122; than in Hansen&#x2019;s device, the internal surface area was at least 20-fold greater, so that adsorption should not be ignored. In both headspace and membrane introduction analysis, after removing the NH<sub>2</sub>Cl solution, the abundances of all ions decreased. The decrease was rapid for NH<sub>3</sub>Cl<sup>+</sup> and reached baseline after less than 3 min. For NH<sub>4</sub><sup>+</sup>, the decrease was much slower, and had not reached baseline after 30 min, a remanence of ammonia being observed.</p>
+      </sec>
+      <sec id="sec3dot4-sensors-20-00247">
+        <title>3.4. Continuous Desorption of Adsorbed Ammonia</title>
+        <p>The time between the end of headspace introduction and detection (referred to as &#x201C;reaction time&#x201D; in <xref ref-type="app" rid="app1-sensors-20-00247">Figure S1</xref>, which displays the analytical sequence used with the MI FT-ICR mass spectrometer in the present study) was increased from 160 to 2660 ms. <xref ref-type="fig" rid="sensors-20-00247-f006">Figure 6</xref> shows that NH<sub>3</sub><sup>35</sup>Cl<sup>+</sup> and NH<sub>3</sub><sup>37</sup>Cl<sup>+</sup> intensities increased when increasing this time from 160 to 560 ms, before stabilizing thereafter; this means that protonation of monochloramine continues inside the ICR cell and quickly reaches a steady state after sample introduction. NH<sub>4</sub><sup>+</sup> intensity increases linearly over the whole-time range. This observation, associated with the slow decrease in NH<sub>4</sub><sup>+</sup> intensity after removal of the NH<sub>2</sub>Cl solution in the headspace, indicates that adsorbed monochloramine undergoes surface-catalyzed decomposition leading to ammonia.</p>
+        <p>Detection of ammonium ions is likely due to adsorption/desorption and surface catalyzed decomposition. After pervaporation of monochloramine through the membrane, some NH<sub>2</sub>Cl molecules are adsorbed on the interface walls between the membrane and the ICR cell. A surface catalyzed decomposition of monochloramine adsorbed into ammonia occurs. Then, desorbed NH<sub>3</sub> molecules are transferred to the ICR cell, where they are protonated into NH<sub>4</sub><sup>+</sup> before being detected. The overall process is represented in <xref ref-type="fig" rid="sensors-20-00247-f007">Figure 7</xref>.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-sensors-20-00247" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Membrane-introduction FT-ICR mass spectrometry is a potent tool which would allow online monitoring and unequivocal determination of several volatile organic compounds thanks to its high resolution. Nevertheless, the device used in the present study appeared unsuitable for monochloramine analysis, since NH<sub>2</sub>Cl degrades during MIMS analysis. Although decomposition of monochloramine inside the membrane cannot be ruled out, adsorption of NH<sub>2</sub>Cl onto source walls followed by surface-catalyzed decomposition seems more likely to be a predominant phenomenon. The main solutions to minimize adsorption and thus analyte degradation in this type of MIMS system consist in reducing the distance between the membrane inlet system and the ion source or in decreasing the permeate pressure.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-sensors-20-00247">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>https://www.mdpi.com/1424-8220/20/1/247/s1</uri>, Figure S1: Optimized sequence for membrane introduction proton transfer mass spectrometry, Figure S2: Inventory of NH<sub>2</sub>Cl mass spectra obtained by MIMS reported in the literature (A: from Shang and Blatchley (1999) [<xref ref-type="bibr" rid="B12-sensors-20-00247">12</xref>]; B: from Riter et al. (2001) [<xref ref-type="bibr" rid="B29-sensors-20-00247">29</xref>]; C: from Pope (2006) [<xref ref-type="bibr" rid="B30-sensors-20-00247">30</xref>]; D: from Gazda et al. (1993) [<xref ref-type="bibr" rid="B31-sensors-20-00247">31</xref>]; E: from Allard et al., 2018 [<xref ref-type="bibr" rid="B15-sensors-20-00247">15</xref>]), Figure S3: UV-Vis absorption spectra of 20 mM chlorinated NH<sub>4</sub>Cl solutions at Cl/N = 0.35 (diluted 12.5 times&#x2014;blue line), Cl/N = 0.70 (diluted 25 times&#x2014;red line), Cl/N = 1.05 (diluted 37.5 times&#x2014;green line) and Cl/N = 1.75 (diluted 62.5 times&#x2014;black line)&#x2014;Maximum wavelength at 245 nm, Figure S4: UV-Vis absorption spectra of 0.3 mM NH<sub>2</sub>Cl (in blue&#x2014;maximum wavelength at 245 nm), 0.2 mM NHCl<sub>2</sub> (in red&#x2014;maximum wavelength at 295 nm) and 0.2 mM NCl<sub>3</sub> (in green&#x2014;maximum wavelength at 340 nm), Figure S5: Mass spectrum of a mixture of 20 mM NH<sub>4</sub>Cl and 35 mM HOCl&#x2014;Isotopic distribution of dichloramine and fragmented trichloramine, Table S1: Literature backgrounds regarding organic chloramines analysis using the MIMS method, Table S2: Theoretical mass, calculated mass and mass error for ions detected during chlorination of a 20 mM NH<sub>4</sub>Cl solution.</p>
+		<supplementary-material id="sensors-20-00247-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00247-s001.pdf"></supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>A.R. performed all the experiments; A.R., S.K., and S.B. contributed to the drafting of the manuscript. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research received no external funding; it was conducted in partnership between EDF R&amp;D LNHE&#x2014;Laboratoire National d&#x2019;Hydraulique et Environnement, and Institut polytechnique de Paris/CNRS (National Center for Scientific Research). A part of the financial support for this work was provided by EDF Research &amp; Development, to which the authors are grateful.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-sensors-20-00247">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kinani</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Richard</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Souissi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Bouchonnet</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of inorganic chloramines in water</article-title>
+          <source>TRAC-Trend Anal. Chem.</source>
+          <year>2012</year>
+          <volume>33</volume>
+          <fpage>55</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.trac.2011.10.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-sensors-20-00247">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kinani</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Layousse</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Richard</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Kinani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bouchonnet</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Thoma</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sacher</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Selective and trace determination of monochloramine in river water by chemical derivatization and liquid chromatography/tandem mass spectrometry analysis</article-title>
+          <source>Talanta</source>
+          <year>2015</year>
+          <volume>140</volume>
+          <fpage>189</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.talanta.2015.03.043</pub-id>
+          <pub-id pub-id-type="pmid">26048841</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-sensors-20-00247">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sacher</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Gerstner</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Merklinger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Thoma</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kinani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Roumigui&#xE8;res</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bouchonnet</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Richard-Tanaka</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Layousse</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ata</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Determination of monochloramine dissipation kinetics in various surface water qualities under relevant environmental conditions&#x2014;Consequences regarding environmental risk assessment</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2019</year>
+          <volume>685</volume>
+          <fpage>542</fpage>
+          <lpage>554</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2019.05.364</pub-id>
+          <pub-id pub-id-type="pmid">31181531</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-sensors-20-00247">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abarnou</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Miossec</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chlorinated waters discharged to the marine environment chemistry and environmental impact. An overview</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>1992</year>
+          <volume>126</volume>
+          <fpage>173</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="doi">10.1016/0048-9697(92)90490-J</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-sensors-20-00247">
+        <label>5.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haag</surname>
+              <given-names>W.R.</given-names>
+            </name>
+            <name>
+              <surname>Lietzke</surname>
+              <given-names>M.H.</given-names>
+            </name>
+          </person-group>
+          <source>A Kinetic Model for Predicting the Concentrations of Active Halogens Species in Chlorinated Saline Cooling Waters</source>
+          <comment>A Final Report, ORNL/TM-7942</comment>
+          <publisher-name>Oak Ridge National Laboratory</publisher-name>
+          <publisher-loc>Oak Ridge, TN, USA</publisher-loc>
+          <year>1981</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-sensors-20-00247">
+        <label>6.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnson</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Inman</surname>
+              <given-names>G.W.</given-names>
+            </name>
+            <name>
+              <surname>Trofe</surname>
+              <given-names>T.W.</given-names>
+            </name>
+          </person-group>
+          <source>Cooling Water Chlorination: The Kinetics of Chlorine, Bromine, and Ammonia in Sea Water</source>
+          <publisher-name>National Technical Information Service</publisher-name>
+          <publisher-loc>Springfield, VA, USA</publisher-loc>
+          <year>1982</year>
+        </element-citation>
+      </ref>
+      <ref id="B7-sensors-20-00247">
+        <label>7.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khalanski</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jenner</surname>
+              <given-names>H.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chlorination Chemistry and Ecotoxicology of the Marine Cooling Waters Systems</article-title>
+          <source>Operational and Environmental Consequences of Large Industrial Cooling Water Systems</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Rajagopal</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jenner</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Venugopalan</surname>
+              <given-names>V.P.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer Science Publisher</publisher-name>
+          <publisher-loc>Berlin, Germany</publisher-loc>
+          <year>2012</year>
+          <fpage>183</fpage>
+          <lpage>226</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B8-sensors-20-00247">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fukushima</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Oda</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of stirring on residual chlorine during chlorination of seawater containing ammonia nitrogen</article-title>
+          <source>Water Res.</source>
+          <year>1990</year>
+          <volume>24</volume>
+          <fpage>649</fpage>
+          <lpage>652</lpage>
+          <pub-id pub-id-type="doi">10.1016/0043-1354(90)90198-F</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-sensors-20-00247">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Blatchley</surname>
+              <given-names>E.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Volatile disinfection byproduct formation resulting from chlorination of organic-nitrogen precursors in swimming pools</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2007</year>
+          <volume>41</volume>
+          <fpage>6732</fpage>
+          <lpage>6739</lpage>
+          <pub-id pub-id-type="doi">10.1021/es070871+</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-sensors-20-00247">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Westerhoff</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Shang</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of colorimetric and membrane introduction mass spectrometry techniques for chloramine analysis</article-title>
+          <source>Water Res.</source>
+          <year>2007</year>
+          <volume>41</volume>
+          <fpage>3097</fpage>
+          <lpage>3102</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.watres.2007.04.032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-sensors-20-00247">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Louarn</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Asri-Idlibi</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Leprovost</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>H&#xE9;ninger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mestdagh</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence of reactivity in the membrane for the unstable monochloramine during MIMS analysis</article-title>
+          <source>Sensors</source>
+          <year>2018</year>
+          <volume>18</volume>
+          <elocation-id>4252</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s18124252</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-sensors-20-00247">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Blatchley</surname>
+              <given-names>E.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differentiation and quantification of free chlorine and inorganic chloramines in aqueous solution by MIMS</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>1999</year>
+          <volume>33</volume>
+          <fpage>2218</fpage>
+          <lpage>2223</lpage>
+          <pub-id pub-id-type="doi">10.1021/es9812103</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-sensors-20-00247">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>W.-P.</given-names>
+            </name>
+            <name>
+              <surname>Langford</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>McEwan</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Milligan</surname>
+              <given-names>D.B.</given-names>
+            </name>
+            <name>
+              <surname>Storer</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Dummer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Epton</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring chloramines and bromamines in a humid environment using selected ion flow tube mass spectrometry</article-title>
+          <source>Rapid Commun. Mass Spectrom.</source>
+          <year>2010</year>
+          <volume>24</volume>
+          <fpage>1744</fpage>
+          <lpage>1748</lpage>
+          <pub-id pub-id-type="doi">10.1002/rcm.4570</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-sensors-20-00247">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Soltermann</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Widler</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Canonica</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>von Gunten</surname>
+              <given-names>U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of a novel extraction-based colorimetric (ABTS) method with membrane introduction mass spectrometry (MIMS): Trichloramine dynamics in pool water</article-title>
+          <source>Water Res.</source>
+          <year>2014</year>
+          <volume>58</volume>
+          <fpage>258</fpage>
+          <lpage>268</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.watres.2014.03.059</pub-id>
+          <pub-id pub-id-type="pmid">24769062</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-sensors-20-00247">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allard</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Le Menn</surname>
+              <given-names>J.-B.</given-names>
+            </name>
+            <name>
+              <surname>Cadee</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gallard</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Crou&#xE9;</surname>
+              <given-names>J.-P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Method development for quantification of bromochloramine using membrane introduction mass spectrometry</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2018</year>
+          <volume>52</volume>
+          <fpage>7805</fpage>
+          <lpage>7812</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.est.8b00889</pub-id>
+          <pub-id pub-id-type="pmid">29902372</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-sensors-20-00247">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Shang</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chlorination byproduct formation in the presence of humic acid, model nitrogenous organic compounds, ammonia, and bromide</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2004</year>
+          <volume>38</volume>
+          <fpage>4995</fpage>
+          <lpage>5001</lpage>
+          <pub-id pub-id-type="doi">10.1021/es049580g</pub-id>
+          <pub-id pub-id-type="pmid">15506191</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-sensors-20-00247">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weaver</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Johnston</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Blatchley</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Blatchley</surname>
+              <given-names>E.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Volatile disinfection by-products analysis from chlorinated indoor swimming pools</article-title>
+          <source>Water Res.</source>
+          <year>2009</year>
+          <volume>43</volume>
+          <fpage>3308</fpage>
+          <lpage>3318</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.watres.2009.04.035</pub-id>
+          <pub-id pub-id-type="pmid">19501873</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-sensors-20-00247">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sander</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Compilation of Henry&#x2019;s law constants (version 4.0) for water as solvent</article-title>
+          <source>Atmos. Chem. Phys.</source>
+          <year>2015</year>
+          <volume>15</volume>
+          <fpage>4399</fpage>
+          <lpage>4981</lpage>
+          <pub-id pub-id-type="doi">10.5194/acp-15-4399-2015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-sensors-20-00247">
+        <label>19.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>ISO 7393-2</collab>
+          </person-group>
+          <source>Water quality&#x2014;Determination of Free Chlorine and Total Chlor&#x2014;Part 2: Colorimetric Method Using N,N-Dialkyl-1,4-Phenylenediamine, for Routine Control Purposes</source>
+          <publisher-name>ISO</publisher-name>
+          <publisher-loc>Geneva, Switzerland</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B20-sensors-20-00247">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Louarn</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hamrouni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Colbeau-Justin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bruschi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lemaire</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Heninger</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mestdagh</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of a membrane inlet interfaced with a compact chemical ionization FT-ICR for real-time and quantitative VOC analysis in water</article-title>
+          <source>Int. J. Mass Spectrom.</source>
+          <year>2013</year>
+          <volume>353</volume>
+          <fpage>26</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijms.2013.07.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-sensors-20-00247">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lemaire</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lopes</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Louarn</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Mestdagh</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Latappy</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Leprovost</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Heninger</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Compact FTICR Mass Spectrometry for Real Time Monitoring of Volatile Organic Compounds</article-title>
+          <source>Sensors</source>
+          <year>2018</year>
+          <volume>18</volume>
+          <elocation-id>1415</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s18051415</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-sensors-20-00247">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ricci</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rosi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gas-Phase Chemistry of NHxCly<sup>+</sup>. I. Structure, Stability, and Reactivity of Protonated Monochloramine</article-title>
+          <source>J. Phys. Chem.</source>
+          <year>1998</year>
+          <volume>102</volume>
+          <fpage>10189</fpage>
+          <lpage>10194</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp983051f</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-sensors-20-00247">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ricci</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rosi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gas Phase Chemistry of NH<italic>x</italic>Cl<italic>y</italic><sup>+</sup> Ions. II. Structure, Stability and Reactivity of Protonated Monochloramine</article-title>
+          <source>J. Phys. Chem</source>
+          <year>1998</year>
+          <volume>104</volume>
+          <fpage>5617</fpage>
+          <lpage>5624</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp000109t</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-sensors-20-00247">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>She</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>S.-T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Concentration of dilute flavor compounds by pervaporation: Permeate pressure effect and boundary layer resistance modeling</article-title>
+          <source>J. Membr. Sci.</source>
+          <year>2004</year>
+          <volume>236</volume>
+          <fpage>193</fpage>
+          <lpage>202</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.memsci.2004.03.014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-sensors-20-00247">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Davey</surname>
+              <given-names>N.G.</given-names>
+            </name>
+            <name>
+              <surname>Krogh</surname>
+              <given-names>E.T.</given-names>
+            </name>
+            <name>
+              <surname>Gill</surname>
+              <given-names>C.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Membrane-introduction mass spectrometry (MIMS)</article-title>
+          <source>TRAC-Trend Anal. Chem.</source>
+          <year>2011</year>
+          <volume>30</volume>
+          <fpage>1477</fpage>
+          <lpage>1485</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.trac.2011.05.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-sensors-20-00247">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mitch</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Sedlak</surname>
+              <given-names>D.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Formation of N-nitrosodimethylamine (NDMA) from dimethylamine during chlorination</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>2002</year>
+          <volume>36</volume>
+          <fpage>588</fpage>
+          <lpage>595</lpage>
+          <pub-id pub-id-type="doi">10.1021/es010684q</pub-id>
+          <pub-id pub-id-type="pmid">11878371</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-sensors-20-00247">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pepi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ricci</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rosi</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gas-Phase Chemistry of NH<sub>x</sub>Cl<sub>y</sub><sup>+</sup> Ions. 3. Structure, stability, and reactivity of protonated trichloramine</article-title>
+          <source>J. Phys. Chem. A</source>
+          <year>2003</year>
+          <volume>107</volume>
+          <fpage>2085</fpage>
+          <lpage>2092</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp026979n</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-sensors-20-00247">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hansen</surname>
+              <given-names>K.F.</given-names>
+            </name>
+            <name>
+              <surname>Gylling</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lauritsen</surname>
+              <given-names>F.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Time- and concentration-dependent relative peak intensities observed in electron impact membrane inlet mass spectra</article-title>
+          <source>Int. J. Mass Spectrom. Ion Process.</source>
+          <year>1996</year>
+          <volume>152</volume>
+          <fpage>143</fpage>
+          <lpage>155</lpage>
+          <pub-id pub-id-type="doi">10.1016/0168-1176(95)04338-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-sensors-20-00247">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Riter</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Charles</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Turowski</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cooks</surname>
+              <given-names>R.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>External interface for trap-and release membrane introduction mass spectrometry applied to the detection of inorganic chloramines and chlorobenzenes in water</article-title>
+          <source>Rapid Commun. Mass Spectrom.</source>
+          <year>2001</year>
+          <volume>15</volume>
+          <fpage>2290</fpage>
+          <lpage>2295</lpage>
+          <pub-id pub-id-type="doi">10.1002/rcm.489</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-sensors-20-00247">
+        <label>30.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pope</surname>
+              <given-names>P.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Haloacetic Acid Formation during Chloramination: Role of Environmental Conditions, Kinetics, and Haloamine Chemistry</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>The University of Texas</publisher-name>
+          <publisher-loc>Austin, TX, USA</publisher-loc>
+          <year>2006</year>
+        </element-citation>
+      </ref>
+      <ref id="B31-sensors-20-00247">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gazda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dejarme</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Choudhury</surname>
+              <given-names>T.K.</given-names>
+            </name>
+            <name>
+              <surname>Cooks</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Mergerum</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mass-spectrometric evidence for the formation of bromochloramine and N-bromo-N-chlormethylamine in aqueous solution</article-title>
+          <source>Environ. Sci. Technol.</source>
+          <year>1993</year>
+          <volume>27</volume>
+          <fpage>557</fpage>
+          <lpage>561</lpage>
+          <pub-id pub-id-type="doi">10.1021/es00040a015</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures</title>
+      <fig id="sensors-20-00247-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Diagram of the inlet system in the BTrap&#x2122; device.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00247-g001.tif"/>
+      </fig>
+      <fig id="sensors-20-00247-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Influence of flow rate on Membrane Introduction Mass Spectrometry (MIMS) signal intensity. Ions with <italic>m</italic>/<italic>z</italic> values of 51.995 (NH<sub>3</sub><sup>35</sup>Cl<sup>+</sup>: Blue) and 53.992 (NH<sub>3</sub><sup>37</sup>Cl<sup>+</sup>: Red) were selected to monitor monochloramine. Experiments were conducted in duplicate.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00247-g002.tif"/>
+      </fig>
+      <fig id="sensors-20-00247-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Mass spectrum obtained by MIMS for aqueous solution of monochloramine at a concentration of 70 mg L<sup>&#x2212;1</sup> (as Cl<sub>2</sub>) and pH between 7.0&#x2013;7.2. The inversed spectrum at the bottom is from the ultrapure water (as blank).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00247-g003.tif"/>
+      </fig>
+      <fig id="sensors-20-00247-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Kinetics of ion formation from a 20 mM NH<sub>4</sub>Cl solution (relative standard deviation (RSD) &lt; 15%, <italic>n</italic> = 3). The two time-points, t<sub>0</sub> and t<sub>end</sub>, represent the beginning of headspace introduction and time of solution removal, respectively.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00247-g004.tif"/>
+      </fig>
+      <fig id="sensors-20-00247-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Stepwise chlorination of a 20 mM NH<sub>4</sub>Cl solution with different molar Cl:N ratios in headspace mode.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00247-g005.tif"/>
+      </fig>
+      <fig id="sensors-20-00247-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Relative ion intensities (intensity of each ion with respect to the sum of all ions) measured from a 20 mM NH<sub>2</sub>Cl solution as a function of proton transfer reaction time in headspace mode. Standard deviations are shown as error bars (<italic>n</italic> = 3).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00247-g006.tif"/>
+      </fig>
+      <fig id="sensors-20-00247-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Schematic representation of the adsorption/desorption and surface catalyzed decomposition phenomena.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sensors-20-00247-g007.tif"/>
+      </fig>
+    </sec>
+  </back>
+</article>

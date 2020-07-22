@@ -1,0 +1,2230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">nutrients</journal-id>
+      <journal-title-group>
+        <journal-title>Nutrients</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Nutrients</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Nutrients</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2072-6643</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/nu12010112</article-id>
+      <article-id pub-id-type="publisher-id">nutrients-12-00112</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Can Milk Affect Recovery from Simulated Team-Sport Match Play?</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rankin</surname>
+            <given-names>Paula</given-names>
+          </name>
+          <xref rid="af1-nutrients-12-00112" ref-type="aff">1</xref>
+          <xref rid="af2-nutrients-12-00112" ref-type="aff">2</xref>
+          <xref rid="c1-nutrients-12-00112" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Callanan</surname>
+            <given-names>Danielle</given-names>
+          </name>
+          <xref rid="af1-nutrients-12-00112" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>O&#x2019;Brien</surname>
+            <given-names>Kevin</given-names>
+          </name>
+          <xref rid="af3-nutrients-12-00112" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Davison</surname>
+            <given-names>Gareth</given-names>
+          </name>
+          <xref rid="af4-nutrients-12-00112" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stevenson</surname>
+            <given-names>Emma J.</given-names>
+          </name>
+          <xref rid="af5-nutrients-12-00112" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cockburn</surname>
+            <given-names>Emma</given-names>
+          </name>
+          <xref rid="af2-nutrients-12-00112" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nutrients-12-00112"><label>1</label>Department of Science and Health, Institute of Technology Carlow, R93 V960 Carlow, Ireland; <email>danielle.callanan@itcarlow.ie</email></aff>
+      <aff id="af2-nutrients-12-00112"><label>2</label>School of Biomedical, Nutritional and Sport Sciences, Newcastle University, Newcastle Upon Tyne NE2 4HH, UK; <email>emma.cockburn@ncl.ac.uk</email></aff>
+      <aff id="af3-nutrients-12-00112"><label>3</label>School of Health and Human performance, Dublin City University, D09 V209 Dublin, Ireland; <email>kevin.obrien@dcu.ie</email></aff>
+      <aff id="af4-nutrients-12-00112"><label>4</label>Sport and Exercise Sciences Research Institute, Ulster University, Jordanstown BT37 OQB, UK; <email>gw.davison@ulster.ac.uk</email></aff>
+      <aff id="af5-nutrients-12-00112"><label>5</label>Population Health Sciences Institute, Newcastle University, Newcastle Upon Tyne NE2 4HH, UK; <email>emma.stevenson@ncl.ac.uk</email></aff>
+      <author-notes>
+        <corresp id="c1-nutrients-12-00112"><label>*</label>Correspondence: <email>paula.rankin@itcarlow.ie</email>; Tel.: +353-59-9175540</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>112</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>23</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>This study investigated the effects of cow&#x2019;s milk on recovery from repeated simulated team games (STGs) in females. Twenty female team-sport athletes completed an STG circuit (2x ~ 30 min, with 10 min &#x2018;half-time&#x2019;). Measures of muscle function, soreness and tiredness, symptoms of stress and serum markers of muscle damage and oxidative stress were determined pre- and 24 h, 48 h, 72 h and 96 h following the circuit. At 48 h, a second STG was completed. Sprint performance (5 m, 15 m), lap time, countermovement jump (CMJ), heart rate and RPE were recorded during each STG. Immediately following each STG, participants consumed either 500 mL of cow&#x2019;s milk (MILK) or 500 mL of an energy-matched carbohydrate (CHO) solution. Compared to CHO, MILK had a beneficial effect in attenuating losses in peak torque for knee extension (60&#xB0;/s) (likely; effect size (ES) = 0.26 to 0.28) knee flexion (60&#xB0;/s) (likely; ES = 0.45 to 0.61). A benefit for MILK was observed for 5 m sprint (possible-likely; ES = 0.40 to 0.58), 10 m sprint (likely; ES = 0.30 to 0.53) and symptoms of stress (likely&#x2013;very likely, small). Mostly unclear outcomes for other variables were observed. For STG variables, trivial (HR, CMJ) and unclear (5 m sprint, 15 m sprint, lap-time, RPE) outcomes were recorded. In conclusion, the consumption of 500 mL of milk attenuated losses in muscle function and perceptions of stress following repeated simulated team-sports games. However, further investigation is warranted to determine whether MILK can influence subsequent team-sport performance.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>performance</kwd>
+        <kwd>protein</kwd>
+        <kwd>muscle damage</kwd>
+        <kwd>post-exercise recovery</kwd>
+        <kwd>female</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-nutrients-12-00112" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Participation in a single team-sport match results in fatigue, muscle damage and oxidative stress in males [<xref ref-type="bibr" rid="B1-nutrients-12-00112">1</xref>,<xref ref-type="bibr" rid="B2-nutrients-12-00112">2</xref>] and females [<xref ref-type="bibr" rid="B3-nutrients-12-00112">3</xref>,<xref ref-type="bibr" rid="B4-nutrients-12-00112">4</xref>]. In reality, team-sport athletes engage in multiple training sessions or games within short periods of time resulting in insufficient recovery between bouts [<xref ref-type="bibr" rid="B5-nutrients-12-00112">5</xref>,<xref ref-type="bibr" rid="B6-nutrients-12-00112">6</xref>,<xref ref-type="bibr" rid="B7-nutrients-12-00112">7</xref>]. Recently, Mohr et al. [<xref ref-type="bibr" rid="B8-nutrients-12-00112">8</xref>] investigated responses to three soccer games played within one week, with male participants. Results indicated that the largest physiological stress, fatigue and decreased performance followed the second game which was preceded by only 3 days recovery. Based on this literature, opportunities exist to explore the responses of female team-sport athletes to repeated match play with short recovery duration.</p>
+      <p>Minimizing muscle damage and enhancing recovery between training sessions or games could be beneficial for maintaining performance in subsequent bouts. Recent research has shown that the consumption of cow&#x2019;s milk following muscle damaging exercise can attenuate decreases in muscle functional capacity in males [<xref ref-type="bibr" rid="B9-nutrients-12-00112">9</xref>,<xref ref-type="bibr" rid="B10-nutrients-12-00112">10</xref>] and females [<xref ref-type="bibr" rid="B11-nutrients-12-00112">11</xref>,<xref ref-type="bibr" rid="B12-nutrients-12-00112">12</xref>], perhaps due to an increase in post-exercise protein synthesis or a reduction in post-exercise degradation of muscle proteins [<xref ref-type="bibr" rid="B13-nutrients-12-00112">13</xref>]. It has also been reported that cow&#x2019;s milk has anti-oxidant properties that may reduce oxidative stress [<xref ref-type="bibr" rid="B14-nutrients-12-00112">14</xref>] and the consumption of carbohydrate-protein mixtures may reduce lipid peroxidation [<xref ref-type="bibr" rid="B15-nutrients-12-00112">15</xref>]. The lack of effect of milk on exercise recovery reported in a number of investigations may be due to aspects of experimental design such as beverage blinding, homogeneity of participants, or the amount or timing of the cow&#x2019;s milk intake [<xref ref-type="bibr" rid="B16-nutrients-12-00112">16</xref>]. To date, it is unknown whether the consumption of cow&#x2019;s milk can enhance recovery from repeated match play, or whether a positive effect on recovery markers can influence subsequent match performance.</p>
+      <p>Given the benefits of cow&#x2019;s milk for enhanced recovery following muscle damaging protocols, and with the short recovery periods experienced by athletes between team-sport training sessions and games, it makes the expectation tenable that post-exercise consumption of cow&#x2019;s milk may combat the negative effects of muscle damage and fatigue, thus accelerating the rate of recovery between matches. Accordingly, this study aims to examine the effect of cow&#x2019;s milk on recovery from a simulated team game and a second simulated team game following a 48 h recovery period. Additionally, the effect of cow&#x2019;s milk on &#x2018;in-game&#x2019; measures in the second simulated game is explored.</p>
+    </sec>
+    <sec id="sec2-nutrients-12-00112">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-nutrients-12-00112" sec-type="subjects">
+        <title>2.1. Participants</title>
+        <p>Twenty female team-sport athletes (age 20.6 &#xB1; 3.0 year; height 164.7 &#xB1; 5.0 cm; mass 65.4 &#xB1; 9.2 kg), from the amateur sports of camogie and ladies Gaelic football, participated in this investigation. All participants were training for and competing in their chosen sport at the time of data collection. Eligibility was assessed with a screening questionnaire, and volunteers were excluded from the study if they met any of the following criteria: current or recent use of nutritional supplements, intolerance to dairy or lactose products, injury in previous 3 months, surgery in previous 6 months, known coronary disease, uncontrolled metabolic disorder or respiratory disease, pregnancy and/or post-partum. Following verbal and written briefings written informed consent was provided. Ethics approval was gained from the Ethics Committees of Middlesex University and Institute of Technology Carlow, where data collection took place.</p>
+      </sec>
+      <sec id="sec2dot2-nutrients-12-00112">
+        <title>2.2. Study Design</title>
+        <p>Participants visited the laboratory on seven occasions. The first visit was comprised of study briefing and familiarization with all variables. Baseline values for all measures were determined at the second visit, following which participants were divided into two groups, cow&#x2019;s milk (MILK) and an energy-matched carbohydrate (CHO) solution, matched according to player position and peak torque of the dominant leg knee extensors (60&#xB0;/s). Data collection took place at the same time each day following 24 h abstinence from alcohol, caffeine and exercise.</p>
+        <p>Participants completed all measures following an overnight fast and a standardized snack. No more than 5 days post-baseline measures, participants completed an exercise protocol comprising a circuit with simulated team-sport games (STG1). Participants returned to the laboratory at 24 h and 48 h post-exercise to repeat baseline measures. Upon completion of measures 48 h post-exercise, participants repeated the circuit (STG2) returning again to repeat baseline measures 72 h and 96 h post STG1. Participants were asked to refrain from exercise for the duration of the experimental period, and from treating symptoms of muscle damage.</p>
+      </sec>
+      <sec id="sec2dot3-nutrients-12-00112">
+        <title>2.3. Exercise Protocol</title>
+        <p>Participants completed a modified version of a validated protocol, described in [<xref ref-type="bibr" rid="B17-nutrients-12-00112">17</xref>], designed to simulate team-sport exercise. Briefly, following a warm-up, participants completed 2x ~ 30 min halves of intermittent running in a circuit layout, separated by a 10 min half-time to simulate the format of camogie and ladies Gaelic football games. The circuit took ~51&#x2013;53 s to complete. Each lap commenced every 80 s, and 22 laps were completed in each half. The circuit was ~125 m in length and included three maximal sprints (2 &#xD7; 10 m, 1 &#xD7; 20 m), striding (27 m), an agility exercise (12 m) and countermovement jumps (2x), all separated by walking (20 m) and jogging (26 m). Sprint performance, countermovement jump height (CMJ), lap time, heart rate (HR) and rate of perceived exertion (RPE) were recorded for each lap of the circuit. Upon completion of the STG, participants completed a cool-down, immediately after which they consumed their assigned drink.</p>
+      </sec>
+      <sec id="sec2dot4-nutrients-12-00112">
+        <title>2.4. Nutritional Intervention and Dietary Control</title>
+        <p>Thirty minutes prior to commencing each STG, each participant consumed a snack (Oats and Honey cereal bar, Nature Valley, Middlesex, UK). Immediately following the STG, participants were provided with either 500 mL of cow&#x2019;s milk (Avonmore 1% Light, Glanbia, Ireland) or 500 mL of an energy-matched carbohydrate solution, which was consumed within 30 min. Participants were not blinded to the beverage received. Macronutrient composition (per 500 mL) of the cow&#x2019;s milk was as follows: Energy 910 kJ/215 kcal, Protein 17.0 g, Carbohydrate 25.5 g, and Fat 5.0 g. The energy-matched carbohydrate solution (Energy 910 kJ/215 kcal, Protein 0.2 g, Carbohydrate 53.6 g, Fat 0.0 g) consisted of glucose mixed with water and a flavoured cordial. Each participant completed a food diary for 24 h prior to testing and for the subsequent 4 days. Participants were provided with a weighing scale and measuring jug and were instructed to follow their usual eating habits. Analysis (Nutritics Professional Diet Analysis, Nutritics Ltd., Dublin, Ireland) indicated that there were no differences in energy, carbohydrate, protein or fat intake between groups.</p>
+      </sec>
+      <sec id="sec2dot5-nutrients-12-00112">
+        <title>2.5. Outcome Measures</title>
+        <sec id="sec2dot5dot1-nutrients-12-00112">
+          <title>2.5.1. Blood Sampling and Biochemical Analysis</title>
+          <p>Each day, a blood sample was collected by venepuncture from a forearm vein in serum separator (SST) tubes. A sample was also collected 2 h post-completion of the STG. Samples were centrifuged, aliqouted and stored at &#x2212;70 &#xB0;C for later analysis. Serum creatine kinase (CK) and high sensitivity C-reactive protein (hsCRP) were determined singly using high-sensitivity procedures (Roche Cobas 6000 chemistry module c501, Hoffmann-La Roche, Basel, Switzerland). Lipid hydroperoxides (LOOHs) were determined singly using the ferrous oxidation of xylenol orange method (FOX 1), using a modification of previous methods [<xref ref-type="bibr" rid="B18-nutrients-12-00112">18</xref>,<xref ref-type="bibr" rid="B19-nutrients-12-00112">19</xref>]. Absorbance was read spectrophotometrically (U-2001, Hitachi, England) at 560 nm against a linear standard curve (range 0&#x2013;5 &#x3BC;mol&#xB7;L<sup>&#x2212;1</sup>). Protein Carbonyls (PCs) were determined using a commercially available kit (Abcam, Cambridge, UK) utilising a methodology based on that described by Levine et al. [<xref ref-type="bibr" rid="B20-nutrients-12-00112">20</xref>].</p>
+        </sec>
+        <sec id="sec2dot5dot2-nutrients-12-00112">
+          <title>2.5.2. Muscle Soreness and Muscle Tiredness</title>
+          <p>Muscle soreness during the completion of a squat to approximately 90&#xB0; knee flexion, and during isokinetic testing, was measured on a visual analogue scale (VAS), with subjects rating soreness on a scale of 0 (no soreness) to 10 (as bad as it could be). A similar VAS was used to measure muscle tiredness.</p>
+        </sec>
+        <sec id="sec2dot5dot3-nutrients-12-00112">
+          <title>2.5.3. Symptoms of Stress</title>
+          <p>Symptoms of stress were monitored using the Daily Analysis of Life Demands (DALDA) questionnaire [<xref ref-type="bibr" rid="B21-nutrients-12-00112">21</xref>]. The questionnaire is comprised of two parts: Part A represents the sources of stress, and Part B assesses the manifestation of this stress in the form of symptoms. Participants marked each statement as being either &#x2018;normal&#x2019;, &#x2018;worse than normal&#x2019;, or &#x2018;better than normal&#x2019;. Data for Part B is presented.</p>
+        </sec>
+        <sec id="sec2dot5dot4-nutrients-12-00112">
+          <title>2.5.4. Muscle Function</title>
+          <p>To determine peak torque (Nm), participants completed three dominant-leg maximal effort knee extension and flexion repetitions at 60&#xB0;/s and 180&#xB0;/s, with 60 s recovery between speeds, on a Biodex System3 Isokinetic dynamometer (Biodex Medical System, Shirley, NY, USA). Rate of force development (RFD) was determined over 100&#x2013;200 ms of an isometric contraction [<xref ref-type="bibr" rid="B22-nutrients-12-00112">22</xref>]. Briefly, two maximal 5 s isometric contractions of the quadriceps were executed with the knee fixed at 70&#xB0;. RFD was calculated over the time interval of 100&#x2013;200 (&#x394;torque/&#x394;time) relative to the onset of contraction, which was defined as the time point when torque generated exceeded the baseline by &gt;7.5 Nm [<xref ref-type="bibr" rid="B23-nutrients-12-00112">23</xref>]. CMJ height was determined using an Optojump optical measurement system (Microgate, Bolzano, Italy). Participants completed three trials employing standard countermovement jump technique, and jump height was calculated from flight time. The highest recorded jump was used for analysis. Reactive strength index (RSI) was determined by dividing jump height (cm) by ground contact time (cm) following three maximal effort drop jumps from a height of 45 cm. Hands were maintained on the hips during the jump to eliminate any contribution of arm swing. Ground contact time and jump height were measured using the Optojump optical measurement system and the greatest RSI was used for analysis. Twenty metre sprint performance, with split 5 m and 10 m times, from a standing start 20 cm behind the start line, was recorded using timing gates (Microgate Racetime 2, Bolzano, Italy). Participants completed three sprints with a rest time of 120 s between sprints with the best time used for analysis.</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot6-nutrients-12-00112">
+        <title>2.6. Data Analysis</title>
+        <p>Data analysis was carried out by making probabilistic magnitude-based inferences about the true values of the effect of intervention on outcomes by expressing the uncertainty as 90% confidence limits (CLs) [<xref ref-type="bibr" rid="B24-nutrients-12-00112">24</xref>]. Within-group effects over time and the effect of MILK versus CHO were determined using a published spreadsheet [<xref ref-type="bibr" rid="B25-nutrients-12-00112">25</xref>]. The magnitude of the smallest substantive effect for muscle function variables was determined as the smallest standardised (Cohen) difference in the mean (0.2 times the between-subjects standard deviation for all participants). The smallest worthwhile effect for muscle soreness, tiredness and DALDA was set at 10% of the range of the scale [<xref ref-type="bibr" rid="B26-nutrients-12-00112">26</xref>]. Comparisons were made between baseline and subsequent timepoints. To overcome heteroscedastic error, data for peak torque, RFD, countermovement jump, RSI, sprint performance, lap times and HR were log-transformed [<xref ref-type="bibr" rid="B27-nutrients-12-00112">27</xref>]. Soreness, tiredness, DALDA and RPE values were not log-transformed because of interval scaling [<xref ref-type="bibr" rid="B27-nutrients-12-00112">27</xref>]. Because of large percentage changes, serum markers are reported as factors [<xref ref-type="bibr" rid="B28-nutrients-12-00112">28</xref>]. Means of log-transformed data were subsequently back transformed to provide mean percentage change and percentage SD. Chances of change over time and of benefit and harm were assessed qualitatively as follows: &lt;1% almost certainly none, 1&#x2013;5% very unlikely, 5&#x2013;25% unlikely, 25&#x2013;75% possibly, 75&#x2013;95% likely, 95&#x2013;99% very likely, &gt;99% almost certainly [<xref ref-type="bibr" rid="B29-nutrients-12-00112">29</xref>]. An effect was deemed unclear whether the confidence interval overlapped the thresholds for positive and negative effects. Effect size (ES) magnitudes were calculated as the difference in means/SD for both groups and were qualified as follows: trivial, 0.0&#x2013;0.2; small, 0.2&#x2013;0.6; moderate, 0.6&#x2013;1.2; large, 1.2&#x2013;2.0; very large, 2.0&#x2013;4.0; extremely large, 4.0. [<xref ref-type="bibr" rid="B30-nutrients-12-00112">30</xref>]. ES thresholds for measures of soreness and tiredness were set at 10%, 30%, 50%, 70% and 90% of the VAS range for small, moderate, large, very large and extremely large, respectively [<xref ref-type="bibr" rid="B30-nutrients-12-00112">30</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec3-nutrients-12-00112" sec-type="results">
+      <title>3. Results</title>
+      <sec id="sec3dot1-nutrients-12-00112">
+        <title>3.1. Within-Group Effects</title>
+        <p>Post-STG1 analysis of within-group effects revealed decreases in peak torque, CMJ, RSI, sprint performance and RFD, increases in CK and hsCRP, and soreness and tiredness. Minimal effects were seen on oxidative stress markers. The impact of STG2 on muscle function was minimal, with mostly trivial or unclear outcomes, though there was a trivial decrease in sprint performance. STG2 resulted in increased CK, hsCRP for CHO, and LOOHs for MILK. Mean effects, &#xB1;90% CI, with qualitative inferences and effect size are presented in <xref ref-type="app" rid="app1-nutrients-12-00112">Tables S1 and S2 (Supplementary Material)</xref>.</p>
+      </sec>
+      <sec id="sec3dot2-nutrients-12-00112">
+        <title>3.2. Between-Group Effects</title>
+        <sec id="sec3dot2dot1-nutrients-12-00112">
+          <title>3.2.1. Muscle Function</title>
+          <p>Baseline (B) peak torque values for knee extension at 60&#xB0;/s for MILK and CHO were 156.7 &#xB1; 27.3 Nm and 163.0 &#xB1; 14.9 Nm respectively. There was a benefit for MILK at B-24 h (&#x2212;5.9 &#xB1; 6.8% vs. &#x2212;10.0 &#xB1; 5.8%) and B-48 h (&#x2212;4.5 &#xB1; 8.6% vs. &#x2212;9.3 &#xB1; 7.8%). B-72 h effects were unclear and B-96 h effects were trivial. For 60&#xB0;/s leg flexion baseline values for MILK and CHO were 81.4 &#xB1; 9.3 Nm and 81.7 &#xB1; 11.2 Nm. A benefit of MILK was observed at B-24 h (&#x2212;4.2 &#xB1; 13.7% vs. &#x2212;11.3 &#xB1; 7.8%), B-48 h (&#x2212;4.7 &#xB1; 12.4% vs. &#x2212;14.1 &#xB1; 13.5%) and B-72 h (&#x2212;2.2 &#xB1; 13.8% vs. &#x2212;10.6 &#xB1; 15.8%). See <xref ref-type="fig" rid="nutrients-12-00112-f001">Figure 1</xref>a.</p>
+          <p>Baseline values for knee extension at 180&#xB0;/s were 106.5 &#xB1; 19.8 Nm and 113.0 &#xB1; 11.9 Nm for MILK and CHO respectively. Outcomes were trivial (B-24 h, B-96 h) and unclear (B-48 h, B-72 h). For knee flexion at 180&#xB0;/s, baseline values for MILK and CHO were 67.8 &#xB1; 11.7 Nm and 66.9 &#xB1; 11.3 Nm. A benefit for MILK was seen at B-48 h (&#x2212;3.0 &#xB1; 2.8% vs. &#x2212;8.9 &#xB1; 6.3%). Other comparisons were unclear.</p>
+          <p>Baseline values for RFD were 429.2 &#xB1;125.2 Nm&#xB7;s<sup>&#x2212;1</sup> and 448.1 &#xB1; 151.9 Nm&#xB7;s<sup>&#x2212;1</sup>. Unclear outcomes were observed B-24 h, B-72 h and B-96 h, with a trivial outcome at B-48 h. Baseline CMJ values for MILK and CHO were 25.8 &#xB1; 4.5 cm and 27.7 &#xB1; 10.6 cm. Comparisons at all timepoints were unclear.</p>
+          <p>RSI values at baseline were 105.8 &#xB1; 17.2 cm&#xB7;s<sup>&#x2212;1</sup> and 113.6 &#xB1; 18.3 cm&#xB7;s<sup>&#x2212;1</sup> for MILK and CHO. Comparisons at B-24 h and B-48 h were unclear. Comparisons from B-72 h (&#x2212;17.3 &#xB1; 10.4% vs. &#x2212;7.2 &#xB1; 24.9%) and B-96 h (&#x2212;9.5 &#xB1; 10.8% vs. &#x2212;0.3 &#xB1; 25.2%) revealed a possible small harmful effect of milk.</p>
+          <p>Baseline values for 5 m sprint performance were 1.17 &#xB1; 0.10 s and 1.18 &#xB1; 0.04 s for MILK and CHO. A benefit of MILK was seen at B-24 h (&#x2212;1.4 &#xB1; 3.0% vs. &#x2212;3.1 &#xB1; 6.3%), B-48 h (&#x2212;1.5 &#xB1; 4.1% vs. &#x2212;3.9 &#xB1; 7.0%) and at B-72 h (&#x2212;2.3 &#xB1; 4.4% vs. &#x2212;5.0 &#xB1; 9.5%). Comparisons at B-96 h were unclear. See <xref ref-type="fig" rid="nutrients-12-00112-f001">Figure 1</xref>b. Baseline 10 m sprint performance was 2.00 &#xB1; 0.10 s and 2.04 &#xB1; 0.07 s for MILK and CHO. A trivial outcome was noted at B-24 h, with a benefit of MILK at B-48 h (&#x2212;1.3 &#xB1; 3.1% vs. &#x2212;2.8 &#xB1; 3.5%), B-72 h (&#x2212;2.0 &#xB1; 2.9% vs. &#x2212;2.6 &#xB1; 4.0%) and B-96 h (0.7 &#xB1; 2.1% vs. &#x2212;1.1 &#xB1; 2.4%). Baseline values for 20 m sprint were 3.47 &#xB1; 0.20 s and 3.55 &#xB1; 0.17 s for MILK and CHO. A trivial outcome was observed at B-24 h, with unclear outcomes at other times.</p>
+        </sec>
+        <sec id="sec3dot2dot2-nutrients-12-00112">
+          <title>3.2.2. Muscle Soreness and Tiredness</title>
+          <p>All comparisons of soreness during a squat were unclear. For soreness during isokinetic testing, a possible benefit was seen for MILK at B-24 h (51.0 &#xB1; 7.4 vs. 65.5 &#xB1; 13.8%). Other comparisons were unclear. For tiredness, a trivial outcome was noted at B&#x2013;24 h with a benefit for MILK at B-72 h (49.0 &#xB1; 17.9 vs. 60.0 &#xB1; 19.4%). Other comparisons were unclear.</p>
+        </sec>
+        <sec id="sec3dot2dot3-nutrients-12-00112">
+          <title>3.2.3. DALDA</title>
+          <p>For DALDA B, a benefit of MILK was observed at B-24 h (11.6 &#xB1; 8.9% vs. 21.2 &#xB1; 11.3%), B-48 h (17.2 &#xB1; 14.4% vs. 32.0 &#xB1; 11.8%) and B-72 h (16.8 &#xB1; 15.5% vs. 29.6 &#xB1; 14.6%), with an unclear outcome at B-96 h. See <xref ref-type="fig" rid="nutrients-12-00112-f001">Figure 1</xref>c.</p>
+        </sec>
+        <sec id="sec3dot2dot4-nutrients-12-00112">
+          <title>3.2.4. Serum Measures</title>
+          <p>Baseline CK values were 196.2 &#xB1; 130.0 and 188.6 &#xB1; 125.0 U/L for MILK and CHO respectively. Unclear outcomes were found all timepoints. See <xref ref-type="fig" rid="nutrients-12-00112-f001">Figure 1</xref>d. Baseline hsCRP values were 1.6 &#xB1; 2.0 mg/L and 1.1 &#xB1; 0.6 mg/L for MILK and CHO. A harmful effect was observed for MILK versus CHO at B-2h (1.1 &#xD7;/&#xF7; 1.6 vs. 0.9 &#xD7;/&#xF7; 1.6), B-24 h (1.5 &#xD7;/&#xF7; 1.8 vs. 0.9 &#xD7;/&#xF7; 1.8) and B-48 h (1.2 &#xD7;/&#xF7; 2.0 vs. 0.7 &#xD7;/&#xF7; 1.9). Comparisons at B-72 h and B&#x2013;96 h were unclear. Baseline LOOH values were 0.6 &#xB1; 0.2 &#x3BC;mol/L and 0.6 &#xB1; 0.2 &#x3BC;mol/L for MILK and CHO. An unclear outcome was observed at B-2h. A harmful effect was observed for MILK at B-24 h (1.0 &#xD7;/&#xF7; 1.2 vs. 0.9 &#xD7;/&#xF7; 1.2), with unclear outcomes at all other times. Baseline PC values were 0.34 &#xB1; 0.33 nmol/mg protein and 0.27 &#xB1; 0.06 nmol/mg protein for MILK and CHO. Unclear outcomes were found at all timepoints.</p>
+          <p>Mean effects for all measures of muscle function, soreness and tiredness, symptoms of stress, CK, hsCRP, LOOHs and PCs can be seen in <xref ref-type="table" rid="nutrients-12-00112-t001">Table 1</xref>.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot3-nutrients-12-00112">
+        <title>3.3. Within-Group Effects for STG Variables</title>
+        <p>Changes in STG variables from STG1 to STG2 were observed. Analysis of within-group effects revealed a decrease in 5 m sprint performance, but a likely increase in 15 m sprint performance for both MILK and CHO. Trivial effects were seen for CMJ, lap time and HR for MILK and CHO. HR was likely lower in STG2 for CHO, but the outcome was trivial for MILK. Changes can be seen in <xref ref-type="app" rid="app1-nutrients-12-00112">Table S2</xref>.</p>
+      </sec>
+      <sec id="sec3dot4-nutrients-12-00112">
+        <title>3.4. Between-Group Effects for STG Variables</title>
+        <p>Comparisons of MILK vs. CHO for 5 m sprint performance (<xref ref-type="fig" rid="nutrients-12-00112-f002">Figure 2</xref>a), 15 m sprint performance (<xref ref-type="fig" rid="nutrients-12-00112-f002">Figure 2</xref>b), lap times (<xref ref-type="fig" rid="nutrients-12-00112-f002">Figure 2</xref>d) and RPE (<xref ref-type="fig" rid="nutrients-12-00112-f002">Figure 2</xref>f) were unclear. For CMJ (<xref ref-type="fig" rid="nutrients-12-00112-f002">Figure 2</xref>c) a trivial outcome was observed for STG1 vs. STG2 (&#x2212;0.8 &#xB1; 6.8% vs. &#x2212;0.4 &#xB1; 3.3%, MILK vs. CHO). Comparison of HR for MILK vs. CHO (<xref ref-type="fig" rid="nutrients-12-00112-f002">Figure 2</xref>e) showed a trivial outcome. Mean effects are shown in <xref ref-type="table" rid="nutrients-12-00112-t002">Table 2</xref>. </p>
+      </sec>
+    </sec>
+    <sec id="sec4-nutrients-12-00112" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>This study is the first to examine the effect of cow&#x2019;s milk on recovery from repeated simulated team-sport games in females. The principal findings were that cow&#x2019;s milk had a positive effect on attenuating losses in peak torque, sprint performance and symptoms of stress, and on increases in some measures of muscle soreness and tiredness following STG1. Cow&#x2019;s milk did not benefit any variable within STG2. STG2 did not lead to a secondary decrease in muscle function (apart from sprint performance, though this was not consistent across groups), soreness, tiredness or perceptions of stress. There was a post-STG2 increase in CK and in hsCRP (CHO) and LOOHs (MILK).</p>
+      <p>The consumption of cow&#x2019;s milk had a beneficial effect on muscle function, specifically peak torque and sprint performance (5 and 10 m). Similar benefits have been noted when cow&#x2019;s milk was consumed following repeated sprinting and jumping in females [<xref ref-type="bibr" rid="B12-nutrients-12-00112">12</xref>]. This beneficial effect speculatively arises from a post-exercise enhancement of protein balance resulting in a stimulation of protein synthesis rates [<xref ref-type="bibr" rid="B31-nutrients-12-00112">31</xref>]. For RFD and RSI, comparisons of MILK vs. CHO revealed unclear outcomes with MILK possibly harmful for RSI from B-72 h and B-96 h. There was considerable variability in these variables perhaps due to the more technical nature of the measures. Unclear outcomes were also observed for CMJ. This is in contrast to previous research which reported a beneficial effect of cow&#x2019;s milk on recovery of CMJ following repeated sprinting and jumping [<xref ref-type="bibr" rid="B12-nutrients-12-00112">12</xref>]. The effect size for the positive effect of cow&#x2019;s milk on post-exercise muscle function was small to moderate. The amount of protein provided in the 500 mL of milk was 17 g, giving an intake of 0.26 g/kg. This low overall and relative intake of protein may not have maximally stimulated protein synthesis. It is below the recommended 20 g threshold for maximal stimulation of protein synthesis [<xref ref-type="bibr" rid="B32-nutrients-12-00112">32</xref>], and substantially lower than the 40 g recently found to be of greater benefit than 20 g following whole-body exercise [<xref ref-type="bibr" rid="B33-nutrients-12-00112">33</xref>]. Future investigations should be cognizant of this.</p>
+      <p>The effect of cow&#x2019;s milk on measures of soreness and tiredness was primarily unclear, though a likely benefit for MILK was noted for tiredness from baseline-72 h. Given that soreness is a subjective measure and that this investigation employed an independent groups design, it is difficult to compare conditions. Cow&#x2019;s milk had beneficial effects on perceptions of the symptoms of stress, as previously observed [<xref ref-type="bibr" rid="B12-nutrients-12-00112">12</xref>], with participants who consumed cow&#x2019;s milk reporting fewer &#x2018;worse than normal&#x2019; symptoms over the recovery period. While it is plausible that bias existed because of a lack of blinding to the drink consumed, an attenuation of negative aspects of psychological wellbeing is likely to be positive for athletes.</p>
+      <p>Comparison of hsCRP data indicates a likely harmful effect of MILK over the 48 h post STG1, though an unclear outcome following STG2. This early benefit for CHO is a result of a decrease in hsCRP levels from baseline to 2 h and baseline to 48 h, while the MILK group showed increases during this time. It has been shown that carbohydrate consumption attenuates increases in inflammatory markers following intermittent exercise [<xref ref-type="bibr" rid="B34-nutrients-12-00112">34</xref>]. However, this does not explain the lack of benefit for CHO following STG2, and importantly the 500 mL of cow&#x2019;s milk also contained carbohydrate (25.5 g). Previous research with female soccer players reported an increase in both pro- and anti-inflammatory cytokine responses following a match, with a dampened response following a second game 72 h later [<xref ref-type="bibr" rid="B35-nutrients-12-00112">35</xref>]. The findings of this study show an opposite effect for CHO, with an increase in hsCRP following STG2. Importantly, hsCRP may not be reflective of the overall cytokine response and research is warranted to investigate this further.</p>
+      <p>In accordance with previous research with female athletes [<xref ref-type="bibr" rid="B11-nutrients-12-00112">11</xref>,<xref ref-type="bibr" rid="B36-nutrients-12-00112">36</xref>], the effect of cow&#x2019;s milk on the accumulation of CK was unclear. Peak CK was lower than that reported in previous studies utilising variations of the STG [<xref ref-type="bibr" rid="B37-nutrients-12-00112">37</xref>,<xref ref-type="bibr" rid="B38-nutrients-12-00112">38</xref>,<xref ref-type="bibr" rid="B39-nutrients-12-00112">39</xref>]. However, participants in the aforementioned studies were male and it has been reported that oestrogen has a protective effect on the myofibrillar membrane resulting in a smaller increase in CK following exercise [<xref ref-type="bibr" rid="B40-nutrients-12-00112">40</xref>]. We found no evidence that MILK attenuated oxidative stress as comparisons of MILK vs. CHO for LOOHs and PCs were typically unclear. However, this is consequential to the observation that we did not see clear evidence of oxidative stress throughout the trial. This was unexpected as previous investigations have reported increases in oxidative stress following participation in both repeat-sprint trials [<xref ref-type="bibr" rid="B41-nutrients-12-00112">41</xref>] and team-sport matches [<xref ref-type="bibr" rid="B1-nutrients-12-00112">1</xref>]. The contradictory findings in the oxidative stress response between this and previous investigations could be explained by the use of different biochemical markers or analytical techniques. There is also the possibility that oxidative stress did occur but was confined to the muscle tissue and was not detected in the circulation, which is conceivable as the muscle is the prime producer of ROS following exercise [<xref ref-type="bibr" rid="B42-nutrients-12-00112">42</xref>]. Finally, it is reasonable to speculate that the participants&#x2019; basal antioxidant status was more than sufficient to manage any increase in oxidative stress during and after exercise.</p>
+      <p>Interestingly, despite cow&#x2019;s milk benefiting muscle function measures over the recovery period, a comparison of sprint performance and CMJ from STG1 to STG2 revealed no clear benefit of MILK. Of relevance, Mohr et al. [<xref ref-type="bibr" rid="B8-nutrients-12-00112">8</xref>] highlighted no difference in peak sprinting speed and sprinting distance when 3 simulated games were played within 7 days, despite increases in other markers of fatigue and muscle damage. Of note in the current study is that the average 5 m sprint time in STG1 and STG2 (~1.37 s) was considerably slower than the isolated sprint times measured during recovery (~1.20 s), and CMJ height was approximately 80% of the isolated jump height, indicating that participants did not sprint nor jump maximally during the STG. This is most likely related to the physiological demands of the STG, but nonetheless questions the validity of using isolated sprint and jump performance as a marker of recovery, or a predictor of performance for subsequent match situations. Furthermore, based on the results of this study, it is conceivable that the positive effect of cow&#x2019;s milk is greatest when participants are maximally performing. What we understand from this is that isolated measures of sprint performance and jump height are not indicators of the performance of these measures within a simulated team-sport situation. Thus, crucially, future research should consider the validity of indicators of recovery.</p>
+      <p>Surprisingly, STG2 had little impact on measures of muscle function, soreness, tiredness or perceptions of stress. Differences from 48&#x2013;72 h and 48&#x2013;96 h were typically trivial or unclear with some measures (peak torque, CMJ, RSI, soreness, tiredness, DALDA) continuing to return towards baseline values despite the demands of STG2, the exception being sprint performance. Nonetheless, performance of all muscle function variables remained below baseline at 96 h, which has implications for coaches and athletes in terms of training programmes and competition fixtures. The two-fold increase in the pattern of CK was as expected, with an increase observed following STG1, returning towards baseline before a second increase following STG2. This is similar to the pattern observed following repeated match play [<xref ref-type="bibr" rid="B3-nutrients-12-00112">3</xref>,<xref ref-type="bibr" rid="B8-nutrients-12-00112">8</xref>], though this pattern is clearly not aligned to that of muscle function. The other serum markers were either not impacted by STG2 (PCs) or not impacted across both groups (LOOHs, hsCRP), reflecting variability in the measures.</p>
+      <p>Limitations of this study include the small sample size and the use of an independent groups design. The latter, however, was chosen to reduce the impact of a Repeated Bout Effect whereby participation in an exercise bout with a high eccentric load results in reduced muscle damage in the next subsequent bout of exercise [<xref ref-type="bibr" rid="B43-nutrients-12-00112">43</xref>]. Despite the attempt to use an exercise protocol that simulates the physiological demands of team sports, there are some non-physiological factors missing from the protocol that could significantly influence performance in real-game situations. These include contextual factors such as match status/score, lack of an opponent, an unrealistic match location and lack of physical contact. Importantly, the protocol did not include kicking, catching or striking activities which would not only influence physiological factors during the protocol, but possibly the level of post-exercise fatigue and muscle damage.</p>
+    </sec>
+    <sec id="sec5-nutrients-12-00112" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>In conclusion, the present study clearly demonstrates that the consumption of cow&#x2019;s milk following two simulated team games separated by 48 h can attenuate losses in peak torque, sprint performance and symptoms of stress compared to an energy-matched carbohydrate drink in female athletes, with benefits also for some measures of soreness and tiredness. From a practical perspective, this study indicates that cow&#x2019;s milk may serve to enhance the recovery of female athletes following team-sport participation. No benefit of cow&#x2019;s milk was observed for sprint performance, jump height or lap times within the second STG protocol, which questions how transferable isolated measures of recovery are to real match performances. Further research is necessary to elucidate whether cow&#x2019;s milk can affect within-game performance variables when recovery periods are limited.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-nutrients-12-00112">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>https://www.mdpi.com/2072-6643/12/1/112/s1</uri>. Table S1: Within-group effects over time for dependent variables; Table S2: Within-group effects from STG1 to STG2.</p>
+		<supplementary-material id="nutrients-12-00112-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nutrients-12-00112-s001.pdf">
+		</supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, P.R., E.J.S. and E.C.; Formal analysis, P.R. and G.D.; Funding acquisition, P.R.; Investigation, P.R., D.C. and K.O.; Methodology, P.R., D.C., K.O., E.J.S. and E.C.; Writing&#x2014;original draft, P.R.; Writing&#x2014;review and editing, E.J.S. and E.C. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research received a small amount of funding from the National Dairy Council of Ireland</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to thank the participants for their commitment and hard work during the trial. </p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, and in the decision to publish the results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-nutrients-12-00112">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silva</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Ascens&#xE3;o</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Marques</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Seabra</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rebelo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Magalh&#xE3;es</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neuromuscular function, hormonal and redox status and muscle damage of professional soccer players after a high level competitive match</article-title>
+          <source>Eur. J. Appl. Physiol.</source>
+          <year>2013</year>
+          <volume>113</volume>
+          <fpage>2193</fpage>
+          <lpage>2201</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00421-013-2633-8</pub-id>
+          <pub-id pub-id-type="pmid">23661147</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-nutrients-12-00112">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marin</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>dos Santos</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>de Cassia</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bolin</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Guerra</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Hatanaka</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Otton</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytokines and oxidative stress status following a handball game in elite male players</article-title>
+          <source>Oxidative Med. Cell. Longev.</source>
+          <year>2011</year>
+          <volume>2011</volume>
+          <pub-id pub-id-type="doi">10.1155/2011/804873</pub-id>
+          <pub-id pub-id-type="pmid">21922038</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-nutrients-12-00112">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andersson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Raastad</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nilsson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Paulsen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Garthe</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kadi</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neuromuscular fatigue and recovery in elite female soccer: Effects of active recovery</article-title>
+          <source>Med. Sci. Sports Exerc.</source>
+          <year>2008</year>
+          <volume>40</volume>
+          <fpage>372</fpage>
+          <lpage>380</lpage>
+          <pub-id pub-id-type="doi">10.1249/mss.0b013e31815b8497</pub-id>
+          <pub-id pub-id-type="pmid">18202563</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-nutrients-12-00112">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gravina</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Furiz</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Lekue</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Irazusta</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gil</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Metabolic impact of a soccer match on female players</article-title>
+          <source>J. Sports Sci.</source>
+          <year>2011</year>
+          <volume>29</volume>
+          <fpage>1345</fpage>
+          <lpage>1352</lpage>
+          <pub-id pub-id-type="doi">10.1080/02640414.2011.597420</pub-id>
+          <pub-id pub-id-type="pmid">21777165</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-nutrients-12-00112">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nedelec</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>McAll</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Carling</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Legall</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Berthoin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Dupont</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The influence of soccer playing actions on the recovery kinetics after a soccer match</article-title>
+          <source>J. Strength Cond. Res.</source>
+          <year>2014</year>
+          <volume>28</volume>
+          <fpage>1517</fpage>
+          <lpage>1523</lpage>
+          <pub-id pub-id-type="doi">10.1519/JSC.0000000000000293</pub-id>
+          <pub-id pub-id-type="pmid">24172722</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-nutrients-12-00112">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fatouros</surname>
+              <given-names>I.G.</given-names>
+            </name>
+            <name>
+              <surname>Chatzinikolaou</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Douroudos</surname>
+              <given-names>I.I.</given-names>
+            </name>
+            <name>
+              <surname>Nikolaidis</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Kyparos</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Margonis</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Michailidis</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Vantarakis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Taxildaris</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Katrabasas</surname>
+              <given-names>I.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Time-course of changes in oxidative stress and antioxidant status responses following a soccer game</article-title>
+          <source>J. Strength Cond. Res.</source>
+          <year>2010</year>
+          <volume>24</volume>
+          <fpage>3278</fpage>
+          <lpage>3286</lpage>
+          <pub-id pub-id-type="doi">10.1519/JSC.0b013e3181b60444</pub-id>
+          <pub-id pub-id-type="pmid">19996787</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-nutrients-12-00112">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ispirlidis</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Fatouros</surname>
+              <given-names>I.G.</given-names>
+            </name>
+            <name>
+              <surname>Jamurtas</surname>
+              <given-names>A.Z.</given-names>
+            </name>
+            <name>
+              <surname>Nikolaidis</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Michailidis</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Douroudos</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Margonis</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Chatzinikolaou</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kalistratos</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Katrabasas</surname>
+              <given-names>I.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Time-course of changes in inflammatory markers and performance responses following a soccer game</article-title>
+          <source>Clin. J. Sport Med.</source>
+          <year>2008</year>
+          <volume>18</volume>
+          <fpage>423</fpage>
+          <lpage>431</lpage>
+          <pub-id pub-id-type="doi">10.1097/JSM.0b013e3181818e0b</pub-id>
+          <pub-id pub-id-type="pmid">18806550</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-nutrients-12-00112">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mohr</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Draganidis</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Chatzinikolaou</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Barbero-&#xC1;lavarez</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Castagna</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Douroudos</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Avloniti</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Margeli</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Papassotiriou</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Flouris</surname>
+              <given-names>A.D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Muscle damage, inflammatory, immune and performance responses to three football games in 1 week in competitive male players</article-title>
+          <source>Eur. J. Appl. Physiol.</source>
+          <year>2016</year>
+          <volume>116</volume>
+          <fpage>179</fpage>
+          <lpage>193</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00421-015-3245-2</pub-id>
+          <pub-id pub-id-type="pmid">26377004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-nutrients-12-00112">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cockburn</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Stevenson</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Hayes</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Robson-Ansley</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Howatson</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of milk-based carbohydrate-protein supplement timing on the attenuation of exercise-induced muscle damage</article-title>
+          <source>Appl. Physiol. Nutr. Metab.</source>
+          <year>2010</year>
+          <volume>35</volume>
+          <fpage>270</fpage>
+          <lpage>277</lpage>
+          <pub-id pub-id-type="doi">10.1139/H10-017</pub-id>
+          <pub-id pub-id-type="pmid">20555370</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-nutrients-12-00112">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cockburn</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hayes</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>French</surname>
+              <given-names>D.N.</given-names>
+            </name>
+            <name>
+              <surname>Stevenson</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>St Clair Gibson</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Acute milk-based protein-CHO supplementation attenuates exercise-induced muscle damage</article-title>
+          <source>Appl. Physiol. Nutr. Metab.</source>
+          <year>2008</year>
+          <volume>33</volume>
+          <fpage>775</fpage>
+          <lpage>783</lpage>
+          <pub-id pub-id-type="doi">10.1139/H08-057</pub-id>
+          <pub-id pub-id-type="pmid">18641722</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-nutrients-12-00112">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rankin</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Stevenson</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Cockburn</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of milk on the attenuation of exercise-induced muscle damage in males and females</article-title>
+          <source>Eur. J. Appl. Physiol.</source>
+          <year>2015</year>
+          <volume>115</volume>
+          <fpage>1245</fpage>
+          <lpage>1261</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00421-015-3121-0</pub-id>
+          <pub-id pub-id-type="pmid">25673557</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-nutrients-12-00112">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rankin</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Landy</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Stevenson</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Cockburn</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Milk: An effective recovery drink for female athletes</article-title>
+          <source>Nutrients</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <elocation-id>228</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/nu10020228</pub-id>
+          <pub-id pub-id-type="pmid">29462969</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-nutrients-12-00112">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Phillips</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hamilton</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Baar</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Signals mediating skeletal muscle remodelling by resistance exercise: P13-kinase-independent activation of mTORC1</article-title>
+          <source>J. Appl. Physiol.</source>
+          <year>2011</year>
+          <volume>110</volume>
+          <fpage>561</fpage>
+          <lpage>568</lpage>
+          <pub-id pub-id-type="doi">10.1152/japplphysiol.00941.2010</pub-id>
+          <pub-id pub-id-type="pmid">21071597</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-nutrients-12-00112">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elia</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Stadler</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Horv&#xE1;th</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Jakus</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of soy- and whey protein-isolate supplemented diet on the redox parameters of trained mice</article-title>
+          <source>Eur. J Nutr.</source>
+          <year>2006</year>
+          <volume>45</volume>
+          <fpage>259</fpage>
+          <lpage>266</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00394-006-0593-z</pub-id>
+          <pub-id pub-id-type="pmid">16575496</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-nutrients-12-00112">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kerasioti</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kiskini</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Veskoukis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jamurtas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tsitsimpikou</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tsatsakis</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Koutedakis</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Stagos</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kouretas</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vaios</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of a special carbohydrate-protein cake on oxidative stress markers after exhaustive cycling in humans</article-title>
+          <source>Food Chem. Toxicol.</source>
+          <year>2012</year>
+          <volume>50</volume>
+          <fpage>2805</fpage>
+          <lpage>2810</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fct.2012.04.015</pub-id>
+          <pub-id pub-id-type="pmid">22538083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-nutrients-12-00112">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alcantara</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Sanchez-Delgado</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Martinez-Tellez</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Labayen</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Ruiz</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of cow&#x2019;s milk intake on exercise performance and recovery of muscle function: A systematic review</article-title>
+          <source>J. Int. Soc. Sports Nutr.</source>
+          <year>2019</year>
+          <volume>16</volume>
+          <fpage>22</fpage>
+          <pub-id pub-id-type="doi">10.1186/s12970-019-0288-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-nutrients-12-00112">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bishop</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Spencer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Duffield</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The validity of a repeated sprint ability test</article-title>
+          <source>J. Sci. Med. Sport</source>
+          <year>2001</year>
+          <volume>4</volume>
+          <fpage>19</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1440-2440(01)80004-9</pub-id>
+          <pub-id pub-id-type="pmid">11339490</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-nutrients-12-00112">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wolff</surname>
+              <given-names>S.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ferrous ion oxidation in presence of ferric ion indicator xylenol orange for measurement of hypoperoxides</article-title>
+          <source>Methods Enzymol.</source>
+          <year>1994</year>
+          <volume>233</volume>
+          <fpage>183</fpage>
+          <lpage>189</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B19-nutrients-12-00112">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nouroo-Zadeh</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tajaddinisarmadi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wolff</surname>
+              <given-names>S.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Measurement of plasma hydroperoxide concentrations by the ferrous oxidation-xylenol orange assay in conjunction with triphenylphosphine</article-title>
+          <source>Anal. Biochem.</source>
+          <year>1994</year>
+          <volume>220</volume>
+          <fpage>403</fpage>
+          <lpage>409</lpage>
+          <pub-id pub-id-type="doi">10.1006/abio.1994.1357</pub-id>
+          <pub-id pub-id-type="pmid">7978285</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-nutrients-12-00112">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levine</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Garland</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Oliver</surname>
+              <given-names>C.N.</given-names>
+            </name>
+            <name>
+              <surname>Amici</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Climent</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Lenz</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Ahn</surname>
+              <given-names>B.W.</given-names>
+            </name>
+            <name>
+              <surname>Shaltiel</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Stadtman</surname>
+              <given-names>E.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Determination of carbonyl content in oxidatively modified proteins</article-title>
+          <source>Methods Enzymol.</source>
+          <year>1990</year>
+          <volume>186</volume>
+          <fpage>465</fpage>
+          <lpage>478</lpage>
+          <pub-id pub-id-type="doi">10.1016/0076-6879(90)86141-H</pub-id>
+          <pub-id pub-id-type="pmid">1978225</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-nutrients-12-00112">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rushall</surname>
+              <given-names>B.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A tool for measuring stress tolerance in elite athletes</article-title>
+          <source>J. Appl. Sport Psychol.</source>
+          <year>1990</year>
+          <volume>2</volume>
+          <fpage>51</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="doi">10.1080/10413209008406420</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-nutrients-12-00112">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pe&#xF1;ailillo</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Blazevich</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Numazawa</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Nosaka</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rate of force development as a measure of muscle damage</article-title>
+          <source>Scand. J. Med. Sci. Sports</source>
+          <year>2015</year>
+          <volume>25</volume>
+          <fpage>417</fpage>
+          <lpage>427</lpage>
+          <pub-id pub-id-type="doi">10.1111/sms.12241</pub-id>
+          <pub-id pub-id-type="pmid">24798498</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-nutrients-12-00112">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aagaard</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Simonsen</surname>
+              <given-names>E.B.</given-names>
+            </name>
+            <name>
+              <surname>Andersen</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Magnusson</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Dyhre-Poulsen</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased rate of force development and neural drive of human skeletal muscle following resistance training</article-title>
+          <source>J. Appl. Physiol.</source>
+          <year>2002</year>
+          <volume>93</volume>
+          <fpage>1318</fpage>
+          <lpage>1326</lpage>
+          <pub-id pub-id-type="doi">10.1152/japplphysiol.00283.2002</pub-id>
+          <pub-id pub-id-type="pmid">12235031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-nutrients-12-00112">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Batterham</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>W.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Making meaningful inferences about magnitudes</article-title>
+          <source>Int. J. Sports Physiol. Perform.</source>
+          <year>2006</year>
+          <volume>1</volume>
+          <fpage>50</fpage>
+          <lpage>57</lpage>
+          <pub-id pub-id-type="doi">10.1123/ijspp.1.1.50</pub-id>
+          <pub-id pub-id-type="pmid">19114737</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-nutrients-12-00112">
+        <label>25.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>W.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pre-Post Parallel Groups Trial (Excel Spreadsheet)</article-title>
+          <year>2006</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.sportsci.org" ext-link-type="uri">http://www.sportsci.org</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-11-23">(accessed on 23 November 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B26-nutrients-12-00112">
+        <label>26.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>W.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>P values down but not yet out</article-title>
+          <source>Proceedings of the 8th International Scientific Conference on Kinesiology</source>
+          <conf-loc>Opatiga, Croatia</conf-loc>
+          <conf-date>10&#x2013;14 May 2017</conf-date>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.sportsci.org" ext-link-type="uri">http://www.sportsci.org</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-11-23">(accessed on 23 November 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B27-nutrients-12-00112">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nevill</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lane</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Why self-report &#x2018;Liekert&#x2019; scale data should not be log-transformed</article-title>
+          <source>J. Sports Sci.</source>
+          <year>2007</year>
+          <volume>25</volume>
+          <fpage>1</fpage>
+          <lpage>2</lpage>
+          <pub-id pub-id-type="doi">10.1080/02640410601111183</pub-id>
+          <pub-id pub-id-type="pmid">17127576</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-nutrients-12-00112">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>W.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>A spreadsheet for analysis of straightforward controlled trials</article-title>
+          <source>Sportscience</source>
+          <year>2003</year>
+          <volume>7</volume>
+          <fpage>15</fpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://sportsci.org/jour/03/wghtrials.htm" ext-link-type="uri">https://sportsci.org/jour/03/wghtrials.htm</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-11-23">(accessed on 23 November 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B29-nutrients-12-00112">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>W.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Probabilities of clinical or practical significance</article-title>
+          <source>Sportscience</source>
+          <year>2002</year>
+          <fpage>6</fpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.sportsci.org/jour/0201/wghprob.htm" ext-link-type="uri">https://www.sportsci.org/jour/0201/wghprob.htm</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-11-23">(accessed on 23 November 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B30-nutrients-12-00112">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>W.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Linear models and effect magnitudes for research, clinical and practical applications</article-title>
+          <source>Sportscience</source>
+          <year>2010</year>
+          <volume>14</volume>
+          <fpage>49</fpage>
+          <lpage>58</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B31-nutrients-12-00112">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Groen</surname>
+              <given-names>B.B.</given-names>
+            </name>
+            <name>
+              <surname>Horstman</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Hamer</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>De Hann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van Kranenburg</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bierau</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Poeze</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wodzig</surname>
+              <given-names>W.K.</given-names>
+            </name>
+            <name>
+              <surname>Rasmussen</surname>
+              <given-names>B.B.</given-names>
+            </name>
+            <name>
+              <surname>van Loon</surname>
+              <given-names>L.J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Post-prandial protein handling: You are what you just ate</article-title>
+          <source>PLoS ONE</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <elocation-id>e0141582</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0141582</pub-id>
+          <pub-id pub-id-type="pmid">26556791</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-nutrients-12-00112">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moore</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Robinson</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Fry</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Glover</surname>
+              <given-names>E.I.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Prior</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tarnopolsky</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ingested protein dose-response of muscle and albumin protein synthesis after resistance exercise in young men</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2009</year>
+          <volume>89</volume>
+          <fpage>161</fpage>
+          <lpage>168</lpage>
+          <pub-id pub-id-type="doi">10.3945/ajcn.2008.26401</pub-id>
+          <pub-id pub-id-type="pmid">19056590</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-nutrients-12-00112">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Macnaughton</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Wardle</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Witard</surname>
+              <given-names>O.C.</given-names>
+            </name>
+            <name>
+              <surname>McGlory</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hamilton</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Jeromson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lawrence</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Wallis</surname>
+              <given-names>G.A.</given-names>
+            </name>
+            <name>
+              <surname>Tipton</surname>
+              <given-names>K.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The response of muscle protein synthesis following whole-body resistance exercise is greater following 40 g than 20 g of ingested whey protein</article-title>
+          <source>Physiol. Rep.</source>
+          <year>2016</year>
+          <volume>4</volume>
+          <fpage>e12893</fpage>
+          <pub-id pub-id-type="doi">10.14814/phy2.12893</pub-id>
+          <pub-id pub-id-type="pmid">27511985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-nutrients-12-00112">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bishop</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gleeson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nicholas</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ali</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of carbohydrate supplementation on plasma cytokine and neutrophil degranulation responses to high intensity intermittent exercise</article-title>
+          <source>Int. J. Sport Nutr. Exerc. Metab.</source>
+          <year>2002</year>
+          <volume>12</volume>
+          <fpage>145</fpage>
+          <lpage>156</lpage>
+          <pub-id pub-id-type="doi">10.1123/ijsnem.12.2.145</pub-id>
+          <pub-id pub-id-type="pmid">12187615</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-nutrients-12-00112">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andersson</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bohn</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Raastad</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Paulsen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Blomhoff</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kadi</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differences in the inflammatory plama cytokine response following two elite female soccer games separated by a 72h recovery</article-title>
+          <source>Scand. J. Med. Sci. Sports</source>
+          <year>2009</year>
+          <volume>20</volume>
+          <fpage>740</fpage>
+          <lpage>747</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0838.2009.00989.x</pub-id>
+          <pub-id pub-id-type="pmid">19765242</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-nutrients-12-00112">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rankin</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lawlor</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Hills</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Bell</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Stevenson</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Cockburn</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of milk on recovery from repeat-sprint cycling in female team-sport athletes</article-title>
+          <source>Appl. Physiol. Nutr. Metab.</source>
+          <year>2018</year>
+          <volume>43</volume>
+          <fpage>113</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.1139/apnm-2017-0275</pub-id>
+          <pub-id pub-id-type="pmid">28972854</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-nutrients-12-00112">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Singh</surname>
+              <given-names>T.K.R.</given-names>
+            </name>
+            <name>
+              <surname>Guelfi</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Landers</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Dawson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Bishop</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>A comparison of muscle damage, soreness and performance following a simulated contact and non-contact team sport activity circuit</article-title>
+          <source>J. Sci. Med. Sport</source>
+          <year>2011</year>
+          <volume>14</volume>
+          <fpage>441</fpage>
+          <lpage>446</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jsams.2011.03.008</pub-id>
+          <pub-id pub-id-type="pmid">21524939</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-nutrients-12-00112">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ingram</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dawson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Goodman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wallman</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Beilby</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of water immersion methods on post-exercise recovery from simulated team sport exercise</article-title>
+          <source>J. Sci. Med. Sport</source>
+          <year>2009</year>
+          <volume>12</volume>
+          <fpage>417</fpage>
+          <lpage>421</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jsams.2007.12.011</pub-id>
+          <pub-id pub-id-type="pmid">18547863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-nutrients-12-00112">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duffield</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Edge</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Merrells</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hawke</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Barnes</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Simcock</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gill</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effects of compression garments on intermittent exercise performance and recovery on consecutive days</article-title>
+          <source>Int. J. Sports Physiol. Perform.</source>
+          <year>2008</year>
+          <volume>3</volume>
+          <fpage>454</fpage>
+          <lpage>468</lpage>
+          <pub-id pub-id-type="doi">10.1123/ijspp.3.4.454</pub-id>
+          <pub-id pub-id-type="pmid">19223671</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-nutrients-12-00112">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stupka</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Tiidus</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of ovariectomy and estrogen on ischemia-reperfusion in hindlimbs of female rats</article-title>
+          <source>J. Appl. Physiol.</source>
+          <year>2001</year>
+          <volume>91</volume>
+          <fpage>1828</fpage>
+          <lpage>1835</lpage>
+          <pub-id pub-id-type="doi">10.1152/jappl.2001.91.4.1828</pub-id>
+          <pub-id pub-id-type="pmid">11568169</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-nutrients-12-00112">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deminice</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rosa</surname>
+              <given-names>F.T.</given-names>
+            </name>
+            <name>
+              <surname>Franco</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Jordao</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>de Freitas</surname>
+              <given-names>E.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of creatine supplementation on oxidative stress and inflammatory markers after repeated-sprint exercise in humans</article-title>
+          <source>Nutrition</source>
+          <year>2013</year>
+          <volume>29</volume>
+          <fpage>1127</fpage>
+          <lpage>1132</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.nut.2013.03.003</pub-id>
+          <pub-id pub-id-type="pmid">23800565</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-nutrients-12-00112">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jackson</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Vasilaki</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>McArdle</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cellular mechanisms underlying oxidative stress in human exercise</article-title>
+          <source>Free Radic. Biol. Med.</source>
+          <year>2016</year>
+          <volume>98</volume>
+          <fpage>13</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2016.02.023</pub-id>
+          <pub-id pub-id-type="pmid">26912036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-nutrients-12-00112">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McHugh</surname>
+              <given-names>M.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent advances in the understanding of the repeated bout effect: The protective effect against muscle damage from a single bout of eccentric exercise</article-title>
+          <source>Scand. J. Med. Sci. Sports</source>
+          <year>2003</year>
+          <volume>13</volume>
+          <fpage>88</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="doi">10.1034/j.1600-0838.2003.02477.x</pub-id>
+          <pub-id pub-id-type="pmid">12641640</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="nutrients-12-00112-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Effect of milk vs. carbohydrate on recovery from repeated simulated team-sport games. (<bold>a</bold>) Peak torque 60&#xB0;/s for knee flexion; (<bold>b</bold>) 5 m sprint performance; (<bold>c</bold>) Daily Analysis of Life Demands (DALDA) Part B; (<bold>d</bold>) Creatine kinase. Values are presented as the mean &#xB1; SD. &#x25EF; Cow&#x2019;s milk (MILK); &#x2B1B; an energy-matched carbohydrate (CHO). * Possible; ** likely; *** very likely.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nutrients-12-00112-g001a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nutrients-12-00112-g001b.tif"/>
+      </fig>
+      <fig id="nutrients-12-00112-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Mean values for simulated team game (STG) 1 vs. STG 2 (<bold>a</bold>) 5 m sprint performance; (<bold>b</bold>) 15 m sprint performance; (<bold>c</bold>) countermovement jump performance; (<bold>d</bold>) lap time; (<bold>e</bold>) heart rate; (<bold>f</bold>) rate of perceived exertion. Values are presented as the mean &#xB1; SD. &#x25EF; MILK; &#x2B1B; CHO.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nutrients-12-00112-g002.tif"/>
+      </fig>
+      <table-wrap id="nutrients-12-00112-t001" position="float">
+        <object-id pub-id-type="pii">nutrients-12-00112-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Effects of MILK vs. CHO on muscle function, soreness, tiredness, symptoms of stress, serum creatine kinase (CK), high sensitivity C-reactive protein (hsCRP), LOOHs and PCs following repeated simulated team-sport game.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Variable</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Time Frame</th>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Effect <sup>a</sup>, &#xB1; or &#xD7;/&#xF7; 90% CI <sup>b</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Qualitative Inference <sup>c</sup></th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">(ES)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Peak Torque 60&#xB0;/s Leg extension</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">5.1, &#xB1;5.2</td>
+              <td align="center" valign="middle">Small (0.26) benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">5.2, &#xB1;6.7</td>
+              <td align="center" valign="middle">Small (0.28) benefit *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">2.5, &#xB1;6.5</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.3, &#xB1;5.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Trivial *</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Peak Torque 60&#xB0;/s Leg flexion</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">7.4, &#xB1;8.6</td>
+              <td align="center" valign="middle">Small (0.45) benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">11.4, &#xB1;13.6</td>
+              <td align="center" valign="middle">Moderate (0.61) benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">10.5, &#xB1;15.2</td>
+              <td align="center" valign="middle">Small (0.52) benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.3, &#xB1;11.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Peak Torque 180&#xB0;/s Leg extension</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">&#x2212;1.7, &#xB1;5.4</td>
+              <td align="center" valign="middle">Trivial *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">1.5, &#xB1;6.9</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">3.0, &#xB1;7.1</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.9, &#xB1;6.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Trivial *</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Peak Torque 180&#xB0;/s Leg flexion</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">2.7, &#xB1;7.4</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">6.6, &#xB1;4.6</td>
+              <td align="center" valign="middle">Small (0.32) benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">2.2, &#xB1;8.8</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.9, &#xB1;9.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Rate of Force Development (RFD) (0&#x2013;200 ms)</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">18.8, &#xB1;46.6</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">2.2, &#xB1;28.0</td>
+              <td align="center" valign="middle">Trivial *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">1.0, &#xB1;35.8</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">23.9, &#xB1;45.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Countermovement Jump (CMJ) height</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">0.4, &#xB1;6.8</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">2.9, &#xB1;9.2</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">1.5, &#xB1;6.8</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.5, &#xB1;8.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Reactive Strength Index (RSI)</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">7.4, &#xB1;11.1</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">1.1, &#xB1;10.8</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">&#x2212;8.4, &#xB1;15.9</td>
+              <td align="center" valign="middle">Small (0.47) harm *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;7.8, &#xB1;14.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Small (0.48) harm *</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">5 m sprint</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">&#x2212;1.9, &#xB1;2.4</td>
+              <td align="center" valign="middle">Small (0.40) benefit *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">&#x2212;2.5, &#xB1;3.2</td>
+              <td align="center" valign="middle">Small (0.51) benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">&#x2212;2.7, &#xB1;3.6</td>
+              <td align="center" valign="middle">Moderate (0.58) benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;3.2, &#xB1;5.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">10 m sprint</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">&#x2212;0.8, &#xB1;2.3</td>
+              <td align="center" valign="middle">Trivial **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">&#x2212;2.1, &#xB1;2.6</td>
+              <td align="center" valign="middle">Small (0.50) benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">&#x2212;1.3, &#xB1;2.6</td>
+              <td align="center" valign="middle">Small (0.30) benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;2.3, &#xB1;1.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Small (0.53) benefit *</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">20 m sprint</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">0.1, &#xB1;2.1</td>
+              <td align="center" valign="middle">Trivial *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">&#x2212;0.3, &#xB1;2.5</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">&#x2212;0.1, &#xB1;2.0</td>
+              <td align="center" valign="middle">Trivial *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.1, &#xB1;3.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Muscle soreness (Squat)</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">&#x2212;0.2, &#xB1;1.7</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">&#x2212;1.1, &#xB1;1.3</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">&#x2212;0.6, &#xB1;1.6</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.5, &#xB1;1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Muscle soreness (Isokinetic knee extension/flexion)</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">&#x2212;0.7, &#xB1;0.8</td>
+              <td align="center" valign="middle">Trivial benefit *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">&#x2212;0.1, &#xB1;1.1</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">&#x2212;0.5, &#xB1;1.1</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.8, &#xB1;1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">Muscle tiredness</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">&#x2212;0.1, &#xB1;1.4</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">&#x2212;1.0, &#xB1;1.5</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">&#x2212;1.1, &#xB1;1.5</td>
+              <td align="center" valign="middle">Small benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.5, &#xB1;1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">DALDA Part B</td>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">&#x2212;2.4, &#xB1;2.0</td>
+              <td align="center" valign="middle">Small benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">&#x2212;3.7, &#xB1;2.6</td>
+              <td align="center" valign="middle">Small benefit ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">&#x2212;3.2, &#xB1;2.9</td>
+              <td align="center" valign="middle">Small benefit **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;2.0, &#xB1;3.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin">Creatine Kinase</td>
+              <td align="center" valign="middle">B-2 h</td>
+              <td align="center" valign="middle">1.0, &#xD7;/&#xF7;1.5</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">1.0, &#xD7;/&#xF7;1.8</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">0.9, &#xD7;/&#xF7; 1.5</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-52 h</td>
+              <td align="center" valign="middle">1.1, &#xD7;/&#xF7;1.6</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">1.0, &#xD7;/&#xF7;1.9</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.0, &#xD7;/&#xF7;1.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin">hsCRP</td>
+              <td align="center" valign="middle">B-2 h </td>
+              <td align="center" valign="middle">1.3, &#xD7;/&#xF7;1.5</td>
+              <td align="center" valign="middle">Small (0.48) harm **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">1.7, &#xD7;/&#xF7;1.6</td>
+              <td align="center" valign="middle">Moderate (0.76) harm **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">1.7, &#xD7;/&#xF7;1.7</td>
+              <td align="center" valign="middle">Moderate (0.61) harm **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-52 h</td>
+              <td align="center" valign="middle">1.0, &#xD7;/&#xF7;2.1</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">1.0, &#xD7;/&#xF7;2.2</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.0, &#xD7;/&#xF7;2.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin">Lipid Hydroperoxides (LOOHs)</td>
+              <td align="center" valign="middle">B-2 h </td>
+              <td align="center" valign="middle">1.2, &#xD7;/&#xF7;1.5</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">0.9, &#xD7;/&#xF7;1.2</td>
+              <td align="center" valign="middle">Small (0.18) harm **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">1.1, &#xD7;/&#xF7;1.3</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-52 h</td>
+              <td align="center" valign="middle">1.4, &#xD7;/&#xF7;1.7</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">1.1, &#xD7;/&#xF7;1.4</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.9, &#xD7;/&#xF7;1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+            <tr>
+              <td rowspan="6" align="center" valign="middle" style="border-bottom:solid thin">Protein Carbonyls (PCs)</td>
+              <td align="center" valign="middle">B-2 h </td>
+              <td align="center" valign="middle">0.9, &#xD7;/&#xF7;2.0</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-24 h</td>
+              <td align="center" valign="middle">0.9, &#xD7;/&#xF7;1.5</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-48 h</td>
+              <td align="center" valign="middle">0.8, &#xD7;/&#xF7;1.6</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-52 h</td>
+              <td align="center" valign="middle">0.8, &#xD7;/&#xF7;1.5</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">B-72 h</td>
+              <td align="center" valign="middle">0.9, &#xD7;/&#xF7;1.3</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B-96 h</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.7, &#xD7;/&#xF7;1.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p><sup>a</sup> Mean effect refers to MILK minus CHO; <sup>b</sup> &#xB1;90% CI: add and subtract this number to the mean effect to obtain the 90% confidence intervals for the true difference; <bold><sup>c</sup></bold> qualitative Inference represents the likelihood that the true value will have the observed magnitude; * possible; ** likely; *** very likely.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="nutrients-12-00112-t002" position="float">
+        <object-id pub-id-type="pii">nutrients-12-00112-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Effect of MILK vs. CHO on simulated team-sport game variables, 5 m sprint, 15 m sprint, lap time, jump height, heart rate (HR) and rating of perceived exertion (RPE).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Variable</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mean Effect <sup>a</sup> &#xB1; 90% CI <sup>b</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Qualitative Inference <sup>c</sup></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">5 m sprint</td>
+              <td align="center" valign="middle">&#x2212;1.5 &#xB1; 7.4</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">15 m sprint</td>
+              <td align="center" valign="middle">&#x2212;0.8 &#xB1; 3.2</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">CMJ</td>
+              <td align="center" valign="middle">&#x2212;0.6 &#xB1; 4.4</td>
+              <td align="center" valign="middle">Trivial *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Lap time</td>
+              <td align="center" valign="middle">&#x2212;1.1 &#xB1; 3.9</td>
+              <td align="center" valign="middle">Unclear</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HR </td>
+              <td align="center" valign="middle">&#x2212;0.3 &#xB1; 1.3</td>
+              <td align="center" valign="middle">Trivial **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">RPE</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.6 &#xB1; 1.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Unclear</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p><sup>a</sup> Mean effect refers to MILK minus CHO; <sup>b</sup> &#xB1;90% CI: add and subtract this number to the mean effect to obtain the 90% confidence intervals for the true difference; <bold><sup>c</sup></bold> qualitative Inference represents the likelihood that the true value will have the observed magnitude; * possible; ** likely.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

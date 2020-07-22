@@ -1,0 +1,1788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010283</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00283</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Occurrence of Thermophilic Microorganisms in Different Full Scale Biogas Plants</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-8450-7137</contrib-id>
+          <name>
+            <surname>Kushkevych</surname>
+            <given-names>Ivan</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00283" ref-type="aff">1</xref>
+          <xref rid="c1-ijms-21-00283" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cejnar</surname>
+            <given-names>Ji&#x159;&#xED;</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00283" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+            <given-names>Monika</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00283" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>V&#xED;t&#x11B;z</surname>
+            <given-names>Tom&#xE1;&#x161;</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00283" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2435-9726</contrib-id>
+          <name>
+            <surname>Dordevi&#x107;</surname>
+            <given-names>Dani</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00283" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bomble</surname>
+            <given-names>Yannick J.</given-names>
+          </name>
+          <xref rid="af4-ijms-21-00283" ref-type="aff">4</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00283"><label>1</label>Department of Experimental Biology, Faculty of Science, Masaryk University, 62500 Brno, Czech Republic; <email>451355@mail.muni.cz</email> (J.C.); <email>vitezova@sci.muni.cz</email> (M.V.)</aff>
+      <aff id="af2-ijms-21-00283"><label>2</label>Department of Agricultural, Food and Environmental Engineering, Faculty of AgriSciences, Mendel University, 61300 Brno, Czech Republic; <email>tomas.vitez@mendelu.cz</email></aff>
+      <aff id="af3-ijms-21-00283"><label>3</label>Department of Plant Origin Foodstuffs Hygiene and Technology, Faculty of Veterinary Hygiene and Ecology, University of Veterinary and Pharmaceutical Sciences, 61242 Brno, Czech Republic; <email>dani_dordevic@yahoo.com</email></aff>
+      <aff id="af4-ijms-21-00283"><label>4</label>Bioscience Center, National Renewable Energy Laboratory, 16253 Denver West Parkway, Golden, CO 80401, USA; <email>Yannick.Bomble@nrel.gov</email></aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00283"><label>*</label>Correspondence: <email>kushkevych@mail.muni.cz</email>; Tel.: +420-549-495-315</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>283</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>27</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Background: In recent years, various substrates have been tested to increase the sustainable production of biomethane. The effect of these substrates on methanogenesis has been investigated mainly in small volume fermenters and were, for the most part, focused on studying the diversity of mesophilic microorganisms. However, studies of thermophilic communities in large scale operating mesophilic biogas plants do not yet exist. Methods: Microbiological, biochemical, biophysical methods, and statistical analysis were used to track thermophilic communities in mesophilic anaerobic digesters. Results: The diversity of the main thermophile genera in eight biogas plants located in the Czech Republic using different input substrates was investigated. In total, 19 thermophilic genera were detected after 16S rRNA gene sequencing. The highest percentage (40.8%) of thermophiles was found in the Mod&#x159;ice biogas plant where the input substrate was primary sludge and biological sludge (50/50, w/w %). The smallest percentage (1.87%) of thermophiles was found in the &#x10C;ej&#x10D; biogas plant with the input substrate being maize silage and liquid pig manure (80/20, w/w %). Conclusions: The composition of the anaerobic consortia in anaerobic digesters is an important factor for the biogas plant operator. The present study can help characterizing the impact of input feeds on the composition of microbial communities in these plants.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>renewable energy</kwd>
+        <kwd>biogas</kwd>
+        <kwd>Illumina sequencing</kwd>
+        <kwd>thermophilic microorganisms</kwd>
+        <kwd>anaerobic digesters</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00283" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Anaerobic digestion is one of the technologies that can process and reduce biodegradable waste, thus limiting its environmental impact. Anaerobic processes are effective tools to reduce pollution and they fully meet cleaner energy production objectives. It has been used for wastewater treatment and more recently, for processing biodegradable industrial and agricultural wastes [<xref ref-type="bibr" rid="B1-ijms-21-00283">1</xref>,<xref ref-type="bibr" rid="B2-ijms-21-00283">2</xref>,<xref ref-type="bibr" rid="B3-ijms-21-00283">3</xref>,<xref ref-type="bibr" rid="B4-ijms-21-00283">4</xref>,<xref ref-type="bibr" rid="B5-ijms-21-00283">5</xref>]. Anaerobic processes occur naturally in wetlands, swamps, and in the digestive tracts of ruminants [<xref ref-type="bibr" rid="B6-ijms-21-00283">6</xref>]. Anaerobic microorganisms were also discovered in landfills where they degrade biodegradable municipal waste. The product of anaerobic metabolism is biogas [<xref ref-type="bibr" rid="B7-ijms-21-00283">7</xref>,<xref ref-type="bibr" rid="B8-ijms-21-00283">8</xref>], which is classified as a source of renewable energy [<xref ref-type="bibr" rid="B9-ijms-21-00283">9</xref>]. During the anaerobic process, biochemical degradation of organic polymers to methane (CH<sub>4</sub>) and carbon dioxide (CO<sub>2</sub>) occurs [<xref ref-type="bibr" rid="B10-ijms-21-00283">10</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00283">11</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00283">12</xref>,<xref ref-type="bibr" rid="B13-ijms-21-00283">13</xref>]. The major components of biogas are CH<sub>4</sub> (55% vol&#x2013;70% vol) and CO<sub>2</sub> (30% vol&#x2013;45% vol) [<xref ref-type="bibr" rid="B14-ijms-21-00283">14</xref>,<xref ref-type="bibr" rid="B15-ijms-21-00283">15</xref>,<xref ref-type="bibr" rid="B16-ijms-21-00283">16</xref>]. Anaerobic microorganisms are responsible for establishing a stable environment at different stages of biogas production [<xref ref-type="bibr" rid="B7-ijms-21-00283">7</xref>,<xref ref-type="bibr" rid="B8-ijms-21-00283">8</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00283">12</xref>].</p>
+      <p>Thermophilic microorganisms live at high temperatures 50&#x2013;122 &#xB0;C. Most of them belong to the domain of <italic>Archaea</italic> [<xref ref-type="bibr" rid="B17-ijms-21-00283">17</xref>]. This group of microorganisms can be classified, according to their optimal growth temperatures, as thermophiles (50&#x2013;64 &#xB0;C), extremophiles (65&#x2013;79 &#xB0;C) and hyperthermophiles (&#x2265;80 &#xB0;C) [<xref ref-type="bibr" rid="B18-ijms-21-00283">18</xref>]. Thermophilic microorganisms are often isolated from waste water discharge, bio waste streams, acid mine effluents as well as geothermal and volcanic areas, terrestrial hot springs, submarine hydrothermal vents, geothermally heated oil reserves and oil wells, sun-heated litter, and soils/sediments, throughout the world [<xref ref-type="bibr" rid="B19-ijms-21-00283">19</xref>].</p>
+      <p>There are not many information about thermophilic microorganisms included in methane production and oxidation processes. It was found that mushroom compost piles contain 2 &#xD7; 10<sup>8</sup> thermophilic methanogens per gram dry matter. The processes involved in methane oxidation are important since 90% of methane reaching atmosphere is in oxidized form [<xref ref-type="bibr" rid="B4-ijms-21-00283">4</xref>].</p>
+      <p>The advances of thermophilic conditions in anaerobic digestion are represented by the fact that gas is formed within shorter amount of time than when anaerobic digestion is done under mesophilic conditions. Though, higher energy is necessary for the maintenance of thermophilic conditions in biogas plant reactor. The heating in digesters that are operating at mesophilic and thermophilic levels results in effective denaturation of weed seeds and also pathogens reduction. The pathogen reduction, after 20 days, is almost 100%, meaning that thermophilic temperatures are of crucial importance for pathogens elimination. Other biogas plant digesters, operating at room temperatures, have much lower elimination level of pathogens [<xref ref-type="bibr" rid="B6-ijms-21-00283">6</xref>].</p>
+      <p>It should be noted that thermophilic microorganisms may be involved in the process of methanogenesis, but their diversity in mesophilic biogas plants is still not well characterized, especially with respect to the effect of substrate variation. Additionally, the changes in the distribution of thermophiles in mesophilic conditions has never been well studied either. On the one hand, it appears that these microorganisms would not be able to grow under mesophilic conditions (40&#x2013;50 &#xB0;C) as their growth would be too slow and unable to compete with mesophiles, but on the other hand, this hypothesis has never been studied in this context. Indeed, there is a lack of information about the metabolic activity of these microorganisms under mesophilic conditions and there remains a possibility that they could be involved in the process of methanogenesis. The prevalence of thermophilic populations in mesophilic biogas plants and their composition with respect to different substrate ratios has rarely been studied. This study aims at reducing this knowledge gap.</p>
+    </sec>
+    <sec id="sec2-ijms-21-00283" sec-type="results">
+      <title>2. Results</title>
+      <p>Seven operating biogas plants in the Czech Republic, each using different feeds, were selected as sources of microbial consortia for further analysis. At the present time, there are working 450 agricultural biogas plants in the Czech Republic. Most of them operating at mesophilic temperature (in the vicinity of 42 &#xB0;C) to minimize high heat loss during winter time due to the low ambient temperatures. In this study, we selected plants using different operating conditions and ratios of input material. The physical and chemical properties (including: temperature, pH, oxidation-reduction potential (ORP), total volatile solids, and gasses: CH<sub>4</sub>, CO<sub>2</sub>, and H<sub>2</sub>) of these bioreactors are shown in <xref ref-type="fig" rid="ijms-21-00283-f001">Figure 1</xref>, <xref ref-type="fig" rid="ijms-21-00283-f002">Figure 2</xref> and <xref ref-type="fig" rid="ijms-21-00283-f003">Figure 3</xref>. The data indicate that the highest temperature was measured in the P&#xE1;nov reactor (49 &#xB0;C), the lowest pH in the Mod&#x159;ice reactor (pH:7), and lowest ORP in the Brat&#x10D;ice reactor (&#x2212;75 mV) (<xref ref-type="fig" rid="ijms-21-00283-f001">Figure 1</xref>).</p>
+      <p>Total and volatile solids in the different anaerobic digesters are shown in <xref ref-type="fig" rid="ijms-21-00283-f002">Figure 2</xref>A and are, for the most part, fairly similar with the exception of the Mod&#x159;ice reactor where total and volatile solids were significantly lower. The composition of the respective biogas in these reactors (for the two most dominant compounds, methane (CH<sub>4</sub>) and carbon dioxide (CO<sub>2</sub>)) is shown in <xref ref-type="fig" rid="ijms-21-00283-f002">Figure 2</xref>B. The levels of methane and CO<sub>2</sub> produced ranged from 47% (Mod&#x159;ice) to 52% (Horn&#xED; Bene&#x161;ov) and approximately 47% for all bioreactors. Levels of hydrogen were also detected and were significantly lower in the &#xDA;valno and Lod&#x11B;nice bioreactor (0.0035%). The maximum level of hydrogen (0.0060%) was measured in the fermenter located in Horn&#xED; Bene&#x161;ov. The percentage of other gases detected was in the range of 1.49% in Brat&#x10D;ice and 4.99% in Mod&#x159;ice.</p>
+      <p>We also studied the diversity of thermophilic microorganisms in these mesophilic biogas plants and evaluated the proportion of thermophiles in the microbial consortia. In all anaerobic digesters considered in this study, the proportion of thermophiles ranged from 0.06 to 1% and the composition of thermophiles was dependent on the composition of the input substrate in each biogas plant (<xref ref-type="fig" rid="ijms-21-00283-f003">Figure 3</xref>A). The most widespread genus among all biogas plants was <italic>Syntrophaceticus</italic> sp. and it was found in each fermenter and dominated in five of them. On the other hand, the lowest percentage and diversity of thermophilic genera (<italic>Thermogymnomonas</italic> and <italic>Syntrophaceticus</italic>) was observed in the &#x10C;ej&#x10D; fermenter.</p>
+      <p>The greatest diversity of thermophilic microorganisms was detected in the fermenter located in Mod&#x159;ice (<xref ref-type="fig" rid="ijms-21-00283-f003">Figure 3</xref>B), probably because this anaerobic fermenter is operating in a wastewater treatment plant. The sample from Mod&#x159;ice contained 11 different genera of thermophiles: <italic>Thermogymnomonas</italic> (6.5%), <italic>Thermoflavimicrobium</italic> (31%), <italic>Thermovirga</italic> (24%), <italic>Thermoleophilum</italic> (0.24%), <italic>Thermanaeromonas</italic> (0.24%), <italic>Thermomonas</italic> (2%), <italic>Syntrophaceticus</italic> (0.97%), <italic>Fervidobacterium</italic> (31%), <italic>Kosmotoga</italic> (3.6%), <italic>Caldimicrobium</italic> (0.24%), and <italic>Oceanotoga</italic> (0.48%). However, the dominant genera in this reactor were <italic>Thermoflavimicrobium</italic> (31.40%) and <italic>Fervidobacterium</italic> (30.67%). It should be noted that the <italic>Thermoflavimicrobium</italic> genus was also observed in the fermenter located in Horn&#xED; Bene&#x161;ov but in very low abundance (1%). The <italic>Fervidobacterium</italic> genus was also detected in Rus&#xED;n (0.98%) and Brat&#x10D;ice (2%) but in low abundance as well. The following methanogenic microorganisms were found in the bioreactors (<xref ref-type="fig" rid="ijms-21-00283-f004">Figure 4</xref>): <italic>Methanoculleus</italic>, <italic>Thermogymnomonas</italic>, and <italic>Methanobacterium</italic>. Bioreactors in Rus&#xED;n and Brat&#x10D;ice had mostly <italic>Methanoculleus</italic> genus (30.7% and 29.5%, respectively), &#xDA;valno <italic>Thermogymnomonas</italic> genus (41.1%), and Mod&#x159;ice <italic>Methanobacterium</italic> genus (81.3%). The following methanogenic genera were also detected: <italic>Thermoplasmata</italic>, <italic>Methanospirillum</italic>, <italic>Thermoprotei</italic>, <italic>Methanobrevibacter</italic>, <italic>Methanolinea</italic>, <italic>Methanosaeta</italic>, <italic>Methanimicrococcus</italic>, though not in significant amounts.</p>
+      <p>Within all biogas plants, the second highest diversity of thermophiles was found in Brat&#x10D;ice where there were 10 genera of thermophiles including <italic>Syntrophaceticus</italic> (38.24%), <italic>Gelria</italic> (23.53%), <italic>Thermogymnomonas</italic> (17.65%), <italic>Oceanotoga</italic> (10.78%), <italic>Petrotoga</italic> (4.90%), and 0.98% of other genera including <italic>Desulfovirgula</italic>, <italic>Fervidobacterium</italic>, <italic>Moorella</italic>, <italic>Thermoactinomyces</italic>, and <italic>Thermosynthropa</italic>. The presence of <italic>Desulfovirgula</italic> and <italic>Thermosynthropa</italic> genera were determined only in the fermenter where maize silage/sugar beet pulp (70/30, w/w%) was used as a substrate. The Brat&#x10D;ice fermenter showed a different microbial profile with the following genera: <italic>Syntrophaceticus</italic> (57.63%), <italic>Gelria</italic> (15.97%), <italic>Oceanotoga</italic> (11.11%), <italic>Thermogymnomonas</italic> (9.72%), <italic>Fervidobacterium</italic> (2.08%), <italic>Thermoactinomyces</italic> (1.38%), and 0.69% of the remaining genera being <italic>Thermanaeromonas</italic>, <italic>Thermovirga</italic>, <italic>Petrotoga</italic>. The composition of the microbial consortium was fairly similar in the P&#xE1;nov fermenter, most likely because both fermenters process poultry litter. However, the microbial diversity was higher in Brat&#x10D;ice which can be the result of different ratios of input substrates, which are maize silage/whole crop silage/poultry litter (63/31/6, w/w%) in Brat&#x10D;ice and maize silage and poultry litter (92/8, w/w%) in P&#xE1;nov.</p>
+      <p>Fermenters in &#xDA;valno and P&#xE1;nov had a similar diversity of thermophiles, even though substrate heterogeneity was higher in &#xDA;valno where sugar beet pulp, maize silage, cattle manure, whole crop silage are used compared to maize silage and poultry litter in P&#xE1;nov. The lower diversity and abundance of thermophiles were detected in the &#x10C;ej&#x10D; fermenter (<xref ref-type="fig" rid="ijms-21-00283-f005">Figure 5</xref>). There were only two dominant genera, <italic>Syntrophaceticus</italic> and <italic>Thermogymnonas</italic>, in ratios of 5.27% and 94.73%, respectively. In this fermenter, maize silage and liquid pig manure were used. The Lod&#x11B;nice and Rus&#xED;n fermenters process the same substrate, sugar beet pulp and maize silage and these plants showed a similar diversity of thermophilic microorganisms with the exception of the <italic>Kosmotoga</italic> genus that was only detected in Lod&#x11B;nice.</p>
+      <p>Overall, <italic>Syntrophaceticus</italic> and <italic>Thermogymnomonas</italic> were the most abundant genera and were found in all anaerobic fermenters. The <italic>Gelria</italic> and <italic>Oceanotoga</italic> genera were also detected in high abundance in all fermenters with the exception of &#x10C;ej&#x10D; and Mod&#x159;ice. To clarify the genetic diversity of the thermophilic microorganisms in all these fermenters, a comparison of our 16S rRNA data was performed with GenBank and the genetic relationships are shown in phylogenetic trees (<xref ref-type="fig" rid="ijms-21-00283-f006">Figure 6</xref>).</p>
+    </sec>
+    <sec id="sec3-ijms-21-00283" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>Biogas is the product of anaerobic fermentation and methane in biogas produced by methanogenic <italic>Archaea</italic> in the following pathways: reduction of carbon dioxide, dismutation of methanol or methylamines and fermentation of acetate [<xref ref-type="bibr" rid="B20-ijms-21-00283">20</xref>]. Communities, which produce methane, are very resilient and stable, though they create largely undefined consortia. The aforementioned pathways can be realized by syntrophic acetate-oxidizing bacteria that convert acetate to hydrogen and carbon dioxide and simultaneously reduce carbon dioxide to methane by hydrogen-utilizing methanogens [<xref ref-type="bibr" rid="B20-ijms-21-00283">20</xref>]. This process was described in thermophilic fermenters [<xref ref-type="bibr" rid="B21-ijms-21-00283">21</xref>], mesophilic fermenters, [<xref ref-type="bibr" rid="B22-ijms-21-00283">22</xref>] and natural environments [<xref ref-type="bibr" rid="B23-ijms-21-00283">23</xref>,<xref ref-type="bibr" rid="B24-ijms-21-00283">24</xref>].</p>
+      <p>Our research demonstrates that syntrophic acetate-oxidizing bacterium <italic>Syntrophaceticus</italic> sp. were the most widespread thermophilic microorganisms in all fermenters. This is probably caused by high ammonia levels leading to syntrophic acetate oxidation, a process that takes place in mesophilic fermenters [<xref ref-type="bibr" rid="B22-ijms-21-00283">22</xref>]. The novel species <italic>Syntrophaceticus schinkii</italic> was discovered and isolated from sludge and from a mesophilic methanogenic fermenter operating at high ammonium concentrations [<xref ref-type="bibr" rid="B25-ijms-21-00283">25</xref>,<xref ref-type="bibr" rid="B26-ijms-21-00283">26</xref>]. <italic>Syntrophaceticus schinkii</italic> is a strictly anaerobic, mesophilic, syntrophic acetate oxidizing, spore-forming and gram-variable, bacterium with a growth temperature ranging from 25 to 40 &#xB0;C. <italic>Syntrophaceticus schinkii</italic> is able to oxidize acetate and produce methane during cultivation with hydrogenotrophic methanogens [<xref ref-type="bibr" rid="B25-ijms-21-00283">25</xref>]. Another dominant genus detected in each fermenter was <italic>Thermogymnomonas</italic>. Itoh et al. (2007) isolated <italic>Thermogymnomonas acidicola</italic> and this strain was described as a thermoacidophilic, cell wall-less archaeon with variable cell size and a growth temperature range of 38&#x2013;68 &#xB0;C (optimum 60 &#xB0;C) and at pH value range 1.8&#x2013;4.0 (optimum pH 3.0) [<xref ref-type="bibr" rid="B26-ijms-21-00283">26</xref>]. This microorganism is in contrast with others we identified as it is an obligatory aerobic archeon. This genus is very often described in association with anaerobic fermentation especially when hydrolysis of cellulose occurs [<xref ref-type="bibr" rid="B27-ijms-21-00283">27</xref>].</p>
+      <p>The other microorganisms that were also highly abundant in fermenters were from genera <italic>Gelria</italic> and <italic>Oceanotoga</italic>. One of these microorganisms <italic>Gelria glutamica</italic> was for the first time isolated and characterized from a propionate-oxidizing methanogenic enrichment culture (note that its habitat could be methanogenic granular sludge). <italic>Gelria glutamica</italic> is a strict anaerobic, moderately thermophilic, spore-forming, obligately syntrophic, glutamate-degrading, bacterium that can grow between 37 &#xB0;C and 60 &#xB0;C with an optimum range from 50 &#xB0;C to 55 &#xB0;C and an optimum pH of 7. It can growth in cultures containing glutamate, proline, and casamino acids with the hydrogenotrophic methanogen <italic>Methanobacterium thermautotrophicum</italic>. Glutamate is transformed to H<sub>2</sub>, CO<sub>2</sub>, propionate and traces of succinate but sulphate, sulphite, thiosulphate, nitrate, or fumarate cannot be utilized as electron acceptors [<xref ref-type="bibr" rid="B28-ijms-21-00283">28</xref>]. The <italic>Oceanotoga</italic> genus was found in offshore oil-production well head at Bombay High (Western India). For example, the novel <italic>Oceanotoga teriensis</italic> is a thermophilic, chemo-organotrophic bacterium which growths at a range between 25 and 70 &#xB0;C, with temperature optima ranging from 55 to 58 &#xB0;C. One of the Bacteria in this genus, <italic>Oceanotoga teriensis,</italic> utilizes various carbohydrates or complex proteinaceous substances and converts them to H<sub>2</sub>, CO<sub>2</sub> and reduces thiosulfate and elemental sulfur to hydrogen sulfide [<xref ref-type="bibr" rid="B29-ijms-21-00283">29</xref>].</p>
+      <p>Diversity of methanogenic microorganisms and their biogas production depends on the presence of other bacteria in bioreactors, including sulfate-reducing bacterial populations [<xref ref-type="bibr" rid="B11-ijms-21-00283">11</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00283">12</xref>,<xref ref-type="bibr" rid="B30-ijms-21-00283">30</xref>,<xref ref-type="bibr" rid="B31-ijms-21-00283">31</xref>]. These bacteria also use organic compounds and consequently produce toxic hydrogen sulfide [<xref ref-type="bibr" rid="B32-ijms-21-00283">32</xref>,<xref ref-type="bibr" rid="B33-ijms-21-00283">33</xref>,<xref ref-type="bibr" rid="B34-ijms-21-00283">34</xref>,<xref ref-type="bibr" rid="B35-ijms-21-00283">35</xref>,<xref ref-type="bibr" rid="B36-ijms-21-00283">36</xref>,<xref ref-type="bibr" rid="B37-ijms-21-00283">37</xref>]. This competition and production of hydrogen sulfide in high concentration can inhibit methanogenic <italic>Archaea</italic> and acetogenic microorganisms. One of the solutions to limit this inhibition could be the use of different compounds that can impede the growth of this bacterial group and their sulfate reduction [<xref ref-type="bibr" rid="B38-ijms-21-00283">38</xref>,<xref ref-type="bibr" rid="B39-ijms-21-00283">39</xref>,<xref ref-type="bibr" rid="B40-ijms-21-00283">40</xref>,<xref ref-type="bibr" rid="B41-ijms-21-00283">41</xref>,<xref ref-type="bibr" rid="B42-ijms-21-00283">42</xref>].</p>
+      <p>The microorganisms identified in the anaerobic digesters were compared with sequences from GenBank and the resulting phylogenetic trees are shown in <xref ref-type="fig" rid="ijms-21-00283-f006">Figure 6</xref>. The abundance and diversity of thermophilic microorganisms depend on the composition of the substrate in each fermenter. The highest microbial variation in the distribution (11 genera) and number (40.8%) was found in the fermenter at a wastewater treatment plant. Their presence in the mesophilic anaerobic fermenters may come from the silage, where those conditions could be more than 50 &#xB0;C. In this study, we identified thermophilic microorganisms in mesophilic anaerobic fermenters but it still remains unknown how physiologically or metabolically active these microorganisms were. This is a prospect for further research as here we focused on the fundamental foundations for other hypotheses and research.</p>
+    </sec>
+    <sec id="sec4-ijms-21-00283">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-ijms-21-00283">
+        <title>4.1. Diversity of Biogas Plants</title>
+        <p>The biogas fermenters were located in &#xDA;valno, Horn&#xED; Bene&#x161;ov, &#x10C;ej&#x10D;, P&#xE1;nov, Mod&#x159;ice, Rus&#xED;n, Lod&#x11B;nice, and Brat&#x10D;ice in the Czech Republic. The types of substrates are presented as the ratio of fresh input substrate (w/w%). The compositions were as follows: &#xDA;valno: maize silage, sugar beet pulp, whole crop silage, cattle manure (44/44/6/6); Horn&#xED; Bene&#x161;ov: maize silage, sugar beet pulp, whole crop silage, cattle manure, grass silage (29/39/12/15/5); &#x10C;ej&#x10D;: maize silage and liquid pig manure (80/20), P&#xE1;nov: maize silage, poultry litter (92/8); Mod&#x159;ice: primary sludge, biological sludge (50/50), Rus&#xED;n: maize silage, sugar beet pulp (70/30); Lod&#x11B;nice: maize silage, sugar beet pulp (75/25); Brat&#x10D;ice: maize silage, whole crop silage, poultry litter (63/31/6). The investigated scale anaerobic digesters is presented in <xref ref-type="table" rid="ijms-21-00283-t001">Table 1</xref>.</p>
+      </sec>
+      <sec id="sec4dot2-ijms-21-00283">
+        <title>4.2. Sampling and Analytical Methods</title>
+        <p>Three samples were collected from each biogas plant reactor with volumes ranging from 2500 to 3500 m<sup>3</sup> and operated at 40 &#xB1; 4 &#xB0;C. Organic load rate was 3.5&#x2013;5.5 kg org. mass/m<sup>3</sup> per fermenter and feed intervals were 80&#x2013;100 kg/kWhel. The samples were collected directly from the fermenter into sterile vessels. After collection, they were stored in thermocontainer and immediately transported to the laboratory for further analysis.</p>
+        <p>The temperature, volatile solids content, total solids (TS) content, pH, redox potential, and biogas composition in each anaerobic digester of biogas plant was determined. TS was determined as an amount of material remaining after the water in the sample has been evaporated at 105 &#xB0;C &#xB1; 5 &#xB0;C in a drying oven EcoCELL 111 (BMT Medical Technology Ltd., Brno, the Czech Republic), according to Czech Standard Method (CSN EN 14346 2007) [<xref ref-type="bibr" rid="B43-ijms-21-00283">43</xref>]. Volatile solids content (VS) was determined as an amount of material remaining after the combustion of the samples at 550 &#xB0;C &#xB1; 5 &#xB0;C according to Czech Standard Method (CSN EN 15169, 2007) [<xref ref-type="bibr" rid="B44-ijms-21-00283">44</xref>]. Muffle furnace LMH 11/12 (LAC, Ltd., Rajhrad, The Czech Republic) was used. For pH and redox potential measurement pH/Cond meter 3320 (WTW GmbH, Dinslaken, Germany) was used, in accordance with standard (CSN EN 12176, 1999) [<xref ref-type="bibr" rid="B45-ijms-21-00283">45</xref>]. Biogas composition was estimated by the gas analyzer Dr&#xE4;ger X-am 7000 (Dr&#xE4;ger Safety AG&amp;Co. KGaA, L&#xFC;beck, Germany).</p>
+        <p>The results were analyzed and plots were built using software package Origin7.0 (<uri>www.origin-lab.com</uri>). Using the experimental data, the basic statistical parameters (M&#x2013;mean, SE&#x2013;standard error, M &#xB1; SE) have been calculated. The accurate approximation was when <italic>p</italic> &#x2264; 0.05 [<xref ref-type="bibr" rid="B46-ijms-21-00283">46</xref>].</p>
+      </sec>
+      <sec id="sec4dot3-ijms-21-00283">
+        <title>4.3. DNA Isolation, Amplification, and Sequencing</title>
+        <p>The isolation of DNA was done by the QIAamp Fast DNA Stool Mini Kit (QIAGEN GmbH, Hilden, Germany). The sample (100 mg) was washed with 1.4 mL of ASL buffer (QIAGEN GmbH, Hilden, Germany) and it was heated at 95 &#xB0;C for 10 min. For amplification of the V3 and V4 variable regions of the 16S rRNA gene fragments universal primers were used [<xref ref-type="bibr" rid="B47-ijms-21-00283">47</xref>]. The primers were marked by molecular barcodes for sample identification. Maxima&#x2122; Probe qPCR Master Mix (Thermo Fisher Scientific, Waltham, MA, USA), was used for PCR reaction. All manipulations of amplification and sequencing were carried out as described in previous paper [<xref ref-type="bibr" rid="B12-ijms-21-00283">12</xref>,<xref ref-type="bibr" rid="B48-ijms-21-00283">48</xref>]. Based on the microorganisms&#x2019; presence, the calculation of relative abundance of the taxonomic groups was done. Sequences analysis was done by NCBI and by BLAST [<xref ref-type="bibr" rid="B49-ijms-21-00283">49</xref>]. The genomic sequences are available in GenBank, access No.: MG916813.1, MG847139.1, MG906816.1, MG907296.1, MG920534.1, MG897820.1, MG920523.1, MG920523.1, MG907286.1, MG920533.1, MG907285.1, MG920531.1, MG916837.1, MG907284.1, MG907294.1, MG881696.1, MG818985.1, MG907292.1, MG916825.1, MG906818.1, KY123356.1, MG897821.1, MG907304. The sequences were processed by Geneious 7.1.9 and genomic analysis was performed [<xref ref-type="bibr" rid="B50-ijms-21-00283">50</xref>]. Alignments of sequences were done by MEGA7 using Clustal W with the BLOSUM cost matrix, and clustered by the neighbor-joining method [<xref ref-type="bibr" rid="B51-ijms-21-00283">51</xref>]. The results were processed and analyzed using Origin 7.0 (<uri>www.origin-lab.com</uri>).</p>
+      </sec>
+    </sec>
+    <sec id="sec5-ijms-21-00283" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>Thermophilic microorganisms were characterized from various biogas plant fermenters and their diversity and abundance were determined under the effect of various input substrates and operating conditions. The presence of the different thermophiles is connected to the substrate profiles of the biogas plants investigated which may be due to an extended range of temperature response for these thermophiles. The study is providing important information considering thermophiles and methanogens that can help to better optimize biogas production. In addition, we highlight the impact of different input substrates and their influence on the diversity and the abundance of microorganisms present. Taken as a whole, this study gives a broader and clearer picture of the processes occurring in mesophilic biogas reactors in the presence of thermophiles.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>I.K. conceived and contributed to the writing of the paper, together with M.V. and T.V.; I.K. designed and performed the experiments; J.C. and T.V. analyzed the data and optimized the process parameters; T.V. performed analysis of the data and validation of the results; J.C., D.D., and Y.B. contributed to the writing and the final design of the paper. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This study was supported by Grant Agency of the Masaryk University (MUNI/A/0902/2018). Funding was also provided by the Center for Bioenergy Innovation (CBI), a U.S. Department of Energy Bioenergy Research Center supported by the Office of Biological and Environmental Research in the DOE Office of Science.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was authored in part by Alliance for Sustainable Energy, LLC, the manager and operator of the National Renewable Energy Laboratory for the U.S. Department of Energy (DOE) under Contract No. DE-AC36-08GO28308. The views expressed in the article do not necessarily represent the views of the DOE or the U.S. Government.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00283">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Griffin</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>McMahon</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Mackie</surname>
+              <given-names>R.I.</given-names>
+            </name>
+            <name>
+              <surname>Raskin</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Methanogenic population dynamics during start-up of anaerobic digesters treating municipal solid waste and biosolids</article-title>
+          <source>Biotechnol. Eng.</source>
+          <year>2000</year>
+          <volume>57</volume>
+          <fpage>342</fpage>
+          <lpage>355</lpage>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1097-0290(19980205)57:3&lt;342::AID-BIT11&gt;3.0.CO;2-I</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00283">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grothenhuis</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Plugge</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Yuansheng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lammeren</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Stams</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bacteriological composition and structure of granular sludge adapted to different substrates</article-title>
+          <source>Appl. Environ. Microbiol.</source>
+          <year>1991</year>
+          <volume>57</volume>
+          <fpage>1942</fpage>
+          <lpage>1949</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00283">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ilyin</surname>
+              <given-names>V.K.</given-names>
+            </name>
+            <name>
+              <surname>Korniushenkova</surname>
+              <given-names>I.N.</given-names>
+            </name>
+            <name>
+              <surname>Starkova</surname>
+              <given-names>L.V.</given-names>
+            </name>
+            <name>
+              <surname>Lauriniavichius</surname>
+              <given-names>K.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of methanogenesis during bioutilization of plant residuals</article-title>
+          <source>Acta Astronaut.</source>
+          <year>2005</year>
+          <volume>56</volume>
+          <fpage>465</fpage>
+          <lpage>470</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actaastro.2004.05.077</pub-id>
+          <pub-id pub-id-type="pmid">15793943</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00283">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>J&#xE4;ckel</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Thummes</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>K&#xE4;mpfer</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermophilic methane production and oxidation in compost</article-title>
+          <source>FEMS Microbiol. Ecol.</source>
+          <year>2005</year>
+          <volume>52</volume>
+          <fpage>175</fpage>
+          <lpage>184</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.femsec.2004.11.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00283">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sreekrishnan</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Kohli</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rana</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhancement of biogas production from solid substrates using different techniques&#x2013;&#x2013;A review</article-title>
+          <source>Bioresour. Technol.</source>
+          <year>2004</year>
+          <volume>95</volume>
+          <fpage>1</fpage>
+          <lpage>10</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00283">
+        <label>6.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krich</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Augenstein</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Batmale</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Benemann</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rutledge</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Salour</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <source>Biomethane from Dairy Waste: A Sourcebook for the Production and Use of Renewable Natural Gas in California</source>
+          <publisher-name>USDA Rural Development</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2005</year>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00283">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Conrad</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Contribution of hydrogen to methane production and control of hydrogen concentration in methanogenic soils and sediments</article-title>
+          <source>FEMS Microbiol. Ecol.</source>
+          <year>1999</year>
+          <volume>28</volume>
+          <fpage>193</fpage>
+          <lpage>202</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1574-6941.1999.tb00575.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00283">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Demirel</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Scherer</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The roles of acetotrophic and hydrogenotrophic methanogens during anaerobic conversion of biomass to methane: A review</article-title>
+          <source>Rev. Environ. Sci. Biotechnol.</source>
+          <year>2008</year>
+          <volume>7</volume>
+          <fpage>173</fpage>
+          <lpage>190</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11157-008-9131-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00283">
+        <label>9.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilkie</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biomethane from Biomass</article-title>
+          <source>Biowaste and Biofuels</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Harwood</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Demain</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>ASM Press</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2008</year>
+          <fpage>195</fpage>
+          <lpage>205</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00283">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahring</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ibrahim</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Mladenovska</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of temperature increase from 55 to 65 &#xB0;C on performance and microbial population dynamics of an anaerobic reactor treating cattle manure</article-title>
+          <source>Water Resour.</source>
+          <year>2001</year>
+          <volume>35</volume>
+          <fpage>2446</fpage>
+          <lpage>2452</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0043-1354(00)00526-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00283">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;z</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Barto&#x161;</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Production of biogas: Relationship between methanogenic and sulfate-reducing microorganisms</article-title>
+          <source>Open Life Sci.</source>
+          <year>2017</year>
+          <volume>12</volume>
+          <fpage>82</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.1515/biol-2017-0009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00283">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kov&#xE1;&#x10D;</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;z</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Barto&#x161;</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The diversity of sulfate-reducing bacteria in the seven bioreactors</article-title>
+          <source>Arch. Microbial.</source>
+          <year>2018</year>
+          <volume>200</volume>
+          <fpage>945</fpage>
+          <lpage>950</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00203-018-1510-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00283">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ziemi&#x144;ski</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fr&#x105;c</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Methane fermentation process as anaerobic digestion of biomass: Transformations, stages and microorganisms</article-title>
+          <source>Afr. J. Biotechnol.</source>
+          <year>2012</year>
+          <volume>11</volume>
+          <fpage>4127</fpage>
+          <lpage>4139</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00283">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scherer</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Vollmer</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Fakhouri</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Martensen</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of methanogenic process to degrade exhaustively the organic fraction of municipal grey waste under thermophilic and hyperthermophilic conditions</article-title>
+          <source>Water Sci. Technol.</source>
+          <year>2000</year>
+          <volume>41</volume>
+          <fpage>83</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.2166/wst.2000.0059</pub-id>
+          <pub-id pub-id-type="pmid">11382012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00283">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schink</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Energetics of syntrophic cooperation in methanogenic degradation</article-title>
+          <source>Microbiol. Mol. Biol. Rev.</source>
+          <year>1997</year>
+          <volume>61</volume>
+          <fpage>262</fpage>
+          <lpage>280</lpage>
+          <pub-id pub-id-type="pmid">9184013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijms-21-00283">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weiland</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biogas production: Current state and perspectives</article-title>
+          <source>Appl. Microbiol. Biotechnol.</source>
+          <year>2010</year>
+          <volume>85</volume>
+          <fpage>849</fpage>
+          <lpage>860</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00253-009-2246-7</pub-id>
+          <pub-id pub-id-type="pmid">19777226</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijms-21-00283">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Madigan</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Martino</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>D.B.</given-names>
+            </name>
+          </person-group>
+          <source>Brock Biology of Microorganisms</source>
+          <publisher-name>Pearson Prentice Hall</publisher-name>
+          <publisher-loc>Upper Saddle River, NJ, USA</publisher-loc>
+          <year>2006</year>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijms-21-00283">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stetter</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>History of discovery of the first hyperthermophiles</article-title>
+          <source>Extremophiles</source>
+          <year>2006</year>
+          <volume>10</volume>
+          <fpage>357</fpage>
+          <lpage>362</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00792-006-0012-7</pub-id>
+          <pub-id pub-id-type="pmid">16941067</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijms-21-00283">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Satyanarayana</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Littlechild</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kawarabayasi</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermophilic Microbes in Environmental and Industrial Biotechnology</article-title>
+          <source>Biotechnol. Thermophiles</source>
+          <year>2013</year>
+          <fpage>3</fpage>
+          <pub-id pub-id-type="doi">10.1007/978-94-007-5899-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijms-21-00283">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barker</surname>
+              <given-names>H.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>On the biochemistry of methane fermentation</article-title>
+          <source>Arch. Microbiol.</source>
+          <year>1936</year>
+          <volume>7</volume>
+          <fpage>404</fpage>
+          <lpage>419</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00407413</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijms-21-00283">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zinder</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Koch</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Non-aceticlastic methanogenesis from acetate: Acetate oxidation by a thermophilic syntrophic coculture</article-title>
+          <source>Arch. Microbiol.</source>
+          <year>1984</year>
+          <volume>138</volume>
+          <fpage>263</fpage>
+          <lpage>272</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00402133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijms-21-00283">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schnurer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Houwen</surname>
+              <given-names>F.P.</given-names>
+            </name>
+            <name>
+              <surname>Svensson</surname>
+              <given-names>B.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mesophilic syntrophic acetate oxidation during methane formation by a triculture at high ammonium concentration</article-title>
+          <source>Arch. Microbiol.</source>
+          <year>1994</year>
+          <volume>162</volume>
+          <fpage>70</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="doi">10.1007/BF00264375</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijms-21-00283">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nazina</surname>
+              <given-names>T.N.</given-names>
+            </name>
+            <name>
+              <surname>Shestakova</surname>
+              <given-names>N.M.</given-names>
+            </name>
+            <name>
+              <surname>Grigor&#x2019;yan</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Mikhailova</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Tourova</surname>
+              <given-names>T.P.</given-names>
+            </name>
+            <name>
+              <surname>Poltaraus</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ni</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Belyaev</surname>
+              <given-names>S.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phylogenetic diversity and activity of anaerobic microorganism of high-temperature horizons of the Dagang oilfield (P. R. China)</article-title>
+          <source>Microbiology</source>
+          <year>2006</year>
+          <volume>75</volume>
+          <fpage>70</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.1134/S0026261706010115</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijms-21-00283">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McInerney</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Struchtemeyer</surname>
+              <given-names>C.G.</given-names>
+            </name>
+            <name>
+              <surname>Sieber</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mouttaki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Stams</surname>
+              <given-names>A.J.M.</given-names>
+            </name>
+            <name>
+              <surname>Schink</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Rohlin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gunsalus</surname>
+              <given-names>R.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Physiology, ecology, phylogeny and genomics of microorganisms capable of syntrophic metabolism</article-title>
+          <source>Ann. N. Y. Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>1125</volume>
+          <fpage>58</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="doi">10.1196/annals.1419.005</pub-id>
+          <pub-id pub-id-type="pmid">18378587</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijms-21-00283">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Westerholm</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Roos</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schnurer</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Syntrophaceticus schinkii</italic> gen. nov. sp. nov., an anaerobic, syntrophic acetate-oxidizing bacterium isolated fromamesophilic anaerobic filter</article-title>
+          <source>FEMS Microbiol. Lett.</source>
+          <year>2010</year>
+          <volume>309</volume>
+          <fpage>100</fpage>
+          <lpage>104</lpage>
+          <pub-id pub-id-type="pmid">20546311</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijms-21-00283">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Itoh</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yoshikawa</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Takashina</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Thermogymnomonas acidicola</italic> gen. nov. sp. nov. a novel thermoacidophilic, cell wall-less archaeon in the order Thermoplasmatales, isolated from a solfataric soil in Hakone, Japan</article-title>
+          <source>Int. J. Syst. Evol. Microbiol.</source>
+          <year>2007</year>
+          <volume>57</volume>
+          <fpage>2557</fpage>
+          <lpage>2561</lpage>
+          <pub-id pub-id-type="doi">10.1099/ijs.0.65203-0</pub-id>
+          <pub-id pub-id-type="pmid">17978217</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijms-21-00283">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dong</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhen</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kong</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of dry and wet milling pretreatment methods for improving the anaerobic digestion performance of the <italic>Pennisetum</italic> hybrid</article-title>
+          <source>RSC Adv.</source>
+          <year>2017</year>
+          <volume>7/21</volume>
+          <fpage>12610</fpage>
+          <lpage>12619</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B28-ijms-21-00283">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Plugge</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Balk</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zoetendal</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Stams</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Gelria glutamica</italic> gen. nov. sp. nov. a thermophilic, obligately syntrophic, glutamate-degrading anaerobe</article-title>
+          <source>Int. J. Syst. Evol. Microbiol.</source>
+          <year>2002</year>
+          <volume>52</volume>
+          <fpage>401</fpage>
+          <lpage>407</lpage>
+          <pub-id pub-id-type="doi">10.1099/ijs.0.018036-0</pub-id>
+          <pub-id pub-id-type="pmid">20382783</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-ijms-21-00283">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jayasinghearachchi</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Lal</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Oceanotoga teriensis</italic> gen. nov., sp. nov., a thermophilic bacterium isolated from offshore oil-producing wells</article-title>
+          <source>Int. J. Syst. Evol. Microbiol.</source>
+          <year>2011</year>
+          <volume>61</volume>
+          <fpage>554</fpage>
+          <lpage>560</lpage>
+          <pub-id pub-id-type="doi">10.1099/ijs.0.018036-0</pub-id>
+          <pub-id pub-id-type="pmid">20382783</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-ijms-21-00283">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fedrov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vochyanov&#xE1;</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Par&#xE1;kov&#xE1;</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ho&#x161;ek</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic properties of growth of intestinal sulphate-reducing bacteria isolated from healthy mice and mice with ulcerative colitis</article-title>
+          <source>Acta Vet. Brno</source>
+          <year>2017</year>
+          <volume>86</volume>
+          <fpage>405</fpage>
+          <lpage>411</lpage>
+          <pub-id pub-id-type="doi">10.2754/avb201786040405</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-ijms-21-00283">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;z</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kov&#xE1;&#x10D;</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kauck&#xE1;</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Jesionek</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Barto&#x161;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Barton</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>A new combination of substrates: Biogas production and diversity of the methanogenic microorganisms</article-title>
+          <source>Open Life Sci.</source>
+          <year>2018</year>
+          <volume>13</volume>
+          <fpage>119</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="doi">10.1515/biol-2018-0017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-ijms-21-00283">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic Properties of Pyruvate Ferredoxin Oxidoreductase of Intestinal Sulfate-Reducing Bacteria Desulfovibrio piger Vib-7 and <italic>Desulfomicrobium</italic> sp. Rod-9</article-title>
+          <source>Pol. J. Microbiol.</source>
+          <year>2015</year>
+          <volume>64</volume>
+          <fpage>107</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.33073/pjm-2015-016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijms-21-00283">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Fafula</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Parak</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bartos</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activity of Na<sup>+</sup>/K<sup>+</sup>-activated Mg<sup>2+</sup>-dependent ATP hydrolase in the cell-free extracts of the sulfate-reducing bacteria Desulfovibrio piger Vib-7 and <italic>Desulfomicrobium</italic> sp. Rod-9</article-title>
+          <source>Acta Vet. Brno</source>
+          <year>2015</year>
+          <volume>84</volume>
+          <fpage>3</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="doi">10.2754/avb201585010003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-ijms-21-00283">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activity and kinetic properties of phosphotransacetylase from intestinal sulfate-reducing bacteria</article-title>
+          <source>Acta Biochim. Pol.</source>
+          <year>2015</year>
+          <volume>62</volume>
+          <fpage>1037</fpage>
+          <lpage>1108</lpage>
+          <pub-id pub-id-type="doi">10.18388/abp.2014_845</pub-id>
+          <pub-id pub-id-type="pmid">25781158</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-ijms-21-00283">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Dordevi&#x107;</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of pH dose-dependent growth of sulfate-reducing bacteria</article-title>
+          <source>Open Med.</source>
+          <year>2019</year>
+          <volume>14</volume>
+          <fpage>66</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="doi">10.1515/med-2019-0010</pub-id>
+          <pub-id pub-id-type="pmid">30775453</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-ijms-21-00283">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Dordevi&#x107;</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Toxicity of hydrogen sulfide toward sulfate-reducing bacteria Desulfovibrio piger Vib-7</article-title>
+          <source>Arch. Microbiol.</source>
+          <year>2019</year>
+          <volume>201</volume>
+          <fpage>389</fpage>
+          <lpage>397</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00203-019-01625-z</pub-id>
+          <pub-id pub-id-type="pmid">30707247</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-ijms-21-00283">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kobzov&#xE1;</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;z</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Dordevi&#x107;</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Barto&#x161;</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Acetogenic microorganisms in operating biogas plants depending on substrate combinations</article-title>
+          <source>Biologia</source>
+          <year>2019</year>
+          <volume>74</volume>
+          <fpage>1229</fpage>
+          <lpage>1236</lpage>
+          <pub-id pub-id-type="doi">10.2478/s11756-019-00283-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-ijms-21-00283">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kollar</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Suchy</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Parak</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Pauk</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Imramovsky</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activity of selected salicylamides against intestinal sulfate-reducing bacteria</article-title>
+          <source>Neuroendocrinol Lett.</source>
+          <year>2015</year>
+          <volume>36</volume>
+          <fpage>106</fpage>
+          <lpage>113</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B39-ijms-21-00283">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kollar</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ferreira</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Palma</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Antimicrobial effect of salicylamide derivatives against intestinal sulfate-reducing bacteria</article-title>
+          <source>J. Appl. Biomed.</source>
+          <year>2016</year>
+          <volume>14</volume>
+          <fpage>125</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jab.2016.01.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-ijms-21-00283">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kos</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Koll&#xE1;r</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Jamp&#xED;lek</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of selected 8-hydroxyquinoline-2-carboxanilides on viability and sulfate metabolism of Desulfovibrio piger</article-title>
+          <source>J. App. Biomed.</source>
+          <year>2018</year>
+          <volume>16</volume>
+          <fpage>241</fpage>
+          <lpage>246</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jab.2018.01.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-ijms-21-00283">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Dordevi&#x107;</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kollar</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of physiological parameters of Desulfovibrio strains from individuals with colitis</article-title>
+          <source>Open Life Sci.</source>
+          <year>2018</year>
+          <volume>13</volume>
+          <fpage>481</fpage>
+          <lpage>488</lpage>
+          <pub-id pub-id-type="doi">10.1515/biol-2018-0057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-ijms-21-00283">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushkevych</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Dordevi&#x107;</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>V&#xED;t&#x11B;zov&#xE1;</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kollar</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cross-correlation analysis of the Desulfovibrio growth parameters of intestinal species isolated from people with colitis</article-title>
+          <source>Biologia</source>
+          <year>2018</year>
+          <volume>73</volume>
+          <fpage>1137</fpage>
+          <lpage>1143</lpage>
+          <pub-id pub-id-type="doi">10.2478/s11756-018-0118-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-ijms-21-00283">
+        <label>43.</label>
+        <element-citation publication-type="book">
+          <source>CSN EN 14346 Characterization of Waste&#x2013;Calculation of Dry Matter by Determination of Dry Residue or Water Content</source>
+          <publisher-name>Czech Standards Institute</publisher-name>
+          <publisher-loc>Prague, Czech Republic</publisher-loc>
+          <year>2007</year>
+        </element-citation>
+      </ref>
+      <ref id="B44-ijms-21-00283">
+        <label>44.</label>
+        <element-citation publication-type="book">
+          <source>CSN EN 15169 Characterization of Waste&#x2013;Determination of Loss on Ignition in Waste, Sludge and Sediments</source>
+          <publisher-name>Czech Standards Institute</publisher-name>
+          <publisher-loc>Prague, Czech Republic</publisher-loc>
+          <year>2007</year>
+        </element-citation>
+      </ref>
+      <ref id="B45-ijms-21-00283">
+        <label>45.</label>
+        <element-citation publication-type="book">
+          <source>CSN EN 12176 Characterization of Sludge&#x2013;Determination of pH-value</source>
+          <publisher-name>Czech Standards Institute</publisher-name>
+          <publisher-loc>Prague, Czech Republic</publisher-loc>
+          <year>1999</year>
+        </element-citation>
+      </ref>
+      <ref id="B46-ijms-21-00283">
+        <label>46.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bailey</surname>
+              <given-names>N.T.J.</given-names>
+            </name>
+          </person-group>
+          <source>Statistical Methods in Biology</source>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <publisher-loc>Cambridge, UK</publisher-loc>
+          <year>1995</year>
+        </element-citation>
+      </ref>
+      <ref id="B47-ijms-21-00283">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nossa</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Oberdorf</surname>
+              <given-names>W.E.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Aas</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Paster</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Desantis</surname>
+              <given-names>T.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Design of 16S rRNA gene primers for 454 pyrosequencing of the human foregut microbiome</article-title>
+          <source>World J. Gastroenterol.</source>
+          <year>2010</year>
+          <volume>16</volume>
+          <fpage>4135</fpage>
+          <lpage>4144</lpage>
+          <pub-id pub-id-type="doi">10.3748/wjg.v16.i33.4135</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-ijms-21-00283">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Caporaso</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Kuczynski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stombaugh</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>QIIME allows analysis of high-throughput community sequencing data</article-title>
+          <source>Nat. Methods</source>
+          <year>2010</year>
+          <volume>7</volume>
+          <fpage>335</fpage>
+          <lpage>336</lpage>
+          <pub-id pub-id-type="doi">10.1038/nmeth.f.303</pub-id>
+          <pub-id pub-id-type="pmid">20383131</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-ijms-21-00283">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Altschul</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Gish</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Mille</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Myers</surname>
+              <given-names>E.W.</given-names>
+            </name>
+            <name>
+              <surname>Lipman</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Basic local alignment search tool</article-title>
+          <source>J. Mol. Biol.</source>
+          <year>1990</year>
+          <volume>215</volume>
+          <fpage>403</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-2836(05)80360-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-ijms-21-00283">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kearse</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Moir</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Stones-Havas</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cheung</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sturrock</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Geneious Basic: An integrated and extendable desktop software platform for the organization and analysis of sequence data</article-title>
+          <source>Bioinformatics</source>
+          <year>2012</year>
+          <volume>28</volume>
+          <fpage>1647</fpage>
+          <lpage>1649</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/bts199</pub-id>
+          <pub-id pub-id-type="pmid">22543367</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-ijms-21-00283">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Larkin</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Blackshields</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>N.P.</given-names>
+            </name>
+            <name>
+              <surname>Chenna</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>McGettigan</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>McWilliam</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Clustal W and Clustal X version 2.0</article-title>
+          <source>Bioinformatics</source>
+          <year>2007</year>
+          <volume>23</volume>
+          <fpage>2947</fpage>
+          <lpage>2948</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btm404</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="ijms-21-00283-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Physical characteristics of anaerobic digesters considered in this study (M &#xB1; SE, <italic>n</italic> = 3): temperature and pH (<bold>A</bold>), redox (<bold>B</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00283-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00283-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Amount of solids (<bold>A</bold>) and biogas production (<bold>B</bold>) (M &#xB1; SE, <italic>n</italic> = 3).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00283-g002.tif"/>
+      </fig>
+      <fig id="ijms-21-00283-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Percentage of thermophiles in the microbial community for each reactor (<bold>A</bold>) and percentage of thermophiles observed in all anaerobic fermenters together (<bold>B</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00283-g003.tif"/>
+      </fig>
+      <fig id="ijms-21-00283-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>The most widespread genera of methanogenic microorganisms in the anaerobic digesters: <italic>Methanoculleus</italic> (<bold>A</bold>), <italic>Thermogymnomonas</italic> (<bold>B</bold>), <italic>Methanobacterium</italic> (<bold>C</bold>), total number (<bold>D</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00283-g004.tif"/>
+      </fig>
+      <fig id="ijms-21-00283-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Percentage of each thermophilic genus in the overall population of thermophiles in each anaerobic fermenter.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00283-g005.tif"/>
+      </fig>
+      <fig id="ijms-21-00283-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Phylogenetic trees showing thermophilic microorganisms found in the anaerobic fermenters.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00283-g006.tif"/>
+      </fig>
+      <table-wrap id="ijms-21-00283-t001" position="float">
+        <object-id pub-id-type="pii">ijms-21-00283-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>The investigated scale anaerobic digesters.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fermenter</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Installed Power (kW<sub>el</sub>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Fermenter Volume (m<sup>3</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Process Tempe-rature (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Hydraulic Retention time</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Daily Biogas production Rate (L<sub>biogas</sub>&#xB7;L<sub>ferm.vol.</sub><sup>&#x2212;1</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">CH<sub>4</sub> Content in Biogas (%<sub>vol</sub>) *</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">pH in Fermenter (&#x2212;) *</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Solids Content in Fermenter (%) *</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Volatile Solids Content in Fermenter (%) *</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mod&#x159;ice</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6 &#xD7; 3000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.64</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">47</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.09</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">59.13</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Brat&#x10D;ice</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">750</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2 &#xD7; 1040<break/>1 &#xD7; 1040</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">40</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">86</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.77</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">51.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.16</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">75.23</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">P&#xE1;nov</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">500</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2 &#xD7; 1320<break/>1 &#xD7; 1630</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">85</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.76</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">48</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.33</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">79.46</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#xDA;valno</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">750</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2 &#xD7; 1040<break/>1 &#xD7; 1040</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">40</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">78</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.77</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">49</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.69</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.84</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">78.85</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Horn&#xED; Bene&#x161;ov</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">750</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2 &#xD7; 1040<break/>1 &#xD7; 1040</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">85</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.77</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">52</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.85</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.87</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">77.52</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Rus&#xED;n</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">750</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2 &#xD7; 1970<break/>1 &#xD7; 1630</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">85</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.56</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">48</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.63</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.52</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">79.15</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lod&#x11B;nice</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">840</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3 &#xD7; 1970</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">41</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">90</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.64</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.65</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">78.51</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x10C;ej&#x10D;</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">750</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2 &#xD7; 3500<break/>1 &#xD7; 3800</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">40</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">65</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.81</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">50.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.54</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">78.98</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>* Long term average.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

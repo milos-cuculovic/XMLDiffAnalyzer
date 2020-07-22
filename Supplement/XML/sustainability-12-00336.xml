@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sustainability</journal-id>
+      <journal-title-group>
+        <journal-title>Sustainability</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sustainability</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sustainability</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2071-1050</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/su12010336</article-id>
+      <article-id pub-id-type="publisher-id">sustainability-12-00336</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Study on Dynamic Structure-Soil-Structure Interaction of Three Adjacent Tall Buildings Subjected to Seismic Loading</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gan</surname>
+            <given-names>Jinsong</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1673-6031</contrib-id>
+          <name>
+            <surname>Li</surname>
+            <given-names>Peizhen</given-names>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6763-2844</contrib-id>
+          <name>
+            <surname>Liu</surname>
+            <given-names>Qiang</given-names>
+          </name>
+          <xref rid="c1-sustainability-12-00336" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sustainability-12-00336">State Key Laboratory of Disaster Reduction in Civil Engineering, Tongji University, Shanghai 200092, China; <email>ganjinsong@tongji.edu.cn</email> (J.G.); <email>lipeizh@tongji.edu.cn</email> (P.L.)</aff>
+      <author-notes>
+        <corresp id="c1-sustainability-12-00336"><label>*</label>Correspondence: <email>lq1810186@tongji.edu.cn</email>; Tel.: +86-021-65983707</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>336</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>01</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The dynamic structure-soil-structure interaction (SSSI) involving three adjacent structures with pile-raft foundations arranged along the east-west direction in a viscoelastic half-space is numerically studied under earthquake excitation. The direction of earthquake excitation is perpendicular to the direction of the structural arrangement. In the simulation, the Davidenkov model of the soil skeleton curve is assumed for soil behavior, and the viscous-spring artificial boundary is adopted. In order to investigate the effects of SSSI, the clear distance between structures, structure types, structure heights, and the first natural periods of structures are considered, and a series of numerical simulations are conducted. The peak floor displacement and the peak inter-story shear force of structures are examined to determine the SSSI effects. Results show that SSSI effects change significantly with these factors. Furthermore, the structural seismic response could be increased or reduced as a result of SSSI, depending mainly on the structural characteristics, rather than the location of the structures. These results are significant for studying the effects of SSSI and the sustainable development of cities, especially for the seismic design of dense urban buildings.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>dynamic structure-soil-structure interaction (SSSI)</kwd>
+        <kwd>soil-structure interaction (SSI)</kwd>
+        <kwd>earthquake excitation</kwd>
+        <kwd>seismic response</kwd>
+        <kwd>frame structure</kwd>
+        <kwd>frame-shear wall structure</kwd>
+        <kwd>adjacent structures</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sustainability-12-00336" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The shortage of land resources has become a major issue to consider due to rapid urbanization. With urban development and population growth, the amount of buildings is more and more intensive [<xref ref-type="bibr" rid="B1-sustainability-12-00336">1</xref>]. Furthermore, the clear distance between adjacent buildings is generally smaller without the limit of annual probable sunlight hours in the east-west direction. In some cases, due to practical limitations, the distance between structures may be only the width of an economic aseismic joint [<xref ref-type="bibr" rid="B2-sustainability-12-00336">2</xref>]. Under such circumstances, the vibrating structure emits radiant energy that passes through the soil to other structures, and there will be a dynamic cross-interaction between the building structures. Hence, the seismic response of a structure is not independent of the adjacent structures [<xref ref-type="bibr" rid="B3-sustainability-12-00336">3</xref>].</p>
+      <p>When the clear distance between structures is close, dynamic structure-soil-structure interaction (SSSI) may cause potentially unsafe factors for the seismic design of tall buildings. In dense urban environments, seismic design complications arise from the interaction between adjacent structures [<xref ref-type="bibr" rid="B4-sustainability-12-00336">4</xref>]. Although the incidence of earthquakes is far lower than some other natural disasters, the consequences of earthquakes may be more catastrophic in terms of death, other victims, and economic losses [<xref ref-type="bibr" rid="B5-sustainability-12-00336">5</xref>]. As the population grows, tall buildings become denser and denser in some large cities. For the sustainable development of these cities, it is more and more necessary to study the effects of SSSI in order to ensure a good earthquake resilience of dense urban buildings.</p>
+      <p>The problem of SSSI has puzzled researchers in the field for a long time. Pioneering works, investigating the idealized SSSI systems with simple approaches, were presented by Warburton et al. [<xref ref-type="bibr" rid="B6-sustainability-12-00336">6</xref>], Lee et al. [<xref ref-type="bibr" rid="B7-sustainability-12-00336">7</xref>], Wong et al. [<xref ref-type="bibr" rid="B8-sustainability-12-00336">8</xref>], and so on. These researches drew attention to the importance of the interaction between the adjacent structures. Afterward, many researchers used different methods to study the problem of SSSI considering different systems. Besides some experimental studies [<xref ref-type="bibr" rid="B9-sustainability-12-00336">9</xref>,<xref ref-type="bibr" rid="B10-sustainability-12-00336">10</xref>,<xref ref-type="bibr" rid="B11-sustainability-12-00336">11</xref>,<xref ref-type="bibr" rid="B12-sustainability-12-00336">12</xref>,<xref ref-type="bibr" rid="B13-sustainability-12-00336">13</xref>], researchers have used various numerical models to study the effects of SSSI. Padron et al. [<xref ref-type="bibr" rid="B14-sustainability-12-00336">14</xref>] assessed the effects of SSSI on the seismic response of buildings and found that the effects of SSSI on groups of structures with similar dynamic characteristics were essential. A three-dimensional viscoelastic BEM (Boundary Elements Method)-FEM (Finite Elements Method) formulation for the dynamic analysis of piles and pile groups in the frequency domain was used in the research. Vicencio et al. [<xref ref-type="bibr" rid="B15-sustainability-12-00336">15</xref>] proposed an extended simplified reduced order model that enabled higher mode interaction between structures and evaluated the effects of SSSI between two buildings under seismic excitation given different parameters of the buildings, inter-building spacing, and soil types. An extended simplified reduced order model that enables higher mode interaction between structures was proposed in the study. Liang et al. [<xref ref-type="bibr" rid="B16-sustainability-12-00336">16</xref>] investigated 2D SSSI interaction for two identical vibrating structures in layered half-space. Ada et al. [<xref ref-type="bibr" rid="B17-sustainability-12-00336">17</xref>] studied the effects of SSSI on the response of two adjacent frame structures. Felipe et al. [<xref ref-type="bibr" rid="B18-sustainability-12-00336">18</xref>] explored the influence of structure-soil-structure interaction (SSSI) between a pair of buildings, one of which was unsymmetrical in plan. It was found that the SSSI can significantly affect the seismic response of the unsymmetrical plan structures and the influence of SSSI can lead to significant changes in the response of the building, regardless of the earthquake event. Aldaikh et al. [<xref ref-type="bibr" rid="B19-sustainability-12-00336">19</xref>] derived a theoretical formulation for three adjacent buildings that were coupled through the soil, which was confirmed with a small scale physical experimental test on a shaking table. Li et al. [<xref ref-type="bibr" rid="B20-sustainability-12-00336">20</xref>] carried out a comparative study between computer simulation and shaking table test results of an SSSI system. Ghandil et al. [<xref ref-type="bibr" rid="B21-sustainability-12-00336">21</xref>] investigated the problem of the SSSI included pounding problem of two adjacent symmetric in plan buildings resting on a soft soil profile excited by uniaxial earthquake loadings. The research on SSSI presented above showed that the effects of SSSI could be significantly important in some cases for the seismic response of adjacent structures. However, there are a few special research works on the SSSI problem when the direction of seismic action is perpendicular to the direction of the structural arrangement. Moreover, due to the complexity of the SSSI problem, it is significant to study the effects of SSSI under different structural arrangements.</p>
+      <p>The state-of-the-art for the design/evaluation of buildings includes the consideration of local site effects; the effects of soil-structure interaction (SSI) are also being considered in some design texts [<xref ref-type="bibr" rid="B22-sustainability-12-00336">22</xref>]. However, the effects of SSSI are not yet quantified well [<xref ref-type="bibr" rid="B22-sustainability-12-00336">22</xref>] as the research on the effects of SSSI is practically more challenging than that of SSI. However, studies on SSSI during recent years have been extensively conducted with the concerns for the site-city interaction [<xref ref-type="bibr" rid="B23-sustainability-12-00336">23</xref>,<xref ref-type="bibr" rid="B24-sustainability-12-00336">24</xref>,<xref ref-type="bibr" rid="B25-sustainability-12-00336">25</xref>]. In recent years, an essential direction of seismic engineering research was to investigate the seismic damage to buildings on a regional scale or even for a whole city. An accurate prediction of the seismic damage to buildings on a regional scale is essential for city planning and post-earthquake rescue [<xref ref-type="bibr" rid="B25-sustainability-12-00336">25</xref>], which is of great significance for the sustainable development of cities. In order to get an accurate simulation of the seismic damage to buildings on a regional scale, the research on the effects of SSSI has been given more attention. </p>
+      <p>This paper specifically studies the influence of some factors on the effects of SSSI when the direction of earthquake action is perpendicular to the direction of the structural arrangement. These factors include the clear distance between adjacent structures, structure types, structure heights, and the first natural periods of the structures. The study is arranged as follows. First, the problems and methods used in this paper are explained. In order to carry out the research, four kinds of structural arrangements are considered in this study. Afterwards, the details of the model used in this study are introduced. The numerical analysis method and some issues in the simulation of three adjacent tall buildings considering SSSI are also presented. Through the analysis of seismic response, the influence of these factors on SSSI are summarized, and some meaningful results are found. The conclusions of the study are presented in the last section.</p>
+    </sec>
+    <sec id="sec2-sustainability-12-00336">
+      <title>2. Problem Definition </title>
+      <p>The SSSI system in this study consisted of three adjacent structures arranged in a straight line, and the direction of earthquake excitation was perpendicular to the layout direction of the structures. <xref ref-type="fig" rid="sustainability-12-00336-f001">Figure 1</xref> shows a vertical view of the layout of the three adjacent structures and the direction of earthquake action. In <xref ref-type="fig" rid="sustainability-12-00336-f001">Figure 1</xref>, A, B and C represent the three adjacent structures, respectively. Note that in all configurations, the clear distance (denoted as <italic>D<sub>BA</sub></italic> and <italic>D<sub>BC</sub>)</italic> between adjacent structures was measured parallel to the X-axis. When studying the influence of the clear distance between adjacent structures on SSSI, the clear distance between structures would change in the numerical model; however, when changing, keep <italic>D<sub>BA</sub> = D<sub>BC</sub></italic>.</p>
+      <p>The dynamic response of structures under seismic excitation was studied for four cases:<list list-type="bullet"><list-item><p>F-F-F, the three structures are all frame structures;</p></list-item><list-item><p>FW-FW-FW, the three structures are all frame-shear wall structures;</p></list-item><list-item><p>F-FW-F, the middle structure B is a frame-shear wall structure, and Structures A and C are both frame structures;</p></list-item><list-item><p>FW-F-FW, the middle structure B is a frame structure, and Structures A and C are both frame-shear wall structures.</p></list-item></list></p>
+      <p>Based on the four cases mentioned above, the influence of the clear distance between adjacent structures and structure types on SSSI is studied in <xref ref-type="sec" rid="sec5dot1-sustainability-12-00336">Section 5.1</xref> and <xref ref-type="sec" rid="sec5dot2-sustainability-12-00336">Section 5.2</xref>, respectively. When studying the influence of these two factors on SSSI, the number of floors of the three structures was maintained at 12. Moreover, the response of each structure in the group was compared to that of the single-structure-soil system in order to find out whether or not SSSI effects can be of importance [<xref ref-type="bibr" rid="B14-sustainability-12-00336">14</xref>,<xref ref-type="bibr" rid="B15-sustainability-12-00336">15</xref>]. Therefore, we defined a variable <italic>J</italic> to measure the degree of the effects of SSSI, as shown in Equation (1).
+      <disp-formula id="FD1-sustainability-12-00336"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mi>J</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <italic>P<sub>SSSI</sub></italic> is the seismic response of a structure considering the effects of SSSI, <italic>P<sub>SSI</sub></italic> is the seismic response of the structure of the single-structure-soil system. </p>
+      <p>Based on the case of F-F-F, the influence of structure heights and the first natural periods of structures on SSSI is investigated in <xref ref-type="sec" rid="sec5dot3-sustainability-12-00336">Section 5.3</xref>. Moreover, the number of floors of the middle structure remained 12, and the number of floors of the structures on both sides was sequentially changed to 6, 9, 12, 18, and 24. The seismic responses of the middle structure of the structure group with different heights were compared to that of the middle structure of the structure group with the same heights. Similarly, a variable <italic>R</italic> was defined to measure the changing degree of the effects of SSSI when the height of structures on both sides changed, as shown in Equation (2).
+      <disp-formula id="FD2-sustainability-12-00336"><label>(2)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>U</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>E</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>E</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+      where <italic>P<sub>U</sub></italic> is the seismic response of the middle structure of the structure group with different heights and <italic>P<sub>E</sub></italic> is the seismic response of the middle structure of the structure group with the same heights.</p>
+    </sec>
+    <sec id="sec3-sustainability-12-00336">
+      <title>3. Model Introduction</title>
+      <sec id="sec3dot1-sustainability-12-00336">
+        <title>3.1. Superstructure</title>
+        <p>As mentioned above, two types of superstructures were adopted in this research. The layout of the standard floor of the frame structure adopted is shown in <xref ref-type="fig" rid="sustainability-12-00336-f002">Figure 2</xref>a. The layout of the standard floor of the frame-shear wall structure adopted is shown in <xref ref-type="fig" rid="sustainability-12-00336-f002">Figure 2</xref>b. <xref ref-type="table" rid="sustainability-12-00336-t001">Table 1</xref> lists the specific parameters of the two types of structures. The height of the standard floor of both structure types was 3.6 m. The superstructure was made of concrete C30, the elastic modulus of which was 3.00 &#xD7; 10<sup>4</sup> N/mm<sup>2</sup>.</p>
+      </sec>
+      <sec id="sec3dot2-sustainability-12-00336">
+        <title>3.2. Foundation</title>
+        <p>Pile-raft foundations made of concrete C30 were adopted for both types of superstructures. The pile head was 1 m below the ground, and the length of the pile was 40.3 m. The cross-section of the pile was square, and the size was 450 mm &#xD7; 450 mm. The layout of the piles is shown in <xref ref-type="fig" rid="sustainability-12-00336-f003">Figure 3</xref>.</p>
+      </sec>
+      <sec id="sec3dot3-sustainability-12-00336">
+        <title>3.3. Soil</title>
+        <p>In order to provide references for practical engineering, the soft soil in Shanghai [<xref ref-type="bibr" rid="B26-sustainability-12-00336">26</xref>] was adopted in the numerical model. The equivalent shear wave velocity of the ground below 20 m was 100.2 m/s. According to the code for the seismic design of buildings of China, it was a Class IV site. The mechanical and physical parameters of the soil are listed in <xref ref-type="table" rid="sustainability-12-00336-t002">Table 2</xref>. Twenty times viscoelastic artificial boundary [<xref ref-type="bibr" rid="B27-sustainability-12-00336">27</xref>] in the Y-axis direction and ten times free boundary in the X-axis direction were adopted in the simulation. Twenty and ten represented the ratio between the calculation range of the soil and the structure size in the same direction, respectively. The direction parallel to the earthquake excitation was the Y-axis direction, as shown in <xref ref-type="fig" rid="sustainability-12-00336-f001">Figure 1</xref>.</p>
+      </sec>
+      <sec id="sec3dot4-sustainability-12-00336">
+        <title>3.4. Earthquake Excitation</title>
+        <p>According to the code for the seismic design of buildings of Shanghai, China, three seismic waves were selected for numerical simulation analysis of the case of F-F-F. The Shanghai artificial seismic wave (denoted as SHW1), the Shanghai bedrock wave (denoted as SHJY), and the N-S component of the 1940 El Centro earthquake record (Station: EL CENTRO ARRAY #9; date: 18 May 1940; denoted as El Centro, N-S) were selected. SHW1 and SHJY were artificial waves for the Shanghai area. The SHW1 seismic wave was provided by the code for the seismic design of buildings of Shanghai, China. The generation methodology of SHW1 was to select a specific natural seismic record in the Pacific Earthquake Engineering Research Center (PEER) Ground Motion Database that complied with the requirements of the site condition of Shanghai, then modify the amplitude of different frequency bands to approximate the target response spectrum. The SHJY seismic wave was provided by the State Key Laboratory of Disaster Reduction in Civil Engineering, Tongji University, China. The generation methodology of SHJY was to select a specific natural seismic record that complied with the requirements of the site condition of Shanghai and obtain the acceleration time-history at the bedrock through inversion calculation. The acceleration time-history and the corresponding Fourier spectra of the three seismic waves are shown in <xref ref-type="fig" rid="sustainability-12-00336-f004">Figure 4</xref>.</p>
+        <p>According to Equation (1), when <italic>P</italic> represents the peak floor acceleration, the peak story displacements or the peak inter-story shear force, <italic>J<sub>A</sub></italic>, <italic>J<sub>D</sub></italic>, and <italic>J<sub>F</sub></italic> are obtained, as shown in Equations (3)&#x2013;(5).
+        <disp-formula id="FD3-sustainability-12-00336"><label>(3)</label><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mi>A</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD4-sustainability-12-00336"><label>(4)</label><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mi>D</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD5-sustainability-12-00336"><label>(5)</label><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>J</mml:mi><mml:mi>F</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>S</mml:mi><mml:mi>S</mml:mi><mml:mi>I</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>A<sub>SSSI</sub></italic> is the peak floor acceleration considering SSSI, <italic>A<sub>SSI</sub></italic> is the peak floor acceleration in the single-structure-soil system, <italic>D<sub>SSSI</sub></italic> is the peak floor displacement considering SSSI, <italic>D<sub>SSI</sub></italic> is the peak floor displacement in the single-structure-soil system, <italic>F<sub>SSSI</sub></italic> is the peak inter-story shear force considering SSSI, and <italic>F<sub>SSI</sub></italic> is the peak inter-story shear force in the single-structure-soil system.</p>
+        <p>In the case of F-F-F, the numerical simulation results were as shown in <xref ref-type="fig" rid="sustainability-12-00336-f005">Figure 5</xref>. From the calculation results, it could be found that the effects of SSSI were different under different seismic waves with the same peak ground acceleration. However, the influencing rules were somehow similar. Compared to the single SSI system, SSSI reduced the peak floor acceleration and the peak inter-story shear force of the middle structure basically under different seismic excitations.</p>
+        <p>The focus of this paper was not on the influence of different seismic waves on SSSI, but several other factors, such as the clear distance between adjacent structures, structure types, structure heights, and the first natural periods of the structure. Therefore, in <xref ref-type="sec" rid="sec5-sustainability-12-00336">Section 5</xref>, the finite element models are subjected to the El Centro earthquake record, N-S component, the peak acceleration of which was adjusted to 1 m/s<sup>2</sup>. The El Centro earthquake record [<xref ref-type="bibr" rid="B28-sustainability-12-00336">28</xref>] in 1940 is a classical seismic record widely used in seismic response analysis.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-sustainability-12-00336">
+      <title>4. Simulation Methods</title>
+      <p>In the process of numerical modeling of three adjacent tall buildings considering SSSI, many factors needed special consideration. This section gives some critical issues in the numerical simulation. In this paper, the soil regarded as a visco-elastic body was studied by means of an equivalent linear model [<xref ref-type="bibr" rid="B20-sustainability-12-00336">20</xref>]. The boundary conditions in the numerical models were prescribed at the boundaries of the numerical grids. Among the commonly used artificial boundary, viscous boundary, paraxial boundary, and transmitting boundary belong to artificial boundaries in the time domain. The concept of the viscous boundary is clear, and it is easy to be realized [<xref ref-type="bibr" rid="B29-sustainability-12-00336">29</xref>] in the ANSYS program. The rigid boundary condition was used to simulate the bedrock (the bottom of the soil medium grid) in the seismic analysis, as suggested by some other researchers [<xref ref-type="bibr" rid="B30-sustainability-12-00336">30</xref>,<xref ref-type="bibr" rid="B31-sustainability-12-00336">31</xref>,<xref ref-type="bibr" rid="B32-sustainability-12-00336">32</xref>].</p>
+      <sec id="sec4dot1-sustainability-12-00336">
+        <title>4.1. Dynamic Constitutive Model of Soil and Damping System</title>
+        <p>It is viable to use the equivalent linear model in the dynamic interaction model of structure and soil [<xref ref-type="bibr" rid="B33-sustainability-12-00336">33</xref>,<xref ref-type="bibr" rid="B34-sustainability-12-00336">34</xref>]. The Davidenkov model [<xref ref-type="bibr" rid="B35-sustainability-12-00336">35</xref>] of the soil skeleton curve was applied in this paper. For the sake of brevity, the details of the dynamic constitutive model of soil for numerical simulation are presented in <xref ref-type="app" rid="app1-sustainability-12-00336">Appendix A</xref>.</p>
+        <p>Damping is mainly related to material properties or something like that. In the SSSI system, the damping ratio of soil is different from the concrete superstructure, so the damping of each material should be applied separately. The damping system of the model for numerical simulation is presented in <xref ref-type="app" rid="app2-sustainability-12-00336">Appendix B</xref>.</p>
+      </sec>
+      <sec id="sec4dot2-sustainability-12-00336">
+        <title>4.2. Viscous-Spring Artificial Boundary</title>
+        <p>Deeks et al. [<xref ref-type="bibr" rid="B27-sustainability-12-00336">27</xref>] used a method similar to the viscous boundary derivation process to derive a viscous-spring artificial boundary condition under the assumption that the two-dimensional scattered wave is in the form of a cylindrical wave. Li [<xref ref-type="bibr" rid="B29-sustainability-12-00336">29</xref>] used the artificial viscoelastic boundary in the shaking table test of an SSI system and achieved excellent results. The viscous-spring artificial boundary was implemented in the ANSYS program in this paper.</p>
+        <p>In the problem of three-dimensional wave propagation, three boundary elements needed to be applied to the boundary interface. Dampers need to be applied in the normal direction of the boundary, and dampers and linear springs in parallel need to be applied in the tangential direction of the boundary. In order to realize the viscous-spring artificial boundary in the ANSYS program, three boundary elements should be applied at each node by using the spring-damper element in the program. Since the spring-damper element in the ANSYS program uses the concept of centralized damping and centralized spring, the damping coefficient and the stiffness coefficient of each element should be multiplied by the dominant area of the node where the element is located.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-sustainability-12-00336">
+      <title>5. Simulation Results and Discussions</title>
+      <p>In the finite element model, the BEAM4 element was used for the beams, columns of the superstructure, and piles in the foundation; the SHELL63 element was used for floor slabs and shear walls; the SOLID45 element was used for the raft and the soil, as shown in <xref ref-type="fig" rid="sustainability-12-00336-f006">Figure 6</xref>. In order to investigate the effects of SSSI, the clear distance between structures, structure types, structure heights, and the first natural periods of structures were considered, and a series of numerical simulations were conducted.</p>
+      <sec id="sec5dot1-sustainability-12-00336">
+        <title>5.1. Influence of the Clear Distance between Adjacent Structures</title>
+        <p>In this section, we focus on the seismic response of the middle structure and study how the effects of SSSI change when the clear distance between adjacent buildings changes. The clear distance of adjacent structures was changed to 1 m, 3 m, 9 m, 15 m, 30 m, and 60 m sequentially in the simulation. The minimum clear distance of 1 m was 1/30 of the width of the structure along the X-axis, and the maximum clear distance of 60 m was twice the width of the structure along the X-axis.</p>
+        <p>The numerical simulation results of the cases of F-F-F, FW-FW-FW, F-FW-F, and FW-F-FW are shown in <xref ref-type="fig" rid="sustainability-12-00336-f007">Figure 7</xref>, <xref ref-type="fig" rid="sustainability-12-00336-f008">Figure 8</xref>, <xref ref-type="fig" rid="sustainability-12-00336-f009">Figure 9</xref> and <xref ref-type="fig" rid="sustainability-12-00336-f010">Figure 10</xref>, respectively. The label in the figures refers to the floor number. For example, &#x201C;12 F&#x201D; refers to the 12th floor.</p>
+        <p>In this section, we just focus on the absolute values of <italic>J<sub>D</sub></italic> and <italic>J<sub>F</sub></italic> and ignore their signs, i.e., ignore whether SSSI increases or reduces the seismic response of the middle structure compared to the single-structure-soil system. Under this circumstance, from these figures, it could be found that:
+		<list list-type="order"><list-item><p>In the four cases studied in this paper, when the clear distance between adjacent structures was small to a certain extent, the effects of SSSI were significant. However, the effects of SSSI diminished rapidly as the clear distance between adjacent structures increased. When the clear distance between adjacent structures was more than 15 m (<italic>0.5B</italic>, <italic>B</italic> refers to the width of the structure in the X-axis direction), <italic>J<sub>D</sub></italic> and <italic>J<sub>F</sub></italic> were both within 5%. When the clear distance between the structures was more than 30 m (<italic>1.0B</italic>), <italic>J<sub>D</sub></italic> and <italic>J<sub>F</sub></italic> were close to zero, and the effects of SSSI could be ignored. When the clear distance between structures was less than 9 m (<italic>0.3B</italic>), the effects of SSSI were significant.</p></list-item><list-item><p>In the case of F-F-F, when the clear distance between structures was 1 m (<italic>B/30</italic>), the peak floor displacement of the middle frame-shear wall structure was affected by up to 7.5% compared to that of the single SSI system. The peak inter-story shear force of the middle structure was affected by up to 9.7% compared to that of the single SSI system.</p></list-item><list-item><p>In the case of FW-FW-FW, when the clear distance between structures was 1 m (<italic>B/30</italic>), the peak floor displacement of the middle frame-shear wall structure increased by up to 15.7% compared to that of the single SSI system. The peak inter-story shear force of the middle structure increased by up to 9.8% compared to that of the single SSI system.</p></list-item><list-item><p>In these four cases, the most significant effects of SSSI on the seismic response of the middle structure was the case of FW-F-FW. In the case of FW-F-FW, the peak floor displacement of the middle frame structure was affected by up to 25.9% compared to that of the single SSI system, and the peak inter-story shear force of the middle structure was affected by up to 19.5% compared to that of the single SSI system.</p></list-item></list></p>
+        <p>The clear distance between structures is a prominent parameter affecting the interaction of adjacent structures. In all four cases, the peak story displacement and the peak inter-story shear force of the middle structure were observed to be affected significantly by SSSI when the clear distance between adjacent structures was small to a certain extent. This demonstrated the importance of considering SSSI in assessing the seismic performance of the structures in dense urban environments. When structures are relatively close, if the effects of SSSI are ignored, the seismic design may be unsafe. This paper suggests that when the clear distance between structures was less than <italic>0.3B</italic>, the effects of SSSI should be paid attention to in seismic design.</p>
+      </sec>
+      <sec id="sec5dot2-sustainability-12-00336">
+        <title>5.2. Influence of Structure Types</title>
+        <p>The numerical simulation results of the structure on each side of the case of FW-F-FW are shown in <xref ref-type="fig" rid="sustainability-12-00336-f011">Figure 11</xref>. From <xref ref-type="fig" rid="sustainability-12-00336-f009">Figure 9</xref> and <xref ref-type="fig" rid="sustainability-12-00336-f011">Figure 11</xref>, a meaningful result can be found. In the cases of a mixed arrangement of the frame structure and the frame-shear wall structure, no matter whether the frame-shear wall structure was in the middle or on each side, its seismic responses decreased due to SSSI.</p>
+        <p>For the cases of F-F-F and FW-FW-FW, the numerical calculation results are shown in <xref ref-type="fig" rid="sustainability-12-00336-f012">Figure 12</xref> and <xref ref-type="fig" rid="sustainability-12-00336-f013">Figure 13</xref>. The label in the figures is the clear distance between adjacent structures. </p>
+        <p>From the results of the numerical simulation, it could be found that:<list list-type="order"><list-item><p>In the case of F-F-F, for the middle structure, the effects of SSSI were a bit complicated. When the clear distance was not less than 3 m (<italic>B/10</italic>), the seismic responses above the seventh floor increased and the seismic responses below the seventh floor decreased basically. When the clear distance was 1 m (<italic>B/30</italic>), the effects of SSSI were more apparent. Moreover, the peak floor displacements above the seventh floor increased, while the peak floor displacements below the seventh floor decreased. However, the peak inter-story shear forces of all the floors decreased. The lower the floor, the more the reduction. The seismic responses of the structure on each side decreased due to the effects of SSSI, and the smaller the clear distance, the more the decrease.</p></list-item><list-item><p>In the case of FW-FW-FW, the seismic responses of the middle structure increased basically due to the effects of SSSI. The smaller the clear distance, the more the increase. However, for the structure on each side, the effects of SSSI were a bit complicated. The peak floor displacements of the bottom two floors increased basically, and the peak floor displacements of other floors decreased due to SSSI. However, the peak inter-story shear force was increased above the seventh floor and reduced below the seventh floor due to the effects of SSSI.</p></list-item></list></p>
+        <p>Through the analysis of the calculation results, a meaningful result could be found. The effects of SSSI were significantly changed due to different kinds of structural arrangements. This suggested that the structural seismic response could be increased or reduced as a result of SSSI, depending mainly on the structural characteristics, rather than the location of the structures. This was consistent with the findings of Knappett et al. [<xref ref-type="bibr" rid="B36-sustainability-12-00336">36</xref>]. Furthermore, it provided us with an idea about the seismic conceptual design in that a careful arrangement of the structure types of adjacent buildings could be used to control the effects of SSSI. To this end, the influence of SSSI in other kinds of structure arrangements needs to be studied in the future.</p>
+      </sec>
+      <sec id="sec5dot3-sustainability-12-00336">
+        <title>5.3. Influence of the Structure Heights and the First Natural Periods of the Structures</title>
+        <p>Based on the case of F-F-F, the influence of structure heights and the first natural periods of structures on SSSI is investigated in this section. The clear distance between adjacent structures was kept at 3 m, the number of stories of the middle structure at 12, and the number of stories of structures on both sides sequentially changed to 6, 9, 12, 18, and 24. Therefore, there are five models, namely 6-12-6, 9-12-9, 12-12-12, 18-12-18, and 24-12-24. The higher the structure was, the more the total mass of the structure was. The first natural periods of the structures (namely <italic>T<sub>A</sub></italic>, <italic>T<sub>B</sub></italic>, <italic>T<sub>C</sub>)</italic> are shown in <xref ref-type="table" rid="sustainability-12-00336-t003">Table 3</xref>.</p>
+        <p>According to Equation (2), when <italic>P</italic> represents the peak story displacement or the peak inter-story shear force, <italic>R<sub>D</sub></italic> and <italic>R<sub>F</sub></italic> are obtained, which are defined as follows:<disp-formula id="FD6-sustainability-12-00336"><label>(6)</label><mml:math id="mm7" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>D</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>U</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mi>E</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>E</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD7-sustainability-12-00336"><label>(7)</label><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>F</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mi>U</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mi>E</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mi>E</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>D<sub>U</sub></italic> is the peak floor displacement of the middle structure of the structure group with different heights, <italic>D<sub>E</sub></italic> is the peak floor displacement of the middle structure of the structure group with the same height, <italic>F<sub>U</sub></italic> is the peak inter-story shear force of the middle structure of the structure group with different heights, and <italic>F<sub>E</sub></italic> is the peak inter-story shear force of the middle structure of the structure group with the same height.</p>
+        <p>The calculation results are shown in <xref ref-type="fig" rid="sustainability-12-00336-f014">Figure 14</xref> and <xref ref-type="fig" rid="sustainability-12-00336-f015">Figure 15</xref>. In <xref ref-type="fig" rid="sustainability-12-00336-f014">Figure 14</xref>, the labels refer to the number of stories of Structures A, B and C. In <xref ref-type="fig" rid="sustainability-12-00336-f015">Figure 15</xref>, the label is the floor number of the middle structure.</p>
+        <p>From these figures, it could be found that:<list list-type="order"><list-item><p>For the middle structure, <italic>R<sub>D</sub></italic> and <italic>R<sub>F</sub></italic> changed significantly as the number of floors of structures on both sides changed. Except for the model 9-12-9, the peak floor displacements of the lower stories of the middle structure of the structure groups with different heights increased, compared to that of the model 12-12-12. However, the peak floor displacements of the higher stories decreased, compared to that of the model 12-12-12. The peak floor displacement of the middle structure of the higher stories was increased by up to 9.8%, while the peak floor displacement of the middle structure of the higher stories was reduced by up to 7.9%.</p></list-item><list-item><p>Except for the model 18-12-18, the peak inter-story shear forces of the middle structure of models with different heights all increased compared to that of the model 12-12-12, and the maximum increase was 6.1%.</p></list-item><list-item><p>The largest <italic>R<sub>D</sub></italic> was for the model 9-12-9, and the largest <italic>R<sub>F</sub></italic> was for the models 9-12-9 and 6-12-6. However, the <italic>R<sub>D</sub></italic> and <italic>R<sub>F</sub></italic> of the model 24-12-24 were relatively small. According to the numerical calculation, the predominant period of the soil was 2.05 s, and it was close to the first natural period of the 9-story frame structure, which was 2.01 s. Therefore, the seismic responses of the 9-story frame structure in the model 9-12-9 were more significant. Therefore, the dynamic through-soil interaction with the middle 12-story structure was also greater. This suggested that the first natural vibration period of the structures had a more significant impact on SSSI than the height and the mass of the structure on each side in the case of this study.</p></list-item><list-item><p>From <xref ref-type="fig" rid="sustainability-12-00336-f014">Figure 14</xref>b and <xref ref-type="fig" rid="sustainability-12-00336-f015">Figure 15</xref>, a meaningful result could be found. The closer the first natural vibration periods of the three frame structures were, the less the effects of SSSI on the peak inter-story shear force of the middle structure were. It could provide a reference for the seismic conceptual design of frame structures with close spacing.</p></list-item></list></p>
+      </sec>
+    </sec>
+    <sec id="sec6-sustainability-12-00336" sec-type="conclusions">
+      <title>6. Conclusions</title>
+      <p>This paper presented a three-dimensional finite element numerical simulation method for the SSSI system involving three tall buildings. The direction of earthquake excitation was perpendicular to the layout direction of the structures. Under the El Centro earthquake excitation, the dynamic responses of three adjacent structures with pile-raft foundation were calculated and analyzed. The following are some conclusions drawn from this research, which could provide references for practical engineering designs:<list list-type="order"><list-item><p>The clear distance between structures was a prominent parameter affecting the interaction of adjacent structures. The effects of SSSI diminished rapidly as the clear distance between adjacent structures increased. When the clear distance between adjacent structures was more than 30 m (<italic>1.0B</italic>), <italic>J<sub>D</sub></italic> and <italic>J<sub>F</sub></italic> were close to zero, and the effects of SSSI could be ignored in practical engineering. When the clear distance between structures was less than 9 m (<italic>0.3B</italic>), the effects of SSSI were significant. When structures were relatively close, if the effects of SSSI were ignored, the seismic design may be unsafe. Based on this research, this paper suggested that when the clear distance between structures was less than <italic>0.3B</italic>, the effects of SSSI should be paid attention to in seismic design.</p></list-item><list-item><p>In the cases of F-FW-F and FW-F-FW, no matter whether the frame-shear wall structure was in the middle or on each side, its seismic responses decreased due to the effects of SSSI. The research findings showed that the effects of SSSI were significantly different in different kinds of structural arrangements. Furthermore, the results suggested that structural seismic response could be increased or reduced as a result of SSSI, depending mainly on the structural characteristics, rather than the location of the structures. It provided us with an idea about the seismic conceptual design in that a careful arrangement of the structure types of adjacent buildings could be used to control the effects of SSSI.</p></list-item><list-item><p>For the middle structure, the effects of SSSI significantly changed as the number of floors of structures on both sides changed. However, it was not that the higher the structures on both sides, the more apparent the effects of SSSI were. In fact, in the cases of this study, the first natural vibration periods of the structures on both sides had a more significant impact on SSSI than the height and the mass of the structures on both sides. This suggested that avoiding the predominant period of the soil was also an effective measure to control the effects of SSSI.</p></list-item></list></p>
+      <p>However, it should be admitted that the studies on SSSI were somewhat complicated. This research only provided a glimpse of the SSSI problems and gave some references to seismic design. More work needs to be done in order to assess the effects of SSSI on general engineering problems with different kinds of structural configurations, and the associated risks [<xref ref-type="bibr" rid="B14-sustainability-12-00336">14</xref>]. Further study is still in progress.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Data curation, J.G.; formal analysis, J.G.; project administration, P.L.; software, P.L.; writing&#x2014;original draft, P.L.; writing&#x2014;review &amp; editing, Q.L. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This reported research was supported by the National Natural Science Foundation of China (Grant No. 51978524) and by the Ministry of Science and Technology of China (Grant No. SLDRCE19-B-30).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <app-group>
+      <app id="app1-sustainability-12-00336">
+        <title>Appendix A. Dynamic Constitutive Model of Soil</title>
+        <p>It is viable to use the equivalent linear model in the dynamic interaction model of structure and soil [<xref ref-type="bibr" rid="B33-sustainability-12-00336">33</xref>,<xref ref-type="bibr" rid="B34-sustainability-12-00336">34</xref>]. The Davidenkov model [<xref ref-type="bibr" rid="B35-sustainability-12-00336">35</xref>] of the soil skeleton curve was applied in this paper. Equations (A1) and (A3) describe the relationship of <inline-formula><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:mfrac><mml:mi>G</mml:mi><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>~</mml:mo><mml:mi>&#x3B3;</mml:mi><mml:mo>&#xA0;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm10" display="block"><mml:semantics><mml:mrow><mml:mi>D</mml:mi><mml:mo>/</mml:mo><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>~</mml:mo><mml:mi>&#x3B3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, respectively.
+        <disp-formula id="FD8-sustainability-12-00336"><label>(A1)</label><mml:math id="mm11" display="block"><mml:semantics><mml:mrow><mml:mfrac><mml:mi>G</mml:mi><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>H</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B3;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where,
+        <disp-formula id="FD9-sustainability-12-00336"><label>(A2)</label><mml:math display="block" id="mm12"><mml:semantics><mml:mrow><mml:mi>H</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B3;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>|</mml:mo><mml:mi>&#x3B3;</mml:mi><mml:mo>|</mml:mo><mml:mo>/</mml:mo><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>&#x3B3;</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>B</mml:mi></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo>|</mml:mo><mml:mi>&#x3B3;</mml:mi><mml:mo>|</mml:mo><mml:mo>/</mml:mo><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>&#x3B3;</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mi>B</mml:mi></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow><mml:mi>A</mml:mi></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD10-sustainability-12-00336"><label>(A3)</label><mml:math id="mm13" display="block"><mml:semantics><mml:mrow><mml:mfrac><mml:mi>D</mml:mi><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mfrac><mml:mi>G</mml:mi><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>&#x3B2;</mml:mi></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm14" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the maximum dynamic shear modulus; <inline-formula><mml:math id="mm15" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the maximum damping ratio; <inline-formula><mml:math id="mm16" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>r</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3C4;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the reference shear strain; <inline-formula><mml:math id="mm17" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C4;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the limit value of the soil shear strength when <inline-formula><mml:math id="mm18" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is large enough; <inline-formula><mml:math id="mm19" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B2;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is the shape coefficient of the <inline-formula><mml:math id="mm20" display="block"><mml:semantics><mml:mrow><mml:mi>D</mml:mi><mml:mo>~</mml:mo><mml:mi>&#x3B3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> curve. <inline-formula><mml:math id="mm21" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B2;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is taken as 1.0 for Shanghai soft soil. <italic>A</italic> and <italic>B</italic> can be obtained in <xref ref-type="table" rid="sustainability-12-00336-t0A1">Table A1</xref>. <inline-formula><mml:math id="mm22" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> can be obtained by the wave velocity method, as shown in Equation (A4).
+        <disp-formula id="FD11-sustainability-12-00336"><label>(A4)</label><mml:math id="mm23" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>G</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x3C1;</mml:mi><mml:msubsup><mml:mi>V</mml:mi><mml:mi>S</mml:mi><mml:mn>2</mml:mn></mml:msubsup><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p><inline-formula><mml:math id="mm24" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> can be obtained by Equation (A5).
+        <disp-formula id="FD12-sustainability-12-00336"><label>(A5)</label><mml:math display="block" id="mm25"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>r</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>r</mml:mi></mml:msub><mml:msup><mml:mrow/><mml:mo>&#x2032;</mml:mo></mml:msup><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>0.01</mml:mn><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>m</mml:mi></mml:msub><mml:msup><mml:mrow/><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where  is the effective confined pressure of soil, and <inline-formula><mml:math id="mm50" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>r</mml:mi></mml:msub><mml:msup><mml:mrow/><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> can be obtained from <xref ref-type="table" rid="sustainability-12-00336-t0A1">Table A1</xref>.</p>
+        <table-wrap id="sustainability-12-00336-t0A1" position="float">
+          <object-id pub-id-type="pii">sustainability-12-00336-t0A1_Table A1</object-id>
+          <label>Table A1</label>
+          <caption>
+            <p>The Davidenkov model parameters of soft soil in Shanghai [<xref ref-type="bibr" rid="B1-sustainability-12-00336">1</xref>].</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Soil Type</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <italic>A</italic>
+                </th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <italic>B</italic>
+                </th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <italic>D<sub>max</sub></italic>
+                </th>
+                <th align="center" valign="top" style="border-top:solid thin;border-bottom:solid thin"><inline-formula><mml:math id="mm51" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="bold-italic">&#x3B3;</mml:mi><mml:mi mathvariant="bold-italic">r</mml:mi></mml:msub><mml:msup><mml:mrow/><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> (10<sup>&#x2212;3</sup>)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">cohesive soil</td>
+                <td align="center" valign="middle">1.62</td>
+                <td align="center" valign="middle">0.42</td>
+                <td align="center" valign="top">0.30</td>
+                <td align="center" valign="top">0.6</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">silty soil</td>
+                <td align="center" valign="middle">1.12</td>
+                <td align="center" valign="middle">0.44</td>
+                <td align="center" valign="top">0.25</td>
+                <td align="center" valign="top">0.8</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">sandy soil</td>
+                <td align="center" valign="middle">1.10</td>
+                <td align="center" valign="middle">0.48</td>
+                <td align="center" valign="top">0.25</td>
+                <td align="center" valign="top">1.0</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">medium coarse sand</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1.10</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">0.48</td>
+                <td align="center" valign="top" style="border-bottom:solid thin">0.25</td>
+                <td align="center" valign="top" style="border-bottom:solid thin">1.2</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </app>
+      <app id="app2-sustainability-12-00336">
+        <title>Appendix B. Damping System</title>
+        <p>In the SSSI system, the damping ratio of soil was different from the concrete superstructure, so the damping of each material should be applied separately in the simulation. Rayleigh damping was applied in the ANSYS program in this paper. It is well known that the Rayleigh damping ratio can be obtained by Equation (A6).
+        <disp-formula id="FD13-sustainability-12-00336"><label>(A6)</label><mml:math id="mm26" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mo>/</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>2</mml:mn><mml:msub><mml:mi>&#x3C9;</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>&#x3B2;</mml:mi><mml:msub><mml:mi>&#x3C9;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:mn>2</mml:mn><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm27" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>D</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the ratio between actual damping and critical damping in a specific mode of vibration, <inline-formula><mml:math id="mm28" display="block"><mml:semantics><mml:mi>&#x3B1;</mml:mi></mml:semantics></mml:math></inline-formula> is the mass damping coefficient, <inline-formula><mml:math id="mm29" display="block"><mml:semantics><mml:mi>&#x3B2;</mml:mi></mml:semantics></mml:math></inline-formula> is the stiffness damping coefficient, and <inline-formula><mml:math id="mm30" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C9;</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the natural circular frequency of mode <inline-formula><mml:math id="mm31" display="block"><mml:semantics><mml:mi>j</mml:mi></mml:semantics></mml:math></inline-formula>.</p>
+        <p>Besides, in most practical engineering problems, mass damping is usually negligible, i.e., <italic>&#x3B1;</italic> = <italic>0</italic>. Therefore, <inline-formula><mml:math id="mm32" display="block"><mml:semantics><mml:mi>&#x3B2;</mml:mi></mml:semantics></mml:math></inline-formula> can be evaluated by Equation (A7).
+        <disp-formula id="FD14-sustainability-12-00336"><label>(A7)</label><mml:math id="mm33" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B2;</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn><mml:msub><mml:mi>&#x3BE;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mi>&#x3C9;</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>A loading input method for material damping as described above is provided in the ANSYS program, considering only the <italic>&#x3B2;</italic> damping. Moreover, different damping ratios can be applied to different materials using this method. The total damping matrix is integrated by Equation (A8).
+        <disp-formula id="FD15-sustainability-12-00336"><label>(A8)</label><mml:math display="block" id="mm34"><mml:semantics><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mi>C</mml:mi><mml:mo>]</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mstyle><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm35" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the stiffness damping coefficient of each material and <inline-formula><mml:math id="mm36" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is a stiffness matrix for each material.</p>
+        <p>The soil damping ratio was achieved through iteration from the <inline-formula><mml:math id="mm37" display="block"><mml:semantics><mml:mrow><mml:mi>D</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mi>d</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> curves based on the results of material property tests [<xref ref-type="bibr" rid="B37-sustainability-12-00336">37</xref>]. The damping ratio of the superstructure was 0.05. Using the method described above, the problem that the damping ratios of the structure and the soil are different can be solved.</p>
+      </app>
+    </app-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-sustainability-12-00336">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>P.Z.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Studies on Pounding Response Considering StructureSoil-Structure Interaction under Seismic Loads</article-title>
+          <source>Sustainability</source>
+          <year>2017</year>
+          <volume>9</volume>
+          <elocation-id>2219</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su9122219</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-sustainability-12-00336">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Development of a Refined Analysis Method for Earthquake-Induced Pounding between Adjacent RC Frame Structures</article-title>
+          <source>Sustainability</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>4928</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su11184928</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-sustainability-12-00336">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lou</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.F.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhai</surname>
+              <given-names>Y.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure-soil-structure interaction: Literature review</article-title>
+          <source>Soil Dyn. Earthq. Eng.</source>
+          <year>2011</year>
+          <volume>31</volume>
+          <fpage>1724</fpage>
+          <lpage>1731</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.soildyn.2011.07.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-sustainability-12-00336">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirkwood</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Dashti</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of prefabricated vertical drains on the seismic performance of similar neighbouring structures founded on liquefiable deposits</article-title>
+          <source>Geotechnique</source>
+          <year>2019</year>
+          <volume>69</volume>
+          <fpage>971</fpage>
+          <lpage>985</lpage>
+          <pub-id pub-id-type="doi">10.1680/jgeot.17.P.077</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-sustainability-12-00336">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koren</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Rus</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Potential of Open Space for Enhancing Urban Seismic Resilience: A literature Review</article-title>
+          <source>Sustainability</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>5942</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/su11215942</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-sustainability-12-00336">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Warburton</surname>
+              <given-names>G.B.</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Webster</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Forced Vibrations of Two Masses on an Elastic Half Space</article-title>
+          <source>J. Appl. Mech.</source>
+          <year>1971</year>
+          <volume>38</volume>
+          <fpage>148</fpage>
+          <lpage>156</lpage>
+          <pub-id pub-id-type="doi">10.1115/1.3408735</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-sustainability-12-00336">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>T.H.</given-names>
+            </name>
+            <name>
+              <surname>Wesley</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Soil-structure interaction of nuclear reactor structures considering through-soil coupling between adjacent structures</article-title>
+          <source>Nucl. Eng. Des.</source>
+          <year>1973</year>
+          <volume>24</volume>
+          <fpage>374</fpage>
+          <lpage>387</lpage>
+          <pub-id pub-id-type="doi">10.1016/0029-5493(73)90007-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-sustainability-12-00336">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wong</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Trifunac</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two-dimensional, antiplane, building-soil-building interaction for two or more buildings and for incident planet SH waves</article-title>
+          <source>Bull. Seismol. Soc. Am.</source>
+          <year>1975</year>
+          <volume>65</volume>
+          <fpage>1863</fpage>
+          <lpage>1885</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B9-sustainability-12-00336">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ngo</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of Height Ratio and Mass Ratio on Structure-Soil-Structure Interaction of Two Structures Using Centrifugal Experiment</article-title>
+          <source>Appl. Sci. Basel</source>
+          <year>2019</year>
+          <volume>9</volume>
+          <elocation-id>526</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/app9030526</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-sustainability-12-00336">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirkwood</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Dashti</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Centrifuge Study of Seismic Structure-Soil-Structure Interaction on Liquefiable Ground and Implications for Design in Dense Urban Areas</article-title>
+          <source>Earthq. Spectra</source>
+          <year>2018</year>
+          <volume>34</volume>
+          <fpage>1113</fpage>
+          <lpage>1134</lpage>
+          <pub-id pub-id-type="doi">10.1193/052417EQS095M</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-sustainability-12-00336">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jabary</surname>
+              <given-names>R.N.</given-names>
+            </name>
+            <name>
+              <surname>Madabhushi</surname>
+              <given-names>S.P.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure-soil-structure interaction effects on structures retrofitted with tuned mass dampers</article-title>
+          <source>Soil Dyn. Earthq. Eng.</source>
+          <year>2017</year>
+          <volume>100</volume>
+          <fpage>301</fpage>
+          <lpage>315</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.soildyn.2017.05.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-sustainability-12-00336">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trombetta</surname>
+              <given-names>N.W.</given-names>
+            </name>
+            <name>
+              <surname>Mason</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Hutchinson</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Zupan</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Bray</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Kutter</surname>
+              <given-names>B.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nonlinear Soil-Foundation-Structure and Structure-Soil-Structure Interaction: Engineering Demands</article-title>
+          <source>J. Struct. Eng.</source>
+          <year>2015</year>
+          <volume>141</volume>
+          <fpage>04014177</fpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)ST.1943-541X.0001127</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-sustainability-12-00336">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trombetta</surname>
+              <given-names>N.W.</given-names>
+            </name>
+            <name>
+              <surname>Mason</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Hutchinson</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Zupan</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Bray</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Kutter</surname>
+              <given-names>B.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nonlinear Soil-Foundation-Structure and Structure-Soil-Structure Interaction: Centrifuge Test Observations</article-title>
+          <source>J. Geotech. Geoenviron. Eng.</source>
+          <year>2014</year>
+          <volume>140</volume>
+          <fpage>04013057</fpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)GT.1943-5606.0001074</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-sustainability-12-00336">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Padron</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Aznarez</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Maeso</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic structure-soil-structure interaction between nearby piled buildings under seismic excitation by BEM-FEM model</article-title>
+          <source>Soil Dyn. Earthq. Eng.</source>
+          <year>2009</year>
+          <volume>29</volume>
+          <fpage>1084</fpage>
+          <lpage>1096</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.soildyn.2009.01.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-sustainability-12-00336">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vicencio</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Alexander</surname>
+              <given-names>N.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Higher mode seismic structure-soil-structure interaction between adjacent building during earthquakes</article-title>
+          <source>Eng. Struct.</source>
+          <year>2018</year>
+          <volume>174</volume>
+          <fpage>322</fpage>
+          <lpage>337</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.engstruct.2018.07.049</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-sustainability-12-00336">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Todorovska</surname>
+              <given-names>M.I.</given-names>
+            </name>
+            <name>
+              <surname>Trifunac</surname>
+              <given-names>M.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>2D dynamic structure-soil-structure interaction for twin buildings in layered half-space II: Incident SV-waves</article-title>
+          <source>Soil Dyn. Earthq. Eng.</source>
+          <year>2018</year>
+          <volume>113</volume>
+          <fpage>356</fpage>
+          <lpage>390</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.soildyn.2018.05.023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-sustainability-12-00336">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ada</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ayvaz</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Structure-Soil-Structure Interaction Effects on the Response of the Neighbouring Frame Structures</article-title>
+          <source>Lat. Am. J. Solids Struct.</source>
+          <year>2019</year>
+          <volume>16</volume>
+          <pub-id pub-id-type="doi">10.1590/1679-78255762</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-sustainability-12-00336">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vicencio</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Alexander</surname>
+              <given-names>N.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic Structure-Soil-Structure Interaction in unsymmetrical plan buildings due to seismic excitation</article-title>
+          <source>Soil Dyn. Earthq. Eng.</source>
+          <year>2019</year>
+          <volume>127</volume>
+          <fpage>105817</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.soildyn.2019.105817</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-sustainability-12-00336">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aldaikh</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Alexander</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Ibraim</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Oddbjornsson</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two dimensional numerical and experimental models for the study of structure-soil-structure interaction involving three buildings</article-title>
+          <source>Comput. Struct.</source>
+          <year>2015</year>
+          <volume>150</volume>
+          <fpage>79</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compstruc.2015.01.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-sustainability-12-00336">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>P.Z.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Numerical analysis of a shaking table test on dynamic structure-soil-structure interaction under earthquake excitations</article-title>
+          <source>Struct. Des. Tall Spec. Build.</source>
+          <year>2017</year>
+          <volume>26</volume>
+          <fpage>e1382</fpage>
+          <pub-id pub-id-type="doi">10.1002/tal.1382</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-sustainability-12-00336">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghandil</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aldaikh</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Damage-based seismic planar pounding analysis of adjacent symmetric buildings considering inelastic structure-soil-structure interaction</article-title>
+          <source>Earthq. Eng. Struct. Dyn.</source>
+          <year>2017</year>
+          <volume>46</volume>
+          <fpage>1141</fpage>
+          <lpage>1159</lpage>
+          <pub-id pub-id-type="doi">10.1002/eqe.2848</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-sustainability-12-00336">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bybordiani</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Arici</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure-soil-structure interaction of adjacent buildings subjected to seismic loading</article-title>
+          <source>Earthq. Eng. Struct. Dyn.</source>
+          <year>2019</year>
+          <volume>48</volume>
+          <fpage>731</fpage>
+          <lpage>748</lpage>
+          <pub-id pub-id-type="doi">10.1002/eqe.3162</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-sustainability-12-00336">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Isbiliroglu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Taborda</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bielak</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coupled Soil-Structure Interaction Effects of Building Clusters During Earthquakes</article-title>
+          <source>Earthq. Spectra</source>
+          <year>2015</year>
+          <volume>31</volume>
+          <fpage>463</fpage>
+          <lpage>500</lpage>
+          <pub-id pub-id-type="doi">10.1193/102412EQS315M</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-sustainability-12-00336">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gueguen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Colombi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental and Numerical Evidence of the Clustering Effect of Structures on Their Response during an Earthquake: A Case Study of Three Identical Towers in the City of Grenoble, France</article-title>
+          <source>Bull. Seismol. Soc. Am.</source>
+          <year>2016</year>
+          <volume>106</volume>
+          <fpage>2855</fpage>
+          <lpage>2864</lpage>
+          <pub-id pub-id-type="doi">10.1785/0120160057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-sustainability-12-00336">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.Z.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A numerical coupling scheme for nonlinear time history analysis of buildings on a regional scale considering site-city interaction effects</article-title>
+          <source>Earthq. Eng. Struct. Dyn.</source>
+          <year>2018</year>
+          <volume>47</volume>
+          <fpage>2708</fpage>
+          <lpage>2725</lpage>
+          <pub-id pub-id-type="doi">10.1002/eqe.3108</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-sustainability-12-00336">
+        <label>26.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seismic Analysis of Shield Tunnel in Viscoelastic Medium Considering Contact Problem</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>Tongji University</publisher-name>
+          <publisher-loc>Shanghai, China</publisher-loc>
+          <year>2000</year>
+          <comment>(In Chinese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B27-sustainability-12-00336">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deeks</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Randolph</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Axisymmetric Time-Domain Transmitting Boundaries</article-title>
+          <source>J. Eng. Mech. ASCE</source>
+          <year>1994</year>
+          <volume>120</volume>
+          <fpage>25</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)0733-9399(1994)120:1(25)</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-sustainability-12-00336">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Memarzadeh</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Saadatpour</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Azhari</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nonlinear dynamic response and ductility requirements of a typical steel plate shear wall subjected to El Centro earthquake</article-title>
+          <source>Iran. J. Sci. Technol. Trans. B Eng.</source>
+          <year>2010</year>
+          <volume>34</volume>
+          <fpage>371</fpage>
+          <lpage>384</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B29-sustainability-12-00336">
+        <label>29.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>P.Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shaking Table Test and Simulation Analysis of Structure-Foundation Dynamic Interaction System</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>Tongji University</publisher-name>
+          <publisher-loc>Shanghai, China</publisher-loc>
+          <year>2002</year>
+          <comment>(In Chinese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B30-sustainability-12-00336">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dutta</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Roy</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A critical review on idealization and modeling for interaction among soil-foundation-structure system</article-title>
+          <source>Comput. Struct.</source>
+          <year>2002</year>
+          <volume>80</volume>
+          <fpage>1579</fpage>
+          <lpage>1594</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0045-7949(02)00115-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-sustainability-12-00336">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kocak</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mengi</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A simple soil-structure interaction model</article-title>
+          <source>Appl. Math. Model.</source>
+          <year>2000</year>
+          <volume>24</volume>
+          <fpage>607</fpage>
+          <lpage>635</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0307-904X(00)00006-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-sustainability-12-00336">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spyrakos</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Maniatakis</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Koutromanos</surname>
+              <given-names>I.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Soil-structure interaction effects on base-isolated buildings founded on soil stratum</article-title>
+          <source>Eng. Struct.</source>
+          <year>2009</year>
+          <volume>31</volume>
+          <fpage>729</fpage>
+          <lpage>737</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.engstruct.2008.10.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-sustainability-12-00336">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Seed</surname>
+              <given-names>H.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>One-dimensional dynamic ground response analyses</article-title>
+          <source>J. Geotech. Eng. Div. ASCE</source>
+          <year>1982</year>
+          <volume>108</volume>
+          <fpage>935</fpage>
+          <lpage>952</lpage>
+          <pub-id pub-id-type="doi">10.1016/0148-9062(83)91690-X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-sustainability-12-00336">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hadjian</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Tseng</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tsai</surname>
+              <given-names>N.C.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>H.T.</given-names>
+            </name>
+            <name>
+              <surname>Stepp</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The learning from the large scale from Lotung soil-structure interaction experiments (I)</article-title>
+          <source>World Earthq. Eng.</source>
+          <year>1993</year>
+          <volume>3</volume>
+          <fpage>41</fpage>
+          <lpage>52</lpage>
+          <comment>(In Chinese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B35-sustainability-12-00336">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.C.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>H.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic calculation model of Shanghai soft soil</article-title>
+          <source>J. Tongji Univ.</source>
+          <year>2000</year>
+          <volume>28</volume>
+          <fpage>359</fpage>
+          <lpage>363</lpage>
+          <comment>(In Chinese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B36-sustainability-12-00336">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Knappett</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Madden</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Caucis</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Seismic structure-soil-structure interaction between pairs of adjacent building structures</article-title>
+          <source>Geotechnique</source>
+          <year>2015</year>
+          <volume>65</volume>
+          <fpage>429</fpage>
+          <lpage>441</lpage>
+          <pub-id pub-id-type="doi">10.1680/geot.SIP.14.P.059</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-sustainability-12-00336">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>P.Z.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Numerical analysis of dynamic soil-box foundation-structure interaction system</article-title>
+          <source>J. Asian Arch. Build. Eng.</source>
+          <year>2002</year>
+          <volume>1</volume>
+          <fpage>9</fpage>
+          <lpage>16</lpage>
+          <pub-id pub-id-type="doi">10.3130/jaabe.1.2_9</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="sustainability-12-00336-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>The layout of the three adjacent structures and the direction of earthquake action.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g001.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>(<bold>a</bold>) The layout of the frame structure; (<bold>b</bold>) the layout of the frame-shear wall structure.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g002.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>The layout of the piles.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g003.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>The acceleration time-history and the corresponding Fourier spectra of the three seismic waves. (<bold>a</bold>) The acceleration time-history of SHW1; (<bold>b</bold>) the corresponding Fourier spectra of SHW1; (<bold>c</bold>) The acceleration time-history of SHJY; (<bold>d</bold>) the corresponding Fourier spectra of SHJY; (<bold>e</bold>) the acceleration time-history of the El Centro earthquake, N-S component; (<bold>f</bold>) the corresponding Fourier spectra of the El Centro earthquake, N-S component.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g004.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Simulation results of the middle structure of the case of the three structures being all frame structures (F-F-F). (<bold>a</bold>) The relationship between <italic>J<sub>A</sub></italic> and the floor number; (<bold>b</bold>) the relationship between <italic>J<sub>F</sub></italic> and the floor number.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g005.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>A numerical simulation model of the case F-frame shear (FW)-F.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g006.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>The case of F-F-F. (<bold>a</bold>) The relationship between <italic>J<sub>D</sub></italic> of the middle structure and the clear distance between structures; (<bold>b</bold>) the relationship between <italic>J<sub>F</sub></italic> of the middle structure and the clear distance between structures.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g007.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>The case of FW-FW-FW. (<bold>a</bold>) The relationship between <italic>J<sub>D</sub></italic> of the middle structure and the clear distance between structures; (<bold>b</bold>) the relationship between <italic>J<sub>F</sub></italic> of the middle structure and the clear distance between structures.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g008.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>The case of F-FW-F. (<bold>a</bold>) The relationship between <italic>J<sub>D</sub></italic> of the middle structure and the clear distance between structures; (<bold>b</bold>) the relationship between <italic>J<sub>F</sub></italic> of the middle structure and the clear distance between structures.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g009.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>The case of FW-F-FW. (<bold>a</bold>) The relationship between <italic>J<sub>D</sub></italic> of the middle structure and the clear distance between structures; (<bold>b</bold>) the relationship between <italic>J<sub>F</sub></italic> of the middle structure and the clear distance between structures.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g010.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>The case of FW-F-FW. (<bold>a</bold>) The relationship between <italic>J<sub>D</sub></italic> of the structure on each side and the clear distance. (<bold>b</bold>) the relationship between <italic>J<sub>F</sub></italic> of the structure on each side and the clear distance.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g011.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>The case of F-F-F. (<bold>a</bold>) The relationship between <italic>J<sub>D</sub></italic> of the middle structure and the elevation; (<bold>b</bold>) the relationship between <italic>J<sub>F</sub></italic> of the middle structure and the floor number; (<bold>c</bold>) the relationship between <italic>J<sub>D</sub></italic> of the structure on each side and the elevation; (<bold>d</bold>) the relationship between <italic>J<sub>F</sub></italic> of the structure on each side and the floor number.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g012.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f013" position="float">
+        <label>Figure 13</label>
+        <caption>
+          <p>The case of FW-FW-FW. (<bold>a</bold>) The relationship between <italic>J<sub>D</sub></italic> of the middle structure and the elevation; (<bold>b</bold>) the relationship between <italic>J<sub>F</sub></italic> of the middle structure and the number of floors; (<bold>c</bold>) the relationship between <italic>J<sub>D</sub></italic> of the structure on each side and the elevation; (<bold>d</bold>) the relationship between <italic>J<sub>F</sub></italic> of the structure on each side and the floor number.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g013.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f014" position="float">
+        <label>Figure 14</label>
+        <caption>
+          <p>Comparison of the seismic response of the middle structures. (<bold>a</bold>) The relationship between <italic>R<sub>D</sub></italic> and the elevation; (<bold>b</bold>) the relationship between <italic>R<sub>F</sub></italic> and the floor number.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g014.tif"/>
+      </fig>
+      <fig id="sustainability-12-00336-f015" position="float">
+        <label>Figure 15</label>
+        <caption>
+          <p>The relationship between <italic>R<sub>F</sub></italic> and <italic>T<sub>A</sub>/T<sub>B</sub>.</italic></p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00336-g015.tif"/>
+      </fig>
+      <table-wrap id="sustainability-12-00336-t001" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00336-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Specific parameters of the superstructures.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Structure Type</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Shear Wall Thickness (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cross-Section of Beams (mm * mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Slab Thickness (mm)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Dead Load (kN/m<sup>2</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Live Load (kN/m<sup>2</sup>)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Frame</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">300 &#xD7; 600</td>
+              <td align="center" valign="middle">120</td>
+              <td align="center" valign="middle">4.2</td>
+              <td align="center" valign="middle">2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Frame-shear wall</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">240</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">300 &#xD7; 600</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">120</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00336-t002" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00336-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Parameters of the soil.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Order of Soil Layer</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Name of Soil Layer</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Bottom Depth (m)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Density <italic>&#x3C1;</italic> (t/m<sup>3</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Dynamic Elastic Modulus <italic>E<sub>d</sub></italic> (MPa)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Poisson Ratio <italic>&#x3B3;</italic></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Shear Wave Velocity <italic>v<sub>s</sub></italic> (m/s)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">plain fill</td>
+              <td align="center" valign="middle">3.5</td>
+              <td align="center" valign="middle">1.8</td>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">0.45</td>
+              <td align="center" valign="middle">74</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">mucky silty clay</td>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="middle">1.74</td>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">0.45</td>
+              <td align="center" valign="middle">85</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">mucky clay</td>
+              <td align="center" valign="middle">17.6</td>
+              <td align="center" valign="middle">1.7</td>
+              <td align="center" valign="middle">14</td>
+              <td align="center" valign="middle">0.45</td>
+              <td align="center" valign="middle">110</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5.1</td>
+              <td align="center" valign="middle">clay</td>
+              <td align="center" valign="middle">26.5</td>
+              <td align="center" valign="middle">1.77</td>
+              <td align="center" valign="middle">27</td>
+              <td align="center" valign="middle">0.45</td>
+              <td align="center" valign="middle">200</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5.2</td>
+              <td align="center" valign="middle">silty clay</td>
+              <td align="center" valign="middle">35.2</td>
+              <td align="center" valign="middle">1.81</td>
+              <td align="center" valign="middle">31</td>
+              <td align="center" valign="middle">0.45</td>
+              <td align="center" valign="middle">300</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">5.3</td>
+              <td align="center" valign="middle">clay</td>
+              <td align="center" valign="middle">41.3</td>
+              <td align="center" valign="middle">1.99</td>
+              <td align="center" valign="middle">37</td>
+              <td align="center" valign="middle">0.45</td>
+              <td align="center" valign="middle">310</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">silty sand</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&gt;41.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.96</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">91</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">380</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00336-t003" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00336-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>The first natural period of the structures.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Structure B</th>
+              <th colspan="5" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Structure A or Structure C</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Number of floors</td>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">9</td>
+              <td align="center" valign="middle">12</td>
+              <td align="center" valign="middle">18</td>
+              <td align="center" valign="middle">24</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">The first natural period</td>
+              <td align="center" valign="middle">2.60 s</td>
+              <td align="center" valign="middle">1.44 s</td>
+              <td align="center" valign="middle">2.01 s</td>
+              <td align="center" valign="middle">2.60 s</td>
+              <td align="center" valign="middle">3.87 s</td>
+              <td align="center" valign="middle">5.36 s</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Ratio of first natural periods (<italic>T<sub>A</sub>/T<sub>B</sub></italic> or <italic>T<sub>C</sub>/T<sub>B</sub></italic>)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.56</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.78</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.00</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.49</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.07</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

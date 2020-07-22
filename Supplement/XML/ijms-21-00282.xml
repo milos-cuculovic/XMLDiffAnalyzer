@@ -1,0 +1,2888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010282</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00282</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Age-Dependent and -Independent Effects of Perivascular Adipose Tissue and Its Paracrine Activities during Neointima Formation</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sch&#xFC;tz</surname>
+            <given-names>Eva</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00282" ref-type="aff">1</xref>
+          <xref rid="fn1-ijms-21-00282" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gogiraju</surname>
+            <given-names>Rajinikanth</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00282" ref-type="aff">1</xref>
+          <xref rid="fn1-ijms-21-00282" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pavlaki</surname>
+            <given-names>Maria</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00282" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Drosos</surname>
+            <given-names>Ioannis</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00282" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Georgiadis</surname>
+            <given-names>George S.</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00282" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Argyriou</surname>
+            <given-names>Christos</given-names>
+          </name>
+          <xref rid="af3-ijms-21-00282" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1406-3937</contrib-id>
+          <name>
+            <surname>Rim Ben Hallou</surname>
+            <given-names>Amina</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00282" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Konstantinou</surname>
+            <given-names>Fotios</given-names>
+          </name>
+          <xref rid="af4-ijms-21-00282" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mikroulis</surname>
+            <given-names>Dimitrios</given-names>
+          </name>
+          <xref rid="af4-ijms-21-00282" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sch&#xFC;ler</surname>
+            <given-names>Rebecca</given-names>
+          </name>
+          <xref rid="af5-ijms-21-00282" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bochenek</surname>
+            <given-names>Magdalena L.</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00282" ref-type="aff">1</xref>
+          <xref rid="af5-ijms-21-00282" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gachkar</surname>
+            <given-names>Sogol</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00282" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Buschmann</surname>
+            <given-names>Katja</given-names>
+          </name>
+          <xref rid="af6-ijms-21-00282" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lankeit</surname>
+            <given-names>Mareike</given-names>
+          </name>
+          <xref rid="af5-ijms-21-00282" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4462-3747</contrib-id>
+          <name>
+            <surname>Karbach</surname>
+            <given-names>Susanne H.</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00282" ref-type="aff">1</xref>
+          <xref rid="af5-ijms-21-00282" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-5503-4150</contrib-id>
+          <name>
+            <surname>M&#xFC;nzel</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00282" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tziakas</surname>
+            <given-names>Dimitrios</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00282" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Konstantinides</surname>
+            <given-names>Stavros</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00282" ref-type="aff">2</xref>
+          <xref rid="af5-ijms-21-00282" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sch&#xE4;fer</surname>
+            <given-names>Katrin</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00282" ref-type="aff">1</xref>
+          <xref rid="c1-ijms-21-00282" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00282"><label>1</label>Center for Cardiology, Cardiology I, University Medical Center Mainz, D-55131 Mainz, Germany; <email>evamariaschuetz@web.de</email> (E.S.); <email>gogiraju@gmail.com</email> (R.G.); </aff>
+      <aff id="af2-ijms-21-00282"><label>2</label>Department of Cardiology, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece or </aff>
+      <aff id="af3-ijms-21-00282"><label>3</label>Department of Vascular Surgery, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece</aff>
+      <aff id="af4-ijms-21-00282"><label>4</label>Department of Cardiothoracic Surgery, Democritus University of Thrace, GR-68100 Alexandroupolis, Greece</aff>
+      <aff id="af5-ijms-21-00282"><label>5</label>Center for Thrombosis and Hemostasis, University Medical Center Mainz, D-55131 Mainz, Germany</aff>
+      <aff id="af6-ijms-21-00282"><label>6</label>Department of Cardiothoracic and Vascular Surgery, University Medical Center Mainz, D-55131 Mainz, Germany</aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00282"><label>*</label>Correspondence: <email>katrin.schaefer@unimedizin-mainz.de</email></corresp>
+        <fn id="fn1-ijms-21-00282">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>282</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>08</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Cardiovascular risk factors may act by modulating the composition and function of the adventitia. Here we examine how age affects perivascular adipose tissue (PVAT) and its paracrine activities during neointima formation. Aortic tissue and PVAT or primary aortic smooth muscle cells from male C57BL/6JRj mice aged 52 weeks (&#x201C;middle-aged&#x201D;) were compared to tissue or cells from mice aged 16 weeks (&#x201C;adult&#x201D;). Vascular injury was induced at the carotid artery using 10% ferric chloride. Carotid arteries from the middle-aged mice exhibited smooth muscle de-differentiation and elevated senescence marker expression, and vascular injury further aggravated media and adventitia thickening. Perivascular transplantation of PVAT had no effect on these parameters, but age-independently reduced neointima formation and lumen stenosis. Quantitative PCR analysis revealed a blunted increase in senescence-associated proinflammatory changes in perivascular tissue compared to visceral adipose tissue and higher expression of mediators attenuating neointima formation. Elevated levels of protein inhibitor of activated STAT1 (PIAS1) and lower expression of STAT1- or NF&#x3BA;B-regulated genes involved in adipocyte differentiation, inflammation, and apoptosis/senescence were present in mouse PVAT, whereas PIAS1 was reduced in the PVAT of patients with atherosclerotic vessel disease. Our findings suggest that age affects adipose tissue and its paracrine vascular activities in a depot-specific manner. PIAS1 may mediate the age-independent vasculoprotective effects of perivascular fat.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>aging</kwd>
+        <kwd>atherosclerosis</kwd>
+        <kwd>neointima formation</kwd>
+        <kwd>perivascular adipose tissue</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00282" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The importance of age as a cardiovascular risk factor is well established: epidemiological and clinical studies have shown that age is associated with increased cardiovascular mortality and risk of coronary heart disease, stroke, and death after myocardial infarction [<xref ref-type="bibr" rid="B1-ijms-21-00282">1</xref>]. Age also increases the risk of developing restenosis, an important complication of intravascular revascularization procedures [<xref ref-type="bibr" rid="B2-ijms-21-00282">2</xref>]. Elderly patients undergoing percutaneous coronary intervention not only exhibit more extensive and complex coronary arteriosclerosis [<xref ref-type="bibr" rid="B3-ijms-21-00282">3</xref>], but large database analyses have revealed older age as one of the strongest predictors of acute complications and post-procedural outcome [<xref ref-type="bibr" rid="B4-ijms-21-00282">4</xref>]. In addition, angiographic follow-up examinations have demonstrated significantly higher restenosis rates in elderly versus younger patients [<xref ref-type="bibr" rid="B5-ijms-21-00282">5</xref>].</p>
+      <p>Regarding the underlying mechanisms, preclinical studies on the effects of age on the vascular response to injury have yielded inconsistent results: an increased neointima formation was reported in older rats [<xref ref-type="bibr" rid="B6-ijms-21-00282">6</xref>,<xref ref-type="bibr" rid="B7-ijms-21-00282">7</xref>] and mice [<xref ref-type="bibr" rid="B8-ijms-21-00282">8</xref>], whereas injury was found to induce intimal thickening in young but not in older animals [<xref ref-type="bibr" rid="B9-ijms-21-00282">9</xref>]. The mediators of the cardiovascular effects of age on intimal hyperplasia are also incompletely understood: age-associated endothelial dysfunction with subsequent failure to limit smooth muscle cell (SMC) proliferation, chronic low-grade inflammation, as well as elevated oxidative stress, has been suggested to increase the vulnerability of vascular tissues to stress [<xref ref-type="bibr" rid="B10-ijms-21-00282">10</xref>]. Age-associated alterations of SMCs resulting in increased proliferative and migratory capacity [<xref ref-type="bibr" rid="B6-ijms-21-00282">6</xref>] and an enhanced response to growth factor stimulation [<xref ref-type="bibr" rid="B8-ijms-21-00282">8</xref>] may also play a role.</p>
+      <p>Experimental findings and clinical data suggest that vascular repair processes are modulated by the adventitia. The adventitia contains (myo)fibroblasts and SMC precursors that migrate towards the media and neointima following stimulation [<xref ref-type="bibr" rid="B11-ijms-21-00282">11</xref>], and immune cells are recruited to the vessel wall via perivascular blood vessels [<xref ref-type="bibr" rid="B12-ijms-21-00282">12</xref>]. Immediately adjacent to the adventitia of all larger arteries lies the perivascular adipose tissue (PVAT). Previous studies, including those by our group, have shown that cardiovascular risk factors alter the phenotype, composition, and function of PVAT, resulting in loss of its protective properties [<xref ref-type="bibr" rid="B13-ijms-21-00282">13</xref>,<xref ref-type="bibr" rid="B14-ijms-21-00282">14</xref>]. However, little is known about the impact of age on perivascular fat and whether and how it affects the response to vascular injury.</p>
+      <p>In this study, we examine age-associated alterations of different adipose tissue depots including perivascular fat and whether they contribute to vascular remodeling processes. We employ models of neointima formation in adult and middle-aged mice, murine preadipocyte differentiation in vitro and also investigate perivascular adipose tissue specimens from older patients with atherosclerotic vessel disease undergoing surgery.</p>
+    </sec>
+    <sec id="sec2-ijms-21-00282" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-21-00282">
+        <title>2.1. Middle-Aged Mice Exhibit Visceral Adiposity, Prediabetes, and Perivascular Adipocyte Hypertrophy</title>
+        <p>To examine the effect of age on the vascular wall including perivascular adipose tissue, male C57BL/6JRj WT mice aged 52 weeks (hereafter termed &#x201C;middle-aged&#x201D;; <italic>n</italic> = 20 mice) were compared to male C57BL/6JRj WT mice aged 16 weeks (&#x201C;adult&#x201D;; <italic>n</italic> = 20 mice). Aging was associated with increased mean body weight and visceral adiposity (<xref ref-type="table" rid="ijms-21-00282-t001">Table 1</xref>). PVAT could not be weighed, but morphometric analysis revealed a significantly increased mean single adipocyte area in middle-aged mice (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S1A</xref>), and similar findings were observed in VAT (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S1B</xref>) and BAT (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S1C</xref>). Representative H&amp;E-stained cross-sections are shown in <xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S1D</xref>. Analysis of metabolic serum parameters after overnight fast (<italic>n</italic> = 15 mice per group) revealed significantly elevated glucose levels in middle-aged mice (<xref ref-type="table" rid="ijms-21-00282-t001">Table 1</xref>). Serum leptin, insulin levels and the HOMA-IR index, or total, HDL and LDL cholesterol levels did not differ (<xref ref-type="table" rid="ijms-21-00282-t001">Table 1</xref>).</p>
+      </sec>
+      <sec id="sec2dot2-ijms-21-00282">
+        <title>2.2. Age is Associated with Smooth Muscle Cell Senescence and De-Differentiation</title>
+        <p>VES-MTC staining of cross-sections through the uninjured carotid artery of adult and middle-aged mice (<italic>n</italic> = 11 mice per group) revealed that aging was associated with an increased media (<xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>A), total vessel (<italic>p</italic> &lt; 0.05) and adventitia (<xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>B) area. H&amp;E staining showed a reduced cell density (<italic>p</italic> = 0.056; <xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>C) and a non-significant trend towards lower numbers of PCNA-positive, proliferating cells (6.2 &#xB1; 3.5% vs. 19.8 &#xB1; 10.9% of total cells, <italic>p</italic> = 0.176) in the media of middle-aged compared to adult mice, and the number of SMA-positive, differentiated SMCs was significantly reduced (<xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>D). Representative images after VES-MTC, H&amp;E, SMA, or PCNA staining are shown in <xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>E. Quantitative PCR analysis of mRNA isolated from the thoracic aorta (<italic>n</italic> = 4 mice per group) revealed that messenger RNA levels of cyclin D1 (<xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>F) in the arterial wall of middle-aged mice did not differ from those in adult mice, whereas mRNA levels of the senescence markers p16INK4A (<xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>G), p21Cip1 (<xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>H), and p53 (<xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>I) were found to be increased in aortas of middle-aged compared to adult mice. Caspase-1, a marker of inflammasome activation (<xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>J), and transforming growth factor-beta (TGF&#x3B2;; <xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>K) also were expressed at significantly higher levels. Of note, histochemical detection of senescence-associated &#x3B2;-galactosidase (SA-&#x3B2;-Gal) activity did not reveal positive cells in the uninjured carotid artery vessel wall of middle-aged mice, and Sudan black B staining also showed only a minimal increase in the presence of lipofuscin-containing cells (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S2</xref>). Analysis of primary SMCs revealed a significantly accelerated wound closure 24 h after scratch injury in those isolated from the aorta of middle-aged mice (<italic>n</italic> = 3) compared to those from adult mice (<italic>n</italic> = 5). The summary of the quantitative analysis is shown in <xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>L; representative findings in <xref ref-type="fig" rid="ijms-21-00282-f001">Figure 1</xref>M.</p>
+      </sec>
+      <sec id="sec2dot3-ijms-21-00282">
+        <title>2.3. Aging Aggravates Media Thickening and Outward Remodeling after Arterial Injury</title>
+        <p>Previous studies in mice and rats have examined the effects of age on neointima formation, with inconsistent results [<xref ref-type="bibr" rid="B6-ijms-21-00282">6</xref>,<xref ref-type="bibr" rid="B7-ijms-21-00282">7</xref>,<xref ref-type="bibr" rid="B8-ijms-21-00282">8</xref>,<xref ref-type="bibr" rid="B9-ijms-21-00282">9</xref>]. To determine how age and the age-associated changes of the vessel wall affect vascular remodeling processes in our model, adult and middle-aged mice were subjected to carotid artery injury using 10% ferric chloride (<italic>n</italic> = 9 mice per group). Age had no effect on the neointima area (<xref ref-type="fig" rid="ijms-21-00282-f002">Figure 2</xref>A) or the degree of lumen stenosis (<xref ref-type="fig" rid="ijms-21-00282-f002">Figure 2</xref>B), but further enhanced the above-mentioned existing differences in the media (<xref ref-type="fig" rid="ijms-21-00282-f002">Figure 2</xref>C), total vessel (<xref ref-type="fig" rid="ijms-21-00282-f002">Figure 2</xref>D), and adventitia (<xref ref-type="fig" rid="ijms-21-00282-f002">Figure 2</xref>E) area. Representative images of VES-stained cross-sections through uninjured, contralateral control carotid arteries and vascular lesions of adult and middle-aged mice are shown in <xref ref-type="fig" rid="ijms-21-00282-f002">Figure 2</xref>F.</p>
+      </sec>
+      <sec id="sec2dot4-ijms-21-00282">
+        <title>2.4. Transplantation of Perivascular Adipose Tissue Does Not Mimic the Vascular Aging Phenotype, but Age-Independently Reduces Neointima Formation and Lumen Stenosis</title>
+        <p>Previous studies employing visceral fat transplantation suggested that adipose tissue surrounding the arterial wall participates in the vascular remodeling response to injury [<xref ref-type="bibr" rid="B15-ijms-21-00282">15</xref>]. To determine the importance of age-associated changes of the adventitia and PVAT for neointima formation, an injury was induced in 12-week-old immune-incompetent NMRI nu/nu mice, immediately followed by transplantation of PVAT freshly removed from the thoracic aorta of adult (<italic>n</italic> = 9) or middle-aged (<italic>n</italic> = 8) donor mice to the site of vascular injury. PVAT surrounding the thoracic aorta was chosen as a substitute for carotid artery perivascular fat (which was not available in sufficient amounts) because of its anatomical proximity to the carotid artery, the similarity of their embryonic origin, and in order to avoid contamination with visceral fat. The mean age and body weight of the NMRI nu/nu host and C57BL/6J donor mice are given in <xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Table S1</xref>. Perivascular transplantation of PVAT after vascular injury did not significantly alter the media (<xref ref-type="fig" rid="ijms-21-00282-f003">Figure 3</xref>C) and total vessel (<xref ref-type="fig" rid="ijms-21-00282-f003">Figure 3</xref>D) area, i.e., the parameters found to be affected by age, compared to controls (<italic>n</italic> = 11 NMRI nu/nu mice not transplanted with PVAT). On the other hand, it significantly reduced the size of the neointima (<xref ref-type="fig" rid="ijms-21-00282-f003">Figure 3</xref>A) and the degree of lumen stenosis (<xref ref-type="fig" rid="ijms-21-00282-f003">Figure 3</xref>B), independent of the donor age. Representative findings of carotid arteries, including the transplanted aortic perivascular fat three weeks after injury, are shown in <xref ref-type="fig" rid="ijms-21-00282-f003">Figure 3</xref>E. These in vivo findings suggest that PVAT may exert age-independent protective effects, reducing neointima thickening and luminal stenosis.</p>
+      </sec>
+      <sec id="sec2dot5-ijms-21-00282">
+        <title>2.5. Differential Expression of Potential Mediators of Neointima Formation in Perivascular and Visceral Adipose Tissue</title>
+        <p>To identify potential candidate(s) mediating the protective effects of thoracic aorta PVAT during neointima formation, factors shown to affect vascular remodeling processes in a paracrine manner, or to be modulated by age, were examined using quantitative real-time PCR. Because VAT had been used for perivascular transplantation experiments in previous studies [<xref ref-type="bibr" rid="B14-ijms-21-00282">14</xref>,<xref ref-type="bibr" rid="B16-ijms-21-00282">16</xref>], findings in PVAT of adult and middle-aged mice were compared to those in their VAT. Messenger RNA levels of the senescence-associated secretory phenotype (SASP) markers IL1&#x3B1; (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>A), MIP1&#x3B1; (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>B), MMP3 (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>C), MMP10 (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>D), and TNF&#x3B1; (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>E) were significantly increased in VAT of middle-aged compared to adult mice, whereas their expression was unchanged in their PVAT. Absence of an age-associated increase was also observed for IL18 (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>F), an inflammatory cytokine shown to promote restenosis [<xref ref-type="bibr" rid="B17-ijms-21-00282">17</xref>]. On the other hand, mRNA levels of factors previously shown to reduce neointima formation, such as ACE2 [<xref ref-type="bibr" rid="B18-ijms-21-00282">18</xref>] (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>G), adiponectin [<xref ref-type="bibr" rid="B19-ijms-21-00282">19</xref>] (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>H), SIRT1 [<xref ref-type="bibr" rid="B20-ijms-21-00282">20</xref>] (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>I), IL10 [<xref ref-type="bibr" rid="B21-ijms-21-00282">21</xref>] (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>J), or TGF&#x3B2; [<xref ref-type="bibr" rid="B22-ijms-21-00282">22</xref>] (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>K), increased significantly with age only in PVAT. Although mRNA levels of MCP1, produced in (perivascular) adipose tissue and shown to promote neointima formation in a paracrine manner [<xref ref-type="bibr" rid="B23-ijms-21-00282">23</xref>], did not differ (not shown), significantly increased mRNA levels of MMP12, involved in the generation of antagonists of MCP1 and other chemokines [<xref ref-type="bibr" rid="B24-ijms-21-00282">24</xref>], were observed in PVAT of middle-aged mice compared to adult mice (<xref ref-type="fig" rid="ijms-21-00282-f004">Figure 4</xref>L). The absence of a SASP response in PVAT of middle-aged mice and higher expression of protective factors may explain why its transplantation reduced neointima formation and lumen stenosis in the underlying vessel.</p>
+      </sec>
+      <sec id="sec2dot6-ijms-21-00282">
+        <title>2.6. Increased Expression of PIAS1 May Mediate the Anti-Inflammatory Expression Profile of Perivascular Fat</title>
+        <p>Several of the mediators found to be differentially expressed in PVAT and VAT are regulated by NF&#x3BA;B and/or STAT transcription factors. A common regulator and potent suppressor of both STAT1 transcriptional activity [<xref ref-type="bibr" rid="B25-ijms-21-00282">25</xref>] and NF&#x3BA;B [<xref ref-type="bibr" rid="B26-ijms-21-00282">26</xref>] signaling expressed in adipocytes is the protein inhibitor of activated STAT1 (PIAS1). To begin to examine the possibility that differences in PIAS1 may underlie the blunted inflammatory marker expression observed in PVAT, a Western blot analysis was performed, revealing significantly elevated protein levels of PIAS1 in PVAT compared to VAT (<xref ref-type="fig" rid="ijms-21-00282-f005">Figure 5</xref>A,B). A lower protein expression of SOCS1 indicated reduced STAT1 activation (<xref ref-type="fig" rid="ijms-21-00282-f005">Figure 5</xref>A,C), and reduced levels of MyD88 reduced NF&#x3BA;B signaling (<xref ref-type="fig" rid="ijms-21-00282-f005">Figure 5</xref>D,E). Expression of the tumor suppressor and senescence mediator p53 also was lower in PVAT (<xref ref-type="fig" rid="ijms-21-00282-f005">Figure 5</xref>D,F), in line with the PIAS1 function as an E3 SUMO ligase repressing p53 activity [<xref ref-type="bibr" rid="B27-ijms-21-00282">27</xref>]. SiRNA-mediated downregulation of PIAS1 in murine 3T3L1 adipocytes increased the expression of SOCS1, MyD88, and p53 protein (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S3A&#x2013;D</xref>), supporting a causal role of PIAS1 in the differential expression of NF&#x3BA;B- and STAT-regulated genes in PVAT and VAT of mice.</p>
+      </sec>
+      <sec id="sec2dot7-ijms-21-00282">
+        <title>2.7. Differences in Adipocyte Differentiation May Underlie Higher PIAS1 Expression in PVAT</title>
+        <p>STAT1 is involved, among others, in the transcriptional control of adipocyte differentiation [<xref ref-type="bibr" rid="B28-ijms-21-00282">28</xref>]. To begin to study the mechanisms underlying the differential expression of PIAS1 in mouse VAT and PVAT, murine 3T3L1 preadipocytes were examined at baseline and at different time points after induction of adipogenesis. Adipogenic differentiation was verified morphologically and by Oil red O staining (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S4A,B</xref>) and increased expression of perilipin (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S4C,D</xref>). PIAS1 protein expression was highest in 3T3L1 preadipocytes and gradually decreased with adipogenic differentiation (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S5A,B</xref>). In parallel with the reduced expression of PIAS1, increased mRNA levels of STAT1 (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S6A</xref>) and STAT1-regulated genes involved in adipocyte differentiation, such as leptin (Lep; <xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S6B</xref>), sirtuin-1 (Sirt1; <xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S6C</xref>) or lipocalin-2 (Lcn2; <xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S6D</xref>), were observed. In line with our observation of increased PIAS1 levels in murine PVAT in vivo and preadipocytes in vitro, the preadipocyte marker PREF1 was expressed at higher levels in PVAT of adult and middle-aged mice compared to their VAT, whereas protein levels of the mature adipocyte marker perilipin-1 and the adipokine leptin (were lower in PVAT compared to VAT (representative Western blot membrane shown in <xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S7A</xref>). Findings were confirmed on the gene expression level showing significantly increased Pref1 (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S7B</xref>) and reduced leptin (<xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Figure S7C</xref>) mRNA levels in PVAT compared to VAT.</p>
+      </sec>
+      <sec id="sec2dot8-ijms-21-00282">
+        <title>2.8. Reduced PIAS Levels in Human Perivascular Adipose Tissue Surrounding Atherosclerotic Vessels</title>
+        <p>Loss of protective properties and proinflammatory changes in PVAT may contribute to the progression of vascular disease [<xref ref-type="bibr" rid="B15-ijms-21-00282">15</xref>]. To begin to translate our observations in mice to human pathologies, PVAT and VAT were obtained from patients with atherosclerotic vessel disease (a manifestation of vascular aging) and examined for the expression of PIAS1. Patients with abdominal aortic aneurysm (AAA) were chosen for these analyses because they provide the opportunity to obtain both visceral and periaortic adipose tissue during a single surgical intervention (laparotomy) and to compare them within the same individual. Opposite to our findings in atheroprotective PVAT of mice, reduced PIAS1 protein levels (as determined by ELISA to determine absolute protein amounts) were observed in PVAT surrounding the diseased human abdominal aorta compared to their VAT (<xref ref-type="fig" rid="ijms-21-00282-f006">Figure 6</xref>A). Significantly reduced PIAS1 levels were also observed in PVAT surrounding the aortic root and coronary arteries of patients with coronary artery disease compared to PVAT surrounding the internal mammary artery (IMA), a vessel largely protected from arteriosclerosis [<xref ref-type="bibr" rid="B29-ijms-21-00282">29</xref>] (<xref ref-type="fig" rid="ijms-21-00282-f006">Figure 6</xref>B). Also in PVAT of patients with aortic stenosis, PIAS1 protein levels were found to be expressed at significantly lower levels compared to their epicardial adipose tissue (EAT; <xref ref-type="fig" rid="ijms-21-00282-f006">Figure 6</xref>C), and the PIAS1 immunosignal could be localized, among other cells, to adipocytes (<xref ref-type="fig" rid="ijms-21-00282-f006">Figure 6</xref>D). Although these observations in humans with the atherosclerotic disease cannot prove causality, they support our findings in mice and suggest that reduced expression of PIAS1 may participate in age-associated vascular disease processes.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-ijms-21-00282" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>Studies in humans and animal models have examined the effects of age on vessel walls and found it to be associated with distinct phenotypical changes. We now sought to extend those previous findings by examining the impact of age on perivascular adipose tissue and its paracrine activities during the vascular remodeling response to injury. Although we observed an age-associated enlargement of the adventitia and perivascular adipocyte hypertrophy, transplantation of PVAT around the injured murine carotid artery was found to reduce neointima formation independent of the mouse donor age. In this regard, molecular analyses suggested specific &#x201C;protective&#x201D; alterations in murine PVAT with age, which were distinct from changes in visceral fat and may have contributed to the observed reduced neointima formation following its transplantation around the injured murine carotid artery. Specifically, potentially proatherogenic changes present in VAT, such as increased expression of TNF&#x3B1;, IL1&#x3B1;, MIP1&#x3B1;, MMP3, or MMP10 with age, were absent in thoracic PVAT, whereas the expression of potential mediators involved in atheroprotection, such as adiponectin, MMP12, or IL10, were expressed at significantly higher levels in aged PVAT compared to aged VAT. Independent of age, higher expression of PIAS1 (a key negative regulator of inflammation) but also adipocyte differentiation was observed in PVAT compared to VAT, whereas PIAS1 protein levels were reduced in PVAT of patients with atherosclerotic aortic aneurysms, coronary artery disease, or aortic stenosis. These findings suggest differential, depot-specific effects of age on adipose tissue and its paracrine activities on the vessel wall, and also support a critical role of PIAS1 in controlling perivascular adipose tissue differentiation and inflammatory and atherogenic marker expression.</p>
+      <p>Age-associated alterations of the vasculature may render the cardiovascular system susceptible to disease, even in the absence of additional risk factors. In this study, middle-aged mice exhibited a significantly larger carotid media and total vessel area compared to younger mice, and these differences became even more pronounced following vascular injury. Previous studies using rats or mice 18 months or older have examined the effect of age on the response to arterial injury, however, with inconsistent results [<xref ref-type="bibr" rid="B6-ijms-21-00282">6</xref>,<xref ref-type="bibr" rid="B8-ijms-21-00282">8</xref>,<xref ref-type="bibr" rid="B9-ijms-21-00282">9</xref>]. Interestingly, transplantation of aortic grafts from old rats into young recipients resulted in greater neointima formation [<xref ref-type="bibr" rid="B6-ijms-21-00282">6</xref>]. Others found young aortas develop thicker neointimas when transplanted into old recipients, whereas the opposite was observed after transplantation of old aortas in young recipients [<xref ref-type="bibr" rid="B30-ijms-21-00282">30</xref>]. Our finding that transplantation of PVAT did not mimic the effects of age on neointima formation may be interpreted as pointing to a predominant role of the vessel wall itself, or systemic factors, in response to injury with age.</p>
+      <p>Neointima formation following vascular injury is the result of the migration and proliferation of vascular SMCs from the media and the adventitia, and aging was found to accelerate and prolong the proliferative capacity of SMCs [<xref ref-type="bibr" rid="B31-ijms-21-00282">31</xref>]. Increased TGF&#x3B2; activation [<xref ref-type="bibr" rid="B32-ijms-21-00282">32</xref>] or PDGF receptor expression and a stronger response to PDGF stimulation compared to young SMCs [<xref ref-type="bibr" rid="B8-ijms-21-00282">8</xref>] have been identified as potential mechanisms. Others found either no increase in the growth capacity of vascular SMCs with age [<xref ref-type="bibr" rid="B33-ijms-21-00282">33</xref>] or reduced proliferation of SMCs isolated from arteries of old rats and increased apoptotic cell death after balloon injury [<xref ref-type="bibr" rid="B34-ijms-21-00282">34</xref>]. In our study, markers of cell proliferation, such as PCNA or Ccnd1, did not differ, whereas factors associated with senescence, such as p21Cip1 or p53, were expressed at significantly higher levels in the aorta of middle-aged compared to adult mice. Of note, SA-&#x3B2;-Gal activity or lipofuscin deposits were not detected in the carotid artery of middle-aged mice. Previous studies reported that SMCs from aged human vessels or advanced atherosclerotic plaques express senescence markers in culture and exhibit prolonged population doubling times [<xref ref-type="bibr" rid="B35-ijms-21-00282">35</xref>,<xref ref-type="bibr" rid="B36-ijms-21-00282">36</xref>].</p>
+      <p>Although senescent cells are incapable of dividing, they continue to be metabolically active. In fact, senescent cells have been shown to release increased amounts of proinflammatory mediators, collectively known as SASP [<xref ref-type="bibr" rid="B37-ijms-21-00282">37</xref>], which may affect neighboring cells. For example, cell lysates from old SMCs were found to stimulate target cell proliferation to a greater extent than lysates from young SMCs, and this effect could be blocked by antibodies against PDGF [<xref ref-type="bibr" rid="B38-ijms-21-00282">38</xref>]. Aged SMCs isolated from non-human primates secreted significantly increased amounts of IL1&#x3B2;, MCP1, and TNF&#x3B1; compared to &#x201C;young&#x201D; control cells [<xref ref-type="bibr" rid="B39-ijms-21-00282">39</xref>]. The enhanced SMC proliferation and migration and more pronounced neointima formation observed clinically and experimentally with age, also in our study, could, therefore, be the result of SMC senescence and paracrine stimulation of non-senescent cells.</p>
+      <p>Signals from the outer layer of the vessel wall also may affect SMC behavior. Neointima formation involves the migration of (myo)fibroblasts from the adventitia towards the neointima [<xref ref-type="bibr" rid="B11-ijms-21-00282">11</xref>] and removal of the adventitia increased neointima formation [<xref ref-type="bibr" rid="B40-ijms-21-00282">40</xref>]. The latter could be prevented by transplantation of subcutaneous adipose tissue from lean, but not from diet-induced obese mice or transplantation of visceral fat [<xref ref-type="bibr" rid="B16-ijms-21-00282">16</xref>], suggesting that perivascular adipose tissue exerts protective effects that are lost upon exposure to risk factors. We and others have shown that diet-induced obesity enhances adventitial inflammation and that transplantation of visceral fat from obese mice promotes luminal stenosis [<xref ref-type="bibr" rid="B13-ijms-21-00282">13</xref>,<xref ref-type="bibr" rid="B14-ijms-21-00282">14</xref>,<xref ref-type="bibr" rid="B16-ijms-21-00282">16</xref>]. Increased expression of leptin, MCP1, or TNF&#x3B1; and reduced levels of adiponectin could be identified as potential mediators underlying the neointima-promoting effects of obese perivascular fat [<xref ref-type="bibr" rid="B14-ijms-21-00282">14</xref>,<xref ref-type="bibr" rid="B23-ijms-21-00282">23</xref>,<xref ref-type="bibr" rid="B41-ijms-21-00282">41</xref>]. Of note, visceral or subcutaneous fat was transplanted in these previous studies, which differs from local perivascular adipose tissue in several aspects [<xref ref-type="bibr" rid="B42-ijms-21-00282">42</xref>]. In the present study, transplantation of PVAT obtained from the thoracic aorta of middle-aged donor mice did not promote neointima formation and also did not phenocopy the effects of age on this process. Of note, immunoincompetent nu/nu mice lacking mature CD4+ cells were used in the transplantation experiments, and differences in perivascular T cell accumulation compared to wild-type mice may have affected the vascular response to injury [<xref ref-type="bibr" rid="B43-ijms-21-00282">43</xref>]. Regarding specific paracrine mediators, TNF&#x3B1; increased only in VAT but not in PVAT obtained from middle-aged mice, and aging did not alter the expression of MCP1, neither in VAT nor PVAT, whereas the perivascular expression of presumably protective mediators, such as adiponectin [<xref ref-type="bibr" rid="B16-ijms-21-00282">16</xref>], increased with age. Although the absence of age-dependent effects of PVAT transplantation on neointima formation suggests that these paracrine mediators are not important, global changes in expression patterns and the interplay of mediators may be more relevant than alterations of a single factor. The age-dependent increase of other proinflammatory mediators secreted from senescent cells, such as IL1&#x3B1;, MIP1&#x3B1;, and MMP10, was also absent or blunted in thoracic PVAT compared to VAT isolated from the same mice, suggesting that PVAT (at least that surrounding the thoracic aorta) is protected from age-associated detrimental changes in gene expression patterns. A previous study reported an increased expression of inflammatory markers, including TNF&#x3B1; and MIP1&#x3B1;, in PVAT of middle-aged mice; however, only in those with diet-induced obesity [<xref ref-type="bibr" rid="B44-ijms-21-00282">44</xref>].</p>
+      <p>Whereas a number of studies examined the impact of obesity on perivascular adipose tissue, only a few have looked into the effects of age on the morphology and paracrine activities of the adventitia, including perivascular adipose tissue. For example, aging and diet-induced obesity enhanced the ability of periaortic fat from WKY rats to stimulate human SMC proliferation in a paracrine manner [<xref ref-type="bibr" rid="B45-ijms-21-00282">45</xref>]. Inflammatory factors secreted from PVAT of obese aged mice promoted oxidative and proinflammatory phenotypic alterations in the vascular wall of young control mice [<xref ref-type="bibr" rid="B44-ijms-21-00282">44</xref>,<xref ref-type="bibr" rid="B45-ijms-21-00282">45</xref>]. We now extend those previous findings by showing the functional consequences in terms of neointima formation. We found that transplantation of PVAT harvested from the murine thoracic aorta of both adult and middle-aged mice reduced neointima area and lumen stenosis in host mice, suggesting that thoracic PVAT exerts age-independent protective effects.</p>
+      <p>Cytokine stimulation induces tyrosine phosphorylation of STAT1, a transcription factor involved in inflammation, but also adipocyte differentiation [<xref ref-type="bibr" rid="B28-ijms-21-00282">28</xref>]. Overactivation of STAT1 is counterregulated by PIAS1, which interacts with STAT1 dimers to block DNA binding and STAT1-mediated gene activation [<xref ref-type="bibr" rid="B25-ijms-21-00282">25</xref>]. PIAS1 also negatively regulates NFkB signaling [<xref ref-type="bibr" rid="B26-ijms-21-00282">26</xref>], and thus represents a key nodal negative regulator of inflammatory signaling. The observed higher expression of PIAS1 in PVAT surrounding the thoracic aorta of adult and aged may explain the observed blunted expression of proinflammatory markers in this fat depot and age-independent reduction in neointima formation, whereas PIAS1 expression was reduced in PVAT of patients with atherosclerotic vessel disease. A previous study has shown that PIAS1 is downregulated in white adipose tissue of mice with prediabetes, whereas overexpression of PIAS improved insulin sensitivity and visceral adipose tissue inflammation [<xref ref-type="bibr" rid="B46-ijms-21-00282">46</xref>]. With regard to vascular disease, PIAS1-mediated sumoylation of RunX2 or ERK5 and p53 has been implicated in the reversal of vascular calcification [<xref ref-type="bibr" rid="B47-ijms-21-00282">47</xref>] or endothelial dysfunction [<xref ref-type="bibr" rid="B48-ijms-21-00282">48</xref>,<xref ref-type="bibr" rid="B49-ijms-21-00282">49</xref>], respectively. Of note, global PIAS1 deficiency in mice is associated with increased perinatal mortality and reduced body weights [<xref ref-type="bibr" rid="B50-ijms-21-00282">50</xref>,<xref ref-type="bibr" rid="B51-ijms-21-00282">51</xref>], and the effects of perivascular transplantation of adipose tissues from those animals could not be examined.</p>
+    </sec>
+    <sec id="sec4-ijms-21-00282">
+      <title>4. Materials and Methods</title>
+      <sec id="sec4dot1-ijms-21-00282">
+        <title>4.1. Animals</title>
+        <p>C57BL/6JRj wild-type (WT) mice were from JANVIER LABS and housed at a constant temperature of 21 &#xB0;C at a 12-h light/dark cycle. Mice were fed normal rodent chow (NC; 9% of energy from fat; Ssniff Spezialdi&#xE4;ten GmbH) for 8 weeks until the age of 16 weeks (&#x201C;adult&#x201D;) or 52 weeks (&#x201C;middle-aged&#x201D;). In one set of mice (<italic>n</italic> = 20 adult and <italic>n</italic> = 20 middle-aged mice), whole blood, adipose and vascular tissues were harvested for histological or protein and RNA analysis, respectively. In a second set of mice (<italic>n</italic> = 9 adult and <italic>n</italic> = 9 middle-aged mice), vascular injury was induced. Immunodeficient NMRI nu/nu mice (NMRI-Foxn1nu/Foxn1nu; The Jackson Laboratory) were used as recipients in PVAT transplantation experiments. Only male mice were examined throughout the entire study to avoid estrogen cycle dependent effects. All animal experiments had been approved by the institutional Animal Research Committee (Landesuntersuchungsamt Rheinland-Pfalz, 23 177-07/G13-081-1; 16/10/2013), and all animal procedures conformed to the guidelines from Directive 2010/63/EU (22 September 2010) of the European Parliament on the protection of animals used for scientific purposes. Euthanasia was performed in anesthetized mice by cervical dislocation.</p>
+      </sec>
+      <sec id="sec4dot2-ijms-21-00282">
+        <title>4.2. Serum Analysis</title>
+        <p>Whole blood was collected by cardiac puncture from mice after an overnight fast (from 5 p.m. to 8 a.m. with drinking water ad libidum). Mice were anesthetized by intraperitoneal injection of 2% xylazine (Bayer; 6 mg/kg body weight) and 10% ketamine hydrochloride (Hameln Pharma plus; 100 mg/kg body weight). Serum was obtained by centrifugation (3000 rpm for 10 min) and stored at &#x2212;80 &#xB0;C. Fasting glucose and cholesterol (LDL, HDL, and total) levels were measured using colorimetric assays (BioAssay Systems, Hayward, CA, USA), fasting insulin (Crystal Chem, Zaandam, Netherlands) and leptin (R&amp;D Systems Inc., Abingdon, UK) levels using enzyme-linked immunoassays. The HOMA-IR (homeostasis model assessment of insulin resistance) index was calculated using the formula: fasting insulin (&#xB5;IU/mL) * fasting glucose (mg/dL)/405.</p>
+      </sec>
+      <sec id="sec4dot3-ijms-21-00282">
+        <title>4.3. Vascular Tissue Harvest and Characterization</title>
+        <p>Vascular tissues (carotid artery, aorta) were harvested from anesthetized mice and either fixed in 4% zinc formalin (Sigma-Aldrich,St. Louis, MO, USA) and embedded in paraffin (Surgipath<sup>&#xAE;</sup> Paraplast; Leica Biosystems Inc., Buffalo Grove, IL, USA) or in 4% paraformaldehyde (Sigma-Aldrich) followed by 30% and 15% sucrose and embedded in Tissue-Tek<sup>&#xAE;</sup> O.C.T. compound (Sakura via Science Services GmbH, Munich, Germany). Sections were stained with hematoxyline and eosin (H&amp;E) to visualize cell nuclei (blue-black), with Verhoeff&#x2019;s Elastica stain (VES) to visualize elastic fibers (black) or with a combined Masson Trichrome (MTC)&#x2013;VES stain to visualize muscle fibers (red) and extracellular matrix (blue). Senescent cells were visualized using a kit to detect SA-&#x3B2;-Gal activity (Abcam) or sudan black B (Sigma; 0.1% in 70% ethanol) to detect the accumulation of lipofuscins, according to [<xref ref-type="bibr" rid="B52-ijms-21-00282">52</xref>].</p>
+      </sec>
+      <sec id="sec4dot4-ijms-21-00282">
+        <title>4.4. Adipose Tissue Harvest and Characterization</title>
+        <p>Visceral (perigonadal) adipose tissue (VAT), brown (interscapular) adipose tissue (BAT) and PVAT surrounding the thoracic aorta were excised from anesthetized mice. Of each sample, one half was fixed in 4% zinc formalin and embedded in paraffin. Five &#xB5;m-thick serial cross sections were stained with H&amp;E and the single adipocyte area was determined using an Olympus BX51 microscope and image analysis software (Image-Pro Plus, version 7.0; Media Cybernetics Inc., Abingdon. UK). At least 10 adipocytes per microscope field (<italic>n</italic> = 3 per fat depot) and mouse (<italic>n</italic> = 3 per age group) were evaluated and the results averaged. The other half of the sample was transferred to TRI Reagent<sup>&#xAE;</sup> Solution (Invitrogen, Waltham, MA, USA) and stored at &#x2212;80 &#xB0;C pending RNA or protein isolation.</p>
+      </sec>
+      <sec id="sec4dot5-ijms-21-00282">
+        <title>4.5. Carotid Artery INJURY</title>
+        <p>Mice were anesthetized by intraperitoneal injection of 2% xylazine/10% ketamine hydrochloride. Metamizole (ratiopharm, Ulm, Germany) was added to the drinking water (at a concentration of 2 mg/mL) for three days as analgetic. Carotid artery injury and neointima formation were induced using 10% ferric chloride (FeCl<sub>3</sub>) [<xref ref-type="bibr" rid="B14-ijms-21-00282">14</xref>,<xref ref-type="bibr" rid="B53-ijms-21-00282">53</xref>].</p>
+      </sec>
+      <sec id="sec4dot6-ijms-21-00282">
+        <title>4.6. Perivascular Adipose Tissue Harvest and Transplantation</title>
+        <p>To obtain vital adipose tissue for subsequent perivascular transplantation, WT adult or middle-aged donor mice were anesthetized by intraperitoneal injection of 2% xylazine/10% ketamine hydrochloride. The PVAT surrounding the thoracic aorta was carefully removed, transferred into 0.9% sterile saline solution, and placed on ice. Immediately following vascular injury, PVAT freshly harvested from one donor was placed around the injured carotid artery of an immunodeficient NMRI nu/nu host.</p>
+      </sec>
+      <sec id="sec4dot7-ijms-21-00282">
+        <title>4.7. Morphometry of Neointima Formation</title>
+        <p>Three weeks after vascular injury, mice were anesthetized and killed by perfusion with 4% zinc formalin fixative over the left ventricle. The injured (left) and uninjured (right) carotid artery were harvested, postfixed in zinc formalin and embedded in paraffin. Serial cross sections were stained with VES. The area of the neointima, media, adventitia and total vessel, and the degree of luminal stenosis were determined using Image-Pro Plus. The degree of luminal stenosis was calculated using the formula 100-A/B * 100, where A represents the area of the free vascular lumen and B the area encircled by the internal elastic lamina. At least three sections equally spaced through the injured arterial segment were evaluated and the results averaged per mouse.</p>
+      </sec>
+      <sec id="sec4dot8-ijms-21-00282">
+        <title>4.8. Immunohistochemistry</title>
+        <p>Following deparaffinization through a series of graded alcohols, endogenous peroxidase activity was quenched in 3% H<sub>2</sub>O<sub>2</sub> (in methanol; Carl Roth GmbH + Co. KG, Karlsruhe, Germany). Unspecific antigen-binding sites were blocked using 10% normal serum (in PBS; Abcam, Cambridge, UK), endogenous biotin was inhibited using the Avidin/Biotin Blocking kit (Vector Laboratories, Burlingame, CA, USA) followed by heat-induced epitope retrieval (0.01 M citrate buffer, pH 6.0; 800 W for 6 min). Sections were incubated overnight at 4 &#xB0;C with antibodies directed against proliferating cell nuclear antigen (PCNA; Abcam), protein inhibitor of activated STAT1 (PIAS1; Abcam) or smooth muscle &#x3B1;-actin (SMA; Sigma). The next day, sections were incubated with secondary antibody (Molecular Probes Inc., Eugene, OR, USA), preformed avidin&#x2013;biotin complexes (Vector Laboratories) and the peroxidase substrate 3-amino-9-ethylcarbazole (for PIAS and SMA) or 3, 3 -diaminobenzidine (for PCNA) (both Vector Laboratories) until color development. Sections were briefly counterstained with Gill&#x2019;s hematoxyline (Sigma), mounted in ImmuMount (ThermoScientific, Waltham, MA, USA) and photographed (Olympus BX51 microscope, Olympus Europa SE &amp; Co. KG, Hamburg, Germany).</p>
+      </sec>
+      <sec id="sec4dot9-ijms-21-00282">
+        <title>4.9. Isolation and Analysis of Primary Smooth Muscle Cells</title>
+        <p>Primary murine SMCs were isolated from the thoracic aorta of adult and middle-aged mice, as described [<xref ref-type="bibr" rid="B15-ijms-21-00282">15</xref>], and cultivated in DMEM/F12 Glutamax medium (Gibco by Life Technologies, Waltham, MA, USA) containing 10% fetal bovine serum (FBS, Gibco), 100 U/mL penicillin, 100 &#x3BC;g/mL streptomycin and 100 &#x3BC;M ascorbic acid. Experiments were performed in cells between passage 3 and 7. To examine SMC migration, the scratch-wound assay was employed [<xref ref-type="bibr" rid="B53-ijms-21-00282">53</xref>].</p>
+      </sec>
+      <sec id="sec4dot10-ijms-21-00282">
+        <title>4.10. Adipogenic Differentiation and Analysis of Murine 3T3L1 Fibroblasts</title>
+        <p>Murine 3T3-L1 fibroblasts (ATCC<sup>&#xAE;</sup>, Manassas, VA, USA) were cultured in Dulbecco&#x2019;s modified Eagle&#x2019;s medium (DMEM; Gibco) supplemented with 10% FBS (Life Technologies, Waltham, MA, USA) and penicillin/streptomycin (Gibco). Cells were grown to confluency and differentiated into adipocytes using adipogenic medium supplemented with 0.5 mM methyl-isobutyl-xanthine (Sigma-Aldrich, company, city, country), 1 &#xB5;M dexamethasone (Sigma-Aldrich), 10 &#xB5;M insulin (Sigma-Aldrich), and 100 &#xB5;M indomethacin (Sigma-Aldrich). After cultivation for 3 days, cells were switched to DMEM containing 10 &#x3BC;M insulin for 1 day (one cycle). Preadipocytes were transfected with 60 pmol of mouse PIAS1 siRNA (sc-36220) or control siRNA, either as fluorescein conjugate (sc-36869) or unconjugated (sc-37007; all Santa Cruz Biotechnology, Santa Cruz, CA, USA) using lipofectamine<sup>&#xAE;</sup> RNAiMAX transfection reagent (Thermo Fisher Scientific; Waltham, MA, USA) and analyzed 48 h later. Cells were fixed in 10% formaldehyde solution (Roth), stained with 0.5% Oil red O (Sigma) and examined under an inverted light microscope (Motic AE31, Motic, Wetzlar, Germany).</p>
+      </sec>
+      <sec id="sec4dot11-ijms-21-00282">
+        <title>4.11. RNA Isolation and PCR Analysis</title>
+        <p>Total RNA from murine adipose tissue was isolated using TRI Reagent<sup>&#xAE;</sup> solution. The concentration and quality of the isolated RNA was checked by spectrophotometry before being reverse transcribed into cDNA using M-MLV reverse transcriptase (Promega Corporation, Madison, WI, USA). Quantitative real-time RT-PCR (qRT-PCR) was performed using SYBR<sup>&#xAE;</sup> Green (BioRad Laboratories, Hercules, CA, USA) and the real-time PCR StepOnePlus&#x2122; (Applied Biosystems, Foster City, CA, USA) system. Results were quantified using the &#x394;&#x394;Ct method with the reference genes &#x3B2;-actin (ACTA; for aortic tissue) or ribosomal protein lateral stalk subunit P0 (RPLP0; for adipose tissue) for normalization. Primer sequences are listed in <xref ref-type="app" rid="app1-ijms-21-00282">Supplemental Table S2</xref>.</p>
+      </sec>
+      <sec id="sec4dot12-ijms-21-00282">
+        <title>4.12. Protein Isolation and Western Blot Analysis</title>
+        <p>Murine adipose tissue homogenates were lysed in RIPA buffer (Cell Signaling Technology, Danvers, MA, USA) containing 1 mM phenylmethanesulfonyl fluoride (Cell Signaling Technology). Equal amounts of protein were fractionated by SDS polyacrylamide gel electrophoresis and transferred to nitrocellulose membranes (Whatman GmbH, Dassel, Germany). Membranes were blocked in 5% BSA (in TBS/0.1% Tween-20) followed by incubation with antibodies against leptin (abcam), myeloid differentiation primary response protein-88 (MyD88; abcam), p53 (Santa Cruz Biotechnology), perilipin (PLIN; Cell Signaling Technology), PIAS1 (Cell Signaling Technology), preadipocyte factor-1 (PREF1; Thermo Fisher Scientific), or suppressor of cytokine signaling-1 (SOCS1; Novus Biologicals, Centennial, CO, USA). Antibodies against glyceraldehyde-3-phosphate dehydrogenase (GAPDH; Hy Test Ltd., Turku, Finland) were used to show total protein loading. Protein bands were visualized using horseradish peroxidase-conjugated secondary antibodies (Amersham Biosciences, Chalfont St. Giles, UK) and detected with enhanced chemiluminescence substrate (Pierce Manufacturing, Appleton, WI, USA).</p>
+      </sec>
+      <sec id="sec4dot13-ijms-21-00282">
+        <title>4.13. Human (Perivascular) Adipose Tissue Samples</title>
+        <p>Sixteen patients (100% male, mean age, 69.8 &#xB1; 2.2 years) undergoing surgical repair of an abdominal aortic aneurysm (AAA), 10 patients (80% male, mean age, 67.0 &#xB1; 2.3 years) with coronary artery disease (CAD) undergoing coronary artery bypass graft surgery, and 9 patients (56% male, mean age, 66.7 &#xB1; 10.9 years) with aortic valve stenosis undergoing surgical replacement were included in the study. The study complied with the declaration of Helsinki and was approved by the Ethics Committee of the University General Hospital of Alexandroupolis, Greece. All patients provided written informed consent prior to study inclusion. PVAT was collected perioperatively and immediately transferred to ice-cold saline solution.</p>
+      </sec>
+      <sec id="sec4dot14-ijms-21-00282">
+        <title>4.14. Enzyme-Linked Immunosorbent Assay</title>
+        <p>The amount of PIAS1 protein expressed in human adipose tissue protein lysates was quantified using an ELISA kit (Elabscience Biotechnology Inc., Houston, TX, USA), following the manufacturer&#x2019;s instructions. Tissues were lysed in 1X RIPA buffer (Cell Signaling Technology) containing 1X protease and phosphatase inhibitor cocktail (Thermo Fisher Scientific). A standard amount of total protein (100 &#x3BC;g in 100 &#x3BC;L) was loaded into each well. Results are expressed per mg total adipose tissue protein.</p>
+      </sec>
+      <sec id="sec4dot15-ijms-21-00282">
+        <title>4.15. Statistical Analysis</title>
+        <p>Quantitative data are reported as mean &#xB1; standard deviation (SD). Normal distribution was examined using the D&#x2019;Agostino &amp; Pearson omnibus normality test. Two groups were compared using Student&#x2019;s <italic>t</italic>-test if normal distribution was present. If not or if sample size was below <italic>n</italic> = 5, a nonparametric Mann&#x2013;Whitney test was used. If more than two groups were compared, the one-way analysis of variance (ANOVA) test followed by Sidak&#x2019;s multiple comparison test or the Kruskall&#x2013;Wallis test followed by Dunn&#x2019;s multiple comparison testing were performed. Paired analysis was employed to compare findings in different adipose tissues from the same patient. All analyses were performed using GraphPad PRISM data analysis software (version 7.0 for Windows; GraphPad Software Inc., San Diego, CA, USA).</p>
+      </sec>
+    </sec>
+    <sec id="sec5-ijms-21-00282" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>In conclusion, our findings suggest that age-associated systemic and vessel wall alterations are key determinants of the vascular response to injury and that age affects adipose tissue and its paracrine activities on the vessel wall in a depot-specific manner. They also support a critical role of PIAS1 in mediating the age-independent vasculoprotective effects of PVAT and suggest that reduced perivascular expression of PIAS1 may play a role in the development of human atherosclerotic vessel disease.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-ijms-21-00282">
+        <title>Supplementary Materials</title>
+        <p>Supplementary materials can be found at <uri>https://www.mdpi.com/1422-0067/21/1/282/s1</uri>.</p>
+		<supplementary-material id="ijms-21-00282-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00282-s001.pdf">
+		</supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, K.S.; formal analysis, E.S., R.G., M.P., R.S., and S.H.K.; funding acquisition, M.L., S.K. and K.S.; investigation, E.S., R.G., M.P., A.R.B.H., R.S., M.L.B. and S.G.; methodology, I.D., M.L.B., S.G. and M.L.; project administration, K.S.; resources, G.S.G., C.A., F.K., D.M., K.B., M.L., and T.M.; supervision, K.S.; validation, E.S., R.G., S.H.K., and K.S.; writing&#x2014;original draft preparation, K.S.; writing&#x2014;review and editing, S.H.K., T.M., D.T., S.K. and K.S. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by grants from the Bundesministerium f&#xFC;r Bildung und Forschung (BMBF 01E01003 and 01E01503 to K.S.).</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors acknowledge the expert technical assistance of Marina Janocha, Anna Kern and Michaela Moisch. Results shown in this study are part of the medical thesis of A.R.B.H.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.</p>
+    </notes>
+    <glossary>
+      <title>Abbreviations</title>
+      <array>
+        <tbody>
+          <tr>
+            <td align="left" valign="middle">AAA</td>
+            <td align="left" valign="middle">abdominal aortic aneurysm</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">AS</td>
+            <td align="left" valign="middle">aortic valve stenosis</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">AT</td>
+            <td align="left" valign="middle">adipose tissue</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">BAT</td>
+            <td align="left" valign="middle">brown adipose tissue</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">CAD</td>
+            <td align="left" valign="middle">coronary artery disease</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">FBS </td>
+            <td align="left" valign="middle">fetal bovine serum</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">HOMA-IR</td>
+            <td align="left" valign="middle">homeostasis model assessment of insulin resistance</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">MTC</td>
+            <td align="left" valign="middle">Masson trichrome</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">NC</td>
+            <td align="left" valign="middle">normal chow</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">PBS</td>
+            <td align="left" valign="middle">phosphate-buffered saline</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">PVAT</td>
+            <td align="left" valign="middle">perivascular adipose tissue</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">SASP</td>
+            <td align="left" valign="middle">senescence-associated secretory phenotype </td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">SMC</td>
+            <td align="left" valign="middle">smooth muscle cell</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">Tx</td>
+            <td align="left" valign="middle">transplantation</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">VAT</td>
+            <td align="left" valign="middle">visceral adipose tissue</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">VES</td>
+            <td align="left" valign="middle">Verhoeff&#x2019;s elastic stain</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle">WT</td>
+            <td align="left" valign="middle">wild-type</td>
+          </tr>
+        </tbody>
+      </array>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00282">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lakatta</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arterial and cardiac aging: Major shareholders in cardiovascular disease enterprises: Part i: Aging arteries: A &#x201C;set up&#x201D; for vascular disease</article-title>
+          <source>Circulation</source>
+          <year>2003</year>
+          <volume>107</volume>
+          <fpage>139</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.CIR.0000048892.83521.58</pub-id>
+          <pub-id pub-id-type="pmid">12515756</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00282">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rittger</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Waliszewski</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brachmann</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hohenforst-Schmidt</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ohlow</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brugger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Thiele</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Birkemeyer</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kurowski</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Schlundt</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Long-term outcomes after treatment with a paclitaxel-coated balloon versus balloon angioplasty: Insights from the pepcad-des study (treatment of drug-eluting stent [des] in-stent restenosis with sequent please paclitaxel-coated percutaneous transluminal coronary angioplasty [ptca] catheter)</article-title>
+          <source>JACC Cardiovasc. Interv.</source>
+          <year>2015</year>
+          <volume>8</volume>
+          <fpage>1695</fpage>
+          <lpage>1700</lpage>
+          <pub-id pub-id-type="pmid">26476609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00282">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Batchelor</surname>
+              <given-names>W.B.</given-names>
+            </name>
+            <name>
+              <surname>Anstrom</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Muhlbaier</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Grosswald</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Weintraub</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Neill</surname>
+              <given-names>W.W.</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>E.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Contemporary outcome trends in the elderly undergoing percutaneous coronary interventions: Results in 7,472 octogenarians. National cardiovascular network collaboration</article-title>
+          <source>J. Am. Coll. Cardiol.</source>
+          <year>2000</year>
+          <volume>36</volume>
+          <fpage>723</fpage>
+          <lpage>730</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0735-1097(00)00777-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00282">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cohen</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>D.O.</given-names>
+            </name>
+            <name>
+              <surname>Holmes</surname>
+              <given-names>D.R.</given-names>
+              <suffix>Jr.</suffix>
+            </name>
+            <name>
+              <surname>Selzer</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kip</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Johnston</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Holubkov</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kelsey</surname>
+              <given-names>S.F.</given-names>
+            </name>
+            <name>
+              <surname>Detre</surname>
+              <given-names>K.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of age on procedural and 1-year outcome in percutaneous transluminal coronary angioplasty: A report from the nhlbi dynamic registry</article-title>
+          <source>Am. Heart J.</source>
+          <year>2003</year>
+          <volume>146</volume>
+          <fpage>513</fpage>
+          <lpage>519</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0002-8703(03)00259-X</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00282">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Albiero</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Reimers</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Di</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Finci</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Colombo</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coronary artery stenting in the elderly: Short-term outcome and long-term angiographic and clinical follow-up</article-title>
+          <source>J. Am. Coll. Cardiol.</source>
+          <year>1998</year>
+          <volume>32</volume>
+          <fpage>577</fpage>
+          <lpage>583</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00282">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hariri</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Alonso</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Hajjar</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Coletti</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Weksler</surname>
+              <given-names>M.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aging and arteriosclerosis. I. Development of myointimal hyperplasia after endothelial injury</article-title>
+          <source>J. Exp. Med.</source>
+          <year>1986</year>
+          <volume>164</volume>
+          <fpage>1171</fpage>
+          <lpage>1178</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.164.4.1171</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00282">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eghbalieh</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Chowdhary</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Muto</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ziegler</surname>
+              <given-names>K.R.</given-names>
+            </name>
+            <name>
+              <surname>Kudo</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Pimiento</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Mirmehdi</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Model</surname>
+              <given-names>L.S.</given-names>
+            </name>
+            <name>
+              <surname>Kondo</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nishibe</surname>
+              <given-names>T.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Age-related neointimal hyperplasia is associated with monocyte infiltration after balloon angioplasty</article-title>
+          <source>J. Gerontol. A Biol. Sci. Med. Sci.</source>
+          <year>2012</year>
+          <volume>67</volume>
+          <fpage>109</fpage>
+          <lpage>117</lpage>
+          <pub-id pub-id-type="doi">10.1093/gerona/glr190</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00282">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vazquez-Padron</surname>
+              <given-names>R.I.</given-names>
+            </name>
+            <name>
+              <surname>Lasko</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Louis</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pestana</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Pang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liotta</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Fornoni</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Aitouche</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pham</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aging exacerbates neointimal formation, and increases proliferation and reduces susceptibility to apoptosis of vascular smooth muscle cells in mice</article-title>
+          <source>J. Vasc. Surg.</source>
+          <year>2004</year>
+          <volume>40</volume>
+          <fpage>1199</fpage>
+          <lpage>1207</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jvs.2004.08.034</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00282">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chajara</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Delpech</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Courel</surname>
+              <given-names>M.N.</given-names>
+            </name>
+            <name>
+              <surname>Leroy</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Basuyau</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Levesque</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of aging on neointima formation and hyaluronan, hyaluronidase and hyaluronectin production in injured rat aorta</article-title>
+          <source>Atherosclerosis</source>
+          <year>1998</year>
+          <volume>138</volume>
+          <fpage>53</fpage>
+          <lpage>64</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0021-9150(98)00004-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00282">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lakatta</surname>
+              <given-names>E.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Arterial and cardiac aging: Major shareholders in cardiovascular disease enterprises: Part iii: Cellular and molecular clues to heart and arterial aging</article-title>
+          <source>Circulation</source>
+          <year>2003</year>
+          <volume>107</volume>
+          <fpage>490</fpage>
+          <lpage>497</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00282">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Brien</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Fard</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mannion</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zalewski</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adventitial myofibroblasts contribute to neointimal formation in injured porcine coronary arteries</article-title>
+          <source>Circulation</source>
+          <year>1996</year>
+          <volume>94</volume>
+          <fpage>1655</fpage>
+          <lpage>1664</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.CIR.94.7.1655</pub-id>
+          <pub-id pub-id-type="pmid">8840858</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00282">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moos</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>John</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Grabner</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Nossmann</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gunther</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Vollandt</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Funk</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Kaiser</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Habenicht</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The lamina adventitia is the major site of immune cell accumulation in standard chow-fed apolipoprotein e-deficient mice</article-title>
+          <source>Arterioscler. Thromb. Vasc. Biol.</source>
+          <year>2005</year>
+          <volume>25</volume>
+          <fpage>2386</fpage>
+          <lpage>2391</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.ATV.0000187470.31662.fe</pub-id>
+          <pub-id pub-id-type="pmid">16179593</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00282">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Greenstein</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Khavandi</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Withers</surname>
+              <given-names>S.B.</given-names>
+            </name>
+            <name>
+              <surname>Sonoyama</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Clancy</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Jeziorska</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Laing</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Yates</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Pemberton</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <name>
+              <surname>Malik</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Local inflammation and hypoxia abolish the protective anticontractile properties of perivascular fat in obese patients</article-title>
+          <source>Circulation</source>
+          <year>2009</year>
+          <volume>119</volume>
+          <fpage>1661</fpage>
+          <lpage>1670</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.108.821181</pub-id>
+          <pub-id pub-id-type="pmid">19289637</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00282">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schroeter</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Eschholz</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Herzberg</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jerchel</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Leifheit-Nestler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Czepluch</surname>
+              <given-names>F.S.</given-names>
+            </name>
+            <name>
+              <surname>Chalikias</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Konstantinides</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xE4;fer</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Leptin-dependent and leptin-independent paracrine effects of perivascular adipose tissue on neointima formation</article-title>
+          <source>Arterioscler. Thromb. Vasc. Biol.</source>
+          <year>2013</year>
+          <volume>33</volume>
+          <fpage>980</fpage>
+          <lpage>987</lpage>
+          <pub-id pub-id-type="doi">10.1161/ATVBAHA.113.301393</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00282">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schroeter</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Leifheit-Nestler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hubert</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schumann</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Gl&#xFC;ckermann</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Eschholz</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kr&#xFC;ger</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Lutz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hasenfuss</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Konstantinides</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Leptin promotes neointima formation and smooth muscle cell proliferation via nadph oxidase activation and signalling in caveolin-rich microdomains</article-title>
+          <source>Cardiovasc. Res.</source>
+          <year>2013</year>
+          <volume>99</volume>
+          <fpage>555</fpage>
+          <lpage>565</lpage>
+          <pub-id pub-id-type="doi">10.1093/cvr/cvt126</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijms-21-00282">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takaoka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nagata</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kihara</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shimomura</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Tabata</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nagai</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sata</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Periadventitial adipose tissue plays a critical role in vascular remodeling</article-title>
+          <source>Circ. Res.</source>
+          <year>2009</year>
+          <volume>105</volume>
+          <fpage>906</fpage>
+          <lpage>911</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.109.199653</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijms-21-00282">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maffia</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Grassia</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Di</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Carnuccio</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Berrino</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Garside</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ianaro</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ialenti</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neutralization of interleukin-18 inhibits neointimal formation in a rat model of vascular injury</article-title>
+          <source>Circulation</source>
+          <year>2006</year>
+          <volume>114</volume>
+          <fpage>430</fpage>
+          <lpage>437</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.105.602714</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijms-21-00282">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sahara</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ikutomi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Morita</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Minami</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nakajima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hirata</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nagai</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sata</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Deletion of angiotensin-converting enzyme 2 promotes the development of atherosclerosis and arterial neointima formation</article-title>
+          <source>Cardiovasc. Res.</source>
+          <year>2014</year>
+          <volume>101</volume>
+          <fpage>236</fpage>
+          <lpage>246</lpage>
+          <pub-id pub-id-type="doi">10.1093/cvr/cvt245</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijms-21-00282">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujishima</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Maeda</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Matsuda</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Masuda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fukuda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sekimoto</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Yamaoka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Obata</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kita</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Adiponectin association with t-cadherin protects against neointima proliferation and atherosclerosis</article-title>
+          <source>FASEB J.</source>
+          <year>2017</year>
+          <volume>31</volume>
+          <fpage>1571</fpage>
+          <lpage>1583</lpage>
+          <pub-id pub-id-type="doi">10.1096/fj.201601064R</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijms-21-00282">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.N.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.Z.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sirt1 acts as a modulator of neointima formation following vascular injury in mice</article-title>
+          <source>Circ. Res.</source>
+          <year>2011</year>
+          <volume>108</volume>
+          <fpage>1180</fpage>
+          <lpage>1189</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.110.237875</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijms-21-00282">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kapturczak</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Wasserfall</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Glushakova</surname>
+              <given-names>O.Y.</given-names>
+            </name>
+            <name>
+              <surname>Campbell-Thompson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Deshane</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Joseph</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Cruz</surname>
+              <given-names>P.E.</given-names>
+            </name>
+            <name>
+              <surname>Hauswirth</surname>
+              <given-names>W.W.</given-names>
+            </name>
+            <name>
+              <surname>Madsen</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Interleukin 10 attenuates neointimal proliferation and inflammation in aortic allografts by a heme oxygenase-dependent pathway</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2005</year>
+          <volume>102</volume>
+          <fpage>7251</fpage>
+          <lpage>7256</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0502407102</pub-id>
+          <pub-id pub-id-type="pmid">15878989</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijms-21-00282">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sch&#xFC;tz</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Bochenek</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Riehl</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Bosmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;nzel</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Konstantinides</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xE4;fer</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Absence of Transforming Growth Factor beta 1 in murine platelets reduces neointima formation without affecting arterial thrombosis</article-title>
+          <source>Thromb. Haemost.</source>
+          <year>2017</year>
+          <volume>17</volume>
+          <fpage>1782</fpage>
+          <lpage>1797</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijms-21-00282">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Manka</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Chatterjee</surname>
+              <given-names>T.K.</given-names>
+            </name>
+            <name>
+              <surname>Stoll</surname>
+              <given-names>L.L.</given-names>
+            </name>
+            <name>
+              <surname>Basford</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Konaniah</surname>
+              <given-names>E.S.</given-names>
+            </name>
+            <name>
+              <surname>Srinivasan</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Bogdanov</surname>
+              <given-names>V.Y.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Blomkalns</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Hui</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Transplanted perivascular adipose tissue accelerates injury-induced neointimal hyperplasia: Role of monocyte chemoattractant protein-1</article-title>
+          <source>Arterioscler. Thromb. Vasc. Biol.</source>
+          <year>2014</year>
+          <volume>34</volume>
+          <fpage>1723</fpage>
+          <lpage>1730</lpage>
+          <pub-id pub-id-type="doi">10.1161/ATVBAHA.114.303983</pub-id>
+          <pub-id pub-id-type="pmid">24947528</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijms-21-00282">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dean</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Cox</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Bellac</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Doucet</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Starr</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Overall</surname>
+              <given-names>C.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Macrophage-specific metalloelastase (mmp-12) truncates and inactivates elr+ cxc chemokines and generates ccl2, -7, -8, and -13 antagonists: Potential role of the macrophage in terminating polymorphonuclear leukocyte influx</article-title>
+          <source>Blood</source>
+          <year>2008</year>
+          <volume>112</volume>
+          <fpage>3455</fpage>
+          <lpage>3464</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood-2007-12-129080</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijms-21-00282">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Kushner</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>C.D.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Shuai</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of stat1-mediated gene activation by pias1</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1998</year>
+          <volume>95</volume>
+          <fpage>10626</fpage>
+          <lpage>10631</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.95.18.10626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijms-21-00282">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Getman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Stein</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Teitell</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shuai</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Negative regulation of nf-kappab signaling by pias1</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2005</year>
+          <volume>25</volume>
+          <fpage>1113</fpage>
+          <lpage>1123</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.25.3.1113-1123.2005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijms-21-00282">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Members of the pias family act as sumo ligases for c-jun and p53 and repress p53 activity</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>2872</fpage>
+          <lpage>2877</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.052559499</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-ijms-21-00282">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richard</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Stephens</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of jak-stat signaling in adipose tissue function</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2014</year>
+          <volume>1842</volume>
+          <fpage>431</fpage>
+          <lpage>439</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbadis.2013.05.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-ijms-21-00282">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sims</surname>
+              <given-names>F.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A comparison of coronary and internal mammary arteries and implications of the results in the etiology of arteriosclerosis</article-title>
+          <source>Am. Heart J.</source>
+          <year>1983</year>
+          <volume>105</volume>
+          <fpage>560</fpage>
+          <lpage>566</lpage>
+          <pub-id pub-id-type="doi">10.1016/0002-8703(83)90478-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-ijms-21-00282">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Calfa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aitouche</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vazquez-Padron</surname>
+              <given-names>R.I.</given-names>
+            </name>
+            <name>
+              <surname>Gay-Rabinstein</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lasko</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Badell</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Farji</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>El-Haddad</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Liotta</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Louis</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Aging and transplant arteriosclerosis in absence of alloreactivity and immunosuppressive drugs in a rat aortic model: Recipient age&#x2019;s contribution</article-title>
+          <source>Transplantation</source>
+          <year>2005</year>
+          <volume>79</volume>
+          <fpage>1683</fpage>
+          <lpage>1690</lpage>
+          <pub-id pub-id-type="doi">10.1097/01.TP.0000163467.93783.C8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-ijms-21-00282">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stemerman</surname>
+              <given-names>M.B.</given-names>
+            </name>
+            <name>
+              <surname>Weinstein</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rowe</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Maciag</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fuhro</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gardner</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vascular smooth muscle cell growth kinetics in vivo in aged rats</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1982</year>
+          <volume>79</volume>
+          <fpage>3863</fpage>
+          <lpage>3866</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.79.12.3863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-ijms-21-00282">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Spinetti</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Monticone</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Khazan</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Telljohann</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Lakatta</surname>
+              <given-names>E.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>A local proinflammatory signalling loop facilitates adverse age-associated arterial remodeling</article-title>
+          <source>PLoS ONE</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <elocation-id>e16653</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0016653</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijms-21-00282">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urano</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shirai</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Miyashita</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hashiguchi</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vascular smooth muscle cell outgrowth, proliferation, and apoptosis in young and old rats</article-title>
+          <source>Atherosclerosis</source>
+          <year>1999</year>
+          <volume>146</volume>
+          <fpage>101</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0021-9150(99)00139-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-ijms-21-00282">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Torella</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Leosco</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Indolfi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Curcio</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Coppola</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ellison</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Russo</surname>
+              <given-names>V.G.</given-names>
+            </name>
+            <name>
+              <surname>Torella</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li Volti</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Rengo</surname>
+              <given-names>F.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Aging exacerbates negative remodeling and impairs endothelial regeneration after balloon injury</article-title>
+          <source>Am. J. Physiol. Heart Circ. Physiol.</source>
+          <year>2004</year>
+          <volume>287</volume>
+          <fpage>H2850</fpage>
+          <lpage>H2860</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpheart.01119.2003</pub-id>
+          <pub-id pub-id-type="pmid">15231505</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-ijms-21-00282">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bennett</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Evan</surname>
+              <given-names>G.I.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Apoptosis of human vascular smooth muscle cells derived from normal vessels and coronary atherosclerotic plaques</article-title>
+          <source>J. Clin. Investig.</source>
+          <year>1995</year>
+          <volume>95</volume>
+          <fpage>2266</fpage>
+          <lpage>2274</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI117917</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-ijms-21-00282">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O&#x2019;Brien</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Alpers</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Ferguson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tran</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Benditt</surname>
+              <given-names>E.P.</given-names>
+            </name>
+            <name>
+              <surname>Hinohara</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>S.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Proliferation in primary and restenotic coronary atherectomy tissue. Implications for antiproliferative therapy</article-title>
+          <source>Circ. Res.</source>
+          <year>1993</year>
+          <volume>73</volume>
+          <fpage>223</fpage>
+          <lpage>231</lpage>
+          <pub-id pub-id-type="doi">10.1161/01.RES.73.2.223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-ijms-21-00282">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rodier</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Coppe</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Patil</surname>
+              <given-names>C.K.</given-names>
+            </name>
+            <name>
+              <surname>Hoeijmakers</surname>
+              <given-names>W.A.</given-names>
+            </name>
+            <name>
+              <surname>Munoz</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Raza</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Freund</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Campeau</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Davalos</surname>
+              <given-names>A.R.</given-names>
+            </name>
+            <name>
+              <surname>Campisi</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Persistent DNA damage signalling triggers senescence-associated inflammatory cytokine secretion</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2009</year>
+          <volume>11</volume>
+          <fpage>973</fpage>
+          <lpage>979</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb1909</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-ijms-21-00282">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCaffrey</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Nicholson</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Szabo</surname>
+              <given-names>P.E.</given-names>
+            </name>
+            <name>
+              <surname>Weksler</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Weksler</surname>
+              <given-names>B.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aging and arteriosclerosis. The increased proliferation of arterial smooth muscle cells isolated from old rats is associated with increased platelet-derived growth factor-like activity</article-title>
+          <source>J. Exp. Med.</source>
+          <year>1988</year>
+          <volume>167</volume>
+          <fpage>163</fpage>
+          <lpage>174</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.167.1.163</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-ijms-21-00282">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Csiszar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sosnowska</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lakatta</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Sonntag</surname>
+              <given-names>W.E.</given-names>
+            </name>
+            <name>
+              <surname>Ungvari</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Age-associated proinflammatory secretory phenotype in vascular smooth muscle cells from the non-human primate macaca mulatta: Reversal by resveratrol treatment</article-title>
+          <source>J. Gerontol. A Biol. Sci. Med. Sci.</source>
+          <year>2012</year>
+          <volume>67</volume>
+          <fpage>811</fpage>
+          <lpage>820</lpage>
+          <pub-id pub-id-type="doi">10.1093/gerona/glr228</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-ijms-21-00282">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chignier</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Eloy</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adventitial resection of small artery provokes endothelial loss and intimal hyperplasia</article-title>
+          <source>Surg. Gynecol. Obstet.</source>
+          <year>1986</year>
+          <volume>163</volume>
+          <fpage>327</fpage>
+          <lpage>334</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B41-ijms-21-00282">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takaoka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shioda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sekikawa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nagai</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Sata</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endovascular injury induces rapid phenotypic changes in perivascular adipose tissue</article-title>
+          <source>Arterioscler. Thromb. Vasc. Biol.</source>
+          <year>2010</year>
+          <volume>30</volume>
+          <fpage>1576</fpage>
+          <lpage>1582</lpage>
+          <pub-id pub-id-type="doi">10.1161/ATVBAHA.110.207175</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-ijms-21-00282">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Padilla</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jenkins</surname>
+              <given-names>N.T.</given-names>
+            </name>
+            <name>
+              <surname>Vieira-Potter</surname>
+              <given-names>V.J.</given-names>
+            </name>
+            <name>
+              <surname>Laughlin</surname>
+              <given-names>M.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Divergent phenotype of rat thoracic and abdominal perivascular adipose tissues</article-title>
+          <source>Am. J. Physiol. Regul. Integr. Comp. Physiol.</source>
+          <year>2013</year>
+          <volume>304</volume>
+          <fpage>R543</fpage>
+          <lpage>R552</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpregu.00567.2012</pub-id>
+          <pub-id pub-id-type="pmid">23389108</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-ijms-21-00282">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Campbell</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Lipinski</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Doran</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Skaflen</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Fuster</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>McNamara</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lymphocytes and the adventitial immune response in atherosclerosis</article-title>
+          <source>Circ. Res.</source>
+          <year>2012</year>
+          <volume>110</volume>
+          <fpage>889</fpage>
+          <lpage>900</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.111.263186</pub-id>
+          <pub-id pub-id-type="pmid">22427326</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-ijms-21-00282">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bailey-Downs</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Tucsek</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Toth</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Sosnowska</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gautam</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sonntag</surname>
+              <given-names>W.E.</given-names>
+            </name>
+            <name>
+              <surname>Csiszar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ungvari</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aging exacerbates obesity-induced oxidative stress and inflammation in perivascular adipose tissue in mice: A paracrine mechanism contributing to vascular redox dysregulation and inflammation</article-title>
+          <source>J. Gerontol. A Biol. Sci. Med. Sci.</source>
+          <year>2013</year>
+          <volume>68</volume>
+          <fpage>780</fpage>
+          <lpage>792</lpage>
+          <pub-id pub-id-type="doi">10.1093/gerona/gls238</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-ijms-21-00282">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barandier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Montani</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mature adipocytes and perivascular adipose tissue stimulate vascular smooth muscle cell proliferation: Effects of aging and obesity</article-title>
+          <source>Am. J. Physiol. Heart Circ. Physiol.</source>
+          <year>2005</year>
+          <volume>289</volume>
+          <fpage>H1807</fpage>
+          <lpage>H1813</lpage>
+          <pub-id pub-id-type="doi">10.1152/ajpheart.01259.2004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-ijms-21-00282">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Dou</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>X.B.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Protein inhibitor of activated stat 1 (pias1) protects against obesity-induced insulin resistance by inhibiting inflammation cascade in adipose tissue</article-title>
+          <source>Diabetes</source>
+          <year>2015</year>
+          <volume>64</volume>
+          <fpage>4061</fpage>
+          <lpage>4074</lpage>
+          <pub-id pub-id-type="doi">10.2337/db15-0278</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-ijms-21-00282">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cai</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zou</surname>
+              <given-names>M.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ablation of adenosine monophosphate-activated protein kinase alpha1 in vascular smooth muscle cells promotes diet-induced atherosclerotic calcification in vivo</article-title>
+          <source>Circ. Res.</source>
+          <year>2016</year>
+          <volume>119</volume>
+          <fpage>422</fpage>
+          <lpage>433</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.116.308301</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-ijms-21-00282">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Woo</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Shishido</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>McClain</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Abe</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular signal-regulated kinase 5 sumoylation antagonizes shear stress-induced antiinflammatory response and endothelial nitric oxide synthase expression in endothelial cells</article-title>
+          <source>Circ. Res.</source>
+          <year>2008</year>
+          <volume>102</volume>
+          <fpage>538</fpage>
+          <lpage>545</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.107.156877</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-ijms-21-00282">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heo</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Takei</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Le</surname>
+              <given-names>N.T.</given-names>
+            </name>
+            <name>
+              <surname>Woo</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Sullivan</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Morrell</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Fujiwara</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Abe</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphorylation of protein inhibitor of activated stat1 (pias1) by mapk-activated protein kinase-2 inhibits endothelial inflammation via increasing both pias1 transrepression and sumo e3 ligase activity</article-title>
+          <source>Arterioscler. Thromb. Vasc. Biol.</source>
+          <year>2013</year>
+          <volume>33</volume>
+          <fpage>321</fpage>
+          <lpage>329</lpage>
+          <pub-id pub-id-type="doi">10.1161/ATVBAHA.112.300619</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-ijms-21-00282">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mink</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Stein</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Getman</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Dempsey</surname>
+              <given-names>P.W.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shuai</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>PIAS1 selectively inhibits interferon-inducible genes and is important in innate immunity</article-title>
+          <source>Nat. Immunol.</source>
+          <year>2004</year>
+          <volume>9</volume>
+          <fpage>891</fpage>
+          <lpage>898</lpage>
+          <pub-id pub-id-type="doi">10.1038/ni1104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-ijms-21-00282">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Constanzo</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rindhe</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Scaglioni</surname>
+              <given-names>P.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pias1 is essential for erythroid and vascular development in the mouse embryo</article-title>
+          <source>Dev. Biol.</source>
+          <year>2016</year>
+          <volume>414</volume>
+          <fpage>98</fpage>
+          <lpage>110</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ydbio.2016.04.013</pub-id>
+          <pub-id pub-id-type="pmid">27155222</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-ijms-21-00282">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Evangelou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lougiakis</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Rizou</surname>
+              <given-names>S.V.</given-names>
+            </name>
+            <name>
+              <surname>Kotsinas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kletsas</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mu&#xF1;oz-Esp&#xED;n</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kastrinakis</surname>
+              <given-names>N.G.</given-names>
+            </name>
+            <name>
+              <surname>Pouli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Marakos</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Townsend</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Robust, universal biomarker assay to detect senescent cells in biological specimens</article-title>
+          <source>Aging Cell</source>
+          <year>2017</year>
+          <volume>16</volume>
+          <fpage>192</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="doi">10.1111/acel.12545</pub-id>
+          <pub-id pub-id-type="pmid">28165661</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-ijms-21-00282">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hubert</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bochenek</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xFC;tz</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Gogiraju</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>M&#xFC;nzel</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xE4;fer</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Selective deletion of leptin signaling in endothelial cells enhances neointima formation and phenocopies the vascular effects of diet-induced obesity in mice</article-title>
+          <source>Arterioscler. Thromb. Vasc. Biol.</source>
+          <year>2017</year>
+          <volume>37</volume>
+          <fpage>1683</fpage>
+          <lpage>1697</lpage>
+          <pub-id pub-id-type="doi">10.1161/ATVBAHA.117.309798</pub-id>
+          <pub-id pub-id-type="pmid">28705795</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="ijms-21-00282-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Age-associated changes of the arterial vessel wall. Cross-sections through the uninjured common carotid artery of adult (<italic>n</italic> = 11) and middle-aged (<italic>n</italic> = 11) mice were stained with VES-MTC to visualize elastic fibers (black), muscle cells (red) and extracellular matrix (blue), or with H&amp;E to visualize cell nuclei (blue-black). Antibodies against smooth muscle alpha-actin (SMA) or proliferating cell nuclear antigen (PCNA) were used to immunostain smooth muscle cells (red) or proliferating cells (brown), respectively. The media area (<bold>A</bold>) and adventitia area (<bold>B</bold>) were quantified using ImagePro Plus analysis software. The total number of cells was counted manually and expressed per mm&#xB2; media area (<bold>C</bold>). The SMA-immunopositive area per total media area was determined using the count-size function (<bold>D</bold>). Individual data points and the mean &#xB1; SD are shown. * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01 and *** <italic>p</italic> &lt; 0.001 vs. adult mice (as determined by Student&#x2019;s <italic>t</italic>-test for unpaired means (in B) or the Mann&#x2013;Whitney test (in <bold>A</bold>,<bold>C</bold>,<bold>D</bold>)). Representative findings are shown in (<bold>E</bold>). Size bars represent 100 &#xB5;m. Total mRNA was isolated from the aorta of adult (<italic>n</italic> = 4) and middle-aged (<italic>n</italic> = 4) mice and the mRNA expression of cyclin D1 (Ccnd1; <bold>F</bold>), p16INK4a (p16; <bold>G</bold>), p21Cip1 (<bold>H</bold>), p53 (<bold>I</bold>), caspase-1 (Casp1; <bold>J</bold>) and transforming growth factor-beta (Tgf&#x3B2;; <bold>K</bold>) was determined using real-time PCR. * <italic>p</italic> &lt; 0.05 vs. adult mice (as determined by the Mann&#x2013;Whitney test). Primary smooth muscle cells (SMCs) were isolated from the aorta of adult (<italic>n</italic> = 5) and middle-aged (<italic>n</italic> = 3) mice and their proliferative and migratory activities analyzed using the scratch-wound assay. The summary of the quantitative is shown in (<bold>L</bold>), representative findings at 0 and 24 h after scratch injury in (<bold>M</bold>). Individual data points and the mean &#xB1; SD are shown. # <italic>p</italic> &lt; 0.05 vs. adult mice (as determined by the Kruskall&#x2013;Wallis test followed by Dunn&#x2019;s multiple comparisons test). Size bars in panel M represent 100 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00282-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00282-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Neointima formation in adult and middle-aged mice. Vascular injury was induced at the carotid artery of C57BL6/JRj WT mice aged 16 weeks (adult; <italic>n</italic> = 9) or 52 weeks (middle-aged; <italic>n</italic> = 9). The neointima area (<bold>A</bold>), lumen stenosis (<bold>B</bold>), media area (<bold>C</bold>), total vessel area (<bold>D</bold>) and adventitia area (<bold>E</bold>) were quantified on at least three Verhoeff&#x2019;s elastica (VES)-stained paraffin cross-sections through the injured carotid artery as well as the contralateral, uninjured artery (control), and results averaged per mouse. Individual mean values per mouse and the mean &#xB1; SD are shown. * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01 and *** <italic>p</italic> &lt; 0.001 vs. controls and # <italic>p</italic> &lt; 0.05 and ## <italic>p</italic> &lt; 0.01 vs. adult mice (as determined by the Kruskall&#x2013;Wallis, followed by Dunn&#x2019;s multiple comparisons test (<bold>A</bold>,<bold>B</bold>,<bold>E</bold>) or one-way ANOVA, followed by Sidak&#x2019;s multiple comparisons test (<bold>C</bold>,<bold>D</bold>). Representative images in adult and middle-aged mice are shown in (<bold>F</bold>). Size bars represent 100 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00282-g002.tif"/>
+      </fig>
+      <fig id="ijms-21-00282-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Effect of perivascular adipose tissue age on neointima formation. Vascular injury was induced at the carotid artery of NMRI nu/nu mice aged ten weeks immediately followed by transplantation (Tx) of PVAT freshly harvested from the thoracic aorta of adult (<italic>n</italic> = 9) or middle-aged (<italic>n</italic> = 8) C57BL6JRj mice. Nu/nu mice with their own PVAT left intact and not transplanted were used as control. Three weeks later, the neointima area (<bold>A</bold>), lumen stenosis (<bold>B</bold>), media area (<bold>C</bold>) and total vessel area (<bold>D</bold>) was morphometrically quantified on at least three VES-stained cross-sections and results averaged per mouse. Individual mean values per mouse and the mean &#xB1; SD are shown. * <italic>p</italic> &lt; 0.05 vs. NMRI nu/nu not transplanted with PVAT (control; <italic>n</italic> = 11), as determined by the Kruskall-Wallis (<bold>A</bold>,<bold>C</bold>) or one-way ANOVA (<bold>B</bold>,<bold>D</bold>) test. Representative images are shown in (<bold>E</bold>). Size bars represent 100 &#xB5;m.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00282-g003.tif"/>
+      </fig>
+      <fig id="ijms-21-00282-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Differential effects of age on adipose tissue gene expression patterns. Visceral (VAT) and perivascular (PVAT) adipose tissues were harvested from adult (<italic>n</italic> = 5&#x2013;16) and aged (<italic>n</italic> = 5&#x2013;16) mice and total RNA isolated. Real-time PCR analysis was employed to quantify the mRNA expression of (<bold>A</bold>) interleukin-1alpha (Il1&#x3B1;), (<bold>B</bold>) macrophage inflammatory protein 1-alpha (Mip1&#x3B1;), (<bold>C</bold>) matrix metalloproteinase-3 (Mmp3), (<bold>D</bold>) Mmp10, (<bold>E</bold>) tumor necrosis factor-alpha (Tnf&#x3B1;), (<bold>F</bold>) Il18, (<bold>G</bold>) angiotensin-converting enzyme-2 (Ace2), (<bold>H</bold>) adiponectin (Adipoq), (<bold>I</bold>) sirtuin-1 (Sirt1), (<bold>J</bold>) Il10, (<bold>K</bold>) transforming growth factor-beta (Tgf&#x3B2;), and (<bold>L</bold>) Mmp12. Individual data points and the mean &#xB1; SD are shown. * <italic>p</italic> &lt; 0.05, ** <italic>p</italic> &lt; 0.01, *** <italic>p</italic> &lt; 0.001 and **** <italic>p</italic> &lt; 0.0001 vs. adult mice and # <italic>p</italic> &lt; 0.05, ## <italic>p</italic> &lt; 0.01 and ### <italic>p</italic> &lt; 0.001 vs. VAT (as determined by two-way ANOVA).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00282-g004.tif"/>
+      </fig>
+      <fig id="ijms-21-00282-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Perivascular adipose tissue expression of negative regulators of STAT1 and NF&#x3BA;B. (<bold>A</bold>,<bold>B</bold>) Western blot analysis of protein inhibitor of activated STAT-1 (PIAS1), (<bold>A</bold>,<bold>C</bold>) suppressor of cytokine signaling-1 (SOCS1), (<bold>D</bold>,<bold>E</bold>) myeloid differentiation primary response-88 (MyD88), and (<bold>D</bold>,<bold>F</bold>) tumor suppressor p53 (p53) in visceral (VAT) and perivascular (PVAT) adipose tissue of adult (<italic>n</italic> = 3&#x2013;8) and middle-aged (<italic>n</italic> = 3&#x2013;8) mice. Results were normalized to GAPDH protein levels and are expressed as -fold change vs. findings obtained in VAT of adult mice. Individual data points and the mean &#xB1; SD are shown. # <italic>p</italic> &lt; 0.05 and ## <italic>p</italic> &lt; 0.01 vs. VAT (as determined using two-way ANOVA). Representative Western blot membranes are shown in panels (<bold>A</bold>,<bold>D</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00282-g005.tif"/>
+      </fig>
+      <fig id="ijms-21-00282-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Expression of PIAS1 in human perivascular adipose tissue. Quantitative analysis of PIAS1 protein levels in visceral (VAT) and perivascular (PVAT) adipose tissue surrounding the aorta of patients (<italic>n</italic> = 5) with abdominal aortic aneurysm (AAA) using an enzyme-linked immunoassay (<bold>A</bold>). Results are expressed per ng/mg total protein. Quantitative analysis of PIAS1 in PVAT surrounding the aortic root and coronary arteries of patients (<italic>n</italic> = 8) with coronary artery disease (CAD) compared to PVAT surrounding the internal mammary artery (IMA-PVAT) (<bold>B</bold>). Quantitative analysis of PIAS1 in PVAT surrounding the aortic root and coronary arteries of patients (<italic>n</italic> = 9) with aortic valve stenosis (AS) compared to epicardial adipose tissue (EAT) from the same patient (<bold>C</bold>). Exact <italic>p</italic>-values, as determined using the Wilcoxon matched-pairs signed rank test (<bold>A</bold>) or paired Student&#x2019;s <italic>t</italic>-test (<bold>B</bold>,<bold>C</bold>) are shown within the graphs. Immunohistochemical detection of PIAS1 (red signal) in human VAT and PVAT (&#xD7;400 magnification) (<bold>D</bold>). Results after the omission of the first antibody (neg control) are also shown (&#xD7;200 magnification).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00282-g006.tif"/>
+      </fig>
+      <table-wrap id="ijms-21-00282-t001" position="float">
+        <object-id pub-id-type="pii">ijms-21-00282-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Body and adipose tissue weight and fasting serum parameters in adult and middle-aged C57BL/6J wild-type mice.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Parameter</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Adult</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Middle-Aged</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">number</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">20</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">sex</td>
+              <td align="center" valign="middle">male</td>
+              <td align="center" valign="middle">male</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">age (weeks)</td>
+              <td align="center" valign="middle">16</td>
+              <td align="center" valign="middle">52</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">diet</td>
+              <td align="center" valign="middle">10% NC</td>
+              <td align="center" valign="middle">10% NC</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">body weight (g)</td>
+              <td align="center" valign="middle">32.0 &#xB1; 0.98</td>
+              <td align="center" valign="middle">36.7 &#xB1; 0.83 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">BAT weight (mg)</td>
+              <td align="center" valign="middle">0.34 &#xB1; 0.04</td>
+              <td align="center" valign="middle">0.30 &#xB1; 0.03</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PVAT weight (mg)</td>
+              <td align="center" valign="middle">n.d.</td>
+              <td align="center" valign="middle">n.d.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SCATax weight (mg)</td>
+              <td align="center" valign="middle">0.29 &#xB1; 0.04</td>
+              <td align="center" valign="middle">0.35 &#xB1; 0.05</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">SCATing weight (mg)</td>
+              <td align="center" valign="middle">0.52 &#xB1; 0.06</td>
+              <td align="center" valign="middle">0.65 &#xB1; 0.08</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">VAT weight (mg)</td>
+              <td align="center" valign="middle">0.74 &#xB1; 0.10</td>
+              <td align="center" valign="middle">1.12 &#xB1; 0.14 *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">number</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">15</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">leptin (ng/mL)</td>
+              <td align="center" valign="middle">12.1 &#xB1; 3.9</td>
+              <td align="center" valign="middle">13.1 &#xB1; 4.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">glucose (mg/dL)</td>
+              <td align="center" valign="middle">160 &#xB1; 19</td>
+              <td align="center" valign="middle">232 &#xB1; 21 *</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">insulin (&#xB5;IU/mL)</td>
+              <td align="center" valign="middle">6.2 &#xB1; 0.7</td>
+              <td align="center" valign="middle">5.1 &#xB1; 0.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HOMA-IR</td>
+              <td align="center" valign="middle">2.6 &#xB1; 0.5</td>
+              <td align="center" valign="middle">2.9 &#xB1; 0.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">total cholesterol (mg/dL)</td>
+              <td align="center" valign="middle">103 &#xB1; 4.7</td>
+              <td align="center" valign="middle">106 &#xB1; 6.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">HDL cholesterol (mg/dL)</td>
+              <td align="center" valign="middle">82 &#xB1; 4.7</td>
+              <td align="center" valign="middle">80 &#xB1; 4.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LDL cholesterol (mg/dL)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17 &#xB1; 2.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15 &#xB1; 1.2</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Data are given as mean &#xB1; SEM. * <italic>p</italic> &lt; 0.05 and *** <italic>p</italic> &lt; 0.001 vs. adult mice, as determined by Student&#x2019;s <italic>t</italic>-test. Abbreviations: ax, axillar; BAT, brown adipose tissue; HDL, high-density lipoprotein; HOMA-IR, homeostasis model assessment of insulin resistance; ing, inguinal; LDL, low-density lipoprotein; NC, normal chow; n.d., not determined; SCAT, subcutaneous adipose tissue; VAT, visceral adipose tissue.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

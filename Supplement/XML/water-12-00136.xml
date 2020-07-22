@@ -1,0 +1,2485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">water</journal-id>
+      <journal-title-group>
+        <journal-title>Water</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Water</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Water</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4441</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/w12010136</article-id>
+      <article-id pub-id-type="publisher-id">water-12-00136</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Long-Term (1986&#x2013;2018) Evolution of Channel Bars in Response to Combined Effects of Cascade Reservoirs in the Middle Reaches of the Hanjiang River</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Yingying</given-names>
+          </name>
+          <xref rid="af1-water-12-00136" ref-type="aff">1</xref>
+          <xref rid="af2-water-12-00136" ref-type="aff">2</xref>
+          <xref rid="af3-water-12-00136" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cai</surname>
+            <given-names>Xiaobin</given-names>
+          </name>
+          <xref rid="af1-water-12-00136" ref-type="aff">1</xref>
+          <xref rid="af3-water-12-00136" ref-type="aff">3</xref>
+          <xref rid="af4-water-12-00136" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Chao</given-names>
+          </name>
+          <xref rid="af1-water-12-00136" ref-type="aff">1</xref>
+          <xref rid="af3-water-12-00136" ref-type="aff">3</xref>
+          <xref rid="af4-water-12-00136" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Enhua</given-names>
+          </name>
+          <xref rid="af1-water-12-00136" ref-type="aff">1</xref>
+          <xref rid="af3-water-12-00136" ref-type="aff">3</xref>
+          <xref rid="af4-water-12-00136" ref-type="aff">4</xref>
+          <xref rid="c1-water-12-00136" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Song</surname>
+            <given-names>Xinxin</given-names>
+          </name>
+          <xref rid="af5-water-12-00136" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ban</surname>
+            <given-names>Xuan</given-names>
+          </name>
+          <xref rid="af1-water-12-00136" ref-type="aff">1</xref>
+          <xref rid="af3-water-12-00136" ref-type="aff">3</xref>
+          <xref rid="af4-water-12-00136" ref-type="aff">4</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-water-12-00136"><label>1</label>Institute of Geodesy and Geophysics, Chinese Academy of Sciences, Wuhan 430077, China; <email>zhangyingying115@mails.ucas.ac.cn</email> (Y.Z.); <email>xbcai@whigg.ac.cn</email> (X.C.); <email>cyang@whigg.ac.cn</email> (C.Y.); <email>banxuan@whigg.ac.cn</email> (X.B.)</aff>
+      <aff id="af2-water-12-00136"><label>2</label>University of Chinese Academy of Sciences, Beijing 100049, China</aff>
+      <aff id="af3-water-12-00136"><label>3</label>Key Laboratory of Monitoring and Estimate for Environment and Disaster of Hubei Province, Wuhan 430077, China</aff>
+      <aff id="af4-water-12-00136"><label>4</label>Honghu Lake Station for Wetland Ecosystem Research, Chinese Academy of Sciences, Honghu 433200, China</aff>
+      <aff id="af5-water-12-00136"><label>5</label>Zhengzhou Normal University, Zhengzhou 450044, China</aff>
+      <author-notes>
+        <corresp id="c1-water-12-00136"><label>*</label>Correspondence: <email>lieh@whigg.ac.cn</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>136</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Channel bars are essential landforms and their evolution is crucial to aquatic and riparian biodiversity, river&#x2019;s water-sediment process, and economic development. With the development of water conservation facilities and hydropower projects, numerous changes have been taken place in hydrological regimes and morphology. There have been many changes on channel bars in the middle reaches of Hanjiang River due to the combined effects of cascade reservoirs. However, little was known about such dynamics and their linkages to cascade dams across the entire downstream area. Using Landsat remote sensing images from 1986&#x2013;2018 and the threshold binary Otsu extraction method, this study completed comprehensive monitoring of nine mid-channel bars (DX1&#x2013;DX7, XZ1, and XZ2), and three shoal group (XZ3&#x2013;XZ5) dynamics. Results showed that the mid-channel bars&#x2019; area in the reach from Danjiangkou to Xiangyang (DX) decreased over the past 33 years, with the exception of DX4, while the total area decreased by 23.19%, this channel bars&#x2019; area change was mainly influenced by backwater from the Cuijiaying Reservoir with high water level after 2010 (<italic>r</italic> = &#x2212;0.93, <italic>p</italic> &lt; 0.01). The total channel bar area from Xiangyang to Huangzhuang (XZ) decreased by 16.63% from 1986 to 2018. The total channel bar area in XZ had a strong negative correlation with runoff at Huangzhuang hydrologic station (<italic>r</italic> = &#x2212;0.79, <italic>p</italic> &lt; 0.05), which was partly attributed to upstream precipitation according to the high correlation between runoff and precipitation (<italic>R</italic><sup>2</sup> = 0.65). In general, the DX section was under equilibrium between scouring and deposition compared to downstream Xiangyang, the bars in DX section were mainly affected by water level, and bars in XZ section during 1986&#x2013;2018 were complicated because it was upstream eroded and downstream deposited. In addition, vegetation cover, revetments, flood events, sand mining, land use, and over-exploitation may cause channel bar area dynamics. Hence, more continuous investigations are suggested to focus on effects of cascade reservoir operation on hydrological regime, as well as the changing morphology of channel bars in the middle reaches of the Hanjiang River.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>channel bars</kwd>
+        <kwd>morphology</kwd>
+        <kwd>cascade reservoirs</kwd>
+        <kwd>Landsat</kwd>
+        <kwd>hydrological regime</kwd>
+        <kwd>Hanjiang River</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-water-12-00136" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>As an important component of river morphodynamics, channel bars can preserve biodiversity in river corridors and provide habitat for certain organisms [<xref ref-type="bibr" rid="B1-water-12-00136">1</xref>]. The middle reaches of the Hanjiang River have developed a certain number of river bars, which have important influence on the stability of channel, navigation channel regulation, wetland biodiversity conservation, and agricultural production. Dams and reservoirs interrupt and modify fluvial system downstream flux of sediment through watersheds, impact the flow regime, and can alter the entire hierarchy of channel variables [<xref ref-type="bibr" rid="B2-water-12-00136">2</xref>,<xref ref-type="bibr" rid="B3-water-12-00136">3</xref>]. Dams exert significant geomorphic control over river morphology as the backwater effects of a downstream reservoir begin to occur [<xref ref-type="bibr" rid="B4-water-12-00136">4</xref>], creating new geomorphologic situations and directly affecting the channel and riparian environments [<xref ref-type="bibr" rid="B5-water-12-00136">5</xref>,<xref ref-type="bibr" rid="B6-water-12-00136">6</xref>]. Bars not only protect the diversity of the river ecosystem, but also provide information about riverine active processes and the sediment regime for understanding fluvial processes and their controlling factors [<xref ref-type="bibr" rid="B7-water-12-00136">7</xref>]. Therefore, better understanding of dams, especially the cascade reservoirs impacts on morphological adjustments of channel bars, is required in current river management.</p>
+      <p>There are many researches using the filed data collection and laboratory analysis about the changes of channel morphology evolution with the influence of dams and other engineering projects [<xref ref-type="bibr" rid="B3-water-12-00136">3</xref>,<xref ref-type="bibr" rid="B8-water-12-00136">8</xref>,<xref ref-type="bibr" rid="B9-water-12-00136">9</xref>]. With the development of remote sensing (RS) technology and availability of both optical and radar RS data, riverbank migration and channel bars evolution have been widely studied before in dammed rivers around world. For instance, Wang and Xu assessed channel bar morphologic changes in the highly regulated lower Mississippi River using Landsat imagery and river stage data [<xref ref-type="bibr" rid="B10-water-12-00136">10</xref>,<xref ref-type="bibr" rid="B11-water-12-00136">11</xref>]. Capolongo et al. coupled multitemporal remote sensing with geomorphology and hydrological modelling for post-flood recovery in the Strymonas dammed river basin [<xref ref-type="bibr" rid="B12-water-12-00136">12</xref>]. There also have been many studies on the morphodynamic processes of sandbars in the Yangtze River, the channel downstream of the Three Gorges Dam (TGD) in China [<xref ref-type="bibr" rid="B13-water-12-00136">13</xref>,<xref ref-type="bibr" rid="B14-water-12-00136">14</xref>,<xref ref-type="bibr" rid="B15-water-12-00136">15</xref>,<xref ref-type="bibr" rid="B16-water-12-00136">16</xref>,<xref ref-type="bibr" rid="B17-water-12-00136">17</xref>,<xref ref-type="bibr" rid="B18-water-12-00136">18</xref>]. The decreased sediment load in the middle of the Yangtze River was found to be responsible for dramatic changes of channel bar morphodynamics, which could last for a long time, depending on the operation of the Three Gorges Dam in 2003 [<xref ref-type="bibr" rid="B19-water-12-00136">19</xref>]. Morphological adjustments in the meandering reaches of the middle Yangtze River were caused by dramatic human activities [<xref ref-type="bibr" rid="B20-water-12-00136">20</xref>]. The Garrison and Oahe dams in the Missouri River have been used to demonstrate the impacts of an upstream dam, which maintains significant geomorphic control over river morphology as the backwater effects of downstream reservoir begin to occur [<xref ref-type="bibr" rid="B4-water-12-00136">4</xref>]. However, previous studies are mostly the effects of single dam and river training works on channel bars, and little attention is paid to the area affected by cascade dams.</p>
+      <p>The Danjiangkou Water Conservancy Project is the water source area for the South-to-North Water Transfer Project middle route and is a key project for comprehensive development and utilization of water resources in the Hanjiang River. The processes of water and sediment enter the lower reaches of the dam have changed fundamentally since the construction of the Danjiangkou Reservoir [<xref ref-type="bibr" rid="B21-water-12-00136">21</xref>,<xref ref-type="bibr" rid="B22-water-12-00136">22</xref>]. In addition, six cascade hydropower stations have been planned in the middle reaches: Danjiangkou, Wangfuzhou, Xinji (under construction), Cuijiaying, Yakou (under construction), and Nianpanshan (under construction). Subsequently, more studies have paid attention to the impact of this change from different aspects with the transformation from natural flowing river to dam-reservoir-river system. In the 1990s, there were many studies in the Hanjiang River about the Danjiangkou reservoir effect on suspended sediment grain size [<xref ref-type="bibr" rid="B23-water-12-00136">23</xref>], sedimentation zones [<xref ref-type="bibr" rid="B24-water-12-00136">24</xref>], channel pattern [<xref ref-type="bibr" rid="B25-water-12-00136">25</xref>], and adjustment and evolution of mid-channel bars [<xref ref-type="bibr" rid="B26-water-12-00136">26</xref>]. Recent researches have only focused on the hydrological regime [<xref ref-type="bibr" rid="B27-water-12-00136">27</xref>,<xref ref-type="bibr" rid="B28-water-12-00136">28</xref>,<xref ref-type="bibr" rid="B29-water-12-00136">29</xref>,<xref ref-type="bibr" rid="B30-water-12-00136">30</xref>,<xref ref-type="bibr" rid="B31-water-12-00136">31</xref>], hydrological models&#x2019; predictions [<xref ref-type="bibr" rid="B32-water-12-00136">32</xref>], and water resources allocation [<xref ref-type="bibr" rid="B33-water-12-00136">33</xref>]. However, few studies have extracted information and analyzed the influence factors for channel bars in response to the combined effects of Danjiangkou Reservoir and other cascade reservoirs. In addition, the long-term analysis of channel bars&#x2019; evolution from 1986 to 2018 will provide data and support for further research about channel bar morphodynamics in the middle reaches of the Hanjiang River when all the dams are built completely.</p>
+      <p>The main objectives of this study were to: (1) quantitatively evaluate channel bar spatial and temporal variability along the river from 1986 to 2018; (2) evaluate the factors combined with annual runoff and sediment discharge data measured at hydrological stations; and (3) provide suggestions for channel management under the background of cascade reservoirs development from the perspective of river ecology.</p>
+    </sec>
+    <sec id="sec2-water-12-00136">
+      <title>2. Study Area and Data</title>
+      <sec id="sec2dot1-water-12-00136">
+        <title>2.1. Study Area</title>
+        <p>As a sand-bed river, the Hanjiang River is the largest tributary of the Yangtze River, and the Danjiangkou Reservoir is a water source area for the South-to-North Water Transfer Project middle route. The middle reaches of the Hanjiang River lie between the Danjiangkou Reservoir and the Huangzhuang hydrological station, which controls a 46,800 km<sup>2</sup> catchment area with a length of about 240 km and with a channel width of about 1 km [<xref ref-type="bibr" rid="B24-water-12-00136">24</xref>,<xref ref-type="bibr" rid="B34-water-12-00136">34</xref>]. The area has average annual temperatures of 15&#x2013;17 &#xB0;C, and annual precipitation ranges from approximately 700 mm to 1200 mm [<xref ref-type="bibr" rid="B35-water-12-00136">35</xref>]. The terrain is made up of hills and plains, of which 51.6% is plains area, 25.4% is mountainous, and 23% is hilly [<xref ref-type="bibr" rid="B36-water-12-00136">36</xref>]. Six cascade reservoirs [<xref ref-type="bibr" rid="B29-water-12-00136">29</xref>,<xref ref-type="bibr" rid="B37-water-12-00136">37</xref>] have been planned in the middle reaches (<xref ref-type="table" rid="water-12-00136-t001">Table 1</xref>). The Danjiangkou Reservoir construction began in September 1958 and was stopped in December 1959. After eight years of detention, it was officially put into service in November 1967 and has been impounded for more than 50 years. Construction of a second phase heightening project for the South-to-North Water Transfer Project started in September 2005 and was completed in 2010. At that time, the Danjiangkou Reservoir changed from an annual regulation reservoir into an incomplete multi-year regulation reservoir. The dam crest elevation was increased from 162 m to 176.6 m with a corresponding storage capacity was 29.05 billion cubic meters [<xref ref-type="bibr" rid="B30-water-12-00136">30</xref>]. Huangjiagang hydrologic station lies 6 km downstream of the Danjiangkou Dam and is the outlet control station. The average annual discharge, average annual runoff amount, and average annual sediment concentration of Huangjiagang was 1080 m<sup>3</sup>/s, 340 &#xD7; 10<sup>8</sup> m<sup>3</sup>, 0.03 kg&#xB7;m<sup>&#x2212;3</sup>, respectively, during the impoundment stage (1968&#x2013;2004) of the Danjiangkou Reservoir [<xref ref-type="bibr" rid="B38-water-12-00136">38</xref>].</p>
+        <p>The study area can be divided into the branching reach of Danjiangkou-Xiangyang (DX) and the meandering reach of Xiangyang-Huangzhuang (XZ) [<xref ref-type="bibr" rid="B26-water-12-00136">26</xref>,<xref ref-type="bibr" rid="B39-water-12-00136">39</xref>]. From Danjiangkou to Xiangyang, the river flows through shallow hills with many branching channels, and the main river changes dramatically. It is the key section for water transport construction in the Tenth Five-Year Plan of Hubei Province. There are 10 original shoal groups, mostly branching and transitional, which hinder navigation due to their shallowness and danger. After the construction of the Wangfuzhou Reservoir, two shoals were inundated. XZ is 153 km long and is a typical meandering reach with a wide and shallow riverbed, scattered flow, and dense beaches [<xref ref-type="bibr" rid="B39-water-12-00136">39</xref>]. There are two different river types in the middle reaches of the Hanjiang River, therefore DX and XZ channel bars were analyzed separately. Seven typical mid-channel bars (DX1&#x2013;DX7) were studied in DX, while two channel bars and three shoal groups (XZ1&#x2013;XZ5) were chosen in XZ (<xref ref-type="fig" rid="water-12-00136-f001">Figure 1</xref>).</p>
+      </sec>
+      <sec id="sec2dot2-water-12-00136">
+        <title>2.2. Data</title>
+        <p>To analyze the impacts of cascade dams on the temporal and spatial evolution of channel bars since 1986, Landsat Thematic Mapper (TM)/Enhanced Thematic Mapper Plus (ETM+)/Operational Land Imager (OLI) images were selected during six low-water periods in 1986, 1994, 2000, 2004, 2010, 2013, and 2018. They were available free of charge from the USGS (<uri>https://glovis.usgs.gov/</uri>) and the study area spans two path/row tracks: 124/38 and 125/38 (<xref ref-type="table" rid="water-12-00136-t002">Table 2</xref>). To eliminate the influence of water level on extracted channel bar area, dry period images that were available in the selected years (January&#x2013;March and October&#x2013;December) were compared. There were few appropriate dry season images in 1994 for path 125 and row 38, so February 1995 was used instead. The images with the smallest inter-annual water level difference within the available image range were used, and the corresponding dates and water levels of selected image are listed in <xref ref-type="table" rid="water-12-00136-t002">Table 2</xref>. Hydrological data on the average sediment concentrations of Huangjiagang, Xiangyang, and Huangzhuang were collected from the Changjiang Water Resources Commission of the Ministry of Water Resources, China. Daily water level and runoff data were retrieved from the Hubei Provincial Department of Water Resources (<uri>http://www.hubeiwater.gov.cn/</uri>).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-water-12-00136" sec-type="methods">
+      <title>3. Methods</title>
+      <sec id="sec3dot1-water-12-00136">
+        <title>3.1. Channel Bar Extraction Methods</title>
+        <p>Due to the different spectral information between water and channel bars, the water area in the river channel can be extracted with high accuracy, leaving the bars for easy identification. Therefore, accurate water extraction is key to extracting channel bars. Globally, there have been a number of studies on water extraction with many methods applied. Of these, the modified normalized difference water index (MNDWI) spectral water index can extract water body information more accurately, quickly, and easily than other methods [<xref ref-type="bibr" rid="B40-water-12-00136">40</xref>,<xref ref-type="bibr" rid="B41-water-12-00136">41</xref>,<xref ref-type="bibr" rid="B42-water-12-00136">42</xref>,<xref ref-type="bibr" rid="B43-water-12-00136">43</xref>]. Li et al. used 81 phases of time-series Landsat remote sensing images (TM Landsat-4/5, ETM+ Landsat-7, and OLI Landsat-8) to extract the Danjiangkou Reservoir surface water area from 1993 to 2015 [<xref ref-type="bibr" rid="B44-water-12-00136">44</xref>]. Therefore, the MNDWI was selected as the primary tool for automatically extracting channel bars in this study. First, the raw calibrated pixel values in the selected TM, ETM+, and OLI images were converted to surface reflectance using ENVI Landsat Calibration (ENVI 5.3 software, ITT Visual Information Solutions, the United States). Second, the TM, ETM+, and OLI reflectance data were used to calculate MNDWI for selected images based on Equation (1). The green and mid-infrared (MIR) bands from TM, ETM+, and OLI data are shown in <xref ref-type="table" rid="water-12-00136-t003">Table 3</xref>. Third, the water surface was extracted by setting a threshold in the MNDWI images that was determined by the Otsu method [<xref ref-type="bibr" rid="B42-water-12-00136">42</xref>,<xref ref-type="bibr" rid="B44-water-12-00136">44</xref>]. Finally, the resulting binary images were converted into vector polygons using the Raster to Polygon tool provided by ArcGIS 10.4 (ESRI, Redlands, CA, USA) (<xref ref-type="fig" rid="water-12-00136-f002">Figure 2</xref>).
+        <disp-formula id="FD1-water-12-00136"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mi>MNDWI</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>B</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi>G</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mi>B</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi>M</mml:mi><mml:mi>I</mml:mi><mml:mi>R</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>B</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi>G</mml:mi><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>e</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>B</mml:mi><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi>M</mml:mi><mml:mi>I</mml:mi><mml:mi>R</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+		</p>
+      </sec>
+      <sec id="sec3dot2-water-12-00136">
+        <title>3.2. Analytical Methods</title>
+        <p>Setting the channel bar area extracted for 1986 as a reference, the area change rates of each channel bar were calculated and compared, where positive values indicate an increase and vice versa. Equation (2) for calculating the area change percentage (<italic>&#x14B;</italic>) relative to 1986 area is as follows (<italic>A</italic><sub>1986</sub> is the channel bar area in 1986, <italic>A<sub>n</sub></italic> is the channel bar area in <italic>n</italic>):
+		<disp-formula id="FD2-water-12-00136"><label>(2)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>&#x14B;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mn>1986</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mn>1986</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#xD7;</mml:mo><mml:mn>100</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+		</p>
+        <p>The area values of selected river islands during 1986&#x2013;2018 were determined by processing remote sensing images. To understand the area change trends, the anomalies for the total area of islands in DX and XZ were calculated using the formula:
+		<disp-formula id="FD3-water-12-00136"><label>(3)</label><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>y</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>y</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mi>d</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="true">&#xAF;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>d</italic> refers to a given island, <italic>y</italic> refers to a given year, <inline-formula><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:mo>&#x394;</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>y</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the area anomaly of a given island in a given year, <inline-formula><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>y</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the area of a given island in a given year, and <inline-formula><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mi>d</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="true">&#xAF;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> is the 33-year average area of the islands. The correlation between all river island area totals and influencing factors like water level, runoff, and sediment were calculated using Pearson&#x2019;s correlation coefficient.</p>
+        <p>The Mann-Kendall (M-K) non-parametric statistical test developed by H.B. Mann (1945) and M.G. Kendall (1990) can handle non-normal and censored data [<xref ref-type="bibr" rid="B45-water-12-00136">45</xref>], and is widely used to assess the significance of monotonic trends in hydro-meteorological time series [<xref ref-type="bibr" rid="B46-water-12-00136">46</xref>,<xref ref-type="bibr" rid="B47-water-12-00136">47</xref>]. We therefore performed M-K testing using the average hydrological data values for the dry season of January&#x2013;March and October&#x2013;December from 1986&#x2013;2018 in MATLAB R2014a (MathWorks Company, the United States). The M-K abrupt change test assumes (null hypothesis) that the time series under investigation shows no beginning of a developing trend. It calculates two standardized statistic series, UF (the forward sequence, which has a standard normal distribution) and UB (the backward sequence and is calculated similarly to UF with an inverse time series), for a data series and plots them with confidence lines [<xref ref-type="bibr" rid="B48-water-12-00136">48</xref>]. The null hypothesis is rejected and significant abrupt change occurs if the UF curve and the UB curve intersect within the confidence zone. This study takes the confidence level of 95% (1.96 and &#x2212;1.96) as the boundary lines of the confidence zone. The detailed formulas of Mann-Kendall rank trend test statistic Z and UF and UB statistic indices are provided in the literature [<xref ref-type="bibr" rid="B35-water-12-00136">35</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec4-water-12-00136" sec-type="results">
+      <title>4. Results</title>
+      <sec id="sec4dot1-water-12-00136">
+        <title>4.1. Long-Term Hydrologic Conditions</title>
+        <p>The Danjiangkou Reservoir was built in 1959 and completed in 1973. From 1959 to 1967, the reservoir was used for flood retention. After that time, sediment concentrations began to decrease and had reached an average annual sediment concentration of about 1%, which was 10% of that pre-dam period at the Huangjiagang and Huangzhuang stations (<xref ref-type="table" rid="water-12-00136-t004">Table 4</xref>). Water level variability at the Huangjiagang, Xiangyang, and Huangzhuang stations during the dry season from 1986&#x2013;2018 as estimated by M-K trend test is shown in <xref ref-type="fig" rid="water-12-00136-f003">Figure 3</xref>a&#x2013;c. Only one intersection could be identified as a water level change at the significance level of 0.05, at the Huangjiagang station in 1999 (<xref ref-type="fig" rid="water-12-00136-f003">Figure 3</xref>a). An increasing trend was after 2003 (<italic>p</italic> &lt; 0.05). This increase was mainly caused by the construction of the Wangfuzhou Reservoir in 2000. There was another water level mutation in 2014 at the 0.05 significance level at the Xiangyang station, and it clearly increased after 2009 (<xref ref-type="fig" rid="water-12-00136-f003">Figure 3</xref>b), which may have been related to the construction of the Cuijiaying Reservoir in 2010. However, the water level at Huangzhuang significantly declined after 2006 (<xref ref-type="fig" rid="water-12-00136-f003">Figure 3</xref>c). <xref ref-type="table" rid="water-12-00136-t005">Table 5</xref> shows the amplitude of annual variability. We found that water levels at Huangjiagang and Xiangyang station increased significantly by 0.04 cm/year and 0.12 cm/year over the study period with <italic>Z</italic> statistic values of 4.08 and 2.22, respectively. They decreased significantly by 0.06 cm/year at Huangzhuang station with a <italic>Z</italic> statistic of &#x2212;4.29.</p>
+        <p>Although annual runoff at Huangjiagang and Huangzhuang stations showed an increasing trend from 1986&#x2013;2018, it was non-significant with <italic>Z</italic> values of 1.69 and &#x2212;0.29, respectively. One intersection in 1994 was observed (<xref ref-type="fig" rid="water-12-00136-f003">Figure 3</xref>d), meaning that runoff at Huangjiagang station after 1994 tended to increase at the 0.05 significance level. <xref ref-type="fig" rid="water-12-00136-f003">Figure 3</xref>e also shows mutations at Huangzhuang station in annual runoff, such as in 1987, 1995, 2003, 2014, and 2018.</p>
+      </sec>
+      <sec id="sec4dot2-water-12-00136">
+        <title>4.2. Channel Bar Area Evolution Trend at Spatiotemporal Scales</title>
+        <p>The channel bar images were obtained after classifying, transferring, and clustering. Surface area of DX1, DX6, DX7, and XZ3 significantly decreased (<xref ref-type="fig" rid="water-12-00136-f004">Figure 4</xref>). We further know that all channel bars decreased except DX4, XZ4, and XZ5. The year 2000 saw a sudden change in surface area at DX1, while for DX6 and DX7, 2010 was the mutation year (<xref ref-type="fig" rid="water-12-00136-f004">Figure 4</xref>a). This may have been related to the construction of the Wangfuzhou and Cuijiaying Dams. Overall, we calculated the total area in DX, which decreased by 23.19% from 1986 to 2018, and the total area in XZ decreased by 16.63% (<xref ref-type="fig" rid="water-12-00136-f004">Figure 4</xref>b). The surface area changes of channel bars in XZ were complex because of the large number of shoals (XZ3&#x2013;XZ5). To further analyze the trend of channel bar area evolution, we introduced an area change rate relative to 1986 and area anomalies (the offset value of the annual bar area from the multi-year average).</p>
+      </sec>
+      <sec id="sec4dot3-water-12-00136">
+        <title>4.3. Long-Term Morphological Change of the Channel Bars</title>
+        <p>The area change rates in different years relative to 1986 were calculated by Equation (2). DX1 is located at a backwater area of the Wangfuzhou Reservoir, the area of which had slightly decreased by 1994, but in 2000, the area decreased dramatically by 53.6%. After increasing marginally in 2004 and 2010, DX1 area then declined by 62.02% in 2018. DX2, DX3, and DX4 were situated between downstream of the Wangfuzhou Reservoir and upstream of the Cuijiaying Reservoir, but were not affected by the Cuijiaying Reservoir backwater. DX2, DX3, and DX4 areas decreased by 7.52%, 1.91%, and 2.52% in 1994, respectively, as shown in <xref ref-type="fig" rid="water-12-00136-f005">Figure 5</xref>a. In 2000, the areas of all three had increased slightly, then DX2 area decreased while the others increased in 2004. DX2 and DX4 area increased in 2010, and then DX2 decreased while DX4 still kept increasing. The average area changes of DX2, DX3, and DX4 were affected by dam backwater and were relatively stable at &#x2212;3.22%, &#x2212;0.62%, and 6.57%, respectively. DX5, DX6, and DX7 area changes were 7.89%, &#x2212;5.05%, and 2.40% in 1994, respectively. DX5 was relatively stable with an average area change of 0.31% from 1986&#x2013;2018. DX6 and DX7 had a relatively consistent decreasing trend from 2000&#x2013;2018 (<xref ref-type="fig" rid="water-12-00136-f005">Figure 5</xref>b). DX6 and DX7 are located at the backwater of Cuijiaying Reservoir, therefore their area was significantly reduced in 2010. <xref ref-type="fig" rid="water-12-00136-f005">Figure 5</xref>c shows that bars of XZ1 and XZ2 were relatively stable with average change rates of &#x2212;6.09% and &#x2212;1.48%, respectively. We also find that the change rate of XZ3 was less than zero and decreasing, while XZ5 was greater than zero and increasing in a &#x2018;zigzag&#x2019; pattern after 1986. There was little increase in XZ5 area in 2000, 2010, and 2018. The XZ4 area increased from 2004&#x2013;2013, and decreased from 1986&#x2013;2000 and in 2018.</p>
+        <p>Channel bar area trends in the two middle reaches of the Hanjiang River were calculated by Equation (3). The total channel bar area at DX and XZ clearly decreased during the 33 years (<xref ref-type="fig" rid="water-12-00136-f006">Figure 6</xref>). Two periods of 1994&#x2013;2000 and 2004&#x2013;2010 showed a rapid decrease in the total DX area. The total shoal group area significantly decreased during 1994&#x2013;2000 and 2013&#x2013;2018 in XZ section.</p>
+      </sec>
+      <sec id="sec4dot4-water-12-00136">
+        <title>4.4. Correlation Analysis of Influencing Factors</title>
+        <p>It was necessary to analyze the correlation of channel bar area with both stations&#x2019; hydrological data due to different channel bar area trends in DX and XZ section. Hydrological data at Huangjiagang and Huangzhuang stations both included annual runoff, annual maximum discharge, annual maximum discharge during the dry season, annual average water level, dry season discharge, daily discharge and daily water level. Daily and annual average water levels during the dry season at Xiangyang station were only used due to the lack of discharge data. Average annual sediment at Huangzhuang station downstream of Xiangyang reflecting sediment condition was also took into account and analyzed the correlation with the bars&#x2019; area. Pearson correlation analyses were carried out in the DX and XZ reach, respectively, with respect to hydrological conditions. Specifically, the factors that passed the significance test are the water level in the DX section and runoff in the XZ section (<xref ref-type="app" rid="app1-water-12-00136">Tables S1 and S2</xref>). Pearson correlations results in DX showed that annual average water levels at Xiangyang station were significantly correlated with channel bar area, with a coefficient of &#x2212;0.93 (<italic>p</italic> &lt; 0.01) (<xref ref-type="fig" rid="water-12-00136-f007">Figure 7</xref>). The results indicate that channel area was inversely proportional to water level at Xiangyang station; i.e., area decreased with the increase in water level, especially in 2010. Pearson correlation results for channel bar area with hydrological data in XZ showed that only daily runoff at Huangzhuang station was significantly negatively correlated (<italic>r</italic> = &#x2212;0.79, <italic>p</italic> &lt; 0.05). <xref ref-type="fig" rid="water-12-00136-f008">Figure 8</xref> shows that higher daily discharge at Huangzhuang station was associated with lower bar area, especially during the two mutation years of 2000 and 2018.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-water-12-00136" sec-type="discussion">
+      <title>5. Discussion</title>
+      <p>With intensive human interventions, such as dam operations, natural river regimes are gradually replaced by regulated flows and sediment loads, which dramatically affect the channel bar evolution and has been studied in rivers system across the globe [<xref ref-type="bibr" rid="B49-water-12-00136">49</xref>,<xref ref-type="bibr" rid="B50-water-12-00136">50</xref>]. Previous studies have found that: operation of the Danjiangkou Dam impacted the hydrological regime with an overall alteration degree of 40.6%. This slightly increased to 46.7% with the combined operation of the Wangfuzhou Reservoir, and increased even more to 63.5% combined with the Cuijiaying Reservoir [<xref ref-type="bibr" rid="B29-water-12-00136">29</xref>]. The Danjiangkou Reservoir regulated the hydrologic regime by storing water at the end of the wet season and supplying water in the dry months, resulting in reduced flood peak and streamflow variability during the year [<xref ref-type="bibr" rid="B21-water-12-00136">21</xref>,<xref ref-type="bibr" rid="B28-water-12-00136">28</xref>,<xref ref-type="bibr" rid="B31-water-12-00136">31</xref>,<xref ref-type="bibr" rid="B51-water-12-00136">51</xref>]. From the flood detention of the Danjiangkou Reservoir to 1989 (30a), the widening of the river channel in the middle reaches has been remarkable, with the largest change in the XZ3 beach group at about twice the width of the pre-dam river [<xref ref-type="bibr" rid="B52-water-12-00136">52</xref>]. From 1987 to 2005, erosion had declined substantially with average annual erosion of 1.14 million m<sup>3</sup> [<xref ref-type="bibr" rid="B34-water-12-00136">34</xref>]. After the construction of the Danjiangkou Reservoir, 95% or more sediment was intercepted [<xref ref-type="bibr" rid="B26-water-12-00136">26</xref>,<xref ref-type="bibr" rid="B53-water-12-00136">53</xref>], and the section from Danjiangkou to Xiangyang has been under equilibrium between scouring and deposition, and mainly scoured downstream Cuijiaying in the middle reaches after 1985 [<xref ref-type="bibr" rid="B34-water-12-00136">34</xref>]. <xref ref-type="table" rid="water-12-00136-t004">Table 4</xref> shows that average annual sediment concentrations from 1986&#x2013;2018 were almost zero at Huangjiagang station. Therefore, the effect of sediment in this study is not significant. Combined cascade dams had little effect on annual runoff (<xref ref-type="fig" rid="water-12-00136-f009">Figure 9</xref>). After cascade dam operation began, the natural flowing river channel was disrupted and broken into several parts due to impoundment effects, and the naturally occurring aquatic habitats were replaced by lacustrine, transitional, and riverine zone habitats in the river channel [<xref ref-type="bibr" rid="B54-water-12-00136">54</xref>]. Furthermore, after operation of the Wangfuzhou and Cuijiaying Reservoirs, water levels increased around them [<xref ref-type="bibr" rid="B22-water-12-00136">22</xref>,<xref ref-type="bibr" rid="B37-water-12-00136">37</xref>,<xref ref-type="bibr" rid="B55-water-12-00136">55</xref>]. As shown in <xref ref-type="fig" rid="water-12-00136-f003">Figure 3</xref>, the annual water level increased at Huangjiagang station in 1999. There was an obvious increase after 2009 and a mutation in 2014 at Xiangyang station. Annual water level at Huangzhuang significantly decreased after 2006. Annual runoff at Huangjiagang station (<xref ref-type="fig" rid="water-12-00136-f009">Figure 9</xref>a) increased after 1994 at a significance level of 0.05, while the decrease in annual runoff at Huangzhuang station (<xref ref-type="fig" rid="water-12-00136-f009">Figure 9</xref>b) was not significant (<italic>p</italic> &gt; 0.1). Variability in the hydrologic regimes at Huangjiagang and Xiangyang was closely related with the construction of Wangfuzhou and Cuijiaying Dams, respectively, because the stations were in the reservoir backwaters [<xref ref-type="bibr" rid="B22-water-12-00136">22</xref>,<xref ref-type="bibr" rid="B55-water-12-00136">55</xref>]. Indeed, what direct impact on the hydrological regime is still not clear by the reservoirs under construction in the middle reaches of Hanjiang River for dams under construction have not yet got river closure works so far [<xref ref-type="bibr" rid="B29-water-12-00136">29</xref>,<xref ref-type="bibr" rid="B31-water-12-00136">31</xref>]. Therefore, we did not quantitatively analyze the specific effect of the three reservoirs that still under construction.</p>
+      <p>Based on the correlations between channel bars and water and sediment, we knew that annual average water levels had significant negative correlations with channel bar area in DX (<italic>r</italic> = &#x2212;0.93, <italic>p</italic> &lt; 0.01). The primary factor of influence in DX section was water level change due to dam construction. The total channel bar area in XZ had a significant negative correlation with daily runoff at Huangzhuang station (<italic>r</italic> = &#x2212;0.79, <italic>p</italic> &lt; 0.05), and the driving factor of runoff was inseparable from precipitation (<italic>R</italic><sup>2</sup> = 0.65) as shown in <xref ref-type="fig" rid="water-12-00136-f010">Figure 10</xref>. Therefore, channel area change was attributed to upstream precipitation. Before construction of the Danjiangkou Reservoir, the middle Hanjiang River had a meandering braided channel pattern in a quasi-equilibrium state [<xref ref-type="bibr" rid="B25-water-12-00136">25</xref>]. After reservoir construction, the changing characteristics of mid-channel bars were significantly related to river bank erosion, because the bank erosion provided both space and materials for the building of mid-channel bars. When the bars were eroded in the upstream sedimentation zone, those in the downstream sediment zone expanded, and when the macroscopic bedload transport &#x2018;wave&#x2019; moved further downstream, the mid-channel bar indices declined [<xref ref-type="bibr" rid="B24-water-12-00136">24</xref>]. Obviously, as is shown in <xref ref-type="fig" rid="water-12-00136-f005">Figure 5</xref> that the evolution of bars in XZ section during 1986&#x2013;2018 were complicated because it was upstream eroded and downstream deposited, the XZ1&#x2013;XZ3 areas have the decrease trend, the XZ4 and XZ5 areas increase generally. Generally, the DX section was under equilibrium between scouring and deposition compared to downstream Xiangyang, and the bars in which were mainly affected by water level.</p>
+      <p>In fact, there are other explanations for the observed channel bar changes apart from hydrological factors. The first is vegetation growth. Shoal groups in XZ3, XZ4, and XZ5 downstream of the Cuijiaying hydrological station with changing area and shape had relatively low vegetation coverage with sandy soil in our study, and serious land desertification affected plant composition [<xref ref-type="bibr" rid="B56-water-12-00136">56</xref>,<xref ref-type="bibr" rid="B57-water-12-00136">57</xref>,<xref ref-type="bibr" rid="B58-water-12-00136">58</xref>]. In turn, vegetation was no longer able to stabilize channel material from erosion [<xref ref-type="bibr" rid="B59-water-12-00136">59</xref>,<xref ref-type="bibr" rid="B60-water-12-00136">60</xref>]. The second are human interventions with levees and revetments. Channel bank protection engineering changed the boundary conditions of the river and prevented channel bar banks from being eroded [<xref ref-type="bibr" rid="B61-water-12-00136">61</xref>]. The Channel Regulation Project was constructed from 1986&#x2013;1996 to improve navigation safety and protect river banks from erosion in the XZ, where 168 dikes were built [<xref ref-type="bibr" rid="B62-water-12-00136">62</xref>,<xref ref-type="bibr" rid="B63-water-12-00136">63</xref>]. Meandering, branching channels gradually became stable and lost some bends. As the whole, channel bar area in XZ increased except during 2000 and 2018 (<xref ref-type="fig" rid="water-12-00136-f005">Figure 5</xref>). Floods in 1998 and 2017 may have caused the decreases in those two years. Therefore, the third factor is flooding. As a sediment source for channel bars, a flooding event causes complicated changes in erosion or deposition [<xref ref-type="bibr" rid="B64-water-12-00136">64</xref>]. Taking the flooding event of 2017 as an example, the channel bars downstream of the Wangfuzhou and upper reaches of Cuijiaying decreased after flooding in 2017, as the heads of river islands eroded away (<xref ref-type="fig" rid="water-12-00136-f011">Figure 11</xref>). The 2017 flooding may have been the reason why shoal groups from Xiangyang to Huangzhuang significantly decreased from 2013&#x2013;2018. Finally, other human activities cannot be ignored, such as sand mining, land use, and over-exploitation, which may play important roles in changing channel bar area and shape [<xref ref-type="bibr" rid="B15-water-12-00136">15</xref>,<xref ref-type="bibr" rid="B65-water-12-00136">65</xref>]. In addition, detailed quantitative analysis of each influencing factor needs further analysis combined with field and laboratory survey in the next study. As for the submerged bars, the water level of the reservoirs should be adjusted adaptively under the highest water level. In order to protect the channel bars from disappearing, ecological revetment can be adopted and trees and grasses could be planted in the area with scour of the head of the bars.</p>
+    </sec>
+    <sec id="sec6-water-12-00136" sec-type="conclusions">
+      <title>6. Conclusions</title>
+      <p>This study analyzed the long-term evolution of channel bars in the middle reaches of the Hanjiang River in response to combined cascade dams. The results showed that the main factor influencing mid-channel bars in DX was water level following dam construction (<italic>r</italic> = &#x2212;0.93, <italic>p</italic> &lt; 0.01). The total channel bar area in XZ was significantly negatively correlated with daily runoff at Huangzhuang station (<italic>r</italic> = &#x2212;0.79, <italic>p</italic> &lt; 0.05), and the channel bar change area was partly attributed to upstream precipitation due to the high correlation between runoff and precipitation (<italic>R</italic><sup>2</sup> = 0.65). In addition, the evolution of bars in XZ section during 1986&#x2013;2018 were complicated because it was upstream eroded and downstream deposited, the XZ1&#x2013;XZ3 areas have the decrease trend, the XZ4 and XZ5 areas increase generally. In fact, there are other explanations for channel bar area change apart from hydrological factors, such as vegetation cover, revetments projects, flood events, sand mining, land use, and over-exploitation. Generally, the DX section was under equilibrium between scouring and deposition compared to downstream Xangyang, the bars in DX section were mainly affected by water level, and bars in XZ section during 1986&#x2013;2018 were complicated. The total channel bar area in DX and XZ decreased by 23.19% and 16.63%, respectively, from 1986 to 2018. Furthermore, the study demonstrates that the multi-temporal satellite remote sensing images are convenient and practical to assess the morphodynamic evolution of channel bars. In addition, considering the ecological flow of biological habitats should be given enough attention in the reservoir&#x2019;s joint operation planning for the hydrological regime caused by the dams has a direct impact on the channel bar evolution. In order to protect the channel bars from disappearing, ecological revetment can be adopted and trees and grasses could be planted in the area with scour of the head of the bars. In future research, combined active and passive satellite images with high spatial and temporal resolution, such as Sentinel-1, Sentinel-2, COSMO-Skymed, PlanetScope, and GF-1, are needed. To fully understand channel bar dynamics and the impacts of cascade dams, it is necessary to explore dynamic evolution in 3-D space and the correlations between water and sand changes with bars in the Hanjiang River.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="app1-water-12-00136">
+        <title>Supplementary Materials</title>
+        <p>The following are available online at <uri>https://www.mdpi.com/2073-4441/12/1/136/s1</uri>, Table S1: Pearson correlation analyses between total DX channel bar area with hydrological conditions (* Significant correlation at 0.05 level; ** Significant correlation at 0.01 level); Table S2: Pearson correlation analyses between total XZ channel bar area with hydrological conditions (* Significant correlation at 0.05 level; ** Significant correlation at 0.01 level).</p>
+		<supplementary-material id="water-12-00136-s001" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-s001.pdf"></supplementary-material>
+      </app>
+    </app-group>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, X.C. and E.L.; data curation, Y.Z. and X.S.; formal analysis, Y.Z., C.Y., X.S. and X.B.; funding acquisition, E.L.; investigation, E.L. and X.B.; methodology, Y.Z. and X.C.; project administration, E.L.; resources, X.C.; software, C.Y. and X.S.; visualization, Y.Z.; writing&#x2014;original draft, Y.Z.; writing&#x2014;review and editing, Y.Z. and E.L. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This study was supported by the National Natural Science Foundation of China (No. 41671512, 41801100).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>No conflict of interest exits in the submission of this manuscript, and manuscript is approved by all authors for publication.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-water-12-00136">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hooke</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Yorke</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Channel bar dynamics on multi-decadal timescales in an active meandering river</article-title>
+          <source>Earth Surf. Proc. Land.</source>
+          <year>2011</year>
+          <volume>36</volume>
+          <fpage>1910</fpage>
+          <lpage>1928</lpage>
+          <pub-id pub-id-type="doi">10.1002/esp.2214</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-water-12-00136">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Graf</surname>
+              <given-names>W.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Downstream hydrologic and geomorphic effects of large dams on American rivers</article-title>
+          <source>Geomorphology</source>
+          <year>2006</year>
+          <volume>79</volume>
+          <fpage>336</fpage>
+          <lpage>360</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geomorph.2006.06.022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-water-12-00136">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grant</surname>
+              <given-names>G.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Geomorphic response of gravel-bed rivers to dams: Perspectives and prospects</article-title>
+          <source>Gravel Bed Rivers: Processes, Tools, Environments</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Church</surname>
+              <given-names>M.B.P.</given-names>
+            </name>
+            <name>
+              <surname>Roy</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>John Wiley &amp; Sons, Ltd.</publisher-name>
+          <publisher-loc>Chichester, UK</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B4-water-12-00136">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skalak</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Benthem</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Schenk</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Hupp</surname>
+              <given-names>C.R.</given-names>
+            </name>
+            <name>
+              <surname>Galloway</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Nustad</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Wiche</surname>
+              <given-names>G.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Large dams and alluvial rivers in the anthropocene: The impacts of the Garrison and Oahe Dams on the Upper Missouri River</article-title>
+          <source>Anthropocene</source>
+          <year>2013</year>
+          <volume>2</volume>
+          <fpage>51</fpage>
+          <lpage>64</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ancene.2013.10.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-water-12-00136">
+        <label>5.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanford</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dam Regulation Effects on Sand Bar Migration on the Missouri River: Southeastern South Dakota</article-title>
+          <source>Bachelor&#x2019;s Thesis</source>
+          <publisher-name>University of Montana</publisher-name>
+          <publisher-loc>Missoula, MT, USA</publisher-loc>
+          <year>2007</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-water-12-00136">
+        <label>6.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmutz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Moog</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dams: Ecological impacts and management</article-title>
+          <source>Riverine Ecosystem Management: Science for Governing Towards a Sustainable Future</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Schmutz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sendzimir</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer International Publishing</publisher-name>
+          <publisher-loc>Cham, Switzerland</publisher-loc>
+          <year>2018</year>
+          <fpage>111</fpage>
+          <lpage>127</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B7-water-12-00136">
+        <label>7.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hohensinner</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hauer</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Muhar</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>River morphology, channelization, and habitat restoration</article-title>
+          <source>Riverine Ecosystem Management: Science for Governing Towards a Sustainable Future</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Schmutz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sendzimir</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Springer International Publishing</publisher-name>
+          <publisher-loc>Cham, Switzerland</publisher-loc>
+          <year>2018</year>
+          <fpage>41</fpage>
+          <lpage>65</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B8-water-12-00136">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Provansal</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dufour</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Sabatier</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Anthony</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Raccasi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Robresco</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The geomorphic evolution and sediment balance of the lower Rh&#xF4;ne River (southern France) over the last 130years: Hydropower dams versus other control factors</article-title>
+          <source>Geomorphology</source>
+          <year>2014</year>
+          <volume>219</volume>
+          <fpage>27</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geomorph.2014.04.033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-water-12-00136">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Csiki</surname>
+              <given-names>S.J.C.</given-names>
+            </name>
+            <name>
+              <surname>Rhoads</surname>
+              <given-names>B.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of four run-of-river dams on channel morphology and sediment characteristics in Illinois, USA</article-title>
+          <source>Geomorphology</source>
+          <year>2014</year>
+          <volume>206</volume>
+          <fpage>215</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geomorph.2013.10.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-water-12-00136">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamics of 30 large channel bars in the Lower Mississippi River in response to river engineering from 1985 to 2015</article-title>
+          <source>Geomorphology</source>
+          <year>2018</year>
+          <volume>300</volume>
+          <fpage>31</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geomorph.2017.09.041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-water-12-00136">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Decadal-scale riverbed deformation and sand budget of the last 500 km of the Mississippi River: Insights into natural and river engineering effects on a large alluvial river</article-title>
+          <source>J. Geophys. Res. Earth Surf.</source>
+          <year>2018</year>
+          <volume>123</volume>
+          <fpage>874</fpage>
+          <lpage>890</lpage>
+          <pub-id pub-id-type="doi">10.1029/2017JF004542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-water-12-00136">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Capolongo</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Refice</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Bocchiola</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>D&#x2019;Addabbo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Vouvalidis</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Soncini</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zingaro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bovenga</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Stamatopoulos</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coupling multitemporal remote sensing with geomorphology and hydrological modeling for post flood recovery in the Strymonas dammed river basin (Greece)</article-title>
+          <source>Sci. Total Environ.</source>
+          <year>2019</year>
+          <volume>651</volume>
+          <fpage>1958</fpage>
+          <lpage>1968</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2018.10.114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-water-12-00136">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jia</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hei</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Morphological responses in a meandering and island-braided reach of the Middle Yangtze River to the Three Gorges Reservoir impoundment</article-title>
+          <source>Int. J. Sediment Res.</source>
+          <year>2016</year>
+          <volume>31</volume>
+          <fpage>131</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijsrc.2016.01.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-water-12-00136">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mei</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Jie</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolution of the mid-channel bars in the middle and lower reaches of the Changjiang (Yangtze) River from 1989 to 2014 based on the Landsat satellite images: Impact of the Three Gorges Dam</article-title>
+          <source>Environ. Earth Sci.</source>
+          <year>2018</year>
+          <volume>77</volume>
+          <fpage>394</fpage>
+          <pub-id pub-id-type="doi">10.1007/s12665-018-7576-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-water-12-00136">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Variation of river islands around a large city along the Yangtze River from satellite remote sensing images</article-title>
+          <source>Sensors</source>
+          <year>2017</year>
+          <volume>17</volume>
+          <elocation-id>2213</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/s17102213</pub-id>
+          <pub-id pub-id-type="pmid">28953218</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-water-12-00136">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.Z.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Monitoring temporal change of river islands in the Yangtze River by remotely sensed data</article-title>
+          <source>Water</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <elocation-id>17</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/w10101484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-water-12-00136">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Mei</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Lou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immediately downstream effects of Three Gorges Dam on channel sandbars morphodynamics between Yichang-Chenglingji Reach of the Changjiang River, China</article-title>
+          <source>J. Geogr. Sci.</source>
+          <year>2018</year>
+          <volume>28</volume>
+          <fpage>629</fpage>
+          <lpage>646</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11442-018-1495-8</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-water-12-00136">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wen</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lv</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shao</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Three-decadal dynamics of mid-channel bars in downstream of the Three Gorges Dam, China</article-title>
+          <source>Hydrol. Earth Syst. Sci.</source>
+          <year>2019</year>
+          <fpage>1</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.5194/hess-2019-69</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-water-12-00136">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Remotely sensed analysis of channel bar morphodynamics in the middle Yangtze River in response to a major monsoon flood in 2002</article-title>
+          <source>Remote Sens.</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <elocation-id>1165</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/rs10081165</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-water-12-00136">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xia</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Morphological adjustments in a meandering reach of the middle Yangtze River caused by severe human activities</article-title>
+          <source>Geomorphology</source>
+          <year>2017</year>
+          <volume>285</volume>
+          <fpage>325</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geomorph.2017.02.022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-water-12-00136">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.C.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding the hydropower exploitation&#x2019;s hydrological impacts through a len of change in flow-sediment relationship: A case study in the Han River Basin, China</article-title>
+          <source>Ecol. Eng.</source>
+          <year>2019</year>
+          <volume>129</volume>
+          <fpage>82</fpage>
+          <lpage>96</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoleng.2019.01.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-water-12-00136">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.H.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Q.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Scouring characteristics of downstream channel after operation of Danjiangkou Reservoir</article-title>
+          <source>J. Yangtze River Sci. Res. Inst.</source>
+          <year>2008</year>
+          <volume>25</volume>
+          <fpage>19</fpage>
+          <lpage>22</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-water-12-00136">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complex behaviour of suspended sediment grain size downstream from a reservoir: An example from the Hanjiang River, China</article-title>
+          <source>Hydrol. Sci. J.</source>
+          <year>1996</year>
+          <volume>41</volume>
+          <fpage>837</fpage>
+          <lpage>849</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B24-water-12-00136">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of sedimentation zones in a large sand-bed braided river: An example from the Hanjiang River of China</article-title>
+          <source>Geomorphology</source>
+          <year>1997</year>
+          <volume>21</volume>
+          <fpage>153</fpage>
+          <lpage>165</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B25-water-12-00136">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Wandering braided river channel pattern developed under quasi-equilibrium: An example from the Hanjiang River, China</article-title>
+          <source>J. Hydrol.</source>
+          <year>1996</year>
+          <volume>181</volume>
+          <fpage>85</fpage>
+          <lpage>103</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-1694(95)02910-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-water-12-00136">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evolution of mid-channel bars in a braided river and complex response to reservoir construction: An example from the middle Hanjiang River, China</article-title>
+          <source>Earth Surf. Proc. Land.</source>
+          <year>1997</year>
+          <volume>22</volume>
+          <fpage>953</fpage>
+          <lpage>965</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B27-water-12-00136">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ecosystem service trade-offs upstream and downstream of a dam: A case study of the Danjiangkou dam, China</article-title>
+          <source>J. Geosci.</source>
+          <year>2019</year>
+          <volume>12</volume>
+          <fpage>17</fpage>
+          <pub-id pub-id-type="doi">10.1007/s12517-018-4145-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-water-12-00136">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhuang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of Streamflow Change in Middle-Lower Reaches of the Hanjiang River</article-title>
+          <source>J. Hydrol. Eng.</source>
+          <year>2018</year>
+          <volume>23</volume>
+          <fpage>05018024</fpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)HE.1943-5584.0001727</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-water-12-00136">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhuang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Combined effect of Danjiangkou Reservoir and cascade reservoirs on hydrologic regime downstream</article-title>
+          <source>J. Hydrol. Eng.</source>
+          <year>2018</year>
+          <volume>23</volume>
+          <fpage>05018008</fpage>
+          <pub-id pub-id-type="doi">10.1061/(ASCE)HE.1943-5584.0001660</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-water-12-00136">
+        <label>30.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.F.</given-names>
+            </name>
+          </person-group>
+          <source>Observation and Study on Sediment Deposition and Channel Bed Evolution of the Danjiangkou Reservoir</source>
+          <publisher-name>Changjiang Press</publisher-name>
+          <publisher-loc>Wuhan, China</publisher-loc>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="B31-water-12-00136">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Jing</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Runoff and sediment response to cascade hydropower exploitation in the middle and lower Han River, China</article-title>
+          <source>Math. Probl. Eng.</source>
+          <year>2017</year>
+          <volume>2017</volume>
+          <fpage>1</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="doi">10.1155/2017/8785236</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-water-12-00136">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hydropower plant operation rules optimization response to climate change</article-title>
+          <source>Energy</source>
+          <year>2018</year>
+          <volume>160</volume>
+          <fpage>886</fpage>
+          <lpage>897</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.energy.2018.07.066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-water-12-00136">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Tu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modelling the crop water-satisfied degree on the grid scale: A CropWRA model and the case study of Hanjiang River Basin, China</article-title>
+          <source>Agric. For. Meteorol.</source>
+          <year>2018</year>
+          <volume>262</volume>
+          <fpage>215</fpage>
+          <lpage>226</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.agrformet.2018.07.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-water-12-00136">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent scouring in the middle stream of Hanjiang River</article-title>
+          <source>J. Yangtze River Sci. Res. Inst.</source>
+          <year>2015</year>
+          <volume>32</volume>
+          <fpage>1</fpage>
+          <lpage>5</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35-water-12-00136">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Qing</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes and driving forces of the water-sediment relationship in the middle reaches of the Hanjiang River</article-title>
+          <source>Water</source>
+          <year>2018</year>
+          <volume>10</volume>
+          <elocation-id>887</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/w10070887</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-water-12-00136">
+        <label>36.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>G.Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>H.F.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>C.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sediment environmental change and the health of the Hanjiang River</article-title>
+          <source>Proceedings of the National Symposium on Basic Theory of Sediment</source>
+          <conf-loc>Zhengzhou, China</conf-loc>
+          <conf-date>1 November 2005</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B37-water-12-00136">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of influence of water environment on development of hydropower cascade downstream of the Hanjiang River</article-title>
+          <source>J. Environ. Eng. Technol.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>259</fpage>
+          <lpage>265</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B38-water-12-00136">
+        <label>38.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ping</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Jian-rong</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <source>Preliminary Analysis of Effects of Comprehensive Development of Cascade Hydropower Project on River Course</source>
+          <publisher-name>Hydropower</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2006</year>
+          <fpage>1465</fpage>
+          <lpage>1471</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B39-water-12-00136">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ma</surname>
+              <given-names>F.K.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>W.Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on the improving effect of cascade development on shipping in the middle and lower reaches of the Hanjiang River</article-title>
+          <source>China Water Transp.</source>
+          <year>2014</year>
+          <volume>14</volume>
+          <fpage>34</fpage>
+          <lpage>35</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B40-water-12-00136">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Gorelick</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Zimba</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>A remote sensing method for estimating regional reservoir area and evaporative loss</article-title>
+          <source>J. Hydrol.</source>
+          <year>2017</year>
+          <volume>555</volume>
+          <fpage>213</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhydrol.2017.10.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-water-12-00136">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Du</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Linghu</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ling</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Gui</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimating surface water area changes using time-series Landsat data in the Qingjiang River Basin, China</article-title>
+          <source>J. Appl. Remote Sens.</source>
+          <year>2012</year>
+          <volume>6</volume>
+          <fpage>063609</fpage>
+          <pub-id pub-id-type="doi">10.1117/1.JRS.6.063609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-water-12-00136">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ling</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Gui</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>A comparison of land surface water mapping using the normalized difference water index from TM, ETM plus and ALI</article-title>
+          <source>Remote Sens.</source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>5530</fpage>
+          <lpage>5549</lpage>
+          <pub-id pub-id-type="doi">10.3390/rs5115530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-water-12-00136">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery</article-title>
+          <source>Int. J. Remote Sens.</source>
+          <year>2006</year>
+          <volume>27</volume>
+          <fpage>3025</fpage>
+          <lpage>3033</lpage>
+          <pub-id pub-id-type="doi">10.1080/01431160600589179</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-water-12-00136">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ling</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimating the relationship between dam water level and surface water area for the Danjiangkou Reservoir using Landsat remote sensing images</article-title>
+          <source>Remote Sens. Lett.</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>121</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1080/2150704X.2015.1117151</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-water-12-00136">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yue</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pilon</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Cavadias</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Power of the Mann&#x2013;Kendall and Spearman&#x2019;s rho tests for detecting monotonic trends in hydrological series</article-title>
+          <source>J. Hydrol.</source>
+          <year>2002</year>
+          <volume>259</volume>
+          <fpage>254</fpage>
+          <lpage>271</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0022-1694(01)00594-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-water-12-00136">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mann</surname>
+              <given-names>H.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nonparametric tests against trend</article-title>
+          <source>Econometrica</source>
+          <year>1945</year>
+          <volume>13</volume>
+          <fpage>245</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="doi">10.2307/1907187</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-water-12-00136">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Govindarajulu</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rank correlation methods (5th ed.)</article-title>
+          <source>Technometrics</source>
+          <year>1992</year>
+          <volume>34</volume>
+          <fpage>108</fpage>
+          <pub-id pub-id-type="doi">10.2307/1269571</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-water-12-00136">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pirnia</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Golshan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Darabi</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Adamowski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rozbeh</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Using the Mann&#x2013;Kendall test and double mass curve method to explore stream flow changes in response to climate and human activities</article-title>
+          <source>J. Water Clim. Chang.</source>
+          <year>2019</year>
+          <volume>10</volume>
+          <fpage>725</fpage>
+          <lpage>742</lpage>
+          <pub-id pub-id-type="doi">10.2166/wcc.2018.162</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-water-12-00136">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Petts</surname>
+              <given-names>G.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Complex response of river channel morphology subsequent to reservoir construction</article-title>
+          <source>Prog. Phys. Geogr.</source>
+          <year>1979</year>
+          <volume>3</volume>
+          <fpage>329</fpage>
+          <lpage>362</lpage>
+          <pub-id pub-id-type="doi">10.1177/030913337900300302</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-water-12-00136">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hecht</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Lacombe</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Arias</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Dang</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Piman</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hydropower dams of the Mekong River basin: A review of their hydrological impacts</article-title>
+          <source>J. Hydrol.</source>
+          <year>2019</year>
+          <volume>568</volume>
+          <fpage>285</fpage>
+          <lpage>300</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jhydrol.2018.10.045</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-water-12-00136">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Qian</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impacts of reservoirs on the streamflow and sediment load of the Hanjiang River, China</article-title>
+          <source>Environ. Monit. Assess.</source>
+          <year>2016</year>
+          <volume>188</volume>
+          <fpage>646</fpage>
+          <pub-id pub-id-type="doi">10.1007/s10661-016-5652-1</pub-id>
+          <pub-id pub-id-type="pmid">27796831</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-water-12-00136">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tian</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of channel bed evolution and preliminary exploration of regulation principles in wandering reaches of the Hanjiang River</article-title>
+          <source>Port. Waterway Eng.</source>
+          <year>1991</year>
+          <fpage>27</fpage>
+          <lpage>33</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cnki.com.cn/Article/CJFDTotal-SYGC199112006.htm" ext-link-type="uri">http://www.cnki.com.cn/Article/CJFDTotal-SYGC199112006.htm</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-30">(accessed on 30 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B53-water-12-00136">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of dams on Yangtze River sediment supply to the sea and delta intertidal wetland response</article-title>
+          <source>J. Geophys. Res. Earth Surf.</source>
+          <year>2005</year>
+          <volume>110</volume>
+          <pub-id pub-id-type="doi">10.1029/2004JF000271</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-water-12-00136">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of cascading hydropower dams on the composition, biomass and biological integrity of phytoplankton assemblages in the middle Lancang-Mekong River</article-title>
+          <source>Ecol. Eng.</source>
+          <year>2013</year>
+          <volume>60</volume>
+          <fpage>316</fpage>
+          <lpage>324</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoleng.2013.07.029</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-water-12-00136">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of water diversion and cascade development on water environmental capacity of the Hanjiang River in Xiangyang</article-title>
+          <source>Environ. Prot. Sci.</source>
+          <year>2013</year>
+          <volume>39</volume>
+          <fpage>9</fpage>
+          <lpage>12</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B56-water-12-00136">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nkongolo</surname>
+              <given-names>N.V.</given-names>
+            </name>
+            <name>
+              <surname>Plassmeyer</surname>
+              <given-names>C.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of vegetation type on soil physical properties at Lincoln University Living Laboratory</article-title>
+          <source>Res. J. For.</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="doi">10.3923/rjf.2010.1.13</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-water-12-00136">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eni</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Iwara</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Offiong</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of soil-vegetation interrelationships in a south-southern secondary forest of Nigeria</article-title>
+          <source>Int. J. For. Res.</source>
+          <year>2012</year>
+          <volume>2012</volume>
+          <fpage>8</fpage>
+          <pub-id pub-id-type="doi">10.1155/2012/469326</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58-water-12-00136">
+        <label>58.</label>
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Remote Sensing of the Land Desertification in the Middle Reaches of Hanjiang River Valley Plain</article-title>
+          <source>Ph.D. Thesis</source>
+          <publisher-name>Institute of Geodesy and Geophysics, Chinese Academy of Sciences</publisher-name>
+          <publisher-loc>Wuhan, China</publisher-loc>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="B59-water-12-00136">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gurnell</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Grabowski</surname>
+              <given-names>R.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vegetation&#x2013;hydrogeomorphology interactions in a low-energy, human-impacted river</article-title>
+          <source>River Res. Appl.</source>
+          <year>2016</year>
+          <volume>32</volume>
+          <fpage>202</fpage>
+          <lpage>215</lpage>
+          <pub-id pub-id-type="doi">10.1002/rra.2922</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60-water-12-00136">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Picco</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Comiti</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Tonon</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lenzi</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Medium and short term riparian vegetation, island and channel evolution in response to human pressure in a regulated gravel bed river (Piave River, Italy)</article-title>
+          <source>Catena</source>
+          <year>2017</year>
+          <volume>149</volume>
+          <fpage>760</fpage>
+          <lpage>769</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.catena.2016.04.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61-water-12-00136">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hudson</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>van der Hout</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Verdaasdonk</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>(Re)Development of fluvial islands along the lower Mississippi River over five decades, 1965&#x2013;2015</article-title>
+          <source>Geomorphology</source>
+          <year>2019</year>
+          <volume>331</volume>
+          <fpage>78</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.geomorph.2018.11.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62-water-12-00136">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>D.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functions and effects of dam structures in regulating wandering reach</article-title>
+          <source>Port Waterway Eng.</source>
+          <year>2002</year>
+          <volume>31&#x2013;33</volume>
+          <fpage>40</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B63-water-12-00136">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lei</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Achievements and considerations of Hanjiang Waterway Regulation Project</article-title>
+          <source>China Water Transp.</source>
+          <year>1996</year>
+          <fpage>13</fpage>
+          <lpage>15</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cnki.com.cn/Article/CJFDTotal-ZHOG611.003.htm" ext-link-type="uri">http://www.cnki.com.cn/Article/CJFDTotal-ZHOG611.003.htm</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-30">(accessed on 30 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B64-water-12-00136">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mueller</surname>
+              <given-names>E.R.</given-names>
+            </name>
+            <name>
+              <surname>Grams</surname>
+              <given-names>P.E.</given-names>
+            </name>
+            <name>
+              <surname>Hazel</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Variability in eddy sandbar dynamics during two decades of controlled flooding of the Colorado River in the Grand Canyon</article-title>
+          <source>Sediment. Geol.</source>
+          <year>2018</year>
+          <volume>363</volume>
+          <fpage>181</fpage>
+          <lpage>199</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.sedgeo.2017.11.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B65-water-12-00136">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuill</surname>
+              <given-names>B.T.</given-names>
+            </name>
+            <name>
+              <surname>Gaweesh</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Allison</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Meselhe</surname>
+              <given-names>E.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Morphodynamic evolution of a lower Mississippi River channel bar after sand mining</article-title>
+          <source>Earth Surf. Proc. Land.</source>
+          <year>2016</year>
+          <volume>41</volume>
+          <fpage>526</fpage>
+          <lpage>542</lpage>
+          <pub-id pub-id-type="doi">10.1002/esp.3846</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="water-12-00136-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Location of the cascade reservoirs and channel bars in the middle reaches of the Hanjiang River (channel bars are highlighted with Landsat-8 (Operational Land Imager, OLI) imagery from 2018 (bands combination of Short-wave infrared (SWIR1), Near-infrared (NIR), and Red), and Xiangyang-Huangzhuang 3 (XZ3), XZ4, and XZ5 are shoal groups displayed in the red area).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g001.tif"/>
+      </fig>
+      <fig id="water-12-00136-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Channel bar automatic extraction steps (example using Landsat-8 image in false color with the Short-wave infrared (SWIR), Near-infrared (NIR), and Red bands from 26 February 2018).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g002.tif"/>
+      </fig>
+      <fig id="water-12-00136-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>The Mann-Kendall (M-K) trend test for the hydrologic regime from 1986&#x2013;2018 ((<bold>a</bold>) annual water level at the Huangjiagang station; (<bold>b</bold>) annual water level at the Xiangyang station; (<bold>c</bold>) annual water level at the Huangzhuang station; (<bold>d</bold>) annual runoff at the Huangjiagang station; (<bold>e</bold>) annual runoff at the Huangzhuang station).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g003.tif"/>
+      </fig>
+      <fig id="water-12-00136-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Channel bars with obvious changes in area during 1986&#x2013;2018.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g004.tif"/>
+      </fig>
+      <fig id="water-12-00136-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Channel bar area change rates along the middle reaches of the Hanjiang River from 1986&#x2013;2018 (<bold>a</bold>) Danjiangkou-Xiangyang 1 (DX1)&#x2013;DX4, (<bold>b</bold>) DX5&#x2013;DX7, (<bold>c</bold>) (XZ1&#x2013;XZ5).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g005.tif"/>
+      </fig>
+      <fig id="water-12-00136-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Channel bar area anomalies in the DX and XZ reaches.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g006.tif"/>
+      </fig>
+      <fig id="water-12-00136-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Changes in annual average of water level at Xiangyang station (XY) and total channel bar area in DX reach.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g007.tif"/>
+      </fig>
+      <fig id="water-12-00136-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Changes in daily discharge at Huangzhuang station (HZ) and total channel bar area in XZ reach.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g008.tif"/>
+      </fig>
+      <fig id="water-12-00136-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Annual runoff at Huangjiagang (HJG) and Huangzhuang (HZ) stations (the grey range is the 95% confidence interval).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g009.tif"/>
+      </fig>
+      <fig id="water-12-00136-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Regression analysis between discharge at Huangzhuang hydrologic station and annual precipitation at Laohekou meteorological station.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g010.tif"/>
+      </fig>
+      <fig id="water-12-00136-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Example of channel bar change in both area and shape after a flooding event.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="water-12-00136-g011.tif"/>
+      </fig>
+      <table-wrap id="water-12-00136-t001" position="float">
+        <object-id pub-id-type="pii">water-12-00136-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Information of the cascade reservoirs in the middle reaches of Hanjiang River.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Reservoir</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Normal Storage Level (m a.s.l.) *</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Distance from Danjiangkou Dam (km)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Regulation Ability</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Normal Capacity (million m<sup>3</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Year Constructed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Danjiangkou</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">157.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">year</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17,450</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1973</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">170.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Multi-year</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29,050</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2013</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Wangfuzhou</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">86.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Danjiangkou reservoir reverse regulation</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">149.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2000</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Xinji</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">76.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">89.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">day</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">301.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">under construction</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cuijiaying</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">62.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">134.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">day</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">245.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2010</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Yakou</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">55.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">201.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">day</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">608.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">under construction</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Nianpanshan</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">49.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">263.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">-</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">877.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">under construction</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: * above sea level (a.s.l.), the sea level is based Wusong datum of the China in here and for the rest of this paper.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="water-12-00136-t002" position="float">
+        <object-id pub-id-type="pii">water-12-00136-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>The 30 m resolution remote sensing data and corresponding water levels of Huangjiagang hydrologic station in the study area.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">124/38</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">125/38</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Data Source</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Date</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Water Level (m a.s.l.)</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Data Source</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Date</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Water Level (m a.s.l.)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Landsat-5 TM</td>
+              <td align="center" valign="middle">3 December 1986</td>
+              <td align="center" valign="middle">88.09</td>
+              <td align="center" valign="middle">Landsat-5 TM</td>
+              <td align="center" valign="middle">10 December 1986</td>
+              <td align="center" valign="middle">87.79</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Landsat-5 TM</td>
+              <td align="center" valign="middle">7 November 1994</td>
+              <td align="center" valign="middle">-</td>
+              <td align="center" valign="middle">Landsat-5 TM</td>
+              <td align="center" valign="middle">2 February 1995</td>
+              <td align="center" valign="middle">88.01</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Landsat-5 TM</td>
+              <td align="center" valign="middle">23 November 2000</td>
+              <td align="center" valign="middle">89.03</td>
+              <td align="center" valign="middle">Landsat-7 ETM+</td>
+              <td align="center" valign="middle">24 December 2000</td>
+              <td align="center" valign="middle">88.82</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Landsat-5 TM</td>
+              <td align="center" valign="middle">18 November 2004</td>
+              <td align="center" valign="middle">88.89</td>
+              <td align="center" valign="middle">Landsat-5 TM</td>
+              <td align="center" valign="middle">8 October 2004</td>
+              <td align="center" valign="middle">88.86</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Landsat-5 TM</td>
+              <td align="center" valign="middle">5 December 2010</td>
+              <td align="center" valign="middle">88.68</td>
+              <td align="center" valign="middle">Landsat-5 TM</td>
+              <td align="center" valign="middle">26 November 2010</td>
+              <td align="center" valign="middle">88.53</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Landsat-8 OLI</td>
+              <td align="center" valign="middle">29 December 2013</td>
+              <td align="center" valign="middle">88.7</td>
+              <td align="center" valign="middle">Landsat-8 OLI</td>
+              <td align="center" valign="middle">4 December 2013</td>
+              <td align="center" valign="middle">88.73</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Landsat-8 OLI</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26 February 2018</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">88.83</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Landsat-8 OLI</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">21 March 2018</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">88.91</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Notes: TM, Thematic Mapper; ETM+, Enhanced Thematic Mapper Plus; OLI, Operational Land Imager; and the blank is the data missing.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="water-12-00136-t003" position="float">
+        <object-id pub-id-type="pii">water-12-00136-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Different sensors correspond to band information of Green and MIR.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sensor</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Band</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Wavelength (&#x3BC;m)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Landsat-5 TM</td>
+              <td align="center" valign="middle">B2(Green)</td>
+              <td align="center" valign="middle">0.52&#x2013;0.60</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B5(SWIR)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.55&#x2013;1.75</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Landsat-7 ETM+</td>
+              <td align="center" valign="middle">B2(Green)</td>
+              <td align="center" valign="middle">0.53&#x2013;0.61</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B5(SWIR)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.55&#x2013;1.75</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">Landsat-8 OLI</td>
+              <td align="center" valign="middle">B3(Green)</td>
+              <td align="center" valign="middle">0.53&#x2013;0.59</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">B6(SWIR1)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.57&#x2013;1.65</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Notes: Mid-infrared MIR; Short-wave infrared, SWIR.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="water-12-00136-t004" position="float">
+        <object-id pub-id-type="pii">water-12-00136-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Average annual sediment concentration (kg/m<sup>3)</sup> at hydrological stations.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Hydrological Station</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Pre-Dam (1950&#x2013;1958)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Flood Retention (1959&#x2013;1967)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Impoundment (1968&#x2013;2018)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">1986&#x2013;1994</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">1995&#x2013;2000</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">2001&#x2013;2010</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">2011&#x2013;2018</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Huangjiagang</td>
+              <td align="center" valign="middle">2.92</td>
+              <td align="center" valign="middle">1.7</td>
+              <td align="center" valign="middle">0.03</td>
+              <td align="center" valign="middle">0.01</td>
+              <td align="center" valign="middle">0.01</td>
+              <td align="center" valign="middle">0.01</td>
+              <td align="center" valign="middle">0.04</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Huangzhuang</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.62</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.69</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.27</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.07</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Notes: The years of missing data at Huangjiagang station were 1986, 1988, 1991&#x2013;1997, 1999, 2001, 2002, 2004, 2006, 2008, and 2017; the years of missing data at Huangzhuang station were 1959, 1964, 1968, 1972&#x2013;1973, 1984, and 1993.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="water-12-00136-t005" position="float">
+        <object-id pub-id-type="pii">water-12-00136-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Mann-Kendall analysis of changing trends in the hydrological regimes.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Factors</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>Z</italic> Statistic</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sig. Level</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                <italic>A</italic>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">water level</td>
+              <td align="center" valign="middle">Huangjiagang</td>
+              <td align="center" valign="middle">4.08</td>
+              <td align="center" valign="middle">0.01</td>
+              <td align="center" valign="middle">0.04</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Xiangyang</td>
+              <td align="center" valign="middle">2.22</td>
+              <td align="center" valign="middle">0.05</td>
+              <td align="center" valign="middle">0.12</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Huangzhuang</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;4.29</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.01</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.06</td>
+            </tr>
+            <tr>
+              <td rowspan="2" align="center" valign="middle" style="border-bottom:solid thin">runoff</td>
+              <td align="center" valign="middle">Huangjiagang</td>
+              <td align="center" valign="middle">1.69</td>
+              <td align="center" valign="middle">0.1</td>
+              <td align="center" valign="middle">7.17</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Huangzhuang</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.29</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&gt;0.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.19</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: <italic>A</italic>, the amplitude of variation is the slope of the trendline.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

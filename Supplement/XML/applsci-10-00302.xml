@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">applsci</journal-id>
+      <journal-title-group>
+        <journal-title>Applied Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Appl. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Applied Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2076-3417</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/app10010302</article-id>
+      <article-id pub-id-type="publisher-id">applsci-10-00302</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Flow Synthesizer: Universal Audio Synthesizer Control with Normalizing Flows <xref rid="fn1-applsci-10-00302" ref-type="fn">&#x2020;</xref></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1655-7909</contrib-id>
+          <name>
+            <surname>Esling</surname>
+            <given-names>Philippe</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00302" ref-type="aff">1</xref>
+          <xref rid="c1-applsci-10-00302" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Masuda</surname>
+            <given-names>Naotake</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00302" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bardet</surname>
+            <given-names>Adrien</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00302" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Despres</surname>
+            <given-names>Romeo</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00302" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chemla-Romeu-Santos</surname>
+            <given-names>Axel</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00302" ref-type="aff">1</xref>
+          <xref rid="af2-applsci-10-00302" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-applsci-10-00302"><label>1</label>IRCAM&#x2014;CNRS UMR 9912 Sorbonne Universit&#xE9;, 75004 Paris, France; <email>napsau23@gmail.com</email> (N.M.); <email>adrien.bardet@live.fr</email> (A.B.); <email>despres.romeo@gmail.com</email> (R.D.); <email>chemla@ircam.fr</email> (A.C.-R.-S.)</aff>
+      <aff id="af2-applsci-10-00302"><label>2</label>Laboratorio d&#x2019;Informatica Musicale (LIM), UNIMI, 20133 Milano, Italy</aff>
+      <author-notes>
+        <corresp id="c1-applsci-10-00302"><label>*</label>Correspondence: <email>esling@ircam.fr</email></corresp>
+        <fn id="fn1-applsci-10-00302">
+          <label>&#x2020;</label>
+          <p>This paper is an extended version of the conference paper presented at the 22nd International Conference on Digital Audio Effects (DaFX), Birmingham, UK, 2&#x2013;6 September 2019.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>1</issue>
+      <elocation-id>302</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>29</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The ubiquity of sound synthesizers has reshaped modern music production, and novel music genres are now sometimes even entirely defined by their use. However, the increasing complexity and number of parameters in modern synthesizers make them extremely hard to master. Hence, the development of methods allowing to easily create and explore with synthesizers is a crucial need. Recently, we introduced a novel formulation of audio synthesizer control based on learning an organized latent audio space of the synthesizer&#x2019;s capabilities, while constructing an invertible mapping to the space of its parameters. We showed that this formulation allows to simultaneously address <italic>automatic parameters inference</italic>, <italic>macro-control learning</italic>, and <italic>audio-based preset exploration</italic> within a single model. We showed that this formulation can be efficiently addressed by relying on Variational Auto-Encoders (VAE) and Normalizing Flows (NF). In this paper, we extend our results by evaluating our proposal on larger sets of parameters and show its superiority in both parameter inference and audio reconstruction against various baseline models. Furthermore, we introduce <italic>disentangling flows</italic>, which allow to learn the invertible mapping between two separate latent spaces, while steering the organization of some latent dimensions to match target variation factors by splitting the objective as partial density evaluation. We show that the model disentangles the major factors of audio variations as latent dimensions, which can be directly used as <italic>macro-parameters</italic>. We also show that our model is able to learn semantic controls of a synthesizer, while smoothly mapping to its parameters. Finally, we introduce an open-source implementation of our models inside a real-time Max4Live device that is readily available to evaluate creative applications of our proposal.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>audio synthesizer</kwd>
+        <kwd>normalizing flows</kwd>
+        <kwd>variational inference</kwd>
+        <kwd>music information retrieval</kwd>
+        <kwd>machine learning</kwd>
+        <kwd>probabilistic graphical models</kwd>
+        <kwd>generative models</kwd>
+        <kwd>creative AI</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec1-applsci-10-00302">
+      <title>1. Introduction</title>
+      <p>Synthesizers are parametric systems able to generate audio signals ranging from musical instruments to entirely unheard-of sound textures. Since their commercial beginnings more than 50 years ago, synthesizers have revolutionized music production, while becoming increasingly accessible, even to neophytes with no background in signal processing.</p>
+      <p>While there exists a variety of sound synthesis types [<xref ref-type="bibr" rid="B1-applsci-10-00302">1</xref>], all of these techniques require an extensive a priori knowledge to make the most out of a synthesizer possibilities. Hence, the main appeal of these systems (namely their versatility provided by large sets of parameters) also entails their major drawback. Indeed, the sheer combinatorics of parameter settings makes exploring all possibilities to find an adequate sound a daunting and time-consuming task. Furthermore, there exist highly non-linear relationships between the parameters and the resulting audio. Unfortunately, no synthesizer provides intuitive controls related to perceptual and semantic properties of the generated audio. Hence, a method allowing an intuitive and creative exploration of sound synthesizers has become a crucial need, especially for non-expert users.</p>
+      <p>A potential direction taken by synth manufacturers is to propose programmable <italic>macro-controls</italic> that allow to efficiently manipulate the generated sound qualities by controlling multiple parameters through a single knob. However, these need to be programmed manually, which still requires expert knowledge. Furthermore, no method has ever tried to tackle this <italic>macro-control learning</italic> task, as this objective appears unclear and depends on a variety of unknown factors. An alternative to manual parameters setting would be to infer the set of parameters that could best reproduce a given <italic>target sound</italic>. This task of <italic>parameters inference</italic> has been studied in the past years using various techniques, such as iterative relevance feedback on audio descriptors [<xref ref-type="bibr" rid="B2-applsci-10-00302">2</xref>], Genetic Programming to directly grow modular synthesizers [<xref ref-type="bibr" rid="B3-applsci-10-00302">3</xref>], or bi-directional LSTM with highway layers [<xref ref-type="bibr" rid="B4-applsci-10-00302">4</xref>] to produce parameters approximation. Although these approaches might be appealing, they all share the same fundamental flaws that (i) though it is unlikely that a synthesizer can generate exactly any audio target, none explicitly model these limitations, (ii) they do not account for the non-linear relationships that exist between parameters and the corresponding synthesized audio, and (iii) none of these approaches allow for higher-level controls or interaction with audio synthesizers. Hence, no approach has succeeded in unveiling the true relationships between these <italic>auditory</italic> and <italic>parameters</italic> spaces. Hence, it appears mandatory to organize the parameters and audio capabilities of a given synthesizer in their respective spaces, while constructing an invertible mapping between these spaces in order to access a range of high-level interactions. This idea is depicted in <xref ref-type="fig" rid="applsci-10-00302-f001">Figure 1</xref>.</p>
+      <p>The recent rise of <italic>generative models</italic> might provide an elegant solution to these questions. Indeed, amongst these models, the <italic>Variational Auto-Encoder</italic> (VAE) [<xref ref-type="bibr" rid="B5-applsci-10-00302">5</xref>] aims to uncover the underlying structure of the data, by explicitly learning a <italic>latent space</italic> [<xref ref-type="bibr" rid="B5-applsci-10-00302">5</xref>]. This space can be seen as a high-level representation, which aims to disentangle underlying variation factors and reveal interesting structural properties of the data [<xref ref-type="bibr" rid="B5-applsci-10-00302">5</xref>,<xref ref-type="bibr" rid="B6-applsci-10-00302">6</xref>]. VAEs address the limitations of control and analysis through this latent space, while being able to learn on small sets of examples. Furthermore, the recently proposed <italic>Normalizing Flows</italic> (NF) [<xref ref-type="bibr" rid="B7-applsci-10-00302">7</xref>] also allow to model highly complex distributions in this latent space. Although the use of VAEs for audio applications has only been scarcely investigated, Esling et al. [<xref ref-type="bibr" rid="B8-applsci-10-00302">8</xref>] recently proposed a perceptually regularized VAE that learns a space of audio signals aligned with perceptual ratings via a regularization loss. The resulting space exhibits an organization that is well aligned with perception. Hence, this model appears as a valid candidate to learn an organized audio space.</p>
+      <p>Recently, we introduced a radically novel formulation of audio synthesizer control [<xref ref-type="bibr" rid="B9-applsci-10-00302">9</xref>] by formalizing it as the general question of finding an invertible mapping between organized latent spaces, linking the audio space of a synthesizer&#x2019;s capabilities to the space of its parameters. We provided a generic probabilistic formalization and showed that it allows to address simultaneously the tasks of <italic>parameter inference</italic>, <italic>macro-control learning</italic>, and <italic>audio-based preset exploration</italic> within a single model. To solve this new formulation, we proposed <italic>conditional regression flows</italic>, which map a latent space to any given target space, as depicted in <xref ref-type="fig" rid="applsci-10-00302-f002">Figure 2</xref>. Based on this formulation, <italic>parameter inference</italic> simply consisted of encoding the audio target to the latent audio space that is mapped to the parameter space. Interestingly, this bypasses the well-known blurriness issue in VAEs as we can generate directly with the synthesizer instead of the decoder. In this paper, we extend the evaluation of our proposal on larger sets of parameters against various baseline models and show its superiority in parameter inference and audio reconstruction. Furthermore, we discuss how our model is able to address the task of automatic <italic>macro-control learning</italic> that we introduced in Ref. [<xref ref-type="bibr" rid="B9-applsci-10-00302">9</xref>] with this increased complexity. As the latent dimensions are continuous and map to the parameter space, they provide a natural way to learn the perceptually most significant macro-parameters. We show that these controls map to smooth, yet non-linear parameters evolution, while remaining perceptually continuous. Hence, this provides a way to learn the compressed and principal dimensions of macro-control in a synthesizer. Furthermore, as our mapping is invertible, we can map synthesis parameters back to the audio space. This allows intuitive <italic>audio-based preset exploration</italic>, where exploring the neighborhood of a preset encoded in the audio space yields similarly sounding patches, yet with largely different parameters. In this paper, we further propose <italic>disentangling flows</italic> to steer the organization of some of the latent dimensions to match given target distributions. We evaluate the ability of our model to learn these <italic>semantic controls</italic> by explicitly targeting disentanglement in the latent space of the semantic tags associated to synthesizer presets. We show that, although the model learns to separate the semantic distributions, the corresponding controls are not easily interpretable. Finally, we introduce a real-time implementation of our model in <italic>Ableton Live</italic> and discuss its potential use in creative applications (All code, supplementary figures, results, and the real-time Max4Live plugin are available as open-source packages on a supporting webpage: <uri>https://acids-ircam.github.io/flow_synthesizer/</uri>).</p>
+    </sec>
+    <sec id="sec2-applsci-10-00302">
+      <title>2. State-Of-Art</title>
+      <sec id="sec2dot1-applsci-10-00302">
+        <title>2.1. Generative Models and Variational Auto-Encoders</title>
+        <p><italic>Generative models</italic> aim to understand a given set of input examples <inline-formula><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">x</mml:mi><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:msub><mml:mi>d</mml:mi><mml:mi>x</mml:mi></mml:msub></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> by modeling the underlying probability distribution of the data <inline-formula><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. To do so, we introduce <italic>latent variables</italic> defined in a lower-dimensional space <inline-formula><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:msub><mml:mi>d</mml:mi><mml:mi>z</mml:mi></mml:msub></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> (<inline-formula><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>d</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:mo>&#x226A;</mml:mo><mml:msub><mml:mi>d</mml:mi><mml:mi>x</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>). These variables can be seen as a higher-level representation that could have led to generate a given example. The complete model is then defined by the joint distribution <inline-formula><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. In order to obtain <inline-formula><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, we would need to marginalize <inline-formula><mml:math id="mm7" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> from the joint probability as follows
+        <disp-formula id="FD1-applsci-10-00302"><label>(1)</label><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mo>&#x222B;</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mo stretchy="false">|</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi mathvariant="bold">z</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>d</mml:mi><mml:mi mathvariant="bold">z</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Unfortunately, as real-world data follow complex distributions, this formulation usually cannot be solved analytically. The idea of <italic>variational inference</italic> (VI) is to solve this problem through <italic>optimization</italic> by assuming a simpler approximate distribution <inline-formula><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2208;</mml:mo><mml:mi mathvariant="script">Q</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> from a family of parametric densities [<xref ref-type="bibr" rid="B10-applsci-10-00302">10</xref>], where <inline-formula><mml:math id="mm10" display="block"><mml:semantics><mml:mi>&#x3D5;</mml:mi></mml:semantics></mml:math></inline-formula> denotes the variational parameters that we can optimize. The goal of VI is to minimize the difference between this approximation and the real distribution, by minimizing the Kullback&#x2013;Leibler (KL) divergence between these densities
+        <disp-formula id="FD2-applsci-10-00302"><label>(2)</label><mml:math id="mm11" display="block"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msubsup><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>argmin</mml:mi><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2208;</mml:mo><mml:mi mathvariant="script">Q</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2016;</mml:mo><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>However, our original problem is that we did not have a closed-form solution to the posterior <inline-formula><mml:math id="mm12" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mo>|</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. By developing this KL divergence, re-arranging terms (the detailed development can be found in [<xref ref-type="bibr" rid="B5-applsci-10-00302">5</xref>]) and introducing parametric distributions for the likelihood <inline-formula><mml:math id="mm13" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mo>|</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and prior <inline-formula><mml:math id="mm14" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, we obtain
+        <disp-formula id="FD3-applsci-10-00302"><label>(3)</label><mml:math id="mm15" display="block"><mml:semantics><mml:mrow><mml:mi>log</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2016;</mml:mo><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="double-struck">E</mml:mi><mml:mi mathvariant="bold">z</mml:mi></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mi>log</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2016;</mml:mo><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>This formulation describes the quantity we want to model <inline-formula><mml:math id="mm16" display="block"><mml:semantics><mml:mrow><mml:mi>log</mml:mi><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> minus the error we make by using an approximate <italic>q</italic> instead of the true <italic>p</italic>. Therefore, we can optimize this alternative objective, called the <italic>evidence lower bound</italic> (ELBO), by optimizing the parameters <inline-formula><mml:math id="mm17" display="block"><mml:semantics><mml:mi>&#x3D5;</mml:mi></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm18" display="block"><mml:semantics><mml:mi>&#x3B8;</mml:mi></mml:semantics></mml:math></inline-formula> of the distributions
+        <disp-formula id="FD4-applsci-10-00302"><label>(4)</label><mml:math id="mm19" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="script">L</mml:mi><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mo>,</mml:mo><mml:mi>&#x3D5;</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="double-struck">E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>log</mml:mi><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3B2;</mml:mi><mml:mo>&#xB7;</mml:mo><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2016;</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Intuitively, the ELBO minimizes the reconstruction error through the likelihood of the data given a latent <inline-formula><mml:math id="mm20" display="block"><mml:semantics><mml:mrow><mml:mi>log</mml:mi><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, while regularizing the distribution <inline-formula><mml:math id="mm21" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> to follow a given prior distribution <inline-formula><mml:math id="mm22" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. We can see that this equation involves <inline-formula><mml:math id="mm23" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> which <italic>encodes</italic> the data <inline-formula><mml:math id="mm24" display="block"><mml:semantics><mml:mi mathvariant="bold">x</mml:mi></mml:semantics></mml:math></inline-formula> into the latent representation <inline-formula><mml:math id="mm25" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> and a <italic>decoder</italic> <inline-formula><mml:math id="mm26" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, which generates <inline-formula><mml:math id="mm27" display="block"><mml:semantics><mml:mi mathvariant="bold">x</mml:mi></mml:semantics></mml:math></inline-formula> given a <inline-formula><mml:math id="mm28" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula>. This structure defines the <italic>Variational Auto-Encoder</italic> (VAE), where we can use parametric neural networks to model the <italic>encoding</italic> (<inline-formula><mml:math id="mm29" display="block"><mml:semantics><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>) and <italic>decoding</italic> (<inline-formula><mml:math id="mm30" display="block"><mml:semantics><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>) distributions. VAEs are powerful representation learning frameworks, while remaining simple and fast to learn without requiring large sets of examples [<xref ref-type="bibr" rid="B11-applsci-10-00302">11</xref>].</p>
+        <p>However, the original formulation of the VAE entails several limitations. First, it has been shown that the KL divergence regularization can lead both to uninformative latent codes (also called <italic>posterior collapse</italic>) and variance over-estimation [<xref ref-type="bibr" rid="B12-applsci-10-00302">12</xref>]. One way to alleviate this problem is to rely on the <italic>Maximum Mean Discrepancy</italic> (MMD) instead of the KL to regularize the latent space, leading to the WassersteinAE (WAE) model [<xref ref-type="bibr" rid="B13-applsci-10-00302">13</xref>]. Second, one of the key aspect in the success of VI lies in the choice of the family of approximations. The simplest choice is the <italic>mean-field</italic> family where latent variables are mutually independent and parametrized by distinct variational parameters <inline-formula><mml:math id="mm31" display="block"><mml:semantics><mml:mrow><mml:mi>q</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msubsup><mml:mo>&#x220F;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>m</mml:mi></mml:msubsup><mml:msub><mml:mi>q</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Although this provide an easy tool for analytical development, it might prove too simplistic when modeling complex data as this assumes pairwise independence among every latent axis. In order to alleviate this issue, normalizing flows [<xref ref-type="bibr" rid="B7-applsci-10-00302">7</xref>] have been proposed by adding a sequence of invertible transformations to the latent variable, providing a more expressive inference process.</p>
+      </sec>
+      <sec id="sec2dot2-applsci-10-00302">
+        <title>2.2. Normalizing Flows</title>
+        <p>In order to transform a probability distribution, we can rely on the <italic>change of variable</italic> theorem. As we deal with probability distributions, we need to <italic>scale</italic> the transformed density so that it still sums to one, which is measured by the Jacobian of the transform. Formally, let <inline-formula><mml:math id="mm32" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:mi>d</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> be a random variable with distribution <inline-formula><mml:math id="mm33" display="block"><mml:semantics><mml:mrow><mml:mi>q</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm34" display="block"><mml:semantics><mml:mrow><mml:mi>f</mml:mi><mml:mo>:</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:mi>d</mml:mi></mml:msup><mml:mo>&#x2192;</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:mi>d</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> an invertible smooth mapping. We can use <italic>f</italic> to transform <inline-formula><mml:math id="mm35" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x223C;</mml:mo><mml:mi>q</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, so that the resulting random variable <inline-formula><mml:math id="mm36" display="block"><mml:semantics><mml:mrow><mml:msup><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>=</mml:mo><mml:mi>f</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> has the following probability distribution
+        <disp-formula id="FD5-applsci-10-00302"><label>(5)</label><mml:math id="mm37" display="block"><mml:semantics><mml:mrow><mml:mi>q</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msup><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>q</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mi>det</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msup><mml:mi>f</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msup><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup></mml:mrow></mml:mfrac><mml:mo>|</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>q</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mo>|</mml:mo><mml:mi>det</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>f</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi mathvariant="bold">z</mml:mi></mml:mrow></mml:mfrac><mml:mo>|</mml:mo></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where the last equality is obtained through the inverse function theorem [<xref ref-type="bibr" rid="B7-applsci-10-00302">7</xref>]. As we can see, this allows us to perform inference by relying on a more complicated (transformed) distribution <inline-formula><mml:math id="mm38" display="block"><mml:semantics><mml:mrow><mml:mi>q</mml:mi><mml:mo>(</mml:mo><mml:msup><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, while still being able to keep the simplicity of a mathematical development based on <inline-formula><mml:math id="mm39" display="block"><mml:semantics><mml:mrow><mml:mi>q</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. Now, we can iteratively apply this reasoning and perform an arbitrary number of transforms to our original variable such that <inline-formula><mml:math id="mm40" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>&#x2218;</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>&#x2218;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, in order to obtain a final distribution <inline-formula><mml:math id="mm41" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>&#x223C;</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> given by
+        <disp-formula id="FD6-applsci-10-00302"><label>(6)</label><mml:math id="mm42" display="block"><mml:semantics><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msubsup><mml:mi>f</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mo>&#x2218;</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>&#x2218;</mml:mo><mml:msubsup><mml:mi>f</mml:mi><mml:mi>k</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>&#x220F;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:munderover></mml:mstyle><mml:mrow><mml:mo>|</mml:mo><mml:mi>det</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msubsup><mml:mi>f</mml:mi><mml:mi>i</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>|</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd>
+                  </mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn mathvariant="bold">0</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>&#x220F;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:munderover></mml:mstyle><mml:msup><mml:mrow><mml:mo>|</mml:mo><mml:mi>det</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>|</mml:mo></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:semantics></mml:math></disp-formula></p>
+        <p>This series of transformations, called a <italic>normalizing flow</italic> [<xref ref-type="bibr" rid="B7-applsci-10-00302">7</xref>], can turn a simple distribution into a complicated multimodal density. For practical use of these flows in inference, we need to define transforms whose Jacobian determinants are easy to compute. Interestingly, <italic>Auto-Regressive</italic> (AR) transforms fit this requirement as they lead to a triangular Jacobian matrix. Different types of AR flows were proposed such as <italic>Inverse AR Flows</italic> (IAF) [<xref ref-type="bibr" rid="B14-applsci-10-00302">14</xref>] and <italic>Masked AR Flows</italic> (MAF) [<xref ref-type="bibr" rid="B15-applsci-10-00302">15</xref>]. These flows allow to introduce dependencies between different dimensions of the original random variables.</p>
+        <sec>
+          <title>Normalizing Flows in VAEs</title>
+          <p>Normalizing flows allow to address the simplicity of variational approximations by complexifying their posterior distribution [<xref ref-type="bibr" rid="B7-applsci-10-00302">7</xref>]. In the case of VAEs, we parameterize the approximate posterior distribution with a flow of length <italic>K</italic>, <inline-formula><mml:math id="mm43" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>K</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>K</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, and the new optimization loss can be simply written as an expectation over the initial distribution <inline-formula><mml:math id="mm44" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> 
+          <disp-formula id="FD7-applsci-10-00302"><label>(7)</label><mml:math id="mm45" display="block"><mml:semantics><mml:mtable><mml:mtr><mml:mtd columnalign="right"><mml:mi mathvariant="script">L</mml:mi></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="double-struck">E</mml:mi><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mi>log</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>log</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd>
+                    </mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="double-struck">E</mml:mi><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mi>ln</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi mathvariant="double-struck">E</mml:mi><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mi>log</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>K</mml:mi></mml:msub><mml:mo>)</mml:mo><mml:mo>]</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi mathvariant="double-struck">E</mml:mi><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:munderover></mml:mstyle><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mi>det</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>|</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:semantics></mml:math></disp-formula></p>
+          <p>The resulting objective can be easily optimized since <inline-formula><mml:math id="mm46" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is still a Gaussian distribution from which we can easily sample. However, the final samples <inline-formula><mml:math id="mm47" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> used by the decoder are drawn from the much more complex transformed distribution.</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot3-applsci-10-00302">
+        <title>2.3. Synthesizer Parameters Optimization</title>
+        <p>In the past years, the automatic parameterization of synthesizers has been the subject of several studies [<xref ref-type="bibr" rid="B3-applsci-10-00302">3</xref>,<xref ref-type="bibr" rid="B4-applsci-10-00302">4</xref>,<xref ref-type="bibr" rid="B16-applsci-10-00302">16</xref>]. All of these approaches share the objective to optimize the correspondence between the generated sound and a given target sound. In the approach proposed by Cartwright et al. [<xref ref-type="bibr" rid="B2-applsci-10-00302">2</xref>], audio descriptors such as the <italic>Mel Frequency Cepstral Coefficients</italic> (MFCCs) are used to evaluate the perceptual similarity to the target sound. This similarity is then iteratively refined during the search phase by weighting the different descriptors based on relevance feedback provided by the user [<xref ref-type="bibr" rid="B2-applsci-10-00302">2</xref>]. Although this approach allow for user interaction, it seems to be very inaccurate and slow. Several approaches were proposed based on genetic algorithms and Genetic Programming (GP) [<xref ref-type="bibr" rid="B17-applsci-10-00302">17</xref>] in order to automatically construct modular synthesizer patches that approximate a given target sound. The heuristic is conditioned on a set of input control functions (target amplitude and frequency over time). The approach proved quite successful, managing to retrieve complicated frequency modulation sounds with high precision. Yet, the main limitation of this system is that it induce very high computation times, with as much as 10 to 200 h required to produce a single audio approximation. Hence, this renders the approach unusable in realistic studio or stage contexts. Roth et al. [<xref ref-type="bibr" rid="B16-applsci-10-00302">16</xref>] compared different optimization techniques, namely <italic>genetic programming</italic>, iterative <italic>hill-climbing</italic>, a single-layer artificial <italic>neural network</italic> and a simple nearest neighbour algorithm performed on a grid sampling of the parameter space of the synthesizer. In this study, the genetic programming approach appears to provide the best results. Very recently, Yee-King et al. [<xref ref-type="bibr" rid="B4-applsci-10-00302">4</xref>] tackled the same problem by using more advanced recurrent neural networks (bidirectional LSTMs). However, the number of parameters and complexity of the sounds studied remains in a quite low setting.</p>
+        <p>All of these approaches share the same flaws that they do not account for the non-linear relationships that exist between parameters and the corresponding synthesized audio, nor do they provide higher-level controls than the target-based parameters inference task. Here, we argue that it is mandatory to unveil the relationships between the <italic>auditory</italic> and <italic>parameters</italic> spaces of a synthesizer, and show that it provides multiple forms of high-level control.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-applsci-10-00302">
+      <title>3. Our Proposal</title>
+      <sec id="sec3dot1-applsci-10-00302">
+        <title>3.1. Formalizing Synthesizer Control</title>
+        <p>Considering a dataset of audio samples <inline-formula><mml:math id="mm48" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="script">D</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>}</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>&#x2208;</mml:mo><mml:mrow><mml:mo>[</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>n</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> where the <inline-formula><mml:math id="mm49" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:mi>d</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> follow an unknown distribution <inline-formula><mml:math id="mm50" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, we can introduce latent factors <inline-formula><mml:math id="mm51" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:mi>z</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> to model the joint distribution <inline-formula><mml:math id="mm52" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>&#x2223;</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> as detailed in <xref ref-type="sec" rid="sec2dot1-applsci-10-00302">Section 2.1</xref>. In our case, some <inline-formula><mml:math id="mm53" display="block"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mi mathvariant="bold">x</mml:mi><mml:mo>&#xAF;</mml:mo></mml:mover><mml:mo>&#x2208;</mml:mo><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo>&#x2282;</mml:mo><mml:mi mathvariant="script">D</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> inside this set have been generated by a given synthesizer. This synthesizer defines a generative function <inline-formula><mml:math id="mm54" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>;</mml:mo><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mover accent="true"><mml:mi mathvariant="bold">x</mml:mi><mml:mo>&#xAF;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> where <inline-formula><mml:math id="mm55" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">v</mml:mi><mml:mo>&#x2208;</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:mi>s</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> is a set of parameters that produce <inline-formula><mml:math id="mm56" display="block"><mml:semantics><mml:mover accent="true"><mml:mi mathvariant="bold">x</mml:mi><mml:mo>&#xAF;</mml:mo></mml:mover></mml:semantics></mml:math></inline-formula> at a given pitch <italic>p</italic> and intensity <italic>i</italic>. However, in the general case, we know that if <inline-formula><mml:math id="mm57" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>&#x2209;</mml:mo><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, then <inline-formula><mml:math id="mm58" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi mathvariant="bold-italic">&#x3F5;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> where <inline-formula><mml:math id="mm59" display="block"><mml:semantics><mml:mi mathvariant="bold-italic">&#x3F5;</mml:mi></mml:semantics></mml:math></inline-formula> models the error made when trying to reproduce an arbitrary audio sample <inline-formula><mml:math id="mm60" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> with a given synthesizer. Finally, we consider that some audio examples are annotated with a set of <italic>categorical semantic tags</italic> <inline-formula><mml:math id="mm61" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mo>}</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, which define high-level perceptual properties that separate <italic>unknown</italic> latent factors <inline-formula><mml:math id="mm62" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> and <italic>target</italic> factors <inline-formula><mml:math id="mm63" display="block"><mml:semantics><mml:mi mathvariant="bold">t</mml:mi></mml:semantics></mml:math></inline-formula>. Hence, the complete generative story of a synthesizer can be defined as
+        <disp-formula id="FD8-applsci-10-00302"><label>(8)</label><mml:math id="mm64" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">x</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">v</mml:mi></mml:mrow><mml:mo>,</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">t</mml:mi></mml:mrow><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>This very general formulation entails our original idea that we should uncover the relationship between the latent audio <inline-formula><mml:math id="mm65" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> and parameters <inline-formula><mml:math id="mm66" display="block"><mml:semantics><mml:mi mathvariant="bold">v</mml:mi></mml:semantics></mml:math></inline-formula> spaces by modeling <inline-formula><mml:math id="mm67" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. The advantage of this formulation is that the reduced dimensionality <inline-formula><mml:math id="mm68" display="block"><mml:semantics><mml:mrow><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:mi>z</mml:mi></mml:msup><mml:mo>&#x226A;</mml:mo><mml:msup><mml:mi mathvariant="double-struck">R</mml:mi><mml:mi>x</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> of the latent <inline-formula><mml:math id="mm69" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> simplifies the problem of parameters inference, by relying on a more adequate and smaller input space. Furthermore, this formulation also provides a natural way of learning <italic>macro-controls</italic> by inferring <inline-formula><mml:math id="mm70" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, where separate dimensions of <inline-formula><mml:math id="mm71" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> are expected to produce smooth auditory transforms. Interestingly, this can be seen as a way to learn the principal dimensions of audio variations in the synthesizer.</p>
+      </sec>
+      <sec id="sec3dot2-applsci-10-00302">
+        <title>3.2. Mapping Latent Spaces with Regression Flows</title>
+        <p>In order to map the latent <inline-formula><mml:math id="mm72" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> and parameter <inline-formula><mml:math id="mm73" display="block"><mml:semantics><mml:mi mathvariant="bold">v</mml:mi></mml:semantics></mml:math></inline-formula> spaces, we can first consider that the latent <inline-formula><mml:math id="mm74" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> and semantic <inline-formula><mml:math id="mm75" display="block"><mml:semantics><mml:mi mathvariant="bold">t</mml:mi></mml:semantics></mml:math></inline-formula> variables are both unknown latent factors where <inline-formula><mml:math id="mm76" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msup><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Hence, we can first address the following reduced formulation
+        <disp-formula id="FD9-applsci-10-00302"><label>(9)</label><mml:math id="mm77" display="block"><mml:semantics><mml:mrow><mml:mi>log</mml:mi><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>,</mml:mo><mml:msup><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>log</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>,</mml:mo><mml:msup><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msup><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>)</mml:mo></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>log</mml:mi><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:msup><mml:mi mathvariant="bold">z</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>This allows to separately model the variational approximation (detailed in <xref ref-type="sec" rid="sec2dot1-applsci-10-00302">Section 2.1</xref>), while solving the inference problem <inline-formula><mml:math id="mm78" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. To address this inference, we propose to optimize the parameters <inline-formula><mml:math id="mm79" display="block"><mml:semantics><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:semantics></mml:math></inline-formula> of a transform <inline-formula><mml:math id="mm80" display="block"><mml:semantics><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> so that <inline-formula><mml:math id="mm81" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">v</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi mathvariant="bold-italic">&#x3F5;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, where <inline-formula><mml:math id="mm82" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold-italic">&#x3F5;</mml:mi><mml:mo>&#x223C;</mml:mo><mml:mi mathvariant="script">N</mml:mi><mml:mo>(</mml:mo><mml:mn mathvariant="bold">0</mml:mn><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">C</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> models the inference error as a zero-mean additive Gaussian noise with covariance <inline-formula><mml:math id="mm83" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">C</mml:mi><mml:mi>v</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>. Here, we assume that the covariance decomposes into <inline-formula><mml:math id="mm84" display="block"><mml:semantics><mml:mrow><mml:msubsup><mml:mi mathvariant="bold">C</mml:mi><mml:mi>v</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:msub><mml:mo>&#x2211;</mml:mo><mml:mi>i</mml:mi></mml:msub><mml:mi>exp</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>&#x3BB;</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi mathvariant="bold">Q</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, where <inline-formula><mml:math id="mm85" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">Q</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> are fixed basis functions and the <inline-formula><mml:math id="mm86" display="block"><mml:semantics><mml:mi>&#x3BB;</mml:mi></mml:semantics></mml:math></inline-formula> are hyperparameters. Therefore, the full joint likelihood that we will optimize is given by
+        <disp-formula id="FD10-applsci-10-00302"><label>(10)</label><mml:math id="mm87" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="script">L</mml:mi><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3BB;</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>log</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>If we know the optimal transform <inline-formula><mml:math id="mm88" display="block"><mml:semantics><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> and parameters <inline-formula><mml:math id="mm89" display="block"><mml:semantics><mml:mi>&#x3BB;</mml:mi></mml:semantics></mml:math></inline-formula>, the likelihood of the data is
+        <disp-formula id="FD11-applsci-10-00302"><label>(11)</label><mml:math id="mm90" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>&#x2223;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="script">N</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="bold">C</mml:mi><mml:mi>v</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>However, the two posteriors <inline-formula><mml:math id="mm91" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm92" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> remain intractable in the general case. In order to solve this issue, we rely again on variational inference by defining an approximation <inline-formula><mml:math id="mm93" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and assume that it factorizes as <inline-formula><mml:math id="mm94" display="block"><mml:semantics><mml:mrow><mml:mi>q</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>q</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mi>q</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Therefore, our complete inference is
+        <disp-formula id="FD12-applsci-10-00302"><label>(12)</label><mml:math id="mm95" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="script">L</mml:mi><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3BB;</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>log</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2225;</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2225;</mml:mo></mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Hence, we can optimize our approximations through the KL divergence if we find a closed form. To solve for <inline-formula><mml:math id="mm96" display="block"><mml:semantics><mml:mi>&#x3BB;</mml:mi></mml:semantics></mml:math></inline-formula>, we use a Gaussian distribution for both the prior <inline-formula><mml:math id="mm97" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="script">N</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x3BC;</mml:mi><mml:mi>&#x3BB;</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>&#x3BB;</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and posterior <inline-formula><mml:math id="mm98" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="script">N</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi>&#x3BB;</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x3BC;</mml:mi><mml:mi>q</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>C</mml:mi><mml:mi>q</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Hence, we obtain a simple analytical solution for <inline-formula><mml:math id="mm99" display="block"><mml:semantics><mml:mi>&#x3BB;</mml:mi></mml:semantics></mml:math></inline-formula>. However, the second part of the objective might be more tedious. Indeed, to perform an accurate inference, we need to rely on a complicated non-linear function, which cannot be assumed to be Gaussian. To address this issue, we introduce the idea of <italic>regression flows</italic>. We consider that the transform <inline-formula><mml:math id="mm100" display="block"><mml:semantics><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:msub></mml:semantics></mml:math></inline-formula> is a normalizing flow (see <xref ref-type="sec" rid="sec2dot1-applsci-10-00302">Section 2.1</xref>) and provides two different ways of optimizing this approximation.</p>
+        <sec id="sec3dot2dot1-applsci-10-00302">
+          <title>3.2.1. Posterior Parameterization</title>
+          <p>First, we follow a reasoning akin to the original formulation of normalizing flows by parameterizing the posterior <inline-formula><mml:math id="mm101" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> with a flow to obtain <inline-formula><mml:math id="mm102" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Hence, by developing the KL expression, we obtain
+          <disp-formula><mml:math id="mm103" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2225;</mml:mo><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="double-struck">E</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mi>log</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi mathvariant="double-struck">E</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mi>log</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>)</mml:mo><mml:mo>]</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi mathvariant="double-struck">E</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:munderover></mml:mstyle><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mi>det</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>|</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+          <p>Hence, we can now safely rely on Gaussian priors for <inline-formula><mml:math id="mm104" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm105" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mi>k</mml:mi></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. This formulation allows to consider <inline-formula><mml:math id="mm106" display="block"><mml:semantics><mml:mi mathvariant="bold">v</mml:mi></mml:semantics></mml:math></inline-formula> as a transformed version of <inline-formula><mml:math id="mm107" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula>, while being easily invertible as <inline-formula><mml:math id="mm108" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="bold">z</mml:mi><mml:mo>=</mml:mo><mml:msubsup><mml:mi>f</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mo>]</mml:mo></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. We denote this version as <inline-formula><mml:math id="mm109" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>F</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi><mml:mi>o</mml:mi><mml:mi>s</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </sec>
+        <sec id="sec3dot2dot2-applsci-10-00302">
+          <title>3.2.2. Conditional Amortization</title>
+          <p>Here, we consider that the parameters <inline-formula><mml:math id="mm110" display="block"><mml:semantics><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:semantics></mml:math></inline-formula> of the flow are random variables that are optimized by decomposing the posterior KL objective as
+          <disp-formula><mml:math id="mm111" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2225;</mml:mo><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2225;</mml:mo><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold-italic">&#x3C8;</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="double-struck">E</mml:mi><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:munderover></mml:mstyle><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mi>det</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>|</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+          <p>As we rely on Gaussian priors for the parameters, this additional KL term can be computed easily. In this version, denoted <inline-formula><mml:math id="mm112" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>F</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>c</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, parameters of the flow are sampled from their distributions before computing the resulting transform.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot3-applsci-10-00302">
+        <title>3.3. Disentangling Flows for Semantic Dimensions</title>
+        <p>Based on the previous formulation, we can reintroduce the <italic>semantic tags</italic> in the model by expanding latent factors <inline-formula><mml:math id="mm113" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> with a categorical variable <inline-formula><mml:math id="mm114" display="block"><mml:semantics><mml:mi mathvariant="bold">t</mml:mi></mml:semantics></mml:math></inline-formula>. Hence, we define the generative process <inline-formula><mml:math id="mm115" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> where <inline-formula><mml:math id="mm116" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mrow><mml:mi>C</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">&#x3C0;</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm117" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi>&#x3C0;</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> is the prior distribution of the tags. We define the inference model as <inline-formula><mml:math id="mm118" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and assume that it factorizes as <inline-formula><mml:math id="mm119" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. In order to handle the fact that tags are not always observed, we define a model similar to [<xref ref-type="bibr" rid="B18-applsci-10-00302">18</xref>]. When <inline-formula><mml:math id="mm120" display="block"><mml:semantics><mml:mi mathvariant="bold">t</mml:mi></mml:semantics></mml:math></inline-formula> is unknown, it is considered as a latent variable over which we can perform posterior inference
+        <disp-formula><mml:math id="mm121" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="script">L</mml:mi><mml:mi>u</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi mathvariant="double-struck">E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>log</mml:mi><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>log</mml:mi><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:mi>log</mml:mi><mml:msub><mml:mi>p</mml:mi><mml:mi>&#x3B8;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi mathvariant="double-struck">E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>log</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>When tags <inline-formula><mml:math id="mm122" display="block"><mml:semantics><mml:mi mathvariant="bold">t</mml:mi></mml:semantics></mml:math></inline-formula> are known, we take a rather unusual approach through the idea of <italic>disentangling flows</italic>. As we seek to obtain a latent dimension with continuous semantic control, we define a tag pair as a set of negative <inline-formula><mml:math id="mm123" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msub></mml:semantics></mml:math></inline-formula> and positive <inline-formula><mml:math id="mm124" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>+</mml:mo></mml:msub></mml:semantics></mml:math></inline-formula> samples. We define two <italic>target</italic> distributions <inline-formula><mml:math id="mm125" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msub></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x223C;</mml:mo><mml:mi mathvariant="script">N</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3BC;</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mo>&#x2212;</mml:mo></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm126" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>+</mml:mo></mml:msub></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x223C;</mml:mo><mml:mi mathvariant="script">N</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>&#x3BC;</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mo>+</mml:mo></mml:msub><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> that model samples of a semantic pair as opposite sides of a latent dimension. Hence, we turn the treatment of tags into a <italic>density estimation</italic> problem, where we aim to match tagged samples <inline-formula><mml:math id="mm127" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msub></mml:semantics></mml:math></inline-formula> densities to given explicit target densities by minimizing <inline-formula><mml:math id="mm128" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msub></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>&#x2225;</mml:mo><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msub></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. To solve this, we consider that <inline-formula><mml:math id="mm129" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msub></mml:msub><mml:mo>|</mml:mo><mml:mi mathvariant="bold">x</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula> is parameterized by a normalizing flow <inline-formula><mml:math id="mm130" display="block"><mml:semantics><mml:msub><mml:mi>f</mml:mi><mml:mi>k</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> applied to the latent <inline-formula><mml:math id="mm131" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula>, leading to our final objective
+        <disp-formula id="FD13-applsci-10-00302"><label>(13)</label><mml:math id="mm132" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="script">L</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="script">D</mml:mi><mml:mrow><mml:mi>K</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo>[</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mi>&#x3D5;</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msub></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2225;</mml:mo><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msub></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="double-struck">E</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mi>log</mml:mi><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mstyle displaystyle="true"><mml:munderover><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>k</mml:mi></mml:munderover></mml:mstyle><mml:mi>log</mml:mi><mml:mrow><mml:mo>|</mml:mo><mml:mi>det</mml:mi><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>|</mml:mo></mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>log</mml:mi><mml:mi>p</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:msub><mml:mi mathvariant="bold">t</mml:mi><mml:mo>&#x2217;</mml:mo></mml:msub></mml:msub><mml:mo>)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>This formulation enforces a form of <italic>supervised</italic> disentanglement, where some of the latent dimensions <inline-formula><mml:math id="mm133" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> are transformed to provide controls with explicit semantic target properties. The final bound is defined as the sum of both objectives <inline-formula><mml:math id="mm134" display="block"><mml:semantics><mml:mrow><mml:mi mathvariant="script">L</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi mathvariant="script">L</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi mathvariant="script">L</mml:mi><mml:mi>u</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and the complete model is obtained by integrating <italic>regression</italic> and <italic>disentangling</italic> flows together.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-applsci-10-00302">
+      <title>4. Experiments</title>
+      <sec id="sec4dot1-applsci-10-00302">
+        <title>4.1. Dataset</title>
+        <sec id="sec4dot1dot1-applsci-10-00302">
+          <title>4.1.1. Synthesizer Sounds Dataset</title>
+          <p>We constructed a dataset of synthesizer sounds and corresponding parameters, by using an off-the-shelf commercial VST synthesizer <italic>Diva</italic> developed by U-He (<uri>https://u-he.com/products/diva/</uri>). It should be noted that our model can hypothetically work for any synthesizer, as long as we can produce couples of (audio, parameters) as input. We selected <italic>Diva</italic> as (i) almost all its parameters can be MIDI-controlled, (ii) large banks of presets are readily available, and (iii) presets include well-organized semantic tags pairs. The factory presets for Diva and additional presets from the internet were collected, leading to a total of roughly 11k files. We manually established the correspondence between synth and MIDI parameters as well as the parameters values range and their distributions. We only kept continuous parameters and normalize each of these parameters so that their values lie in the range <inline-formula><mml:math id="mm135" display="block"><mml:semantics><mml:mrow><mml:mo>[</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mn>1</mml:mn><mml:mo>]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. All other parameters are set to their fixed <italic>default</italic> value. Finally, we performed parameter selection by computing the PCA of the parameters value for the whole presets dataset. We sorted the contribution of each parameter to the principal components that explain more than 80% of the variance and performed manual screening to select increasing sets of the most used 16, 32 and 64 parameters. We use <italic>RenderMan</italic> (<uri>https://github.com/fedden/RenderMan</uri>) to batch-generate all the audio files by playing a C4 note for 3 s. and recording for 4 s. to capture the release of the note. The files are saved in 22,050 Hz and 16-bit floating point format.</p>
+        </sec>
+        <sec id="sec4dot1dot2-applsci-10-00302">
+          <title>4.1.2. Audio Processing</title>
+          <p>For each sample, we compute a 128 bins Mel-spectrogram with a FFT of size 2048 ms. with a hop of 1024 ms. and frequency range of <inline-formula><mml:math id="mm136" display="block"><mml:semantics><mml:mrow><mml:mo>[</mml:mo><mml:mn>30</mml:mn><mml:mo>,</mml:mo><mml:mrow><mml:mn>11</mml:mn><mml:mo>,</mml:mo><mml:mn>000</mml:mn></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> Hz. We only keep the magnitude of the spectrogram and perform a log-amplitude transform. The dataset is randomly split between a training (80%), validation (10%), and test (10%) set before each training. We repeat the training <inline-formula><mml:math id="mm137" display="block"><mml:semantics><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> times to perform <italic>k</italic>-fold cross-validation. Finally, we perform a corpus-wide zero-mean unit-variance normalization over the whole spectrogram based on the train set.</p>
+        </sec>
+        <sec id="sec4dot1dot3-applsci-10-00302">
+          <title>4.1.3. Metadata</title>
+          <p>Diva presets often contain useful metadata tags called <italic>characteristics</italic> that define high-level semantic properties of the audio output. Interestingly, these are well organized and defined as opposite pairs with clear concepts such as [<italic>Bright</italic>, <italic>Dark</italic>] or [<italic>Soft</italic>, <italic>Aggressive</italic>]. We retained a set of 10 such pairs and add the <italic>Unknown</italic> category for each pair when no tag of the pair is present (as presets may have multiple characteristics). Therefore, the final dataset is composed of triplets containing (synthesized audio output, parameters vector, semantic tags metadata).</p>
+        </sec>
+      </sec>
+      <sec id="sec4dot2-applsci-10-00302">
+        <title>4.2. Models</title>
+        <sec id="sec4dot2dot1-applsci-10-00302">
+          <title>4.2.1. Baseline Models</title>
+          <p>In order to evaluate our proposal, we implemented several feed-forward deep models that take the complete spectrogram <inline-formula><mml:math id="mm138" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> of a sample as input and try to infer the corresponding parameters <inline-formula><mml:math id="mm139" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>. All these models are trained with a Mean-Squared Error (<inline-formula><mml:math id="mm140" display="block"><mml:semantics><mml:mrow><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>) loss between the output of the model and the parameters vector. First, we implement a 5-layers <inline-formula><mml:math id="mm141" display="block"><mml:semantics><mml:mrow><mml:mi>M</mml:mi><mml:mi>L</mml:mi><mml:mi>P</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> with 2048 hidden units per layer, Exponential Linear Unit (ELU) activation, batch normalization and dropout with <inline-formula><mml:math id="mm142" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>=</mml:mo><mml:mn>0.3</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>. This model is applied on a flattened version of the input and the final layer is a sigmoid activation. We implement a convolutional model composed of 5 layers with 128 channels of strided dilated 2-D convolutions with kernel size 7, stride 2, and an exponential dilation factor of <inline-formula><mml:math id="mm143" display="block"><mml:semantics><mml:msup><mml:mn>2</mml:mn><mml:mi>l</mml:mi></mml:msup></mml:semantics></mml:math></inline-formula> (starting at <inline-formula><mml:math id="mm144" display="block"><mml:semantics><mml:mrow><mml:mi>l</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>) with batch normalization and ELU activation. The convolutions are followed by a 3-layers MLP of 2048 hidden units with the same properties as the previous model. Finally, we implemented a <italic>Residual Network</italic> (denoted <inline-formula><mml:math id="mm145" display="block"><mml:semantics><mml:mrow><mml:mi>R</mml:mi><mml:mi>e</mml:mi><mml:mi>s</mml:mi><mml:mi>C</mml:mi><mml:mi>N</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>), with parameters settings identical to <inline-formula><mml:math id="mm146" display="block"><mml:semantics><mml:mrow><mml:mi>C</mml:mi><mml:mi>N</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, while the residual paths are defined as simple <inline-formula><mml:math id="mm147" display="block"><mml:semantics><mml:mrow><mml:mn>1</mml:mn><mml:mi>x</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> convolution that maps to the same size.</p>
+        </sec>
+        <sec id="sec4dot2dot2-applsci-10-00302">
+          <title>4.2.2. Our Proposal</title>
+          <p>We implemented various *AE architectures, which are defined through two training losses. First, the traditional AE training is performed by using a <inline-formula><mml:math id="mm148" display="block"><mml:semantics><mml:mrow><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> reconstruction loss on the spectrograms. We use the previously described <inline-formula><mml:math id="mm149" display="block"><mml:semantics><mml:mrow><mml:mi>C</mml:mi><mml:mi>N</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> setup for both encoders and decoders. However, we halve their number of parameters (by dividing the number of units and channels) to perform a fair comparison by obtaining roughly the same capacity as the baselines. All AEs map to latent spaces of dimensionality equal to the number of synthesis parameters. For all these architectures, a second network is used to try to infer the parameters <inline-formula><mml:math id="mm150" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">v</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> based on the latent code <inline-formula><mml:math id="mm151" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula> obtained by encoding a specific spectrogram <inline-formula><mml:math id="mm152" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:semantics></mml:math></inline-formula>. For this part, we train all simple AE models with a 2-layers MLP of 1024 units to predict the parameters based on the latent space, with a <inline-formula><mml:math id="mm153" display="block"><mml:semantics><mml:mrow><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> loss. First, we implement a simple deterministic <inline-formula><mml:math id="mm154" display="block"><mml:semantics><mml:mrow><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> without regularization. We implement the <inline-formula><mml:math id="mm155" display="block"><mml:semantics><mml:mrow><mml:mi>V</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> by adding a KL regularization to the latent space and the <inline-formula><mml:math id="mm156" display="block"><mml:semantics><mml:mrow><mml:mi>W</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> by replacing the KL by the MMD. Finally, we implement <inline-formula><mml:math id="mm157" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>V</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> by adding a normalizing flow of 16 successive IAF transforms to the <inline-formula><mml:math id="mm158" display="block"><mml:semantics><mml:mrow><mml:mi>V</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> posterior. We perform <italic>warmup</italic> [<xref ref-type="bibr" rid="B11-applsci-10-00302">11</xref>] by linearly increasing the latent regularization <inline-formula><mml:math id="mm159" display="block"><mml:semantics><mml:mi>&#x3B2;</mml:mi></mml:semantics></mml:math></inline-formula> from 0 to 1 for 100 epochs. Then, we use <italic>regression flows</italic> (<inline-formula><mml:math id="mm160" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>F</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>g</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) by adding them to <inline-formula><mml:math id="mm161" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>V</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, with an IAF of length 16 without tags. In both cases, we introduce the regression objective only after 100 epochs and also apply warmup. Finally, we add the <italic>disentangling flows</italic> (<inline-formula><mml:math id="mm162" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>F</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) by adding our objective defined in <xref ref-type="sec" rid="sec3dot3-applsci-10-00302">Section 3.3</xref>.</p>
+        </sec>
+        <sec id="sec4dot2dot3-applsci-10-00302">
+          <title>4.2.3. Optimization Aspects</title>
+          <p>We train all models for 500 epochs with the ADAM optimizer, an initial learning rate of 0.0002, Xavier initialization of the weights and a scheduler that halves the learning rate if the validation loss stalls for 20 epochs. With this setup, the complete model (<inline-formula><mml:math id="mm163" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>V</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi>f</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> with regression) only needs  5 h to complete training on a NVIDIA Titan Xp GPU.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="results" id="sec5-applsci-10-00302">
+      <title>5. Results</title>
+      <sec id="sec5dot1-applsci-10-00302">
+        <title>5.1. Parameters Inference</title>
+        <p>First, we compare the accuracy of all models on the <italic>parameters inference</italic> task by computing the magnitude-normalized <italic>Mean Square Error</italic> (<inline-formula><mml:math id="mm164" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) between predicted and original parameters values. We average these results across folds and report variance. We also evaluate the distance between the audio synthesized from the inferred parameters and the original audio with the <italic>Spectral Convergence</italic> (SC) distance (magnitude-normalized Frobenius norm) and <italic>MSE</italic> (it should be noted that these measures only provide a global evaluation of spectrogram similarity, and that perceptual aspects of the results should be evaluated in human listening experiments that are left for future work). We provide evaluation results for 16, 32, and 64 parameters on the test set in <xref ref-type="table" rid="applsci-10-00302-t001">Table 1</xref>.</p>
+        <p>In low parameters settings, baseline models seem to perform an accurate approximation of parameters, with the <inline-formula><mml:math id="mm165" display="block"><mml:semantics><mml:mrow><mml:mi>C</mml:mi><mml:mi>N</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> providing the best inference. Based on this criterion solely, our formulation would appear to provide only a marginal improvement, with <inline-formula><mml:math id="mm166" display="block"><mml:semantics><mml:mrow><mml:mi>V</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>s even outperformed by baseline models and best results obtained by the <inline-formula><mml:math id="mm167" display="block"><mml:semantics><mml:mrow><mml:mi>W</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>. However, analysis of the corresponding audio accuracy tells an entirely different story. Indeed, AEs approaches strongly outperform baseline models in audio accuracy, with the best results obtained by our proposed <inline-formula><mml:math id="mm168" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>F</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>r</mml:mi><mml:mi>e</mml:mi><mml:mi>g</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> (1-way ANOVA <inline-formula><mml:math id="mm169" display="block"><mml:semantics><mml:mrow><mml:mi>F</mml:mi><mml:mo>=</mml:mo><mml:mn>2.81</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm170" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>0.003</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>). These results show that, even though AE models do not provide an exact parameters approximation, they are able to account for the importance of these different parameters on the synthesized audio. This supports our original hypothesis that learning the latent space of synthesizer audio capabilities is a crucial component to understand its behavior. Finally, it appears that adding disentangling flows (<inline-formula><mml:math id="mm171" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>F</mml:mi><mml:mi>l</mml:mi><mml:mi>o</mml:mi><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>i</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) slightly impairs the audio accuracy. However, the model still outperform most approaches, while providing the huge benefit of explicit semantic macro-controls.</p>
+      </sec>
+      <sec id="sec5dot2-applsci-10-00302">
+        <title>5.2. Increasing Parameters Complexity</title>
+        <p>We evaluate the robustness of different models by increasing the number of parameters from 16 to 32 and finally 64 (<xref ref-type="table" rid="applsci-10-00302-t001">Table 1</xref>). As we can see, the accuracy of baseline models is highly degraded, notably on audio reconstruction. Interestingly, the gap between parameter and audio accuracies is strongly increased. This seems logical as the relative importance of parameters in larger sets provoke stronger impacts on the resulting audio. Also, it should be noted that <inline-formula><mml:math id="mm172" display="block"><mml:semantics><mml:mrow><mml:mi>V</mml:mi><mml:mi>A</mml:mi><mml:mi>E</mml:mi><mml:mo>&#x2217;</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> models now outperform baselines even on parameters accuracy. Although our proposal also suffers from larger sets of parameters, it appears as the most resilient and can still cope with this higher complexity. While the gap between AE variants is more pronounced, the <italic>flows</italic> strongly outperform all methods (<inline-formula><mml:math id="mm173" display="block"><mml:semantics><mml:mrow><mml:mi>F</mml:mi><mml:mo>=</mml:mo><mml:mn>8.13</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm174" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>&lt;</mml:mo><mml:mn>0.001</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>).</p>
+      </sec>
+      <sec id="sec5dot3-applsci-10-00302">
+        <title>5.3. Reconstructions and Latent Space</title>
+        <p>We provide an in-depth analysis of the relations between inferred parameters and corresponding synthesized audio to support our previous claims. First, we selected two samples from the test set and compare the inferred parameters and synthesized audio in <xref ref-type="fig" rid="applsci-10-00302-f003">Figure 3</xref>.</p>
+        <p>As we can see, although the <inline-formula><mml:math id="mm175" display="block"><mml:semantics><mml:mrow><mml:mi>C</mml:mi><mml:mi>N</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> provides a close inference of the parameters, the synthesized approximation completely misses important structural aspects, even in simpler instances as the simple harmonic structure in the first example (a). This confirms our hypothesis that direct inference models are unable to assess the <italic>relative impact</italic> of parameters on the audio. Indeed, the errors in all parameters are considered equivalently, even though the same error magnitude on two different parameters can lead to dramatic differences in the synthesized audio. Oppositely, even though the parameters inferred by our proposal are quite far from the original preset, the corresponding audio is largely more similar. This indicates that the latent space provides knowledge on the <italic>audio-based neighborhoods</italic> of the synthesizer. Therefore, this allows to understand the impact of different parameters in a given region of the latent audio space.</p>
+        <p>To confirm this hypothesis, we encode two random distant examples from the test set in the latent audio space and perform random sampling around these points to evaluate how local neighborhoods are organized. We also analyze the latent interpolation between those examples. The results are displayed in <xref ref-type="fig" rid="applsci-10-00302-f004">Figure 4</xref>. As we can see, our hypothesis seems to be confirmed by the fact that neighborhoods are highly similar in terms of audio but have a larger variance in terms of parameters. Interestingly, this leads to complex but smooth non-linear dynamics in the parameters interpolation.</p>
+      </sec>
+      <sec id="sec5dot4-applsci-10-00302">
+        <title>5.4. Out-Of-Domain Generalization</title>
+        <p>We evaluate <italic>out-of-domain generalization</italic> by applying parameters inference and re-synthesis on two sets of audio samples either produced by other synthesizers, or with vocal imitations. We rely on the same evaluation method as previously described and provide results for the audio similarity in <xref ref-type="table" rid="applsci-10-00302-t002">Table 2</xref> (Right). Here, the overall distribution of scores remains consistent with previous observations. However, it seems that the average error is quite high, indicating a potentially distant reconstruction of some examples. This might be explained by the limited number of parameters used for training our models. Therefore, they cannot account for complex sounds with various types of modulations. Interestingly, while the addition of more parameters to perform the optimization allows to reduce the global approximation error in AE models, it seems to worsen the feed-forward estimation. This seems to further confirm our original hypothesis that feed-forward approaches are not able to handle advanced interactions in the parameters.</p>
+        <p>In order to better understand the results and limits of our proposal, we display in <xref ref-type="fig" rid="applsci-10-00302-f003">Figure 3</xref> the resynthesis of random examples taken from the synthesizer (left) and vocal imitations (right) datasets. As we can see, in all cases, our proposal accurately reproduces the temporal spectral shape of target sounds, even if the timbre is somewhat distant. Upon closer listening, it seems that the models fail to reproduce the local timbre of voices but performs quite well with sounds from other synthesizers. However, the evolution of the spectral shape is still reproduced. Interestingly, this provides a form of <italic>vocal sketching control</italic> where the user inputs vocal imitations of the sound that he is looking for. This allows to quickly produce an approximation of the intended sound and, then, exploring the audio neighborhood of the sketch for intuitive refinement.</p>
+      </sec>
+      <sec id="sec5dot5-applsci-10-00302">
+        <title>5.5. Macro-Parameters Learning</title>
+        <p>Our formulation is the first to provide a continuous mapping between the audio <inline-formula><mml:math id="mm176" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> and parameter <inline-formula><mml:math id="mm177" display="block"><mml:semantics><mml:mi mathvariant="bold">v</mml:mi></mml:semantics></mml:math></inline-formula> spaces of a synthesizer. As latent VAE dimensions has been shown to disentangle major data variations, we hypothesized that we could directly use <inline-formula><mml:math id="mm178" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> as <italic>macro-parameters</italic> defining the principal dimensions of audio variations in a given synthesizer. Hence, we introduce the new task of <italic>macro-parameters learning</italic> by mapping latent audio dimensions to parameters through <inline-formula><mml:math id="mm179" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, which provides simplified control of the major audio variations for a given synthesizer. This is depicted in <xref ref-type="fig" rid="applsci-10-00302-f005">Figure 5</xref>.</p>
+        <p>We show the two most informative latent dimensions <inline-formula><mml:math id="mm180" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> based on their variance. We study the traversal of these dimensions by keeping all other fixed at <inline-formula><mml:math id="mm181" display="block"><mml:semantics><mml:mn mathvariant="bold">0</mml:mn></mml:semantics></mml:math></inline-formula> to assess how <inline-formula><mml:math id="mm182" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> defines smooth macro-parameters through the mapping <inline-formula><mml:math id="mm183" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. We report the evolution of the 5 parameters with highest variance (top), the corresponding synthesis (middle) and audio descriptors (bottom).</p>
+        <p>First, we can see that latent dimension corresponds to very smooth evolutions in terms of synthesized audio and descriptors. This is coherent with previous studies on the disentangling abilities of VAEs [<xref ref-type="bibr" rid="B6-applsci-10-00302">6</xref>]. However, a very interesting property appear when we map to the parameter space. Although the parameters evolution is still smooth, it exhibits more non-linear relationships between different parameters. This correlates with the intuition that there are lots of complex interplays in parameters of a synthesizer. Our formulation allows to alleviate this complexity by automatically providing <italic>macro-parameters</italic> that are the most relevant to the audio variations of a given synthesizer. Here, we can see that the <inline-formula><mml:math id="mm184" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:semantics></mml:math></inline-formula> latent dimension (left) seems to provide a <italic>percussivity</italic> parameter, where low values produce a very slow attack, while moving along this dimension, the attack becomes sharper and the amount of noise increases. Similarily, <inline-formula><mml:math id="mm185" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn>7</mml:mn></mml:msub></mml:semantics></mml:math></inline-formula> seems to define an <italic>harmonic densification</italic> parameter, starting from a single peak frequency and increasingly adding harmonics and noise. Although the unsupervised macro-parameters provide some clear effects on the synthesis, it appears that they do not act on a single aspect of the timbre. This seems to indicate that the macro-parameters still relate to some entangled properties of the audio. Furthermore, as these dimensions are unsupervised, we still need to define their effects through direct exploration. Additional macro-parameters are discussed on the supporting webpage of this paper.</p>
+      </sec>
+      <sec id="sec5dot6-applsci-10-00302">
+        <title>5.6. Semantic Parameter Discovery</title>
+        <p>Our proposed <italic>disentangling flows</italic> can steer the organization of selected latent dimensions so that they provide a separation of given tags. As this audio space is mapped to parameters through <inline-formula><mml:math id="mm186" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, this turns the selected dimensions into <italic>macro-parameters</italic> with a defined semantic meaning. To evaluate this, we analyze the behavior of corresponding latent dimensions, as depicted in <xref ref-type="fig" rid="applsci-10-00302-f006">Figure 6</xref>.</p>
+        <p>First, we can see the effect of disentangling flows on the latent space (left), which provide a separation of semantic pairs. We study the traversal of semantic dimensions while keeping all other fixed at <inline-formula><mml:math id="mm187" display="block"><mml:semantics><mml:mn mathvariant="bold">0</mml:mn></mml:semantics></mml:math></inline-formula> and infer parameters through <inline-formula><mml:math id="mm188" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. We display the 6 parameters with highest variance and the resulting synthesized audio. As previously observed for unsupervised dimensions, the semantic latent dimensions also seem to provide a very smooth evolution in terms of both parameters and synthesized audio. Regarding the precise effect of different semantic dimensions, it appears that the [<italic>&#x2018;Constant&#x2019;</italic>, <italic>&#x2018;Moving&#x2019;</italic>] pair provides a very intuitive result. Indeed, the synthesized sounds are mostly stationary in extreme negative values, but gradually incorporate clearly marked temporal modulations. Hence, our proposal appears successful to uncover <italic>semantic macro-parameters</italic> for a given synthesizer. However, the corresponding parameters are quite harder to interpret. The [<italic>&#x2018;Calm&#x2019;</italic>, <italic>&#x2018;Aggressive&#x2019;</italic>] dimension also provides an intuitive control starting from a sparse sound and increasingly adding modulation, resonance and noise. However, we note that the notion of &#x2018;<italic>Aggressive</italic>&#x2019; is highly subjective and requires finer analyses to be conclusive.</p>
+      </sec>
+      <sec id="sec5dot7-applsci-10-00302">
+        <title>5.7. Creative Applications</title>
+        <p>Our proposal allows to perform a direct exploration of presets based on audio similarity. Indeed, as the flow is <italic>invertible</italic>, we can map parameters to the audio space for exploration, and then back to parameters to obtain a new preset. Furthermore, this can be combined with <italic>vocal sketch control</italic> where the user inputs vocal imitations of the sound that he is looking for. In order to allow creative experiments, we implemented all the models and interactions detailed in this paper in an experimental Max4Live interface that is displayed in <xref ref-type="fig" rid="applsci-10-00302-f007">Figure 7</xref>. We embedded our models inside <italic>MaxMSP</italic> by using an <italic>OSC</italic> communication server with the <italic>Python</italic> implementation. We further integrate it into <italic>Ableton Live</italic> by using the <italic>Max4Live</italic> interface. This interface wraps the Diva VST and allows to provide control based on all of the proposed models. Hence, this interface allows to input a wave file or direct vocal recording to perform <italic>parameter inference</italic>. The model can provide the VST parameters for the approximation in less than 30 ms on a CPU. The interface also provides a representations of the projected latent audio space, onto which is plotted the preset library. This allows to perform audio-based preset exploration, but also to draw paths between different presets or simply across the audio space. By freely exploring the dimensions, the user can also experiment the <italic>unsupervised macro-control</italic> and also explore <italic>supervised semantic dimensions</italic>. Finally, we implemented an interaction with the <italic>Leap Motion</italic> controller, which allows to directly control the synthesized sound with one&#x2019;s hand.</p>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions" id="sec6-applsci-10-00302">
+      <title>6. Conclusions</title>
+      <p>In this paper, we discussed several novel ideas based on our recent novel formulation of the problem of synthesizer control as matching the two latent spaces defined as the <italic>audio perception space</italic> and the <italic>synthesizer parameter space</italic>. To solve this new formulation, we relied on VAEs and Normalizing Flows to organize and map the auditory and parameter spaces of a given synthesizer. We introduced the <italic>disentangling</italic> flows, which allow to obtain an invertible mapping between two separate latent spaces, while steering the organization of some latent dimensions to match target variation factors by splitting the objective as partial density evaluation.</p>
+      <p>We showed that our approach outperforms all previous proposals on the seminal problem of <italic>parameters inference</italic>, and that it is able to provide an interesting approximation to any type of sound in almost real-time, even on a CPU. We showed that for sounds that are not produced by synthesizers, our model is able to match the evolution of the spectral shape quite well, even though the local timbre is not well approximated. We further showed that our formulation also naturally introduces various original and first-of-kind tasks of <italic>macro-control learning</italic>, <italic>audio-based preset exploration</italic>, and <italic>semantic parameters discovery</italic>. Hence, our proposal is the first to be able to simultaneously address most synthesizer control issues at once, while providing higher-level understanding and controls. In order to allow for usable and creative exploration of our proposed methods, we implemented a Max4Live interface that is available freely along with the source code of all approaches on the supporting webpage of this paper.</p>
+      <p>Altogether, we hope that this work will provide new means of exploring audio synthesis, sparking the development of new leaps in musical creativity.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, P.E. and A.B.; Data curation, N.M. and R.D.; Formal analysis, P.E. and A.C.-R.-S.; Funding acquisition, P.E.; Investigation, P.E., N.M., R.D. and A.C.-R.-S.; Methodology, P.E., N.M., A.B. and A.C.-R.-S.; Project administration, P.E.; Resources, A.B.; Software, P.E., N.M. and R.D.; Validation, A.C.-R.-S.; Visualization, N.M.; Writing&#x2014;original draft, P.E. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This work was supported by the MAKIMOno project funded by the French ANR and Canadian NSERC (ANR:17-CE38-0015-01 and NSERC:STPG 507004-17) and also the ACTOR Partnership funded by the Canadian SSHRC (SSHRC:895-2018-1023). This work was also supported by an NVIDIA GPU Grant and GPU Center grant.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-applsci-10-00302">
+        <label>1.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Puckette</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>The Theory and Technique of Electronic Music</source>
+          <publisher-name>World Scientific Publishing Co.</publisher-name>
+          <publisher-loc>Singapore</publisher-loc>
+          <year>2007</year>
+        </element-citation>
+      </ref>
+      <ref id="B2-applsci-10-00302">
+        <label>2.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cartwright</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pardo</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthassist: An audio synthesizer programmed with vocal imitation</article-title>
+          <source>Proceedings of the 22nd ACM international conference on Multimedia</source>
+          <conf-loc>Orlando, FL, USA</conf-loc>
+          <conf-date>3&#x2013;7 November 2014</conf-date>
+          <fpage>741</fpage>
+          <lpage>742</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B3-applsci-10-00302">
+        <label>3.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garcia</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic design of sound synthesis techniques by means of genetic programming</article-title>
+          <source>Audio Engineering Society Convention</source>
+          <publisher-name>Audio Engineering Society</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2002</year>
+        </element-citation>
+      </ref>
+      <ref id="B4-applsci-10-00302">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yee-King</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Fedden</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>d&#x2019;Inverno</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic Programming of VST Sound Synthesizers Using Deep Networks and Other Techniques</article-title>
+          <source>IEEE Trans. ETCI</source>
+          <year>2018</year>
+          <volume>2</volume>
+          <fpage>150</fpage>
+          <lpage>159</lpage>
+          <pub-id pub-id-type="doi">10.1109/TETCI.2017.2783885</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-applsci-10-00302">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kingma</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Welling</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Auto-encoding variational bayes</article-title>
+          <source>arXiv</source>
+          <year>2013</year>
+          <pub-id pub-id-type="arxiv">1312.6114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-applsci-10-00302">
+        <label>6.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Higgins</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Matthey</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pal</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mohamed</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lerchner</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Beta-Vae: Learning Basic Visual Concepts with a Constrained Variational Framework</article-title>
+          <comment>ICLR</comment>
+          <year>2016</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pdfs.semanticscholar.org/a902/26c41b79f8b06007609f39f82757073641e2.pdf" ext-link-type="uri">https://pdfs.semanticscholar.org/a902/26c41b79f8b06007609f39f82757073641e2.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-09-27">(accessed on 27 September 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B7-applsci-10-00302">
+        <label>7.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rezende</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Mohamed</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Variational Inference with Normalizing Flows</article-title>
+          <source>Proceedings of the International Conference on Machine Learning (ICML)</source>
+          <conf-loc>Lille, France</conf-loc>
+          <conf-date>6&#x2013;11 July 2015</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B8-applsci-10-00302">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Esling</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bitton</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chemla-Romeu-Santos</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Generative timbre spaces with variational audio synthesis</article-title>
+          <source>arXiv</source>
+          <year>2018</year>
+          <pub-id pub-id-type="arxiv">1805.08501</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-applsci-10-00302">
+        <label>9.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Esling</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Masuda</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Bardet</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Despres</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chemla-Romeu-Santos</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Universal audio synthesizer control with normalizing flows</article-title>
+          <source>Proceedings of the 22nd International Conference on Digital Audio Effects (DaFX)</source>
+          <conf-loc>Birmingham, UK</conf-loc>
+          <conf-date>2&#x2013;6 September 2019</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B10-applsci-10-00302">
+        <label>10.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bishop</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Mitchell</surname>
+              <given-names>T.M.</given-names>
+            </name>
+          </person-group>
+          <source>Pattern Recognition and Machine Learning</source>
+          <publisher-name>Springer</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B11-applsci-10-00302">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>S&#xF8;nderby</surname>
+              <given-names>C.K.</given-names>
+            </name>
+            <name>
+              <surname>Raiko</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Maal&#xF8;e</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>S&#xF8;nderby</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Winther</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>How to train deep variational autoencoders and probabilistic ladder networks</article-title>
+          <source>arXiv</source>
+          <year>2016</year>
+          <pub-id pub-id-type="arxiv">1602.02282</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-applsci-10-00302">
+        <label>12.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Kingma</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Salimans</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sutskever</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Abbeel</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Variational lossy autoencoder</article-title>
+          <source>Proceedings of the International Conference on Learning Representations (ICLR)</source>
+          <conf-loc>San Juan, Puerto Rico</conf-loc>
+          <conf-date>2&#x2013;4 May 2016</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B13-applsci-10-00302">
+        <label>13.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tolstikhin</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Bousquet</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Sch&#xF6;lkopf</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Wasserstein Auto-Encoders</article-title>
+          <source>Proceedings of the International Conference on Learning Representations</source>
+          <conf-loc>Toulon, France</conf-loc>
+          <conf-date>24&#x2013;26 April 2017</conf-date>
+        </element-citation>
+      </ref>
+      <ref id="B14-applsci-10-00302">
+        <label>14.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kingma</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Salimans</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Jozefowicz</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Sutskever</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Welling</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improved Variational Inference with Inverse Autoregressive Flow</article-title>
+          <comment>Advances in NIPS</comment>
+          <year>2016</year>
+          <fpage>4743</fpage>
+          <lpage>4751</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://papers.nips.cc/paper/6581-improved-variational-inference-with-inverse-autoregressive-flow.pdf" ext-link-type="uri">https://papers.nips.cc/paper/6581-improved-variational-inference-with-inverse-autoregressive-flow.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-27">(accessed on 27 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B15-applsci-10-00302">
+        <label>15.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Papamakarios</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Pavlakou</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Murray</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Masked Autoregressive Flow for Density Estimation</article-title>
+          <comment>NIPS</comment>
+          <year>2017</year>
+          <fpage>2338</fpage>
+          <lpage>2347</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://papers.nips.cc/paper/6828-masked-autoregressive-flow-for-density-estimation.pdf" ext-link-type="uri">http://papers.nips.cc/paper/6828-masked-autoregressive-flow-for-density-estimation.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-27">(accessed on 27 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B16-applsci-10-00302">
+        <label>16.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roth</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yee-King</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A comparison of parametric optimization techniques for musical instrument tone matching</article-title>
+          <source>Audio Engineering Society Convention 130</source>
+          <publisher-name>Audio Engineering Society</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2011</year>
+        </element-citation>
+      </ref>
+      <ref id="B17-applsci-10-00302">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garcia</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Growing sound synthesizers using evolutionary methods</article-title>
+          <source>Proceedings ALMMA 2001: Artificial Life Models for Musical Applications Workshop, (ECAL 2001)</source>
+          <publisher-name>Citeseer</publisher-name>
+          <publisher-loc>Prague, Czech Republic</publisher-loc>
+          <year>2001</year>
+        </element-citation>
+      </ref>
+      <ref id="B18-applsci-10-00302">
+        <label>18.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kingma</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Mohamed</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rezende</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Welling</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Semi-Supervised Learning with Deep Generative Models</article-title>
+          <comment>Advances in Neural Information Processing Systems</comment>
+          <year>2014</year>
+          <fpage>3581</fpage>
+          <lpage>3589</lpage>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://papers.nips.cc/paper/5352-semi-supervised-learning-with-deep-generative-models.pdf" ext-link-type="uri">http://papers.nips.cc/paper/5352-semi-supervised-learning-with-deep-generative-models.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-12-27">(accessed on 27 December 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="applsci-10-00302-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p><italic>Universal synthesizer control</italic>. (<bold>a</bold>) Previous methods perform direct parameter inference from the audio, which is inherently limited by the non-differentiable synthesis operation and provides no higher-level form of control. (<bold>b</bold>) Our novel formulation states that we should first learn an organized and compressed latent space <inline-formula><mml:math id="mm189" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> of the synthesizer&#x2019;s audio capabilities, while mapping it to the space <inline-formula><mml:math id="mm190" display="block"><mml:semantics><mml:mi mathvariant="bold">v</mml:mi></mml:semantics></mml:math></inline-formula> of its synthesis parameters. This provides a deeper understanding of the principal dimensions of audio variations in the synthesizer, and an access to higher-level interactions.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00302-g001.tif"/>
+      </fig>
+      <fig id="applsci-10-00302-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p><italic>Universal synthesizer control</italic>. We learn an organized latent audio space <inline-formula><mml:math id="mm191" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> of a synthesizer capabilities with a Variational Auto-Encoder (VAE) parameterized with Normalizing Flow (NF). This space maps to the parameter space <inline-formula><mml:math id="mm192" display="block"><mml:semantics><mml:mi mathvariant="bold">v</mml:mi></mml:semantics></mml:math></inline-formula> through our proposed <italic>regression flow</italic> and can be further organized with metadata targets <inline-formula><mml:math id="mm193" display="block"><mml:semantics><mml:mi mathvariant="bold">t</mml:mi></mml:semantics></mml:math></inline-formula>. This provides sampling and invertible mapping between different spaces.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00302-g002.tif"/>
+      </fig>
+      <fig id="applsci-10-00302-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p><italic>Reconstruction analysis</italic>. Comparing parameters inference and resulting audio on the test set with 16 (<bold>a</bold>) or 32 (<bold>b</bold>) parameters, and on the <italic>out-of-domain</italic> (<bold>c</bold>) sets composed either of sounds from other synthesizers (<bold>left</bold>) or vocal imitations (<bold>right</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00302-g003.tif"/>
+      </fig>
+      <fig id="applsci-10-00302-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p><italic>Latent neighborhoods</italic>. We select two examples from the test set that map to distant locations in the latent space <inline-formula><mml:math id="mm194" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> and perform random sampling in their local neighborhood to observe the parameters and audio. We also display the latent interpolation between those points.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00302-g004.tif"/>
+      </fig>
+      <fig id="applsci-10-00302-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p><italic>Macro-parameters learning</italic>. We show two of the learned latent dimensions <inline-formula><mml:math id="mm195" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> and compute the mapping <inline-formula><mml:math id="mm196" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> when traversing these dimensions, while keeping all other fixed at <inline-formula><mml:math id="mm197" display="block"><mml:semantics><mml:mn mathvariant="bold">0</mml:mn></mml:semantics></mml:math></inline-formula> to see how <inline-formula><mml:math id="mm198" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> define smooth macro-parameters. We plot the evolution of the 5 parameters with highest variance (<bold>top</bold>), the corresponding synthesis (<bold>middle</bold>), and audio descriptors (<bold>bottom</bold>). (<bold>Left</bold>) <inline-formula><mml:math id="mm199" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:semantics></mml:math></inline-formula> seems to relate to a <italic>percussivity</italic> parameter. (<bold>Right</bold>) <inline-formula><mml:math id="mm200" display="block"><mml:semantics><mml:msub><mml:mi mathvariant="bold">z</mml:mi><mml:mn>7</mml:mn></mml:msub></mml:semantics></mml:math></inline-formula> defines a form of <italic>harmonic densification</italic> parameter.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00302-g005.tif"/>
+      </fig>
+      <fig id="applsci-10-00302-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p><italic>Semantic macro-parameters</italic>. Two latent dimensions <inline-formula><mml:math id="mm201" display="block"><mml:semantics><mml:mi mathvariant="bold">z</mml:mi></mml:semantics></mml:math></inline-formula> learned through <italic>disentangling flows</italic> for different pairs. We show the effect on the latent space (<bold>left</bold>) and parameters mapping <inline-formula><mml:math id="mm202" display="block"><mml:semantics><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="bold">v</mml:mi><mml:mo>|</mml:mo><mml:mi mathvariant="bold">z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> when traversing these dimensions, that define smooth macro-parameters. We plot the evolution of 6 parameters with highest variance and the resulting synthesized audio (<bold>right</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00302-g006.tif"/>
+      </fig>
+      <fig id="applsci-10-00302-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p><italic>FlowSynth</italic> interface for audio synthesizer control in Ableton Live. The interface wraps a given VST, and allows to perform direct parameters inference, audio-based preset exploration and relying on both semantic and unsupervised macro-controls learned by our model.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00302-g007.tif"/>
+      </fig>
+      <table-wrap id="applsci-10-00302-t001" position="float">
+        <object-id pub-id-type="pii">applsci-10-00302-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Comparison between baselines, *AEs, and our <italic>flows</italic> on the test set with 16, 32, and 64 parameters. We report across-folds mean and variance for parameters (Mean-Squared Error [<inline-formula><mml:math id="mm203" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>]) and audio (Spectral Convergence [<inline-formula><mml:math id="mm204" display="block"><mml:semantics><mml:mrow><mml:mi>S</mml:mi><mml:mi>C</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>] and <inline-formula><mml:math id="mm205" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mrow><mml:mi>M</mml:mi><mml:mi>S</mml:mi><mml:mi>E</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>) errors. The best results are indicated in bold.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="3" align="right" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Test Set&#x2014;16 Parameters</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Test Set&#x2014;32 Parameters</th>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Test Set&#x2014;64 Parameters</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Params</th>
+              <th colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Audio</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Params</th>
+              <th colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Audio</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Params</th>
+              <th colspan="2" align="center" valign="middle" style="border-bottom:solid thin">Audio</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm206" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi mathvariant="bold-italic">M</mml:mi>
+                          <mml:mi mathvariant="bold-italic">S</mml:mi>
+                          <mml:mi mathvariant="bold-italic">E</mml:mi>
+                        </mml:mrow>
+                        <mml:mi mathvariant="bold-italic">n</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm207" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="bold-italic">S</mml:mi>
+                        <mml:mi mathvariant="bold-italic">C</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm208" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi mathvariant="bold-italic">M</mml:mi>
+                          <mml:mi mathvariant="bold-italic">S</mml:mi>
+                          <mml:mi mathvariant="bold-italic">E</mml:mi>
+                        </mml:mrow>
+                        <mml:mi mathvariant="bold-italic">n</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm209" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi mathvariant="bold-italic">M</mml:mi>
+                          <mml:mi mathvariant="bold-italic">S</mml:mi>
+                          <mml:mi mathvariant="bold-italic">E</mml:mi>
+                        </mml:mrow>
+                        <mml:mi mathvariant="bold-italic">n</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm210" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="bold-italic">S</mml:mi>
+                        <mml:mi mathvariant="bold-italic">C</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm211" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi mathvariant="bold-italic">M</mml:mi>
+                          <mml:mi mathvariant="bold-italic">S</mml:mi>
+                          <mml:mi mathvariant="bold-italic">E</mml:mi>
+                        </mml:mrow>
+                        <mml:mi mathvariant="bold-italic">n</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm212" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi mathvariant="bold-italic">M</mml:mi>
+                          <mml:mi mathvariant="bold-italic">S</mml:mi>
+                          <mml:mi mathvariant="bold-italic">E</mml:mi>
+                        </mml:mrow>
+                        <mml:mi mathvariant="bold-italic">n</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm213" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi mathvariant="bold-italic">S</mml:mi>
+                        <mml:mi mathvariant="bold-italic">C</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm214" display="block">
+                    <mml:semantics>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi mathvariant="bold-italic">M</mml:mi>
+                          <mml:mi mathvariant="bold-italic">S</mml:mi>
+                          <mml:mi mathvariant="bold-italic">E</mml:mi>
+                        </mml:mrow>
+                        <mml:mi mathvariant="bold-italic">n</mml:mi>
+                      </mml:msub>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm215" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>M</mml:mi>
+                        <mml:mi>L</mml:mi>
+                        <mml:mi>P</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">0.236 &#xB1; 0.44</td>
+              <td align="center" valign="middle">6.226 &#xB1; 0.13</td>
+              <td align="center" valign="middle">9.548 &#xB1; 3.1</td>
+              <td align="center" valign="middle">0.218 &#xB1; 0.46</td>
+              <td align="center" valign="middle">13.51 &#xB1; 3.1</td>
+              <td align="center" valign="middle">36.48 &#xB1; 11.9</td>
+              <td align="center" valign="middle">0.185 &#xB1; 0.41</td>
+              <td align="center" valign="middle">39.59 &#xB1; 6.7</td>
+              <td align="center" valign="middle">49.58 &#xB1; 2.7</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm216" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>C</mml:mi>
+                        <mml:mi>N</mml:mi>
+                        <mml:mi>N</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">0.171 &#xB1; 0.45</td>
+              <td align="center" valign="middle">1.372 &#xB1; 0.29</td>
+              <td align="center" valign="middle">6.329 &#xB1; 1.9</td>
+              <td align="center" valign="middle">0.159 &#xB1; 0.46</td>
+              <td align="center" valign="middle">19.18 &#xB1; 4.7</td>
+              <td align="center" valign="middle">33.40 &#xB1; 9.4</td>
+              <td align="center" valign="middle">0.202 &#xB1; 0.37</td>
+              <td align="center" valign="middle">52.48 &#xB1; 7.2</td>
+              <td align="center" valign="middle">76.13 &#xB1; 8.9</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm217" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>R</mml:mi>
+                        <mml:mi>e</mml:mi>
+                        <mml:mi>s</mml:mi>
+                        <mml:mi>N</mml:mi>
+                        <mml:mi>e</mml:mi>
+                        <mml:mi>t</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.191 &#xB1; 0.43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.004 &#xB1; 0.35</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.422 &#xB1; 1.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.196 &#xB1; 0.49</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10.37 &#xB1; 1.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.13 &#xB1; 9.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.248 &#xB1; 0.43</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">29.18 &#xB1; 3.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">78.15 &#xB1; 9.8</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm218" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>A</mml:mi>
+                        <mml:mi>E</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">0.181 &#xB1; 0.40</td>
+              <td align="center" valign="middle">0.893 &#xB1; 0.13</td>
+              <td align="center" valign="middle">5.557 &#xB1; 1.7</td>
+              <td align="center" valign="middle">0.169 &#xB1; 0.40</td>
+              <td align="center" valign="middle">5.566 &#xB1; 1.2</td>
+              <td align="center" valign="middle">17.71 &#xB1; 6.9</td>
+              <td align="center" valign="middle">0.189 &#xB1; 0.37</td>
+              <td align="center" valign="middle">8.123 &#xB1; 2.4</td>
+              <td align="center" valign="middle">34.07 &#xB1; 2.4</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm219" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>V</mml:mi>
+                        <mml:mi>A</mml:mi>
+                        <mml:mi>E</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">0.182 &#xB1; 0.32</td>
+              <td align="center" valign="middle">0.810 &#xB1; 0.03</td>
+              <td align="center" valign="middle">4.901 &#xB1; 1.4</td>
+              <td align="center" valign="middle">0.153 &#xB1; 0.34</td>
+              <td align="center" valign="middle">5.519 &#xB1; 1.4</td>
+              <td align="center" valign="middle">16.85 &#xB1; 6.1</td>
+              <td align="center" valign="middle">0.171 &#xB1; 0.37</td>
+              <td align="center" valign="middle">5.152 &#xB1; 1.1</td>
+              <td align="center" valign="middle">33.10 &#xB1; 2.4</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm220" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>W</mml:mi>
+                        <mml:mi>A</mml:mi>
+                        <mml:mi>E</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">
+                <bold>0.159 &#xB1; 0.37</bold>
+              </td>
+              <td align="center" valign="middle">0.787 &#xB1; 0.05</td>
+              <td align="center" valign="middle">4.979 &#xB1; 1.5</td>
+              <td align="center" valign="middle">
+                <bold>0.147 &#xB1; 0.33</bold>
+              </td>
+              <td align="center" valign="middle">3.967 &#xB1; 0.88</td>
+              <td align="center" valign="middle">16.64 &#xB1; 6.2</td>
+              <td align="center" valign="middle">
+                <bold>0.167 &#xB1; 0.36</bold>
+              </td>
+              <td align="center" valign="middle">8.960 &#xB1; 1.8</td>
+              <td align="center" valign="middle">
+                <bold>32.59 &#xB1; 2.1</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm221" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>V</mml:mi>
+                            <mml:mi>A</mml:mi>
+                            <mml:mi>E</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mi>f</mml:mi>
+                            <mml:mi>l</mml:mi>
+                            <mml:mi>o</mml:mi>
+                            <mml:mi>w</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.199 &#xB1; 0.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.838 &#xB1; 0.02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.975 &#xB1; 1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.164 &#xB1; 0.34</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.418 &#xB1; 0.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.74 &#xB1; 6.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.174 &#xB1; 0.36</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">6.721 &#xB1; 1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">33.81 &#xB1; 2.3</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm222" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>F</mml:mi>
+                            <mml:mi>l</mml:mi>
+                            <mml:mi>o</mml:mi>
+                            <mml:mi>w</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mi>r</mml:mi>
+                            <mml:mi>e</mml:mi>
+                            <mml:mi>g</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.197 &#xB1; 0.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>0.752 &#xB1; 0.05</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>4.409 &#xB1; 1.6</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.193 &#xB1; 0.32</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>0.911 &#xB1; 1.4</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>16.61 &#xB1; 7.4</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.178 &#xB1; 0.37</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>4.794 &#xB1; 1.8</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.49 &#xB1; 2.2</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm223" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>F</mml:mi>
+                            <mml:mi>l</mml:mi>
+                            <mml:mi>o</mml:mi>
+                            <mml:mi>w</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>i</mml:mi>
+                            <mml:mi>s</mml:mi>
+                            <mml:mo>.</mml:mo>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.199 &#xB1; 0.31</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.831 &#xB1; 0.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.103 &#xB1; 2.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.197 &#xB1; 0.42</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.481 &#xB1; 1.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">17.12 &#xB1; 7.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.182 &#xB1; 0.38</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.122 &#xB1; 1.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.97 &#xB1; 2.3</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="applsci-10-00302-t002" position="float">
+        <object-id pub-id-type="pii">applsci-10-00302-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Comparison between baselines, *AEs, and our <italic>flows</italic> on the out-of-domain parameters inference task. We report across-folds mean and variance for parameters (MSE) and audio (SC and MSE) errors.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="right" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Out-of-Domain (32 p.)</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Out-of-Domain (64 p.)</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm224" display="block">
+                    <mml:semantics>
+                      <mml:mi mathvariant="bold">SC</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm225" display="block">
+                    <mml:semantics>
+                      <mml:mi mathvariant="bold">MSE</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm226" display="block">
+                    <mml:semantics>
+                      <mml:mi mathvariant="bold">SC</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm227" display="block">
+                    <mml:semantics>
+                      <mml:mi mathvariant="bold">MSE</mml:mi>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm228" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>M</mml:mi>
+                        <mml:mi>L</mml:mi>
+                        <mml:mi>P</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">2.348 &#xB1; 2.1</td>
+              <td align="center" valign="middle">37.99 &#xB1; 7.8</td>
+              <td align="center" valign="middle">4.534 &#xB1; 5.1</td>
+              <td align="center" valign="middle">40.42 &#xB1; 3.7</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm229" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>C</mml:mi>
+                        <mml:mi>N</mml:mi>
+                        <mml:mi>N</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">2.311 &#xB1; 2.2</td>
+              <td align="center" valign="middle">29.22 &#xB1; 8.2</td>
+              <td align="center" valign="middle">6.329 &#xB1; 1.9</td>
+              <td align="center" valign="middle">36.93 &#xB1; 2.3</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm230" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>R</mml:mi>
+                        <mml:mi>e</mml:mi>
+                        <mml:mi>s</mml:mi>
+                        <mml:mi>N</mml:mi>
+                        <mml:mi>e</mml:mi>
+                        <mml:mi>t</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2.322 &#xB1; 1.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">31.07 &#xB1; 9.5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.645 &#xB1; 3.1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.46 &#xB1; 2.3</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm231" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>A</mml:mi>
+                        <mml:mi>E</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">1.225 &#xB1; 2.2</td>
+              <td align="center" valign="middle">27.37 &#xB1; 7.2</td>
+              <td align="center" valign="middle">2.557 &#xB1; 1.7</td>
+              <td align="center" valign="middle">27.16 &#xB1; 1.4</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm232" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>V</mml:mi>
+                        <mml:mi>A</mml:mi>
+                        <mml:mi>E</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">1.237 &#xB1; 1.3</td>
+              <td align="center" valign="middle">27.06 &#xB1; 7.1</td>
+              <td align="center" valign="middle">1.141 &#xB1; 1.2</td>
+              <td align="center" valign="middle">27.15 &#xB1; 1.3</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle">
+                <inline-formula>
+                  <mml:math id="mm233" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:mi>W</mml:mi>
+                        <mml:mi>A</mml:mi>
+                        <mml:mi>E</mml:mi>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle">
+                <bold>1.194 &#xB1; 1.5</bold>
+              </td>
+              <td align="center" valign="middle">26.10 &#xB1; 6.4</td>
+              <td align="center" valign="middle">
+                <bold>0.999 &#xB1; 0.9</bold>
+              </td>
+              <td align="center" valign="middle">25.13 &#xB1; 1.3</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm234" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>V</mml:mi>
+                            <mml:mi>A</mml:mi>
+                            <mml:mi>E</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mi>f</mml:mi>
+                            <mml:mi>l</mml:mi>
+                            <mml:mi>o</mml:mi>
+                            <mml:mi>w</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.193 &#xB1; 1.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.03 &#xB1; 6.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.022 &#xB1; 1.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.49 &#xB1; 1.3</td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm235" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>F</mml:mi>
+                            <mml:mi>l</mml:mi>
+                            <mml:mi>o</mml:mi>
+                            <mml:mi>w</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mi>r</mml:mi>
+                            <mml:mi>e</mml:mi>
+                            <mml:mi>g</mml:mi>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.201 &#xB1; 1.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>26.07 &#xB1; 7.7</bold>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.132 &#xB1; 1.6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">
+                <bold>24.74 &#xB1; 1.3</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="right" valign="middle" style="border-bottom:solid thin">
+                <inline-formula>
+                  <mml:math id="mm236" display="block">
+                    <mml:semantics>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>F</mml:mi>
+                            <mml:mi>l</mml:mi>
+                            <mml:mi>o</mml:mi>
+                            <mml:mi>w</mml:mi>
+                          </mml:mrow>
+                          <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>i</mml:mi>
+                            <mml:mi>s</mml:mi>
+                            <mml:mo>.</mml:mo>
+                          </mml:mrow>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:semantics>
+                  </mml:math>
+                </inline-formula>
+              </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.209 &#xB1; 1.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">26.77 &#xB1; 7.3</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.532 &#xB1; 1.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">27.89 &#xB1; 1.7</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

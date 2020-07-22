@@ -1,0 +1,2349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">polymers</journal-id>
+      <journal-title-group>
+        <journal-title>Polymers</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Polymers</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Polymers</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2073-4360</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/polym12010056</article-id>
+      <article-id pub-id-type="publisher-id">polymers-12-00056</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Influence of Compatibility on the Structure and Properties of PLA/Lignin Biocomposites by Chemical Modification</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-1231-2621</contrib-id>
+          <name>
+            <surname>Guo</surname>
+            <given-names>Jianbing</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00056" ref-type="aff">1</xref>
+          <xref rid="af2-polymers-12-00056" ref-type="aff">2</xref>
+          <xref rid="fn1-polymers-12-00056" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Xiaolang</given-names>
+          </name>
+          <xref rid="af3-polymers-12-00056" ref-type="aff">3</xref>
+          <xref rid="fn1-polymers-12-00056" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Jian</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00056" ref-type="aff">1</xref>
+          <xref rid="af2-polymers-12-00056" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>He</surname>
+            <given-names>Yong</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00056" ref-type="aff">1</xref>
+          <xref rid="af2-polymers-12-00056" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xie</surname>
+            <given-names>Haibo</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00056" ref-type="aff">1</xref>
+          <xref rid="c1-polymers-12-00056" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zheng</surname>
+            <given-names>Qiang</given-names>
+          </name>
+          <xref rid="af1-polymers-12-00056" ref-type="aff">1</xref>
+          <xref rid="af2-polymers-12-00056" ref-type="aff">2</xref>
+          <xref rid="af4-polymers-12-00056" ref-type="aff">4</xref>
+          <xref rid="c1-polymers-12-00056" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-polymers-12-00056"><label>1</label>Department of Polymer Material and Engineering, College of Materials and Metallurgy, Guizhou University, Guiyang 550025, China; <email>guojianbing_1015@126.com</email> (J.G.); <email>wangjian0319jian@163.com</email> (J.W.); <email>hy18798074906@163.com</email> (Y.H.)</aff>
+      <aff id="af2-polymers-12-00056"><label>2</label>National Engineering Research Center for Compounding and Modification of Polymer Materials, Guiyang 550014, China</aff>
+      <aff id="af3-polymers-12-00056"><label>3</label>Key Laboratory of Advanced Materials Technology Ministry of Education, School of Materials Science and Engineering, Southwest Jiaotong University, Chengdu 610031, China; <email>chenxl612@sina.com</email></aff>
+      <aff id="af4-polymers-12-00056"><label>4</label>Department of Polymer Science and Engineering, Zhejiang University, Hangzhou 310027, China</aff>
+      <author-notes>
+        <corresp id="c1-polymers-12-00056"><label>*</label>Correspondence: <email>hbxie@gzu.edu.cn</email> (H.X.); <email>zhengqiang@zju.edu.cn</email> (Q.Z.)</corresp>
+        <fn id="fn1-polymers-12-00056">
+          <label>&#x2020;</label>
+          <p>They contributed to the work equally.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>56</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>19</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>15</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Lignin, a natural amorphous three-dimensional aromatic polymer, is investigated as an appropriate filler for biocomposites. The chemical modification of firsthand lignin is an effective pathway to accomplish acetoacetate functional groups replacing polar hydroxyl (&#x2013;OH) groups, which capacitates lignin to possess better miscibility with poly(lactic acid) (PLA), compared with acidified lignin (Ac-lignin) and butyric lignin (By-lignin), for the sake of blending with poly(lactic acid) (PLA) to constitute a new biopolymer based composites. Generally speaking, the characterization of all PLA composites has been performed taking advantage of Fourier transform infrared (FTIR), scanning electron microscopy (SEM), dynamic Mechanical analysis (DMA), differential scanning calorimeter (DSC), thermogravimetric analysis (TGA), rheological analysis, and tensile test. Visibly, it is significant to highlight that the existence of acetoacetate functional groups enhances the miscibility, interfacial compatibility, and interface interaction between acetoacetate lignin (At-lignin) and PLA. Identical conclusions were obtained in this study where PLA/At-lignin biocomposites furthest maintain the tensile strength of pure PLA.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>acetoacetate lignin</kwd>
+        <kwd>poly(lactic acid)</kwd>
+        <kwd>miscibility</kwd>
+        <kwd>properties</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-polymers-12-00056" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Climate change and the depletion of petroleum-based reserves are two major global challenges that are motivating research on the growing sustainability [<xref ref-type="bibr" rid="B1-polymers-12-00056">1</xref>], and environmental-friendly and renewable resources to replace materials obtained from non-renewable fossil-based reserves in order to solve the increasing fuel demands and growing concern for the effects of greenhouse gases emissions from fossil fuels [<xref ref-type="bibr" rid="B2-polymers-12-00056">2</xref>,<xref ref-type="bibr" rid="B3-polymers-12-00056">3</xref>]. Biomaterials, characterized by biocompatibility and biodegradability, are potential materials in order to satisfy the requirements of sustainable development and quality of life. Hence, a large quantity of research has been dedicated to the development of biobased polymers and biocomposites from natural sources owing to their low cost, biocompatibility, and biodegradability [<xref ref-type="bibr" rid="B4-polymers-12-00056">4</xref>].</p>
+      <p>Lignin, a natural amorphous three-dimensional aromatic polymer [<xref ref-type="bibr" rid="B5-polymers-12-00056">5</xref>,<xref ref-type="bibr" rid="B6-polymers-12-00056">6</xref>], consisting of methoxylated basic phenyl propanol structures [<xref ref-type="bibr" rid="B7-polymers-12-00056">7</xref>], is considered the most promising renewable resource to petroleum-based polymer materials [<xref ref-type="bibr" rid="B8-polymers-12-00056">8</xref>], conferring rigidity, strength, and structural support to biomass. Extensive research into the abundance and the renewable character of lignin, engendered in million tons per year as a by-product during the pulping process, has urged the potential for oil substituting raw material for the manufacture of new biobased materials [<xref ref-type="bibr" rid="B9-polymers-12-00056">9</xref>,<xref ref-type="bibr" rid="B10-polymers-12-00056">10</xref>]. As one of the main components of this biomass, lignin presents an aromatic backbone, making it the most important renewable source of aromatic structures, elucidating the intensive research activities worldwide. In their native forms, lignin appears to be complex, apparently unordered structures, where the different units, involving coumaryl, coniferyl, and sinapyl [<xref ref-type="bibr" rid="B11-polymers-12-00056">11</xref>], are connected by ethers or condensed C&#x2013;C bonds [<xref ref-type="bibr" rid="B12-polymers-12-00056">12</xref>,<xref ref-type="bibr" rid="B13-polymers-12-00056">13</xref>]. In recent years, the development of high-performance lignin-based functional materials has attracted comprehensive attention, possessing properties such as antibacterial, antioxidant, or UV-absorbance [<xref ref-type="bibr" rid="B14-polymers-12-00056">14</xref>]. However, the lignin reactivity is supposed to be restricted as a consequence of stearic hindrance which results from the complexity and disorder of molecular structure. Hence, chemical modification seems to be a key strategy to further implement lignin into the polymer chemistry owing to abundant functional groups, such as phenolic and aliphatic hydroxyl, carbonyl, alkyl aryl ether, biphenyl, diaryl ether, etc. [<xref ref-type="bibr" rid="B15-polymers-12-00056">15</xref>]. In particular, aliphatic and phenolic hydroxyl (OH) groups can be easily modified through esterification or alkylation, either to chain extend or introduce new chemically active sites to improve the current low degree of lignin utilization in the chemical industry and make the process economically profitable [<xref ref-type="bibr" rid="B16-polymers-12-00056">16</xref>]. Based on its structural complexity, lignin is deemed as a fascinating filler material.</p>
+      <p>The poly(lactic acid) (PLA), identified as an eco-friendly biobased polymer for a large number of industrial products owing to good mechanical properties [<xref ref-type="bibr" rid="B17-polymers-12-00056">17</xref>], high degree of transparency, and ease of fabrication, low emission, low energy processability, biodegradability, and recyclability [<xref ref-type="bibr" rid="B18-polymers-12-00056">18</xref>,<xref ref-type="bibr" rid="B19-polymers-12-00056">19</xref>,<xref ref-type="bibr" rid="B20-polymers-12-00056">20</xref>,<xref ref-type="bibr" rid="B21-polymers-12-00056">21</xref>], has been the subject of special attention on blending with lignin to acquire biodegradability composites applied to enormous potential and promising prospects, such as automotive components, the electrical industry, building materials, and the aerospace industry [<xref ref-type="bibr" rid="B22-polymers-12-00056">22</xref>,<xref ref-type="bibr" rid="B23-polymers-12-00056">23</xref>]. Naturally, the source of PLA is a green pathway to obtain, and the raw materials mainly come from renewable resources [<xref ref-type="bibr" rid="B24-polymers-12-00056">24</xref>]. Due to its easy melting processability below the degradation temperature of plenty of natural materials, PLA is considered to be the development of totally biobased materials. Due to its superiority, PLA is prior to other products, therefore it is chosen as the first biobased commodity plastic to be produced. Nevertheless, it has inherent disadvantages including high cost and low toughness which render limitation in wide-scale adoption of polymers [<xref ref-type="bibr" rid="B25-polymers-12-00056">25</xref>,<xref ref-type="bibr" rid="B26-polymers-12-00056">26</xref>]. Based on the concept of sustainable development, the addition of fillers to form new-style green composites is an effective way to improve upon large-scale application.</p>
+      <p>To the best of our knowledge, lignin in combination with acetoacetate functional groups is less described [<xref ref-type="bibr" rid="B27-polymers-12-00056">27</xref>]. Additionally, the preparation and synthesis method of acetoacetate lignin is a new methodology to form the unique structure of functional groups, with the purpose of enhancing the reactivity and compatibility of initial lignin. In this work, the effect of the strong hydrogen bond donor group on the structure and properties of polymer/lignin biocomposites as well as the compatibility between components is discussed and clarified through the chemical modification of lignin. In addition, the compounding and compatibilizing mechanism of ketone derivatives of lignin and polymer matrix were also investigated and discussed further. The aim of this work was focused on the well-known interaction between lignin and PLA to obtain novel biobased composites establishing the example of lignin-based PLA biocomposites. It is thus the objective to characterize the rheological, morphological, dynamic mechanical, tensile strength, and thermal properties of PLA, PLA/acidified lignin (PLA/Ac-lignin), PLA/acetoacetate lignin (PLA/At-lignin), and PLA/butyric lignin (PLA/By-lignin) biocomposites to elaborate miscibility, interfacial compatibility, and interface interaction between lignin filler and PLA matrix.</p>
+    </sec>
+    <sec id="sec2-polymers-12-00056">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-polymers-12-00056">
+        <title>2.1. Materials</title>
+        <p>Poly(lactic acid) (PLA 4032D) with a weight-average molecular weight (<italic>M</italic><sub>w</sub>) and a polydispersity index of 17.62 &#xD7; 10<sup>4</sup> g/mol and 2.1 was procured from Natureworks (Blair, NE, USA). Kraft lignin used for the composites was obtained from (Shandong Tranlin Group, Qingdao, China) using the LignoBoost process, which is extraction of lignin from black liquor.</p>
+        <p>The PLA biocomposites with three different lignin compositions were fabricated by using acidified lignin (Ac-lignin), acetoacetate lignin (At-lignin), and butyric lignin (By-lignin). The structures of Ac-lignin, At-lignin, and By-lignin are shown in <xref ref-type="scheme" rid="polymers-12-00056-sch001">Scheme 1</xref>. <xref ref-type="table" rid="polymers-12-00056-t001">Table 1</xref> highlights the naming convention used in this work based on the composition of the biocomposites.</p>
+      </sec>
+      <sec id="sec2dot2-polymers-12-00056">
+        <title>2.2. Preparation of Samples</title>
+        <p>Ac-lignin: The solution of 67 g deionized water and 33 g Kraft lignin was stirred under ambient temperature for 3 h to achieve full dissolution of lignin. After centrifugation at 10,000 rpm for 5 min, the solid residue was discarded and the supernatants were collected. The addition of dilute H<sub>2</sub>SO<sub>4</sub> (33%) dropwise into supernatants was to adjust pH to 2 or 3. After centrifugation at 10,000 rpm for 5 min, the solid residue was collected and washed thoroughly with deionized water before being freeze-dried.</p>
+        <p>At-lignin: Ac-lignin (0.5 g) was dissolved in 9.5 g Gamma-Valerolactone (GVL) to form a homogeneous solution with magnetic stirring. Then, the solution was stirred at 140 &#xB0;C for 5 h to activate lignin. Next, 0.955 mL of acetyl ketene was added dropwise and stirred at 90 &#xB0;C for 1 h. The crude reaction solution was added dropwise and precipitated in enthanol, and At-lignin was obtained by centrifugation and washed thoroughly with deionized water before free-drying [<xref ref-type="bibr" rid="B28-polymers-12-00056">28</xref>].</p>
+        <p>By-lignin: Samples of Ac-lignin were placed in a 100 mL round-bottomed flask to which the butyric anhydride (25 mL) and 1-methylimidazole (1-MIM) (0.5 mL) were added. The reaction was kept at 120 &#xB0;C for 24 h with efficient stirring. The By-lignin was recovered by adding the reaction mixture dropwise into water with stirring to allow for complete precipitation, followed by centrifugation, and washed exhaustively with deionized water before free-drying [<xref ref-type="bibr" rid="B29-polymers-12-00056">29</xref>].</p>
+        <p>The preparation of PLA/lignin biocomposites: The pure PLA was first blended with different lignin as the ratio listed in <xref ref-type="table" rid="polymers-12-00056-t001">Table 1</xref>, and dried in an oven at 80 &#xB0;C for 8 h to remove moisture. As shown in <xref ref-type="fig" rid="polymers-12-00056-f001">Figure 1</xref>, the PLA/lignin master batches were prepared by using a micro twin-screw extruder (SJZA-10A, Ruiming Experiment Apparatus Manufacturing Co., Ltd., Wuhan, China) at the processing temperature from 160 &#xB0;C to 180 &#xB0;C. Then they were injection molded into standard specimens at 180&#x2013;200 &#xB0;C by the micro injection molding machine (type of SZS-20, Ruiming Experiment Apparatus Manufacturing Co., Ltd., Wuhan, China).</p>
+      </sec>
+      <sec id="sec2dot3-polymers-12-00056">
+        <title>2.3. Measurements and Characterization</title>
+        <sec id="sec2dot3dot1-polymers-12-00056">
+          <title>2.3.1. Fourier-Transform Infrared (FTIR) Spectroscopy</title>
+          <p>FTIR spectra were recorded on a NEXUS-570 spectrophotometer (Thermo Fisher Scientific Co., Ltd., Waltham, MA, USA) in a range of wavenumber from 4000 to 500 cm<sup>&#x2212;1</sup> with the resolution and scanning number of 4 cm<sup>&#x2212;1</sup> and 32 times, respectively. The samples for FT-IR analysis were prepared by pressing with KBr at a mass proportion of about 1/100.</p>
+        </sec>
+        <sec id="sec2dot3dot2-polymers-12-00056">
+          <title>2.3.2. NMR Spectroscopy</title>
+          <p>In the present work, the <sup>31</sup>P NMR analysis was performed on lignin samples phosphytilated with 2-chloro-4,4,5,5-tetramethyl-1,3,2-dioxaphospholane, using cholesterol as internal standard, according to standard protocol. Then, 128 scans were recorded with a 15 s delay and a spectral width of 80 ppm (180&#x2013;100 ppm). For quantitative <sup>1</sup>H NMR analysis, 20 mg of lignin was dissolved in 0.5 mL of DMSO-d<sub>6</sub>. All NMR spectra were recorded on a Bruker Ascend 400 MHz spectrometer (Bruker Corporation, Karlsruhe, Germany). Then, 32 scans were collected with a 10 s delay. The <sup>13</sup>C-NMR spectra were recorded on a Bruker Ascend 400 MHz and an inverse-gated decoupling sequence with a relaxation time of 4 s. The number of scans was at least 10,000. The samples were dissolved in DMSO-d<sub>6</sub> and measured at 60 &#xB0;C.</p>
+        </sec>
+        <sec id="sec2dot3dot3-polymers-12-00056">
+          <title>2.3.3. Scanning Electron Microscopy (SEM)</title>
+          <p>For viewing the morphology of the samples, the samples obtained upon fabrication were freeze-fractured inside liquid nitrogen. The fractured surface was then sputter coated. The impact fracture surfaces of the PLA/lignin samples were observed by a KYKY-2800B SEM (KYKY Technology Development Ltd., Beijing, China) equipment with an acceleration voltage of 25 kV. SEM images of all the samples were recorded after the surfaces of the samples were coated with gold.</p>
+        </sec>
+        <sec id="sec2dot3dot4-polymers-12-00056">
+          <title>2.3.4. Atomic Force Microscope (AFM)</title>
+          <p>AFM experiments were performed at room temperature using a Dimension Icon Atomic Force Microscope (Bruker Corporation, Karlsruhe, Germany) operating in tapping mode and peak force tapping with amplitude control at 1.0 Hz. The data were analyzed using the Nano Scope software version 1.40 (Bruker Corporation, Karlsruhe, Germany). Scan sizes were 5&#x2013;10 &#x3BC;m with 512 scans on each scanning line.</p>
+        </sec>
+        <sec id="sec2dot3dot5-polymers-12-00056">
+          <title>2.3.5. Dynamic Mechanical Test</title>
+          <p>The rectangular biocomposites obtained upon fabrication were tested in a dynamic mechanical analyzer (Q800, TA Co., Ltd., New Castle, PA, USA) using a dual cantilever setup. For obtaining the dynamic mechanical properties, a constant displacement amplitude-isothermal frequency ramp procedure was used on all samples. In this procedure, a central vertical displacement amplitude of 15 &#x3BC;m, at a temperature of 30 &#xB0;C, using a frequency sweep from 5 to 45 Hz was specified.</p>
+        </sec>
+        <sec id="sec2dot3dot6-polymers-12-00056">
+          <title>2.3.6. Differential Scanning Calorimetry (DSC)</title>
+          <p>About 8 mg of the specimen to be tested was weighed and hermetically sealed in aluminum pans. The spans were then placed in sequence in an auto sampler of a DSC analyzer (Q10, TA Instruments, TA Co., Ltd., New Castle, PA, USA) for testing. A heat-cool-heat program was used for all samples. To capture the heat flow behavior with rate of temperature change, three different heating/cooling rates were used. For each heating/cooling rate, the samples were first heated to 200 &#xB0;C, held 5 min to erase the thermal history, then cooled to 30 &#xB0;C and reheated to 200 &#xB0;C.</p>
+        </sec>
+        <sec id="sec2dot3dot7-polymers-12-00056">
+          <title>2.3.7. Thermogravimetric Analysis (TGA)</title>
+          <p>For each test, between 10 and 15 mg of material to be tested was placed in a platinum pan and heated in the chamber of a thermogravimetric analyzer (Q50, TA Co., Ltd., New Castle, PA, USA). The chamber containing the sample was continuously purged with nitrogen gas at a flow rate of 10 mL/min. All samples were heated to 800 &#xB0;C using a heating rate of 10 &#xB0;C/min.</p>
+        </sec>
+        <sec id="sec2dot3dot8-polymers-12-00056">
+          <title>2.3.8. Rheological Analysis</title>
+          <p>The rheological properties were measured using a TA rheometer (AR 2000, TA Co., Ltd., New Castle, PA, USA) with a nitrogen purge. A strain amplitude of 1% was found to be suitable to ensure linear viscoelastic regime and thus used for both the frequency sweep and temperature ramp sweep modes.</p>
+        </sec>
+        <sec id="sec2dot3dot9-polymers-12-00056">
+          <title>2.3.9. Mechanical Properties</title>
+          <p>The tensile tests were measured with an electronic universal mechanical testing machine (WDW-10C, Shanghai Hualong Test Instrument Co., Ltd., Shanghai, China) according to the ASTM D-638. The experiment was carried out at room temperature with a cross-head speed of 10 mm/min. The gauge length between the two pneumatic clamps was 25 mm. Five measurements were performed for each sample, and the averaged result was reported.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-polymers-12-00056" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-polymers-12-00056">
+        <title>3.1. The Structure and Morphology of Lignin and Its Biocomposites</title>
+        <p>In view of <sup>1</sup>H NMR spectra shown in <xref ref-type="fig" rid="polymers-12-00056-f002">Figure 2</xref>, the signals at 6.7&#x2013;6.1 and 7.5&#x2013;6.7 ppm were attributed to aromatic protons in syringyl-propane and guaiacyl-propane structures [<xref ref-type="bibr" rid="B30-polymers-12-00056">30</xref>], and the H&#x3B1; in &#x3B2;-O-4 structures exhibited single signal at 6.1&#x2013;5.8. Distinctly, it was found that the H&#x3B1; in &#x3B2;-5 structures existed at 5.8&#x2013;5.2, H&#x3B1; and H&#x3B2; in &#x3B2;-O-4 structures showed signal peaks at 4.9&#x2013;4.3, and H&#x3B1; in &#x3B2;-&#x3B2; structures appeared at 4.3&#x2013;4.0. Moreover, methoxyl protons (&#x2013;OCH<sub>3</sub>) gave a sharp signal at 3.61 ppm. By observation and comparison, it was discovered clearly that H protons in aromatic rings got weak compared to initial acidified lignin, demonstrating the existence of new chemical structure. In <xref ref-type="fig" rid="polymers-12-00056-f002">Figure 2</xref>a, H protons in methyl (&#x2013;CH<sub>3</sub>) and methylene (&#x2013;CH<sub>2</sub>&#x2013;) appeared in 3.61 and 2.25, respectively, which were ascribed to acetoacetate groups [<xref ref-type="bibr" rid="B31-polymers-12-00056">31</xref>]. Accordingly, H protons in methylene (&#x2013;CH<sub>2</sub>&#x2013;) existed at 2.59 and 1.68 ppm, respectively, and H protons in methyl (&#x2013;CH<sub>3</sub>) appeared at 0.99, which were attributed to the existence of new chemical structure, as shown in <xref ref-type="fig" rid="polymers-12-00056-f002">Figure 2</xref>b.</p>
+        <p>The <sup>13</sup>C NMR was used to further investigate the carbonate structures of lignin formed [<xref ref-type="bibr" rid="B31-polymers-12-00056">31</xref>,<xref ref-type="bibr" rid="B32-polymers-12-00056">32</xref>]. In general, the spectrum of different lignin can be divided into the region of aromatic (100&#x2013;160 ppm) and aliphatic (10&#x2013;90 ppm) carbon atoms, as shown in <xref ref-type="fig" rid="polymers-12-00056-f003">Figure 3</xref>. Compared with initial lignin, it was discovered that the successful acetoacetate lignin was verified by the signals of new acetoacetate groups (a: 30.3 ppm, b 200.4 ppm, c 50.7 ppm, d 167.9 ppm). In addition, the signals of carboxyl groups (C=O) occurred from 165&#x2013;210 ppm, and the signal at around 70&#x2013;105 ppm was attributed to the ether bonds [<xref ref-type="bibr" rid="B31-polymers-12-00056">31</xref>]. By the comparison of spectra, the signal at about 20&#x2013;30 ppm showed a significant intensity increase, which was ascribed to carbon atoms of aliphatic chains. The <sup>31</sup>P NMR spectroscopy proved to be a useful tool to study the structures of lignin [<xref ref-type="bibr" rid="B33-polymers-12-00056">33</xref>]. Naturally, the different types of active OH groups (aromatic, aliphatic, and carboxylic) and the S/G/H ratio in lignin were evaluated to further investigate the structure of lignin. The spectra shown in <xref ref-type="fig" rid="polymers-12-00056-f004">Figure 4</xref> presented resonances assigned to various units bearing free OH groups: Aliphatic OH groups (broad signal at 145&#x2013;150 ppm), phenolic OH groups (at 141.5&#x2013;144 ppm for S, at 139&#x2013;140 ppm for G, and at 137&#x2013;138.5 ppm for H), and carboxylic acid groups (at 136.2&#x2013;134.5 ppm) [<xref ref-type="bibr" rid="B33-polymers-12-00056">33</xref>]. Obviously, it was observed that the signals of S, G, H, and carboxylic acid groups in acetoacetate lignin decreased compared with initial lignin, expressing that most OH groups were consumed by chemical modification. In view of reference, the synthesis of By-lignin was successful and the functional groups were grafted.</p>
+        <p>FTIR spectra of Ac-lignin, At-lignin, and By-lignin are shown in <xref ref-type="fig" rid="polymers-12-00056-f005">Figure 5</xref>. In the case of Ac-lignin as shown in <xref ref-type="fig" rid="polymers-12-00056-f005">Figure 5</xref>a, the wide absorption band at 3401 cm<sup>&#x2212;1</sup> originated from the presence of O&#x2013;H stretching vibrations in aromatic and aliphatic O&#x2013;H groups. Whereas the bands at 2936 and 2847 cm<sup>&#x2212;1</sup> were attributed to the C&#x2013;H asymmetric and symmetric vibrations in the methyl and methylene groups [<xref ref-type="bibr" rid="B33-polymers-12-00056">33</xref>]. The band at 1710 cm<sup>&#x2212;1</sup> shows the presence of nonconjugated carboxylic acids. The peaks at 1595 and 1510 cm<sup>&#x2212;1</sup> were ascribed to C&#x2013;C of aromatic skeletal vibrations. It was found that the bands at 1460 and 1420 cm<sup>&#x2212;1</sup> were imputed to the C&#x2013;H deformation in &#x2013;CH<sub>2</sub>&#x2013; and &#x2013;CH<sub>3</sub> groups and C&#x2013;H aromatic ring vibrations, respectively [<xref ref-type="bibr" rid="B34-polymers-12-00056">34</xref>]. At the same time, it was detected that some characteristic bands associated to syringyl and guaiacyl units in lignin were found at 1325, 1220, and 1110 cm<sup>&#x2212;1</sup> corresponding to syringyl and condensed guaiacyl absorptions, guaiacyl ring breathing, C&#x2013;C, C&#x2013;O stretch, and aromatic C&#x2013;H in plane deformation. In the case of At-lignin and By-lignin (<xref ref-type="fig" rid="polymers-12-00056-f005">Figure 5</xref>b,c), it is obvious that the signal around 3401 cm<sup>&#x2212;1</sup> which corresponded to OH stretching vibrations in aromatic and aliphatic OH groups was impaired compared with Ac-lignin. Obviously, the appearance of two peaks at 1760 and 1705 cm<sup>&#x2212;1</sup> in At-lignin was clearly seen, which was assigned to acetoacetate groups. This indicates that acetoacetate process was successful, and the appearance of peak at 1710 cm<sup>&#x2212;1</sup> shifting to 1754 cm<sup>&#x2212;1</sup> showed the change of carboxyl group, manifesting the success of acetylation process. <xref ref-type="fig" rid="polymers-12-00056-f006">Figure 6</xref> shows the FTIR of PLA, PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin. In view of PLA, C&#x2013;O bond at 1747 shifted to 1755, 1750, and 1749 cm<sup>&#x2212;1</sup> in PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin, which was attributed to the results of the hydrogen bond between lignin and PLA molecule. In addition, for different lignin derivatives, the shifting degree of C&#x2013;O of three biocomposites was different. This indicated also the addition of lignin had an influence on the properties of PLA biocomposites owing to the degree of miscibility and interfacial adhesion between PLA and different lignin.</p>
+        <p><xref ref-type="fig" rid="polymers-12-00056-f007">Figure 7</xref> shows the SEM micrographs of the acidified lignin, acetoacetate lignin, and butyric lignin. There was a scatter in the size ranging from 0.5 m to 2 m for the Ac-lignin, At-lignin, and By-lignin; but, the particle size of At-lignin was much smaller than that of Ac-lignin and By-lignin. The particle shape of lignin was important to affect the degree of anisotropy. It can be seen clearly that all particles of lignin appeared to be roughly spherical, indicating that different level accumulation of lignin particles led to the occurrence of various agglomerates. At the same time, the lignin size also affected the surface area to volume ratio, resulting in differences in stress transfer and matrix-particle filler wetting, further adjusting and regulating the compatibility and consistency between lignin filler and PLA matrix.</p>
+        <p>The cross-sectional morphologies of pure PLA and PLA/lignin biocomposites are shown in <xref ref-type="fig" rid="polymers-12-00056-f008">Figure 8</xref>. It is evident that the increase of heterogeneity of the blends resulting in varieties of particle sizes was attributed to the incorporation of lignin into the pure PLA, which gave rise to greater areas of weakness within the biocomposites, thereby possibly reducing its tensile strength. On the strength of slightly greater various particle sizes affected with the degree of miscibility and interfacial adhesion between PLA and different lignin, it was found that Ac-lignin, At-lignin, and By-lignin uniformly dispersed and embedded in the PLA matrix [<xref ref-type="bibr" rid="B35-polymers-12-00056">35</xref>]. Obviously, it was visible to observe that the surface of PLA/lignin biocomposites was rougher than the pure PLA, embracing spheroidal-like lignin particles embedded within the matrix [<xref ref-type="bibr" rid="B36-polymers-12-00056">36</xref>]. With the addition of At-lignin, a distinct feature, which can easily be seen in <xref ref-type="fig" rid="polymers-12-00056-f008">Figure 8</xref>c, is that distinct phase is still visible with distinguishable lignin particles compared with <xref ref-type="fig" rid="polymers-12-00056-f008">Figure 8</xref>b,d. It can be observed that a large number of lignin particles were protruded out of the surface, indicating that there was a poor compatibility between PLA and Ac-lignin or By-lignin compared with PLA and At-lignin in PLA/At-lignin biocomposites. In other words, the incorporation of At-lignin was more beneficial to improve the dispersion in the filler phase with matrix PLA [<xref ref-type="bibr" rid="B37-polymers-12-00056">37</xref>], thus confirming the better interaction and adhesion between PLA and At-lignin, which contributed to form a stronger matrix-filler interface [<xref ref-type="bibr" rid="B38-polymers-12-00056">38</xref>]. A point to note from the SEM micrographs is that PLA/At-lignin biocomposites showed better properties than PLA/Ac-lignin and PLA/By-lignin biocomposites due to the stronger interfacial interaction of matrix filler.</p>
+        <p>The AFM analysis was also performed to further measure the surface morphologies and dispersion of polymer and its blends [<xref ref-type="bibr" rid="B39-polymers-12-00056">39</xref>,<xref ref-type="bibr" rid="B40-polymers-12-00056">40</xref>]. <xref ref-type="fig" rid="polymers-12-00056-f009">Figure 9</xref> and <xref ref-type="fig" rid="polymers-12-00056-f010">Figure 10</xref> exhibit the tapping images of PLA, PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites. It is evident from <xref ref-type="fig" rid="polymers-12-00056-f009">Figure 9</xref> and <xref ref-type="fig" rid="polymers-12-00056-f010">Figure 10</xref> that the surface of pure PLA and PLA/lignin biocomposites showed a significantly different roughness behavior, and, depending on the different modified lignin, the structure on the surface of the samples varied greatly. For example, the surface area difference of PLA is 0.169%. However, the values of surface area difference of PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin increased to 0.470%, 1.21%, and 0.476%, respectively. It is obvious that PLA/At-lignin biocomposites had the most surface roughness compared with other samples, as shown in <xref ref-type="fig" rid="polymers-12-00056-f009">Figure 9</xref>c and <xref ref-type="fig" rid="polymers-12-00056-f010">Figure 10</xref>c. In addition, after chemical modification, the chain movement at the surface increased significantly, which led to the formation of more ordered structures. On the one hand, the PLA/At-lignin sample modified with acetoacetate lignin exhibited a miscible biocomposite due to the enhanced interfacial adhesion between PLA matrix and lignin filler compared with the other two biocomposites. In fact, similar work has been reported by Teramoto et al. [<xref ref-type="bibr" rid="B41-polymers-12-00056">41</xref>]. The blend of untreated lignin exhibited a phase separation. However, the blends with modified lignin (by using butyric and valeric anhydrides) presented good miscible blends and an absence of phase separation [<xref ref-type="bibr" rid="B41-polymers-12-00056">41</xref>]. On the other hand, it was clearly found that the dispersion of At-lignin in the PLA matrix was improved.</p>
+      </sec>
+      <sec id="sec3dot2-polymers-12-00056">
+        <title>3.2. Dynamic Mechanical Analysis of the Biocomposites</title>
+        <p>Storage modulus (<italic>E</italic>&#x2032;) was obtained from the strain response in phase with the stress and was a measure of the strain energy stored elastically. The loss modulus (<italic>E&#x2033;</italic>) was obtained by the out of phase strain response and represented strain energy lost in viscous dissipation per cycle. The ratio of the <italic>E&#x2033;</italic> to <italic>E</italic>&#x2032; represents tan&#x3B4; which is a measure of the proportion of input energy dissipated. The following Equations (1)&#x2013;(3) describe the relation between the above mentioned viscoelastic properties to the stress input and strain response of the material [<xref ref-type="bibr" rid="B42-polymers-12-00056">42</xref>]:<disp-formula id="FD1-polymers-12-00056"><label>(1)</label><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:msup><mml:mi>E</mml:mi><mml:mo>&#x2032;</mml:mo></mml:msup><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mi mathvariant="sans-serif">&#x3B5;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3B5;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mi>cos</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="sans-serif">&#x3B4;</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD2-polymers-12-00056"><label>(2)</label><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:msup><mml:mi>E</mml:mi><mml:mo>&#x2033;</mml:mo></mml:msup><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mrow><mml:mi mathvariant="sans-serif">&#x3C0;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="sans-serif">&#x3B5;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mi mathvariant="sans-serif">&#x3C9;</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3B5;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:mfrac><mml:mi>sin</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="sans-serif">&#x3B4;</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD3-polymers-12-00056"><label>(3)</label><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mi>tan</mml:mi><mml:mi mathvariant="sans-serif">&#x3B4;</mml:mi></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mrow><mml:mi mathvariant="sans-serif">&#x3C0;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="sans-serif">&#x3B5;</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mi mathvariant="normal">t</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mi mathvariant="sans-serif">&#x3C9;</mml:mi></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where &#x3B5;(t) is the applied strain, &#x3B5;(t) is the applied strain rate, &#x3B5;<sub>0</sub> is the applied strain amplitude, &#x3C3;<sub>0</sub>(t) is the stress in phase with the strain, &#x3C3;<sub>&#x3C0;-0</sub>(t) is the stress out of phase with the strain, &#x3C3;<sub>0</sub> is the stress amplitude, and &#x3B4; is the phase angle. <italic>E</italic>&#x2032; is the stress required per unit of elastic strain and <italic>E&#x2033;</italic> is the stress required per unit of viscous strain. All quantities were calculated over one cycle. The <italic>E</italic>&#x2032; and <italic>E&#x2033;</italic> obtained represent the responses of the spring and dashpot, respectively, in the Kelvin&#x2013;Voigt model. However, the distribution of the applied strain energy between elastic and viscous components depends on the ratio of the loss modulus to the storage modulus which is defined as the loss tangent, tan&#x3B4;.</p>
+        <p>The most important finding was that the individual constituents and the interactions of matrix-filler played a significant role on the dynamic mechanical properties of the biocomposites. In addition, the adhesion between the polymer matrix and the filler is evaluated by DMA technique [<xref ref-type="bibr" rid="B43-polymers-12-00056">43</xref>]. <xref ref-type="fig" rid="polymers-12-00056-f011">Figure 11</xref> displays the <italic>E</italic>&#x2032;, <italic>E&#x2033;</italic>, and tan&#x3B4; of pure PLA, PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites as a function of frequency. It is interesting to note that in most of this study the stress transfer across the interface may be susceptible to the characteristics of the interface between the matrix and filler. For one thing, there was no doubt that the weaker interfaces were supposed to generate more rotational and translational degrees of freedom along with the interface, which in turn may result in increasing energy dissipation and reducing storage of energy across the interface per unit strain through stick-slip motion. For another thing, the frictional dissipation mechanisms led to an increase for the value of <italic>E&#x2033;</italic> and damping, owing to weaker interfaces. On the whole, the overall mechanical behaviors of the biocomposites were primarily affected by particulate volume within the biocomposites and the characteristics of the matrix-filler interface.</p>
+        <p>The <italic>E</italic>&#x2032; curves of PLA, PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites are shown in <xref ref-type="fig" rid="polymers-12-00056-f011">Figure 11</xref>a. Pure PLA and PLA/Lignin biocomposites showed similar behaviors that the <italic>E</italic>&#x2032; value gradually reduced with increasing the temperature. Otherwise, the only distinct difference was that the <italic>E</italic>&#x2032; of PLA/lignin biocomposites was less than that of pure PLA, which was attributed to the damping of the interfacial interaction with various lignin blended with PLA. PLA/At-lignin biocomposites embrace higher <italic>E</italic>&#x2032; value compared with PLA/Ac-lignin and PLA/By-lignin biocomposites as a consequence of relatively outstanding matrix-filler interface and the enhancement of interfacial adhesion, which profiles that molecular chains of PLA/At-lignin took possessed mobility from the frozen state at low temperature [<xref ref-type="bibr" rid="B44-polymers-12-00056">44</xref>], emphasizing that PLA/At-lignin biocomposites were endowed with preferable elasticity compared with PLA/Ac-lignin and PLA/By-lignin biocomposites. Moreover, the addition of acetoacetate groups in lignin remarkably changed the structure of acidified lignin, which further improved the interaction with PLA.</p>
+        <p>The <italic>E&#x2033;</italic> stands for the degradation or the loss of energy at heat according to the cycle of sinusoidal distortion, as shown in <xref ref-type="fig" rid="polymers-12-00056-f011">Figure 11</xref>b. The objective of this figure is to describe that the value of <italic>E&#x2033;</italic> appeared to be higher peak in a certain temperature range, which signified that some kind of transformation occurred in the movement of polymer, especially the thawing of some movement. As a consequence of little addition of modified lignin, the change of <italic>E&#x2033;</italic> was not obvious.</p>
+        <p>The maximum of tan&#x3B4; is always used to evaluate the glass transition temperature (<italic>T</italic><sub>g</sub>) of polymer composites as shown in <xref ref-type="fig" rid="polymers-12-00056-f011">Figure 11</xref>c. For the PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites, the peak value of tan&#x3B4; shifted to a lower value compared with pure PLA, which implies that the mobility of the molecules was impaired, owing to the increased interfacial weakness which was derived from the capability of homogeneous particle dispersion [<xref ref-type="bibr" rid="B45-polymers-12-00056">45</xref>]. Notably, the tan&#x3B4; of PLA/At-lignin biocomposites showed relatively low value in comparison with the others, which was ascribed to the better interaction between At-lignin and PLA, inducing stronger interfacial adhesion hindering the mobility of molecules [<xref ref-type="bibr" rid="B46-polymers-12-00056">46</xref>].</p>
+      </sec>
+      <sec id="sec3dot3-polymers-12-00056">
+        <title>3.3. Crystallization Behavior of the Biocomposites</title>
+        <p>DSC is usually used to measure the heat capacity of materials [<xref ref-type="bibr" rid="B42-polymers-12-00056">42</xref>]. Based on the <italic>T</italic><sub>g</sub> and melting behaviors, the interaction between the PLA and lignin phases in the biocomposites was investigated to justify the domestic relations and the miscibility between PLA and various lignin, Ac-lignin, At-lignin, and By-lignin [<xref ref-type="bibr" rid="B47-polymers-12-00056">47</xref>]. The DSC curves of the investigated samples are demonstrated in <xref ref-type="fig" rid="polymers-12-00056-f012">Figure 12</xref> and the DSC curves of three different lignin samples are shown <xref ref-type="fig" rid="polymers-12-00056-f013">Figure 13</xref>. Firstly, it was found that modified acetoacetate lignin and butyric lignin showed little change, compared with initial acidified lignin, further exhibiting that blending with PLA embraced different function. The glass transition behavior of PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites showed a sharp transition compared to that of pure PLA (listed in <xref ref-type="table" rid="polymers-12-00056-t002">Table 2</xref>), which extended over a broad temperature range. A broad <italic>T</italic><sub>g</sub> observed for PLA/lignin biocomposites was caused by the complex molecular structure that led to multiple relaxation phases within the same transition temperature range [<xref ref-type="bibr" rid="B39-polymers-12-00056">39</xref>]. In addition, there was a slight change in the glass transition for different lignin derivatives added. The <italic>T</italic><sub>g</sub> values of PLA/At-lignin and PLA/By-lignin were slightly higher than of that of PLA/Ac-lignin. This indicates the change of thermal stability of three biocomposites with different lignin derivatives, which is consistent with TGA results. Since the glass transition was a local chain relaxation phenomenon, a change in glass transition by the addition of lignin derivatives will require significant local modification of matrix mobility through the matrix-filler interfacial area. As observed in the SEM micrographs and the tensile properties, the matrix&#x2013;filler interface displayed a different degree of load transfer capabilities. It is believed that the weaker matrix-filler interactions may have a contribution towards the insignificant change in the observed glass transition.</p>
+        <p>Obviously, the phase miscibility between PLA and lignin was also observed in view of the melting temperature (<italic>T</italic><sub>m</sub>) of the crystalline phase in PLA. The <italic>T</italic><sub>m</sub> and the heat of melting enthalpy (&#x394;<italic>H</italic><sub>m</sub>) of the biocomposites are listed in <xref ref-type="table" rid="polymers-12-00056-t002">Table 2</xref>. Both <italic>T</italic><sub>m</sub> and &#x394;<italic>H</italic><sub>m</sub> values increased with the addition of different lignin into PLA matrix. The increase was primarily caused by the increase in chemical potential of the crystalline PLA phases as a result of molecular level miscibility with lignin [<xref ref-type="bibr" rid="B48-polymers-12-00056">48</xref>]. It was also confirmed that the biocomposites were becoming more regular with the addition of different lignin at the same concentration.</p>
+      </sec>
+      <sec id="sec3dot4-polymers-12-00056">
+        <title>3.4. Thermal Stability of the Biocomposites</title>
+        <p>The TGA curves for PLA, PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites are shown in <xref ref-type="fig" rid="polymers-12-00056-f014">Figure 14</xref>. The temperature for the onset of maximum degradation (<italic>T</italic><sub>max</sub>) taken from the peak temperature of the derivative wt % curves are exhibited in <xref ref-type="table" rid="polymers-12-00056-t003">Table 3</xref>. Pure PLA was stable without major weight loss up to 389.4 &#xB0;C, while the <italic>T</italic><sub>5%</sub> values of PLA/lignin biocomposites showed a continuous decrease compared with pure PLA. It was found that PLA/At-lignin and PLA/By-lignin biocomposites exhibited higher thermal stability than PLA/Ac-lignin biocomposites, which exhibited similar thermal stability of acidified, acetoacetate, and butyric lignin in <xref ref-type="fig" rid="polymers-12-00056-f015">Figure 15</xref>. The presence of molecular level interactions between PLA and diverse lignin resulted in the above phenomenon.</p>
+        <p>The rate of degradation of PLA/lignin biocomposites after <italic>T</italic><sub>max</sub> was significantly higher than that of pure PLA. Surpassing <italic>T</italic><sub>max</sub>, the process of degradation and the volatilization of monomer occupied the main phenomenon of PLA and PLA/lignin biocomposites, while a gradual weight loss was discovered for the samples with lignin up to 500 &#xB0;C, followed by constant residual weight plateau. Meanwhile, PLA/At-lignin and PLA/By-lignin biocomposites embraced higher <italic>T</italic><sub>max</sub> than PLA/Ac-lignin biocomposites. Obviously, it indicated that the thermal stability of PLA/At-lignin and PLA/By-lignin biocomposites was higher than that of PLA/Ac-lignin biocomposites. However, the thermal stability of all the PLA/lignin biocomposites was worse than that of pure PLA. In view of the above phenomena, the main reason is that the modified lignin took possession of stronger molecular interaction than initiative lignin due to functional groups imported lignin [<xref ref-type="bibr" rid="B49-polymers-12-00056">49</xref>]. Generally speaking, a main and major degradation including complete decomposition of the cyclic aromatic structure of lignin in an oxygen-rich atmosphere or condensation of the same structure to carbon-rich material under inert atmosphere is expected 400 &#xB0;C. In our current work, the residual weight formed above 500 &#xB0;C for PLA/lignin biocomposites was primarily ascribed to the condensation of cyclic structures into carbon-rich materials compared with pure PLA. Owing to the complete volatilization of PLA, lignin was deemed as the main resource of char residues listed in <xref ref-type="table" rid="polymers-12-00056-t003">Table 3</xref>.</p>
+      </sec>
+      <sec id="sec3dot5-polymers-12-00056">
+        <title>3.5. Rheological Behaviors of the Biocomposites</title>
+        <p><xref ref-type="fig" rid="polymers-12-00056-f016">Figure 16</xref> exhibits the curves of storage modulus (<italic>G</italic>&#x2032;), loss modulus (<italic>G</italic><italic>&#x2033;</italic>), and complex viscosity (<italic>&#x3B7;</italic>*) of pure PLA and PLA/lignin with different frequency at 170 &#xB0;C. The <italic>&#x3B7;</italic>* values for all samples decreased obviously with increasing the frequency, which means that the pure PLA and PLA/lignin biocomposites were typical pseudoplastic fluid. Both the values of <italic>G</italic>&#x2032; and <italic>G</italic><italic>&#x2033;</italic> also increased at higher frequency according to <xref ref-type="fig" rid="polymers-12-00056-f016">Figure 16</xref>a,b, which corresponds to the linear viscoelasticity theory of polymer. When frequency is low, the variation of shear force is relatively slow so that the movement of the polymer molecular chain is able to catch up with the variation of stresses. In this condition, the value of <italic>G</italic><italic>&#x2033;</italic> was slightly higher than that of <italic>G</italic>&#x2032; and the materials showed a viscosity. At higher frequency, the value of <italic>G</italic>&#x2032; increased more easily and became higher than <italic>G</italic><italic>&#x2033;</italic>. The movement of the polymer molecular chain was gradually not able to respond to the stress variations, which means that the materials showed an elasticity instead of viscosity. With further increasing frequency (&gt;10 Hz), the increasing rate of <italic>G</italic><italic>&#x2033;</italic> became much lower and the value of <italic>G</italic><italic>&#x2033;</italic> kept stable. In addition, the rate of <italic>G</italic>&#x2032;/<italic>G</italic><italic>&#x2033;</italic> also increased; therefore, the materials became more elastic [<xref ref-type="bibr" rid="B50-polymers-12-00056">50</xref>].</p>
+        <p>According to <xref ref-type="fig" rid="polymers-12-00056-f016">Figure 16</xref>, the values of <italic>G</italic>&#x2032;, <italic>G</italic><italic>&#x2033;</italic>, and <italic>&#x3B7;</italic>* of PLA/At-lignin were much higher than pure PLA while those of PLA/Ac-lignin and PLA/By-lignin became lower. The possible reason is due to the relatively worse coefficient of friction and interface effect of the Ac-lignin and By-lignin. Additionally, the difference in <italic>&#x3B7;</italic>* of the two biocomposites became negligible at high frequencies. The much higher <italic>&#x3B7;</italic>* of PLA/At-lignin proved that miscibility, interfacial compatibility, and interface interaction between At-lignin and PLA were better than those of the other two biocomposites, which were described in previous subsections.</p>
+        <p>In view of the temperature ramp sweep results of different rigidity aromatic lignin and PLA biocomposites shown in <xref ref-type="fig" rid="polymers-12-00056-f017">Figure 17</xref>, the formation of the interfacial interaction is depicted. As indicated in <xref ref-type="fig" rid="polymers-12-00056-f017">Figure 17</xref>, the values of <italic>G</italic>&#x2032;, <italic>G</italic><italic>&#x2033;</italic>, and <italic>&#x3B7;</italic>* of all samples decreased dramatically with increasing the temperature from 160 &#xB0;C to 180 &#xB0;C. Then a comparatively slower decline from 180 &#xB0;C to 220 &#xB0;C was seen, due to the complete melting of PLA. The decrease shows that the biocomposites turned to viscous state gradually. In this range of temperature, the value of <italic>G</italic><italic>&#x2033;</italic> was still higher than that of <italic>G</italic>&#x2032;, values at a same temperature, which means that the viscous flow of PLA predominated rather than elastic deformation.</p>
+        <p>Obviously, it was exhibited that PLA/At-lignin biocomposites took possession of higher <italic>G</italic>&#x2032;, <italic>G</italic><italic>&#x2033;</italic>, and <italic>&#x3B7;</italic>* values than pure PLA, PLA/Ac-lignin, and PLA/By-lignin biocomposites across the whole temperature range. This was also due to the formation of hydrogen bonding between PLA and At-lignin, as same as the results in frequency sweep.</p>
+      </sec>
+      <sec id="sec3dot6-polymers-12-00056">
+        <title>3.6. Tensile Properties of the Biocomposites</title>
+        <p>The tensile stress&#x2013;strain curves and the histogram of the tensile strength in accordance with pure PLA and PLA/lignin biocomposites are presented in <xref ref-type="fig" rid="polymers-12-00056-f018">Figure 18</xref>. The PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites exhibited a decrease in tensile strength compared with pure PLA, owing to recombination of different lignin and poor dispersion and distribution of lignin particles in micron size inside the polymer matrix of PLA/lignin biocomposites [<xref ref-type="bibr" rid="B51-polymers-12-00056">51</xref>,<xref ref-type="bibr" rid="B52-polymers-12-00056">52</xref>]. The defection and stress concentration of the composites were key factors to illustrate the decrement of tensile strength [<xref ref-type="bibr" rid="B53-polymers-12-00056">53</xref>]. The results indicated that the existence of lignin particles, which hindered the formation of continuous PLA with long range, resulting in particles to agglomerate at the interface with the neat PLA. This will decrease the tensile properties. The decrease in tensile strength for PLA/At-lignin biocomposites was less than PLA/Ac-lignin and PLA/By-lignin biocomposites. A point to note is that PLA/At-lignin biocomposites displayed the highest tensile strength among three biocomposites. The less drop in tensile strength for PLA/At-lignin biocomposites was probably attributed to the better interfacial characteristics due to the hydrogen bonding between acetoacetate groups and PLA in view of PLA/Ac-lignin and PLA/By-lignin biocomposites. In addition, the interface compatibility between At-lignin and PLA was better than the others, which led to increase the effective interfacial adhesion between lignin and PLA matrix. Consequently, PLA/At-lignin biocomposites can maximize the maintenance of the tensile strength of PLA compared to PLA/Ac-lignin and PLA/By-lignin biocomposites. The reason is that Ac-lignin and By-lignin particles in polymer matrix tend to agglomerate together to form larger lignin agglomerated particles. This can cause the agglomerated lignin particles in PLA matrix to act as a stress concentration point when subjected to tensile extension, where the stress applied on the PLA matrix was unable to be effectively transferred between the reinforcing lignin particles and PLA matrix. Thus, the addition of Ac-lignin and By-lignin particles in PLA matrix did not provide the reinforcement effect to PLA matrix [<xref ref-type="bibr" rid="B54-polymers-12-00056">54</xref>,<xref ref-type="bibr" rid="B55-polymers-12-00056">55</xref>]. The transition in the phase morphology of different lignin seemed to have significant influence on the mechanical properties. The transition in the morphologies from continuous PLA to continuous lignin phase with the change of lignin structure resulted in exhibiting a decreasing trend in tensile strength compared with pure PLA.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-polymers-12-00056" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>Significantly, it is worthwhile mentioning that Ac-lignin has been used to synthesize At-lignin and By-lignin by proper chemical modification. Ac-lignin, At-lignin, and By-lignin present different particle size and shape, which plays a significant role on compatibility and consistency between the lignin and PLA matrix. PLA/At-lignin biocomposites embrace better interfacial compatibility, which is ascribed to the hydrogen bonding interaction. As a consequence, PLA/At-lignin biocomposites took possession of higher tensile strength compared with other composites, resulting in the improvement in the compatibility between the PLA matrix and lignin filler. PLA/At-lignin biocomposites embraced higher storage modulus compared with PLA/Ac-lignin and PLA/By-lignin biocomposites as a consequence of relatively outstanding matrix-filler interface assigned to mobility of molecular chains. It was concluded from the DSC results that the <italic>T</italic><sub>g</sub> values of three biocomposites were changed slightly for different lignin derivatives. In addition, the <italic>T</italic><sub>g</sub> values of PLA/At-lignin and PLA/By-lignin biocomposites were slightly higher than of that of PLA/Ac-lignin biocomposites. This revealed that PLA/At-lignin and PLA/By-lignin biocomposites present higher thermal stability than PLA/Ac-lignin biocomposites, which was also confirmed further by the TGA results.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>J.G. and H.X. conceived and designed the experiments; J.G. performed the experiments and analyzed the data; J.W. and Y.H. cooperated with characterization in mechanical and optical properties of materials; X.C. wrote, reviewed, and edited this paper; Q.Z. analyzed the rheological behaviors and reviewed this paper. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by the National Natural Science Foundation of China (51761002, 51602067), Special Funds of Guizhou Province Outstanding Young Scientists (2015/26), Guizhou Province High-level Innovative Talents Training Project (2015/4039, 2016/5667, 2019/5607), International Science and Technology Cooperation Project of Sichuan (2019YFH0047), and Opening Project of State Key Laboratory of Polymer Materials Engineering (Sichuan University) (2017-4-02).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-polymers-12-00056">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>K&#xFC;hnel</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Podschun</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Saake</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Lehnen</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthesis of lignin polyols via oxyalkylation with propylene carbonate</article-title>
+          <source>Holzforschung</source>
+          <year>2015</year>
+          <volume>69</volume>
+          <fpage>531</fpage>
+          <lpage>538</lpage>
+          <pub-id pub-id-type="doi">10.1515/hf-2014-0068</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-polymers-12-00056">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bugg</surname>
+              <given-names>T.D.</given-names>
+            </name>
+            <name>
+              <surname>Rahmanpour</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enzymatic conversion of lignin into renewable chemicals</article-title>
+          <source>Curr. Opin. Chem. Biol.</source>
+          <year>2015</year>
+          <volume>29</volume>
+          <fpage>10</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cbpa.2015.06.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-polymers-12-00056">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Su</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of depolymerized lignin and renewable phenolic compounds from liquefied waste biomass</article-title>
+          <source>RSC Adv.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>95698</fpage>
+          <lpage>95707</lpage>
+          <pub-id pub-id-type="doi">10.1039/C6RA16916C</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-polymers-12-00056">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Purnama</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biodegradable blends of stereocomplex polylactide and lignin by supercritical carbon dioxide-solvent system</article-title>
+          <source>Macromol. Res.</source>
+          <year>2014</year>
+          <volume>22</volume>
+          <fpage>74</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13233-014-2004-2</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-polymers-12-00056">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.B.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>C.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on structure and thermal properties of cellulose from rice straw</article-title>
+          <source>Carbohydr. Polym.</source>
+          <year>2011</year>
+          <volume>85</volume>
+          <fpage>245</fpage>
+          <lpage>250</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.carbpol.2011.02.022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-polymers-12-00056">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Laskar</surname>
+              <given-names>D.D.</given-names>
+            </name>
+            <name>
+              <surname>Swita</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Cort</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of lignin derived from water-only and dilute acid flowthrough pretreatment of poplar wood at elevated temperatures</article-title>
+          <source>Biotechnol. Biofuels</source>
+          <year>2015</year>
+          <volume>8</volume>
+          <fpage>203</fpage>
+          <pub-id pub-id-type="doi">10.1186/s13068-015-0377-x</pub-id>
+          <pub-id pub-id-type="pmid">26677398</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-polymers-12-00056">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Naseem</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tabasum</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zia</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Zuber</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ali</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Noreen</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lignin-derivatives based polymers, blends and composites: A review</article-title>
+          <source>Int. J. Biol. Macromol.</source>
+          <year>2016</year>
+          <volume>93</volume>
+          <fpage>296</fpage>
+          <lpage>313</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijbiomac.2016.08.030</pub-id>
+          <pub-id pub-id-type="pmid">27521847</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-polymers-12-00056">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buono</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Duval</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Averous</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Habibi</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lignin-based materials through thiol-maleimide &#x201C;Click&#x201D; polymerization</article-title>
+          <source>ChemSusChem</source>
+          <year>2017</year>
+          <volume>10</volume>
+          <fpage>984</fpage>
+          <lpage>992</lpage>
+          <pub-id pub-id-type="doi">10.1002/cssc.201601738</pub-id>
+          <pub-id pub-id-type="pmid">28042912</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-polymers-12-00056">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abdelkafi</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ammar</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Rousseau</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Tessier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>El Gharbi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Fradet</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural analysis of alfa grass (<italic>Stipa tenacissima</italic> L.) lignin obtained by acetic acid/formic acid delignification</article-title>
+          <source>Biomacromolecules</source>
+          <year>2011</year>
+          <volume>12</volume>
+          <fpage>3895</fpage>
+          <lpage>3902</lpage>
+          <pub-id pub-id-type="doi">10.1021/bm2008179</pub-id>
+          <pub-id pub-id-type="pmid">21988133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-polymers-12-00056">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Norgren</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Edlund</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lignin: Recent advances and emerging applications</article-title>
+          <source>Curr. Opin. Colloid Interface Sci.</source>
+          <year>2014</year>
+          <volume>19</volume>
+          <fpage>409</fpage>
+          <lpage>416</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cocis.2014.08.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-polymers-12-00056">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cannatelli</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Ragauskas</surname>
+              <given-names>A.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Conversion of lignin into value-added materials and chemicals via laccase-assisted copolymerization</article-title>
+          <source>Appl. Microbiol. Biotechnol.</source>
+          <year>2016</year>
+          <volume>100</volume>
+          <fpage>8685</fpage>
+          <lpage>8691</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00253-016-7820-1</pub-id>
+          <pub-id pub-id-type="pmid">27645296</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-polymers-12-00056">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kloekhorst</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Heeres</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Catalytic hydrotreatment of Alcell lignin fractions using a Ru/C catalyst</article-title>
+          <source>Catal. Sci. Technol.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>7053</fpage>
+          <lpage>7067</lpage>
+          <pub-id pub-id-type="doi">10.1039/C6CY00523C</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-polymers-12-00056">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thakur</surname>
+              <given-names>V.K.</given-names>
+            </name>
+            <name>
+              <surname>Thakur</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Raghavan</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kessler</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Progress in green polymer composites from lignin for multifunctional applications: A review</article-title>
+          <source>ACS Sustain. Chem. Eng.</source>
+          <year>2014</year>
+          <volume>2</volume>
+          <fpage>1072</fpage>
+          <lpage>1092</lpage>
+          <pub-id pub-id-type="doi">10.1021/sc500087z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-polymers-12-00056">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biodegradable and renewable poly (lactide)&#x2013;lignin composites: Synthesis, interface and toughening mechanism</article-title>
+          <source>J. Mater. Chem. A</source>
+          <year>2015</year>
+          <volume>3</volume>
+          <fpage>3699</fpage>
+          <lpage>3709</lpage>
+          <pub-id pub-id-type="doi">10.1039/C4TA05991C</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-polymers-12-00056">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cicala</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Latteri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Saccullo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Recca</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sciortino</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Lebioda</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Saake</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation on structure and thermomechanical processing of biobased polymer blends</article-title>
+          <source>J. Polym. Environ.</source>
+          <year>2016</year>
+          <volume>25</volume>
+          <fpage>750</fpage>
+          <lpage>758</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10924-016-0857-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-polymers-12-00056">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xing</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Ruch</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Dubois</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biodegradable and High-performance poly (butylene adipate-co-terephthalate)&#x2013;lignin UV-blocking films</article-title>
+          <source>ACS Sustain. Chem. Eng.</source>
+          <year>2017</year>
+          <volume>5</volume>
+          <fpage>10342</fpage>
+          <lpage>10351</lpage>
+          <pub-id pub-id-type="doi">10.1021/acssuschemeng.7b02370</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-polymers-12-00056">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Dai</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Na</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A toughened PLA/nanosilica composite obtained in the presence of epoxidized soybean oil</article-title>
+          <source>J. Appl. Polym. Sci.</source>
+          <year>2015</year>
+          <volume>132</volume>
+          <fpage>41220</fpage>
+          <lpage>41227</lpage>
+          <pub-id pub-id-type="doi">10.1002/app.41220</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-polymers-12-00056">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bee</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Sin</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>Ratnam</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Kavee-Raaz</surname>
+              <given-names>R.R.D.</given-names>
+            </name>
+            <name>
+              <surname>Tee</surname>
+              <given-names>T.T.</given-names>
+            </name>
+            <name>
+              <surname>Hui</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Rahmat</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Electron beam irradiation enhanced of hibiscus cannabinus fiber strengthen polylactic acid composites</article-title>
+          <source>Compos. Part B Eng.</source>
+          <year>2015</year>
+          <volume>79</volume>
+          <fpage>35</fpage>
+          <lpage>46</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compositesb.2015.04.019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-polymers-12-00056">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheung</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Lau</surname>
+              <given-names>K.T.</given-names>
+            </name>
+            <name>
+              <surname>Pow</surname>
+              <given-names>Y.F.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y.Q.</given-names>
+            </name>
+            <name>
+              <surname>Hui</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Biodegradation of a silkworm silk/PLA composite</article-title>
+          <source>Compos. Part B Eng.</source>
+          <year>2010</year>
+          <volume>41</volume>
+          <fpage>223</fpage>
+          <lpage>228</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compositesb.2009.09.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-polymers-12-00056">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.L.</given-names>
+            </name>
+            <name>
+              <surname>Kalish</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hsu</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure evolution of &#x3B1;&#x2032;-phase of poly (lactic acid)</article-title>
+          <source>J. Polym. Sci. Part B Polym. Phys.</source>
+          <year>2011</year>
+          <volume>49</volume>
+          <fpage>1446</fpage>
+          <lpage>1454</lpage>
+          <pub-id pub-id-type="doi">10.1002/polb.22327</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-polymers-12-00056">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Gou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hui</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of modifications of bamboo cellulose fibers on the improved mechanical properties of cellulose reinforced poly (lactic acid) composites</article-title>
+          <source>Compos. Part B Eng.</source>
+          <year>2014</year>
+          <volume>62</volume>
+          <fpage>191</fpage>
+          <lpage>197</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compositesb.2014.02.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-polymers-12-00056">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ni</surname>
+              <given-names>Q.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>From cellulose nanospheres, nanorods to nanofibers: Various aspect ratio induced nucleation/reinforcing effects on polylactic acid for robust-barrier food packaging</article-title>
+          <source>ACS Appl. Mater. Interfaces</source>
+          <year>2017</year>
+          <volume>9</volume>
+          <fpage>43920</fpage>
+          <lpage>43938</lpage>
+          <pub-id pub-id-type="doi">10.1021/acsami.7b09102</pub-id>
+          <pub-id pub-id-type="pmid">29171751</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-polymers-12-00056">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garlotta</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>A literature review of poly (lactic acid)</article-title>
+          <source>J. Polym. Environ.</source>
+          <year>2001</year>
+          <volume>9</volume>
+          <fpage>63</fpage>
+          <lpage>84</lpage>
+          <pub-id pub-id-type="doi">10.1023/A:1020200822435</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-polymers-12-00056">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Atz Dick</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Couve</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gimello</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Mas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Robin</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chemical modification and plasma-induced grafting of pyrolitic lignin. Evaluation of the reinforcing effect on lignin/poly (L-lactide) composites</article-title>
+          <source>Polymer</source>
+          <year>2017</year>
+          <volume>118</volume>
+          <fpage>280</fpage>
+          <lpage>296</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.polymer.2017.04.036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-polymers-12-00056">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chalid</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yuanita</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Pratama</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of alkalization to the crystallinity and the thermal behavior of arenga pinnata &#x201C;Ijuk&#x201D; fibers-based polylactic Acid (PLA) biocomposite</article-title>
+          <source>Mater. Sci. Forum</source>
+          <year>2015</year>
+          <volume>827</volume>
+          <fpage>326</fpage>
+          <lpage>331</lpage>
+          <pub-id pub-id-type="doi">10.4028/www.scientific.net/MSF.827.326</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-polymers-12-00056">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The properties of poly (lactic acid)/starch blends with a functionalized plant oil: Tung oil anhydride</article-title>
+          <source>Carbohydr. Polym.</source>
+          <year>2013</year>
+          <volume>95</volume>
+          <fpage>77</fpage>
+          <lpage>84</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.carbpol.2013.02.054</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-polymers-12-00056">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krall</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Serum</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Sibi</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Webster</surname>
+              <given-names>D.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Catalyst-free lignin valorization by acetoacetylation. Structural elucidation by comparison with model compounds</article-title>
+          <source>Green Chem.</source>
+          <year>2018</year>
+          <volume>20</volume>
+          <fpage>2959</fpage>
+          <lpage>2966</lpage>
+          <pub-id pub-id-type="doi">10.1039/C8GC01071D</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-polymers-12-00056">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Rong</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sui</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Facile synthesis of cellulose derivatives based on cellulose acetoacetate</article-title>
+          <source>Carbohydr. Polym.</source>
+          <year>2017</year>
+          <volume>170</volume>
+          <fpage>117</fpage>
+          <lpage>123</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.carbpol.2017.04.043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-polymers-12-00056">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>McDonald</surname>
+              <given-names>A.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Esterification of industrial lignin and its effect on the resulting poly (3-hydroxybutyrate-co-3-hydroxyvalerate) or polypropylene blends</article-title>
+          <source>Ind. Crop Prod.</source>
+          <year>2017</year>
+          <volume>97</volume>
+          <fpage>281</fpage>
+          <lpage>291</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.indcrop.2016.12.024</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-polymers-12-00056">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>She</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Geng</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Baird</surname>
+              <given-names>M.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Physicochemical characterization of extracted lignin from sweet sorghum stem</article-title>
+          <source>Ind. Crop Prod.</source>
+          <year>2010</year>
+          <volume>32</volume>
+          <fpage>21</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.indcrop.2010.02.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-polymers-12-00056">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wen</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>R.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative structures and thermal properties of birch lignins after ionic liquid pretreatment</article-title>
+          <source>J. Agric. Food Chem.</source>
+          <year>2013</year>
+          <volume>61</volume>
+          <fpage>635</fpage>
+          <lpage>645</lpage>
+          <pub-id pub-id-type="doi">10.1021/jf3051939</pub-id>
+          <pub-id pub-id-type="pmid">23265413</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-polymers-12-00056">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sathitsuksanoh</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Holtman</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Yelle</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Morgan</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Stavila</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Pelton</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Blanch</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Simmons</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>George</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lignin fate and characterization during ionic liquid biomass pretreatment for renewable chemicals and fuels production</article-title>
+          <source>Green Chem.</source>
+          <year>2014</year>
+          <volume>16</volume>
+          <fpage>1236</fpage>
+          <lpage>1247</lpage>
+          <pub-id pub-id-type="doi">10.1039/C3GC42295J</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-polymers-12-00056">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Z.K.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Effects of extraction methods on structure and valorization of corn stover lignin by a Pd/C catalyst</article-title>
+          <source>ChemCatChem</source>
+          <year>2017</year>
+          <volume>9</volume>
+          <fpage>1135</fpage>
+          <lpage>1143</lpage>
+          <pub-id pub-id-type="doi">10.1002/cctc.201601501</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-polymers-12-00056">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gordobil</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Delucis</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Eg&#xFC;&#xE9;s</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Labidi</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kraft lignin as filler in PLA to improve ductility and thermal properties</article-title>
+          <source>Ind. Crop Prod.</source>
+          <year>2015</year>
+          <volume>72</volume>
+          <fpage>46</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.indcrop.2015.01.055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-polymers-12-00056">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ouyang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poly (Lactic Acid) blended with cellulolytic enzyme lignin: Mechanical and thermal properties and morphology evaluation</article-title>
+          <source>J. Polym. Environ.</source>
+          <year>2011</year>
+          <volume>20</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10924-011-0359-4</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-polymers-12-00056">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anwer</surname>
+              <given-names>M.A.S.</given-names>
+            </name>
+            <name>
+              <surname>Naguib</surname>
+              <given-names>H.E.</given-names>
+            </name>
+            <name>
+              <surname>Celzard</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Fierro</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of the thermal, dynamic mechanical and morphological properties of PLA-Lignin &amp; PLA-Tannin particulate green composites</article-title>
+          <source>Compos. Part B Eng.</source>
+          <year>2015</year>
+          <volume>82</volume>
+          <fpage>92</fpage>
+          <lpage>99</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compositesb.2015.08.028</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-polymers-12-00056">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical properties and morphology of biodegradable poly (lactic acid)/poly (butylene adipate-co-terephthalate) blends compatibilized by transesterification</article-title>
+          <source>Mater. Des.</source>
+          <year>2012</year>
+          <volume>36</volume>
+          <fpage>604</fpage>
+          <lpage>608</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.matdes.2011.11.036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-polymers-12-00056">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation and characterization of poly(lactic acid)/starch composites toughened with epoxidized soybean oil</article-title>
+          <source>Carbohydr. Polym.</source>
+          <year>2013</year>
+          <volume>92</volume>
+          <fpage>810</fpage>
+          <lpage>816</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.carbpol.2012.09.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-polymers-12-00056">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abdelwahab</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Misra</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mohanty</surname>
+              <given-names>A.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermo-mechanical characterization of bioblends from polylactide and poly (buthylene adipate-co-terephthalate) and lignin</article-title>
+          <source>Macromol. Mater. Eng.</source>
+          <year>2015</year>
+          <volume>300</volume>
+          <fpage>299</fpage>
+          <lpage>311</lpage>
+          <pub-id pub-id-type="doi">10.1002/mame.201400241</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-polymers-12-00056">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>X.F.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>Z.Z.</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>T.P.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>AFM nanomechanical mapping and nanothermal analysis reveal enhanced crystallization at the surface of a semicrystalline polymer</article-title>
+          <source>Polymer</source>
+          <year>2018</year>
+          <volume>146</volume>
+          <fpage>188</fpage>
+          <lpage>195</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.polymer.2018.05.043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-polymers-12-00056">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Teramoto</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Endo</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phase structure and mechanical property of blends of organosolv lignin alkyl esters with poly (&#x3B5;-caprolactone)</article-title>
+          <source>Polym. J.</source>
+          <year>2009</year>
+          <volume>41</volume>
+          <fpage>219</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="doi">10.1295/polymj.PJ2008301</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-polymers-12-00056">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anwer</surname>
+              <given-names>M.A.S.</given-names>
+            </name>
+            <name>
+              <surname>Naguib</surname>
+              <given-names>H.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on the morphological, dynamic mechanical and thermal properties of PLA carbon nanofibre composites</article-title>
+          <source>Compos Part B Eng.</source>
+          <year>2016</year>
+          <volume>91</volume>
+          <fpage>631</fpage>
+          <lpage>639</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compositesb.2016.01.039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-polymers-12-00056">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lagazo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Moliner</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bosio</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Botter</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Arato</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of the mechanical and thermal properties decay of PHBV/sisal and PLA/sisal biocomposites at different recycle steps</article-title>
+          <source>Polymers</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>1477</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/polym11091477</pub-id>
+          <pub-id pub-id-type="pmid">31510004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-polymers-12-00056">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Sriroth</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Dorgan</surname>
+              <given-names>J.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal and mechanical properties of cassava and pineapple flours-filled PLA bio-composites</article-title>
+          <source>J. Therm. Anal. Calorim.</source>
+          <year>2011</year>
+          <volume>108</volume>
+          <fpage>1131</fpage>
+          <lpage>1139</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10973-011-1350-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-polymers-12-00056">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>&#xC5;kesson</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Vrignaud</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tissot</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Skrifvars</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical recycling of PLA filled with a High level of cellulose fibres</article-title>
+          <source>J. Polym. Environ.</source>
+          <year>2016</year>
+          <volume>24</volume>
+          <fpage>185</fpage>
+          <lpage>195</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10924-016-0760-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-polymers-12-00056">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiong</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Na</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Surface hydrophobic modification of starch with bio-based epoxy resins to fabricate high-performance polylactide composite materials</article-title>
+          <source>Compos. Sci. Technol.</source>
+          <year>2014</year>
+          <volume>94</volume>
+          <fpage>16</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compscitech.2014.01.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-polymers-12-00056">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermal and mechanical properties of biodegradable blends of poly (L-lactic acid) and lignin</article-title>
+          <source>Polym. Int.</source>
+          <year>2003</year>
+          <volume>52</volume>
+          <fpage>949</fpage>
+          <lpage>955</lpage>
+          <pub-id pub-id-type="doi">10.1002/pi.1137</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-polymers-12-00056">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thunga</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Grewell</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kessler</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bio-renewable precursor fibers from lignin/polylactide blends for conversion to carbon fibers</article-title>
+          <source>Carbon</source>
+          <year>2014</year>
+          <volume>68</volume>
+          <fpage>159</fpage>
+          <lpage>166</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.carbon.2013.10.075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-polymers-12-00056">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Costes</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Laoutid</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Brohez</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Delvosalle</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Dubois</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phytic acid&#x2013;lignin combination: A simple and efficient route for enhancing thermal and flame retardant properties of polylactide</article-title>
+          <source>Eur. Polym. J.</source>
+          <year>2017</year>
+          <volume>94</volume>
+          <fpage>270</fpage>
+          <lpage>285</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.eurpolymj.2017.07.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-polymers-12-00056">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Turng</surname>
+              <given-names>L.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>In-situ fibrillated polytetrafluoroethylene (PTFE) in thermoplastic polyurethane (TPU) via melt blending: Effect on rheological behavior, mechanical properties, and microcellular foamability</article-title>
+          <source>Polymer</source>
+          <year>2018</year>
+          <volume>134</volume>
+          <fpage>263</fpage>
+          <lpage>274</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.polymer.2017.11.053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-polymers-12-00056">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bee</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Hassan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ratnam</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Tee</surname>
+              <given-names>T.T.</given-names>
+            </name>
+            <name>
+              <surname>Sin</surname>
+              <given-names>L.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation of nano-size montmorillonite on electron beam irradiated flame retardant polyethylene and ethylene vinyl acetate blends</article-title>
+          <source>Nucl. Instrum. Methods B</source>
+          <year>2013</year>
+          <volume>299</volume>
+          <fpage>42</fpage>
+          <lpage>50</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.nimb.2013.01.040</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-polymers-12-00056">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>John</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Bellmann</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Anandjiwala</surname>
+              <given-names>R.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kenaf&#x2013;polypropylene composites: Effect of amphiphilic coupling agent on surface properties of fibres and composites</article-title>
+          <source>Carbohydr. Polym.</source>
+          <year>2010</year>
+          <volume>82</volume>
+          <fpage>549</fpage>
+          <lpage>554</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.carbpol.2010.05.015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-polymers-12-00056">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanical properties of hybrid sisal/coir fibers reinforced polylactide biocomposites</article-title>
+          <source>Polym. Compos.</source>
+          <year>2018</year>
+          <volume>39</volume>
+          <fpage>E188</fpage>
+          <lpage>E199</lpage>
+          <pub-id pub-id-type="doi">10.1002/pc.24489</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-polymers-12-00056">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Asumani</surname>
+              <given-names>O.M.L.</given-names>
+            </name>
+            <name>
+              <surname>Reid</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Paskaramoorthy</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effects of alkali&#x2013;silane treatment on the tensile and flexural properties of short fibre non-woven kenaf reinforced polypropylene composites</article-title>
+          <source>Compos. Part A Appl. Sci. Manuf.</source>
+          <year>2012</year>
+          <volume>43</volume>
+          <fpage>1431</fpage>
+          <lpage>1440</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compositesa.2012.04.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-polymers-12-00056">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bee</surname>
+              <given-names>S.T.</given-names>
+            </name>
+            <name>
+              <surname>Hassan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ratnam</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Tee</surname>
+              <given-names>T.T.</given-names>
+            </name>
+            <name>
+              <surname>Sin</surname>
+              <given-names>L.T.</given-names>
+            </name>
+            <name>
+              <surname>Hui</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dispersion and roles of montmorillonite on structural, flammability, thermal and mechanical behaviours of electron beam irradiated flame retarded nanocomposite</article-title>
+          <source>Compos. Part B Eng.</source>
+          <year>2014</year>
+          <volume>61</volume>
+          <fpage>41</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compositesb.2014.01.035</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures, Scheme and Tables</title>
+      <fig id="polymers-12-00056-sch001" position="float">
+        <object-id pub-id-type="pii">polymers-12-00056-sch001_Scheme 1</object-id>
+        <label>Scheme 1</label>
+        <caption>
+          <p>The structures of acidified lignin (Ac-lignin) (<bold>a</bold>), acetoacetate lignin (At-lignin) (<bold>b</bold>), and butyric lignin (By-lignin) (<bold>c</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-sch001.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>The melt-impregnation process of PLA/lignin biocomposites.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g001.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>The <sup>1</sup>H NMR spectra of (<bold>a</bold>) Ac-lignin and At-lignin; (<bold>b</bold>) Ac-lignin and By-lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g002.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>The <sup>13</sup>C NMR spectra of Ac-lignin, At-lignin, and By-lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g003.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>The <sup>31</sup>P NMR spectra of Ac-lignin and At-lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g004.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>FTIR spectra of Ac-lignin (<bold>a</bold>), At-lignin (<bold>b</bold>), and By-lignin (<bold>c</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g005.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>FTIR spectra of pure PLA, PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g006.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>SEM photos of (<bold>a</bold>) Ac-lignin, (<bold>b</bold>) At-lignin, (<bold>c</bold>) By-lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g007.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>SEM micrographs of PLA and its biocomposites: (<bold>a</bold>) PLA, (<bold>b</bold>) PLA/Ac-lignin, (<bold>c</bold>) PLA/At-lignin, (<bold>d</bold>) PLA/By-lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g008.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>AFM height images of the surface of PLA and its biocomposites: (<bold>a</bold>) PLA, (<bold>b</bold>) PLA/Ac-lignin, (<bold>c</bold>) PLA/At-lignin, (<bold>d</bold>) PLA/By-lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g009.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>The 3D AFM micrographs of the surface of PLA and its biocomposites: (<bold>a</bold>) PLA, (<bold>b</bold>) PLA/Ac-lignin, (<bold>c</bold>) PLA/At-lignin, (<bold>d</bold>) PLA/By-lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g010.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Dynamic mechanical properties of PLA and PLA-lignin biocomposites: (<bold>a</bold>) Storage modulus, (<bold>b</bold>) loss modulus, and (<bold>c</bold>) tan&#x3B4;.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g011a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g011b.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>DSC thermograms of PLA and PLA/lignin biocomposites: (<bold>a</bold>) melting curves; (<bold>b</bold>) crystallization curves.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g012.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f013" position="float">
+        <label>Figure 13</label>
+        <caption>
+          <p>DSC thermograms of acidified, acetoacetate, and butyric lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g013.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f014" position="float">
+        <label>Figure 14</label>
+        <caption>
+          <p>TGA (<bold>a</bold>) and derivative thermogravimetry (DTG) (<bold>b</bold>) curves of PLA and PLA/lignin biocomposites.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g014.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f015" position="float">
+        <label>Figure 15</label>
+        <caption>
+          <p>TGA (<bold>a</bold>) and DTG (<bold>b</bold>) curves of acidified, acetoacetate, and butyric lignin.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g015.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f016" position="float">
+        <label>Figure 16</label>
+        <caption>
+          <p>Frequency ramp sweep curves for pure PLA, PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites: (<bold>a</bold>) Storage modulus (<italic>G</italic>&#x2032;), (<bold>b</bold>) loss modulus (<italic>G</italic><italic>&#x2033;</italic>), (<bold>c</bold>) complex viscosity (<italic>&#x3B7;</italic>*).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g016a.tif"/>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g016b.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f017" position="float">
+        <label>Figure 17</label>
+        <caption>
+          <p>Temperature ramp sweep curves for pure PLA, PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites: (<bold>a</bold>) Storage modulus (<italic>G</italic>&#x2032;), (<bold>b</bold>) loss modulus (<italic>G</italic><italic>&#x2033;</italic>), (<bold>c</bold>) complex viscosity (<italic>&#x3B7;</italic>*).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g017.tif"/>
+      </fig>
+      <fig id="polymers-12-00056-f018" position="float">
+        <label>Figure 18</label>
+        <caption>
+          <p>Tensile stress&#x2013;strain curves (<bold>a</bold>) and tensile strength statistical histogram (<bold>b</bold>) of pure PLA and PLA/lignin biocomposites.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="polymers-12-00056-g018.tif"/>
+      </fig>
+      <table-wrap id="polymers-12-00056-t001" position="float">
+        <object-id pub-id-type="pii">polymers-12-00056-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Composition of PLA/Ac-lignin, PLA/At-lignin, and PLA/By-lignin biocomposites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Designation</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">PLA (wt %)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ac-lignin (wt %)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">At-lignin (wt %)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">By-lignin (wt %)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Pure PLA</td>
+              <td align="center" valign="middle">100</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PLA/Ac-lignin</td>
+              <td align="center" valign="middle">95</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PLA/At-lignin</td>
+              <td align="center" valign="middle">95</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PLA/By-lignin</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">95</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="polymers-12-00056-t002" position="float">
+        <object-id pub-id-type="pii">polymers-12-00056-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>The DSC data of PLA/lignin biocomposites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Entry</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>T</italic><sub>g</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>T</italic><sub>m</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">&#x394;<italic>H</italic><sub>m</sub> (J/g)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">PLA</td>
+              <td align="center" valign="middle">62.3</td>
+              <td align="center" valign="middle">150.0</td>
+              <td align="center" valign="middle">3.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PLA/Ac-lignin</td>
+              <td align="center" valign="middle">61.2</td>
+              <td align="center" valign="middle">151.9</td>
+              <td align="center" valign="middle">18.6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PLA/At-lignin</td>
+              <td align="center" valign="middle">61.6</td>
+              <td align="center" valign="middle">152.7</td>
+              <td align="center" valign="middle">12.0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PLA/By-lignin</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">61.7</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">153.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">4.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="polymers-12-00056-t003" position="float">
+        <object-id pub-id-type="pii">polymers-12-00056-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Characteristic thermal degradation temperatures (<italic>T</italic><sub>max</sub>) and wt % of char residues from TGA curves.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Samples</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>T</italic><sub>5%</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>T</italic><sub>max</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Char Residues at 500 &#xB0;C (wt %)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">PLA</td>
+              <td align="center" valign="middle">389.4</td>
+              <td align="center" valign="middle">423.5</td>
+              <td align="center" valign="middle">0.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PLA/Ac-lignin</td>
+              <td align="center" valign="middle">357.5</td>
+              <td align="center" valign="middle">407.7</td>
+              <td align="center" valign="middle">3.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">PLA/At-lignin</td>
+              <td align="center" valign="middle">371.5</td>
+              <td align="center" valign="middle">413.4</td>
+              <td align="center" valign="middle">2.4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">PLA/By-lignin</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">374.9</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">413.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">3.9</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">materials</journal-id>
+      <journal-title-group>
+        <journal-title>Materials</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Materials</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Materials</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1996-1944</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ma13010158</article-id>
+      <article-id pub-id-type="publisher-id">materials-13-00158</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Synergistic Effects of Aluminum Diethylphosphinate and Melamine on Improving the Flame Retardancy of Phenolic Resin</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-6851-4572</contrib-id>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Ru</given-names>
+          </name>
+          <xref rid="af1-materials-13-00158" ref-type="aff">1</xref>
+          <xref rid="c1-materials-13-00158" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Wenjuan</given-names>
+          </name>
+          <xref rid="af1-materials-13-00158" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mu</surname>
+            <given-names>Jingjing</given-names>
+          </name>
+          <xref rid="af1-materials-13-00158" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-3936-7531</contrib-id>
+          <name>
+            <surname>Ding</surname>
+            <given-names>Yanming</given-names>
+          </name>
+          <xref rid="af2-materials-13-00158" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jiang</surname>
+            <given-names>Juncheng</given-names>
+          </name>
+          <xref rid="af1-materials-13-00158" ref-type="aff">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-materials-13-00158"><label>1</label>Jiangsu Key Laboratory of Urban and Industrial Safety, College of Safety Science and Engineering, Nanjing Tech University, Nanjing 211816, China; <email>201761100038@njtech.edu.cn</email> (W.L.); <email>201861201043@njtech.edu.cn</email> (J.M.); <email>jcjiang@njtech.edu.cn</email> (J.J.)</aff>
+      <aff id="af2-materials-13-00158"><label>2</label>Faculty of Engineering, China University of Geosciences, Wuhan 430074, China; <email>dingym@cug.edu.cn</email></aff>
+      <author-notes>
+        <corresp id="c1-materials-13-00158"><label>*</label>Correspondence: <email>maxmuse.zhou@njtech.edu.cn</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>13</volume>
+      <issue>1</issue>
+      <elocation-id>158</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>A series of novel flame retardants (aluminum diethylphosphinate and melamine) were used to improve the fire performance of phenolic resin. Fourier transform infrared spectroscopy (FTIR) was used to characterize the modification results. Thermo-gravimetric analysis (TGA) was used to study the thermal decomposition of phenolic resin system, and the flame retardancy of phenolic resin system was tested by vertical combustion test (UL-94) and limiting oxygen index (LOI). The combustion properties of modified phenolic resin were further tested with a cone calorimeter(CCT). Finally, the structure of carbon residue layer was measured by scanning electron microscopy (SEM). The results show that with the introduction of 10 wt % aluminum diethylphosphinate in phenolic resin, the LOI reaches 33.1%, residual carbon content increase to 55%. The heat release rate (HRR) decreased to 245.6 kW/m<sup>2</sup>, and the total heat release (THR) decreased to 58.6 MJ/m<sup>2</sup>. By adding 10 wt % aluminum diethylphosphinate and 3 wt % melamine, the flame retardancy of the modified resin can pass UL-94 V-0 flame retardant grade, LOI reaches 34.6%, residual carbon content increase to 59.5%. The HRR decreases to 196.2 kW/m<sup>2</sup> at 196 s, relatively pure phenolic resin decreased by 35.5%, and THR decreased to 51 MJ/m<sup>2</sup>. Compared with pure phenolic resin, the heat release rate and total heat release of modified phenolic resin decreased significantly. This suggests that aluminum diethylphosphinate and melamine play a nitrogen-phosphorus synergistic effect in the phenolic resin, which improves the thermal stability and flame retardancy of the phenolic resin.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>phenolic resin</kwd>
+        <kwd>aluminum diethylphosphinate</kwd>
+        <kwd>melamine</kwd>
+        <kwd>flame retardancy</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-materials-13-00158" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>With the development of world&#x2019;s social economy, high-rise buildings and skyscrapers have occupied a certain role. Regarding the country&#x2019;s vigorous promotion of building energy conservation, thermal insulation materials, especially organic building insulation materials, are widely used in building insulation construction due to their excellent thermal insulation properties, low cost, pressure and water resistance. The organic thermal insulation materials currently used for outside wall insulation include polystyrene foam board (EPS), extruded polystyrene foam board (XPS), polyurethane foam board (PU), and phenolic foam board [<xref ref-type="bibr" rid="B1-materials-13-00158">1</xref>,<xref ref-type="bibr" rid="B2-materials-13-00158">2</xref>].</p>
+      <p>One of the applications of phenolic resin as insulation material is to make phenolic foam insulation board. The phenolic resin can activate the interface by the surfactant and reduce the surface tension. The foaming agent can be decomposed into gas or physically vaporized to form a honeycomb structure, and finally the phenolic foam is formed under the action of curing and curing of the curing agent. Compared with other outside wall insulation materials, the phenolic foam has many advantages in thermal insulation and fire resistance, which is known as the &#x201C;king of insulation&#x201D; [<xref ref-type="bibr" rid="B3-materials-13-00158">3</xref>,<xref ref-type="bibr" rid="B4-materials-13-00158">4</xref>]. Since the 1990s, phenolic composite materials, including phenolic foam, have been significantly developed. Firstly, the military of the United Kingdom and the United States has paid attention to it. It has been used in the aerospace, defense and military industries, and later used in ships, stations, oil wells and other places with strict fire protection requirements and is gradually being promoted in construction, hospitals, stadiums and other fields [<xref ref-type="bibr" rid="B5-materials-13-00158">5</xref>]. In recent years, phenolic foam as the sound insulation and insulation materials have been widely used in the construction industry. Japan&#x2019;s Ministry of Construction has issued a decree on phenolic foams as standard building flame retardant materials, and France uses phenolic foam material as a material to seal and control fires. Many large apartments in cities such as Marseille and Lyon have phenolic foam panels installed on the walls. Ordinary phenolic resin is relatively brittle, and the phenolic hydroxyl group and methylene group in the molecular structure are easily oxidized, which limits the application of phenolic resin at high temperature. Therefore, the phenolic resin is further modified to enhance its fireproof and flame retardant properties so that a modified phenolic resin which is more suitable for the market can be obtained. Commonly used are phosphorus-based, nitrogen-based flame retardants, silicones, boron. Sang used graphene and cardanol to modify phenolic resin to get graphene and cardanol-modified phenolic resin (GCP). Filling the resin with homemade carbon fiber base paper to prepare graphene and cardanol, modified phenolic resin-based carbon fiber paper-based composite (GCPC) is created [<xref ref-type="bibr" rid="B6-materials-13-00158">6</xref>]. Tang and others used polyammonium phosphate (APP) as flame retardant to modify the phenolic resin composites reinforced by bamboo and polypropylene fiber composite felt. They studied the effects of adding flame retardant on the mechanical, flame retardant and thermal conductivity of the composites [<xref ref-type="bibr" rid="B7-materials-13-00158">7</xref>]. Li and others used borosilicate modified phenolic resin, boron and silicone to prepare a novel boron-and silicone-containing phenolic resin (BSiPF) solution, and characterized the structure, molecular weight, gel properties, curing properties and heat resistance of BSiPF. This makes introducing silicon and boron significantly improve the heat resistance and oxidation resistance of phenolic resin [<xref ref-type="bibr" rid="B8-materials-13-00158">8</xref>]. Wang used hydrobromic acid(HBr) and hydroiodic acid(HI) as reagents to demethylate an alkali lignin (AL) to increase its hydroxyl content and measured different thermal properties and performance of phenolic resins [<xref ref-type="bibr" rid="B9-materials-13-00158">9</xref>]. Yong and Yu used bio-oil as the raw material to synthesize bio-oil phenol formaldehyde resin desirable resin for fabricating phenolic-based material, which the thermal curing behavior and heat resistance of bio-oil phenol formaldehyde resins were investigated [<xref ref-type="bibr" rid="B10-materials-13-00158">10</xref>,<xref ref-type="bibr" rid="B11-materials-13-00158">11</xref>].</p>
+      <p>Melamine is a halogen-free nitrogen-based flame retardant, which has the characteristics of improving the physical and mechanical properties of products, low hygroscopicity, replacing some of the resin, reducing the amount of the adhesive. Compared to other types of flame retardants, melamine has apparent advantages. Melamine has been widely used in the modification of phenolic resins. Ge and others modified phenolic resin with melamine, and through experiments the mechanical properties of the modified phenolic foam were improved, while the free formaldehyde content decreased and the oxygen index increased. The research shows that the best melamine mass fraction is 4.5% [<xref ref-type="bibr" rid="B12-materials-13-00158">12</xref>]. Aluminum diethylphosphinate is a new flame retardant organic hypophosphite. It has excellent flame retardant properties, environmental and health-friendly properties, halogen-free, high flame-retardant efficiency, hydrophobic smoke suppression, and thermal stability. Now mainly used in glass fiber-reinforced polyamide 6 and 66 are composites and various polyesters (PBT and PET). Chen Lu introduced aluminum diethylphosphinate into polyethylene terephthalate (PET), and tested the flame retardancy of PET composites by vertical combustion and oxygen index. The thermal decomposition activation energy was calculated by thermo-gravimetric (TG) analyzer and the Flynn&#x2013;Wall&#x2013;Ozawa method, the thermal degradation behavior was further discussed [<xref ref-type="bibr" rid="B13-materials-13-00158">13</xref>]. Zhao employed four types of metal-mediated catalysts in the synthesis of phenolic resin resin to accelerate the curing rate and to lower the curing temperature of phenolic resin [<xref ref-type="bibr" rid="B14-materials-13-00158">14</xref>]. Chen and others prepared a series of polylactic acid/aluminum diethylphosphinate and polylactic acid/aluminum diethylphosphinate/organomontmorillonite composites, and analyzed them by thermo-gravimetric analysis, limiting oxygen index, and vertical combustion. The effects of aluminum diethylphosphinate and organomontmorillonite on the thermal stability and flame retardancy of polylactic acid composites were investigated by cone calorimeter. The mechanism of the synergistic flame-retardant character of aluminum diethylphosphinate and organomontmorillonite was also discussed [<xref ref-type="bibr" rid="B15-materials-13-00158">15</xref>].</p>
+      <p>Melamine flame retardants have been used in phenolic resins, but aluminum diethylphosphinate has not been used in phenolic resins. The two flame retardants are combined and added into phenolic resin as a new composite flame retardant. In this work, aluminum diethylphosphinate and melamine are added to the phenolic resin as excellent flame-retardant additives to improve the flame-retardant properties of phenolic resin. The nitrogen-phosphorus additive acts to make the modified phenolic resin more excellent. Through the test of its flame retardancy, thermal stability and combustion properties, the effects of the two additives on the phenolic resin were clarified, and the optimal synergistic ratio was sought, so phenolic resin could be more widely used in building insulation materials.</p>
+    </sec>
+    <sec id="sec2-materials-13-00158">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-materials-13-00158">
+        <title>2.1. Experimental Materials</title>
+        <p>Phenolic resin, Shandong baiqian chemical Co., Ltd, Shandong, China. Aluminum diethylphosphinate, melamine, chemical pure, Sinopharm Chemical Reagent Co., Ltd, Nanjing, China. Anhydrous ethanol, Yonghua Chemical Technology (Jiangsu) Co., Ltd, Nanjing, China. All the raw materials were industrial products.</p>
+      </sec>
+      <sec id="sec2dot2-materials-13-00158">
+        <title>2.2. Preparation of Modified Phenolic Resin</title>
+        <p>Anhydrous ethanol was added to the phenolic resin, stirred to dissolve, and different ratios of aluminum diethylphosphinate and melamine were added and stirred with a constant temperature magnetic stirrer to dissolve it evenly. Then, this was subject to 30 min with an ultrasonic disperser. After standing for 20 min, the bubbles were removed, the mix was poured into a Teflon mold, and placed in a vacuum drying oven to step up the temperature. The specific addition amounts of aluminum diethylphosphinate and melamine are shown in <xref ref-type="table" rid="materials-13-00158-t001">Table 1</xref>.</p>
+      </sec>
+      <sec id="sec2dot3-materials-13-00158">
+        <title>2.3. Testing and Characterization</title>
+        <p>Fourier transform infrared spectroscopy (FTIR): measurement was carried out with IS5 infrared spectrometer (Thermo Scientific, Waltham, MA, USA); thermo-gravimetric analysis (TGA) experiment: the spline was subjected to TG test using a SDTQ600 thermo-gravimetric analyzer (TA Instruments, Lukens, DE, USA). The temperature range was 50 &#xB0;C&#x2013;800 &#xB0;C and it was tested under a nitrogen atmosphere with a gas flow rate of 20 mL/min; limiting oxygen index (LOI) test: the standard is ISO 4589-2 [<xref ref-type="bibr" rid="B16-materials-13-00158">16</xref>], and we used the HC-2 type limit oxygen index instrument (Jiangning Instrument Analysis Factory, Nanjing, China) was tested, the test sample size was 100 &#xD7; 10 &#xD7; 4 mm<sup>3</sup>; vertical combustion test(UL-94): a CFZ-2 horizontal vertical burner (Jiangning Instrument Analysis Factory, Nanjing, China) was used, and the test sample size was 125 &#xD7; 13 &#xD7; 3 mm<sup>3</sup>; cone calorimeter test (CCT): this employed the ISO 5660 standard [<xref ref-type="bibr" rid="B17-materials-13-00158">17</xref>], and a Govmark CC-2-2128 cone calorimeter (Deatak, McHenry, IL, USA)was used to test the combustion performance of phenolic resin and its composite materials in the atmosphere of 50 kW/m<sup>2</sup> heat flux. The size of the test sheet was 100 &#xD7; 100 &#xD7; 3 mm<sup>3</sup>. Scanning electron microscopy (SEM): the morphological structures of the char layer after the calorimeter test were observed by Zeiss EVO18 SEM, Oberkochen, Germany.</p>
+      </sec>
+    </sec>
+    <sec id="sec3-materials-13-00158" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-materials-13-00158">
+        <title>3.1. Fourier Transform Infrared Spectroscopy (FTIR) Test Results</title>
+        <p>Phenolic resin and modified phenolic resin were characterized by Fourier transform infrared spectroscopy, as shown in <xref ref-type="fig" rid="materials-13-00158-f001">Figure 1</xref>. The Fourier spectra of the melamine-modified phenolic resin are shown in <xref ref-type="fig" rid="materials-13-00158-f001">Figure 1</xref>, and the absorption peaks at 3469 cm<sup>&#x2212;1</sup> and 3419 cm<sup>&#x2212;1</sup> are the performance of the anti-symmetrical vibration of NH<sub>2</sub>. The 1022 cm<sup>&#x2212;1</sup> is formed by NH twisting vibration, and the characteristic absorption peak at 814 cm<sup>&#x2212;1</sup> is the characteristic absorption of deformation vibration of a triazine ring [<xref ref-type="bibr" rid="B18-materials-13-00158">18</xref>]. The absorption peaks of these bands are also found in <xref ref-type="fig" rid="materials-13-00158-f001">Figure 1</xref> of the phenolic resin system in which aluminum diethylphosphinate and melamine are simultaneously added. In <xref ref-type="fig" rid="materials-13-00158-f001">Figure 1</xref> of the aluminum diethylphosphinate modified phenolic resin system, the stretching vibration of P=C double bond is at 1153 cm<sup>&#x2212;1</sup>, and the peak at 1095 cm<sup>&#x2212;1</sup> is formed by PO&#xB7; symmetrical stretching vibration [<xref ref-type="bibr" rid="B19-materials-13-00158">19</xref>]. The characteristic peak at 2955 cm<sup>&#x2212;1</sup> is consistent with the stretching vibration frequency of &#x2013;CH<sub>2</sub>&#x2013; [<xref ref-type="bibr" rid="B20-materials-13-00158">20</xref>], and characteristic peak coincides with the characteristic peak of aluminum diethylphosphinate. The phenolic resin system with aluminum diethylphosphinate and melamine added at the same time has these absorption peak. In addition, the other characteristic peaks are consistent with the pure phenolic resin. The results were confirmed that the aluminum diethylphosphinate and melamine were synthesized successfully.</p>
+      </sec>
+      <sec id="sec3dot2-materials-13-00158">
+        <title>3.2. Thermo-Gravimetric Analysis (TGA) Results</title>
+        <sec id="sec3dot2dot1-materials-13-00158">
+          <title>3.2.1. TGA of Modified Phenolic Resin</title>
+          <p>The thermal degradation performance of the modified phenolic resin was analyzed by the thermo-gravimetric test, and the melamine phenolic resin composite and the thermal degradation process under the nitrogen atmosphere. <xref ref-type="fig" rid="materials-13-00158-f002">Figure 2</xref> and <xref ref-type="fig" rid="materials-13-00158-f003">Figure 3</xref> are TGA curves of aluminum diethylphosphinate modified phenolic resin and melamine modified phenolic resin, respectively. <xref ref-type="fig" rid="materials-13-00158-f002">Figure 2</xref> is the aluminum diethylphosphinate/phenolic resin composite in a temperature range of 50 &#xB0;C to 800 &#xB0;C under a nitrogen atmosphere [<xref ref-type="bibr" rid="B21-materials-13-00158">21</xref>]. The results are shown in <xref ref-type="table" rid="materials-13-00158-t002">Table 2</xref>. T<sub>5%</sub>, T<sub>10%</sub> and T<sub>dmax</sub> in <xref ref-type="table" rid="materials-13-00158-t002">Table 2</xref> stand for the temperature at 5 wt %, 10 wt % and maximum weight loss rate, respectively. The thermal degradation of pure phenolic resin under the nitrogen atmosphere is a one-step degradation process. When the temperature reaches 178 &#xB0;C, it begins to decay. When the temperature reaches 550 &#xB0;C, the thermal decomposition rate is the fastest, and carbon residue at 800 &#xB0;C is 51 wt %. Compared with pure phenolic resin, the TGA curves of aluminum diethylphosphinate/phenolic resin composites are different. When the addition amount reaches 15%, two degradation processes occur at 465 &#xB0;C and 560 &#xB0;C, respectively. The T<sub>dmax</sub> of E-0, E-a1, E-a2, E-a3 and E-a4 are 550, 562, 557, 561 and 467 &#xB0;C respectively. The maximum thermal weight loss rates for E-0, E-a1, E-a2, E-a3 and E-a4 are 0.174, 0.191, 0.167, 0.194 and 0.203%/&#xB0;C. The thermal stability of aluminum diethylphosphinate/phenolic resin composites is significantly different compared with pure phenolic resin. The figure shows that when the added amount of aluminum diethylphosphinate is about 10%, residual carbon of the composite at 800 &#xB0;C is the largest, which is 55 wt %. When the amount of aluminum diethylphosphinate is increased to 20%, the residual carbon rate is reduced, the maximum mass loss rate becomes larger. This is because aluminum diethylphosphinate acts as a flame retardant through the gas phase flame retardant mechanism, and when the temperature rises, aluminum diethylphosphinate degrades the phosphorus-containing compound. During combustion, it is decomposed into diethylphosphonic acid, which volatilizes to the gas phase and inhibits combustion by capturing free radicals produced by combustion [<xref ref-type="bibr" rid="B22-materials-13-00158">22</xref>]. However, when added in a large amount, aluminum diethylphosphinate will reduce the thermal stability of phenolic resin. Excessive aluminum diethylphosphinate addition may affect the molecular properties of the phenolic resin, thus reducing the flame retardancy and thermal stability of the phenolic resin. Therefore, the aluminum diethylphosphinate should be in the range of 10%~15%, which cannot only ensure thermal stability, but also perform its flame-retardant carbon properties.</p>
+          <p><xref ref-type="fig" rid="materials-13-00158-f003">Figure 3</xref> is the TGA curve of phenolic resin and melamine phenolic resin composite material in the temperature range of 50&#x2013;800 under the nitrogen atmosphere [<xref ref-type="bibr" rid="B23-materials-13-00158">23</xref>]. The results are shown in <xref ref-type="table" rid="materials-13-00158-t003">Table 3</xref>. T<sub>5%</sub>, T <sub>10%</sub> and T<sub>dmax</sub> in <xref ref-type="table" rid="materials-13-00158-t003">Table 3</xref> stand for the temperature at 5 wt %, 10 wt % and maximum weight loss rate, respectively. The TGA curve trend of E-b1, E-b2, E-b3 and E-b4 samples is similar to that of pure phenolic resin, which is mainly composed of two thermogravimetry stages. From <xref ref-type="fig" rid="materials-13-00158-f003">Figure 3</xref>, we can see that the thermal degradation of pure phenolic resin under the nitrogen atmosphere is a one-step degradation process. When the temperature reaches 178 &#xB0;C, it begins to decay. When the temperature reaches 550 &#xB0;C, the thermal weight loss rate of pure phenolic resin reached the maximum at 550 &#xB0;C and is 0.174 %/&#xB0;C. By adding melamine into phenolic resin, the curves are different. The maximum thermal weight loss rates corresponding to E-b1, E-b2 and E-b3 are 0.126, 0.13 and 0.151%/&#xB0;C, which are all lower than 0.174 %/&#xB0;C of the E-0 groups. When the addition of 8% melamine to phenolic resin, the thermal weight loss rate of E-b4 is different to the other group, and its maximum thermal weight loss rate is 0.197%/&#xB0;C at 340 &#xB0;C. A peak appeared between 270 &#xB0;C to 410 &#xB0;C, and the peak value increased with the increase of the amount of melamine added. The decomposition stage at this stage is due to the decomposition of melamine. The second thermal weight loss phase occurs between 410 &#xB0;C &#x2013;650 &#xB0;C, mainly due to the fracture of the phenolic resin main chain caused. At this stage, more obvious peaks can be seen from the DTG curve. This is because with the addition of melamine, the thermal weight loss rate of the composite gradually decreases. The melamine phenolic resin composite has a T<sub>10%</sub> ratio of 231 &#xB0;C, 426 &#xB0;C, 331 &#xB0;C and 306 &#xB0;C, and the residual carbon content at 800 &#xB0;C is 57%, 64%, 53%, 42%. Thus it can be seen that with the addition of 4% melamine to phenolic resin, the residual carbon content reached the maximum, and the maximum mass loss rate was also small. This shows that the thermal stability of the melamine phenolic resin composite was better at 4% addition, and there was residual in the synthesis of phenolic resin. There is residual formaldehyde in the synthesis of phenolic resin, and formaldehyde is flammable. With the addition of melamine, it reacts with formaldehyde to form melamine formaldehyde, which consumes a part of residual formaldehyde. Moreover, the generated melamine formaldehyde contains nitrogen rings, which have a good flame retardant effect [<xref ref-type="bibr" rid="B24-materials-13-00158">24</xref>], thus increasing the thermal stability of phenolic resin.</p>
+        </sec>
+        <sec id="sec3dot2dot2-materials-13-00158">
+          <title>3.2.2. TGA of Phenolic Resin Modified by Synergistic Modification of Aluminum Diethylphosphinate and Melamine</title>
+          <p>The thermo-gravimetric analysis curve was used to study the thermal stability of the aluminum diethylphosphinate and melamine synergistic modified phenolic resin composites and the thermal degradation process. <xref ref-type="fig" rid="materials-13-00158-f004">Figure 4</xref> is the TGA curve of a phenolic resin and its composite material in a temperature range of 50 &#xB0;C to 800 &#xB0;C under a nitrogen atmosphere. Some results are shown in <xref ref-type="table" rid="materials-13-00158-t004">Table 4</xref>. T<sub>5%</sub>, T<sub>10%</sub> and T<sub>dmax</sub> in <xref ref-type="table" rid="materials-13-00158-t004">Table 4</xref> stand for the temperature at 5 wt %, 10 wt % and maximum weight loss rate, respectively. According to <xref ref-type="fig" rid="materials-13-00158-f003">Figure 3</xref>, the TG curves of the six groups of E-c1, E-c2, E-c3, E-c4, E-c5 and E-b6 have similar trends, mainly composed of two thermo-gravimetric stages. The T<sub>dmax</sub> values of the phenolic resin composite system were 570 &#xB0;C, 560 &#xB0;C, 559 &#xB0;C, 559 &#xB0;C, 559 &#xB0;C, and 561 &#xB0;C, respectively. Under the same range of temperatures, the residual carbon content at 800 &#xB0;C was 59.5%, 50.7%, 57.7%, and 52.2%, 54.3%, 49.5%. When adding 3 wt % melamine and 10 wt % aluminum diethylphosphinate, the residual carbon amount is up to 59.5%, adding 10 wt % aluminum diethylphosphinate alone, the residual carbon amount is 55%. The carbon residue rose when the melamine was added to phenolic resin, which means that melamine can greatly improve the thermodynamic stability of phenolic resin. When the amount of aluminum diethylphosphinate and melamine added are 15% and 5% by weight, the residual carbon is 49.5%. Compared with the pure phenolic resin, the stability has not been improved because the flame retardant is excessive, which causes the thermodynamic properties of the phenolic resin to be negatively affected.</p>
+        </sec>
+      </sec>
+      <sec id="sec3dot3-materials-13-00158">
+        <title>3.3. Modified Phenolic Resin Flame-Retardant Properties</title>
+        <p>The flame-retardant properties of different resin systems were tested by LOI and the UL-94 vertical burning test [<xref ref-type="bibr" rid="B25-materials-13-00158">25</xref>]. <xref ref-type="table" rid="materials-13-00158-t005">Table 5</xref> and <xref ref-type="table" rid="materials-13-00158-t006">Table 6</xref> presents the LOI values and UL-94 test results of the samples.</p>
+        <p>According to <xref ref-type="table" rid="materials-13-00158-t005">Table 5</xref>, we can seen that the LOI value of pure phenolic resin is 30.0%, which is inherently flame-retardant, and almost no dripping is formed in the vertical burning test. Compared with that of pure phenolic resin, the LOI was 33.1% when the amount addition reached 10% by weight, and passed the UL-94 V-0 level in the vertical burning test. Continuing to increase the amount of flame retardant, when the addition amount reaches 15 wt%, the LOI of phenolic resin composites is 34.6%, and in the vertical burning test, can pass the UL-94 V-0 level. However, when the aluminum diethylphosphinate was 20 wt %, the flame-retardant capacity of phenolic resin decreased with the increase of the aluminum diethylphosphinate. It can be seen that when the addition amount of aluminum diethylphosphinate is 15%, the LOI and UL-94 test results of the phenolic resin composite system are the best, which can improve the flame-retardant performance of the phenolic resin. This highlights that most of the decomposition products of aluminum diethylphosphinate are volatilized into the gas phase during combustion, and may produce free radicals such as PO&#xB7; in the gas phase, and capture free radicals produced by combustion to inhibit combustion [<xref ref-type="bibr" rid="B26-materials-13-00158">26</xref>,<xref ref-type="bibr" rid="B27-materials-13-00158">27</xref>]. When melamine was added to the phenolic resin, the LOI increased first and then decreased with the addition amount. When the addition reached 4 wt %, the LOI reached a maximum of 32.1%. In the vertical burning test, it can pass the UL-94 V-0 level. Then, with the increase of the amount of addition, the LOI began to decrease, showing that adding a suitable amount of melamine can improve the flame-retardant properties of the phenolic resin.</p>
+        <p>The flame-retardant properties of aluminum diethylphosphinate and melamine were simultaneously added to the phenolic resin, as shown in <xref ref-type="table" rid="materials-13-00158-t006">Table 6</xref>. When the added amount of aluminum diethylphosphinate is 10 wt % and melamine is 4 wt %, the LOI of the phenolic resin composite system reaches a maximum value of 35.8%, and can pass the UL-94 V-0 grade. Compared with adding melamine alone, there is a significant improvement. With the addition of aluminum diethylphosphinate into phenolic resin, the phosphorus-containing group is thermally oxidized and decomposed during combustion to form phosphoric acid-promoting charcoal, suggesting that aluminum diethylphosphinate and melamine can play a synergistic role in the phenolic resin composite system. The synergistic effect of the nitrogen-phosphorus ion improves the flame retardancy. When the added amount of the two flame retardants is increased, the LOI value is decreased, indicating the addition amount has exceeded the appropriate range. If too much flame retardant is added, the flame retardancy of the phenolic resin system is lowered.</p>
+      </sec>
+      <sec id="sec3dot4-materials-13-00158">
+        <title>3.4. Cone Calorimeter Test (CCT) of Modified Phenolic Resin</title>
+        <p>The cone calorimeter test (CCT) can test the combustion properties of composites under real fire conditions, and it is one of the most important tests to study the flame retardant properties of composites [<xref ref-type="bibr" rid="B28-materials-13-00158">28</xref>]. The matching results of CCT were summarized in <xref ref-type="table" rid="materials-13-00158-t007">Table 7</xref>, including peak heat release rate (p<sub>HRR</sub>), time corresponding to pHRR (T<sub>pHRR</sub>), time to sustained ignition (TTI), total heat release (THR) and amount of carbon residue [<xref ref-type="bibr" rid="B29-materials-13-00158">29</xref>].</p>
+        <p>The HRR, THR, and mass loss plots of phenolic resin and its composites during combustion are shown in <xref ref-type="fig" rid="materials-13-00158-f005">Figure 5</xref>. As can be seen from <xref ref-type="fig" rid="materials-13-00158-f005">Figure 5</xref> and <xref ref-type="table" rid="materials-13-00158-t007">Table 7</xref>, the HRR of pure phenolic resin increases sharply after ignition and reaches a peak heat release rate of 304.4 kW/m<sup>2</sup> at 86 s, and THR was as high as 78.6 MJ/m<sup>2</sup>, TTI was 26 s, and the carbon residue was 32.8%. This shows that pure phenolic resin has a high risk of burning. When 10 wt % aluminum diethylphosphinate was added to the phenolic resin, the HRR of the E-a2 group decreased to 245.6 kW/m<sup>2</sup>, the time was extended to 104 s, and the THR decreased to 58.6 MJ/m<sup>2</sup>. Compared with pure phenolic resin, HRR and THR decreased by 19.3% and 25.4%, respectively. TTI increased to 34 s, and increased by 8 s compared with pure phenolic resin. After adding 10 wt % aluminum diethylphosphinate and 3 wt % melamine to the phenolic resin, the HRR of the E-c1 group decreased to 196.2 kW/m<sup>2</sup> and the THR decreased to 51 MJ/m<sup>2</sup>. Compared with the pure phenolic resin, the HRR decreased by 35.5% and 35.1%, respectively. The TTI increased to 42, and the pure phenolic resin increased by 16 s. From the mass loss image of <xref ref-type="fig" rid="materials-13-00158-f005">Figure 5</xref>c, it can be seen clearly that the mass loss curve of E-c1 is much more backward than pure phenolic resin. Compared with the pure phenolic resin residual carbon content of 32.2 wt %, the residual carbon content of E-c1 group is increased by 19.6%, which is 38.5 wt %. The simultaneous addition of aluminum diethylphosphinate and melamine is more effective than the phenolic resin system with only aluminum diethylphosphinate added. The simultaneous action of the two flame retardants can effectively improve the stability of the phenolic resin during combustion, reduce the heat release rate, heat released and the amount of residual carbon increase. Aluminum diethylphosphinate mainly produces flame retardant effect through the gas phase, while melamine can increase the amount of residual carbon and reduce the heat release rate.</p>
+        <p>By adding 4 wt % melamine to the phenolic resin, the HRR of the E-b2 group decreased to 286.6 kW/m<sup>2</sup>, and the time was extended to 90 s. Compared with pure phenolic resin, HRR and THR decreased by 5.8% and 20.2%, respectively. The TTI increased to 29 s. Compared with the phenolic resin system with aluminum diethylphosphinate and melamine added at the same time, the thermal stability was obviously reduced when burning. When 15 wt % aluminum diethylphosphinate and 5 wt % melamine were added to the phenolic resin, the HRR reached a maximum of 213.9 kW/m<sup>2</sup> at 158 s, and THR values could reach 55.3 MJ/m<sup>2</sup>. Compared with pure phenolic resin, the pHRR and THR of E-c6 decreased by 29.7% and 29.6%, respectively. It can be seen that compared with the E-c1 group phenolic composite material, the combustion performance of the E-c6 composite material was not good, which means that the excessive flame-retardant combustion performance is not effective.</p>
+        <p>According to research on the causes of death of those killed in fires, about two-thirds of deaths are caused by the direct poisoning of CO generated in the fire. Although CO<sub>2</sub> is non-toxic, when it reaches a certain concentration, it will also cause harm to the human body. Therefore, it is particularly important to reduce the content of CO and CO<sub>2.</sub> <xref ref-type="fig" rid="materials-13-00158-f006">Figure 6</xref> shows CO and CO<sub>2</sub> curves of all composites; the results are summarized in <xref ref-type="table" rid="materials-13-00158-t008">Table 8</xref>, including peak concentration of CO (p<sub>CO</sub>) and CO<sub>2</sub> (p<sub>CO2</sub>), pink time of CO(Tp<sub>CO</sub>) and CO<sub>2</sub> (Tp<sub>CO2</sub>). The CO of pure phenolic resin increased sharply after ignition and reached the peak of 0.215% at 206 s, and CO<sub>2</sub> concentration was as high as 0.356% at 82 s. When 10 wt % aluminum diethylphosphinate was added to the phenolic resin, the maximum concentration of CO and CO<sub>2</sub> of the E-a2 group decreased to 0.201% at 152 s and 0.341%, respectively. Compared with pure phenolic resin, they decreased by 6.5% and 9%, respectively. By adding 10 wt % aluminum diethylphosphinate and 3 wt % melamine to the phenolic resin, the peak concentration of CO and CO<sub>2</sub> of the E-c1 group decreased to 0.196% and 0.222%, respectively. Compared with the pure phenolic resin, the content decreased by 8.8% and 37.6%, respectively. With the addition of 15 wt % aluminum diethylphosphinate and 5 wt % melamine to the phenolic resin, the concentration of CO and CO<sub>2</sub> of the E-c1 group decreased to 0.199% and 0.264%, respectively. Compared with the pure phenolic resin, they decreased by 7.4% and 0.134%, respectively. It is obvious that the CO and CO<sub>2</sub> concentrations were the minimum by adding 10 wt % aluminum diethylphosphinate to the phenolic resin, the hazard of the phenolic resin can be reduced.</p>
+      </sec>
+      <sec id="sec3dot5-materials-13-00158">
+        <title>3.5. Analysis of Char Residual</title>
+        <p>To further understand the flame-retardant effect of the modified phenolic resin, the residual char after the cone calorimeter test was analyzed. <xref ref-type="fig" rid="materials-13-00158-f007">Figure 7</xref> and <xref ref-type="fig" rid="materials-13-00158-f008">Figure 8</xref> are digital photographs of phenolic resin and composite materials before and after combustion under the same thermal radiation conditions in a cone calorimeter test.</p>
+        <p>As can be seen from the figures, pure phenolic resin is completely burned, and only a few carbon residues were left, and the residual carbon is obviously loose, light and thin. However, the carbon layer of E-a2 and E-b2 composites has a significant degree of expansion and an increase in the amount of carbon residue, as shown in <xref ref-type="table" rid="materials-13-00158-t009">Table 9</xref>. The thicknesses of the residual carbon layers in the E-0, E-a2, E-b2 and E-c1 groups were 2.5, 5.5, 5 and 5.8 mm, respectively. Compared with pure phenolic resin, the thickness of the residual carbon layer increased significantly. When aluminum diethylphosphinate and melamine are added together, the carbon residue of E-c1 is significantly increased compared to pure phenolic resin. The results show that the nitrogen-phosphorus ion obviously increases the amount of carbon residue and the strength of carbon layer after phenolic resin combustion.</p>
+        <p>In order to explore the microstructure of the carbon layer of the phenolic composite, the carbon layer after the combustion of the pure phenolic resin and phenolic resin composites was analyzed by SEM. It can be observed from <xref ref-type="fig" rid="materials-13-00158-f009">Figure 9</xref>a that the pure phenolic resin had a relatively porous hole and a large crack on the surface of the carbon layer after the CCT test, which is attributed to the rapid volatilization of the flammable volatile gas produced by the combustion on the pure phenolic resin surface. With the addition of aluminum diethylphosphinate, as shown in <xref ref-type="fig" rid="materials-13-00158-f009">Figure 9</xref>b, the carbon layer of the phenolic resin composite system still had large pores, and the carbon layer was rather loose, which did not block oxygen and heat. This is because aluminum diethylphosphinate generates volatile diethyl hypophosphorous acid during degradation, which acts as a trapping free radical in the gas phase and blocks the combustion process. With the volatilization of diethyl hypophosphorous acid, the phosphorus content inside the phenolic resin substrate decreases rapidly, resulting in a decrease in the char forming ability of the system. Therefore, the effect of the condensed phase flame-retardant mechanism is not obvious [<xref ref-type="bibr" rid="B30-materials-13-00158">30</xref>], which can be explained through TGA. Therefore, the final residual amount of phenolic composite system with aluminum diethylphosphinate at 800 &#xB0;C in TGA analysis has a small increase compared with that of pure phenolic resin material. When the phenolic system was introduced into melamine, as shown in <xref ref-type="fig" rid="materials-13-00158-f009">Figure 9</xref>c, the carbon layer of the phenolic composite material did not have pores and cracks such as pure phenolic resin, and became smoother and finer. This is because melamine reacts with formaldehyde after it is added. The formation of melamine formaldehyde and melamine formaldehyde disturbs the intermolecular rigid structure of phenolic resin, and forms an irregular cross-linked interpenetrating network structure with phenolic resin, which hinders the decomposition of phenolic resin and needs higher energy in decomposition [<xref ref-type="bibr" rid="B31-materials-13-00158">31</xref>]. It can be explained that in the TGA analysis the final carbon residue of the phenolic composite system with melamine introduced at 800 &#xB0;C was higher than that of the pure phenolic resin material. The carbon layer of the phenolic system with aluminum diethylphosphinate and melamine added at the same time, as shown in <xref ref-type="fig" rid="materials-13-00158-f009">Figure 9</xref>d, was more compact, continuous and dense, and there were almost no large cracks and holes. This shows that the combined action of the two can play a good role in heat insulation and oxygen insulation, and can slow down the mass and heat transfer and the release of combustible volatiles, so as to prevent the further combustion of phenolic resin composite materials.</p>
+        <p>The FTIR spectra of the char residues after the cone calorimeter test are shown in <xref ref-type="fig" rid="materials-13-00158-f010">Figure 10</xref>. By comparing with the spectra of the <xref ref-type="fig" rid="materials-13-00158-f001">Figure 1</xref>, it can be seen that the peaks at 3469 cm<sup>&#x2212;1</sup> and 3419 cm<sup>&#x2212;1</sup> (NH<sub>2</sub> groups), 2955 cm<sup>&#x2212;1</sup> (&#x2013;CH<sub>2</sub> groups), 1153 cm<sup>&#x2212;1</sup> (P=C groups) disappear, and some new peaks are formed during combustion, as shown in <xref ref-type="fig" rid="materials-13-00158-f010">Figure 10</xref>, indicating that the cross-linking reaction occurred between the phenolic resin and two flame retardants. The strong characteristic peaks in the range of 3500&#x2013;3100 cm<sup>&#x2212;1</sup> are attributed to the stretching vibration of &#x2013;OH and &#x2013;NH&#x2013; groups. The peaks at 1632, 1400 and 997 cm<sup>&#x2212;1</sup> are due to the C=C absorption in carbonization reaction, P-N groups and P&#x2013;O&#x2013;C groups, respectively. After the addition of aluminum diethylphosphinate, a new peak is observed at 1247 cm<sup>&#x2212;1</sup> (P=O groups) and 781 cm<sup>&#x2212;1</sup> (Al&#x2013;O groups) in <xref ref-type="fig" rid="materials-13-00158-f010">Figure 10</xref>. Additionally, the char rich in P&#x2013;O&#x2013;P groups, P-O-C groups, P-N groups and C=C groups exhibits a more intumescent and compact structure, which gives an illustration of the lower heat release and gas emissions during the combustion process.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-materials-13-00158" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>In this work, various concentrations of aluminum diethylphosphinate and melamine were successfully added to the phenolic resin to synthesize the modified phenolic resin. Through thermo-gravimetric analysis and the test of flame retardancy, the suitable addition amount of the two flame retardants was obtained. The results show that when 15 wt % of aluminum diethylphosphinate is added to the phenolic resin, the flame retardancy of the modified resin can pass the UL-94 V-0 flame-retardant grade, the LOI reaches 34.6%, and the residual carbon content is 52%. With the addition of 4 wt % melamine, the flame retardancy of the modified resin can pass the UL-94 V-0 flame retardant grade, the LOI reaches 32.1%, and the residual carbon amount is 64%. It can be seen that aluminum diethylphosphinate has a significant effect in improving the flame retardancy of the phenolic resin, and can increase LOI of the phenolic resin to 34.6%, while melamine can improve the thermal stability of phenolic resin, improve the carbon residue and reduce the rate of thermal decomposition. The test results of the cone calorimeter also show that when the aluminum diethylphosphinate and melamine are added together in the phenolic resin, the combustion performance is better than the addition of one of the flame retardants alone. With the addition of 10 wt% aluminum diethylphosphinate and 3 wt % melamine into the phenolic resin, the flame retardancy of the modified resin can pass the UL-94 V-0 flame-retardant grade, and the LOI reaches 34.6%. The residual carbon content increases to 59.5%, and the HRR decreases to 196.2 kW/m<sup>2</sup> at 196 s, which is relatively pure phenolic resin decreased by 35.5%, THR decreased to 51 MJ/m<sup>2</sup> and TTI increased to 42 s. The peak content of CO and CO<sub>2</sub> decreased to 0.196% and 0.222%, compared with the pure phenolic resin, and the content decreased by 8.8% and 37.6%, respectively. In the SEM experiment, the electron micrograph of residual carbon also verified that the carbon layer of the phenolic system with aluminum diethylphosphinate and melamine added at the same time is more compact, continuous and dense, while there are almost no large cracks and holes, indicating that the two flame retardants can work well together. It acts as a heat insulator and oxygen barrier to slow the release of mass and heat transfer and flammable volatiles, thereby preventing further combustion of the phenolic resin composite. All the above suggest that aluminum diethylphosphinate and melamine play a nitrogen-phosphorus synergistic effect in the phenolic resin, which improves the thermal stability and flame retardancy of the phenolic resin. The thermal stability and flame retardancy of phenolic resin obtained can be used in further tests on pyrolysis and combustion in building materials.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, R.Z.; data curation, W.L. and J.M.; project administration, Y.D. and J.J. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by National Key Research and Development Program of China (No.2018YFC0809300), National Natural Science Foundation of China (51874183) and Natural Science Fund of the Jiangsu Higher Education Institutions of China (No. 18KJA620004).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-materials-13-00158">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study on the thermal decomposition of organic heat insulation materials</article-title>
+          <source>New Chem. Mater.</source>
+          <year>2011</year>
+          <volume>39</volume>
+          <fpage>94</fpage>
+          <lpage>96</lpage>
+          <comment>(In Chinese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B2-materials-13-00158">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research progress in thermal degradation behaviors of organic thermal insulation materials</article-title>
+          <source>Mater. Rev.</source>
+          <year>2014</year>
+          <volume>28</volume>
+          <fpage>100</fpage>
+          <lpage>103</lpage>
+          <comment>(In Chinese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B3-materials-13-00158">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yao</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>Y.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Application of phenolic foam plate in the exterior wall thermal insulation</article-title>
+          <source>Appl. Mech. Mater.</source>
+          <year>2012</year>
+          <volume>174&#x2013;177</volume>
+          <fpage>1363</fpage>
+          <lpage>1366</lpage>
+          <pub-id pub-id-type="doi">10.4028/www.scientific.net/AMM.174-177.1363</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-materials-13-00158">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Study of preparation and property of phenolic foam</article-title>
+          <source>China Plast. Ind.</source>
+          <year>2007</year>
+          <volume>35</volume>
+          <fpage>46</fpage>
+          <lpage>49</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5-materials-13-00158">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fireproof and thermal isolation being the required performance for energy-saving insulation buildings&#x2014;discussion on the development trend of phenolic foam</article-title>
+          <source>Constraction Sci. Technol.</source>
+          <year>2019</year>
+          <volume>362</volume>
+          <fpage>70</fpage>
+          <lpage>74</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B6-materials-13-00158">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sang</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.-H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation and effect of graphene modified cardanol-aldehyde resin on carbon fiber paper</article-title>
+          <source>China Plast. Ind.</source>
+          <year>2018</year>
+          <volume>46</volume>
+          <fpage>67</fpage>
+          <lpage>71</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B7-materials-13-00158">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of ammonium polyphosphat on properties of bamboo/polypropylene mats reinforced phenolic resin composites</article-title>
+          <source>China For. Sci. Technol.</source>
+          <year>2018</year>
+          <volume>3</volume>
+          <fpage>77</fpage>
+          <lpage>81</lpage>
+          <comment>(In Chinese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B8-materials-13-00158">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phenolic resin modified by boron-silicon with high char yield</article-title>
+          <source>Polym. Test.</source>
+          <year>2019</year>
+          <volume>73</volume>
+          <fpage>208</fpage>
+          <lpage>213</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B9-materials-13-00158">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Eberhardt</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>demethylation of alkali lignin with halogen acids and its application to phenolic resins</article-title>
+          <source>Polymers</source>
+          <year>2019</year>
+          <volume>11</volume>
+          <elocation-id>1771</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/polym11111771</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-materials-13-00158">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yong</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthesis and characterization of bio-oil phenol formaldehyde resin used to fabricate phenolic based materials</article-title>
+          <source>Materials</source>
+          <year>2017</year>
+          <volume>10</volume>
+          <elocation-id>668</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ma10060668</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-materials-13-00158">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation and characterization of phenolic foam modifified with bio-oil</article-title>
+          <source>Materials</source>
+          <year>2018</year>
+          <volume>11</volume>
+          <elocation-id>2228</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/ma11112228</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-materials-13-00158">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tiejun</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Xiapeng</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hai</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research of phenolic resin and foam modified by melamine</article-title>
+          <source>J. Shenyang Univ. Chem. Technol.</source>
+          <year>2015</year>
+          <volume>29</volume>
+          <fpage>134</fpage>
+          <lpage>139</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B13-materials-13-00158">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Flame Retardant and Thermal degradation kinetics of PET/Aluminum di-ethyl phosphinate</article-title>
+          <source>Plast. Sci. Technol.</source>
+          <year>2016</year>
+          <volume>44</volume>
+          <fpage>26</fpage>
+          <lpage>29</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B14-materials-13-00158">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yi</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthesis and mechanism of metal-mediated polymerization of phenolic resins</article-title>
+          <source>Polymers</source>
+          <year>2016</year>
+          <volume>8</volume>
+          <elocation-id>159</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/polym8050159</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-materials-13-00158">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Xin</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergistic effect between aluminum hypophosphite and OMMT in flame-retarded PLA</article-title>
+          <source>Eng. Plast. Appl.</source>
+          <year>2015</year>
+          <volume>41</volume>
+          <fpage>19</fpage>
+          <lpage>24</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B16-materials-13-00158">
+        <label>16.</label>
+        <element-citation publication-type="book">
+          <source>ISO 4589-2 Plastics-Determination of Burning Behaviour by Oxygen Index&#x2013;Part 2: Ambient-Temperature Test</source>
+          <publisher-name>International Standards Organisation</publisher-name>
+          <publisher-loc>Geneva, Switherland</publisher-loc>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="B17-materials-13-00158">
+        <label>17.</label>
+        <element-citation publication-type="book">
+          <source>ISO 5660 Fire Tests-Reaction to Fire-Part 1: Rate of Heat Release from Building Products (Cone Calorimeter Method)</source>
+          <publisher-name>International Standards Organisation</publisher-name>
+          <publisher-loc>Geneva, Switherland</publisher-loc>
+          <year>2015</year>
+        </element-citation>
+      </ref>
+      <ref id="B18-materials-13-00158">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tian</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Determination of melamine concentration in milk powder and liquid milk by fourier transform-infrared spectroscopy</article-title>
+          <source>Mod. Sci. Instrum.</source>
+          <year>2009</year>
+          <volume>5</volume>
+          <fpage>86</fpage>
+          <lpage>91</lpage>
+          <comment>(In Chinese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B19-materials-13-00158">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Kang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Research of flame retardant PA66 composites with benzoxazine and diethyl-phosphate aluminum</article-title>
+          <source>Fine Chem.</source>
+          <year>2019</year>
+          <volume>2</volume>
+          <fpage>322</fpage>
+          <lpage>327</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B20-materials-13-00158">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shengnan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yangyang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Jingbo</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synthesis of aluminum salts of diethyl phosphinic acid and its synergistic effect on flame retardant thermalplastic elastomer</article-title>
+          <source>China Plast. Ind.</source>
+          <year>2018</year>
+          <volume>46</volume>
+          <fpage>138</fpage>
+          <lpage>141</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B21-materials-13-00158">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ding</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ezekoye</surname>
+              <given-names>O.A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of chemical reaction kinetic parameters on the bench-scale pyrolysis of lignocellulosic biomass</article-title>
+          <source>Fuel</source>
+          <year>2018</year>
+          <volume>232</volume>
+          <fpage>147</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fuel.2018.05.140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-materials-13-00158">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergistic effect of aluminum hypophosphite and intumescent flame retardants in polylactide</article-title>
+          <source>Polym. Adv. Technol.</source>
+          <year>2015</year>
+          <volume>26</volume>
+          <fpage>255</fpage>
+          <lpage>265</lpage>
+          <pub-id pub-id-type="doi">10.1002/pat.3451</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-materials-13-00158">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ding</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The accuracy and efficiency of GA and PSO optimization schemes on estimating reaction kinetic parameters of biomass pyrolysis</article-title>
+          <source>Energy</source>
+          <year>2019</year>
+          <volume>176</volume>
+          <fpage>582</fpage>
+          <lpage>588</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.energy.2019.04.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-materials-13-00158">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xuan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Danni</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation of Phenolic Resin Modified by Cardanol and Melamine</article-title>
+          <source>Chin. J. Colloid Polym.</source>
+          <year>2012</year>
+          <volume>30</volume>
+          <fpage>78</fpage>
+          <lpage>80</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B25-materials-13-00158">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Qian</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclodextrin microencapsulated ammonium polyphosphate: Preparation and its performance on the thermal, flame retardancy and mechanical properties of ethylene vinyl acetate copolymer</article-title>
+          <source>Compos. Part B Eng.</source>
+          <year>2015</year>
+          <volume>69</volume>
+          <fpage>22</fpage>
+          <lpage>30</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compositesb.2014.09.015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-materials-13-00158">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Braun</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Horst</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Heinz</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Flameretardancy mechanisms of metal phosphinates and metal phosphinates in combination with melamine cyanurate in glass-fiber reinforced poly(1,4-butyleneterephthalate): The influence of metal cation</article-title>
+          <source>Polym. Adv. Technol.</source>
+          <year>2008</year>
+          <volume>19</volume>
+          <fpage>680</fpage>
+          <lpage>692</lpage>
+          <pub-id pub-id-type="doi">10.1002/pat.1147</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-materials-13-00158">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Braun</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Schaael</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Flameretardancy mechanisms of aluminum phosphinate in combination with melamine cyanuratein glass-fiber reinforced poly(1,4 -butylene terephthalate)</article-title>
+          <source>Macromol. Mater. Eng.</source>
+          <year>2008</year>
+          <volume>293</volume>
+          <fpage>206</fpage>
+          <lpage>217</lpage>
+          <pub-id pub-id-type="doi">10.1002/mame.200700330</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-materials-13-00158">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergistic flame-retardant effects between aluminum hypophosphite and expandable graphite in silicone rubber composites</article-title>
+          <source>J. Therm. Anal. Calorim.</source>
+          <year>2015</year>
+          <volume>120</volume>
+          <fpage>1819</fpage>
+          <lpage>1826</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10973-015-4428-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-materials-13-00158">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ding</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Fukumoto</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ezekoye</surname>
+              <given-names>O.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental and numerical simulation of multi-component combustion of typical charring material</article-title>
+          <source>Combust. Flame</source>
+          <year>2020</year>
+          <volume>211</volume>
+          <fpage>417</fpage>
+          <lpage>429</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.combustflame.2019.10.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-materials-13-00158">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhan</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Synergistic effect of nano-silica on aluminum Diethyl phthalate/polyamide 66 system</article-title>
+          <source>2015 China Flame Retard. Acad. Annu. Conf. Pap.</source>
+          <year>2015</year>
+          <fpage>383</fpage>
+          <lpage>392</lpage>
+          <pub-id pub-id-type="doi">10.1177/0954008315572493</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-materials-13-00158">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Qi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preparation and properties of modified melamine resin blended viscose fiber</article-title>
+          <source>Wool Text. J.</source>
+          <year>2018</year>
+          <volume>46</volume>
+          <fpage>11</fpage>
+          <lpage>14</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="materials-13-00158-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Fourier transform infrared (FTIR) spectra of phenolic resin and phenolic resin composite system.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g001.tif"/>
+      </fig>
+      <fig id="materials-13-00158-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Thermo-gravimetric (TG) and derivative thermo-gravimetric (DTG) images of aluminum diethylphosphinate modified phenolic resin under nitrogen atmosphere.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g002.tif"/>
+      </fig>
+      <fig id="materials-13-00158-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>TG and DTG images of melamine modified phenolic resin under nitrogen atmosphere.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g003.tif"/>
+      </fig>
+      <fig id="materials-13-00158-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>TG and DTG images of aluminum diethylphosphinate and melamine modified phenolic resin under nitrogen atmosphere.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g004.tif"/>
+      </fig>
+      <fig id="materials-13-00158-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Heat release rate (<bold>a</bold>), total heat release (<bold>b</bold>) and weight loss curve (<bold>c</bold>) of phenolic resin and its composites.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g005.tif"/>
+      </fig>
+      <fig id="materials-13-00158-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>CO (<bold>a</bold>) and CO<sub>2</sub> (<bold>b</bold>) curves of phenolic resin and its composites.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g006.tif"/>
+      </fig>
+      <fig id="materials-13-00158-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Digital photographs of pre-CCT samples of E-0 (<bold>a</bold>), E-a2 (<bold>b</bold>), E-b2 (<bold>c</bold>) and E-c1 (<bold>d</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g007.tif"/>
+      </fig>
+      <fig id="materials-13-00158-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Digital photographs of CCT samples after E-0 (<bold>a</bold>), E-a2 (<bold>b</bold>), E-b2 (<bold>c</bold>) and E-c1 (<bold>d</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g008.tif"/>
+      </fig>
+      <fig id="materials-13-00158-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Electron micrograph of carbon layer after CCT test of phenolic resin and phenolic resin composites: E-0 (<bold>a</bold>), E-a2 (<bold>b</bold>), E-b2 (<bold>c</bold>) and E-c1 (<bold>d</bold>).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g009.tif"/>
+      </fig>
+      <fig id="materials-13-00158-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>FTIR spectra of phenolic resin and phenolic resin composite system after the cone calorimeter test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="materials-13-00158-g010.tif"/>
+      </fig>
+      <table-wrap id="materials-13-00158-t001" position="float">
+        <object-id pub-id-type="pii">materials-13-00158-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Samples of phenolic resin composite materials containing different additives.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample Codes</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Phenolic Resin (wt %)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Aluminum Diethylphosphinate (wt %)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Melamine (wt %)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">E-0</td>
+              <td align="center" valign="middle">100</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a1</td>
+              <td align="center" valign="middle">95</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a2</td>
+              <td align="center" valign="middle">90</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a3</td>
+              <td align="center" valign="middle">85</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a4</td>
+              <td align="center" valign="middle">80</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b1</td>
+              <td align="center" valign="middle">98</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b2</td>
+              <td align="center" valign="middle">96</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b3</td>
+              <td align="center" valign="middle">94</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">6</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b4</td>
+              <td align="center" valign="middle">92</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c1</td>
+              <td align="center" valign="middle">87</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c2</td>
+              <td align="center" valign="middle">82</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c3</td>
+              <td align="center" valign="middle">86</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c4</td>
+              <td align="center" valign="middle">81</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">4</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c5</td>
+              <td align="center" valign="middle">85</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">E-c6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">80</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-00158-t002" position="float">
+        <object-id pub-id-type="pii">materials-13-00158-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>TG data of phenolic resin and its composites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Material</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>5%</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>10%</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>dmax</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Char Residues at 800 &#xB0;C (wt%)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">E-0</td>
+              <td align="center" valign="middle">178</td>
+              <td align="center" valign="middle">313</td>
+              <td align="center" valign="middle">550</td>
+              <td align="center" valign="middle">51</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a1</td>
+              <td align="center" valign="middle">151</td>
+              <td align="center" valign="middle">300</td>
+              <td align="center" valign="middle">562</td>
+              <td align="center" valign="middle">52</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a2</td>
+              <td align="center" valign="middle">147</td>
+              <td align="center" valign="middle">299</td>
+              <td align="center" valign="middle">557</td>
+              <td align="center" valign="middle">55</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a3</td>
+              <td align="center" valign="middle">177</td>
+              <td align="center" valign="middle">329</td>
+              <td align="center" valign="middle">561</td>
+              <td align="center" valign="middle">52</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">E-a4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">121</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">305</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">467</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">49</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-00158-t003" position="float">
+        <object-id pub-id-type="pii">materials-13-00158-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>TG data of phenolic resin and its composites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Material</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>5%</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>10%</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>dmax</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Char Residues at 800 &#xB0;C (wt %)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">E-0</td>
+              <td align="center" valign="middle">178</td>
+              <td align="center" valign="middle">313</td>
+              <td align="center" valign="middle">550</td>
+              <td align="center" valign="middle">51</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b1</td>
+              <td align="center" valign="middle">133</td>
+              <td align="center" valign="middle">231</td>
+              <td align="center" valign="middle">559</td>
+              <td align="center" valign="middle">57</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b2</td>
+              <td align="center" valign="middle">268</td>
+              <td align="center" valign="middle">426</td>
+              <td align="center" valign="middle">560</td>
+              <td align="center" valign="middle">64</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b3</td>
+              <td align="center" valign="middle">206</td>
+              <td align="center" valign="middle">331</td>
+              <td align="center" valign="middle">566</td>
+              <td align="center" valign="middle">53</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">E-b4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">198</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">306</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">340</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-00158-t004" position="float">
+        <object-id pub-id-type="pii">materials-13-00158-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>TG data of phenolic resin composites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Material</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>5%</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>10%</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>dmax</sub> (&#xB0;C)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Char Residues at 800 &#xB0;C (wt %)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">E-c1</td>
+              <td align="center" valign="middle">121</td>
+              <td align="center" valign="middle">265</td>
+              <td align="center" valign="middle">570</td>
+              <td align="center" valign="middle">59.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c2</td>
+              <td align="center" valign="middle">125</td>
+              <td align="center" valign="middle">256</td>
+              <td align="center" valign="middle">560</td>
+              <td align="center" valign="middle">50.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c3</td>
+              <td align="center" valign="middle">155</td>
+              <td align="center" valign="middle">299</td>
+              <td align="center" valign="middle">559</td>
+              <td align="center" valign="middle">57.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c4</td>
+              <td align="center" valign="middle">137</td>
+              <td align="center" valign="middle">281</td>
+              <td align="center" valign="middle">559</td>
+              <td align="center" valign="middle">52.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c5</td>
+              <td align="center" valign="middle">138</td>
+              <td align="center" valign="middle">271</td>
+              <td align="center" valign="middle">559</td>
+              <td align="center" valign="middle">54.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">E-c6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">176</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">303</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">561</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">49.5</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-00158-t005" position="float">
+        <object-id pub-id-type="pii">materials-13-00158-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Limiting oxygen index (LOI) and vertical burning test (UL-94) results of phenolic resin and its composites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample Codes </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Flame Retardants Mass Fraction(%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">LOI</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">UL-94</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="4" align="center" valign="middle">
+                <bold>Aluminum Diethylphosphinate</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">30.0</td>
+              <td align="center" valign="middle">V-2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a1</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">31.0</td>
+              <td align="center" valign="middle">V-1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a2</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">33.1</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a3</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">34.6</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a4</td>
+              <td align="center" valign="middle">20</td>
+              <td align="center" valign="middle">32.3</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td colspan="4" align="center" valign="middle">
+                <bold>Melamine</bold>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b1</td>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">30.8</td>
+              <td align="center" valign="middle">V-1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b2</td>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">32.1</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b3</td>
+              <td align="center" valign="middle">6</td>
+              <td align="center" valign="middle">31.6</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">E-b4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">30.4</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">V-1</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-00158-t006" position="float">
+        <object-id pub-id-type="pii">materials-13-00158-t006_Table 6</object-id>
+        <label>Table 6</label>
+        <caption>
+          <p>LOI and UL-94 results of phenolic resin composites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample Codes</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Aluminum Diethylphosphinate(wt %)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Melamine (wt %)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">LOI</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">UL-94</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">E-c1</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">34.6</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c2</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">3</td>
+              <td align="center" valign="middle">34.8</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c3</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">35.8</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c4</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">4</td>
+              <td align="center" valign="middle">34.4</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c5</td>
+              <td align="center" valign="middle">10</td>
+              <td align="center" valign="middle">5</td>
+              <td align="center" valign="middle">34.1</td>
+              <td align="center" valign="middle">V-0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">E-c6</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">34.0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">V-0</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-00158-t007" position="float">
+        <object-id pub-id-type="pii">materials-13-00158-t007_Table 7</object-id>
+        <label>Table 7</label>
+        <caption>
+          <p>Cone calorimeter test (CCT) data of phenolic resin and its composites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample Codes</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">TTI (s)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">p<sub>HRR</sub> (kW/m<sup>2</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">T<sub>PHRR</sub> (s)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">THR (MJ/m<sup>2</sup>)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Residues (wt %)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">E-0</td>
+              <td align="center" valign="middle">26</td>
+              <td align="center" valign="middle">304.4</td>
+              <td align="center" valign="middle">86</td>
+              <td align="center" valign="middle">78.6</td>
+              <td align="center" valign="middle">32.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b2</td>
+              <td align="center" valign="middle">29</td>
+              <td align="center" valign="middle">286.6</td>
+              <td align="center" valign="middle">90</td>
+              <td align="center" valign="middle">62.7</td>
+              <td align="center" valign="middle">36.7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a2</td>
+              <td align="center" valign="middle">34</td>
+              <td align="center" valign="middle">245.6</td>
+              <td align="center" valign="middle">104</td>
+              <td align="center" valign="middle">58.6</td>
+              <td align="center" valign="middle">36.3</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c6</td>
+              <td align="center" valign="middle">38</td>
+              <td align="center" valign="middle">213.9</td>
+              <td align="center" valign="middle">158</td>
+              <td align="center" valign="middle">55.3</td>
+              <td align="center" valign="middle">37.9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">E-c1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">42</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">196.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">196</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">51</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">38.5</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-00158-t008" position="float">
+        <object-id pub-id-type="pii">materials-13-00158-t008_Table 8</object-id>
+        <label>Table 8</label>
+        <caption>
+          <p>Gas data of phenolic resin and its composites.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample Codes</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">p<sub>CO</sub> (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tp<sub>CO</sub> (s)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">p<sub>CO2</sub> (%)</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Tp<sub>CO2</sub> (s)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">E-0</td>
+              <td align="center" valign="middle">0.215</td>
+              <td align="center" valign="middle">206</td>
+              <td align="center" valign="middle">0.356</td>
+              <td align="center" valign="middle">82</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b2</td>
+              <td align="center" valign="middle">0.202</td>
+              <td align="center" valign="middle">152</td>
+              <td align="center" valign="middle">0.341</td>
+              <td align="center" valign="middle">90</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a2</td>
+              <td align="center" valign="middle">0.201</td>
+              <td align="center" valign="middle">175</td>
+              <td align="center" valign="middle">0.324</td>
+              <td align="center" valign="middle">150</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-c6</td>
+              <td align="center" valign="middle">0.199</td>
+              <td align="center" valign="middle">183</td>
+              <td align="center" valign="middle">0.264</td>
+              <td align="center" valign="middle">154</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">E-c1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.196</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">160</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.222</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">138</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="materials-13-00158-t009" position="float">
+        <object-id pub-id-type="pii">materials-13-00158-t009_Table 9</object-id>
+        <label>Table 9</label>
+        <caption>
+          <p>Thickness of residual carbon layer.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Sample Codes</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Thickness of Residual Carbon Layer (mm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">E-0</td>
+              <td align="center" valign="middle">2.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-a2</td>
+              <td align="center" valign="middle">5.5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">E-b2</td>
+              <td align="center" valign="middle">5</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">E-c1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5.8</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

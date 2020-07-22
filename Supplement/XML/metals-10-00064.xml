@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">metals</journal-id>
+      <journal-title-group>
+        <journal-title>Metals</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Metals</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Metals</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2075-4701</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/met10010064</article-id>
+      <article-id pub-id-type="publisher-id">metals-10-00064</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Constitutive Model and Flow Behavior of B1500HS High-Strength Steel During the Hot Deformation Process</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Muyu</given-names>
+          </name>
+          <xref rid="af1-metals-10-00064" ref-type="aff">1</xref>
+          <xref rid="af2-metals-10-00064" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Duan</surname>
+            <given-names>Yongchuan</given-names>
+          </name>
+          <xref rid="af1-metals-10-00064" ref-type="aff">1</xref>
+          <xref rid="af2-metals-10-00064" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yao</surname>
+            <given-names>Dan</given-names>
+          </name>
+          <xref rid="af1-metals-10-00064" ref-type="aff">1</xref>
+          <xref rid="af2-metals-10-00064" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guan</surname>
+            <given-names>Yingping</given-names>
+          </name>
+          <xref rid="af2-metals-10-00064" ref-type="aff">2</xref>
+          <xref rid="c1-metals-10-00064" ref-type="corresp">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Liu</given-names>
+          </name>
+          <xref rid="af1-metals-10-00064" ref-type="aff">1</xref>
+          <xref rid="af2-metals-10-00064" ref-type="aff">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-metals-10-00064"><label>1</label>Key Laboratory of Advanced Forging &amp; Stamping Technology and Science, Yanshan University, Ministry of Education of China, Qinhuangdao 066000, China; <email>Limuyu@stumail.ysu.edu.cn</email> (M.L.); </aff>
+      <aff id="af2-metals-10-00064"><label>2</label>School of Mechanical Engineering, Yanshan University, Qinhuangdao 066004, China</aff>
+      <author-notes>
+        <corresp id="c1-metals-10-00064"><label>*</label>Correspondence: <email>gyp@ysu.edu.cn</email>; Tel.: +86-335-805-7070</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>1</issue>
+      <elocation-id>64</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Hot compression tests were carried out on a Gleeble-3800 thermal mechanical simulator in the temperature range from 700 to 900 &#xB0;C and strain rate range from 0.005 to 10 s<sup>&#x2212;1</sup> to investigate the hot deformation behavior of B1500HS high-strength steel. Softening mechanisms of B1500HS high-strength steel under different deformation conditions were analyzed according to the characteristics of flow stress&#x2013;strain curves. By analyzing and processing the experimental data, the values of steady flow stress, saturated stress, dynamic recovery (DRV) softening coefficient, and other factors were solved and these parameters were expressed as functions of Zener&#x2013;Hollomon factors. Based on the dislocation density theory and the kinetic model of dynamic recrystallization (DRX), constitutive models corresponding to different softening mechanisms were established. The flow stress&#x2013;strain curves of B1500HS predicted by a constitutive model are in good agreement with the experimental results and the correlation coefficient is <inline-formula><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mn>0.998</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>. The comparison results indicate that the constitutive models can accurately reflect the deformation behavior of B1500HS high-strength steel under different conditions.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>B1500HS high-strength steel</kwd>
+        <kwd>softening mechanism</kwd>
+        <kwd>dislocation density theory</kwd>
+        <kwd>dynamic recrystallization</kwd>
+        <kwd>constitutive model</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-metals-10-00064" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>With the development of the automobile industry and the increase in environmental protection consciousness, high-strength steel is becoming widely used in the production of automobile parts, such as A-pillar, B-pillar, and roof frame structure [<xref ref-type="bibr" rid="B1-metals-10-00064">1</xref>,<xref ref-type="bibr" rid="B2-metals-10-00064">2</xref>]. B1500HS is a high-strength steel widely used in the hot stamping process. The microstructure of the test material without heat treatment is composed of ferrite and pearlite with low strength. After the hot stamping process, the microstructure of the material is transformed into martensite which can greatly improve the strength of the steel. The improvement in material strength reduces the use of reinforcing plates in the car body, thus effectively producing lightweight automobiles.</p>
+      <p>The relationship between flow stress and strain under hot deformation conditions is the basic material property of metal, which plays an important role in the research of forming theory, the establishment of finite element simulation, and the formulation of the hot stamping process. Therefore, the discussion of deformation behavior under different deformation conditions and the establishment of the corresponding constitutive model are of great significance to the application of hot stamping forming technology.</p>
+      <p>Bobbili and Madhu [<xref ref-type="bibr" rid="B3-metals-10-00064">3</xref>] established the constitutive model of high-strength armor steel under hot deformation conditions using the strain-compensated Arrhenius model, and the high-temperature performance of material was analyzed using the hot processing map. Salari and Naderi [<xref ref-type="bibr" rid="B4-metals-10-00064">4</xref>] revised Johnson&#x2013;Cook and Nemat-Nasser phenomenological models and applied them to the prediction of flow stress&#x2013;strain curves of a nickel&#x2013;chromium alloy during non-isothermal compression testing. Mirzadeh and Parsa [<xref ref-type="bibr" rid="B5-metals-10-00064">5</xref>] explored the effect of initial grain size on the high-temperature mechanical properties of 304L stainless steel and found that the nucleation point density increased with the reduction of initial grain size, meaning that dynamic recrystallization is more obvious when the grain size is small. Li and He [<xref ref-type="bibr" rid="B6-metals-10-00064">6</xref>] systematically studied the hot deformation behavior of high-strength boron steel in different microstructures and established the corresponding constitutive model based on the Arrhenius and Johnson&#x2013;Cook equations.</p>
+      <p>Dynamic recovery (DRV) and dynamic recrystallization (DRX) softening mechanisms occur in high-strength steel at high temperature and low strain rate [<xref ref-type="bibr" rid="B7-metals-10-00064">7</xref>,<xref ref-type="bibr" rid="B8-metals-10-00064">8</xref>,<xref ref-type="bibr" rid="B9-metals-10-00064">9</xref>]. The commonly used constitutive models, such as the Arrhenius model and the Johnson&#x2013;Cook model, are phenomenological models that can neither describe the complex changes of flow stress&#x2013;strain curves nor reflect the influence of microstructure evolution on macromechanical behavior. Based on this situation, researchers [<xref ref-type="bibr" rid="B10-metals-10-00064">10</xref>,<xref ref-type="bibr" rid="B11-metals-10-00064">11</xref>] solved the constitutive model under the different softening mechanisms. The constitutive model is solved using the dislocation density theory when the softening mechanism is DRV. When the softening mechanism is the combination of DRV and DRX, the kinetic model of dynamic recrystallization should be introduced into the constitutive model of the DRV softening mechanism. The constitutive model established by this method can accurately reflect the influence of the softening mechanism on macroscopic mechanical behavior.</p>
+      <p>In this study, the flow stress&#x2013;strain curves of B1500HS high-strength steel at different temperatures and strain rates were obtained by isothermal compression testing. The constitutive models under different softening mechanisms were constructed based on the dislocation density theory and kinetic model dynamic recrystallization. The softening mechanism of the test material under different deformation conditions was analyzed, and the characteristic parameters of flow stress&#x2013;strain curves, such as steady flow stress, saturated stress, and dynamic recovery softening coefficient, were expressed as functions of Zener&#x2013;Hollomon factors. Comparisons between the experimental and predicted results were carried out, and the reliability of the constitutive models was evaluated using a correlation coefficient.</p>
+    </sec>
+    <sec id="sec2-metals-10-00064">
+      <title>2. Materials and Methods</title>
+      <p>The material used in the investigation was B1500HS cold-rolled high-strength steel produced by the Baowu Iron and Steel Group (shanghai, China), and the thickness of the test material was 1.2 mm. Its chemical composition is shown in <xref ref-type="table" rid="metals-10-00064-t001">Table 1</xref>. In previous research studies, the flow stress&#x2013;strain curves of sheet metals were measured by high-temperature tensile testing with the help of a Gleeble thermal mechanical simulator (Morrisville, NC, USA). Because of the heat conduction between specimen and fixture, there is an obvious temperature gradient between the center and the end of the specimen, which reduces the reliability of experimental results. In addition, the fracture of specimens under high-temperature tensile tests does not automatically mean the end of DRX, meaning that the experimental data may not be suitable for kinetic analysis of DRX. Compared with the hot tensile tests of sheet metal, hot compression tests can heat the specimens more uniformly and produce enough deformation to ensure the occurrence of full dynamic recrystallization. Therefore, a hot compression test was used to measure the flow stress&#x2013;strain curves of B1500HS high-strength steel.</p>
+      <p>Following the technology and features of diffusion welding, sheets were welded together. The diffusion of atoms is improved under the combined action of high temperature and pressure and diffusion layers are formed on the contact surfaces, which can connect the sheets together. The preparation process of specimens used in hot compression tests was as follows. The steel was cut into 50 &#xD7; 50 mm square plates using wire-cutting equipment, and the surfaces of the sheets were rubbed with sandpaper. Then, the sheets were washed using an ultrasonic cleaner (Jingfeng ultrasonic equipment limited company, Yongkang, Zhejiang Province, China) for 1 h to remove the stains on the surface and dried immediately with a blower (Tianrui heavy industry limited company, Weifang, Shandong Province, China). Afterward, the sheets were stacked together in the fixture and tightened with high-strength bolts; the pre-tightening force provided by the bolts could supply the pressure required for diffusion. The schematic diagram is shown in <xref ref-type="fig" rid="metals-10-00064-f001">Figure 1</xref>. Finally, the fixture was put into a vacuum heating furnace (Shenyang vacuum technology institute limited company, Shenyang, Liaoning Province, China) for 2 h at 900 &#xB0;C, then cooled down to room temperature in the furnace. Cylindrical specimens that were 12 mm in length and 8 mm in diameter were machined from the billet, as is shown in <xref ref-type="fig" rid="metals-10-00064-f002">Figure 2</xref>.</p>
+      <p>The heat treatment process during the preparation of cylindrical specimens can lead to grain growth, influencing the deformation behavior of the material. Tensile specimens were cut from the cold-rolled B1500HS steel sheet by wire electrical discharge machining and the dimensions of the specimens are shown in <xref ref-type="fig" rid="metals-10-00064-f003">Figure 3</xref>. In order to explore the influence of the heating process on the deformation behavior of B1500HS, the specimens were divided into two groups. One group of specimens was heated to 900 &#xB0;C and held there for 2 h, whereas the specimens in the other group were not heat treated. The flow stress&#x2013;strain curves of the two groups of specimens were measured using an electronic universal material testing machine and electric heating furnace (Chanxin testing machine manufacturing limited company, Jinan, Shandong Province, China). The specimens were heated to 900 &#xB0;C and held there for 5 min to ensure they were completely austenitized. Afterward, hot tensile tests were carried out with strain rates of 0.01 and 0.1 s<sup>&#x2212;1</sup>. In addition, the flow stress&#x2013;strain curves of the cylindrical specimens under the same deformation conditions were also measured by hot compression tests on a Gleeble-3800 thermal mechanical simulator. The flow stress&#x2013;strain curves obtained from the above tests are shown in <xref ref-type="fig" rid="metals-10-00064-f004">Figure 4</xref>.</p>
+      <p>By analyzing the flow stress&#x2013;strain curves measured by hot tensile tests, it was confirmed that the specimens without heat treatment had a higher strength under the same deformation condition. However, the effect was not sufficiently distinctive. Under the same strain and deformation condition, the difference of flow stress measured by different specimens was only a few megapascals. <xref ref-type="fig" rid="metals-10-00064-f005">Figure 5</xref>a,b shows the morphology of the austenite grain of B1500HS corroded by saturated picric acid solution. It is observed that the grain size of austenite has limited growth with the increase in holding time. The average grain dimensions shown in <xref ref-type="fig" rid="metals-10-00064-f005">Figure 5</xref>a,b are 9.39 &#x3BC;m and 10.53 &#x3BC;m, respectively. Based on the analysis above, it is confirmed that heating for 2 h at 900 &#xB0;C has little effect on the deformation behavior of B1500HS.</p>
+      <p>By comparing the flow stress&#x2013;strain curves obtained by different experimental methods, the reliability of the data obtained from the hot compression test was analyzed. Before necking occurred in the hot tensile tests, the difference between the flow stress&#x2013;strain curves measured by hot tensile tests and hot compression tests was not significant, especially for the data before peak stress. However, when the strain rate was 0.01 s<sup>&#x2212;1</sup>, the softening effect caused by dynamic recrystallization in the hot compression test was slightly smaller than that in the hot tensile test. When the strain rate was 0.1 s<sup>&#x2212;1</sup>, the characteristics of dynamic recrystallization could not be observed in the flow stress&#x2013;strain curves obtained by the hot tensile tests, but they were obvious in the curve measured by the hot compression test. Compared with the flow stress&#x2013;strain curves measured by the hot tensile test, the curve measured by hot compression tests provided more information, which was of great significance for analyzing the deformation behavior of the test material. According to the above-mentioned analytical results, it was confirmed that the heat treatment process during the preparation of the cylindrical specimens had little effect on the deformation behavior of B1500HS, and the data measured by the hot compression test were feasible. </p>
+      <p>Hot compression tests were performed on a Gleeble-3800 thermal mechanical simulator. A K-type thermocouple was welded in the center of the specimen to monitor the change of temperature during the tests. A tantalum piece and a graphite lubricant were used between the specimen and pressure head to reduce the influence of temperature gradient and friction. <xref ref-type="fig" rid="metals-10-00064-f006">Figure 6</xref> is the schematic diagram of the hot compression test. The specimens were heated to 900 &#xB0;C at a heating rate of 10 &#xB0;C/s and held there for 5 min to ensure the specimens were completely austenitized. Then, the specimens were cooled to deformation temperature (700 &#xB0;C, 750 &#xB0;C, 800 &#xB0;C, 850 &#xB0;C, 900 &#xB0;C) at a rate of 20 &#xB0;C/s and held there for 15 s to reduce the temperature gradient. Subsequently, the specimens were compressed at different strain rates (0.005 s<sup>&#x2212;1</sup>, 0.01 s<sup>&#x2212;1</sup>, 0.1 s<sup>&#x2212;1</sup>, 1 s<sup>&#x2212;1</sup>, 10 s<sup>&#x2212;1</sup>). The amount of compression was 50% of the length of the specimen, which is equivalent to the true strain of <inline-formula><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:mn>0.69</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula>. After the compression process, the specimens were quenched in water immediately to retain the microstructure of the material.</p>
+    </sec>
+    <sec id="sec3-metals-10-00064" sec-type="results">
+      <title>3. Results and Discussion</title>
+      <sec id="sec3dot1-metals-10-00064">
+        <title>3.1. Discussion on Softening Mechanism and Construction Method of the Constitutive Model</title>
+        <p>Creep behavior at high temperature can affect the mechanical properties of a material. However, for the typical hot deformation process, deformation is finished in a short time and the deformation rate is much higher than being relevant for creep deformation. Therefore, the influence of creep behavior is neglected in the subsequent analysis. There are two softening mechanisms associated with high-temperature deformation, namely dynamic recovery and dynamic recrystallization. The schematic diagram is shown in <xref ref-type="fig" rid="metals-10-00064-f007">Figure 7</xref>. Curve a is the flow stress&#x2013;strain curve with the dynamic recovery softening mechanism. In the initial stage of deformation, the effect of work hardening (WH) is more obvious than the softening effect induced by dynamic recovery. The softening effect increases gradually with the rise of deformation, which can obstruct the increasing trend of stress with the rise of deformation. When the softening effect caused by dynamic recovery reaches dynamic equilibrium with work hardening, the value of flow stress remains generally stable. The asymptotic value is defined as saturated stress and is represented as <inline-formula><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        <p>Curve b is the flow stress&#x2013;strain curve with the dynamic recrystallization softening mechanism. The softening mechanism in this situation is the combination of DRV and DRX. Dynamic recrystallization occurs when the strain reaches critical condition <inline-formula><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. The softening effect of DRX reduces the deformation resistance of material significantly, which is more obvious than that of DRV. When the flow stress reaches the peak value <inline-formula><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, the softening effect caused by dynamic recrystallization begins to play a major role and the flow stress decreases with the increase of deformation. The flow stress becomes steady when the softening mechanism and the work hardening effect are in equilibrium state. The value of steady stress is denoted by <inline-formula><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        <p>The flow stress&#x2013;strain curves of B1500HS high-strength steel under different deformation conditions are shown in <xref ref-type="fig" rid="metals-10-00064-f008">Figure 8</xref>. It was observed that the temperature and strain rate had significant effects on the mechanical properties of B1500HS. The increase of temperature and the decrease of strain rate reduced the deformation resistance of the metal. According to the analysis of the flow stress&#x2013;strain curves, both dynamic recovery and dynamic recrystallization characteristics were found under hot deformation conditions. The flow stress&#x2013;strain curves conformed to the typical dynamic recovery characteristics at low temperatures and high strain rates. On the other hand, the flow stress&#x2013;strain curves had obvious dynamic recrystallization characteristics when the deformation condition was high temperature and low strain rate. The softening mechanisms of B1500HS high-strength steel under different deformation conditions are shown in <xref ref-type="table" rid="metals-10-00064-t002">Table 2</xref>.</p>
+        <p>The density of dislocation has significant influence on the mechanical properties of metals. Dislocation multiplication and annihilation caused by work hardening and dynamic recovery can be represented by the model proposed by Estrin and Mecking [<xref ref-type="bibr" rid="B12-metals-10-00064">12</xref>]:<disp-formula id="FD1-metals-10-00064"><label>(1)</label><mml:math id="mm7" display="block"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>&#x3C1;</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>&#x3B5;</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>h</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3C1;</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm8" display="block"><mml:semantics><mml:mi>&#x3C1;</mml:mi></mml:semantics></mml:math></inline-formula> is the density of dislocation, <inline-formula><mml:math id="mm9" display="block"><mml:semantics><mml:mi>&#x3B5;</mml:mi></mml:semantics></mml:math></inline-formula> represents the plastic strain, and <inline-formula><mml:math id="mm10" display="block"><mml:semantics><mml:mi>h</mml:mi></mml:semantics></mml:math></inline-formula> is the work hardening rate that reflects the increment of dislocation density caused by work hardening. <inline-formula><mml:math id="mm11" display="block"><mml:semantics><mml:mrow><mml:mi>r</mml:mi><mml:mi>&#x3C1;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> is used to reflect the effect of dynamic recovery on the reduction of dislocation density and <inline-formula><mml:math id="mm12" display="block"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula> is the dynamic recovery coefficient. By integrating both sides of Equation (1), the following form can be obtained:<disp-formula id="FD2-metals-10-00064"><label>(2)</label><mml:math id="mm13" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C1;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mi>h</mml:mi><mml:mi>r</mml:mi></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mi>h</mml:mi><mml:mi>r</mml:mi></mml:mfrac><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>exp</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>In the equation, <inline-formula><mml:math id="mm14" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the initial dislocation density when the plastic strain is 0. The change of dislocation density is directly reflected in the change of flow stress. Under the condition of high-temperature plastic deformation, the relationship between flow stress and dislocation density is usually expressed as the following [<xref ref-type="bibr" rid="B13-metals-10-00064">13</xref>,<xref ref-type="bibr" rid="B14-metals-10-00064">14</xref>,<xref ref-type="bibr" rid="B15-metals-10-00064">15</xref>]:<disp-formula id="FD3-metals-10-00064"><label>(3)</label><mml:math id="mm15" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mi>&#x3BC;</mml:mi><mml:mi>b</mml:mi><mml:msqrt><mml:mi>&#x3C1;</mml:mi></mml:msqrt><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm16" display="block"><mml:semantics><mml:mi>&#x3B1;</mml:mi></mml:semantics></mml:math></inline-formula> is the material constant, <inline-formula><mml:math id="mm17" display="block"><mml:semantics><mml:mi>&#x3BC;</mml:mi></mml:semantics></mml:math></inline-formula> is the shear modulus, and <inline-formula><mml:math id="mm18" display="block"><mml:semantics><mml:mi>b</mml:mi></mml:semantics></mml:math></inline-formula> is the Burgers vector. By introducing Equation (2) into Equation (3) and replacing <inline-formula><mml:math id="mm19" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> with <inline-formula><mml:math id="mm20" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mi>&#x3BC;</mml:mi><mml:mi>b</mml:mi><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></inline-formula>, the following equation can be obtained:<disp-formula id="FD4-metals-10-00064"><label>(4)</label><mml:math id="mm21" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mi>&#x3BC;</mml:mi><mml:mi>b</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mfrac><mml:mi>h</mml:mi><mml:mi>r</mml:mi></mml:mfrac><mml:mrow><mml:mo>[</mml:mo><mml:mo stretchy="false">(</mml:mo></mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mrow><mml:mo stretchy="false">)</mml:mo><mml:mo>]</mml:mo></mml:mrow></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>For the flow stress&#x2013;strain curves with dynamic recovery characteristics, the flow stress tends to be stable when the effect of work hardening and dynamic recovery reach equilibrium, and the asymptotic value is <inline-formula><mml:math id="mm22" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. With the increase of strain, the value of <inline-formula><mml:math id="mm23" display="block"><mml:semantics><mml:mrow><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> is near zero. The value of <inline-formula><mml:math id="mm24" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is expressed as <inline-formula><mml:math id="mm25" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mi>&#x3BC;</mml:mi><mml:mi>b</mml:mi><mml:msqrt><mml:mrow><mml:mi>h</mml:mi><mml:mo>/</mml:mo><mml:mi>r</mml:mi></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></inline-formula>. Hence, Equation (4) can be written in the following form:<disp-formula id="FD5-metals-10-00064"><label>(5)</label><mml:math id="mm26" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo stretchy="false">)</mml:mo><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Dynamic recrystallization occurs when deformation reaches the critical value. The kinetics model of dynamic recrystallization can be expressed by Johnson-Mehl-Avrami-Kolmogorov (JMAK) kinetic equation, as shown in Equation (6) [<xref ref-type="bibr" rid="B16-metals-10-00064">16</xref>,<xref ref-type="bibr" rid="B17-metals-10-00064">17</xref>,<xref ref-type="bibr" rid="B18-metals-10-00064">18</xref>]:<disp-formula id="FD6-metals-10-00064"><label>(6)</label><mml:math id="mm27" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>{</mml:mo><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mtext>&#xA0;</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2264;</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi mathvariant="normal">c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>exp</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>k</mml:mi><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mi>n</mml:mi></mml:msup></mml:mrow><mml:mo>]</mml:mo></mml:mrow><mml:mtext>&#xA0;</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>&gt;</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi mathvariant="normal">c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:msup><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msup><mml:mi>exp</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:msub><mml:mi>Q</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm28" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the volume fraction of dynamic recrystallization, <inline-formula><mml:math id="mm29" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm30" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm31" display="block"><mml:semantics><mml:mi>k</mml:mi></mml:semantics></mml:math></inline-formula>, and <inline-formula><mml:math id="mm32" display="block"><mml:semantics><mml:mi>n</mml:mi></mml:semantics></mml:math></inline-formula> are material constants, <inline-formula><mml:math id="mm33" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the value of strain when the volume fraction of dynamic recrystallization reaches 50%, <inline-formula><mml:math id="mm34" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the critical strain of dynamic recrystallization, <inline-formula><mml:math id="mm35" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>Q</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the activation energy of dynamic recrystallization, <inline-formula><mml:math display="block" id="mm36"><mml:semantics><mml:mi>T</mml:mi></mml:semantics></mml:math></inline-formula> is the deformation temperature, and <inline-formula><mml:math display="block" id="mm37"><mml:semantics><mml:mi>R</mml:mi></mml:semantics></mml:math></inline-formula> is the molar gas constant. As is shown in <xref ref-type="fig" rid="metals-10-00064-f007">Figure 7</xref>, the volume fraction of dynamic recrystallization can also be described as the following:<disp-formula id="FD7-metals-10-00064"><label>(7)</label><mml:math id="mm38" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>V</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm39" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>V</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> indicates the flow stress with dynamic recovery softening mechanism alone. Substituting Equation (7) into Equation (6), the flow stress with dynamic recrystallization characteristics can be expressed as follows:<disp-formula id="FD8-metals-10-00064"><label>(8)</label><mml:math id="mm40" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>V</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>exp</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>k</mml:mi><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mi>n</mml:mi></mml:msup></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      </sec>
+      <sec id="sec3dot2-metals-10-00064">
+        <title>3.2. Zener&#x2013;Hollomon Factor</title>
+        <p>In order to obtain the constitutive models corresponding to different softening mechanisms, the values of <inline-formula><mml:math id="mm41" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm42" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm43" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm44" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm45" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, and <inline-formula><mml:math id="mm46" display="block"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula> under different deformation conditions are required. The Zener&#x2013;Hollomon factor can be used to represent the combination effects of temperature and strain rate on deformation behavior at high temperature. Therefore, the characteristic parameters shown above can be expressed as functions of Zener&#x2013;Hollomon factors. The mathematical expression of Zener&#x2013;Hollomon is described as follows:<disp-formula id="FD9-metals-10-00064"><label>(9)</label><mml:math id="mm47" display="block"><mml:semantics><mml:mrow><mml:mi>Z</mml:mi><mml:mo>=</mml:mo><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>Q</mml:mi><mml:mo>/</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm48" display="block"><mml:semantics><mml:mi>Q</mml:mi></mml:semantics></mml:math></inline-formula> is the activation energy of hot deformation, <inline-formula><mml:math id="mm49" display="block"><mml:semantics><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:semantics></mml:math></inline-formula> is the strain rate, <inline-formula><mml:math id="mm50" display="block"><mml:semantics><mml:mi>R</mml:mi></mml:semantics></mml:math></inline-formula> is the universal gas constant, and <inline-formula><mml:math id="mm51" display="block"><mml:semantics><mml:mi>T</mml:mi></mml:semantics></mml:math></inline-formula> is the absolute temperature. The correlation between flow stress, temperature, and strain rate can be expressed by the Arrhenius equation, shown as the following: <disp-formula id="FD10-metals-10-00064"><label>(10)</label><mml:math id="mm52" display="block"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mi>A</mml:mi><mml:mi>F</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3C3;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>Q</mml:mi><mml:mo>/</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Depending on the stress states of material, Equation (10) can be expressed as follows:<disp-formula id="FD11-metals-10-00064"><label>(11)</label><mml:math id="mm53" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:msup><mml:mrow/><mml:mrow><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>Q</mml:mi><mml:mo>/</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>&lt;</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD13-metals-10-00064"><label>(12)</label><mml:math id="mm55" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B2;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>Q</mml:mi><mml:mo>/</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>&gt;</mml:mo><mml:mn>1.2</mml:mn><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD15-metals-10-00064"><label>(13)</label><mml:math id="mm57" display="block"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mi>A</mml:mi><mml:msup><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msup><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>Q</mml:mi><mml:mo>/</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mtext>&#xA0;</mml:mtext><mml:mi>for</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>all</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>stress</mml:mi><mml:mtext>&#xA0;</mml:mtext><mml:mi>levels</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm58" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the peak stress and <inline-formula><mml:math id="mm59" display="block"><mml:semantics><mml:mi>A</mml:mi></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm60" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm61" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm62" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm63" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, and <inline-formula><mml:math id="mm64" display="block"><mml:semantics><mml:mi>&#x3B1;</mml:mi></mml:semantics></mml:math></inline-formula> are the material constants. The value of <inline-formula><mml:math id="mm65" display="block"><mml:semantics><mml:mi>&#x3B1;</mml:mi></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm66" display="block"><mml:semantics><mml:mi>&#x3B2;</mml:mi></mml:semantics></mml:math></inline-formula> satisfy the following relationship: <inline-formula><mml:math id="mm67" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B1;</mml:mi><mml:mo>=</mml:mo><mml:mi>&#x3B2;</mml:mi><mml:mo>/</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. By taking the logarithms on both sides of Equations (11) and (12), the relational expression of <inline-formula><mml:math id="mm68" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm69" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> as well as <inline-formula><mml:math id="mm70" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm71" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> can be obtained, shown as Equations (14) and (15):<disp-formula id="FD16-metals-10-00064"><label>(14)</label><mml:math id="mm72" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mi>ln</mml:mi><mml:msub><mml:mi>A</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mi>Q</mml:mi><mml:mo>/</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD17-metals-10-00064"><label>(15)</label><mml:math id="mm73" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mi>ln</mml:mi><mml:msub><mml:mi>A</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:mi>&#x3B2;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mi>Q</mml:mi><mml:mo>/</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The relationships between <inline-formula><mml:math id="mm74" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm75" display="block"><mml:semantics><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:semantics></mml:math></inline-formula> are shown in <xref ref-type="fig" rid="metals-10-00064-f009">Figure 9</xref>a,b. It was concluded from the plots that a linear relation could be found between <inline-formula><mml:math id="mm76" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm77" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> as well as between <inline-formula><mml:math id="mm78" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm79" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula>. Based on the linear regression results, the values of <inline-formula><mml:math id="mm80" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm81" display="block"><mml:semantics><mml:mi>&#x3B2;</mml:mi></mml:semantics></mml:math></inline-formula> were obtained from the slopes of the lines in <xref ref-type="fig" rid="metals-10-00064-f009">Figure 9</xref>a,b and their average values were <inline-formula><mml:math id="mm82" display="block"><mml:semantics><mml:mrow><mml:mn>8.44</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm83" display="block"><mml:semantics><mml:mrow><mml:mn>4.56</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>, respectively. Relative standard deviation (RSD) was used to measure the deviation of data from the average value. The RSDs of <inline-formula><mml:math id="mm84" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm85" display="block"><mml:semantics><mml:mi>&#x3B2;</mml:mi></mml:semantics></mml:math></inline-formula> were <inline-formula><mml:math display="block" id="mm86"><mml:semantics><mml:mrow><mml:mn>6.76</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math display="block" id="mm87"><mml:semantics><mml:mrow><mml:mn>8.97</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, respectively, which means that the deviation between the values of slopes obtained under different deformation temperatures and the average value was small, so the average values were used as the calculation results of <inline-formula><mml:math id="mm88" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm89" display="block"><mml:semantics><mml:mi>&#x3B2;</mml:mi></mml:semantics></mml:math></inline-formula>. Thus, the value of <inline-formula><mml:math id="mm90" display="block"><mml:semantics><mml:mi>&#x3B1;</mml:mi></mml:semantics></mml:math></inline-formula> was calculated as <inline-formula><mml:math id="mm91" display="block"><mml:semantics><mml:mrow><mml:mn>5.41</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        <p>For all stress levels, Equation (13) can be represented as the following form by taking the logarithm on both sides of the equation:<disp-formula id="FD18-metals-10-00064"><label>(16)</label><mml:math id="mm94" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mi>ln</mml:mi><mml:mi>A</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>Q</mml:mi><mml:mo>/</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The value of activation energy is constant when temperature is a fixed value. By substituting <inline-formula><mml:math id="mm95" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm96" display="block"><mml:semantics><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:semantics></mml:math></inline-formula> into the equation, the relationship between <inline-formula><mml:math id="mm97" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm98" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> is shown in <xref ref-type="fig" rid="metals-10-00064-f010">Figure 10</xref>. The slope of the lines was determined as the value of the material constant <inline-formula><mml:math display="block" id="mm99"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> at different temperatures. The RSD of <inline-formula><mml:math display="block" id="mm100"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> was <inline-formula><mml:math display="block" id="mm101"><mml:semantics><mml:mrow><mml:mn>3.86</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, which shows that the temperature had little influence on the value of <inline-formula><mml:math display="block" id="mm102"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. Therefore, the average value <inline-formula><mml:math id="mm103" display="block"><mml:semantics><mml:mrow><mml:mn>6.294</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> was determined as the calculation result of <inline-formula><mml:math display="block" id="mm104"><mml:semantics><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        <p>For the constant strain rate conditions, by differentiating Equation (16), the value of <inline-formula><mml:math id="mm107" display="block"><mml:semantics><mml:mi>Q</mml:mi></mml:semantics></mml:math></inline-formula> can be expressed as follows:<disp-formula id="FD19-metals-10-00064"><label>(17)</label><mml:math id="mm108" display="block"><mml:semantics><mml:mrow><mml:mi>Q</mml:mi><mml:mo>=</mml:mo><mml:mi>R</mml:mi><mml:mi>n</mml:mi><mml:msub><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>T</mml:mi></mml:mrow></mml:mrow></mml:mfrac></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The linear relationship between <inline-formula><mml:math id="mm109" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm110" display="block"><mml:semantics><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>T</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> at different strain rates can be achieved by linear regression analysis, as is shown in <xref ref-type="fig" rid="metals-10-00064-f011">Figure 11</xref>. The RSD of the slopes under different strain rates was <inline-formula><mml:math id="mm111" display="block"><mml:semantics><mml:mrow><mml:mn>4.91</mml:mn><mml:mo>%</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>. Therefore, the average value of linear slopes was regarded as the value of <inline-formula><mml:math id="mm112" display="block"><mml:semantics><mml:mrow><mml:mo>&#x2202;</mml:mo><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo><mml:mo>/</mml:mo><mml:mo>&#x2202;</mml:mo><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>T</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, which was <inline-formula><mml:math id="mm113" display="block"><mml:semantics><mml:mrow><mml:mn>4.69</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mn>3</mml:mn></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>. Afterward, the value of <inline-formula><mml:math id="mm114" display="block"><mml:semantics><mml:mi>Q</mml:mi></mml:semantics></mml:math></inline-formula> was calculated as <inline-formula><mml:math id="mm115" display="block"><mml:semantics><mml:mrow><mml:mn>245.43</mml:mn><mml:mtext>&#x2009;</mml:mtext><mml:mrow><mml:mi>KJ</mml:mi><mml:mo>/</mml:mo><mml:mi>mol</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        <p>By substituting deformation activation energy, deformation temperatures, and strain rates into Equation (9), Zener&#x2013;Hollomon factors under different deformation conditions were solved. By taking the logarithm on the calculated results, the values of <inline-formula><mml:math id="mm118" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> were obtained.</p>
+      </sec>
+      <sec id="sec3dot3-metals-10-00064">
+        <title>3.3. Constitutive Model of Dynamic Recovery</title>
+        <p>The work hardening rate <inline-formula><mml:math id="mm119" display="block"><mml:semantics><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B8;</mml:mi><mml:mo>=</mml:mo><mml:mi>d</mml:mi><mml:mi>&#x3C3;</mml:mi><mml:mo>/</mml:mo><mml:mi>d</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> reflects the trend of change of flow stress during the hot deformation process. The values of characteristic parameters such as <inline-formula><mml:math id="mm120" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm121" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, and dynamic recovery coefficient <inline-formula><mml:math id="mm122" display="block"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula> were determined by analyzing and processing the <inline-formula><mml:math id="mm123" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3C3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> curves. These parameters were used to establish a constitutive model with a dynamic recovery softening mechanism. By fitting the flow stress&#x2013;strain curves after plastic deformation with a nine-order polynomial, the work hardening rate curves under different deformation conditions were obtained by calculating the first derivative of the polynomial. <xref ref-type="fig" rid="metals-10-00064-f012">Figure 12</xref> shows the work hardening rate curves with various strain rates at 800 &#xB0;C.</p>
+        <p>According to the previous analysis, it was concluded that the flow stress&#x2013;strain curves had obvious DRV characteristics when the deformation temperature was 800 &#xB0;C and the strain rates were 1&#x2013;10 s<sup>&#x2212;1</sup>. With the increment of deformation, the softening effect caused by DRV became gradually obvious, which was reflected in the decrease of the work hardening rate, as is shown in <xref ref-type="fig" rid="metals-10-00064-f012">Figure 12</xref>. When the softening effect of dynamic recovery is balanced with work hardening, the flow stress approaches a constant value and the amount of <inline-formula><mml:math id="mm124" display="block"><mml:semantics><mml:mi>&#x3B8;</mml:mi></mml:semantics></mml:math></inline-formula> is equal to zero. </p>
+        <p>When the strain rate was 0.005&#x2013;0.1 s<sup>&#x2212;1</sup>, the softening effect of material was considered to be the combined result of DRV and DRX. In this situation, the value of <inline-formula><mml:math id="mm125" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> could not be directly obtained from flow stress&#x2013;strain curves. To overcome this problem, the critical stress of DRX must be solved first. The value of <inline-formula><mml:math id="mm126" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> can be obtained by the stress corresponding to the peak value of the <inline-formula><mml:math id="mm127" display="block"><mml:semantics><mml:mrow><mml:mi>d</mml:mi><mml:mi>&#x3B8;</mml:mi><mml:mo>/</mml:mo><mml:mi>d</mml:mi><mml:mi>&#x3C3;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3C3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> curves, as is shown by the arrows in <xref ref-type="fig" rid="metals-10-00064-f013">Figure 13</xref>.</p>
+        <p>After a tangent line is drawn at the position corresponding to the critical stress on the <inline-formula><mml:math id="mm129" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3C3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> curve, the intersection of the tangent line and <inline-formula><mml:math id="mm130" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> is the amount of <inline-formula><mml:math id="mm131" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, indicated in <xref ref-type="fig" rid="metals-10-00064-f012">Figure 12</xref> by a dotted line.</p>
+        <p>The method proposed by Jonas, Quelennec and Jiang [<xref ref-type="bibr" rid="B19-metals-10-00064">19</xref>] was used in this research to obtain the dynamic recovery coefficient <inline-formula><mml:math display="block" id="mm132"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula>. By taking derivatives on both sides of Equation (5), it can be written as follows:<disp-formula id="FD20-metals-10-00064"><label>(18)</label><mml:math id="mm133" display="block"><mml:semantics><mml:mrow><mml:mfrac><mml:mrow><mml:mi>d</mml:mi><mml:mi>&#x3C3;</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi><mml:mi>&#x3B5;</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mfrac><mml:mrow><mml:mi>r</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mi>s</mml:mi><mml:mn>2</mml:mn></mml:msubsup><mml:mo>+</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mfrac><mml:mrow><mml:mi>r</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>&#x3C3;</mml:mi></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Equation (5) can be transformed into the following form by shifting terms:<disp-formula id="FD21-metals-10-00064"><label>(19)</label><mml:math id="mm134" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn><mml:mn>2</mml:mn></mml:msubsup></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mi>&#x3C3;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>By substituting <inline-formula><mml:math id="mm135" display="block"><mml:semantics><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn><mml:mn>2</mml:mn></mml:msubsup><mml:mo stretchy="false">)</mml:mo><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> with <inline-formula><mml:math id="mm136" display="block"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mi>&#x3C3;</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>, Equation (18) can be represented as the following form:<disp-formula id="FD22-metals-10-00064"><label>(20)</label><mml:math id="mm137" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mi>&#x3B8;</mml:mi><mml:mo>=</mml:mo><mml:mn>0.5</mml:mn><mml:mi>r</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x2212;</mml:mo><mml:mn>0.5</mml:mn><mml:mi>r</mml:mi><mml:msup><mml:mi>&#x3C3;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>According to the equation, the dynamic recovery coefficient <inline-formula><mml:math display="block" id="mm138"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula> is represented as an equation related to the slope of the <inline-formula><mml:math id="mm139" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mi>&#x3C3;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mi>&#x3C3;</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula> curve, with a slope of <inline-formula><mml:math display="block" id="mm140"><mml:semantics><mml:mrow><mml:mn>0.5</mml:mn><mml:mi>r</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>. <xref ref-type="fig" rid="metals-10-00064-f014">Figure 14</xref> provides an example of the solution of <inline-formula><mml:math display="block" id="mm141"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula>. The value of the slope was obtained by linear regression of the data before dynamic recrystallization occurred, shown as a dotted line in the figure. </p>
+        <p>The yield stress <inline-formula><mml:math id="mm144" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> was obtained from the flow stress&#x2013;strain curves. Since the yield point in flow stress&#x2013;strain curve was not obvious, the flow stress corresponding to the strain of 0.02 was defined as the value of yield stress [<xref ref-type="bibr" rid="B19-metals-10-00064">19</xref>].</p>
+        <p>The values of <inline-formula><mml:math id="mm145" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm146" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, and <inline-formula><mml:math id="mm147" display="block"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula> change with deformation conditions. The Zener&#x2013;Hollomon factor reflects the combination effect of temperature and strain rate. Therefore, these parameters were expressed as a function of the Zener&#x2013;Hollomon factor. By taking the natural logarithms on both sides of Equations (11) and (12), the equations were converted into the following form:<disp-formula id="FD23-metals-10-00064"><label>(21)</label><mml:math id="mm148" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>A</mml:mi><mml:mo>+</mml:mo><mml:mi>n</mml:mi><mml:mi>ln</mml:mi><mml:mi>&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD24-metals-10-00064"><label>(22)</label><mml:math id="mm149" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>A</mml:mi><mml:mo>+</mml:mo><mml:mi>n</mml:mi><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:mi>&#x3C3;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo><mml:mo>=</mml:mo><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The relationships between <inline-formula><mml:math id="mm150" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm151" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> are shown in <xref ref-type="fig" rid="metals-10-00064-f015">Figure 15</xref>a,b, respectively. Linear regression was used in the analysis of the data, and the expressions of <inline-formula><mml:math id="mm152" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm153" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> can be written as follows:<disp-formula id="FD25-metals-10-00064"><label>(23)</label><mml:math id="mm154" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>12.003</mml:mn><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mn>0.077</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD26-metals-10-00064"><label>(24)</label><mml:math id="mm155" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>184.973</mml:mn><mml:msup><mml:mrow><mml:mi>sinh</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>0.027</mml:mn><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mn>0.077</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p><xref ref-type="fig" rid="metals-10-00064-f016">Figure 16</xref> shows the relationship between the dynamic recovery coefficient and the Zener&#x2013;Hollomon parameter. It was concluded that the dynamic recovery coefficient increased with the increase of the Zener&#x2013;Hollomon parameter, and the relationship between them was approximately linear. The values of <inline-formula><mml:math display="block" id="mm158"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula> can be represented as a function of the Zener&#x2013;Hollomon parameter, which can be expressed as follows:<disp-formula id="FD27-metals-10-00064"><label>(25)</label><mml:math id="mm159" display="block"><mml:semantics><mml:mrow><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mn>14.318</mml:mn><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>0.022</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>According to the analysis above, the constitutive model of B1500HS with dynamic recovery characteristics can be written as the following equations:<disp-formula id="FD28-metals-10-00064"><label>(26)</label><mml:math id="mm162" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>{</mml:mo><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:mi>&#x3C3;</mml:mi><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo stretchy="false">)</mml:mo><mml:mi>exp</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>r</mml:mi><mml:mi>&#x3B5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:msqrt></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>184.973</mml:mn><mml:msup><mml:mi>sinh</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mn>0.027</mml:mn><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mn>0.077</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>=</mml:mo><mml:mn>12.003</mml:mn><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mn>0.077</mml:mn></mml:mrow></mml:msup></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>r</mml:mi><mml:mo>=</mml:mo><mml:mn>14.318</mml:mn><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>0.022</mml:mn></mml:mrow></mml:msup></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>Z</mml:mi><mml:mo>=</mml:mo><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mi>exp</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mn>245.427</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mn>3</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mi>R</mml:mi><mml:mi>T</mml:mi></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p><xref ref-type="fig" rid="metals-10-00064-f017">Figure 17</xref> shows the comparisons between the experimental data obtained from the hot compression tests and the results predicted by the constitutive model under different strain rates at 800 &#xB0;C. The constitutive model (Equation (26)) shows a high reliability in the prediction of flow stress&#x2013;strain curves with dynamic recovery characteristics. However, under the condition of low strain rate, the predicted results could not reflect the softening effect caused by dynamic recrystallization.</p>
+      </sec>
+      <sec id="sec3dot4-metals-10-00064">
+        <title>3.4. Constitutive Model of Dynamic Recrystallization</title>
+        <p>Dynamic recrystallization occurs when strain reaches a critical value. In order to solve the kinetic model of DRX, the values of <inline-formula><mml:math id="mm163" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm164" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> must be obtained. There is a linear relationship between critical strain and peak strain, as is shown in Equation (27):<disp-formula id="FD29-metals-10-00064"><label>(27)</label><mml:math id="mm165" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>In previous studies [<xref ref-type="bibr" rid="B20-metals-10-00064">20</xref>,<xref ref-type="bibr" rid="B21-metals-10-00064">21</xref>], the value of <inline-formula><mml:math id="mm166" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> was defined as 0.47&#x2013;0.83, and it was defined as 0.83 in this research. The values of peak strain were obtained from flow stress&#x2013;strain curves and the relationship between <inline-formula><mml:math id="mm167" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm168" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> was analyzed using the linear regression method, as is shown in <xref ref-type="fig" rid="metals-10-00064-f018">Figure 18</xref>. The mathematical expression of peak stress under different deformation conditions can be represented as follows:<disp-formula id="FD30-metals-10-00064"><label>(28)</label><mml:math id="mm169" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>4.517</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mn>0.178</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>At the end of DRX, the flow stress tends to be constant and the work hardening rate is equal to zero. As is shown in <xref ref-type="fig" rid="metals-10-00064-f012">Figure 12</xref>, the flow stress corresponding to the second intersection of the work hardening rate curve and the <inline-formula><mml:math id="mm172" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> curve is the value of steady state stress. <xref ref-type="fig" rid="metals-10-00064-f019">Figure 19</xref> shows the relationship between <inline-formula><mml:math id="mm173" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm174" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>. By analyzing these data with the linear regression method, the mathematical expression of <inline-formula><mml:math id="mm175" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> can be represented as the following equation:<disp-formula id="FD31-metals-10-00064"><label>(29)</label><mml:math id="mm176" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>5.007</mml:mn><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mn>0.138</mml:mn></mml:mrow></mml:msup><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The values of <inline-formula><mml:math id="mm179" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> were solved by Equation (7). The values of <inline-formula><mml:math id="mm180" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>V</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> were calculated using the established constitutive model of dynamic recovery, shown in Equation (26). By substituting the relevant parameters into Equation (7), the amount of strain corresponding to 50% recrystallization was obtained. By taking the natural logarithm of the expression of <inline-formula><mml:math id="mm181" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> in Equation (7), the follow equation was obtained:<disp-formula id="FD32-metals-10-00064"><label>(30)</label><mml:math id="mm182" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>ln</mml:mi><mml:msub><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>+</mml:mo><mml:msub><mml:mi>Q</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The relationships between <inline-formula><mml:math id="mm183" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm184" display="block"><mml:semantics><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>T</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> at different strain rates were fitted as shown in <xref ref-type="fig" rid="metals-10-00064-f020">Figure 20</xref>a and the value of the activation energy of dynamic recrystallization was calculated as <inline-formula><mml:math id="mm185" display="block"><mml:semantics><mml:mrow><mml:mn>4.62</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mn>4</mml:mn></mml:msup><mml:mrow><mml:mi mathvariant="normal">J</mml:mi><mml:mo>/</mml:mo><mml:mi>mol</mml:mi></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>. Similarly, the relationship between <inline-formula><mml:math id="mm186" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm187" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> under various deformation temperatures was analyzed. As shown in <xref ref-type="fig" rid="metals-10-00064-f020">Figure 20</xref>b, the average values of the slopes and the intercepts were the amounts of <inline-formula><mml:math id="mm188" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm189" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>Q</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mo>/</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>, and the values of <inline-formula><mml:math id="mm190" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm191" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>a</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> were <inline-formula><mml:math id="mm192" display="block"><mml:semantics><mml:mrow><mml:mn>0.163</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm193" display="block"><mml:semantics><mml:mrow><mml:mn>4.195</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>, respectively. </p>
+        <p>Therefore, the expression of <inline-formula><mml:math id="mm197" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> can be written as Equation (31):<disp-formula id="FD33-metals-10-00064"><label>(31)</label><mml:math id="mm198" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>4.195</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mrow><mml:mn>0.163</mml:mn></mml:mrow></mml:msup><mml:mi>exp</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mn>4.62</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mn>4</mml:mn></mml:msup><mml:mo>/</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>By taking the logarithm on both sides of the kinetic equation of dynamic recrystallization, the relationship between <inline-formula><mml:math id="mm199" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm200" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>/</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> can be given as Equation (32):<disp-formula id="FD34-metals-10-00064"><label>(32)</label><mml:math id="mm201" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo><mml:mo>=</mml:mo><mml:mi>ln</mml:mi><mml:mi>k</mml:mi><mml:mo>+</mml:mo><mml:mi>n</mml:mi><mml:mi>ln</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The relationship between <inline-formula><mml:math id="mm202" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm203" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>/</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> at different deformation conditions is shown in <xref ref-type="fig" rid="metals-10-00064-f021">Figure 21</xref>. The slopes and intercepts obtained from the linear regression results represent the values of <inline-formula><mml:math id="mm204" display="block"><mml:semantics><mml:mi>n</mml:mi></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm205" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> under different deformation conditions, respectively. Here, the average values of <inline-formula><mml:math id="mm206" display="block"><mml:semantics><mml:mrow><mml:mn>1.432</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm207" display="block"><mml:semantics><mml:mrow><mml:mn>0.855</mml:mn></mml:mrow></mml:semantics></mml:math></inline-formula> were calculated to be the values of <inline-formula><mml:math id="mm208" display="block"><mml:semantics><mml:mi>n</mml:mi></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm209" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>k</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, respectively.</p>
+        <p>Based on the derived kinetic equation of DRX, the volume fractions of DRX under different deformation conditions are shown in <xref ref-type="fig" rid="metals-10-00064-f022">Figure 22</xref>a,b. It is obvious that the DRX process is promoted with decreasing strain rate and increasing temperature. In order to verify the accuracy of the dynamic equation, the comparisons between predicted and experimental results are presented. A good correlation is observed between the predicted and the experimental values, which indicates that the kinetic equation can describe the DRX process accurately.</p>
+        <p>According to the analysis and method above, the constitutive model for flow stress&#x2013;strain curves with DRX can be written as the following equations:<disp-formula id="FD35-metals-10-00064"><label>(33)</label><mml:math id="mm212" display="block"><mml:semantics><mml:mrow><mml:mrow><mml:mo>{</mml:mo><mml:mtable columnalign="left"><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>V</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>exp</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>2.351</mml:mn><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>0.83</mml:mn><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mn>1.432</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0.004195</mml:mn><mml:msup><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mrow><mml:mn>0.1633</mml:mn></mml:mrow></mml:msup><mml:mi>exp</mml:mi><mml:mrow><mml:mo>[</mml:mo><mml:mrow><mml:mn>46204.8745</mml:mn><mml:mo>/</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>R</mml:mi><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>]</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>4.517</mml:mn><mml:mo>&#xD7;</mml:mo><mml:msup><mml:mn>10</mml:mn><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mn>0.178</mml:mn></mml:mrow></mml:msup></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>5.007</mml:mn><mml:msup><mml:mi>Z</mml:mi><mml:mrow><mml:mn>0.138</mml:mn></mml:mrow></mml:msup></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+      </sec>
+      <sec id="sec3dot5-metals-10-00064">
+        <title>3.5. Verification of the Constitutive Model</title>
+        <p>According to the constitutive model of B1500HS under different softening mechanisms, the flow stress&#x2013;strain curves of the material under different deformation conditions were predicted and compared with the experimental data, as is shown in <xref ref-type="fig" rid="metals-10-00064-f023">Figure 23</xref>.</p>
+        <p>It can be seen from the diagram that the flow stress&#x2013;strain curves predicted by the constitutive model are in good agreement with the experimental ones. In addition, the accuracy of the constitutive model was further verified by calculating the correlation coefficient between the predicted values and the experimental values. The expression of correlation coefficient is shown in Equation (34):<disp-formula id="FD36-metals-10-00064"><label>(34)</label><mml:math id="mm213" display="block"><mml:semantics><mml:mrow><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:msubsup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mover accent="true"><mml:mi>P</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mstyle></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:msubsup><mml:mrow><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mstyle displaystyle="true"><mml:msubsup><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:msubsup><mml:mrow><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mover accent="true"><mml:mi>P</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mstyle></mml:mrow></mml:mstyle></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>In the equation, <inline-formula><mml:math id="mm214" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm215" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are values predicted by the constitutive model and obtained through experiments carried out at different strains (0.1, 0.3, and 0.5), <inline-formula><mml:math id="mm216" display="block"><mml:semantics><mml:mover accent="true"><mml:mi>P</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm217" display="block"><mml:semantics><mml:mover accent="true"><mml:mi>E</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover></mml:semantics></mml:math></inline-formula> are the average values of <inline-formula><mml:math id="mm218" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>P</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm219" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, and <inline-formula><mml:math id="mm220" display="block"><mml:semantics><mml:mi>N</mml:mi></mml:semantics></mml:math></inline-formula> is the number of data. The relationship between predicted values and experimental values is shown in <xref ref-type="fig" rid="metals-10-00064-f024">Figure 24</xref>, and the value of the correlation coefficient was calculated as 0.998, which means that the constitutive model could accurately predict the flow stress&#x2013;strain curves of B1500HS high-strength steel under different deformation conditions.</p>
+      </sec>
+    </sec>
+    <sec id="sec4-metals-10-00064" sec-type="conclusions">
+      <title>4. Conclusions</title>
+      <p>
+        <list list-type="order">
+          <list-item>
+            <label>(1)</label>
+            <p>The flow stress&#x2013;strain curves of B1500HS high-strength steel under a temperature range of 700&#x2013;900 &#xB0;C and a strain rate range of 0.005&#x2013;10 s<sup>&#x2212;1</sup> were measured using hot compression tests. According to the flow stress&#x2013;strain curves, the softening mechanisms of material under different deformation conditions were analyzed.</p>
+          </list-item>
+          <list-item>
+            <label>(2)</label>
+            <p>By analyzing the curves of <inline-formula><mml:math id="mm221" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3C3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm222" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3C3;</mml:mi><mml:mi>&#x3B8;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msup><mml:mi>&#x3C3;</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>, parameters used in the solving of the constitutive model such as <inline-formula><mml:math id="mm223" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm224" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm225" display="block"><mml:semantics><mml:mi>r</mml:mi></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm226" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm227" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> were obtained, and the mathematical expressions between these parameters and the Zener&#x2013;Hollomon factor were also established. Based on dislocation density theory and the dynamic recrystallization kinetics equation, constitutive models corresponding to different softening mechanisms were constructed.</p>
+          </list-item>
+          <list-item>
+            <label>(3)</label>
+            <p>The flow stress&#x2013;strain curves of B1500HS high-strength steel predicted by the established constitutive models were compared with the experimental results. In addition, the correlation coefficient between the predicted value and the experimental value was solved. It can be concluded that the constitutive models are reliable to reflect the hot deformation process of B1500HS high-strength steel.</p>
+          </list-item>
+        </list>
+      </p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, M.L. and D.Y.; Data curation, M.L. and Y.D.; Formal analysis, M.L. and D.Y.; Funding acquisition, Y.G.; Investigation, M.L. and Y.G.; Methodology, M.L. and Y.D.; Project administration, Y.G.; Software, L.Y.; Writing&#x2014;original draft, D.Y. and L.Y.; Writing&#x2014;review and editing, M.L. and Y.G. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was funded by the Natural Science Foundation of Hebei Province of China, grant numbers E2018203254 and E2018203100, the Scientific Research Program of the Hebei Province Education Department, grant number ZD2019013, and the National Natural Science Foundation of China, grant number 51705448.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; or in the decision to publish the results.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-metals-10-00064">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bok</surname>
+              <given-names>H.H.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Pavlina</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Barlat</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative study of the prediction of microstructure and mechanical properties for a hot-stamped b-pillar reinforcing part</article-title>
+          <source>Int. J. Mech. Sci.</source>
+          <year>2011</year>
+          <volume>53</volume>
+          <fpage>744</fpage>
+          <lpage>752</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ijmecsci.2011.06.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-metals-10-00064">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.Y.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>M.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phase transformation-based finite element modeling to predict strength and deformation of press-hardened tubular automotive part</article-title>
+          <source>Int. J. Adv. Manuf. Technol.</source>
+          <year>2014</year>
+          <volume>70</volume>
+          <fpage>1787</fpage>
+          <lpage>1801</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00170-013-5424-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-metals-10-00064">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bobbili</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Madhu</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>An Investigation into hot deformation characteristics and processing maps of high-strength armor steel</article-title>
+          <source>J. Mater. Eng. Perform.</source>
+          <year>2015</year>
+          <volume>24</volume>
+          <fpage>4728</fpage>
+          <lpage>4735</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11665-015-1796-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-metals-10-00064">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salari</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Naderi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bleck</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constitutive modeling during simultaneous forming and quenching of a boron bearing steel at high temperatures</article-title>
+          <source>J. Mater. Eng. Perform.</source>
+          <year>2015</year>
+          <volume>24</volume>
+          <fpage>808</fpage>
+          <lpage>815</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11665-014-1345-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-metals-10-00064">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mirzadeh</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Parsa</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Ohadi</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Hot deformation behavior of austenitic stainless steel for a wide range of initial grain size</article-title>
+          <source>Mater. Sci. Eng. A</source>
+          <year>2013</year>
+          <volume>569</volume>
+          <fpage>54</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msea.2013.01.050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-metals-10-00064">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>G.Q.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constitutive relationships of hot stamping boron steel B1500HS</article-title>
+          <source>Mater. Sci. Eng. A</source>
+          <year>2013</year>
+          <volume>580</volume>
+          <fpage>330</fpage>
+          <lpage>348</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msea.2013.05.023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-metals-10-00064">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>G&#xFC;ler</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ertan</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>&#xD6;zcan</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Investigation of the hot ductility of a high-strength boron steel</article-title>
+          <source>Mater. Sci. Eng. A</source>
+          <year>2014</year>
+          <volume>608</volume>
+          <fpage>90</fpage>
+          <lpage>94</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msea.2014.04.053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-metals-10-00064">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>G&#xFC;ler</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ertan</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>&#xD6;zcan</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characteristics of 30MnB5 boron steel at elevated temperatures</article-title>
+          <source>Mater. Sci. Eng. A</source>
+          <year>2013</year>
+          <volume>578</volume>
+          <fpage>417</fpage>
+          <lpage>421</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msea.2013.04.116</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-metals-10-00064">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mej&#xED;a</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Altamirano</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bedolla-Jacuinde</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Cabrera</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling of the hot flow behavior of advanced ultra-high strength steels (A-UHSS) microalloyed with boron</article-title>
+          <source>Mater. Sci. Eng. A</source>
+          <year>2014</year>
+          <volume>610</volume>
+          <fpage>116</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msea.2014.04.105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-metals-10-00064">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Montazeri-Pour</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Parsa</surname>
+              <given-names>M.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constitutive analysis of tensile deformation behavior for AA1100 aluminum subjected to multi-axial incremental forging and shearing</article-title>
+          <source>Mech. Mater.</source>
+          <year>2016</year>
+          <volume>94</volume>
+          <fpage>117</fpage>
+          <lpage>131</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mechmat.2015.11.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-metals-10-00064">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rakhshkhorshid</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hashemi</surname>
+              <given-names>S.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental study of hot deformation behavior in API X65 steel</article-title>
+          <source>Mater. Sci. Eng. A</source>
+          <year>2013</year>
+          <volume>573</volume>
+          <fpage>37</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msea.2013.02.045</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-metals-10-00064">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Estrin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mecking</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A unified phenomenological description of work hardening and creep based on one-parameter models</article-title>
+          <source>Acta Metall.</source>
+          <year>1984</year>
+          <volume>32</volume>
+          <fpage>57</fpage>
+          <lpage>70</lpage>
+          <pub-id pub-id-type="doi">10.1016/0001-6160(84)90202-5</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-metals-10-00064">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.C.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A critical review of experimental results and constitutive descriptions for metals and alloys in hot working</article-title>
+          <source>Mater. Des.</source>
+          <year>2011</year>
+          <volume>32</volume>
+          <fpage>1733</fpage>
+          <lpage>1759</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.matdes.2010.11.048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-metals-10-00064">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mi</surname>
+              <given-names>Z.L.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>H.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constitutive model based on dislocation density theory for hot deformation behavior of ultra-high strength dual phase steel DP1000</article-title>
+          <source>Chin. J. Mater. Res.</source>
+          <year>2017</year>
+          <volume>31</volume>
+          <fpage>576</fpage>
+          <lpage>584</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B15-metals-10-00064">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Anjabin</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Taheri</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constitutive modeling of hot deformation behavior of the AA6063 alloy with different precipitates</article-title>
+          <source>Metall. Mater. Trans. A</source>
+          <year>2013</year>
+          <volume>44</volume>
+          <fpage>5853</fpage>
+          <lpage>5860</lpage>
+          <pub-id pub-id-type="doi">10.1007/s11661-013-1916-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-metals-10-00064">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.M.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constitutive equation and hot deformation behavior of homogenized Al&#x2013;7.68Zn&#x2013;2.12Mg&#x2013;1.98Cu&#x2013;0.12Zr alloy during compression at elevated temperature</article-title>
+          <source>Mater. Sci. Eng. A</source>
+          <year>2014</year>
+          <volume>608</volume>
+          <fpage>63</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.msea.2014.04.055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-metals-10-00064">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schikorra</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Donati</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Tomesani</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Tekkaya</surname>
+              <given-names>A.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microstructure analysis of aluminum extrusion: Prediction of microstructure on AA6060 alloy</article-title>
+          <source>J. Mater. Process. Technol.</source>
+          <year>2008</year>
+          <volume>201</volume>
+          <fpage>156</fpage>
+          <lpage>162</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jmatprotec.2007.11.160</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-metals-10-00064">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wen</surname>
+              <given-names>D.X.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.C.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>A new dynamic recrystallization kinetics model for a Nb containing Ni-Fe-Cr-base superalloy considering influences of initial &#x3B4; phase</article-title>
+          <source>Vacuum</source>
+          <year>2017</year>
+          <volume>141</volume>
+          <fpage>316</fpage>
+          <lpage>327</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.vacuum.2017.04.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-metals-10-00064">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jonas</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Quelennec</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The avrami kinetics of dynamic recrystallization</article-title>
+          <source>Acta Mater.</source>
+          <year>2009</year>
+          <volume>57</volume>
+          <fpage>2748</fpage>
+          <lpage>2756</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.actamat.2009.02.033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-metals-10-00064">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.C.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prediction of 42CrMo steel flow stress at high temperature and strain rate</article-title>
+          <source>Mech. Res. Commun.</source>
+          <year>2008</year>
+          <volume>35</volume>
+          <fpage>142</fpage>
+          <lpage>150</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mechrescom.2007.10.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-metals-10-00064">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mirzadeh</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Najafizadeh</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prediction of the critical conditions for initiation of dynamic recrystallization</article-title>
+          <source>Mater. Des.</source>
+          <year>2010</year>
+          <volume>31</volume>
+          <fpage>1174</fpage>
+          <lpage>1179</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.matdes.2009.09.038</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="metals-10-00064-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Schematic diagram of the fixture after assembly.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g001.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Appearance of billet and specimen used for the hot compression test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g002.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Dimensions of the specimens used for the hot tensile test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g003.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Flow stress&#x2013;strain curves measured by different experiment methods at 900 &#xB0;C.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g004.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Comparison of grain size with different holding times processed at 900 &#xB0;C: (<bold>a</bold>) 5 min and (<bold>b</bold>) 120 min.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g005.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Schematic diagram of the hot compression test.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g006.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Flow stress&#x2013;strain curves with different softening mechanisms.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g007.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Flow stress&#x2013;strain curves of B1500HS at different temperatures and strain rates.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g008.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Relationships between peak stress and strain rate at different temperatures: (<bold>a</bold>) <inline-formula><mml:math id="mm92" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and (<bold>b</bold>) <inline-formula><mml:math id="mm93" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g009.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f010" position="float">
+        <label>Figure 10</label>
+        <caption>
+          <p>Relationship between <inline-formula><mml:math id="mm105" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm106" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> at different temperatures.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g010.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f011" position="float">
+        <label>Figure 11</label>
+        <caption>
+          <p>Relationship between <inline-formula><mml:math id="mm116" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mi>p</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm117" display="block"><mml:semantics><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>T</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g011.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f012" position="float">
+        <label>Figure 12</label>
+        <caption>
+          <p>Work hardening rate curves of different strain rates at 800 &#xB0;C.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g012.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f013" position="float">
+        <label>Figure 13</label>
+        <caption>
+          <p>Curves of <inline-formula><mml:math id="mm128" display="block"><mml:semantics><mml:mrow><mml:mi>d</mml:mi><mml:mi>&#x3B8;</mml:mi><mml:mo>/</mml:mo><mml:mi>d</mml:mi><mml:mi>&#x3C3;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mi>&#x3C3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> under different deformation conditions.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g013.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f014" position="float">
+        <label>Figure 14</label>
+        <caption>
+          <p>Relationship between <inline-formula><mml:math id="mm142" display="block"><mml:semantics><mml:mrow><mml:mi>&#x3B8;</mml:mi><mml:mi>&#x3C3;</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm143" display="block"><mml:semantics><mml:mrow><mml:msup><mml:mi>&#x3C3;</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g014.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f015" position="float">
+        <label>Figure 15</label>
+        <caption>
+          <p>Relationships between (<bold>a</bold>) <inline-formula><mml:math id="mm156" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> and (<bold>b</bold>) <inline-formula><mml:math id="mm157" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mi>sinh</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B1;</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g015.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f016" position="float">
+        <label>Figure 16</label>
+        <caption>
+          <p>Relationship between <inline-formula><mml:math id="mm160" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>r</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm161" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g016.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f017" position="float">
+        <label>Figure 17</label>
+        <caption>
+          <p>Comparison between experimental data and predicted results under different strain rates at 800 &#xB0;C.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g017.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f018" position="float">
+        <label>Figure 18</label>
+        <caption>
+          <p>Relationship between <inline-formula><mml:math id="mm170" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm171" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g018.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f019" position="float">
+        <label>Figure 19</label>
+        <caption>
+          <p>Relationship between <inline-formula><mml:math id="mm177" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3C3;</mml:mi><mml:mrow><mml:mi>s</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm178" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mi>Z</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g019.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f020" position="float">
+        <label>Figure 20</label>
+        <caption>
+          <p>Relationships between <inline-formula><mml:math id="mm194" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and (<bold>a</bold>) <inline-formula><mml:math id="mm195" display="block"><mml:semantics><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mi>T</mml:mi></mml:mrow></mml:semantics></mml:math></inline-formula>, (<bold>b</bold>) <inline-formula><mml:math id="mm196" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mover accent="true"><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2D9;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g020.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f021" position="float">
+        <label>Figure 21</label>
+        <caption>
+          <p>Relationship between <inline-formula><mml:math id="mm210" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi>ln</mml:mi><mml:msub><mml:mi>X</mml:mi><mml:mrow><mml:mi>D</mml:mi><mml:mi>R</mml:mi><mml:mi>X</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm211" display="block"><mml:semantics><mml:mrow><mml:mi>ln</mml:mi><mml:mo stretchy="false">[</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x3B5;</mml:mi><mml:mo>&#x2212;</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>/</mml:mo><mml:msub><mml:mi>&#x3B5;</mml:mi><mml:mrow><mml:mn>0.5</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g021.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f022" position="float">
+        <label>Figure 22</label>
+        <caption>
+          <p>Predicted and experimental results of the volume fraction of DRX: (<bold>a</bold>) at the deformation temperature of 900 &#xB0;C and (<bold>b</bold>) at the strain rate of 0.01 s<sup>&#x2212;1</sup>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g022.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f023" position="float">
+        <label>Figure 23</label>
+        <caption>
+          <p>Comparisons between experimental data and predicted results under different deformation conditions.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g023.tif"/>
+      </fig>
+      <fig id="metals-10-00064-f024" position="float">
+        <label>Figure 24</label>
+        <caption>
+          <p>Correlation between predicted values and experimental values.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="metals-10-00064-g024.tif"/>
+      </fig>
+      <table-wrap id="metals-10-00064-t001" position="float">
+        <object-id pub-id-type="pii">metals-10-00064-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Chemical composition of B1500HS steel (wt %).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">C</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Si</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mn</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cr</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ni</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Mo</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">B</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Al</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ti</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cu</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">V</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">S</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">P</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.23</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.25</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.35</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.19</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.028</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.003</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.016</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.004</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.006</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.015</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="metals-10-00064-t002" position="float">
+        <object-id pub-id-type="pii">metals-10-00064-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Softening mechanism of the material under different deformation conditions.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Temperature/&#xB0;C</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Strain Rate/s<sup>&#x2212;1</sup></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Softening Mechanism</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">750</td>
+              <td align="center" valign="middle">0.005&#x2013;0.01</td>
+              <td rowspan="3" align="center" valign="middle" style="border-bottom:solid thin">DRV + DRX</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">800&#x2013;850</td>
+              <td align="center" valign="middle">0.005&#x2013;0.1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">900</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.005&#x2013;1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">700</td>
+              <td align="center" valign="middle">0.005&#x2013;10</td>
+              <td rowspan="4" align="center" valign="middle" style="border-bottom:solid thin">DRV</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">750</td>
+              <td align="center" valign="middle">0.1&#x2013;10</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">800&#x2013;850</td>
+              <td align="center" valign="middle">1&#x2013;10</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">900</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">10</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">sustainability</journal-id>
+      <journal-title-group>
+        <journal-title>Sustainability</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Sustainability</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Sustainability</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2071-1050</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/su12010334</article-id>
+      <article-id pub-id-type="publisher-id">sustainability-12-00334</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Effect of Direct Payment on the Prevention of Farmland Abandonment: The Case of the Hokkaido Prefecture in Japan</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shin</surname>
+            <given-names>Mika Wakamatsu</given-names>
+          </name>
+          <xref rid="af1-sustainability-12-00334" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kim</surname>
+            <given-names>Brian H. S.</given-names>
+          </name>
+          <xref rid="af1-sustainability-12-00334" ref-type="aff">1</xref>
+          <xref rid="af2-sustainability-12-00334" ref-type="aff">2</xref>
+          <xref rid="c1-sustainability-12-00334" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-sustainability-12-00334"><label>1</label>Department of Agricultural Economics and Rural Development, Seoul National University, 1 Gwanangno, Gwanak-gu, Seoul 08826, Korea; <email>wkmtmk0127@gmail.com</email></aff>
+      <aff id="af2-sustainability-12-00334"><label>2</label>Research Institute of Agriculture and Life Sciences, Seoul National University, 1 Gwanangno, Gwanak-gu, Seoul 08826, Korea</aff>
+      <author-notes>
+        <corresp id="c1-sustainability-12-00334"><label>*</label>Correspondence: <email>briankim66@snu.ac.kr</email>; Tel.: +82-2-880-4717</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <issue>1</issue>
+      <elocation-id>334</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>26</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Farmland exhibits multifunctionality by preventing flooding and soil erosion and providing social and cultural community comfort. All these functions are essential for sustainable rural development. However, the multifunctionality of farmland is decreasing worldwide because of an aging society, depopulation and income disparity between flat lands and hilly mountainous lands. Regarding the consequences of abandonment, abandonment is intimately linked with the wider issue of the stagnation of the rural economy. The direct payment policy for hilly mountainous land is aimed at restraining farmland abandonment through community-based activities. The panel data difference in differences (DID) estimator was employed to observe the effect of direct payments on the rate of restraining farmland abandonment at the municipality level of the Hokkaido prefecture in Japan for the period of 2005&#x2013;2015. We estimated that the direct payment implementation provided a 2% effectiveness for restraining the increase in the rate of abandonment as the result of DID estimation. On the other hand, the age group of 65 years or older was negatively correlated with farmland abandonment, which contradicts the general understanding. Older farmers have relatively more interest in contributing to and preserving their community. Therefore, the direct payment can encourage them to participate more in their community preservation. From these results, we concluded that it is necessary to promote farmland consolidation to compensate for the lack of inheritors. In addition, providing direct payment for a well-organized community or active stakeholders can be an effective way of utilizing governmental budgets and sustaining rural development.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>direct payment</kwd>
+        <kwd>farmland abandonment</kwd>
+        <kwd>difference in differences analysis</kwd>
+        <kwd>panel data analysis</kwd>
+        <kwd>sustainable rural development</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-sustainability-12-00334" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Farmland has multiple functionalities, such as preventing flooding, soil erosion and heat; maintaining river streams and provisions of ground water; and providing social and cultural community well-being. All of these functions are essential for sustainable rural development; however, the multifunctionality of farmland is decreasing worldwide due to farmland abandonment. Abandonment of farmland is also of concern to policymakers because of the decreasing values of the agricultural community, infrastructure losses and the decreasing opportunity for tourism and recreation [<xref ref-type="bibr" rid="B1-sustainability-12-00334">1</xref>]. Therefore, the consequences of farmland abandonment are closely linked with wider issues of stagnation in rural development and the economy.</p>
+      <p>Land abandonment is a complex process interlinked with economic, environmental and social evidence. Various factors can be influenced by neglecting farmland and their functions, such as depopulation, an aging society, low productivity, migration and food supply self-sufficiency. According to MacDonald [<xref ref-type="bibr" rid="B2-sustainability-12-00334">2</xref>], abandonment occurs due to low productivity in small plots and steep slopes. Low productivity often makes the farmers face low income and disadvantages that reduce their willingness to continue agronomy. </p>
+      <p>Senda [<xref ref-type="bibr" rid="B3-sustainability-12-00334">3</xref>] had already worried that there would be a necessity for measures to be taken depending on the regional characteristics in the 1990s, referring to farmland abandonment issues. He said that there are multidimensional causes for farmland abandonment. The behaviors of farmers are not defined by centralized mechanism, but still there are some commonly seen situations in the world in rural areas. It is seen that there is a withdrawal from land maintenance and lack of new entrants due to the aging population. In addition, these situations are likely created by scattered, small plots of farmland; less favored land conditions, such as steep hills and mountains; and economics. The situation continues to worsen due to recently accelerating of the aging population and declining labor force in their rural communities. </p>
+      <p>In Japan, according to Ministry of Agriculture, Forestry and Fishery (MAFF), the farmland that has been left uncultivated and dilapidated due to abandonment is viewed objectively as unable to be used for growing crops with conventional farming methods. By 2015 in Japan, 72% of the marginal mountainous area (consist of 390,000 ha) had been abandoned and the self-sufficiency of agricultural products dropped to 39% and continues to decrease [<xref ref-type="bibr" rid="B4-sustainability-12-00334">4</xref>]. MAFF states that farmers have abandoned the farmland in marginal mountainous areas due to unfavorable conditions that involve hard work, low productivity and additional farming costs compared to the flat land. A continuation of this trend can lead to more isolation and the marginalization of a vulnerable rural population. It can also unbalance the population structure, cause the loss of traditional knowledge and reduce the value of a community. Out-migration from the rural area can decrease the social welfare and impede sustainable rural development. </p>
+      <p>Keenleyside et al. [<xref ref-type="bibr" rid="B5-sustainability-12-00334">5</xref>] examined the effect of agricultural policies and subsidies implemented in European (EU) countries, such as the Common Agricultural Policy (CAP). They discovered that the CAP has successful outcomes in mitigating farmland abandonment. The direct payment (DP) policy is one of the agricultural policies practiced in Japan aimed at rural revitalization through community-based activities to prevent farmland abandonment. This study quantitatively examined how the DP policy has an effect on farmland abandonment in the Hokkaido prefecture in Japan. The Hokkaido prefecture was chosen because of its large share of the agricultural production area. The panel data analysis for three periods (2005, 2010 and 2015) was employed to observe the dynamic changes of the farmland area. </p>
+      <sec id="sec1dot1-sustainability-12-00334">
+        <title>1.1. Agricultural Policy and Rural Development</title>
+        <sec id="sec1dot1dot1-sustainability-12-00334">
+          <title>1.1.1. Common Agricultural Policy (CAP) in European Countries</title>
+          <p>Among the 15 EU countries, 48% of agricultural lands are considered as less favored land for farming activities due to their high altitude and slope, poor soil condition, poor water access and limited crop production [<xref ref-type="bibr" rid="B6-sustainability-12-00334">6</xref>]. Therefore, these EU countries introduced a DP policy in 1975 as an instrument to gauge the rural development of less favored land and continual support to sustain the rural community [<xref ref-type="bibr" rid="B7-sustainability-12-00334">7</xref>]. Their mission is to continually utilize these lands for agricultural use and maintain their agricultural system with environmental conservation [<xref ref-type="bibr" rid="B5-sustainability-12-00334">5</xref>].</p>
+          <p>The United Kingdom (UK) was the first country to adopt DP to promote agricultural activity in mountainous areas where it is difficult for the farmers to efficiently produce their crops. France also framed their DP policy, following the UK cases, in the regions of the Pyr&#xE9;n&#xE9;es and the Alps. As this policy became popular among the EU countries, an additional goal was set for rural areas facing depopulation. Therefore, EU countries established CAP for the fundamental reform process and designed their policy from supporting price and production to supporting direct income and rural development. This reform process with CAP and the DP scheme, called Agenda 2000, also provided environmental benefits, better rural landscapes and sustained the competitiveness of rural areas [<xref ref-type="bibr" rid="B8-sustainability-12-00334">8</xref>].</p>
+        </sec>
+        <sec id="sec1dot1dot2-sustainability-12-00334">
+          <title>1.1.2. Agricultural Policy with Direct Payment in Japan</title>
+          <p>Japan has practiced an agricultural policy of protecting rice production and rice farmers&#x2019; incomes since the post-war period. However, today, the demand for rice has decreased, even with the continual increase in rice production. Although the government is concerned about the continual rice surplus, their agricultural policy has not been fully committed to controlling the rice production and promoting the production of other agricultural crops [<xref ref-type="bibr" rid="B9-sustainability-12-00334">9</xref>]. Therefore, the self-sufficiency of Japan dropped from 79% in 1960 to 38% in 2016. A decreasing self-sufficiency meant inducing more imports of agricultural products and raising food security issues. The policy for the structural innovation of the farmland was long delayed and limited the progress of consolidating small-scale rice farmers to effectively utilize their farmland for other agricultural products. Japan was continually losing self-sufficiency and agricultural competitiveness in the international trading market, and that caused rural depopulation and diseconomy. </p>
+          <p>It was necessary for the Japanese government to make a drastic shift in their agricultural policy. One of the major movements was implementing DP from 2000 to 2004 for marginal mountainous areas. This is the 1st phase of DPs in Japanese agricultural policy history and targets the communities and individuals who are certified farmers, cooperatives and corporations. These entities agreed to practice environmental preservation, maintain agricultural infrastructure and maintain scenery-preserved cropping to receive the DPs. After the 1st phase of the policy, in 2005, the government added more detailed measurements for sustainable agricultural activities to reflect the situations in the rural community. They focused more on productivity and community-based farming so that this policy became the 2nd phase of DP. The government also reformed the DP to expand the target area and activities to cover more communities with a higher proportion of aged farmers.</p>
+          <p>The DP policy in Japan highly promotes community-based activities to sustain agricultural activity and rural development in marginal mountainous areas. The community activity is defined by MAFF, and is counted by units of community, such as engaging in whole process of agricultural production and also farm related maintenance activities [<xref ref-type="bibr" rid="B4-sustainability-12-00334">4</xref>]. Community-based agreements of DP are shared by 98% of all the agreement stakeholders. Only 2% are individual-based agreements [<xref ref-type="bibr" rid="B4-sustainability-12-00334">4</xref>]. This reflects the current situation: that it is difficult to sustain rural development with just the family/individual farmers. Some municipalities do not receive DP, even if eligible. This is because the DP is based on the actions of farmers or community who apply to the DP. The DP is provided based on the list of activities on the application form. And to be eligible to receive the payment, the conditions need to be fulfilled. According to Hashiguchi (2011) [<xref ref-type="bibr" rid="B10-sustainability-12-00334">10</xref>], communities where they have the characteristics of smaller scale and steep slope of the rice paddy field, lower rate of farmland and facility-maintained area, are less likely to receive DP. Even with the inferior conditions for rice cultivation in these areas, they are likely to show as not registered, even they are eligible to receive the DP. Moreover, Hashiguchi (2011) also addressed that there are various types of land slope, farmland conditions and rates of aged farmers among the eligible areas. Therefore, it is difficult to quantify the effect of DP. The targeted farmlands are a disadvantaged area where they fulfill at least one of the following conditions: (1) extreme steep of farmland, 15 degrees slope; (2) small scale; (3) extremely low temperature of on-season (total accumulated temperatures 2300 degrees during the period of May to October); and (4) a proportion of 65 year olds higher than 40% and a rate of farmland abandonment more than 8% [<xref ref-type="bibr" rid="B10-sustainability-12-00334">10</xref>]. Therefore, it is important to take into account the sustainable rural development with systematic stimulation of the whole community.</p>
+        </sec>
+        <sec id="sec1dot1dot3-sustainability-12-00334">
+          <title>1.1.3. Outline of Direct Payment </title>
+          <p>Overviewing the history and current situation of the DP in European countries and Japan, <xref ref-type="table" rid="sustainability-12-00334-t001">Table 1</xref> outlines the linkages and differences among these countries.</p>
+          <p>The majority of the farmers are part-time, even in the EU, where the structural transformation of agriculture is more advanced. Also, EU agricultural and rural policies are shifting to protecting part-time and small-scale farmers. The role of part-time farmers in agricultural and rural communities, especially in hilly and mountainous areas, is important in Japan as well. The Japanese type of DP also needs to be placed by shifting to integrated rural development policy.</p>
+        </sec>
+      </sec>
+      <sec id="sec1dot2-sustainability-12-00334">
+        <title>1.2. Previous Studies on Direct Payment</title>
+        <p>From the literature on the agricultural policy for DPs, we can divide the research into two types of study (1) the impact of the DP policy on the regional economy and landscape and (2) the impact of the policy from the perspective of community-based activity. </p>
+        <p>Keenleyside et al. [<xref ref-type="bibr" rid="B5-sustainability-12-00334">5</xref>] employed the CAP Regionalized Impact-Rural Development Dimension (CAPRI-RD) model and analyzed the regional impacts of CAP measures across a wide range of economic, social and environmental indicators. They used various statistical data in EU countries and simulated the model with the estimation for future scenarios of land uses under the CAP with DP. Because of the possibility of developing new indicators with CAPRI-RD, they focused on the impact of policies in terms of the risk of land abandonment. Renwick et al. [<xref ref-type="bibr" rid="B11-sustainability-12-00334">11</xref>] employed the CAPRI (Common Agricultural Policy Regional Impact) model and Dyna-CLUE (Dynamic Conversion of Land Use and its Effects) model to estimate the changes of land abandonment under 3 scenarios: (1) removal of payment, (2) trade liberalization and (3) a combination of scenarios 1 and 2. According to the CAPRI model, mountainous areas tend to be abandoned under all scenarios. Moreover, according to Dyna-CLUE, there were various differences in the land with abandonment and non-abandonment, even along the mountainous area. These lands depend on the landscape of the area, which could be steep, a valley or a plateau. Their results indicate that the removal of the policy may cause more land abandonment and may lead to rural economy stagnation. </p>
+        <p>Tsuya and Sugita [<xref ref-type="bibr" rid="B12-sustainability-12-00334">12</xref>] explored the case of Germany with a qualitative (survey-based) approach. They showed that there is a positive outcome on rural income with the introduction of DP. There are less income disparities between less favored and favored regions of the rural area. Their survey results indicated that 85% of the respondents experienced a difference after the implementation of the DP policy and 67% experienced a greater diversification and functions of their farmlands. </p>
+        <p>Regaining the function of community-based farming and activities through DP in Japan was reviewed by a number of studies with various approaches and perspectives. Yonezawa [<xref ref-type="bibr" rid="B13-sustainability-12-00334">13</xref>] claimed that it is necessary to utilize DP to maintain the farmland, especially in the less favored areas. Yabiki [<xref ref-type="bibr" rid="B14-sustainability-12-00334">14</xref>] found that the rate of farmland abandonment tends to be lower in the municipalities where there is more community-based farming. As the DP is being revised every 5 years in Japan, Takayama [<xref ref-type="bibr" rid="B15-sustainability-12-00334">15</xref>] evaluated the degree of changes of farmland abandonment at each stage of the policy implementation from 2000 to 2010. Takayama [<xref ref-type="bibr" rid="B15-sustainability-12-00334">15</xref>] found out that there is a positive outcome with the DP where the increasing rate of farmland abandonment has been restrained by 0.8% with a DP policy during the years 2000 to 2005. </p>
+        <p>There is a limited number of studies on the effect of a DP policy for the prevention of farmland abandonment within the context of community-based functions and sustainable rural development. Most of agricultural policies have been introduced based on advanced countries in EU. However, we have to consider its historical contexts, which are very different.</p>
+        <p>It is necessary to accumulate empirical studies of DP policy in Japan. The objective of this study was to investigate the impact of DP on rural revitalization through community-based farming. The DP policy in Japan was implemented in 2005 as phase 2, and subsequently reformed with more concentration on community-based activities. In phase 1, it did not include the securing successors. In the 2nd phase of 2005, the establishment of a system was emphasized to conduct production activities with autonomous and sustainable farming for the future by the DP. To achieve this goal, 100% of unit price (full amount) is provided for communities who have intension to purse establishment of this system as a motivation to engage in this system. On the other hand, 80% of the budget is provided for others who just have the same condition as previous phase activities. It was required for applicants to carry out share use of agricultural machinery, practice of high value-added agriculture, fostering community farming, farmland accumulation to certified farmers and securing of new entities. In short, it is called step-up type of DP [<xref ref-type="bibr" rid="B16-sustainability-12-00334">16</xref>]. Mainly, it is guiding securing stakeholders, including successors.</p>
+        <p>Using the census data of 2005 to 2015, this study evaluates the rate of farmland abandonment before and after the policy implementation. The Hokkaido prefecture is chosen due to its large share of agricultural area in Japan that is experiencing a stagnation of agriculture and rural economy. Even though Hokkaido is one of the prefectures in Japan that has a well-developed agriculture and a low rate of abandonment, the proportion of the population of 65 years old and more in the rural area is one of the highest in Japan. Moreover, there is rapid increase of aged population in rural areas (please see the map below). The share of agriculture, forestry and fishery sectors among the employed population is more than 35%, which is also one of the highest in Japan. Among 179 municipalities, 58 municipalities are mountainous area, 59 municipalities are hilly areas and 47 are flat areas&#x2014;but this flat area includes urban areas, such as Sapporo Asahikawa and Hakodate where they mostly do not have the large agricultural lands (see <xref ref-type="fig" rid="sustainability-12-00334-f001">Figure 1</xref>). Therefore, Hokkaido prefecture is also facing the farmland abandonment problems and has unfavored land which has potential of further abandonment in the near future. The average of the number of aged farmers (65 years and more) in Hokkaido is drawing parallel transition (34.1% in 2005; 34.4% in 2010; and 37.6% in 2016). Hokkaido is facing one of the most serious aging problems in Japan, especially in the agricultural sector, which is the major industry of this prefecture.</p>
+        <p>This study employed agricultural and forestry census data (conducted every 5 years by MAFF) and conduct empirical analysis to find the factors that are associated with the rate of farmland abandonment in Japan.</p>
+      </sec>
+    </sec>
+    <sec id="sec2-sustainability-12-00334">
+      <title>2. Materials and Methods </title>
+      <p>This study investigated the transition rate of farmland abandonment from 2005 to 2015. The census data from agriculture and forestry in 2005, 2010 and 2015 were used for the analysis. <xref ref-type="fig" rid="sustainability-12-00334-f002">Figure 2</xref> shows the agricultural land classification of the Hokkaido prefecture, and the rate of farmland abandonment in the Hokkaido area from 2005 to 2015 is illustrated in <xref ref-type="fig" rid="sustainability-12-00334-f003">Figure 3</xref>. The rate of farmland abandonment in the Hokkaido prefecture is relatively low compared to the national average; however, hilly and mountainous areas have a higher rate of abandonment due to their unfavored conditions.</p>
+      <p>Among 212 municipalities in the Hokkaido prefecture, 180 municipalities are the targets of the DP policy. Some of the municipalities needed to be excluded in the data set due to the limited data of the abandonment areas. Therefore, 162 municipalities were used for the analysis. Since not all the municipalities participate in the DP policy, the groups were divided into (1) treated-group (targeted and participated) and (2) controlled-group (targeted but not participated).</p>
+      <sec>
+        <title>Analysis Method</title>
+        <p>The fixed effect approach for the panel data can effectively control for measured and unmeasured time-invariant differences across the municipalities over time. This approach, with interaction variables of year dummy &#x201C;BA&#x201D; (comparing outcome of year 2005 and 2015) and group dummy &#x201C;treated&#x201D; can provide more robust estimation for the effect of DP on the rate of farmland abandonment. A simple comparison of the before (in 2005) and after (in 2015) effect of the policy implementation may not provide a clear explanation. There may be other factors that can influence the farmland abandonment of the study area. To alleviate such biases, two groups of targeted municipalities (&#x201C;participated&#x201D; and &#x201C;not participated&#x201D;) for the DP policy are compared for the period of 2005 to 2015. </p>
+        <p>This approach provides the effect of farmland abandonment by observing and comparing convergence patterns between the treated-group and controlled-group before and after receiving the DP. The role of DPs is identified by the estimated difference in differences (DID) of convergence rates before and after receiving the DP between the two groups of the targeted area. However, due to data limitation using the census data, it is difficult to observe the parallel trend among the treated and control groups. The estimated results using DID method are unbiased only if the source of selection bias is time-invariant and additive [<xref ref-type="bibr" rid="B17-sustainability-12-00334">17</xref>]. As it is mentioned in <xref ref-type="sec" rid="sec1dot1dot2-sustainability-12-00334">Section 1.1.2</xref> above, there is a similar condition among treated and control groups&#x2014;that the difference of receiving and not receiving DP depends on the type of land slope, and farmland condition. There can be a potential bias with these factors, but it would be time-invariant. Therefore, the land type and the proportion of aged farmers were included to control such biases and use DID estimator for the analysis. </p>
+        <p>The dependent variable was the rate of abandonment of agricultural land (= area of abandonment of agricultural land/area of abandonment of agricultural land + area of net cultivated land of famers) [<xref ref-type="bibr" rid="B13-sustainability-12-00334">13</xref>]. Independent variables are year dummy, group dummy [<xref ref-type="bibr" rid="B13-sustainability-12-00334">13</xref>,<xref ref-type="bibr" rid="B14-sustainability-12-00334">14</xref>,<xref ref-type="bibr" rid="B15-sustainability-12-00334">15</xref>], the number of farmers, proportion of part-time farmers (who engage in businesses or jobs other than their own farming), proportion of farmers above 65 years old, land type dummy and agricultural regional type dummy. <xref ref-type="table" rid="sustainability-12-00334-t002">Table 2</xref>, <xref ref-type="table" rid="sustainability-12-00334-t003">Table 3</xref> and <xref ref-type="table" rid="sustainability-12-00334-t004">Table 4</xref> present the variables that are used in the analysis, a correlation matrix of the variables and the descriptive statistics, respectively. </p>
+        <p>DID can estimate the effect of policy without biases, such as individual characteristics of the sample and/or some other factors that may affect the results. The concept of the DID estimator is referred to the studies of Khandker [<xref ref-type="bibr" rid="B18-sustainability-12-00334">18</xref>]. The effect of the policy can be estimated by the following Equation (1):<disp-formula>Y<italic><sub>it</sub></italic> = &#x3B1; + <italic>&#x3B2;</italic>Treat<italic><sub>it</sub></italic> &#xD7; BA + <italic>&#x3C1;</italic>Treat<italic><sub>it</sub></italic> + <italic>&#x3B3;</italic>BA + &#x3B5;<italic><sub>it</sub></italic>,<label>(1)</label></disp-formula>
+      where <italic>Y<sub>it</sub></italic> is rate of farmland abandonment. The coefficient <italic>&#x3B2;</italic> on interaction term of participation in the policy (1 = participated, 0 = otherwise), <italic>Treat<sub>it</sub></italic> and time BA is the DID effect of the DP policy. It expresses the difference effect before and after the policy implementation. Single <italic>&#x3B3;</italic>BA was included because there can be situations affecting other variables&#x2019; overtimes which are difficult to capture as variables. By adding time variable BA, the so called time effect, we can avoid over/under estimation.  Also, we assumed that the time effect of the treated and controlled group for the case of &#x201C;no DP policy implementation&#x201D; are in similar condition. Even though the time effect is included in the model, we can control some of the variables, which are time-invariant, and might affect other variables to avoid the biases. That is, the difference of receiving and not receiving DP depends on the type of land slope, farmland condition and the proportion of aged farmers. There can be a potential bias with these factors, but are time-invariant. Therefore, the land type and the proportion of aged farmers are included to control such biases and use the DID estimator for the analysis.</p>
+        <p>Based on general framework of the DID, we used the panel fixed effect model because it allows for partially avoid the endogeneity and omitted variable bias [<xref ref-type="bibr" rid="B19-sustainability-12-00334">19</xref>]. The result of Hausman test indicates there are no correlations between the regressors and errors that allow us to use the panel fixed effect model. It controls not only for the unobserved time-invariant heterogeneity but also for heterogeneity in observed characteristics over a multiple-period setting.
+      <disp-formula><italic>Y<sub>it</sub> =</italic> &#x3B1; + <italic>&#x3A6;</italic> (Treat<italic><sub>it</sub></italic> &#xD7; BA) + <italic>&#x3C1;</italic>Treat<italic><sub>it</sub></italic> + <italic>&#x3B3;</italic>BA + <italic>&#x3B4;</italic>X<sub>it</sub> + <italic>&#x3B7;<sub>i</sub></italic> + <italic>&#x3B5;<sub>it</sub></italic><label>(2)</label></disp-formula>
+      where <italic>&#x3A6;</italic> is the DID estimation in Equation (1), Treat<italic><sub>it</sub></italic> is the treatment variable of time <italic>t</italic> and <italic>X<sub>it</sub></italic> is the time-variant variable of each <italic>i</italic> in time <italic>t</italic>. <italic>&#x3B4;</italic> is coefficient of time-variant covariates, <italic>&#x3B7;<sub>i</sub></italic> is individual fixed effect<monospace>.</monospace> Since Treat<italic><sub>it</sub></italic> is also individual effect, we can include Treat<italic><sub>it</sub></italic> into <italic>&#x3B7;<sub>i</sub></italic> as part of individual effect, by setting <italic>&#x3C1; = 0</italic> [<xref ref-type="bibr" rid="B19-sustainability-12-00334">19</xref>].
+      <disp-formula>Y<sub>it</sub> = <italic>&#x3B1;</italic> + <italic>&#x3A6;</italic>Treat<italic><sub>it</sub></italic> &#xD7; BA + <italic>&#x3B3;</italic>BA + <italic>&#x3B4;</italic>X<italic><sub>it</sub></italic> + <italic>&#x3B7;<sub>i</sub></italic> + <italic>&#x3B5;<sub>it</sub></italic><sub>.</sub><label>(3)</label></disp-formula></p>
+        <p>In this way, the source of endogeneity, which is unobserved, and the individual characteristics <italic>&#x3B7;<sub>i</sub></italic>, are dropped by fixed effect, and therefore, the effect of the implementation <italic>&#x3A6;</italic> can be estimated without such bias. </p>
+      </sec>
+    </sec>
+    <sec id="sec3-sustainability-12-00334" sec-type="results">
+      <title>3. Results </title>
+      <sec>
+        <title>Result of Fixed Effect Model</title>
+        <p>Based on the result of Hausman test <italic>&#x3C7;<sup>2</sup></italic> = 144.72 (p = 0.00), the fixed effect model was employed for the analysis. <xref ref-type="table" rid="sustainability-12-00334-t005">Table 5</xref> shows the result of estimation using the fixed effect model. The effect on farmland abandonment by DP was examined by the interaction variable of group dummy and year dummy, which is expressed as &#x201C;treated # BA.&#x201D; In Model 1, which considers the effect of DP only, the estimated coefficient of the interaction variable of group dummy and year dummy is &#x2212;0.02, which means that the DP is reducing the farmland abandonment. Model 2 includes the control variables in the estimation since it is necessary to control the influences of each municipals. The single variable of BA showed negativity and statistical significance in both model 1 and 2. After the policy implementation (BA = 1), rate of abandonment decreased. The single variable of treated was omitted because of the fixed effect. The interaction term &#x201C;treated#BA,&#x201D; treated group (treated) and year dummy, was not statistically significant and was negative in model 1, but significant tin model 2. This means that the farmland abandonment was restrained by 0.02% compared to 2005 because of the DP implementation. Therefore, this result tells us that there is the effect of DP on restrain of abandonment.</p>
+        <p>LD#BA shows the interaction term of land type (1 = mountainous area) and year is not statistically significant and shows a negative correlation with the farmland abandonment. The abandonment rate of flat land and mountainous area can be observed by categorical variable of LD and BA. It was recognized that the hilly mountainous areas tend to abandon more than the flat land even with the DP policy. However, due to insignificant results for this variable, other characteristics (i.e., frequency or quality of the community activities) can be considered and assumed to effect from the policy implementation. PaddyD#BA is positively correlated with the farmland abandonment and not statistically significant. This result indicates that the paddy fields tend to increase the abandonment rate. However, since the slope and location of paddy field is not provided from the data, it is difficult to conclude the relationship between this variable and the dependent variable. If the land condition of agricultural type can be observed, more clear results can be presented from the analysis. The number of farmers is negatively correlated but not statistically significant. It is likely that farmland abandonment can increase as less farmers are involved in agricultural activities, which is consistent with the study of Takayama and Nakatani (2011) [<xref ref-type="bibr" rid="B15-sustainability-12-00334">15</xref>].</p>
+        <p>The result of over_65y is statistically significant. This result indicates that the rate of abandonment can be restrained if there are more 65 year old and over farmers in the community. The aging society can be related to the high percentage of the population 65 years and over in generally. However, we interpreted that in the case of farmland abandonment in rural community, the farmers with ages of 65 and over are the key for effective use of the DP. This result can be explained since older farmers have been engaged in agricultural activities throughout their lives and have been well engaged in community cooperation and activities. Therefore, community maintenance and cooperation have been an important priority in their lives. With the DP policy, they will have a higher motivation to better preserve their farmlands. In the studies of Takayama and Nakatani (2011) [<xref ref-type="bibr" rid="B15-sustainability-12-00334">15</xref>], they also demonstrated that over 65 years old famers have a positive influence on the mitigation of farmland abandonment. The lower opportunity costs of farmers 65 years, especially compared to the younger generation, are one of the reasons they found that older farmers are more involved in community activities including the maintenance of farmland with DPs. Furthermore, as pointed out in the study of Ito et al. (2019) [<xref ref-type="bibr" rid="B20-sustainability-12-00334">20</xref>], the crowding-out effect of the motivation for participation is likely to emerge when the participants consider external intervention as control by someone else. It is considered that the DP is unlikely to influence the crowding-out effect on conservation of the farmland. Because it is largely supportive by existing institutions of community-based farming, the participation is voluntary and based on the discretion and shared responsibility of community members [<xref ref-type="bibr" rid="B20-sustainability-12-00334">20</xref>].</p>
+        <p>The result of nonfarm_land is consistent with the statement from the MAFF report that the increase of non-farmers who own farmland is causing the farmland abandonment. Those who own land tend to avoid lending or selling their land to others because it is likely that these lands were inherited a long time ago. The budget is not statistically significant. This can be explained with the same reasons as the number of farmers: it would be important to place emphasis on quality of measurement rather than the quantity.</p>
+        <p>The result of budget is statistically significant and positive. Only the amount of the budget of the DP cannot make the change on the rate of abandonment and it might be relatively bigger in the area where it has serious area of abandonment and became large budgets. The result of <italic>rent</italic> is not statistically significant and positive. This result can be explained, with the effect of farmland lease, where the MAFF is expecting that the increase of non-farmers who own the farmland can cause the increase in the farmland abandonment. However, these cases have not been observed yet, and, due to the higher transaction cost for renting, the farmers hesitant to actively renting out their farmland [<xref ref-type="bibr" rid="B21-sustainability-12-00334">21</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="sec4-sustainability-12-00334" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>The results of DID estimation indicated that with the DP policy, the rate of restraining farmland abandonment in the treated group is higher than the rate of farmland abandonment in the controlled group. This is also consistent with the latest study of Takayama (2018) [<xref ref-type="bibr" rid="B22-sustainability-12-00334">22</xref>], where he mentioned that the less-favored land payments fostered to continue the land use and prevented the farmland abandonment through the maintenance of farm households. Since this DP has the characteristics of maintaining activities by the communities, it can play an important role to restraining the farmland abandonment more than the individual activities. The farmers in the age group of 65 years or older have a negative correlation with the rate of abandonment. Even with the rapid aging society in the rural area, in the case of Hokkaido, the farmers of the age of 65 years or older are more likely to be engaged in the community-based activities.</p>
+      <p>&#x201C;Japanese type&#x201D; DP has differences from the direct payment systems of the European countries [<xref ref-type="bibr" rid="B23-sustainability-12-00334">23</xref>]. The main difference is that Japan&#x2019;s system considers and prioritizes the functionality of rural communities. This policy framework is maintaining cultivated land and keeping rural areas in good condition. Our study verified this framework is effective with the result of 65 years or older. The study of Akamani and Hall (2015) defined that people who are engaged in community activities for certain period of time have certain amount of past capital. If they have higher past capital, they have higher capacity to adopt new government program [<xref ref-type="bibr" rid="B24-sustainability-12-00334">24</xref>]. When think that our cohort of 65 year old or older farmers had higher past capital; they had a higher capacity to participate to the direct payment policy. It would be a key factor when the government tries to implement effective intervention for farmland management. Moreover, as we mentioned, the DP worked as incentives for them because they used to maintain their land even before the implementation. In this sense, our finding gives insight of importance of community capacity on the farmland management activities by the DP policy.</p>
+      <p>From these results, we could say that a well-organized community or active stakeholders can be the key factors to effectively using DPs and promoting sustainable rural development. We suggest that it is necessary to implement the integration of the scattered farmland into a larger scale of land and to provide the agricultural cooperation or any other type of organization with incentives for more efficient community activity. This can be a measurement of the absence of landowner with the ownership of farmland, which causes farmland abandonment. A large amount of farmland continues to be abandoned with the lack of inheritors. It is challenging to solve &#x201C;decrease the number of farmers&#x201D; and &#x201C;increase the number of nonfarm households with farmland-tenure&#x201D; problems, as pointed out in the report of MAFF.</p>
+    </sec>
+    <sec id="sec5-sustainability-12-00334" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>This study estimated the effect of the DP policy on farmland abandonment. The DP is provided for the farmers or the communities who are engaged in agricultural activity and maintain their community.</p>
+      <p>Even with different historical contexts and practices between Japan and the EU, many of the agricultural policies are advanced by the countries in the EU. It is important to understand what has been practiced and learn the experiences that have been accumulated in these countries, and to formulate better implementation of DP policy in Japan. This study contributes to the discussion of Japanese type of DP through the estimation of the DP policy effect on farmland abandonment. The DP is provided for the farmers or the communities who are engaged in agricultural activity and maintain their community.</p>
+      <p>As mentioned above, to sustain a healthy rural community, it is recommended that the government take actions with a farmland conservation policy and search for farm management structural innovation support by the policy. The new paradigm to improve the quality measurement in promoting the agricultural activities can be shifted from traditional family farm management to the utilization of agricultural cooperation, the agricultural private company, opening farms to outsiders and expanding the entrustment of agricultural operations. The DP is an important policy that targets community-based practices and encourages the participants to practice more community-based activities and sustain their community. </p>
+      <p>For a future study, it would be a great idea to examine whether the farm management structure affects farmland abandonment and which community or regional characteristics/conditions could influence the land abandonment rate. </p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Both authors have contributed to the ideas of the paper. M.W.S. contribution was to analyze the data, interpret the results and draft the article. B.H.S.K. provided core advice, revising it critically for important contents, English revision and final approval of this version for publication. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research received no external funding.</p>
+    </notes>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The open access fee was supported by the Research Institute for Agriculture and Life Sciences, Seoul National University.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-sustainability-12-00334">
+        <label>1.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <collab>FAO</collab>
+          </person-group>
+          <source>Agriculture and the Environment: Changing Pressures, Solutions and Trade-Offs</source>
+          <year>2006</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.fao.org/3/y4252e/y4252e12.pdf" ext-link-type="uri">http://www.fao.org/3/y4252e/y4252e12.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-10-24">(accessed on 24 October 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B2-sustainability-12-00334">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>MacDonald</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Crabtree</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Wiesinger</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Dax</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Stamou</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Fleury</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Gutierrez Lazpita</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gibon</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Agricultural abandonment in mountain areas of Europe: Environmental consequences and policy response</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2000</year>
+          <volume>59</volume>
+          <fpage>47</fpage>
+          <lpage>69</lpage>
+          <pub-id pub-id-type="doi">10.1006/jema.1999.0335</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-sustainability-12-00334">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Senda</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>A Quantitative Analysis of Abandoned Cultivated Land in Japan</article-title>
+          <source>Report Comp. Study Feature Jpn. Chinaese Econ. Struct.</source>
+          <year>1998</year>
+          <volume>36</volume>
+          <fpage>57</fpage>
+          <lpage>62</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B4-sustainability-12-00334">
+        <label>4.</label>
+        <element-citation publication-type="gov">
+          <article-title>Ministry of Agriculture, Forestry and Fisheries (MAFF)</article-title>
+          <source>Final Report of Direct Payment for Hilly Mountainous Area</source>
+          <year>2014</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.maff.go.jp/j/nousin/tyusan/siharai_seido/s_data/pdf/h26_jisshi.pdf" ext-link-type="uri">https://www.maff.go.jp/j/nousin/tyusan/siharai_seido/s_data/pdf/h26_jisshi.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-10-24">(accessed on 24 October 2019)</date-in-citation>
+          <comment>(In Japanese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B5-sustainability-12-00334">
+        <label>5.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keenleyside</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tucker</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>McConville</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <source>Farmland Abandonment in the EU: An Assessment of Trends and Prospects</source>
+          <publisher-name>Institute for European Environmental Policy</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>2010</year>
+        </element-citation>
+      </ref>
+      <ref id="B6-sustainability-12-00334">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Renwick</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jansson</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Verburg</surname>
+              <given-names>P.H.</given-names>
+            </name>
+            <name>
+              <surname>Revoredo-Giha</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Britz</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Gocht</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>McCracken</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Policy reform and agricultural land abandonment in the EU</article-title>
+          <source>Land Use Policy</source>
+          <year>2013</year>
+          <volume>30</volume>
+          <fpage>446</fpage>
+          <lpage>457</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2012.04.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-sustainability-12-00334">
+        <label>7.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <collab>Ministry of Agriculture, Forestry and Fisheries (MAFF)</collab>
+          </person-group>
+          <article-title>The transition of EU CAP and renewed CAP (2014&#x2013;2020)</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.maff.go.jp/primaff/kanko/project/attach/pdf/160331_27cr10_01_cap.pdf" ext-link-type="uri">http://www.maff.go.jp/primaff/kanko/project/attach/pdf/160331_27cr10_01_cap.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-10-24">(accessed on 24 October 2019)</date-in-citation>
+          <comment>(In Japanese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B8-sustainability-12-00334">
+        <label>8.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>European Commission</collab>
+          </person-group>
+          <source>Common Agricultural Policy towards 2020 Assessment of Alternative Policy Options</source>
+          <comment>Commission staff working paper impact assessment</comment>
+          <publisher-name>European Commision</publisher-name>
+          <publisher-loc>Brussel, Belgium</publisher-loc>
+          <year>2011</year>
+        </element-citation>
+      </ref>
+      <ref id="B9-sustainability-12-00334">
+        <label>9.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamashita</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Institutional Design of Innovation of Agricultural Policy. Direct Payment and Farmland, Entity of Incorporated. Research Institute of Economy, Trade and Industry</article-title>
+          <series>RIETI Policy Discussion Paper Series 04-P-007</series>
+          <year>2004</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rieti.go.jp/jp/papers/contribution/yamashita/70.html" ext-link-type="uri">https://www.rieti.go.jp/jp/papers/contribution/yamashita/70.html</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-10-24">(accessed on 24 October 2019)</date-in-citation>
+          <comment>(In Japanese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B10-sustainability-12-00334">
+        <label>10.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hashiguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>The Evaluation and Overview of Direct Payment</source>
+          <publisher-name>The Nippon Agricultural Research Institute</publisher-name>
+          <publisher-loc>Tokyo, Japan</publisher-loc>
+          <year>2011</year>
+          <volume>Volume 82</volume>
+        </element-citation>
+      </ref>
+      <ref id="B11-sustainability-12-00334">
+        <label>11.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hirasawa</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>International Comparison of Direct Payment</article-title>
+          <publisher-name>Norinchukin Research Institute Co., Ltd.</publisher-name>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.maff.go.jp/j/kokusai/kokusei/kaigai_nogyo/k_syokuryo/attach/pdf/itaku29-3.pdf" ext-link-type="uri">http://www.maff.go.jp/j/kokusai/kokusei/kaigai_nogyo/k_syokuryo/attach/pdf/itaku29-3.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-09-01">(accessed on 1 September 2019)</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B12-sustainability-12-00334">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsuya</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sugita</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>An Analysis of Consequences for the Bavarian Farm Finance of Direct Payments Modification</article-title>
+          <source>Jpn. J. Farm Manag.</source>
+          <year>2013</year>
+          <volume>51</volume>
+          <fpage>102</fpage>
+          <lpage>107</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B13-sustainability-12-00334">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yonezawa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Takeuchi</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Effects of Direct Payment in Hilly and Mountainous Areas for Maintaining Ecological Functions at a Village Scale: A Case Study in Tokamachi-shi, Niigata Prefecture</article-title>
+          <source>Assoc. Rural Plan.</source>
+          <year>2003</year>
+          <volume>22</volume>
+          <fpage>17</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="doi">10.2750/arp.22.17</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-sustainability-12-00334">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yabiki</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of the Abandonment of Cultivated Area and Community-based Farm Cooperatives from Statistical Data</article-title>
+          <source>J. Rural Eng. Inst.</source>
+          <year>2015</year>
+          <volume>217</volume>
+          <fpage>75</fpage>
+          <lpage>83</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B15-sustainability-12-00334">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takayama</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakatani</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Preventive Effect of the Measure of Direct Payment in Hilly and Mountainous Areas on Abandonment of Farmlands: Evidence from the Paddy and Upland Areas of Hokkaido</article-title>
+          <source>Agric. Inf. Res.</source>
+          <year>2011</year>
+          <volume>20</volume>
+          <fpage>19</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="doi">10.3173/air.20.19</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-sustainability-12-00334">
+        <label>16.</label>
+        <element-citation publication-type="web">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Odagiri</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Japanese Agricultural Policy and Direct payment for hilly mountainous area. The Significance and Lesson learn</article-title>
+          <year>2010</year>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.chusankan-f.net/doc/jiron/201004_odagiri.pdf" ext-link-type="uri">http://www.chusankan-f.net/doc/jiron/201004_odagiri.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-09-01">(accessed on 1 September 2019)</date-in-citation>
+          <comment>(In Japanese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B17-sustainability-12-00334">
+        <label>17.</label>
+        <element-citation publication-type="gov">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okui</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <source>Fixed Effect and Random Effect</source>
+          <publisher-name>The Japan Institute for Labour Policy and Training</publisher-name>
+          <publisher-loc>Tokyo, Japan</publisher-loc>
+          <year>2015</year>
+          <volume>Volume 657</volume>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.jil.go.jp/institute/zassi/backnumber/2015/04/pdf/006-009.pdf" ext-link-type="uri">https://www.jil.go.jp/institute/zassi/backnumber/2015/04/pdf/006-009.pdf</ext-link></comment>
+          <date-in-citation content-type="access-date" iso-8601-date="2019-09-01">(accessed on 1 September 2019)</date-in-citation>
+          <comment>(In Japanese)</comment>
+        </element-citation>
+      </ref>
+      <ref id="B18-sustainability-12-00334">
+        <label>18.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khandker</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Koolwal</surname>
+              <given-names>G.B.</given-names>
+            </name>
+            <name>
+              <surname>Samad</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <source>Handbook on Impact Evaluation: Quantitative Methods and Practices</source>
+          <publisher-name>The World Bank</publisher-name>
+          <publisher-loc>Washington, DC, USA</publisher-loc>
+          <year>2009</year>
+        </element-citation>
+      </ref>
+      <ref id="B19-sustainability-12-00334">
+        <label>19.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kitamura</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <source>Methodology of Policy Evaluation Analysis</source>
+          <publisher-name>Hitotsubashi University THE Keizai Seminar</publisher-name>
+          <publisher-loc>Tokyo, Japan</publisher-loc>
+          <year>2007</year>
+        </element-citation>
+      </ref>
+      <ref id="B20-sustainability-12-00334">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ito</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Feuer</surname>
+              <given-names>H.N.</given-names>
+            </name>
+            <name>
+              <surname>Kitano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Asahi</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing the effectiveness of Japan&#x2019;s community-based direct payment scheme for hilly and mountainous areas</article-title>
+          <source>Ecol. Econ.</source>
+          <year>2019</year>
+          <volume>160</volume>
+          <fpage>62</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolecon.2019.01.036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-sustainability-12-00334">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deininger</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Jin</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The potential of land rental markets in the process of economic development: Evidence from China</article-title>
+          <source>J. Dev. Econ.</source>
+          <year>2005</year>
+          <volume>78</volume>
+          <fpage>241</fpage>
+          <lpage>270</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jdeveco.2004.08.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-sustainability-12-00334">
+        <label>22.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takayama</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hashizume</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Nakatani</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>The Impact of Direct Payments in Less Favored Areas on Agricultural Land Use and Farm Numbers: An Instrumental Variable Approach with Panel Data</source>
+          <publisher-name>International Association of Agricultural Economist</publisher-name>
+          <publisher-loc>Milwaukee, WI, USA</publisher-loc>
+          <year>2018</year>
+        </element-citation>
+      </ref>
+      <ref id="B23-sustainability-12-00334">
+        <label>23.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hashiguchi</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>Current Status of Agriculture and Rural Areas in Japan and Prospect of New Policy Framework: Comparison of the Direct Payment System in Japan and Europe</source>
+          <publisher-name>European Association of Agricultural Economists</publisher-name>
+          <publisher-loc>Ljubljana, Slovenia</publisher-loc>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="B24-sustainability-12-00334">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akamani</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>T.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Determinants of the process and outcomes of household participation in collaborative forest management in Ghana: A quantitative test of a community resilience model</article-title>
+          <source>J. Environ. Manag.</source>
+          <year>2015</year>
+          <volume>147</volume>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2014.09.007</pub-id>
+          <pub-id pub-id-type="pmid">25261747</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="sustainability-12-00334-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>The share of population of 65 years old and over in rural areas in Japan. Source: MAFF, <uri>https://www.maff.go.jp/j/wpaper/w_maff/h24_h/trend/part1/chap4/c4_1_01.html</uri>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00334-g001.tif"/>
+      </fig>
+      <fig id="sustainability-12-00334-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Agricultural land Classification of Hokkaido Source: MAFF (blank area means no data available).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00334-g002.tif"/>
+      </fig>
+      <fig id="sustainability-12-00334-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Rate of farmland abandonment in Hokkaido (blank area means no data available).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sustainability-12-00334-g003.tif"/>
+      </fig>
+      <table-wrap id="sustainability-12-00334-t001" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00334-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Direct payment overviews.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Country</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Payment</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Purpose</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Challenges</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Direction</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">European countries</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LFA + Income compensation</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Restrain abandonment, Protection of small scale farmers.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Still decreasingin the numberof farmers. Majority of thefarmers are Part-time</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Shifting from agricultural Policy to Rural development policy = New Entities, ruralcommunity develop-ment are more focused.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Japan</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LFA + income compensation</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Restrain abandonment</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Full-time farmers are mainly considered.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Measurements for rapid aging problem, new type of entities in LFA are necessary</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>LFA: less favored area. Source: Norinchukin Research Institute Co., Ltd. [<xref ref-type="bibr" rid="B11-sustainability-12-00334">11</xref>].</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00334-t002" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00334-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Description of variables.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Variables</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">sq_ab</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">proportion of abandonment of agricultural land (area of abandonment of agricultural land/area of abandonment of agricultural land + area of net cultivated Land of famers)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">BA</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Year dummy (0 = before new phase of DP (2005), 1 = after DP policy implementation (2015))</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">treated</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Group dummy (0 = controlled group, 1 = treated group),</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Numfarmers</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">The number of farmers</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Parttime</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">proportion of part time farmers who engage in businesses or jobs other than their own farming</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">over65y</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">proportion of farmers above 65 years old</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">nonfarm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">non-farmer owing farmland </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Budget</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Budget of the policy</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">rent</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">proportion of farmland lease</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">LD</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Agricultural land type dummy (0 = flat land, 1 = not flat, mountainous area)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">paddyD</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Agriculture type dummy (0 = not paddy field, 1 = rice paddy field)</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>The results of Variance Inflation Factor (VIF) were in the range from 1.02 to 1.63, which indicates that there are no multicollinearity problems among the independent variables.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00334-t003" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00334-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Correlation matrix of the variables.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Variables</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Numfarmers</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Parttime</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">over65y</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Nonfarm</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">LD</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">PD</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Budget</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Rent</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Numfarmers</td>
+              <td align="center" valign="middle">1.00</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Partime</td>
+              <td align="center" valign="middle">0.15</td>
+              <td align="center" valign="middle">1.00</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">over65y</td>
+              <td align="center" valign="middle">0.06</td>
+              <td align="center" valign="middle">0.41</td>
+              <td align="center" valign="middle">1.00</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">nonfarm</td>
+              <td align="center" valign="middle">&#x2212;0.01</td>
+              <td align="center" valign="middle">0.08</td>
+              <td align="center" valign="middle">&#x2212;0.06</td>
+              <td align="center" valign="middle">1.00</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LD</td>
+              <td align="center" valign="middle">&#x2212;0.32</td>
+              <td align="center" valign="middle">0.09</td>
+              <td align="center" valign="middle">0.11</td>
+              <td align="center" valign="middle">&#x2212;0.02</td>
+              <td align="center" valign="middle">1.00</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">paddyD</td>
+              <td align="center" valign="middle">0.30</td>
+              <td align="center" valign="middle">0.30</td>
+              <td align="center" valign="middle">0.12</td>
+              <td align="center" valign="middle">0.12</td>
+              <td align="center" valign="middle">&#x2212;0.23</td>
+              <td align="center" valign="middle">1.00</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Budget</td>
+              <td align="center" valign="middle">0.03</td>
+              <td align="center" valign="middle">0.03</td>
+              <td align="center" valign="middle">0.01</td>
+              <td align="center" valign="middle">&#x2212;0.04</td>
+              <td align="center" valign="middle">0.03</td>
+              <td align="center" valign="middle">&#x2212;0.01</td>
+              <td align="center" valign="middle">1.00</td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Rent</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.04</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.01</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.22</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.06</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.15</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.07</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">&#x2212;0.02</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00334-t004" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00334-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Descriptive statistics.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Variables</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Controlled Group</th>
+              <th colspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Treated Group</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Mean</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">S.D.</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Mean</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">S.D.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle">Aband</td>
+              <td align="center" valign="middle">0.018</td>
+              <td align="center" valign="middle">0.02</td>
+              <td align="center" valign="middle">0.033</td>
+              <td align="center" valign="middle">0.053</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">sq_ab</td>
+              <td align="center" valign="middle">0.2101</td>
+              <td align="center" valign="middle">0.2</td>
+              <td align="center" valign="middle">0.117</td>
+              <td align="center" valign="middle">0.089</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Numfarmers</td>
+              <td align="center" valign="middle">259.7</td>
+              <td align="center" valign="middle">183.8</td>
+              <td align="center" valign="middle">310.3</td>
+              <td align="center" valign="middle">282.8</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Parttime</td>
+              <td align="center" valign="middle">0.336</td>
+              <td align="center" valign="middle">0.115</td>
+              <td align="center" valign="middle">0.339</td>
+              <td align="center" valign="middle">0.137</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">over 65y</td>
+              <td align="center" valign="middle">0.378</td>
+              <td align="center" valign="middle">0.134</td>
+              <td align="center" valign="middle">0.353</td>
+              <td align="center" valign="middle">0.123</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">nonfarm_land</td>
+              <td align="center" valign="middle">122.6</td>
+              <td align="center" valign="middle">145.8</td>
+              <td align="center" valign="middle">91.88</td>
+              <td align="center" valign="middle">104.0</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">LD</td>
+              <td align="center" valign="middle">0.543</td>
+              <td align="center" valign="middle">0.499</td>
+              <td align="center" valign="middle">0.660</td>
+              <td align="center" valign="middle">0.475</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">paddyD</td>
+              <td align="center" valign="middle">0.0721</td>
+              <td align="center" valign="middle">0.259</td>
+              <td align="center" valign="middle">0.202</td>
+              <td align="center" valign="middle">0.402</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Budget</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">94,187</td>
+              <td align="center" valign="middle">429,341</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle" style="border-bottom:solid thin">rent</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.033</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.03</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.034</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.04</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="sustainability-12-00334-t005" position="float">
+        <object-id pub-id-type="pii">sustainability-12-00334-t005_Table 5</object-id>
+        <label>Table 5</label>
+        <caption>
+          <p>Result of the fixed effect model estimation.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">VARIABLES</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Model 1</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Model 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">BA</td>
+              <td align="center" valign="middle">&#x2212;0.0222 **</td>
+              <td align="center" valign="middle">&#x2212;0.0210 **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(0.0107)</td>
+              <td align="center" valign="middle">(0.0105)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">treated</td>
+              <td align="center" valign="middle">&#x2013;</td>
+              <td align="center" valign="middle">&#x2013;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">BA#treated</td>
+              <td align="center" valign="middle">&#x2212;0.0168</td>
+              <td align="center" valign="middle">&#x2212;0.0216 **</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(0.0129)</td>
+              <td align="center" valign="middle">(0.0107)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LD</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2013;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">LD#BA</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;0.00954</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(0.0114)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">paddyD</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2013;</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">paddyD#BA</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.0124</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(0.0156)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Numfarmers</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;4.17e-05</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(3.87e-05)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Parttime</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;0.0351</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(0.0389)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">over65y</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">&#x2212;0.151 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(0.0435)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">nonfarm_land</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.000107</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(0.000106)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">budget</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">5.64e-08 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(1.23e-08)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">rent</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.0584</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(0.0807)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Constant</td>
+              <td align="center" valign="middle">0.178 ***</td>
+              <td align="center" valign="middle">0.245 ***</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">(0.00411)</td>
+              <td align="center" valign="middle">(0.0261)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Observations</td>
+              <td align="center" valign="middle">492</td>
+              <td align="center" valign="middle">484</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of Municipality</td>
+              <td align="center" valign="middle">164</td>
+              <td align="center" valign="middle">164</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">R-squared</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.111</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.226</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn>
+            <p>Note: Robust standard errors in parentheses; *, ** and *** are 10%, 5% and 1%, respectively, and denote that the values are statistically significant.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

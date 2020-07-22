@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">ijms</journal-id>
+      <journal-title-group>
+        <journal-title>International Journal of Molecular Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Int. J. Mol. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">International Journal of Molecular Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1422-0067</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/ijms21010285</article-id>
+      <article-id pub-id-type="publisher-id">ijms-21-00285</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Immunohistochemical Study on the Expression of G-CSF, G-CSFR, VEGF, VEGFR-1, Foxp3 in First Trimester Trophoblast of Recurrent Pregnancy Loss in Pregnancies Treated with G-CSF and Controls</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Scarpellini</surname>
+            <given-names>Fabio</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00285" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-6744-0850</contrib-id>
+          <name>
+            <surname>Klinger</surname>
+            <given-names>Francesca Gioia</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00285" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rossi</surname>
+            <given-names>Gabriele</given-names>
+          </name>
+          <xref rid="af2-ijms-21-00285" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sbracia</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <xref rid="af1-ijms-21-00285" ref-type="aff">1</xref>
+          <xref rid="c1-ijms-21-00285" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-ijms-21-00285"><label>1</label>Center Endocrinology Reproductive Medicine (CERM), Viae Liegi 28, 00198 Rome, Italy; <email>ananchekaityche@hotmail.com</email></aff>
+      <aff id="af2-ijms-21-00285"><label>2</label>Histology and Embryology Section, Department of Biomedicine and Prevention, University of Rome, 00133 Rome, Italy; <email>klinger@uniroma2.it</email> (F.G.K.); <email>gabrielereds@tiscali.it</email> (G.R.)</aff>
+      <author-notes>
+        <corresp id="c1-ijms-21-00285"><label>*</label>Correspondence: <email>quelidebercia@hotmail.com</email>; Tel.: +39-3479037433; Fax: +39-06-5880096</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>1</issue>
+      <elocation-id>285</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>31</day>
+          <month>07</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Background: Recurrent Pregnancy Loss (RPL) is a syndrome recognizing several causes, and in some cases the treatment with Granulocyte Colony Stimulating Factor (G-CSF) may be successful, especially when karyotype of the previous miscarriage showed no embryo chromosomal abnormalities. In order to evaluate the effects of G-CSF treatment on the decidual and trophoblast expression of G-CSF and its receptor, VEGF and its receptor and Foxp3, specific marker of putative Tregs we conducted an immunohistochemical study. Methods: This study was conducted on three groups of patients for a total of 38 women: in 8 cases decidual and trophoblast tissue were obtained from 8 women with unexplained RPL treated with G-CSF that miscarried despite treatment; in 15 cases the tissue were obtained from 15 women with unexplained RPL no treated; 15 cases of women who underwent voluntary pregnancy termination were used as controls. Tissue collected from these patients were used for immunohistochemistry studies testing the expression of G-CSF, G-CSFR, VEGF, VEGFR-1 and Foxp3. Results: G-CSF treatment increased the concentration of cells expressing Foxp3, specific marker for Tregs, in the decidua, whereas in no treated RPL a reduction of these cells was found when compared to controls. Furthermore, G-CSF treatment increased the expression of G-CSF and VEGF in the trophoblast. Conclusions: Our study showed that G-CSF treatment increased the number of decidual Treg cells in RPL patients as well as the expression of G-CSF and VEGF in villus trophoblast. These finding may explain the effectiveness of this treatment in RPL, probably regulating the maternal immune response through Tregs recruitment in the decidua, as well as stimulating trophoblast growth.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>G-CSF</kwd>
+        <kwd>G-CSFR</kwd>
+        <kwd>VEGF</kwd>
+        <kwd>VEGFR-1 Foxp3</kwd>
+        <kwd>Treg</kwd>
+        <kwd>recurrent pregnancy loss</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-ijms-21-00285" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Recurrent Pregnancy Loss (RPL) is currently described as the loss of two or more pregnancies prior to the 24th week of gestation [<xref ref-type="bibr" rid="B1-ijms-21-00285">1</xref>]. It has been estimated that its frequency is 1 every 300 pregnant women [<xref ref-type="bibr" rid="B2-ijms-21-00285">2</xref>]. The recognized causes for RPL are generally recognized parental chromosomal defects, infections, endocrinologic pathologies, uterine defects, antiphospholipid antibody, other autoimmune diseases, as well as embryo chromosomal abnormalities. However, more than 40% of RPL cases remain unexplained [<xref ref-type="bibr" rid="B3-ijms-21-00285">3</xref>]. We have showed that in some of these patients the infusion of Granulocyte Colony Stimulating Factor (G-CSF) may be used successfully as a treatment especially in case the karyotyping of previous miscarriage showed no embryo chromosomal abnormalities [<xref ref-type="bibr" rid="B4-ijms-21-00285">4</xref>].</p>
+      <p>G-CSF is a 177 aminoacid polypeptide with a molecular weight of about 25 Kd stimulating principally polymorphonuclear granulocytes [<xref ref-type="bibr" rid="B5-ijms-21-00285">5</xref>] with a high affinity receptor known as G-CSFR or c-fms of 183 aminoacids with a molecular weight of approximately 14 Kd, present on the target cell surface [<xref ref-type="bibr" rid="B6-ijms-21-00285">6</xref>]. In early papers, the expression of G-CSF was found on trophoblast cells and in decidual cells of several mammals including human placenta, as well as its receptor that was localized on the trophoblast cell surface [<xref ref-type="bibr" rid="B6-ijms-21-00285">6</xref>,<xref ref-type="bibr" rid="B7-ijms-21-00285">7</xref>,<xref ref-type="bibr" rid="B8-ijms-21-00285">8</xref>,<xref ref-type="bibr" rid="B9-ijms-21-00285">9</xref>,<xref ref-type="bibr" rid="B10-ijms-21-00285">10</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00285">11</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00285">12</xref>,<xref ref-type="bibr" rid="B13-ijms-21-00285">13</xref>]. The expression of G-CSF has been reported either only in the syncytio or in the cytotrophoblast, depending on the authors [<xref ref-type="bibr" rid="B8-ijms-21-00285">8</xref>,<xref ref-type="bibr" rid="B9-ijms-21-00285">9</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00285">12</xref>], as well as its for receptor, some authors reported its expression in the decidua and in the trophoblast in different pattern [<xref ref-type="bibr" rid="B8-ijms-21-00285">8</xref>,<xref ref-type="bibr" rid="B9-ijms-21-00285">9</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00285">12</xref>]. An anti-abortive role was also demonstrated for G-CSF in the animal model, and its absence was indirectly involved in early abortions [<xref ref-type="bibr" rid="B13-ijms-21-00285">13</xref>,<xref ref-type="bibr" rid="B14-ijms-21-00285">14</xref>,<xref ref-type="bibr" rid="B15-ijms-21-00285">15</xref>]. It has also been shown in several in vitro studies and in animal models, that G-CSF has a positive effect on trophoblast growth and placenta metabolism [<xref ref-type="bibr" rid="B16-ijms-21-00285">16</xref>,<xref ref-type="bibr" rid="B17-ijms-21-00285">17</xref>].</p>
+      <p>Vascular endothelial growth factor (VEGF) is a glycoprotein with angiogenic properties [<xref ref-type="bibr" rid="B18-ijms-21-00285">18</xref>,<xref ref-type="bibr" rid="B19-ijms-21-00285">19</xref>] such as induction of vascular permeability [<xref ref-type="bibr" rid="B18-ijms-21-00285">18</xref>,<xref ref-type="bibr" rid="B20-ijms-21-00285">20</xref>,<xref ref-type="bibr" rid="B21-ijms-21-00285">21</xref>], stimulation of endothelial cell division and migration [<xref ref-type="bibr" rid="B21-ijms-21-00285">21</xref>,<xref ref-type="bibr" rid="B22-ijms-21-00285">22</xref>] and in-vivo angiogenesis [<xref ref-type="bibr" rid="B18-ijms-21-00285">18</xref>]. VEGF has three known receptors, but during the pregnancy, the VEGFR-1 or the fms-like tyrosine kinase (flt) is mainly expressed in the decidua and trophoblast cells during first trimester. VEGF was detected in cytotrophoblast during the first trimester, as well as its receptor, and within the decidua in first trimester pregnancy VEGF was found in the epithelial cells as well as VEGFR-1 [<xref ref-type="bibr" rid="B23-ijms-21-00285">23</xref>,<xref ref-type="bibr" rid="B24-ijms-21-00285">24</xref>,<xref ref-type="bibr" rid="B25-ijms-21-00285">25</xref>]. Furthermore, it has been reported that in missed abortion of RPL women showed a reduced expression of VEGF and VEGFR-1 in trophoblast [<xref ref-type="bibr" rid="B26-ijms-21-00285">26</xref>,<xref ref-type="bibr" rid="B27-ijms-21-00285">27</xref>].</p>
+      <p>Foxp3-Treg cells are a subset of suppressive CD4 T helper cells essential for immune tolerance in humans and mice [<xref ref-type="bibr" rid="B28-ijms-21-00285">28</xref>]. Several authors showed that in pregnancy there is a growth of peripheral blood Treg cell in both humans [<xref ref-type="bibr" rid="B29-ijms-21-00285">29</xref>,<xref ref-type="bibr" rid="B30-ijms-21-00285">30</xref>] and mice [<xref ref-type="bibr" rid="B31-ijms-21-00285">31</xref>]. In these studies Treg cells showed to peak in the second trimester with a subsequent decrease through the delivery. Furthermore, it has been reported by several authors that in RPL women there is a reduction of Treg cells in the decidua and in the blood, suggesting a pivotal role for these immune cells in the pathogenesis of RPL [<xref ref-type="bibr" rid="B32-ijms-21-00285">32</xref>,<xref ref-type="bibr" rid="B33-ijms-21-00285">33</xref>,<xref ref-type="bibr" rid="B34-ijms-21-00285">34</xref>].</p>
+      <p>In this study we evaluated the effects of G-CSF treatment on the maternal fetal interface using immunohistochemistry to assess the expression of G-CSF and its receptor, the VEGF and its receptor VEGFR-1, and Foxp3 in the trophoblast and decidua of first trimester miscarriages of RPL women treated with G-CSF that miscarried again despite the treatment, in no treated RPL and in normal first trimester pregnancies.</p>
+    </sec>
+    <sec id="sec2-ijms-21-00285" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-ijms-21-00285">
+        <title>2.1. Foxp3 Findings</title>
+        <p>In all three series of samples the syncytiotrophoblast and the cytotrophoblast did not show any specific staining for Foxp3, as well as villi stroma (<xref ref-type="fig" rid="ijms-21-00285-f001">Figure 1</xref>).</p>
+        <p>A weak staining for Foxp3 was found in the epithelial cells of the decidua of normal first trimester pregnancy (<xref ref-type="fig" rid="ijms-21-00285-f001">Figure 1</xref>), as well as in the epithelial cells of decidua in abortive pregnancies in women with RPL (<xref ref-type="fig" rid="ijms-21-00285-f001">Figure 1</xref>), as well as in the samples obtained from women treated with G-CSF (<xref ref-type="fig" rid="ijms-21-00285-f001">Figure 1</xref>), with a similar HSCORE values. In the stroma specific staining for Foxp3 was found in a relative small number of cells, putative Treg cells. Their number was lower in the samples obtained from RPL (0.4 &#xB1; 0.2), whereas was significantly higher in the samples obtained from RPL women treated with G-CSF (2.1 &#xB1; 0.6) with respect to controls (1.1 &#xB1; 0.3) (<xref ref-type="fig" rid="ijms-21-00285-f001">Figure 1</xref>B). These differences were statistically significant (<italic>p</italic> &lt; 0.0001), (<xref ref-type="fig" rid="ijms-21-00285-f001">Figure 1</xref>)</p>
+        <p>No staining was found when primary antibody was incubated with a 10-fold molar excess of the antigen used for immunization. No differences were found among samples showing chromosomal abnormalities and samples with normal karyotype in both groups of G-CSF treated and no treated RPL, where the intensity of staining was consistent in all samples.</p>
+      </sec>
+      <sec id="sec2dot2-ijms-21-00285">
+        <title>2.2. G-CSF and G-CSFR Findings</title>
+        <p>G-CSF was expressed in the epithelial cells of the decidua of normal first trimester pregnancy (<xref ref-type="fig" rid="ijms-21-00285-f002">Figure 2</xref>), as well as in the epithelial cells of decidua of abortive pregnancies in women with RPL, as well as in the samples obtained by women treated with G-CSF, with a similar intensity in HSCORE values. The stromal cells of the decidua showed no staining for G-CSF in all three series of samples.</p>
+        <p>The syncytiotrophoblast of the villi of normal first trimester pregnancies showed a strong staining (153 &#xB1; 44) for G-CSF (<xref ref-type="fig" rid="ijms-21-00285-f002">Figure 2</xref>), whereas in no treated RPL samples, a relevant reduction of staining for G-CSF (101 &#xB1; 36) (<xref ref-type="fig" rid="ijms-21-00285-f002">Figure 2</xref>) compared to the group of controls was found. In the samples obtained by women treated with G-CSF, the specific staining was similar to normal pregnancies (149 &#xB1; 46) (<xref ref-type="fig" rid="ijms-21-00285-f002">Figure 2</xref>). A statistical significant difference in HSCORE values (<italic>p</italic> &lt; 0.001) was found among no treated RPL samples and the other two groups. In the cytotrophoblast G-CSF was expressed with a weaker intensity than in the syncytiototrophoblast in the three series of specimens with similar HSCORE values (<xref ref-type="fig" rid="ijms-21-00285-f002">Figure 2</xref>). The stroma of the villi in the three groups was negative for G-CSF.</p>
+        <p>The cytotrophoblast of villi of normal first trimester pregnancies was positive for G-CSFR (116 &#xB1; 39) (<xref ref-type="fig" rid="ijms-21-00285-f003">Figure 3</xref>), as well as in the specimens obtained by women treated with G-CSF (120 &#xB1; 41) (<xref ref-type="fig" rid="ijms-21-00285-f003">Figure 3</xref>). At the opposite, in the same cells of the villi in the RPL specimens there was a statistical significant increase in the specific staining for G-CSFR (150 + 38) (<xref ref-type="fig" rid="ijms-21-00285-f003">Figure 3</xref>) as shown in <xref ref-type="fig" rid="ijms-21-00285-f002">Figure 2</xref> for the HSCORE (<italic>p</italic> &lt; 0.001). In the syncytiotrophoblast, G-CSFR was expressed with weaker intensity than in the cytotrophoblast in all series of specimens with similar HSCORE values. The stroma of the villi in all three groups was negative for G-CSFR. No staining was observed when primary antibodies for G-CSF and G-CSFR were incubated with a 10-fold molar excess of the antigens used for immunization. No differences were found among samples showing chromosomal abnormalities and samples with normal karyotype in both groups of G-CSF treated and no treated RPL, where the intensity of staining was consistent in all samples.</p>
+      </sec>
+      <sec id="sec2dot3-ijms-21-00285">
+        <title>2.3. VEGF and VEGF-R1 Findings</title>
+        <p>VEGF was expressed in the epithelial cells of the decidua of normal first trimester pregnancy (<xref ref-type="fig" rid="ijms-21-00285-f004">Figure 4</xref>A), as well as in the epithelial cells of decidua of abortive pregnancies in women with no treated RPL, as well as in the samples obtained by women treated with G-CSF, with a similar intensity in HSCORE values. The stromal cells of the decidua showed staining for VEGF in the endothelial cells of all three series of samples.</p>
+        <p>The syncytiotrophoblast of the villi of normal first trimester pregnancies showed positive staining for VEGF (108 + 32) (<xref ref-type="fig" rid="ijms-21-00285-f004">Figure 4</xref>), whereas in the same cells of no treated RPL specimens there was a relevant reduction of staining for VEGF (65 &#xB1; 21) (<xref ref-type="fig" rid="ijms-21-00285-f004">Figure 4</xref>). In the samples obtained by women treated with G-CSF, the specific staining for VEGF was similar in normal pregnancies (114 &#xB1; 36) (<xref ref-type="fig" rid="ijms-21-00285-f004">Figure 4</xref>). A statistical significant difference in HSCORE values (<italic>p</italic> &lt; 0.001) was found among no treated RPL women samples and the other two groups (<xref ref-type="fig" rid="ijms-21-00285-f004">Figure 4</xref>). In the cytotrophoblast VEGF was expressed with a weaker intensity than in the syncytiototrophoblast in the three series of specimens with similar HSCORE values. The stroma of the villi showed a staining for VEGF in the vascular endothelial cells of all three groups of samples.</p>
+        <p>The VEGFR-1 was expressed in the epithelial cells of decidua of normal first trimester pregnancies (<xref ref-type="fig" rid="ijms-21-00285-f005">Figure 5</xref>) as well as in the epithelial cells of decidua in abortive pregnancies in women with no treated RPL and in the samples obtained by women treated with G-CSF, with a similar intensity for the HSCORE. The stromal cells of decidua were mostly negative for VEGFR-1 in all three series of samples except that for vascular endothelial cells.</p>
+        <p>The cytotrophoblast of villi of normal first trimester pregnancies was positive for VEGFR-1 (99 &#xB1; 30) (<xref ref-type="fig" rid="ijms-21-00285-f005">Figure 5</xref>), as well as in the specimens obtained by women treated with G-CSF (104 &#xB1; 33) (<xref ref-type="fig" rid="ijms-21-00285-f005">Figure 5</xref>). At the opposite in the same cells of no treated RPL abortive specimens there was a statistical significant increase in the specific staining for VEGFR-1 (134 &#xB1; 37) (<xref ref-type="fig" rid="ijms-21-00285-f005">Figure 5</xref>B) for the HSCORE (<italic>p</italic> &lt; 0.001). In the syncytiotrophoblast VEGFR-1 was expressed with weaker intensity than in the cytotrophoblast in all series of specimens with similar HSCORE values. The stroma of the villi in all groups was negative for VEGFR-1. No staining was observed when primary antibody was blocked by incubating the anti VEGF and anti VGFR-1 with a 10-fold molar excess of the antigens used in the immunization. No differences were found among samples showing chromosomal abnormalities and samples with normal karyotype in both groups of G-CSF treated and no treated RPL, where the intensity of staining was consistent in all samples.</p>
+        <p>Furthermore, when a linear regression analysis was performed among the levels of G-CSF staining and the number of Foxp3 positive cells in the stroma of decidua, a statistical significant positive correlation was found (r = 0.89 &#x201C;<italic>p</italic> &lt; 0.001&#x201D;). Similarly a statistical significant positive correlation was found (r = 0.87 &#x201C;<italic>p</italic> &lt; 0.001&#x201D;), when a regression analysis was conducted among levels of G-CSF staining and the values of staining for VEGF in the trophoblast, as well as when the regression analysis was conducted between G-CSFR staining and VEGFR-1 staining values (r = 0.81; &#x201C;<italic>p</italic> &lt; 0.001&#x201D;).</p>
+      </sec>
+    </sec>
+    <sec id="sec3-ijms-21-00285" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p>We previously reported the successful use of G-CSF in the treatment of unexplained RPL [<xref ref-type="bibr" rid="B4-ijms-21-00285">4</xref>]. In this immunohistochemical study the effects of G-CSF treatment were evaluated in first trimester decidua and trophoblast of miscarried pregnancies despite the treatment compared to normal pregnancies and no treated RPL miscarriages.</p>
+      <p>Our data showed that in the decidua of pregnancies treated with G-CSF there was a significant increase of Foxp3 positive stromal cells, putative Treg cells, when compared to the other two groups. It is well known that Treg cells play an essential role in reproduction, as demonstrated by evidence in human and in animal models. These cells seem involved in all process of reproduction, from the implantation to parturition, and several data showed their dysregulation may be involved in infertility, RPL, preeclampsia and preterm labor. In endometrium there is a recruitment of Treg cells starting in the proliferative phase of the cycle, with an estrogen dependent manner [<xref ref-type="bibr" rid="B35-ijms-21-00285">35</xref>]. After increasing in early pregnancy, decidual Tregs remain elevated during mid gestation [<xref ref-type="bibr" rid="B29-ijms-21-00285">29</xref>]. These cells are composed both of thymus derived Tregs, positive to the Helios antigen, an Ikaros transcription factor family member, and peripheral originated Tregs negative for the Helios antigen [<xref ref-type="bibr" rid="B36-ijms-21-00285">36</xref>]. The peripheral generated Tregs play a fundamental role in maternal-fetal tolerance, since they seem determine the expansions of Treg population in early pregnancy decidua [<xref ref-type="bibr" rid="B37-ijms-21-00285">37</xref>], whereas thymic Tregs may preferentially recruited in first trimester decidua [<xref ref-type="bibr" rid="B38-ijms-21-00285">38</xref>,<xref ref-type="bibr" rid="B39-ijms-21-00285">39</xref>]. However, other studies reported that Helios is a marker for activation, proliferation and immunosuppressive activity of Tregs instead than a marker of thymic origin [<xref ref-type="bibr" rid="B40-ijms-21-00285">40</xref>]. Decidual Tregs secrete IL-10, and TGF-&#x3B2; and express CD25, CTLA4 and PD-L1, all markers of Treg suppression activity: they promote anti-inflammatory and tolerogenic phenotype in macrophages, dendritic cells and NK cells [<xref ref-type="bibr" rid="B41-ijms-21-00285">41</xref>]. It has been reported that in preeclampsia Tregs are reduced in both decidua and maternal peripheral blood [<xref ref-type="bibr" rid="B42-ijms-21-00285">42</xref>,<xref ref-type="bibr" rid="B43-ijms-21-00285">43</xref>,<xref ref-type="bibr" rid="B44-ijms-21-00285">44</xref>], as well as their suppression function is impaired with a concomitant rise of proinflammatory Th17 cells [<xref ref-type="bibr" rid="B30-ijms-21-00285">30</xref>,<xref ref-type="bibr" rid="B45-ijms-21-00285">45</xref>,<xref ref-type="bibr" rid="B46-ijms-21-00285">46</xref>]. This seems due to a preferential reduction of peripheral originated Tregs, especially in early onset severe preeclampsia [<xref ref-type="bibr" rid="B44-ijms-21-00285">44</xref>]. In primarily unexplained infertility, a reduced endometrial expression of FoxP3 has been reported [<xref ref-type="bibr" rid="B47-ijms-21-00285">47</xref>], as well as successful IVF cycles seem associated with an increase of Tregs in the peripheral blood [<xref ref-type="bibr" rid="B48-ijms-21-00285">48</xref>]. It is known that G-CSF can modulate immune response in inflammatory diseases, mobilize Treg cells from bone marrow and induce Tregs production [<xref ref-type="bibr" rid="B49-ijms-21-00285">49</xref>,<xref ref-type="bibr" rid="B50-ijms-21-00285">50</xref>]. All these data taken into account together may explain, in part, the effects of G-CSF treatment in RPL. The administration of G-CSF induces Treg cells development as well as their mobilization from bone marrow that move to decidua, with the increase of their number as we observed in RPL cases, where they were decreased when no treated with G-CSF.</p>
+      <p>RPL is a syndrome that may recognize several possible causes, in particular chromosomal abnormalities of embryos account for a large portion of miscarriages, also in unexplained RPL. Several authors claimed that in RPL there was a reduced number of Tregs in decidua [<xref ref-type="bibr" rid="B32-ijms-21-00285">32</xref>,<xref ref-type="bibr" rid="B51-ijms-21-00285">51</xref>,<xref ref-type="bibr" rid="B52-ijms-21-00285">52</xref>,<xref ref-type="bibr" rid="B53-ijms-21-00285">53</xref>], as well as in maternal blood [<xref ref-type="bibr" rid="B35-ijms-21-00285">35</xref>,<xref ref-type="bibr" rid="B53-ijms-21-00285">53</xref>,<xref ref-type="bibr" rid="B54-ijms-21-00285">54</xref>]. Only two papers pointed out the role of chromosomal abnormalities, differentiating decidua from miscarriages with abnormal or normal embryo karyotype. Inada et al. in 2013 [<xref ref-type="bibr" rid="B55-ijms-21-00285">55</xref>] described that the frequency of Tregs in decidua of miscarriages with normal embryo karyotype was significantly lower than in normal progressing pregnancies and in miscarriages with an abnormal karyotype embryos. Furthermore, Ki67 negative Treg population was smaller in normal chromosomic embryo miscarriages than normal pregnancies, even though Ki67 positive Treg population was similar in all three groups. In a subsequent paper of 2015 the same group showed that Helios positive Treg were decreased in decidua of miscarriages with normal chromosomic embryos with respect to normal progressing pregnancies and in the miscarriages with an abnormal karyotype [<xref ref-type="bibr" rid="B39-ijms-21-00285">39</xref>]. Our data showed a strong increase of decidual positive FoxP3 cells in women treated with G-CSF, miscarrying again despite treatment, compared to no treated RPL cases and controls. Furthermore, in no treated RPL cases decidual positive FoxP3 cells were decreased also with respect to controls. Contrarily to such reported by Inada et al. in their two papers of 2013 and 2015 [<xref ref-type="bibr" rid="B39-ijms-21-00285">39</xref>,<xref ref-type="bibr" rid="B55-ijms-21-00285">55</xref>], we did not observe any differences between the miscarriages with normal or abnormal karyotype. This diversity in findings may due to the differences in techniques used as well as by the fact that these patients were treated with G-CSF, which seems increase the levels of these cells. Furthermore, we did not test our samples for Helios antigen, although the real role of this antigen in differentiating the Treg sub-populations remains to be clarified. These findings, whether confirmed, may represent an important new insight in the reproductive immunology, revealing a direct connection between G-CSF and the recruitment of Treg into the decidua or their local induction.</p>
+      <p>Recently, Nadkarni et al. [<xref ref-type="bibr" rid="B56-ijms-21-00285">56</xref>] showed that neutrophils may activate Treg, inducing in na&#xEF;ve T cells of decidua the expression of Foxp3, and promoting the secretion of IL-10, IL-17 and VEGF in these cells. The neutrophil induced Tregs show proangiogenic activity on decidual tissue and trophoblast. G-CSF treatment in RPL women sensibly increases neutrophils blood levels (neutrophils count over than 15,000/mL), this is the normal and therapeutic response to G-CSF administration. The neutrophils so stimulated may further explain the Foxp3 cells increase observed in the decidua of women treated with G-CSF. Furthermore, we observed a concomitant increase of G-CSF and VEGF positivity in the villi trophoblast of the pregnancy treated with G-CSF, correlating with the levels of Foxp3 cells in decidua. These findings may be due other than to a direct G-CSF stimulation of trophoblast, also to the proangiogenic function of Treg induced through neutrophils activated by G-CSF treatment.</p>
+      <p>In our study on first trimester trophoblast villi, the G-CSF was found mainly in the syncytiotrophoblast and with less intensity in staining in the cytotrophoblast. Instead, the G-CSF receptor was expressed primarily in the cytotrophoblast of chorionic villi, and with lower intensity in the syncytiotrophoblast. In addition to this, G-CSF and its receptor were found in the epithelial cells of decidua, according to earlier data published by several authors [<xref ref-type="bibr" rid="B6-ijms-21-00285">6</xref>,<xref ref-type="bibr" rid="B7-ijms-21-00285">7</xref>,<xref ref-type="bibr" rid="B8-ijms-21-00285">8</xref>,<xref ref-type="bibr" rid="B9-ijms-21-00285">9</xref>,<xref ref-type="bibr" rid="B10-ijms-21-00285">10</xref>,<xref ref-type="bibr" rid="B11-ijms-21-00285">11</xref>,<xref ref-type="bibr" rid="B12-ijms-21-00285">12</xref>]. Our findings showed that the syncytiotrophoblast of RPL no treated specimens had a statistically significant decrease in G-CSF expression with respect to the controls and G-CSF treated cases, whereas its receptor was over expressed in the cytotrophoblast of RPL with respect to the controls and G-CSF treated women. In a recent study, Rahamati et al. [<xref ref-type="bibr" rid="B57-ijms-21-00285">57</xref>] showed that in secretory endometrium of implantation failure patients there was a decrease in G-CSFR mRNA expression with respect to recurrent miscarriage cases and controls, and when the endometrial biopsy were &#x201C;in vitro&#x201D; cultured with G-CSF the mRNA of G-CSFR increased. These data, obtained from no pregnant samples and after in vitro culture of the tissue, substantially confirm our findings since they showed the effects of G-CSF supplementation on endometrium. The authors did not report where was observed the increase of G-CSFR mRNA, in epithelial or stromal components, whereas our data were obtained in an &#x201C;in vivo&#x201D; study on samples obtained from pregnant women. Rahmati et al. [<xref ref-type="bibr" rid="B57-ijms-21-00285">57</xref>] in their study observed that the expected role of G-CSF supplementation should be demonstrated on &#x201C;in vivo&#x201D; study, and in some way, our study may answer to the questions raised from the authors.</p>
+      <p>The G-CSF system seems to play a regulatory role in the trophoblast growth and development: an earlier study showed that trophoblast cells incubated with G-CSF showed a significant increase of cell proliferation [<xref ref-type="bibr" rid="B11-ijms-21-00285">11</xref>]. Furthermore, the supplementation with G-CSF of trophoblast cell line culture promotes cell growth by MAP Kinase activation with a reduction of apoptosis in the trophoblast and increased cell survival [<xref ref-type="bibr" rid="B17-ijms-21-00285">17</xref>].</p>
+      <p>Furthermore, to evaluate the possible effect of G-CSF treatment on the trophoblast development we tested the expression of VEGF and its receptor VEGFR-1. Even though we did not find relevant differences in the expression of these two antigens in the decidua of the three groups, at the opposite the trophoblast of RPL patients showed a significant reduction in the staining for VEGF, whereas controls and RPL treated with G-CSF showed a good VEGF specific staining, mainly observed in syncytiotrophoblast. At the same time, the VEGFR-1 specific staining resulted significantly increased the cytotrophoblast of no treated RPL specimens. In controls and G-CSF treated pregnancies, the same levels of VEGFR-1 specific staining were observed. It is well known that VEGFR-1 is the receptor mainly expressed in trophoblast throughout pregnancy, and in the past, several authors reported the possible involvement of VEGF system in miscarriage [<xref ref-type="bibr" rid="B26-ijms-21-00285">26</xref>,<xref ref-type="bibr" rid="B27-ijms-21-00285">27</xref>]. Our data in particular seem to agree with such reported by Vuorela et al. [<xref ref-type="bibr" rid="B26-ijms-21-00285">26</xref>], showing a reduction of VEGF expression in trophoblast. Furthermore, a striking positive correlation was found between G-CSF and VEGF expression in the syncytiotrophoblast and between G-CSFR and VEGFR-1 in the cytotrophoblast. This observation is particularly interesting since no treated RPL miscarriages showed a concomitant reduction of G-CSF and VEGF expression with respect to control pregnancies; instead, in G-CSF treated miscarriages, we observed staining levels overlapping the levels of controls, suggesting that G-CSF treatment may recover the normal trophoblast growth and development, as well as a direct effect on VEGF expression. Instead G-CSFR and VEGFR-1 showed a concomitant increase in no treated RPL miscarriage trophoblast; these data suggested that the reduction of G-CSF expression may promote the over expression of its receptor in target cells. This effect seems to be reversed by G-CSF treatment, since we observed that G-CSFR and VEGFR-1 staining levels in samples obtained from G-CSF treated women were close to normal pregnancies. These data, taken in account together, suggest that G-CSF play a fundamental role during implantation and trophoblast invasion in the first trimester pregnancy. G-CSF promotes at fetal-maternal interface the increase of immune suppressor T cells, and at the same time with an autocrine/paracrine mechanism it stimulates trophoblast growth and development such as suggested by VEGF and VEGFR-1 system correlated to G-CSF activity.</p>
+      <p>A questionable point of our study is the use of only immunohistochemistry, without genes expression analysis using Real Time PCR Our study was an &#x201C;in vivo&#x201D; morphological analysis for the expression of several antigens evaluated in different tissues, decidua with stromal and epithelial component, and trophoblast, with syncytium, cyto and stroma, villi components. Gene expression analysis using mRNA extracted from these tissues is not suitable for the scopes of our study. The tissues collected after a dilatation and curettage procedure abortions are a bloody pulp constituted from blood, decidua and trophoblast villi, where only after fixation and inclusion is possible to recognize the different tissues. The extraction of mRNA from these samples cannot allow the differentiation of its origin, losing the information from which cells it originated and in which amount it is produced. The isolation of the different types of cells and their in &#x201C;vitro&#x201D; culture allow to define the real origin of the mRNA, but it is another story. In this study we want to evaluate the &#x201C;in vivo&#x201D; effects of G-CSF treatment in RPL pregnant women on decidua and trophoblast, and up to date the only technique available and reliable remains immunohistochemistry.</p>
+      <p>However, our findings should be taken with caution until they are confirmed from further study, since it may be a consequence of embryo demise and blood flow reduction in the trophoblast or its initial re-absorption.</p>
+      <p>Our study showed that G-CSF and its receptor may play a relevant role in the growth and development of the trophoblast during the first trimester of pregnancy and they may be involved in the mechanisms determining RPL. Furthermore, the use of G-CSF in the treatment of RPL seems play a role in regulating the maternal immune response at the embryo&#x2019;s antigens promoting Treg recruitment, and at same time stimulating the trophoblast growth.</p>
+    </sec>
+    <sec id="sec4-ijms-21-00285">
+      <title>4. Materials and Methods</title>
+      <p>This immunohistochemical study was conducted on tissue specimens of first trimester pregnancies obtained after dilatation and curettage (D&amp;C) from a total of 38 pregnant women. They were divided in three groups: eight women with RPL treated with G-CSF that miscarried again despite the treatment, 15 women with RPL that miscarried during the clinical screening and did not receive any treatment and 15 healthy women underwent voluntary pregnancy termination used as controls. All women with RPL history (G-CSF treated and without treatment) underwent at the same clinical screening to exclude known causes of RPL (the patients were tested for parental karyotype, uterine structure, endocrinological anomalies included diabetes, immunological tests including anticardiolipin antibodies and lupus anticoagulant, congenital thrombophilia, etc.). All patients had to be negative for all these tests for study inclusion. Furthermore, patients treated with G-CSF in their previous miscarriage had to show a normal embryo karyotype, mandatory condition to be treated with G-CSF. All the pregnancies included in this study were spontaneous pregnancies, since pregnancies obtained by ART were not included. The tissue obtained from D&amp;C of all RPL patients miscarrying again were karyotyped by array-CGH to know the chromosomal status of embryos.</p>
+      <p>A total of 8 cases with unexplained RPL (age 33.1 &#xB1; 2.0) were treated with recombinant G-CSF with a daily subcutaneous administration of Filgastrim (Neupogenor, Dompe or Granulokine 30, Amgen, Italy), at a dosage of 1 mg (100,000 IU)/kg/day from the sixth day after ovulation until the occurrence of abortion [<xref ref-type="bibr" rid="B4-ijms-21-00285">4</xref>]. These miscarriages showed an abnormal karyotype in six cases whereas two were normal.</p>
+      <p>The fifteen miscarriages of no treated women with unexplained RPL (age 31.6 + 2.3), showed in 8 cases an abnormal karyotype, whereas in 7 cases the karyotype was normal.</p>
+      <p>Controls tissue specimens were obtained by 15 terminated voluntarily pregnancies from the 8th through the 12th week of gestation with the presence of fetal heart beat. These women had no history of previous abortions and they were 30.8 + 2.2 years old. Demographic data of the patients and controls are reported in <xref ref-type="table" rid="ijms-21-00285-t001">Table 1</xref>.</p>
+      <p>All surgical procedures were carried out in the Center of Endocrinology and Reproductive Medicine (CERM) Rome, Italy. The project had the approval of the Institutional Ethical Committee (CH-F2017, released 14-4-2017). All patients signed an informed written consent for the use of their tissue samples</p>
+      <p>Tissue samples were fixed in formalin at 4 &#xB0;C overnight and subsequently paraffin embedded. Each sample of decidua and trophoblast were fixed without separation of embryonic and decidua tissues in order to have both trophoblastic villi and decidua on the same slide. Serial sections of the same samples 5 &#xB5;m thick were used for immunohistochemistry. Commercially available monoclonal antibodies were used for the detection of G-CSF and G-CSFR (Santa Cruz Biotechnology, Dallas, TX, USA), VEGF and VGFR-1 (Santa Cruz Biotechnology), and Foxp3 (Santa Cruz Biotechnology).</p>
+      <p>Immunohistochemistry was performed on dewaxed and rehydrated sections, and endogenous peroxidase quenching was obtained with 0.3% hydrogen peroxide in methanol for 30 min incubation at room temperature. All slides were incubated for a non-immune block with normal horse serum for 30 min at room temperature before the incubation with the first antibody, carried out at room temperature for 1 h with a dilution of 1 to 100 for the all monoclonal mouse antibodies. Thereafter tissue sections were labeled with an avidin-biotin-peroxidase detection system ABC Vectastain (Vector Laboratories, Burlingthon, VT, USA). Each step was followed by three washing with phosphate buffer saline solution. Finally, 3,3&#x2019;-diaminobenzidine was used as a chromogen. A light counterstaining was performed with Meyer&#x2019;s hematoxylin with only 30 s bath in order to observe the eventual nuclear staining for the specific antigens. Controls were performed using the G-CSF antibody, G-CSFR antibody, VEGF antibody, VEGFR-1 antibody, Foxp3 antibody, preabsorbed overnight with a tenfold excess molar excess of the respective immunogen peptides purchased by the same Company (Santa Cruz Biotechnology, Dallas, TX, USA). Furthermore, slides were incubated with nonimmune rabbit IgG at equal concentration as further control.</p>
+      <p>For a semi-quantitative analysis of specific staining the HSCORE system was used according to the following equation: HSCORE = &#x2211;Pi(i + 1), where i is the intensity of staining with a value of 1, 2, or 3 (weak, strong or very strong respectively) and Pi is the percentage of cells stained for each intensity, varying from 0% to 100%. Ten microscopic fields were counted by two of the authors independently for each slide (MS and FS). The intra-observer and inter-observer variation coefficient were 3.4% and 4.2% respectively. At least 3 slides of each sample were observed, for both antigens tested, under the microscope and each observer was blind to which sample it was (RPL or control slides). The slides, numbered progressively, were blindly analyzed by the two different observers and scored for HSCORE, and each value was recorded on the worksheet according to the corresponding patient for the given number. The HSCORE analysis was performed separately for the villous trophoblast, cytotrophoblast and syncytiotrophoblast, and the decidua, both component glandular and stromal cells (each observer performed 4 different HSCOREs for each slide). For Foxp3 quantification ten medium power fields were selected to count Foxp3 positive cells, the results was given in percent of total stromal decidua cells.</p>
+      <p>Statistical analysis. Differences between groups were determined using the Mann-Whitney U test. Significance was determined as <italic>p</italic> &lt; 0.05. All statistical analyses were performed with SPSS 17.0.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, F.S. and M.S.; Data curation, F.G.K.; Formal analysis, F.S. and M.S.; Investigation, F.S., G.R., F.G.K. and F.T.; Methodology, G.R and M.S.; Supervision, F.S.; Writing&#x2014;review and editing, M.S. and F.S. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research received no external funding.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-ijms-21-00285">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <collab>The ESHRE Guideline Group on RPL</collab>
+            <name>
+              <surname>Atik</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Christiansen</surname>
+              <given-names>O.B.</given-names>
+            </name>
+            <name>
+              <surname>Elson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kolte</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Lewis</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Middeldorp</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nelen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Peramo</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Quenby</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ESHRE guideline: Recurrent preenter gnancy loss</article-title>
+          <source>Hum. Reprod. Open</source>
+          <year>2018</year>
+          <volume>2018</volume>
+          <fpage>hoy004</fpage>
+          <pub-id pub-id-type="doi">10.1093/hropen/hoy004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-ijms-21-00285">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Larsen</surname>
+              <given-names>E.C.</given-names>
+            </name>
+            <name>
+              <surname>Christiansen</surname>
+              <given-names>O.B.</given-names>
+            </name>
+            <name>
+              <surname>Kolte</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Macklon</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>New insights into mechanisms behind miscarriage</article-title>
+          <source>BMC Med.</source>
+          <year>2013</year>
+          <volume>11</volume>
+          <elocation-id>154</elocation-id>
+          <pub-id pub-id-type="doi">10.1186/1741-7015-11-154</pub-id>
+          <pub-id pub-id-type="pmid">23803387</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-ijms-21-00285">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carrington</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Sacks</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Regan</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recurrent miscarriage: Pathophysiology and outcome</article-title>
+          <source>Curr. Opin. Obstet. Gynecol.</source>
+          <year>2005</year>
+          <volume>17</volume>
+          <fpage>591</fpage>
+          <lpage>597</lpage>
+          <pub-id pub-id-type="doi">10.1097/01.gco.0000194112.86051.26</pub-id>
+          <pub-id pub-id-type="pmid">16258340</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-ijms-21-00285">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scarpellini</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Sbracia</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of granulocyte colony-stimulating factor for the treatment of unexplained recurrent miscarriage: A randomised controlled trial</article-title>
+          <source>Hum. Reprod.</source>
+          <year>2009</year>
+          <volume>24</volume>
+          <fpage>2703</fpage>
+          <lpage>2708</lpage>
+          <pub-id pub-id-type="doi">10.1093/humrep/dep240</pub-id>
+          <pub-id pub-id-type="pmid">19617208</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-ijms-21-00285">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagata</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tsuchiya</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Asano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kaziro</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yamazaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Hirata</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kubota</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Oheda</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nomura</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular cloning and expression of cDNA for human granulocyte colony-stimulating factor</article-title>
+          <source>Nature</source>
+          <year>1986</year>
+          <volume>319</volume>
+          <fpage>415</fpage>
+          <lpage>418</lpage>
+          <pub-id pub-id-type="doi">10.1038/319415a0</pub-id>
+          <pub-id pub-id-type="pmid">3484805</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-ijms-21-00285">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Uzumaki</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Okabe</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hagiwara</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Takaku</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tobita</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yasukawa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Umezawa</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and characterization of receptors for granulocyte colony-stimulating factor on human placenta and trophoblastic cells</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>1989</year>
+          <volume>86</volume>
+          <fpage>9323</fpage>
+          <lpage>9326</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.86.23.9323</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-ijms-21-00285">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shorter</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Vince</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Starkey</surname>
+              <given-names>P.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Production of granulocyte colony-stimulating factor at the materno-foetal interface in human pregnancy</article-title>
+          <source>Immunology</source>
+          <year>1992</year>
+          <volume>75</volume>
+          <fpage>468</fpage>
+          <lpage>474</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B8-ijms-21-00285">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saito</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fukunaga</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Ichijo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nagata</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of granulocyte colony-stimulating factor and its receptor at the fetomaternal interface in murine and human pregnancy</article-title>
+          <source>Growth Factors</source>
+          <year>1994</year>
+          <volume>10</volume>
+          <fpage>135</fpage>
+          <lpage>143</lpage>
+          <pub-id pub-id-type="doi">10.3109/08977199409010987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-ijms-21-00285">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCracken</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Layton</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Shorter</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Starkey</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Barlow</surname>
+              <given-names>D.H.</given-names>
+            </name>
+            <name>
+              <surname>Mardon</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of granulocyte-colony stimulating factor and its receptor is regulated during the development of the human placenta</article-title>
+          <source>J. Endocrinol.</source>
+          <year>1996</year>
+          <volume>149</volume>
+          <fpage>249</fpage>
+          <lpage>258</lpage>
+          <pub-id pub-id-type="doi">10.1677/joe.0.1490249</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-ijms-21-00285">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vandermolen</surname>
+              <given-names>D.T.</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human endometrial expression of granulocyte colony-stimulating factor (G-CSF) and its receptor, stimulation of endometrial G-CSF production by interleukin-1 beta, and G-CSF inhibition of choriocarcinoma cell proliferation</article-title>
+          <source>Am. J. Reprod. Immunol.</source>
+          <year>1996</year>
+          <volume>36</volume>
+          <fpage>278</fpage>
+          <lpage>284</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0897.1996.tb00177.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-ijms-21-00285">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miyama</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Umesaki</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kawabata</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of the granulocyte colony-stimulating factor (G-CSF) producing cell population in human decidua and its biological action on trophoblast cells</article-title>
+          <source>Osaka City Med. J.</source>
+          <year>1998</year>
+          <volume>44</volume>
+          <fpage>85</fpage>
+          <lpage>96</lpage>
+          <pub-id pub-id-type="pmid">9834621</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-ijms-21-00285">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCracken</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Grant</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>MacKenzie</surname>
+              <given-names>I.Z.</given-names>
+            </name>
+            <name>
+              <surname>Redman</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Mardon</surname>
+              <given-names>H.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Gestational regulation of granulocyte-colony stimulating factor receptor expression in the human placenta</article-title>
+          <source>Biol. Reprod.</source>
+          <year>1999</year>
+          <volume>60</volume>
+          <fpage>790</fpage>
+          <lpage>796</lpage>
+          <pub-id pub-id-type="doi">10.1095/biolreprod60.4.790</pub-id>
+          <pub-id pub-id-type="pmid">10084950</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-ijms-21-00285">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Litwin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lagadari</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Barrientos</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Roux</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Margni</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Miranda</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparative immunohistochemical study of M-CSF and G-CSF in feto-maternal interface in a multiparity mouse model</article-title>
+          <source>Am. J. Reprod. Immunol.</source>
+          <year>2005</year>
+          <volume>54</volume>
+          <fpage>311</fpage>
+          <lpage>320</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0897.2005.00317.x</pub-id>
+          <pub-id pub-id-type="pmid">16212652</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-ijms-21-00285">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Novales</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Salva</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Modanlou</surname>
+              <given-names>H.D.</given-names>
+            </name>
+            <name>
+              <surname>Kaplan</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>del Castillo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Andersen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Medlock</surname>
+              <given-names>E.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Maternal administration of granulocyte colony-stimulating factor improves neonatal rat survival after a lethal group B streptococcal infection</article-title>
+          <source>Blood</source>
+          <year>1993</year>
+          <volume>81</volume>
+          <fpage>923</fpage>
+          <lpage>927</lpage>
+          <pub-id pub-id-type="doi">10.1182/blood.V81.4.923.923</pub-id>
+          <pub-id pub-id-type="pmid">7679008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-ijms-21-00285">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sugita</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hayakawa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Karasaki-Suzuki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hagiwara</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Chishima</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Aleemuzaman</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Nishinarita</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Granulocyte colony stimulation factor (G-CSF) suppresses interleukin (IL)-12 and/or IL-2 induced interferon (IFN)-gamma production and cytotoxicity of decidual mononuclear cells</article-title>
+          <source>Am. J. Reprod. Immunol.</source>
+          <year>2003</year>
+          <volume>50</volume>
+          <fpage>83</fpage>
+          <lpage>89</lpage>
+          <pub-id pub-id-type="doi">10.1034/j.1600-0897.2003.00024.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-ijms-21-00285">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Svinarich</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Bitonti</surname>
+              <given-names>O.M.</given-names>
+            </name>
+            <name>
+              <surname>Araneda</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Romero</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gonik</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction and postranslational expression of G-CSF and RANTES in a first trimester trophoblast cell line by lipopolysaccharide</article-title>
+          <source>Am. J. Reprod. Immunol.</source>
+          <year>1996</year>
+          <volume>36</volume>
+          <fpage>256</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1600-0897.1996.tb00173.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-ijms-21-00285">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marino</surname>
+              <given-names>V.J.</given-names>
+            </name>
+            <name>
+              <surname>Roguin</surname>
+              <given-names>L.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>The granulocyte colony stimulating factor (G-CSF) activates Jak/STAT and MAPK pathways in a trophoblastic cell line</article-title>
+          <source>J. Cell Biochem.</source>
+          <year>2008</year>
+          <volume>103</volume>
+          <fpage>1512</fpage>
+          <lpage>1523</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcb.21542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-ijms-21-00285">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Connolly</surname>
+              <given-names>D.T.</given-names>
+            </name>
+            <name>
+              <surname>Olander</surname>
+              <given-names>J.V.</given-names>
+            </name>
+            <name>
+              <surname>Heuvelman</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Nelson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Monsell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Siegel</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Haymore</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Leimgruber</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Feder</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human vascular permeability factor. Isolation fromU937 cells</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1989</year>
+          <volume>264</volume>
+          <fpage>20017</fpage>
+          <lpage>20024</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B19-ijms-21-00285">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferrara</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Houck</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Jakeman</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular and biological properties of the vascular endothelial growth factor family of proteins</article-title>
+          <source>Endocr. Rev.</source>
+          <year>1992</year>
+          <volume>13</volume>
+          <fpage>18</fpage>
+          <lpage>32</lpage>
+          <pub-id pub-id-type="doi">10.1210/edrv-13-1-18</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-ijms-21-00285">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keck</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Hauser</surname>
+              <given-names>S.D.</given-names>
+            </name>
+            <name>
+              <surname>Krivi</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Sanzo</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Warren</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Feder</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Connolly</surname>
+              <given-names>D.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vascular permeability factor, an endothelial cell mitogen related to PDGF</article-title>
+          <source>Science</source>
+          <year>1989</year>
+          <volume>246</volume>
+          <fpage>1309</fpage>
+          <lpage>1312</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.2479987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-ijms-21-00285">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dvorak</surname>
+              <given-names>H.F.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>L.F.</given-names>
+            </name>
+            <name>
+              <surname>Detmar</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dvorak</surname>
+              <given-names>A.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vascular permeability factor/vascular endothelial growth factor, microvascular hyperpermeability, and angiogenesis</article-title>
+          <source>Am. J. Pathol.</source>
+          <year>1995</year>
+          <volume>146</volume>
+          <fpage>1029</fpage>
+          <lpage>1039</lpage>
+          <pub-id pub-id-type="pmid">7538264</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-ijms-21-00285">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grimwood</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bicknell</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rees</surname>
+              <given-names>M.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The isolation, characterization and culture of human decidual endothelium</article-title>
+          <source>Hum. Reprod.</source>
+          <year>1995</year>
+          <volume>10</volume>
+          <fpage>2142</fpage>
+          <lpage>2148</lpage>
+          <pub-id pub-id-type="doi">10.1093/oxfordjournals.humrep.a136250</pub-id>
+          <pub-id pub-id-type="pmid">8567856</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-ijms-21-00285">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jackson</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Carney</surname>
+              <given-names>E.W.</given-names>
+            </name>
+            <name>
+              <surname>Lye</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Ritchie</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Localization of two angiogenic growth factors (PDECGF and VEGF) in human placentae throughout gestation</article-title>
+          <source>Placenta</source>
+          <year>1994</year>
+          <volume>15</volume>
+          <fpage>341</fpage>
+          <lpage>353</lpage>
+          <pub-id pub-id-type="doi">10.1016/0143-4004(94)90002-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-ijms-21-00285">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cooper</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Sharkey</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>McLaren</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Charnock-Jones</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>S.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Localization of vascular endothelial growth factor and its receptor, flt, in human placenta and decidua by immunohistochemistry</article-title>
+          <source>J. Reprod. Fertil.</source>
+          <year>1995</year>
+          <volume>105</volume>
+          <fpage>205</fpage>
+          <lpage>213</lpage>
+          <pub-id pub-id-type="doi">10.1530/jrf.0.1050205</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-ijms-21-00285">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clark</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Sharkey</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Charnock-Jones</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Localization of VEGF and expression of its receptors flt and KDR in human placenta throughout pregnancy</article-title>
+          <source>Hum. Reprod.</source>
+          <year>1996</year>
+          <volume>11</volume>
+          <fpage>1090</fpage>
+          <lpage>1098</lpage>
+          <pub-id pub-id-type="doi">10.1093/oxfordjournals.humrep.a019303</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-ijms-21-00285">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vuorela</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Carp&#xE9;n</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Tulppala</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Halmesm&#xE4;ki</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>VEGF, its receptors and the tie receptors in recurrent miscarriage</article-title>
+          <source>Mol. Hum. Reprod.</source>
+          <year>2000</year>
+          <volume>6</volume>
+          <fpage>276</fpage>
+          <lpage>282</lpage>
+          <pub-id pub-id-type="doi">10.1093/molehr/6.3.276</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-ijms-21-00285">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Von Wolff</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Thaler</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Strowitzki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Broome</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stolz</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Tabibzadeh</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulated expression of cytokines in human endometrium throughout the menstrual cycle: Dysregulation in habitual abortion</article-title>
+          <source>Mol. Hum. Reprod.</source>
+          <year>2000</year>
+          <volume>6</volume>
+          <fpage>627</fpage>
+          <lpage>634</lpage>
+          <pub-id pub-id-type="doi">10.1093/molehr/6.7.627</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-ijms-21-00285">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bilate</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Lafaille</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Induced CD4 Foxp3 regulatory T Cells in immune tolerance</article-title>
+          <source>Annu. Rev. Immunol.</source>
+          <year>2012</year>
+          <volume>30</volume>
+          <fpage>733</fpage>
+          <lpage>758</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev-immunol-020711-075043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-ijms-21-00285">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Somerset</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kilby</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Sansom</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Drayson</surname>
+              <given-names>M.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Normal human pregnancy is associated with an elevation in the immune suppressive CD25-CD4 regulatory T-cell subset</article-title>
+          <source>Immunology</source>
+          <year>2004</year>
+          <volume>112</volume>
+          <fpage>38</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2567.2004.01869.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-ijms-21-00285">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santner-Nanan</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Peek</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Khanam</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Richarts</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>de St Groth</surname>
+              <given-names>B.F.</given-names>
+            </name>
+            <name>
+              <surname>Nanan</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Systemic increase in the ratio between Foxp3 and IL-17-producing CD4 T cells in healthy pregnancy but not in preeclampsia</article-title>
+          <source>J. Immunol.</source>
+          <year>2009</year>
+          <volume>183</volume>
+          <fpage>7023</fpage>
+          <lpage>7030</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.0901154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-ijms-21-00285">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aluvihare</surname>
+              <given-names>V.R.</given-names>
+            </name>
+            <name>
+              <surname>Kallikourdis</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Betz</surname>
+              <given-names>A.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulatory T cells mediate maternal tolerance to the fetus</article-title>
+          <source>Nat. Immunol.</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <fpage>266</fpage>
+          <lpage>271</lpage>
+          <pub-id pub-id-type="doi">10.1038/ni1037</pub-id>
+          <pub-id pub-id-type="pmid">14758358</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-ijms-21-00285">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hur</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Na</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Gilman-Sachs</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kwak-Kim</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>An imbalance in interleukin-17-producing T and Foxp3&#x207A; regulatory T cells in women with idiopathic recurrent pregnancy loss</article-title>
+          <source>Hum. Reprod.</source>
+          <year>2011</year>
+          <volume>26</volume>
+          <fpage>2964</fpage>
+          <lpage>2971</lpage>
+          <pub-id pub-id-type="doi">10.1093/humrep/der301</pub-id>
+          <pub-id pub-id-type="pmid">21926059</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-ijms-21-00285">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nanan</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Innate and adaptive immune interactions at the fetal-maternal interface in healthy human pregnancy and pre-eclampsia</article-title>
+          <source>Front. Immunol.</source>
+          <year>2014</year>
+          <volume>5</volume>
+          <fpage>125</fpage>
+          <pub-id pub-id-type="doi">10.3389/fimmu.2014.00125</pub-id>
+          <pub-id pub-id-type="pmid">24734032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-ijms-21-00285">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Santner-Nanan</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Joung</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Peek</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Nanan</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expansion of CD4(+) HLA-G(+) T Cell in human pregnancy is impaired in pre-eclampsia</article-title>
+          <source>Am. J. Reprod. Immunol.</source>
+          <year>2014</year>
+          <volume>71</volume>
+          <fpage>217</fpage>
+          <lpage>228</lpage>
+          <pub-id pub-id-type="doi">10.1111/aji.12195</pub-id>
+          <pub-id pub-id-type="pmid">24383466</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35-ijms-21-00285">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arruvito</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Sanz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Banham</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Fainboim</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expansion of CD4+CD25+and FOXP3+ regulatory T cells during the follicular phase of the menstrual cycle: Implications for human reproduction</article-title>
+          <source>J. Immunol.</source>
+          <year>2007</year>
+          <volume>178</volume>
+          <fpage>2572</fpage>
+          <lpage>2578</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.178.4.2572</pub-id>
+          <pub-id pub-id-type="pmid">17277167</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-ijms-21-00285">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thornton</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Korty</surname>
+              <given-names>P.E.</given-names>
+            </name>
+            <name>
+              <surname>Tran</surname>
+              <given-names>D.Q.</given-names>
+            </name>
+            <name>
+              <surname>Wohlfert</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Murray</surname>
+              <given-names>P.E.</given-names>
+            </name>
+            <name>
+              <surname>Belkaid</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shevach</surname>
+              <given-names>E.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of Helios, an Ikaros transcription factor family member, differentiates thymic-derived from peripherally induced Foxp3+ T regulatory cells</article-title>
+          <source>J. Immunol.</source>
+          <year>2010</year>
+          <volume>184</volume>
+          <fpage>3433</fpage>
+          <lpage>3441</lpage>
+          <pub-id pub-id-type="doi">10.4049/jimmunol.0904028</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-ijms-21-00285">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Samstein</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Josefowicz</surname>
+              <given-names>S.Z.</given-names>
+            </name>
+            <name>
+              <surname>Arvey</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Treuting</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Rudensky</surname>
+              <given-names>A.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extrathymic generation of regulatory T cells in placental mammals mitigates maternal-fetal conflict</article-title>
+          <source>Cell</source>
+          <year>2012</year>
+          <volume>150</volume>
+          <fpage>29</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2012.05.031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38-ijms-21-00285">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saito</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Inada</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nakashima</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Which types of regulatory T cells play important roles in implantation and pregnancy maintenance?</article-title>
+          <source>Am. J. Reprod. Immunol.</source>
+          <year>2013</year>
+          <volume>69</volume>
+          <fpage>340</fpage>
+          <lpage>345</lpage>
+          <pub-id pub-id-type="doi">10.1111/aji.12101</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-ijms-21-00285">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Inada</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ushijima</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Helios-positive functional regulatory T cells are decreased in decidua of miscarriage cases with normal fetal chromosomal content</article-title>
+          <source>J. Reprod. Immunol.</source>
+          <year>2015</year>
+          <volume>107</volume>
+          <fpage>10</fpage>
+          <lpage>19</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jri.2014.09.053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-ijms-21-00285">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akimova</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Beier</surname>
+              <given-names>U.H.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Levine</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Hancock</surname>
+              <given-names>W.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Helios expression is a marker of T cell activation and proliferation</article-title>
+          <source>PLoS ONE</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <elocation-id>e24226</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0024226</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-ijms-21-00285">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mj&#xF6;sberg</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Berg</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Jenmalm</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Ernerudh</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>FOXP3+ regulatory T cells and T helper 1, T helper 2, and T helper 17 cells in human early pregnancy decidua</article-title>
+          <source>Biol. Reprod.</source>
+          <year>2010</year>
+          <volume>82</volume>
+          <fpage>698</fpage>
+          <lpage>705</lpage>
+          <pub-id pub-id-type="doi">10.1095/biolreprod.109.081208</pub-id>
+          <pub-id pub-id-type="pmid">20018909</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42-ijms-21-00285">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Darmochwal-Kolarz</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sakai</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Shima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Shiozaki</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rolinski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Proportion of peripheral blood and decidual CD4(+) CD25(bright) regulatory T cells in pre-eclampsia</article-title>
+          <source>Clin. Exp. Immunol.</source>
+          <year>2007</year>
+          <volume>149</volume>
+          <fpage>139</fpage>
+          <lpage>145</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2249.2007.03397.x</pub-id>
+          <pub-id pub-id-type="pmid">17459078</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-ijms-21-00285">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hsu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Santner-Nanan</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Dahlstrom</surname>
+              <given-names>J.E.</given-names>
+            </name>
+            <name>
+              <surname>Fadia</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chandra</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Peek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nanan</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Altered decidual DC-SIGN+ antigen-presenting cells and impaired regulatory T-cell induction in preeclampsia</article-title>
+          <source>Am. J. Pathol.</source>
+          <year>2012</year>
+          <volume>181</volume>
+          <fpage>2149</fpage>
+          <lpage>2160</lpage>
+          <pub-id pub-id-type="pmid">23063509</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44-ijms-21-00285">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quinn</surname>
+              <given-names>K.H.</given-names>
+            </name>
+            <name>
+              <surname>Lacoursiere</surname>
+              <given-names>D.Y.</given-names>
+            </name>
+            <name>
+              <surname>Cui</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bui</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Parast</surname>
+              <given-names>M.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The unique pathophysiology of early-onset severe preeclampsia: Role of decidual T regulatory cells</article-title>
+          <source>J. Reprod. Immunol.</source>
+          <year>2011</year>
+          <volume>91</volume>
+          <fpage>76</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jri.2011.05.006</pub-id>
+          <pub-id pub-id-type="pmid">21782252</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45-ijms-21-00285">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Darmochwal-Kolarz</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kludka-Sternik</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tabarkiewicz</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kolarz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Rolinski</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Leszczynska-Gorzelak</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Oleszczuk</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The predominance of Th17 lymphocytes and decreased number and function of Treg cells in preeclampsia</article-title>
+          <source>J. Reprod. Immunol.</source>
+          <year>2012</year>
+          <volume>93</volume>
+          <fpage>75</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jri.2012.01.006</pub-id>
+          <pub-id pub-id-type="pmid">22370101</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46-ijms-21-00285">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Steinborn</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schmitt</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kisielewicz</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rechenberg</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Seissler</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Mahnke</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Sohn</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pregnancy-associated diseases are characterized by the composition of the systemic regulatory T cell (Treg) pool with distinct subsets of Tregs</article-title>
+          <source>Clin. Exp. Immunol.</source>
+          <year>2012</year>
+          <volume>167</volume>
+          <fpage>84</fpage>
+          <lpage>98</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2249.2011.04493.x</pub-id>
+          <pub-id pub-id-type="pmid">22132888</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47-ijms-21-00285">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jasper</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Tremellen</surname>
+              <given-names>K.P.</given-names>
+            </name>
+            <name>
+              <surname>Robertson</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Primary unexplained infertility is associated with reduced expression of the T-regulatory cell transcription factor Foxp3 in endometrial tissue</article-title>
+          <source>Mol. Hum. Reprod.</source>
+          <year>2006</year>
+          <volume>12</volume>
+          <fpage>301</fpage>
+          <lpage>308</lpage>
+          <pub-id pub-id-type="doi">10.1093/molehr/gal032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48-ijms-21-00285">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schlossberger</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Schober</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Rehnitz</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Schaier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Zeier</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Meuer</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Steinborn</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The success of assisted reproduction technologies in relation to composition of the total regulatory T cell (Treg) pool and different Treg subsets</article-title>
+          <source>Hum. Reprod.</source>
+          <year>2013</year>
+          <volume>28</volume>
+          <fpage>3062</fpage>
+          <lpage>3073</lpage>
+          <pub-id pub-id-type="doi">10.1093/humrep/det316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49-ijms-21-00285">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zou</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Barnett</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Safah</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Larussa</surname>
+              <given-names>V.F.</given-names>
+            </name>
+            <name>
+              <surname>Evdemon-Hogan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mottram</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zou</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bone marrow is a reservoir for CD4+CD25+ regulatory T cells that traffic through CXCL12/CXCR4 signals</article-title>
+          <source>Cancer Res.</source>
+          <year>2004</year>
+          <volume>64</volume>
+          <fpage>8451</fpage>
+          <lpage>8455</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-04-1987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50-ijms-21-00285">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adeegbe</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Serafini</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bronte</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Zoso</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ricordi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Inverardi</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>In vivo induction of myeloid suppressor cells and CD4(+)Foxp3(+) T regulatory cells prolongs skin allograft survival in mice</article-title>
+          <source>Cell Transplant.</source>
+          <year>2011</year>
+          <volume>20</volume>
+          <fpage>941</fpage>
+          <lpage>954</lpage>
+          <pub-id pub-id-type="doi">10.3727/096368910X540621</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51-ijms-21-00285">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>L&#xFC;</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Proportional change of CD4+CD25+ regulatory T cells in decidua and peripheral blood in unexplained recurrent spontaneous abortion patients</article-title>
+          <source>Fertil. Steril.</source>
+          <year>2008</year>
+          <volume>89</volume>
+          <fpage>656</fpage>
+          <lpage>661</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.fertnstert.2007.03.037</pub-id>
+          <pub-id pub-id-type="pmid">17543960</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52-ijms-21-00285">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jin</surname>
+              <given-names>L.P.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Q.Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The CD4+CD25 bright regulatory Tcells and CTLA-4 expression in peripheral and decidual lymphocytes are down-regulated in human miscarriage</article-title>
+          <source>Clin. Immunol.</source>
+          <year>2009</year>
+          <volume>133</volume>
+          <fpage>402</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.clim.2009.08.009</pub-id>
+          <pub-id pub-id-type="pmid">19766059</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53-ijms-21-00285">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>C.F.</given-names>
+            </name>
+            <name>
+              <surname>Yi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yin</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Bao</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>Q.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased prevalence of T helper 17 (Th17) cells in peripheral blood and decidua in unexplained recurrent spontaneous abortion patients</article-title>
+          <source>J. Reprod. Immunol.</source>
+          <year>2010</year>
+          <volume>84</volume>
+          <fpage>164</fpage>
+          <lpage>170</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jri.2009.12.003</pub-id>
+          <pub-id pub-id-type="pmid">20106535</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54-ijms-21-00285">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sakai</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Miyazaki</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Higuma</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Shiozaki</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Decidual and peripheral blood CD4+CD25+ regulatory T cells in early pregnancy subjects and spontaneous abortion cases</article-title>
+          <source>Mol. Hum. Reprod.</source>
+          <year>2004</year>
+          <volume>10</volume>
+          <fpage>347</fpage>
+          <lpage>353</lpage>
+          <pub-id pub-id-type="doi">10.1093/molehr/gah044</pub-id>
+          <pub-id pub-id-type="pmid">14997000</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55-ijms-21-00285">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Inada</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Shima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakashima</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Aoki</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of regulatory T cells in decidua of miscarriage cases with abnormal or normal fetal chromosomal content</article-title>
+          <source>J. Reprod. Immunol.</source>
+          <year>2013</year>
+          <volume>97</volume>
+          <fpage>104</fpage>
+          <lpage>111</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jri.2012.12.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56-ijms-21-00285">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nadkarni</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Sferruzzi-Perri</surname>
+              <given-names>A.N.</given-names>
+            </name>
+            <name>
+              <surname>Ledwozyw</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kishore</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Haas</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Perretti</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neutrophils induce proangiogenic T cells with a regulatory phenotype in pregnancy</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2016</year>
+          <volume>113</volume>
+          <fpage>E8415</fpage>
+          <lpage>E8424</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1611944114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57-ijms-21-00285">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rahmati</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Petitbarat</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dubanchet</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bensussan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chaouat</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Ledee</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Granulocyte-Colony Stimulating Factor related pathways tested on an endometrial ex-vivo model</article-title>
+          <source>PLoS ONE</source>
+          <year>2014</year>
+          <volume>2</volume>
+          <elocation-id>e102286</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0102286</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="ijms-21-00285-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>In decidua of Granulocyte Colony Stimulating Factor (G-CSF) treated samples (<bold>A</bold>), in the stroma there was a remarkable increase in the number of Foxp3 cells with respect to other two groups, epithelial cells showed a moderate staining (brown color) (400&#xD7;). In decidua of no treated Recurrent Pregnancy Loss (RPL) samples (<bold>B</bold>), in the stroma there was a strong reduction in the number of Foxp3 cells, epithelial cells showed a moderate staining (brown color) (400&#xD7;). In decidua of control samples (<bold>C</bold>), in the stroma there was a number of cells positive to Foxp3 cells, higher than in no-treated RPL and lower than in G-CSF treated samples, epithelial cells showed a moderate staining (brown color) (400&#xD7;). The graph (<bold>G</bold>) showed percent of immunohistochemical positive cells in the stroma to Foxp3 (charts display median and quartiles with whiskers showing the range): There was a statistically significant difference between G-CSF vs. RPL (* <italic>p</italic> &lt; 0.001), G-CSF vs. Control (** <italic>p</italic> &lt; 0.01) and RPL vs. Control (*** <italic>p</italic> &lt; 0.01). Foxp3 expression in decidua and trophoblast of first trimester pregnancy. In trophoblast of GCS-F treated group (<bold>D</bold>), no treated RPL (<bold>E</bold>) and Control (<bold>F</bold>) there was no staining at all for Foxp3 (400&#xD7;).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00285-g001.tif"/>
+      </fig>
+      <fig id="ijms-21-00285-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>G-CSF expression in decidua and trophoblast of first trimester pregnancy. In decidua of G-CSF treated group (<bold>A</bold>), in the no treated RPL group (<bold>B</bold>) and Control pregnancies (<bold>C</bold>) there was the same staining levels in the epithelial cells but no in the stroma for G-CSF (brown color) (400&#xD7;). In trophoblast of G-CSF treated samples (<bold>D</bold>), the syncytiotrophoblast was positive to G-CSF (brown color) (400&#xD7;). In trophoblast of RPL no-treated samples (<bold>E</bold>), the syncytiotrophoblast was weakly positive to G-CSF (400&#xD7;). In trophoblast of Control samples (<bold>F</bold>), the syncytiotrophoblast was positive to G-CSF (brown color) similar to G-CSF treated samples (400&#xD7;). The graph (<bold>G</bold>) showed immunohistochemical staining semi quantitative HSCORE for G-CSF (Charts display median and quartiles with whiskers showing the range): There was statistically significant differences between G-CSF vs. RPL (* <italic>p</italic> &lt; 0.001) and RPL vs. Control (** <italic>p</italic> &lt; 0.001).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00285-g002.tif"/>
+      </fig>
+      <fig id="ijms-21-00285-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>G-CSFR expression in decidua and trophoblast of first trimester pregnancy. In decidua of G-CSF treated group (<bold>A</bold>), in the no treated RPL group (<bold>B</bold>) and Control pregnancies (<bold>C</bold>) there was the same staining levels in the epithelial cells but no in the stroma for G-CSFR (brown color) (400&#xD7;). In trophoblast of G-CSF treated samples (<bold>D</bold>), the syncytiotrophoblast was moderately positive to G-CSFR (brown colour) (400&#xD7;). In trophoblast of RPL no-treated samples (<bold>E</bold>), the syncytiotrophoblast was strongly positive to G-CSFR, more than in other two groups (400&#xD7;). In trophoblast of Control samples (<bold>F</bold>), the syncytiotrophoblast was moderately positive to G-CSFR (brown color) similar to G-CSF treated samples (400&#xD7;). The graph (<bold>G</bold>) showed immunohistochemical staining semi quantitative HSCORE for G-CSFR (charts display median and quartiles with whiskers showing the range): There was a statistically significant differences between G-CSF vs. RPL (* <italic>p</italic> &lt; 0.001) and RPL vs. Control (** <italic>p</italic> &lt; 0.001).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00285-g003.tif"/>
+      </fig>
+      <fig id="ijms-21-00285-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>VEGF expression in decidua and trophoblast of first trimester pregnancy. In decidua of G-CSF treated group (<bold>A</bold>), in the no treated RPL group (<bold>B</bold>) and Control pregnancies (<bold>C</bold>) there was the same staining levels in the epithelial cells but no in the stroma for VEGF (brown color) (400&#xD7;). In trophoblast of G-CSF treated samples (<bold>D</bold>), the syncytiotrophoblast was strongly positive to VEGF (brown color) (400&#xD7;). In trophoblast of RPL no treated samples (<bold>E</bold>), the syncytiotrophoblast was weakly positive to VEGF (400&#xD7;). In trophoblast of Control samples (<bold>F</bold>), the syncytiotrophoblast was strongly positive to VEGF (brown color) similar to G-CSF treated samples (400&#xD7;). The graph (<bold>G</bold>) showed immunohistochemical staining semi quantitative HSCORE for VEGF (Charts display median and quartiles with whiskers showing the range): There was a statistically significant differences between G-CSF vs. RPL (* <italic>p</italic> &lt; 0.001) and RPL vs. Control (** <italic>p</italic> &lt; 0.001).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00285-g004.tif"/>
+      </fig>
+      <fig id="ijms-21-00285-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>VEGFR-1 expression in decidua and trophoblast of first trimester pregnancy. In decidua of G-CSF treated group (<bold>A</bold>), in the no treated RPL group (<bold>B</bold>) and Control pregnancies (<bold>C</bold>) there was the same staining levels in the epithelial cells but no in the stroma for VEGFR-1 (brown color) (400&#xD7;). In trophoblast of G-CSF treated samples (<bold>D</bold>), the syncytiotrophoblast was moderately positive to VEGFR-1 (brown color) (400&#xD7;). In trophoblast of RPL no-treated samples (<bold>E</bold>), the syncytiotrophoblast was strongly positive to VEGFR-1, more than in other two groups (400&#xD7;). In trophoblast of Control samples (<bold>F</bold>), the syncytiotrophoblast was moderately positive to VEGFR-1 (brown color) similar to G-CSF treated samples (400&#xD7;). The graph (<bold>G</bold>) showed immunohistochemical staining semi quantitative HSCORE for VEGFR-1 (Charts display median and quartiles with whiskers showing the range): There was statistically significant differences between G-CSF vs. RPL (* <italic>p</italic> &lt; 0.001) and RPL vs. Control (** <italic>p</italic> &lt; 0.001).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ijms-21-00285-g005.tif"/>
+      </fig>
+      <table-wrap id="ijms-21-00285-t001" position="float">
+        <object-id pub-id-type="pii">ijms-21-00285-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Demographic data of three groups of patients in the study. (Data reported in mean &#xB1; SD).</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">G-CSF</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">RPL</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Controls</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Number of patients</td>
+              <td align="center" valign="middle">8</td>
+              <td align="center" valign="middle">15</td>
+              <td align="center" valign="middle">15</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Age: when pregnancy started</td>
+              <td align="center" valign="middle">33.1 &#xB1; 3.0</td>
+              <td align="center" valign="middle">31.6 &#xB1; 2.3</td>
+              <td align="center" valign="middle">30.8 &#xB1; 2.2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">BMI: when pregnancy started</td>
+              <td align="center" valign="middle">27.7 + 2.1</td>
+              <td align="center" valign="middle">27.4 &#xB1; 1.9</td>
+              <td align="center" valign="middle">27.8 &#xB1; 1.8</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Smokers (more than 10 cigarette per day)</td>
+              <td align="center" valign="middle">0</td>
+              <td align="center" valign="middle">1</td>
+              <td align="center" valign="middle">2</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of previous abortions</td>
+              <td align="center" valign="middle">5.6 + 0.7</td>
+              <td align="center" valign="middle">5.5 &#xB1; 0.4</td>
+              <td align="center" valign="middle">0</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Gestational week of miscarriage (range)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">7.9 &#xB1; 1.3 (5&#x2013;9)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">8.1 &#xB1; 1.2(5&#x2013;9)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">9.4 &#xB1; 1.1(7&#x2013;10)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>

@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.1" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">applsci</journal-id>
+      <journal-title-group>
+        <journal-title>Applied Sciences</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Appl. Sci.</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Applied Sciences</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2076-3417</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/app10010301</article-id>
+      <article-id pub-id-type="publisher-id">applsci-10-00301</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Deep Learning-Based Template Matching Spike Classification for Extracellular Recordings</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Park</surname>
+            <given-names>In Yong</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00301" ref-type="aff">1</xref>
+          <xref rid="fn1-applsci-10-00301" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eom</surname>
+            <given-names>Junsik</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00301" ref-type="aff">1</xref>
+          <xref rid="fn1-applsci-10-00301" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-9573-2586</contrib-id>
+          <name>
+            <surname>Jang</surname>
+            <given-names>Hanbyol</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00301" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-3893-252X</contrib-id>
+          <name>
+            <surname>Kim</surname>
+            <given-names>Sewon</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00301" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Park</surname>
+            <given-names>Sanggeon</given-names>
+          </name>
+          <xref rid="af2-applsci-10-00301" ref-type="aff">2</xref>
+          <xref rid="af3-applsci-10-00301" ref-type="aff">3</xref>
+          <xref rid="af4-applsci-10-00301" ref-type="aff">4</xref>
+          <xref rid="af5-applsci-10-00301" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Huh</surname>
+            <given-names>Yeowool</given-names>
+          </name>
+          <xref rid="af2-applsci-10-00301" ref-type="aff">2</xref>
+          <xref rid="af3-applsci-10-00301" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hwang</surname>
+            <given-names>Dosik</given-names>
+          </name>
+          <xref rid="af1-applsci-10-00301" ref-type="aff">1</xref>
+          <xref rid="c1-applsci-10-00301" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-applsci-10-00301"><label>1</label>School of Electrical and Electronic Engineering, Yonsei University, Seoul 03722, Korea; <email>inyong@yonsei.ac.kr</email> (I.Y.P.); <email>junsik424@yonsei.ac.kr</email> (J.E.); <email>hanstar4@yonsei.ac.kr</email> (H.J.); <email>sewon.kim@yonsei.ac.kr</email> (S.K.)</aff>
+      <aff id="af2-applsci-10-00301"><label>2</label>Department of Medical Science, College of Medicine, Catholic Kwandong University, Gangneung 25601, Korea; <email>chalspark.korea@gmail.com</email> (S.P.); <email>huh06@cku.ac.kr</email> (Y.H.)</aff>
+      <aff id="af3-applsci-10-00301"><label>3</label>Translational Brain Research Center, Catholic Kwandong University, International St. Mary&#x2019;s Hospital, Incheon 22711, Korea</aff>
+      <aff id="af4-applsci-10-00301"><label>4</label>Department of Neuroscience, University of Science &amp; Technology, Daejeon 34113, Korea</aff>
+      <aff id="af5-applsci-10-00301"><label>5</label>Center for Neuroscience, Korea Institute of Science and Technology, Seoul 02792, Korea</aff>
+      <author-notes>
+        <corresp id="c1-applsci-10-00301"><label>*</label>Correspondence: <email>dosik.hwang@yonsei.ac.kr</email>; Tel.: +82-2-2123-5771</corresp>
+        <fn id="fn1-applsci-10-00301">
+          <label>&#x2020;</label>
+          <p>Equally contributing authors.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>12</month>
+        <year>2019</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month>
+        <year>2020</year>
+      </pub-date>
+      <volume>10</volume>
+      <issue>1</issue>
+      <elocation-id>301</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>11</month>
+          <year>2019</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>12</month>
+          <year>2019</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2019 by the authors.</copyright-statement>
+        <copyright-year>2019</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>We propose a deep learning-based spike sorting method for extracellular recordings. For analysis of extracellular single unit activity, the process of detecting and classifying action potentials called &#x201C;spike sorting&#x201D; has become essential. This is achieved through distinguishing the morphological differences of the spikes from each neuron, which arises from the differences of the surrounding environment and characteristics of the neurons. However, cases of high structural similarity and noise make the task difficult. And for manual spike sorting, it requires professional knowledge along with extensive time cost and suffers from human bias. We propose a deep learning-based spike sorting method on extracellular recordings from a single electrode that is efficient, robust to noise, and accurate. In circumstances where labelled data does not exist, we created pseudo-labels through principal component analysis and K-means clustering to be used for multi-layer perceptron training and built high performing spike classification model. When tested, our model outperformed conventional methods by 2.1% on simulation data of various noise levels, by 6.0% on simulation data of various clusters count, and by 1.7% on in-vivo data. As a result, we showed that the deep learning-based classification can classify spikes from extracellular recordings, even showing high classification accuracy on spikes that are difficult even for manual classification.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>spike classification</kwd>
+        <kwd>extracellular recordings</kwd>
+        <kwd>deep learning</kwd>
+        <kwd>multi-layer perceptron</kwd>
+        <kwd>template matching</kwd>
+        <kwd>clustering</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-applsci-10-00301" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>Much of neuroscience studies require the analysis of extracellular recordings which is a measurement of neuronal activities. It measures neural signals under various behaviors through microelectrodes inserted into the brain tissue. When obtaining such extracellular recordings, neuronal activities from multiple neurons surrounding each of the microelectrodes are simultaneously recorded. These neurons each show distinct waveform shape of action potential that we call &#x201C;spikes&#x201D; depending their morphology, distance from the electrode, intrinsic membrane properties, and the surrounding environment [<xref ref-type="bibr" rid="B1-applsci-10-00301">1</xref>,<xref ref-type="bibr" rid="B2-applsci-10-00301">2</xref>,<xref ref-type="bibr" rid="B3-applsci-10-00301">3</xref>,<xref ref-type="bibr" rid="B4-applsci-10-00301">4</xref>]. It is important to match the spikes to the corresponding neurons, i.e., spike sorting. The spike sorting procedure is composed of spike detection which filters out noise from the extracellular recordings and sample spike signals, feature extraction which increases efficacy of classification, and lastly classification of the feature domain data. When processed manually, this procedure is costly, not only requiring professional knowledge but also extensive amounts of time. To reduce such cost, various semi-automatic and fully-automatic spike sorting methods are being developed [<xref ref-type="bibr" rid="B5-applsci-10-00301">5</xref>,<xref ref-type="bibr" rid="B6-applsci-10-00301">6</xref>,<xref ref-type="bibr" rid="B7-applsci-10-00301">7</xref>,<xref ref-type="bibr" rid="B8-applsci-10-00301">8</xref>], however the show unsatisfactory efficiency and accuracy [<xref ref-type="bibr" rid="B9-applsci-10-00301">9</xref>]. With increasing recording periods, and the number of spikes associated with this, the risk of subjective factors and cost also increases [<xref ref-type="bibr" rid="B8-applsci-10-00301">8</xref>,<xref ref-type="bibr" rid="B10-applsci-10-00301">10</xref>,<xref ref-type="bibr" rid="B11-applsci-10-00301">11</xref>]. Moreover, when large numbers of spikes are mapped on the feature domain simultaneously, the boundary between clusters becomes unclear for proper classification, and as a result, much of the signal data are thrown away [<xref ref-type="bibr" rid="B12-applsci-10-00301">12</xref>].</p>
+      <p>A classic spike sorting method derived to resolve the abovementioned problems is template matching where first spike templates that represent each neuron and classify each spike according to the similarity between the spike templates is created [<xref ref-type="bibr" rid="B13-applsci-10-00301">13</xref>]. A widely used template-making technique is where aligned spikes are first mapped to the feature domain through feature extraction, such as principal component analysis (PCA) [<xref ref-type="bibr" rid="B14-applsci-10-00301">14</xref>], and clustered center spikes obtained from clustering techniques, such as k-means clustering [<xref ref-type="bibr" rid="B15-applsci-10-00301">15</xref>], are extracted as templates [<xref ref-type="bibr" rid="B16-applsci-10-00301">16</xref>,<xref ref-type="bibr" rid="B17-applsci-10-00301">17</xref>]. The similarities between each spike and the template spikes are typically measured by the Euclidean distance [<xref ref-type="bibr" rid="B18-applsci-10-00301">18</xref>,<xref ref-type="bibr" rid="B19-applsci-10-00301">19</xref>] and the cross-correlation coefficient [<xref ref-type="bibr" rid="B20-applsci-10-00301">20</xref>,<xref ref-type="bibr" rid="B21-applsci-10-00301">21</xref>] between them. Although various studies have reported the classification of spikes according to their shapes and amplitudes, there is as of yet no survey that decides which of them is the most optimal technique [<xref ref-type="bibr" rid="B12-applsci-10-00301">12</xref>]. Moreover, the performance of template matching depends heavily on the creation of the templates and generally requires manual intervention and adjustment [<xref ref-type="bibr" rid="B9-applsci-10-00301">9</xref>].</p>
+      <p>Recently, deep learning-based algorithms have shown their efficiency in numerous fields and tasks, especially in classification. Starting with the year 2012 award winning AlexNet [<xref ref-type="bibr" rid="B22-applsci-10-00301">22</xref>] from ILSVRC&#x2019;s ImageNet, deep learning-based methods have shown high performance in cases of large 1-dimensional and 2-dimensional data analysis and classification [<xref ref-type="bibr" rid="B23-applsci-10-00301">23</xref>]. Its application in the field of neural signal analysis can also be seen. SpikeDeeptector uses deep learning to classify spike signals from artifacts [<xref ref-type="bibr" rid="B24-applsci-10-00301">24</xref>], and Melinda et al. proposed a supervised deep learning model that uses Convolution neural network and long short-term memory to classify the different action potentials on microelectrode array (MEA) recordings [<xref ref-type="bibr" rid="B25-applsci-10-00301">25</xref>]. In this paper, we propose an efficient unsupervised deep learning spike sorting model where manual labeling is not required and show that it can address the problems and the limitations of previous template matching methods. When tested on extracellular recordings from a single electrode, our deep learning model shows higher accuracy compared to the previous template matching methods. The preliminary study for this research has been partially presented in annual meeting of International Brain Research Organization in 2019 [<xref ref-type="bibr" rid="B26-applsci-10-00301">26</xref>].</p>
+    </sec>
+    <sec id="sec2-applsci-10-00301">
+      <title>2. Materials and Methods</title>
+      <sec id="sec2dot1-applsci-10-00301">
+        <title>2.1. Dataset</title>
+        <p>We used two publicly available simulated spike signal datasets and an in-vivo spike signal dataset for our study. First, by using the simulated spike signals where each spike is labeled, we will present the accuracy of the tested models, and through testing on the in-vivo dataset, we will show the applicability of the models in real life applications. Dataset 1 is a simulated dataset provided from University of Leicester that is widely used in spike signal research [<xref ref-type="bibr" rid="B12-applsci-10-00301">12</xref>,<xref ref-type="bibr" rid="B27-applsci-10-00301">27</xref>,<xref ref-type="bibr" rid="B28-applsci-10-00301">28</xref>]. The dataset was generated at sampling rate of 24 kHz. It is composed of four subset data named Easy1, Easy2, Difficult1, and Difficult2. Each subset data contains spikes from three different neuron types under four conditions of noise levels, 0.05, 0.10, 0.15, and 0.20, where the numbers represent the standard deviation of noise. Spikes are detected by setting a threshold value of <inline-formula><mml:math id="mm1" display="block"><mml:semantics><mml:mrow><mml:mn>4</mml:mn><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> where action potentials values above the threshold are considered as spikes. <inline-formula><mml:math id="mm2" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is obtained as follows:<disp-formula id="FD1-applsci-10-00301"><mml:math id="mm3" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>median</mml:mi><mml:mrow><mml:mo>{</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mrow><mml:mo>|</mml:mo><mml:mi>x</mml:mi><mml:mo>|</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mn>0.6745</mml:mn></mml:mrow></mml:mfrac></mml:mrow><mml:mo>}</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>The dataset is publicly available at <uri>https://www2.le.ac.uk/departments/engineering/research/bioengineering/neuroengineering-lab/spike-sorting</uri>. Dataset 2 is a simulation data containing various number of neural signal types [<xref ref-type="bibr" rid="B29-applsci-10-00301">29</xref>]. This was recorded at a sampling rate of 24 kHz, and threshold value was set to <inline-formula><mml:math id="mm4" display="block"><mml:semantics><mml:mrow><mml:mn>5</mml:mn><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. For our experiment, five datasets each for different numbers of clusters (2~5) were selected. Dataset 2 is publicly available at <uri>https://www135.lamp.le.ac.uk/hgr3/</uri>. The in-vivo dataset was acquired from the cortex of a mouse using a tetrode. Neural activities were amplified (&#xD7;10,000), filtered (600 Hz&#x2013;6 kHz), and digitized (30.3 KHz) using Digital Lynx (Neuralynx, Bozeman, MT, USA) [<xref ref-type="bibr" rid="B30-applsci-10-00301">30</xref>,<xref ref-type="bibr" rid="B31-applsci-10-00301">31</xref>,<xref ref-type="bibr" rid="B32-applsci-10-00301">32</xref>]. Single units were manually isolated from trained expert using SpikeSort 3D (Neuralynx) and cluster quality was assessed by L-ratio, isolation distance, cross-correlation, and inter-spike interval (ISI) [<xref ref-type="bibr" rid="B33-applsci-10-00301">33</xref>]. Single channel recordings from the tetrode recordings were used for our experiment.</p>
+      </sec>
+      <sec id="sec2dot2-applsci-10-00301">
+        <title>2.2. Deep Learning Model</title>
+        <p>The multiplayer perceptron (MLP) is a widely-used neural network architecture for classification tasks; its low computational cost, structure simplicity, and comparably small dependence on the training data size make it a readily applicable neural network algorithm for classification [<xref ref-type="bibr" rid="B34-applsci-10-00301">34</xref>]. In general, MLP is composed of three main components: The input layer, the hidden layers, and the output layer. Each layer is composed of nodes which receives the outputs from the previous layer as their input, referred to as activation values, <inline-formula><mml:math id="mm5" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. The activation values are multiplied by the respective weights <inline-formula><mml:math id="mm6" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and summed at consecutive layer nodes, followed by a chosen activation function <italic>f</italic>. The output of each nodes <inline-formula><mml:math id="mm7" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> at layer <italic>l</italic> is described by the following equation:<disp-formula id="FD2-applsci-10-00301"><label>(1)</label><mml:math id="mm8" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>f</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:munderover><mml:mstyle mathsize="140%" displaystyle="true"><mml:mo>&#x2211;</mml:mo></mml:mstyle><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:munderover><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm9" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>l</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the number of nodes at the <italic>l</italic>th layer.</p>
+        <p>While training, <inline-formula><mml:math id="mm10" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are adjusted to minimize the cross-entropy loss function described as the following:<disp-formula id="FD3-applsci-10-00301"><label>(2)</label><mml:math id="mm11" display="block"><mml:semantics><mml:mrow><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mo>&#x2212;</mml:mo><mml:mi>log</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msubsup><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>l</mml:mi></mml:msub></mml:mrow></mml:msubsup><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm12" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mrow><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the output probability of correct classification.</p>
+        <p>For our model, the input layer is a 32-dimensional layer where each dimension corresponds to the 32 sampling points of the data. As for the hidden layers, four cascades of layers each with 256 nodes were used. The number of layers and nodes for each layer were chosen heuristically since there are no known analytical methods for obtaining such parameters [<xref ref-type="bibr" rid="B35-applsci-10-00301">35</xref>]. As for the activation function, we have used hyperbolic tangent function for the hidden layers, while for the output layer, which reduces dimension to equal classification categories and gives classification probability of each classification category, Softmax (1) activation function is applied so that the probability sum is equals to 1:<disp-formula id="FD4-applsci-10-00301"><label>(3)</label><mml:math id="mm13" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi mathvariant="sans-serif">&#x3C3;</mml:mi><mml:mi mathvariant="normal">i</mml:mi></mml:msub><mml:mrow><mml:mo>(</mml:mo><mml:mi>s</mml:mi><mml:mo>)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mo>&#xA0;</mml:mo><mml:mfrac><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msubsup><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>l</mml:mi></mml:msub></mml:mrow></mml:msubsup><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:msub><mml:mi>s</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm14" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>l</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the number of nodes in the output layer. For our experiment, <inline-formula><mml:math id="mm15" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>K</mml:mi><mml:mi>l</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is equal to the number of neural signal types. For the training data, &#x3B1;% of the PCA + K-means clustered data nearest to the cluster centers were used under the assumption that data near centers of cluster have lower probability of being misclassified; &#x3B1; was set to 10 for our model. The methodology of PCA and k-means is further explained in <xref ref-type="sec" rid="sec2dot3dot3-applsci-10-00301">Section 2.3.3</xref>. <xref ref-type="fig" rid="applsci-10-00301-f001">Figure 1</xref> outlines the overall structures of the proposed model, and <xref ref-type="fig" rid="applsci-10-00301-f002">Figure 2</xref> shows the structure of the MLP used in the model.</p>
+        <p>The proposed spike sorting algorithm was written in Python and implement with Keras using a Tensorflow backend. When performed on a dataset with 3526 spikes using an Intel Xeon E5-1620 CPU equipped with a Nvidia Titan X GPU and 96 GB RAM, the model took approximately 9 s for training and 3 s for testing.</p>
+      </sec>
+      <sec id="sec2dot3-applsci-10-00301">
+        <title>2.3. Conventional Methods</title>
+        <sec id="sec2dot3dot1-applsci-10-00301">
+          <title>2.3.1. Mean Squared Error-Based Template Matching</title>
+          <p>A basic template matching method for spike classification is mean square error (MSE)-based template matching [<xref ref-type="bibr" rid="B18-applsci-10-00301">18</xref>]. By using the cluster center waveform of each PCA + K-means clustered data as the template waveforms, MSE between each test data signal and the template waveforms were obtained. Test signals were then assigned to the corresponding template cluster which resulted in the smallest MSE.</p>
+        </sec>
+        <sec id="sec2dot3dot2-applsci-10-00301">
+          <title>2.3.2. Cross-Correlation</title>
+          <p>Cross-correlation is a readily utilized method for signal analysis. It allows a measure of association between signals, thus can be used to give a critical altered perspective of signal data and serve as a basis for many advanced signal-processing methods [<xref ref-type="bibr" rid="B20-applsci-10-00301">20</xref>,<xref ref-type="bibr" rid="B21-applsci-10-00301">21</xref>]. This is especially true for brain signal analysis of EEG, where many reports have been made utilizing cross-correlation values in various tasks such as classification of motor imagery, mental imagery, and epilepsy signals [<xref ref-type="bibr" rid="B34-applsci-10-00301">34</xref>,<xref ref-type="bibr" rid="B36-applsci-10-00301">36</xref>]. Therefore, we speculate its effectiveness on our extracellular recordings as well and have applied it as a means for comparison.</p>
+          <p>For signal classification, each signal is classified to the corresponding signal cluster with the template signal which resulted in the highest Pearson correlation coefficient.</p>
+        </sec>
+        <sec id="sec2dot3dot3-applsci-10-00301">
+          <title>2.3.3. PCA K-Means Clustering</title>
+          <p>There exist immense number of clustering algorithms. Few popular algorithms are fuzzy C-means clustering [<xref ref-type="bibr" rid="B37-applsci-10-00301">37</xref>], subtractive clustering [<xref ref-type="bibr" rid="B38-applsci-10-00301">38</xref>], Density-based clustering [<xref ref-type="bibr" rid="B39-applsci-10-00301">39</xref>], and K-means [<xref ref-type="bibr" rid="B15-applsci-10-00301">15</xref>]. For our model, we have chosen K-means as our clustering method as it is one of the most popular clustering algorithms used in literature [<xref ref-type="bibr" rid="B40-applsci-10-00301">40</xref>]. K-means clustering is an iterative clustering method which represents each of <italic>k</italic> clusters <inline-formula><mml:math id="mm23" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, where <italic>i</italic> = {1, &#x2026;, <italic>k</italic>}, by their mean, i.e., the centroid <inline-formula><mml:math id="mm16" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>. As such, each data points are classified to the cluster <inline-formula><mml:math id="mm17" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>C</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> which results in the smallest Euclidean distance (1) between the corresponding <inline-formula><mml:math id="mm18" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and the point.</p>
+          <p>K-means, however, is sensitive to the dimensionality of the data where its accuracy drops and susceptibility to outliers rises with increasing dimensions [<xref ref-type="bibr" rid="B41-applsci-10-00301">41</xref>]. Therefore, we have implemented a classical dimensionality reduction technique, namely PCA, that is commonly used before applying K-means [<xref ref-type="bibr" rid="B14-applsci-10-00301">14</xref>]. PCA reduces dimensionality of data while conserving the correlation structure of the variables and capturing the variability in the data. Given <italic>X</italic> is the original data matrix and <inline-formula><mml:math id="mm19" display="block"><mml:semantics><mml:mrow><mml:mi>Y</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mo>,</mml:mo><mml:mo>&#x2026;</mml:mo><mml:mo>,</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></inline-formula>, <inline-formula><mml:math id="mm20" display="block"><mml:semantics><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mover accent="true"><mml:mi>x</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover></mml:mrow></mml:semantics></mml:math></inline-formula> where <inline-formula><mml:math id="mm21" display="block"><mml:semantics><mml:mrow><mml:mover accent="true"><mml:mi>x</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mo>&#xA0;</mml:mo><mml:msubsup><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mfrac><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mi>n</mml:mi></mml:mfrac></mml:mrow></mml:semantics></mml:math></inline-formula>, the covariance matrix becomes <inline-formula><mml:math id="mm22" display="block"><mml:semantics><mml:mrow><mml:mi>Y</mml:mi><mml:msup><mml:mi>Y</mml:mi><mml:mi>T</mml:mi></mml:msup><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi mathvariant="normal">n</mml:mi></mml:mfrac><mml:msubsup><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:msubsup><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mover accent="true"><mml:mi>x</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mover accent="true"><mml:mi>x</mml:mi><mml:mo stretchy="false">&#xAF;</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow><mml:mi>T</mml:mi></mml:msup></mml:mrow></mml:semantics></mml:math></inline-formula>. The principal components can be obtained through taking the eigenvectors of the covariance matrix where the eigenvalues rank the eigenvectors in the order of variance explained [<xref ref-type="bibr" rid="B14-applsci-10-00301">14</xref>]. For our experiment, the data was reduced to 3-dimensions using three principal components with the highest principal directions, and the number of clusters, <italic>k</italic>, was determined through manual inspection of the data projected on the three principal components.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-applsci-10-00301" sec-type="results">
+      <title>3. Results</title>
+      <p>We tested our model and compared the results with the presented contemporary models on both the single channel simulation datasets and the in-vivo dataset. When recording from a single electrode, signals from multiple neurons are detected. These neurons fire independently, and more than one neural signal types may be recorded at the same time resulting in overlapping signals. Such overlapping signals are considered either as outliers or more challenging data to classify.</p>
+      <p><xref ref-type="table" rid="applsci-10-00301-t001">Table 1</xref> shows the tested classification results as the ratio between the correctly classified spikes and the total number of spikes with and without overlapping spikes on Simulation dataset 1. Our method gives high accuracy overall in both cases where overlapping spikes are included and excluded. There exist few cases where our model scored sub-optimally on data with less than 10% noise. However, in all such cases, our model showed over 98% accuracy, and the difference between the best performing model was miniscule with less than 0.32%. On the contrary, for the Difficult data with high noise level, our model outperformed other methods consistently with noticeable gap. On Difficult 2 data with 20% noise, our model showed 71.15% accuracy on data without overlapping spikes and 51.55% accuracy on data with overlapping spikes. These results when compared to the second-best performing correlation-based template matching are 3.4% and 18.31% higher and compared to the lowest performing MSE-based template matching are 8.43% and 19.55% higher.</p>
+      <p><xref ref-type="fig" rid="applsci-10-00301-f003">Figure 3</xref> shows classification results on simulation dataset 2. Overall, even in cases of varying cluster count and noise levels, our model showed high classification accuracy. In cases where noise did not exist, MSE-based template matching method and our proposed method both showed best performance independent of cluster count. However, with the addition of noise, the accuracy of the compared methods began to drop. When cluster count was 2, all models showed high classification accuracy of above 99.8% with the addition of 10% noise. But with the addition of 20% noise, MSE-based template matching, correlation-based template matching, and PCA + K-means dropped in accuracy by 5.21%, 6.68%, and 1.7%, respectively. The proposed method showed drop of mere 0.29% in accuracy. When cluster count was 3, addition of 10% noise resulted in accuracy drop of 6.36%, 6.54%, and 2.28% for MSE-based template matching, correlation-based template matching, and PCA + K-means. The addition of 20% noise resulted in additional accuracy drop of 13.37%, 16.37%, and 5.87% for MSE-based template matching, correlation-based template matching, and PCA + K-means. The proposed method dropped in accuracy by 1.6% for the addition of 10% noise and 1.61% for the addition of 20% noise. When cluster count was 4, overall performance dropped with the accuracy of 96.70%, 95.73%, 94.45%, and 91.78% for the proposed model, MSE, correlation, and PCA + K-means, respectively. It showed accuracy drop of 2.51%, 3.79%, 7.67%, 2.95% with 10% noise and additional drop of 7.94%, 24.96%, 24.06%, 15.83% with 20% noise. When cluster count was 5, it showed accuracy drop of 8.47%, 14.91%, 15.97%, 20.15% with 10% noise. The addition of 20% noise resulted in additional accuracy drop of 2.89%, 11.6%, 14.45% for the proposed method, MSE-based template matching, and correlation-based template matching method, respectively, but showed increase in accuracy of 3.12% for PCA + K-means.</p>
+      <p>Our method showed the best performance in in-vivo dataset as well. <xref ref-type="fig" rid="applsci-10-00301-f004">Figure 4</xref> shows the classification results of spikes from in-vivo in 3-dimensional PCA feature domain. Compared to the manual classification results, our method showed the highest accuracy of 99.39%, and MSE-based template matching, correlation-based template matching, and PCA + K-means resulted in accuracy of 97.73%, 94.90%, and 83.02%, respectively. As seen in <xref ref-type="fig" rid="applsci-10-00301-f004">Figure 4</xref>, all four methods were successful at classifying the red and the blue clusters. However, for the yellow cluster, compared to our method, the other models were highly inaccurate in classifying the spikes on the boundary.</p>
+    </sec>
+    <sec id="sec4-applsci-10-00301" sec-type="discussion">
+      <title>4. Discussion</title>
+      <p>Detection and classification of action potentials from extracellular recording is essential for analysis of single neural signal activity. The template matching method is a classic spike sorting method that can resolve many of the issues that comes along with it. It classifies by measuring the similarities between each spike and the templates, and it shows high performance depending on the quality of extracted templates. We propose an unsupervised deep learning-based classification model that can learn spike waveforms without labels and classify each spike. Our model learned the characteristics of spike clusters by using the representative spikes of the cluster as the training data and showed superior classification performance compared to other template matching methods. Our proposed method showed higher classification accuracy in both simulation data and in-vivo data especially under high levels of noise. Because MSE and cross-correlation sums all the sampling points of a signal individually, it is susceptible to noise. This is apparent in both Simulation dataset 1 and Dataset 2. On Simulation dataset 1, our method showed the highest performance on the most challenging Difficult 2 with noise level of 0.20 data and had the least amount of performance drop with the addition of noise on simulation dataset 2 independent of cluster count. However, using a deep learning model does have higher computational cost compared to other machine learning algorithms. For our model, due to the simple structure of the model, the classification of 3526 spikes required approximately only 12 s.</p>
+      <p>With increasing number of clusters, probability of similarly shaped waveforms appearing rises and the distance between each cluster in PCA feature domain may decrease, making spike classification more difficult. For Simulation dataset 2 without noise, although all methods showed high accuracy of above 99.8% when the cluster count was two, none were able to score over 97% when the cluster count rose to four. This, however, does not mean that classification accuracy always drops with increasing number of clusters. On Simulation dataset 2 with cluster count of five, all methods showed accuracy of above 98.5%. This shows that data with four clusters contained comparatively more challenging data for classification.</p>
+      <p>The performance of the deep learning classification model heavily depends on the goodness of the training data. And because PCA + K-means clustered data, used as the pseudo-label for our model, is not a perfect clustering algorithm where error rates increase for data points near the cluster boundaries, increasing the amount of training data also increases the risk of using mislabeled training data. Moreover, the cluster centers chosen by the K-means clustering may fail to correctly find true cluster centers. As shown in <xref ref-type="fig" rid="applsci-10-00301-f005">Figure 5</xref>A, when oval shaped clusters are closely located to each other, the cluster centers may be positioned at the boundary of the clusters. In such cases, using large number of spikes for the training data increases the risk of using misclassified spikes as the training data even more. According to our results shown in <xref ref-type="fig" rid="applsci-10-00301-f005">Figure 5</xref>B, using 10% of the data nearest to the cluster centers as the training data showed the highest performance for such data. For well PCA + K-means clustered data, there were nearly no differences in the performance when more than 10% of the data was used for training. Therefore, our experiment was performed using 10% of data nearest to cluster centers for training.</p>
+      <p>When proceeding with the general K-means clustering, when two clusters are closely located or when cluster shape differs from the spherical shape, it fails to accurately distinguish the cluster boundaries [<xref ref-type="bibr" rid="B42-applsci-10-00301">42</xref>]. Therefore, there needs further refinement of the K-means clustering results for good clustering performance. In this research, we have shown that a deep learning-based method can successfully improve the limited spike sorting results from K-means clustering.</p>
+      <p>As shown in <xref ref-type="table" rid="applsci-10-00301-t001">Table 1</xref>, although our model compared to other methods shows superior classification performance, it still shows an unsatisfactory accuracy of 71% on Difficult 2 with a noise level of 0.2. This can be explained by the structural similarity of the waveforms and high noise levels as seen in <xref ref-type="fig" rid="applsci-10-00301-f006">Figure 6</xref>A,B. Not only does this make the clustering process more difficult, it also makes template extracting process challenging, which is where our model struggled most on. As shown in <xref ref-type="fig" rid="applsci-10-00301-f006">Figure 6</xref>C, template extraction method through PCA + K-means method fails even with human inspection. However, when given 10% of the data with labels as the training data, our MLP model shows near perfect classification accuracy even on Difficult 2 with noise level of 0.2 with and without overlapping spikes with score of 99.55% and 99.70%, respectively. This shows that if clustering techniques more advanced than PCA + K-means is utilized and the accuracy of training data increase, classification performance of our model can be expected to rise.</p>
+      <p>For further work, we plan to modify the model and perform spike sorting on extracellular recordings using MEAs where the spatial information is utilized to further increase classification performance. The model performance will also be tested on other dimensionality reduction techniques as utilizing different domains can increase performance of models [<xref ref-type="bibr" rid="B43-applsci-10-00301">43</xref>]. Moreover, different clustering algorithms, such as density-based clustering algorithms, will be implemented to further improve classification accuracy and make the procedure fully automatic.</p>
+    </sec>
+    <sec id="sec5-applsci-10-00301" sec-type="conclusions">
+      <title>5. Conclusions</title>
+      <p>Accurate spike classification is an essential procedure in signal analysis of extracellular recordings. In this paper, we propose a unsupervised deep learning-based template matching spike sorting method. The results demonstrate that in 1-dimensional spike data analysis, our deep learning-based MLP model successfully improves on PCA + K-means clustering for higher classification performance and robustness to noise compared to other conventional methods.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>J.E. and H.J. proposed the idea and performed algorithm construction. Y.H. and S.P. contributed to data acquisition and performed manual segmentation. I.Y.P. and S.K. contributed to performing data analysis and writing the article. D.H. technically supported the algorithm and evaluation and also professionally reviewed and edited the paper. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Funding</title>
+      <p>This research was supported by the Brain Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Science, ICT &amp; Future Planning (2018M3C7A1024734, 2018M3C7A1024736, 2015M3C7A1028392).</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-applsci-10-00301">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Camu&#xF1;as-Mesa</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Quiroga</surname>
+              <given-names>R.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>A detailed and fast model of extracellular recordings</article-title>
+          <source>Neural Comput.</source>
+          <year>2013</year>
+          <volume>25</volume>
+          <fpage>1191</fpage>
+          <lpage>1212</lpage>
+          <pub-id pub-id-type="doi">10.1162/NECO_a_00433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-applsci-10-00301">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gold</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Henze</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Koch</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Buzsaki</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>On the origin of the extracellular action potential waveform: A modeling study</article-title>
+          <source>J. Neurophysiol.</source>
+          <year>2006</year>
+          <volume>95</volume>
+          <fpage>3113</fpage>
+          <lpage>3128</lpage>
+          <pub-id pub-id-type="doi">10.1152/jn.00979.2005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-applsci-10-00301">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harris</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Quiroga</surname>
+              <given-names>R.Q.</given-names>
+            </name>
+            <name>
+              <surname>Freeman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improving data quality in neuronal population recordings</article-title>
+          <source>Nat. Neurosci.</source>
+          <year>2016</year>
+          <volume>19</volume>
+          <fpage>1165</fpage>
+          <pub-id pub-id-type="doi">10.1038/nn.4365</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-applsci-10-00301">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dey</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Chaudhuri</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Munshi</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Obstructive sleep apnoea detection using convolutional neural network based deep learning framework</article-title>
+          <source>Biomed. Eng. Lett.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>95</fpage>
+          <lpage>100</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13534-017-0055-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-applsci-10-00301">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmitzer-Torbert</surname>
+              <given-names>N.L.</given-names>
+            </name>
+            <name>
+              <surname>Jackson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Henze</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Harris</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Redish</surname>
+              <given-names>A.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative measures of cluster quality for use in extracellular recordings</article-title>
+          <source>Neuroscience</source>
+          <year>2005</year>
+          <volume>131</volume>
+          <fpage>1</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.neuroscience.2004.09.066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-applsci-10-00301">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shoham</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fellows</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Normann</surname>
+              <given-names>R.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Robust, automatic spike sorting using mixtures of multivariate t-distributions</article-title>
+          <source>J. Neurosci. Methods</source>
+          <year>2003</year>
+          <volume>127</volume>
+          <fpage>111</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0165-0270(03)00120-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-applsci-10-00301">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yger</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Spampinato</surname>
+              <given-names>G.L.</given-names>
+            </name>
+            <name>
+              <surname>Esposito</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Lefebvre</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Deny</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gardella</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Stimberg</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jetter</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Zeck</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Picaud</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A spike sorting toolbox for up to thousands of electrodes validated with ground truth recordings In Vitro and In Vivo</article-title>
+          <source>eLife</source>
+          <year>2018</year>
+          <volume>7</volume>
+          <fpage>e34518</fpage>
+          <pub-id pub-id-type="doi">10.7554/eLife.34518</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-applsci-10-00301">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Souza</surname>
+              <given-names>B.C.</given-names>
+            </name>
+            <name>
+              <surname>Lopes-dos-Santos</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Bacelo</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Tort</surname>
+              <given-names>A.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spike sorting with Gaussian mixture models</article-title>
+          <source>Sci. Rep.</source>
+          <year>2019</year>
+          <volume>9</volume>
+          <fpage>3627</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41598-019-39986-6</pub-id>
+          <pub-id pub-id-type="pmid">30842459</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-applsci-10-00301">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rey</surname>
+              <given-names>H.G.</given-names>
+            </name>
+            <name>
+              <surname>Pedreira</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Quiroga</surname>
+              <given-names>R.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Past, present and future of spike sorting techniques</article-title>
+          <source>Brain Res. Bull.</source>
+          <year>2015</year>
+          <volume>119</volume>
+          <fpage>106</fpage>
+          <lpage>117</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.brainresbull.2015.04.007</pub-id>
+          <pub-id pub-id-type="pmid">25931392</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-applsci-10-00301">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fee</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Mitra</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Kleinfeld</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic sorting of multiple unit neuronal signals in the presence of anisotropic and non-Gaussian variability</article-title>
+          <source>J. Neurosci. Methods</source>
+          <year>1996</year>
+          <volume>69</volume>
+          <fpage>175</fpage>
+          <lpage>188</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0165-0270(96)00050-7</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-applsci-10-00301">
+        <label>11.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sahani</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <source>Latent Variable Models for Neural Data Analysis</source>
+          <publisher-name>California Institute of Technology</publisher-name>
+          <publisher-loc>Pasadena, CA, USA</publisher-loc>
+          <year>1999</year>
+        </element-citation>
+      </ref>
+      <ref id="B12-applsci-10-00301">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Franke</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Quiroga</surname>
+              <given-names>R.Q.</given-names>
+            </name>
+            <name>
+              <surname>Hierlemann</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Obermayer</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bayes optimal template matching for spike sorting&#x2013;combining fisher discriminant analysis with optimal filtering</article-title>
+          <source>J. Comput. Neurosci.</source>
+          <year>2015</year>
+          <volume>38</volume>
+          <fpage>439</fpage>
+          <lpage>459</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10827-015-0547-7</pub-id>
+          <pub-id pub-id-type="pmid">25652689</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-applsci-10-00301">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jain</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Duin</surname>
+              <given-names>R.P.W.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical pattern recognition: A review</article-title>
+          <source>IEEE Trans. Pattern Anal. Mach. Intell.</source>
+          <year>2000</year>
+          <volume>22</volume>
+          <fpage>4</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="doi">10.1109/34.824819</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-applsci-10-00301">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wold</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Esbensen</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Geladi</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Principal component analysis</article-title>
+          <source>Chemom. Intell. Lab. Syst.</source>
+          <year>1987</year>
+          <volume>2</volume>
+          <fpage>37</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="doi">10.1016/0169-7439(87)80084-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-applsci-10-00301">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hartigan</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Algorithm AS 136: A k-means clustering algorithm</article-title>
+          <source>J. R. Stat. Soc. Ser. C Appl. Stat.</source>
+          <year>1979</year>
+          <volume>28</volume>
+          <fpage>100</fpage>
+          <lpage>108</lpage>
+          <pub-id pub-id-type="doi">10.2307/2346830</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-applsci-10-00301">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>P.M.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>J.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spike sorting based on automatic template reconstruction with a partial solution to the overlapping problem</article-title>
+          <source>J. Neurosci. Methods</source>
+          <year>2004</year>
+          <volume>135</volume>
+          <fpage>55</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jneumeth.2003.12.001</pub-id>
+          <pub-id pub-id-type="pmid">15020089</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-applsci-10-00301">
+        <label>17.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sato</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mabuchi</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fast Automatic Template Matching for Spike Sorting Based on Davies-Bouldin Validation Indices</article-title>
+          <source>Proceedings of the 2007 29th Annual International Conference of the IEEE Engineering in Medicine and Biology Society 2007</source>
+          <conf-loc>Lyon, France</conf-loc>
+          <conf-date>22&#x2013;26 August 2007</conf-date>
+          <fpage>3200</fpage>
+          <lpage>3203</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B18-applsci-10-00301">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bankman</surname>
+              <given-names>I.N.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>K.O.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal detection, classification, and superposition resolution in neural waveform recordings</article-title>
+          <source>IEEE Trans. Biomed. Eng.</source>
+          <year>1993</year>
+          <volume>40</volume>
+          <fpage>836</fpage>
+          <lpage>841</lpage>
+          <pub-id pub-id-type="doi">10.1109/10.238472</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-applsci-10-00301">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jansen</surname>
+              <given-names>R.F.</given-names>
+            </name>
+            <name>
+              <surname>Ter Maat</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic wave form classification of extracellular multineuron recordings</article-title>
+          <source>J. Neurosci. Methods</source>
+          <year>1992</year>
+          <volume>41</volume>
+          <fpage>123</fpage>
+          <lpage>132</lpage>
+          <pub-id pub-id-type="doi">10.1016/0165-0270(92)90055-I</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-applsci-10-00301">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaneko</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Okada</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Akamatsu</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multineuronal spike classification based on multisite electrode recording, whole-waveform analysis, and hierarchical clustering</article-title>
+          <source>IEEE Trans. Biomed. Eng.</source>
+          <year>1999</year>
+          <volume>46</volume>
+          <fpage>280</fpage>
+          <lpage>290</lpage>
+          <pub-id pub-id-type="doi">10.1109/10.748981</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-applsci-10-00301">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gozani</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>J.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal discrimination and classification of neuronal action potential waveforms from multiunit, multichannel recordings using software-based linear filters</article-title>
+          <source>IEEE Trans. Biomed. Eng.</source>
+          <year>1994</year>
+          <volume>41</volume>
+          <fpage>358</fpage>
+          <lpage>372</lpage>
+          <pub-id pub-id-type="doi">10.1109/10.284964</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-applsci-10-00301">
+        <label>22.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krizhevsky</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sutskever</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Hinton</surname>
+              <given-names>G.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Imagenet classification with deep convolutional neural networks</article-title>
+          <source>Advances in Neural Information Processing Systems</source>
+          <publisher-name>The MIT Press</publisher-name>
+          <publisher-loc>Cambridge, CA, USA</publisher-loc>
+          <year>2012</year>
+          <fpage>1097</fpage>
+          <lpage>1105</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B23-applsci-10-00301">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Metcalfe</surname>
+              <given-names>B.W.</given-names>
+            </name>
+            <name>
+              <surname>Nielsen</surname>
+              <given-names>T.N.</given-names>
+            </name>
+            <name>
+              <surname>Donaldson</surname>
+              <given-names>N.D.N.</given-names>
+            </name>
+            <name>
+              <surname>Hunter</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>J.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>First demonstration of velocity selective recording from the pig vagus using a nerve cuff shows respiration afferents</article-title>
+          <source>Biomed. Eng. Lett.</source>
+          <year>2018</year>
+          <volume>8</volume>
+          <fpage>127</fpage>
+          <lpage>136</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13534-017-0054-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-applsci-10-00301">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saif-ur-Rehman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lienk&#xE4;mper</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Parpaley</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wellmer</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Klaes</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>SpikeDeeptector: A deep-learning based method for detection of neural spiking activity</article-title>
+          <source>J. Neural Eng.</source>
+          <year>2019</year>
+          <volume>16</volume>
+          <fpage>056003</fpage>
+          <pub-id pub-id-type="doi">10.1088/1741-2552/ab1e63</pub-id>
+          <pub-id pub-id-type="pmid">31042684</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-applsci-10-00301">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>R&#xE1;cz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Liber</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>N&#xE9;meth</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Fi&#xE1;th</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rokai</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Harmati</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>M&#xE1;rton</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Spike detection and sorting with deep learning</article-title>
+          <source>J. Neural Eng.</source>
+          <year>2019</year>
+          <pub-id pub-id-type="doi">10.1088/1741-2552/ab4896</pub-id>
+          <pub-id pub-id-type="pmid">31561235</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-applsci-10-00301">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eom</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Huh</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neural spike classification via deep neural network</article-title>
+          <source>IBRO Rep.</source>
+          <year>2019</year>
+          <volume>6</volume>
+          <fpage>S139</fpage>
+          <lpage>S140</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ibror.2019.07.443</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-applsci-10-00301">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quiroga</surname>
+              <given-names>R.Q.</given-names>
+            </name>
+            <name>
+              <surname>Nadasdy</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Ben-Shaul</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Unsupervised spike detection and sorting with wavelets and superparamagnetic clustering</article-title>
+          <source>Neural Comput.</source>
+          <year>2004</year>
+          <volume>16</volume>
+          <fpage>1661</fpage>
+          <lpage>1687</lpage>
+          <pub-id pub-id-type="doi">10.1162/089976604774201631</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-applsci-10-00301">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keshtkaran</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z.</given-names>
+            </name>
+          </person-group>
+          <article-title>Noise-robust unsupervised spike sorting based on discriminative subspace learning with outlier handling</article-title>
+          <source>J. Neural Eng.</source>
+          <year>2017</year>
+          <volume>14</volume>
+          <fpage>036003</fpage>
+          <pub-id pub-id-type="doi">10.1088/1741-2552/aa6089</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29-applsci-10-00301">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pedreira</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Martinez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ison</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Quiroga</surname>
+              <given-names>R.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>How many neurons can we see with current spike sorting algorithms?</article-title>
+          <source>J. Neurosci. Methods</source>
+          <year>2012</year>
+          <volume>211</volume>
+          <fpage>58</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jneumeth.2012.07.010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30-applsci-10-00301">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huh</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential responses of thalamic reticular neurons to nociception in freely behaving mice</article-title>
+          <source>Front. Behav. Neurosci.</source>
+          <year>2016</year>
+          <volume>10</volume>
+          <fpage>223</fpage>
+          <pub-id pub-id-type="doi">10.3389/fnbeh.2016.00223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31-applsci-10-00301">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huh</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Discrete pattern of burst stimulation in the ventrobasal thalamus for anti-nociception</article-title>
+          <source>PLoS ONE</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <elocation-id>e67655</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0067655</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32-applsci-10-00301">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huh</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Bhatt</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>H.S.</given-names>
+            </name>
+            <name>
+              <surname>Cho</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Interactive responses of a thalamic neuron to formalin induced lasting pain in behaving mice</article-title>
+          <source>PLoS ONE</source>
+          <year>2012</year>
+          <volume>7</volume>
+          <elocation-id>e30699</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0030699</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33-applsci-10-00301">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quality Metrics of Spike Sorting Using Neighborhood Components Analysis</article-title>
+          <source>Open Biomed. Eng. J.</source>
+          <year>2014</year>
+          <volume>8</volume>
+          <fpage>60</fpage>
+          <pub-id pub-id-type="doi">10.2174/1874120701408010060</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34-applsci-10-00301">
+        <label>34.</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jahankhani</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kodogiannis</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Revett</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>EEG Signal Classification Using Wavelet Feature Extraction and Neural Networks</article-title>
+          <source>Proceedings of the IEEE John Vincent Atanasoff 2006 International Symposium on Modern Computing (JVA&#x2019;06)</source>
+          <conf-loc>Sofia, Bulgaria</conf-loc>
+          <conf-date>3&#x2013;6 October 2006</conf-date>
+          <fpage>120</fpage>
+          <lpage>124</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35-applsci-10-00301">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O&#x11F;ulata</surname>
+              <given-names>S.N.</given-names>
+            </name>
+            <name>
+              <surname>&#x15E;ahin</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Erol</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neural network-based computer-aided diagnosis in classification of primary generalized epilepsy by EEG signals</article-title>
+          <source>J. Med. Syst.</source>
+          <year>2009</year>
+          <volume>33</volume>
+          <fpage>107</fpage>
+          <lpage>112</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10916-008-9170-8</pub-id>
+          <pub-id pub-id-type="pmid">19397095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36-applsci-10-00301">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chandaka</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chatterjee</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Munshi</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cross-correlation aided support vector machine classifier for classification of EEG signals</article-title>
+          <source>Expert Syst. Appl.</source>
+          <year>2009</year>
+          <volume>36</volume>
+          <fpage>1329</fpage>
+          <lpage>1336</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.eswa.2007.11.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37-applsci-10-00301">
+        <label>37.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bezdek</surname>
+              <given-names>J.C.</given-names>
+            </name>
+          </person-group>
+          <source>Pattern Recognition with Fuzzy Objective Function Algorithms</source>
+          <publisher-name>Springer Science &amp; Business Media</publisher-name>
+          <publisher-loc>Berlin/Heidelberg, Germany</publisher-loc>
+          <year>2013</year>
+        </element-citation>
+      </ref>
+      <ref id="B38-applsci-10-00301">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chiu</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fuzzy model identification based on cluster estimation</article-title>
+          <source>J. Intell. Fuzzy Syst.</source>
+          <year>1994</year>
+          <volume>2</volume>
+          <fpage>2</fpage>
+          <lpage>267</lpage>
+          <pub-id pub-id-type="doi">10.3233/IFS-1994-2306</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39-applsci-10-00301">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rai</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>A survey of clustering techniques</article-title>
+          <source>Int. J. Comput. Appl.</source>
+          <year>2010</year>
+          <volume>7</volume>
+          <fpage>1</fpage>
+          <lpage>5</lpage>
+          <pub-id pub-id-type="doi">10.5120/1326-1808</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40-applsci-10-00301">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>G&#xFC;ne&#x15F;</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Polat</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Yosunkaya</surname>
+              <given-names>&#x15E;.</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient sleep stage recognition system based on EEG signal using k-means clustering based feature weighting</article-title>
+          <source>Expert Syst. Appl.</source>
+          <year>2010</year>
+          <volume>37</volume>
+          <fpage>7922</fpage>
+          <lpage>7928</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.eswa.2010.04.043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41-applsci-10-00301">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Prabhu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Anbazhagan</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improving the performance of k-means clustering for high dimensional data set</article-title>
+          <source>Int. J. Comput. Sci. Eng.</source>
+          <year>2011</year>
+          <volume>3</volume>
+          <fpage>2317</fpage>
+          <lpage>2322</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B42-applsci-10-00301">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raykov</surname>
+              <given-names>Y.P.</given-names>
+            </name>
+            <name>
+              <surname>Boukouvalas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Baig</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Little</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>What to do when k-means clustering fails: A simple yet principled alternative algorithm</article-title>
+          <source>PLoS ONE</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <elocation-id>e0162259</elocation-id>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0162259</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43-applsci-10-00301">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eo</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Jun</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Jang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>H.J.</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>KIKI-net: cross-domain convolutional neural networks for reconstructing undersampled magnetic resonance images</article-title>
+          <source>Magn. Reson. Med.</source>
+          <year>2018</year>
+          <volume>80</volume>
+          <fpage>2188</fpage>
+          <lpage>2201</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Table</title>
+      <fig id="applsci-10-00301-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Overall framework of our proposed method.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00301-g001.tif"/>
+      </fig>
+      <fig id="applsci-10-00301-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>The overall structure of our training model.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00301-g002.tif"/>
+      </fig>
+      <fig id="applsci-10-00301-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>The results of four spike classification methods for simulation dataset 2.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00301-g003.tif"/>
+      </fig>
+      <fig id="applsci-10-00301-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>In-vivo result in the PCA feature domain. (<bold>A</bold>) PCA feature plot of in-vivo data (<bold>B</bold>) manually labeled data by expert (<bold>C</bold>) The result of our proposed method (<bold>D</bold>) The result of MSE-based template matching (<bold>E</bold>) The result of correlation-based template matching (<bold>F</bold>) The result of PCA + K-means.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00301-g004.tif"/>
+      </fig>
+      <fig id="applsci-10-00301-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>The accuracy of the proposed model depending on amount of training data (<bold>A</bold>) PCA feature plot of 5 cluster data with the case of two closely located clusters. The red dots represent the cluster centers calculated by K-means. (<bold>B</bold>) Change in accuracy depending on the amount of training data.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00301-g005.tif"/>
+      </fig>
+      <fig id="applsci-10-00301-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Spikes and PCA features of the Difficult 2 in the simulation dataset 1 with 20% noise. (<bold>A</bold>) The overlapped spikes. (<bold>B</bold>) The averaged spikes from three labeled clusters. (<bold>C</bold>) Three labeled clusters in PCA feature domain.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="applsci-10-00301-g006.tif"/>
+      </fig>
+      <table-wrap id="applsci-10-00301-t001" position="float">
+        <object-id pub-id-type="pii">applsci-10-00301-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Classification result for the simulation dataset 1 with and without overlapping spikes. The numbers in parenthesis correspond to the results on data with overlapping spikes.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Data</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Noise</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Ours</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">MSE-Based Template Matching</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Correlation-Based Template Matching</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">PCA + K-Means Clustering</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Easy1</td>
+              <td align="center" valign="middle">0.05</td>
+              <td align="center" valign="middle">100 (99.26)</td>
+              <td align="center" valign="middle">100 (99.30)</td>
+              <td align="center" valign="middle">100 (99.14)</td>
+              <td align="center" valign="middle">100 (99.40)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.1</td>
+              <td align="center" valign="middle">100 (99.43)</td>
+              <td align="center" valign="middle">100 (95.51)</td>
+              <td align="center" valign="middle">100 (99.34)</td>
+              <td align="center" valign="middle">100 (99.65)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.15</td>
+              <td align="center" valign="middle">100 (99.25)</td>
+              <td align="center" valign="middle">100 (99.11)</td>
+              <td align="center" valign="middle">100 (99.10)</td>
+              <td align="center" valign="middle">100 (99.48)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100 (99.19)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100 (99.00)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">99.88 (98.76)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">100 (99.51)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Easy2</td>
+              <td align="center" valign="middle">0.05</td>
+              <td align="center" valign="middle">100 (98.68)</td>
+              <td align="center" valign="middle">100 (98.41)</td>
+              <td align="center" valign="middle">100 (98.79)</td>
+              <td align="center" valign="middle">99.96 (98.21)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.1</td>
+              <td align="center" valign="middle">99.85 (98.49)</td>
+              <td align="center" valign="middle">95.54 (97.31)</td>
+              <td align="center" valign="middle">94.91 (98.89)</td>
+              <td align="center" valign="middle">99.96 (98.18)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.15</td>
+              <td align="center" valign="middle">97.99 (97.19)</td>
+              <td align="center" valign="middle">89.53 (88.82)</td>
+              <td align="center" valign="middle">94.86 (94.25)</td>
+              <td align="center" valign="middle">98.79 (96.77)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">96.50 (95.20)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">93.50 (87.44)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">93.37 (90.35)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">95.46 (93.84)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Difficult1</td>
+              <td align="center" valign="middle">0.05</td>
+              <td align="center" valign="middle">100 (98.78)</td>
+              <td align="center" valign="middle">100 (98.80)</td>
+              <td align="center" valign="middle">100 (98.98)</td>
+              <td align="center" valign="middle">100 (98.84)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.1</td>
+              <td align="center" valign="middle">99.96 (98.93)</td>
+              <td align="center" valign="middle">99.34 (95.12)</td>
+              <td align="center" valign="middle">99.48 (98.84)</td>
+              <td align="center" valign="middle">100 (98.93)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.15</td>
+              <td align="center" valign="middle">99.77 (97.55)</td>
+              <td align="center" valign="middle">90.15 (84.82)</td>
+              <td align="center" valign="middle">98.55 (96.83)</td>
+              <td align="center" valign="middle">99.77 (97.32)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">98.08 (96.62)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">81.99 (92.10))</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">97.22 (93.75)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">95.69 (92.95)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Difficult2</td>
+              <td align="center" valign="middle">0.05</td>
+              <td align="center" valign="middle">99.61 (98.49)</td>
+              <td align="center" valign="middle">98.08 (97.52)</td>
+              <td align="center" valign="middle">91.62 (93.76)</td>
+              <td align="center" valign="middle">86.04 (87.28)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.1</td>
+              <td align="center" valign="middle">96.62 (94.66)</td>
+              <td align="center" valign="middle">92.34 (68.51)</td>
+              <td align="center" valign="middle">90.56 (88.54)</td>
+              <td align="center" valign="middle">84.11 (83.90)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle">0.15</td>
+              <td align="center" valign="middle">83.23 (82.20)</td>
+              <td align="center" valign="middle">83.03 (73.61)</td>
+              <td align="center" valign="middle">80.82 (74.36)</td>
+              <td align="center" valign="middle">74.43 (72.63)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.2</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">71.15 (51.55)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">62.72 (32.00)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">67.75 (33.24)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">65.92 (32.22)</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Total</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">96.42 (94.09)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">92.89 (87.96)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">94.32 (91.06)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">93.76 (90.57)</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>
