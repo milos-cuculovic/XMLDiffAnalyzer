@@ -2,17 +2,19 @@ class XMLDiffAnalyzer:
     def __init__(self):
         self.tools = [
             ["", "xydiff", "xydiff ", " "],
+            #["java -jar ", "jxydiff", "jxydiff.jar ", " ", " "],
+            #["ant -buildfile ", "fc-xmldiff", "fc-xmldiff/java/xmldiff/build.xml -Dbase=", " -Dnew=", " -Ddiff=", " diff"],
+            #["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " "],
+            #["java -jar ", "deltaXML", "deltaXML/command-10.3.0.jar compare delta ", " ", " "], #License needed
+            #["", "xmldiff", "xmldiff_bin -f xml ", " "], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
+            #["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
+            #["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "],
+            #["", "xdiff", "xdiff ", " ", " "],
+            #["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " "],
+            ["java -jar ", "jats-semantics", "outilJavaXML.jar ", " ", " "],
             ["java -jar ", "jndiff", "jndiff/jndiff-ui.jar -d ", " "],
-            ["java -jar ", "jxydiff", "jxydiff.jar ", " ", " "],
-            ["ant -buildfile ", "fc-xmldiff", "fc-xmldiff/java/xmldiff/build.xml -Dbase=", " -Dnew=", " -Ddiff=", " diff"],
-            ["java -jar ", "xcc", "xcc-java-0.90.jar --diff --doc ", " --changed ", " --delta "],
-            ["", "node-delta", "node-delta/bin/djdiff.js -p xml ", " "],
-            ["java -jar ", "deltaXML", "deltaXML/command-10.3.0.jar compare delta ", " ", " "], #License needed
-            ["", "xmldiff", "xmldiff_bin -f xml ", " "], #Has issues with "UnicodeEncodeError: 'ascii' codec can't encode character u'\xe0' in position xxxx"
-            ["java -jar ", "xop", "xop.jar -script on ", " - ", ""],
-            ["java -cp ", "diffmk", "diffmk.jar net.sf.diffmk.DiffMk ", " ", " "],
-            ["", "xdiff", "xdiff ", " ", " "],
-            ["java -cp ", "diffxml", "diffxml.jar org.diffxml.diffxml.DiffXML ", " "]
+            ["java -jar ", "jndiff-jats", "jndiff-jats.jar -d ", " ", " "],
+            ["java -jar ", "xcc", "xcc-java-0.90.jar --diff --doc ", " --changed ", " --delta "]
         ]
 
     def start(self, rounds, file_pairs, files_orig, files_new, file_delta_dir):
@@ -20,10 +22,12 @@ class XMLDiffAnalyzer:
         import csv
         import Processor
         from datetime import datetime
+        import subprocess
 
         ROOT_DIR = os.path.abspath(os.curdir)
 
         print("Starting...")
+
 
         csv_file = ROOT_DIR + "/Results/XMLDiffAnalyser_results_" + str(datetime.today().strftime('%Y%m%d_%H%M%S')) + ".csv"
 
@@ -57,6 +61,7 @@ class XMLDiffAnalyzer:
             delta_sizes = []
 
             print(str(rounds) + " round iteration")
+
             for tool in self.tools:
                 processor = Processor.Processor(ROOT_DIR, tool, rounds, file_pair, files_orig[file_pair],
                                                 files_new[file_pair], file_delta_dir)
@@ -99,14 +104,14 @@ class XMLDiffAnalyzer:
             average_memories_list.append(average_memories)
             max_memories_list.append(max_memories)
 
-            xmlDiffAnalyzer.generateGraph("Execution Time", "simple", "Seconds", 5, algorithms,
+            xmlDiffAnalyzer.generateGraph("Execution Time", "simple", "Seconds", 8, algorithms,
                                           {"Time": times})
 
-            xmlDiffAnalyzer.generateGraph("Memory Usage", "double", "MB", 250, algorithms,
+            xmlDiffAnalyzer.generateGraph("Memory Usage", "double", "MB", 1200, algorithms,
                                           {"MAX": max_memories,
                                           "AVG": average_memories})
 
-            xmlDiffAnalyzer.generateGraph("Delta File Size", "simple", "KB", 360,
+            xmlDiffAnalyzer.generateGraph("Delta File Size", "simple", "KB", 380,
                                           algorithms, {"delta size": delta_sizes})
 
 
@@ -139,7 +144,7 @@ class XMLDiffAnalyzer:
                                    list(data)[1]: data.get(list(data)[1])}, index=algorithms)
             y_variance = .07
             fontsize = 9
-            df = df.sort_values(list(data)[1])
+            df = df.sort_values(list(data)[0])
         else:
             df = pandas.DataFrame({list(data)[0]: data.get(list(data)[0]),
                                    list(data)[1]: data.get(list(data)[1]),
@@ -194,7 +199,7 @@ if __name__ == '__main__':
         for file_pair in range(1, file_pairs + 1):
             try:
                 input_file_orig = input("Enter the full path of the original XML file pair " + str(file_pair) + ": ") \
-                or "/Users/miloscuculovic/XML_Diff_tools_material_v2/OneChange/one_change_orig.xml"
+                or "/Users/miloscuculovic/full_test/many_changes/orig.xml"
             except ValueError:
                 print("Please provide a vaild original XML file path")
 
@@ -207,7 +212,7 @@ if __name__ == '__main__':
 
             try:
                 input_file_new = input("Enter the full path of the modified XML file pair " + str(file_pair) + ": ") \
-                or "/Users/miloscuculovic/XML_Diff_tools_material_v2/OneChange/one_change_new.xml"
+                or "/Users/miloscuculovic/full_test/many_changes/new.xml"
             except ValueError:
                 print("Please provide a vaild modified XML file path")
             try:

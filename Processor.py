@@ -30,22 +30,22 @@ class Processor:
 
         file_delta = self.file_delta_dir + self.tool[1] + "_" + str(os.path.basename(self.file_orig)) + "_" + str(os.path.basename(self.file_new)) + "_delta.xml"
 
-        first_round = True
-        for round in range(0, self.rounds):
-            if len(self.tool) > 4:
-                if self.tool[4] != "":
-                    myCmd += self.tool[4] + file_delta
-                elif first_round:
-                    myCmd += " > " + file_delta
-                    first_round = False
+        if len(self.tool) > 4:
+            if self.tool[4] != "":
+                myCmd += self.tool[4] + file_delta
             elif first_round:
                 myCmd += " > " + file_delta
                 first_round = False
+        elif first_round:
+            myCmd += " > " + file_delta
+            first_round = False
 
-            if len(self.tool) > 5:
-                if self.tool[5] != "":
-                    myCmd += self.tool[5]
+        if len(self.tool) > 5:
+            if self.tool[5] != "":
+                myCmd += self.tool[5]
 
+        first_round = True
+        for round in range(0, self.rounds):
             print(myCmd)
             ptimer = ProcessTimer.ProcessTimer(myCmd)
 

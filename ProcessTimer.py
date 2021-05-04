@@ -15,8 +15,10 @@ class ProcessTimer:
 
     self.t1 = None
     self.t0 = time.time()
-    FNULL = open(os.devnull, 'w')
-    self.p = subprocess.Popen(self.command, shell=True, stdout=FNULL, stderr=subprocess.PIPE)
+    FNULL = open("stdout.txt", 'w')
+    with open("stdout.txt", "wb") as out, open("stderr.txt", "wb") as err:
+      self.p = subprocess.Popen(self.command, shell=True, stdout=out, stderr=err)
+    self.p = subprocess.Popen(self.command, shell=True, stdout=FNULL, stderr=FNULL)
     self.execution_state = True
 
   def poll(self):
@@ -65,7 +67,7 @@ class ProcessTimer:
       return False
     if self.is_running():
       return True
-    self.executation_state = False
+    self.execution_state = False
     self.t1 = time.time()
     return False
 
